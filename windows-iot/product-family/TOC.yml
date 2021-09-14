@@ -1,0 +1,6 @@
+- name: Windows IoT Overview
+  href: windows-iot.md
+- name: What's New in Windows IoT? 
+  href: News-Blogs.md
+- name: Windows IoT Datasheet
+  href: https://download.microsoft.com/download/d/e/0/de05c36e-e182-43db-8ba6-023d808f0d64/Windows-for-IoT-Datasheet-Final.pdf
