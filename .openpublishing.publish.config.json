@@ -16,8 +16,7 @@
     }
   ],
   "notification_subscribers": [
-    "jfarmer@microsoft.com",
-    " twarwick@microsoft.com",
+    "twarwick@microsoft.com",
     " riameser@microsoft.com"
   ],
   "sync_notification_subscribers": [],
