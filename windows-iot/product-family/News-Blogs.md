@@ -45,7 +45,7 @@ Stay up to date with the latest news and announcements regarding the Windows IoT
 # [2020](#tab/2020)
 **January**
 * Case Study: [Dover Fueling Solutions](https://customers.microsoft.com/story/775087-microsoft-country-corner-dover-fueling-solutions-oil-and-gas-azure)
-* Case Study: [Smart Tower](https://customers.microsoft.com/en-us/story/776791-smart-tower-windows-iot)
+* Case Study: [Smart Tower](https://customers.microsoft.com/story/776791-smart-tower-windows-iot)
 * Case Study: [Hourfleet](https://customers.microsoft.com/story/779418-hourfleet-windows-iot)
 
 **March**
@@ -56,7 +56,7 @@ Stay up to date with the latest news and announcements regarding the Windows IoT
 * Video: [ROS on Windows - CI/CD using Azure DevOps](https://www.youtube.com/watch?v=4LmYCVNUWG8&feature=emb_title)
 * Video: [Windows for IoT - A Roadmap update](https://www.youtube.com/watch?v=yW6TjINVjQ0&feature=emb_title)
 * Video: [Linux modules on Windows 10 IoT Enterprise](https://www.youtube.com/watch?v=XaePrE_sz6M&feature=emb_title)
-* Blog: [Virtual Build spotlights IoT updates and rollouts](https://azure.microsoft.com/en-us/blog/virtual-build-spotlights-iot-updates-and-rollouts/)
+* Blog: [Virtual Build spotlights IoT updates and rollouts](https://azure.microsoft.com/blog/virtual-build-spotlights-iot-updates-and-rollouts/)
 * Blog: [Build your IoT devices with Windows for IoT: a comprehensive platform for every device developer](https://blogs.windows.com/windowsdeveloper/2020/05/26/build-your-iot-devices-with-windows-for-iot-a-comprehensive-platform-for-every-device-developer/)
 * Blog: [Linux modules with Azure IoT Edge on Windows 10 IoT Enterprise](https://techcommunity.microsoft.com/t5/internet-of-things/linux-modules-with-azure-iot-edge-on-windows-10-iot-enterprise/ba-p/1407066)
 
@@ -95,7 +95,7 @@ Stay up to date with the latest news and announcements regarding the Windows IoT
 * Video: [Internet of Things Show - Modernizing Windows CE devices](https://www.youtube.com/watch?v=5iUZkZmgmJA)
 * Blog: [Open Robotics and Microsoft release ROS on Windows 10 IoT Enterprise](https://blogs.windows.com/windowsdeveloper/2019/05/07/open-robotics-and-microsoft-release-ros-on-windows-10-iot-enterprise/#Y86A6YUJELKDoRJJ.97)
 * Blog: [Microsoft Azure IoT Device Agent V2 general availability](https://blogs.windows.com/windowsdeveloper/2019/05/07/microsoft-azure-iot-device-agent-v2-general-availability/#BwOSxBSymeJqU34K.97)
-* Blog: [Azure IoT at Build: making IoT solutions easier to develop, more powerful to use](https://azure.microsoft.com/en-us/blog/azure-iot-at-build-making-iot-solutions-easier-to-develop-more-powerful-to-use/)
+* Blog: [Azure IoT at Build: making IoT solutions easier to develop, more powerful to use](https://azure.microsoft.com/blog/azure-iot-at-build-making-iot-solutions-easier-to-develop-more-powerful-to-use/)
 * Blog: [Microsoft IoT Hackathon accelerates solutions across industries](https://blogs.windows.com/windowsdeveloper/2019/05/24/microsoft-iot-hackathon-accelerates-solutions-across-industries/#BWmIOFAPt7rRUC2S.97)
 * Blog: [New Windows IoT solutions at Computex show ingenuity at the intelligent edge](https://blogs.windows.com/windowsexperience/2019/05/28/new-windows-iot-solutions-at-computex-show-ingenuity-at-the-intelligent-edge/#U3yYXu1rq054ljuk.97)
 
@@ -107,7 +107,7 @@ Stay up to date with the latest news and announcements regarding the Windows IoT
 * Article: [FarmBeats: Improving Farm Productivity Using Data-Driven Agriculture](https://www.microsoft.com/research/publication/farmbeats-improving-farm-productivity-using-data-driven-agriculture/)
 
 **August**
-* Case study: [CityBeacon](https://customers.microsoft.com/en-us/story/749839-citybeacon)
+* Case study: [CityBeacon](https://customers.microsoft.com/story/749839-citybeacon)
 
 **October**
 * Case study: [IDEX](https://customers.microsoft.com/story/764579-idex-automotive-azure-iot-united-states)
@@ -121,7 +121,7 @@ Stay up to date with the latest news and announcements regarding the Windows IoT
 **January**
 * Blog: [Johnson Controls utilizes Microsoft technology to expand the smart thermostat category](https://blogs.windows.com/windowsexperience/2018/01/04/johnson-controls-utilizes-microsoft-technology-expand-smart-thermostat-category/)
 * Case Study: [Johnson Controls](https://customers.microsoft.com/story/johnson-controls)
-* Case Study: [InnoWi GmbH](https://customers.microsoft.com/en-us/story/innowi)
+* Case Study: [InnoWi GmbH](https://customers.microsoft.com/story/innowi)
 * Case Study: [Keith & Koep](https://customers.microsoft.com/story/keith-koep)
 
 **February**
@@ -132,7 +132,7 @@ Stay up to date with the latest news and announcements regarding the Windows IoT
 * Video: [Internet of Things Show - Connecting Windows IoT Devices To Azure IoT Central](https://channel9.msdn.com/Shows/Internet-of-Things-Show/Connecting-Windows-IoT-Devices-To-IoT-Central)
 
 **April**
-* Blog: [Microsoft will invest $5 billion in IoT. Here’s why](https://azure.microsoft.com/en-us/blog/microsoft-will-invest-5-billion-in-iot-here-s-why/#:~:text=Julia%20White%20Corporate%20Vice%20President%2C%20Microsoft%20Azure%20Today%2C,and%20the%20world%20at%20large%2C%20with%20connected%20solutions.)
+* Blog: [Microsoft will invest $5 billion in IoT. Here’s why](https://azure.microsoft.com/blog/microsoft-will-invest-5-billion-in-iot-here-s-why/#:~:text=Julia%20White%20Corporate%20Vice%20President%2C%20Microsoft%20Azure%20Today%2C,and%20the%20world%20at%20large%2C%20with%20connected%20solutions.)
 
 **May**
 * Blog: [Do more at the intelligent edge with Windows 10 IoT](https://blogs.windows.com/windowsexperience/2018/05/07/do-more-at-the-intelligent-edge-with-windows-10-iot/#uDVaAtoBvz7BGrTf.97)
@@ -178,4 +178,4 @@ Stay up to date with the latest news and announcements regarding the Windows IoT
 ## Quick Links:
 * [Windows IoT Business Decision Maker (BDM)](https://www.microsoft.com/WindowsForBusiness/windows-iot)
 * [Windows on Devices - Developer Experience](https://developer.microsoft.com/windows/iot/)
-* [Windows IoT Documentation](https://docs.microsoft.com/windows/iot/)
+* [Windows IoT Documentation](/windows/iot/)

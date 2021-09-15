@@ -18,7 +18,7 @@ keywords: Windows Server IoT 2019, enterprise manageability, Windows ecosystem, 
 ## What is Windows Server IoT 2019?
 Windows Server IoT 2019 is a full version of Windows Server 2019 that delivers enterprise manageability and security to IoT solutions. Windows Server IoT 2019 shares all the benefits of the world-wide Windows ecosystem. It is a binary equivalent to Windows Server 2019, so you can use the same familiar development and management tools that you use on your general-purpose servers. However, when it comes to licensing and distribution, the general-purpose version and IoT versions differ.  Windows Server IoT 2019 is only licensed through the OEM channel under special dedicated use rights.
 
-## Fixed purpose devices 
+## Fixed purpose devices
 
 > [!TIP]
 > See your licensing agreement for complete guidance on all Windows Server IoT 2019 usage scenarios. If you do not have this licensing agreement, ask the OEM you work with for the commercial agreement.
@@ -29,10 +29,10 @@ Windows Server is well known as the server operating system used by small busine
 
 This is the release model you’re already familiar with, formerly called the “Long-Term Servicing Branch”, where a new major version of Windows Server is released every two to three years. Users are entitled to five years of mainstream support and five years of extended support. This channel is appropriate for systems that require a longer servicing option and functional stability. Deployments of Windows Server IoT 2019 and earlier versions of Windows Server will not be affected by the new Semi-Annual Channel releases. The Long-Term Servicing Channel will continue to receive security and non-security updates, but it will not receive the new features and functionality.
 
-* [Learn more about LTSC](https://docs.microsoft.com/windows-server/get-started-19/servicing-channels-19#long-term-servicing-channel-ltsc)
+* [Learn more about LTSC](/windows-server/get-started-19/servicing-channels-19#long-term-servicing-channel-ltsc)
 
 ## Helpful resources
 > [!NOTE]
 > Additional resources may be available from your distributor or Microsoft representative.
 
-* [Windows Server 2019 documentation](https://docs.microsoft.com/windows-server/index)
+* [Windows Server 2019 documentation](/windows-server/index)

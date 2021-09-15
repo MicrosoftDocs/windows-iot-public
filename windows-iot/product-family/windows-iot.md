@@ -19,7 +19,7 @@ Windows 10 IoT is a member of the Windows 10 family that brings enterprise-class
 Windows 10 IoT comes in **three** editions.
 1. [Windows 10 IoT Enterprise](../iot-enterprise/Getting_Started.md) is a full version of Windows 10 with specialized features to create dedicated devices locked down to a specific set of applications and peripherals.
 2. [Windows Server IoT 2019](../server/windows-server.md) is a full version of Windows Server 2019 that delivers enterprise manageability and security to IoT solutions.
-3. [Windows 10 IoT Core](https://docs.microsoft.com/windows/iot-core/windows-iot-core) is the smallest member of the Windows 10 operating system family. While only running a single app, it still has the manageability and security expected from Windows 10.  
+3. [Windows 10 IoT Core](/windows/iot-core/windows-iot-core) is the smallest member of the Windows 10 operating system family. While only running a single app, it still has the manageability and security expected from Windows 10.  
 
 ## Fixed purpose devices
 Windows is well known as the operating system for laptops and desktops that have been used by consumers and businesses worldwide for decades. Windows also powers many ATM machines, point-of-sale terminals, industrial automation systems, thin clients, medical devices, digital signage, kiosks, and other fixed purpose devices. Windows IoT allows you to build these fixed purpose devices with specific allowances and restrictions in the license agreement.
