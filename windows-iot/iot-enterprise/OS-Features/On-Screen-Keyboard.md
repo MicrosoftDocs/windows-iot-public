@@ -2,7 +2,7 @@
 title: On-screen Keyboard
 author: rsameser
 ms.author: riameser
-ms.date: 1/31/2021
+ms.date: 9/15/2021
 ms.topic: article
 ms.prod: windows-iot
 ms.technology: iot
@@ -60,7 +60,7 @@ With the On-Screen Keyboard open, select the **Options** key, and choose the opt
 ## Feature packages
 
 For prototyping (development) images, the on-screen keyboard feature is already included, but you will need to
-enable it from Device Settings in the [Windows Device Portal](https://docs.microsoft.com/windows/iot-core/manage-your-device/deviceportal).
+enable it from Device Settings in the [Windows Device Portal](/windows/iot-core/manage-your-device/deviceportal).
 
 For commercialization, the following optional feature packages will add the on-screen keyboard to your image:
 * IOT_SHELL_ONSCREEN_KEYBOARD
@@ -176,4 +176,4 @@ Set-ItemProperty . -Name SettingsMenuKey_Collapsed -Value "1"
 
 ## Additional Resources
 * [Use the On-Screen Keyboard to type](https://support.microsoft.com/windows/use-the-on-screen-keyboard-osk-to-type-ecbb5e08-5b4e-d8c8-f794-81dbf896267a)
-* [On-screen keyboard for headed devices](https://docs.microsoft.com/windows/iot-core/develop-your-app/onscreenkeyboard)
+* [On-screen keyboard for headed devices](/windows/iot-core/develop-your-app/onscreenkeyboard)

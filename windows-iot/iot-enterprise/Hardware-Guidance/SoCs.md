@@ -2,7 +2,7 @@
 title: SoCs and Custom Boards for Windows 10 IoT Enterprise
 author: rsameser
 ms.author: riameser
-ms.date: 1/31/2021
+ms.date: 9/15/2021
 ms.topic: article
 ms.prod: windows-iot
 ms.technology: iot
@@ -30,5 +30,5 @@ Each of the platforms has unique features that need attention during implementat
 * [VIA Technologies](https://www.viatech.com/en/products/boards/embedded-boards/)
 
 ## Additional Resources
-* [Windows 10 IoT Enterprise Manufacturing Guide](https://docs.microsoft.com/windows-hardware/manufacture/desktop/iot-ent-overview)
-* [Windows Processor Requirements](https://docs.microsoft.com/windows-hardware/design/minimum/windows-processor-requirements)
+* [Windows 10 IoT Enterprise Manufacturing Guide](/windows-hardware/manufacture/desktop/iot-ent-overview)
+* [Windows Processor Requirements](/windows-hardware/design/minimum/windows-processor-requirements)

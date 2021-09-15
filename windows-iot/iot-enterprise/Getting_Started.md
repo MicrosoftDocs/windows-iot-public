@@ -2,7 +2,7 @@
 title: Getting Started with Windows 10 IoT Enterprise
 author: rsameser
 ms.author: riameser
-ms.date: 2/2/2021
+ms.date: 9/15/2021
 ms.topic: article
 ms.prod: windows-iot
 ms.technology: iot

@@ -2,7 +2,7 @@
 title: Custom Logon
 author: rsameser
 ms.author: riameser
-ms.date: 1/31/2021
+ms.date: 9/15/2021
 ms.topic: article
 ms.prod: windows-iot
 ms.technology: iot
@@ -29,8 +29,8 @@ You can set Custom Logon by following these steps:
   2. In the Windows Features window, expand the **Device Lockdown** node, and select the checkbox for Custom Logon.
 
 
-* [Turn on and configure Custom Logon using DISM](https://docs.microsoft.com/windows-hardware/customize/enterprise/custom-logon#turn-on-custom-logon)
-* [Configure Custom Logon settings using Unattend](https://docs.microsoft.com/windows-hardware/customize/enterprise/custom-logon#turn-on-custom-logon)
+* [Turn on and configure Custom Logon using DISM](/windows-hardware/customize/enterprise/custom-logon#turn-on-custom-logon)
+* [Configure Custom Logon settings using Unattend](/windows-hardware/customize/enterprise/custom-logon#turn-on-custom-logon)
 
 ## Complementary Features
 You may want to use or change some of the following features in conjunction with Custom Logon to further customize the user experience.
@@ -52,11 +52,11 @@ To remove Wireless UI from the Welcome screen:
 You also have the option to remove other buttons from the Welcome screen to create your own customized experience.
 
 This includes:
-* [Language button](https://docs.microsoft.com/windows-hardware/customize/enterprise/complementary-features-to-custom-logon#welcome-screen)
-* [Ease of Access button](https://docs.microsoft.com/windows-hardware/customize/enterprise/complementary-features-to-custom-logon#welcome-screen)
-* [Switch user button](https://docs.microsoft.com/windows-hardware/customize/enterprise/complementary-features-to-custom-logon#welcome-screen)
+* [Language button](/windows-hardware/customize/enterprise/complementary-features-to-custom-logon#welcome-screen)
+* [Ease of Access button](/windows-hardware/customize/enterprise/complementary-features-to-custom-logon#welcome-screen)
+* [Switch user button](/windows-hardware/customize/enterprise/complementary-features-to-custom-logon#welcome-screen)
 
 ## Additional Resources
-* [Custom Logon](https://docs.microsoft.com/windows-hardware/customize/enterprise/custom-logon)
-* [Complementary features to Custom Logon](https://docs.microsoft.com/windows-hardware/customize/enterprise/complementary-features-to-custom-logon)
-* [Troubleshooting Custom Logon](https://docs.microsoft.com/windows-hardware/customize/enterprise/troubleshooting-custom-logon)
+* [Custom Logon](/windows-hardware/customize/enterprise/custom-logon)
+* [Complementary features to Custom Logon](/windows-hardware/customize/enterprise/complementary-features-to-custom-logon)
+* [Troubleshooting Custom Logon](/windows-hardware/customize/enterprise/troubleshooting-custom-logon)

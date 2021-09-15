@@ -2,7 +2,7 @@
 title: Updates
 author: rsameser
 ms.author: riameser
-ms.date: 3/12/2021
+ms.date: 9/15/2021
 ms.topic: article
 ms.prod: windows-iot
 ms.technology: iot
@@ -46,11 +46,11 @@ To completely disable automatic updating of Windows 10 with Windows Update:
 2. Explicitly set the policy to **Disabled**. When this setting is set to Disabled, any available updates from Windows Update must be downloaded and installed manually, which you can do in the Settings app under **Update & security > Windows Update**.
 
 ## Completely Turn Off Windows Updates
-You can configure Windows Update in several ways. As a general rule, IoT devices require special attention to the servicing and management strategy to be used on the devices. If your servicing strategy is to disable all Windows Update features, you have two possible approaches. You can turn off updates via [Group Policy](https://docs.microsoft.com/windows-hardware/manufacture/desktop/iot-ent-configure-policy-settings#windows-update-summary) or through [Registry](https://docs.microsoft.com/windows/privacy/manage-connections-from-windows-operating-system-components-to-microsoft-services#bkmk-wu).
+You can configure Windows Update in several ways. As a general rule, IoT devices require special attention to the servicing and management strategy to be used on the devices. If your servicing strategy is to disable all Windows Update features, you have two possible approaches. You can turn off updates via [Group Policy](/windows-hardware/manufacture/desktop/iot-ent-configure-policy-settings#windows-update-summary) or through [Registry](/windows/privacy/manage-connections-from-windows-operating-system-components-to-microsoft-services#bkmk-wu).
 
 >[!NOTE]
 >
-> By setting this policy, it will also stop performing updates from other machines on the local network. To confirm this behavior, you can also turn off [Delivery Optimization](https://docs.microsoft.com/windows/privacy/manage-connections-from-windows-operating-system-components-to-microsoft-services#28-delivery-optimization) which is the subsystem for getting updates from others on your local network.
+> By setting this policy, it will also stop performing updates from other machines on the local network. To confirm this behavior, you can also turn off [Delivery Optimization](/windows/privacy/manage-connections-from-windows-operating-system-components-to-microsoft-services#28-delivery-optimization) which is the subsystem for getting updates from others on your local network.
 
 ## Additional Resources
 * [Update Notifications](../Branding-Features/Update-Notification.md)
