@@ -2,7 +2,7 @@
 title: Keyboard Filter
 author: rsameser
 ms.author: riameser
-ms.date: 1/31/2021
+ms.date: 9/15/2021
 ms.topic: article
 ms.prod: windows-iot
 ms.technology: iot
@@ -11,7 +11,7 @@ keywords: Lockdown, Keyboard Filter
 ---
 
 # Keyboard Filter
-If your device is being use for a dedicated purpose, it may make sense to ensure that key combinations like 'Ctrl+Alt+Delete' do not alter the operation of the device by locking the screen or using Task Manager to close a running application. Windows 10 IoT Enterprise provides a feature called [Keyboard Filter](https://docs.microsoft.com/windows-hardware/customize/enterprise/keyboardfilter#:~:text=Keyboard%20Filter.%20You%20can%20use%20Keyboard%20Filter%20to,using%20Task%20Manager%20to%20close%20a%20running%20application.) that allows you to suppress undesirable key presses or key combinations.
+If your device is being use for a dedicated purpose, it may make sense to ensure that key combinations like 'Ctrl+Alt+Delete' do not alter the operation of the device by locking the screen or using Task Manager to close a running application. Windows 10 IoT Enterprise provides a feature called [Keyboard Filter](/windows-hardware/customize/enterprise/keyboardfilter#:~:text=Keyboard%20Filter.%20You%20can%20use%20Keyboard%20Filter%20to,using%20Task%20Manager%20to%20close%20a%20running%20application.) that allows you to suppress undesirable key presses or key combinations.
 
 ## Keyboard Filter Features
 Keyboard Filter has the following features:
@@ -28,17 +28,17 @@ Keyboard Filter has the following features:
 
 ## Turn on Keyboard Filter
 There are multiple ways to turn on Keyboard Filter:
-* [Control Panel](https://docs.microsoft.com/windows-hardware/customize/enterprise/keyboardfilter#turn-on-keyboard-filter-by-using-control-panel)
-* [Unattend](https://docs.microsoft.com/windows-hardware/customize/enterprise/keyboardfilter#configure-keyboard-using-unattend)
-* [Windows Configuration Designer](https://docs.microsoft.com/windows-hardware/customize/enterprise/keyboardfilter#turn-on-and-configure-keyboard-filter-using-windows-configuration-designer)
-* [DISM](https://docs.microsoft.com/windows-hardware/customize/enterprise/keyboardfilter#turn-on-and-configure-keyboard-filter-by-using-dism)
+* [Control Panel](/windows-hardware/customize/enterprise/keyboardfilter#turn-on-keyboard-filter-by-using-control-panel)
+* [Unattend](/windows-hardware/customize/enterprise/keyboardfilter#configure-keyboard-using-unattend)
+* [Windows Configuration Designer](/windows-hardware/customize/enterprise/keyboardfilter#turn-on-and-configure-keyboard-filter-using-windows-configuration-designer)
+* [DISM](/windows-hardware/customize/enterprise/keyboardfilter#turn-on-and-configure-keyboard-filter-by-using-dism)
 
 > [!NOTE]
 >
 > Turning on an off Keyboard Filter requires that you restart your device. Keyboard Filter is automatically enabled after the restart.
 
 ## Additional Resources
-* [Keyboard Filter](https://docs.microsoft.com/windows-hardware/customize/enterprise/keyboardfilter#turn-on-keyboard-filter)
-* [Predefined Key Combinations](https://docs.microsoft.com/windows-hardware/customize/enterprise/predefined-key-combinations)
-* [Keyboard Filter WMI provider reference](https://docs.microsoft.com/windows-hardware/customize/enterprise/keyboardfilter-wmi-provider-reference)
-* [Windows PowerShell script samples for Keyboard Filter](https://docs.microsoft.com/windows-hardware/customize/enterprise/keyboardfilter-powershell-script-samples)
+* [Keyboard Filter](/windows-hardware/customize/enterprise/keyboardfilter#turn-on-keyboard-filter)
+* [Predefined Key Combinations](/windows-hardware/customize/enterprise/predefined-key-combinations)
+* [Keyboard Filter WMI provider reference](/windows-hardware/customize/enterprise/keyboardfilter-wmi-provider-reference)
+* [Windows PowerShell script samples for Keyboard Filter](/windows-hardware/customize/enterprise/keyboardfilter-powershell-script-samples)

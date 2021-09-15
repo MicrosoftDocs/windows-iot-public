@@ -2,7 +2,7 @@
 title: Screen Swipe Policy
 author: rsameser
 ms.author: riameser
-ms.date: 1/31/2021
+ms.date: 9/15/2021
 ms.topic: article
 ms.prod: windows-iot
 ms.technology: iot
@@ -32,4 +32,4 @@ The following steps outline how to enable/disable the policy:
 The easiest way to verify if the policy is in effect is to restart the explorer process or to reboot after the policy is applied. Try to swipe from the right edge of the screen and evaluate the behavior. The desired result is for Action Center to not be invoked by the swipe. You can also enter tablet mode and attempt to swipe from the top of the screen to rearrange, that functionality will also be disabled.
 
 ## Additional Resources
-* [LockDown/AllowEdgeSwipe](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-lockdown#lockdown-allowedgeswipe)
+* [LockDown/AllowEdgeSwipe](/windows/client-management/mdm/policy-csp-lockdown#lockdown-allowedgeswipe)
