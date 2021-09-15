@@ -1,0 +1,112 @@
+### YamlMime:Hub
+
+title: Windows IoT Documentation
+summary: Windows IoT, formerly Windows Embedded, is a family of operating systems from Microsoft designed for use in embedded systems.
+brand: windows ## Used for color theming of icons and hero area
+
+metadata:
+  title: Windows IoT Documentation
+  description: The Windows for IoT platform has multiple editions, each optimized for specific scenarios. They all share the security, manageability, support and cloud connectivity you expect from Windows.
+  ms.topic: hub-page
+  ms.prod: windows-iot
+  ms.technology: iot
+  author: rsameser
+  ms.author: riameser
+  ms.date: 3/12/2021
+
+# itemType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | tutorial | whats-new
+
+highlightedContent:
+  items:
+    - title: What is Windows IoT?
+      itemType: overview # controls the icon image and super-title text
+      url: ./product-family/windows-iot.md
+    - title: What's new in Windows IoT?
+      itemType: whats-new
+      url: ./product-family/News-Blogs.md
+    - title: Which Windows IoT Solution is Right For Me?
+      itemType: get-started
+      url: ./product-family/windows-iot.md
+
+productDirectory:
+  items:
+    - title: Windows 10 IoT Enterprise
+      imageSrc: ./media/index/windows.png
+      links:
+        - url: ./iot-enterprise/Getting_Started.md
+          text: Overview
+        - url: https://docs.microsoft.com/windows-hardware/manufacture/desktop/iot-ent-overview
+          text: Manufacturing Guide
+        - url: ./iot-enterprise/Kiosk-Mode/Kiosk-Mode.md
+          text: Kiosk Mode
+    - title: Windows 10 IoT Core
+      imageSrc: ./media/index/windows.png
+      links:
+        - url: https://docs.microsoft.com/windows/iot-core/windows-iot-core
+          text: Overview
+        - url: https://docs.microsoft.com/windows-hardware/manufacture/iot/iot-core-manufacturing-guide
+          text: Manufacturing Guide
+        - url: https://docs.microsoft.com/windows/iot-core/connect-your-device/iotdashboard
+          text: Dashboard
+    - title: Windows 10 IoT Core Services
+      imageSrc: ./media/index/windows.png
+      links:
+        - url: https://docs.microsoft.com/windows-hardware/manufacture/iot/iotcoreservicesoverview
+          text: Overview
+        - url: https://docs.microsoft.com/windows/deployment/update/waas-overview#long-term-servicing-channel
+          text: Windows Long-Term Servicing Channel (LTSC) Releases
+        - url: https://docs.microsoft.com/windows-hardware/service/iot/using-device-update-center
+          text: Device Update Center
+    - title: Windows CE Migration
+      imageSrc: ./media/index/windows.png
+      links:
+        - url: ./windows_ce/windows-ce-migration-faq.md
+          text:  Frequently Asked Questions
+        - url: ./windows_ce/windows-ce-app-container-overview.md
+          text:  Windows CE App Container
+        - url: ./windows_ce/windows-ce-app-container-getting-started.md
+          text:  Getting Started with Windows CE App Container
+    - title: Windows Server IoT 2019
+      imageSrc: ./media/index/windows.png
+      links:
+        - url: ./server/windows-server.md
+          text: Overview
+        - url: https://docs.microsoft.com/windows-server/get-started-19/whats-new-19
+          text:  What's new in Windows Server 2019?
+        - url: https://docs.microsoft.com/windows-server/get-started-19/get-started-19
+          text:  Get Started with Windows Server 2019
+    - title: Azure IoT Edge for Linux on Windows
+      imageSrc: ./media/index/windows.png
+      links:
+        - url: https://docs.microsoft.com/azure/iot-edge/iot-edge-for-linux-on-windows?view=iotedge-2018-06
+          text: Overview
+        - url: https://docs.microsoft.com/azure/iot-edge/quickstart?view=iotedge-2018-06
+          text: Quickstart
+        - url: https://docs.microsoft.com/azure/iot-edge/how-to-install-iot-edge-on-windows?view=iotedge-2018-06&tabs=powershell
+          text: How-to Guide
+
+conceptualContent:
+  items:
+    - title: Get Started
+      links:
+        - url: ./iot-enterprise/Commercialization/Licensing.md
+          itemType: overview
+          text:  OEMs & Licensing
+        - url: https://aka.ms/IoTDistributorList
+          itemType: how-to-guide
+          text:  Distributor Information
+        - url: https://docs.microsoft.com/windows-hardware/design/minimum/minimum-hardware-requirements-overview
+          itemType: quickstart
+          text:  Hardware Compatability List
+
+    - title: Resources
+      links:
+        - url: ./product-family/News-Blogs.md
+          itemType: reference
+          text:  Windows IoT News & Blogs
+        - url: https://www.youtube.com/channel/UCL7wy-iy_V76xxPnrIzGOZQ
+          itemType: reference
+          text:  Microsoft IoT Developer
+        - url: https://channel9.msdn.com/
+          itemType: reference
+          text: Channel 9

@@ -9,9 +9,9 @@
         "exclude": [
           "**/obj/**",
           "**/includes/**",
+          "**/docfx.json",
           "_themes/**",
           "_themes.pdf/**",
-          "**/docfx.json",
           "_repo.en-us/**",
           "README.md",
           "LICENSE",
@@ -29,9 +29,9 @@
         "exclude": [
           "**/obj/**",
           "**/includes/**",
+          "**/docfx.json",
           "_themes/**",
           "_themes.pdf/**",
-          "**/docfx.json",
           "_repo.en-us/**"
         ]
       }

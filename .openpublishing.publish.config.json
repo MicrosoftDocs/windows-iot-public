@@ -2,7 +2,7 @@
   "docsets_to_publish": [
     {
       "docset_name": "windows-iot-docset",
-      "build_source_folder": "iot",
+      "build_source_folder": "windows-iot",
       "build_output_subfolder": "windows-iot-docset",
       "locale": "en-us",
       "monikers": [],
