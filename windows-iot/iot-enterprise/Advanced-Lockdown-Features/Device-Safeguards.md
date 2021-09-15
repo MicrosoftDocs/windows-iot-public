@@ -2,7 +2,7 @@
 title: Device Safeguards
 author: rsameser
 ms.author: riameser
-ms.date: 1/31/2021
+ms.date: 9/15/2021
 ms.topic: article
 ms.prod: windows-iot
 ms.technology: iot
@@ -18,42 +18,42 @@ In a Windows 10 device restrictions profile, most configurable settings are depl
 The following guide reviews the various policies that can be configured to create a safe and secure device usage experience.
 
 ## Device Installation - Group Policy
-If your organization manages devices through group policy, we recommend you follow this [Step-By-Step Guide](https://docs.microsoft.com/previous-versions/dotnet/articles/bb530324(v=msdn.10)).
+If your organization manages devices through group policy, we recommend you follow this [Step-By-Step Guide](/previous-versions/dotnet/articles/bb530324(v=msdn.10)).
 
 
 ## Control removable media using Microsoft Defender for Endpoint
 Microsoft recommends [a layered approach to securing removable media](https://aka.ms/devicecontrolblog), and Microsoft Defender for Endpoint provides multiple monitoring and control features to help prevent threats in unauthorized peripherals from compromising your devices:
 
-1. [Discover plug and play connected events for peripherals in Microsoft Defender for Endpoint advanced hunting](https://docs.microsoft.com/windows/security/threat-protection/device-control/control-usb-devices-using-intune#discover-plug-and-play-connected-events). Identify or investigate suspicious usage activity.
+1. [Discover plug and play connected events for peripherals in Microsoft Defender for Endpoint advanced hunting](/windows/security/threat-protection/device-control/control-usb-devices-using-intune#discover-plug-and-play-connected-events). Identify or investigate suspicious usage activity.
 
 2. Configure to allow or block only certain removable devices and prevent threats.
-    1. [Allow or block removable devices](https://docs.microsoft.com/windows/security/threat-protection/device-control/control-usb-devices-using-intune#allow-or-block-removable-devices) based on granular configuration to deny write access to removable disks and approve or deny devices by using USB device IDs.
+    1. [Allow or block removable devices](/windows/security/threat-protection/device-control/control-usb-devices-using-intune#allow-or-block-removable-devices) based on granular configuration to deny write access to removable disks and approve or deny devices by using USB device IDs.
 
-    2. [Prevent threats from removable storage](https://docs.microsoft.com/windows/security/threat-protection/device-control/control-usb-devices-using-intune#prevent-threats-from-removable-storage) introduced by removable storage devices by enabling:  
+    2. [Prevent threats from removable storage](/windows/security/threat-protection/device-control/control-usb-devices-using-intune#prevent-threats-from-removable-storage) introduced by removable storage devices by enabling:  
            - Microsoft Defender Antivirus real-time protection (RTP) to scan removable storage for malware.  
            - The Attack Surface Reduction (ASR) USB rule to block untrusted and unsigned processes that run from USB.  
            - Direct Memory Access (DMA) protection settings to mitigate DMA attacks, including Kernel DMA Protection for Thunderbolt and blocking DMA until a user signs in.  
 
-3. [Create customized alerts and response actions](https://docs.microsoft.com/windows/security/threat-protection/device-control/control-usb-devices-using-intune#create-customized-alerts-and-response-actions) to monitor usage of removable devices based on these plug and play events or any other Microsoft Defender for Endpoint events with [custom detection rules](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/custom-detection-rules).
+3. [Create customized alerts and response actions](/windows/security/threat-protection/device-control/control-usb-devices-using-intune#create-customized-alerts-and-response-actions) to monitor usage of removable devices based on these plug and play events or any other Microsoft Defender for Endpoint events with [custom detection rules](/windows/security/threat-protection/microsoft-defender-atp/custom-detection-rules).
 
-4. [Respond to threats](https://docs.microsoft.com/windows/security/threat-protection/device-control/control-usb-devices-using-intune#respond-to-threats) from peripherals in real-time based on properties reported by each peripheral.
+4. [Respond to threats](/windows/security/threat-protection/device-control/control-usb-devices-using-intune#respond-to-threats) from peripherals in real-time based on properties reported by each peripheral.
 
 >[!NOTE]
 >
->These threat reduction measures help prevent malware from coming into your environment. To protect enterprise data from leaving your environment, you can also configure data loss prevention measures. For example, on Windows 10 devices you can configure [BitLocker](https://docs.microsoft.com/windows/security/information-protection/bitlocker/bitlocker-overview) and [Windows Information Protection](https://docs.microsoft.com/windows/security/information-protection/windows-information-protection/create-wip-policy-using-intune-azure), which will encrypt company data even if it is stored on a personal device, or use the [Storage/RemovableDiskDenyWriteAccess CSP](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-storage#storage-removablediskdenywriteaccess) to deny write access to removable disks. Additionally, you can [classify and protect files on Windows devices](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-atp/information-protection-in-windows-overview) (including their mounted USB devices) by using Microsoft Defender for Endpoint and Azure Information Protection.
+>These threat reduction measures help prevent malware from coming into your environment. To protect enterprise data from leaving your environment, you can also configure data loss prevention measures. For example, on Windows 10 devices you can configure [BitLocker](/windows/security/information-protection/bitlocker/bitlocker-overview) and [Windows Information Protection](/windows/security/information-protection/windows-information-protection/create-wip-policy-using-intune-azure), which will encrypt company data even if it is stored on a personal device, or use the [Storage/RemovableDiskDenyWriteAccess CSP](/windows/client-management/mdm/policy-csp-storage#storage-removablediskdenywriteaccess) to deny write access to removable disks. Additionally, you can [classify and protect files on Windows devices](/windows/security/threat-protection/windows-defender-atp/information-protection-in-windows-overview) (including their mounted USB devices) by using Microsoft Defender for Endpoint and Azure Information Protection.
 
 
 ## Device Installation Settings - MDM
-If your organization manages devices through mobile device management, we recommend you review the following [device installation policies](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-deviceinstallation):
+If your organization manages devices through mobile device management, we recommend you review the following [device installation policies](/windows/client-management/mdm/policy-csp-deviceinstallation):
 
-* [Allow Installation Of Matching Device IDs](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-deviceinstallation#deviceinstallation-allowinstallationofmatchingdeviceids)
-* [Allow Installation Of Matching Device Instance IDs](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-deviceinstallation#deviceinstallation-allowinstallationofmatchingdeviceinstanceids)
-* [Allow Installation Of Matching Device Setup Classes](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-deviceinstallation#deviceinstallation-allowinstallationofmatchingdevicesetupclasses)
-* [Prevent Device Metadata From Network](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-deviceinstallation#deviceinstallation-preventdevicemetadatafromnetwork)
-* [Prevent Installation Of Devices Not Described By Other Policy Settings](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-deviceinstallation#deviceinstallation-preventinstallationofdevicesnotdescribedbyotherpolicysettings)
-* [Prevent Installation Of Matching Device IDs](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-deviceinstallation#deviceinstallation-preventinstallationofmatchingdeviceids)
-* [Prevent Installation Of Matching Device Instance IDs](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-deviceinstallation#deviceinstallation-preventinstallationofmatchingdeviceinstanceids)
-* [Prevent Installation Of Matching Device Setup Classes](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-deviceinstallation#deviceinstallation-preventinstallationofmatchingdevicesetupclasses)
+* [Allow Installation Of Matching Device IDs](/windows/client-management/mdm/policy-csp-deviceinstallation#deviceinstallation-allowinstallationofmatchingdeviceids)
+* [Allow Installation Of Matching Device Instance IDs](/windows/client-management/mdm/policy-csp-deviceinstallation#deviceinstallation-allowinstallationofmatchingdeviceinstanceids)
+* [Allow Installation Of Matching Device Setup Classes](/windows/client-management/mdm/policy-csp-deviceinstallation#deviceinstallation-allowinstallationofmatchingdevicesetupclasses)
+* [Prevent Device Metadata From Network](/windows/client-management/mdm/policy-csp-deviceinstallation#deviceinstallation-preventdevicemetadatafromnetwork)
+* [Prevent Installation Of Devices Not Described By Other Policy Settings](/windows/client-management/mdm/policy-csp-deviceinstallation#deviceinstallation-preventinstallationofdevicesnotdescribedbyotherpolicysettings)
+* [Prevent Installation Of Matching Device IDs](/windows/client-management/mdm/policy-csp-deviceinstallation#deviceinstallation-preventinstallationofmatchingdeviceids)
+* [Prevent Installation Of Matching Device Instance IDs](/windows/client-management/mdm/policy-csp-deviceinstallation#deviceinstallation-preventinstallationofmatchingdeviceinstanceids)
+* [Prevent Installation Of Matching Device Setup Classes](/windows/client-management/mdm/policy-csp-deviceinstallation#deviceinstallation-preventinstallationofmatchingdevicesetupclasses)
 
 
 ## Look up device ID
@@ -66,7 +66,7 @@ You can use Device Manager to look up a device ID.
 5. Click the **Property** drop-down list and select **Hardware Ids**.
 6. Right-click the top ID value and select **Copy**.
 
-For information about Device ID formats, see [Standard USB Identifiers](https://docs.microsoft.com/windows-hardware/drivers/install/standard-usb-identifiers).
+For information about Device ID formats, see [Standard USB Identifiers](/windows-hardware/drivers/install/standard-usb-identifiers).
 
 For information on vendor IDs, see [USB members](https://www.usb.org/members).
 
@@ -78,8 +78,8 @@ Select-Object -Property *
 ```
 
 ## Additional Resources  
-* [Policy CSP - DeviceInstallation](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-deviceinstallation)
-* [Defender/AllowFullScanRemovableDriveScanning](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-defender#defender-allowfullscanremovabledrivescanning)
+* [Policy CSP - DeviceInstallation](/windows/client-management/mdm/policy-csp-deviceinstallation)
+* [Defender/AllowFullScanRemovableDriveScanning](/windows/client-management/mdm/policy-csp-defender#defender-allowfullscanremovabledrivescanning)
 * [Perform a custom scan of a removable device](https://aka.ms/scanusb)
 * [Device Control Power BI Template for custom reporting](https://github.com/microsoft/MDATP-PowerBI-Templates)
-* [Windows Information Protection](https://docs.microsoft.com/windows/security/information-protection/windows-information-protection/create-wip-policy-using-intune-azure)
+* [Windows Information Protection](/windows/security/information-protection/windows-information-protection/create-wip-policy-using-intune-azure)

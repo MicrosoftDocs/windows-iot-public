@@ -171,6 +171,6 @@ Each Windows 10 IoT Enterprise release offers our latest features, including spe
 * Windows 10 core
 
 ## Additional Resources
-* [Windows 10 release information](https://docs.microsoft.com/windows/release-information/)
-* [What's new in Windows 10](https://docs.microsoft.com/windows/whats-new/)
+* [Windows 10 release information](/windows/release-information/)
+* [What's new in Windows 10](/windows/whats-new/)
 * [Windows 10 update history](https://support.microsoft.com/topic/windows-10-update-history-7dd3071a-3906-fa2c-c342-f7f86728a6e3)

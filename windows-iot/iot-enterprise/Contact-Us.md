@@ -2,7 +2,7 @@
 title: Contact Us
 author: rsameser
 ms.author: riameser
-ms.date: 1/31/2021
+ms.date: 9/15/2021
 ms.topic: article
 ms.prod: windows-iot
 ms.technology: iot

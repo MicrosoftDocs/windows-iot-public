@@ -2,7 +2,7 @@
 title: Downloads
 author: rsameser
 ms.author: riameser
-ms.date: 3/12/2021
+ms.date: 9/15/2021
 ms.topic: article
 ms.prod: windows-iot
 ms.technology: iot
@@ -34,4 +34,4 @@ If you are a Windows IoT Partner, check [Partner Center](https://partner.microso
 ## Additional Resources:
 * [Start Prototyping](./Hardware-Guidance/Prototype.md)
 * [Windows 10 Developer Tools and SDK resources](https://developer.microsoft.com/windows/downloads/)
-* [Windows 10 IoT Enterprise Manufacturing Guide](https://docs.microsoft.com/windows-hardware/manufacture/desktop/iot-ent-overview)
+* [Windows 10 IoT Enterprise Manufacturing Guide](/windows-hardware/manufacture/desktop/iot-ent-overview)

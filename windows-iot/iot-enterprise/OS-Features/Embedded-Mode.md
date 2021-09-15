@@ -2,7 +2,7 @@
 title: Embedded Mode
 author: rsameser
 ms.author: riameser
-ms.date: 1/31/2021
+ms.date: 9/15/2021
 ms.topic: article
 ms.prod: windows-iot
 ms.technology: iot
@@ -80,7 +80,7 @@ To enable embedded mode, you will need to create a provisioning package in Imagi
 
 
 ## Background Applications
-[Background Applications](https://docs.microsoft.com/windows/iot-core/develop-your-app/backgroundapplications) are created using the Background Application (IoT) template in Visual Studio.
+[Background Applications](/windows/iot-core/develop-your-app/backgroundapplications) are created using the Background Application (IoT) template in Visual Studio.
 
 Background applications run without stopping and without resource limits. Also, if the background application stops for some reason and embedded mode is enabled the background application will be restarted by the system.
 
@@ -96,7 +96,7 @@ The **lowLevel** device Capability gives access to low-level hardware interfaces
 The **lowLevelDevices** Capability allows apps to access custom devices when a number of additional requirements are met. This
 capability should not be confused with the lowLevel device capability, which allows access to GPIO, I2C, SPI, and PWM devices.
 
-Refer to [App capability declarations](https://docs.microsoft.com/windows/uwp/packaging/app-capability-declarations) for details.
+Refer to [App capability declarations](/windows/uwp/packaging/app-capability-declarations) for details.
 
 ## systemManagment Capability
 

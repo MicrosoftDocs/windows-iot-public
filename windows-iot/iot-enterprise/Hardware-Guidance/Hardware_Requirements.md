@@ -2,7 +2,7 @@
 title: Hardware Requirements
 author: rsameser
 ms.author: riameser
-ms.date: 3/12/2021
+ms.date: 9/15/2021
 ms.topic: article
 ms.prod: windows-iot
 ms.technology: iot
@@ -26,7 +26,7 @@ This specification does not provide compatibility and certification requirements
 > Beginning with Windows 10, version 2004, all new Windows 10 systems will be required to use 64-bit builds and Microsoft will no longer release 32-bit builds for OEM distribution. This does not impact 32-bit customer systems that are manufactured with earlier versions of Windows 10; Microsoft remains committed to providing feature and security updates on these devices, including continued 32-bit media availability in non-OEM channels to support various upgrade installation scenarios.
 
 ## Processor
-Devices that run Windows 10 IoT Enterprise must meet these [processor requirements](https://docs.microsoft.com/windows-hardware/design/minimum/minimum-hardware-requirements-overview#31-processor). Check out the [processor matrix](https://docs.microsoft.com/windows-hardware/design/minimum/windows-processor-requirements#windows-iot-enterprise--embedded-processors) to review the latest processor generations and models that are supported. Previous generations of processors and models (indicated by "Up through"), remain supported in addition to the listed processors and models.
+Devices that run Windows 10 IoT Enterprise must meet these [processor requirements](/windows-hardware/design/minimum/minimum-hardware-requirements-overview#31-processor). Check out the [processor matrix](/windows-hardware/design/minimum/windows-processor-requirements#windows-iot-enterprise--embedded-processors) to review the latest processor generations and models that are supported. Previous generations of processors and models (indicated by "Up through"), remain supported in addition to the listed processors and models.
 
 > [!TIP]
 >
@@ -35,13 +35,13 @@ Devices that run Windows 10 IoT Enterprise must meet these [processor requiremen
 > For specific hardware support, please refer to your Original Equipment Manufacturer (OEM) provider.
 
 ## Memory
-Devices that run Windows 10 IoT Enterprise must meet the following [RAM requirements](https://docs.microsoft.com/windows-hardware/design/minimum/minimum-hardware-requirements-overview#32-memory).
+Devices that run Windows 10 IoT Enterprise must meet the following [RAM requirements](/windows-hardware/design/minimum/minimum-hardware-requirements-overview#32-memory).
 
 ## Storage
 ### Storage device size
-Devices that run Windows 10 IoT Enterprise must include a storage device that meets the following [size requirements](https://docs.microsoft.com/windows-hardware/design/minimum/minimum-hardware-requirements-overview#331-storage-device-size).
+Devices that run Windows 10 IoT Enterprise must include a storage device that meets the following [size requirements](/windows-hardware/design/minimum/minimum-hardware-requirements-overview#331-storage-device-size).
 
-* [Storage Controller Requirements](https://docs.microsoft.com/windows-hardware/design/minimum/minimum-hardware-requirements-overview#332-storage-controller)
+* [Storage Controller Requirements](/windows-hardware/design/minimum/minimum-hardware-requirements-overview#332-storage-controller)
 
 ## Display and graphics
 ### Resolution, bit depth, and size
@@ -58,12 +58,12 @@ It is recommended that devices that run Windows 10 IoT Enterprise include at lea
 >
 > While TPM requirements are highly encouraged for Windows 10 IoT Enterprise, it is not required. The use of a TPM for Windows 10 IoT Enterprise devices is determined based on the usage and security requirements of each device.
 
-* [TPM Requirements](https://docs.microsoft.com/windows-hardware/design/minimum/minimum-hardware-requirements-overview#37-trusted-platform-module-tpm)
-* [Trusted Platform Module Technology Overview](https://docs.microsoft.com/windows/security/information-protection/tpm/trusted-platform-module-overview)
-* [TPM Recommendations](https://docs.microsoft.com/windows/security/information-protection/tpm/tpm-recommendations)
+* [TPM Requirements](/windows-hardware/design/minimum/minimum-hardware-requirements-overview#37-trusted-platform-module-tpm)
+* [Trusted Platform Module Technology Overview](/windows/security/information-protection/tpm/trusted-platform-module-overview)
+* [TPM Recommendations](/windows/security/information-protection/tpm/tpm-recommendations)
 
 ## Additional Resources
-* [Shared Minimum Hardware Requirements for Windows OS](https://docs.microsoft.com/windows-hardware/design/minimum/minimum-hardware-requirements-overview#section-60---shared-minimum-hardware-requirements-for-components)
-* [Minimum Hardware Requirements](https://docs.microsoft.com/windows-hardware/design/minimum/minimum-hardware-requirements-overview)
-* [Windows Processor Requirements](https://docs.microsoft.com/windows-hardware/design/minimum/windows-processor-requirements)
-* [Hardware Component Guidelines](https://docs.microsoft.com/windows-hardware/design/component-guidelines/components)
+* [Shared Minimum Hardware Requirements for Windows OS](/windows-hardware/design/minimum/minimum-hardware-requirements-overview#section-60---shared-minimum-hardware-requirements-for-components)
+* [Minimum Hardware Requirements](/windows-hardware/design/minimum/minimum-hardware-requirements-overview)
+* [Windows Processor Requirements](/windows-hardware/design/minimum/windows-processor-requirements)
+* [Hardware Component Guidelines](/windows-hardware/design/component-guidelines/components)

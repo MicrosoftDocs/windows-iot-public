@@ -2,7 +2,7 @@
 title: Shell Launcher
 author: rsameser
 ms.author: riameser
-ms.date: 1/31/2021
+ms.date: 9/15/2021
 ms.topic: article
 ms.prod: windows-iot
 ms.technology: iot
@@ -10,9 +10,9 @@ description: Learn about the Shell Launcher Feature in Windows 10 IoT Enterprise
 keywords: Lockdown, Shell Launcher
 ---
 # Shell Launcher
-Using [Shell Launcher](https://docs.microsoft.com/windows/configuration/kiosk-shelllauncher), you can configure a kiosk device to run a Windows Desktop or Universal Windows Application as the user interface. The application that you specify replaces the default shell (explorer.exe) that usually runs when a user logs on. *This type of single-app kiosk does not run above the lock screen.*
+Using [Shell Launcher](/windows/configuration/kiosk-shelllauncher), you can configure a kiosk device to run a Windows Desktop or Universal Windows Application as the user interface. The application that you specify replaces the default shell (explorer.exe) that usually runs when a user logs on. *This type of single-app kiosk does not run above the lock screen.*
 
-Methods of controlling access to other desktop applications and system components can be used in addition to using the Shell Launcher such as, [Group Policy](https://www.microsoft.com/download/details.aspx?id=25250), [AppLocker](https://docs.microsoft.com/windows/iot-enterprise/advanced_lockdown_features#applocker), and [Mobile Device Management](https://docs.microsoft.com/windows/client-management/mdm/)
+Methods of controlling access to other desktop applications and system components can be used in addition to using the Shell Launcher such as, [Group Policy](https://www.microsoft.com/download/details.aspx?id=25250), [AppLocker](/windows/iot-enterprise/advanced_lockdown_features#applocker), and [Mobile Device Management](/windows/client-management/mdm/)
 
 >[!NOTE]
 >
@@ -36,22 +36,22 @@ For sample XML configurations for the different app combinations, see [Samples f
 Shell Launcher is an optional component and is not turned on by default in Windows 10. It must be turned on prior to configuring. You can turn on and configure Shell Launcher in a customized Windows 10 image (.wim) if Microsoft Windows has not been installed. If Windows has already been installed and you are applying a provisioning package to configure Shell Launcher, you must first turn on Shell Launcher in order for a provisioning package to successfully apply.
 
 There are multiple ways to *enable* Shell Launcher:
-* [Control Panel](https://docs.microsoft.com/windows-hardware/customize/enterprise/shell-launcher#enable-shell-launcher-using-control-panel)
-* [WESL_UserSetting](https://docs.microsoft.com/windows-hardware/customize/enterprise/shell-launcher#enable-shell-launcher-by-calling-wesl_usersetting)
-* [DISM](https://docs.microsoft.com/windows-hardware/customize/enterprise/shell-launcher#enable-shell-launcher-using-dism)
-* [Windows Configuration Designer](https://docs.microsoft.com/windows-hardware/customize/enterprise/shell-launcher#enable-shell-launcher-using-windows-configuration-designer)
+* [Control Panel](/windows-hardware/customize/enterprise/shell-launcher#enable-shell-launcher-using-control-panel)
+* [WESL_UserSetting](/windows-hardware/customize/enterprise/shell-launcher#enable-shell-launcher-by-calling-wesl_usersetting)
+* [DISM](/windows-hardware/customize/enterprise/shell-launcher#enable-shell-launcher-using-dism)
+* [Windows Configuration Designer](/windows-hardware/customize/enterprise/shell-launcher#enable-shell-launcher-using-windows-configuration-designer)
 
-Learn the methods to [configure](https://docs.microsoft.com/windows-hardware/customize/enterprise/shell-launcher#configure-shell-launcher) Shell Launcher.
+Learn the methods to [configure](/windows-hardware/customize/enterprise/shell-launcher#configure-shell-launcher) Shell Launcher.
 
 ## Shell Launcher Capabilities
 Explore the various capabilities of Shell Launcher:
-* [Launch different shells for different user accounts](https://docs.microsoft.com/windows-hardware/customize/enterprise/shell-launcher#launch-different-shells-for-different-user-accounts)
-* [Perform an action when the shell exits](https://docs.microsoft.com/windows-hardware/customize/enterprise/shell-launcher#perform-an-action-when-the-shell-exits)
-* [Set your custom shell](https://docs.microsoft.com/windows-hardware/customize/enterprise/shell-launcher#set-your-custom-shell)
-* [Understand Shell Launcher user rights](https://docs.microsoft.com/windows-hardware/customize/enterprise/shell-launcher#shell-launcher-user-rights)
+* [Launch different shells for different user accounts](/windows-hardware/customize/enterprise/shell-launcher#launch-different-shells-for-different-user-accounts)
+* [Perform an action when the shell exits](/windows-hardware/customize/enterprise/shell-launcher#perform-an-action-when-the-shell-exits)
+* [Set your custom shell](/windows-hardware/customize/enterprise/shell-launcher#set-your-custom-shell)
+* [Understand Shell Launcher user rights](/windows-hardware/customize/enterprise/shell-launcher#shell-launcher-user-rights)
 
 ## Additional Resources
-* [Use Shell Launcher to create a Windows 10 Kiosk](https://docs.microsoft.com/windows/configuration/kiosk-shelllauncher)
-* [Launch different shells for different user accounts](https://docs.microsoft.com/windows-hardware/customize/enterprise/shell-launcher#launch-different-shells-for-different-user-accounts)
-* [Perform an action when the shell exits](https://docs.microsoft.com/windows-hardware/customize/enterprise/shell-launcher#perform-an-action-when-the-shell-exits)
-* [Shell Launcher user rights](https://docs.microsoft.com/windows-hardware/customize/enterprise/shell-launcher#shell-launcher-user-rights)
+* [Use Shell Launcher to create a Windows 10 Kiosk](/windows/configuration/kiosk-shelllauncher)
+* [Launch different shells for different user accounts](/windows-hardware/customize/enterprise/shell-launcher#launch-different-shells-for-different-user-accounts)
+* [Perform an action when the shell exits](/windows-hardware/customize/enterprise/shell-launcher#perform-an-action-when-the-shell-exits)
+* [Shell Launcher user rights](/windows-hardware/customize/enterprise/shell-launcher#shell-launcher-user-rights)

@@ -2,7 +2,7 @@
 title: Reset and Recovery
 author: rsameser
 ms.author: riameser
-ms.date: 3/5/2021
+ms.date: 9/15/2021
 ms.topic: article
 ms.prod: windows-iot
 ms.technology: iot
@@ -33,7 +33,7 @@ Device reset includes the following key operations:
 [Factory reset](https://support.microsoft.com/windows/how-to-refresh-reset-or-restore-your-pc-51391d9a-eb0a-84a7-69e4-c2c1fbceb8dd) restores the state of the device back to its first-boot state plus any update packages. The reset will **not** return device to the original factory state. To return the device to the original factory state, you must flash it with the original factory image. All the provisioning applied to the device by the enterprise will be lost and will need to be re-applied if needed.
 
 ##### Reset using Mobile Device Management
-Device reset can be triggered using the [RemoteWipe CSP](https://docs.microsoft.com/windows/client-management/mdm/remotewipe-csp)
+Device reset can be triggered using the [RemoteWipe CSP](/windows/client-management/mdm/remotewipe-csp)
 
 ##### Reset using Azure Device Management
 Device reset can also be triggered using the Azure Device Management using [Remote Wipe API](https://github.com/ms-iot/iot-core-azure-dm-client/blob/master/docs/remote-wipe.md).
@@ -57,8 +57,8 @@ The three key elements of recovery are:
 
 ### Recovery using bootable USB
 In this method, we boot the device from USB (with bootable safe OS and the FFU) and flash the device with the FFU present in the USB.
-* [WinPE: Create USB bootable drive](https://docs.microsoft.com/windows-hardware/manufacture/desktop/winpe-create-usb-bootable-drive) provides information on creating a bootable USB drive.
-* [Deploy Windows using Full Flash Update(FFU)](https://docs.microsoft.com/windows-hardware/manufacture/desktop/deploy-windows-using-full-flash-update--ffu) provides information on storing FFU files in USB.
+* [WinPE: Create USB bootable drive](/windows-hardware/manufacture/desktop/winpe-create-usb-bootable-drive) provides information on creating a bootable USB drive.
+* [Deploy Windows using Full Flash Update(FFU)](/windows-hardware/manufacture/desktop/deploy-windows-using-full-flash-update--ffu) provides information on storing FFU files in USB.
 
 Hardware Requirements:
 * Requires device to have an USB port

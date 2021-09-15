@@ -2,7 +2,7 @@
 title: Privacy
 author: rsameser
 ms.author: riameser
-ms.date: 2/1/2021
+ms.date: 9/15/2021
 ms.topic: article
 ms.prod: windows-iot
 ms.technology: iot
@@ -15,10 +15,10 @@ Windows 10 IoT Enterprise provides users with many privacy options and features.
 
 ## Privacy Features
 With Windows 10 IoT Enterprise, we provide you with even more control on your data and information. Please review, [Windows 10 & Privacy Compliance:
-A Guide for IT and Compliance Professionals](https://docs.microsoft.com/windows/privacy/windows-10-and-privacy-compliance) for more features.
+A Guide for IT and Compliance Professionals](/windows/privacy/windows-10-and-privacy-compliance) for more features.
 
 ## Manage your Data
-Under privacy settings, you can now delete the diagnostic data your device has sent to Microsoft. You can also view this diagnostic data using the [Diagnostic Data Viewer](https://docs.microsoft.com/windows/privacy/diagnostic-data-viewer-overview) application.
+Under privacy settings, you can now delete the diagnostic data your device has sent to Microsoft. You can also view this diagnostic data using the [Diagnostic Data Viewer](/windows/privacy/diagnostic-data-viewer-overview) application.
 
 ## End-User Privacy Policy Standard
 In some cases, you may configure default settings and features on your customer system on behalf of the end-user.
@@ -32,5 +32,5 @@ However, if you turn on these settings and features by default or if diagnostics
 
 
 ## Additional Resources
-* [Windows Privacy](https://docs.microsoft.com/windows/privacy/)
+* [Windows Privacy](/windows/privacy/)
 * [Microsoft's Privacy Statement](https://privacy.microsoft.com/privacystatement) if you have any questions or concerns.

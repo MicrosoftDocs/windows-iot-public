@@ -2,7 +2,7 @@
 title: Azure IoT Edge for Linux on Windows
 author: fcabrera
 ms.author: fcabrera
-ms.date: 8/25/2021
+ms.date: 9/15/2021
 ms.topic: article
 ms.prod: windows-iot
 ms.technology: iot
