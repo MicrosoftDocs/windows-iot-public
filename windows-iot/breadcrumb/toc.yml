@@ -1,3 +1,22 @@
 - name: Docs
   tocHref: /
   topicHref: /
+  items:
+  - name: Windows
+    tocHref: /windows/
+    topicHref: /windows/
+    items:
+    - name: Windows IoT
+      tocHref: /windows/iot/
+      topicHref: /windows/iot/
+      items:
+      - name: Windows 10 IoT Enterprise
+        tocHref: /windows/iot/iot-enterprise/
+        topicHref: /windows/iot/iot-enterprise/getting_started
+        items: 
+        - name: Branding
+          tocHref: /windows/iot/iot-enterprise/branding
+          topicHref: /windows/iot/iot-enterprise/branding
+      - name: Windows CE
+        tocHref: /windows/iot/windows_ce/
+        topicHref: /windows/iot/windows_ce/
