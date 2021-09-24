@@ -2,20 +2,20 @@
 title: Layout Control
 author: rsameser
 ms.author: riameser
-ms.date: 9/15/2021
+ms.date: 10/05/2021
 ms.topic: article
 ms.prod: windows-iot
 ms.technology: iot
-description: Learn about the Layout Control Features of Windows 10 IoT Enterprise.
+description: Learn about the Layout Control Features of Windows IoT Enterprise.
 keywords: Branding, Layout Control, Start, Taskbar, Secondary Tiles
 ---
 # Layout Control
-In Windows 10 IoT Enterprise, organizations can deploy a [customized Start and Taskbar](/windows/configuration/windows-10-start-layout-options-and-policies) configuration to their devices. We know how important it is for your devices to maintain your brand and customized user-experience.
+In Windows IoT Enterprise, organizations can deploy a [customized Start and Taskbar](/windows/configuration/windows-10-start-layout-options-and-policies) configuration to their devices. We know how important it is for your devices to maintain your brand and customized user-experience.
 
 ## Configure Start Layout
 A standard, customized [Start layout](/windows/configuration/customize-and-export-start-layout) can be useful on devices that are common to multiple users and devices that are locked down for specialized purposes.
 
-The easiest method for creating a [customized Start layout](/windows/configuration/customize-and-export-start-layout) to apply to other Windows 10 devices is to set up the Start screen on a test computer and then export the layout.
+The easiest method for creating a [customized Start layout](/windows/configuration/customize-and-export-start-layout) to apply to other Windows devices is to set up the Start screen on a test computer and then export the layout.
 
 After you export the layout, decide whether you want to apply a full Start layout or a partial Start layout.
 
