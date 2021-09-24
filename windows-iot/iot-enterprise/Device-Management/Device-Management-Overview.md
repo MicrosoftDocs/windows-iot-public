@@ -45,7 +45,7 @@ We are working on bringing Device Update Center to Windows IoT Enterprise in the
 To learn more about DUC, please review this animated YouTube video on [Microsoft Device Update Center Primer](https://www.youtube.com/watch?v=mbclu-nWKbU).
 
 ## Windows Server Update Services (WSUS)
-[Windows Server Update Services (WSUS)](/windows-server/administration/windows-server-update-services/get-started/windows-server-update-services-wsus) enables organizations to deploy the latest Microsoft product updates to their Windows IoT devices. You can use WSUS to fully manage the distribution of updates that are released through Microsoft Update to devices on your network.
+[Windows Server Update Services (WSUS)](/windows-server/administration/windows-server-update-services/get-started/windows-server-update-services-wsus) enables organizations to deploy the latest Microsoft product updates to their Windows IoT devices. WSUS is not really device management, but it is included in this list for completeness. You can use WSUS to fully manage the distribution of updates that are released through Microsoft Update to devices on your network.
 
 A WSUS server provides features that you can use to manage and distribute updates through a management console. A WSUS server can also be the update source for other WSUS servers within the organization. The WSUS server that acts as an update source is called an upstream server. In a WSUS implementation, at least one WSUS server on your network must be able to connect to Microsoft Update to get available update information.
 
