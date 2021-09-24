@@ -2,7 +2,7 @@
 title: Device Management Overview
 author: rsameser
 ms.author: riameser
-ms.date: 9/15/2021
+ms.date: 9/23/2021
 ms.topic: article
 ms.prod: windows-iot
 ms.technology: iot
@@ -43,3 +43,11 @@ Azure IoT Device Agent provides a ready-to-build [open source solution](https://
 We are working on bringing Device Update Center to Windows IoT Enterprise in the coming months, it is currently in Private Preview.
 
 To learn more about DUC, please review this animated YouTube video on [Microsoft Device Update Center Primer](https://www.youtube.com/watch?v=mbclu-nWKbU).
+
+## Windows Server Update Services (WSUS)
+[Windows Server Update Services (WSUS)](/windows-server/administration/windows-server-update-services/get-started/windows-server-update-services-wsus) enables organizations to deploy the latest Microsoft product updates to their Windows IoT devices. You can use WSUS to fully manage the distribution of updates that are released through Microsoft Update to devices on your network.
+
+A WSUS server provides features that you can use to manage and distribute updates through a management console. A WSUS server can also be the update source for other WSUS servers within the organization. The WSUS server that acts as an update source is called an upstream server. In a WSUS implementation, at least one WSUS server on your network must be able to connect to Microsoft Update to get available update information.
+
+* [Deploy WSUS](/windows-server/administration/windows-server-update-services/deploy/deploy-windows-server-update-services)
+* [Update Management with WSUS](/windows-server/administration/windows-server-update-services/manage/update-management-with-windows-server-update-services)
