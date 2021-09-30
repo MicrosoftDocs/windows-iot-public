@@ -52,7 +52,7 @@ For all system services listed in this document, the two tables that follow offe
 | Name | Description |
 |--|--|
 | **Service name** | Key (internal) name of the service |
-| **Description** | The service's description, from sc.exe qdescription. |
+| **Description** | The service's description, from sc.exe description. |
 | **Installation** | *Always installed*: Service is installed on Windows IoT Enterprise. |
 | **Startup type** | Service Startup type on Windows IoT Enterprise |
 | **Recommendation** | Microsoft recommendation/advice about disabling this service on Windows IoT Enterprise in a typical, well-managed deployment. |
