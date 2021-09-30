@@ -21,12 +21,13 @@ highlightedContent:
     - title: What is Windows for IoT?
       itemType: overview # controls the icon image and super-title text
       url: ./product-family/windows-iot.md
-    - title: What's new in Windows for IoT?
+    - title: What's new in Windows 11 IoT Enterprise?  
+      itemType: reference
+      url: ./product-family/what's-new-in-Windows-11-IoT-Enterprise.md
+    - title: Windows for IoT News
       itemType: whats-new
       url: ./product-family/News-Blogs.md
-    - title: Windows 11 IoT 
-      itemType: get-started
-      url: ./product-family/what's-new-in-Windows-11-IoT-Enterprise.md
+
 
 productDirectory:
   items:
