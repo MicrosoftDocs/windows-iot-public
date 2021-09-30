@@ -33,13 +33,13 @@ Windows 11 IoT Enterprise is built on the same foundation as Windows 10 IoT Ente
 
 >[!TIP]
 >
-> Please see [Prepare for Windows 11](https://docs.microsoft.com/en-us/windows/whats-new/windows-11-prepare#infrastructure-and-tools) for more details on infrastructure and tools nuanced differences in regards to [on-premise solutions (WSUS)](https://docs.microsoft.com/en-us/windows/whats-new/windows-11-prepare#on-premises-solutions) or [Cloud-based solutions](https://docs.microsoft.com/en-us/windows/whats-new/windows-11-prepare#cloud-based-solutions).
+> Please see [Prepare for Windows 11](/windows/whats-new/windows-11-prepare#infrastructure-and-tools) for more details on infrastructure and tools nuanced differences in regards to [on-premise solutions (WSUS)](/windows/whats-new/windows-11-prepare#on-premises-solutions) or [Cloud-based solutions](/windows/whats-new/windows-11-prepare#cloud-based-solutions).
 
 ## Servicing
 
 Like Windows 10 IoT Enterprise, Windows 11 IoT Enterprise will receive monthly quality updates. However, it will have a new feature update cadence. Windows 11 feature updates will be released once per year, thus the semi-annual cadence for Windows 10 IoT Enterprise will remain, but starting with Windows 11 IoT Enterprise, there will only be an annual release.  
 
-When Windows 11 OS reaches general availability, important servicing-related announcements and information about known issues and safeguard holds can be found on the [Windows release health hub](https://aka.ms/windowsreleasehealth). Monthly release notes will also be available from a consolidated Windows 11 update history page at that time. For more information, see [Servicing and support](https://docs.microsoft.com/en-us/windows/whats-new/windows-11-plan#servicing-and-support).
+When Windows 11 OS reaches general availability, important servicing-related announcements and information about known issues and safeguard holds can be found on the [Windows release health hub](https://aka.ms/windowsreleasehealth). Monthly release notes will also be available from a consolidated Windows 11 update history page at that time. For more information, see [Servicing and support](/windows/whats-new/windows-11-plan#servicing-and-support).
 
 ## New Features and Functionality Updates
 With every new operating system, comes exciting new features and capabilities - Windows 11 IoT Enterprise is no different.
@@ -51,7 +51,7 @@ WSL lets you run a Linux environment, and up until this point has focused on ena
 
 
 ### USB 4.0
-Windows 11 IoT Enterprise brings support to USB 4.
+Windows 11 IoT Enterprise brings support to Universal Serial Bus 4 (USB4). To learn more, please review the [feature documentation](/windows-hardware/design/component-guidelines/universal-serial-bus-4).
 
 
 ### Wi-Fi 6
@@ -61,5 +61,5 @@ Windows 11 IoT Enterprise brings Wi-Fi 6 support to IoT devices. Wi-Fi 6 gives y
 In this first release of Windows 11 IoT Enterprise, the [assigned access multi-app kiosk mode](../iot-enterprise/Kiosk-Mode/Multi-App-Kiosk.md) functionality will not be available. However, customers can still use assigned access multi-app kiosk mode on Windows 10 IoT Enterprise. [Assigned access single-App kiosk mode](../iot-enterprise/Kiosk-Mode/Single-App-Kiosk.md) and [Shell Launcher]((../iot-enterprise/Kiosk-Mode/Shell-Launcher.md) are still fully functional in Windows 11 IoT Enterprise.
 
 ## Quick Links
-* [Windows 11 Overview](https://docs.microsoft.com/en-us/windows/whats-new/windows-11)
+* [Windows 11 Overview](windows/whats-new/windows-11)
 * [Windows 11 IoT - General Availability](https://aka.ms/Win11IoTGABlog)
