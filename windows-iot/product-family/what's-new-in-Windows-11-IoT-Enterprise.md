@@ -21,7 +21,7 @@ This article will walk you through the latest updates for Windows 11 IoT Enterpr
 ## Licensing
 There are no unique licensing requirements for Windows 11 IoT Enterprise beyond what is required for Windows 11 IoT Enterprise devices.
 
-Windows 11 IoT Enterprise will only be available as a [Annual release](../iot-enterprise/Commercialization/Licensing.md#Semi-Annual-Channel-SAC). Please contact your distributor for more information.
+Windows 11 IoT Enterprise will only be available as a [annual release](../iot-enterprise/Commercialization/Licensing.md). Please contact your distributor for more information.
 
 ## Compatibility
 Most accessories and associated drivers that work with Windows 10 IoT Enterprise are expected to work with Windows 11 IoT Enterprise. Check with your accessory manufacturer for specific details.
@@ -37,7 +37,7 @@ Windows 11 IoT Enterprise is built on the same foundation as Windows 10 IoT Ente
 
 ## Servicing
 
-Like Windows 10 IoT Enterprise, Windows 11 IoT Enterprise will receive monthly quality updates. However, it will have a new feature update cadence. Windows 11 feature updates will be released once per year, thus the semi-annual cadence for Windows 10 IoT Enterprise will remain, but starting with Windows 11 IoT Enterprise, there will only be an annual release.  
+Like Windows 10 IoT Enterprise, Windows 11 IoT Enterprise will receive monthly quality updates. However, it will have a new feature update cadence. Windows 11 feature updates will be released once per year, thus the semi-annual cadence for Windows 10 IoT Enterprise will remain, but starting with Windows 11 IoT Enterprise, there will only be one release a year.  
 
 When Windows 11 OS reaches general availability, important servicing-related announcements and information about known issues and safeguard holds can be found on the [Windows release health hub](https://aka.ms/windowsreleasehealth). Monthly release notes will also be available from a consolidated Windows 11 update history page at that time. For more information, see [Servicing and support](/windows/whats-new/windows-11-plan#servicing-and-support).
 
@@ -47,7 +47,8 @@ With every new operating system, comes exciting new features and capabilities - 
 ### WSLg
 With Windows 11 IoT Enterprise, customers will be able to take advantage of the highly anticipated feature, WSLg, which brings Linux GUI applications to the Windows Subsystem for Linux (WSL).
 
-WSL lets you run a Linux environment, and up until this point has focused on enabling command line tools utilities and applications. GUI app support now lets you use your favorite Linux GUI applications as well. WSL is used in a wide variety of applications, workloads, and use cases to learn more, check out the [announcement](https://devblogs.microsoft.com/commandline/the-initial-preview-of-gui-app-support-is-now-available-for-the-windows-subsystem-for-linux-2/) and [blog](https://devblogs.microsoft.com/commandline/wslg-architecture/).  
+WSL lets you run a Linux environment, and up until this point has focused on enabling command line tools utilities and applications. GUI app support now lets you use your favorite Linux GUI applications as well. WSL is used in a wide variety of applications, workloads, and use cases to learn more, check out the [announcement](
+  devblogs.microsoft.com/commandline/the-initial-preview-of-gui-app-support-is-now-available-for-the-windows-subsystem-for-linux-2/) and [blog](https://devblogs.microsoft.com/commandline/wslg-architecture/).  
 
 
 ### USB 4.0

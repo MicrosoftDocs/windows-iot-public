@@ -1,20 +1,20 @@
 ---
-title: What's New in Windows IoT?
+title: Windows for IoT News
 author: rsameser
 ms.author: riameser
-ms.date: 7/16/2021
+ms.date: 10/05/2021
 ms.topic: article
 ms.prod: windows-iot
 ms.technology: iot
-description: Review Blogs & News from the Windows IoT product family.
+description: Review Blogs & News from the Windows for IoT product family.
 keywords: Blogs, News, Windows IoT, Windows IoT Enterprise, Windows IoT Core, Build
 ---
 
-# What's New in Windows IoT?
-This section is updated regularly with new blogs, videos and case studies featuring Windows IoT Products.
+# What's New in Windows for IoT?
+This section is updated regularly with new blogs, videos and case studies featuring Windows for IoT Products.
 
-## Windows IoT Newsstand
-Stay up to date with the latest news and announcements regarding the Windows IoT Product Family.
+## Windows for IoT Newsstand
+Stay up to date with the latest news and announcements regarding the Windows for IoT Product Family.
 
 # [2021](#tab/2021)
 **January**
