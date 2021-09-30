@@ -1,7 +1,7 @@
 ### YamlMime:Hub
 
-title: Windows IoT Documentation
-summary: Windows IoT, formerly Windows Embedded, is a family of operating systems from Microsoft designed for use in embedded systems.
+title: Windows for IoT Documentation
+summary: Windows for IoT, formerly Windows Embedded, is a family of operating systems from Microsoft designed for use in embedded systems.
 brand: windows ## Used for color theming of icons and hero area
 
 metadata:
@@ -24,9 +24,9 @@ highlightedContent:
     - title: What's new in Windows for IoT?
       itemType: whats-new
       url: ./product-family/News-Blogs.md
-    - title: Which Windows for IoT Solution is Right For Me?
+    - title: Windows 11 IoT 
       itemType: get-started
-      url: ./product-family/windows-iot.md
+      url: ./product-family/what's-new-in-Windows-11-IoT-Enterprise.md
 
 productDirectory:
   items:

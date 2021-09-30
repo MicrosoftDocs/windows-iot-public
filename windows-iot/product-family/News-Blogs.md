@@ -42,6 +42,15 @@ Stay up to date with the latest news and announcements regarding the Windows IoT
 * Blog: [Windows IoT support lifecycle and upcoming releases](https://techcommunity.microsoft.com/t5/internet-of-things/windows-iot-support-lifecycle-and-upcoming-releases/ba-p/2511888)
 * Blog: [Introducing the next feature update to Windows 10: 21H2](https://blogs.windows.com/windowsexperience/2021/07/15/introducing-the-next-feature-update-to-windows-10-21h2/)
 
+**August**
+* Blog: [WSL and EFLOW for IoT Edge Development](https://techcommunity.microsoft.com/t5/internet-of-things/wsl-and-eflow-for-iot-edge-development/ba-p/2593485)
+
+**September**
+* Blog: [Windows Server IoT 2022 - Generally Available](https://techcommunity.microsoft.com/t5/internet-of-things/windows-server-iot-2022-now-generally-available/ba-p/2703521)
+
+**October**
+* Blog: [Introducing Windows 11 IoT](https://aka.ms/Win11IoTGABlog)
+
 # [2020](#tab/2020)
 **January**
 * Case Study: [Dover Fueling Solutions](https://customers.microsoft.com/story/775087-microsoft-country-corner-dover-fueling-solutions-oil-and-gas-azure)

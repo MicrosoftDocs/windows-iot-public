@@ -13,6 +13,10 @@ keywords: Lockdown, Multi-App, Kiosk
 # Assigned access multi-app kiosk
 An assigned access multi-app kiosk runs one or more apps from the desktop. People using the kiosk see a customized Start that shows only the tiles for the apps that are allowed. With this approach, you can configure a locked-down experience for different account types. A multi-app kiosk is appropriate for devices that are shared by multiple people. Here's a [guide](/windows/configuration/lock-down-windows-10-to-specific-apps) on how to set up a multi-app kiosk.
 
+>[!NOTE]
+>
+> Assigned access multi-app kiosk will not be available in the first release of Windows 11 IoT Enterprise. See [What's new in Windows 11 IoT Enterprise](.../product-family/what's-new-in-Windows-11-IoT-Enterprise.md) for more information.
+
 ## Benefits of using a multi-app kiosk
 The benefit of a kiosk that runs only one or more specified apps is to provide an easy-to-understand experience for individuals by putting in front of them only the things they need to use, and removing from their view the things they don’t need to access.
 
