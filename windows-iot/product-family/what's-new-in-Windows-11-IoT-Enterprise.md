@@ -10,7 +10,7 @@ description: Learn about what's new in Windows 11 IoT
 keywords: Windows IoT Enterprise, Windows 11, Windows 11 IoT, Windows 11 IoT Enterprise
 ---
 
-# What's new in Windows 11 IoT Enterprise?th
+# What's new in Windows 11 IoT Enterprise?
 
 This article will walk you through the latest updates for Windows 11 IoT Enterprise and what device builders and OEMs should know about this latest offering.
 
