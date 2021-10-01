@@ -12,12 +12,16 @@ keywords: Lifecyle, Windows IoT Enterprise, Windows 10 IoT Core, Windows Sever I
 
 # Windows for IoT Lifecycle pages
 
+To keep customers up-to-date with our offerings, we have provided links to the lifecycle pages to each product and its releases.  
+
+To further understand how these products are serviced please review [licensing](../iot-enterprise/Commercialization/Licensing.md) documentation.
+
 # [Windows IoT Enterprise](#tab/2021)
 
-* Windows 11 IoT Enterprise
+* **Windows 11 IoT Enterprise**
   * [2021 Annual Release (21H2)](https://review.docs.microsoft.com/en-us/lifecycle/products/windows-11-iot-enterprise-version-21h2?branch=master)
 
-* [Windows 10 IoT Enterprise]
+* **Windows 10 IoT Enterprise**
   * [2021 Long-Term Servicing Channel (LTSC)](/lifecycle/products/windows-10-iot-ltsc-2021)
   * [Semi-Annual Channel (SAC)](/lifecycle/products/windows-10-iot-enterprise)
   * [2019 Long-Term Servicing Channel (LTSC)](/lifecycle/products/windows-10-iot-ltsc-2019)

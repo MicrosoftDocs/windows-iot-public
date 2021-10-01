@@ -102,9 +102,9 @@ conceptualContent:
 
     - title: Resources
       links:
-        - url: ./product-family/News-Blogs.md
+        - url: ./product-family/Product-Lifecycle.md
           itemType: reference
-          text:  Windows for IoT News & Blogs
+          text:  Windows for IoT Product Lifecycle
         - url: https://www.youtube.com/channel/UCL7wy-iy_V76xxPnrIzGOZQ
           itemType: reference
           text:  Microsoft IoT Developer

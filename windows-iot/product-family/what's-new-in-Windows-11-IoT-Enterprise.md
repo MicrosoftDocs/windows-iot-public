@@ -21,7 +21,7 @@ This article will walk you through the latest updates for Windows 11 IoT Enterpr
 ## Licensing
 There are no unique licensing requirements for Windows 11 IoT Enterprise beyond what is required for Windows 11 IoT Enterprise devices.
 
-Windows 11 IoT Enterprise will only be available as a [annual release](../iot-enterprise/Commercialization/Licensing.md). Please contact your distributor for more information.
+Windows 11 IoT Enterprise will only be available as a [annual release](/lifecycle/faq/windows#windows-11). Please contact your distributor for more information.
 
 ## Compatibility
 Most accessories and associated drivers that work with Windows 10 IoT Enterprise are expected to work with Windows 11 IoT Enterprise. Check with your accessory manufacturer for specific details.
@@ -56,11 +56,13 @@ Windows 11 IoT Enterprise brings support to Universal Serial Bus 4 (USB4). To le
 
 
 ### Wi-Fi 6
-Windows 11 IoT Enterprise brings Wi-Fi 6 support to IoT devices. Wi-Fi 6 gives you better wireless coverage and performance with added security.
+Windows 11 IoT Enterprise brings Wi-Fi 6E support to IoT devices. Wi-Fi 6 gives you better wireless coverage and performance with added security. Review [Windows 11 Specifications](https://www.microsoft.com/en-us/windows/windows-11-specifications#table2) for more information.
 
-### Assigned Access Multi-App Kiosk Mode
-In this first release of Windows 11 IoT Enterprise, the [assigned access multi-app kiosk mode](../iot-enterprise/Kiosk-Mode/Multi-App-Kiosk.md) functionality will not be available. However, customers can still use assigned access multi-app kiosk mode on Windows 10 IoT Enterprise. [Assigned access single-App kiosk mode](../iot-enterprise/Kiosk-Mode/Single-App-Kiosk.md) and [Shell Launcher]((../iot-enterprise/Kiosk-Mode/Shell-Launcher.md) are still fully functional in Windows 11 IoT Enterprise.
+## Hardware Requirements
+At this time, if you would like to use Windows 11 IoT Enterprise, the [system requirements](https://www.microsoft.com/windows/windows-11-specifications#table1) are identical to the Client edition.
+
 
 ## Quick Links
 * [Windows 11 Overview](windows/whats-new/windows-11)
 * [Windows 11 IoT - General Availability](https://aka.ms/Win11IoTGABlog)
+* [Windows 11 - Feature deprecations and removals](https://www.microsoft.com/en-us/windows/windows-11-specifications#table3)
