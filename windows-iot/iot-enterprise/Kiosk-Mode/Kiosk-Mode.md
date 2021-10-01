@@ -40,6 +40,10 @@ The kiosk account can be a local standard user account, a domain account, or an 
 | Assigned access | Multi-app kiosk | Always auto launches a restricted Start menu in full screen with the list of allowed app tiles. Supports configuring different multi-app kiosk profiles for different users/user groups per device. | Firstline Worker shared devices |
 | Shell launcher | Shell launcher | Auto launches an app that the customer specifies and monitors the lifecycle of this app. App can be used as a ‘shell’ if desired. No default lockdown policies like hotkey blocking are enforced in Shell Launcher. | Fixed purpose devices with a custom shell experience |
 
+>[!NOTE]
+>
+> Assigned access multi-app kiosk will not be available in the 21H2 release of Windows 11 IoT Enterprise. See [What's new in Windows 11 IoT Enterprise](/windows/iot/product-family/what's-new-in-windows-11-iot-enterprise) for more information.
+
 ## How to configure your device for kiosk mode?
 Please visit the following documentation to set up a kiosk according to your scenario:
 * [Configure kiosks and digital signs](/windows/configuration/kiosk-methods)
