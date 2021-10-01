@@ -2,28 +2,28 @@
 title: Licensing & Usage
 author: rsameser
 ms.author: riameser
-ms.date: 9/15/2021
+ms.date: 10/05/2021
 ms.topic: article
 ms.prod: windows-iot
 ms.technology: iot
-description: Learn about licensing for Windows 10 IoT Enterprise.
+description: Learn about licensing for Windows IoT Enterprise.
 keywords: IoT Enterprise, OEM, Licensing, LTSC, SAC
 ---
 
 # Licensing & Usage
-In order to start your journey with Windows 10 IoT Enterprise, you'll need to get a license.
+In order to start your journey with Windows IoT Enterprise, you'll need to get a license.
 
-You can retrieve a license by contacting a [Windows IoT Distributor](https://aka.ms/IoTDistributorList) or use the [Windows 10 IoT Enterprise 90 day Evaluation](https://www.microsoft.com/evalcenter/evaluate-windows-10-enterprise).
+You can retrieve a license by contacting a [Windows IoT Distributor](https://aka.ms/IoTDistributorList) or use the [Windows Enterprise 90 day Evaluation](https://www.microsoft.com/evalcenter/evaluate-windows-10-enterprise).
 
 ## Distributors
 Microsoft offers many Windows IoT and Embedded SKUs. Authorized distributors of Windows IoT products can help you pick the right SKU for your hardware and your budget by leveraging their development experiences, and knowledge, to help you build secure and connected Windows IoT solutions. If you would like to work with one of our distributors, please [select a distributor](https://aka.ms/IoTDistributorList) in your region and contact the distributor directly for more details.
 
 
 ### Fixed purpose devices
-Windows is well known as the operating system for laptops and desktops that have been used by consumers and businesses worldwide for decades. Windows also powers many ATM machines, point-of-sale terminals, industrial automation systems, thin clients, medical devices, digital signage, kiosks, and other fixed purpose devices. Windows 10 IoT Enterprise allows you to build these fixed purpose devices with specific allowances and restrictions in the license agreement.  
+Windows is well known as the operating system for laptops and desktops that have been used by consumers and businesses worldwide for decades. Windows also powers many ATM machines, point-of-sale terminals, industrial automation systems, thin clients, medical devices, digital signage, kiosks, and other fixed purpose devices. Windows IoT Enterprise allows you to build these fixed purpose devices with specific allowances and restrictions in the license agreement.  
 
 > [!TIP]
-> See your licensing agreement for complete guidance on all Windows 10 IoT Enterprise usage scenarios. If you are an end-user customer, your OEM should have provided you with the terms in an agreement. If you are an OEM, you can direct questions to your distributor regarding your specific licensing agreement.  
+> See your licensing agreement for complete guidance on all Windows IoT Enterprise usage scenarios. If you are an end-user customer, your OEM should have provided you with the terms in an agreement. If you are an OEM, you can direct questions to your distributor regarding your specific licensing agreement.  
 
 A fixed purpose device differs from a general-purpose device in the following ways:  
 * The device is locked down to a single application or fixed set of applications through the Assigned Access or Shell Launcher features.  
@@ -35,9 +35,11 @@ A fixed purpose device differs from a general-purpose device in the following wa
 
 > [!NOTE]
 >
-> There are currently **two** release channels for Windows 10:
+> There are currently **two** release channels for Windows 10 IoT Enterprise:
 > * The Semi-Annual Channel receives feature updates twice per year and provides support for **18-30 months**.
 > * The Long Term Servicing Channel, which is designed to be used only for specialized devices (which typically don't run Office) such as those that control medical equipment or ATM machines, receives new feature releases every two to three years and provides support for **10 years**.
+>
+> There is currently **one** annual release channel for Windows 11 IoT Enterprise - please see [Windows 11 servicing](/lifecycle/faq/windows#windows-11) and [Windows for IoT Product Lifecycle](/windows/iot/product-family/product-lifecycle) for more information.
 
 
 ## Semi-Annual Channel (SAC)
@@ -55,18 +57,14 @@ Microsoft makes available a new [Windows 10 IoT Enterprise LTSC release](/lifecy
 
 Please review the [Fixed Lifecycle Policy](/lifecycle/policies/fixed) for more information.
 
-### Windows 10 LTSC Releases
-| LTSC release | Equivalent SAC release | Availability date |
-| --- | --- | --- |
-| [Windows 10 Enterprise 2019 LTSC](/windows/whats-new/ltsc/whats-new-windows-10-2019)  | Windows 10, Version 1809 | 11/13/2018 |
-| [Windows 10 Enterprise 2016 LTSC](/windows/whats-new/ltsc/whats-new-windows-10-2016)  | Windows 10, Version 1607 | 8/2/2016 |
-| [Windows 10 Enterprise 2015 LTSC](/windows/whats-new/ltsc/whats-new-windows-10-2015)  | Windows 10, Version 1507 | 7/29/2015 |
+### Windows for IoT Releases
+Please visit the [Windows for IoT product lifecycle](/windows/iot/product-family/product-lifecycle) for more information on each product's latest releases and servicing information.
 
 ## Activation Guide
-After you purchase your license and receive your keys for Windows 10 IoT Enterprise, please make sure you get yourself a copy of the Activation Guide.
+After you purchase your license and receive your keys for Windows IoT Enterprise, please make sure you get yourself a copy of the Activation Guide.
 You can retrieve this document either by reaching out to your distributor or by accessing it through your [Device Partner Center](https://devicepartner.microsoft.com) account.
 
 ## Additional Resources
-* [Windows 10 IoT Enterprise Manufacturing Guide](/windows-hardware/manufacture/desktop/iot-ent-overview)
-* [Windows 10 Servicing](/windows/deployment/update/waas-overview#servicing)
+* [Windows IoT Enterprise Manufacturing Guide](/windows-hardware/manufacture/desktop/iot-ent-overview)
+* [Windows Servicing](/windows/deployment/update/waas-overview#servicing)
 * [Servicing Channels](/windows/deployment/update/waas-overview#servicing-channels)

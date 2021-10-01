@@ -2,19 +2,19 @@
 title: Privacy
 author: rsameser
 ms.author: riameser
-ms.date: 9/15/2021
+ms.date: 10/05/2021
 ms.topic: article
 ms.prod: windows-iot
 ms.technology: iot
-description: Learn about Privacy features in Windows 10 IoT Enterprise.
+description: Learn about Privacy features in Windows IoT Enterprise.
 keywords: IoT Enterprise, Accessibility, Privacy
 ---
 
 # Privacy
-Windows 10 IoT Enterprise provides users with many privacy options and features.
+Windows IoT Enterprise provides users with many privacy options and features.
 
 ## Privacy Features
-With Windows 10 IoT Enterprise, we provide you with even more control on your data and information. Please review, [Windows 10 & Privacy Compliance:
+With Windows IoT Enterprise, we provide you with even more control on your data and information. Please review, [Windows 10 & Privacy Compliance:
 A Guide for IT and Compliance Professionals](/windows/privacy/windows-10-and-privacy-compliance) for more features.
 
 ## Manage your Data

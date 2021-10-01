@@ -6,22 +6,22 @@ ms.date: 9/15/2021
 ms.topic: article
 ms.prod: windows-iot
 ms.technology: iot
-description: Learn about the Security features of Windows 10 IoT Enterprise.
+description: Learn about the Security features of Windows IoT Enterprise.
 keywords: IoT Enterprise, Security
 ---
 
 # Security
-Windows 10 IoT Enterprise comes with a host of [security offerings](/windows/whats-new/ltsc/whats-new-windows-10-2019#security) that you can leverage to best fit your Windows 10 IoT Enterprise solution.
+Windows IoT Enterprise comes with a host of [security offerings](/windows/whats-new/ltsc/whats-new-windows-10-2019#security) that you can leverage to best fit your Windows IoT Enterprise solution.
 
 ## Microsoft Security Response Center
 The world is more connected today than it has ever been. Technology is wound deep into our lives and has become part of our routine. With great advances, we have also seen a greater dynamic playing out between threat actors and the defenders. The [Microsoft Security Response Center (MSRC)](https://www.microsoft.com/msrc?rtc=1) is part of the defender community and on the front line of security response evolution. For over twenty years MSRC has been working to improve security for our customers, learning from both successes and failures. Time has only reasserted MSRC's commitment to better protect customers and the broader ecosystem.
 
-MSRC's mission is to protect customers from being harmed by security vulnerabilities in Microsoft's products and services. By building your solution with Windows 10 IoT Enterprise, you have Microsoft Security Response Center's commitment towards security. Please review their [Security Update Guide](https://msrc.microsoft.com/update-guide/) to ensure your devices are up-to-date and secured.
+MSRC's mission is to protect customers from being harmed by security vulnerabilities in Microsoft's products and services. By building your solution with Windows IoT Enterprise, you have Microsoft Security Response Center's commitment towards security. Please review their [Security Update Guide](https://msrc.microsoft.com/update-guide/) to ensure your devices are up-to-date and secured.
 
 ## Comprehensive Security Features
-Windows 10 IoT Enterprise, brings Enterprise security to your IoT devices.
+Windows IoT Enterprise, brings Enterprise security to your IoT devices.
 
-Windows 10 IoT Enterprise is built on a five-point comprehensive security platform:
+Windows IoT Enterprise is built on a five-point comprehensive security platform:
 1. [Device protection](#1-device-protection)
 2. [Threat Resistance](#2-threat-resistance)
 3. [Data Protection in Motion](#3-data-protection-in-motion)
@@ -45,7 +45,7 @@ Modern malware is getting more and more sophisticated. Some of them, specificall
 
 The OEM can use instructions from the firmware manufacturer to create Secure boot keys and to store them in the PC firmware. When you add UEFI drivers, you'll also need to make sure these are signed and included in the Secure Boot database.
 
-For information on how the secure boot process works included Trusted Boot and Measured Boot, see [Secure the Windows 10 boot process](/windows/security/information-protection/secure-the-windows-10-boot-process).
+For information on how the secure boot process works included Trusted Boot and Measured Boot, see [Secure the Windows boot process](/windows/security/information-protection/secure-the-windows-10-boot-process).
 
 ##### BitLocker​
 Wherever confidential data is stored, it must be protected against unauthorized access. Windows has a long history of providing at-rest data-protection solutions that guard against nefarious attackers, beginning with the Encrypting File System in the Windows 2000 operating system. More recently, [BitLocker](/windows/security/information-protection/bitlocker/bitlocker-device-encryption-overview-windows-10) has provided encryption for full drives and portable drives. Windows consistently improves data protection by improving existing options and by providing new strategies. To learn more, see [BitLocker Overview and Requirements FAQ](/windows/security/information-protection/bitlocker/bitlocker-overview-and-requirements-faq)
@@ -80,12 +80,12 @@ To learn more, visit [Azure Security](https://azure.microsoft.com/overview/secur
 Microsoft has all the tooling to provide immediate support and assistance.  
 
 ##### Device Management
-Microsoft provides a whole suite of [device management](../Device-Management/Device-Management-Overview.md) solutions to keep your devices safe and monitor activity at all times. Managing a device is now easier than ever on Windows 10 IoT Enterprise. There are multiple options that your organization can choose from in order to best manage your devices, such as Microsoft Intune, Endpoint Manager and third-party OMA-DM based management tools. OEMs can also select [Azure Device Agent](/windows/iot-core/manage-your-device/azureiotda), which leaves it up to their customers to select the device management solution that fits them best.
+Microsoft provides a whole suite of [device management](../Device-Management/Device-Management-Overview.md) solutions to keep your devices safe and monitor activity at all times. Managing a device is now easier than ever on Windows IoT Enterprise. There are multiple options that your organization can choose from in order to best manage your devices, such as Microsoft Intune, Endpoint Manager and third-party OMA-DM based management tools. OEMs can also select [Azure Device Agent](/windows/iot-core/manage-your-device/azureiotda), which leaves it up to their customers to select the device management solution that fits them best.
 
 * [Use Intune to remediate vulnerabilities identified by Microsoft Defender ATP](/mem/intune/protect/atp-manage-vulnerabilities)
 
 ##### Device Recovery
-In case something is to go wrong with your device, Windows 10 IoT Enterprise supports two device recovery options:
+In case something is to go wrong with your device, Windows IoT Enterprise supports two device recovery options:
 
 **Option #1:** Isolate the device using device management tools or network settings
 

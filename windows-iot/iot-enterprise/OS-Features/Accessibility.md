@@ -1,16 +1,16 @@
 ---
-title: Accessibility for Windows 10 IoT
+title: Accessibility for Windows IoT Enterprise
 author: rsameser
 ms.author: riameser
-ms.date: 9/15/2021
+ms.date: 10/05/2021
 ms.topic: article
 ms.prod: windows-iot
 ms.technology: iot
-description: Learn about the Accessibility in Windows 10 IoT Enterprise.
+description: Learn about the Accessibility in Windows IoT Enterprise.
 keywords: IoT Enterprise, Accessibility
 ---
 
-# An Overview of Accessibility for Windows IoT
+# An Overview of Accessibility for Windows IoT Enterprise
 
 ## Introduction
 Accessibility enables people of all abilities to intuitively and efficiently leverage all the functionalities that your applications or devices offer, regardless of a person interacts with your application or device.
@@ -54,11 +54,11 @@ In addition, an introduction to the UI Automation API and some tools available t
 
 
 ## Accessibility Features
-Windows 10 IoT Enterprise includes accessibility features that can be integrated to further support where [vision](/windows/configuration/windows-10-accessibility-for-itpros#vision), [hearing](/windows/configuration/windows-10-accessibility-for-itpros#hearing), [physical](/windows/configuration/windows-10-accessibility-for-itpros#physical), [cognition](/windows/configuration/windows-10-accessibility-for-itpros#cognition), along with [assistive technology](/windows/configuration/windows-10-accessibility-for-itpros#assistive-technology-devices-built-into-windows-10) is needed. This additional support makes it easier to customize devices and gives users with different abilities options to improve their experience with Windows.
+Windows IoT Enterprise includes accessibility features that can be integrated to further support where [vision](/windows/configuration/windows-10-accessibility-for-itpros#vision), [hearing](/windows/configuration/windows-10-accessibility-for-itpros#hearing), [physical](/windows/configuration/windows-10-accessibility-for-itpros#physical), [cognition](/windows/configuration/windows-10-accessibility-for-itpros#cognition), along with [assistive technology](/windows/configuration/windows-10-accessibility-for-itpros#assistive-technology-devices-built-into-windows-10) is needed. This additional support makes it easier to customize devices and gives users with different abilities options to improve their experience with Windows.
 
 
 ## General Recommendations
-* **Be aware of Ease of Access settings** – Understand how these devices are being used. Help people in your organization learn how they can customize Windows 10.
+* **Be aware of Ease of Access settings** – Understand how these devices are being used. Help people in your organization learn how they can customize Windows IoT Enterprise.
 * **Do not block settings** – Avoid using Group Policy or MDM settings that override Ease of Access settings.
 * **Encourage choice** – Allow for device customization based upon needs. That might mean installing an add-on for a browser, or a non-Microsoft assistive technology.
 
