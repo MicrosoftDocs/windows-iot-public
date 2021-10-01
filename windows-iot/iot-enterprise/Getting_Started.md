@@ -14,12 +14,12 @@ keywords: IoT Enterprise, binary, fixed purpose devices, LTSC, Silicon
 This article will give you an overview of the product and guide you through how to get started with Windows IoT Enterprise.
 
 ## What is Windows IoT Enterprise?
-Windows IoT Enterprise is a full version of Windows Enterprise that delivers enterprise manageability and security to IoT solutions. Windows IoT Enterprise shares all the benefits of the worldwide Windows ecosystem. It is a binary equivalent to Windows Enterprise, so you can use the same familiar development and management tools as client PCs and laptops. However, when it comes to *licensing and distribution*, the desktop version and IoT versions differ.
+Windows IoT Enterprise is a full version of Windows Enterprise that delivers enterprise manageability and security to IoT solutions. Windows IoT Enterprise shares all the benefits of the worldwide Windows ecosystem. It is a binary equivalent to Windows Enterprise, so you can use the same familiar development and management tools as client PCs and laptops. However, when it comes to *licensing and distribution*, the desktop version and IoT versions differ. Today there are two releases of Windows IoT Enterprise: Windows 10 IoT Enterprise and [Windows 11 IoT Enterprise].
 
 
 > [!NOTE]
 >
-> Windows IoT Enterprise offers *both* LTSC and SAC options, and OEMs can choose the one they need for their devices. For more information on how to reach out to a [Windows IoT Distributor](https://aka.ms/IoTDistributorList) or how to purchase a license, review [Licensing & Usage](./Commercialization/Licensing.md).
+> Windows 10 IoT Enterprise offers *both* LTSC and SAC options, and OEMs can choose the one they need for their devices. At this time Windows 11 IoT Enterprise is only available as an [annual release](/lifecycle/faq/windows#windows-11). For more information on how to reach out to a [Windows IoT Distributor](https://aka.ms/IoTDistributorList) or how to purchase a license, review [Licensing & Usage](./Commercialization/Licensing.md).
 
 
 ## Why Do Customer Choose Windows IoT Enterprise?
