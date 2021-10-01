@@ -60,6 +60,11 @@ Windows 11 IoT Enterprise brings Wi-Fi 6E support to IoT devices. Wi-Fi 6 gives 
 ## Hardware Requirements
 At this time, if you would like to use Windows 11 IoT Enterprise, the [system requirements](https://www.microsoft.com/windows/windows-11-specifications#table1) are identical to the Client edition.
 
+### Windows 11 Supported Processor Lists
+* [Intel](/windows-hardware/design/minimum/supported/windows-11-supported-intel-processors)
+* [Qualcomm](https://docs.microsoft.com/en-us/windows-hardware/design/minimum/supported/windows-11-supported-qualcomm-processors)
+* [AMD](/windows-hardware/design/minimum/supported/windows-11-supported-amd-processors)
+
 
 ## Quick Links
 * [Windows 11 Overview](/windows/whats-new/windows-11)
