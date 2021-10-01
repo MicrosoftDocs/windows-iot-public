@@ -47,8 +47,7 @@ With every new operating system, comes exciting new features and capabilities - 
 ### WSLg
 With Windows 11 IoT Enterprise, customers will be able to take advantage of the highly anticipated feature, WSLg, which brings Linux GUI applications to the Windows Subsystem for Linux (WSL).
 
-WSL lets you run a Linux environment, and up until this point has focused on enabling command line tools utilities and applications. GUI app support now lets you use your favorite Linux GUI applications as well. WSL is used in a wide variety of applications, workloads, and use cases to learn more, check out the [announcement](
-  devblogs.microsoft.com/commandline/the-initial-preview-of-gui-app-support-is-now-available-for-the-windows-subsystem-for-linux-2/) and [blog](https://devblogs.microsoft.com/commandline/wslg-architecture/).  
+WSL lets you run a Linux environment, and up until this point has focused on enabling command line tools utilities and applications. GUI app support now lets you use your favorite Linux GUI applications as well. WSL is used in a wide variety of applications, workloads, and use cases to learn more, check out the [announcement](https://devblogs.microsoft.com/commandline/the-initial-preview-of-gui-app-support-is-now-available-for-the-windows-subsystem-for-linux-2/) and [blog](https://devblogs.microsoft.com/commandline/wslg-architecture/).  
 
 
 ### USB 4.0
@@ -63,6 +62,6 @@ At this time, if you would like to use Windows 11 IoT Enterprise, the [system re
 
 
 ## Quick Links
-* [Windows 11 Overview](windows/whats-new/windows-11)
+* [Windows 11 Overview](/windows/whats-new/windows-11)
 * [Windows 11 IoT - General Availability](https://aka.ms/Win11IoTGABlog)
 * [Windows 11 - Feature deprecations and removals](https://www.microsoft.com/en-us/windows/windows-11-specifications#table3)

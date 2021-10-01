@@ -19,14 +19,14 @@ To further understand how these products are serviced please review [licensing](
 # [Windows IoT Enterprise](#tab/2021)
 
 * **Windows 11 IoT Enterprise**
-  * [2021 Annual Release (21H2)](https://review.docs.microsoft.com/en-us/lifecycle/products/windows-11-iot-enterprise-version-21h2?branch=master)
+  * [2021 Annual Release (21H2)](https://review.docs.microsoft.com/lifecycle/products/windows-11-iot-enterprise-version-21h2?branch=master)
 
 * **Windows 10 IoT Enterprise**
   * [2021 Long-Term Servicing Channel (LTSC)](/lifecycle/products/windows-10-iot-ltsc-2021)
   * [Semi-Annual Channel (SAC)](/lifecycle/products/windows-10-iot-enterprise)
   * [2019 Long-Term Servicing Channel (LTSC)](/lifecycle/products/windows-10-iot-ltsc-2019)
-  * [2016 Long-Term Servicing Branch (LTSB)](https://docs.microsoft.com/en-us/lifecycle/products/windows-10-iot-2016-ltsb)
-  * [2015 Long-Term Servicing Branch (LTSB)](https://docs.microsoft.com/en-us/lifecycle/products/windows-10-iot-2015-ltsb)
+  * [2016 Long-Term Servicing Branch (LTSB)](/lifecycle/products/windows-10-iot-2016-ltsb)
+  * [2015 Long-Term Servicing Branch (LTSB)](/lifecycle/products/windows-10-iot-2015-ltsb)
 
 
 # [Windows Server IoT](#tab/2020)
