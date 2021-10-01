@@ -12,11 +12,12 @@ keywords: Windows IoT Enterprise, Windows 11, Windows 11 IoT, Windows 11 IoT Ent
 
 # What's new in Windows 11 IoT Enterprise?
 
+This article will walk you through the latest updates for Windows 11 IoT Enterprise and what device builders and OEMs should know about this latest offering.
+
 Windows 11 IoT Enterprise is the next evolution of Windows IoT; it is the most significant update to the Windows operating system since Windows 10. It offers many innovations focused on enhancing end-user experience that is flexible and fluid. Windows 11 IoT Enterprise is designed to support today's hybrid world, and intended to be the most reliable, secure, connected, and performant Windows operating system ever.
 
 Windows 11 IoT Enterprise is built on the same foundation as Windows 10 IoT Enterprise, so the investments you have made in tools for update and device management are carried forward. Windows 11 IoT Enterprise also sustains the application compatibility promise made with the Windows 10 operating systems.
 
-This article will walk you through the latest updates for Windows 11 IoT Enterprise and what device builders and OEMs should know about this latest offering.
 
 ## Licensing
 There are no unique licensing requirements for Windows 11 IoT Enterprise beyond what is required for Windows 11 IoT Enterprise devices.
@@ -62,7 +63,7 @@ At this time, if you would like to use Windows 11 IoT Enterprise, the [system re
 
 ### Windows 11 Supported Processor Lists
 * [Intel](/windows-hardware/design/minimum/supported/windows-11-supported-intel-processors)
-* [Qualcomm](https://docs.microsoft.com/en-us/windows-hardware/design/minimum/supported/windows-11-supported-qualcomm-processors)
+* [Qualcomm](/windows-hardware/design/minimum/supported/windows-11-supported-qualcomm-processors)
 * [AMD](/windows-hardware/design/minimum/supported/windows-11-supported-amd-processors)
 
 
