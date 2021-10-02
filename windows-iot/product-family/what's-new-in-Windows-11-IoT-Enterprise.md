@@ -32,12 +32,6 @@ For devices that are not managed by an organization, the Windows 11 upgrade will
 
 For more information about device eligibility, see [Windows 11 requirements](https://docs.microsoft.com/windows/whats-new/windows-11-requirements).
 
->[!NOTE]
->
-> Microsoft does not publish feature updates through Windows Update for devices running Windows 10 IoT Enterprise LTSC.
->
-> Microsoft releases new LTSC editions every 2–3 years. OEMs may purchase a newer LTSC as a field upgrade for their devices, if appropriate. Please contact your [Windows IoT Distributor](https://aka.ms/IoTDistributorList) for more information.
-
 
 ## Licensing
 The licensing requirements for Windows 11 IoT Enterprise devices are identical to what is required for Windows 11 IoT Enterprise devices.
@@ -61,6 +55,12 @@ Windows 11 IoT Enterprise is built on the same foundation as Windows 10 IoT Ente
 Like Windows 10 IoT Enterprise, Windows 11 IoT Enterprise will receive monthly quality updates. However, it will have a new feature update cadence. The semi-annual cadence for Windows 10 IoT Enterprise will remain, but starting with Windows 11 IoT Enterprise, there will only be one release a year.  
 
 Important servicing-related announcements and information about known issues and safeguard holds can be found on the [Windows release health hub](https://aka.ms/windowsreleasehealth). For more information, see [Servicing and support](/windows/whats-new/windows-11-plan#servicing-and-support).
+
+>[!NOTE]
+>
+> Microsoft does not publish feature updates through Windows Update for devices running Windows 10 IoT Enterprise LTSC.
+>
+> Microsoft releases new LTSC editions every 2–3 years. OEMs may purchase a newer LTSC as a field upgrade for their devices, if appropriate. Please contact your [Windows IoT Distributor](https://aka.ms/IoTDistributorList) for more information.
 
 ## New Features and Functionality Updates
 With every new operating system, comes exciting new features and capabilities - Windows 11 IoT Enterprise is no different.
