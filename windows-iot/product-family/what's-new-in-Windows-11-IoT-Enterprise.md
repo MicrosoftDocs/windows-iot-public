@@ -26,7 +26,7 @@ Windows 11 IoT Enterprise is built on the same foundation as Windows 10 IoT Ente
 
 Windows 11 IoT Enterprise will be delivered as an upgrade to eligible devices running Windows 10 IoT Enterprise, beginning on October 5, 2021.
 
-For administrators managing devices on behalf of their organization, Windows 11 IoT Enterprise will be available through the same, familiar channels that you use today for Windows 10 IoT Enterprise feature updates. You will be able to use existing deployment and management tools, such as Windows Update for Business, Microsoft Endpoint Manager, and Windows Autopilot. For more information, see [Plan for Windows 11](https://docs.microsoft.com/windows/whats-new/windows-11-plan).
+For administrators managing devices on behalf of their organization, Windows 11 IoT Enterprise will be available through the same, familiar channels that you use today for Windows 10 IoT Enterprise feature updates. You will be able to use existing deployment and management tools, such as Windows Update for Business, and Microsoft Endpoint Manager. For more information, see [Plan for Windows 11](https://docs.microsoft.com/windows/whats-new/windows-11-plan).
 
 For devices that are not managed by an organization, the Windows 11 upgrade will be offered to eligible Windows 10 devices through Windows Update using Microsoft's intelligent rollout process to ensure a smooth upgrade experience.
 

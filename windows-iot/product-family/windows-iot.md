@@ -16,13 +16,13 @@ keywords: Windows IoT Enterprise, Windows 10 IoT Core, Windows Sever IoT 2022
 Windows for IoT is a member of the Windows family that brings enterprise-class power, security, and manageability to the Internet of Things. It leverages Windows' embedded experience, ecosystem and cloud connectivity, allowing organizations to create their Internet of Things with secure devices that can be quickly provisioned, easily managed, and seamlessly connected to an overall cloud strategy.  
 
 ## Windows for IoT Editions
-Windows IoT comes in **three** editions.
+Windows for IoT comes in **three** editions.
 1. [Windows IoT Enterprise](../iot-enterprise/Getting_Started.md) is a full version of Windows Enterprise with specialized features to create dedicated devices locked down to a specific set of applications and peripherals.
-2. [Windows Server IoT 2022](../server/windows-server.md) is a full version of Windows Server 2019 that delivers enterprise manageability and security to IoT solutions.
+2. [Windows Server IoT 2022](../server/windows-server.md) is a full version of Windows Server 2022 that delivers enterprise manageability and security to IoT solutions.
 3. [Windows 10 IoT Core](/windows/iot-core/windows-iot-core) is the smallest member of the Windows 10 operating system family. While only running a single app, it still has the manageability and security expected from Windows 10.  
 
 ## Fixed purpose devices
-Windows is well known as the operating system for laptops and desktops that have been used by consumers and businesses worldwide for decades. Windows also powers many ATM machines, point-of-sale terminals, industrial automation systems, thin clients, medical devices, digital signage, kiosks, and other fixed purpose devices. Windows IoT allows you to build these fixed purpose devices with specific allowances and restrictions in the license agreement.
+Windows is well known as the operating system for laptops and desktops that have been used by consumers and businesses worldwide for decades. Windows also powers many ATM machines, point-of-sale terminals, industrial automation systems, thin clients, medical devices, digital signage, kiosks, and other fixed purpose devices. Windows for IoT allows you to build these fixed purpose devices with specific allowances and restrictions in the license agreement.
 
 >[!TIP]
 >
