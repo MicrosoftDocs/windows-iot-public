@@ -33,13 +33,13 @@ For devices that are not managed by an organization, the Windows 11 upgrade will
 For more information about device eligibility, see [Windows 11 requirements](https://docs.microsoft.com/windows/whats-new/windows-11-requirements).
 
 >[!NOTE]
-> Customers running Windows 10 IoT Enterprise LTSC will not be able to upgrade to Windows 11 IoT Enterprise LTSC, as upgrade scenarios are not supported on the IoT LTSC SKUs. Please review the [Lifecyle FAQ](/lifecycle/faq/windows) or contact your [distributor](https://aka.ms/IoTDistributorList) for more information.  
+> Microsoft does not publish feature updates through Windows Update on devices that run Windows 10 Enterprise LTSC. Instead, it typically offers new LTSC releases every 2–3 years, and OEMs can choose to install them as in-place upgrades or even skip releases over a 10-year life cycle. Please contact your [Windows IoT Distributor](https://aka.ms/IoTDistributorList) for more information.  
 
 
 ## Licensing
 The licensing requirements for Windows 11 IoT Enterprise devices are identical to what is required for Windows 11 IoT Enterprise devices.
 
-Windows 11 IoT Enterprise will only be available as a [annual release](https://docs.microsoft.com/lifecycle/faq/windows#windows-11). Please contact your distributor for more information.
+Windows 11 IoT Enterprise will only be available as an [annual release](https://docs.microsoft.com/lifecycle/faq/windows#windows-11). Please contact your distributor for more information.
 
 ## Compatibility
 Most accessories and associated drivers that work with Windows 10 IoT Enterprise are expected to work with Windows 11 IoT Enterprise. Check with your accessory manufacturer for specific details.
