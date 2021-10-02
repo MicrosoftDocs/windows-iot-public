@@ -36,7 +36,7 @@ For more information about device eligibility, see [Windows 11 requirements](htt
 >
 > Microsoft does not publish feature updates through Windows Update for devices running Windows 10 IoT Enterprise LTSC.
 >
-> Microsoft releases new LTSC editions every 2–3 years. OEMs may purchase a newer LTSC as a field upgrade for their devices if appropriate. Please contact your [Windows IoT Distributor](https://aka.ms/IoTDistributorList) for more information.
+> Microsoft releases new LTSC editions every 2–3 years. OEMs may purchase a newer LTSC as a field upgrade for their devices, if appropriate. Please contact your [Windows IoT Distributor](https://aka.ms/IoTDistributorList) for more information.
 
 
 ## Licensing
