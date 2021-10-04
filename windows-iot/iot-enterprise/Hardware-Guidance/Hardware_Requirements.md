@@ -13,6 +13,10 @@ keywords: IoT Enterprise, Hardware, Windows IoT
 # Minimum Hardware Requirements for Windows IoT Enterprise
 This specification defines the minimum hardware requirements for Windows IoT Enterprise. Microsoft will build and test the Windows IoT Enterprise OS against the requirements described in this specification.
 
+> [!NOTE]
+>
+> At this time, if you would like to use Windows 11 IoT Enterprise, the [system requirements](https://www.microsoft.com/windows/windows-11-specifications#table1) are identical to the Client edition. However, this is subject to change with subsequent releases as Windows 10 IoT Enterprise has previously amended hardware requirements in the past to meet the needs of the IoT device ecosystem.
+
 ## Overview
 This specification defines the minimum hardware requirements necessary to:
 * Boot and run Windows IoT Enterprise.
@@ -33,6 +37,12 @@ Devices that run Windows IoT Enterprise must meet these [processor requirements]
 > Information on support is available at [Microsoft Support Policy](https://support.microsoft.com/lifecycle) and [Microsoft Lifecycle FAQ](https://support.microsoft.com/help/18581).
 >
 > For specific hardware support, please refer to your Original Equipment Manufacturer (OEM) provider.
+
+### Windows 11 IoT Enterprise Processor Lists
+* [Intel](/windows-hardware/design/minimum/supported/windows-11-supported-intel-processors)
+* [Qualcomm](/windows-hardware/design/minimum/supported/windows-11-supported-qualcomm-processors)
+* [AMD](/windows-hardware/design/minimum/supported/windows-11-supported-amd-processors)
+
 
 ## Memory
 Devices that run Windows IoT Enterprise must meet the following [RAM requirements](/windows-hardware/design/minimum/minimum-hardware-requirements-overview#32-memory).

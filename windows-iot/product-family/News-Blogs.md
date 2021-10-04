@@ -10,7 +10,7 @@ description: Review Blogs & News from the Windows for IoT product family.
 keywords: Blogs, News, Windows IoT, Windows IoT Enterprise, Windows IoT Core, Build
 ---
 
-# What's New in Windows for IoT?
+# What's new in Windows for IoT?
 This section is updated regularly with new blogs, videos and case studies featuring Windows for IoT Products.
 
 ## Windows for IoT Newsstand
@@ -185,6 +185,6 @@ Stay up to date with the latest news and announcements regarding the Windows for
 * [Microsoft Tech Community](https://techcommunity.microsoft.com/t5/windows-10-iot/bd-p/Windows10IoT)  
 
 ## Quick Links:
-* [Windows IoT Business Decision Maker (BDM)](https://www.microsoft.com/WindowsForBusiness/windows-iot)
-* [Windows on Devices - Developer Experience](https://developer.microsoft.com/windows/iot/)
-* [Windows IoT Documentation](/windows/iot/)
+* [Windows for IoT Business Decision Maker (BDM)](https://www.microsoft.com/WindowsForBusiness/windows-iot)
+* [Windows on Devices - IoT Developer Experience](https://developer.microsoft.com/windows/iot/)
+* [Windows for IoT Documentation](/windows/iot/)

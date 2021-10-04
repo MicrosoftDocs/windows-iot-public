@@ -19,7 +19,7 @@ This article will walk you through the latest updates for Windows 11 IoT Enterpr
 
 Windows 11 IoT Enterprise is the next evolution of Windows for IoT; it is the most significant update to the Windows operating system since Windows 10. It offers many innovations focused on enhancing end-user experience that is flexible and fluid. Windows 11 IoT Enterprise is designed to support today's hybrid world, and intended to be the most reliable, secure, connected, and performant Windows operating system ever.
 
-Windows 11 IoT Enterprise is built on the same foundation as Windows 10 IoT Enterprise, so the investments you have made in tools for update and device management are carried forward. Windows 11 IoT Enterprise also sustains the application compatibility promise made with the Windows.
+Windows 11 IoT Enterprise is built on the same foundation as Windows 10 IoT Enterprise, so the investments you have made in tools for update and device management are carried forward. Windows 11 IoT Enterprise also sustains the application compatibility promise made with Windows.
 
 
 ## How to get Windows 11 IoT Enterprise
@@ -84,7 +84,7 @@ One of the most exciting features of the Windows 11 IoT Enterprise operating sys
 
 
 ## Hardware Requirements
-At this time, if you would like to use Windows 11 IoT Enterprise, the [system requirements](https://www.microsoft.com/windows/windows-11-specifications#table1) are identical to the Client edition. However, this is subject to change with subsequent releases as Windows 10 IoT Enterprise has previously amended hardware requirements in past to meet the needs of the IoT device ecosystem.
+At this time, if you would like to use Windows 11 IoT Enterprise, the [system requirements](https://www.microsoft.com/windows/windows-11-specifications#table1) are identical to the Client edition. However, this is subject to change with subsequent releases as Windows 10 IoT Enterprise has previously amended hardware requirements in the past to meet the needs of the IoT device ecosystem.
 
 
 ### Windows 11 Supported Processor Lists
