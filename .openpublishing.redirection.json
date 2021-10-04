@@ -1,0 +1,18 @@
+{
+
+"redirections": [
+
+{
+	"source_path": "windows/iot/iot-enterprise/eflow",
+	"redirect_url": "windows/iot/iot-enterprise/Azure-IoT-Edge-For-Linux-On-Windows.md",
+	"redirect_document_id": true
+},
+
+{
+    "source_path": "windows/iot/iot-enterprise/eflow",
+    "redirect_url": "https://docs.microsoft.com/windows/iot/iot-enterprise/azure-iot-edge-for-linux-on-windows",
+    "redirect_document_id": false
+}
+
+]
+}
