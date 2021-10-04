@@ -72,10 +72,10 @@ productDirectory:
       links:
         - url: ./server/windows-server.md
           text: Overview
-        - url: https://docs.microsoft.com/windows-server/get-started-19/whats-new-19
-          text:  What's new in Windows Server 2019?
-        - url: https://docs.microsoft.com/windows-server/get-started-19/get-started-19
-          text:  Get Started with Windows Server 2019
+        - url: https://docs.microsoft.com/en-us/windows-server/get-started/whats-new-in-windows-server-2022
+          text:  What's new in Windows Server 2022?
+        - url: https://docs.microsoft.com/en-us/windows-server/get-started/get-started-with-windows-server
+          text:  Get Started with Windows Server
     - title: Azure IoT Edge for Linux on Windows
       imageSrc: ./media/index/windows.png
       links:
