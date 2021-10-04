@@ -23,7 +23,7 @@ highlightedContent:
       url: ./product-family/windows-iot.md
     - title: What's new in Windows 11 IoT Enterprise?  
       itemType: reference
-      url: https://docs.microsoft.com/windows/iot/product-family/what%27s-new-in-windows-11-iot-enterprise
+      url: http://aka.ms/windows11iotenterprise
     - title: Windows for IoT News
       itemType: whats-new
       url: ./product-family/News-Blogs.md
