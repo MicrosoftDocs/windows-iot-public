@@ -30,7 +30,7 @@ For administrators managing devices on behalf of their organization, Windows 11 
 
 For devices that are not managed by an organization, the Windows 11 upgrade will be offered to eligible Windows 10 devices through Windows Update using Microsoft's intelligent rollout process to ensure a smooth upgrade experience.
 
-For more information about device eligibility, see [Windows 11 requirements](/windows/whats-new/windows-11-requirements).
+For more information about device eligibility, see [Windows 11 requirements](/windows/whats-new/windows-11-requirements) and [Getting ready for the Windows 11 upgrade](https://aka.ms/upgradetowindows11).
 
 
 ## Licensing
