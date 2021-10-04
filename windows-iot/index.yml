@@ -21,7 +21,7 @@ highlightedContent:
     - title: What is Windows for IoT?
       itemType: overview # controls the icon image and super-title text
       url: ./product-family/windows-iot.md
-    - title: What's new in Windows 11 IoT Enterprise?  
+    - title: What's new in Windows 11 IoT Enterprise 
       itemType: reference
       url: http://aka.ms/windows11iotenterprise
     - title: Windows for IoT News
