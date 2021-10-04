@@ -1,20 +1,20 @@
 ---
-title: What's New in Windows IoT?
+title: Windows for IoT News
 author: rsameser
 ms.author: riameser
-ms.date: 7/16/2021
+ms.date: 10/05/2021
 ms.topic: article
 ms.prod: windows-iot
 ms.technology: iot
-description: Review Blogs & News from the Windows IoT product family.
+description: Review Blogs & News from the Windows for IoT product family.
 keywords: Blogs, News, Windows IoT, Windows IoT Enterprise, Windows IoT Core, Build
 ---
 
-# What's New in Windows IoT?
-This section is updated regularly with new blogs, videos and case studies featuring Windows IoT Products.
+# What's new in Windows for IoT?
+This section is updated regularly with new blogs, videos and case studies featuring Windows for IoT Products.
 
-## Windows IoT Newsstand
-Stay up to date with the latest news and announcements regarding the Windows IoT Product Family.
+## Windows for IoT Newsstand
+Stay up to date with the latest news and announcements regarding the Windows for IoT Product Family.
 
 # [2021](#tab/2021)
 **January**
@@ -41,6 +41,15 @@ Stay up to date with the latest news and announcements regarding the Windows IoT
 **July**
 * Blog: [Windows IoT support lifecycle and upcoming releases](https://techcommunity.microsoft.com/t5/internet-of-things/windows-iot-support-lifecycle-and-upcoming-releases/ba-p/2511888)
 * Blog: [Introducing the next feature update to Windows 10: 21H2](https://blogs.windows.com/windowsexperience/2021/07/15/introducing-the-next-feature-update-to-windows-10-21h2/)
+
+**August**
+* Blog: [WSL and EFLOW for IoT Edge Development](https://techcommunity.microsoft.com/t5/internet-of-things/wsl-and-eflow-for-iot-edge-development/ba-p/2593485)
+
+**September**
+* Blog: [Windows Server IoT 2022 - Generally Available](https://techcommunity.microsoft.com/t5/internet-of-things/windows-server-iot-2022-now-generally-available/ba-p/2703521)
+
+**October**
+* Blog: [Introducing Windows 11 IoT](https://aka.ms/Win11IoTGABlog)
 
 # [2020](#tab/2020)
 **January**
@@ -176,6 +185,6 @@ Stay up to date with the latest news and announcements regarding the Windows IoT
 * [Microsoft Tech Community](https://techcommunity.microsoft.com/t5/windows-10-iot/bd-p/Windows10IoT)  
 
 ## Quick Links:
-* [Windows IoT Business Decision Maker (BDM)](https://www.microsoft.com/WindowsForBusiness/windows-iot)
-* [Windows on Devices - Developer Experience](https://developer.microsoft.com/windows/iot/)
-* [Windows IoT Documentation](/windows/iot/)
+* [Windows for IoT Business Decision Maker (BDM)](https://www.microsoft.com/WindowsForBusiness/windows-iot)
+* [Windows on Devices - IoT Developer Experience](https://developer.microsoft.com/windows/iot/)
+* [Windows for IoT Documentation](/windows/iot/)

@@ -2,20 +2,20 @@
 title: Application Updates
 author: rsameser
 ms.author: riameser
-ms.date: 9/15/2021
+ms.date: 10/05/2021
 ms.topic: article
 ms.prod: windows-iot
 ms.technology: iot
-description: Learn about how apps can be updated in Windows 10 IoT Enterprise.
+description: Learn about how apps can be updated in Windows IoT Enterprise.
 keywords: Branding, Microsoft Store Access
 ---
 
 # Application Updates
-OEMs and enterprise customers can deliver app updates to Windows 10 IoT Enterprise devices in the following ways:
+OEMs and enterprise customers can deliver app updates to Windows IoT Enterprise devices in the following ways:
 * **Using Microsoft Store**: The app is published and updated from the Microsoft Store
 * **Using Azure IoT Device Management**: The app is published to Azure Storage and updated through the Azure DM channel New for Windows 10, version 1709
 * **Using OMA-DM**: The app is updated using an OMA-DM compliant device management channel such as Intune.
-* **Using Device Update Center**: The app is published to Windows Update and updated like any other OEM package (driver package).  *This feature is coming soon for Windows 10 IoT Enterprise, it is currently in private preview, please see [Device Management](./Device-Management-Overview.md#device-update-center) for more information*
+* **Using Device Update Center**: The app is published to Windows Update and updated like any other OEM package (driver package).  *This feature is coming soon for Windows IoT Enterprise, it is currently in private preview, please see [Device Management](./Device-Management-Overview.md#device-update-center) for more information*
 
 > [!NOTE]
 >
@@ -42,10 +42,10 @@ The Apps can be designed to control the updates by itself (either automatically 
 See [Download and install package updates for your app](/windows/uwp/packaging/self-install-package-updates) for more information on building this capability. In this case, the AllowAppStoreAutoUpdate should be disabled.
 
 ## Using Azure IoT Device Management
-[Azure IoT Device Management (AzureDM)](/windows/iot-core/manage-your-device/azureiotdm) is a highly scalable management solution available on Windows 10 IoT Enterprise. See [Application Management](https://github.com/ms-iot/iot-core-azure-dm-client/blob/master/docs/application-management.md) for the details of installing and updating applications via AzureDM.
+[Azure IoT Device Management (AzureDM)](/windows/iot-core/manage-your-device/azureiotdm) is a highly scalable management solution available on Windows IoT Enterprise. See [Application Management](https://github.com/ms-iot/iot-core-azure-dm-client/blob/master/docs/application-management.md) for the details of installing and updating applications via AzureDM.
 
 ## Using OMA-DM
-The OMA-DM interface is supported in Windows 10 IoT Enterprise and any OMA-DM compliant management solution can be used to install and update applications. Read the documentation for [EnterpriseModernAppManagement CSP](/windows/client-management/mdm/enterprisemodernappmanagement-csp) for usage instructions.
+The OMA-DM interface is supported in Windows IoT Enterprise and any OMA-DM compliant management solution can be used to install and update applications. Read the documentation for [EnterpriseModernAppManagement CSP](/windows/client-management/mdm/enterprisemodernappmanagement-csp) for usage instructions.
 
 ## Comparisons of various options
 | Item | Using Microsoft Store | Using AzureDM | Using OMA-DM |

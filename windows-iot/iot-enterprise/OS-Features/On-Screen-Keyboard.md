@@ -2,16 +2,16 @@
 title: On-screen Keyboard
 author: rsameser
 ms.author: riameser
-ms.date: 9/15/2021
+ms.date: 10/05/2021
 ms.topic: article
 ms.prod: windows-iot
 ms.technology: iot
-description: Learn about the on-screen keyboard features in Windows 10 IoT Enterprise.
+description: Learn about the on-screen keyboard features in Windows IoT Enterprise.
 keywords: IoT Enterprise, Networking
 ---
 
 # On-screen keyboard
-Windows 10 IoT Enterprise, provides developers with many on-screen keyboard features to enhance the user-experience.
+Windows IoT Enterprise, provides developers with many on-screen keyboard features to enhance the user-experience.
 
 ## Key features
 The keyboard implementation provides the following benefits to your headed device development:

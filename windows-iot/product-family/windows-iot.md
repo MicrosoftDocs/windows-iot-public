@@ -1,32 +1,32 @@
 ---
-title: Overview of Windows 10 IoT
+title: Overview of Windows for IoT
 author: rsameser
 ms.author: riameser
-ms.date: 3/16/2021
+ms.date: 10/05/2021
 ms.topic: article
 ms.prod: windows-iot
 ms.technology: iot
-description: See an overview of Windows 10 IoT and what you can do with it.
-keywords: Windows 10 IoT Enterprise, Windows 10 IoT Core, Windows Sever IoT 2019, editions
+description: See an overview of Windows for IoT product line.
+keywords: Windows IoT Enterprise, Windows 10 IoT Core, Windows Sever IoT 2022
 ---
 
-# An overview of Windows 10 IoT
+# An overview of Windows for IoT
 
-## What is Windows 10 IoT?
-Windows 10 IoT is a member of the Windows 10 family that brings enterprise-class power, security, and manageability to the Internet of Things.  It leverages Windows' embedded experience, ecosystem and cloud connectivity, allowing organizations to create their Internet of Things with secure devices that can be quickly provisioned, easily managed, and seamlessly connected to an overall cloud strategy.  
+## What is Windows for IoT?
+Windows for IoT is a member of the Windows family that brings enterprise-class power, security, and manageability to the Internet of Things. It leverages Windows' embedded experience, ecosystem and cloud connectivity, allowing organizations to create their Internet of Things with secure devices that can be quickly provisioned, easily managed, and seamlessly connected to an overall cloud strategy.  
 
-## Windows 10 IoT Editions
-Windows 10 IoT comes in **three** editions.
-1. [Windows 10 IoT Enterprise](../iot-enterprise/Getting_Started.md) is a full version of Windows 10 with specialized features to create dedicated devices locked down to a specific set of applications and peripherals.
-2. [Windows Server IoT 2019](../server/windows-server.md) is a full version of Windows Server 2019 that delivers enterprise manageability and security to IoT solutions.
+## Windows for IoT Editions
+Windows for IoT comes in **three** editions.
+1. [Windows IoT Enterprise](../iot-enterprise/Getting_Started.md) is a full version of Windows Enterprise with specialized features to create dedicated devices locked down to a specific set of applications and peripherals.
+2. [Windows Server IoT 2022](../server/windows-server.md) is a full version of Windows Server 2022 that delivers enterprise manageability and security to IoT solutions.
 3. [Windows 10 IoT Core](/windows/iot-core/windows-iot-core) is the smallest member of the Windows 10 operating system family. While only running a single app, it still has the manageability and security expected from Windows 10.  
 
 ## Fixed purpose devices
-Windows is well known as the operating system for laptops and desktops that have been used by consumers and businesses worldwide for decades. Windows also powers many ATM machines, point-of-sale terminals, industrial automation systems, thin clients, medical devices, digital signage, kiosks, and other fixed purpose devices. Windows IoT allows you to build these fixed purpose devices with specific allowances and restrictions in the license agreement.
+Windows is well known as the operating system for laptops and desktops that have been used by consumers and businesses worldwide for decades. Windows also powers many ATM machines, point-of-sale terminals, industrial automation systems, thin clients, medical devices, digital signage, kiosks, and other fixed purpose devices. Windows for IoT allows you to build these fixed purpose devices with specific allowances and restrictions in the license agreement.
 
 >[!TIP]
 >
-> See your licensing agreement for complete guidance on all Windows 10 IoT Enterprise usage scenarios. If you are an end-user customer, your OEM should have provided you with the terms in an agreement. If you are an OEM, you can direct questions to your distributor regarding your specific licensing agreement.
+> See your licensing agreement for complete guidance on all Windows IoT Enterprise usage scenarios. If you are an end-user customer, your OEM should have provided you with the terms in an agreement. If you are an OEM, you can direct questions to your distributor regarding your specific licensing agreement.
 
 A fixed purpose device differs from a general-purpose device in the following ways:
 * The device is locked down to a single application or fixed set of applications through the Assigned Access or Shell Launcher features.

@@ -2,16 +2,16 @@
 title: Microsoft Store Access
 author: rsameser
 ms.author: riameser
-ms.date: 9/15/2021
+ms.date: 10/05/2021
 ms.topic: article
 ms.prod: windows-iot
 ms.technology: iot
-description: Learn about the Microsoft Store Access Features of Windows 10 IoT Enterprise.
+description: Learn about the Microsoft Store Access Features of Windows IoT Enterprise.
 keywords: Branding, Microsoft Store Access
 ---
 
 # Microsoft Store Access
-You have the option to decide how much access you would like your users to have when it comes to opening the Microsoft Store on Windows 10 IoT Enterprise. Access to the Microsoft store can be blocked or modified achieve a desired customer experience or meet an organization's policy. You can use AppLocker or Group Policy to configure access to Microsoft Store.
+You have the option to decide how much access you would like your users to have when it comes to opening the Microsoft Store on Windows IoT Enterprise. Access to the Microsoft store can be blocked or modified achieve a desired customer experience or meet an organization's policy. You can use AppLocker or Group Policy to configure access to Microsoft Store.
 
 > [!NOTE]
 >
@@ -27,7 +27,7 @@ You can also use [Group Policy](/windows/configuration/stop-employees-from-using
 
 
 ## Block Microsoft Store using configuration service provider
-If you have Windows 10 devices in your organization that are managed using a mobile device management (MDM) system, such as Microsoft Intune, you can block access to Microsoft Store app using the following [configuration service providers (CSPs)](/windows/configuration/stop-employees-from-using-microsoft-store#block-microsoft-store-using-configuration-service-provider):
+If you have Windows IoT Enterprise devices in your organization that are managed using a mobile device management (MDM) system, such as Microsoft Intune, you can block access to Microsoft Store app using the following [configuration service providers (CSPs)](/windows/configuration/stop-employees-from-using-microsoft-store#block-microsoft-store-using-configuration-service-provider):
 * [Policy CSP](/windows/client-management/mdm/policy-configuration-service-provider)
 * [AppLocker CSP](/windows/client-management/mdm/applocker-csp)
 

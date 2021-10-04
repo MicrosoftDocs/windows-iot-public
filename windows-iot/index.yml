@@ -1,36 +1,37 @@
 ### YamlMime:Hub
 
-title: Windows IoT Documentation
-summary: Windows IoT, formerly Windows Embedded, is a family of operating systems from Microsoft designed for use in embedded systems.
+title: Windows for IoT Documentation
+summary: Windows for IoT, formerly Windows Embedded, is a family of operating systems from Microsoft designed for use in embedded systems.
 brand: windows ## Used for color theming of icons and hero area
 
 metadata:
-  title: Windows IoT Documentation
+  title: Windows for IoT Documentation
   description: The Windows for IoT platform has multiple editions, each optimized for specific scenarios. They all share the security, manageability, support and cloud connectivity you expect from Windows.
   ms.topic: hub-page
   ms.prod: windows-iot
   ms.technology: iot
   author: rsameser
   ms.author: riameser
-  ms.date: 3/12/2021
+  ms.date: 10/05/2021
 
 # itemType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | tutorial | whats-new
 
 highlightedContent:
   items:
-    - title: What is Windows IoT?
+    - title: What is Windows for IoT?
       itemType: overview # controls the icon image and super-title text
       url: ./product-family/windows-iot.md
-    - title: What's new in Windows IoT?
+    - title: What's new in Windows 11 IoT Enterprise?  
+      itemType: reference
+      url: ./product-family/what's-new-in-Windows-11-IoT-Enterprise.md
+    - title: Windows for IoT News
       itemType: whats-new
       url: ./product-family/News-Blogs.md
-    - title: Which Windows IoT Solution is Right For Me?
-      itemType: get-started
-      url: ./product-family/windows-iot.md
+
 
 productDirectory:
   items:
-    - title: Windows 10 IoT Enterprise
+    - title: Windows IoT Enterprise
       imageSrc: ./media/index/windows.png
       links:
         - url: ./iot-enterprise/Getting_Started.md
@@ -66,15 +67,15 @@ productDirectory:
           text:  Windows CE App Container
         - url: ./windows_ce/windows-ce-app-container-getting-started.md
           text:  Getting Started with Windows CE App Container
-    - title: Windows Server IoT 2019
+    - title: Windows Server IoT 2022
       imageSrc: ./media/index/windows.png
       links:
         - url: ./server/windows-server.md
           text: Overview
-        - url: https://docs.microsoft.com/windows-server/get-started-19/whats-new-19
-          text:  What's new in Windows Server 2019?
-        - url: https://docs.microsoft.com/windows-server/get-started-19/get-started-19
-          text:  Get Started with Windows Server 2019
+        - url: https://docs.microsoft.com/en-us/windows-server/get-started/whats-new-in-windows-server-2022
+          text:  What's new in Windows Server 2022?
+        - url: https://docs.microsoft.com/en-us/windows-server/get-started/get-started-with-windows-server
+          text:  Get Started with Windows Server
     - title: Azure IoT Edge for Linux on Windows
       imageSrc: ./media/index/windows.png
       links:
@@ -101,9 +102,9 @@ conceptualContent:
 
     - title: Resources
       links:
-        - url: ./product-family/News-Blogs.md
+        - url: ./product-family/Product-Lifecycle.md
           itemType: reference
-          text:  Windows IoT News & Blogs
+          text:  Windows for IoT Product Lifecycle
         - url: https://www.youtube.com/channel/UCL7wy-iy_V76xxPnrIzGOZQ
           itemType: reference
           text:  Microsoft IoT Developer
