@@ -26,17 +26,17 @@ Windows 11 IoT Enterprise is built on the same foundation as Windows 10 IoT Ente
 
 Windows 11 IoT Enterprise will be delivered as an upgrade to eligible devices running Windows 10 IoT Enterprise, beginning on October 5, 2021.
 
-For administrators managing devices on behalf of their organization, Windows 11 IoT Enterprise will be available through the same, familiar channels that you use today for Windows 10 IoT Enterprise feature updates. You will be able to use existing deployment and management tools, such as Windows Update for Business, and Microsoft Endpoint Manager. For more information, see [Plan for Windows 11](https://docs.microsoft.com/windows/whats-new/windows-11-plan).
+For administrators managing devices on behalf of their organization, Windows 11 IoT Enterprise will be available through the same, familiar channels that you use today for Windows 10 IoT Enterprise feature updates. You will be able to use existing deployment and management tools, such as Windows Update for Business, and Microsoft Endpoint Manager. For more information, see [Plan for Windows 11](/windows/whats-new/windows-11-plan).
 
 For devices that are not managed by an organization, the Windows 11 upgrade will be offered to eligible Windows 10 devices through Windows Update using Microsoft's intelligent rollout process to ensure a smooth upgrade experience.
 
-For more information about device eligibility, see [Windows 11 requirements](https://docs.microsoft.com/windows/whats-new/windows-11-requirements).
+For more information about device eligibility, see [Windows 11 requirements](/whats-new/windows-11-requirements).
 
 
 ## Licensing
 The licensing requirements for Windows 11 IoT Enterprise devices are identical to what is required for Windows 11 IoT Enterprise devices.
 
-Windows 11 IoT Enterprise will only be available as an [annual release](https://docs.microsoft.com/lifecycle/faq/windows#windows-11). Please contact your distributor for more information.
+Windows 11 IoT Enterprise will only be available as an [annual release](/lifecycle/faq/windows#windows-11). Please contact your distributor for more information.
 
 ## Compatibility
 Most accessories and associated drivers that work with Windows 10 IoT Enterprise are expected to work with Windows 11 IoT Enterprise. Check with your accessory manufacturer for specific details.
