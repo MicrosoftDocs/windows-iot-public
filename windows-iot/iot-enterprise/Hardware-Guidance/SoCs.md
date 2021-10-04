@@ -1,19 +1,19 @@
 ---
-title: SoCs and Custom Boards for Windows 10 IoT Enterprise
+title: SoCs and Custom Boards for Windows IoT Enterprise
 author: rsameser
 ms.author: riameser
-ms.date: 9/15/2021
+ms.date: 10/05/2021
 ms.topic: article
 ms.prod: windows-iot
 ms.technology: iot
-description: Learn about SoCs and Custom Boards requirements for Windows 10 IoT Enterprise.
+description: Learn about SoCs and Custom Boards requirements for Windows IoT Enterprise.
 keywords: IoT Enterprise, Hardware, SoCs, Custom Boards, development devices, boards, SOC, SOM, system on chips, Windows IoT
 ---
 # SoCs and Custom Boards
 
 ## Microsoft-enabled SoCs
 
-Microsoft works alongside Intel, Qualcomm, and AMD to verify support for Windows 10 IoT Enterprise on several vendors' system on a chip (SoCs). These SoCs are used in hundreds of different devices that you can use to prototype and commercialize your idea. The SoC you choose to adopt will depend on considerations such as performance requirements, power profile, cost, physical connectivity options, long-term support, and operating conditions.
+Microsoft works alongside Intel, Qualcomm, and AMD to verify support for Windows IoT Enterprise on several vendors' system on a chip (SoCs). These SoCs are used in hundreds of different devices that you can use to prototype and commercialize your idea. The SoC you choose to adopt will depend on considerations such as performance requirements, power profile, cost, physical connectivity options, long-term support, and operating conditions.
 
 You'll also need to decide whether you want to use an off-the-shelf board or device, build a custom device using a system on a module (SoM) plus a custom carrier board, or build a complete custom board. Cost and the degree of customization are the key factors in this decision, with both generally increasing as you customize further.
 
@@ -30,5 +30,5 @@ Each of the platforms has unique features that need attention during implementat
 * [VIA Technologies](https://www.viatech.com/en/products/boards/embedded-boards/)
 
 ## Additional Resources
-* [Windows 10 IoT Enterprise Manufacturing Guide](/windows-hardware/manufacture/desktop/iot-ent-overview)
+* [Windows IoT Enterprise Manufacturing Guide](/windows-hardware/manufacture/desktop/iot-ent-overview)
 * [Windows Processor Requirements](/windows-hardware/design/minimum/windows-processor-requirements)

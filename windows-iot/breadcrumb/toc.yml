@@ -6,11 +6,11 @@
     tocHref: /windows/
     topicHref: /windows/
     items:
-    - name: Windows IoT
+    - name: Windows for IoT
       tocHref: /windows/iot/
       topicHref: /windows/iot/
       items:
-      - name: Windows 10 IoT Enterprise
+      - name: Windows IoT Enterprise
         tocHref: /windows/iot/iot-enterprise/
         topicHref: /windows/iot/iot-enterprise/getting_started
         items: 

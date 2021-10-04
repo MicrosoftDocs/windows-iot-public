@@ -2,11 +2,11 @@
 title: Settings Page Visibility
 author: rsameser
 ms.author: riameser
-ms.date: 9/15/2021
+ms.date: 10/05/2021
 ms.topic: article
 ms.prod: windows-iot
 ms.technology: iot
-description: Learn about the Page Visibility Features of Windows 10 IoT Enterprise.
+description: Learn about the Page Visibility Features of Windows IoT Enterprise.
 keywords: Branding, Settings Page Visibility
 ---
 

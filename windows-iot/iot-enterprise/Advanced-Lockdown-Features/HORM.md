@@ -2,11 +2,11 @@
 title: Hibernate Once/Resume Many (HORM)
 author: rsameser
 ms.author: riameser
-ms.date: 9/15/2021
+ms.date: 10/05/2021
 ms.topic: article
 ms.prod: windows-iot
 ms.technology: iot
-description: Learn about the Hibernate Once/Resume Many (HORM) Feature in Windows 10 IoT Enterprise.
+description: Learn about the Hibernate Once/Resume Many (HORM) Feature in Windows IoT Enterprise.
 keywords: Lockdown, HORM
 ---
 

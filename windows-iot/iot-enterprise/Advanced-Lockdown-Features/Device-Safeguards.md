@@ -2,18 +2,18 @@
 title: Device Safeguards
 author: rsameser
 ms.author: riameser
-ms.date: 9/15/2021
+ms.date: 10/05/2021
 ms.topic: article
 ms.prod: windows-iot
 ms.technology: iot
-description: Learn about the Device Safeguard features of Windows 10 IoT Enterprise.
+description: Learn about the Device Safeguard features of Windows IoT Enterprise.
 keywords: Filtering and Controlling, USB Access
 ---
 
 # Device Safeguards
-Windows 10 IoT Enterprise gives you the power as the administrator of your devices to set certain policies to protect your IoT devices. Whether that be against device tampering, malware infections, data loss, or preventing peripherals from gaining access to your device, Windows 10 IoT Enterprise gives you the power to create a customized experience that safeguards against these threats.
+Windows IoT Enterprise gives you the power as the administrator of your devices to set certain policies to protect your IoT devices. Whether that be against device tampering, malware infections, data loss, or preventing peripherals from gaining access to your device, Windows IoT Enterprise gives you the power to create a customized experience that safeguards against these threats.
 
-In a Windows 10 device restrictions profile, most configurable settings are deployed at the device level using device groups.
+In a Windows IoT device restrictions profile, most configurable settings are deployed at the device level using device groups.
 
 The following guide reviews the various policies that can be configured to create a safe and secure device usage experience.
 

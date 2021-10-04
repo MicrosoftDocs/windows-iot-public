@@ -2,16 +2,16 @@
 title: Embedded Mode
 author: rsameser
 ms.author: riameser
-ms.date: 9/15/2021
+ms.date: 10/05/2021
 ms.topic: article
 ms.prod: windows-iot
 ms.technology: iot
-description: Learn about the Embedded Mode features of Windows 10 IoT Enterprise.
+description: Learn about the Embedded Mode features of Windows IoT Enterprise.
 keywords: IoT Enterprise, Networking
 ---
 
 # Embedded mode
-Embedded Mode is a Win32 service. In Windows 10 it only starts if the user, an application, or another service starts it. When the Embedded Mode service is started, it is runs as LocalSystem in a shared process of svchost.exe along with other services. Embedded Mode is supported on Windows 10 IoT Enterprise.
+Embedded Mode is a Win32 service. In Windows it only starts if the user, an application, or another service starts it. When the Embedded Mode service is started, it is runs as LocalSystem in a shared process of svchost.exe along with other services. Embedded Mode is supported on Windows IoT Enterprise.
 
 Embedded Mode enables:
 * Background Applications

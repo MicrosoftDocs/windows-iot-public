@@ -2,11 +2,11 @@
 title: Azure IoT Edge for Linux on Windows
 author: fcabrera
 ms.author: fcabrera
-ms.date: 9/15/2021
+ms.date: 10/05/2021
 ms.topic: article
 ms.prod: windows-iot
 ms.technology: iot
-description: Learn how to integrate Azure IoT Edge for Linux on Windows with your Windows 10 IoT Enterprise solution.
+description: Learn how to integrate Azure IoT Edge for Linux on Windows with your Windows IoT Enterprise solution.
 keywords: IoT Enterprise, Linux, Device Builders, Appliance, EFLOW, Azure IoT Edge
 ---
 

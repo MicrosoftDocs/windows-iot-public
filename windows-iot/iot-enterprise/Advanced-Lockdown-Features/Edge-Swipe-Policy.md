@@ -2,18 +2,18 @@
 title: Screen Swipe Policy
 author: rsameser
 ms.author: riameser
-ms.date: 9/15/2021
+ms.date: 10/05/2021
 ms.topic: article
 ms.prod: windows-iot
 ms.technology: iot
-description: Learn about the Edge Swipe Policy Feature in Windows 10 IoT Enterprise.
+description: Learn about the Edge Swipe Policy Feature in Windows IoT Enterprise.
 keywords: Lockdown, Edge Swipe
 ---
 # Screen Swipe Policy
-If your Windows 10 device has a touchscreen, users have the option to swipe from the edge of a screen to invoke a system user interface. Depending on the direction of the swipe, the action center, tablet mode or taskbar can appear.
+If your Windows IoT device has a touchscreen, users have the option to swipe from the edge of a screen to invoke a system user interface. Depending on the direction of the swipe, the action center, tablet mode or taskbar can appear.
 
 ## How to Enable/Disable Screen Swipe via Group Policy
-One of the ways you can go about managing the screen edge swipe functionality in Windows 10 IoT Enterprise is by using the Group Policy Editor.
+One of the ways you can go about managing the screen edge swipe functionality in Windows IoT Enterprise is by using the Group Policy Editor.
 
 The following steps outline how to enable/disable the policy:
 1. Launch the Local Group Policy Editor for the Device
