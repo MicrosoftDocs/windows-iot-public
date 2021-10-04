@@ -80,7 +80,7 @@ Windows 11 IoT Enterprise brings Wi-Fi 6E support to IoT devices. Wi-Fi 6E gives
 
 
 ### Newly Designed Modern Interface
-One of the most exciting features of the Windows 11 IoT Enterprise operating system is the new user-interface. The new design and sounds are modern, fresh, clean and beautiful, bringing you a sense of calm and ease. To learn more about the enhanced UI, check out this [Windows Experience Blog](https://blogs.windows.com/windowsexperience/2021/08/31/windows-11-available-on-october-5/) which walks you through all the new and exciting improvements and capabilities.
+One of the most exciting features of the Windows 11 IoT Enterprise operating system is the new user-interface. The new design and sounds are modern, fresh, clean and beautiful, bringing you a sense of calm and ease. To learn more about the enhanced UI, check out this [Windows Experience Blog](https://blogs.windows.com/windowsexperience/2021/10/04/how-to-get-windows-11/) which walks you through all the new and exciting improvements and capabilities.
 
 
 ## Hardware Requirements
