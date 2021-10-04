@@ -42,7 +42,7 @@ The kiosk account can be a local standard user account, a domain account, or an 
 
 >[!NOTE]
 >
-> Assigned access multi-app kiosk will not be available in the [21H2 release](/lifecycle/products/windows-11-iot-enterprise-version-21h2) of Windows 11 IoT Enterprise. See [What's new in Windows 11 IoT Enterprise](/windows/iot/product-family/what's-new-in-windows-11-iot-enterprise) for more information.
+> Assigned access multi-app kiosk will not be available in the [initial release](/lifecycle/products/windows-11-iot-enterprise-version-21h2) of Windows 11 IoT Enterprise. See [What's new in Windows 11 IoT Enterprise](/windows/iot/product-family/what's-new-in-windows-11-iot-enterprise) for more information.
 
 ## How to configure your device for kiosk mode?
 Please visit the following documentation to set up a kiosk according to your scenario:

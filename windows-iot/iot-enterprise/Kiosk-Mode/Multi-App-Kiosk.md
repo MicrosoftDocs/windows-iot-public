@@ -15,7 +15,7 @@ An assigned access multi-app kiosk runs one or more apps from the desktop. Peopl
 
 >[!NOTE]
 >
-> Assigned access multi-app kiosk will not be available in the [21H2 release](/lifecycle/products/windows-11-iot-enterprise-version-21h2) of Windows 11 IoT Enterprise. See [What's new in Windows 11 IoT Enterprise](/windows/iot/product-family/what's-new-in-windows-11-iot-enterprise) for more information.
+> Assigned access multi-app kiosk will not be available in the [initial release](/lifecycle/products/windows-11-iot-enterprise-version-21h2) of Windows 11 IoT Enterprise. See [What's new in Windows 11 IoT Enterprise](/windows/iot/product-family/what's-new-in-windows-11-iot-enterprise) for more information.
 
 ## Benefits of using a multi-app kiosk
 The benefit of a kiosk that runs only one or more specified apps is to provide an easy-to-understand experience for individuals by putting in front of them only the things they need to use, and removing from their view the things they don’t need to access.
