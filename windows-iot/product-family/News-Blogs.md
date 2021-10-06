@@ -17,39 +17,44 @@ This section is updated regularly with new blogs, videos and case studies featur
 Stay up to date with the latest news and announcements regarding the Windows for IoT Product Family.
 
 # [2021](#tab/2021)
-**January**
-* Blog: [Enabling Linux based Azure IoT Edge Modules on Windows IoT](https://techcommunity.microsoft.com/t5/internet-of-things/enabling-linux-based-azure-iot-edge-modules-on-windows-iot/ba-p/2075882)
-* Video: [Internet of Things Show - Run Linux based IoT Edge modules on Windows IoT](https://channel9.msdn.com/Shows/Internet-of-Things-Show/Run-Linux-based-IoT-Edge-modules-on-Windows-IoT)
 
-**February**
-* Blog: [Windows 10 IoT Long Term Servicing Channel upcoming availability](https://techcommunity.microsoft.com/t5/internet-of-things/windows-10-iot-long-term-servicing-channel-upcoming-availability/ba-p/2139861)
+**October**
+* Blog: [Introducing Windows 11 IoT](https://aka.ms/Win11IoTGABlog)
 
-**March**
-* Video: [Accelerating Edge AI solutions](https://myignite.microsoft.com/sessions/f5808715-5b97-4588-b4e5-31f00be2eb75?source=schedule)
+**September**
+* Blog: [Windows Server IoT 2022 - Generally Available](https://techcommunity.microsoft.com/t5/internet-of-things/windows-server-iot-2022-now-generally-available/ba-p/2703521)
 
-**April**
-* Blog: [HMI review: building more agile factories with Azure IoT and Windows IoT](https://techcommunity.microsoft.com/t5/internet-of-things/hmi-review-building-more-agile-factories-with-azure-iot-and/ba-p/2273231)
-
-**May**
-* Blog: [Meet the Azure IoT Edge for Linux on Windows (EFLOW) team at Build](https://techcommunity.microsoft.com/t5/internet-of-things/meet-the-azure-iot-edge-for-linux-on-windows-eflow-team-at-build/ba-p/2370352)
-* Video: [Ask the Experts: Bringing Azure Linux workloads to Windows](https://mybuild.microsoft.com/sessions/7578ce2c-2efb-4379-9cad-25e0f3c0e670)
-
-**June**
-* Blog: [Announcing the GA of Azure IoT Edge for Linux on Windows](https://techcommunity.microsoft.com/t5/internet-of-things/announcing-the-ga-of-azure-iot-edge-for-linux-on-windows/ba-p/2477508)
-* Video: [Now ready for Production: Linux IoT Edge Modules on Windows](https://channel9.msdn.com/Shows/Internet-of-Things-Show/Now-ready-for-Production-Linux-IoT-Edge-Modules-on-Windows)
+**August**
+* Blog: [WSL and EFLOW for IoT Edge Development](https://techcommunity.microsoft.com/t5/internet-of-things/wsl-and-eflow-for-iot-edge-development/ba-p/2593485)
 
 **July**
 * Blog: [Windows IoT support lifecycle and upcoming releases](https://techcommunity.microsoft.com/t5/internet-of-things/windows-iot-support-lifecycle-and-upcoming-releases/ba-p/2511888)
 * Blog: [Introducing the next feature update to Windows 10: 21H2](https://blogs.windows.com/windowsexperience/2021/07/15/introducing-the-next-feature-update-to-windows-10-21h2/)
 
-**August**
-* Blog: [WSL and EFLOW for IoT Edge Development](https://techcommunity.microsoft.com/t5/internet-of-things/wsl-and-eflow-for-iot-edge-development/ba-p/2593485)
+**June**
+* Blog: [Announcing the GA of Azure IoT Edge for Linux on Windows](https://techcommunity.microsoft.com/t5/internet-of-things/announcing-the-ga-of-azure-iot-edge-for-linux-on-windows/ba-p/2477508)
+* Video: [Now ready for Production: Linux IoT Edge Modules on Windows](https://channel9.msdn.com/Shows/Internet-of-Things-Show/Now-ready-for-Production-Linux-IoT-Edge-Modules-on-Windows)
 
-**September**
-* Blog: [Windows Server IoT 2022 - Generally Available](https://techcommunity.microsoft.com/t5/internet-of-things/windows-server-iot-2022-now-generally-available/ba-p/2703521)
+**May**
+* Blog: [Meet the Azure IoT Edge for Linux on Windows (EFLOW) team at Build](https://techcommunity.microsoft.com/t5/internet-of-things/meet-the-azure-iot-edge-for-linux-on-windows-eflow-team-at-build/ba-p/2370352)
+* Video: [Ask the Experts: Bringing Azure Linux workloads to Windows](https://mybuild.microsoft.com/sessions/7578ce2c-2efb-4379-9cad-25e0f3c0e670)
 
-**October**
-* Blog: [Introducing Windows 11 IoT](https://aka.ms/Win11IoTGABlog)
+**April**
+* Blog: [HMI review: building more agile factories with Azure IoT and Windows IoT](https://techcommunity.microsoft.com/t5/internet-of-things/hmi-review-building-more-agile-factories-with-azure-iot-and/ba-p/2273231)
+
+
+**March**
+* Video: [Accelerating Edge AI solutions](https://myignite.microsoft.com/sessions/f5808715-5b97-4588-b4e5-31f00be2eb75?source=schedule)
+
+**February**
+* Blog: [Windows 10 IoT Long Term Servicing Channel upcoming availability](https://techcommunity.microsoft.com/t5/internet-of-things/windows-10-iot-long-term-servicing-channel-upcoming-availability/ba-p/2139861)
+
+
+**January**
+* Blog: [Enabling Linux based Azure IoT Edge Modules on Windows IoT](https://techcommunity.microsoft.com/t5/internet-of-things/enabling-linux-based-azure-iot-edge-modules-on-windows-iot/ba-p/2075882)
+* Video: [Internet of Things Show - Run Linux based IoT Edge modules on Windows IoT](https://channel9.msdn.com/Shows/Internet-of-Things-Show/Run-Linux-based-IoT-Edge-modules-on-Windows-IoT)
+
+
 
 # [2020](#tab/2020)
 **January**
