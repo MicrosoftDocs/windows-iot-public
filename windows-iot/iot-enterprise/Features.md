@@ -90,7 +90,6 @@ Each Windows 10 IoT Enterprise release offers our latest features, including spe
 * Windows Hello with FIDO 2.0
 * 30 months of support for September releases
 * 10 years of lifecycle support with LTSC release 2019
-* Windows Autopilot Self-deploying mode
 * Windows Autopilot Hybrid Azure AD join
 * S Mode Block Switch
 * Desktop Analytics (preview)—Intelligent Pilot Selection and ConfigMgr Integration
