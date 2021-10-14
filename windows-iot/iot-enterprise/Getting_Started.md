@@ -61,6 +61,7 @@ Articles include:
 * [Assigned access single-app kiosk mode](./Kiosk-Mode/Single-App-Kiosk.md)
 * [Assigned access multi-app kiosk mode](./Kiosk-Mode/Multi-App-Kiosk.md)
 * [Configure Shell Launcher](./Kiosk-Mode/Shell-Launcher.md)
+* [Browser Support](./Kiosk-Mode/Browser-Support.md)
 
 ### Advanced Lockdown Features
 This section highlights how to create a lock-down environment with Windows IoT Enterprise OS features.
@@ -82,7 +83,7 @@ Articles include:
 * [Control Page Visibility](./Branding-Features/Page-Visibility.md)
 * [Configure Layout Control](./Branding-Features/Layout-Control.md)
 * [Enable Unbranded Boot](./Branding-Features/Unbranded-Boot.md)
-* [Manage Update Notification](./Branding-Features/Update-Notification.md)
+* [Manage Update Screen UI and Notifications](./Branding-Features/Update-Notification.md)
 
 
 ### Device Management

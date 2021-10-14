@@ -2,7 +2,7 @@
 title: Features by Release
 author: rsameser
 ms.author: riameser
-ms.date: 1/31/2021
+ms.date: 10/26/2021
 ms.topic: article
 ms.prod: windows-iot
 ms.technology: iot
@@ -14,6 +14,16 @@ Each Windows 10 IoT Enterprise release offers our latest features, including spe
 
 >[!NOTE]
 > We are highlighting some of the more prominent new features that have come out in each release of Windows 10 IoT Enterprise – this doesn’t include every new feature, nor does it in include the continuous improvements and enhancements we make to the existing features in the product with each release.  
+
+## Release 2111 - November 2021
+* Genericized Update Message Strings
+* Update Screen Accent Color 
+
+## Release 2104 - April 2021
+* New Edge Browser
+
+
+## Release 2010 - October 2020
 
 
 ## Release 2004 - April 2020
