@@ -33,7 +33,7 @@ This guide will walk you through how to set up your device for Real-Time Perform
 >
 > This will open up your device to vulnerabilities as security patches will not go through. That said, it is necessary as the Windows Update agent does not respect CPU core isolation. We recommend having a plan to ensure device security and install updates during times when the device can be taken down for maintenance
 
-4. Set the [WindowsIoT CSP](##What-is-the-WindowsIoT-CSP?) for real-time performance.
+4. Set the [WindowsIoT CSP](#what-is-the-windowsiot-csp) for real-time performance.
 
 5. Configure RSS to migrate ISRs/DPCs to CPU0
 > [!NOTE]
