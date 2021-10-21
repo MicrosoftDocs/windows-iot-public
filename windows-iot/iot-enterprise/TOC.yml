@@ -92,6 +92,15 @@
     href: Commercialization/Licensing.md
   - name: Manufacturing Guide 
     href: Commercialization/Manufacturing-Guide.md
+- name: Soft Real-Time
+  expanded: false
+  items: 
+  - name: Overview 
+    href: Soft-Real-Time/Soft-Real-Time.md
+  - name: Device Configuration 
+    href: Soft-Real-Time/Soft-Real-Time-Device.md
+  - name: Application Development 
+    href: Soft-Real-Time/Soft-Real-Time-Application.md
 - name: Azure IoT Edge for Linux on Windows (EFLOW) 
   href: Azure-IoT-Edge-For-Linux-On-Windows.md
 - name: Downloads

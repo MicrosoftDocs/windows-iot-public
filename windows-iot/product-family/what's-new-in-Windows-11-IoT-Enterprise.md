@@ -36,7 +36,7 @@ For more information about device eligibility, see [Windows 11 requirements](/wi
 ## Licensing
 The licensing requirements for Windows 11 IoT Enterprise devices are identical to what is required for Windows 11 IoT Enterprise devices.
 
-Windows 11 IoT Enterprise will only be available as an [annual release](/lifecycle/faq/windows#windows-11). Please contact your distributor for more information.
+Windows 11 IoT Enterprise will only be available as an [annual release](/lifecycle/faq/windows#windows-11). Please contact your [Windows IoT distributor](https://aka.ms/IoTDistributorList) for more information.
 
 ## Compatibility
 Most accessories and associated drivers that work with Windows 10 IoT Enterprise are expected to work with Windows 11 IoT Enterprise. Check with your accessory manufacturer for specific details.
