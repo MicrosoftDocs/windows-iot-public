@@ -33,7 +33,7 @@ Please contact your [Windows IoT distributor](https://aka.ms/IoTDistributorList)
 
 ### Soft Real-Time
 
-### Set Rom Mode (UWF)
+### UWF Updates
 
 ### Windows Subsystem for Linux
 
@@ -41,7 +41,6 @@ Please contact your [Windows IoT distributor](https://aka.ms/IoTDistributorList)
 GPU compute support in the Windows Subsystem for Linux (WSL) and Azure IoT Edge for Linux on Windows (EFLOW) deployments for machine learning and other compute intensive workflows
 
 ### Adding WPA3 H2E standards support for enhanced Wi-Fi security
-
 
 
 

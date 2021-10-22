@@ -19,7 +19,9 @@ Each Windows 10 IoT Enterprise release offers our latest features, including spe
 * Genericized Update Message Strings
 * Update Screen Accent Color
 * Soft Real-Time Support
-* Set Rom Mode (UWF)
+* Read Only Media mode (UWF)
+* Allowing Swapfile, Disk Overlay (UWF)
+* Full Volume Commit in Read-Only Media (UWF)
 * GPU Compute Support
 * WPA H2E Standards Support
 * Windows Hello for Business: Cloud Trust
