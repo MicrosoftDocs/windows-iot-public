@@ -28,10 +28,10 @@ Please contact your [Windows IoT distributor](https://aka.ms/IoTDistributorList)
 ## New Features and Capabilities
 
 ### Microsoft Edge Browser Support
-Windows 10 IoT Enterprise, version 21H2 comes with built-in Microsoft Edge Browser support.
+Windows 10 IoT Enterprise, version 21H2 comes with built-in [Microsoft Edge Browser support](/windows/iot/iot-enterprise/kiosk-mode/browser-support).
 
 ### Customizable Windows Update UX
-With this latest release, we are enabling you to manage your Windows update experience with genericized update message strings and screen accent colors.
+With this latest release, we are enabling you to [manage your Windows update experience](/windows/iot/iot-enterprise/branding-features/update-notification) with genericized update message strings and screen accent colors.
 
 ### Soft Real-Time
 Windows 10 soft real-time is a new feature with Windows 10 IoT Enterprise, version 21H2 that allows device makers to introduce soft real-time capabilities on their devices. Check out the following documentation to learn more: [Soft-Real Time Overview](/windows/iot/iot-enterprise/soft-real-time/soft-real-time), [Device Configuration](/windows/iot/iot-enterprise/soft-real-time/soft-real-time-device) and [Application Development](/windows/iot/iot-enterprise/soft-real-time/soft-real-time-application).
@@ -77,7 +77,12 @@ Please review the following table to understand the differences between these op
 | [Windows Subsystem for Linux (WSL)](/windows/wsl/about) | Available in-box | Available with GUI [(WSGLg)](/windows/iot/product-family/what's-new-in-windows-11-iot-enterprise#windows-subsystem-for-linux-gui)|
 | GPU Compute Support | X | X |
 | [WPA3 H2E Support](https://support.microsoft.com/en-us/windows/faster-and-more-secure-wi-fi-in-windows-26177a28-38ed-1a8e-7eca-66f24dc63f09) | X | X |
-| [Wifi 6E](https://support.microsoft.com/en-us/windows/faster-and-more-secure-wi-fi-in-windows-26177a28-38ed-1a8e-7eca-66f24dc63f09) | - | X |
-| [USB 4.0](/windows-hardware/design/component-guidelines/universal-serial-bus-4) | - | X |
+| [Wifi 6E](https://support.microsoft.com/en-us/windows/faster-and-more-secure-wi-fi-in-windows-26177a28-38ed-1a8e-7eca-66f24dc63f09) | Not Available | X |
+| [USB 4.0](/windows-hardware/design/component-guidelines/universal-serial-bus-4) | Not Available | X |
+| [New Modern UI](https://blogs.windows.com/windowsexperience/) | - | X |
 | Removable Packages Feature | Available Q1 of 2022 | Will not be available |
-| ARM64 | ? | ? | 
+| ARM64 | ? | ? |
+| Device Update Center (DUC) | ? | ? |
+
+
+Please review [Features by Release](/windows/iot/iot-enterprise/features) to see information about previous Windows 10 IoT Enterprise releases.
