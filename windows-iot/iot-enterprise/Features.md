@@ -31,14 +31,10 @@ Each Windows 10 IoT Enterprise release offers our latest features, including spe
 * Performance Updates for WDAG
 * Performance Improvements for WMI GPSVC
 
-[https://microsoft.visualstudio.com/DefaultCollection/OS/_queries/query-edit/7addf00a-3deb-4457-84b5-fd16189104c7/]
-
-
 ## Release 20H2- October 2020
 * Windows Shell Updates
 * New Windows Sandbox Policies
 * New Chromium-based Microsoft Edge Browser
-
 
 ## Release 2004 - April 2020
 * Assigned access global lockdown profile support
