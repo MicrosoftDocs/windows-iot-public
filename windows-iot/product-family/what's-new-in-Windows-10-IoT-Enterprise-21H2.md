@@ -46,13 +46,25 @@ With Windows 10 IoT Enterprise, version 21H2, there have been many improvements 
 To learn more about how to implement these new features, review [Enhanced Unified Write Filter Features](/windows-hardware/customize/enterprise/uwf-wes7-ewf-to-win10-uwf)
 
 ### Windows Subsystem for Linux (WSL)
-Starting with Windows IoT Enterprise LTSC 2021, Windows Subsystem for Linux (WSL) will be available in-box. In Windows 10 IoT Enterprise, version 21H2 (SAC), WSL will be availble as a store download. [Check with Terry on this one]
+Starting with Windows IoT Enterprise LTSC 2021, Windows Subsystem for Linux (WSL) will be available in-box. In Windows 10 IoT Enterprise, version 21H2 (SAC), WSL will be available as a store download. [Check with Terry on this one]
 
 ### GPU Compute Support
 With Windows 10 IoT Enterprise, version 21H2 there is additional GPU compute support in the Windows Subsystem for Linux (WSL) and Azure IoT Edge for Linux on Windows (EFLOW) deployments for machine learning and other compute intensive workflows.
 
 ### Adding WPA3 H2E standards support
-In this new release, there will be WPA3 H2E standards support for enhanced Wi-Fi security.
+
+In this new release, there will be WPA3 H2E standards support for enhanced Wi-Fi security. Worry less about security when connecting devices to wireless networks—public or personal. WPA3 represents a industry standard in in Wi-Fi security.
+
+Introduced with Windows 11, it now comes available to Windows 10 IoT Enterprise, version 21H2 to offer increased protection against web traffic spying, session hijacking attacks, and brute-force password cracking. With WPA3 H2E standars in effect, web traffic will be encrypted when connected to open networks.
+
+**Minimum requirements**: In order for your device to take advantage of this feature, you will need a router that supports WPA3 and a wireless network adapter that supports WPA3.
+
+To learn more, view [Faster and more secure Wi-Fi in Windows](https://support.microsoft.com/windows/faster-and-more-secure-wi-fi-in-windows-26177a28-38ed-1a8e-7eca-66f24dc63f09)
+
+
+
+
+
 
 
 
