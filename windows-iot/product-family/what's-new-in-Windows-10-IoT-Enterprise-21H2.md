@@ -36,7 +36,7 @@ With this latest release, we are enabling you to manage your Windows update expe
 ### Soft Real-Time
 Windows 10 soft real-time is a new feature with Windows 10 IoT Enterprise, version 21H2 that allows device makers to introduce soft real-time capabilities on their devices. Check out the following documentation to learn more: Soft-Real Time Overview, Device Configuration and Application Development.
 
-### UWF Updates
+### Unified Write Filter (UWF) Updates
 With Windows 10 IoT Enterprise, version 21H2, there have been many improvements to Unified Write Filter.
 
 1. Allowing UWF Swapfile (DISK Overlay) to be created and used on any volume
@@ -62,17 +62,21 @@ Introduced with Windows 11, it now comes available to Windows 10 IoT Enterprise,
 To learn more, view [Faster and more secure Wi-Fi in Windows](https://support.microsoft.com/windows/faster-and-more-secure-wi-fi-in-windows-26177a28-38ed-1a8e-7eca-66f24dc63f09)
 
 
-
-
-
-
-
-
 ## What's the difference between Windows 10 IoT Enterprise, version 21H2 and Windows 11 IoT Enterprise?
 
-1. Servicing Support
-Windows 10 IoT Enterprise, version 21H2 comes with 10 years of support on the Long-Term-Servicing Channel.
+Please review the following table to understand the differences between these operation system versions.
 
-2. Feature Sets
-
-3.
+| Scenario | Windows 10 IoT Enterprise, Version 21H2 | Windows 11 IoT Enterprise |
+|----------|-----------------------------------------|---------------------------|
+| Servicing | 2 Options: SAC, 10-Year LTSC | Annual Release |
+| Multi-App Assigned Access | Available | Coming soon in a future release |
+| Browser Support | Microsoft Edge included in-box and supported until OS EOL | Microsoft Edge included in-box |
+| Customizable Windows Update UX | X | X |
+| Soft Real-Time | X | X |
+| Unified Write Filter (UWF) Updates | X | X |
+| Windows Subsystem for Linux (WSL) | Available in-box | Available with GUI [(WSGLg)](/windows/iot/product-family/what's-new-in-windows-11-iot-enterprise#windows-subsystem-for-linux-gui)|
+| GPU Compute Support | X | X |
+| WPA3 H2E Support | X | X |
+| Wifi 6E | - | X |
+| USB 4.0 | - | X |
+| Removable Packages Feature | Available Q1 of 2022 | Will not be available |
