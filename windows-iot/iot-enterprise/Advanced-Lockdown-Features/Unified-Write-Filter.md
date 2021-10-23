@@ -39,6 +39,22 @@ After UWF is enabled, you can select a drive to protect and start using UWF.
 >
 > You can install UWF for running PCs and devices, prepare it for customized Windows images, or manage it remotely using CSP or WMI.
 
+## New Capabilities - 21H2
+With Windows 10 IoT Enterprise, version 21H2, a new set of capabilities have been introduced to the Unified Write Filter.
+
+1. [UWF Swapfile Created on Any Volume](/windows-hardware/customize/enterprise/uwf-wes7-ewf-to-win10-uwf)
+  * Allows booting from devices suseptible to wear from writings (e.g. SSD)
+  * Redirects Disk overlay to other media
+
+
+2. [Read Only Mode (ROM) Mode](/windows-hardware/customize/enterprise/uwf-wes7-ewf-to-win10-uwf#read-only-media-mode)  
+  * Allows elimination to physical devices
+  * Official successor to WES7 Enhanced Write Filter
+
+
+3. [Full Volume Commit in ROM Mode](/windows-hardware/customize/enterprise/uwf-wes7-ewf-to-win10-uwf#full-volume-commit-in-read-only-media-mode)
+  * Ability to commit entire state of UWF protected volumes to physical disk at once.
+
 ## Additional Resources
 * [Enable UWF](/windows-hardware/customize/enterprise/uwf-turnonuwf)
 * [Unified Write Filter](/windows-hardware/customize/enterprise/unified-write-filter)

@@ -34,10 +34,10 @@ Windows 10 IoT Enterprise, version 21H2 comes with built-in Microsoft Edge Brows
 With this latest release, we are enabling you to manage your Windows update experience with genericized update message strings and screen accent colors.
 
 ### Soft Real-Time
-Windows 10 soft real-time is a new feature with Windows 10 IoT Enterprise, version 21H2 that allows device makers to introduce soft real-time capabilities on their devices. Check out the following documentation to learn more: Soft-Real Time Overview, Device Configuration and Application Development.
+Windows 10 soft real-time is a new feature with Windows 10 IoT Enterprise, version 21H2 that allows device makers to introduce soft real-time capabilities on their devices. Check out the following documentation to learn more: [Soft-Real Time Overview](/windows/iot/iot-enterprise/soft-real-time/soft-real-time), [Device Configuration](/windows/iot/iot-enterprise/soft-real-time/soft-real-time-device) and [Application Development](/windows/iot/iot-enterprise/soft-real-time/soft-real-time-application).
 
 ### Unified Write Filter (UWF) Updates
-With Windows 10 IoT Enterprise, version 21H2, there have been many improvements to Unified Write Filter.
+With Windows 10 IoT Enterprise, version 21H2, there have been many improvements to the [Unified Write Filter](/windows/iot/iot-enterprise/advanced-lockdown-features/unified-write-filter).
 
 1. Allowing UWF Swapfile (DISK Overlay) to be created and used on any volume
 2. Read Only Media Mode
@@ -49,7 +49,7 @@ To learn more about how to implement these new features, review [Enhanced Unifie
 Starting with Windows IoT Enterprise LTSC 2021, Windows Subsystem for Linux (WSL) will be available in-box. In Windows 10 IoT Enterprise, version 21H2 (SAC), WSL will be available as a store download. [Check with Terry on this one]
 
 ### GPU Compute Support
-With Windows 10 IoT Enterprise, version 21H2 there is additional GPU compute support in the Windows Subsystem for Linux (WSL) and Azure IoT Edge for Linux on Windows (EFLOW) deployments for machine learning and other compute intensive workflows.
+With Windows 10 IoT Enterprise, version 21H2 there is additional GPU compute support in the [Windows Subsystem for Linux (WSL)](/windows/wsl/about) and [Azure IoT Edge for Linux on Windows (EFLOW)](/windows/iot/iot-enterprise/azure-iot-edge-for-linux-on-windows) deployments for machine learning and other compute intensive workflows.
 
 ### Adding WPA3 H2E standards support
 
@@ -80,3 +80,4 @@ Please review the following table to understand the differences between these op
 | [Wifi 6E](https://support.microsoft.com/en-us/windows/faster-and-more-secure-wi-fi-in-windows-26177a28-38ed-1a8e-7eca-66f24dc63f09) | - | X |
 | [USB 4.0](/windows-hardware/design/component-guidelines/universal-serial-bus-4) | - | X |
 | Removable Packages Feature | Available Q1 of 2022 | Will not be available |
+| ARM64 | ? | ? | 
