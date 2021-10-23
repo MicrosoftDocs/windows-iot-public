@@ -55,9 +55,9 @@ With Windows 10 IoT Enterprise, version 21H2 there is additional GPU compute sup
 
 In this new release, there will be WPA3 H2E standards support for enhanced Wi-Fi security. Worry less about security when connecting devices to wireless networks—public or personal. WPA3 represents a industry standard in in Wi-Fi security.
 
-Introduced with Windows 11, it now comes available to Windows 10 IoT Enterprise, version 21H2 to offer increased protection against web traffic spying, session hijacking attacks, and brute-force password cracking. With WPA3 H2E standars in effect, web traffic will be encrypted when connected to open networks.
+Introduced with Windows 11, it now comes available to Windows 10 IoT Enterprise, version 21H2 to offer increased protection against web traffic spying, session hijacking attacks, and brute-force password cracking. With WPA3 H2E standards in effect, web traffic will be encrypted when connected to open networks.
 
-**Minimum requirements**: In order for your device to take advantage of this feature, you will need a router that supports WPA3 and a wireless network adapter that supports WPA3.
+**Minimum requirements**: In order for your IoT device to take advantage of this feature, you will need a router that supports WPA3 and a wireless network adapter that supports WPA3.
 
 To learn more, view [Faster and more secure Wi-Fi in Windows](https://support.microsoft.com/windows/faster-and-more-secure-wi-fi-in-windows-26177a28-38ed-1a8e-7eca-66f24dc63f09)
 
@@ -68,15 +68,15 @@ Please review the following table to understand the differences between these op
 
 | Scenario | Windows 10 IoT Enterprise, Version 21H2 | Windows 11 IoT Enterprise |
 |----------|-----------------------------------------|---------------------------|
-| Servicing | 2 Options: SAC, 10-Year LTSC | Annual Release |
-| Multi-App Assigned Access | Available | Coming soon in a future release |
-| Browser Support | Microsoft Edge included in-box and supported until OS EOL | Microsoft Edge included in-box |
-| Customizable Windows Update UX | X | X |
-| Soft Real-Time | X | X |
-| Unified Write Filter (UWF) Updates | X | X |
-| Windows Subsystem for Linux (WSL) | Available in-box | Available with GUI [(WSGLg)](/windows/iot/product-family/what's-new-in-windows-11-iot-enterprise#windows-subsystem-for-linux-gui)|
+| [Servicing](/windows/iot/product-family/product-lifecycle?tabs=2021) | 2 Options: SAC, 10-Year LTSC | Annual Release |
+| [Multi-App Assigned Access](/windows/iot/iot-enterprise/kiosk-mode/multi-app-kiosk) | Available | Coming soon in a future release |
+| [Browser Support](/windows/iot/iot-enterprise/kiosk-mode/browser-support) | Microsoft Edge included in-box and supported until OS EOL | Microsoft Edge included in-box |
+| [Customizable Windows Update UX](/windows/iot/iot-enterprise/branding-features/update-notification) | X | X |
+| [Soft Real-Time](/windows/iot/iot-enterprise/soft-real-time/soft-real-time) | X | X |
+| [Unified Write Filter (UWF) Updates](/windows/iot/iot-enterprise/advanced-lockdown-features/unified-write-filter) | X | X |
+| [Windows Subsystem for Linux (WSL)](/windows/wsl/about) | Available in-box | Available with GUI [(WSGLg)](/windows/iot/product-family/what's-new-in-windows-11-iot-enterprise#windows-subsystem-for-linux-gui)|
 | GPU Compute Support | X | X |
-| WPA3 H2E Support | X | X |
-| Wifi 6E | - | X |
-| USB 4.0 | - | X |
+| [WPA3 H2E Support](https://support.microsoft.com/en-us/windows/faster-and-more-secure-wi-fi-in-windows-26177a28-38ed-1a8e-7eca-66f24dc63f09) | X | X |
+| [Wifi 6E](https://support.microsoft.com/en-us/windows/faster-and-more-secure-wi-fi-in-windows-26177a28-38ed-1a8e-7eca-66f24dc63f09) | - | X |
+| [USB 4.0](/windows-hardware/design/component-guidelines/universal-serial-bus-4) | - | X |
 | Removable Packages Feature | Available Q1 of 2022 | Will not be available |

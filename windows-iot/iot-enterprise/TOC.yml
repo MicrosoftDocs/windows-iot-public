@@ -53,7 +53,7 @@
     href: Branding-Features/Layout-Control.md
   - name: Unbranded Boot and Errors
     href: Branding-Features/Unbranded-Boot.md
-  - name: Manage Update UI
+  - name: Manage Update Experience
     href: Branding-Features/Update-Notification.md
 - name: Device Management
   expanded: false 
