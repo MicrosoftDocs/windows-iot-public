@@ -21,11 +21,11 @@ This guide will walk you through how to set up your device for Real-Time Perform
 
 2. Reference the [Security guidelines for system services](/windows-server/security/windows-services/security-guidelines-for-disabling-system-services-in-windows-server) to disable the following services:
 
-  a. SysMain (Superfetch)
+    a. SysMain (Superfetch)
 
-  b. DPS (Diagnostic Policy Service)
+    b. DPS (Diagnostic Policy Service)
 
-  c. Audiosrv (Windows Audio)
+    c. Audiosrv (Windows Audio)
 
 3. Disable Windows Update using [this guidance](/windows/privacy/manage-connections-from-windows-operating-system-components-to-microsoft-services#bkmk-wu).
 
@@ -39,53 +39,53 @@ This guide will walk you through how to set up your device for Real-Time Perform
 > [!NOTE]
 > This is hardware dependent and can only be done if the NIC supports RSS
 
-6. **Optional** [Disable threaded DPCs](/windows-hardware/drivers/kernel/introduction-to-threaded-dpcs) for debugging
-7. **Optional** Deploying a custom DPC pinning driver for certain hardware interrupts by following [this guidance](/windows-hardware/drivers/kernel/guidelines-for-writing-dpc-routines).
+6. **Optional:** [Disable threaded DPCs](/windows-hardware/drivers/kernel/introduction-to-threaded-dpcs) for debugging
+7. **Optional:** Deploying a custom DPC pinning driver for certain hardware interrupts by following [this guidance](/windows-hardware/drivers/kernel/guidelines-for-writing-dpc-routines).
 
 ## Performing this Configuration from the Command Line
 Note that this will configure the device while it remains powered on. To ensure that the device maintains soft-RT performance, you should configure the machine to run these commands as a script every time the machine powers on using [this guidance](https://aka.ms/SRT-GPS).
 
-1. 1. Run these three commands in a cmd prompt. This disables CPU idle states, where a CPU with no instructions to run will go into a power-saving state. This is undesirable in real-time scenarios as idle CPUs have a delay in starting to execute new instructions:
+1. Run these three commands in a cmd prompt. This disables CPU idle states, where a CPU with no instructions to run will go into a power-saving state. This is undesirable in real-time scenarios as idle CPUs have a delay in starting to execute new instructions:
 
-```
-powercfg.exe /setacvalueindex SCHEME_CURRENT SUB_PROCESSOR IdleDisable 1
-powercfg.exe /setactive SCHEME_CURRENT
-```
+  ```
+  powercfg.exe /setacvalueindex SCHEME_CURRENT SUB_PROCESSOR IdleDisable 1
+  powercfg.exe /setactive SCHEME_CURRENT
+  ```
 
 2. Run these three commands in a cmd prompt to disable DPS:
 
-```
-sc query dps
-sc stop dps
-sc config dps start=disabled
-```
+  ```
+  sc query dps
+  sc stop dps
+  sc config dps start=disabled
+  ```
 
 3. Run these three commands in a cmd prompt to disable Audiosrv:
-```
-sc query Audiosrv
-sc stop Audiosrv
-sc config Audiosrv start=disabled
-```
+  ```
+  sc query Audiosrv
+  sc stop Audiosrv
+  sc config Audiosrv start=disabled
+  ```
 
 
 4. Run these three commands in a cmd prompt to disable SysMain:
-```
-sc query SysMain
-sc stop SysMain
-sc config SysMain start=disabled
-```
+  ```
+  sc query SysMain
+  sc stop SysMain
+  sc config SysMain start=disabled
+  ```
 
 5. Run these 3 commands in a cmd prompt to disable Windows Update:
-```
-sc query wuauserv
-sc stop wuauserv
-sc config wuauserv start=disabled
-```
+  ```
+  sc query wuauserv
+  sc stop wuauserv
+  sc config wuauserv start=disabled
+  ```
 
 6. Run this command to disable threaded DPCs
-```
-reg add "HKLM\System\CurrentControlSet\Control\Session Manager\kernel" /v ThreadDpcEnable /t REG_DWORD /f /d 0
-```
+  ```
+  reg add "HKLM\System\CurrentControlSet\Control\Session Manager\kernel" /v ThreadDpcEnable /t REG_DWORD /f /d 0
+  ```
 
 ## Ensuring the Device Stays Set up for Real-Time
 Before deploying a real-time device to a production environment, there is additional setup needed to ensure the device can receive updates and maintain real-time performance:
