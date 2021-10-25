@@ -33,10 +33,8 @@ Please review the following table to understand the differences between these op
 | [Wifi 6E](https://support.microsoft.com/en-us/windows/faster-and-more-secure-wi-fi-in-windows-26177a28-38ed-1a8e-7eca-66f24dc63f09) | Not Available | :heavy_check_mark: |
 | [USB 4.0](/windows-hardware/design/component-guidelines/universal-serial-bus-4) | Not Available | :heavy_check_mark: |
 | [New Modern UI](https://blogs.windows.com/windowsexperience/) | - | :heavy_check_mark: |
+| ARM64 | Available on Semi-Annual Channel | Available as Annual Release |  
 
 Please review [Features by Release](/windows/iot/iot-enterprise/features) to see information about previous Windows 10 IoT Enterprise releases.
-
-## ARM64
-Today, both Windows 11 IoT Enterprise, Annual Release, and Windows 10 IoT Enterprise, version 21H2, SAC release offer ARM64 editions of the OS.
 
 ## Additional Resources
