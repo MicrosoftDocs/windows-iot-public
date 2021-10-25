@@ -16,7 +16,7 @@ This article will walk you through the latest updates for Windows 10 IoT Enterpr
 
 
 ## What is Windows 10 IoT Enterprise 21H2?
-[Windows 10 IoT Enterprise](/windows/iot/iot-enterprise/getting_started) is the latest operating system offering for embedded and IoT devices. With every new release, we continue to deliver on our promise of bringing enterprise-class power, security, and manageability to the Internet of Things in addition to adding new features and capabilities, some of which are highlighted below.
+[Windows 10 IoT Enterprise](/windows/iot/iot-enterprise/getting_started) is a new operating system offering for embedded and IoT devices. With every new release, we continue to deliver on our promise of bringing enterprise-class power, security, and manageability to the Internet of Things in addition to adding new features and capabilities, some of which are highlighted below.
 
 This release will be available in two editions:
 * Semi-Annual Channel (SAC): [Windows 10 IoT Enterprise 21H2](/lifecycle/products/windows-10-iot-enterprise)
@@ -52,46 +52,14 @@ With Windows 10 IoT Enterprise, version 21H2, there have been many improvements 
 To learn more about how to implement these new features, review [Enhanced Unified Write Filter Features](/windows-hardware/customize/enterprise/uwf-wes7-ewf-to-win10-uwf)
 
 ### Windows Subsystem for Linux (WSL)
-Starting with Windows IoT Enterprise LTSC 2021, Windows Subsystem for Linux (WSL) will be available in-box. In Windows 10 IoT Enterprise, version 21H2 (SAC), WSL will be available as a store download. [Check with Terry on this one]
+Starting with Windows IoT Enterprise LTSC 2021, Windows Subsystem for Linux (WSL) will be available in-box for both LTSC and SAC.
 
 ### GPU Compute Support
 With Windows 10 IoT Enterprise, version 21H2 there is additional GPU compute support in the [Windows Subsystem for Linux (WSL)](/windows/wsl/about) and [Azure IoT Edge for Linux on Windows (EFLOW)](/windows/iot/iot-enterprise/azure-iot-edge-for-linux-on-windows) deployments for machine learning and other compute intensive workflows.
 
 ### Adding WPA3 H2E standards support
 
-In this new release, there will be WPA3 H2E standards support for enhanced Wi-Fi security. Worry less about security when connecting devices to wireless networks—public or personal. WPA3 represents a industry standard in in Wi-Fi security.
-
-Introduced with Windows 11, it now comes available to Windows 10 IoT Enterprise, version 21H2 to offer increased protection against web traffic spying, session hijacking attacks, and brute-force password cracking. With WPA3 H2E standards in effect, web traffic will be encrypted when connected to open networks.
-
-**Minimum requirements**: In order for your IoT device to take advantage of this feature, you will need a router that supports WPA3 and a wireless network adapter that supports WPA3.
-
-To learn more, view [Faster and more secure Wi-Fi in Windows](https://support.microsoft.com/windows/faster-and-more-secure-wi-fi-in-windows-26177a28-38ed-1a8e-7eca-66f24dc63f09)
-
-
-## What's the difference between Windows 10 IoT Enterprise, version 21H2 and Windows 11 IoT Enterprise?
-
-Please review the following table to understand the differences between these operation system versions.
-
-| Scenario | Windows 10 IoT Enterprise, Version 21H2 | Windows 11 IoT Enterprise |
-|----------|-----------------------------------------|---------------------------|
-| [Servicing](/windows/iot/product-family/product-lifecycle?tabs=2021) | Options: SAC, 10-Year LTSC | Annual Release |
-| [Multi-App Assigned Access](/windows/iot/iot-enterprise/kiosk-mode/multi-app-kiosk) | Available | Coming soon in a future release |
-| [Browser Support](/windows/iot/iot-enterprise/kiosk-mode/browser-support) | Microsoft Edge included in-box and supported until OS EOL | Microsoft Edge included in-box |
-| [Customizable Windows Update UX](/windows/iot/iot-enterprise/branding-features/update-notification) | X | X |
-| [Soft Real-Time](/windows/iot/iot-enterprise/soft-real-time/soft-real-time) | X | X |
-| [Unified Write Filter (UWF) Updates](/windows/iot/iot-enterprise/advanced-lockdown-features/unified-write-filter) | X | X |
-| [Windows Subsystem for Linux (WSL)](/windows/wsl/about) | Available in-box | Available with GUI [(WSGLg)](/windows/iot/product-family/what's-new-in-windows-11-iot-enterprise#windows-subsystem-for-linux-gui)|
-| GPU Compute Support | X | X |
-| [WPA3 H2E Support](https://support.microsoft.com/en-us/windows/faster-and-more-secure-wi-fi-in-windows-26177a28-38ed-1a8e-7eca-66f24dc63f09) | X | X |
-| [Wifi 6E](https://support.microsoft.com/en-us/windows/faster-and-more-secure-wi-fi-in-windows-26177a28-38ed-1a8e-7eca-66f24dc63f09) | Not Available | X |
-| [USB 4.0](/windows-hardware/design/component-guidelines/universal-serial-bus-4) | Not Available | X |
-| [New Modern UI](https://blogs.windows.com/windowsexperience/) | - | X |
-| Removable Packages Feature | Available Q1 of 2022 | Will not be available |
-| ARM64 | ? | ? |
-| Device Update Center (DUC) | ? | ? |
-
-
-Please review [Features by Release](/windows/iot/iot-enterprise/features) to see information about previous Windows 10 IoT Enterprise releases.
+In this new release, there will be WPA3 H2E standards support for enhanced Wi-Fi security. To learn more, view [Faster and more secure Wi-Fi in Windows](https://support.microsoft.com/windows/faster-and-more-secure-wi-fi-in-windows-26177a28-38ed-1a8e-7eca-66f24dc63f09)
 
 ## Additional Resources
 * [Blog: Windows 10 IoT Enterprise LTSC 2021](https://aka.ms/W10IOTLTSC2021Blog)

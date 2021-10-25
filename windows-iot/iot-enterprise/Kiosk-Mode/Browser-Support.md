@@ -38,7 +38,7 @@ For in-support Windows 10 IoT Enterprise [Semi-Annual Channel (SAC) releases](/l
 
 ## Support Versions
 
-| OS | [IE11 App](/internet-explorer/internet-explorer) | [Edge Legacy](/deployedge/microsoft-edge-kiosk-mode-transition-plan) | [New Edge](/deployedge/microsoft-edge-configure-kiosk-mode) |
+| OS | [IE11 App](/internet-explorer/internet-explorer) | [Edge Browser - Legacy](/deployedge/microsoft-edge-kiosk-mode-transition-plan) | [New Edge Browser - Chromium](/deployedge/microsoft-edge-configure-kiosk-mode) |
 |--|--|--|--|
 | Windows 10 IoT Enterprise 2019 LTSC (RS5) | Supported until OS EOL | No browser security updates after March, 9, 2021 (removed where applicable). Inbox engine supported until OS EOL | Edge and WebView2 Runtime not in-box (requires app migration from EdgeHTML) |
 | Windows 10 IoT Enterprise 2021 SAC | End of support June 15, 2022 | Removed & replaced with New Edge May 2021 Update | Included in-box or installed with May 2021 Update |
