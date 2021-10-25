@@ -22,19 +22,25 @@ This release will be available in two editions:
 * Semi-Annual Channel (SAC): [Windows 10 IoT Enterprise 21H2](/lifecycle/products/windows-10-iot-enterprise)
 * Long-Term Servicing Channel (LTSC): [Windows 10 IoT Enterprise LTSC 2021](/lifecycle/products/windows-10-iot-ltsc-2021)
 
-Please contact your [Windows IoT distributor](https://aka.ms/IoTDistributorList) for more information.
+Please review [Windows for IoT Licensing](/windows/iot/iot-enterprise/commercialization/licensing) and contact your [Windows IoT distributor](https://aka.ms/IoTDistributorList) for more information.
 
 
 ## New Features and Capabilities
+See below for the newest features and capabilities included with Windows 10 IoT Enterprise, version 21H2. Unless otherwise noted, these features will be included in both the LTSC and SAC versions of the release.
 
 ### Microsoft Edge Browser Support
-Windows 10 IoT Enterprise, version 21H2 comes with built-in [Microsoft Edge Browser support](/windows/iot/iot-enterprise/kiosk-mode/browser-support).
+Windows 10 IoT Enterprise, version 21H2, comes with in-box [Microsoft Edge Browser support](/windows/iot/iot-enterprise/kiosk-mode/browser-support).
 
 ### Customizable Windows Update UX
 With this latest release, we are enabling you to [manage your Windows update experience](/windows/iot/iot-enterprise/branding-features/update-notification) with genericized update message strings and screen accent colors.
 
 ### Soft Real-Time
-Windows 10 soft real-time is a new feature with Windows 10 IoT Enterprise, version 21H2 that allows device makers to introduce soft real-time capabilities on their devices. Check out the following documentation to learn more: [Soft-Real Time Overview](/windows/iot/iot-enterprise/soft-real-time/soft-real-time), [Device Configuration](/windows/iot/iot-enterprise/soft-real-time/soft-real-time-device) and [Application Development](/windows/iot/iot-enterprise/soft-real-time/soft-real-time-application).
+Windows 10 soft real-time is a new feature with Windows 10 IoT Enterprise, version 21H2 that allows device makers to introduce soft real-time capabilities on their devices.
+
+Check out the following documentation to learn more:
+* [Soft-Real Time Overview](/windows/iot/iot-enterprise/soft-real-time/soft-real-time)
+* [Device Configuration](/windows/iot/iot-enterprise/soft-real-time/soft-real-time-device)
+* [Application Development](/windows/iot/iot-enterprise/soft-real-time/soft-real-time-application).
 
 ### Unified Write Filter (UWF) Updates
 With Windows 10 IoT Enterprise, version 21H2, there have been many improvements to the [Unified Write Filter](/windows/iot/iot-enterprise/advanced-lockdown-features/unified-write-filter).
@@ -68,7 +74,7 @@ Please review the following table to understand the differences between these op
 
 | Scenario | Windows 10 IoT Enterprise, Version 21H2 | Windows 11 IoT Enterprise |
 |----------|-----------------------------------------|---------------------------|
-| [Servicing](/windows/iot/product-family/product-lifecycle?tabs=2021) | 2 Options: SAC, 10-Year LTSC | Annual Release |
+| [Servicing](/windows/iot/product-family/product-lifecycle?tabs=2021) | Options: SAC, 10-Year LTSC | Annual Release |
 | [Multi-App Assigned Access](/windows/iot/iot-enterprise/kiosk-mode/multi-app-kiosk) | Available | Coming soon in a future release |
 | [Browser Support](/windows/iot/iot-enterprise/kiosk-mode/browser-support) | Microsoft Edge included in-box and supported until OS EOL | Microsoft Edge included in-box |
 | [Customizable Windows Update UX](/windows/iot/iot-enterprise/branding-features/update-notification) | X | X |
