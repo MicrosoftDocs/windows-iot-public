@@ -11,7 +11,7 @@ keywords: Windows IoT Enterprise, Windows 11, Windows 11 IoT, Windows 11 IoT Ent
 ---
 
 # Fall 2021 Releases
-The Windows for IoT team is excited to announce that there are two new editions of the Windows IoT Enterprise OS that have been released in the fall of 2021, [Windows 11 IoT Enterprise](/windows/iot/product-family/what's-new-in-windows-11-iot-enterprise), and [Windows 10 IoT Enterprise, version 21H2](/windows/iot/product-family/what's-new-in-windows-10-iot-enterprise-21h2).
+The Windows for IoT team is excited to announce that there are **two** new editions of the Windows IoT Enterprise OS that have been released in the fall of 2021, [Windows 11 IoT Enterprise](/windows/iot/product-family/what's-new-in-windows-11-iot-enterprise), and [Windows 10 IoT Enterprise, version 21H2](/windows/iot/product-family/what's-new-in-windows-10-iot-enterprise-21h2).
 
 This article will walk you through the key differences between the two releases.
 
