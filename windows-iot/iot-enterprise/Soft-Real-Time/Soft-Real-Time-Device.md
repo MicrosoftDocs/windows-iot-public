@@ -129,24 +129,26 @@ Environments that use Windows Management Instrumentation (WMI) can use the MDM B
 
 4. Execute the following script:
 
-```
+  ```
 
-$nameSpaceName="root\cimv2\mdm\dmmap"
+  $nameSpaceName="root\cimv2\mdm\dmmap"
 
-$className="MDM_WindowsIoT_SoftRealTimeProperties01"
+  $className="MDM_WindowsIoT_SoftRealTimeProperties01"
 
-$obj = Get-CimInstance -Namespace $namespaceName -ClassName $className
+  $obj = Get-CimInstance -Namespace $namespaceName -ClassName $className
 
-Add-Type -AssemblyName System.Web
+  Add-Type -AssemblyName System.Web
 
-Set-CimInstance -CimInstance $obj
+  Set-CimInstance -CimInstance $obj
 
-$obj.SetRTCores = 3
+  $obj.SetRTCores = 3
 
-Set-CimInstance -CimInstance $obj
+  Set-CimInstance -CimInstance $obj
 
-```
+  ```
 
 >[!TIP}
 >
 > You can use the same script for whatever number of real-time cores you need to have, just replacing the 3 in the second-to-last line with the appropriate number. This will reserve cores starting with core 0 and going upwards. So reserving 3 cores on a 4 core CPU will reserve cores 0, 1, and 2 and leave core 3 for system and non-real-time tasks.
+
+Next: [Develop an Soft Real-Time Application](/windows/iot/iot-enterprise/soft-real-time/soft-real-time-application)
