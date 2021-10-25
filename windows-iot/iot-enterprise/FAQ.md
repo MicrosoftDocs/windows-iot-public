@@ -19,7 +19,7 @@ This document outlines the Frequently Asked Questions by our customers and partn
 There are presently three versions of Windows IoT available: [Windows IoT Enterprise](/windows/iot-core/windows-iot-enterprise), [Windows 10 IoT Core](/windows/iot-core/windows-iot-core), and [Windows Server IoT 2022](/windows/iot-core/windows-server).
 
 ## What's the difference between Windows 10 IoT Enterprise and Windows 11 IoT Enterprise?
-Windows 11 IoT Enterprise is the next evolution of Windows for IoT, and is built on the same foundation as Windows 10 IoT Enterprise. See [What's new in Windows 11 IoT Enterprise?](/windows/iot/product-family/what's-new-in-windows-11-iot-enterprise) for a full comparison.
+Windows 11 IoT Enterprise is the next evolution of Windows for IoT, and is built on the same foundation as Windows 10 IoT Enterprise. See [What's new in Windows 10 IoT Enterprise, version 21H2](/windows/iot/product-family/what's-new-in-windows-10-iot-enterprise-21h2#whats-the-difference-between-windows-10-iot-enterprise-version-21h2-and-windows-11-iot-enterprise) for a full comparison.
 
 ## What is the difference between Windows IoT Enterprise and Windows 10 IoT Core?
 Windows IoT Enterprise is binary-equivalent to standard Windows Enterprise. We have incorporated all IoT features into both versions, but the IoT edition includes a few minor configuration differences at activation and has dramatically different pricing and licensing terms. Windows 10 IoT Core is the smallest version of the Windows 10 editions that leverages the Windows 10 common core architecture. These editions enable building low-cost devices with fewer resources. Development for Windows 10 IoT Core leverages the Universal Windows Platform.

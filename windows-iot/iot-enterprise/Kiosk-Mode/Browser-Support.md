@@ -15,7 +15,7 @@ Today, you can use two browsers, Internet Explorer 11 and [Microsoft Edge](/depl
 
 ## Microsoft Edge Kiosk Mode
 
-> Available starting in Windows 10 IoT Enterprise 2021 LTSC
+> Available for LTSC starting in [Windows 10 IoT Enterprise 2021 LTSC](/windows/iot/product-family/what's-new-in-windows-10-iot-enterprise-21h2)
 
 [Microsoft Edge kiosk mode](/deployedge/microsoft-edge-configure-kiosk-mode) offers two lockdown experiences of the browser so organizations can create, manage, and provide the best experience for their customers. The following lockdown experiences are available:
 
