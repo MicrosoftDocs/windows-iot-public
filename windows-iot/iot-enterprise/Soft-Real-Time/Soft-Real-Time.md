@@ -11,7 +11,7 @@ keywords: IoT Enterprise, Soft Real-Time
 ---
 
 # Soft Real-Time on Windows IoT Enterprise
-Windows 10 soft real-time is a new feature with Windows 10 IoT Enterprise, version 21H2 that allows device makers to introduce soft real-time capabilities on their devices.
+Windows 10 soft real-time is a new feature with [Windows 10 IoT Enterprise, version 21H2](/windows/iot/product-family/what's-new-in-windows-10-iot-enterprise-21h2) that allows device makers to introduce soft real-time capabilities on their devices.
 
 This real-time behavior is introduced through 4 key settings:
 
@@ -38,4 +38,4 @@ Soft real-time should not be used in control loops where individual devices cann
 
 ![Soft Real-Time Use Cases](./media/Real-Time.png)
 
-Next: [How to set up a Device for Real-Time Performance]
+Next: [How to set up a Device for Real-Time Performance](/windows/iot/iot-enterprise/soft-real-time/soft-real-time-device?branch=pr-en-us-29)
