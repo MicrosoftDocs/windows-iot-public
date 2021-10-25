@@ -30,7 +30,7 @@ Please review the following table to understand the differences between these op
 | [Windows Subsystem for Linux (WSL)](/windows/wsl/about) | Available in-box | Available with GUI [(WSGLg)](/windows/iot/product-family/what's-new-in-windows-11-iot-enterprise#windows-subsystem-for-linux-gui)|
 | GPU Compute Support | :heavy_check_mark: | :heavy_check_mark: |
 | [WPA3 H2E Support](https://support.microsoft.com/en-us/windows/faster-and-more-secure-wi-fi-in-windows-26177a28-38ed-1a8e-7eca-66f24dc63f09) | :heavy_check_mark: | :heavy_check_mark: |
-| [Wifi 6E](https://support.microsoft.com/en-us/windows/faster-and-more-secure-wi-fi-in-windows-26177a28-38ed-1a8e-7eca-66f24dc63f09) | Not Available | :heavy_check_mark: |
+| [Wi-Fi 6E](https://support.microsoft.com/en-us/windows/faster-and-more-secure-wi-fi-in-windows-26177a28-38ed-1a8e-7eca-66f24dc63f09) | Not Available | :heavy_check_mark: |
 | [USB 4.0](/windows-hardware/design/component-guidelines/universal-serial-bus-4) | Not Available | :heavy_check_mark: |
 | [New Modern UI](https://blogs.windows.com/windowsexperience/) | - | :heavy_check_mark: |
 | ARM64 | Available on Semi-Annual Channel | Available as Annual Release |  
