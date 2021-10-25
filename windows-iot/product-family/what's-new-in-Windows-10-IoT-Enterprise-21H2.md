@@ -92,3 +92,7 @@ Please review the following table to understand the differences between these op
 
 
 Please review [Features by Release](/windows/iot/iot-enterprise/features) to see information about previous Windows 10 IoT Enterprise releases.
+
+## Additional Resources
+* [Windows IoT Enterprise Documentation](/windows/iot/iot-enterprise/getting_started)
+* [Blog: Introducing the next feature update to Windows 10: 21H2](https://blogs.windows.com/windowsexperience/2021/07/15/introducing-the-next-feature-update-to-windows-10-21h2/)
