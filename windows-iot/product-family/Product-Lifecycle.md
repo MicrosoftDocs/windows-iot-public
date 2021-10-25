@@ -22,7 +22,7 @@ To further understand how these products are serviced please review [licensing](
   * [2021 Annual Release (21H2)](/lifecycle/products/windows-11-iot-enterprise-version-21h2)
 
 * **Windows 10 IoT Enterprise**
-  * 2021 Long-Term Servicing Channel (LTSC) - Coming Soon!
+  * 2021 Long-Term Servicing Channel (LTSC)
   * [Semi-Annual Channel (SAC)](/lifecycle/products/windows-10-iot-enterprise)
   * [2019 Long-Term Servicing Channel (LTSC)](/lifecycle/products/windows-10-iot-ltsc-2019)
   * [2016 Long-Term Servicing Branch (LTSB)](/lifecycle/products/windows-10-iot-2016-ltsb)
