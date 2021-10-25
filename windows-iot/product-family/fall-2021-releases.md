@@ -24,7 +24,7 @@ Please review the following table to understand the differences between these op
 | [Servicing](/windows/iot/product-family/product-lifecycle?tabs=2021) | Options: SAC, 10-Year LTSC | Annual Release |
 | [Multi-App Assigned Access](/windows/iot/iot-enterprise/kiosk-mode/multi-app-kiosk) | Available | Coming soon in a future release |
 | [Browser Support](/windows/iot/iot-enterprise/kiosk-mode/browser-support) | Microsoft Edge included in-box and follows [Modern Lifecycle Policy]() | Microsoft Edge included in-box |
-| [Customizable Windows Update UX](/windows/iot/iot-enterprise/branding-features/update-notification) |  <input type="checkbox" disabled checked /> |  <input type="checkbox" disabled checked />|
+| [Customizable Windows Update UX](/windows/iot/iot-enterprise/branding-features/update-notification) |  <input type="checkbox" checked /> |  <input type="checkbox" checked />|
 | [Soft Real-Time](/windows/iot/iot-enterprise/soft-real-time/soft-real-time) | X | X |
 | [Unified Write Filter (UWF) Updates](/windows/iot/iot-enterprise/advanced-lockdown-features/unified-write-filter) | X | X |
 | [Windows Subsystem for Linux (WSL)](/windows/wsl/about) | Available in-box | Available with GUI [(WSGLg)](/windows/iot/product-family/what's-new-in-windows-11-iot-enterprise#windows-subsystem-for-linux-gui)|
