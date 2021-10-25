@@ -16,7 +16,7 @@ This article will walk you through the latest updates for Windows 10 IoT Enterpr
 
 
 ## What is Windows 10 IoT Enterprise 21H2?
-Windows 10 IoT Enterprise is the latest operating system offering for embedded and IoT devices. With every new release, we continue to deliver on our promise of bringing enterprise-class power, security, and manageability to the Internet of Things in addition to adding new features and capabilities, some of which are highlighted below.
+[Windows 10 IoT Enterprise](/windows/iot/iot-enterprise/getting_started) is the latest operating system offering for embedded and IoT devices. With every new release, we continue to deliver on our promise of bringing enterprise-class power, security, and manageability to the Internet of Things in addition to adding new features and capabilities, some of which are highlighted below.
 
 This release will be available in two editions:
 * Semi-Annual Channel (SAC): [Windows 10 IoT Enterprise 21H2](/lifecycle/products/windows-10-iot-enterprise)
