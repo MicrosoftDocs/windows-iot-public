@@ -26,7 +26,7 @@ highlightedContent:
       url: https://review.docs.microsoft.com/en-us/windows/iot/product-family/what's-new-in-windows-10-iot-enterprise-21h2?branch=pr-en-us-29
     - title: What's new in Windows 11 IoT Enterprise 
       itemType: reference
-      url: http://aka.ms/windows11iotenterprise
+      url: https://review.docs.microsoft.com/en-us/windows/iot/product-family/what's-new-in-windows-11-iot-enterprise?branch=pr-en-us-29
     - title: Windows for IoT News
       itemType: whats-new
       url: ./product-family/News-Blogs.md
