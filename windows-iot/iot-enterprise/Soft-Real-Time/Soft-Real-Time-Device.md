@@ -147,7 +147,7 @@ Environments that use Windows Management Instrumentation (WMI) can use the MDM B
 
   ```
 
->[!TIP}
+>[!TIP]
 >
 > You can use the same script for whatever number of real-time cores you need to have, just replacing the 3 in the second-to-last line with the appropriate number. This will reserve cores starting with core 0 and going upwards. So reserving 3 cores on a 4 core CPU will reserve cores 0, 1, and 2 and leave core 3 for system and non-real-time tasks.
 
