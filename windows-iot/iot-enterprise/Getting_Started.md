@@ -62,13 +62,13 @@ Articles include:
 * [Assigned access multi-app kiosk mode](./Kiosk-Mode/Multi-App-Kiosk.md)
 * [Configure Shell Launcher](./Kiosk-Mode/Shell-Launcher.md)
 * [Browser Support](./Kiosk-Mode/Browser-Support.md)
+* [Manage the Edge Swipe Policy](./Advanced-Lockdown-Features/Edge-Swipe-Policy.md)
 
 ### Advanced Lockdown Features
 This section highlights how to create a lock-down environment with Windows IoT Enterprise OS features.
 
 Articles include:
 * [Application Control](./Advanced-Lockdown-Features/Application-Control.md)
-* [Manage the Edge Swipe Policy](./Advanced-Lockdown-Features/Edge-Swipe-Policy.md)
 * [Put in Place Device Safeguards](./Advanced-Lockdown-Features/Device-Safeguards.md)
 * [Use a Keyboard Filter](./Advanced-Lockdown-Features/Keyboard-Filter.md)
 * [Explore the Unified Write Filter](./Advanced-Lockdown-Features/Unified-Write-Filter.md)
