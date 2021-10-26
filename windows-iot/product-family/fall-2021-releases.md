@@ -17,7 +17,8 @@ This article will walk you through the key differences between the two releases.
 
 ## What's the difference between Windows 10 IoT Enterprise, version 21H2 and Windows 11 IoT Enterprise?
 
-Please review the following table to understand the differences between these operation system versions.
+Please review the following table to understand the key differences between these two operation system versions.
+
 
 | Scenario | [Windows 10 IoT Enterprise, Version 21H2](/windows/iot/product-family/what's-new-in-windows-10-iot-enterprise-21h2) | [Windows 11 IoT Enterprise](/windows/iot/product-family/what's-new-in-windows-11-iot-enterprise) |
 |----------|-----------------------------------------|---------------------------|
