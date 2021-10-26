@@ -11,7 +11,6 @@ keywords: Windows IoT Enterprise, Windows 10, Windows 10 IoT, Windows 10 IoT Ent
 ---
 
 # What's new in Windows 10 IoT Enterprise, version 21H2?
-
 This article will walk you through the latest updates for Windows 10 IoT Enterprise 21H2 and what device builders and OEMs should know about this latest offering.
 
 
@@ -19,23 +18,22 @@ This article will walk you through the latest updates for Windows 10 IoT Enterpr
 [Windows 10 IoT Enterprise](/windows/iot/iot-enterprise/getting_started) is a new operating system offering for embedded and IoT devices. With every new release, we continue to deliver on our promise of bringing enterprise-class power, security, and manageability to the Internet of Things in addition to adding new features and capabilities, some of which are highlighted below.
 
 This release will be available in two editions:
-* Semi-Annual Channel (SAC): [Windows 10 IoT Enterprise, version 21H2](/lifecycle/products/windows-10-iot-enterprise)
-* Long-Term Servicing Channel (LTSC): [Windows 10 IoT Enterprise LTSC 2021](/lifecycle/products/windows-10-iot-ltsc-2021)
+* [Windows 10 IoT Enterprise, version 21H2](/lifecycle/products/windows-10-iot-enterprise)
+* [Windows 10 IoT Enterprise LTSC 2021](/lifecycle/products/windows-10-iot-ltsc-2021) (Long-Term Servicing Channel)
 
 Please review [Windows for IoT Licensing](/windows/iot/iot-enterprise/commercialization/licensing) and contact your [Windows IoT distributor](https://aka.ms/IoTDistributorList) for more information.
 
-
 ## New Features and Capabilities
-See below for the newest features and capabilities included with Windows 10 IoT Enterprise, version 21H2. Unless otherwise noted, these features will be included in both the LTSC and SAC versions of the release.
+There are several new features and capabilities included in this release. Unless otherwise noted, these features will be included in both editions of the release.
 
 ### Microsoft Edge Browser Support
-Windows 10 IoT Enterprise, version 21H2, comes with in-box [Microsoft Edge Browser support](/windows/iot/iot-enterprise/kiosk-mode/browser-support).
+[Microsoft Edge Browser support](/windows/iot/iot-enterprise/kiosk-mode/browser-support) is now included in-box.
 
 ### Customizable Windows Update UX
-With this latest release, we are enabling you to [manage your Windows update experience](/windows/iot/iot-enterprise/branding-features/update-notification) with genericized update message strings and screen accent colors.
+We are enabling you to [manage your Windows update experience](/windows/iot/iot-enterprise/branding-features/update-notification) with genericized update message strings and screen accent colors.
 
 ### Soft Real-Time
-Windows 10 soft real-time is a new feature with Windows 10 IoT Enterprise, version 21H2 that allows device makers to introduce soft real-time capabilities on their devices.
+Windows 10 soft real-time is a new feature that allows device makers to introduce soft real-time capabilities on their devices.
 
 Check out the following documentation to learn more:
 * [Soft-Real Time Overview](/windows/iot/iot-enterprise/soft-real-time/soft-real-time)
@@ -43,7 +41,7 @@ Check out the following documentation to learn more:
 * [Application Development](/windows/iot/iot-enterprise/soft-real-time/soft-real-time-application).
 
 ### Unified Write Filter (UWF) Updates
-With Windows 10 IoT Enterprise, version 21H2, there have been many improvements to the [Unified Write Filter](/windows/iot/iot-enterprise/advanced-lockdown-features/unified-write-filter).
+There have been many improvements to the [Unified Write Filter](/windows/iot/iot-enterprise/advanced-lockdown-features/unified-write-filter).
 
 1. Allowing UWF Swapfile (DISK Overlay) to be created and used on any volume
 2. Read Only Media Mode
@@ -52,13 +50,12 @@ With Windows 10 IoT Enterprise, version 21H2, there have been many improvements 
 To learn more about how to implement these new features, review [Enhanced Unified Write Filter Features](/windows-hardware/customize/enterprise/uwf-wes7-ewf-to-win10-uwf)
 
 ### Windows Subsystem for Linux (WSL)
-Starting with Windows IoT Enterprise LTSC 2021, Windows Subsystem for Linux (WSL) will be available in-box for both LTSC and SAC.
+Windows Subsystem for Linux (WSL) will be available in-box.
 
 ### GPU Compute Support
 With Windows 10 IoT Enterprise, version 21H2 there is additional GPU compute support in the [Windows Subsystem for Linux (WSL)](/windows/wsl/about) and [Azure IoT Edge for Linux on Windows (EFLOW)](/windows/iot/iot-enterprise/azure-iot-edge-for-linux-on-windows) deployments for machine learning and other compute intensive workflows.
 
 ### Adding WPA3 H2E standards support
-
 In this new release, there will be WPA3 H2E standards support for enhanced Wi-Fi security. To learn more, view [Faster and more secure Wi-Fi in Windows](https://support.microsoft.com/windows/faster-and-more-secure-wi-fi-in-windows-26177a28-38ed-1a8e-7eca-66f24dc63f09)
 
 ## Additional Resources
