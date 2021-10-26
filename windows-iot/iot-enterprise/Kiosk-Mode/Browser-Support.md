@@ -36,7 +36,7 @@ In anticipation of that, you can use [Internet Explorer (IE) mode](/deployedge/e
 > Internet Explorer 11 follows the Long-Term-Servicing-Channel (LTSC) Lifecyle for [LTSC SKUs](/windows/iot/product-family/product-lifecycle?tabs=2021).
 
 ## Supported Versions
-| Browser | ![Internet Explorer 11](./media/IE11.png) | ![Microsoft Edge Legacy](./media/Microsoft-Edge-Legacy1.png) | ![New Microsoft Edge](./media/Microsoft-Edge-New.png) |
+| Browser | ![Internet Explorer 11](./media/IE11.png) | ![Microsoft Edge Legacy](./media/Microsoft-Edge-Legacy2.png) | ![New Microsoft Edge](./media/Microsoft-Edge-New.png) |
 |--|--|--|--|
 | [OS Release](/windows/iot/product-family/product-lifecycle) | [IE11 App](/internet-explorer/internet-explorer) | [Edge Browser - Legacy](/deployedge/microsoft-edge-kiosk-mode-transition-plan) | [New Edge Browser](/deployedge/microsoft-edge-configure-kiosk-mode) |
 | Windows 10 IoT Enterprise LTSC 2019 (RS5) | Supported until OS EOL | No browser security updates after March, 9, 2021 (removed where applicable). In-box engine supported until OS EOL | Edge and WebView2 Runtime not in-box (requires app migration from EdgeHTML) |
