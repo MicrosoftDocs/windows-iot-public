@@ -42,7 +42,7 @@ In anticipation of that, you can use [Internet Explorer (IE) mode](/deployedge/e
 | Windows 10 IoT Enterprise LTSC 2019 (RS5) | Supported until OS EOL | No browser security updates after March, 9, 2021 (removed where applicable). In-box engine supported until OS EOL | Edge and WebView2 Runtime not in-box (requires app migration from EdgeHTML) |
 | Windows 10 IoT Enterprise, Version 21H2, SAC | End of support June 15, 2022 | Removed & replaced with New Edge Browser in May 2021 Update | Included in-box or installed with May 2021 Update |
 | Windows 10 IoT Enterprise LTSC 2021 | Supported until OS EOL | Not included | Microsoft Edge included in-box and follows [Modern Lifecycle Policy](/lifecycle/policies/modern) |
-| Windows 11 IoT Enterprise | - | - | Microsoft Edge included in-box and follows [Modern Lifecycle Policy](/lifecycle/policies/modern) |
+| Windows 11 IoT Enterprise | - | Meow | Microsoft Edge included in-box and follows [Modern Lifecycle Policy](/lifecycle/policies/modern) |
 
 ## Additional Resources
 * [Configure Microsoft Edge kiosk mode](/deployedge/microsoft-edge-configure-kiosk-mode)
