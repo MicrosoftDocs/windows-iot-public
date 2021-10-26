@@ -38,10 +38,10 @@ In anticipation of that, you can use [Internet Explorer (IE) mode](/deployedge/e
 ## Supported Versions
 | Browser | ![Internet Explorer 11](./media/IE11.png) | ![Microsoft Edge Legacy](./media/Microsoft-Edge-Legacy.png) | ![New Microsoft Edge](./media/Microsoft-Edge-New.png) |
 |--|--|--|--|
-| OS Release | [IE11 App](/internet-explorer/internet-explorer) | [Edge Browser - Legacy](/deployedge/microsoft-edge-kiosk-mode-transition-plan) | [New Edge Browser](/deployedge/microsoft-edge-configure-kiosk-mode) |
-| Windows 10 IoT Enterprise 2019 LTSC (RS5) | Supported until OS EOL | No browser security updates after March, 9, 2021 (removed where applicable). In-box engine supported until OS EOL | Edge and WebView2 Runtime not in-box (requires app migration from EdgeHTML) |
-| Windows 10 IoT Enterprise 2021 SAC | End of support June 15, 2022 | Removed & replaced with New Edge Browser in May 2021 Update | Included in-box or installed with May 2021 Update |
-| Windows 10 IoT Enterprise 2021 LTSC | Supported until OS EOL | Not included | Microsoft Edge included in-box and follows [Modern Lifecycle Policy](/lifecycle/policies/modern) |
+| [OS Release](/windows/iot/product-family/product-lifecycle) | [IE11 App](/internet-explorer/internet-explorer) | [Edge Browser - Legacy](/deployedge/microsoft-edge-kiosk-mode-transition-plan) | [New Edge Browser](/deployedge/microsoft-edge-configure-kiosk-mode) |
+| Windows 10 IoT Enterprise LTSC 2019 (RS5) | Supported until OS EOL | No browser security updates after March, 9, 2021 (removed where applicable). In-box engine supported until OS EOL | Edge and WebView2 Runtime not in-box (requires app migration from EdgeHTML) |
+| Windows 10 IoT Enterprise, Version 21H2, SAC | End of support June 15, 2022 | Removed & replaced with New Edge Browser in May 2021 Update | Included in-box or installed with May 2021 Update |
+| Windows 10 IoT Enterprise LTSC 2021 | Supported until OS EOL | Not included | Microsoft Edge included in-box and follows [Modern Lifecycle Policy](/lifecycle/policies/modern) |
 | Windows 11 IoT Enterprise | - | - | Microsoft Edge included in-box and follows [Modern Lifecycle Policy](/lifecycle/policies/modern) |
 
 ## Additional Resources
