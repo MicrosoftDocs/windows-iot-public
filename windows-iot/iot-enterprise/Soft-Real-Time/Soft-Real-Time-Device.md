@@ -33,6 +33,10 @@ This guide will walk you through how to set up your device for Real-Time Perform
 >
 > This will open up your device to vulnerabilities as security patches will not go through. That said, it is necessary as the Windows Update agent does not respect CPU core isolation. We recommend having a plan to ensure device security and install updates during times when the device can be taken down for maintenance
 
+>[!TIP]
+>
+> A good example of managing updates during downtime can be found in the UWF documentation: [Service UWF-protected devices](/windows-hardware/customize/enterprise/service-uwf-protected-devices) If you are using UWF and Soft Real-time (and you likely already are) then this process should take care of the OS update need for both features at the same time.
+
 4. Set the [WindowsIoT CSP](#what-is-the-windowsiot-csp) for real-time performance.
 
 5. Configure RSS to migrate ISRs/DPCs to CPU0
