@@ -35,7 +35,7 @@ This guide will walk you through how to set up your device for Real-Time Perform
 
 >[!TIP]
 >
-> A good example of managing updates during downtime can be found in the UWF documentation: [Service UWF-protected devices](/windows-hardware/customize/enterprise/service-uwf-protected-devices) If you are using UWF and Soft Real-time (and you likely already are) then this process should take care of the OS update need for both features at the same time.
+> A good example of managing updates during downtime can be found in the UWF documentation: [Service UWF-protected devices](/windows-hardware/customize/enterprise/service-uwf-protected-devices) If you are using UWF and Soft Real-time then this process should take care of the OS update need for both features at the same time.
 
 4. Set the [WindowsIoT CSP](#what-is-the-windowsiot-csp) for real-time performance.
 

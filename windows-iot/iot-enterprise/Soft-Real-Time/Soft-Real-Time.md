@@ -34,7 +34,7 @@ A soft real-time operating system is one where there is a small window of time f
 ### When do I need Real-Time Performance?
 Real-time performance is not necessarily faster performance. It is just predictable performance. If you want better overall system performance – soft real-time might not be your best route to achieving it. However, if you have a real-world constraint (such as a calculation that must be performed before a robot’s environment changes or a motor that must be activated before a conveyor belt moves along) then soft real-time might be what you need.
 
-Soft real-time should not be used in control loops where individual devices cannot operate without input from the soft RT machines. Such command-and-control loops will need to use a hard real-time device. Soft real-time is most useful in a State Machine Trigger device, where devices operate on independent microcontrollers until the soft real-time machine provides an input to change their behavior.
+Soft real-time devices are more often used within a broader control loop to trigger behaviors from a state machine. Smaller hard real-time control loops sit within the broader loop and operate on independent microcontrollers until the soft real-time machine provides an input to change their behavior. Many command-and-control loops have strenuous cycle time demands and need to use a hard real-time device in the loop for direct control.
 
 ![Soft Real-Time Use Cases](./media/Real-Time.png)
 
