@@ -31,7 +31,7 @@ Both experiences are running a Microsoft Edge InPrivate session, which protects 
 In anticipation of that, you can use [Internet Explorer (IE) mode](/deployedge/edge-ie-mode) on Microsoft Edge. IE mode allows you to run legacy web apps as well as modern web apps in a single browser.
 
 > [!NOTE]
-For in-support Windows 10 IoT Enterprise [Semi-Annual Channel (SAC) releases](/lifecycle/products/windows-10-iot-enterprise), Internet Explorer 11 will reach end of support on June 15, 2022.
+> For in-support Windows 10 IoT Enterprise [Semi-Annual Channel (SAC) releases](/lifecycle/products/windows-10-iot-enterprise), Internet Explorer 11 will reach end of support on June 15, 2022.
 >
 > Internet Explorer 11 follows the Long-Term-Servicing-Channel (LTSC) Lifecyle for [LTSC SKUs](/windows/iot/product-family/product-lifecycle?tabs=2021).
 
