@@ -25,13 +25,13 @@
     href: Kiosk-Mode/Shell-Launcher.md
   - name: Browser Support 
     href: Kiosk-Mode/Browser-Support.md
+  - name: Screen Swipe Policy
+    href: Advanced-Lockdown-Features/Edge-Swipe-Policy.md
 - name: Advanced Lockdown Features
   expanded: false 
   items: 
   - name: Application Control
     href: Advanced-Lockdown-Features/Application-Control.md
-  - name: Screen Swipe Policy
-    href: Advanced-Lockdown-Features/Edge-Swipe-Policy.md
   - name: Device Safeguards
     href: Advanced-Lockdown-Features/Device-Safeguards.md
   - name: Keyboard Filter
