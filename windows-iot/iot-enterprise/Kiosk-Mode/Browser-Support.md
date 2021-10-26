@@ -35,7 +35,7 @@ In anticipation of that, you can use [Internet Explorer (IE) mode](/deployedge/e
 >
 > Internet Explorer 11 follows the Long-Term-Servicing-Channel (LTSC) Lifecyle for [LTSC SKUs](/windows/iot/product-family/product-lifecycle?tabs=2021).
 
-## Support Versions
+## Supported Versions
 | | ![Internet Explorer 11](./media/IE11.png) | ![Microsoft Edge Legacy](./media/Microsoft-Edge-Legacy.png) | ![New Microsoft Edge](./media/Microsoft-Edge-New.png) |
 |--|--|--|--|
 | Browser | [IE11 App](/internet-explorer/internet-explorer) | [Edge Browser - Legacy](/deployedge/microsoft-edge-kiosk-mode-transition-plan) | [New Edge Browser](/deployedge/microsoft-edge-configure-kiosk-mode) |
