@@ -12,7 +12,7 @@ metadata:
   ms.technology: iot
   author: rsameser
   ms.author: riameser
-  ms.date: 10/05/2021
+  ms.date: 10/26/2021
 
 # itemType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | tutorial | whats-new
 
@@ -23,10 +23,10 @@ highlightedContent:
       url: ./product-family/windows-iot.md
     - title: What's new in Windows 10 IoT Enterprise, version 21H2 
       itemType: reference
-      url: https://review.docs.microsoft.com/en-us/windows/iot/product-family/what's-new-in-windows-10-iot-enterprise-21h2?branch=pr-en-us-29
+      url: /windows/iot/product-family/what's-new-in-windows-10-iot-enterprise-21h2
     - title: What's new in Windows 11 IoT Enterprise 
       itemType: reference
-      url: https://review.docs.microsoft.com/en-us/windows/iot/product-family/what's-new-in-windows-11-iot-enterprise?branch=pr-en-us-29
+      url: /windows/iot/product-family/what's-new-in-windows-11-iot-enterprise
     - title: Windows for IoT News
       itemType: whats-new
       url: ./product-family/News-Blogs.md
