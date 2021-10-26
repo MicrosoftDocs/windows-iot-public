@@ -1,5 +1,5 @@
 ---
-title: What's new in Windows 10 IoT Enterprise, Version 21H2?
+title: What's new in Windows 10 IoT Enterprise, version 21H2?
 author: rsameser
 ms.author: riameser
 ms.date: 10/26/2021
@@ -15,11 +15,11 @@ keywords: Windows IoT Enterprise, Windows 10, Windows 10 IoT, Windows 10 IoT Ent
 This article will walk you through the latest updates for Windows 10 IoT Enterprise 21H2 and what device builders and OEMs should know about this latest offering.
 
 
-## What is Windows 10 IoT Enterprise 21H2?
+## What is Windows 10 IoT Enterprise, version 21H2?
 [Windows 10 IoT Enterprise](/windows/iot/iot-enterprise/getting_started) is a new operating system offering for embedded and IoT devices. With every new release, we continue to deliver on our promise of bringing enterprise-class power, security, and manageability to the Internet of Things in addition to adding new features and capabilities, some of which are highlighted below.
 
 This release will be available in two editions:
-* Semi-Annual Channel (SAC): [Windows 10 IoT Enterprise 21H2](/lifecycle/products/windows-10-iot-enterprise)
+* Semi-Annual Channel (SAC): [Windows 10 IoT Enterprise, version 21H2](/lifecycle/products/windows-10-iot-enterprise)
 * Long-Term Servicing Channel (LTSC): [Windows 10 IoT Enterprise LTSC 2021](/lifecycle/products/windows-10-iot-ltsc-2021)
 
 Please review [Windows for IoT Licensing](/windows/iot/iot-enterprise/commercialization/licensing) and contact your [Windows IoT distributor](https://aka.ms/IoTDistributorList) for more information.
