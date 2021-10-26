@@ -1,16 +1,41 @@
 ---
-title: Update Notification
+title: Manage Update Experience
 author: rsameser
 ms.author: riameser
-ms.date: 10/05/2021
+ms.date: 10/26/2021
 ms.topic: article
 ms.prod: windows-iot
 ms.technology: iot
 description: Learn about the Update Notification Feature in Windows IoT Enterprise.
 keywords: Branding, Update Notification
 ---
-# Update Notification
-In Windows IoT Enterprise, we know that having your device ready for use at all time is very important. We have many features to help you maximize control over your devices' [update notifications](/windows/deployment/update/waas-wu-settings#remove-access-to-use-all-windows-update-features) to ensure that you can plan and ahead and control when updates can occur. Below are some common recommended configuration settings. Consider whether each individual configuration setting applies to your device scenario.
+# Manage Update Experience
+In Windows IoT Enterprise, we know that having your device ready for use at all time is very important. We have many features to help you maximize control and customization over your devices' update screen UI and [notifications](/windows/deployment/update/waas-wu-settings#remove-access-to-use-all-windows-update-features) to ensure that you can plan and ahead and control when updates can occur. Below are some common recommended configuration settings. Consider whether each individual configuration setting applies to your device scenario.
+
+## Genericized Update Message Strings
+Starting in Windows fall 2021 releases, update message strings have been rewritten to remove references to terms such as ‘Windows’, ‘computer’, and ‘PC’, to keep the experienced focused on your fixed-purpose device. See table below for examples.
+
+| Original String | New String |
+|-----------------|------------|
+| Don't turn off your computer | Please keep your device on |
+| Getting Windows ready | Getting things ready |
+| Setting up Windows | Updates are underway |
+| Getting ready to retry | Retrying a few things |
+| We couldn't complete the updates | Something didn't go as planned |
+
+
+## Update Screen Accent Color
+You can additionally customize the update experience on your devices by changing the background color of the update screen from the traditional blue to whichever color best matches your branding of your organization.  
+
+To update the accent color:
+1. Open the Settings app and navigate to Personalization.
+2. In the menu on the left side, navigate to Colors.
+3. Scroll to the bottom of the page and select a color from the list or use the custom color picker.
+
+
+> [!NOTE]
+>
+> This setting also affects the color of accents within the UI of the OS.
 
 ## Control UI notifications from the Windows Update client
 A device can be configured in a way to hide the UI experience for Windows Update while letting the service itself run in the background and update the system. The Windows Update client still honors the policies set for configuring Automatic Updates, this policy controls the UI portion of that experience.
@@ -22,18 +47,6 @@ A device can be configured in a way to hide the UI experience for Windows Update
 > [!TIP]
 >
 > Set the value to 1 to hide all notifications except restart warnings, or to 2 to hide all notifications, including restart warnings.
-
-
-## Disable access to the Windows Update user experience
-In some scenarios, configuring Automatic Updates isn't enough to preserve a desired device experience. For example, an end-user may still have access to the Windows Update settings, which would allow manual updates via Windows Update. You can configure Group policy to prohibit access to Windows Update through settings.
-
-To prohibit access to Windows update:
-1. Open the Group Policy Editor (gpedit.msc) and navigate to **Computer Configuration\Administrative Templates\Windows Components\Windows update\Remove access to use all Windows update features**.
-2. Set this policy to **Enabled** to prevent the "Check for updates" option for users. Note: Any background update scans, downloads, and installations will continue to work as configured. This policy simply prevents the user from accessing the manual check through settings. Use the steps in the previous section to also disable scans, downloads, and installations.
-
-> [!IMPORTANT]
->
-> Be sure to have a well-designed servicing strategy for your device. Disabling Windows Update capabilities leaves the device in a vulnerable state if your device isn't getting updates in another way.
 
 
 ## Additional Resources

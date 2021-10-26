@@ -12,7 +12,7 @@ metadata:
   ms.technology: iot
   author: rsameser
   ms.author: riameser
-  ms.date: 10/05/2021
+  ms.date: 10/26/2021
 
 # itemType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | tutorial | whats-new
 
@@ -21,9 +21,12 @@ highlightedContent:
     - title: What is Windows for IoT?
       itemType: overview # controls the icon image and super-title text
       url: ./product-family/windows-iot.md
+    - title: What's new in Windows 10 IoT Enterprise, version 21H2 
+      itemType: reference
+      url: /windows/iot/product-family/what's-new-in-windows-10-iot-enterprise-21h2
     - title: What's new in Windows 11 IoT Enterprise 
       itemType: reference
-      url: http://aka.ms/windows11iotenterprise
+      url: /windows/iot/product-family/what's-new-in-windows-11-iot-enterprise
     - title: Windows for IoT News
       itemType: whats-new
       url: ./product-family/News-Blogs.md
@@ -40,33 +43,6 @@ productDirectory:
           text: Manufacturing Guide
         - url: ./iot-enterprise/Kiosk-Mode/Kiosk-Mode.md
           text: Kiosk Mode
-    - title: Windows 10 IoT Core
-      imageSrc: ./media/index/windows.png
-      links:
-        - url: https://docs.microsoft.com/windows/iot-core/windows-iot-core
-          text: Overview
-        - url: https://docs.microsoft.com/windows-hardware/manufacture/iot/iot-core-manufacturing-guide
-          text: Manufacturing Guide
-        - url: https://docs.microsoft.com/windows/iot-core/connect-your-device/iotdashboard
-          text: Dashboard
-    - title: Windows 10 IoT Core Services
-      imageSrc: ./media/index/windows.png
-      links:
-        - url: https://docs.microsoft.com/windows-hardware/manufacture/iot/iotcoreservicesoverview
-          text: Overview
-        - url: https://docs.microsoft.com/windows/deployment/update/waas-overview#long-term-servicing-channel
-          text: Windows Long-Term Servicing Channel (LTSC) Releases
-        - url: https://docs.microsoft.com/windows-hardware/service/iot/using-device-update-center
-          text: Device Update Center
-    - title: Windows CE Migration
-      imageSrc: ./media/index/windows.png
-      links:
-        - url: ./windows_ce/windows-ce-migration-faq.md
-          text:  Frequently Asked Questions
-        - url: ./windows_ce/windows-ce-app-container-overview.md
-          text:  Windows CE App Container
-        - url: ./windows_ce/windows-ce-app-container-getting-started.md
-          text:  Getting Started with Windows CE App Container
     - title: Windows Server IoT 2022
       imageSrc: ./media/index/windows.png
       links:
@@ -85,6 +61,33 @@ productDirectory:
           text: Quickstart
         - url: https://docs.microsoft.com/azure/iot-edge/how-to-install-iot-edge-on-windows?view=iotedge-2018-06&tabs=powershell
           text: How-to Guide
+    - title: Windows CE Migration
+      imageSrc: ./media/index/windows.png
+      links:
+        - url: ./windows_ce/windows-ce-migration-faq.md
+          text:  Frequently Asked Questions
+        - url: ./windows_ce/windows-ce-app-container-overview.md
+          text:  Windows CE App Container
+        - url: ./windows_ce/windows-ce-app-container-getting-started.md
+          text:  Getting Started with Windows CE App Container
+    - title: Windows 10 IoT Core
+      imageSrc: ./media/index/windows.png
+      links:
+        - url: https://docs.microsoft.com/windows/iot-core/windows-iot-core
+          text: Overview
+        - url: https://docs.microsoft.com/windows-hardware/manufacture/iot/iot-core-manufacturing-guide
+          text: Manufacturing Guide
+        - url: https://docs.microsoft.com/windows/iot-core/connect-your-device/iotdashboard
+          text: Dashboard
+    - title: Windows 10 IoT Core Services
+      imageSrc: ./media/index/windows.png
+      links:
+        - url: https://docs.microsoft.com/windows-hardware/manufacture/iot/iotcoreservicesoverview
+          text: Overview
+        - url: https://docs.microsoft.com/windows/deployment/update/waas-overview#long-term-servicing-channel
+          text: Windows Long-Term Servicing Channel (LTSC) Releases
+        - url: https://docs.microsoft.com/windows-hardware/service/iot/using-device-update-center
+          text: Device Update Center
 
 conceptualContent:
   items:
