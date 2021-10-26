@@ -45,6 +45,17 @@ To completely disable automatic updating of Windows with Windows Update:
 1. Open the Group Policy Editor (gpedit.msc) and navigate to **Computer Configuration\Administrative Templates\Windows Components\Windows update\Configure Automatic Updates**.
 2. Explicitly set the policy to **Disabled**. When this setting is set to Disabled, any available updates from Windows Update must be downloaded and installed manually, which you can do in the Settings app under **Update & security > Windows Update**.
 
+## Disable access to the Windows Update user experience
+In some scenarios, configuring Automatic Updates isn't enough to preserve a desired device experience. For example, an end-user may still have access to the Windows Update settings, which would allow manual updates via Windows Update. You can configure Group policy to prohibit access to Windows Update through settings.
+
+To prohibit access to Windows update:
+1. Open the Group Policy Editor (gpedit.msc) and navigate to **Computer Configuration\Administrative Templates\Windows Components\Windows update\Remove access to use all Windows update features**.
+2. Set this policy to **Enabled** to prevent the "Check for updates" option for users. Note: Any background update scans, downloads, and installations will continue to work as configured. This policy simply prevents the user from accessing the manual check through settings. Use the steps in the previous section to also disable scans, downloads, and installations.
+
+> [!IMPORTANT]
+>
+> Be sure to have a well-designed servicing strategy for your device. Disabling Windows Update capabilities leaves the device in a vulnerable state if your device isn't getting updates in another way.
+
 ## Completely Turn Off Windows Updates
 You can configure Windows Update in several ways. As a general rule, IoT devices require special attention to the servicing and management strategy to be used on the devices. If your servicing strategy is to disable all Windows Update features, you have two possible approaches. You can turn off updates via [Group Policy](/windows-hardware/manufacture/desktop/iot-ent-configure-policy-settings#windows-update-summary) or through [Registry](/windows/privacy/manage-connections-from-windows-operating-system-components-to-microsoft-services#bkmk-wu).
 

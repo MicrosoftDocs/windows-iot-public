@@ -2,7 +2,7 @@
 title: Windows for IoT News
 author: rsameser
 ms.author: riameser
-ms.date: 10/05/2021
+ms.date: 10/26/2021
 ms.topic: article
 ms.prod: windows-iot
 ms.technology: iot
@@ -19,6 +19,7 @@ Stay up to date with the latest news and announcements regarding the Windows for
 # [2021](#tab/2021)
 
 **October**
+* Blog: [Windows 10 IoT Enterprise LTSC 2021 - RTM for OEMs ](https://aka.ms/W10IOTLTSC2021Blog)
 * Blog: [Introducing Windows 11 IoT](https://aka.ms/Win11IoTGABlog)
 
 **September**

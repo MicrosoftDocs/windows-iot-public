@@ -14,7 +14,7 @@ keywords: IoT Enterprise, binary, fixed purpose devices, LTSC, Silicon
 This article will give you an overview of the product and guide you through how to get started with Windows IoT Enterprise.
 
 ## What is Windows IoT Enterprise?
-Windows IoT Enterprise is a full version of Windows Enterprise that delivers enterprise manageability and security to IoT solutions. Windows IoT Enterprise shares all the benefits of the worldwide Windows ecosystem. It is a binary equivalent to Windows Enterprise, so you can use the same familiar development and management tools as client PCs and laptops. However, when it comes to *licensing and distribution*, the desktop version and IoT versions differ. Today there are two releases of Windows IoT Enterprise: Windows 10 IoT Enterprise and [Windows 11 IoT Enterprise](/windows/iot/product-family/what's-new-in-windows-11-iot-enterprise).
+Windows IoT Enterprise is a full version of Windows Enterprise that delivers enterprise manageability and security to IoT solutions. Windows IoT Enterprise shares all the benefits of the worldwide Windows ecosystem. It is a binary equivalent to Windows Enterprise, so you can use the same familiar development and management tools as client PCs and laptops. However, when it comes to *licensing and distribution*, the desktop version and IoT versions differ. Today there are two releases of Windows IoT Enterprise: [Windows 10 IoT Enterprise](/windows/iot/product-family/what's-new-in-windows-10-iot-enterprise-21h2) and [Windows 11 IoT Enterprise](/windows/iot/product-family/what's-new-in-windows-11-iot-enterprise).
 
 
 > [!NOTE]
@@ -61,13 +61,14 @@ Articles include:
 * [Assigned access single-app kiosk mode](./Kiosk-Mode/Single-App-Kiosk.md)
 * [Assigned access multi-app kiosk mode](./Kiosk-Mode/Multi-App-Kiosk.md)
 * [Configure Shell Launcher](./Kiosk-Mode/Shell-Launcher.md)
+* [Browser Support](./Kiosk-Mode/Browser-Support.md)
+* [Manage the Edge Swipe Policy](./Advanced-Lockdown-Features/Edge-Swipe-Policy.md)
 
 ### Advanced Lockdown Features
 This section highlights how to create a lock-down environment with Windows IoT Enterprise OS features.
 
 Articles include:
 * [Application Control](./Advanced-Lockdown-Features/Application-Control.md)
-* [Manage the Edge Swipe Policy](./Advanced-Lockdown-Features/Edge-Swipe-Policy.md)
 * [Put in Place Device Safeguards](./Advanced-Lockdown-Features/Device-Safeguards.md)
 * [Use a Keyboard Filter](./Advanced-Lockdown-Features/Keyboard-Filter.md)
 * [Explore the Unified Write Filter](./Advanced-Lockdown-Features/Unified-Write-Filter.md)
@@ -82,7 +83,7 @@ Articles include:
 * [Control Page Visibility](./Branding-Features/Page-Visibility.md)
 * [Configure Layout Control](./Branding-Features/Layout-Control.md)
 * [Enable Unbranded Boot](./Branding-Features/Unbranded-Boot.md)
-* [Manage Update Notification](./Branding-Features/Update-Notification.md)
+* [Manage Update Screen UI and Notifications](./Branding-Features/Update-Notification.md)
 
 
 ### Device Management
@@ -115,6 +116,14 @@ Learn how to commercialize your Windows IoT Enterprise devices.
 Articles include:
 * [Explore Licensing Options (LTSC, SAC)](./Commercialization/Licensing.md)
 * [Windows IoT Enterprise Manufacturing Guide](./Commercialization/Manufacturing-Guide.md)
+
+
+### Soft Real-Time
+Learn how to use Soft Real-Time capabilities with your Windows IoT Enterprise devices.
+
+* [Overview](/windows/iot/iot-enterprise/soft-real-time/soft-real-time)
+* [Device Configuration](/windows/iot/iot-enterprise/soft-real-time/soft-real-time-device)
+* [Application Development](/windows/iot/iot-enterprise/soft-real-time/soft-real-time-application)
 
 
 ### Additional Resources

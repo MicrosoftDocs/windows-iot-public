@@ -23,13 +23,15 @@
     href: Kiosk-Mode/Multi-App-Kiosk.md 
   - name: Shell Launcher
     href: Kiosk-Mode/Shell-Launcher.md
+  - name: Browser Support 
+    href: Kiosk-Mode/Browser-Support.md
+  - name: Screen Swipe Policy
+    href: Advanced-Lockdown-Features/Edge-Swipe-Policy.md
 - name: Advanced Lockdown Features
   expanded: false 
   items: 
   - name: Application Control
     href: Advanced-Lockdown-Features/Application-Control.md
-  - name: Screen Swipe Policy
-    href: Advanced-Lockdown-Features/Edge-Swipe-Policy.md
   - name: Device Safeguards
     href: Advanced-Lockdown-Features/Device-Safeguards.md
   - name: Keyboard Filter
@@ -51,7 +53,7 @@
     href: Branding-Features/Layout-Control.md
   - name: Unbranded Boot and Errors
     href: Branding-Features/Unbranded-Boot.md
-  - name: Update Notification
+  - name: Manage Update Experience
     href: Branding-Features/Update-Notification.md
 - name: Device Management
   expanded: false 
@@ -90,6 +92,15 @@
     href: Commercialization/Licensing.md
   - name: Manufacturing Guide 
     href: Commercialization/Manufacturing-Guide.md
+- name: Soft Real-Time
+  expanded: false
+  items: 
+  - name: Overview 
+    href: Soft-Real-Time/Soft-Real-Time.md
+  - name: Device Configuration 
+    href: Soft-Real-Time/Soft-Real-Time-Device.md
+  - name: Application Development 
+    href: Soft-Real-Time/Soft-Real-Time-Application.md
 - name: Azure IoT Edge for Linux on Windows (EFLOW) 
   href: Azure-IoT-Edge-For-Linux-On-Windows.md
 - name: Downloads
