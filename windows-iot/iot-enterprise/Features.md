@@ -51,7 +51,6 @@ Each Windows 10 IoT Enterprise release offers our latest features, including spe
 * Windows Setup improvements
 * Delivery Optimization PowerShell commands
 * Accessibility enhancements
-* Windows Autopilot HAADJ with VPN
 
 
 ## Release 1909 - September 2019
@@ -62,7 +61,6 @@ Each Windows 10 IoT Enterprise release offers our latest features, including spe
 * Streamlined notifications
 * TLS 1.3
 * Servicing improvements for H2 builds
-* Windows Autopilot Hybrid Domain Join via VPN (preview)
 * Microsoft Connected Cache (preview)
 * Windows Virtual Desktop (GA)
 * Desktop Analytics (GA)
@@ -89,7 +87,6 @@ Each Windows 10 IoT Enterprise release offers our latest features, including spe
 * Device Management Policies
 * Intune Security Baselines
 * Enhanced Enrollment Status Page
-* Windows AutoPilot White Glove
 * Setup Diag
 * Automatic Restart Sign On (ARSO)
 * Improved Delivery Optimization (DO)
@@ -110,7 +107,6 @@ Each Windows 10 IoT Enterprise release offers our latest features, including spe
 * Windows Hello with FIDO 2.0
 * 30 months of support for September releases
 * 10 years of lifecycle support with LTSC release 2019
-* Windows Autopilot Hybrid Azure AD join
 * S Mode Block Switch
 * Desktop Analytics (preview)—Intelligent Pilot Selection and ConfigMgr Integration
 * Microsoft Edge experience improvements
@@ -129,7 +125,6 @@ Each Windows 10 IoT Enterprise release offers our latest features, including spe
 * Advanced hunting
 * Cloud Credential Guard
 * Diagnostic data viewer
-* Windows Autopilot enrollment status page
 * Shared Windows Devices
 
 
@@ -143,7 +138,6 @@ Each Windows 10 IoT Enterprise release offers our latest features, including spe
 * Fluent Design
 
 ## Release 1703 - March 2017
-* Windows Autopilot
 * Windows Configuration Designer
 * Windows Defender ATP
 * Windows Defender Security Center
