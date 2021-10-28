@@ -19,7 +19,7 @@ This article will walk you through the latest updates for Windows 10 IoT Enterpr
 
 This release will be available in two editions:
 * [Windows 10 IoT Enterprise, version 21H2](/lifecycle/products/windows-10-iot-enterprise)
-* [Windows 10 IoT Enterprise LTSC 2021](/lifecycle/products/windows-10-iot-ltsc-2021) (Long-Term Servicing Channel)
+* Windows 10 IoT Enterprise LTSC 2021
 
 Please review [Windows for IoT Licensing](/windows/iot/iot-enterprise/commercialization/licensing) and contact your [Windows IoT distributor](https://aka.ms/IoTDistributorList) for more information.
 
