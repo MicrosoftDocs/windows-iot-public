@@ -15,7 +15,7 @@ The [Unified Write Filter (UWF)](/windows-hardware/customize/enterprise/unified-
 The Unified Write Filter is useful in the following scenarios:
 * Isolating writes to extend the life of storage media
 * Optimizing Application load timing on boot – it can be faster to resume from a HORM file on every boot rather than reloading the system on each boot
-* Resetting systems like Thin Clients in which are used in shared workspaces (e.g. schools, libraries, hotels, etc.) with frequent guests to ensure each guest receives a clean experience
+* Resetting systems like Thin Clients, which are used in shared workspaces (e.g. schools, libraries, hotels, etc.) with frequent guests to ensure each guest receives a clean experience
 
 
 ## Install the Unified Write Filter
