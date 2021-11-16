@@ -2,7 +2,7 @@
 title: Windows for IoT Product Lifecycle
 author: rsameser
 ms.author: riameser
-ms.date: 11/16/2021
+ms.date: 11/15/2021
 ms.topic: article
 ms.prod: windows-iot
 ms.technology: iot
