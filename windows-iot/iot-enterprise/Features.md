@@ -24,7 +24,6 @@ Each Windows 10 IoT Enterprise release offers our latest features, including spe
 * Full Volume Commit in Read-Only Media (UWF)
 * GPU Compute Support
 * WPA H2E Standards Support
-* Windows Hello for Business: Cloud Trust
 
 ## Release 21H1 - April 2021
 * Windows Hello Multi-Camera
