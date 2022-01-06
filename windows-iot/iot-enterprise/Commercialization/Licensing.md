@@ -2,12 +2,12 @@
 title: Licensing & Usage
 author: rsameser
 ms.author: riameser
-ms.date: 10/05/2021
+ms.date: 11/17/2021
 ms.topic: article
 ms.prod: windows-iot
 ms.technology: iot
 description: Learn about licensing for Windows IoT Enterprise.
-keywords: IoT Enterprise, OEM, Licensing, LTSC, SAC
+keywords: IoT Enterprise, OEM, Licensing, LTSC, Servicing
 ---
 
 # Licensing & Usage
@@ -36,16 +36,16 @@ A fixed purpose device differs from a general-purpose device in the following wa
 > [!NOTE]
 >
 > There are currently **two** release channels for Windows 10 IoT Enterprise:
-> * The Semi-Annual Channel receives feature updates twice per year and provides support for **18-30 months**.
+> * The General Availability Channel receives feature updates twice per year and provides support for **18-30 months**.
 > * The Long Term Servicing Channel, which is designed to be used only for specialized devices (which typically don't run Office) such as those that control medical equipment or ATM machines, receives new feature releases every two to three years and provides support for **10 years**.
 >
 > There is currently **one** annual release channel for Windows 11 IoT Enterprise - please see [Windows 11 servicing](/lifecycle/faq/windows#windows-11) and [Windows for IoT Product Lifecycle](/windows/iot/product-family/product-lifecycle) for more information.
 
 
-## Semi-Annual Channel (SAC)
-In the Semi-Annual servicing channel, feature updates are available as soon as Microsoft releases them. This servicing model is ideal for pilot deployments and testing of Windows 10 feature updates and for users such as developers who need to work with the latest features immediately. Once the latest release has gone through pilot deployment and testing, you will be able to choose the timing at which it goes into broad deployment.
+## General Availability Channel
+In the general availability servicing channel, feature updates are available as soon as Microsoft releases them. This servicing model is ideal for pilot deployments and testing of Windows 10 feature updates and for users such as developers who need to work with the latest features immediately. Once the latest release has gone through pilot deployment and testing, you will be able to choose the timing at which it goes into broad deployment.
 
-Please review [Semi-Annual Servicing Channel](/windows/deployment/update/waas-overview#semi-annual-channel) for more information.
+Please review [General Availability Channel](/windows/deployment/update/waas-overview#servicing) for more information.
 
 ## Long-term Servicing Channel (LTSC)
 Specialized systems, such as PCs that control medical equipment, point-of-sale systems, and ATMs, often require a longer servicing option because of their purpose. These devices typically perform a single important task and don’t need feature updates as frequently as other devices in the organization. For these fixed-purpose devices, we recommend the long-term servicing channel, since it’s more important that these devices be kept as stable and secure as possible than that they be up to date with UI changes. The LTSC servicing model prevents Windows 10 IoT Enterprise LTSC devices from receiving the usual feature updates and provides only quality updates to ensure that device security stays up to date. With this in mind, quality updates are still immediately available to Windows 10 IoT Enterprise LTSC clients, but customers can choose to defer them by using a servicing tool.
