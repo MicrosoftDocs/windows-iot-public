@@ -47,7 +47,7 @@ Devices that run Windows IoT Enterprise must meet the following [RAM requirement
 ### Storage device size
 Devices that run Windows IoT Enterprise must include a storage device that meets the following [size requirements](/windows-hardware/design/minimum/minimum-hardware-requirements-overview#331-storage-device-size).
 
-> ![TIP]
+> [!TIP]
 >
 > To achieve the minimum storage requirements, review how to [optimize a Windows IoT Enterprise image](/windows-hardware/manufacture/desktop/iot-ent-optimize-images).
 
