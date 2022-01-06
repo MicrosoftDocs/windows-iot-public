@@ -12,7 +12,7 @@ keywords: Lifecyle, Windows IoT Enterprise, Windows 10 IoT Core, Windows Sever I
 
 # Windows for IoT Lifecycle pages
 
-To keep customers up-to-date with our offerings, we have provided links to the lifecycle pages to each product and its releases.  
+To keep customers up-to-date with our offerings, we have provided links to the lifecycle pages for each product and its respective releases.  
 
 To further understand how these products are serviced please review [licensing](../iot-enterprise/Commercialization/Licensing.md) documentation.
 
