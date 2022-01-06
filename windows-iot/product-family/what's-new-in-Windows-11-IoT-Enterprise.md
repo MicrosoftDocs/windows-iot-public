@@ -52,7 +52,7 @@ Windows 11 IoT Enterprise is built on the same foundation as Windows 10 IoT Ente
 
 ## Servicing
 
-Like Windows 10 IoT Enterprise, Windows 11 IoT Enterprise will receive monthly quality updates. However, it will have a new feature update cadence. The semi-annual cadence for Windows 10 IoT Enterprise will remain, but starting with Windows 11 IoT Enterprise, there will only be one release a year.  
+Like Windows 10 IoT Enterprise, Windows 11 IoT Enterprise will receive monthly quality updates. However, it will have a new feature update cadence. The semi-annual update cadence for Windows 10 IoT Enterprise will remain, but starting with Windows 11 IoT Enterprise, there will only be one release a year.  
 
 Important servicing-related announcements and information about known issues and safeguard holds can be found on the [Windows release health hub](https://aka.ms/windowsreleasehealth). For more information, see [Servicing and support](/windows/whats-new/windows-11-plan#servicing-and-support).
 
