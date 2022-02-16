@@ -2,7 +2,7 @@
 title: Developing an Application for Real-Time Performance
 author: rsameser
 ms.author: riameser
-ms.date: 10/26/2021
+ms.date: 2/16/2022
 ms.topic: article
 ms.prod: windows-iot
 ms.technology: iot

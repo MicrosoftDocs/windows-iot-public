@@ -2,7 +2,7 @@
 title: How to set up a Device for Real-Time Performance
 author: rsameser
 ms.author: riameser
-ms.date: 02/16/2021
+ms.date: 02/16/2022
 ms.topic: article
 ms.prod: windows-iot
 ms.technology: iot
