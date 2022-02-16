@@ -16,11 +16,8 @@ Once a device is configured for real-time performance, an application can be set
 To get real-time performance on a particular thread or process, its priority should be in the range of real-time performance and its affinity should be set to run on the real-time cores.
 
 ## Configure a Process for Real-Time
-Use the [SetPriorityClass Function](/windows/win32/api/processthreadsapi/nf-processthreadsapi-setpriorityclass) to:
-1. Set the process’ ProcessPriorityClass attribute to ```PROCESS_PRIORITY_CLASS_REALTIME```.
-2. Set the process’ ProcessBasePriority attribute to ```LOW_REALTIME_PRIORITY```.
-
-Use the [SetProcessAffinityMask Function](/windows/win32/api/winbase/nf-winbase-setprocessaffinitymask) to set the process to run exclusively on the cores which are reserved for the real-time application
+1. Use the [SetPriorityClass Function](/windows/win32/api/processthreadsapi/nf-processthreadsapi-setpriorityclass) to: Set the process’ ProcessPriorityClass attribute to ```REALTIME_PRIORITY_CLASS```.
+2. Use the [SetProcessAffinityMask Function](/windows/win32/api/winbase/nf-winbase-setprocessaffinitymask) to set the process to run exclusively on the cores which are reserved for the real-time application
 
 ## Configure a Thread for Real-Time
 1. Use the [NtSetInformationThread function](/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntsetinformationthread) to set the thread’s ThreadBasePriority to a value between 16 and 31

@@ -2,7 +2,7 @@
 title: How to set up a Device for Real-Time Performance
 author: rsameser
 ms.author: riameser
-ms.date: 10/26/2021
+ms.date: 02/16/2021
 ms.topic: article
 ms.prod: windows-iot
 ms.technology: iot
@@ -124,12 +124,9 @@ Environments that use Windows Management Instrumentation (WMI) can use the MDM B
 
 1. Download the [psexec tool](/sysinternals/downloads/psexec).
 
-2. In Command Prompt, run:
+2. Run an administrative command prompt.
 
-    ```psexec.exe -i -s cmd.exe
-    ```
-
-3. In the command prompt launched by psexec.exe, enter ```powershell.exe``` to open PowerShell.
+3. In the command prompt, launch powershell under system account ```psexec.exe -s -i powershell.exe ```
 
 4. Execute the following script:
 
