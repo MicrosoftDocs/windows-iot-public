@@ -1277,3 +1277,1337 @@ The following tables offer Microsoft guidance on disabling system services on Wi
 | **Startup type** | Automatic |
 | **Recommendation** | OK to disable |
 | **Comments** | None |
+
+
+## Quality Windows Audio Video Experience
+
+| Name | Description |
+|--|--|
+| **Service name** | QWAVE |
+| **Description** | Quality Windows Audio Video Experience (qWave) is a networking platform for Audio Video (AV) streaming applications on IP home networks. qWave enhances AV streaming performance and reliability by ensuring network quality-of-service (QoS) for AV applications. It provides mechanisms for admission control, run time monitoring and enforcement, application feedback, and traffic prioritization. |
+| **Installation** | Only with Desktop Experience |
+| **Startup type** | Manual |
+| **Recommendation** | OK to disable |
+| **Comments** | Client-side QoS service |
+
+
+
+## Radio Management Service
+
+| Name | Description |
+|--|--|
+| **Service name** | RmSvc |
+| **Description** | Radio Management and Airplane Mode Service |
+| **Installation** | Only with Desktop Experience |
+| **Startup type** | Manual |
+| **Recommendation** | OK to disable |
+| **Comments** | None |
+
+
+
+## Remote Access Auto Connection Manager
+
+| Name | Description |
+|--|--|
+| **Service name** | RasAuto |
+| **Description** | Creates a connection to a remote network whenever a program references a remote DNS or NetBIOS name or address. |
+| **Installation** | Only with Desktop Experience |
+| **Startup type** | Manual |
+| **Recommendation** | No guidance |
+| **Comments** | None |
+
+
+
+## Remote Access Connection Manager
+
+| Name | Description |
+|--|--|
+| **Service name** | RasMan |
+| **Description** | Manages dial-up and virtual private network (VPN) connections from this computer to the Internet or other remote networks. If this service is disabled, any services that explicitly depend on it will fail to start. |
+| **Installation** | Always installed |
+| **Startup type** | Manual |
+| **Recommendation** | No guidance |
+| **Comments** | None |
+
+
+
+## Remote Desktop Configuration
+
+| Name | Description |
+|--|--|
+| **Service name** | SessionEnv |
+| **Description** | Remote Desktop Configuration service (RDCS) is responsible for all Remote Desktop Services and Remote Desktop related configuration and session maintenance activities that require SYSTEM context. These include per-session temporary folders, RD themes, and RD certificates. |
+| **Installation** | Always installed |
+| **Startup type** | Manual |
+| **Recommendation** | Do not disable |
+| **Comments** | None |
+
+
+
+## Remote Desktop Services
+
+| Name | Description |
+|--|--|
+| **Service name** | TermService |
+| **Description** | Allows users to connect interactively to a remote computer. Remote Desktop and Remote Desktop Session Host Server depend on this service. To prevent remote use of this computer, clear the checkboxes on the Remote tab of the System properties control panel item. |
+| **Installation** | Always installed |
+| **Startup type** | Manual |
+| **Recommendation** | Do not disable |
+| **Comments** | None |
+
+
+
+## Remote Desktop Services UserMode Port Redirector
+
+| Name | Description |
+|--|--|
+| **Service name** | UmRdpService |
+| **Description** | Allows the redirection of Printers/Drives/Ports for RDP connections |
+| **Installation** | Always installed |
+| **Startup type** | Manual |
+| **Recommendation** | Do not disable |
+| **Comments** | Supports redirections on the server side of the connection. |
+
+
+
+## Remote Procedure Call (RPC)
+
+| Name | Description |
+|--|--|
+| **Service name** | RpcSs |
+| **Description** | The RPCSS service is the Service Control Manager for COM and DCOM servers. It performs object activations requests, object exporter resolutions and distributed garbage collection for COM and DCOM servers. If this service is stopped or disabled, programs using COM or DCOM will not function properly. It is strongly recommended that you have the RPCSS service running. |
+| **Installation** | Always installed |
+| **Startup type** | Automatic |
+| **Recommendation** | No guidance |
+| **Comments** | None |
+
+
+
+## Remote Procedure Call (RPC) Locator
+
+| Name | Description |
+|--|--|
+| **Service name** | RpcLocator |
+| **Description** | In Windows 2003 and earlier versions of Windows, the Remote Procedure Call (RPC) Locator service manages the RPC name service database. In Windows Vista and later versions of Windows, this service does not provide any functionality and is present for application compatibility. |
+| **Installation** | Only with Desktop Experience |
+| **Startup type** | Manual |
+| **Recommendation** | No guidance |
+| **Comments** | None |
+
+
+
+## Remote Registry
+
+| Name | Description |
+|--|--|
+| **Service name** | RemoteRegistry |
+| **Description** | Enables remote users to modify registry settings on this computer. If this service is stopped, the registry can be modified only by users on this computer. If this service is disabled, any services that explicitly depend on it will fail to start. |
+| **Installation** | Always installed |
+| **Startup type** | Automatic |
+| **Recommendation** | Do not disable |
+| **Comments** | None |
+
+
+
+## Resultant Set of Policy Provider
+
+| Name | Description |
+|--|--|
+| **Service name** | RSoPProv |
+| **Description** | Provides a network service that processes requests to simulate application of Group Policy settings for a target user or computer in various situations and computes the Resultant Set of Policy settings. |
+| **Installation** | Always installed |
+| **Startup type** | Manual |
+| **Recommendation** | No guidance |
+| **Comments** | None |
+
+
+
+## Routing and Remote Access
+
+| Name | Description |
+|--|--|
+| **Service name** | RemoteAccess |
+| **Description** | Offers routing services to businesses in local area and wide area network environments. |
+| **Installation** | Always installed |
+| **Startup type** | Disabled |
+| **Recommendation** | Already disabled |
+| **Comments** | Already disabled |
+
+
+
+## RPC Endpoint Mapper
+
+| Name | Description |
+|--|--|
+| **Service name** | RpcEptMapper |
+| **Description** | Resolves RPC interfaces identifiers to transport endpoints. If this service is stopped or disabled, programs using Remote Procedure Call (RPC) services will not function properly. |
+| **Installation** | Always installed |
+| **Startup type** | Automatic |
+| **Recommendation** | No guidance |
+| **Comments** | None |
+
+
+
+## Secondary Logon
+
+| Name | Description |
+|--|--|
+| **Service name** | seclogon |
+| **Description** | Enables starting processes under alternate credentials. If this service is stopped, this type of logon access will be unavailable. If this service is disabled, any services that explicitly depend on it will fail to start. |
+| **Installation** | Always installed |
+| **Startup type** | Manual |
+| **Recommendation** | Do not disable |
+| **Comments** | None |
+
+
+
+## Secure Socket Tunneling Protocol Service
+
+| Name | Description |
+|--|--|
+| **Service name** | SstpSvc |
+| **Description** | Provides support for the Secure Socket Tunneling Protocol (SSTP) to connect to remote computers using VPN. If this service is disabled, users will not be able to use SSTP to access remote servers. |
+| **Installation** | Always installed |
+| **Startup type** | Manual |
+| **Recommendation** | Ok to disable |
+| **Comments** | Disabling breaks RRAS |
+
+
+
+## Security Accounts Manager
+
+| Name | Description |
+|--|--|
+| **Service name** | SamSs |
+| **Description** | The startup of this service signals other services that the Security Accounts Manager (SAM) is ready to accept requests. Disabling this service will prevent other services in the system from being notified when the SAM is ready, which may in turn cause those services to fail to start correctly. This service should not be disabled. |
+| **Installation** | Always installed |
+| **Startup type** | Automatic |
+| **Recommendation** | Do not disable |
+| **Comments** | None |
+
+
+## Security Center
+
+| Name | Description |
+|--|--|
+| **Service name** | wscsvc |
+| **Description** | The WSCSVC (Windows Security Center) service monitors and reports security health settings on the computer.  The health settings include firewall (on/off), antivirus (on/off/out of date), antispyware (on/off/out of date), Windows Update (automatically/manually download and install updates), User Account Control (on/off), and Internet settings (recommended/not recommended). The service provides COM APIs for independent software vendors to register and record the state of their products to the Security Center service.  The Security and Maintenance UI uses the service to provide systray alerts and a graphical view of the security health states in the Security and Maintenance control panel.  Network Access Protection (NAP) uses the service to report the security health states of clients to the NAP Network Policy Server to make network quarantine decisions.  The service also has a public API that allows external consumers to programmatically retrieve the aggregated security health state of the system. |
+| **Installation** | Only with Desktop Experience |
+| **Startup type** | Manual |
+| **Recommendation** | Do not disable |
+| **Comments** | None |
+
+
+## Sensor Data Service
+
+| Name | Description |
+|--|--|
+| **Service name** | SensorDataService |
+| **Description** | Delivers data from a variety of sensors |
+| **Installation** | Only with Desktop Experience |
+| **Startup type** | Manual |
+| **Recommendation** | OK to disable |
+| **Comments** | None |
+
+
+
+## Sensor Monitoring Service
+
+| Name | Description |
+|--|--|
+| **Service name** | SensrSvc |
+| **Description** | Monitors various sensors in order to expose data and adapt to system and user state. If this service is stopped or disabled, the display brightness will not adapt to lighting conditions. Stopping this service may affect other system functionality and features as well. |
+| **Installation** | Only with Desktop Experience |
+| **Startup type** | Manual |
+| **Recommendation** | OK to disable |
+| **Comments** | None |
+
+
+## Sensor Service
+
+| Name | Description |
+|--|--|
+| **Service name** | SensorService |
+| **Description** | A service for sensors that manages the functionality of different sensors. Manages Simple Device Orientation (SDO) and History for sensors. Loads the SDO sensor that reports device orientation changes. If this service is stopped or disabled, the SDO sensor will not be loaded and so auto-rotation will not occur. History collection from Sensors will also be stopped. |
+| **Installation** | Only with Desktop Experience |
+| **Startup type** | Manual |
+| **Recommendation** | OK to disable |
+| **Comments** | None |
+
+
+## Server
+
+| Name | Description |
+|--|--|
+| **Service name** | LanmanServer |
+| **Description** | Supports file, print, and named-pipe sharing over the network for this computer. If this service is stopped, these functions will be unavailable. If this service is disabled, any services that explicitly depend on it will fail to start. |
+| **Installation** | Always installed |
+| **Startup type** | Automatic |
+| **Recommendation** | Ok to disable |
+| **Comments** | Needed for remote management, IPC$, SMB file sharing |
+
+
+## Shared PC Account Manager
+
+| Name | Description |
+|--|--|
+| **Service name** | shpamsvc |
+| **Description** | Manages profiles and accounts on a SharedPC configured device. |
+| **Installation** | Always installed |
+| **Startup type** | Automatic |
+| **Recommendation** | Ok to disable |
+| **Comments** | Needed for remote management, IPC$, SMB file sharing |
+
+
+## Shell Hardware Detection
+
+| Name | Description |
+|--|--|
+| **Service name** | ShellHWDetection |
+| **Description** | Provides notifications for AutoPlay hardware events. |
+| **Installation** | Only with Desktop Experience |
+| **Startup type** | Automatic |
+| **Recommendation** | OK to disable |
+| **Comments** | None |
+
+
+
+## Smart Card
+
+| Name | Description |
+|--|--|
+| **Service name** | SCardSvr |
+| **Description** | Manages access to smart cards read by this computer. If this service is stopped, this computer will be unable to read smart cards. If this service is disabled, any services that explicitly depend on it will fail to start. |
+| **Installation** | Always installed |
+| **Startup type** | Disabled |
+| **Recommendation** | Already disabled |
+| **Comments** | None |
+
+
+
+## Smart Card Device Enumeration Service
+
+| Name | Description |
+|--|--|
+| **Service name** | ScDeviceEnum |
+| **Description** | Creates software device nodes for all smart card readers accessible to a given session. If this service is disabled, WinRT APIs will not be able to enumerate smart card readers. |
+| **Installation** | Always installed |
+| **Startup type** | Manual |
+| **Recommendation** | OK to disable |
+| **Comments** | Needed almost exclusively for WinRT apps |
+
+
+
+## Smart Card Removal Policy
+
+| Name | Description |
+|--|--|
+| **Service name** | SCPolicySvc |
+| **Description** | Allows the system to be configured to lock the user desktop upon smart card removal. |
+| **Installation** | Always installed |
+| **Startup type** | Manual |
+| **Recommendation** | Ok to disable |
+| **Comments** | None |
+
+
+
+## SNMP Trap
+
+| Name | Description |
+|--|--|
+| **Service name** | SNMPTRAP |
+| **Description** | Receives trap messages generated by local or remote Simple Network Management Protocol (SNMP) agents and forwards the messages to SNMP management programs running on this computer. If this service is stopped, SNMP-based programs on this computer will not receive SNMP trap messages. If this service is disabled, any services that explicitly depend on it will fail to start. |
+| **Installation** | Always installed |
+| **Startup type** | Manual |
+| **Recommendation** | No guidance |
+| **Comments** | None |
+
+
+
+## Software Protection
+
+| Name | Description |
+|--|--|
+| **Service name** | sppsvc |
+| **Description** | Enables the download, installation and enforcement of digital licenses for Windows and Windows applications. If the service is disabled, the operating system and licensed applications may run in a notification mode. It is strongly recommended that you not disable the Software Protection service. |
+| **Installation** | Always installed |
+| **Startup type** | Automatic |
+| **Recommendation** | Do not disable |
+| **Comments** | None |
+
+
+## Spatial Data Service
+
+| Name | Description |
+|--|--|
+| **Service name** | SharedRealitySvc |
+| **Description** | Allows administrators to remotely access a command prompt using Emergency Management Services. |
+| **Installation** | Always installed |
+| **Startup type** | Disabled |
+| **Recommendation** | Already disabled |
+| **Comments** | None |
+
+## Spot Verifier
+
+| Name | Description |
+|--|--|
+| **Service name** | svsvc |
+| **Description** | Verifies potential file system corruptions. |
+| **Installation** | Always installed |
+| **Startup type** | Disabled |
+| **Recommendation** | Already disabled |
+| **Comments** | None |
+
+
+## Special Administration Console Helper
+
+| Name | Description |
+|--|--|
+| **Service name** | sacsvr |
+| **Description** | Allows administrators to remotely access a command prompt using Emergency Management Services. |
+| **Installation** | Always installed |
+| **Startup type** | Manual |
+| **Recommendation** | No guidance |
+| **Comments** | None |
+
+
+
+## Spot Verifier
+
+| Name | Description |
+|--|--|
+| **Service name** | svsvc |
+| **Description** | Verifies potential file system corruptions. |
+| **Installation** | Always installed |
+| **Startup type** | Manual |
+| **Recommendation** | No guidance |
+| **Comments** | None |
+
+
+
+## SSDP Discovery
+
+| Name | Description |
+|--|--|
+| **Service name** | SSDPSRV |
+| **Description** | Discovers networked devices and services that use the SSDP discovery protocol, such as UPnP devices. Also announces SSDP devices and services running on the local computer. If this service is stopped, SSDP-based devices will not be discovered. If this service is disabled, any services that explicitly depend on it will fail to start. |
+| **Installation** | Only with Desktop Experience |
+| **Startup type** | Manual |
+| **Recommendation** | OK to disable |
+| **Comments** | None |
+
+
+
+## State Repository Service
+
+| Name | Description |
+|--|--|
+| **Service name** | StateRepository |
+| **Description** | Provides required infrastructure support for the application model. |
+| **Installation** | Always installed |
+| **Startup type** | Manual |
+| **Recommendation** | No guidance |
+| **Comments** | None |
+
+
+
+## Still Image Acquisition Events
+
+| Name | Description |
+|--|--|
+| **Service name** | WiaRpc |
+| **Description** | Launches applications associated with still image acquisition events. |
+| **Installation** | Only with Desktop Experience |
+| **Startup type** | Manual |
+| **Recommendation** | OK to disable |
+| **Comments** | None |
+
+
+
+## Storage Service
+
+| Name | Description |
+|--|--|
+| **Service name** | StorSvc |
+| **Description** | Provides enabling services for storage settings and external storage expansion |
+| **Installation** | Only with Desktop Experience |
+| **Startup type** | Manual |
+| **Recommendation** | No guidance |
+| **Comments** | None |
+
+
+
+## Storage Tiers Management
+
+| Name | Description |
+|--|--|
+| **Service name** | TieringEngineService |
+| **Description** | Optimizes the placement of data in storage tiers on all tiered storage spaces in the system. |
+| **Installation** | Always installed |
+| **Startup type** | Manual |
+| **Recommendation** | No guidance |
+| **Comments** | None |
+
+
+
+## Superfetch
+
+| Name | Description |
+|--|--|
+| **Service name** | SysMain |
+| **Description** | Maintains and improves system performance over time. |
+| **Installation** | Always installed |
+| **Startup type** | Manual |
+| **Recommendation** | No guidance |
+| **Comments** | None |
+
+
+
+## Sync Host
+
+| Name | Description |
+|--|--|
+| **Service name** | OneSyncSvc |
+| **Description** | This service synchronizes mail, contacts, calendar and various other user data. Mail and other applications dependent on this functionality will not work properly when this service is not running. |
+| **Installation** | Only with Desktop Experience |
+| **Startup type** | Automatic |
+| **Recommendation** | OK to disable |
+| **Comments** | User service template |
+
+
+
+## System Event Notification Service
+
+| Name | Description |
+|--|--|
+| **Service name** | SENS |
+| **Description** | Monitors system events and notifies subscribers to COM+ Event System of these events. |
+| **Installation** | Always installed |
+| **Startup type** | Automatic |
+| **Recommendation** | No guidance |
+| **Comments** | None |
+
+
+
+## System Events Broker
+
+| Name | Description |
+|--|--|
+| **Service name** | SystemEventsBroker |
+| **Description** | Coordinates execution of background work for WinRT application. If this service is stopped or disabled, then background work might not be triggered. |
+| **Installation** | Always installed |
+| **Startup type** | Automatic |
+| **Recommendation** | Do not disable |
+| **Comments** | In spite of the fact that its description implies it is only for WinRT apps, it's needed for task scheduler, broker infrastructure service, and other internal components. |
+
+
+
+## Task Scheduler
+
+| Name | Description |
+|--|--|
+| **Service name** | Schedule |
+| **Description** | Enables a user to configure and schedule automated tasks on this computer. The service also hosts multiple Windows system-critical tasks. If this service is stopped or disabled, these tasks will not be run at their scheduled times. If this service is disabled, any services that explicitly depend on it will fail to start. |
+| **Installation** | Always installed |
+| **Startup type** | Automatic |
+| **Recommendation** | Do not disable |
+| **Comments** | None |
+
+
+
+## TCP/IP NetBIOS Helper
+
+| Name | Description |
+|--|--|
+| **Service name** | lmhosts |
+| **Description** | Provides support for the NetBIOS over TCP/IP (NetBT) service and NetBIOS name resolution for clients on the network, therefore enabling users to share files, print, and log on to the network. If this service is stopped, these functions might be unavailable. If this service is disabled, any services that explicitly depend on it will fail to start. |
+| **Installation** | Always installed |
+| **Startup type** | Manual |
+| **Recommendation** | OK to disable |
+| **Comments** | None |
+
+
+
+## Telephony
+
+| Name | Description |
+|--|--|
+| **Service name** | TapiSrv |
+| **Description** | Provides Telephony API (TAPI) support for programs that control telephony devices on the local computer and, through the LAN, on servers that are also running the service. |
+| **Installation** | Always installed |
+| **Startup type** | Manual |
+| **Recommendation** | OK to disable |
+| **Comments** | Disabling breaks RRAS |
+
+
+
+## Themes
+
+| Name | Description |
+|--|--|
+| **Service name** | Themes |
+| **Description** | Provides user experience theme management. |
+| **Installation** | Always installed |
+| **Startup type** | Automatic |
+| **Recommendation** | OK to disable |
+| **Comments** | Can't set accessibility themes when this service is disabled |
+
+
+
+## Time Broker
+
+| Name | Description |
+|--|--|
+| **Service name** | TimeBrokerSvc |
+| **Description** | Coordinates execution of background work for WinRT application. If this service is stopped or disabled, then background work might not be triggered. |
+| **Installation** | Always installed |
+| **Startup type** | Manual |
+| **Recommendation** | Do not disable |
+| **Comments** | In spite of the fact that its description implies it is only for WinRT apps, it's needed for task scheduler, broker infrastructure service, and other internal components. |
+
+
+
+## Touch Keyboard and Handwriting Panel Service
+
+| Name | Description |
+|--|--|
+| **Service name** | TabletInputService |
+| **Description** | Enables Touch Keyboard and Handwriting Panel pen and ink functionality |
+| **Installation** | Only with Desktop Experience |
+| **Startup type** | Manual |
+| **Recommendation** | OK to disable |
+| **Comments** | None |
+
+
+## Udk User Service_30711
+
+| Name | Description |
+|--|--|
+| **Service name** | UdkUserSvc_307f1 |
+| **Description** | Shell components service |
+| **Installation** | Always installed |
+| **Startup type** | Manual |
+| **Recommendation** | OK to disable |
+| **Comments** | None |
+
+
+## Update Orchestrator Service for Windows Update
+
+| Name | Description |
+|--|--|
+| **Service name** | UsoSvc |
+| **Description** | Manages Windows Updates. If stopped, your devices will not be able to download and install latest updates. |
+| **Installation** | Always installed |
+| **Startup type** | Manual |
+| **Recommendation** | Do not disable |
+| **Comments** | Service description was missing in v1607; Windows Update (incl. WSUS) depends on this service. |
+
+
+
+## UPnP Device Host
+
+| Name | Description |
+|--|--|
+| **Service name** | upnphost |
+| **Description** | Allows UPnP devices to be hosted on this computer. If this service is stopped, any hosted UPnP devices will stop functioning and no additional hosted devices can be added. If this service is disabled, any services that explicitly depend on it will fail to start. |
+| **Installation** | Only with Desktop Experience |
+| **Startup type** | Manual |
+| **Recommendation** | OK to disable |
+| **Comments** | None |
+
+
+## User Data Access
+
+| Name | Description |
+|--|--|
+| **Service name** | UserDataSvc_307f1 |
+| **Description** | Provides apps access to structured user data, including contact info, calendars, messages, and other content. If you stop or disable this service, apps that use this data might not work correctly. |
+| **Installation** | Always installed |
+| **Startup type** | Manual |
+| **Recommendation** | OK to disable |
+| **Comments** | User service template |
+
+
+
+## User Data Storage
+
+| Name | Description |
+|--|--|
+| **Service name** | UnistoreSvc_307f1 |
+| **Description** | Handles storage of structured user data, including contact info, calendars, messages, and other content. If you stop or disable this service, apps that use this data might not work correctly. |
+| **Installation** | Always installed |
+| **Startup type** | Manual |
+| **Recommendation** | OK to disable |
+| **Comments** | User service template |
+
+
+
+## User Experience Virtualization Service - double check
+
+| Name | Description |
+|--|--|
+| **Service name** | UevAgentService |
+| **Description** | Provides support for application and OS settings roaming |
+| **Installation** | Always installed |
+| **Startup type** | Disabled |
+| **Recommendation** | Already disabled |
+| **Comments** | None |
+
+
+
+## User Manager
+
+| Name | Description |
+|--|--|
+| **Service name** | UserManager |
+| **Description** | User Manager provides the runtime components required for multi-user interaction. If this service is stopped, some applications may not operate correctly. |
+| **Installation** | Always installed |
+| **Startup type** | Automatic |
+| **Recommendation** | Do not disable |
+| **Comments** | None |
+
+
+
+## User Profile Service
+
+| Name | Description |
+|--|--|
+| **Service name** | ProfSvc |
+| **Description** | This service is responsible for loading and unloading user profiles. If this service is stopped or disabled, users will no longer be able to successfully sign in or sign out, apps might have problems getting to users' data, and components registered to receive profile event notifications won't receive them. |
+| **Installation** | Always installed |
+| **Startup type** | Automatic |
+| **Recommendation** | Do not disable |
+| **Comments** | None |
+
+
+
+## Virtual Disk
+
+| Name | Description |
+|--|--|
+| **Service name** | vds |
+| **Description** | Provides management services for disks, volumes, file systems, and storage arrays. |
+| **Installation** | Always installed |
+| **Startup type** | Manual |
+| **Recommendation** | No guidance |
+| **Comments** | None |
+
+
+
+## Volume Shadow Copy
+
+| Name | Description |
+|--|--|
+| **Service name** | VSS |
+| **Description** | Manages and implements Volume Shadow Copies used for backup and other purposes. If this service is stopped, shadow copies will be unavailable for backup and the backup may fail. If this service is disabled, any services that explicitly depend on it will fail to start. |
+| **Installation** | Always installed |
+| **Startup type** | Manual |
+| **Recommendation** | OK to disable |
+| **Comments** | None |
+
+
+## Volumetric Audio Compositor Service
+
+| Name | Description |
+|--|--|
+| **Service name** | VacSvc |
+| **Description** | Hosts spatial analysis for Mixed Reality audio simulation. |
+| **Installation** | Always installed |
+| **Startup type** | Manual |
+| **Recommendation** | OK to disable |
+| **Comments** | None |
+
+## WalletService
+
+| Name | Description |
+|--|--|
+| **Service name** | WalletService |
+| **Description** | Hosts objects used by clients of the wallet |
+| **Installation** | Always installed |
+| **Startup type** | Manual |
+| **Recommendation** | OK to disable |
+| **Comments** | None |
+
+## WarpJITSvc
+
+| Name | Description |
+|--|--|
+| **Service name** | WarpJITSvc |
+| **Description** | Provides a JIT out of process service for WARP when running with ACG enabled. |
+| **Installation** | Always installed |
+| **Startup type** | Manual |
+| **Recommendation** | OK to disable |
+| **Comments** | None |
+
+## Web Account Manager
+
+| Name | Description |
+|--|--|
+| **Service name** | TokenBroker |
+| **Description** | This service is used by Web Account Manager to provide single-sign-on to apps and services. |
+| **Installation** | Always installed |
+| **Startup type** | Manual |
+| **Recommendation** | OK to disable |
+| **Comments** | None |
+
+## Web Client
+
+| Name | Description |
+|--|--|
+| **Service name** | TokenBroker |
+| **Description** | Enables Windows-based programs to create, access, and modify Internet-based files. If this service is stopped, these functions will not be available. If this service is disabled, any services that explicitly depend on it will fail to start. |
+| **Installation** | Always installed |
+| **Startup type** | Manual |
+| **Recommendation** | OK to disable |
+| **Comments** | None |
+
+
+## Wi-Fi Direct Services Connection Manager
+
+| Name | Description |
+|--|--|
+| **Service name** | WFDSConMgrSvc |
+| **Description** | Manages connections to wireless services, including wireless display and docking. |
+| **Installation** | Always installed |
+| **Startup type** | Manual |
+| **Recommendation** | OK to disable |
+| **Comments** | None |
+
+## Windows Audio
+
+| Name | Description |
+|--|--|
+| **Service name** | Audiosrv |
+| **Description** | Manages audio for Windows-based programs. If this service is stopped, audio devices and effects will not function properly. If this service is disabled, any services that explicitly depend on it will fail to start |
+| **Installation** | Always installed |
+| **Startup type** | Manual |
+| **Recommendation** | OK to disable |
+| **Comments** | None |
+
+
+## Windows Audio Endpoint Builder
+
+| Name | Description |
+|--|--|
+| **Service name** | AudioEndpointBuilder |
+| **Description** | Manages audio devices for the Windows Audio service. If this service is stopped, audio devices and effects will not function properly. If this service is disabled, any services that explicitly depend on it will fail to start |
+| **Installation** | Always installed |
+| **Startup type** | Manual |
+| **Recommendation** | OK to disable |
+| **Comments** | None |
+
+## Windows Backup
+
+| Name | Description |
+|--|--|
+| **Service name** | SDRSVC |
+| **Description** | Provides Windows Backup and Restore capabilities. |
+| **Installation** | Always installed |
+| **Startup type** | Manual |
+| **Recommendation** | OK to disable |
+| **Comments** | None |
+
+
+## Windows Biometric Service
+
+| Name | Description |
+|--|--|
+| **Service name** | WbioSrvc |
+| **Description** | The Windows biometric service gives client applications the ability to capture, compare, manipulate, and store biometric data without gaining direct access to any biometric hardware or samples. The service is hosted in a privileged SVCHOST process. |
+| **Installation** | Always installed |
+| **Startup type** | Manual |
+| **Recommendation** | OK to disable |
+| **Comments** | None |
+
+
+
+## Windows Camera Frame Server
+
+| Name | Description |
+|--|--|
+| **Service name** | FrameServer |
+| **Description** | Enables multiple clients to access video frames from camera devices. |
+| **Installation** | Always installed |
+| **Startup type** | Manual |
+| **Recommendation** | OK to disable |
+| **Comments** | None |
+
+## Windows Connect Now - Config Registrar
+
+| Name | Description |
+|--|--|
+| **Service name** | Wcncsvc |
+| **Description** | WCNCSVC hosts the Windows Connect Now Configuration which is Microsoft's Implementation of Wireless Protected Setup (WPS) protocol. This is used to configure Wireless LAN settings for an Access Point (AP) or a Wireless Device. The service is started programmatically as needed. |
+| **Installation** | Always installed |
+| **Startup type** | Automatic |
+| **Recommendation** | OK to disable |
+| **Comments** | None |
+
+
+
+## Windows Connection Manager
+
+| Name | Description |
+|--|--|
+| **Service name** | Wcmsvc |
+| **Description** | Makes automatic connect/disconnect decisions based on the network connectivity options currently available to the PC and enables management of network connectivity based on Group Policy settings. |
+| **Installation** | Always installed |
+| **Startup type** | Automatic |
+| **Recommendation** | OK to disable |
+| **Comments** | None |
+
+
+
+## Windows Defender Advanced Threat Protection Service
+
+| Name | Description |
+|--|--|
+| **Service name** | WdNisSvc |
+| **Description** | Windows Defender Advanced Threat Protection service helps protect against advanced threats by monitoring and reporting security events that happen on the computer. |
+| **Installation** | Always installed |
+| **Startup type** | Manual |
+| **Recommendation** | Do not disable |
+| **Comments** | None |
+
+
+## Windows Defender Firewall
+
+| Name | Description |
+|--|--|
+| **Service name** | mpssvc |
+| **Description** | Windows Defender Firewall helps protect your computer by preventing unauthorized users from gaining access to your computer through the Internet or a network. |
+| **Installation** | Always installed |
+| **Startup type** | Manual |
+| **Recommendation** | Do not disable |
+| **Comments** | None |
+
+
+
+## Windows Encryption Provider Host Service
+
+| Name | Description |
+|--|--|
+| **Service name** | WEPHOSTSVC |
+| **Description** | Windows Encryption Provider Host Service brokers encryption related functionalities from third-party Encryption Providers to processes that need to evaluate and apply EAS policies. Stopping this will compromise EAS compliancy checks that have been established by the connected Mail Accounts |
+| **Installation** | Always installed |
+| **Startup type** | Manual |
+| **Recommendation** | OK to disable |
+| **Comments** | None |
+
+
+
+## Windows Error Reporting Service
+
+| Name | Description |
+|--|--|
+| **Service name** | WerSvc |
+| **Description** | Allows errors to be reported when programs stop working or responding and allows existing solutions to be delivered. Also allows logs to be generated for diagnostic and repair services. If this service is stopped, error reporting might not work correctly and results of diagnostic services and repairs might not be displayed. |
+| **Installation** | Always installed |
+| **Startup type** | Manual |
+| **Recommendation** | Do not disable |
+| **Comments** | Collects and sends crash/hang data used by both MS and third party ISVs/IHVs. The data is used to diagnose crash-inducing bugs, which may include security bugs. Also needed for Corporate Error Reporting |
+
+
+
+## Windows Event Collector
+
+| Name | Description |
+|--|--|
+| **Service name** | Wecsvc |
+| **Description** | This service manages persistent subscriptions to events from remote sources that support WS-Management protocol. This includes Windows Vista event logs, hardware and IPMI-enabled event sources. The service stores forwarded events in a local Event Log. If this service is stopped or disabled event subscriptions cannot be created and forwarded events cannot be accepted. |
+| **Installation** | Always installed |
+| **Startup type** | Manual |
+| **Recommendation** | Do not disable |
+| **Comments** | Collects ETW events (including security events) for manageability, diagnostics. Lots of features and third-party tools rely on it, including security audit tools |
+
+
+
+## Windows Event Log
+
+| Name | Description |
+|--|--|
+| **Service name** | EventLog |
+| **Description** | This service manages events and event logs. It supports logging events, querying events, subscribing to events, archiving event logs, and managing event metadata. It can display events in both XML and plain text format. Stopping this service may compromise security and reliability of the system. |
+| **Installation** | Always installed |
+| **Startup type** | Automatic |
+| **Recommendation** | Do not disable |
+| **Comments** | None |
+
+
+## Windows Font Cache Service
+
+| Name | Description |
+|--|--|
+| **Service name** | FontCache |
+| **Description** | Optimizes performance of applications by caching commonly used font data. Applications will start this service if it is not already running. It can be disabled, though doing so will degrade application performance. |
+| **Installation** | Always installed |
+| **Startup type** | Automatic |
+| **Recommendation** | Do not disable |
+| **Comments** | None |
+
+
+
+## Windows Image Acquisition (WIA)
+
+| Name | Description |
+|--|--|
+| **Service name** | stisvc |
+| **Description** | Provides image acquisition services for scanners and cameras |
+| **Installation** | Always installed |
+| **Startup type** | Manual |
+| **Recommendation** | OK to disable |
+| **Comments** | None |
+
+
+
+## Windows Insider Service
+
+| Name | Description |
+|--|--|
+| **Service name** | wisvc |
+| **Description** | wisvc |
+| **Installation** | Always installed |
+| **Startup type** | Manual |
+| **Recommendation** | OK to disable |
+| **Comments** | None |
+
+
+
+## Windows Installer
+
+| Name | Description |
+|--|--|
+| **Service name** | msiserver |
+| **Description** | Adds, modifies, and removes applications provided as a Windows Installer (*.msi, *.msp) package. If this service is disabled, any services that explicitly depend on it will fail to start. |
+| **Installation** | Always installed |
+| **Startup type** | Manual |
+| **Recommendation** | Do not disable |
+| **Comments** | None |
+
+
+
+## Windows License Manager Service
+
+| Name | Description |
+|--|--|
+| **Service name** | LicenseManager |
+| **Description** | Provides infrastructure support for the Microsoft Store. This service is started on demand and if disabled then content acquired through the Microsoft Store will not function properly. |
+| **Installation** | Always installed |
+| **Startup type** | Manual |
+| **Recommendation** | Ok to disable |
+| **Comments** | None |
+
+
+
+## Windows Management Instrumentation
+
+| Name | Description |
+|--|--|
+| **Service name** | Winmgmt |
+| **Description** | Provides a common interface and object model to access management information about operating system, devices, applications and services. If this service is stopped, most Windows-based software will not function properly. If this service is disabled, any services that explicitly depend on it will fail to start. |
+| **Installation** | Always installed |
+| **Startup type** | Automatic |
+| **Recommendation** | Do not disable |
+| **Comments** | None |
+
+## Windows Management Service
+
+| Name | Description |
+|--|--|
+| **Service name** | WManSvc |
+| **Description** | Performs management including Provisioning and Enrollment activities |
+| **Installation** | Always installed |
+| **Startup type** | Manual |
+| **Recommendation** | Do not disable |
+| **Comments** | None |
+
+
+## Windows Media Player Network Sharing Service
+
+| Name | Description |
+|--|--|
+| **Service name** | WMPNetworkSvc |
+| **Description** | Shares Windows Media Player libraries to other networked players and media devices using Universal Plug and Play |
+| **Installation** | Always installed |
+| **Startup type** | Manual |
+| **Recommendation** | OK to disable |
+| **Comments** | None |
+
+## Windows Mobile Hotspot Service
+
+| Name | Description |
+|--|--|
+| **Service name** | icssvc |
+| **Description** | Provides the ability to share a cellular data connection with another device. |
+| **Installation** | Always installed |
+| **Startup type** | Manual |
+| **Recommendation** | OK to disable |
+| **Comments** | None |
+
+## Windows Modules Installer
+
+| Name | Description |
+|--|--|
+| **Service name** | TrustedInstaller |
+| **Description** | Enables installation, modification, and removal of Windows updates and optional components. If this service is disabled, install or uninstall of Windows updates might fail for this computer. |
+| **Installation** | Always installed |
+| **Startup type** | Manual |
+| **Recommendation** | Do not disable |
+| **Comments** | None |
+
+## Windows Perception Service
+
+| Name | Description |
+|--|--|
+| **Service name** | spectrum |
+| **Description** | Enables spatial perception, spatial input, and holographic rendering. |
+| **Installation** | Always installed |
+| **Startup type** | Manual |
+| **Recommendation** | Ok to disable |
+| **Comments** | None |
+
+
+## Windows Perception Simulation Service
+
+| Name | Description |
+|--|--|
+| **Service name** | perceptionsimulation |
+| **Description** | Enables spatial perception simulation, virtual camera management and spatial input simulation. |
+| **Installation** | Always installed |
+| **Startup type** | Manual |
+| **Recommendation** | Ok to disable |
+| **Comments** | None |
+
+
+## Windows Push Notifications System Service
+
+| Name | Description |
+|--|--|
+| **Service name** | WpnService |
+| **Description** | This service runs in session 0 and hosts the notification platform and connection provider which handles the connection between the device and WNS server. |
+| **Installation** | Always installed |
+| **Startup type** | Automatic |
+| **Recommendation** | Do not disable |
+| **Comments** | Needed for live tiles and other features |
+
+
+
+## Windows Push Notifications User Service
+
+| Name | Description |
+|--|--|
+| **Service name** | WpnUserService_307f1 |
+| **Description** | This service hosts Windows notification platform which provides support for local and push notifications. Supported notifications are tile, toast and raw. |
+| **Installation** | Always installed |
+| **Startup type** | Manual |
+| **Recommendation** | Do not disable |
+| **Comments** | User service template |
+
+## Windows PushToInstall Service
+
+| Name | Description |
+|--|--|
+| **Service name** | PushToInstall |
+| **Description** | Provides infrastructure support for the Microsoft Store.  This service is started automatically and if disabled then remote installations will not function properly. |
+| **Installation** | Always installed |
+| **Startup type** | Manual |
+| **Recommendation** | Ok to disable |
+| **Comments** | User service template |
+
+## Windows Remote Management (WS-Management)
+
+| Name | Description |
+|--|--|
+| **Service name** | WinRM |
+| **Description** | Windows Remote Management (WinRM) service implements the WS-Management protocol for remote management. WS-Management is a standard web services protocol used for remote software and hardware management. The WinRM service listens on the network for WS-Management requests and processes them. The WinRM Service needs to be configured with a listener using winrm.cmd command line tool or through Group Policy in order for it to listen over the network. The WinRM service provides access to WMI data and enables event collection. Event collection and subscription to events require that the service is running. WinRM messages use HTTP and HTTPS as transports. The WinRM service does not depend on IIS but is preconfigured to share a port with IIS on the same machine. The WinRM service reserves the /wsman URL prefix. To prevent conflicts with IIS, administrators should ensure that any websites hosted on IIS do not use the /wsman URL prefix. |
+| **Installation** | Always installed |
+| **Startup type** | Automatic |
+| **Recommendation** | Do not disable |
+| **Comments** | Needed for remote management |
+
+
+
+## Windows Search
+
+| Name | Description |
+|--|--|
+| **Service name** | WSearch |
+| **Description** | Provides content indexing, property caching, and search results for files, e-mail, and other content. |
+| **Installation** | Always installed |
+| **Startup type** | Manual |
+| **Recommendation** | Ok to disable |
+| **Comments** | None |
+
+
+## Windows Security Service
+
+| Name | Description |
+|--|--|
+| **Service name** | SecurityHealthService |
+| **Description** | Windows Security Service handles unified device protection and health information|
+| **Installation** | Always installed |
+| **Startup type** | Automatic |
+| **Recommendation** | Do not disable |
+| **Comments** | None |
+
+
+## Windows Time
+
+| Name | Description |
+|--|--|
+| **Service name** | W32Time |
+| **Description** | Maintains date and time synchronization on all clients and servers in the network. If this service is stopped, date and time synchronization will be unavailable. If this service is disabled, any services that explicitly depend on it will fail to start. |
+| **Installation** | Always installed |
+| **Startup type** | Automatic |
+| **Recommendation** | Do not disable |
+| **Comments** | None |
+
+
+
+## Windows Update
+
+| Name | Description |
+|--|--|
+| **Service name** | wuauserv |
+| **Description** | Enables the detection, download, and installation of updates for Windows and other programs. If this service is disabled, users of this computer will not be able to use Windows Update or its automatic updating feature, and programs will not be able to use the Windows Update Agent (WUA) API. |
+| **Installation** | Always installed |
+| **Startup type** | Manual |
+| **Recommendation** | OK to disable |
+| **Comments** | Alternate update strategy must be in place to keep device health please [review available options](/windows/iot/iot-enterprise/device-management/device-management-overview) |
+
+## Windows Update Medic Service
+
+| Name | Description |
+|--|--|
+| **Service name** | WaaSMedicSvc |
+| **Description** | Enables remediation and protection of Windows Update components. |
+| **Installation** | Always installed |
+| **Startup type** | Manual |
+| **Recommendation** | Do not disable |
+| **Comments** | None |
+
+## WinHTTP Web Proxy Auto-Discovery Service
+
+| Name | Description |
+|--|--|
+| **Service name** | WinHttpAutoProxySvc |
+| **Description** | WinHTTP implements the client HTTP stack and provides developers with a Win32 API and COM Automation component for sending HTTP requests and receiving responses. In addition, WinHTTP provides support for auto-discovering a proxy configuration via its implementation of the Web Proxy Auto-Discovery (WPAD) protocol. |
+| **Installation** | Always installed |
+| **Startup type** | Manual |
+| **Recommendation** | Do not disable |
+| **Comments** | Anything that uses the network stack can have a functional dependency on this service. Many organizations rely on this to configure their internal networks' HTTP proxy routing. Without it, internally-originating HTTP connections to the Internet will all fail. |
+
+
+
+## Wired AutoConfig
+
+| Name | Description |
+|--|--|
+| **Service name** | dot3svc |
+| **Description** | The Wired AutoConfig (DOT3SVC) service is responsible for performing IEEE 802.1X authentication on Ethernet interfaces. If your current wired network deployment enforces 802.1X authentication, the DOT3SVC service should be configured to run for establishing Layer 2 connectivity and/or providing access to network resources. Wired networks that do not enforce 802.1X authentication are unaffected by the DOT3SVC service. |
+| **Installation** | Always installed |
+| **Startup type** | Manual |
+| **Recommendation** | OK to disable |
+| **Comments** | None |
+
+## WLAN Autoconfig
+
+| Name | Description |
+|--|--|
+| **Service name** | dot3svc |
+| **Description** | The WLANSVC service provides the logic required to configure, discover, connect to, and disconnect from a wireless local area network (WLAN) as defined by IEEE 802.11 standards. It also contains the logic to turn your computer into a software access point so that other devices or computers can connect to your computer wirelessly using a WLAN adapter that can support this. Stopping or disabling the WLANSVC service will make all WLAN adapters on your computer inaccessible from the Windows networking UI. It is strongly recommended that you have the WLANSVC service running if your computer has a WLAN adapter. |
+| **Installation** | Always installed |
+| **Startup type** | Manual |
+| **Recommendation** | OK to disable |
+| **Comments** | None |
+
+## WMI Performance Adapter
+
+| Name | Description |
+|--|--|
+| **Service name** | wmiApSrv |
+| **Description** | Provides performance library information from Windows Management Instrumentation (WMI) providers to clients on the network. This service only runs when Performance Data Helper is activated. |
+| **Installation** | Always installed |
+| **Startup type** | Manual |
+| **Recommendation** | Do not disable |
+| **Comments** | None |
+
+## Work Folders
+| Name | Description |
+|--|--|
+| **Service name** | workfolderssvc |
+| **Description** | This service syncs files with the Work Folders server, enabling you to use the files on any of the PCs and devices on which you've set up Work Folders. |
+| **Installation** | Always installed |
+| **Startup type** | Automatic |
+| **Recommendation** | Ok to disable |
+| **Comments** | None |
+
+## Workstation
+
+| Name | Description |
+|--|--|
+| **Service name** | LanmanWorkstation |
+| **Description** | Creates and maintains client network connections to remote servers using the SMB protocol. If this service is stopped, these connections will be unavailable. If this service is disabled, any services that explicitly depend on it will fail to start. |
+| **Installation** | Always installed |
+| **Startup type** | Automatic |
+| **Recommendation** | Do not disable |
+| **Comments** | None |
+
+
+## WWAN AutoConfig
+| Name | Description |
+|--|--|
+| **Service name** | WwanSvc |
+| **Description** | This service manages mobile broadband (GSM & CDMA) data card/embedded module adapters and connections by auto-configuring the networks. It is strongly recommended that this service be kept running for best user experience of mobile broadband devices. |
+| **Installation** | Always installed |
+| **Startup type** | Manual |
+| **Recommendation** | OK to disable |
+| **Comments** | None |
+
+
+## Xbox Accessory Management Service
+| Name | Description |
+|--|--|
+| **Service name** | XblAuthManager |
+| **Description** | This service manages connected Xbox Accessories. |
+| **Installation** | Always installed |
+| **Startup type** | Manual |
+| **Recommendation** | OK to disable |
+| **Comments** | None |
+
+
+## Xbox Live Auth Manager
+
+| Name | Description |
+|--|--|
+| **Service name** | XblAuthManager |
+| **Description** | Provides authentication and authorization services for interacting with Xbox Live. If this service is stopped, some applications may not operate correctly. |
+| **Installation** | Always installed |
+| **Startup type** | Manual |
+| **Recommendation** | OK to disable |
+| **Comments** | None |
+
+
+
+## Xbox Live Game Save
+
+| Name | Description |
+|--|--|
+| **Service name** | XblGameSave |
+| **Description** | This service syncs save data for Xbox Live save enabled games. If this service is stopped, game save data will not upload to or download from Xbox Live. |
+| **Installation** | Always installed |
+| **Startup type** | Manual |
+| **Recommendation** | OK to disable |
+| **Comments** | None |
+
+
+
+## Xbox Live Networking Service
+| Name | Description |
+|--|--|
+| **Service name** | XboxNetApiSvc |
+| **Description** | This service supports the Windows Networking XboxLive application programming interface. |
+| **Installation** | Always installed |
+| **Startup type** | Manual |
+| **Recommendation** | OK to disable |
+| **Comments** | None |
