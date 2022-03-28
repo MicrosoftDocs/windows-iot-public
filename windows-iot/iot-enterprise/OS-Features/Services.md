@@ -17,12 +17,7 @@ The Windows operating system includes many system services that provide importan
 
 However, some IoT customers may prefer a more security-focused balance for their Windows IoT devices, one that reduces their attack surface to the absolute minimum, and may therefore wish to fully disable all services that are not needed in their specific environments. For those customers, Microsoft&reg; is providing the accompanying guidance regarding which services can safely be disabled for this purpose.
 
-The guidance is only for Windows IoT Enterprise customers. Each service on the system is categorized as follows:
-
-- **Should Disable:** A security-focused enterprise will most likely prefer to disable this service and forego its functionality (see additional details below).
-- **OK to Disable:** This service provides functionality that is useful to some but not all enterprises, and security-focused enterprises that don't use it can safely disable it.
-- **Do Not Disable:** Disabling this service will impact essential functionality or prevent specific roles or features from functioning correctly. Therefore it should not be disabled.
-- **(No guidance):** The impact of disabling these services has not been fully evaluated. Therefore, the default configuration of these services should not be changed.
+The guidance is only for Windows IoT Enterprise customers.
 
 Customers can configure their Windows IoT devices to disable selected services using the Security Templates in their Group Policies or using PowerShell automation. In some cases, the guidance includes specific Group Policy settings that disable the service's functionality directly, as an alternative to disabling the service itself.
 
@@ -62,14 +57,15 @@ For all system services listed in this document, the two tables that follow offe
 
 | Name | Description |
 |--|--|
-| **Do not disable** | This service should not be disabled |
-| **OK to disable** | This service can be disabled if the feature it supports is not being used. |
+| **No guidance** | The impact of disabling these services has not been fully evaluated. Therefore, the default configuration of these services should not be changed. |
+| **Do not disable** | Disabling this service will impact essential functionality or prevent specific roles or features from functioning correctly. Therefore it should not be disabled. |
+| **OK to disable** | This service provides functionality that is useful to some but not all enterprises, and security-focused enterprises that don't use it can safely disable it. |
 | **Already disabled** | This service is disabled by default; no need to enforce with policy |
 | **Should be disabled** | This service should never be enabled on a well-managed enterprise system. |
 
 The following tables offer Microsoft guidance on disabling system services on Windows IoT Enterprise:
 
-## ActiveX Installer (AxInstSV)
+## ActiveX Installer
 
 | Name | Description |
 |--|--|
@@ -78,7 +74,7 @@ The following tables offer Microsoft guidance on disabling system services on Wi
 | **Installation** | Always installed |
 | **Startup type** | Manual |
 | **Recommendation** | OK to disable |
-| **Comments** | OK to disable if feature not needed |
+| **Comments** | None |
 
 ## Agent Activation Runtime
 
@@ -89,7 +85,7 @@ The following tables offer Microsoft guidance on disabling system services on Wi
 | **Installation** | Always installed |
 | **Startup type** | Manual |
 | **Recommendation** | Do not disable |
-| **Comments** | OK to disable if feature not needed |
+| **Comments** | None |
 
 ## AllJoyn Router Service
 
@@ -460,7 +456,7 @@ The following tables offer Microsoft guidance on disabling system services on Wi
 | **Installation** | Always installed |
 | **Startup type** | Manual |
 | **Recommendation** | OK to disable |
-| **Comments** | User service template |
+| **Comments** | None |
 
 ## CoreMessaging
 
@@ -1164,7 +1160,7 @@ The following tables offer Microsoft guidance on disabling system services on Wi
 | **Installation** | Always installed |
 | **Startup type** | Manual |
 | **Recommendation** | OK to disable |
-| **Comments** | Microsoft Accounts are N/A on Windows Server |
+| **Comments** | None |
 
 ## Microsoft App-V Client
 
@@ -1268,7 +1264,7 @@ The following tables offer Microsoft guidance on disabling system services on Wi
 | **Installation** | Always installed |
 | **Startup type** | Manual |
 | **Recommendation** | OK to disable |
-| **Comments** | Needed for PIN/Hello logons, which aren't supported on Server |
+| **Comments** | Needed for PIN/Hello logons. |
 
 
 ## Microsoft Passport Container
@@ -1691,7 +1687,7 @@ The following tables offer Microsoft guidance on disabling system services on Wi
 | **Installation** | Always installed |
 | **Startup type** | Manual |
 | **Recommendation** | OK to disable |
-| **Comments** | Client-side QoS service |
+| **Comments** | None |
 
 
 
@@ -1779,7 +1775,7 @@ The following tables offer Microsoft guidance on disabling system services on Wi
 | **Installation** | Always installed |
 | **Startup type** | Manual |
 | **Recommendation** | Do not disable |
-| **Comments** | Supports redirections on the server side of the connection. |
+| **Comments** | None |
 
 
 
@@ -2156,9 +2152,7 @@ The following tables offer Microsoft guidance on disabling system services on Wi
 | **Installation** | Always installed |
 | **Startup type** | Automatic |
 | **Recommendation** | Do not disable |
-| **Comments** | User service template |
-
-
+| **Comments** | None |
 
 
 ## System Event Notification Service
@@ -2294,7 +2288,7 @@ The following tables offer Microsoft guidance on disabling system services on Wi
 | **Installation** | Always installed |
 | **Startup type** | Manual |
 | **Recommendation** | Do not disable |
-| **Comments** | Service description was missing in v1607; Windows Update (incl. WSUS) depends on this service. |
+| **Comments** | Windows Update (incl. WSUS) depends on this service. |
 
 
 
@@ -2319,7 +2313,7 @@ The following tables offer Microsoft guidance on disabling system services on Wi
 | **Installation** | Always installed |
 | **Startup type** | Manual |
 | **Recommendation** | OK to disable |
-| **Comments** | User service template |
+| **Comments** | None |
 
 
 
@@ -2332,7 +2326,7 @@ The following tables offer Microsoft guidance on disabling system services on Wi
 | **Installation** | Always installed |
 | **Startup type** | Manual |
 | **Recommendation** | OK to disable |
-| **Comments** | User service template |
+| **Comments** | None |
 
 
 
@@ -2795,7 +2789,7 @@ The following tables offer Microsoft guidance on disabling system services on Wi
 | **Installation** | Always installed |
 | **Startup type** | Manual |
 | **Recommendation** | Do not disable |
-| **Comments** | User service template |
+| **Comments** | None |
 
 ## Windows PushToInstall Service
 
@@ -2806,7 +2800,7 @@ The following tables offer Microsoft guidance on disabling system services on Wi
 | **Installation** | Always installed |
 | **Startup type** | Manual |
 | **Recommendation** | Ok to disable |
-| **Comments** | User service template |
+| **Comments** | None |
 
 ## Windows Remote Management (WS-Management)
 
@@ -2966,7 +2960,7 @@ The following tables offer Microsoft guidance on disabling system services on Wi
 | **Description** | This service manages connected Xbox Accessories. |
 | **Installation** | Always installed |
 | **Startup type** | Manual |
-| **Recommendation** | OK to disable |
+| **Recommendation** | Should be disabled |
 | **Comments** | None |
 
 
@@ -2978,7 +2972,7 @@ The following tables offer Microsoft guidance on disabling system services on Wi
 | **Description** | Provides authentication and authorization services for interacting with Xbox Live. If this service is stopped, some applications may not operate correctly. |
 | **Installation** | Always installed |
 | **Startup type** | Manual |
-| **Recommendation** | OK to disable |
+| **Recommendation** | Should be disabled |
 | **Comments** | None |
 
 
@@ -2991,7 +2985,7 @@ The following tables offer Microsoft guidance on disabling system services on Wi
 | **Description** | This service syncs save data for Xbox Live save enabled games. If this service is stopped, game save data will not upload to or download from Xbox Live. |
 | **Installation** | Always installed |
 | **Startup type** | Manual |
-| **Recommendation** | OK to disable |
+| **Recommendation** | Should be disabled |
 | **Comments** | None |
 
 
@@ -3003,5 +2997,5 @@ The following tables offer Microsoft guidance on disabling system services on Wi
 | **Description** | This service supports the Windows Networking XboxLive application programming interface. |
 | **Installation** | Always installed |
 | **Startup type** | Manual |
-| **Recommendation** | OK to disable |
+| **Recommendation** | Should be disabled |
 | **Comments** | None |
