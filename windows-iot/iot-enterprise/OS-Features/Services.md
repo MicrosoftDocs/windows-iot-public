@@ -2,7 +2,7 @@
 title: Guidance on disabling system services on Windows IoT Enterprise
 author: rsameser
 ms.author: riameser
-ms.date: 9/28/2021
+ms.date: 3/28/2021
 ms.topic: article
 ms.prod: windows-iot
 ms.technology: iot
@@ -78,6 +78,17 @@ The following tables offer Microsoft guidance on disabling system services on Wi
 | **Installation** | Always installed |
 | **Startup type** | Manual |
 | **Recommendation** | OK to disable |
+| **Comments** | OK to disable if feature not needed |
+
+## Agent Activation Runtime
+
+| Name | Description |
+|--|--|
+| **Service name** | AarSvc_3bc9c |
+| **Description** | Runtime for activating conversational agent applications |
+| **Installation** | Always installed |
+| **Startup type** | Manual |
+| **Recommendation** | Do not disable |
 | **Comments** | OK to disable if feature not needed |
 
 ## AllJoyn Router Service
@@ -158,8 +169,16 @@ The following tables offer Microsoft guidance on disabling system services on Wi
 | **Comments** | None |
 
 
-## AssignedAccessManager Servce
+## AssignedAccessManager Service
 
+| Name | Description |
+|--|--|
+| **Service name** | AssignedAccessManagerSvc |
+| **Description** | AssignedAccessManager Service supports kiosk experience in Windows. |
+| **Installation** | Always installed |
+| **Startup type** | Manual |
+| **Recommendation** | Do not disable |
+| **Comments** | None |
 
 ## Auto Time Zone Updater
 
@@ -173,6 +192,15 @@ The following tables offer Microsoft guidance on disabling system services on Wi
 | **Comments** | None |
 
 ## AVCTP Service
+
+| Name | Description |
+|--|--|
+| **Service name** | BthAvctpSvc |
+| **Description** | This is Audio Video Control Transport Protocol service |
+| **Installation** | Always installed |
+| **Startup type** | Manual |
+| **Recommendation** | OK to disable |
+| **Comments** | None |
 
 ## Background Intelligent Transfer Service
 
@@ -210,9 +238,37 @@ The following tables offer Microsoft guidance on disabling system services on Wi
 
 ## BitLocker Drive Encryption Service
 
-## Block Level Backup Engine Service (no guidance)
+| Name | Description |
+|--|--|
+| **Service name** | BDESVC |
+| **Description** | BDESVC hosts the BitLocker Drive Encryption service. BitLocker Drive Encryption provides secure startup for the operating system, as well as full volume encryption for OS, fixed or removable volumes. This service allows BitLocker to prompt users for various actions related to their volumes when mounted, and unlocks volumes automatically without user interaction. Additionally, it stores recovery information to Active Directory, if available, and, if necessary, ensures the most recent recovery certificates are used.  Stopping or disabling the service would prevent users from leveraging this functionality. |
+| **Installation** | Always installed |
+| **Startup type** | Manual |
+| **Recommendation** | Do not disable |
+| **Comments** | None |
+
+## Block Level Backup Engine Service
+
+| Name | Description |
+|--|--|
+| **Service name** | wbengine |
+| **Description** | The WBENGINE service is used by Windows Backup to perform backup and recovery operations. If this service is stopped by a user, it may cause the currently running backup or recovery operation to fail. Disabling this service may disable backup and recovery operations using Windows Backup on this computer. |
+| **Installation** | Always installed |
+| **Startup type** | Manual |
+| **Recommendation** | No Guidance |
+| **Comments** | None |
+
 
 ## Bluetooth Audio Gateway Service
+
+| Name | Description |
+|--|--|
+| **Service name** | BTAGService |
+| **Description** | Service supporting the audio gateway role of the Bluetooth Handsfree Profile. |
+| **Installation** | Always installed |
+| **Startup type** | Manual |
+| **Recommendation** | OK to disable |
+| **Comments** | None |
 
 ## Bluetooth Support Service
 
@@ -220,29 +276,68 @@ The following tables offer Microsoft guidance on disabling system services on Wi
 |--|--|
 | **Service name** | bthserv |
 | **Description** | The Bluetooth service supports discovery and association of remote Bluetooth devices. Stopping or disabling this service may cause already installed Bluetooth devices to fail to operate properly and prevent new devices from being discovered or associated. |
-| **Installation** | Only with Desktop Experience |
+| **Installation** | Always installed |
 | **Startup type** | Manual |
 | **Recommendation** | OK to disable |
-| **Comments** | OK to disable if not used. Another disabling mechanism: [Disabling Bluetooth and Infrared Beaming](/previous-versions/tn-archive/dd252791(v=technet.10)) |
+| **Comments** | None |
 
 ## Bluetooth User Support Service
 
+| Name | Description |
+|--|--|
+| **Service name** | BluetoothUserService_3bc9c |
+| **Description** | The Bluetooth user service supports proper functionality of Bluetooth features relevant to each user session. |
+| **Installation** | Always installed |
+| **Startup type** | Manual |
+| **Recommendation** | OK to disable |
+| **Comments** | None |
+
 ## BranchCache
-
-## Capability Access Manager Service
-
-## CaptureService
-
-## CDPUserSvc
 
 | Name | Description |
 |--|--|
-| **Service name** | CDPUserSvc |
-| **Description** | This user service is used for Connected Devices Platform scenarios |
-| **Installation** | ? |
-| **Startup type** | Automatic |
+| **Service name** | PeerDistSvc |
+| **Description** | This service caches network content from peers on the local subnet. |
+| **Installation** | Always installed |
+| **Startup type** | Manual |
 | **Recommendation** | OK to disable |
-| **Comments** | User service template |
+| **Comments** | None |
+
+
+## Capability Access Manager Service
+
+| Name | Description |
+|--|--|
+| **Service name** | camsvc |
+| **Description** | Provides facilities for managing UWP apps access to app capabilities as well as checking an app's access to specific app capabilities |
+| **Installation** | Always installed |
+| **Startup type** | Manual |
+| **Recommendation** | OK to disable |
+| **Comments** | None |
+
+## Capture Service
+
+| Name | Description |
+|--|--|
+| **Service name** | CaptureService_3bc9c |
+| **Description** | Enables optional screen capture functionality for applications that call the Windows.Graphics.Capture API. |
+| **Installation** | Always installed |
+| **Startup type** | Manual |
+| **Recommendation** | OK to disable |
+| **Comments** | None |
+
+
+## Cellular Time
+
+| Name | Description |
+|--|--|
+| **Service name** | autotimesvc |
+| **Description** | This service sets time based on NITZ messages from a Mobile Network |
+| **Installation** | Always installed |
+| **Startup type** | Manual |
+| **Recommendation** | OK to disable |
+| **Comments** | None |
+
 
 ## Certificate Propagation
 
@@ -267,6 +362,15 @@ The following tables offer Microsoft guidance on disabling system services on Wi
 | **Comments** | None |
 
 ## Clipboard User Service
+
+| Name | Description |
+|--|--|
+| **Service name** | cbdhsvc_3bc9c |
+| **Description** | This user service is used for Clipboard scenarios |
+| **Installation** | Always installed |
+| **Startup type** | Manual |
+| **Recommendation** | OK to disable |
+| **Comments** | None |
 
 ## CNG Key Isolation
 
@@ -301,17 +405,6 @@ The following tables offer Microsoft guidance on disabling system services on Wi
 | **Recommendation** | Do not disable |
 | **Comments** | None |
 
-## Computer Browser
-
-| Name | Description |
-|--|--|
-| **Service name** | Browser |
-| **Description** | Maintains an updated list of computers on the network and supplies this list to computers designated as browsers. If this service is stopped, this list will not be updated or maintained. If this service is disabled, any services that explicitly depend on it will fail to start. |
-| **Installation** | Always installed |
-| **Startup type** | Disabled |
-| **Recommendation** | No guidance |
-| **Comments** | None |
-
 ## Connected Devices Platform Service
 
 | Name | Description |
@@ -324,6 +417,16 @@ The following tables offer Microsoft guidance on disabling system services on Wi
 | **Comments** | None |
 
 ## Connected Devices Platform User Service
+
+| Name | Description |
+|--|--|
+| **Service name** | CDPUserSvc_3bc9c |
+| **Description** | This user service is used for Connected Devices Platform scenarios |
+| **Installation** | Only with Desktop Experience |
+| **Startup type** | Automatic |
+| **Recommendation** | OK to disable |
+| **Comments** | None |
+
 
 ## Connected User Experiences and Telemetry
 
@@ -338,6 +441,15 @@ The following tables offer Microsoft guidance on disabling system services on Wi
 
 
 ## ConsentUX
+
+| Name | Description |
+|--|--|
+| **Service name** | ConsentUxUserSvc_3bc9c |
+| **Description** | Allows ConnectUX and PC Settings to Connect and Pair with WiFi displays and Bluetooth devices. |
+| **Installation** | Always installed |
+| **Startup type** | Manual |
+| **Recommendation** | OK to disable |
+| **Comments** | None |
 
 ## Contact Data
 
@@ -358,7 +470,7 @@ The following tables offer Microsoft guidance on disabling system services on Wi
 | **Description** | Manages communication between system components. |
 | **Installation** | Always installed |
 | **Startup type** | Automatic |
-| **Recommendation** | OK to disable |
+| **Recommendation** | Do not disable |
 | **Comments** | None |
 
 ## Credential Manager
@@ -369,8 +481,20 @@ The following tables offer Microsoft guidance on disabling system services on Wi
 | **Description** | Provides secure storage and retrieval of credentials to users, applications and security service packages. |
 | **Installation** | Always installed |
 | **Startup type** | Manual |
-| **Recommendation** | No guidance |
+| **Recommendation** | Do not disable |
 | **Comments** | None |
+
+## Credential Enrollment Manager
+
+| Name | Description |
+|--|--|
+| **Service name** | CredentialEnrollmentManagerUserSvc_3bc9c |
+| **Description** | Credential Enrollment Manager |
+| **Installation** | Always installed |
+| **Startup type** | Manual |
+| **Recommendation** | Do not disable |
+| **Comments** | None |
+
 
 ## Cryptographic Services
 
@@ -396,15 +520,13 @@ The following tables offer Microsoft guidance on disabling system services on Wi
 
 ## Data Usage
 
-## DataCollectionPublishingService
-
 | Name | Description |
 |--|--|
-| **Service name** | DcpSvc |
-| **Description** | The DCP (Data Collection and Publishing) service supports first-party apps to upload data to cloud. |
-| **Installation** | Only with Desktop Experience |
-| **Startup type** | Manual |
-| **Recommendation** | No guidance |
+| **Service name** | DusmSvc |
+| **Description** | Network data usage, data limit, restrict background data, metered networks. |
+| **Installation** | Always installed |
+| **Startup type** | Automatic |
+| **Recommendation** | Do not disable |
 | **Comments** | None |
 
 ## DCOM Server Process Launcher
@@ -419,6 +541,15 @@ The following tables offer Microsoft guidance on disabling system services on Wi
 | **Comments** | None |
 
 ## Delivery Optimization
+
+| Name | Description |
+|--|--|
+| **Service name** | DoSvc |
+| **Description** | Performs content delivery optimization tasks |
+| **Installation** | Always installed |
+| **Startup type** | Automatic |
+| **Recommendation** | Do not disable |
+| **Comments** | None |
 
 ## Device Association Service
 
@@ -455,6 +586,15 @@ The following tables offer Microsoft guidance on disabling system services on Wi
 
 ## Device Management Wireless Application Protocol (WAP) Push message Routing Service
 
+| Name | Description |
+|--|--|
+| **Service name** | dmwappushservic |
+| **Description** | Routes Wireless Application Protocol (WAP) Push messages received by the device and synchronizes Device Management sessions |
+| **Installation** | Always installed |
+| **Startup type** | Manual |
+| **Recommendation** | No guidance |
+| **Comments** | None |
+
 ## Device Setup Manager
 
 | Name | Description |
@@ -468,7 +608,27 @@ The following tables offer Microsoft guidance on disabling system services on Wi
 
 ## DevicePicker
 
+| Name | Description |
+|--|--|
+| **Service name** | DevicePickerUserSvc_3bc9c |
+| **Description** | This user service is used for managing the Miracast, DLNA, and DIAL UI |
+| **Installation** | Always installed |
+| **Startup type** | Manual |
+| **Recommendation** | OK to disable |
+| **Comments** | None |
+
 ## DevicesFlow
+
+
+| Name | Description |
+|--|--|
+| **Service name** | DevicesFlowUserSvc_3bc9c |
+| **Description** | Allows ConnectUX and PC Settings to Connect and Pair with WiFi displays and Bluetooth devices. |
+| **Installation** | Always installed |
+| **Startup type** | Manual |
+| **Recommendation** | OK to disable |
+| **Comments** | None |
+
 
 ## DevQuery Background Discovery Broker
 
@@ -494,6 +654,15 @@ The following tables offer Microsoft guidance on disabling system services on Wi
 
 ## Diagnostic Execution Service
 
+| Name | Description |
+|--|--|
+| **Service name** | diagsvc |
+| **Description** | Executes diagnostic actions for troubleshooting support |
+| **Installation** | Always installed |
+| **Startup type** | Manual |
+| **Recommendation** | Do not disable |
+| **Comments** | None |
+
 ## Diagnostic Policy Service
 
 | Name | Description |
@@ -513,7 +682,7 @@ The following tables offer Microsoft guidance on disabling system services on Wi
 | **Description** | The Diagnostic Service Host is used by the Diagnostic Policy Service to host diagnostics that need to run in a Local Service context. If this service is stopped, any diagnostics that depend on it will no longer function. |
 | **Installation** | Always installed |
 | **Startup type** | Manual |
-| **Recommendation** | No guidance |
+| **Recommendation** | Do not disable |
 | **Comments** | None |
 
 ## Diagnostic System Host
@@ -527,8 +696,38 @@ The following tables offer Microsoft guidance on disabling system services on Wi
 | **Recommendation** | Do not disable |
 | **Comments** | None |
 
-## DisplayEnhancementService
+## Dialog Blocking Service
 
+| Name | Description |
+|--|--|
+| **Service name** | DialogBlockingService |
+| **Description** | Dialog Blocking Service |
+| **Installation** | Always installed |
+| **Startup type** | Disabled |
+| **Recommendation** | Already disabled |
+| **Comments** | None |
+
+## Display Enhancement Service
+
+| Name | Description |
+|--|--|
+| **Service name** | DisplayEnhancementService |
+| **Description** | A service for managing display enhancement such as brightness control. |
+| **Installation** | Always installed |
+| **Startup type** | Manual |
+| **Recommendation** | Do not disable |
+| **Comments** | None |
+
+## Display Policy Service
+
+| Name | Description |
+|--|--|
+| **Service name** | DispBrokerDesktopSvc |
+| **Description** | Manages the connection and configuration of local and remote displays |
+| **Installation** | Always installed |
+| **Startup type** | Automatic |
+| **Recommendation** | Do not disable |
+| **Comments** | None |
 
 ## Distributed Link Tracking Client
 
@@ -549,19 +748,9 @@ The following tables offer Microsoft guidance on disabling system services on Wi
 | **Description** | Coordinates transactions that span multiple resource managers, such as databases, message queues, and file systems. If this service is stopped, these transactions will fail. If this service is disabled, any services that explicitly depend on it will fail to start. |
 | **Installation** | Always installed |
 | **Startup type** | Automatic |
-| **Recommendation** | No guidance |
+| **Recommendation** | OK to disable |
 | **Comments** | None |
 
-## dmwappushsvc
-
-| Name | Description |
-|--|--|
-| **Service name** | dmwappushservice |
-| **Description** | WAP Push Message Routing Service |
-| **Installation** | Only with Desktop Experience |
-| **Startup type** | Manual |
-| **Recommendation** | OK to disable |
-| **Comments** | Service required on client devices for Intune, MDM and similar management technologies, and for Unified Write Filter. Not needed for Server. |
 
 ## DNS Client
 
@@ -632,7 +821,26 @@ The following tables offer Microsoft guidance on disabling system services on Wi
 
 ## Fax
 
+| Name | Description |
+|--|--|
+| **Service name** | Fax |
+| **Description** | Enables you to send and receive faxes, utilizing fax resources available on this computer or on the network. |
+| **Installation** | Always installed |
+| **Startup type** | Manual |
+| **Recommendation** | OK to disable |
+| **Comments** | None |
+
+
 ## File History Service
+
+| Name | Description |
+|--|--|
+| **Service name** | fhsvc |
+| **Description** | Protects user files from accidental loss by copying them to a backup location |
+| **Installation** | Always installed |
+| **Startup type** | Manual |
+| **Recommendation** | Do not disable |
+| **Comments** | None |
 
 ## Function Discovery Provider Host
 
@@ -652,11 +860,21 @@ The following tables offer Microsoft guidance on disabling system services on Wi
 | **Service name** | FDResPub |
 | **Description** | Publishes this computer and resources attached to this computer so they can be discovered over the network. If this service is stopped, network resources will no longer be published and they will not be discovered by other computers on the network. |
 | **Installation** | Always installed |
-| **Startup type** | OK to disable |
-| **Recommendation** | No guidance |
+| **Startup type** | Manual |
+| **Recommendation** | OK to disable |
 | **Comments** | None |
 
 ## GameDVR and Broadcast User Service
+
+| Name | Description |
+|--|--|
+| **Service name** | BcastDVRUserService_3bc9c |
+| **Description** | This user service is used for Game Recordings and Live Broadcasts |
+| **Installation** | Always installed |
+| **Startup type** | Manual |
+| **Recommendation** | OK to disable |
+| **Comments** | None |
+
 
 ## Geolocation Service
 
@@ -670,6 +888,15 @@ The following tables offer Microsoft guidance on disabling system services on Wi
 | **Comments** | Disabling breaks apps that rely on the service; OK to disable if apps not relying on it |
 
 ## GraphicsPerfSvc
+
+| Name | Description |
+|--|--|
+| **Service name** | GraphicsPerfSvc |
+| **Description** | Graphics performance monitor service |
+| **Installation** | Always installed |
+| **Startup type** | Manual |
+| **Recommendation** | Do not disable |
+| **Comments** | None |
 
 ## Group Policy Client
 
@@ -805,27 +1032,6 @@ The following tables offer Microsoft guidance on disabling system services on Wi
 | **Recommendation** | Do not disable |
 | **Comments** | None |
 
-## Infrared monitor service
-
-## Intel(R) Content Protection HDCP Service
-
-## Intel(R) Content Protection HECI Service
-
-## Intel(R) Dynamic Platform and Thermal Framework service
-
-## Intel(R) HD Graphics Control Panel Service
-
-## Interactive Services Detection
-
-| Name | Description |
-|--|--|
-| **Service name** | UI0Detect |
-| **Description** | Enables user notification of user input for interactive services, which enables access to dialogs created by interactive services when they appear. If this service is stopped, notifications of new interactive service dialogs will no longer function and there might not be access to interactive service dialogs. If this service is disabled, both notifications of and access to new interactive service dialogs will no longer function. |
-| **Installation** | Only with Desktop Experience |
-| **Startup type** | Manual |
-| **Recommendation** | No guidance |
-| **Comments** | None |
-
 ## Internet Connection Sharing (ICS)
 
 | Name | Description |
@@ -850,6 +1056,15 @@ The following tables offer Microsoft guidance on disabling system services on Wi
 
 ## IP Translation Configuration Service
 
+| Name | Description |
+|--|--|
+| **Service name** | IpxlatCfgSvc |
+| **Description** | Configures and enables translation from v4 to v6 and vice versa |
+| **Installation** | Always installed |
+| **Startup type** | Manual |
+| **Recommendation** | OK to disable |
+| **Comments** | None |
+
 ## IPsec Policy Agent
 
 | Name | Description |
@@ -860,19 +1075,6 @@ The following tables offer Microsoft guidance on disabling system services on Wi
 | **Startup type** | Manual |
 | **Recommendation** | Do not disable |
 | **Comments** | None |
-
-## KDC Proxy Server service (KPS)
-
-| Name | Description |
-|--|--|
-| **Service name** | KPSSVC |
-| **Description** | KDC Proxy Server service runs on edge servers to proxy Kerberos protocol messages to domain controllers on the corporate network. |
-| **Installation** | Always installed |
-| **Startup type** | Manual |
-| **Recommendation** | No guidance |
-| **Comments** | None |
-
-
 
 ## KtmRm for Distributed Transaction Coordinator
 
@@ -888,6 +1090,15 @@ The following tables offer Microsoft guidance on disabling system services on Wi
 
 ## Language Experience Service
 
+| Name | Description |
+|--|--|
+| **Service name** | LxpSvc |
+| **Description** | Provides infrastructure support for deploying and configuring localized Windows resources. This service is started on demand and, if disabled, additional Windows languages will not be deployed to the system, and Windows may not function properly. |
+| **Installation** | Always installed |
+| **Startup type** | Manual |
+| **Recommendation** | Do not disable |
+| **Comments** | None |
+
 ## Link-Layer Topology Discovery Mapper
 
 | Name | Description |
@@ -901,6 +1112,16 @@ The following tables offer Microsoft guidance on disabling system services on Wi
 
 ## Local Profile Assistance Service
 
+| Name | Description |
+|--|--|
+| **Service name** | wlpasvc |
+| **Description** | This service provides profile management for subscriber identity modules |
+| **Installation** | Always installed |
+| **Startup type** | Automatic |
+| **Recommendation** | OK to disable |
+| **Comments** | None |
+
+
 ## Local Session Manager
 
 | Name | Description |
@@ -912,7 +1133,16 @@ The following tables offer Microsoft guidance on disabling system services on Wi
 | **Recommendation** | Do not disable |
 | **Comments** | None |
 
-## MessagingService
+## Messaging Service
+
+| Name | Description |
+|--|--|
+| **Service name** | MessagingService_3bc9c |
+| **Description** | Service supporting text messaging and related functionality. |
+| **Installation** | Always installed |
+| **Startup type** | Manual |
+| **Recommendation** | OK to disable |
+| **Comments** | None |
 
 ## Microsoft (R) Diagnostics Hub Standard Collector
 
@@ -947,6 +1177,66 @@ The following tables offer Microsoft guidance on disabling system services on Wi
 | **Recommendation** | Already disabled |
 | **Comments** | None |
 
+
+## Microsoft Defender Antivirus Network Inspection Service
+
+| Name | Description |
+|--|--|
+| **Service name** | WdNisSvc |
+| **Description** | Helps guard against intrusion attempts targeting known and newly discovered vulnerabilities in network protocols |
+| **Installation** | Always installed |
+| **Startup type** | Manual |
+| **Recommendation** | Do not disable |
+| **Comments** | None |
+
+## Microsoft Defender Antivirus Service
+
+| Name | Description |
+|--|--|
+| **Service name** | WinDefend |
+| **Description** | Helps protect users from malware and other potentially unwanted software |
+| **Installation** | Always installed |
+| **Startup type** | Automatic |
+| **Recommendation** | Do not disable |
+| **Comments** | None |
+
+
+## Microsoft Edge Elevation Service
+
+| Name | Description |
+|--|--|
+| **Service name** | MicrosoftEdgeElevationService |
+| **Description** | Keeps Microsoft Edge up to update. If this service is disabled, the application will not be kept up to date. |
+| **Installation** | Always installed |
+| **Startup type** | Automatic |
+| **Recommendation** | No guidance |
+| **Comments** | None |
+
+
+## Microsoft Edge Update Service
+
+| Name | Description |
+|--|--|
+| **Service name** | edgeupdate |
+| **Description** | Keeps your Microsoft software up to date. If this service is disabled or stopped, your Microsoft software will not be kept up to date, meaning security vulnerabilities that may arise cannot be fixed and features may not work. This service uninstalls itself when there is no Microsoft software using it. |
+| **Installation** | Always installed |
+| **Startup type** | Automatic (Delayed Start) |
+| **Recommendation** | Do not disable |
+| **Comments** | None |
+
+
+## Microsoft Edge Update Service (edgeupdatem)
+
+| Name | Description |
+|--|--|
+| **Service name** | edgeupdatem |
+| **Description** | Keeps your Microsoft software up to date. If this service is disabled or stopped, your Microsoft software will not be kept up to date, meaning security vulnerabilities that may arise cannot be fixed and features may not work. This service uninstalls itself when there is no Microsoft software using it. |
+| **Installation** | Always installed |
+| **Startup type** | Manual |
+| **Recommendation** | Do not disable |
+| **Comments** | None |
+
+
 ## Microsoft iSCSI Initiator Service
 
 | Name | Description |
@@ -956,7 +1246,18 @@ The following tables offer Microsoft guidance on disabling system services on Wi
 | **Installation** | Always installed |
 | **Startup type** | Manual |
 | **Recommendation** | OK to disable |
-| **Comments** | Our diagnostic data indicates this is used on client as well as server. No benefit to disabling this. |
+| **Comments** | None. |
+
+## Microsoft Keyboard Filter
+
+| Name | Description |
+|--|--|
+| **Service name** | MsKeyboardFilter |
+| **Description** | Controls keystroke filtering and mapping |
+| **Installation** | Always installed |
+| **Startup type** | Manual |
+| **Recommendation** | No guidance |
+| **Comments** | None |
 
 ## Microsoft Passport
 
@@ -1005,9 +1306,37 @@ The following tables offer Microsoft guidance on disabling system services on Wi
 
 ## Microsoft Store Install Service
 
+| Name | Description |
+|--|--|
+| **Service name** | InstallService |
+| **Description** | Provides infrastructure support for the Microsoft Store.  This service is started on demand and if disabled then installations will not function properly. |
+| **Installation** | Always installed |
+| **Startup type** | Manual |
+| **Recommendation** | OK to disable |
+| **Comments** | None |
+
 ## Microsoft Windows SMS Router Service
 
+| Name | Description |
+|--|--|
+| **Service name** | SmsRouter |
+| **Description** | Routes messages based on rules to appropriate clients. |
+| **Installation** | Always installed |
+| **Startup type** | Manual |
+| **Recommendation** | OK to disable |
+| **Comments** | None |
+
 ## Natural Authentication
+
+| Name | Description |
+|--|--|
+| **Service name** | NaturalAuthentication |
+| **Description** | Signal aggregator service, that evaluates signals based on time, network, geolocation, bluetooth and cdf factors. Supported features are Device Unlock, Dynamic Lock and Dynamo MDM policies |
+| **Installation** | Always installed |
+| **Startup type** | Manual |
+| **Recommendation** | OK to disable |
+| **Comments** | None |
+
 
 ## Net.Tcp Port Sharing Service
 
@@ -1032,6 +1361,16 @@ The following tables offer Microsoft guidance on disabling system services on Wi
 | **Comments** | None |
 
 ## Network Connected Devices Auto-Setup
+
+| Name | Description |
+|--|--|
+| **Service name** | NcdAutoSetup |
+| **Description** | Network Connected Devices Auto-Setup service monitors and installs qualified devices that connect to a qualified network. Stopping or disabling this service will prevent Windows from discovering and installing qualified network connected devices automatically. Users can still manually add network connected devices to a PC through the user interface. |
+| **Installation** | Always installed |
+| **Startup type** | Manual |
+| **Recommendation** | OK to disable |
+| **Comments** | None |
+
 
 ## Network Connection Broker
 
@@ -1120,13 +1459,21 @@ The following tables offer Microsoft guidance on disabling system services on Wi
 |--|--|
 | **Service name** | CscService |
 | **Description** | The Offline Files service performs maintenance activities on the Offline Files cache, responds to user logon and logoff events, implements the internals of the public API, and dispatches interesting events to those interested in Offline Files activities and changes in cache state. |
-| **Installation** | Only with Desktop Experience |
-| **Startup type** | Disabled |
-| **Recommendation** | Already disabled |
+| **Installation** | Always installed |
+| **Startup type** | Manual |
+| **Recommendation** | OK to disable |
 | **Comments** | None |
 
 ## OpenSSH Authentication Agent
 
+| Name | Description |
+|--|--|
+| **Service name** | ssh-agent |
+| **Description** | Agent to hold private keys used for public key authentication. |
+| **Installation** | Always installed |
+| **Startup type** | Disabled |
+| **Recommendation** | Already disabled |
+| **Comments** | None |
 
 ## Optimize drives
 
@@ -1141,14 +1488,58 @@ The following tables offer Microsoft guidance on disabling system services on Wi
 
 ## Parental Controls
 
+| Name | Description |
+|--|--|
+| **Service name** | WpcMonSvc |
+| **Description** | Enforces parental controls for child accounts in Windows. If this service is stopped or disabled, parental controls may not be enforced. |
+| **Installation** | Always installed |
+| **Startup type** | Manual |
+| **Recommendation** | OK to disable |
+| **Comments** | None |
+
 ## Payments and NFC/SE Manager
+
+| Name | Description |
+|--|--|
+| **Service name** | SEMgrSvc |
+| **Description** | Manages payments and Near Field Communication (NFC) based secure elements. |
+| **Installation** | Always installed |
+| **Startup type** | Manual |
+| **Recommendation** | OK to disable |
+| **Comments** | None |
 
 ## Peer Name Resolution Protocol
 
+| Name | Description |
+|--|--|
+| **Service name** | PNRPsvc |
+| **Description** | Enables serverless peer name resolution over the Internet using the Peer Name Resolution Protocol (PNRP). If disabled, some peer-to-peer and collaborative applications, such as Remote Assistance, may not function. |
+| **Installation** | Always installed |
+| **Startup type** | Manual |
+| **Recommendation** | OK to disable |
+| **Comments** | None |
+
 ## Peer Networking Grouping
+
+| Name | Description |
+|--|--|
+| **Service name** | p2psvc |
+| **Description** | Enables multi-party communication using Peer-to-Peer Grouping.  If disabled, some applications, such as HomeGroup, may not function. |
+| **Installation** | Always installed |
+| **Startup type** | Manual |
+| **Recommendation** | OK to disable |
+| **Comments** | None |
 
 ## Peer Networking Identity Manager
 
+| Name | Description |
+|--|--|
+| **Service name** | p2pimsvc |
+| **Description** | Provides identity services for the Peer Name Resolution Protocol (PNRP) and Peer-to-Peer Grouping services.  If disabled, the Peer Name Resolution Protocol (PNRP) and Peer-to-Peer Grouping services may not function, and some applications, such as HomeGroup and Remote Assistance, may not function correctly. |
+| **Installation** | Always installed |
+| **Startup type** | Manual |
+| **Recommendation** | OK to disable |
+| **Comments** | None |
 
 ## Performance Counter DLL Host
 
@@ -1158,7 +1549,7 @@ The following tables offer Microsoft guidance on disabling system services on Wi
 | **Description** | Enables remote users and 64-bit processes to query performance counters provided by 32-bit DLLs. If this service is stopped, only local users and 32-bit processes will be able to query performance counters provided by 32-bit DLLs. |
 | **Installation** | Always installed |
 | **Startup type** | Manual |
-| **Recommendation** | No guidance |
+| **Recommendation** | Do not disable |
 | **Comments** | None |
 
 
@@ -1171,7 +1562,7 @@ The following tables offer Microsoft guidance on disabling system services on Wi
 | **Description** | Performance Logs and Alerts Collects performance data from local or remote computers based on preconfigured schedule parameters, then writes the data to a log or triggers an alert. If this service is stopped, performance information will not be collected. If this service is disabled, any services that explicitly depend on it will fail to start. |
 | **Installation** | Always installed |
 | **Startup type** | Manual |
-| **Recommendation** | No guidance |
+| **Recommendation** | Do not disable |
 | **Comments** | None |
 
 
@@ -1201,6 +1592,18 @@ The following tables offer Microsoft guidance on disabling system services on Wi
 | **Comments** | None |
 
 
+## PNRP Machine Name Publication Service
+
+| Name | Description |
+|--|--|
+| **Service name** | PNRPAutoReg |
+| **Description** | This service publishes a machine name using the Peer Name Resolution Protocol.  Configuration is managed via the netsh context 'p2p pnrp peer'  |
+| **Installation** | Always installed |
+| **Startup type** | Manual |
+| **Recommendation** | OK to disable |
+| **Comments** | None |
+
+
 
 ## Portable Device Enumerator Service
 
@@ -1208,9 +1611,9 @@ The following tables offer Microsoft guidance on disabling system services on Wi
 |--|--|
 | **Service name** | WPDBusEnum |
 | **Description** | Enforces group policy for removable mass-storage devices. Enables applications such as Windows Media Player and Image Import Wizard to transfer and synchronize content using removable mass-storage devices. |
-| **Installation** | Only with Desktop Experience |
+| **Installation** | Always installed |
 | **Startup type** | Manual |
-| **Recommendation** | No guidance |
+| **Recommendation** | OK to disable |
 | **Comments** | None |
 
 
@@ -1223,7 +1626,7 @@ The following tables offer Microsoft guidance on disabling system services on Wi
 | **Description** | Manages power policy and power policy notification delivery. |
 | **Installation** | Always installed |
 | **Startup type** | Automatic |
-| **Recommendation** | No guidance |
+| **Recommendation** | Do not disable |
 | **Comments** | None |
 
 
@@ -1236,8 +1639,8 @@ The following tables offer Microsoft guidance on disabling system services on Wi
 | **Description** | This service spools print jobs and handles interaction with the printer. If you turn off this service, you won't be able to print or see your printers. |
 | **Installation** | Always installed |
 | **Startup type** | Automatic |
-| **Recommendation** | OK to disable if not a print server or a DC |
-| **Comments** | On a domain controller, the installation of the DC role adds a thread to the spooler service that is responsible for performing print pruning – removing the stale print queue objects from the Active Directory. If the spooler service is not running on at least one DC in each site, then the AD has no means to remove old queues that no longer exist. ["Disabling Unnecessary Services? A Word to the Wise" - Microsoft Tech Community - Ask The Performance Team Blog](https://techcommunity.microsoft.com/t5/ask-the-performance-team/disabling-unnecessary-services-a-word-to-the-wise/ba-p/373444). |
+| **Recommendation** | OK to disable |
+| **Comments** | None |
 
 
 
@@ -1249,7 +1652,7 @@ The following tables offer Microsoft guidance on disabling system services on Wi
 | **Description** | This service opens custom printer dialog boxes and handles notifications from a remote print server or a printer. If you turn off this service, you won't be able to see printer extensions or notifications. |
 | **Installation** | Always installed |
 | **Startup type** | Manual |
-| **Recommendation** | OK to disable if not a print server |
+| **Recommendation** | OK to disable |
 | **Comments** | None |
 
 
@@ -1273,7 +1676,7 @@ The following tables offer Microsoft guidance on disabling system services on Wi
 |--|--|
 | **Service name** | PcaSvc |
 | **Description** | This service provides support for the Program Compatibility Assistant (PCA). PCA monitors programs installed and run by the user and detects known compatibility problems. If this service is stopped, PCA will not function properly. |
-| **Installation** | Only with Desktop Experience |
+| **Installation** | Always installed |
 | **Startup type** | Automatic |
 | **Recommendation** | OK to disable |
 | **Comments** | None |
@@ -1285,7 +1688,7 @@ The following tables offer Microsoft guidance on disabling system services on Wi
 |--|--|
 | **Service name** | QWAVE |
 | **Description** | Quality Windows Audio Video Experience (qWave) is a networking platform for Audio Video (AV) streaming applications on IP home networks. qWave enhances AV streaming performance and reliability by ensuring network quality-of-service (QoS) for AV applications. It provides mechanisms for admission control, run time monitoring and enforcement, application feedback, and traffic prioritization. |
-| **Installation** | Only with Desktop Experience |
+| **Installation** | Always installed |
 | **Startup type** | Manual |
 | **Recommendation** | OK to disable |
 | **Comments** | Client-side QoS service |
@@ -1298,12 +1701,22 @@ The following tables offer Microsoft guidance on disabling system services on Wi
 |--|--|
 | **Service name** | RmSvc |
 | **Description** | Radio Management and Airplane Mode Service |
-| **Installation** | Only with Desktop Experience |
+| **Installation** | Always installed |
 | **Startup type** | Manual |
 | **Recommendation** | OK to disable |
 | **Comments** | None |
 
 
+## Recommended Troubleshooting Service
+
+| Name | Description |
+|--|--|
+| **Service name** | TroubleshootingSvc |
+| **Description** | Enables automatic mitigation for known problems by applying recommended troubleshooting. If stopped, your device will not get recommended troubleshooting for problems on your device. |
+| **Installation** | Always installed |
+| **Startup type** | Manual |
+| **Recommendation** | No guidance |
+| **Comments** | None |
 
 ## Remote Access Auto Connection Manager
 
@@ -1311,9 +1724,9 @@ The following tables offer Microsoft guidance on disabling system services on Wi
 |--|--|
 | **Service name** | RasAuto |
 | **Description** | Creates a connection to a remote network whenever a program references a remote DNS or NetBIOS name or address. |
-| **Installation** | Only with Desktop Experience |
+| **Installation** | Always installed |
 | **Startup type** | Manual |
-| **Recommendation** | No guidance |
+| **Recommendation** | OK to disable |
 | **Comments** | None |
 
 
@@ -1326,7 +1739,7 @@ The following tables offer Microsoft guidance on disabling system services on Wi
 | **Description** | Manages dial-up and virtual private network (VPN) connections from this computer to the Internet or other remote networks. If this service is disabled, any services that explicitly depend on it will fail to start. |
 | **Installation** | Always installed |
 | **Startup type** | Manual |
-| **Recommendation** | No guidance |
+| **Recommendation** | OK to disable |
 | **Comments** | None |
 
 
@@ -1378,7 +1791,7 @@ The following tables offer Microsoft guidance on disabling system services on Wi
 | **Description** | The RPCSS service is the Service Control Manager for COM and DCOM servers. It performs object activations requests, object exporter resolutions and distributed garbage collection for COM and DCOM servers. If this service is stopped or disabled, programs using COM or DCOM will not function properly. It is strongly recommended that you have the RPCSS service running. |
 | **Installation** | Always installed |
 | **Startup type** | Automatic |
-| **Recommendation** | No guidance |
+| **Recommendation** | Do not disable |
 | **Comments** | None |
 
 
@@ -1391,7 +1804,7 @@ The following tables offer Microsoft guidance on disabling system services on Wi
 | **Description** | In Windows 2003 and earlier versions of Windows, the Remote Procedure Call (RPC) Locator service manages the RPC name service database. In Windows Vista and later versions of Windows, this service does not provide any functionality and is present for application compatibility. |
 | **Installation** | Only with Desktop Experience |
 | **Startup type** | Manual |
-| **Recommendation** | No guidance |
+| **Recommendation** | OK to disable |
 | **Comments** | None |
 
 
@@ -1408,18 +1821,16 @@ The following tables offer Microsoft guidance on disabling system services on Wi
 | **Comments** | None |
 
 
-
-## Resultant Set of Policy Provider
+## Retail Demo Service
 
 | Name | Description |
 |--|--|
-| **Service name** | RSoPProv |
-| **Description** | Provides a network service that processes requests to simulate application of Group Policy settings for a target user or computer in various situations and computes the Resultant Set of Policy settings. |
+| **Service name** | RetailDemo |
+| **Description** | The Retail Demo service controls device activity while the device is in retail demo mode. |
 | **Installation** | Always installed |
-| **Startup type** | Manual |
-| **Recommendation** | No guidance |
+| **Startup type** | Automatic |
+| **Recommendation** | OK to disable |
 | **Comments** | None |
-
 
 
 ## Routing and Remote Access
@@ -1443,7 +1854,7 @@ The following tables offer Microsoft guidance on disabling system services on Wi
 | **Description** | Resolves RPC interfaces identifiers to transport endpoints. If this service is stopped or disabled, programs using Remote Procedure Call (RPC) services will not function properly. |
 | **Installation** | Always installed |
 | **Startup type** | Automatic |
-| **Recommendation** | No guidance |
+| **Recommendation** | Do not disable |
 | **Comments** | None |
 
 
@@ -1579,8 +1990,8 @@ The following tables offer Microsoft guidance on disabling system services on Wi
 | **Service name** | SCardSvr |
 | **Description** | Manages access to smart cards read by this computer. If this service is stopped, this computer will be unable to read smart cards. If this service is disabled, any services that explicitly depend on it will fail to start. |
 | **Installation** | Always installed |
-| **Startup type** | Disabled |
-| **Recommendation** | Already disabled |
+| **Startup type** | Manual |
+| **Recommendation** | OK to disable |
 | **Comments** | None |
 
 
@@ -1619,7 +2030,7 @@ The following tables offer Microsoft guidance on disabling system services on Wi
 | **Description** | Receives trap messages generated by local or remote Simple Network Management Protocol (SNMP) agents and forwards the messages to SNMP management programs running on this computer. If this service is stopped, SNMP-based programs on this computer will not receive SNMP trap messages. If this service is disabled, any services that explicitly depend on it will fail to start. |
 | **Installation** | Always installed |
 | **Startup type** | Manual |
-| **Recommendation** | No guidance |
+| **Recommendation** | OK to disable |
 | **Comments** | None |
 
 
@@ -1641,35 +2052,11 @@ The following tables offer Microsoft guidance on disabling system services on Wi
 | Name | Description |
 |--|--|
 | **Service name** | SharedRealitySvc |
-| **Description** | Allows administrators to remotely access a command prompt using Emergency Management Services. |
-| **Installation** | Always installed |
-| **Startup type** | Disabled |
-| **Recommendation** | Already disabled |
-| **Comments** | None |
-
-## Spot Verifier
-
-| Name | Description |
-|--|--|
-| **Service name** | svsvc |
-| **Description** | Verifies potential file system corruptions. |
-| **Installation** | Always installed |
-| **Startup type** | Disabled |
-| **Recommendation** | Already disabled |
-| **Comments** | None |
-
-
-## Special Administration Console Helper
-
-| Name | Description |
-|--|--|
-| **Service name** | sacsvr |
-| **Description** | Allows administrators to remotely access a command prompt using Emergency Management Services. |
+| **Description** | This service is used for Spatial Perception scenarios. |
 | **Installation** | Always installed |
 | **Startup type** | Manual |
-| **Recommendation** | No guidance |
+| **Recommendation** | Do not disable |
 | **Comments** | None |
-
 
 
 ## Spot Verifier
@@ -1680,7 +2067,7 @@ The following tables offer Microsoft guidance on disabling system services on Wi
 | **Description** | Verifies potential file system corruptions. |
 | **Installation** | Always installed |
 | **Startup type** | Manual |
-| **Recommendation** | No guidance |
+| **Recommendation** | Do not disable |
 | **Comments** | None |
 
 
@@ -1706,7 +2093,7 @@ The following tables offer Microsoft guidance on disabling system services on Wi
 | **Description** | Provides required infrastructure support for the application model. |
 | **Installation** | Always installed |
 | **Startup type** | Manual |
-| **Recommendation** | No guidance |
+| **Recommendation** | Do not disable |
 | **Comments** | None |
 
 
@@ -1717,7 +2104,7 @@ The following tables offer Microsoft guidance on disabling system services on Wi
 |--|--|
 | **Service name** | WiaRpc |
 | **Description** | Launches applications associated with still image acquisition events. |
-| **Installation** | Only with Desktop Experience |
+| **Installation** | Always installed |
 | **Startup type** | Manual |
 | **Recommendation** | OK to disable |
 | **Comments** | None |
@@ -1730,8 +2117,8 @@ The following tables offer Microsoft guidance on disabling system services on Wi
 |--|--|
 | **Service name** | StorSvc |
 | **Description** | Provides enabling services for storage settings and external storage expansion |
-| **Installation** | Only with Desktop Experience |
-| **Startup type** | Manual |
+| **Installation** | Always installed |
+| **Startup type** | Automatic (Delayed Start) |
 | **Recommendation** | No guidance |
 | **Comments** | None |
 
@@ -1749,30 +2136,28 @@ The following tables offer Microsoft guidance on disabling system services on Wi
 | **Comments** | None |
 
 
-
-## Superfetch
-
-| Name | Description |
-|--|--|
-| **Service name** | SysMain |
-| **Description** | Maintains and improves system performance over time. |
-| **Installation** | Always installed |
-| **Startup type** | Manual |
-| **Recommendation** | No guidance |
-| **Comments** | None |
-
-
-
 ## Sync Host
 
 | Name | Description |
 |--|--|
 | **Service name** | OneSyncSvc |
 | **Description** | This service synchronizes mail, contacts, calendar and various other user data. Mail and other applications dependent on this functionality will not work properly when this service is not running. |
-| **Installation** | Only with Desktop Experience |
+| **Installation** | Always installed |
 | **Startup type** | Automatic |
 | **Recommendation** | OK to disable |
 | **Comments** | User service template |
+
+## SysMain
+
+| Name | Description |
+|--|--|
+| **Service name** | SysMain |
+| **Description** | Maintains and improves system performance over time. |
+| **Installation** | Always installed |
+| **Startup type** | Automatic |
+| **Recommendation** | Do not disable |
+| **Comments** | User service template |
+
 
 
 
@@ -1800,7 +2185,16 @@ The following tables offer Microsoft guidance on disabling system services on Wi
 | **Recommendation** | Do not disable |
 | **Comments** | In spite of the fact that its description implies it is only for WinRT apps, it's needed for task scheduler, broker infrastructure service, and other internal components. |
 
+## System Guard Runtime Monitor Broker
 
+| Name | Description |
+|--|--|
+| **Service name** | SgrmBroker |
+| **Description** | Monitors and attests to the integrity of the Windows platform. |
+| **Installation** | Always installed |
+| **Startup type** | Automatic (Delayed Start) |
+| **Recommendation** | Do not disable |
+| **Comments** | None |
 
 ## Task Scheduler
 
