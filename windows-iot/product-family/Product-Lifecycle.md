@@ -40,7 +40,7 @@ Long Term Servicing Channel (LTSC):
 
 
 # [Windows 10 IoT Core](#tab/2019)
-[2019 Long-Term Servicing Channel (LTSC)](/lifecycle/products/windows-10-iot-ltsc-2019)
+[2019 Long-Term Servicing Channel (LTSC)](/lifecycle/products/windows-10-enterprise-ltsc-2019)
 
 # [Windows 10 IoT Core services](#tab/2018)
 [Windows IoT Core services](/lifecycle/products/windows-10-iot-core-services)
