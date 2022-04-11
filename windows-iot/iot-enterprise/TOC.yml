@@ -83,6 +83,13 @@
     href: OS-Features/Privacy.md
   - name: Security
     href: OS-Features/Security.md
+- name: Device Optimziation
+  expanded: false
+  items: 
+  - name: Reduce Disk Footprint
+    href: Optimize-Your-Device/Reduce-Disk-Footprint.md
+  - name: Services Guide
+    href: Optimize-Your-Device/Services.md
 - name: Commercialization
   expanded: false
   items: 
