@@ -1,7 +1,9 @@
 {:allowed-branchname-matches ["main"]
  :allowed-filename-matches ["windows-iot/"]
  
-  :targets 
+ :use-gh-statuses true
+  
+ :targets 
    {
      :counts {
               ;;:spelling 10
@@ -19,6 +21,7 @@
  :guidance-profile "d2b6c2c8-00ee-47f1-8d10-b280cc3434c1" ;; Profile ID for "M365-specific"
  
  :acrolinx-check-settings
+ 
  {
   "languageId" "en"
   "ruleSetName" "Standard"
