@@ -3,17 +3,17 @@
   items: 
   - name: Overview
     href: windows-iot.md
-  - name: News, Blogs & Updates
+  - name: News, blogs, & updates
     href: News-Blogs.md
-  - name: Fall 2021 Releases
+  - name: Fall 2021 releases
     href: fall-2021-releases.md
-  - name: What's New in Windows 10 IoT Enterprise, version 21H2? 
+  - name: What's new in Windows 10 IoT Enterprise, version 21H2? 
     href: what's-new-in-Windows-10-IoT-Enterprise-21H2.md
-  - name: What's New in Windows 11 IoT Enterprise? 
+  - name: What's new in Windows 11 IoT Enterprise? 
     href: what's-new-in-Windows-11-IoT-Enterprise.md
-  - name: Product Lifecycle
+  - name: Product lifecycle
     href: Product-Lifecycle.md
-  - name: Distributor Contact Information 
+  - name: Distributor contact information 
     href: https://aka.ms/IoTDistributorList
   - name: Datasheet
     href: https://download.microsoft.com/download/d/e/0/de05c36e-e182-43db-8ba6-023d808f0d64/Windows-for-IoT-Datasheet-Final.pdf
