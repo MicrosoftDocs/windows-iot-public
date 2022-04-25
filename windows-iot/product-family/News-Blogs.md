@@ -2,10 +2,11 @@
 title: Windows for IoT news
 author: rsameser
 ms.author: riameser
-ms.date: 04/22/2022
+ms.date: 04/25/2022
 ms.topic: conceptual
 ms.prod: windows-iot
 ms.technology: iot
+ms.custom: kr2b-contr-experiment
 description: See the latest news about the Windows for IoT product family. Review blogs, videos, announcements, and case studies.
 keywords: Blogs, News, Windows IoT, Windows IoT Enterprise, Windows IoT Core, Build
 ---
@@ -20,62 +21,56 @@ Stay up to date with the latest news and announcements about the Windows for IoT
 
 # [2021](#tab/2021)
 
-### October
+### January
 
-- Blog: [Windows 10 IoT Enterprise LTSC 2021 - RTM for OEMs ](https://aka.ms/W10IOTLTSC2021Blog)
-- Blog: [Introducing Windows 11 IoT](https://aka.ms/Win11IoTGABlog)
+- Blog: [Enabling Linux based Azure IoT Edge Modules on Windows IoT](https://techcommunity.microsoft.com/t5/internet-of-things/enabling-linux-based-azure-iot-edge-modules-on-windows-iot/ba-p/2075882)
+- Video: [Internet of Things Show - Run Linux based IoT Edge modules on Windows IoT](https://channel9.msdn.com/Shows/Internet-of-Things-Show/Run-Linux-based-IoT-Edge-modules-on-Windows-IoT)
 
-### September
+### February
 
-- Blog: [Windows Server IoT 2022 - Generally Available](https://techcommunity.microsoft.com/t5/internet-of-things/windows-server-iot-2022-now-generally-available/ba-p/2703521)
+- Blog: [Windows 10 IoT Long Term Servicing Channel upcoming availability](https://techcommunity.microsoft.com/t5/internet-of-things/windows-10-iot-long-term-servicing-channel-upcoming-availability/ba-p/2139861)
 
-### August
+### March
 
-- Blog: [WSL and EFLOW for IoT Edge Development](https://techcommunity.microsoft.com/t5/internet-of-things/wsl-and-eflow-for-iot-edge-development/ba-p/2593485)
+- Video: [Accelerating Edge AI solutions](https://www.youtube.com/watch?v=QJwL0mqTudU)
 
-### July
+### April
 
-- Blog: [Windows IoT support lifecycle and upcoming releases](https://techcommunity.microsoft.com/t5/internet-of-things/windows-iot-support-lifecycle-and-upcoming-releases/ba-p/2511888)
-- Blog: [Introducing the next feature update to Windows 10: 21H2](https://blogs.windows.com/windowsexperience/2021/07/15/introducing-the-next-feature-update-to-windows-10-21h2/)
+- Blog: [HMI review: building more agile factories with Azure IoT and Windows IoT](https://techcommunity.microsoft.com/t5/internet-of-things/hmi-review-building-more-agile-factories-with-azure-iot-and/ba-p/2273231)
+
+### May
+
+- Blog: [Meet the Azure IoT Edge for Linux on Windows (EFLOW) team at Build](https://techcommunity.microsoft.com/t5/internet-of-things/meet-the-azure-iot-edge-for-linux-on-windows-eflow-team-at-build/ba-p/2370352)
+- Video: [Ask the Experts: Bringing Azure Linux workloads to Windows](/events/build-may-2021/ask-the-experts/connection-zone/ateazr005/)
 
 ### June
 
 - Blog: [Announcing the GA of Azure IoT Edge for Linux on Windows](https://techcommunity.microsoft.com/t5/internet-of-things/announcing-the-ga-of-azure-iot-edge-for-linux-on-windows/ba-p/2477508)
 - Video: [Now ready for Production: Linux IoT Edge Modules on Windows](https://channel9.msdn.com/Shows/Internet-of-Things-Show/Now-ready-for-Production-Linux-IoT-Edge-Modules-on-Windows)
 
-### May
+### July
 
-- Blog: [Meet the Azure IoT Edge for Linux on Windows (EFLOW) team at Build](https://techcommunity.microsoft.com/t5/internet-of-things/meet-the-azure-iot-edge-for-linux-on-windows-eflow-team-at-build/ba-p/2370352)
-- Video: [Ask the Experts: Bringing Azure Linux workloads to Windows](https://mybuild.microsoft.com/sessions/7578ce2c-2efb-4379-9cad-25e0f3c0e670)
+- Blog: [Windows IoT support lifecycle and upcoming releases](https://techcommunity.microsoft.com/t5/internet-of-things/windows-iot-support-lifecycle-and-upcoming-releases/ba-p/2511888)
+- Blog: [Introducing the next feature update to Windows 10: 21H2](https://blogs.windows.com/windowsexperience/2021/07/15/introducing-the-next-feature-update-to-windows-10-21h2/)
 
-### April
+### August
 
-- Blog: [HMI review: building more agile factories with Azure IoT and Windows IoT](https://techcommunity.microsoft.com/t5/internet-of-things/hmi-review-building-more-agile-factories-with-azure-iot-and/ba-p/2273231)
+- Blog: [WSL and EFLOW for IoT Edge Development](https://techcommunity.microsoft.com/t5/internet-of-things/wsl-and-eflow-for-iot-edge-development/ba-p/2593485)
 
-### March
+### September
 
-- Video: [Accelerating Edge AI solutions](https://myignite.microsoft.com/sessions/f5808715-5b97-4588-b4e5-31f00be2eb75?source=schedule)
+- Blog: [Windows Server IoT 2022 - Generally Available](https://techcommunity.microsoft.com/t5/internet-of-things/windows-server-iot-2022-now-generally-available/ba-p/2703521)
 
-### February
+### October
 
-- Blog: [Windows 10 IoT Long Term Servicing Channel upcoming availability](https://techcommunity.microsoft.com/t5/internet-of-things/windows-10-iot-long-term-servicing-channel-upcoming-availability/ba-p/2139861)
-
-### January
-
-- Blog: [Enabling Linux based Azure IoT Edge Modules on Windows IoT](https://techcommunity.microsoft.com/t5/internet-of-things/enabling-linux-based-azure-iot-edge-modules-on-windows-iot/ba-p/2075882)
-- Video: [Internet of Things Show - Run Linux based IoT Edge modules on Windows IoT](https://channel9.msdn.com/Shows/Internet-of-Things-Show/Run-Linux-based-IoT-Edge-modules-on-Windows-IoT)
+- Blog: [Windows 10 IoT Enterprise LTSC 2021 - RTM for OEMs ](https://aka.ms/W10IOTLTSC2021Blog)
+- Blog: [Introducing Windows 11 IoT](https://aka.ms/Win11IoTGABlog)
 
 # [2020](#tab/2020)
 
 ### January
 
 - Case Study: [Dover Fueling Solutions](https://customers.microsoft.com/story/775087-microsoft-country-corner-dover-fueling-solutions-oil-and-gas-azure)
-- Case Study: [Smart Tower](https://customers.microsoft.com/story/776791-smart-tower-windows-iot)
-- Case Study: [Hourfleet](https://customers.microsoft.com/story/779418-hourfleet-windows-iot)
-
-### March
-
-- Case Study: [PharmID](https://customers.microsoft.com/story/768976-pharmid-health-provider-azure)
 
 ### May
 
@@ -94,12 +89,6 @@ Stay up to date with the latest news and announcements about the Windows for IoT
 ### September
 
 - Blog: [Microsoft Edge Kiosk Mode](https://blogs.windows.com/windowsexperience/2020/09/22/whats-new-in-web-experiences-ignite-2020-need-to-secure-your-remote-workers-choose-microsoft-edge-as-your-browser-for-business/)
-
-### November
-
-- Case Study: [Four Winds Interactive](https://customers.microsoft.com/story/854395-four-winds-interactive)
-- Case Study: [Stratos Media](https://customers.microsoft.com/story/854391-stratos-media)
-- Case Study: [Cloverleaf](https://customers.microsoft.com/story/854393-cloverleaf)
 
 # [2019](#tab/2019)
 
@@ -143,27 +132,15 @@ Stay up to date with the latest news and announcements about the Windows for IoT
 - Video: [Internet of Things Show - The No Code Way to Connect Sensors to Azure IoT](https://channel9.msdn.com/Shows/Internet-of-Things-Show/The-No-Code-Way-to-Connect-Sensors-to-Azure-IoT)
 - Article: [FarmBeats: Improving Farm Productivity Using Data-Driven Agriculture](https://www.microsoft.com/research/publication/farmbeats-improving-farm-productivity-using-data-driven-agriculture/)
 
-### August
-
-- Case study: [CityBeacon](https://customers.microsoft.com/story/749839-citybeacon)
-
 ### October
 
-- Case study: [IDEX](https://customers.microsoft.com/story/764579-idex-automotive-azure-iot-united-states)
 - Blog: [Windows expands support for robots](https://blogs.windows.com/windowsdeveloper/2019/10/30/windows-expands-support-for-robots/#GUAqMh58eL3D5BVz.97#GUAqMh58eL3D5BVz.97)
-
-### December
-
-- Case study: [Democracy Live](https://customers.microsoft.com/story/773355-democracy-live-windows-iot)
 
 # [2018](#tab/2018)
 
 ### January
 
 - Blog: [Johnson Controls utilizes Microsoft technology to expand the smart thermostat category](https://blogs.windows.com/windowsexperience/2018/01/04/johnson-controls-utilizes-microsoft-technology-expand-smart-thermostat-category/)
-- Case Study: [Johnson Controls](https://customers.microsoft.com/story/johnson-controls)
-- Case Study: [InnoWi GmbH](https://customers.microsoft.com/story/innowi)
-- Case Study: [Keith & Koep](https://customers.microsoft.com/story/keith-koep)
 
 ### February
 
@@ -203,19 +180,13 @@ Stay up to date with the latest news and announcements about the Windows for IoT
 - Video: [Windows IoT Core Walkthrough](https://channel9.msdn.com/Blogs/Seth-Juarez/Windows-IoT-Core-Walkthrough?term=windows%20iot%20core)
 - Press Release: [TrekStor wearable running Windows 10 IoT Core gets a reveal at Build](https://www.windowscentral.com/trekstor-wearable-running-windows-10-iot)
 
-### June
-
-- Case Study: [MIFIMIEnergy](https://customers.microsoft.com/story/mifimienergy-azure-cloud-services-windows-iot-cps-sql-database-hospitality-serbia)
-
 ### October
 
 - Blog: [Windows 10 IoT enables the complete IoT lifecycle](https://blogs.windows.com/windowsdeveloper/2017/10/05/windows-10-iot-enables-complete-iot-lifecycle/)
-- Case Study: [Rockwell Automation](https://customers.microsoft.com/story/rockwell-automation)
 
 ### November
 
 - Video: [Creating robots with Windows 10 IoT Core](https://www.youtube.com/watch?v=c2RB9xnbfBc)
-- Case Study: [Kodisoft](https://customers.microsoft.com/story/kodisoft)
 
 ### December
 
