@@ -12,7 +12,7 @@ keywords: Lockdown, Shell Launcher
 # Shell Launcher
 Using [Shell Launcher](/windows/configuration/kiosk-shelllauncher), you can configure a kiosk device to run a Windows Desktop or Universal Windows Application as the user interface. The application that you specify replaces the default shell (explorer.exe) that usually runs when a user logs on. *This type of single-app kiosk does not run above the lock screen.*
 
-Methods of controlling access to other desktop applications and system components can be used in addition to using the Shell Launcher such as, [Group Policy](https://www.microsoft.com/download/details.aspx?id=25250), [AppLocker](/windows/iot-enterprise/advanced_lockdown_features#applocker), and [Mobile Device Management](/windows/client-management/mdm/)
+Methods of controlling access to other desktop applications and system components can be used in addition to using the Shell Launcher such as, [Group Policy](https://www.microsoft.com/download/details.aspx?id=25250), [AppLocker](/windows/iot/iot-enterprise/advanced-lockdown-features/application-control#applocker), and [Mobile Device Management](/windows/client-management/mdm/)
 
 >[!NOTE]
 >

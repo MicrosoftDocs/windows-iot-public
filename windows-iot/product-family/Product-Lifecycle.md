@@ -29,7 +29,7 @@ To further understand how these products are serviced please review [licensing](
   * [2021](/lifecycle/products/windows-10-iot-enterprise-ltsc-2021)
   * [2019](/lifecycle/products/windows-10-iot-enterprise-ltsc-2019)
   * [2016](/lifecycle/products/windows-10-iot-enterprise-ltsb-2016)
-  * [2015](/lifecycle/products/windows-10-iot-enterprise-2015-ltsb)
+  * [2015](/lifecycle/products/windows-10-iot-enterprise-ltsb-2015)
 
 
 # [Windows Server IoT](#tab/2020)
@@ -40,7 +40,7 @@ Long Term Servicing Channel (LTSC):
 
 
 # [Windows 10 IoT Core](#tab/2019)
-[2019 Long-Term Servicing Channel (LTSC)](/lifecycle/products/windows-10-iot-ltsc-2019)
+[2019 Long-Term Servicing Channel (LTSC)](/lifecycle/products/windows-10-enterprise-ltsc-2019)
 
 # [Windows 10 IoT Core services](#tab/2018)
 [Windows IoT Core services](/lifecycle/products/windows-10-iot-core-services)
