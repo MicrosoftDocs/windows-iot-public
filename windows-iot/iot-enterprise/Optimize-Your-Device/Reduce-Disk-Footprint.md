@@ -11,7 +11,7 @@ keywords: IoT Enterprise, FAQ
 ---
 
 # Reduce Disk Footprint
-The following article reviews the various features that are available to assist OEMs to optimize their image to meet the Windows IoT Enterprise LTSC 2021 [minimum storage requirements](/windows/iot/iot-enterprise/hardware-guidance/hardware_requirements) of 16 GB.
+The following article reviews the various features that are available to assist OEMs to optimize their image to meet the Windows IoT Enterprise LTSC [minimum storage requirement](/windows/iot/iot-enterprise/hardware-guidance/hardware_requirements) of 16 GB.
 
 ## Compact OS
 Compact OS installs the operating system files as compressed files. Compact OS is supported on both UEFI-based and BIOS-based devices. When running Compact OS, Windows update can replace or remove individual files as needed to help maintain the drive footprint size over time.
@@ -19,12 +19,9 @@ Compact OS installs the operating system files as compressed files. Compact OS i
 Learn more about [how to enable Compact OS](/windows-hardware/manufacture/desktop/iot-ent-optimize-images?view=windows-11&preserve-view=true) and [how to check if you're running Compact OS](/windows-hardware/manufacture/desktop/compact-os?view=windows-11#check-if-youre-running-compact-os&preserve-view=true).
 
 ## Single-instancing of PPKGs
-When you add new Windows desktop applications to a device, you'll capture these changes into a compressed provisioning package for use by the automatic recovery tools. Rather than maintaining both the original files and the provisioning package, you can use DISM to remove the original files, and run from directly from the compressed provisioning package instead. This is known as single-instancing the image.
+When you add new Windows desktop applications to a device, you'll capture these changes into a compressed provisioning package for use by the automatic recovery tools. Rather than maintaining both the original files and the provisioning package, you can use DISM to remove the original files, and run from directly from the compressed provisioning package instead. This is known as [single-instancing the image](/windows-hardware/manufacture/desktop/compact-os?view=windows-11#single-instancing-of-provisioning-packages&preserve-view=true).
 
 While single-instancing is supported on both solid-state drives and rotational drives, for performance reasons, you should only use single-instancing on devices with solid-state drives.
-
-To learn more review [Single-instancing of provisioning packages](/windows-hardware/manufacture/desktop/compact-os?view=windows-11#single-instancing-of-provisioning-packages&preserve-view=true).
-
 
 ## Remove Features On Demand (FoD) Packages
 Removing all [preinstalled FoDs](/windows-hardware/manufacture/desktop/features-on-demand-v2--capabilities?view=windows-11&preserve-view=true) can save you more than 300MB of disk space, review [how to remove FoDs](/windows-hardware/manufacture/desktop/iot-ent-optimize-images?view=windows-11#remove-features-on-demand-fod-packages&preserve-view=true).
@@ -50,4 +47,4 @@ The [removable packages feature](/windows/iot/iot-enterprise/optimize-your-devic
 ## Guidance
 Please review our [size requirements and considerations](/windows-hardware/manufacture/desktop/compact-os?view=windows-11#size-requirements-and-considerations&preserve-view=true) which provide insight on how to configure your device's [hard drive](/windows-hardware/manufacture/desktop/compact-os?view=windows-11#hard-drive&preserve-view=true), manage [ram](/windows-hardware/manufacture/desktop/compact-os?view=windows-11#ram-pagefilesys-and-hiberfilsys&preserve-view=true), [language packs and features on demand](/windows-hardware/manufacture/desktop/compact-os?view=windows-11#language-packs-and-features-on-demand&preserve-view=true), [Windows optional features](/windows-hardware/manufacture/desktop/compact-os?view=windows-11#windows-optional-features&preserve-view=true), [applications](/windows-hardware/manufacture/desktop/compact-os?view=windows-11#applications&preserve-view=true) and [user data](/windows-hardware/manufacture/desktop/compact-os?view=windows-11#user-data&preserve-view=true).  
 
-Once you have created a final image and deploy to your target device, we recommend that you thoroughly test the scenarios to ensure that your device provides a good user experience.
+Once you have created a final image and deploy to your target device, we recommend that you thoroughly test the scenarios to ensure that your device provides a solid user experience.
