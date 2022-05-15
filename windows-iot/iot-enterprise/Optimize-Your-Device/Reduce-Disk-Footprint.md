@@ -2,7 +2,7 @@
 title: Reduce Disk Footprint
 author: rsameser
 ms.author: riameser
-ms.date: 5/16/2022
+ms.date: 5/17/2022
 ms.topic: article
 ms.prod: windows-iot
 ms.technology: iot
@@ -48,6 +48,6 @@ Enabling Compact OS will compress OS files and some select set of program files,
 The [removable packages feature](/windows/iot/iot-enterprise/optimize-your-device/removable-packages) enables Windows IoT Enterprise device builders to use DISM to permanently remove specific optional packages that may not be needed for the OEM’s device use case, such as printer drivers and fonts. These packages are explicitly tagged as 'OEM removable' by Microsoft and ensure that feature OS updates do not restore the removed packages. This helps OEMs optimize their device and reduce their overall disk footprint.
 
 ## Guidance
-Please review our [size requirements and considerations](/windows-hardware/manufacture/desktop/compact-os?view=windows-11#size-requirements-and-considerations&preserve-view=true) which provide insight on how to configure your device's [hard drive](/windows-hardware/manufacture/desktop/compact-os?view=windows-11#hard-drive&preserve-view=true), manage [ram](/windows-hardware/manufacture/desktop/compact-os?view=windows-11#ram-pagefilesys-and-hiberfilsys), [language packs and features on demand](/windows-hardware/manufacture/desktop/compact-os?view=windows-11#language-packs-and-features-on-demand&preserve-view=true), [Windows optional features](/windows-hardware/manufacture/desktop/compact-os?view=windows-11#windows-optional-features&preserve-view=true), [applications](/windows-hardware/manufacture/desktop/compact-os?view=windows-11#applications&preserve-view=true) and [user data](/windows-hardware/manufacture/desktop/compact-os?view=windows-11#user-data&preserve-view=true).  
+Please review our [size requirements and considerations](/windows-hardware/manufacture/desktop/compact-os?view=windows-11#size-requirements-and-considerations&preserve-view=true) which provide insight on how to configure your device's [hard drive](/windows-hardware/manufacture/desktop/compact-os?view=windows-11#hard-drive&preserve-view=true), manage [ram](/windows-hardware/manufacture/desktop/compact-os?view=windows-11#ram-pagefilesys-and-hiberfilsys&preserve-view=true), [language packs and features on demand](/windows-hardware/manufacture/desktop/compact-os?view=windows-11#language-packs-and-features-on-demand&preserve-view=true), [Windows optional features](/windows-hardware/manufacture/desktop/compact-os?view=windows-11#windows-optional-features&preserve-view=true), [applications](/windows-hardware/manufacture/desktop/compact-os?view=windows-11#applications&preserve-view=true) and [user data](/windows-hardware/manufacture/desktop/compact-os?view=windows-11#user-data&preserve-view=true).  
 
 Once you have created a final image and deploy to your target device, we recommend that you thoroughly test the scenarios to ensure that your device provides a good user experience.
