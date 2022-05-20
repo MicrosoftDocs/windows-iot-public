@@ -86,10 +86,6 @@
 - name: Device Optimziation
   expanded: false
   items:
-  - name: Overview
-    items: 
-    - name: Guidelines
-      href: Optimize-Your-Device/Overview.md
   - name: Storage
     items: 
     - name: Reduce Disk Footprint
@@ -100,6 +96,10 @@
     items:
     - name: Services Guide
       href: Optimize-Your-Device/Services.md
+  - name: Overview
+    items: 
+    - name: Guidelines
+      href: Optimize-Your-Device/Overview.md
 - name: Commercialization
   expanded: false
   items: 
