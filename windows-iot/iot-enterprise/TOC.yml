@@ -86,6 +86,8 @@
 - name: Device Optimziation
   expanded: false
   items:
+  - name: Overview
+  - href: Optimize-Your-Device/Overview.md
   - name: Storage
     items: 
     - name: Reduce Disk Footprint
