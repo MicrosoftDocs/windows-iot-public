@@ -88,7 +88,7 @@
   items:
   - name: Overview
     items: 
-    - name: Guidelines
+    - name: Guidelines for Building a Device
       href: Optimize-Your-Device/Overview.md
   - name: Storage
     items: 
