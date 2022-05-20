@@ -11,7 +11,7 @@ keywords: IoT Enterprise, Overview, Optimization
 ---
 
 # Device Optimization Overview
-Windows IoT Enterprise can be configured to run in 2GB RAM and 16GB flash configurations on the [LTSC SKU](/windows/iot/iot-enterprise/commercialization/licensing#long-term-servicing-channel-ltsc) only. When configured in the minimum footprint, an example consumption view on Windows IoT Enterprise could be as small as 300MB of runtime RAM consumption and 5.5 GB of OS flash consumption.
+Windows IoT Enterprise can be configured to run in 2GB RAM and 16GB flash configurations on the [LTSC SKU](/windows/iot/iot-enterprise/commercialization/licensing#long-term-servicing-channel-ltsc) only. When configured in the [minimum footprint](/windows/iot/iot-enterprise/hardware-guidance/hardware_requirements), an example consumption view on Windows IoT Enterprise could be as small as 300MB of runtime RAM consumption and 5.5 GB of OS flash consumption.
 
 ## Building an optimized device
 Windows 10 was originally released with a minimum hardware requirement of 1GB RAM and 24GB Flash for 64-bit architectures. Upgrades are supported from this smaller RAM configuration on the original devices.
