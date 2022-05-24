@@ -11,14 +11,9 @@ keywords: IoT Enterprise, Overview, Optimization
 ---
 
 # Device Optimization Overview
-Windows IoT Enterprise can be configured to run in 2GB RAM and 16GB flash configurations on the [LTSC SKU](/windows/iot/iot-enterprise/commercialization/licensing#long-term-servicing-channel-ltsc) only. When configured in the [minimum footprint](/windows/iot/iot-enterprise/hardware-guidance/hardware_requirements), an example consumption view on Windows IoT Enterprise could be as small as 300MB of runtime RAM consumption and 5.5 GB of OS flash consumption.
+Windows IoT Enterprise is configured to run with 2GB RAM and 16GB flash configurations on the [LTSC SKU](/windows/iot/iot-enterprise/commercialization/licensing#long-term-servicing-channel-ltsc) only.
 
 ## Building an Optimized Device
-Since Windows IoT devices are considered [fixed purpose](/windows/iot/iot-enterprise/commercialization/licensing#fixed-purpose-devices) and the OEM is responsible for the configuration and validation, Windows IoT OEMs are able to create devices that are below the [minimum hardware requirements](/windows/iot/iot-enterprise/hardware-guidance/hardware_requirements) on LTSC-only.  
+Since Windows IoT devices are considered [fixed purpose](/windows/iot/iot-enterprise/commercialization/licensing#fixed-purpose-devices) and the OEM is responsible for the configuration and validation, it is important to validate your configuration carefully and consider if you plan to use mechanisms like standard [Windows Update](/windows/iot/iot-enterprise/device-management/device-management-overview#update-management) versus [alternative image reflash mechanisms](/windows/iot/iot-enterprise/device-management/reset-and-recovery) and/or other service components that may periodically expect more memory than your base configuration, such as [Azure EFLOW](/windows/iot/iot-enterprise/azure-iot-edge-for-linux-on-windows). You must also plan to have potential minor expansions of the LTSC working-set and storage requirements due to security patching.
 
-When running on hardware below the minimum specification, it is important to validate your configuration carefully and consider if you plan to use mechanisms like standard [Windows Update](/windows/iot/iot-enterprise/device-management/device-management-overview#update-management) versus [alternative image reflash mechanisms](/windows/iot/iot-enterprise/device-management/reset-and-recovery) and/or other service components that may periodically expect more memory than your base configuration, such as [Azure EFLOW](/windows/iot/iot-enterprise/azure-iot-edge-for-linux-on-windows). You must also plan to potential minor expansions of the LTSC working-set and storage requirements due to security patching.
-
-## Additional Resources
-* [Hardware Requirements](/windows/iot/iot-enterprise/hardware-guidance/hardware_requirements)
-* [Reduce Disk Footprint](/windows/iot/iot-enterprise/optimize-your-device/removable-packages)
-* [System Services Guidance](/windows/iot/iot-enterprise/optimize-your-device/services?branch=pr-en-us-8)
+We recommend reviewing our [Hardware Requirements](/windows/iot/iot-enterprise/hardware-guidance/hardware_requirements), features to assist with [Reducing Disk Footprint](/windows/iot/iot-enterprise/optimize-your-device/removable-packages) and [Disabling System Services Guidance](/windows/iot/iot-enterprise/optimize-your-device/services?branch=pr-en-us-8) to optimize your devices storage and ram usage. 
