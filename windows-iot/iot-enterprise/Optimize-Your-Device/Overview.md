@@ -18,6 +18,6 @@ Windows IoT devices are considered [fixed purpose](/windows/iot/iot-enterprise/c
 
 > [!TIP]
 >
-> A device running the Windows 10 IoT Enterprise LTSC 2021 OS on the minimum hardware, 2 GB of RAM and 16 GB of storage, on average utilizes 300MB of RAM and 5.5GB of storage.
+> A device running the Windows 10 IoT Enterprise LTSC 2021 OS on the minimum hardware, 2 GB of RAM and 16 GB of storage, has been configured in one sample exercise to utilize 300MB of RAM and 5.5GB of storage.
 
 We recommend reviewing our [minimum hardware guidance](/windows/iot/iot-enterprise/hardware-guidance/hardware_requirements), features to assist with [reducing disk footprint](/windows/iot/iot-enterprise/optimize-your-device/removable-packages) and guidance for [disabling system services](/windows/iot/iot-enterprise/optimize-your-device/services?branch=pr-en-us-8) to optimize device storage and RAM usage.
