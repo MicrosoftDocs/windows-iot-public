@@ -2,7 +2,7 @@
 title: Getting Started with Windows IoT Enterprise
 author: rsameser
 ms.author: riameser
-ms.date: 10/05/2021
+ms.date: 5/27/2022
 ms.topic: article
 ms.prod: windows-iot
 ms.technology: iot
@@ -108,6 +108,14 @@ Articles include:
 * [Enable On-Screen Keyboard](./OS-Features/On-Screen-Keyboard.md)
 * [Privacy Features](./OS-Features/Privacy.md)
 * [Accessibility Features](./OS-Features/Accessibility.md)
+
+### Device Optimization
+This section provides insight into how OEMs can optimize their devices for manufacturing and production.
+
+Articles include:
+* [Guidelines for Device Optimization](./optimize-your-device/overview.md)
+* [Reduce Disk Footprint](./optimize-your-device/Reduce-Disk-Footprint.md)
+* [Services Guide](./optimize-your-device/services.md)
 
 
 ### Commercialization
