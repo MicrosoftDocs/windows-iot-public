@@ -113,7 +113,7 @@ Articles include:
 This section provides insight into how OEMs can optimize their devices for manufacturing and production.
 
 Articles include:
-* [Guidelines for Device Optimization](https://docs.microsoft.com/en-us/windows/iot/iot-enterprise/optimize-your-device/overview)
+* [Guidelines for Device Optimization](./optimize-your-device/overview.md)
 * [Reduce Disk Footprint](./optimize-your-device/Reduce-Disk-Footprint.md)
 * [Services Guide](./optimize-your-device/services.md)
 
