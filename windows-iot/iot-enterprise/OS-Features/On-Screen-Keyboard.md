@@ -74,7 +74,7 @@ With this release, the supported language layouts have expanded to include the f
 [Windows.Globalization.Language.TrySetInputMethodLanguageTag](/uwp/api/windows.globalization.language.trysetinputmethodlanguagetag)
 
 An example of this API can be seen in the [IoTCoreDefaultApp sample application](https://github.com/Microsoft/Windows-iotcore-samples/tree/develop/Samples/IoTCoreDefaultApp),
-in the [LanguageManager.cs](https://github.com/Microsoft/Windows-iotcore-samples/blob/develop/Samples/IoTCoreDefaultApp/CS/IoTCoreDefaultApp/Presenters/LanguageManager.cs) file.
+in the [LanguageManager.cs](https://github.com/microsoft/Windows-iotcore-samples/blob/develop/Samples/IoTCoreDefaultApp/CS/SmartDisplay/Presenters/LanguageManager.cs) file.
 
 ## Support for input scopes
 
