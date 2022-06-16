@@ -23,19 +23,40 @@ Bi-directional communication between Windows process and the Linux virtual machi
 
 [Get started](/azure/iot-edge/how-to-install-iot-edge-on-windows) today.
 
-
 ## Benefits
-You might choose to build a device that includes Azure IoT Edge for Linux on Windows (EFLOW) as it comes with many benefits.
 
-EFLOW enables customers for the first time to run production Linux-based cloud-native workloads on Windows IoT. Customers retain their existing Windows IoT assets plus benefit from the power of Windows IoT for applications that require an interactive UX and high-performance hardware interaction. There is no longer a need to choose between Windows or Linux; customers can now leverage the best of both platforms.
+For organizations interested in running business logic and analytics on devices, Azure IoT Edge for Linux on Windows (EFLOW) enables the deployment of production Linux-based cloud-native workloads onto Windows devices. Connecting your devices to Microsoft Azure lets you quickly bring cloud intelligence to your business. At the same time, running workloads on devices allows you to respond quickly in instances with limited connectivity and reduce bandwidth costs.
 
-EFLOW provides the ability to deploy Linux IoT Edge modules onto a Windows IoT device. This opens a world of capabilities for commercial IoT as well as AI/ML with the availability of pre-built modules from the Azure Marketplace such as Live Video Analytics, SQL Edge, and OPC Publisher as a few examples.
+By bringing the best of Windows and Linux together, EFLOW enables new capabilities while leveraging existing Windows infrastructure and application investments. By running Linux IoT Edge modules on Windows devices, you can do more on a single device, reducing the overhead and cost of separate devices for different applications.
 
-As a developer, you may also choose to implement your own custom modules using the Linux distribution of your choice to address specific business requirements. Running Linux modules on Windows IoT becomes a seamless part of your solution.
+EFLOW doesn't require extensive Linux knowledge and utilizes familiar Windows tools to manage your EFLOW device and workloads. Windows IoT provides trusted enterprise-grade security with established IT admin infrastructure. Lastly, the entire solution is maintained and kept up to date by Microsoft.
 
-In addition, Windows applications can easily interact with Linux modules running on the same physical device. A Windows process that provides UI or accesses cameras, sensors, or other hardware can seamlessly communicate with business logic or ML inferencing provided by a Linux module.
+##### Easily Connect to Azure
+
+- **IoT Edge Built-In**. [Tier 1 Azure IoT Edge support](/azure/iot-edge/support.md#operating-systems) is built in to EFLOW for a simplified deployment experience for your cloud workloads.
+
+- **Curated Linux VM for Azure**. EFLOW consists of a specially curated Linux VM that runs alongside Windows IoT host OS. This Linux VM is based on [CBL-Mariner Linux](https://github.com/microsoft/CBL-Mariner), and is optimized for hosting IoT Edge workloads.
+
+##### Familiar Windows Management
+
+- **Flexible Scripting**. [PowerShell modules](/azure/iot-edge/reference-iot-edge-for-linux-on-windows-functions.md) provide the ability to fully script deployments.
+
+- **WAC**. [Windows Admin Center EFLOW extension](/azure/iot-edge/how-to-provision-single-device-linux-on-windows-symmetric.md#developer-tools) (preview, EFLOW 1.1 only) provides a click-through deployment wizard and remote management experience.
+
+##### Production Ready
+
+- **Always Up-to-date**. EFLOW regularly releases feature and security improvements and is reliably updated using Microsoft Update. For more information on EFLOW updates, see [Update IoT Edge for Linux on Windows](/azure/iot-edge/iot-edge-for-linux-on-windows-updates.md).
+
+- **Fully Supported Environment.** In an EFLOW solution, the base operating system, the EFLOW Linux environment, and the container runtime are all maintained by Microsoft—meaning there's a single source for all of the components. Each of the three components: [Windows IoT](/windows/iot/iot-enterprise/commercialization/licensing), EFLOW, and [Azure IoT Edge](/azure/iot-edge/version-history.md) have defined servicing mechanisms and support timelines.
+
+##### Windows + Linux
+
+- **Interoperability**. With EFLOW, the whole is greater than the sum of its parts. Combining a Windows application and Linux application on the same device unlocks new experiences and scenarios that otherwise wouldn't have been possible. Interoperability and hardware passthrough capabilities built into EFLOW including, [TPM passthrough](/azure/iot-edge/how-to-provision-devices-at-scale-linux-on-windows-tpm.md), [HW acceleration](/azure/iot-edge/gpu-acceleration.md), [Camera passthrough](https://github.com/Azure/iotedge-eflow/tree/main/samples/camera-over-rtsp), [Serial passthrough](https://github.com/Azure/iotedge-eflow/tree/main/samples/serial), and more, allow you to take advantage of both Linux and Windows environments.
+
+- **IoT Edge Marketplace.** EFLOW presents an opportunity for Linux developers to target Windows devices, greatly increasing the potential install base. The Azure Marketplace offers a wide range of enterprise applications and solutions that are certified and optimized to run on Azure, including [Azure IoT Edge and EFLOW](https://azuremarketplace.microsoft.com/marketplace/apps/category/internet-of-things?page=1&subcategories=iot-edge-modules).
 
 ## Additional Resources
-* [EFLOW Documentation](/azure/iot-edge/iot-edge-for-linux-on-windows?view=iotedge-2018-06&preserve-view=true)
-* [IoT Show: Run Linux based IoT Edge modules on Windows IoT](https://www.youtube.com/watch?v=UB2yigjg5V8)
-* [Get started](/azure/iot-edge/how-to-install-iot-edge-on-windows) today.
+
+- [EFLOW Documentation](/azure/iot-edge/iot-edge-for-linux-on-windows?view=iotedge-2018-06&preserve-view=true)
+- [IoT Show: Run Linux based IoT Edge modules on Windows IoT](https://www.youtube.com/watch?v=UB2yigjg5V8)
+- [Get started](/azure/iot-edge/how-to-install-iot-edge-on-windows) today.
