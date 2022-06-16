@@ -41,7 +41,8 @@ EFLOW doesn't require extensive Linux knowledge and utilizes familiar Windows to
 
 - **Flexible Scripting**. [PowerShell modules](/azure/iot-edge/reference-iot-edge-for-linux-on-windows-functions.md) provide the ability to fully script deployments.
 
-- **WAC**. [Windows Admin Center EFLOW extension](/azure/iot-edge/how-to-provision-single-device-linux-on-windows-symmetric.md#developer-tools) (preview, EFLOW 1.1 only) provides a click-through deployment wizard and remote management experience.
+- **Remote deployment**. [Sample scripts](https://github.com/Azure/iotedge-eflow/tree/main/eflowremotedeploy) to enable EFLOW installation and provisioning through Intune and Arc for Server channels.
+
 
 ##### Production Ready
 
