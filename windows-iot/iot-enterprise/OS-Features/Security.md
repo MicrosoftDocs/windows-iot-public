@@ -2,7 +2,7 @@
 title: Security
 author: rsameser
 ms.author: riameser
-ms.date: 10/05/2021
+ms.date: 06/28/2022
 ms.topic: article
 ms.prod: windows-iot
 ms.technology: iot
@@ -94,6 +94,28 @@ In case something is to go wrong with your device, Windows IoT Enterprise suppor
 *[Windows IoT Device Health Attestation](#windows-device-health-attestation) enables the operator to assess if a device is booted to a trusted and compliant state, and takes appropriate remedial actions if necessary.*
 
 
+## Edge Secured-core
+[Edge Secured-core](/azure/certification/program-requirements-edge-secured-core?pivots=platform-windows) is a new certification in the [Azure Certified Device program](https://www.microsoft.com/azure/partners/azure-certified) for IoT devices running a full operating system such as Windows IoT Enterprise. Edge Secured-core certified devices meet additional security requirements around device identity, secure boot, operating system hardening, device updates, data protection, and vulnerability disclosures. All of this is designed to help prevent attacks, protect your data, and defend against those attempting to infiltrate your infrastructure.
+
+Building on the expertise Microsoft developed around Secured-core for commercial Windows 10 PCs, Edge Secured-core takes a similar approach for IoT devices. This certification can be used to validate that certified devices include specific security hardware technology, have an operating system with built-in security, and use IoT services such as Microsoft Defender for IoT that continually monitor for threats on the device.
+
+For companies building devices, Edge Secured-core provides a low-cost differentiator that enables customers to easily identify your device that has been configured to meet a higher security standard.
+
+### Edge Secured-core drives scalable security
+Through the use of Edge Secured-core, companies can trust that IoT devices are built with a foundation of security and can be deployed seamlessly and securely.
+
+It also provides enterprises and solution builders with the confidence that the devices they’re purchasing deliver the following security promises:
+
+* Hardware-based device identity
+* Capable of enforcing system integrity
+* Stays up to date and is remotely manageable
+* Provides data-at-rest protection
+* Provides data-in-transit protection
+* Built-in security agent and hardening
+
+To learn more about how to get started, review [Edge Secured-core requirements](/azure/certification/program-requirements-edge-secured-core?pivots=platform-windows#windows-iot-hardwarefirmware-requirements) for Windows IoT Enterprise devices.
+
 ## Additional resources
 * [Azure Security Center](https://azure.microsoft.com/services/security-center/)
 * [Azure Security Benchmark](/azure/security/benchmarks/overview)
+* [Edge Secured-core: Azure Certified IoT devices with built-in security](https://techcommunity.microsoft.com/t5/internet-of-things-blog/edge-secured-core-azure-certified-iot-devices-with-built-in/ba-p/3533758)
