@@ -28,6 +28,7 @@ Each of the platforms has unique features that need attention during implementat
 * [AMD](https://www.amd.com/en/products/embedded)
 * [Qualcomm](https://www.qualcomm.com/products/snapdragon-850-mobile-compute-platform)
 * [VIA Technologies](https://www.viatech.com/en/products/boards/embedded-boards/)
+* [NXP](https://www.nxp.com/products/processors-and-microcontrollers/arm-processors/i-mx-applications-processors/i-mx-8-processors:IMX8-SERIES)
 
 ## Additional Resources
 * [Windows IoT Enterprise Manufacturing Guide](/windows-hardware/manufacture/desktop/iot-ent-overview)
