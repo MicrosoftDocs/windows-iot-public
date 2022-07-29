@@ -81,7 +81,7 @@ For more information, visit [Windows Processor Requirements](/windows-hardware/d
 		<td><a href="/windows-hardware/design/minimum/supported/windows-10-21H2-supported-amd-processors"> Supported AMD Processors </a></td>
 		<td><a href="/windows-hardware/design/minimum/supported/windows-10-21H2-supported-intel-processors"> Supported Intel Processors </a></td>
 		<td><a href="/windows-hardware/design/minimum/supported/windows-10-21H2-supported-qualcomm-processors"> Supported Qualcomm Processors </a></td>
-    <td><a href="supported\2/windows-hardware/design/minimum/1H2_NXP_Processors.md"> Supported NXP Processors </a></td>
+    <td><a href="supported/21H2_NXP_Processors.md"> Supported NXP Processors </a></td>
 	</tr>
     <tr>
 		<td>Windows 10 IoT Enterprise LTSC 2021</td>
