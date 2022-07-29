@@ -10,19 +10,11 @@ description: Windows IoT Processor Requirements
 keywords: IoT Enterprise, Processor, Hardware, SoCs, Custom Boards, development devices, boards, SOC, SOM, system on chips, Windows IoT
 ---
 
-# Windows IoT Processor Requirements
+# Windows IoT Enterprise Processor Requirements
 
-This specification details the processors that can be used with Customer Systems that include Windows Products (including Custom Images). Updates to this specification may be released in the future as requirements change.
+The processors listed in the tables below, represent the latest processor generations and models which are supported for the listed Windows IoT Enterprise Edition.
 
-For each listed edition, Company must use only the processors listed, as specified in the tables below. The requirements below apply whenever the edition below is pre-installed or provided on external media, including as downgrade or down edition software.
-
-For clarity, Company must also meet all processor and other requirements specified in [Minimum Hardware Requirements for Windows IoT](./Hardware_Requirements.md).
-
-If after the inclusion of a processor series in this specification ("Listed Processor"), a processor becomes commercially available that uses the same naming convention or identifier as a Listed Processor but has additional or different features or functionality ("New Processor"), Company must not use New Processor for Customer Systems without Microsoft's prior written permission. If Company believes a processor has been omitted from this list, please contact Company’s Microsoft OEM or ODM Account Manager.
-
-The processors listed in the tables below, represent the latest processor generations and models which are supported for the listed Windows Edition.
-
-Some product editions or edition/processor configurations listed below may have no or limited support. Information on support is available at [Microsoft Support Policy](https://support.microsoft.com/lifecycle) and [Microsoft Lifecycle FAQ](https://support.microsoft.com/help/18581). For specific hardware support, please refer to your Original Equipment Manufacturer (OEM) provider.
+For more information, visit [Windows Processor Requirements](/windows-hardware/design/minimum/windows-processor-requirements)
 
 ## Windows IoT Enterprise Edition Processors
 <table>
@@ -35,7 +27,7 @@ Some product editions or edition/processor configurations listed below may have 
     </tr>
 	<tr>
 		<td>Windows 10 IoT Enterprise LTSB 1507</td>
-		<td><a href="supported\windows-10-LTSB-1507-supported-amd-processors.md"> Supported AMD Processors </a></td>
+		<td><a href="/windows-hardware/design/minimum/supported/windows-10-1607-supported-amd-processors"> Supported AMD Processors </a></td>
 		<td><a href="supported\windows-10-LTSB-1507-supported-intel-processors.md"> Supported Intel Processors </a></td>
 		<td>N/A</td>
     <td>N/A</td>
@@ -83,62 +75,6 @@ Some product editions or edition/processor configurations listed below may have 
         <td>N/A</td>
     </tr>
 </table>           
-
-## Windows IoT Core Processors
-<table>
- 	<tr>
-		<th>Windows Edition</th>
-		<th>Intel Processors</th>
-		<th>Qualcomm Processor</th>
-		<th>Broadcom</th>
-		<th>NXP Processors</th>
-	</tr>
-	<tr>
-		<td>Windows 10 IoT Core 1703</td>
-		<td>Up through currently enabled Intel Joule, Atom, Celeron and Pentium
-		Processors<sup>[3]</sup></td>
-		<td>Up through currently enabled Qualcomm Snapdragon Processors<sup>[3]</sup></td>
-		<td>Up through currently enabled Broadcom Processors<sup>[3]</sup></td>
-		<td>N/A</td>
-	</tr>
-	<tr>
-		<td>Windows 10 IoT Core 1709</td>
-		<td>Up through currently enabled Intel Joule, Atom, Celeron and Pentium
-		Processors<sup>[3]</sup></td>
-		<td>Up through currently enabled Qualcomm Snapdragon Processors<sup>[3]</sup></td>
-		<td>Up through currently enabled Broadcom Processors<sup>[3]</sup></td>
-		<td>N/A</td>
-	</tr>
-	<tr>
-		<td>Windows 10 IoT Core 1803</td>
-		<td>Up through currently enabled Intel Joule, Atom, Celeron and Pentium
-		Processors<sup>[3]</sup></td>
-		<td>Up through currently enabled Qualcomm Snapdragon Processors<sup>[3]</sup></td>
-		<td>Up through currently enabled Broadcom Processors<sup>[3]</sup></td>
-		<td>N/A</td>
-	</tr>
-	<tr>
-		<td>Windows 10 IoT Core 1809 (SAC)</td>
-		<td>Up through currently enabled Intel Atom, Celeron and Pentium
-		Processors<sup>[3]</sup></td>
-		<td>Up through currently enabled Qualcomm Snapdragon Processors<sup>[3]</sup></td>
-		<td>Up through currently enabled Broadcom Processors<sup>[3]</sup></td>
-		<td>Up through currently enabled NXP&nbsp;i.MXProcessors<sup>[3]</sup></td>
-	</tr>
-	<tr>
-		<td>Windows 10 IoT Core 1809 (LTSC)</td>
-		<td>Up through currently enabled Intel Atom, Celeron and Pentium
-		Processors<sup>[3]</sup></td>
-		<td>Up through currently enabled Qualcomm Snapdragon Processors<sup>[3]</sup></td>
-		<td>Up through currently enabled Broadcom Processors<sup>[3]</sup></td>
-		<td>Up through currently enabled NXP&nbsp;i.MXProcessors<sup>[3]</sup></td>
-	</tr>
-</table>
-
-<sup>[3]</sup> Information on which processors are currently enabled is available
-at [SoCs and custom boards](/windows/iot-core/learn-about-hardware/socsandcustomboards).
-
-
 
 ## Additional Resources
 [Windows Server support and installation instructions for the AMD Rome family of processors](https://support.microsoft.com/help/4514607)

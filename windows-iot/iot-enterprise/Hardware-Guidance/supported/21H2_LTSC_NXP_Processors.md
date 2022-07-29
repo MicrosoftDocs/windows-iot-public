@@ -1,9 +1,11 @@
 ---
 title: Windows Processor Requirements Windows 10 2021 LTSC Supported NXP Processors
 description: This specification details the NXP processors that can be used with Windows 10 2021 LTSC.
-
+author: sybruckm
+ms.author: sybruckm
 ms.date: 07/20/2022
 ms.topic: article
+ms.prod: windows-iot
 ---
 
 # Windows 10 IoT Enterprise 2021 LTSC Supported NXP Processors
