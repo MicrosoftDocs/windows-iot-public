@@ -34,7 +34,7 @@ Devices that run Windows IoT Enterprise must meet these [hardware requirements](
 >
 > For specific hardware support, please refer to your Original Equipment Manufacturer (OEM) provider.
 
-### Windows 11 IoT Enterprise Processor Lists
+### Windows IoT Enterprise Processor Lists
 
 The processors listed in the tables below, represent the latest processor generations and models which are supported for the listed Windows IoT Enterprise Edition.
 
