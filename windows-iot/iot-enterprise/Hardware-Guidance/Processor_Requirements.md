@@ -10,7 +10,7 @@ description: Windows IoT Processor Requirements
 keywords: IoT Enterprise, Processor, Hardware, SoCs, Custom Boards, development devices, boards, SOC, SOM, system on chips, Windows IoT
 ---
 
-# Windows Processor Requirements
+# Windows IoT Processor Requirements
 
 This specification details the processors that can be used with Customer Systems that include Windows Products (including Custom Images). Updates to this specification may be released in the future as requirements change.
 
@@ -34,49 +34,49 @@ Some product editions or edition/processor configurations listed below may have 
         <th>NXP Processors</th>
     </tr>
 	<tr>
-		<td>Windows 10 Enterprise LTSB 1507</td>
+		<td>Windows 10 IoT Enterprise LTSB 1507</td>
 		<td><a href="supported\windows-10-LTSB-1507-supported-amd-processors.md"> Supported AMD Processors </a></td>
 		<td><a href="supported\windows-10-LTSB-1507-supported-intel-processors.md"> Supported Intel Processors </a></td>
 		<td>N/A</td>
     <td>N/A</td>
 	</tr>
 	<tr>
-		<td>Windows 10 Enterprise LTSC 1809</td>
+		<td>Windows 10 IoT Enterprise LTSC 1809</td>
 		<td><a href="supported\windows-10-LTSC-1809-supported-amd-processors.md"> Supported AMD Processors </a></td>        
 		<td><a href="supported\windows-10-LTSC-1809-supported-intel-processors.md"> Supported Intel Processors </a></td>
     <td>N/A</td>		
     <td>N/A</td>
 	</tr>
 	<tr>
-		<td>Windows 10 20H2</td>
+		<td>Windows 10 IoT Enterprise 20H2</td>
 		<td><a href="supported\windows-10-20H2-supported-amd-processors.md"> Supported AMD Processors </a></td>
 		<td><a href="supported\windows-10-20H2-supported-intel-processors.md"> Supported Intel Processors </a></td>
     <td><a href="supported\windows-10-20H2-supported-qualcomm-processors.md"> Supported Qualcomm Processors </a></td>
     <td>N/A</td>
 	</tr>
 	<tr>
-		<td>Windows 10 21H1</td>
+		<td>Windows 10 IoT Enterprise 21H1</td>
 		<td><a href="supported\windows-10-21H1-supported-amd-processors.md"> Supported AMD Processors </a></td>
 		<td><a href="supported\windows-10-21H1-supported-intel-processors.md"> Supported Intel Processors </a></td>
 		<td><a href="supported\windows-10-21H1-supported-qualcomm-processors.md"> Supported Qualcomm Processors </a></td>
     <td>N/A</td>
 	</tr>
     <tr>
-		<td>Windows 10 21H2</td>
+		<td>Windows 10 IoT Enterprise 21H2</td>
 		<td><a href="supported\windows-10-21H2-supported-amd-processors.md"> Supported AMD Processors </a></td>
 		<td><a href="supported\windows-10-21H2-supported-intel-processors.md"> Supported Intel Processors </a></td>
 		<td><a href="supported\windows-10-21H2-supported-qualcomm-processors.md"> Supported Qualcomm Processors </a></td>
     <td><a href="supported\21H2_NXP_Processors.md"> Supported NXP Processors </a></td>
 	</tr>
     <tr>
-		<td>Windows 10 Enterprise LTSC 2021</td>
+		<td>Windows 10 IoT Enterprise LTSC 2021</td>
 		<td><a href="supported\windows-10-LTSC-2021-supported-amd-processors.md"> Supported AMD Processors </a></td>
 		<td><a href="supported\windows-10-LTSC-2021-supported-intel-processors.md"> Supported Intel Processors </a></td>
 		<td>N/A</td>
     <td><a href="supported\21H2_LTSC_NXP_Processors.md"> Supported NXP Processors </a></td>
 	</tr>
     <tr>
-        <td>Windows 11</td>
+        <td>Windows 11 IoT Enterprise</td>
         <td><a href="supported\windows-11-supported-amd-processors.md"> Supported AMD Processors </a></td>
         <td><a href="supported\windows-11-supported-intel-processors.md"> Supported Intel Processors </a></td>
         <td><a href="supported\windows-11-supported-qualcomm-processors.md"> Supported Qualcomm Processors </a></td>
@@ -94,7 +94,7 @@ Some product editions or edition/processor configurations listed below may have 
 		<th>NXP Processors</th>
 	</tr>
 	<tr>
-		<td>Windows 10 1703</td>
+		<td>Windows 10 IoT Core 1703</td>
 		<td>Up through currently enabled Intel Joule, Atom, Celeron and Pentium
 		Processors<sup>[3]</sup></td>
 		<td>Up through currently enabled Qualcomm Snapdragon Processors<sup>[3]</sup></td>
@@ -102,7 +102,7 @@ Some product editions or edition/processor configurations listed below may have 
 		<td>N/A</td>
 	</tr>
 	<tr>
-		<td>Windows 10 1709</td>
+		<td>Windows 10 IoT Core 1709</td>
 		<td>Up through currently enabled Intel Joule, Atom, Celeron and Pentium
 		Processors<sup>[3]</sup></td>
 		<td>Up through currently enabled Qualcomm Snapdragon Processors<sup>[3]</sup></td>
@@ -110,7 +110,7 @@ Some product editions or edition/processor configurations listed below may have 
 		<td>N/A</td>
 	</tr>
 	<tr>
-		<td>Windows 10 1803</td>
+		<td>Windows 10 IoT Core 1803</td>
 		<td>Up through currently enabled Intel Joule, Atom, Celeron and Pentium
 		Processors<sup>[3]</sup></td>
 		<td>Up through currently enabled Qualcomm Snapdragon Processors<sup>[3]</sup></td>

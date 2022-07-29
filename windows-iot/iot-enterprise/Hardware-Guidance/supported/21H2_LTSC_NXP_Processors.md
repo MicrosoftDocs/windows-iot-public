@@ -6,7 +6,7 @@ ms.date: 07/20/2022
 ms.topic: article
 ---
 
-# Windows 10 2021 LTSC Supported NXP Processors
+# Windows 10 IoT Enterprise 2021 LTSC Supported NXP Processors
 
 Earlier generations and models of the CPUs listed may have limited support for devices on this version of Windows 10. Please contact your hardware vendor(s) for specific support details.
 

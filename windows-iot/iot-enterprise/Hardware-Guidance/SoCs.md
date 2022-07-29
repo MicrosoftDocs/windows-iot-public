@@ -13,7 +13,7 @@ keywords: IoT Enterprise, Hardware, SoCs, Custom Boards, development devices, bo
 
 ## Microsoft-enabled SoCs
 
-Microsoft works alongside Intel, Qualcomm, and AMD to verify support for Windows IoT Enterprise on several vendors' system on a chip (SoCs). These SoCs are used in hundreds of different devices that you can use to prototype and commercialize your idea. The SoC you choose to adopt will depend on considerations such as performance requirements, power profile, cost, physical connectivity options, long-term support, and operating conditions.
+Microsoft works alongside Intel, Qualcomm, AMD and NXP to verify support for Windows IoT Enterprise on several vendors' system on a chip (SoCs). These SoCs are used in hundreds of different devices that you can use to prototype and commercialize your idea. The SoC you choose to adopt will depend on considerations such as performance requirements, power profile, cost, physical connectivity options, long-term support, and operating conditions.
 
 You'll also need to decide whether you want to use an off-the-shelf board or device, build a custom device using a system on a module (SoM) plus a custom carrier board, or build a complete custom board. Cost and the degree of customization are the key factors in this decision, with both generally increasing as you customize further.
 
