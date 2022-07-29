@@ -1,35 +1,35 @@
 - name: Getting Started with Windows IoT Enterprise
   href: Getting_Started.md
-- name: Hardware Guidance 
-  expanded: false 
-  items: 
-  - name: Requirements
+- name: Hardware Guidance
+  expanded: false
+  items:
+  - name: Hardware Requirements
     href: Hardware-Guidance/Hardware_Requirements.md
   - name: SoCs and Custom Boards
     href: Hardware-Guidance/SoCs.md
 - name: Quickstarts
-  expanded: false 
-  items: 
+  expanded: false
+  items:
   - name: Start prototyping
     href: Hardware-Guidance/Prototype.md
 - name: Kiosk mode
-  expanded: false 
-  items: 
+  expanded: false
+  items:
   - name: Overview
     href: Kiosk-Mode/Kiosk-Mode.md
   - name: Assigned access single-app kiosk
     href: Kiosk-Mode/Single-App-Kiosk.md
   - name: Assigned acess multi-app kiosk
-    href: Kiosk-Mode/Multi-App-Kiosk.md 
+    href: Kiosk-Mode/Multi-App-Kiosk.md
   - name: Shell Launcher
     href: Kiosk-Mode/Shell-Launcher.md
-  - name: Browser Support 
+  - name: Browser Support
     href: Kiosk-Mode/Browser-Support.md
   - name: Screen Swipe Policy
     href: Advanced-Lockdown-Features/Edge-Swipe-Policy.md
 - name: Advanced Lockdown Features
-  expanded: false 
-  items: 
+  expanded: false
+  items:
   - name: Application Control
     href: Advanced-Lockdown-Features/Application-Control.md
   - name: Device Safeguards
@@ -41,13 +41,13 @@
   - name: Hibernate Once/Resume Many (HORM)
     href: Advanced-Lockdown-Features/HORM.md
 - name: Branding Features
-  expanded: false 
-  items: 
+  expanded: false
+  items:
   - name: Custom Logon
     href: Branding-Features/Custom-Logon.md
   - name: Microsoft Store Access
     href: Branding-Features/Microsoft-Store-Access.md
-  - name: Page Visibility   
+  - name: Page Visibility
     href: Branding-Features/Page-Visibility.md
   - name: Layout Control
     href: Branding-Features/Layout-Control.md
@@ -56,25 +56,25 @@
   - name: Manage Update Experience
     href: Branding-Features/Update-Notification.md
 - name: Device Management
-  expanded: false 
+  expanded: false
   items:
   - name: Overview
     href: Device-Management/Device-Management-Overview.md
   - name: OS Updates
     href: OS-Features/Updates.md
-  - name: App Updates 
+  - name: App Updates
     href: Device-Management/App-Updates.md
   - name: Reset and Recovery
     href: Device-Management/Reset-and-Recovery.md
 - name: IoT Device Features
-  expanded: false 
+  expanded: false
   items:
   - name: Network Service Controls
     href: OS-Features/Network-Controls.md
-  - name: Bus Providers 
+  - name: Bus Providers
     href: OS-Features/Bus-Providers.md
   - name: Device Drivers
-    href: OS-Features/Device-Drivers.md  
+    href: OS-Features/Device-Drivers.md
   - name: Embedded Mode
     href: OS-Features/Embedded-Mode.md
   - name: On-Screen Keyboard
@@ -89,14 +89,14 @@
   expanded: false
   items:
   - name: Overview
-    items: 
+    items:
     - name: Guidelines
       href: Optimize-Your-Device/Overview.md
   - name: Storage
-    items: 
+    items:
     - name: Reduce Disk Footprint
       href: Optimize-Your-Device/Reduce-Disk-Footprint.md
-    - name: Removable Packages 
+    - name: Removable Packages
       href: Optimize-Your-Device/Removable-Packages.md
   - name: Ram
     items:
@@ -104,21 +104,21 @@
       href: Optimize-Your-Device/Services.md
 - name: Commercialization
   expanded: false
-  items: 
+  items:
   - name: Licensing & Usage
     href: Commercialization/Licensing.md
-  - name: Manufacturing Guide 
+  - name: Manufacturing Guide
     href: Commercialization/Manufacturing-Guide.md
 - name: Soft Real-Time
   expanded: false
-  items: 
-  - name: Overview 
+  items:
+  - name: Overview
     href: Soft-Real-Time/Soft-Real-Time.md
-  - name: Device Configuration 
+  - name: Device Configuration
     href: Soft-Real-Time/Soft-Real-Time-Device.md
-  - name: Application Development 
+  - name: Application Development
     href: Soft-Real-Time/Soft-Real-Time-Application.md
-- name: Azure IoT Edge for Linux on Windows (EFLOW) 
+- name: Azure IoT Edge for Linux on Windows (EFLOW)
   href: Azure-IoT-Edge-For-Linux-On-Windows.md
 - name: Downloads
   href: Downloads.md
