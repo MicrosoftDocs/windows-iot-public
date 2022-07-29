@@ -16,7 +16,7 @@ This specification details the processors that can be used with Customer Systems
 
 For each listed edition, Company must use only the processors listed, as specified in the tables below. The requirements below apply whenever the edition below is pre-installed or provided on external media, including as downgrade or down edition software.
 
-For clarity, Company must also meet all processor and other requirements specified in [Minimum Hardware Requirements for Windows](./Hardware_Requirements.md).
+For clarity, Company must also meet all processor and other requirements specified in [Minimum Hardware Requirements for Windows IoT](./Hardware_Requirements.md).
 
 If after the inclusion of a processor series in this specification ("Listed Processor"), a processor becomes commercially available that uses the same naming convention or identifier as a Listed Processor but has additional or different features or functionality ("New Processor"), Company must not use New Processor for Customer Systems without Microsoft's prior written permission. If Company believes a processor has been omitted from this list, please contact Company’s Microsoft OEM or ODM Account Manager.
 
