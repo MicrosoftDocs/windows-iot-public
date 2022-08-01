@@ -43,7 +43,7 @@ Stay up to date with the latest news and announcements about the Windows for IoT
 - Blog: [Removable Packages Feature Announcement](https://techcommunity.microsoft.com/t5/internet-of-things-blog/new-storage-optimization-capability-for-windows-10-iot/ba-p/3422772)
 - Blog: [Announcing Windows IoT Enterprise on NXP i.MX 8M and i.MX 8M Mini General Availability](https://techcommunity.microsoft.com/t5/internet-of-things-blog/announcing-windows-iot-enterprise-on-nxp-i-mx-8m-and-i-mx-8m/ba-p/3529644)
 - Blog: [Embedded World 2022 Recap](https://techcommunity.microsoft.com/t5/internet-of-things-blog/microsoft-azure-at-embedded-world-2022/ba-p/3519301)
-- Blog: [Edge Secured-core: Azure Certified IoT device with built-in security](https://techcommunity.microsoft.com/t5/internet-of-things-blog/edge-secured-core-azure-certified-iot-devices-with-built-in/ba-p/3533758) 6/21
+- Blog: [Edge Secured-core: Azure Certified IoT device with built-in security](https://techcommunity.microsoft.com/t5/internet-of-things-blog/edge-secured-core-azure-certified-iot-devices-with-built-in/ba-p/3533758)
 - Blog: [Simplify and accelerate development and deployment of computer vision solutions for manufacturing](https://techcommunity.microsoft.com/t5/internet-of-things-blog/simplify-and-accelerate-development-and-deployment-of-computer/ba-p/3546418)
 
 # [2021](#tab/2021)
