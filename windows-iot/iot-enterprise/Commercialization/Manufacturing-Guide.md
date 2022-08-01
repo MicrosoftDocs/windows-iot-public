@@ -13,7 +13,8 @@ keywords: IoT Enterprise, Manufacturing Guide
 # Windows 10 IoT Enterprise Manufacturing Guide
 We offer a [Manufacturing Guide](/windows-hardware/manufacture/desktop/iot-ent-overview) to help you walk through how to build, set-up, and commercialize your Windows 10 IoT Enterprise devices.
 
-> [!TIP] Try out [Edge Device Image Builder](https://aka.ms/EDIBPublicPreviewRelease) a tool currently in public preview that walks OEMs through customizing and configuring a Windows 10 IoT Enterprise LTSC 2021 image. Check out the [announcement blog](https://aka.ms/EDIBPublicPreviewBlog) and [documentation](https://aka.ms/EDIBDocumentation) for more information on how to get started. 
+> [!TIP]
+> Try out [Edge Device Image Builder](https://aka.ms/EDIBPublicPreviewRelease) a tool currently in public preview that walks OEMs through customizing and configuring a Windows 10 IoT Enterprise LTSC 2021 image. Check out the [announcement blog](https://aka.ms/EDIBPublicPreviewBlog) and [documentation](https://aka.ms/EDIBDocumentation) for more information on how to get started.
 
 ## Labs
 In addition to our documentation set, we have a series of labs that you can follow, which cover how to build, customize, and deploy a Windows 10 IoT Enterprise image.

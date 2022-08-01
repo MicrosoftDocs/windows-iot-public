@@ -35,7 +35,8 @@ To get started, you can try the [Windows 10 Enterprise 90 day Evaluation](https:
 ## Step 3: Deploy an Image
 If your board comes with instructions on how to deploy Windows IoT Enterprise, follow those instructions. Otherwise, you can follow the labs provided in the [Windows IoT Enterprise Manufacturing Guide](../Commercialization/Manufacturing-Guide.md).
 
-> [!TIP] Try out [Edge Device Image Builder](https://aka.ms/EDIBPublicPreviewRelease) a tool currently in public preview that walks OEMs through customizing and configuring a Windows 10 IoT Enterprise LTSC 2021 image. Check out the [announcement blog](https://aka.ms/EDIBPublicPreviewBlog) and [documentation](https://aka.ms/EDIBDocumentation) for more information on how to get started. 
+> [!TIP]
+> Try out [Edge Device Image Builder](https://aka.ms/EDIBPublicPreviewRelease) a tool currently in public preview that walks OEMs through customizing and configuring a Windows 10 IoT Enterprise LTSC 2021 image. Check out the [announcement blog](https://aka.ms/EDIBPublicPreviewBlog) and [documentation](https://aka.ms/EDIBDocumentation) for more information on how to get started. 
 
 ## Step 4: Load an Application
 You can choose to port over any of your existing [Windows applications](/windows/apps/desktop/choose-your-platform) or feel free to reference any of our [UWP app samples](https://github.com/microsoft/Windows-universal-samples) in GitHub.
