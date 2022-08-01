@@ -2,7 +2,7 @@
 title: Windows for IoT news
 author: rsameser
 ms.author: riameser
-ms.date: 04/25/2022
+ms.date: 08/01/2022
 ms.topic: conceptual
 ms.prod: windows-iot
 ms.technology: iot
@@ -92,6 +92,8 @@ Stay up to date with the latest news and announcements about the Windows for IoT
 
 - Blog: [Windows 10 IoT Enterprise LTSC 2021 - RTM for OEMs ](https://aka.ms/W10IOTLTSC2021Blog)
 - Blog: [Introducing Windows 11 IoT](https://aka.ms/Win11IoTGABlog)
+- Blog: [Windows for IoT Long-term Servicing Channel explained](https://techcommunity.microsoft.com/t5/internet-of-things-blog/windows-for-iot-long-term-servicing-channel-explained/ba-p/2836254)
+- Blog: [IoT at Microsoft Ignite](https://techcommunity.microsoft.com/t5/internet-of-things-blog/iot-at-microsoft-ignite/ba-p/2874658)
 
 # [2020](#tab/2020)
 
