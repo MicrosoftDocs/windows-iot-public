@@ -19,6 +19,33 @@ This section is updated regularly with blog posts, videos, and case studies that
 
 Stay up to date with the latest news and announcements about the Windows for IoT product family.
 
+# [2022](#tab/2022)
+
+### February
+- Blog: [Azure IoT Edge for Linux on Windows (EFLOW) Continuous Release Public Preview](https://techcommunity.microsoft.com/t5/internet-of-things-blog/azure-iot-edge-for-linux-on-windows-eflow-continuous-release/ba-p/3169590)
+
+### March
+- Blog: [Public Preview: Edge Device Image Builder](https://techcommunity.microsoft.com/t5/internet-of-things-blog/announcing-the-public-preview-for-edge-device-image-builder/ba-p/3251230)
+
+### April
+- Blog: [Announcing Public Preview for NXP i.MX 8M on Windows 10 IoT Enterprise](https://techcommunity.microsoft.com/t5/internet-of-things-blog/announcing-public-preview-for-nxp-i-mx-8m-on-windows-10-iot/ba-p/3271854)
+
+### May
+- Blog: [IoT at Microsoft Build 2022](https://techcommunity.microsoft.com/t5/internet-of-things-blog/iot-at-microsoft-build-2022/ba-p/3361251)
+- Video: [Microsoft Build On Demand Session: Windows IoT Roadmap](https://aka.ms/MSBuild2022-WinIoTRoadMap)
+- Video: [Microsoft Build On Demand Session: Windows IoT Enterprise Security](https://aka.ms/MSBuild2022-WinIoTSecurity)
+- Video: [Microsoft Build On Demand Session: Arm64 ecosystem on Windows IoT Enterprise with i.MX8 platform](https://aka.ms/MSBuild2022-ARM64)
+- Video: [Microsoft Build On Demand Session: Project Haven](https://aka.ms/MSBuild2022-ProjectHaven)
+- Video: [Microsoft Build On Demand Session: Edge Device Image Builder](https://aka.ms/MSBuild2022-EDIB)
+- Video: [Microsoft Build On Demand Session: Dual Operator](https://aka.ms/MSBuild2022-DualOperator)
+
+### June
+- Blog: [Removable Packages Feature Announcement](https://techcommunity.microsoft.com/t5/internet-of-things-blog/new-storage-optimization-capability-for-windows-10-iot/ba-p/3422772)
+- Blog: [Announcing Windows IoT Enterprise on NXP i.MX 8M and i.MX 8M Mini General Availability](https://techcommunity.microsoft.com/t5/internet-of-things-blog/announcing-windows-iot-enterprise-on-nxp-i-mx-8m-and-i-mx-8m/ba-p/3529644)
+- Blog: [Embedded World 2022 Recap](https://techcommunity.microsoft.com/t5/internet-of-things-blog/microsoft-azure-at-embedded-world-2022/ba-p/3519301)
+- Blog: [Edge Secured-core: Azure Certified IoT device with built-in security](https://techcommunity.microsoft.com/t5/internet-of-things-blog/edge-secured-core-azure-certified-iot-devices-with-built-in/ba-p/3533758) 6/21
+- Blog: [Simplify and accelerate development and deployment of computer vision solutions for manufacturing](https://techcommunity.microsoft.com/t5/internet-of-things-blog/simplify-and-accelerate-development-and-deployment-of-computer/ba-p/3546418)
+
 # [2021](#tab/2021)
 
 ### January
