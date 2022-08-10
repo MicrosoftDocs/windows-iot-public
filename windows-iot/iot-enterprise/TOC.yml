@@ -122,6 +122,8 @@
   href: Azure-IoT-Edge-For-Linux-On-Windows.md
 - name: Downloads
   href: Downloads.md
+- name: Code Samples
+  href: https://aka.ms/winiotsamples
 - name: Features by Release
   href: Features.md
 - name: Frequently Asked Questions
