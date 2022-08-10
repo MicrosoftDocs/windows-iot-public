@@ -2,7 +2,7 @@
 title: Downloads
 author: rsameser
 ms.author: riameser
-ms.date: 10/05/2021
+ms.date: 08/04/2022
 ms.topic: article
 ms.prod: windows-iot
 ms.technology: iot
