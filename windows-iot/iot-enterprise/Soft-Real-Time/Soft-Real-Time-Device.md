@@ -49,7 +49,7 @@ This guide will walk you through how to set up your device for Real-Time Perform
 ## Performing this Configuration from the Command Line
 Note that this will configure the device while it remains powered on. To ensure that the device maintains soft-RT performance, you should configure the machine to run these commands as a script every time the machine powers on using [this guidance](https://aka.ms/SRT-GPS).
 
-1. Run these three commands in a cmd prompt. This disables CPU idle states, where a CPU with no instructions to run will go into a power-saving state. This is undesirable in real-time scenarios as idle CPUs have a delay in starting to execute new instructions:
+1. Run these two commands in a cmd prompt. This disables CPU idle states, where a CPU with no instructions to run will go into a power-saving state. This is undesirable in real-time scenarios as idle CPUs have a delay in starting to execute new instructions:
 
   ```
   powercfg.exe /setacvalueindex SCHEME_CURRENT SUB_PROCESSOR IdleDisable 1
@@ -79,7 +79,7 @@ Note that this will configure the device while it remains powered on. To ensure 
   sc config SysMain start=disabled
   ```
 
-5. Run these 3 commands in a cmd prompt to disable Windows Update:
+5. Run these three commands in a cmd prompt to disable Windows Update:
   ```
   sc query wuauserv
   sc stop wuauserv
@@ -150,6 +150,6 @@ Environments that use Windows Management Instrumentation (WMI) can use the MDM B
 
 >[!TIP]
 >
-> You can use the same script for whatever number of real-time cores you need to have, just replacing the 3 in the second-to-last line with the appropriate number. This will reserve cores starting with the higest core and going downwards. So reserving 3 cores on a 4 core CPU will reserve cores 3, 2, and 1 and leave core 0 for system and non-real-time tasks.
+> You can use the same script for whatever number of real-time cores you need to have, just replacing the 3 in the second-to-last line with the appropriate number. This will reserve cores starting with the highest core and going downwards. So reserving 3 cores on a 4 core CPU will reserve cores 3, 2, and 1 and leave core 0 for system and non-real-time tasks.
 
 Next: [Develop an Soft Real-Time Application](/windows/iot/iot-enterprise/soft-real-time/soft-real-time-application)
