@@ -18,7 +18,7 @@ Unbranded Boot is an optional component and is not enabled by default in Windows
 
 > [!NOTE]
 >
-> If Windows has already been installed you cannot apply a provisioning package to configure Unbranded Boot; instead you must use BDCEdit to configure Unbranded boot if Windows is installed.
+> If Windows has already been installed you cannot apply a provisioning package to configure Unbranded Boot; instead you must use BCDEdit to configure Unbranded boot if Windows is installed.
 >
 > BCDEdit is the primary tool for editing the startup configuration and is on your development computer in the %WINDIR%\System32 folder. You have administrator rights for it. BCDEdit is included in a typical Windows Preinstallation Environment (Windows PE) 4.0. You can download it from the [BCDEdit Commands for Boot Environment](/previous-versions/windows/hardware/design/dn653986(v=vs.85)) in the Microsoft Download Center if needed.
 
