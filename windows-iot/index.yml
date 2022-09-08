@@ -39,7 +39,7 @@ productDirectory:
       links:
         - url: ./iot-enterprise/Getting_Started.md
           text: Overview
-        - url: https://docs.microsoft.com/windows-hardware/manufacture/desktop/iot-ent-overview
+        - url: /windows-hardware/manufacture/desktop/iot-ent-overview
           text: Manufacturing Guide
         - url: ./iot-enterprise/Kiosk-Mode/Kiosk-Mode.md
           text: Kiosk Mode
@@ -48,18 +48,18 @@ productDirectory:
       links:
         - url: ./server/windows-server.md
           text: Overview
-        - url: https://docs.microsoft.com/en-us/windows-server/get-started/whats-new-in-windows-server-2022
+        - url: /windows-server/get-started/whats-new-in-windows-server-2022
           text:  What's new in Windows Server 2022?
-        - url: https://docs.microsoft.com/en-us/windows-server/get-started/get-started-with-windows-server
+        - url: /windows-server/get-started/get-started-with-windows-server
           text:  Get Started with Windows Server
     - title: Azure IoT Edge for Linux on Windows
       imageSrc: ./media/index/windows.png
       links:
-        - url: https://docs.microsoft.com/azure/iot-edge/iot-edge-for-linux-on-windows?view=iotedge-2018-06
+        - url: /azure/iot-edge/iot-edge-for-linux-on-windows?view=iotedge-2018-06
           text: Overview
-        - url: https://docs.microsoft.com/azure/iot-edge/quickstart?view=iotedge-2018-06
+        - url: /azure/iot-edge/quickstart?view=iotedge-2018-06
           text: Quickstart
-        - url: https://docs.microsoft.com/azure/iot-edge/how-to-install-iot-edge-on-windows?view=iotedge-2018-06&tabs=powershell
+        - url: /azure/iot-edge/how-to-install-iot-edge-on-windows?view=iotedge-2018-06&tabs=powershell
           text: How-to Guide
     - title: Windows CE Migration
       imageSrc: ./media/index/windows.png
@@ -73,20 +73,20 @@ productDirectory:
     - title: Windows 10 IoT Core
       imageSrc: ./media/index/windows.png
       links:
-        - url: https://docs.microsoft.com/windows/iot-core/windows-iot-core
+        - url: /windows/iot-core/windows-iot-core
           text: Overview
-        - url: https://docs.microsoft.com/windows-hardware/manufacture/iot/iot-core-manufacturing-guide
+        - url: /windows-hardware/manufacture/iot/iot-core-manufacturing-guide
           text: Manufacturing Guide
-        - url: https://docs.microsoft.com/windows/iot-core/connect-your-device/iotdashboard
+        - url: /windows/iot-core/connect-your-device/iotdashboard
           text: Dashboard
     - title: Windows 10 IoT Core Services
       imageSrc: ./media/index/windows.png
       links:
-        - url: https://docs.microsoft.com/windows-hardware/manufacture/iot/iotcoreservicesoverview
+        - url: /windows-hardware/manufacture/iot/iotcoreservicesoverview
           text: Overview
-        - url: https://docs.microsoft.com/windows/deployment/update/waas-overview#long-term-servicing-channel
+        - url: /windows/deployment/update/waas-overview#long-term-servicing-channel
           text: Windows Long-Term Servicing Channel (LTSC) Releases
-        - url: https://docs.microsoft.com/windows-hardware/service/iot/using-device-update-center
+        - url: /windows-hardware/service/iot/using-device-update-center
           text: Device Update Center
 
 conceptualContent:
@@ -99,7 +99,7 @@ conceptualContent:
         - url: https://aka.ms/IoTDistributorList
           itemType: how-to-guide
           text:  Distributor Information
-        - url: https://docs.microsoft.com/windows-hardware/design/minimum/minimum-hardware-requirements-overview
+        - url: /windows-hardware/design/minimum/minimum-hardware-requirements-overview
           itemType: quickstart
           text:  Hardware Compatability List
 

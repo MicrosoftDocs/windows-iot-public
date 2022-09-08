@@ -1,5 +1,4 @@
 - name: Windows Server IoT 2022 Overview
   href: windows-server.md
 - name: Windows Server Documentation
-  href: https://docs.microsoft.com/windows-server/
-
+  href: /windows-server/
