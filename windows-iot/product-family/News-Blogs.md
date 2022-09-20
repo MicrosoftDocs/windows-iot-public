@@ -2,7 +2,7 @@
 title: Windows for IoT news
 author: rsameser
 ms.author: riameser
-ms.date: 08/01/2022
+ms.date: 09/20/2022
 ms.topic: conceptual
 ms.prod: windows-iot
 ms.technology: iot
