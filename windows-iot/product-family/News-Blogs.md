@@ -46,6 +46,9 @@ Stay up to date with the latest news and announcements about the Windows for IoT
 - Blog: [Edge Secured-core: Azure Certified IoT device with built-in security](https://techcommunity.microsoft.com/t5/internet-of-things-blog/edge-secured-core-azure-certified-iot-devices-with-built-in/ba-p/3533758)
 - Blog: [Simplify and accelerate development and deployment of computer vision solutions for manufacturing](https://techcommunity.microsoft.com/t5/internet-of-things-blog/simplify-and-accelerate-development-and-deployment-of-computer/ba-p/3546418)
 
+### September
+- Blog: [Windows 11 IoT Enterprise 2H22 is now generally available](https://techcommunity.microsoft.com/t5/internet-of-things-blog/windows-11-iot-enterprise-2h22-is-now-generally-available/ba-p/3631671)
+
 # [2021](#tab/2021)
 
 ### January
