@@ -2442,7 +2442,7 @@ The following tables offer Microsoft guidance on disabling system services on Wi
 
 | Name | Description |
 |--|--|
-| **Service name** | TokenBroker |
+| **Service name** | WebClient |
 | **Description** | Enables Windows-based programs to create, access, and modify Internet-based files. If this service is stopped, these functions will not be available. If this service is disabled, any services that explicitly depend on it will fail to start. |
 | **Installation** | Always installed |
 | **Startup type** | Manual |

@@ -2,7 +2,7 @@
 title: Windows for IoT news
 author: rsameser
 ms.author: riameser
-ms.date: 08/01/2022
+ms.date: 09/20/2022
 ms.topic: conceptual
 ms.prod: windows-iot
 ms.technology: iot
@@ -45,6 +45,16 @@ Stay up to date with the latest news and announcements about the Windows for IoT
 - Blog: [Embedded World 2022 Recap](https://techcommunity.microsoft.com/t5/internet-of-things-blog/microsoft-azure-at-embedded-world-2022/ba-p/3519301)
 - Blog: [Edge Secured-core: Azure Certified IoT device with built-in security](https://techcommunity.microsoft.com/t5/internet-of-things-blog/edge-secured-core-azure-certified-iot-devices-with-built-in/ba-p/3533758)
 - Blog: [Simplify and accelerate development and deployment of computer vision solutions for manufacturing](https://techcommunity.microsoft.com/t5/internet-of-things-blog/simplify-and-accelerate-development-and-deployment-of-computer/ba-p/3546418)
+
+### July
+- Blog: [Multi-App Kiosk Mode Available on Windows 11 Insider Preview Build 25169](https://blogs.windows.com/windows-insider/2022/07/28/announcing-windows-11-insider-preview-build-25169/)
+
+### September
+- Blog: [Windows 11 IoT Enterprise 2H22 is now generally available](https://techcommunity.microsoft.com/t5/internet-of-things-blog/windows-11-iot-enterprise-2h22-is-now-generally-available/ba-p/3631671)
+
+### October
+- Blog: [Taking Azure Arc and Kubernetes to the Edge!](https://techcommunity.microsoft.com/t5/internet-of-things-blog/taking-azure-arc-and-kubernetes-to-the-edge/ba-p/3650599)
+- Blog: [NXP’s Windows IoT BSP 1.2 Release: Expanded BSP Support](https://aka.ms/NXPBSP1.2)
 
 # [2021](#tab/2021)
 
