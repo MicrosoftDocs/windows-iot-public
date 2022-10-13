@@ -53,6 +53,7 @@ Stay up to date with the latest news and announcements about the Windows for IoT
 - Blog: [Windows 11 IoT Enterprise 2H22 is now generally available](https://techcommunity.microsoft.com/t5/internet-of-things-blog/windows-11-iot-enterprise-2h22-is-now-generally-available/ba-p/3631671)
 
 ### October
+- Blog: [Taking Azure Arc and Kubernetes to the Edge!](https://techcommunity.microsoft.com/t5/internet-of-things-blog/taking-azure-arc-and-kubernetes-to-the-edge/ba-p/3650599)
 - Blog: [NXP’s Windows IoT BSP 1.2 Release: Expanded BSP Support](https://aka.ms/NXPBSP1.2)
 
 # [2021](#tab/2021)
