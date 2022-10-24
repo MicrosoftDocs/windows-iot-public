@@ -1,5 +1,7 @@
 - name: Getting Started with Windows IoT Enterprise
   href: Getting_Started.md
+- name: Getting Started with Windows IoT Enterprise on Arm
+  href: ArmFAQ.md
 - name: Hardware Guidance
   expanded: false
   items:
