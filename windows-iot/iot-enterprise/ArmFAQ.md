@@ -16,25 +16,23 @@ This article will help you leverage the strength of Windows on low power, low co
 ## What is Windows IoT Enterprise on Arm?
 Windows IoT Enterprise on Arm is simply Windows IoT Enterprise built for Arm64 devices. Windows IoT Enterprise on Arm64 is the same OS as it is on X86 and X64-based devices, with IoT features available to help you build secure, powerful devices across any architecture. Since the OS is the same, the capabilities and the documentation are the same as well. Please refer to the standard Windows IoT Enterprise documentation for Arm64 guidance. The only noted differences are captured below in the list of exceptions.
 
-## NXP i.MX8 Family
-
-### Exceptions
+## NXP i.MX 8 Family Exceptions
 #### Emulation
 On Arm-based devices, only X86 (32-bit) applications can be emulated on Windows IoT Enterprise.
 
 #### Graphics Runtime
-Currently, only D3D11, [feature level 9.3](https://learn.microsoft.com/windows/win32/direct3d11/overviews-direct3d-11-devices-downlevel-intro) is supported on the NXP i.MX8 family.
+Currently, only D3D11, [feature level 9.3](/windows/win32/direct3d11/overviews-direct3d-11-devices-downlevel-intro) is supported on the NXP i.MX 8 family.
 
 #### Hyper-V
-[Hyper-V](https://learn.microsoft.com/virtualization/hyper-v-on-windows/about/) is not supported on the NXP i.MX8 family.
+[Hyper-V](/virtualization/hyper-v-on-windows/about/) is not supported on the NXP i.MX 8 family.
 
 #### Windows 11
-Windows 11 is not supported on the NXP i.MX8 family.
+Windows 11 is not supported on the NXP i.MX 8 family.
 
-### Frequently Asked Questions
+## Frequently Asked Questions
 
-#### Which hardware can I use?
-You can get started with the NXP EVK boards, or choose a board from one of our partners below.
+### Which hardware can I use?
+You can get started with the NXP Evaluatin Kits (EVK), or choose a board from one of our partners below.
 
 * NXP EVKs: [i.MX 8M EVK](https://www.nxp.com/design/development-boards/i-mx-evaluation-and-development-boards/evaluation-kit-for-the-i-mx-8m-applications-processor:MCIMX8M-EVK), [i.MX 8M Plus EVK](https://www.nxp.com/design/development-boards/i-mx-evaluation-and-development-boards/evaluation-kit-for-the-i-mx-8m-plus-applications-processor:8MPLUSLPD4-EVK), [i.MX 8M Mini EVK](https://www.nxp.com/design/development-boards/i-mx-evaluation-and-development-boards/evaluation-kit-for-the-i-mx-8m-mini-applications-processor:8MMINILPD4-EVK), [i.MX 8M Nano EVK](https://www.nxp.com/design/development-boards/i-mx-evaluation-and-development-boards/evaluation-kit-for-the-i-mx-8m-nano-applications-processor:8MNANOD4-EVK)
 * Avnet: [MSC SM2S IMX8PLUS](https://embedded.avnet.com/product/msc-sm2s-imx8plus/), [MSC SM2S-IMX8M](https://embedded.avnet.com/product/msc-sm2s-imx8m/)
@@ -43,6 +41,6 @@ You can get started with the NXP EVK boards, or choose a board from one of our p
 * SECO: [Trizeps VIII Plus](https://edge.seco.com/usa/trizeps-viii-plus.html), [Trizeps VIII](https://edge.seco.com/usa/trizeps-viii.html), [Trizeps VIII Mini](https://edge.seco.com/usa/trizeps-viii-mini.html)
 * Reycom: [RIA 8M](https://www.reycom.swiss/en/oem-hardware/the-ria-8m/)
 
-#### Where can I find details about the BSP?
+### Where can I find details about the BSP?
 
-You can download the BSP from NXP at [aka.ms/NXPIoT](https://aka.ms/nxpiot)
+You can download the latest BSP from NXP at [aka.ms/NXPIoT](https://aka.ms/nxpiot)
