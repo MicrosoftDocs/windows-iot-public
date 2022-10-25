@@ -20,7 +20,7 @@ You can download a free [90 day evaluation copy](https://www.microsoft.com/evalc
 
 
 ## Visual Studio Subscriptions
-You can [download](https://my.visualstudio.com/Downloads?q=Windows%2010%20IoT%20Enterprise&pgroup=) Windows IoT Enterprise using your [Visual Studio Subscription](https://visualstudio.microsoft.com/subscriptions/).
+You can [download](https://my.visualstudio.com/Downloads?q=IoT%20Enterprise&pgroup=) Windows IoT Enterprise using your [Visual Studio Subscription](https://visualstudio.microsoft.com/subscriptions/).
 
 
 ## Windows IoT Distributor

@@ -1,4 +1,4 @@
-- name: Getting Started with Windows IoT Enterprise
+- name: Windows IoT Enterprise Overview
   href: Getting_Started.md
 - name: Hardware Guidance
   expanded: false
@@ -109,7 +109,7 @@
   items:
   - name: Licensing & Usage
     href: Commercialization/Licensing.md
-  - name: Manufacturing Guide
+  - name: Manufacturing Guide Overview
     href: Commercialization/Manufacturing-Guide.md
 - name: Soft Real-Time
   expanded: false
@@ -120,7 +120,7 @@
     href: Soft-Real-Time/Soft-Real-Time-Device.md
   - name: Application Development
     href: Soft-Real-Time/Soft-Real-Time-Application.md
-- name: Azure IoT Edge for Linux on Windows (EFLOW)
+- name: Azure IoT Edge for Linux on Windows
   href: Azure-IoT-Edge-For-Linux-On-Windows.md
 - name: Downloads
   href: Downloads.md
