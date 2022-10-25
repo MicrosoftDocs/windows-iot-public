@@ -23,10 +23,10 @@ Windows IoT Enterprise on Arm is simply Windows IoT Enterprise built for Arm64 d
 On Arm-based devices, only X86 (32-bit) applications can be emulated on Windows IoT Enterprise.
 
 #### Graphics Runtime
-Currently, only D3D11, [feature level 9.3](https://learn.microsoft.com/en-us/windows/win32/direct3d11/overviews-direct3d-11-devices-downlevel-intro) is supported on the NXP i.MX8 family.
+Currently, only D3D11, [feature level 9.3](https://learn.microsoft.com/windows/win32/direct3d11/overviews-direct3d-11-devices-downlevel-intro) is supported on the NXP i.MX8 family.
 
 #### Hyper-V
-[Hyper-V](https://learn.microsoft.com/en-us/virtualization/hyper-v-on-windows/about/) is not supported on the NXP i.MX8 family.
+[Hyper-V](https://learn.microsoft.com/virtualization/hyper-v-on-windows/about/) is not supported on the NXP i.MX8 family.
 
 #### Windows 11
 Windows 11 is not supported on the NXP i.MX8 family.
