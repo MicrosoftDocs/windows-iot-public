@@ -28,6 +28,9 @@ Currently, only D3D11, [feature level 9.3](https://learn.microsoft.com/en-us/win
 #### Hyper-V
 [Hyper-V](https://learn.microsoft.com/en-us/virtualization/hyper-v-on-windows/about/) is not supported on the NXP i.MX8 family.
 
+#### Windows 11
+Windows 11 is not supported on the NXP i.MX8 family.
+
 ### Frequently Asked Questions
 
 #### Which hardware can I use?
