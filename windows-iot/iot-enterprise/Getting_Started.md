@@ -22,7 +22,7 @@ Windows IoT Enterprise is a full version of Windows Enterprise that delivers ent
 > Windows 10 IoT Enterprise offers *both* Long Term Servicing Channel (LTSC) and General Availability Channel (GAC) options, and OEMs can choose the one they need for their devices. At this time Windows 11 IoT Enterprise is only available as an [annual release](/lifecycle/faq/windows#windows-11). For more information on how to reach out to a [Windows IoT Distributor](https://aka.ms/IoTDistributorList) or how to purchase a license, review [Licensing & Usage](./Commercialization/Licensing.md).
 
 
-## Why Do Customer Choose Windows IoT Enterprise?
+## Why Do Customers Choose Windows IoT Enterprise?
 There are three main reasons why customers choose to develop with Windows IoT Enterprise:
 
 1. **Productive** - Leverage existing knowledge to build and manage Windows IoT Enterprise devices with powerful tools and technologies to quickly unlock data and drive digital transformation.
