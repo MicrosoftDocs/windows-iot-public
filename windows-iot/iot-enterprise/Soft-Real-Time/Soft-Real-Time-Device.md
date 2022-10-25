@@ -2,7 +2,7 @@
 title: How to set up a Device for Real-Time Performance
 author: rsameser
 ms.author: riameser
-ms.date: 02/16/2022
+ms.date: 10/19/2022
 ms.topic: article
 ms.prod: windows-iot
 ms.technology: iot
@@ -101,7 +101,7 @@ Before deploying a real-time device to a production environment, there is additi
 
 ## What is the WindowsIoT CSP?
 
-The WindowsIoT CSP is used to configure Windows IoT devices. Currently the only functionality available in this CSP is to configure a device for Soft Real-Time performance. Note that this is not the only work that needs to be done in order to use soft real-time with a device. You must also perform the other 6 steps above. Using this CSP to set soft real-time cores without also performing this additional configuration work will result in system malfunction and will require reimaging to recover.
+The ```WindowsIoT CSP``` is used to configure Windows IoT devices. Currently the only functionality available in this CSP is to configure a device for Soft Real-Time performance. Note that this is not the only work that needs to be done in order to use soft real-time with a device. You must also perform the other 6 steps above. Using this CSP to set soft real-time cores without also performing this additional configuration work will result in system malfunction and will require reimaging to recover.
 
 The hierarchy of this CSP is as follows:
 

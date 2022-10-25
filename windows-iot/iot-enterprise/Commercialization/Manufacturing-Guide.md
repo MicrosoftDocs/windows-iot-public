@@ -1,8 +1,8 @@
 ---
-title: Manufacturing Guide
+title: Manufacturing Guide Overview
 author: rsameser
 ms.author: riameser
-ms.date: 9/15/2021
+ms.date: 10/19/2022
 ms.topic: article
 ms.prod: windows-iot
 ms.technology: iot
@@ -10,7 +10,7 @@ description: Explore the Manufacturing Guide for Windows 10 IoT Enterprise.
 keywords: IoT Enterprise, Manufacturing Guide
 ---
 
-# Windows 10 IoT Enterprise Manufacturing Guide
+# Windows IoT Enterprise Manufacturing Guide Overview
 We offer a [Manufacturing Guide](/windows-hardware/manufacture/desktop/iot-ent-overview) to help you walk through how to build, set-up, and commercialize your Windows 10 IoT Enterprise devices.
 
 > [!TIP]

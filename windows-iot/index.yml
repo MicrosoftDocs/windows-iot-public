@@ -12,7 +12,7 @@ metadata:
   ms.technology: iot
   author: rsameser
   ms.author: riameser
-  ms.date: 10/26/2021
+  ms.date: 10/19/2022
 
 # itemType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | tutorial | whats-new
 
@@ -41,7 +41,7 @@ productDirectory:
           text: Overview
         - url: https://docs.microsoft.com/windows-hardware/manufacture/desktop/iot-ent-overview
           text: Manufacturing Guide
-        - url: ./iot-enterprise/Kiosk-Mode/Kiosk-Mode.md
+        - url: ./iot-enterprise/Commercialization/Manufacturing-Guide.md
           text: Kiosk Mode
     - title: Windows Server IoT 2022
       imageSrc: ./media/index/windows.png
