@@ -39,9 +39,9 @@ productDirectory:
       links:
         - url: ./iot-enterprise/Getting_Started.md
           text: Overview
-        - url: /windows-hardware/manufacture/desktop/iot-ent-overview
-          text: Manufacturing Guide
         - url: ./iot-enterprise/Commercialization/Manufacturing-Guide.md
+          text: Manufacturing Guide
+        - url: ./iot-enterprise/Kiosk-Mode/Kiosk-Mode.md
           text: Kiosk Mode
     - title: Windows Server IoT 2022
       imageSrc: ./media/index/windows.png
