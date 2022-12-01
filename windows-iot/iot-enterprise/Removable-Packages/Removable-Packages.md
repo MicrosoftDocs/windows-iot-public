@@ -42,7 +42,7 @@ Below is a list of all packages that can be removed from Windows IoT Enterprise 
 | #| Package Name  | Description  |
 |--:|:-------------|--------------|
 |  1 |[AppManagement_UEV](./Removable-Packages-Details/Removable-Package-AppManagement_UEV.md) | [User Experience Virtualization](https://learn.microsoft.com/windows/configuration/ue-v/uev-for-windows) |
-|  2 |[BioEnrollment_UX](./Removable-Packages-Details/Removable-Package-BioEnrollment_UX,md) | [Windows Hello](https://learn.microsoft.com/windows-hardware/design/device-experiences/windows-hello) |
+|  2 |[BioEnrollment_UX](./Removable-Packages-Details/Removable-Package-BioEnrollment_UX.md) | [Windows Hello](https://learn.microsoft.com/windows-hardware/design/device-experiences/windows-hello) |
 |  3 |[BootEnvironment_Dvd](./Removable-Packages-Details/Removable-Package-BootEnvironment_Dvd.md) | Boot from DVD |
 |  4 |[Common_RegulatedPackages](./Removable-Packages-Details/Removable-Package-Common_RegulatedPackages.md) |  <span style="color:red"> Need to author a description. </span> |
 |  5 |[Desktop_SharedPackages](./Removable-Packages-Details/Removable-Package-Desktop_SharedPackages.md) | <span style="color:red"> Need to author a description. </span>
