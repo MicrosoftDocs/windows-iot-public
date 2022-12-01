@@ -1,0 +1,82 @@
+---
+title: Removable Packages
+author: rsameser
+ms.author: riameser
+ms.date: 6/7/2022
+ms.topic: article
+ms.prod: windows-iot
+ms.technology: iot
+description: Windows IoT Enterprise feature to assist with reducing disk footprint
+keywords: IoT Enterprise, removable packages, storage
+---
+
+# Removable Packages
+## Overview
+In addition to the image customizability provided by [Enable or Disable Windows Features using DISM](https://learn.microsoft.com/windows-hardware/manufacture/desktop/enable-or-disable-windows-features-using-dism) and [Features on Demand](https://learn.microsoft.com/windows-hardware/manufacture/desktop/features-on-demand-v2--capabilities), Windows IoT Enterprise LTSC allows a device builder to remove additional packages from the [Windows Component Store](https://learn.microsoft.com/windows-hardware/manufacture/desktop/manage-the-component-store). 
+
+Removing these selected packages have the following impact:
+- Packages are removed from the Windows Component Store which reduces the size of the `C:\Windows\WinSxS` folder.
+- The associated files and features are removed from Windows IoT Enterprise and cannot be restored or reintroduced with the installation of servicing updates.
+
+You may use either [Online servicing (audit mode)](https://learn.microsoft.com/windows-hardware/manufacture/desktop/audit-mode-overview) or [Offline servicing](https://learn.microsoft.com/windows-hardware/manufacture/desktop/mount-and-modify-a-windows-image-using-dism) to remove these packages from Windows IoT Enterprise LTSC.  If you are not familiar with these terms, the [Modify a Windows image](https://learn.microsoft.com/windows-hardware/manufacture/desktop/modify-an-image) topic provides a side-by-side comparison. We will provide examples of both methods in the steps below.  If you prefer offline servicing please mount your Windows image before proceeding. Our examples will assume that your offline image is mounted at `c:\offline`.  If you have mounted your offline image to a different folder, please adjust the following steps as necessary. 
+
+## System Requirements
+This feature is supported on:
+- Windows 10 IoT Enterprise LTSC 2021 (build 19044.1741) or later
+
+
+> [!Note]
+>
+> To use this feature with Windows 10 IoT Enterprise LTSC 2021, you must first install an servicing update.  
+> - Option 1: Go to Start > Settings > Windows Update then check for and apply all available updates before proceeding.
+> - Option 2: Manually download and install  [KB5014023](https://support.microsoft.com/topic/june-2-2022-kb5014023-os-builds-19042-1741-19043-1741-and-19044-1741-preview-65ac6a5d-439a-4e88-b431-a5e2d4e2516a) or any of its successors.
+ 
+## Removable Package List
+
+Below is a list of all packages that can be removed from Windows IoT Enterprise LTSC removable components along with the specific LTSC version that supports their removal. 
+> [!Important]
+>
+>If you choose to remove any of these packages, you must ensure that your  solution does not rely on functionality of the removed package(s). You cannot restore the package without a full reinstall of Windows IoT Enteprise LTSC.
+
+
+| #| Package Name  | Description  |
+|--:|:-------------|--------------|
+|  1 |[AppManagement_UEV](/windows/iot/iot-enterprise/removable-packages/removable-package-details/removable-package-AppManagement_uev) | [User Experience Virtualization](https://learn.microsoft.com/windows/configuration/ue-v/uev-for-windows) |
+|  2 |[BioEnrollment_UX](/windows/iot/iot-enterprise/removable-packages/removable-package-details/removable-package-BioEnrollment_UX) | [Windows Hello](https://learn.microsoft.com/windows-hardware/design/device-experiences/windows-hello) |
+|  3 |[BootEnvironment_Dvd](/windows/iot/iot-enterprise/removable-packages/removable-package-details/Removable-Package-BootEnvironment_Dvd) | Boot from DVD |
+|  4 |[Common_RegulatedPackages](/windows/iot/iot-enterprise/removable-packages/removable-package-details/removable-package-Common_RegulatedPackages) |  <span style="color:red"> Need to author a description. </span> |
+|  5 |[Desktop_SharedPackages](/windows/iot/iot-enterprise/removable-packages/removable-package-details/removable-package-Desktop_SharedPackages) | <span style="color:red"> Need to author a description. </span>
+|  6 |[Fonts_DesktopFonts_NonLeanSupplement](/windows/iot/iot-enterprise/removable-packages/removable-package-details/removable-package-Fonts_DesktopFonts_NonLeanSupplement) | <span style="color:red"> Need to author a description. </span> |
+|  7 |[LanguageFeatures_WordBreaking_Common_legacy](/windows/iot/iot-enterprise/removable-packages/removable-package-details/Removable-Package-LanguageFeatures_WordBreaking_Common_Legacy) | <span style="color:red"> Need to author a description. </span>  |
+|  8 |[Printer_Drivers](/windows/iot/iot-enterprise/removable-packages/removable-package-details/Removable-Package-Printer_Drivers) | In-box printer drivers  |
+|  9 |[Printing_PremiumTools](/windows/iot/iot-enterprise/removable-packages/removable-package-details/removable-package-Printing_PremiumTools) | <span style="color:red"> Need to author a description. </span> |
+| 10 |[RecoveryDrive](/windows/iot/iot-enterprise/removable-packages/removable-package-details/removable-package-RecoveryDrive) | <span style="color:red"> Need to author a description. </span> |
+| 11 |[ScreenSavers](/windows/iot/iot-enterprise/removable-packages/removable-package-details/removable-package-ScreenSavers) | In-box screensavers  |
+| 12 |[SensorDataService](/windows/iot/iot-enterprise/removable-packages/removable-package-details/Removable-Package-SensorDataService) | <span style="color:red"> Need to author a description. </span> |
+| 13 |[ShellOptions](/windows/iot/iot-enterprise/removable-packages/removable-package-details/Removable-Package-ShellOptions) | <span style="color:red"> Need to author a description. </span> |
+| 14 |[Shell_Wallpaper](/windows/iot/iot-enterprise/removable-packages/removable-package-details/removable-package-Shell_Wallpaper) | In-box wallpaper images | 
+| 15 |[win32calc](/windows/iot/iot-enterprise/removable-packages/removable-package-details/removable-package-win32calc) | Calculator app |
+
+## Use DISM to remove packages
+You can remove packages from an online Windows session or a offline image that you have mounted to your active Windows session.  
+
+Use Dism.exe to remove a single package from your Windows image.
+
+```powershell
+Dism.exe [/Online | /Image:<image path>] /LogPath:<logfile> /NoRestart /Disable-Feature /FeatureName:<package name> /PackageName:@Package
+```
+
+Example: Use DISM.exe to remove Windows calculator  
+```powershell
+Dism.exe /Online /LogPath:.\remove_win32calc.log /NoRestart /Disable-Feature /FeatureName:Microsoft-Windows-win32calc /PackageName:@Package
+````
+
+Example: Use DISM.exe to remove Windows calculator from an **Offline image**  
+```powershell
+Dism.exe /Image:c:\offline /LogPath:.\remove_win32calc.log /NoRestart /Disable-Feature /FeatureName:Microsoft-Windows-win32calc /PackageName:@Package
+````
+
+## Additional Resources
+* [Removable Packages Blog](https://aka.ms/RemovablePackagesBlog)
+* [Removable Packages Script](https://aka.ms/RemovablePackagesScript)
+* [Reduce Disk Footprint](/windows/iot/iot-enterprise/optimize-your-device/reduce-disk-footprint)
