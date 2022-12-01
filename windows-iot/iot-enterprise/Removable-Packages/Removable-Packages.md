@@ -41,21 +41,21 @@ Below is a list of all packages that can be removed from Windows IoT Enterprise 
 
 | #| Package Name  | Description  |
 |--:|:-------------|--------------|
-|  1 |[AppManagement_UEV](./removable-package-details/removable-package-AppManagement_uev.md) | [User Experience Virtualization](https://learn.microsoft.com/windows/configuration/ue-v/uev-for-windows) |
-|  2 |[BioEnrollment_UX](./removable-package-details/removable-package-BioEnrollment_UX,md) | [Windows Hello](https://learn.microsoft.com/windows-hardware/design/device-experiences/windows-hello) |
-|  3 |[BootEnvironment_Dvd](./removable-package-details/Removable-Package-BootEnvironment_Dvd.md) | Boot from DVD |
-|  4 |[Common_RegulatedPackages](./removable-package-details/removable-package-Common_RegulatedPackages.md) |  <span style="color:red"> Need to author a description. </span> |
-|  5 |[Desktop_SharedPackages](./removable-package-details/removable-package-Desktop_SharedPackages.md) | <span style="color:red"> Need to author a description. </span>
-|  6 |[Fonts_DesktopFonts_NonLeanSupplement](./removable-package-details/removable-package-Fonts_DesktopFonts_NonLeanSupplement.md) | <span style="color:red"> Need to author a description. </span> |
-|  7 |[LanguageFeatures_WordBreaking_Common_legacy](./removable-package-details/Removable-Package-LanguageFeatures_WordBreaking_Common_Legacy.md) | <span style="color:red"> Need to author a description. </span>  |
-|  8 |[Printer_Drivers](./removable-package-details/Removable-Package-Printer_Drivers.md) | In-box printer drivers  |
-|  9 |[Printing_PremiumTools](./removable-package-details/removable-package-Printing_PremiumTools.md) | <span style="color:red"> Need to author a description. </span> |
-| 10 |[RecoveryDrive](./removable-package-details/removable-package-RecoveryDrive.md) | <span style="color:red"> Need to author a description. </span> |
-| 11 |[ScreenSavers](./removable-package-details/removable-package-ScreenSavers.md) | In-box screensavers  |
-| 12 |[SensorDataService](./removable-package-details/Removable-Package-SensorDataService.md) | <span style="color:red"> Need to author a description. </span> |
-| 13 |[ShellOptions](./removable-package-details/Removable-Package-ShellOptions.md) | <span style="color:red"> Need to author a description. </span> |
-| 14 |[Shell_Wallpaper](./removable-package-details/removable-package-Shell_Wallpaper.md) | In-box wallpaper images | 
-| 15 |[win32calc](./removable-package-details/removable-package-win32calc.md) | Calculator app |
+|  1 |[AppManagement_UEV](./removable-packages-details/removable-package-AppManagement_uev.md) | [User Experience Virtualization](https://learn.microsoft.com/windows/configuration/ue-v/uev-for-windows) |
+|  2 |[BioEnrollment_UX](./removable-packages-details/removable-package-BioEnrollment_UX,md) | [Windows Hello](https://learn.microsoft.com/windows-hardware/design/device-experiences/windows-hello) |
+|  3 |[BootEnvironment_Dvd](./removable-packages-details/Removable-Package-BootEnvironment_Dvd.md) | Boot from DVD |
+|  4 |[Common_RegulatedPackages](./removable-packages-details/removable-package-Common_RegulatedPackages.md) |  <span style="color:red"> Need to author a description. </span> |
+|  5 |[Desktop_SharedPackages](./removable-packages-details/removable-package-Desktop_SharedPackages.md) | <span style="color:red"> Need to author a description. </span>
+|  6 |[Fonts_DesktopFonts_NonLeanSupplement](./removable-packages-details/removable-package-Fonts_DesktopFonts_NonLeanSupplement.md) | <span style="color:red"> Need to author a description. </span> |
+|  7 |[LanguageFeatures_WordBreaking_Common_legacy](./removable-packages-details/Removable-Package-LanguageFeatures_WordBreaking_Common_Legacy.md) | <span style="color:red"> Need to author a description. </span>  |
+|  8 |[Printer_Drivers](./removable-packages-details/Removable-Package-Printer_Drivers.md) | In-box printer drivers  |
+|  9 |[Printing_PremiumTools](./removable-packages-details/removable-package-Printing_PremiumTools.md) | <span style="color:red"> Need to author a description. </span> |
+| 10 |[RecoveryDrive](./removable-packages-details/removable-package-RecoveryDrive.md) | <span style="color:red"> Need to author a description. </span> |
+| 11 |[ScreenSavers](./removable-packages-details/removable-package-ScreenSavers.md) | In-box screensavers  |
+| 12 |[SensorDataService](./removable-packages-details/Removable-Package-SensorDataService.md) | <span style="color:red"> Need to author a description. </span> |
+| 13 |[ShellOptions](./removable-packages-details/Removable-Package-ShellOptions.md) | <span style="color:red"> Need to author a description. </span> |
+| 14 |[Shell_Wallpaper](./removable-packages-details/removable-package-Shell_Wallpaper.md) | In-box wallpaper images | 
+| 15 |[win32calc](./removable-packages-details/removable-package-win32calc.md) | Calculator app |
 
 ## Use DISM to remove packages
 You can remove packages from an online Windows session or a offline image that you have mounted to your active Windows session.  
