@@ -99,7 +99,7 @@
     - name: Reduce Disk Footprint
       href: Optimize-Your-Device/Reduce-Disk-Footprint.md
     - name: Removable Packages
-      href: Removable-Packages/Removable-Packages.md
+      href: Optimize-Your-Device/Removable-Packages.md
   - name: Ram
     items:
     - name: Services Guide
