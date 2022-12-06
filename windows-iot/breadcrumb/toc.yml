@@ -16,6 +16,3 @@
       - name: Windows CE
         tocHref: /windows/iot/windows_ce/
         topicHref: /windows/iot/windows_ce/windows-ce-app-container-overview
-      - name: Product Family
-        tocHref: /windows/iot/product-family/
-        topicHref: /windows/iot/product-family/windows-iot
