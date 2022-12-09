@@ -59,54 +59,52 @@ Below is a list of all packages that can be removed from Windows IoT Enterprise 
 > 
 >¹ Next to the number index in the table below denotes a rollup package that is collection of other packages.  This simplifies the removal of the collection as a whole as opposed to removing each package individually.
 
-| #| Package Name  | Description  |
-|---|:-------------|--------------|
-|  1 |[Microsoft-Windows-AppManagement-UEV](./Removable-Packages-Details/Removable-Package-AppManagement_UEV.md) | [User Experience Virtualization](https://learn.microsoft.com/windows/configuration/ue-v/uev-for-windows) |
-|  2 |[Microsoft-Windows-BootEnvironment-Dvd](./Removable-Packages-Details/Removable-Package-BootEnvironment_Dvd.md) | Boot from DVD |
-|  3 |[Microsoft-Windows-Printing-PremiumTools](./Removable-Packages-Details/Removable-Package-Printing_PremiumTools.md) | Print services migration command-line tool printbrm.exe |
-|  4 |[Microsoft-Windows-Shell-Wallpaper-Common](./Removable-Packages-Details/Removable-Package-Shell_Wallpaper.md) | Desktop wallpaper images | 
-|  5 |[Microsoft-Windows-win32calc](./Removable-Packages-Details/Removable-Package-win32calc.md) | Calculator app |
-| 6¹ |**[Microsoft-Windows-Desktop-Shared-Removable](./Removable-Packages-Details/Removable-Package-Desktop_SharedPackages.md)** | **Collection of packages 7 through 14** |
-|  7 | [LanguageFeatures-WordBreaking-Common-legacy](./Removable-Packages-Details/Removable-Package-LanguageFeatures_WordBreaking_Common_Legacy.md) |  |
-|  8 | [Microsoft-OneCore-Fonts-DesktopFonts-NonLeanSupplement](./Removable-Packages-Details/Removable-Package-Fonts_DesktopFonts_NonLeanSupplement.md) | Fonts: [Malgun Gothic](/typography/font-list/malgun-gothic), [Microsoft JhengHei](/typography/font-list/microsoft-jhenghei), [Microsoft YaHei](/typography/font-list/microsoft-yahei), [Yu Gothic](/typography/font-list/yu-gothic)   |
-|  9 | [Microsoft-Windows-BioEnrollment-UX](./Removable-Packages-Details/Removable-Package-BioEnrollment_UX.md) | [Windows Hello](https://learn.microsoft.com/windows-hardware/design/device-experiences/windows-hello) |
-| 10 | [Microsoft-Windows-Printer-Drivers](./Removable-Packages-Details/Removable-Package-Printer_Drivers.md) | Generic / Text Only, Generic IBM Graphics 9pin, Generic IBM Graphics 9pin wide, MS Publisher Color Printer, MS Publisher Imagesetter, Microsoft Shared Fax Driver  |
-| 11 | [Microsoft-Windows-RecoveryDrive](./Removable-Packages-Details/Removable-Package-RecoveryDrive.md) |  |
-| 12 | [Microsoft-Windows-ScreenSavers-3D](./Removable-Packages-Details/Removable-Package-ScreenSavers.md) | Screensavers  |
-| 13 | [Microsoft-Windows-SensorDataService](./Removable-Packages-Details/Removable-Package-SensorDataService.md) |  |
-| 14 | [Microsoft-Windows-ShellOptions](./Removable-Packages-Details/Removable-Package-ShellOptions.md) |  |
-| 15¹ |**[Microsoft-Windows-Common-RegulatedPackages](./Removable-Packages-Details/Removable-Package-Common_RegulatedPackages.md)** |  **Collection of packages 16 through 46** |
-| 16 | [Microsoft-Media-Foundation]() | |
-| 17 | [Microsoft-OneCore-Multimedia-CastingCommon]() | |
-| 18 | [Microsoft-OneCore-Multimedia-CastingReceiver-Media]() | |
-| 19 | [Microsoft-OneCore-Multimedia-CastingTransmitter-Media]() | |
-| 20 | [Microsoft-OneCore-Multimedia-MFPMP]() | |
-| 21 | [Microsoft-Windows-Media-Format]() | |
-| 22 | [Microsoft-Windows-Media-Format-merged]() | |
-| 23 | [Microsoft-Windows-MediaPlayback-OC]() | |
-| 24 | [Microsoft-Windows-Media-Streaming]() | |
-| 25 | [Microsoft-Windows-Media-Streaming-merged]() | |
-| 26 | [Microsoft-Windows-Multimedia-MF]() | |
-| 27 | [Microsoft-Windows-Multimedia-MF-merged]() | |
-| 28 | [Microsoft-Windows-Multimedia-RestrictedCodecs]() | |
-| 29 | [Microsoft-Windows-Multimedia-RestrictedCodecs-merged]() | |
-| 30 | [Microsoft-Windows-Multimedia-WMPDMC]() | |
-| 31 | [Microsoft-Windows-Portable-Devices]() | Media Transfer Protocol (MTP) |
-| 32 | [Microsoft-Windows-Portable-Devices-merged]() | Media Transfer Protocol (MTP) |
-| 33 | [Microsoft-Windows-WebcamExperience]() | |
-| 34 | [Microsoft-Windows-WinSATMediaFiles]() | |
-| 35 | [Microsoft-Windows-WPD-LegacyWmdmFeature-Feature]() | Windows Portable Devices|
-| 36 | [Microsoft-Windows-WPD-UltimatePortableDeviceFeature-Feature]() | Windows Portable Devices |
-| 37 | [Multimedia-MFCore]() | |
-| 38 | [Multimedia-MFCore-WCOSHeadless]() | |
-| 39 | [Multimedia-MFCore-WCOSMinusHeadless]() | |
-| 40 | [Multimedia-RestrictedCodecsCore]() | |
-| 41 | [Multimedia-RestrictedCodecsCore-Full]() | |
-| 42 | [Multimedia-RestrictedCodecsCore-WCOSHeadless]() | |
-| 43 | [Multimedia-RestrictedCodecsCore-WCOSMinusHeadless]() | |
-| 44 | [Multimedia-RestrictedCodecsExt]() | |
-| 45 | [Multimedia-RestrictedCodecsExt-WCOSHeadless]() | |
-| 46 | [Multimedia-RestrictedCodecsExt-WCOSMinusHeadless]() | |
+| Package Collection | Package Members  | Description  |
+|:------------|:-|--------------|
+| Individual | [Microsoft-Windows-AppManagement-UEV](./Removable-Packages-Details/Removable-Package-AppManagement_UEV.md) | [User Experience Virtualization](https://learn.microsoft.com/windows/configuration/ue-v/uev-for-windows) |
+| Individual | [Microsoft-Windows-BootEnvironment-Dvd](./Removable-Packages-Details/Removable-Package-BootEnvironment_Dvd.md) | Boot from DVD |
+| Individual | [Microsoft-Windows-Printing-PremiumTools](./Removable-Packages-Details/Removable-Package-Printing_PremiumTools.md) | Print services migration command-line tool printbrm.exe |
+| Individual | [Microsoft-Windows-Shell-Wallpaper-Common](./Removable-Packages-Details/Removable-Package-Shell_Wallpaper.md) | Desktop wallpaper images | 
+| Individual | [Microsoft-Windows-win32calc](./Removable-Packages-Details/Removable-Package-win32calc.md) | Calculator app |
+| [Microsoft-Windows-Desktop-Shared-Removable](./Removable-Packages-Details/Removable-Package-Desktop_SharedPackages.md) | [LanguageFeatures-WordBreaking-Common-legacy](./Removable-Packages-Details/Removable-Package-LanguageFeatures_WordBreaking_Common_Legacy.md) | Legacy neutral word breaker, should only be needed in very rare app compat scenarios |
+| [Microsoft-Windows-Desktop-Shared-Removable](./Removable-Packages-Details/Removable-Package-Desktop_SharedPackages.md) | [Microsoft-OneCore-Fonts-DesktopFonts-NonLeanSupplement](./Removable-Packages-Details/Removable-Package-Fonts_DesktopFonts_NonLeanSupplement.md) | Fonts: [Malgun Gothic](/typography/font-list/malgun-gothic), [Microsoft JhengHei](/typography/font-list/microsoft-jhenghei), [Microsoft YaHei](/typography/font-list/microsoft-yahei), [Yu Gothic](/typography/font-list/yu-gothic)   |
+| [Microsoft-Windows-Desktop-Shared-Removable](./Removable-Packages-Details/Removable-Package-Desktop_SharedPackages.md) | [Microsoft-Windows-BioEnrollment-UX](./Removable-Packages-Details/Removable-Package-BioEnrollment_UX.md) | [Windows Hello](https://learn.microsoft.com/windows-hardware/design/device-experiences/windows-hello) |
+| [Microsoft-Windows-Desktop-Shared-Removable](./Removable-Packages-Details/Removable-Package-Desktop_SharedPackages.md) | [Microsoft-Windows-Printer-Drivers](./Removable-Packages-Details/Removable-Package-Printer_Drivers.md) | Generic / Text Only, Generic IBM Graphics 9pin, Generic IBM Graphics 9pin wide, MS Publisher Color Printer, MS Publisher Imagesetter, Microsoft Shared Fax Driver  |
+| [Microsoft-Windows-Desktop-Shared-Removable](./Removable-Packages-Details/Removable-Package-Desktop_SharedPackages.md) | [Microsoft-Windows-RecoveryDrive](./Removable-Packages-Details/Removable-Package-RecoveryDrive.md) |  |
+| [Microsoft-Windows-Desktop-Shared-Removable](./Removable-Packages-Details/Removable-Package-Desktop_SharedPackages.md) | [Microsoft-Windows-ScreenSavers-3D](./Removable-Packages-Details/Removable-Package-ScreenSavers.md) | Screensavers  |
+| [Microsoft-Windows-Desktop-Shared-Removable](./Removable-Packages-Details/Removable-Package-Desktop_SharedPackages.md) | [Microsoft-Windows-SensorDataService](./Removable-Packages-Details/Removable-Package-SensorDataService.md) | Legacy camera and image integration service to support Windows Hello for devices using old IR cameras |
+| [Microsoft-Windows-Desktop-Shared-Removable](./Removable-Packages-Details/Removable-Package-Desktop_SharedPackages.md) | [Microsoft-Windows-ShellOptions](./Removable-Packages-Details/Removable-Package-ShellOptions.md) |  |
+| [Microsoft-Windows-Common-RegulatedPackages](./Removable-Packages-Details/Removable-Package-Common_RegulatedPackages.md) | [Microsoft-Media-Foundation]() | |
+| [Microsoft-Windows-Common-RegulatedPackages](./Removable-Packages-Details/Removable-Package-Common_RegulatedPackages.md) | [Microsoft-OneCore-Multimedia-CastingCommon]() | |
+| [Microsoft-Windows-Common-RegulatedPackages](./Removable-Packages-Details/Removable-Package-Common_RegulatedPackages.md) | [Microsoft-OneCore-Multimedia-CastingReceiver-Media]() | |
+| [Microsoft-Windows-Common-RegulatedPackages](./Removable-Packages-Details/Removable-Package-Common_RegulatedPackages.md) | [Microsoft-OneCore-Multimedia-CastingTransmitter-Media]() | |
+| [Microsoft-Windows-Common-RegulatedPackages](./Removable-Packages-Details/Removable-Package-Common_RegulatedPackages.md) | [Microsoft-OneCore-Multimedia-MFPMP]() | |
+| [Microsoft-Windows-Common-RegulatedPackages](./Removable-Packages-Details/Removable-Package-Common_RegulatedPackages.md) | [Microsoft-Windows-Media-Format]() | |
+| [Microsoft-Windows-Common-RegulatedPackages](./Removable-Packages-Details/Removable-Package-Common_RegulatedPackages.md) | [Microsoft-Windows-Media-Format-merged]() | |
+| [Microsoft-Windows-Common-RegulatedPackages](./Removable-Packages-Details/Removable-Package-Common_RegulatedPackages.md) | [Microsoft-Windows-MediaPlayback-OC]() | |
+| [Microsoft-Windows-Common-RegulatedPackages](./Removable-Packages-Details/Removable-Package-Common_RegulatedPackages.md) | [Microsoft-Windows-Media-Streaming]() | |
+| [Microsoft-Windows-Common-RegulatedPackages](./Removable-Packages-Details/Removable-Package-Common_RegulatedPackages.md) | [Microsoft-Windows-Media-Streaming-merged]() | |
+| [Microsoft-Windows-Common-RegulatedPackages](./Removable-Packages-Details/Removable-Package-Common_RegulatedPackages.md) | [Microsoft-Windows-Multimedia-MF]() | |
+| [Microsoft-Windows-Common-RegulatedPackages](./Removable-Packages-Details/Removable-Package-Common_RegulatedPackages.md) | [Microsoft-Windows-Multimedia-MF-merged]() | |
+| [Microsoft-Windows-Common-RegulatedPackages](./Removable-Packages-Details/Removable-Package-Common_RegulatedPackages.md) | [Microsoft-Windows-Multimedia-RestrictedCodecs]() | |
+| [Microsoft-Windows-Common-RegulatedPackages](./Removable-Packages-Details/Removable-Package-Common_RegulatedPackages.md) | [Microsoft-Windows-Multimedia-RestrictedCodecs-merged]() | |
+| [Microsoft-Windows-Common-RegulatedPackages](./Removable-Packages-Details/Removable-Package-Common_RegulatedPackages.md) | [Microsoft-Windows-Multimedia-WMPDMC]() | |
+| [Microsoft-Windows-Common-RegulatedPackages](./Removable-Packages-Details/Removable-Package-Common_RegulatedPackages.md) | [Microsoft-Windows-Portable-Devices]() | Media Transfer Protocol (MTP) |
+| [Microsoft-Windows-Common-RegulatedPackages](./Removable-Packages-Details/Removable-Package-Common_RegulatedPackages.md) | [Microsoft-Windows-Portable-Devices-merged]() | Media Transfer Protocol (MTP) |
+| [Microsoft-Windows-Common-RegulatedPackages](./Removable-Packages-Details/Removable-Package-Common_RegulatedPackages.md) | [Microsoft-Windows-WebcamExperience]() | |
+| [Microsoft-Windows-Common-RegulatedPackages](./Removable-Packages-Details/Removable-Package-Common_RegulatedPackages.md) | [Microsoft-Windows-WinSATMediaFiles]() | |
+| [Microsoft-Windows-Common-RegulatedPackages](./Removable-Packages-Details/Removable-Package-Common_RegulatedPackages.md) | [Microsoft-Windows-WPD-LegacyWmdmFeature-Feature]() | Windows Portable Devices|
+| [Microsoft-Windows-Common-RegulatedPackages](./Removable-Packages-Details/Removable-Package-Common_RegulatedPackages.md) | [Microsoft-Windows-WPD-UltimatePortableDeviceFeature-Feature]() | Windows Portable Devices |
+| [Microsoft-Windows-Common-RegulatedPackages](./Removable-Packages-Details/Removable-Package-Common_RegulatedPackages.md) | [Multimedia-MFCore]() | |
+| [Microsoft-Windows-Common-RegulatedPackages](./Removable-Packages-Details/Removable-Package-Common_RegulatedPackages.md) | [Multimedia-MFCore-WCOSHeadless]() | |
+| [Microsoft-Windows-Common-RegulatedPackages](./Removable-Packages-Details/Removable-Package-Common_RegulatedPackages.md) | [Multimedia-MFCore-WCOSMinusHeadless]() | |
+| [Microsoft-Windows-Common-RegulatedPackages](./Removable-Packages-Details/Removable-Package-Common_RegulatedPackages.md) | [Multimedia-RestrictedCodecsCore]() | |
+| [Microsoft-Windows-Common-RegulatedPackages](./Removable-Packages-Details/Removable-Package-Common_RegulatedPackages.md) | [Multimedia-RestrictedCodecsCore-Full]() | |
+| [Microsoft-Windows-Common-RegulatedPackages](./Removable-Packages-Details/Removable-Package-Common_RegulatedPackages.md) | [Multimedia-RestrictedCodecsCore-WCOSHeadless]() | |
+| [Microsoft-Windows-Common-RegulatedPackages](./Removable-Packages-Details/Removable-Package-Common_RegulatedPackages.md) | [Multimedia-RestrictedCodecsCore-WCOSMinusHeadless]() | |
+| [Microsoft-Windows-Common-RegulatedPackages](./Removable-Packages-Details/Removable-Package-Common_RegulatedPackages.md) | [Multimedia-RestrictedCodecsExt]() | |
+| [Microsoft-Windows-Common-RegulatedPackages](./Removable-Packages-Details/Removable-Package-Common_RegulatedPackages.md) | [Multimedia-RestrictedCodecsExt-WCOSHeadless]() | |
+| [Microsoft-Windows-Common-RegulatedPackages](./Removable-Packages-Details/Removable-Package-Common_RegulatedPackages.md) | [Multimedia-RestrictedCodecsExt-WCOSMinusHeadless]() | |
 
 ## Additional Resources
 * [Removable Packages Blog](https://aka.ms/RemovablePackagesBlog)
