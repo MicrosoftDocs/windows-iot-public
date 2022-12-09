@@ -78,38 +78,38 @@ author a description. </span> |
 
 | #| Package Name  | Description  |
 |--:|:-------------|--------------|
-|  Rollup |**[Microsoft-Windows-Common-RegulatedPackages](./Removable-Packages-Details/Removable-Package-Common_RegulatedPackages.md)** |  <span style="color:red"> Need to 
-|  | - [Microsoft-Media-Foundation]() | |
-|  | - [Microsoft-OneCore-Multimedia-CastingCommon]() | |
-|  | - [Microsoft-OneCore-Multimedia-CastingReceiver-Media]() | |
-|  | - [Microsoft-OneCore-Multimedia-CastingTransmitter-Media]() | |
-|  | - [Microsoft-OneCore-Multimedia-MFPMP]() | |
-|  | - [Microsoft-Windows-Media-Format]() | |
-|  | - [Microsoft-Windows-Media-Format-merged]() | |
-|  | - [Microsoft-Windows-MediaPlayback-OC]() | |
-|  | - [Microsoft-Windows-Media-Streaming]() | |
-|  | - [Microsoft-Windows-Media-Streaming-merged]() | |
-|  | - [Microsoft-Windows-Multimedia-MF]() | |
-|  | - [Microsoft-Windows-Multimedia-MF-merged]() | |
-|  | - [Microsoft-Windows-Multimedia-RestrictedCodecs]() | |
-|  | - [Microsoft-Windows-Multimedia-RestrictedCodecs-merged]() | |
-|  | - [Microsoft-Windows-Multimedia-WMPDMC]() | |
-|  | - [Microsoft-Windows-Portable-Devices]() | |
-|  | - [Microsoft-Windows-Portable-Devices-merged]() | |
-|  | - [Microsoft-Windows-WebcamExperience]() | |
-|  | - [Microsoft-Windows-WinSATMediaFiles]() | |
-|  | - [Microsoft-Windows-WPD-LegacyWmdmFeature-Feature]() | |
-|  | - [Microsoft-Windows-WPD-UltimatePortableDeviceFeature-Feature]() | |
-|  | - [Multimedia-MFCore]() | |
-|  | - [Multimedia-MFCore-WCOSHeadless]() | |
-|  | - [Multimedia-MFCore-WCOSMinusHeadless]() | |
-|  | - [Multimedia-RestrictedCodecsCore]() | |
-|  | - [Multimedia-RestrictedCodecsCore-Full]() | |
-|  | - [Multimedia-RestrictedCodecsCore-WCOSHeadless]() | |
-|  | - [Multimedia-RestrictedCodecsCore-WCOSMinusHeadless]() | |
-|  | - [Multimedia-RestrictedCodecsExt]() | |
-|  | - [Multimedia-RestrictedCodecsExt-WCOSHeadless]() | |
-|  | - [Multimedia-RestrictedCodecsExt-WCOSMinusHeadless]() | |
+|  **Rollup** |**[Microsoft-Windows-Common-RegulatedPackages](./Removable-Packages-Details/Removable-Package-Common_RegulatedPackages.md)** |  <span style="color:red"> Need to 
+|  1 | - [Microsoft-Media-Foundation]() | |
+|  2 | - [Microsoft-OneCore-Multimedia-CastingCommon]() | |
+|  3 | - [Microsoft-OneCore-Multimedia-CastingReceiver-Media]() | |
+|  4 | - [Microsoft-OneCore-Multimedia-CastingTransmitter-Media]() | |
+|  5 | - [Microsoft-OneCore-Multimedia-MFPMP]() | |
+|  6 | - [Microsoft-Windows-Media-Format]() | |
+|  7 | - [Microsoft-Windows-Media-Format-merged]() | |
+|  8 | - [Microsoft-Windows-MediaPlayback-OC]() | |
+|  9 | - [Microsoft-Windows-Media-Streaming]() | |
+| 10 | - [Microsoft-Windows-Media-Streaming-merged]() | |
+| 11 | - [Microsoft-Windows-Multimedia-MF]() | |
+| 12 | - [Microsoft-Windows-Multimedia-MF-merged]() | |
+| 13 | - [Microsoft-Windows-Multimedia-RestrictedCodecs]() | |
+| 14 | - [Microsoft-Windows-Multimedia-RestrictedCodecs-merged]() | |
+| 15 | - [Microsoft-Windows-Multimedia-WMPDMC]() | |
+| 16 | - [Microsoft-Windows-Portable-Devices]() | |
+| 17 | - [Microsoft-Windows-Portable-Devices-merged]() | |
+| 18 | - [Microsoft-Windows-WebcamExperience]() | |
+| 19 | - [Microsoft-Windows-WinSATMediaFiles]() | |
+| 20 | - [Microsoft-Windows-WPD-LegacyWmdmFeature-Feature]() | |
+| 21 | - [Microsoft-Windows-WPD-UltimatePortableDeviceFeature-Feature]() | |
+| 22 | - [Multimedia-MFCore]() | |
+| 23 | - [Multimedia-MFCore-WCOSHeadless]() | |
+| 24 | - [Multimedia-MFCore-WCOSMinusHeadless]() | |
+| 25 | - [Multimedia-RestrictedCodecsCore]() | |
+| 26 | - [Multimedia-RestrictedCodecsCore-Full]() | |
+| 27 | - [Multimedia-RestrictedCodecsCore-WCOSHeadless]() | |
+| 28 | - [Multimedia-RestrictedCodecsCore-WCOSMinusHeadless]() | |
+| 29 | - [Multimedia-RestrictedCodecsExt]() | |
+| 30 | - [Multimedia-RestrictedCodecsExt-WCOSHeadless]() | |
+| 31 | - [Multimedia-RestrictedCodecsExt-WCOSMinusHeadless]() | |
 
 
 ## Additional Resources
