@@ -14,6 +14,8 @@ keywords: IoT Enterprise, removable packages, storage
 ## Overview
 In addition to the image customizability provided by [Enable or Disable Windows Features using DISM](https://learn.microsoft.com/windows-hardware/manufacture/desktop/enable-or-disable-windows-features-using-dism) and [Features on Demand](https://learn.microsoft.com/windows-hardware/manufacture/desktop/features-on-demand-v2--capabilities), Windows IoT Enterprise LTSC allows a device builder to remove additional packages from the [Windows Component Store](https://learn.microsoft.com/windows-hardware/manufacture/desktop/manage-the-component-store). 
 
+Windows IoT Enterprise LTSC allows you to remove additional feature packages from the operating system using the desktop manufacturing process to [Modify a Windows image](/windows-hardware/manufacture/desktop/modify-an-image).  Windows IoT Enterprise LTSC supports using either [Online servicing (audit mode)](/windows-hardware/manufacture/desktop/audit-mode-overview) or [Offline Servicing](/windows-hardware/manufacture/desktop/mount-and-modify-a-windows-image-using-dism).
+
 Removing these selected packages have the following impact:
 - Packages are removed from the Windows Component Store which reduces the size of the `C:\Windows\WinSxS` folder.
 - The associated files and features are removed from Windows IoT Enterprise LTSC and cannot be restored or reintroduced with the installation of servicing updates.
@@ -32,7 +34,6 @@ This feature is supported on:
 > - Option 2: Manually download and install  [KB5014023](https://support.microsoft.com/topic/june-2-2022-kb5014023-os-builds-19042-1741-19043-1741-and-19044-1741-preview-65ac6a5d-439a-4e88-b431-a5e2d4e2516a) or any of its successors.
  
  ## Removing Packages
-Windows IoT Enterprise LTSC allows you to remove additional feature packages from the operating system using the desktop manufacturing process to [Modify a Windows image](/windows-hardware/manufacture/desktop/modify-an-image).  Windows IoT Enterprise LTSC supports using either [Online servicing (audit mode)](/windows-hardware/manufacture/desktop/audit-mode-overview) or [Offline Servicing](/windows-hardware/manufacture/desktop/mount-and-modify-a-windows-image-using-dism).
 
 Use the [DISM command-line tool](/windows-hardware/manufacture/desktop/what-is-dism) to remove a single package from your Windows image.
 
