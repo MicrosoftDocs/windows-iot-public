@@ -16,7 +16,7 @@ In addition to the image customizability provided by [Enable or Disable Windows 
 
 Removing these selected packages have the following impact:
 - Packages are removed from the Windows Component Store which reduces the size of the `C:\Windows\WinSxS` folder.
-- The associated files and features are removed from Windows IoT Enterprise and cannot be restored or reintroduced with the installation of servicing updates.
+- The associated files and features are removed from Windows IoT Enterprise LTSC and cannot be restored or reintroduced with the installation of servicing updates.
 
 You may use either [Online servicing (audit mode)](https://learn.microsoft.com/windows-hardware/manufacture/desktop/audit-mode-overview) or [Offline servicing](https://learn.microsoft.com/windows-hardware/manufacture/desktop/mount-and-modify-a-windows-image-using-dism) to remove these packages from Windows IoT Enterprise LTSC.  If you are not familiar with these terms, the [Modify a Windows image](https://learn.microsoft.com/windows-hardware/manufacture/desktop/modify-an-image) topic provides a side-by-side comparison. We will provide examples of both methods in the steps below.  If you prefer offline servicing please mount your Windows image before proceeding. Our examples will assume that your offline image is mounted at `c:\offline`.  If you have mounted your offline image to a different folder, please adjust the following steps as necessary. 
 
