@@ -32,7 +32,7 @@ This feature is supported on:
 > - Option 2: Manually download and install  [KB5014023](https://support.microsoft.com/topic/june-2-2022-kb5014023-os-builds-19042-1741-19043-1741-and-19044-1741-preview-65ac6a5d-439a-4e88-b431-a5e2d4e2516a) or any of its successors.
  
  ## Removing Packages
-You can remove packages from an online Windows session or a offline image that you have mounted to your active Windows session.  
+Windows IoT Enterprise LTSC allows you to remove additional feature packages from the operating system using the desktop manufacturing process to [odify a Windows image](/windows-hardware/manufacture/desktop/modify-an-image).  Windows IoT Enterprise LTSC supports using either [Online servicing (audit mode)](/windows-hardware/manufacture/desktop/audit-mode-overview) or [Offline Servicing](/windows-hardware/manufacture/desktop/mount-and-modify-a-windows-image-using-dism).
 
 Use the [DISM command-line tool](/windows-hardware/manufacture/desktop/what-is-dism) to remove a single package from your Windows image.
 
