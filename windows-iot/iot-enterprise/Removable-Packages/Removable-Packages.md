@@ -31,33 +31,7 @@ This feature is supported on:
 > - Option 1: Go to Start > Settings > Windows Update then check for and apply all available updates before proceeding.
 > - Option 2: Manually download and install  [KB5014023](https://support.microsoft.com/topic/june-2-2022-kb5014023-os-builds-19042-1741-19043-1741-and-19044-1741-preview-65ac6a5d-439a-4e88-b431-a5e2d4e2516a) or any of its successors.
  
-## Removable Package List
-
-Below is a list of all packages that can be removed from Windows IoT Enterprise LTSC removable components along with the specific LTSC version that supports their removal. 
-> [!Important]
->
->If you choose to remove any of these packages, you must ensure that your  solution does not rely on functionality of the removed package(s). You cannot restore the package without a full reinstall of Windows IoT Enteprise LTSC.
-
-
-| #| Package Name  | Description  |
-|--:|:-------------|--------------|
-|  1 |[AppManagement_UEV](./Removable-Packages-Details/Removable-Package-AppManagement_UEV.md) | [User Experience Virtualization](https://learn.microsoft.com/windows/configuration/ue-v/uev-for-windows) |
-|  2 |[BioEnrollment_UX](./Removable-Packages-Details/Removable-Package-BioEnrollment_UX.md) | [Windows Hello](https://learn.microsoft.com/windows-hardware/design/device-experiences/windows-hello) |
-|  3 |[BootEnvironment_Dvd](./Removable-Packages-Details/Removable-Package-BootEnvironment_Dvd.md) | Boot from DVD |
-|  4 |[Common_RegulatedPackages](./Removable-Packages-Details/Removable-Package-Common_RegulatedPackages.md) |  <span style="color:red"> Need to author a description. </span> |
-|  5 |[Desktop_SharedPackages](./Removable-Packages-Details/Removable-Package-Desktop_SharedPackages.md) | <span style="color:red"> Need to author a description. </span>
-|  6 |[Fonts_DesktopFonts_NonLeanSupplement](./Removable-Packages-Details/Removable-Package-Fonts_DesktopFonts_NonLeanSupplement.md) | <span style="color:red"> Need to author a description. </span> |
-|  7 |[LanguageFeatures_WordBreaking_Common_legacy](./Removable-Packages-Details/Removable-Package-LanguageFeatures_WordBreaking_Common_Legacy.md) | <span style="color:red"> Need to author a description. </span>  |
-|  8 |[Printer_Drivers](./Removable-Packages-Details/Removable-Package-Printer_Drivers.md) | In-box printer drivers  |
-|  9 |[Printing_PremiumTools](./Removable-Packages-Details/Removable-Package-Printing_PremiumTools.md) | <span style="color:red"> Need to author a description. </span> |
-| 10 |[RecoveryDrive](./Removable-Packages-Details/Removable-Package-RecoveryDrive.md) | <span style="color:red"> Need to author a description. </span> |
-| 11 |[ScreenSavers](./Removable-Packages-Details/Removable-Package-ScreenSavers.md) | In-box screensavers  |
-| 12 |[SensorDataService](./Removable-Packages-Details/Removable-Package-SensorDataService.md) | <span style="color:red"> Need to author a description. </span> |
-| 13 |[ShellOptions](./Removable-Packages-Details/Removable-Package-ShellOptions.md) | <span style="color:red"> Need to author a description. </span> |
-| 14 |[Shell_Wallpaper](./Removable-Packages-Details/Removable-Package-Shell_Wallpaper.md) | In-box wallpaper images | 
-| 15 |[win32calc](./Removable-Packages-Details/Removable-Package-win32calc.md) | Calculator app |
-
-## Use DISM to remove packages
+ ## Use DISM to remove packages
 You can remove packages from an online Windows session or a offline image that you have mounted to your active Windows session.  
 
 Use Dism.exe to remove a single package from your Windows image.
@@ -75,6 +49,73 @@ Example: Use DISM.exe to remove Windows calculator from an **Offline image**
 ```powershell
 Dism.exe /Image:c:\offline /LogPath:.\remove_win32calc.log /NoRestart /Disable-Feature /FeatureName:Microsoft-Windows-win32calc /PackageName:@Package
 ````
+ 
+## Package Reference
+
+Below is a list of all packages that can be removed from Windows IoT Enterprise LTSC removable components along with the specific LTSC version that supports their removal. 
+> [!Important]
+>
+>If you choose to remove any of these packages, you must ensure that your  solution does not rely on functionality of the removed package(s). You cannot restore the package without a full reinstall of Windows IoT Enteprise LTSC.
+
+
+
+| #| Package Name  | Description  |
+|--:|:-------------|--------------|
+|  1 |[Microsoft-Windows-AppManagement-UEV](./Removable-Packages-Details/Removable-Package-AppManagement_UEV.md) | [User Experience Virtualization](https://learn.microsoft.com/windows/configuration/ue-v/uev-for-windows) |
+|  3 |[Microsoft-Windows-BootEnvironment-Dvd](./Removable-Packages-Details/Removable-Package-BootEnvironment_Dvd.md) | Boot from DVD |
+author a description. </span> |
+|  9 |[Microsoft-Windows-Printing-PremiumTools](./Removable-Packages-Details/Removable-Package-Printing_PremiumTools.md) | <span style="color:red"> Need to author a description. </span> |
+| 14 |[Microsoft-Windows-Shell-Wallpaper-Common](./Removable-Packages-Details/Removable-Package-Shell_Wallpaper.md) | In-box wallpaper images | 
+| 15 |[Microsoft-Windows-win32calc](./Removable-Packages-Details/Removable-Package-win32calc.md) | Calculator app |
+
+| #| Package Name  | Description  |
+|--:|:-------------|--------------|
+|  5 |[Microsoft-Windows-Desktop-Shared-Removable](./Removable-Packages-Details/Removable-Package-Desktop_SharedPackages.md) | <span style="color:red"> Need to author a description. </span>
+|  7 |[LanguageFeatures-WordBreaking-Common-legacy](./Removable-Packages-Details/Removable-Package-LanguageFeatures_WordBreaking_Common_Legacy.md) | <span style="color:red"> Need to author a description. </span>  |
+|  6 |[Microsoft-OneCore-Fonts-DesktopFonts-NonLeanSupplement](./Removable-Packages-Details/Removable-Package-Fonts_DesktopFonts_NonLeanSupplement.md) | <span style="color:red"> Need to author a description. </span> |
+|  2 |[Microsoft-Windows-BioEnrollment-UX](./Removable-Packages-Details/Removable-Package-BioEnrollment_UX.md) | [Windows Hello](https://learn.microsoft.com/windows-hardware/design/device-experiences/windows-hello) |
+|  8 |[Microsoft-Windows-Printer-Drivers](./Removable-Packages-Details/Removable-Package-Printer_Drivers.md) | In-box printer drivers  |
+| 10 |[Microsoft-Windows-RecoveryDrive](./Removable-Packages-Details/Removable-Package-RecoveryDrive.md) | <span style="color:red"> Need to author a description. </span> |
+| 11 |[Microsoft-Windows-ScreenSavers-3D](./Removable-Packages-Details/Removable-Package-ScreenSavers.md) | In-box screensavers  |
+| 12 |[Microsoft-Windows-SensorDataService](./Removable-Packages-Details/Removable-Package-SensorDataService.md) | <span style="color:red"> Need to author a description. </span> |
+| 13 |[Microsoft-Windows-ShellOptions](./Removable-Packages-Details/Removable-Package-ShellOptions.md) | <span style="color:red"> Need to author a description. </span> 
+
+| #| Package Name  | Description  |
+|--:|:-------------|--------------|
+|  4 |[Microsoft-Windows-Common-RegulatedPackages](./Removable-Packages-Details/Removable-Package-Common_RegulatedPackages.md) |  <span style="color:red"> Need to 
+| 16 |[Microsoft-Media-Foundation]() | |
+| 16 |[Microsoft-OneCore-Multimedia-CastingCommon]() | |
+| 16 |[Microsoft-OneCore-Multimedia-CastingReceiver-Media]() | |
+| 16 |[Microsoft-OneCore-Multimedia-CastingTransmitter-Media]() | |
+| 16 |[Microsoft-OneCore-Multimedia-MFPMP]() | |
+| 16 |[Microsoft-Windows-Media-Format]() | |
+| 16 |[Microsoft-Windows-Media-Format-merged]() | |
+| 16 |[Microsoft-Windows-MediaPlayback-OC]() | |
+| 16 |[Microsoft-Windows-Media-Streaming]() | |
+| 16 |[Microsoft-Windows-Media-Streaming-merged]() | |
+| 16 |[Microsoft-Windows-Multimedia-MF]() | |
+| 16 |[Microsoft-Windows-Multimedia-MF-merged]() | |
+| 16 |[Microsoft-Windows-Multimedia-RestrictedCodecs]() | |
+| 16 |[Microsoft-Windows-Multimedia-RestrictedCodecs-merged]() | |
+| 16 |[Microsoft-Windows-Multimedia-WMPDMC]() | |
+| 16 |[Microsoft-Windows-Portable-Devices]() | |
+| 16 |[Microsoft-Windows-Portable-Devices-merged]() | |
+| 16 |[Microsoft-Windows-WebcamExperience]() | |
+| 16 |[Microsoft-Windows-WinSATMediaFiles]() | |
+| 16 |[Microsoft-Windows-WPD-LegacyWmdmFeature-Feature]() | |
+| 16 |[Microsoft-Windows-WPD-UltimatePortableDeviceFeature-Feature]() | |
+| 16 |[Multimedia-MFCore]() | |
+| 16 |[Multimedia-MFCore-WCOSHeadless]() | |
+| 16 |[Multimedia-MFCore-WCOSMinusHeadless]() | |
+| 16 |[Multimedia-RestrictedCodecsCore]() | |
+| 16 |[Multimedia-RestrictedCodecsCore-Full]() | |
+| 16 |[Multimedia-RestrictedCodecsCore-WCOSHeadless]() | |
+| 16 |[Multimedia-RestrictedCodecsCore-WCOSMinusHeadless]() | |
+| 16 |[Multimedia-RestrictedCodecsExt]() | |
+| 16 |[Multimedia-RestrictedCodecsExt-WCOSHeadless]() | |
+| 16 |[Multimedia-RestrictedCodecsExt-WCOSMinusHeadless]() | |
+
+
 
 ## Additional Resources
 * [Removable Packages Blog](https://aka.ms/RemovablePackagesBlog)
