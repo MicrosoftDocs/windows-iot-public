@@ -56,47 +56,47 @@ Below is a list of all packages that can be removed from Windows IoT Enterprise 
 |  3 |[Microsoft-Windows-Printing-PremiumTools](./Removable-Packages-Details/Removable-Package-Printing_PremiumTools.md) | <span style="color:red"> Need to author a description. </span> |
 |  4 |[Microsoft-Windows-Shell-Wallpaper-Common](./Removable-Packages-Details/Removable-Package-Shell_Wallpaper.md) | In-box wallpaper images | 
 |  5 |[Microsoft-Windows-win32calc](./Removable-Packages-Details/Removable-Package-win32calc.md) | Calculator app |
-| **Rollup** |**[Microsoft-Windows-Desktop-Shared-Removable](./Removable-Packages-Details/Removable-Package-Desktop_SharedPackages.md)** | <span style="color:red"> Need to author a description. </span> |
-|  6 | [LanguageFeatures-WordBreaking-Common-legacy](./Removable-Packages-Details/Removable-Package-LanguageFeatures_WordBreaking_Common_Legacy.md) | <span style="color:red"> Need to author a description. </span>  |
-|  7 | [Microsoft-OneCore-Fonts-DesktopFonts-NonLeanSupplement](./Removable-Packages-Details/Removable-Package-Fonts_DesktopFonts_NonLeanSupplement.md) | <span style="color:red"> Need to author a description. </span> |
-|  8 | [Microsoft-Windows-BioEnrollment-UX](./Removable-Packages-Details/Removable-Package-BioEnrollment_UX.md) | [Windows Hello](https://learn.microsoft.com/windows-hardware/design/device-experiences/windows-hello) |
-|  9 | [Microsoft-Windows-Printer-Drivers](./Removable-Packages-Details/Removable-Package-Printer_Drivers.md) | In-box printer drivers  |
-|  10 | [Microsoft-Windows-RecoveryDrive](./Removable-Packages-Details/Removable-Package-RecoveryDrive.md) | <span style="color:red"> Need to author a description. </span> |
-|  11 | [Microsoft-Windows-ScreenSavers-3D](./Removable-Packages-Details/Removable-Package-ScreenSavers.md) | In-box screensavers  |
-|  12 | [Microsoft-Windows-SensorDataService](./Removable-Packages-Details/Removable-Package-SensorDataService.md) | <span style="color:red"> Need to author a description. </span> |
-|  13 | [Microsoft-Windows-ShellOptions](./Removable-Packages-Details/Removable-Package-ShellOptions.md) | <span style="color:red"> Need to author a description. </span> |
-|  **Rollup** |**[Microsoft-Windows-Common-RegulatedPackages](./Removable-Packages-Details/Removable-Package-Common_RegulatedPackages.md)** |  <span style="color:red"> Need to author a description. </span> |
-|  14 | [Microsoft-Media-Foundation]() | |
-|  15 | [Microsoft-OneCore-Multimedia-CastingCommon]() | |
-|  16 | [Microsoft-OneCore-Multimedia-CastingReceiver-Media]() | |
-|  17 | [Microsoft-OneCore-Multimedia-CastingTransmitter-Media]() | |
-|  18 | [Microsoft-OneCore-Multimedia-MFPMP]() | |
-|  19 | [Microsoft-Windows-Media-Format]() | |
-|  20 | [Microsoft-Windows-Media-Format-merged]() | |
-|  21 | [Microsoft-Windows-MediaPlayback-OC]() | |
-|  22 | [Microsoft-Windows-Media-Streaming]() | |
-| 23 | [Microsoft-Windows-Media-Streaming-merged]() | |
-| 24 | [Microsoft-Windows-Multimedia-MF]() | |
-| 25 | [Microsoft-Windows-Multimedia-MF-merged]() | |
-| 26 | [Microsoft-Windows-Multimedia-RestrictedCodecs]() | |
-| 27 | [Microsoft-Windows-Multimedia-RestrictedCodecs-merged]() | |
-| 28 | [Microsoft-Windows-Multimedia-WMPDMC]() | |
-| 29 | [Microsoft-Windows-Portable-Devices]() | |
-| 30 | [Microsoft-Windows-Portable-Devices-merged]() | |
-| 31 | [Microsoft-Windows-WebcamExperience]() | |
-| 32 | [Microsoft-Windows-WinSATMediaFiles]() | |
-| 33 | [Microsoft-Windows-WPD-LegacyWmdmFeature-Feature]() | |
-| 34 | [Microsoft-Windows-WPD-UltimatePortableDeviceFeature-Feature]() | |
-| 35 | [Multimedia-MFCore]() | |
-| 36 | [Multimedia-MFCore-WCOSHeadless]() | |
-| 37 | [Multimedia-MFCore-WCOSMinusHeadless]() | |
-| 38 | [Multimedia-RestrictedCodecsCore]() | |
-| 39 | [Multimedia-RestrictedCodecsCore-Full]() | |
-| 40 | [Multimedia-RestrictedCodecsCore-WCOSHeadless]() | |
-| 41 | [Multimedia-RestrictedCodecsCore-WCOSMinusHeadless]() | |
-| 42 | [Multimedia-RestrictedCodecsExt]() | |
-| 43 | [Multimedia-RestrictedCodecsExt-WCOSHeadless]() | |
-| 44 | [Multimedia-RestrictedCodecsExt-WCOSMinusHeadless]() | |
+| 6* |**[Microsoft-Windows-Desktop-Shared-Removable](./Removable-Packages-Details/Removable-Package-Desktop_SharedPackages.md)** | <span style="color:red"> Need to author a description. </span> |
+|  7 | [LanguageFeatures-WordBreaking-Common-legacy](./Removable-Packages-Details/Removable-Package-LanguageFeatures_WordBreaking_Common_Legacy.md) | <span style="color:red"> Need to author a description. </span>  |
+|  8 | [Microsoft-OneCore-Fonts-DesktopFonts-NonLeanSupplement](./Removable-Packages-Details/Removable-Package-Fonts_DesktopFonts_NonLeanSupplement.md) | <span style="color:red"> Need to author a description. </span> |
+|  9 | [Microsoft-Windows-BioEnrollment-UX](./Removable-Packages-Details/Removable-Package-BioEnrollment_UX.md) | [Windows Hello](https://learn.microsoft.com/windows-hardware/design/device-experiences/windows-hello) |
+| 10 | [Microsoft-Windows-Printer-Drivers](./Removable-Packages-Details/Removable-Package-Printer_Drivers.md) | In-box printer drivers  |
+| 11 | [Microsoft-Windows-RecoveryDrive](./Removable-Packages-Details/Removable-Package-RecoveryDrive.md) | <span style="color:red"> Need to author a description. </span> |
+| 12 | [Microsoft-Windows-ScreenSavers-3D](./Removable-Packages-Details/Removable-Package-ScreenSavers.md) | In-box screensavers  |
+| 13 | [Microsoft-Windows-SensorDataService](./Removable-Packages-Details/Removable-Package-SensorDataService.md) | <span style="color:red"> Need to author a description. </span> |
+| 14 | [Microsoft-Windows-ShellOptions](./Removable-Packages-Details/Removable-Package-ShellOptions.md) | <span style="color:red"> Need to author a description. </span> |
+| 15* |**[Microsoft-Windows-Common-RegulatedPackages](./Removable-Packages-Details/Removable-Package-Common_RegulatedPackages.md)** |  <span style="color:red"> Need to author a description. </span> |
+| 16 | [Microsoft-Media-Foundation]() | |
+| 17 | [Microsoft-OneCore-Multimedia-CastingCommon]() | |
+| 18 | [Microsoft-OneCore-Multimedia-CastingReceiver-Media]() | |
+| 19 | [Microsoft-OneCore-Multimedia-CastingTransmitter-Media]() | |
+| 20 | [Microsoft-OneCore-Multimedia-MFPMP]() | |
+| 21 | [Microsoft-Windows-Media-Format]() | |
+| 22 | [Microsoft-Windows-Media-Format-merged]() | |
+| 23 | [Microsoft-Windows-MediaPlayback-OC]() | |
+| 24 | [Microsoft-Windows-Media-Streaming]() | |
+| 25 | [Microsoft-Windows-Media-Streaming-merged]() | |
+| 26 | [Microsoft-Windows-Multimedia-MF]() | |
+| 27 | [Microsoft-Windows-Multimedia-MF-merged]() | |
+| 28 | [Microsoft-Windows-Multimedia-RestrictedCodecs]() | |
+| 29 | [Microsoft-Windows-Multimedia-RestrictedCodecs-merged]() | |
+| 30 | [Microsoft-Windows-Multimedia-WMPDMC]() | |
+| 31 | [Microsoft-Windows-Portable-Devices]() | |
+| 32 | [Microsoft-Windows-Portable-Devices-merged]() | |
+| 33 | [Microsoft-Windows-WebcamExperience]() | |
+| 34 | [Microsoft-Windows-WinSATMediaFiles]() | |
+| 35 | [Microsoft-Windows-WPD-LegacyWmdmFeature-Feature]() | |
+| 36 | [Microsoft-Windows-WPD-UltimatePortableDeviceFeature-Feature]() | |
+| 37 | [Multimedia-MFCore]() | |
+| 38 | [Multimedia-MFCore-WCOSHeadless]() | |
+| 39 | [Multimedia-MFCore-WCOSMinusHeadless]() | |
+| 40 | [Multimedia-RestrictedCodecsCore]() | |
+| 41 | [Multimedia-RestrictedCodecsCore-Full]() | |
+| 42 | [Multimedia-RestrictedCodecsCore-WCOSHeadless]() | |
+| 43 | [Multimedia-RestrictedCodecsCore-WCOSMinusHeadless]() | |
+| 44 | [Multimedia-RestrictedCodecsExt]() | |
+| 45 | [Multimedia-RestrictedCodecsExt-WCOSHeadless]() | |
+| 46 | [Multimedia-RestrictedCodecsExt-WCOSMinusHeadless]() | |
 
 ## Additional Resources
 * [Removable Packages Blog](https://aka.ms/RemovablePackagesBlog)
