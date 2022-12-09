@@ -27,45 +27,55 @@ This feature is supported on:
 > - Option 1: Go to Start > Settings > Windows Update then check for and apply all available updates before proceeding.
 > - Option 2: Manually download and install  [KB5014023](https://support.microsoft.com/topic/june-2-2022-kb5014023-os-builds-19042-1741-19043-1741-and-19044-1741-preview-65ac6a5d-439a-4e88-b431-a5e2d4e2516a) or any of its successors.
  
- ## Removing Packages
+## Removing Packages
 
-Use the [DISM command-line tool](/windows-hardware/manufacture/desktop/what-is-dism) to remove a single package from your Windows image.
+### Online Servicing (audit mode)
+Use the [DISM command-line tool](/windows-hardware/manufacture/desktop/what-is-dism) with the ```/Online``` command-line parammeter to remove a single package via online servicing (audit mode).
 
 ```powershell
-Dism.exe [/Online | /Image:<image path>] /LogPath:<logfile> /NoRestart /Disable-Feature /FeatureName:<package name> /PackageName:@Package
+Dism.exe /Online /LogPath:<logfile> /NoRestart /Disable-Feature /FeatureName:<package name> /PackageName:@Package
 ```
 
-Example: Use DISM.exe to remove Windows calculator  
+Example: Use DISM.exe to remove Windows calculator using online servicing (audit mode).
 ```powershell
 Dism.exe /Online /LogPath:.\remove_win32calc.log /NoRestart /Disable-Feature /FeatureName:Microsoft-Windows-win32calc /PackageName:@Package
 ````
+### Offline Servicing
+Use the [DISM command-line tool](/windows-hardware/manufacture/desktop/what-is-dism) with the ```/Image:<image path>``` command-line parameter to remove a single package via offline servicing.
 
-Example: Use DISM.exe to remove Windows calculator from an **Offline image**  
+```powershell
+Dism.exe /Image:<image path> /LogPath:<logfile> /NoRestart /Disable-Feature /FeatureName:<package name> /PackageName:@Package
+```
+
+Example: Use DISM.exe to remove Windows calculator using offline servicing.
 ```powershell
 Dism.exe /Image:c:\offline /LogPath:.\remove_win32calc.log /NoRestart /Disable-Feature /FeatureName:Microsoft-Windows-win32calc /PackageName:@Package
 ````
- 
 ## Package Reference
 
-Below is a list of all packages that can be removed from Windows IoT Enterprise LTSC removable components along with the specific LTSC version that supports their removal. 
+Below is a list of all packages that can be removed from Windows IoT Enterprise LTSC removable components along with the specific LTSC version that supports their removal.   
+
+>[!Note]
+> 
+>¹ Next to the number index in the table below denotes a rollup package that is collection of other packages.  This simplifies the removal of the collection as a whole as opposed to removing each package individually.
 
 | #| Package Name  | Description  |
-|--:|:-------------|--------------|
+|---|:-------------|--------------|
 |  1 |[Microsoft-Windows-AppManagement-UEV](./Removable-Packages-Details/Removable-Package-AppManagement_UEV.md) | [User Experience Virtualization](https://learn.microsoft.com/windows/configuration/ue-v/uev-for-windows) |
 |  2 |[Microsoft-Windows-BootEnvironment-Dvd](./Removable-Packages-Details/Removable-Package-BootEnvironment_Dvd.md) | Boot from DVD |
-|  3 |[Microsoft-Windows-Printing-PremiumTools](./Removable-Packages-Details/Removable-Package-Printing_PremiumTools.md) | <span style="color:red"> Need to author a description. </span> |
-|  4 |[Microsoft-Windows-Shell-Wallpaper-Common](./Removable-Packages-Details/Removable-Package-Shell_Wallpaper.md) | In-box wallpaper images | 
+|  3 |[Microsoft-Windows-Printing-PremiumTools](./Removable-Packages-Details/Removable-Package-Printing_PremiumTools.md) |  |
+|  4 |[Microsoft-Windows-Shell-Wallpaper-Common](./Removable-Packages-Details/Removable-Package-Shell_Wallpaper.md) | Desktop wallpaper images | 
 |  5 |[Microsoft-Windows-win32calc](./Removable-Packages-Details/Removable-Package-win32calc.md) | Calculator app |
-| 6¹ |**[Microsoft-Windows-Desktop-Shared-Removable](./Removable-Packages-Details/Removable-Package-Desktop_SharedPackages.md)** | <span style="color:red"> Need to author a description. </span> |
-|  7 | [LanguageFeatures-WordBreaking-Common-legacy](./Removable-Packages-Details/Removable-Package-LanguageFeatures_WordBreaking_Common_Legacy.md) | <span style="color:red"> Need to author a description. </span>  |
-|  8 | [Microsoft-OneCore-Fonts-DesktopFonts-NonLeanSupplement](./Removable-Packages-Details/Removable-Package-Fonts_DesktopFonts_NonLeanSupplement.md) | <span style="color:red"> Need to author a description. </span> |
+| 6¹ |**[Microsoft-Windows-Desktop-Shared-Removable](./Removable-Packages-Details/Removable-Package-Desktop_SharedPackages.md)** | **Collection of packages 7 through 14** |
+|  7 | [LanguageFeatures-WordBreaking-Common-legacy](./Removable-Packages-Details/Removable-Package-LanguageFeatures_WordBreaking_Common_Legacy.md) |  |
+|  8 | [Microsoft-OneCore-Fonts-DesktopFonts-NonLeanSupplement](./Removable-Packages-Details/Removable-Package-Fonts_DesktopFonts_NonLeanSupplement.md) |  |
 |  9 | [Microsoft-Windows-BioEnrollment-UX](./Removable-Packages-Details/Removable-Package-BioEnrollment_UX.md) | [Windows Hello](https://learn.microsoft.com/windows-hardware/design/device-experiences/windows-hello) |
-| 10 | [Microsoft-Windows-Printer-Drivers](./Removable-Packages-Details/Removable-Package-Printer_Drivers.md) | In-box printer drivers  |
-| 11 | [Microsoft-Windows-RecoveryDrive](./Removable-Packages-Details/Removable-Package-RecoveryDrive.md) | <span style="color:red"> Need to author a description. </span> |
-| 12 | [Microsoft-Windows-ScreenSavers-3D](./Removable-Packages-Details/Removable-Package-ScreenSavers.md) | In-box screensavers  |
-| 13 | [Microsoft-Windows-SensorDataService](./Removable-Packages-Details/Removable-Package-SensorDataService.md) | <span style="color:red"> Need to author a description. </span> |
-| 14 | [Microsoft-Windows-ShellOptions](./Removable-Packages-Details/Removable-Package-ShellOptions.md) | <span style="color:red"> Need to author a description. </span> |
-| 15¹ |**[Microsoft-Windows-Common-RegulatedPackages](./Removable-Packages-Details/Removable-Package-Common_RegulatedPackages.md)** |  <span style="color:red"> Need to author a description. </span> |
+| 10 | [Microsoft-Windows-Printer-Drivers](./Removable-Packages-Details/Removable-Package-Printer_Drivers.md) | Printer drivers  |
+| 11 | [Microsoft-Windows-RecoveryDrive](./Removable-Packages-Details/Removable-Package-RecoveryDrive.md) |  |
+| 12 | [Microsoft-Windows-ScreenSavers-3D](./Removable-Packages-Details/Removable-Package-ScreenSavers.md) | Screensavers  |
+| 13 | [Microsoft-Windows-SensorDataService](./Removable-Packages-Details/Removable-Package-SensorDataService.md) |  |
+| 14 | [Microsoft-Windows-ShellOptions](./Removable-Packages-Details/Removable-Package-ShellOptions.md) |  |
+| 15¹ |**[Microsoft-Windows-Common-RegulatedPackages](./Removable-Packages-Details/Removable-Package-Common_RegulatedPackages.md)** |  **Collection of packages 16 through 46** |
 | 16 | [Microsoft-Media-Foundation]() | |
 | 17 | [Microsoft-OneCore-Multimedia-CastingCommon]() | |
 | 18 | [Microsoft-OneCore-Multimedia-CastingReceiver-Media]() | |
@@ -81,12 +91,12 @@ Below is a list of all packages that can be removed from Windows IoT Enterprise 
 | 28 | [Microsoft-Windows-Multimedia-RestrictedCodecs]() | |
 | 29 | [Microsoft-Windows-Multimedia-RestrictedCodecs-merged]() | |
 | 30 | [Microsoft-Windows-Multimedia-WMPDMC]() | |
-| 31 | [Microsoft-Windows-Portable-Devices]() | |
-| 32 | [Microsoft-Windows-Portable-Devices-merged]() | |
+| 31 | [Microsoft-Windows-Portable-Devices]() | Media Transfer Protocol (MTP) |
+| 32 | [Microsoft-Windows-Portable-Devices-merged]() | Media Transfer Protocol (MTP) |
 | 33 | [Microsoft-Windows-WebcamExperience]() | |
 | 34 | [Microsoft-Windows-WinSATMediaFiles]() | |
-| 35 | [Microsoft-Windows-WPD-LegacyWmdmFeature-Feature]() | |
-| 36 | [Microsoft-Windows-WPD-UltimatePortableDeviceFeature-Feature]() | |
+| 35 | [Microsoft-Windows-WPD-LegacyWmdmFeature-Feature]() | Windows Portable Devices|
+| 36 | [Microsoft-Windows-WPD-UltimatePortableDeviceFeature-Feature]() | Windows Portable Devices |
 | 37 | [Multimedia-MFCore]() | |
 | 38 | [Multimedia-MFCore-WCOSHeadless]() | |
 | 39 | [Multimedia-MFCore-WCOSMinusHeadless]() | |
