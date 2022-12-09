@@ -34,7 +34,7 @@ This feature is supported on:
  ## Removing Packages
 You can remove packages from an online Windows session or a offline image that you have mounted to your active Windows session.  
 
-Use Dism.exe to remove a single package from your Windows image.
+Use the [DISM command-line tool](/windows-hardware/manufacture/desktop/what-is-dism) to remove a single package from your Windows image.
 
 ```powershell
 Dism.exe [/Online | /Image:<image path>] /LogPath:<logfile> /NoRestart /Disable-Feature /FeatureName:<package name> /PackageName:@Package
