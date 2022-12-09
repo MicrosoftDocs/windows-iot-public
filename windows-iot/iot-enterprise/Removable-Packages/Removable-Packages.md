@@ -12,18 +12,15 @@ keywords: IoT Enterprise, removable packages, storage
 
 # Removable Packages
 ## Overview
-In addition to the image customizability provided by [Enable or Disable Windows Features using DISM](https://learn.microsoft.com/windows-hardware/manufacture/desktop/enable-or-disable-windows-features-using-dism) and [Features on Demand](https://learn.microsoft.com/windows-hardware/manufacture/desktop/features-on-demand-v2--capabilities), Windows IoT Enterprise LTSC allows a device builder to remove additional packages from the [Windows Component Store](https://learn.microsoft.com/windows-hardware/manufacture/desktop/manage-the-component-store) using the desktop manufacturing process to [Modify a Windows image](/windows-hardware/manufacture/desktop/modify-an-image).  A device maker may use either [Online servicing (audit mode)](/windows-hardware/manufacture/desktop/audit-mode-overview) or [Offline Servicing](/windows-hardware/manufacture/desktop/mount-and-modify-a-windows-image-using-dism) to remove packages from Windows IoT Enterprise LTSC.
+In addition to the image customizability provided by [Enable or Disable Windows Features using DISM](https://learn.microsoft.com/windows-hardware/manufacture/desktop/enable-or-disable-windows-features-using-dism) and [Features on Demand](https://learn.microsoft.com/windows-hardware/manufacture/desktop/features-on-demand-v2--capabilities), Windows IoT Enterprise LTSC allows a device builder to remove additional packages from the [Windows Component Store](https://learn.microsoft.com/windows-hardware/manufacture/desktop/manage-the-component-store) using the desktop manufacturing process to [Modify a Windows image](/windows-hardware/manufacture/desktop/modify-an-image).  A device maker may use either [Online servicing (audit mode)](/windows-hardware/manufacture/desktop/audit-mode-overview) or [Offline Servicing](/windows-hardware/manufacture/desktop/mount-and-modify-a-windows-image-using-dism) methods to remove packages from Windows IoT Enterprise LTSC using the command line instuctions below..
 
-Removing these selected packages have the following impact:
-- Packages are removed from the Windows Component Store which reduces the size of the `C:\Windows\WinSxS` folder.
-- The associated files and features are removed from Windows IoT Enterprise LTSC and cannot be restored or reintroduced with the installation of servicing updates.
-
-You may use either [Online servicing (audit mode)](https://learn.microsoft.com/windows-hardware/manufacture/desktop/audit-mode-overview) or [Offline servicing](https://learn.microsoft.com/windows-hardware/manufacture/desktop/mount-and-modify-a-windows-image-using-dism) to remove these packages from Windows IoT Enterprise LTSC.  If you are not familiar with these terms, the [Modify a Windows image](https://learn.microsoft.com/windows-hardware/manufacture/desktop/modify-an-image) topic provides a side-by-side comparison. We will provide examples of both methods in the steps below.  If you prefer offline servicing please mount your Windows image before proceeding. Our examples will assume that your offline image is mounted at `c:\offline`.  If you have mounted your offline image to a different folder, please adjust the following steps as necessary. 
+> [!Important]
+> 
+> Packages removed from a Windows IoT Enterprise LTSC using this method are completely removed from the disk and cannot be restored or reintroduced to the image.  If a package has been removed and needs to be restored, the only option is to re-install the operating system.
 
 ## System Requirements
 This feature is supported on:
 - Windows 10 IoT Enterprise LTSC 2021 (build 19044.1741) or later
-
 
 > [!Note]
 >
