@@ -49,8 +49,8 @@ Dism.exe /Image:c:\offline /LogPath:.\remove_win32calc.log /NoRestart /Disable-F
 
 Below is a list of all packages that can be removed from Windows IoT Enterprise LTSC removable components along with the specific LTSC version that supports their removal. 
 
-| #| Package Name  | Description  || — | — | | 2x | 1x |
-|--:|:-------------|--------------|| — | — | | 2x | 1x |
+| #| Package Name  | Description  |
+|--:|:-------------|--------------|
 |  1 |[Microsoft-Windows-AppManagement-UEV](./Removable-Packages-Details/Removable-Package-AppManagement_UEV.md) | [User Experience Virtualization](https://learn.microsoft.com/windows/configuration/ue-v/uev-for-windows) |
 |  2 |[Microsoft-Windows-BootEnvironment-Dvd](./Removable-Packages-Details/Removable-Package-BootEnvironment_Dvd.md) | Boot from DVD |
 |  3 |[Microsoft-Windows-Printing-PremiumTools](./Removable-Packages-Details/Removable-Package-Printing_PremiumTools.md) | <span style="color:red"> Need to author a description. </span> |
@@ -72,7 +72,7 @@ Below is a list of all packages that can be removed from Windows IoT Enterprise 
 | #| Package Name  | Description  |
 |--:|:-------------|--------------|
 |  **Rollup** |**[Microsoft-Windows-Common-RegulatedPackages](./Removable-Packages-Details/Removable-Package-Common_RegulatedPackages.md)** |  <span style="color:red"> Need to author a description. </span> |
-|  1 | [Microsoft-Media-Foundation]() | |
+|  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1 | [Microsoft-Media-Foundation]() | |
 |  2 | [Microsoft-OneCore-Multimedia-CastingCommon]() | |
 |  3 | [Microsoft-OneCore-Multimedia-CastingReceiver-Media]() | |
 |  4 | [Microsoft-OneCore-Multimedia-CastingTransmitter-Media]() | |
