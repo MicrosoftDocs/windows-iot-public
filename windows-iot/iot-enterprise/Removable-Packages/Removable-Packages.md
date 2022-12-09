@@ -59,8 +59,8 @@ Below is a list of all packages that can be removed from Windows IoT Enterprise 
 
 | #| Package Name  | Description  |
 |--:|:-------------|--------------|
-| **Rollup** |**[Microsoft-Windows-Desktop-Shared-Removable](./Removable-Packages-Details/Removable-Package-Desktop_SharedPackages.md)** | <span style="color:red"> Need to author a description. </span> |
-|  1 | - [LanguageFeatures-WordBreaking-Common-legacy](./Removable-Packages-Details/Removable-Package-LanguageFeatures_WordBreaking_Common_Legacy.md) | <span style="color:red"> Need to author a description. </span>  |
+| **Rollup** |**```[Microsoft-Windows-Desktop-Shared-Removable](./Removable-Packages-Details/Removable-Package-Desktop_SharedPackages.md)```** | <span style="color:red"> Need to author a description. </span> |
+|  1 | - [```LanguageFeatures-WordBreaking-Common-legacy```](./Removable-Packages-Details/Removable-Package-LanguageFeatures_WordBreaking_Common_Legacy.md) | <span style="color:red"> Need to author a description. </span>  |
 |  2 | - [Microsoft-OneCore-Fonts-DesktopFonts-NonLeanSupplement](./Removable-Packages-Details/Removable-Package-Fonts_DesktopFonts_NonLeanSupplement.md) | <span style="color:red"> Need to author a description. </span> |
 |  3 | - [Microsoft-Windows-BioEnrollment-UX](./Removable-Packages-Details/Removable-Package-BioEnrollment_UX.md) | [Windows Hello](https://learn.microsoft.com/windows-hardware/design/device-experiences/windows-hello) |
 |  4 | - [Microsoft-Windows-Printer-Drivers](./Removable-Packages-Details/Removable-Package-Printer_Drivers.md) | In-box printer drivers  |
@@ -72,8 +72,8 @@ Below is a list of all packages that can be removed from Windows IoT Enterprise 
 | #| Package Name  | Description  |
 |--:|:-------------|--------------|
 |  **Rollup** |**[Microsoft-Windows-Common-RegulatedPackages](./Removable-Packages-Details/Removable-Package-Common_RegulatedPackages.md)** |  <span style="color:red"> Need to author a description. </span> |
-|  1 | - [Microsoft-Media-Foundation]() | |
-|  2 | - [Microsoft-OneCore-Multimedia-CastingCommon]() | |
+|  1 | - ```[Microsoft-Media-Foundation]()``` | |
+|  2 | - ```[Microsoft-OneCore-Multimedia-CastingCommon]()``` | |
 |  3 | - [Microsoft-OneCore-Multimedia-CastingReceiver-Media]() | |
 |  4 | - [Microsoft-OneCore-Multimedia-CastingTransmitter-Media]() | |
 |  5 | - [Microsoft-OneCore-Multimedia-MFPMP]() | |
