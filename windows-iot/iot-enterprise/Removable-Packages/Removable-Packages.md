@@ -63,14 +63,14 @@ Below is a list of all packages that can be removed from Windows IoT Enterprise 
 |---|:-------------|--------------|
 |  1 |[Microsoft-Windows-AppManagement-UEV](./Removable-Packages-Details/Removable-Package-AppManagement_UEV.md) | [User Experience Virtualization](https://learn.microsoft.com/windows/configuration/ue-v/uev-for-windows) |
 |  2 |[Microsoft-Windows-BootEnvironment-Dvd](./Removable-Packages-Details/Removable-Package-BootEnvironment_Dvd.md) | Boot from DVD |
-|  3 |[Microsoft-Windows-Printing-PremiumTools](./Removable-Packages-Details/Removable-Package-Printing_PremiumTools.md) |  |
+|  3 |[Microsoft-Windows-Printing-PremiumTools](./Removable-Packages-Details/Removable-Package-Printing_PremiumTools.md) | Print services migration command-line tool printbrm.exe |
 |  4 |[Microsoft-Windows-Shell-Wallpaper-Common](./Removable-Packages-Details/Removable-Package-Shell_Wallpaper.md) | Desktop wallpaper images | 
 |  5 |[Microsoft-Windows-win32calc](./Removable-Packages-Details/Removable-Package-win32calc.md) | Calculator app |
 | 6¹ |**[Microsoft-Windows-Desktop-Shared-Removable](./Removable-Packages-Details/Removable-Package-Desktop_SharedPackages.md)** | **Collection of packages 7 through 14** |
 |  7 | [LanguageFeatures-WordBreaking-Common-legacy](./Removable-Packages-Details/Removable-Package-LanguageFeatures_WordBreaking_Common_Legacy.md) |  |
-|  8 | [Microsoft-OneCore-Fonts-DesktopFonts-NonLeanSupplement](./Removable-Packages-Details/Removable-Package-Fonts_DesktopFonts_NonLeanSupplement.md) |  |
+|  8 | [Microsoft-OneCore-Fonts-DesktopFonts-NonLeanSupplement](./Removable-Packages-Details/Removable-Package-Fonts_DesktopFonts_NonLeanSupplement.md) | Fonts: [Malgun Gothic](/typography/font-list/malgun-gothic), [Microsoft JhengHei](/typography/font-list/microsoft-jhenghei), [Microsoft YaHei](/typography/font-list/microsoft-yahei), [Yu Gothic](/typography/font-list/yu-gothic)   |
 |  9 | [Microsoft-Windows-BioEnrollment-UX](./Removable-Packages-Details/Removable-Package-BioEnrollment_UX.md) | [Windows Hello](https://learn.microsoft.com/windows-hardware/design/device-experiences/windows-hello) |
-| 10 | [Microsoft-Windows-Printer-Drivers](./Removable-Packages-Details/Removable-Package-Printer_Drivers.md) | Printer drivers  |
+| 10 | [Microsoft-Windows-Printer-Drivers](./Removable-Packages-Details/Removable-Package-Printer_Drivers.md) | Generic / Text Only, Generic IBM Graphics 9pin, Generic IBM Graphics 9pin wide, MS Publisher Color Printer, MS Publisher Imagesetter, Microsoft Shared Fax Driver  |
 | 11 | [Microsoft-Windows-RecoveryDrive](./Removable-Packages-Details/Removable-Package-RecoveryDrive.md) |  |
 | 12 | [Microsoft-Windows-ScreenSavers-3D](./Removable-Packages-Details/Removable-Package-ScreenSavers.md) | Screensavers  |
 | 13 | [Microsoft-Windows-SensorDataService](./Removable-Packages-Details/Removable-Package-SensorDataService.md) |  |
