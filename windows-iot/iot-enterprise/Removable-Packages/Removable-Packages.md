@@ -31,7 +31,7 @@ This feature is supported on:
 > - Option 1: Go to Start > Settings > Windows Update then check for and apply all available updates before proceeding.
 > - Option 2: Manually download and install  [KB5014023](https://support.microsoft.com/topic/june-2-2022-kb5014023-os-builds-19042-1741-19043-1741-and-19044-1741-preview-65ac6a5d-439a-4e88-b431-a5e2d4e2516a) or any of its successors.
  
- ## Use DISM to remove packages
+ ## Removing Packages
 You can remove packages from an online Windows session or a offline image that you have mounted to your active Windows session.  
 
 Use Dism.exe to remove a single package from your Windows image.
