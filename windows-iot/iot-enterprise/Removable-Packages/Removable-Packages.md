@@ -38,7 +38,7 @@ Dism.exe /Online /LogPath:<logfile> /NoRestart /Disable-Feature /FeatureName:<pa
 
 Example: Use DISM.exe to remove Windows calculator using online servicing (audit mode).
 ```powershell
-Dism.exe /Online /LogPath:%TEMP%\remove_win32calc.log /NoRestart /Disable-Feature /FeatureName:Microsoft-Windows-win32calc /PackageName:@Package
+Dism.exe /Online /LogPath:%WINDIR%\Temp\remove_win32calc.log /NoRestart /Disable-Feature /FeatureName:Microsoft-Windows-win32calc /PackageName:@Package
 ````
 ### Offline Servicing
 Use the [DISM command-line tool](/windows-hardware/manufacture/desktop/what-is-dism) with the ```/Image:<image path>``` command-line parameter to remove a single package via offline servicing.
@@ -49,7 +49,7 @@ Dism.exe /Image:<image path> /LogPath:<logfile> /NoRestart /Disable-Feature /Fea
 
 Example: Use DISM.exe to remove Windows calculator using offline servicing.
 ```powershell
-Dism.exe /Image:c:\offline /LogPath:%TEMP%\remove_win32calc.log /NoRestart /Disable-Feature /FeatureName:Microsoft-Windows-win32calc /PackageName:@Package
+Dism.exe /Image:c:\offline /LogPath:%WINDIR%\Temp\remove_win32calc.log /NoRestart /Disable-Feature /FeatureName:Microsoft-Windows-win32calc /PackageName:@Package
 ````
 
 ## Package Reference

@@ -22,13 +22,13 @@ Approximate on-disk footprint: 1367 KB
 Use the [DISM command-line tool](/windows-hardware/manufacture/desktop/what-is-dism) with the ```/Online``` command-line parammeter to remove a single package via online servicing (audit mode).
 
 ```powershell
-Dism.exe /Online /LogPath:%TEMP%\Microsoft-Windows-SensorDataService.log /NoRestart /Disable-Feature /FeatureName:Microsoft-Windows-SensorDataService /PackageName:@Package
+Dism.exe /Online /LogPath:%WINDIR%\Temp\Microsoft-Windows-SensorDataService.log /NoRestart /Disable-Feature /FeatureName:Microsoft-Windows-SensorDataService /PackageName:@Package
 ````
 ### Offline Servicing
 Use the [DISM command-line tool](/windows-hardware/manufacture/desktop/what-is-dism) with the ```/Image:<image path>``` command-line parameter to remove a single package via offline servicing.
 
 ```powershell
-Dism.exe /Image:c:\offline /LogPath:%TEMP%\Microsoft-Windows-SensorDataService.log /NoRestart /Disable-Feature /FeatureName:Microsoft-Windows-SensorDataService /PackageName:@Package
+Dism.exe /Image:c:\offline /LogPath:%WINDIR%\Temp\Microsoft-Windows-SensorDataService.log /NoRestart /Disable-Feature /FeatureName:Microsoft-Windows-SensorDataService /PackageName:@Package
 ````
 
 ## File List
