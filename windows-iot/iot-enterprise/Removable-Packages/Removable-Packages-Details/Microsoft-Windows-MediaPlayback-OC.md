@@ -32,14 +32,14 @@ Dism.exe /Image:c:\offline /LogPath:%WINDIR%\Temp\Microsoft-Windows-MediaPlaybac
 ````
 
 ## Related Packages
-- Microsoft-Media-Foundation
-- Microsoft-Windows-Media-Format  
-- Microsoft-Windows-Media-Streaming  
-- Microsoft-Windows-MediaPlayback-OC  
-- Microsoft-Windows-Portable-Devices  
-- Microsoft-Windows-WebcamExperience  
-- Microsoft-Windows-WinSATMediaFiles 
-
+These packages collectively provide the functionality represented by the the [Media Feature Pack](https://learn.microsoft.com/en-us/windows/win32/wmdm/windows-media-device-manager-architecture).  There are dependencies between each of these packages.  Although it is possible, it is not recommended to remove a subset of these packages.
+- [Microsoft-Media-Foundation](/windows/iot/iot-enterprise/Removable-Packages/Removable-Packages-Details/Microsoft-Media-Foundation)
+- [Microsoft-Windows-Media-Format](/windows/iot/iot-enterprise/Removable-Packages/Removable-Packages-Details/Microsoft-Windows-Media-Format)
+- [Microsoft-Windows-Media-Streaming](/windows/iot/iot-enterprise/Removable-Packages/Removable-Packages-Details/Microsoft-Windows-Media-Streaming) 
+- [Microsoft-Windows-MediaPlayback-OC](/windows/iot/iot-enterprise/Removable-Packages/Removable-Packages-Details/Microsoft-Windows-MediaPlayback-OC)    
+- [Microsoft-Windows-Portable-Devices](/windows/iot/iot-enterprise/Removable-Packages/Removable-Packages-Details/Microsoft-Windows-Portable-Devices)   
+- [Microsoft-Windows-WebcamExperience](/windows/iot/iot-enterprise/Removable-Packages/Removable-Packages-Details/Microsoft-Windows-WebcamExperience.md) 
+- [Microsoft-Windows-WinSATMediaFiles](/windows/iot/iot-enterprise/Removable-Packages/Removable-Packages-Details/Microsoft-Windows-WinSATMediaFiles.md) 
 
 ## File List
 | File Name | Installed Location |

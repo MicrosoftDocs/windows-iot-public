@@ -12,7 +12,7 @@ keywords: IoT Enterprise, removable packages, storage
 
 # Removable Package: Microsoft-Windows-Media-Format
 ## Microsoft-Windows-Media-Format
-Provides support for [Windows Media Device Manager](/windows/win32/wmdm/,windows-media-device-manager-architecture),  [Advanced Systems Format](/windows/win32/wmformat/overview-of-the-asf-format) (ASF) file container, the Windows Media audio and video codecs, basic network streaming capability, and [Digital Rights Management](/windows/win32/wmformat/overview-of-windows-media-drm).
+Provides support for [Windows Media Device Manager](/windows/win32/wmdm/windows-media-device-manager-architecture),  [Advanced Systems Format](/windows/win32/wmformat/overview-of-the-asf-format) (ASF) file container, the Windows Media audio and video codecs, basic network streaming capability, and [Digital Rights Management](/windows/win32/wmformat/overview-of-windows-media-drm).
 
 Approximate on-disk footprint: 5,559 KB
 
@@ -32,13 +32,14 @@ Dism.exe /Image:c:\offline /LogPath:%WINDIR%\Temp\Microsoft-Windows-BootEnvironm
 ````
 
 ## Related Packages
-- Microsoft-Media-Foundation
-- Microsoft-Windows-Media-Format  
-- Microsoft-Windows-Media-Streaming  
-- Microsoft-Windows-MediaPlayback-OC  
-- Microsoft-Windows-Portable-Devices  
-- Microsoft-Windows-WebcamExperience  
-- Microsoft-Windows-WinSATMediaFiles 
+These packages collectively provide the functionality represented by the the [Media Feature Pack](https://learn.microsoft.com/en-us/windows/win32/wmdm/windows-media-device-manager-architecture).  There are dependencies between each of these packages.  Although it is possible, it is not recommended to remove a subset of these packages.
+- [Microsoft-Media-Foundation](/windows/iot/iot-enterprise/Removable-Packages/Removable-Packages-Details/Microsoft-Media-Foundation)
+- [Microsoft-Windows-Media-Format](/windows/iot/iot-enterprise/Removable-Packages/Removable-Packages-Details/Microsoft-Windows-Media-Format)
+- [Microsoft-Windows-Media-Streaming](/windows/iot/iot-enterprise/Removable-Packages/Removable-Packages-Details/Microsoft-Windows-Media-Streaming) 
+- [Microsoft-Windows-MediaPlayback-OC](/windows/iot/iot-enterprise/Removable-Packages/Removable-Packages-Details/Microsoft-Windows-MediaPlayback-OC)    
+- [Microsoft-Windows-Portable-Devices](/windows/iot/iot-enterprise/Removable-Packages/Removable-Packages-Details/Microsoft-Windows-Portable-Devices)   
+- [Microsoft-Windows-WebcamExperience](/windows/iot/iot-enterprise/Removable-Packages/Removable-Packages-Details/Microsoft-Windows-WebcamExperience.md) 
+- [Microsoft-Windows-WinSATMediaFiles](/windows/iot/iot-enterprise/Removable-Packages/Removable-Packages-Details/Microsoft-Windows-WinSATMediaFiles.md) 
 
 ## File List
 | File Name | Installed Location |
