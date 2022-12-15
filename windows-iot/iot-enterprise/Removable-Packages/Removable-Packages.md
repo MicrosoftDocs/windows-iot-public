@@ -23,7 +23,7 @@ This feature is supported on:
 
 > [!Note]
 >
-> To use this feature with Windows 10 IoT Enterprise LTSC 2021, you must first install an servicing update.  
+> To use this feature with Windows 10 IoT Enterprise LTSC 2021, you must first install a servicing update.  
 > - Option 1: Go to Start > Settings > Windows Update then check for and apply all available updates before proceeding.
 > - Option 2: Manually download and install  [KB5014023](https://support.microsoft.com/topic/june-2-2022-kb5014023-os-builds-19042-1741-19043-1741-and-19044-1741-preview-65ac6a5d-439a-4e88-b431-a5e2d4e2516a) or any of its successors.
  
@@ -38,7 +38,7 @@ Dism.exe /Online /LogPath:<logfile> /NoRestart /Disable-Feature /FeatureName:<pa
 
 Example: Use DISM.exe to remove Windows calculator using online servicing (audit mode).
 ```powershell
-Dism.exe /Online /LogPath:.\remove_win32calc.log /NoRestart /Disable-Feature /FeatureName:Microsoft-Windows-win32calc /PackageName:@Package
+Dism.exe /Online /LogPath:%TEMP%\remove_win32calc.log /NoRestart /Disable-Feature /FeatureName:Microsoft-Windows-win32calc /PackageName:@Package
 ````
 ### Offline Servicing
 Use the [DISM command-line tool](/windows-hardware/manufacture/desktop/what-is-dism) with the ```/Image:<image path>``` command-line parameter to remove a single package via offline servicing.
@@ -49,62 +49,36 @@ Dism.exe /Image:<image path> /LogPath:<logfile> /NoRestart /Disable-Feature /Fea
 
 Example: Use DISM.exe to remove Windows calculator using offline servicing.
 ```powershell
-Dism.exe /Image:c:\offline /LogPath:.\remove_win32calc.log /NoRestart /Disable-Feature /FeatureName:Microsoft-Windows-win32calc /PackageName:@Package
+Dism.exe /Image:c:\offline /LogPath:%TEMP%\remove_win32calc.log /NoRestart /Disable-Feature /FeatureName:Microsoft-Windows-win32calc /PackageName:@Package
 ````
+
 ## Package Reference
 
-Below is a list of all packages that can be removed from Windows IoT Enterprise LTSC removable components along with the specific LTSC version that supports their removal.   
+The following packages can be removed from Windows IoT Enterprise LTSC 2021.  Click on each package name to see more details about the package payload.
 
->[!Note]
-> 
->¹ Next to the number index in the table below denotes a rollup package that is collection of other packages.  This simplifies the removal of the collection as a whole as opposed to removing each package individually.
 
-| Package Collection | Package Members  | Description  |
-|:------------|:-|--------------|
-| Individual | [Microsoft-Windows-AppManagement-UEV](./Removable-Packages-Details/Removable-Package-AppManagement_UEV.md) | [User Experience Virtualization](https://learn.microsoft.com/windows/configuration/ue-v/uev-for-windows) |
-| Individual | [Microsoft-Windows-BootEnvironment-Dvd](./Removable-Packages-Details/Removable-Package-BootEnvironment_Dvd.md) | Boot from DVD |
-| Individual | [Microsoft-Windows-Printing-PremiumTools](./Removable-Packages-Details/Removable-Package-Printing_PremiumTools.md) | Print services migration command-line tool printbrm.exe |
-| Individual | [Microsoft-Windows-Shell-Wallpaper-Common](./Removable-Packages-Details/Removable-Package-Shell_Wallpaper.md) | Desktop wallpaper images | 
-| Individual | [Microsoft-Windows-win32calc](./Removable-Packages-Details/Removable-Package-win32calc.md) | Calculator app |
-| [Microsoft-Windows-Desktop-Shared-Removable](./Removable-Packages-Details/Removable-Package-Desktop_SharedPackages.md) | [LanguageFeatures-WordBreaking-Common-legacy](./Removable-Packages-Details/Removable-Package-LanguageFeatures_WordBreaking_Common_Legacy.md) | Legacy neutral word breaker, should only be needed in very rare app compat scenarios |
-| [Microsoft-Windows-Desktop-Shared-Removable](./Removable-Packages-Details/Removable-Package-Desktop_SharedPackages.md) | [Microsoft-OneCore-Fonts-DesktopFonts-NonLeanSupplement](./Removable-Packages-Details/Removable-Package-Fonts_DesktopFonts_NonLeanSupplement.md) | Fonts: [Malgun Gothic](/typography/font-list/malgun-gothic), [Microsoft JhengHei](/typography/font-list/microsoft-jhenghei), [Microsoft YaHei](/typography/font-list/microsoft-yahei), [Yu Gothic](/typography/font-list/yu-gothic)   |
-| [Microsoft-Windows-Desktop-Shared-Removable](./Removable-Packages-Details/Removable-Package-Desktop_SharedPackages.md) | [Microsoft-Windows-BioEnrollment-UX](./Removable-Packages-Details/Removable-Package-BioEnrollment_UX.md) | [Windows Hello](https://learn.microsoft.com/windows-hardware/design/device-experiences/windows-hello) |
-| [Microsoft-Windows-Desktop-Shared-Removable](./Removable-Packages-Details/Removable-Package-Desktop_SharedPackages.md) | [Microsoft-Windows-Printer-Drivers](./Removable-Packages-Details/Removable-Package-Printer_Drivers.md) | Generic / Text Only, Generic IBM Graphics 9pin, Generic IBM Graphics 9pin wide, MS Publisher Color Printer, MS Publisher Imagesetter, Microsoft Shared Fax Driver  |
-| [Microsoft-Windows-Desktop-Shared-Removable](./Removable-Packages-Details/Removable-Package-Desktop_SharedPackages.md) | [Microsoft-Windows-RecoveryDrive](./Removable-Packages-Details/Removable-Package-RecoveryDrive.md) |  |
-| [Microsoft-Windows-Desktop-Shared-Removable](./Removable-Packages-Details/Removable-Package-Desktop_SharedPackages.md) | [Microsoft-Windows-ScreenSavers-3D](./Removable-Packages-Details/Removable-Package-ScreenSavers.md) | Screensavers  |
-| [Microsoft-Windows-Desktop-Shared-Removable](./Removable-Packages-Details/Removable-Package-Desktop_SharedPackages.md) | [Microsoft-Windows-SensorDataService](./Removable-Packages-Details/Removable-Package-SensorDataService.md) | Legacy camera and image integration service to support Windows Hello for devices using old IR cameras |
-| [Microsoft-Windows-Desktop-Shared-Removable](./Removable-Packages-Details/Removable-Package-Desktop_SharedPackages.md) | [Microsoft-Windows-ShellOptions](./Removable-Packages-Details/Removable-Package-ShellOptions.md) |  |
-| [Microsoft-Windows-Common-RegulatedPackages](./Removable-Packages-Details/Removable-Package-Common_RegulatedPackages.md) | [Microsoft-Media-Foundation]() | |
-| [Microsoft-Windows-Common-RegulatedPackages](./Removable-Packages-Details/Removable-Package-Common_RegulatedPackages.md) | [Microsoft-OneCore-Multimedia-CastingCommon]() | |
-| [Microsoft-Windows-Common-RegulatedPackages](./Removable-Packages-Details/Removable-Package-Common_RegulatedPackages.md) | [Microsoft-OneCore-Multimedia-CastingReceiver-Media]() | |
-| [Microsoft-Windows-Common-RegulatedPackages](./Removable-Packages-Details/Removable-Package-Common_RegulatedPackages.md) | [Microsoft-OneCore-Multimedia-CastingTransmitter-Media]() | |
-| [Microsoft-Windows-Common-RegulatedPackages](./Removable-Packages-Details/Removable-Package-Common_RegulatedPackages.md) | [Microsoft-OneCore-Multimedia-MFPMP]() | |
-| [Microsoft-Windows-Common-RegulatedPackages](./Removable-Packages-Details/Removable-Package-Common_RegulatedPackages.md) | [Microsoft-Windows-Media-Format]() | |
-| [Microsoft-Windows-Common-RegulatedPackages](./Removable-Packages-Details/Removable-Package-Common_RegulatedPackages.md) | [Microsoft-Windows-Media-Format-merged]() | |
-| [Microsoft-Windows-Common-RegulatedPackages](./Removable-Packages-Details/Removable-Package-Common_RegulatedPackages.md) | [Microsoft-Windows-MediaPlayback-OC]() | |
-| [Microsoft-Windows-Common-RegulatedPackages](./Removable-Packages-Details/Removable-Package-Common_RegulatedPackages.md) | [Microsoft-Windows-Media-Streaming]() | |
-| [Microsoft-Windows-Common-RegulatedPackages](./Removable-Packages-Details/Removable-Package-Common_RegulatedPackages.md) | [Microsoft-Windows-Media-Streaming-merged]() | |
-| [Microsoft-Windows-Common-RegulatedPackages](./Removable-Packages-Details/Removable-Package-Common_RegulatedPackages.md) | [Microsoft-Windows-Multimedia-MF]() | |
-| [Microsoft-Windows-Common-RegulatedPackages](./Removable-Packages-Details/Removable-Package-Common_RegulatedPackages.md) | [Microsoft-Windows-Multimedia-MF-merged]() | |
-| [Microsoft-Windows-Common-RegulatedPackages](./Removable-Packages-Details/Removable-Package-Common_RegulatedPackages.md) | [Microsoft-Windows-Multimedia-RestrictedCodecs]() | |
-| [Microsoft-Windows-Common-RegulatedPackages](./Removable-Packages-Details/Removable-Package-Common_RegulatedPackages.md) | [Microsoft-Windows-Multimedia-RestrictedCodecs-merged]() | |
-| [Microsoft-Windows-Common-RegulatedPackages](./Removable-Packages-Details/Removable-Package-Common_RegulatedPackages.md) | [Microsoft-Windows-Multimedia-WMPDMC]() | |
-| [Microsoft-Windows-Common-RegulatedPackages](./Removable-Packages-Details/Removable-Package-Common_RegulatedPackages.md) | [Microsoft-Windows-Portable-Devices]() | Media Transfer Protocol (MTP) |
-| [Microsoft-Windows-Common-RegulatedPackages](./Removable-Packages-Details/Removable-Package-Common_RegulatedPackages.md) | [Microsoft-Windows-Portable-Devices-merged]() | Media Transfer Protocol (MTP) |
-| [Microsoft-Windows-Common-RegulatedPackages](./Removable-Packages-Details/Removable-Package-Common_RegulatedPackages.md) | [Microsoft-Windows-WebcamExperience]() | |
-| [Microsoft-Windows-Common-RegulatedPackages](./Removable-Packages-Details/Removable-Package-Common_RegulatedPackages.md) | [Microsoft-Windows-WinSATMediaFiles]() | |
-| [Microsoft-Windows-Common-RegulatedPackages](./Removable-Packages-Details/Removable-Package-Common_RegulatedPackages.md) | [Microsoft-Windows-WPD-LegacyWmdmFeature-Feature]() | Windows Portable Devices|
-| [Microsoft-Windows-Common-RegulatedPackages](./Removable-Packages-Details/Removable-Package-Common_RegulatedPackages.md) | [Microsoft-Windows-WPD-UltimatePortableDeviceFeature-Feature]() | Windows Portable Devices |
-| [Microsoft-Windows-Common-RegulatedPackages](./Removable-Packages-Details/Removable-Package-Common_RegulatedPackages.md) | [Multimedia-MFCore]() | |
-| [Microsoft-Windows-Common-RegulatedPackages](./Removable-Packages-Details/Removable-Package-Common_RegulatedPackages.md) | [Multimedia-MFCore-WCOSHeadless]() | |
-| [Microsoft-Windows-Common-RegulatedPackages](./Removable-Packages-Details/Removable-Package-Common_RegulatedPackages.md) | [Multimedia-MFCore-WCOSMinusHeadless]() | |
-| [Microsoft-Windows-Common-RegulatedPackages](./Removable-Packages-Details/Removable-Package-Common_RegulatedPackages.md) | [Multimedia-RestrictedCodecsCore]() | |
-| [Microsoft-Windows-Common-RegulatedPackages](./Removable-Packages-Details/Removable-Package-Common_RegulatedPackages.md) | [Multimedia-RestrictedCodecsCore-Full]() | |
-| [Microsoft-Windows-Common-RegulatedPackages](./Removable-Packages-Details/Removable-Package-Common_RegulatedPackages.md) | [Multimedia-RestrictedCodecsCore-WCOSHeadless]() | |
-| [Microsoft-Windows-Common-RegulatedPackages](./Removable-Packages-Details/Removable-Package-Common_RegulatedPackages.md) | [Multimedia-RestrictedCodecsCore-WCOSMinusHeadless]() | |
-| [Microsoft-Windows-Common-RegulatedPackages](./Removable-Packages-Details/Removable-Package-Common_RegulatedPackages.md) | [Multimedia-RestrictedCodecsExt]() | |
-| [Microsoft-Windows-Common-RegulatedPackages](./Removable-Packages-Details/Removable-Package-Common_RegulatedPackages.md) | [Multimedia-RestrictedCodecsExt-WCOSHeadless]() | |
-| [Microsoft-Windows-Common-RegulatedPackages](./Removable-Packages-Details/Removable-Package-Common_RegulatedPackages.md) | [Multimedia-RestrictedCodecsExt-WCOSMinusHeadless]() | |
+| Removable Package  | Description |
+|:-------------------|-------------|
+| LanguageFeatures-Workbreaking-Common-legacy            | Legacy neutral word breaker, should only be needed in very rare app compat scenarios |
+| Microsoft-Media-Foundation                             | [Microsoft Media Foundation](/windows/win32/medfound/microsoft-media-foundation-sdk) enables the development of applications and components for using digital media. [Supported Media Formats in Media Foundation](/windows/win32/medfound/supported-media-formats-in-media-foundation). |
+| Microsoft-OneCore-Fonts-DesktopFonts-NonLeanSupplement | Fonts: [Malgun Gothic](/typography/font-list/malgun-gothic), [Microsoft JhengHei](/typography/font-list/microsoft-jhenghei), [Microsoft YaHei](/typography/font-list/microsoft-yahei), [Yu Gothic](/typography/font-list/yu-gothic) |
+| Microsoft-Windows-AppManagement-UEV                    | [User Experience Virtualization](/windows/configuration/ue-v/uev-for-windows) |
+| Microsoft-Windows-BioEnrollment-UX                     | [Windows Hello](/windows-hardware/design/device-experiences/windows-hello) |
+| Microsoft-Windows-BootEnvironment-Dvd                  | Boot from DVD |
+| Microsoft-Windows-Media-Format                         | Provides support for [Windows Media Device Manager](/windows/win32/wmdm/,windows-media-device-manager-architecture),  [Advanced Systems Format](/windows/win32/wmformat/overview-of-the-asf-format) (ASF) file container, the Windows Media audio and video codecs, basic network streaming capability, and [Digital Rights Management](/windows/win32/wmformat/overview-of-windows-media-drm). |
+| Microsoft-Windows-MediaPlayback-OC                     | Supports Windows Media Player |
+| Microsoft-Windows-Media-Streaming                      | Provides support for [Windows Media Streaming](/windows/win32/mediastreaming/media-streaming-api-portal). |
+| Microsoft-Windows-Portable-Devices                     | Supports connectivity to portable devices for [Windows Media Device Manager](/windows/win32/wmdm/,windows-media-device-manager-architecture). |
+| Microsoft-Windows-Printer-Drivers                      | Generic / Text Only, Generic IBM Graphics 9pin, Generic IBM Graphics 9pin wide, MS Publisher Color Printer, MS Publisher Imagesetter, Microsoft Shared Fax Driver |
+| Microsoft-Windows-Printing-PremiumTools                | Print services migration command-line tool printbrm.exe |
+| Microsoft-Windows-RecoveryDrive                        | Create a recovery drive user experience invoked from Control Panel - Recovery |
+| Microsoft-Windows-ScreenSavers-3D                      | Screensavers: 3D Text, Bubbles, Mystify and Ribbons |
+| Microsoft-Windows-SensorDataService                    | Sensor Data Service delivers data from a variety of sensors.  Supports Windows Hello.  |
+| Microsoft-Windows-ShellOptions                         | Modern Calculator, Character Map, More Icons DLL |
+| Microsoft-Windows-Shell-Wallpaper-Common               | Wallpaper images |
+| Microsoft-Windows-WebcamExperience                     | WebCam User Experience |
+| Microsoft-Windows-win32calc                            | Legacy Calculator Application|
+| Microsoft-Windows-WinSATMediaFiles                     | Media files for Windows System Assessment Tool |
 
 ## Additional Resources
 * [Removable Packages Blog](https://aka.ms/RemovablePackagesBlog)

@@ -6,17 +6,30 @@ ms.date: 12/7/2022
 ms.topic: article
 ms.prod: windows-iot
 ms.technology: iot
-description: Removable Package Details for AppManagment_UEV
+description: Removable Package Details for Microsoft-Windows-AppManagment-UEV
 keywords: IoT Enterprise, removable packages, storage
 ---
 
-# Removable Package: AppManagment_UEV
-## Description
+# Removable Package: Microsoft-Windows-AppManagment-UEV
+## Microsoft-Windows-AppManagment-UEV
 See [User Experience Virtualization](https://learn.microsoft.com/windows/configuration/ue-v/uev-for-windows) for a detailed description of this Windows feature.
-## Size
+
 Approximate on-disk footprint: 13,752 KB
 
-The size may vary based on security updates applied to the system.
+## Removing Package
+
+### Online Servicing (audit mode)
+Use the [DISM command-line tool](/windows-hardware/manufacture/desktop/what-is-dism) with the ```/Online``` command-line parammeter to remove a single package via online servicing (audit mode).
+
+```powershell
+Dism.exe /Online /LogPath:%TEMP%\Microsoft-Windows-AppManagment-UEV.log /NoRestart /Disable-Feature /FeatureName:Microsoft-Windows-AppManagment-UEV /PackageName:@Package
+````
+### Offline Servicing
+Use the [DISM command-line tool](/windows-hardware/manufacture/desktop/what-is-dism) with the ```/Image:<image path>``` command-line parameter to remove a single package via offline servicing.
+
+```powershell
+Dism.exe /Image:c:\offline /LogPath:%TEMP%\Microsoft-Windows-AppManagment-UEV.log /NoRestart /Disable-Feature /FeatureName:Microsoft-Windows-AppManagment-UEV /PackageName:@Package
+````
 
 ## File List
 

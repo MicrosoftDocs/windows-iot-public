@@ -6,20 +6,32 @@ ms.date: 12/7/2022
 ms.topic: article
 ms.prod: windows-iot
 ms.technology: iot
-description: Removable Package Details for ShellOptions
+description: Removable Package Details for Microsoft-Windows-ShellOptions
 keywords: IoT Enterprise, removable packages, storage
 ---
 
-# Removable Package: ShellOptions
-## Description
-<span style="color:red"> Need to author a description. </span>
+# Removable Package: Microsoft-Windows-ShellOptions
+## Microsoft-Windows-ShellOptions
+Modern Calculator, Character Map, More Icons DLL
 
-Sub-component of [Desktop_SharedPackages](/windows/iot/iot-enterprise/removable-packages/removable-package-details/removable-package-Desktop_SharedPackages)
-
-## Size
 Approximate on-disk footprint: 657 KB
 
-The size may vary based on security updates applied to the system.
+
+## Removing Package
+
+### Online Servicing (audit mode)
+Use the [DISM command-line tool](/windows-hardware/manufacture/desktop/what-is-dism) with the ```/Online``` command-line parammeter to remove a single package via online servicing (audit mode).
+
+```powershell
+Dism.exe /Online /LogPath:%TEMP%\Microsoft-Windows-ShellOptions.log /NoRestart /Disable-Feature /FeatureName:Microsoft-Windows-ShellOptions /PackageName:@Package
+````
+### Offline Servicing
+Use the [DISM command-line tool](/windows-hardware/manufacture/desktop/what-is-dism) with the ```/Image:<image path>``` command-line parameter to remove a single package via offline servicing.
+
+```powershell
+Dism.exe /Image:c:\offline /LogPath:%TEMP%\Microsoft-Windows-ShellOptions.log /NoRestart /Disable-Feature /FeatureName:Microsoft-Windows-ShellOptions /PackageName:@Package
+````
+
 ## File List
 | File Name | Installed Location |
 |-----------|--------------------|

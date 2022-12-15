@@ -6,20 +6,31 @@ ms.date: 12/7/2022
 ms.topic: article
 ms.prod: windows-iot
 ms.technology: iot
-description: Removable Package Details for Printer_Drivers
+description: Removable Package Details for Microsoft-Windows-Printer-Drivers
 keywords: IoT Enterprise, removable packages, storage
 ---
 
-# Removable Package: Printer_Drivers
-## Description
-<span style="color:red"> Need to author a description. </span>
+# Removable Package: Microsoft-Windows-Printer-Drivers
+## Microsoft-Windows-Printer-Drivers
+Generic / Text Only, Generic IBM Graphics 9pin, Generic IBM Graphics 9pin wide, MS Publisher Color Printer, MS Publisher Imagesetter, Microsoft Shared Fax Driver
 
-Sub-component of [Desktop_SharedPackages](/windows/iot/iot-enterprise/removable-packages/removable-package-details/removable-package-Desktop_SharedPackages)
+Approximate on-disk footprint: 8,200 KB
 
-## Size
-Approximate on-disk footprint: 8199 KB
+## Removing Package
 
-The size may vary based on security updates applied to the system.
+### Online Servicing (audit mode)
+Use the [DISM command-line tool](/windows-hardware/manufacture/desktop/what-is-dism) with the ```/Online``` command-line parammeter to remove a single package via online servicing (audit mode).
+
+```powershell
+Dism.exe /Online /LogPath:%TEMP%\Microsoft-Windows-Printer-Drivers.log /NoRestart /Disable-Feature /FeatureName:Microsoft-Windows-Printer-Drivers /PackageName:@Package
+````
+### Offline Servicing
+Use the [DISM command-line tool](/windows-hardware/manufacture/desktop/what-is-dism) with the ```/Image:<image path>``` command-line parameter to remove a single package via offline servicing.
+
+```powershell
+Dism.exe /Image:c:\offline /LogPath:%TEMP%\Microsoft-Windows-Printer-Drivers.log /NoRestart /Disable-Feature /FeatureName:Microsoft-Windows-Printer-Drivers /PackageName:@Package
+````
+
 ## File List
 | File Name | Installed Location |
 |-----------|--------------------|

@@ -6,18 +6,30 @@ ms.date: 12/7/2022
 ms.topic: article
 ms.prod: windows-iot
 ms.technology: iot
-description: Removable Package Details for BioEnrollment_UX
+description: Removable Package Details for Microsoft-Windows-BioEnrollment-UX
 keywords: IoT Enterprise, removable packages, storage
 ---
 
-# Removable Package: BioEnrollment_UX
-## Description
+# Removable Package: Microsoft-Windows-BioEnrollment-UX
+## Microsoft-Windows-BioEnrollment-UX
 See [Windows Hello](https://learn.microsoft.com/windows-hardware/design/device-experiences/windows-hello) enrollment experience for a detailed description of this Windows feature.
 
-## Size
 Approximate on-disk footprint: 3,589 KB
 
-The size may vary based on security updates applied to the system.
+## Removing Package
+
+### Online Servicing (audit mode)
+Use the [DISM command-line tool](/windows-hardware/manufacture/desktop/what-is-dism) with the ```/Online``` command-line parammeter to remove a single package via online servicing (audit mode).
+
+```powershell
+Dism.exe /Online /LogPath:%TEMP%\Microsoft-Windows-BioEnrollment-UX.log /NoRestart /Disable-Feature /FeatureName:Microsoft-Windows-BioEnrollment-UX /PackageName:@Package
+````
+### Offline Servicing
+Use the [DISM command-line tool](/windows-hardware/manufacture/desktop/what-is-dism) with the ```/Image:<image path>``` command-line parameter to remove a single package via offline servicing.
+
+```powershell
+Dism.exe /Image:c:\offline /LogPath:%TEMP%\Microsoft-Windows-BioEnrollment-UX.log /NoRestart /Disable-Feature /FeatureName:Microsoft-Windows-BioEnrollment-UX /PackageName:@Package
+````
 
 ## File List
 

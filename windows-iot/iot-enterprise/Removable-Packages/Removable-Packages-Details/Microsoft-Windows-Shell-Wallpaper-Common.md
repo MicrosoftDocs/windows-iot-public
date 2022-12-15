@@ -6,20 +6,31 @@ ms.date: 12/7/2022
 ms.topic: article
 ms.prod: windows-iot
 ms.technology: iot
-description: Removable Package Details for Shell_Wallpaper
+description: Removable Package Details for Microsoft-Windows-Shell-Wallpaper
 keywords: IoT Enterprise, removable packages, storage
 ---
 
-# Removable Package: Shell_Wallpaper
-## Description
-<span style="color:red"> Need to author a description. </span>
+# Removable Package: Microsoft-Windows-Shell-Wallpaper
+## Microsoft-Windows-Shell-Wallpaper
+Wallpaper images
 
-Sub-component of [Desktop_SharedPackages](/windows/iot/iot-enterprise/removable-packages/removable-package-details/removable-package-Desktop_SharedPackages)
-
-## Size
 Approximate on-disk footprint: 8,538 KB
 
-The size may vary based on security updates applied to the system.
+## Removing Package
+
+### Online Servicing (audit mode)
+Use the [DISM command-line tool](/windows-hardware/manufacture/desktop/what-is-dism) with the ```/Online``` command-line parammeter to remove a single package via online servicing (audit mode).
+
+```powershell
+Dism.exe /Online /LogPath:%TEMP%\Microsoft-Windows-Shell-Wallpaper.log /NoRestart /Disable-Feature /FeatureName:Microsoft-Windows-Shell-Wallpaper /PackageName:@Package
+````
+### Offline Servicing
+Use the [DISM command-line tool](/windows-hardware/manufacture/desktop/what-is-dism) with the ```/Image:<image path>``` command-line parameter to remove a single package via offline servicing.
+
+```powershell
+Dism.exe /Image:c:\offline /LogPath:%TEMP%\Microsoft-Windows-Shell-Wallpaper.log /NoRestart /Disable-Feature /FeatureName:Microsoft-Windows-Shell-Wallpaper /PackageName:@Package
+````
+
 
 ## File List
 | File Name | Installed Location |
