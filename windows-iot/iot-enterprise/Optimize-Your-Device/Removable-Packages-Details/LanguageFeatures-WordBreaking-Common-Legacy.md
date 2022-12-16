@@ -12,7 +12,7 @@ keywords: IoT Enterprise, removable packages, storage
 
 # Removable Package: LanguageFeatures_WordBreaking_Common_Legacy
 ## LanguageFeatures_WordBreaking_Common_Legacy
-Legacy neutral word breaker, should only be needed in occasional application compatability scenarios.
+Legacy neutral word breaker, should only be needed in occasional application compatibility scenarios.
 
 Approximate on-disk footprint: 1542 KB
 
