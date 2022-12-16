@@ -18,8 +18,8 @@ Approximate on-disk footprint: 1,312 KB
 
 ## Removing Package
 
-### Online Servicing (audit mode)
-Use the [DISM command-line tool](/windows-hardware/manufacture/desktop/what-is-dism) with the ```/Online``` command-line parameter to remove a single package via online servicing (audit mode).
+### Online Servicing 
+Use the [DISM command-line tool](/windows-hardware/manufacture/desktop/what-is-dism) with the ```/Online``` command-line parameter to remove a single package via online servicing .
 
 ```powershell
 Dism.exe /Online /LogPath:%WINDIR%\Temp\Microsoft-Windows-ScreenSavers-3d.log /NoRestart /Disable-Feature /FeatureName:Microsoft-Windows-ScreenSavers-3d /PackageName:@Package

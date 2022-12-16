@@ -12,14 +12,14 @@ keywords: IoT Enterprise, removable packages, storage
 
 # Removable Package: Microsoft-Windows-SensorDataService
 ## Microsoft-Windows-SensorDataService
-Component of the [Media Feature Pack](/windows/win32/wmdm/windows-media-device-manager-architecture) supporting data acquision from  a variety of sensors.  Supports Windows Hello.
+Component of the [Media Feature Pack](/windows/win32/wmdm/windows-media-device-manager-architecture) supporting data acquisition from various sensors.  Supports Windows Hello.
 
 Approximate on-disk footprint: 1367 KB
 
 ## Removing Package
 
-### Online Servicing (audit mode)
-Use the [DISM command-line tool](/windows-hardware/manufacture/desktop/what-is-dism) with the ```/Online``` command-line parameter to remove a single package via online servicing (audit mode).
+### Online Servicing 
+Use the [DISM command-line tool](/windows-hardware/manufacture/desktop/what-is-dism) with the ```/Online``` command-line parameter to remove a single package via online servicing .
 
 ```powershell
 Dism.exe /Online /LogPath:%WINDIR%\Temp\Microsoft-Windows-SensorDataService.log /NoRestart /Disable-Feature /FeatureName:Microsoft-Windows-SensorDataService /PackageName:@Package

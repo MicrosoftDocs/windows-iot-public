@@ -1,7 +1,7 @@
 ---
 title: Reduce Disk Footprint
-author: riameser
-ms.author: riameser
+author: twarwick
+ms.author: twarwick
 ms.date: 5/24/2022
 ms.topic: article
 ms.prod: windows-iot

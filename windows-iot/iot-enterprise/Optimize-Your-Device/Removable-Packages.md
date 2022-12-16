@@ -12,9 +12,9 @@ keywords: IoT Enterprise, removable packages, storage
 
 # Removable Packages
 ## Overview
-In addition to the image customizability provided by '[Enable or Disable Windows Features using DISM](https://learn.microsoft.com/windows-hardware/manufacture/desktop/enable-or-disable-windows-features-using-dism)' and '[Features on Demand](https://learn.microsoft.com/windows-hardware/manufacture/desktop/features-on-demand-v2--capabilities)', a device builder can remove extra packages from Windows IoT Enterprise LTSC using the methodes described in this article.
+In addition to the image customizability provided by '[Enable or Disable Windows Features using DISM](https://learn.microsoft.com/windows-hardware/manufacture/desktop/enable-or-disable-windows-features-using-dism)' and '[Features on Demand](https://learn.microsoft.com/windows-hardware/manufacture/desktop/features-on-demand-v2--capabilities)', a device builder can remove extra packages from Windows IoT Enterprise LTSC using the methods described in this article.
 
-Using the desktop manufacturing process to '[Modify a Windows image](/windows-hardware/manufacture/desktop/modify-an-image)', a device maker may use either '[Online servicing (audit mode)](/windows-hardware/manufacture/desktop/audit-mode-overview)' or '[Offline Servicing](/windows-hardware/manufacture/desktop/mount-and-modify-a-windows-image-using-dism)' methods to completely remove packages in the list below from '[Windows Component Store](https://learn.microsoft.com/windows-hardware/manufacture/desktop/manage-the-component-store)'. Once packages are removed from the Windows Component Store they cannot be added back to the operating system. Restoring removed packages requires a reinstallation.
+Using the desktop manufacturing process to '[Modify a Windows image](/windows-hardware/manufacture/desktop/modify-an-image)', a device maker may use either '[Online servicing ](/windows-hardware/manufacture/desktop/audit-mode-overview)' or '[Offline Servicing](/windows-hardware/manufacture/desktop/mount-and-modify-a-windows-image-using-dism)' methods to completely remove packages in the list below from '[Windows Component Store](https://learn.microsoft.com/windows-hardware/manufacture/desktop/manage-the-component-store)'. Once packages are removed from the Windows Component Store, they can't be added back to the operating system. Restoring removed packages requires a reinstallation.
 
 > [!Important]
 >
@@ -31,14 +31,14 @@ This feature is supported on Windows 10 IoT Enterprise LTSC 2021 (build 19044.17
  
 ## Removing Packages
 
-### Online Servicing (audit mode)
-Use the [DISM command-line tool](/windows-hardware/manufacture/desktop/what-is-dism) with the ```/Online``` command-line parammeter to remove a single package via online servicing (audit mode).
+### Online Servicing 
+Use the [DISM command-line tool](/windows-hardware/manufacture/desktop/what-is-dism) with the ```/Online``` command-line parameter to remove a single package via online servicing .
 
 ```powershell
 Dism.exe /Online /LogPath:<logfile> /NoRestart /Disable-Feature /FeatureName:<package name> /PackageName:@Package
 ```
 
-Example: Use DISM.exe to remove Windows calculator using online servicing (audit mode).
+Example: Use DISM.exe to remove Windows calculator using online servicing .
 ```powershell
 Dism.exe /Online /LogPath:%WINDIR%/Temp/remove_win32calc.log /NoRestart /Disable-Feature /FeatureName:Microsoft-Windows-win32calc /PackageName:@Package
 ````
@@ -75,10 +75,10 @@ The following packages can be removed from Windows IoT Enterprise LTSC 2021.  Cl
 | [Microsoft-Windows-Printing-PremiumTools](/windows/iot/iot-enterprise/Optimize-Your-Device/Removable-Packages-Details/Microsoft-Windows-Printing-PremiumTools)           | Print services migration command-line tool printbrm.exe |
 | [Microsoft-Windows-RecoveryDrive](/windows/iot/iot-enterprise/Optimize-Your-Device/Removable-Packages-Details/Microsoft-Windows-RecoveryDrive)                           | Create a recovery drive user experience invoked from Control Panel - Recovery |
 | [Microsoft-Windows-ScreenSavers-3D](/windows/iot/iot-enterprise/Optimize-Your-Device/Removable-Packages-Details/Microsoft-Windows-ScreenSavers-3D.md)                    | Screensavers: 3D Text, Bubbles, Mystify and Ribbons |
-| [Microsoft-Windows-SensorDataService](/windows/iot/iot-enterprise/Optimize-Your-Device/Removable-Packages-Details/Microsoft-Windows-SensorDataService.md)                | Component of the [Media Feature Pack](/windows/win32/wmdm/windows-media-device-manager-architecture) supporting data acquision from  a variety of sensors.  Supports Windows Hello.  |
+| [Microsoft-Windows-SensorDataService](/windows/iot/iot-enterprise/Optimize-Your-Device/Removable-Packages-Details/Microsoft-Windows-SensorDataService.md)                | Component of the [Media Feature Pack](/windows/win32/wmdm/windows-media-device-manager-architecture) supporting data acquisition from  various sensors.  Supports Windows Hello.  |
 | [Microsoft-Windows-ShellOptions](/windows/iot/iot-enterprise/Optimize-Your-Device/Removable-Packages-Details/Microsoft-Windows-ShellOptions.md)                          | Modern Calculator, Character Map, More Icons DLL |
 | [Microsoft-Windows-Shell-Wallpaper-Common](/windows/iot/iot-enterprise/Optimize-Your-Device/Removable-Packages-Details/Microsoft-Windows-Shell-Wallpaper-Common.md)      | Wallpaper images |
-| [Microsoft-Windows-WebcamExperience](/windows/iot/iot-enterprise/Optimize-Your-Device/Removable-Packages-Details/Microsoft-Windows-WebcamExperience.md)                  | Component of the [Media Feature Pack](/windows/win32/wmdm/windows-media-device-manager-architecture) supporting data acquision from  a variety of sensors.  Supports Windows Hello. |
+| [Microsoft-Windows-WebcamExperience](/windows/iot/iot-enterprise/Optimize-Your-Device/Removable-Packages-Details/Microsoft-Windows-WebcamExperience.md)                  | Component of the [Media Feature Pack](/windows/win32/wmdm/windows-media-device-manager-architecture) providing webcam user experience. |
 | [Microsoft-Windows-win32calc](/windows/iot/iot-enterprise/Optimize-Your-Device/Removable-Packages-Details/Microsoft-Windows-win32calc.md)                                | Legacy Calculator Application|
 | [Microsoft-Windows-WinSATMediaFiles](/windows/iot/iot-enterprise/Optimize-Your-Device/Removable-Packages-Details/Microsoft-Windows-WinSATMediaFiles.md)                  | Component of the [Media Feature Pack](/windows/win32/wmdm/windows-media-device-manager-architecture) comprised of media files for Windows System Assessment Tool. |
 
