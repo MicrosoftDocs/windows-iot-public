@@ -1,5 +1,5 @@
 ---
-title: Removable Packages
+title: Removable Package: Microsoft-Windows-Shell-Wallpaper
 author: twarwick
 ms.author: twarwick
 ms.date: 12/7/2022
