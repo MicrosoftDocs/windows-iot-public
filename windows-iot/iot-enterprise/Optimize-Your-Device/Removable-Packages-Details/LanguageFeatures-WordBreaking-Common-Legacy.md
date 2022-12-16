@@ -12,14 +12,14 @@ keywords: IoT Enterprise, removable packages, storage
 
 # Removable Package: LanguageFeatures_WordBreaking_Common_Legacy
 ## LanguageFeatures_WordBreaking_Common_Legacy
-Legacy neutral word breaker, should only be needed in very rare app compat scenarios
+Legacy neutral word breaker, should only be needed in occasional application compatability scenarios.
 
 Approximate on-disk footprint: 1542 KB
 
 ## Removing Package
 
 ### Online Servicing (audit mode)
-Use the [DISM command-line tool](/windows-hardware/manufacture/desktop/what-is-dism) with the ```/Online``` command-line parammeter to remove a single package via online servicing (audit mode).
+Use the [DISM command-line tool](/windows-hardware/manufacture/desktop/what-is-dism) with the ```/Online``` command-line parameter to remove a single package via online servicing (audit mode).
 
 ```powershell
 Dism.exe /Online /LogPath:%WINDIR%\Temp\LanguageFeatures_WordBreaking_Common_Legacy.log /NoRestart /Disable-Feature /FeatureName:LanguageFeatures_WordBreaking_Common_Legacy /PackageName:@Package

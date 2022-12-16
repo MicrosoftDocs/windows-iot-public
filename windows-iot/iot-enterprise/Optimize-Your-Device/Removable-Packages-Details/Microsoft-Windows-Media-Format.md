@@ -12,14 +12,14 @@ keywords: IoT Enterprise, removable packages, storage
 
 # Removable Package: Microsoft-Windows-Media-Format
 ## Microsoft-Windows-Media-Format
-Provides support for [Windows Media Device Manager](/windows/win32/wmdm/windows-media-device-manager-architecture),  [Advanced Systems Format](/windows/win32/wmformat/overview-of-the-asf-format) (ASF) file container, the Windows Media audio and video codecs, basic network streaming capability, and [Digital Rights Management](/windows/win32/wmformat/overview-of-windows-media-drm).
+Component of the [Media Feature Pack](/windows/win32/wmdm/windows-media-device-manager-architecture) comprised of support for [Windows Media Device Manager](/windows/win32/wmdm/windows-media-device-manager-architecture),  [Advanced Systems Format](/windows/win32/wmformat/overview-of-the-asf-format) (ASF) file container, Windows Media audio and video codecs, basic network streaming, and [Digital Rights Management](/windows/win32/wmformat/overview-of-windows-media-drm).
 
 Approximate on-disk footprint: 5,559 KB
 
 ## Removing Package
 
 ### Online Servicing (audit mode)
-Use the [DISM command-line tool](/windows-hardware/manufacture/desktop/what-is-dism) with the ```/Online``` command-line parammeter to remove a single package via online servicing (audit mode).
+Use the [DISM command-line tool](/windows-hardware/manufacture/desktop/what-is-dism) with the ```/Online``` command-line parameter to remove a single package via online servicing (audit mode).
 
 ```powershell
 Dism.exe /Online /LogPath:%WINDIR%\Temp\Microsoft-Windows-BootEnvironment-Dvd.log /NoRestart /Disable-Feature /FeatureName:Microsoft-Windows-BootEnvironment-Dvd /PackageName:@Package
@@ -32,7 +32,8 @@ Dism.exe /Image:c:\offline /LogPath:%WINDIR%\Temp\Microsoft-Windows-BootEnvironm
 ````
 
 ## Related Packages
-These packages collectively provide the functionality represented by the the [Media Feature Pack](https://learn.microsoft.com/en-us/windows/win32/wmdm/windows-media-device-manager-architecture).  There are dependencies between each of these packages.  Although it is possible, it is not recommended to remove a subset of these packages.
+These packages collectively provide the functionality represented by the [Media Feature Pack](https://learn.microsoft.com/en-us/windows/win32/wmdm/windows-media-device-manager-architecture).  There are dependencies between each of these packages.  Although it's possible, it isn't recommended to remove a subset of these packages.
+
 - [Microsoft-Media-Foundation](/windows/iot/iot-enterprise/Optimize-Your-Device/Removable-Packages-Details/Microsoft-Media-Foundation)
 - [Microsoft-Windows-Media-Format](/windows/iot/iot-enterprise/Optimize-Your-Device/Removable-Packages-Details/Microsoft-Windows-Media-Format)
 - [Microsoft-Windows-Media-Streaming](/windows/iot/iot-enterprise/Optimize-Your-Device/Removable-Packages-Details/Microsoft-Windows-Media-Streaming) 

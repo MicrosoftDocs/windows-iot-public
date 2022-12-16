@@ -20,7 +20,7 @@ Approximate on-disk footprint: 1394 KB
 ## Removing Package
 
 ### Online Servicing (audit mode)
-Use the [DISM command-line tool](/windows-hardware/manufacture/desktop/what-is-dism) with the ```/Online``` command-line parammeter to remove a single package via online servicing (audit mode).
+Use the [DISM command-line tool](/windows-hardware/manufacture/desktop/what-is-dism) with the ```/Online``` command-line parameter to remove a single package via online servicing (audit mode).
 
 ```powershell
 Dism.exe /Online /LogPath:%WINDIR%\Temp\Microsoft-Windows-win32calc.log /NoRestart /Disable-Feature /FeatureName:Microsoft-Windows-win32calc /PackageName:@Package
