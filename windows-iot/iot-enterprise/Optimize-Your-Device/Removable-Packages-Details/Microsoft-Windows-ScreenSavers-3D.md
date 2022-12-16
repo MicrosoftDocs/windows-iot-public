@@ -1,5 +1,5 @@
 ---
-title: Removable Package: Microsoft-Windows-ScreenSavers-3d
+title: Removable Package Microsoft-Windows-ScreenSavers-3d
 author: twarwick
 ms.author: twarwick
 ms.date: 12/7/2022

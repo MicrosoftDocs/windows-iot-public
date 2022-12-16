@@ -1,5 +1,5 @@
 ---
-title: Removable Package: Microsoft-Windows-MediaPlayback-OC
+title: Removable Package Microsoft-Windows-MediaPlayback-OC
 author: twarwick
 ms.author: twarwick
 ms.date: 12/7/2022

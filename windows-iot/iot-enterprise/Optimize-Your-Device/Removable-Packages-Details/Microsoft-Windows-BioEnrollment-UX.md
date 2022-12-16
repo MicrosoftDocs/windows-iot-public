@@ -1,5 +1,5 @@
 ---
-title: Removable Package: Microsoft-Windows-BioEnrollment-UX
+title: Removable Package Microsoft-Windows-BioEnrollment-UX
 author: twarwick
 ms.author: twarwick
 ms.date: 12/7/2022

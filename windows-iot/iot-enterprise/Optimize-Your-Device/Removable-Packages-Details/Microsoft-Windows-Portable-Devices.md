@@ -1,5 +1,5 @@
 ---
-title: Removable Package: Microsoft-Windows-Portable-Devices
+title: Removable Package Microsoft-Windows-Portable-Devices
 author: twarwick
 ms.author: twarwick
 ms.date: 12/7/2022

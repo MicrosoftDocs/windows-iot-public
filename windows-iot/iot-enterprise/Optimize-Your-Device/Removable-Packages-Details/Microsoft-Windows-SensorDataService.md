@@ -1,5 +1,5 @@
 ---
-title: Removable Package: Microsoft-Windows-SensorDataService
+title: Removable Package Microsoft-Windows-SensorDataService
 author: twarwick
 ms.author: twarwick
 ms.date: 12/7/2022

@@ -1,5 +1,5 @@
 ---
-title: Removable Package: Microsoft-Windows-AppManagment-UEV
+title: Removable Package Microsoft-Windows-AppManagment-UEV
 author: twarwick
 ms.author: twarwick
 ms.date: 12/7/2022

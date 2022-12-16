@@ -1,5 +1,5 @@
 ---
-title: Removable Package: Fonts_DesktopFonts_NonLeanSupplement
+title: Removable Package Fonts_DesktopFonts_NonLeanSupplement
 author: twarwick
 ms.author: twarwick
 ms.date: 12/7/2022

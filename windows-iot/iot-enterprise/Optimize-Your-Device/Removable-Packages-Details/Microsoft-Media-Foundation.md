@@ -1,5 +1,5 @@
 ---
-title: Removable Package: Microsoft-Media-Foundation
+title: Removable Package Microsoft-Media-Foundation
 author: twarwick
 ms.author: twarwick
 ms.date: 12/7/2022
