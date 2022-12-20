@@ -1,74 +1,116 @@
-### YamlMime:Landing
+### YamlMime:Hub
 
-title: What's new in Windows IoT Enterprise
-summary: Find out about new features and capabilities in the latest release of Windows IoT Enterprise.
+title: Windows for IoT Documentation
+summary: Windows for IoT, formerly Windows Embedded, is a family of operating systems from Microsoft designed for use in embedded systems.
+brand: windows ## Used for color theming of icons and hero area
 
 metadata:
-  title: What's new in Windows IoT Enterprise
-  description: Find out about new features and capabilities in the latest release of Windows IoT Enterprise.
+  title: Windows for IoT Documentation
+  description: The Windows for IoT platform has multiple editions, each optimized for specific scenarios. They all share the security, manageability, support and cloud connectivity you expect from Windows.
+  ms.topic: hub-page
   ms.prod: windows-iot
-  ms.technology: windows-iot
-  ms.topic: landing-page
-  ms.collection:
-    - highpri
-  author: twarwick
-  ms.author: twarwick
-  manager: shahin
-  ms.date: 11/14/2022
-  localization_priority: medium
+  ms.technology: iot
+  author: rsameser
+  ms.author: riameser
+  ms.date: 10/19/2022
 
-landingContent:
+# itemType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | tutorial | whats-new
 
-  - title: Windows IoT Enterprise LTSC
-    linkLists:
-      - linkListType: overview
-        links:
-          - text: 2021
-            url: windows-11-overview.md
-          - text: 2019
-            url: windows-11-requirements.md
-          - text: 2016
-            url: windows-11-plan.md
-          - text: 2015
-            url: windows-11-prepare.md
+highlightedContent:
+  items:
+    - title: What is Windows for IoT?
+      itemType: overview # controls the icon image and super-title text
+      url: ./product-family/windows-iot.md
+    - title: What's new in Windows 10 IoT Enterprise, version 21H2 
+      itemType: reference
+      url: /windows/iot/product-family/what's-new-in-windows-10-iot-enterprise-21h2
+    - title: What's new in Windows 11 IoT Enterprise 
+      itemType: reference
+      url: /windows/iot/product-family/what's-new-in-windows-11-iot-enterprise
+    - title: Windows for IoT News
+      itemType: whats-new
+      url: ./product-family/News-Blogs.md
 
-- title: Windows 11 IoT Enterprise
-    linkLists:
-      - linkListType: overview
-        links:
-          - text: 21h2
-            url: windows-11-overview.md
-          - text: 22H2
-            url: windows-11-requirements.md
 
-  - title: Windows 10 IoT Enterprise
-    linkLists:
-      - linkListType: overview
-        links:
-          - text: version 22H2
-            url: whats-new-windows-10-version-22h2.md
-          - text: version 21H2
-            url: whats-new-windows-10-version-21h2.md
-          - text: What's new in Windows 10, version 21H1
-            url: whats-new-windows-10-version-21h1.md
+productDirectory:
+  items:
+    - title: Windows IoT Enterprise
+      imageSrc: ./media/index/windows.png
+      links:
+        - url: ./iot-enterprise/Getting_Started.md
+          text: Overview
+        - url: ./iot-enterprise/Commercialization/Manufacturing-Guide.md
+          text: Manufacturing Guide
+        - url: ./iot-enterprise/Kiosk-Mode/Kiosk-Mode.md
+          text: Kiosk Mode
+    - title: Windows Server IoT 2022
+      imageSrc: ./media/index/windows.png
+      links:
+        - url: ./server/windows-server.md
+          text: Overview
+        - url: /windows-server/get-started/whats-new-in-windows-server-2022
+          text:  What's new in Windows Server 2022?
+        - url: /windows-server/get-started/get-started-with-windows-server
+          text:  Get Started with Windows Server
+    - title: Azure IoT Edge for Linux on Windows
+      imageSrc: ./media/index/windows.png
+      links:
+        - url: /azure/iot-edge/iot-edge-for-linux-on-windows?view=iotedge-2018-06
+          text: Overview
+        - url: /azure/iot-edge/quickstart?view=iotedge-2018-06
+          text: Quickstart
+        - url: /azure/iot-edge/how-to-install-iot-edge-on-windows?view=iotedge-2018-06&tabs=powershell
+          text: How-to Guide
+    - title: Windows CE Migration
+      imageSrc: ./media/index/windows.png
+      links:
+        - url: ./windows_ce/windows-ce-migration-faq.md
+          text:  Frequently Asked Questions
+        - url: ./windows_ce/windows-ce-app-container-overview.md
+          text:  Windows CE App Container
+        - url: ./windows_ce/windows-ce-app-container-getting-started.md
+          text:  Getting Started with Windows CE App Container
+    - title: Windows 10 IoT Core
+      imageSrc: ./media/index/windows.png
+      links:
+        - url: /windows/iot-core/windows-iot-core
+          text: Overview
+        - url: /windows-hardware/manufacture/iot/iot-core-manufacturing-guide
+          text: Manufacturing Guide
+        - url: /windows/iot-core/connect-your-device/iotdashboard
+          text: Dashboard
+    - title: Windows 10 IoT Core Services
+      imageSrc: ./media/index/windows.png
+      links:
+        - url: /windows-hardware/manufacture/iot/iotcoreservicesoverview
+          text: Overview
+        - url: /windows/deployment/update/waas-overview#long-term-servicing-channel
+          text: Windows Long-Term Servicing Channel (LTSC) Releases
+        - url: /windows-hardware/service/iot/using-device-update-center
+          text: Device Update Center
 
-  - title: Learn more
-    linkLists:
-      - linkListType: overview
-        links:
-          - text: Windows 11 release information
-            url: /windows/release-health/windows11-release-information
-          - text: Windows release health dashboard
-            url: /windows/release-health/
-          - text: Windows 11 update history
-            url: https://support.microsoft.com/topic/windows-11-version-22h2-update-history-ec4229c3-9c5f-4e75-9d6d-9025ab70fcce
-          - text: Windows 10 update history
-            url: https://support.microsoft.com/topic/windows-10-update-history-857b8ccb-71e4-49e5-b3f6-7073197d98fb
-          - text: Windows features we're no longer developing
-            url: deprecated-features.md
-          - text: Features and functionality removed in Windows
-            url: removed-features.md
-          - text: Compare Windows 11 Editions
-            url: https://www.microsoft.com/windows/business/compare-windows-11
-          - text: Windows 10 Enterprise LTSC
-            url: ltsc/index.md
+conceptualContent:
+  items:
+    - title: Get Started
+      links:
+        - url: ./iot-enterprise/Commercialization/Licensing.md
+          itemType: overview
+          text:  OEMs & Licensing
+        - url: https://aka.ms/IoTDistributorList
+          itemType: how-to-guide
+          text:  Distributor Information
+        - url: /windows-hardware/design/minimum/minimum-hardware-requirements-overview
+          itemType: quickstart
+          text:  Hardware Compatability List
+
+    - title: Resources
+      links:
+        - url: ./product-family/Product-Lifecycle.md
+          itemType: reference
+          text:  Windows for IoT Product Lifecycle
+        - url: https://www.youtube.com/channel/UCL7wy-iy_V76xxPnrIzGOZQ
+          itemType: reference
+          text:  Microsoft IoT Developer
+        - url: https://channel9.msdn.com/
+          itemType: reference
+          text: Channel 9
