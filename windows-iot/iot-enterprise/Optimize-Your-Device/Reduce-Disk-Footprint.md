@@ -2,7 +2,7 @@
 title: Reduce Disk Footprint
 author: twarwick
 ms.author: twarwick
-ms.date: 5/24/2022
+ms.date: 12/20/2022
 ms.topic: article
 ms.prod: windows-iot
 ms.technology: iot
@@ -19,7 +19,7 @@ Compact OS installs the operating system files as compressed files. Compact OS i
 Learn more about [how to enable Compact OS](/windows-hardware/manufacture/desktop/iot-ent-optimize-images?view=windows-11&preserve-view=true) and [how to check if you're running Compact OS](/windows-hardware/manufacture/desktop/compact-os?view=windows-11#check-if-youre-running-compact-os&preserve-view=true).
 
 ## Single-instancing of PPKGs
-When you add new Windows desktop applications to a device, you'll capture these changes into a compressed provisioning package for use by the automatic recovery tools. Rather than maintaining both the original files and the provisioning package, you can use DISM to remove the original files, and run from directly from the compressed provisioning package instead. This process is known as [single-instancing the image](/windows-hardware/manufacture/desktop/compact-os?view=windows-11#single-instancing-of-provisioning-packages&preserve-view=true).
+When you add new Windows desktop applications to a device, you'll capture these changes into a compressed provisioning package for use by the automatic recovery tools. Rather than maintaining both the original files and the provisioning package, you can use DISM to remove the original files, and run directly from the compressed provisioning package instead. This process is known as [single-instancing the image](/windows-hardware/manufacture/desktop/compact-os?view=windows-11#single-instancing-of-provisioning-packages&preserve-view=true).
 
 While single-instancing is supported on both solid-state drives and rotational drives, for performance reasons, you should only use single-instancing on devices with solid-state drives.
 
