@@ -1,15 +1,15 @@
 ---
 title: Windows 10 Enterprise LTSC
 description: New and updated IT Pro content about new features in Windows 10, LTSC (also known as Windows 10 LTSB).
-ms.prod: windows-client
-author: aczechowski
-ms.author: aaroncz
-manager: dougeby
+ms.prod: iot
+author: TerryWarwick
+ms.author: twarwich
+manager: shahin
 ms.localizationpriority: low
 ms.topic: article
 ms.collection: highpri
-ms.technology: itpro-fundamentals
-ms.date: 12/31/2017
+ms.technology: Windows-iot
+ms.date: 12/1/2022
 ---
 
 # Windows 10 Enterprise LTSC
