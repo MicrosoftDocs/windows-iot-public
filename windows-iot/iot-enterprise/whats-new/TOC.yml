@@ -1,6 +1,6 @@
 - name: What's new in Windows IoT Enterprise
   href: index.yml
-- name: Windows 11
+- name: Windows 11 IoT Enterprise
   expanded: true
   items:
     - name: Windows 11 overview
@@ -13,7 +13,7 @@
       href: windows-11-prepare.md
     - name: What's new in Windows 11, version 22H2
       href: whats-new-windows-11-version-22h2.md
-- name: Windows 10
+- name: Windows 10 IoT Enterprise
   expanded: true
   items:
     - name: What's new in Windows 10, version 22H2
