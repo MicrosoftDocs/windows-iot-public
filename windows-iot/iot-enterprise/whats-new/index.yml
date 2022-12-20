@@ -1,25 +1,25 @@
 ### YamlMime:Landing
 
-title: What's new in Windows
+title: What's new in Windows IoT Enterprise
 summary: Find out about new features and capabilities in the latest release of Windows client for IT professionals.
 
 metadata:
   title: What's new in Windows
   description: Find out about new features and capabilities in the latest release of Windows client for IT professionals.
-  ms.prod: windows-client
-  ms.technology: itpro-fundamentals
+  ms.prod: windows-iot
+  ms.technology: windows-iot
   ms.topic: landing-page
   ms.collection:
     - highpri
-  author: aczechowski
-  ms.author: aaroncz
-  manager: dougeby
+  author: twarwick
+  ms.author: twarwick
+  manager: shahin
   ms.date: 11/14/2022
   localization_priority: medium
 
 landingContent:
 
-  - title: Windows 11
+  - title: Windows IoT Enterprise LTSC
     linkLists:
       - linkListType: overview
         links:
@@ -32,7 +32,20 @@ landingContent:
           - text: Prepare for Windows 11
             url: windows-11-prepare.md
 
-  - title: Windows 10
+- title: Windows 11 IoT Enterprise
+    linkLists:
+      - linkListType: overview
+        links:
+          - text: Windows 11 overview
+            url: windows-11-overview.md
+          - text: Windows 11 requirements
+            url: windows-11-requirements.md
+          - text: Plan for Windows 11
+            url: windows-11-plan.md
+          - text: Prepare for Windows 11
+            url: windows-11-prepare.md
+
+  - title: Windows 10 IoT Enterprise
     linkLists:
       - linkListType: overview
         links:
