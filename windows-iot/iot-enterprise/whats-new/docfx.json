@@ -3,65 +3,49 @@
     "content": [
       {
         "files": [
-          "**/**/*.md",
-          "**/**/*.yml"
+          "**/*.md",
+          "**/*.yml"
         ],
         "exclude": [
           "**/obj/**",
           "**/includes/**",
+          "**/docfx.json",
+          "_themes/**",
+          "_themes.pdf/**",
+          "_repo.en-us/**",
           "README.md",
           "LICENSE",
           "LICENSE-CODE",
-          "ThirdPartyNotices"
+          "ThirdPartyNotices.md"
         ]
       }
     ],
     "resource": [
       {
         "files": [
-          "**/**/*.png",
-          "**/**/*.jpg",
-          "**/*.svg",
-          "**/**/*.gif"
+          "**/*.png",
+          "**/*.jpg"
         ],
         "exclude": [
           "**/obj/**",
-          "**/includes/**"
+          "**/includes/**",
+          "**/docfx.json",
+          "_themes/**",
+          "_themes.pdf/**",
+          "_repo.en-us/**"
         ]
       }
     ],
     "overwrite": [],
     "externalReference": [],
     "globalMetadata": {
-      "recommendations": true,
-      "breadcrumb_path": "/windows/resources/breadcrumb/toc.json",
-      "uhfHeaderId": "MSDocsHeader-M365-IT",
-      "ms.topic": "article",
-      "audience": "ITPro",
-      "feedback_system": "GitHub",
-      "feedback_github_repo": "MicrosoftDocs/windows-itpro-docs",
-      "feedback_product_url": "https://support.microsoft.com/windows/send-feedback-to-microsoft-with-the-feedback-hub-app-f59187f8-8739-22d6-ba93-f66612949332",
-      "_op_documentIdPathDepotMapping": {
-        "./": {
-          "depot_name": "MSDN.win-whats-new",
-          "folder_relative_path_in_docset": "./"
-        }
-      },
-      "titleSuffix": "What's new in Windows",
-      "contributors_to_exclude": [
-        "rjagiewich", 
-        "traya1", 
-        "rmca14", 
-        "claydetels19", 
-        "jborsecnik",
-        "tiburd",
-        "garycentric"
-      ],
-      "searchScope": ["Windows 10"]
+      "breadcrumb_path": "/windows/iot/breadcrumb/toc.json",
+      "extendBreadcrumb": false,
+      "uhfHeaderId": "MSDocsHeader-Windows-IoT.yml",
+      "feedback_system": "None"
     },
     "fileMetadata": {},
     "template": [],
-    "dest": "win-whats-new",
-    "markdownEngineName": "markdig"
+    "dest": "windows-iot-docset"
   }
 }
