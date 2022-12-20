@@ -1,4 +1,4 @@
-name: What's new in Windows
+- name: What's new in Windows
   href: index.yml
 - name: Windows 11
   expanded: true
