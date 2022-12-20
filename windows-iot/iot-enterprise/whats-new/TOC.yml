@@ -1,5 +1,5 @@
 - name: What's new in Windows
-  href: index.mdl
+  href: index.md
 - name: Windows IoT Enterprise LTSC
   expanded: true
   items: 
