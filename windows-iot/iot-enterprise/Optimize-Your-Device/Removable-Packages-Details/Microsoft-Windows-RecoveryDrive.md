@@ -14,7 +14,7 @@ keywords: IoT Enterprise, removable packages, storage
 ## Microsoft-Windows-RecoveryDrive
 Create a recovery drive user experience invoked from Control Panel - Recovery
 
-Approximate on-disk footprint: 1041 KB
+Approximate on-disk footprint: 1,041 KB
 
 ## Removing Package
 
