@@ -14,7 +14,7 @@ keywords: IoT Enterprise, removable packages, storage
 ## Microsoft-Windows-Portable-Devices
 A component of the [Media Feature Pack](/windows/win32/wmdm/windows-media-device-manager-architecture) providing connectivity to portable devices for [Windows Media Device Manager](/windows/win32/wmdm/,windows-media-device-manager-architecture).
 
-Approximate on-disk footprint: TBD
+Approximate on-disk footprint: 6,405 KB
 
 ## Removing Package
 
