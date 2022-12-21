@@ -2,7 +2,7 @@
 title: Removable Packages
 author: twarwick
 ms.author: twarwick
-ms.date: 12/7/2022
+ms.date: 12/20/2022
 ms.topic: article
 ms.prod: windows-iot
 ms.technology: iot
@@ -68,9 +68,9 @@ The following packages can be removed from Windows IoT Enterprise LTSC 2021.  Cl
 | [Microsoft-Windows-BioEnrollment-UX](/windows/iot/iot-enterprise/Optimize-Your-Device/Removable-Packages-Details/Microsoft-Windows-BioEnrollment-UX)                     | [Windows Hello](/windows-hardware/design/device-experiences/windows-hello) |
 | [Microsoft-Windows-BootEnvironment-Dvd](/windows/iot/iot-enterprise/Optimize-Your-Device/Removable-Packages-Details/Microsoft-Windows-BootEnvironment-Dvd)               | Boot from DVD |
 | [Microsoft-Windows-Media-Format](/windows/iot/iot-enterprise/Optimize-Your-Device/Removable-Packages-Details/Microsoft-Windows-Media-Format)                             | A component of the [Media Feature Pack](/windows/win32/wmdm/windows-media-device-manager-architecture) comprised of support for [Windows Media Device Manager](/windows/win32/wmdm/windows-media-device-manager-architecture),  [Advanced Systems Format](/windows/win32/wmformat/overview-of-the-asf-format) (ASF) file container, Windows Media audio and video codecs, basic network streaming, and [Digital Rights Management](/windows/win32/wmformat/overview-of-windows-media-drm). |
-| [Microsoft-Windows-MediaPlayback-OC](/windows/iot/iot-enterprise/Optimize-Your-Device/Removable-Packages-Details/Microsoft-Windows-MediaPlayback-OC)                     | Component of the [Media Feature Pack](/windows/win32/wmdm/windows-media-device-manager-architecture) supporting Windows Media Player. |
+| [Microsoft-Windows-MediaPlayback-OC](/windows/iot/iot-enterprise/Optimize-Your-Device/Removable-Packages-Details/Microsoft-Windows-MediaPlayback-OC)                     | A component of the [Media Feature Pack](/windows/win32/wmdm/windows-media-device-manager-architecture) supporting Windows Media Player. |
 | [Microsoft-Windows-Media-Streaming](/windows/iot/iot-enterprise/Optimize-Your-Device/Removable-Packages-Details/Microsoft-Windows-Media-Streaming)                       | A component of the [Media Feature Pack](/windows/win32/wmdm/windows-media-device-manager-architecture) providing support for [Windows Media Streaming](/windows/win32/mediastreaming/media-streaming-api-portal). |
-| [Microsoft-Windows-Portable-Devices](/windows/iot/iot-enterprise/Optimize-Your-Device/Removable-Packages-Details/Microsoft-Windows-Portable-Devices)                     | Component of the [Media Feature Pack](/windows/win32/wmdm/windows-media-device-manager-architecture) providing connectivity to portable devices for [Windows Media Device Manager](/windows/win32/wmdm/,windows-media-device-manager-architecture). |
+| [Microsoft-Windows-Portable-Devices](/windows/iot/iot-enterprise/Optimize-Your-Device/Removable-Packages-Details/Microsoft-Windows-Portable-Devices)                     | A component of the [Media Feature Pack](/windows/win32/wmdm/windows-media-device-manager-architecture) providing connectivity to portable devices for [Windows Media Device Manager](/windows/win32/wmdm/,windows-media-device-manager-architecture). |
 | [Microsoft-Windows-Printer-Drivers](/windows/iot/iot-enterprise/Optimize-Your-Device/Removable-Packages-Details/Microsoft-Windows-Printer-Drivers)                       | Generic / Text Only, Generic IBM Graphics 9pin, Generic IBM Graphics 9-pin wide, MS Publisher Color Printer, MS Publisher Imagesetter, Microsoft Shared Fax Driver |
 | [Microsoft-Windows-Printing-PremiumTools](/windows/iot/iot-enterprise/Optimize-Your-Device/Removable-Packages-Details/Microsoft-Windows-Printing-PremiumTools)           | Print services migration command-line tool printbrm.exe |
 | [Microsoft-Windows-RecoveryDrive](/windows/iot/iot-enterprise/Optimize-Your-Device/Removable-Packages-Details/Microsoft-Windows-RecoveryDrive)                           | Create a recovery drive user experience invoked from Control Panel - Recovery |
@@ -78,9 +78,9 @@ The following packages can be removed from Windows IoT Enterprise LTSC 2021.  Cl
 | [Microsoft-Windows-SensorDataService](/windows/iot/iot-enterprise/Optimize-Your-Device/Removable-Packages-Details/Microsoft-Windows-SensorDataService.md)                | Component of the [Media Feature Pack](/windows/win32/wmdm/windows-media-device-manager-architecture) supporting data acquisition from  various sensors.  Supports Windows Hello.  |
 | [Microsoft-Windows-ShellOptions](/windows/iot/iot-enterprise/Optimize-Your-Device/Removable-Packages-Details/Microsoft-Windows-ShellOptions.md)                          | Modern Calculator, Character Map, More Icons DLL |
 | [Microsoft-Windows-Shell-Wallpaper-Common](/windows/iot/iot-enterprise/Optimize-Your-Device/Removable-Packages-Details/Microsoft-Windows-Shell-Wallpaper-Common.md)      | Wallpaper images |
-| [Microsoft-Windows-WebcamExperience](/windows/iot/iot-enterprise/Optimize-Your-Device/Removable-Packages-Details/Microsoft-Windows-WebcamExperience.md)                  | Component of the [Media Feature Pack](/windows/win32/wmdm/windows-media-device-manager-architecture) providing webcam user experience. |
+| [Microsoft-Windows-WebcamExperience](/windows/iot/iot-enterprise/Optimize-Your-Device/Removable-Packages-Details/Microsoft-Windows-WebcamExperience.md)                  | A component of the [Media Feature Pack](/windows/win32/wmdm/windows-media-device-manager-architecture) providing webcam user experience. |
 | [Microsoft-Windows-win32calc](/windows/iot/iot-enterprise/Optimize-Your-Device/Removable-Packages-Details/Microsoft-Windows-win32calc.md)                                | Legacy Calculator Application|
-| [Microsoft-Windows-WinSATMediaFiles](/windows/iot/iot-enterprise/Optimize-Your-Device/Removable-Packages-Details/Microsoft-Windows-WinSATMediaFiles.md)                  | Component of the [Media Feature Pack](/windows/win32/wmdm/windows-media-device-manager-architecture) comprised of media files for Windows System Assessment Tool. |
+| [Microsoft-Windows-WinSATMediaFiles](/windows/iot/iot-enterprise/Optimize-Your-Device/Removable-Packages-Details/Microsoft-Windows-WinSATMediaFiles.md)                  | A component of the [Media Feature Pack](/windows/win32/wmdm/windows-media-device-manager-architecture) comprised of media files for Windows System Assessment Tool. |
 
 ## More Resources
 * [Removable Packages Blog](https://aka.ms/RemovablePackagesBlog)
