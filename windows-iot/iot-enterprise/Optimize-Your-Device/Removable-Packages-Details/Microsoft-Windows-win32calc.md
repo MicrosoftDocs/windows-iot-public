@@ -14,7 +14,7 @@ keywords: IoT Enterprise, removable packages, storage
 ## Microsoft-Windows-win32calc
 Legacy calculator application
 
-Approximate on-disk footprint: 1394 KB
+Approximate on-disk footprint: 1,394 KB
 
 
 ## Removing Package
