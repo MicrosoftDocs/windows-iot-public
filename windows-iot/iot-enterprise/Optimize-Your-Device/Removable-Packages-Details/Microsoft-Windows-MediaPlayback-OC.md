@@ -2,7 +2,7 @@
 title: Removable Package Microsoft-Windows-MediaPlayback-OC
 author: twarwick
 ms.author: twarwick
-ms.date: 12/7/2022
+ms.date: 12/20/2022
 ms.topic: article
 ms.prod: windows-iot
 ms.technology: iot
@@ -12,7 +12,7 @@ keywords: IoT Enterprise, removable packages, storage
 
 # Removable Package: Microsoft-Windows-MediaPlayback-OC
 ## Microsoft-Windows-MediaPlayback-OC
-Component of the [Media Feature Pack](/windows/win32/wmdm/windows-media-device-manager-architecture) supporting Windows Media Player.
+A component of the [Media Feature Pack](/windows/win32/wmdm/windows-media-device-manager-architecture) supporting Windows Media Player.
 
 Approximate on-disk footprint: 6,445
 
