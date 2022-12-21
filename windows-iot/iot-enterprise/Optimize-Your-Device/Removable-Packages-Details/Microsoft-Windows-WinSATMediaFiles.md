@@ -12,7 +12,7 @@ keywords: IoT Enterprise, removable packages, storage
 
 # Removable Package: Microsoft-Windows-WinSATMediaFiles
 ## Microsoft-Windows-WinSATMediaFiles
-Component of the [Media Feature Pack](/windows/win32/wmdm/windows-media-device-manager-architecture) comprised of media files for Windows System Assessment Tool.
+A component of the [Media Feature Pack](/windows/win32/wmdm/windows-media-device-manager-architecture) comprised of media files for Windows System Assessment Tool.
 
 Approximate on-disk footprint: TBD
 
