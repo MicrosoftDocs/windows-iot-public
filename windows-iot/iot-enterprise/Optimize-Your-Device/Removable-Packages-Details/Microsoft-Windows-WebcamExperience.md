@@ -14,7 +14,7 @@ keywords: IoT Enterprise, removable packages, storage
 ## Microsoft-Windows-WebCamExperiece
 A component of the [Media Feature Pack](/windows/win32/wmdm/windows-media-device-manager-architecture) providing webcam user experience.
 
-Approximate on-disk footprint: 1394 KB
+Approximate on-disk footprint: 1,394 KB
 
 
 ## Removing Package
