@@ -15,7 +15,7 @@ keywords: IoT Enterprise, removable packages, storage
 ## Microsoft-Windows-BootEnvironment-Dvd
 This package enables **Boot from DVD** functionality in Windows.
 
-Approximate on-disk footprint: 9108 KB
+Approximate on-disk footprint: 9,108 KB
 
 ## Removing Package
 
