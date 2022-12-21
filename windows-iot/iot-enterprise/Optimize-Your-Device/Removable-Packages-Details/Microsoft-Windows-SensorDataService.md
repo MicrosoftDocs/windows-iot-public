@@ -14,7 +14,7 @@ keywords: IoT Enterprise, removable packages, storage
 ## Microsoft-Windows-SensorDataService
 A component of the [Media Feature Pack](/windows/win32/wmdm/windows-media-device-manager-architecture) supporting data acquisition from various sensors.  Supports Windows Hello.
 
-Approximate on-disk footprint: 1367 KB
+Approximate on-disk footprint: 1,367 KB
 
 ## Removing Package
 
