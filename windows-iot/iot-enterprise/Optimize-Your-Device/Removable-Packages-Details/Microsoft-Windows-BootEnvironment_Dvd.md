@@ -2,7 +2,7 @@
 title: Removable Package Microsoft-Windows-BootEnvironment-Dvd
 author: twarwick
 ms.author: twarwick
-ms.date: 12/7/2022
+ms.date: 12/20/2022
 ms.topic: article
 ms.prod: windows-iot
 ms.technology: iot
