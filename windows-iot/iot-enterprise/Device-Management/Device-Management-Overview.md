@@ -15,10 +15,11 @@ Managing a device is now easier than ever on Windows IoT Enterprise. There are m
 ## Azure Arc for Server on Windows IoT Enterprise
 Azure Arc unlocks new hybrid scenarios by enabling new Azure services and management features on any infrastructure. Azure Arc-enabled servers is now supported on [Windows IoT Enterprise](/azure/azure-arc/servers/prerequisites#supported-environments). With Azure Arc, you can extend Azure Resource Manager capabilities to your Windows IoT Enterprise devices and manage them on Azure. Connect your Windows IoT Enterprise machines to Azure Arc as described [here.](/azure/azure-arc/servers/learn/quick-enable-hybrid-vm)
 
-When you connect your machine as an Azure Arc-enabled server, you can perform the following functions
+When you connect your machine as an Azure Arc-enabled server, you can perform the following actions:
 
-- Monitor operating system performance and discover application components to monitor processes and dependencies with other resources using [VM insights](/azure/azure-monitor/vm/vminsights-overview). Collect other log data, such as performance data and events, from the operating system or workloads running on the machine and this data is stored in a [Log Analytics workspace](https://learn.microsoft.com/en-us/azure/azure-monitor/logs/log-analytics-workspace-overview).
-- Govern: Assign [Azure Policy guest configurations](https://learn.microsoft.com/en-us/azure/governance/machine-configuration/overview) to audit settings inside the machine.
+- Monitor operating system performance and discover application components to monitor processes and dependencies with other resources using [VM insights](/azure/azure-monitor/vm/vminsights-overview). Collect other log data, such as performance data and events, from the operating system or workloads running on the machine and this data is stored in a [Log Analytics workspace](/azure/azure-monitor/logs/log-analytics-workspace-overview).
+- Assign [Azure Policy guest configurations](/azure/governance/machine-configuration/overview) to audit settings on the machine.
+
 We are actively working on expanding this list of supported actions.
 
 ## Mobile Device Management
