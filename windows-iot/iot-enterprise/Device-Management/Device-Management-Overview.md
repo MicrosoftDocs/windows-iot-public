@@ -10,7 +10,17 @@ description: Learn about the Device Management feature of Windows 10 IoT Enterpr
 keywords: IoT Enterprise, Device Management, MDM, Intune, SCCM, Azure Device Twin, Endpoint Manager, Device Health
 ---
 # Device Management Overview
-Managing a device is now easier than ever on Windows 10 IoT Enterprise. There are multiple options that your organization can choose from in order to best manage your devices, such as Microsoft Intune, Endpoint Manager, and third-party OMA-DM based management tools. OEMs can also select Azure Device Agent, which leaves it up to their customers to select the device management solution that fits them best.  
+Managing a device is now easier than ever on Windows IoT Enterprise. There are multiple options that your organization can choose from in order to best manage your devices, such as Azure Arc, Microsoft Intune, Endpoint Manager, and third-party OMA-DM based management tools.
+
+## Azure Arc for Server on Windows IoT Enterprise
+Azure Arc unlocks new hybrid scenarios by enabling new Azure services and management features on any infrastructure. Azure Arc-enabled servers is now supported on [Windows IoT Enterprise](/azure/azure-arc/servers/prerequisites#supported-environments). With Azure Arc, you can extend Azure Resource Manager capabilities to your Windows IoT Enterprise devices and manage them on Azure. Connect your Windows IoT Enterprise machines to Azure Arc as described [here.](/azure/azure-arc/servers/learn/quick-enable-hybrid-vm)
+
+When you connect your machine as an Azure Arc-enabled server, you can perform the following actions:
+
+- Monitor operating system performance and discover application components to monitor processes and dependencies with other resources using [VM insights](/azure/azure-monitor/vm/vminsights-overview). Collect other log data, such as performance data and events, from the operating system or workloads running on the machine and this data is stored in a [Log Analytics workspace](/azure/azure-monitor/logs/log-analytics-workspace-overview).
+- Assign [Azure Policy guest configurations](/azure/governance/machine-configuration/overview) to audit settings on the machine.
+
+We are actively working on expanding this list of supported actions.
 
 ## Mobile Device Management
 Windows 10 provides an enterprise management solution to help IT pros manage company security policies and business applications, while avoiding compromise of the users’ privacy on their personal devices. A built-in management component can communicate with the management server. Learn [What's new in mobile device enrollment and management](/windows/client-management/mdm/new-in-windows-mdm-enrollment-management#whatsnew10) to further understand the capabilities that are being offered.
@@ -25,16 +35,6 @@ Windows 10 provides an enterprise management solution to help IT pros manage com
 
 > [!NOTE]
 > Starting in version 1910, [Configuration Manager](/mem/configmgr/core/understand/what-happened-to-sccm) current branch is now part of Microsoft Endpoint Manager. Version 1906 and earlier are still branded System Center Configuration Manager (SCCM). The Microsoft Endpoint Manager brand will appear in the product and documentation over the coming months.
-
-
-## Azure IoT Device Agent
-The [Azure IoT Device Agent](/windows/iot-core/manage-your-device/azureiotda) is supported on Windows 10 IoT Enterprise and enables remote device management capabilities.
-
-Azure IoT Device Agent provides a ready-to-build [open source solution](https://github.com/ms-iot/azure-client-tools/blob/master/docs/device-agent/device-agent.md) that:
-* Manages the device identity provisioning with IoT Hub.
-* Manages the cloud connection and its renewal.
-* Provides a plug-in model for platform components, which allows easy onboarding to various Azure services. (This model includes discovery, initialization, error reporting, and state aggregation.)
-* Comes with a set of ready-to-ship plug-ins for very commonly used platform components.
 
 
 ## Update Management
