@@ -38,7 +38,7 @@ Use the [DISM command-line tool](/windows-hardware/manufacture/desktop/what-is-d
 Dism.exe /Online /LogPath:<logfile> /NoRestart /Disable-Feature /FeatureName:<package name> /PackageName:@Package
 ```
 
-Example: Use DISM.exe to remove Windows calculator using online servicing .
+Example: Use DISM.exe to remove Windows calculator using online servicing.
 ```powershell
 Dism.exe /Online /LogPath:%WINDIR%/Temp/remove_win32calc.log /NoRestart /Disable-Feature /FeatureName:Microsoft-Windows-win32calc /PackageName:@Package
 ````
