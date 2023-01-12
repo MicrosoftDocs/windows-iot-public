@@ -82,7 +82,8 @@ The following packages can be removed from Windows IoT Enterprise LTSC 2021.  Cl
 | [Microsoft-Windows-win32calc](/windows/iot/iot-enterprise/Optimize-Your-Device/Removable-Packages-Details/Microsoft-Windows-win32calc.md)                                | Legacy Calculator Application | 1,394 KB |
 | [Microsoft-Windows-WinSATMediaFiles](/windows/iot/iot-enterprise/Optimize-Your-Device/Removable-Packages-Details/Microsoft-Windows-WinSATMediaFiles.md)                  | A component of the [Media Feature Pack](/windows/win32/wmdm/windows-media-device-manager-architecture) comprised of media files for Windows System Assessment Tool. | TBD |
 
-## More Resources
-* [Removable Packages Blog](https://aka.ms/RemovablePackagesBlog)
-* [Removable Packages Script](https://aka.ms/RemovablePackagesScript)
-* [Reduce Disk Footprint](/windows/iot/iot-enterprise/optimize-your-device/reduce-disk-footprint)
+## Additional Resources
+- [Reduce Disk Footprint](/windows/iot/iot-enterprise/Optimize-Your-Device/Reduce-Disk-Footprint.md)
+- [Device Optimization Overview](/windows/iot/iot-enterprise/Optimize-Your-Device/Overview.md)
+- [Removable Packages Blog](https://aka.ms/RemovablePackagesBlog)
+- [Removable Packages Script](https://aka.ms/RemovablePackagesScript)
