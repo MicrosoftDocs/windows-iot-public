@@ -3,4 +3,4 @@
 - name: Getting Started with Windows CE App Container
   href: windows-ce-app-container-getting-started.md
 - name: Windows CE Migration FAQ
-  href: windows-ce-migration-faq.md
+  href: windows-ce-migration-faq.yml
