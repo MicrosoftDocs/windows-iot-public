@@ -37,3 +37,5 @@ Dism.exe /Image:c:\offline /LogPath:%WINDIR%\Temp\Microsoft-Windows-win32calc.lo
 |-----------|--------------------|
 | calculator.lnk | %programdata%\microsoft\windows\start menu\programs\accessories\calculator.lnk  |
 | win32calc.exe  | %windir%\system32\win32calc.exe |
+
+No files associated with this package
