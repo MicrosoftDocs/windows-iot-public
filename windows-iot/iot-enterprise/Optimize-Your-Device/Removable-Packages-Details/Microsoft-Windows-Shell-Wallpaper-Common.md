@@ -58,3 +58,8 @@ Dism.exe /Image:c:\offline /LogPath:%WINDIR%\Temp\Microsoft-Windows-Shell-Wallpa
 | img8.jpg           | %windir%\web\wallpaper\theme2\img8.jpg |
 | img9.jpg           | %windir%\web\wallpaper\theme2\img9.jpg |
 | img0.jpg           | %windir%\web\wallpaper\windows\img0.jpg |
+
+## Additional Resources
+- [Removable Packages](/windows/iot/iot-enterprise/Optimize-Your-Device/Removable-Packages-Details/Removable-Packages.md)
+- [Reduce Disk Footprint](/windows/iot/iot-enterprise/Optimize-Your-Device/Reduce-Disk-Footprint.md)
+- [Device Optimization Overview](/windows/iot/iot-enterprise/Optimize-Your-Device/Overview.md)
