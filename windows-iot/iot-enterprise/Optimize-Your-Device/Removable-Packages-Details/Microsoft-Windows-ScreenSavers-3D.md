@@ -39,7 +39,7 @@ Dism.exe /Image:c:\offline /LogPath:%WINDIR%\Temp\Microsoft-Windows-ScreenSavers
 | ribbons.scr  | %windir%\system32\ribbons.scr |
 | sstext3d.scr | %windir%\system32\sstext3d.scr |
 
-## Additional Resources
+## More Resources
 - [Removable Packages](/windows/iot/iot-enterprise/Optimize-Your-Device/Removable-Packages-Details/Removable-Packages.md)
 - [Reduce Disk Footprint](/windows/iot/iot-enterprise/Optimize-Your-Device/Reduce-Disk-Footprint.md)
 - [Device Optimization Overview](/windows/iot/iot-enterprise/Optimize-Your-Device/Overview.md)
