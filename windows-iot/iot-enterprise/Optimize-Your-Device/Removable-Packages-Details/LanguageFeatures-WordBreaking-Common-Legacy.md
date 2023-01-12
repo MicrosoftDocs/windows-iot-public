@@ -35,3 +35,8 @@ Dism.exe /Image:c:\offline /LogPath:%WINDIR%\Temp\LanguageFeatures_WordBreaking_
 | File Name | Installed Location |
 |-----------|--------------------|
 | nlsdata0000.dll | %windir%\system32\nlsdata0000.dll |
+
+## Additional Resources
+- [Removable Packages](/windows/iot/iot-enterprise/Optimize-Your-Device/Removable-Packages-Details/Removable-Packages.md)
+- [Reduce Disk Footprint](/windows/iot/iot-enterprise/Optimize-Your-Device/Reduce-Disk-Footprint.md)
+- [Device Optimization Overview](/windows/iot/iot-enterprise/Optimize-Your-Device/Overview.md)
