@@ -56,7 +56,7 @@ Dism.exe /Image:c:\offline /LogPath:%WINDIR%\Temp\Microsoft-Windows-Printer-Driv
 | prnge001.inf | prnge001.inf |
 | prnms002.inf | prnms002.inf |
 
-## Additional Resources
+## More Resources
 - [Removable Packages](/windows/iot/iot-enterprise/Optimize-Your-Device/Removable-Packages-Details/Removable-Packages.md)
 - [Reduce Disk Footprint](/windows/iot/iot-enterprise/Optimize-Your-Device/Reduce-Disk-Footprint.md)
 - [Device Optimization Overview](/windows/iot/iot-enterprise/Optimize-Your-Device/Overview.md)
