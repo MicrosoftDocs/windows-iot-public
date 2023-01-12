@@ -43,3 +43,8 @@ Dism.exe /Image:c:\offline /LogPath:%WINDIR%\Temp\Fonts_DesktopFonts_NonLeanSupp
 | yugothb.ttc   | %windir%\fonts\yugothb.ttc  |
 | yugothl.ttc   | %windir%\fonts\yugothl.ttc | 
 | yugothr.ttc   | %windir%\fonts\yugothr.ttc |
+
+## Additional Resources
+- [Removable Packages](/windows/iot/iot-enterprise/Optimize-Your-Device/Removable-Packages-Details/Removable-Packages.md)
+- [Reduce Disk Footprint](/windows/iot/iot-enterprise/Optimize-Your-Device/Reduce-Disk-Footprint.md)
+- [Device Optimization Overview](/windows/iot/iot-enterprise/Optimize-Your-Device/Overview.md)
