@@ -125,3 +125,9 @@ These packages collectively provide the functionality represented by the [Media 
 | wmvsdecd.dll	            | %windir%\system32\wmvsdecd.dll
 | wmvsencd.dll	            | %windir%\system32\wmvsencd.dll
 | wmvxencd.dll	            | %windir%\system32\wmvxencd.dll
+
+
+## Additional Resources
+- [Removable Packages](/windows/iot/iot-enterprise/Optimize-Your-Device/Removable-Packages-Details/Removable-Packages.md)
+- [Reduce Disk Footprint](/windows/iot/iot-enterprise/Optimize-Your-Device/Reduce-Disk-Footprint.md)
+- [Device Optimization Overview](/windows/iot/iot-enterprise/Optimize-Your-Device/Overview.md)
