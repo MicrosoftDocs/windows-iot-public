@@ -41,3 +41,8 @@ Dism.exe /Image:c:\offline /LogPath:%WINDIR%\Temp\Microsoft-Windows-BootEnvironm
 | bcd                 | %windir%\boot\dvd\pcat\bcd |
 | boot.sdi            | %windir%\boot\dvd\pcat\boot.sdi |
 | etfsboot.com        | %windir%\boot\dvd\pcat\etfsboot.com |
+
+## Additional Resources
+- [Removable Packages](/windows/iot/iot-enterprise/Optimize-Your-Device/Removable-Packages-Details/Removable-Packages.md)
+- [Reduce Disk Footprint](/windows/iot/iot-enterprise/Optimize-Your-Device/Reduce-Disk-Footprint.md)
+- [Device Optimization Overview](/windows/iot/iot-enterprise/Optimize-Your-Device/Overview.md)
