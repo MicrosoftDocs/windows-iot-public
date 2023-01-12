@@ -49,3 +49,8 @@ Dism.exe /Image:c:\offline /LogPath:%WINDIR%\Temp\Microsoft-Windows-ShellOptions
 | shiftjis.uce      | %windir%\system32\shiftjis.uce |
 | subrange.uce      | %windir%\system32\subrange.uce |
 | moricons.dll.mun  | %windir%\systemresources\moricons.dll.mun  |
+
+## Additional Resources
+- [Removable Packages](/windows/iot/iot-enterprise/Optimize-Your-Device/Removable-Packages-Details/Removable-Packages.md)
+- [Reduce Disk Footprint](/windows/iot/iot-enterprise/Optimize-Your-Device/Reduce-Disk-Footprint.md)
+- [Device Optimization Overview](/windows/iot/iot-enterprise/Optimize-Your-Device/Overview.md)
