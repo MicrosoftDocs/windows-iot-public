@@ -117,7 +117,7 @@ Dism.exe /Image:c:\offline /LogPath:%WINDIR%\Temp\Microsoft-Windows-AppManagment
 | microsoft.uev.managedagentwmi.dll          | microsoft.uev.managedagentwmi.dll |
 | microsoft.uev.managedagentwmi.winrt.dll    | microsoft.uev.managedagentwmi.winrt.dll |
 
-## Additional Resources
+## More Resources
 - [Removable Packages](/windows/iot/iot-enterprise/Optimize-Your-Device/Removable-Packages-Details/Removable-Packages.md)
 - [Reduce Disk Footprint](/windows/iot/iot-enterprise/Optimize-Your-Device/Reduce-Disk-Footprint.md)
 - [Device Optimization Overview](/windows/iot/iot-enterprise/Optimize-Your-Device/Overview.md)
