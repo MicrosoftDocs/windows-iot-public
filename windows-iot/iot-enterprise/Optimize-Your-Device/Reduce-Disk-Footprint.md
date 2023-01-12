@@ -48,3 +48,7 @@ The [removable packages feature](/windows/iot/iot-enterprise/optimize-your-devic
 Review our [size requirements and considerations](/windows-hardware/manufacture/desktop/compact-os?view=windows-11#size-requirements-and-considerations&preserve-view=true) that provide insight on how to configure your device's [hard drive](/windows-hardware/manufacture/desktop/compact-os?view=windows-11#hard-drive&preserve-view=true), manage [ram](/windows-hardware/manufacture/desktop/compact-os?view=windows-11#ram-pagefilesys-and-hiberfilsys&preserve-view=true), [language packs and features on demand](/windows-hardware/manufacture/desktop/compact-os?view=windows-11#language-packs-and-features-on-demand&preserve-view=true), [Windows optional features](/windows-hardware/manufacture/desktop/compact-os?view=windows-11#windows-optional-features&preserve-view=true), [applications](/windows-hardware/manufacture/desktop/compact-os?view=windows-11#applications&preserve-view=true) and [user data](/windows-hardware/manufacture/desktop/compact-os?view=windows-11#user-data&preserve-view=true).  
 
 Once you've created a final image and deploy to your target device, we recommend that you thoroughly test the scenarios to ensure that your device provides a solid user experience.
+
+## More Resources
+- [Removable Packages](/windows/iot/iot-enterprise/Optimize-Your-Device/Removable-Packages-Details/Removable-Packages.md)
+- [Device Optimization Overview](/windows/iot/iot-enterprise/Optimize-Your-Device/Overview.md)
