@@ -12,9 +12,9 @@ keywords: IoT Enterprise, removable packages, storage
 
 # Removable Package: Microsoft-Windows-MediaPlayback-OC
 ## Microsoft-Windows-MediaPlayback-OC
-A component of the [Media Feature Pack](/windows/win32/wmdm/windows-media-device-manager-architecture) supporting Windows Media Player.
+Controls availability of the *Media Features" and "Windows Media Player" options for the *Turn Windows features on or off* user experience in Control Panel.  Removing this package will remove these options from *Turn Windows features on or off*. 
 
-Approximate on-disk footprint: TBD
+Approximate on-disk footprint: 0 KB
 
 ## Removing Package
 
