@@ -1,0 +1,42 @@
+---
+title: Removable Package LanguageFeatures_WordBreaking_Common_Legacy
+author: twarwick
+ms.author: twarwick
+ms.date: 12/20/2022
+ms.topic: article
+ms.prod: windows-iot
+ms.technology: iot
+description: Removable Package Details for LanguageFeatures_WordBreaking_Common_Legacy
+keywords: IoT Enterprise, removable packages, storage
+---
+
+# Removable Package: LanguageFeatures_WordBreaking_Common_Legacy
+## LanguageFeatures_WordBreaking_Common_Legacy
+Legacy neutral word breaker, should only be needed in occasional application compatibility scenarios.
+
+Approximate on-disk footprint: 1542 KB
+
+## Removing Package
+
+### Online Servicing 
+Use the [DISM command-line tool](/windows-hardware/manufacture/desktop/what-is-dism) with the ```/Online``` command-line parameter to remove a single package via online servicing.
+
+```powershell
+Dism.exe /Online /LogPath:%WINDIR%\Temp\LanguageFeatures_WordBreaking_Common_Legacy.log /NoRestart /Disable-Feature /FeatureName:LanguageFeatures_WordBreaking_Common_Legacy /PackageName:@Package
+````
+### Offline Servicing
+Use the [DISM command-line tool](/windows-hardware/manufacture/desktop/what-is-dism) with the ```/Image:<image path>``` command-line parameter to remove a single package via offline servicing.
+
+```powershell
+Dism.exe /Image:c:\offline /LogPath:%WINDIR%\Temp\LanguageFeatures_WordBreaking_Common_Legacy.log /NoRestart /Disable-Feature /FeatureName:LanguageFeatures_WordBreaking_Common_Legacy /PackageName:@Package
+````
+
+## File List
+| File Name | Installed Location |
+|-----------|--------------------|
+| nlsdata0000.dll | %windir%\system32\nlsdata0000.dll |
+
+## More Resources
+- [Removable Packages](/windows/iot/iot-enterprise/Optimize-Your-Device/Removable-Packages-Details/Removable-Packages.md)
+- [Reduce Disk Footprint](/windows/iot/iot-enterprise/Optimize-Your-Device/Reduce-Disk-Footprint.md)
+- [Device Optimization Overview](/windows/iot/iot-enterprise/Optimize-Your-Device/Overview.md)
