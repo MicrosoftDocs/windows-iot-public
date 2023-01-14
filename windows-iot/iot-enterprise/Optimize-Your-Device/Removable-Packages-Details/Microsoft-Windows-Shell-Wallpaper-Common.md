@@ -1,5 +1,5 @@
 ---
-title: Removable Package Microsoft-Windows-Shell-Wallpaper
+title: Package - Desktop Wallpaper
 author: twarwick
 ms.author: twarwick
 ms.date: 1/12/2023
@@ -10,11 +10,14 @@ description: Removable Package Details for Microsoft-Windows-Shell-Wallpaper
 keywords: IoT Enterprise, removable packages, storage
 ---
 
-# Removable Package: Microsoft-Windows-Shell-Wallpaper
-## Microsoft-Windows-Shell-Wallpaper
+# Package: Desktop Wallpaper
+
+## Description
 Wallpaper images
 
-Approximate on-disk footprint: 8,538 KB
+**Package Name:** Microsoft-Windows-Shell-Wallpaper
+
+**Size:** Approximately 8,538 KB
 
 ## Removing Package
 
