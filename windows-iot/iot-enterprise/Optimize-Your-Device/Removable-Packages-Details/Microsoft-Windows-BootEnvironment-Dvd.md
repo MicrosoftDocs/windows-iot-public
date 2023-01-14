@@ -1,5 +1,5 @@
 ---
-title: Removable Package Microsoft-Windows-BootEnvironment-Dvd
+title: Package - Boot Environment DVD
 author: twarwick
 ms.author: twarwick
 ms.date: 1/12/2023
@@ -10,12 +10,14 @@ description: Removable Package Details for Microsoft-Windows-BootEnvironment-Dvd
 keywords: IoT Enterprise, removable packages, storage
 ---
 
-# Removable Package: Microsoft-Windows-BootEnvironment-Dvd
+# Package: Boot Environment DVD
 
-## Microsoft-Windows-BootEnvironment-Dvd
+##Desciption 
 This package enables **Boot from DVD** functionality in Windows.
 
-Approximate on-disk footprint: 9,108 KB
+**Package Name:** Microsoft-Windows-BootEnvironment-Dvd
+
+**Size:** Approximately 9,108 KB
 
 ## Removing Package
 
