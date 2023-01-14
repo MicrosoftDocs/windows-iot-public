@@ -95,10 +95,10 @@
   - name: Reduce Disk Footprint
     href: Optimize-Your-Device/Reduce-Disk-Footprint.md
   - name: Removable Packages
-    href: Optimize-Your-Device/Removable-Packages.md
-  - name: Removable Packages Reference
     expanded: false
     items:
+      - name: Overview
+        href: Optimize-Your-Device/Removable-Packages.md
       - name: LanguageFeatures-WordBreaking-Common-Legacy
         href: Optimize-Your-Device/Removable-Packages-Details/LanguageFeatures-wordBreaking-Common-Legacy.md
       - name: Microsoft-Media-Foundation
