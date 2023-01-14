@@ -1,5 +1,5 @@
 ---
-title: Removable Package Microsoft-Windows-Media-Format
+title: Package - Windows Media Format
 author: twarwick
 ms.author: twarwick
 ms.date: 1/12/2023
@@ -10,11 +10,14 @@ description: Removable Package Details for Microsoft-Windows-Media-Format
 keywords: IoT Enterprise, removable packages, storage
 ---
 
-# Removable Package: Microsoft-Windows-Media-Format
-## Microsoft-Windows-Media-Format
+# Package: Windows Media Format
+
+## Description
 A component of the [Media Feature Pack](/windows/win32/wmdm/windows-media-device-manager-architecture) comprised of support for [Windows Media Device Manager](/windows/win32/wmdm/windows-media-device-manager-architecture),  [Advanced Systems Format](/windows/win32/wmformat/overview-of-the-asf-format) (ASF) file container, Windows Media audio and video codecs, basic network streaming, and [Digital Rights Management](/windows/win32/wmformat/overview-of-windows-media-drm).
 
-Approximate on-disk footprint: 5,559 KB
+**Package Name:** Microsoft-Windows-Media-Format
+
+**Size:** Approximately 5,559 KB
 
 ## Removing Package
 
