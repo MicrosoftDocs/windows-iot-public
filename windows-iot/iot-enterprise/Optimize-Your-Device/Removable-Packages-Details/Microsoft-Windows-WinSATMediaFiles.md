@@ -1,5 +1,5 @@
 ---
-title: Removable Package Microsoft-Windows-WinSATMediaFiles
+title: Package - WinSAT Media Files
 author: twarwick
 ms.author: twarwick
 ms.date: 1/12/2023
@@ -10,11 +10,14 @@ description: Removable Package Details for Microsoft-Windows-WinSATMediaFiles
 keywords: IoT Enterprise, removable packages, storage
 ---
 
-# Removable Package: Microsoft-Windows-WinSATMediaFiles
-## Microsoft-Windows-WinSATMediaFiles
-The Windows Assessment Tool media files have been removed from this package, however the package remains on the device with no payload.  This package is empty.
+# Package: WinSAT Media Files
 
-Approximate on-disk footprint: 0 KB
+## Description
+The Windows System Assessment Tool media files have been removed from this package, however the package remains on the device with no payload.  This package is empty.
+
+**Package Name:** Microsoft-Windows-WinSATMediaFiles
+
+**Size:** Approximately 0 KB
 
 
 ## Removing Package
