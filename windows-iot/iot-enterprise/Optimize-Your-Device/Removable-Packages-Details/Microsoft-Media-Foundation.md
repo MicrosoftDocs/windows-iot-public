@@ -12,7 +12,7 @@ keywords: IoT Enterprise, removable packages, storage
 
 # Package: Media Foundation
 
-**Description:**  
+## Description  
 Component of the [Media Feature Pack](/windows/win32/wmdm/windows-media-device-manager-architecture) comprised of [Microsoft Media Foundation](/windows/win32/medfound/microsoft-media-foundation-sdk) enables the development of applications and components for using digital media. [Supported Media Formats in Media Foundation](/windows/win32/medfound/supported-media-formats-in-media-foundation).  
 
 **Package Name:**  Microsoft-Media-Foundation
