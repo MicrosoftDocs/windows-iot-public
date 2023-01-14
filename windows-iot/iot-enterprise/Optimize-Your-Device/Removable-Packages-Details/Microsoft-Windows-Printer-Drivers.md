@@ -13,7 +13,7 @@ keywords: IoT Enterprise, removable packages, storage
 # Package: Printer Drivers
 
 ## Description
-Generic / Text Only, Generic IBM Graphics 9pin, Generic IBM Graphics 9-pin wide, MS Publisher Color Printer, MS Publisher Imagesetter, Microsoft Shared Fax Driver
+Generic / Text Only, Generic IBM Graphics 9-pin, Generic IBM Graphics 9-pin wide, MS Publisher Color Printer, MS Publisher Imagesetter, Microsoft Shared Fax Driver
 
 **Package Name:**  Microsoft-Windows-Printer-Drivers
 
