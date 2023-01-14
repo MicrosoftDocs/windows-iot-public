@@ -12,7 +12,7 @@ keywords: IoT Enterprise, removable packages, storage
 
 # Package: Boot Environment DVD
 
-##Desciption 
+## Description 
 This package enables **Boot from DVD** functionality in Windows.
 
 **Package Name:** Microsoft-Windows-BootEnvironment-Dvd
