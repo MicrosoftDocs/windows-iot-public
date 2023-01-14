@@ -2,7 +2,7 @@
 title: Removable Package Fonts_DesktopFonts_NonLeanSupplement
 author: twarwick
 ms.author: twarwick
-ms.date: 12/20/2022
+ms.date: 1/12/2023
 ms.topic: article
 ms.prod: windows-iot
 ms.technology: iot
