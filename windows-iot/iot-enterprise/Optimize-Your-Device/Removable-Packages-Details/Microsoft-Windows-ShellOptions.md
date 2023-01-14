@@ -51,6 +51,6 @@ Dism.exe /Image:c:\offline /LogPath:%WINDIR%\Temp\Microsoft-Windows-ShellOptions
 | moricons.dll.mun  | %windir%\systemresources\moricons.dll.mun  |
 
 ## More Resources
-- [Removable Packages](/windows/iot/iot-enterprise/Optimize-Your-Device/Removable-Packages-Details/Removable-Packages.md)
-- [Reduce Disk Footprint](/windows/iot/iot-enterprise/Optimize-Your-Device/Reduce-Disk-Footprint.md)
-- [Device Optimization Overview](/windows/iot/iot-enterprise/Optimize-Your-Device/Overview.md)
+- [Removable Packages](/windows/iot/iot-enterprise/Optimize-Your-Device/Removable-Packages)
+- [Reduce Disk Footprint](/windows/iot/iot-enterprise/Optimize-Your-Device/Reduce-Disk-Footprint)
+- [Device Optimization Overview](/windows/iot/iot-enterprise/Optimize-Your-Device/Overview)
