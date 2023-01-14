@@ -1,5 +1,5 @@
 ---
-title: Removable Packages
+title: Removable Packages Overview
 author: twarwick
 ms.author: twarwick
 ms.date: 1/12/2023
@@ -10,7 +10,7 @@ description: Windows IoT Enterprise feature to assist with reducing disk footpri
 keywords: IoT Enterprise, removable packages, storage
 ---
 
-# Removable Packages
+# Removable Packages Overview
 ## Overview
 In addition to the image customizability provided by '[Enable or Disable Windows Features using DISM](/windows-hardware/manufacture/desktop/enable-or-disable-windows-features-using-dism)' and '[Features on Demand](/windows-hardware/manufacture/desktop/features-on-demand-v2--capabilities)', a device builder can remove extra packages from Windows IoT Enterprise LTSC using the methods described in this article.
 
