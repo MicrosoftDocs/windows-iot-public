@@ -96,6 +96,13 @@
     href: Optimize-Your-Device/Reduce-Disk-Footprint.md
   - name: Removable Packages
     href: Optimize-Your-Device/Removable-Packages.md
+  - name: Removable Packages Reference
+    expanded: false
+    items:
+      - name: LanguageFeatures-WordBreaking-Common-Legacy
+        href: Optimize-Your-Device/Removable-Packages-Details/LanguageFeatures-wordBreaking-Common-Legacy.md
+      - name: Microsoft-Media-Foundation
+        href: Optimize-Your-Device/Removable-Packages-Details/Microsoft-Media-Foundation.md
   - name: Services Guide
     href: Optimize-Your-Device/Services.md
 - name: Commercialization
