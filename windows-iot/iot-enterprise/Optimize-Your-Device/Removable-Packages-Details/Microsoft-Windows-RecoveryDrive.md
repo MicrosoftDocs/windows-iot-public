@@ -1,5 +1,5 @@
 ---
-title: Removable Package Details for Microsoft-Windows-RecoveryDrive
+title: Package - Recovery Drive
 author: twarwick
 ms.author: twarwick
 ms.date: 1/12/2023
@@ -10,11 +10,14 @@ description: Removable Package Details for Microsoft-Windows-RecoveryDrive
 keywords: IoT Enterprise, removable packages, storage
 ---
 
-# Removable Package: Microsoft-Windows-RecoveryDrive
-## Microsoft-Windows-RecoveryDrive
+# Package: Recovery Drive
+
+## Description
 Create a recovery drive user experience invoked from Control Panel - Recovery
 
-Approximate on-disk footprint: 1,041 KB
+**Package Name:** Microsoft-Windows-RecoveryDrive
+
+**Size:** Approximately 1,041 KB
 
 ## Removing Package
 
