@@ -1,5 +1,5 @@
 ---
-title: Removable Package Microsoft-Windows-Printer-Drivers
+title: Package - Printer Drivers
 author: twarwick
 ms.author: twarwick
 ms.date: 1/12/2023
@@ -10,11 +10,14 @@ description: Removable Package Details for Microsoft-Windows-Printer-Drivers
 keywords: IoT Enterprise, removable packages, storage
 ---
 
-# Removable Package: Microsoft-Windows-Printer-Drivers
-## Microsoft-Windows-Printer-Drivers
+# Package: Printer Drivers
+
+## Description
 Generic / Text Only, Generic IBM Graphics 9pin, Generic IBM Graphics 9-pin wide, MS Publisher Color Printer, MS Publisher Imagesetter, Microsoft Shared Fax Driver
 
-Approximate on-disk footprint: 8,200 KB
+**Package Name:**  Microsoft-Windows-Printer-Drivers
+
+**Size:** Approximately 8,200 KB
 
 ## Removing Package
 
