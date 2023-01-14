@@ -11,10 +11,11 @@ keywords: IoT Enterprise, removable packages, storage
 ---
 
 # Package: Language Word Breaking Legacy
-**Package Name:** LanguageFeatures_WordBreaking_Common_Legacy  
 
-**Description:**
+## Description
 Legacy neutral word breaker, should only be needed in occasional application compatibility scenarios.
+
+**Package Name:** LanguageFeatures_WordBreaking_Common_Legacy  
 
 **Size:** Approximately 1542 KB
 
