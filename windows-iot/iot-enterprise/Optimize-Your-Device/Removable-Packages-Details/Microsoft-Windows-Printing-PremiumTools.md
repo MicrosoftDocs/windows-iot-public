@@ -1,5 +1,5 @@
 ---
-title: Removable Package Microsoft-Windows-Printing-PremiumTools
+title: Package - PrintBrm Command-Line tool
 author: twarwick
 ms.author: twarwick
 ms.date: 1/12/2023
@@ -10,11 +10,14 @@ description: Removable Package Details for Microsoft-Windows-Printing-PremiumToo
 keywords: IoT Enterprise, removable packages, storage
 ---
 
-# Removable Package: Microsoft-Windows-Printing-PremiumTools
-## Microsoft-Windows-Printing-PremiumTools
+# Package: PrintBrm Command-Line tool
+
+## Description
 Print services migration command-line tool printbrm.exe
 
-Approximate on-disk footprint: 381 KB
+**Package Name:** Microsoft-Windows-Printing-PremiumTools
+
+**Size:**  Approximately 381 KB
 
 ## Removing Package
 
