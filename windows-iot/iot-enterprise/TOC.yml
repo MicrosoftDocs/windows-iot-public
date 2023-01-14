@@ -91,19 +91,56 @@
   expanded: false
   items:
   - name: Overview
+    href: Optimize-Your-Device/Overview.md
+  - name: Reduce Disk Footprint
+    href: Optimize-Your-Device/Reduce-Disk-Footprint.md
+  - name: Removable Packages
+    expanded: false
     items:
-    - name: Guidelines
-      href: Optimize-Your-Device/Overview.md
-  - name: Storage
-    items:
-    - name: Reduce Disk Footprint
-      href: Optimize-Your-Device/Reduce-Disk-Footprint.md
-    - name: Removable Packages
-      href: Optimize-Your-Device/Removable-Packages.md
-  - name: Ram
-    items:
-    - name: Services Guide
-      href: Optimize-Your-Device/Services.md
+      - name: Overview
+        href: Optimize-Your-Device/Removable-Packages.md
+      - name: Package - Language Word Breaking Legacy
+        href: Optimize-Your-Device/Removable-Packages-Details/LanguageFeatures-wordBreaking-Common-Legacy.md
+      - name: Package - Media Foundation
+        href: Optimize-Your-Device/Removable-Packages-Details/Microsoft-Media-Foundation.md
+      - name: Package - Supplemental Fonts
+        href: Optimize-Your-Device/Removable-Packages-Details/Microsoft-OneCore-Fonts-DesktopFonts-NonLeanSupplement.md
+      - name: Package - User Experience Virtualization
+        href: Optimize-Your-Device/Removable-Packages-Details/Microsoft-Windows-AppManagement-UEV.md
+      - name: Package - Bio Enrollment Experience
+        href: Optimize-Your-Device/Removable-Packages-Details/Microsoft-Windows-BioEnrollment-UX.md
+      - name: Package - Boot Environment DVD
+        href: Optimize-Your-Device/Removable-Packages-Details/Microsoft-Windows-BootEnvironment-Dvd.md
+      - name: Package - Windows Media Format
+        href: Optimize-Your-Device/Removable-Packages-Details/Microsoft-Windows-Media-Format.md
+      - name: Package - Windows Media Streaming
+        href: Optimize-Your-Device/Removable-Packages-Details/Microsoft-Windows-Media-Streaming.md
+      - name: Package - Media Features Optional Component
+        href: Optimize-Your-Device/Removable-Packages-Details/Microsoft-Windows-MediaPlayback-OC.md
+      - name: Package - Windows Portable Devices
+        href: Optimize-Your-Device/Removable-Packages-Details/Microsoft-Windows-Portable-Devices.md
+      - name: Package - Printer Drivers
+        href: Optimize-Your-Device/Removable-Packages-Details/Microsoft-Windows-Printer-Drivers.md
+      - name: Package - PrintBrm Command-Line tool
+        href: Optimize-Your-Device/Removable-Packages-Details/Microsoft-Windows-Printing-PremiumTools.md
+      - name: Package - Recovery Drive
+        href: Optimize-Your-Device/Removable-Packages-Details/Microsoft-Windows-RecoveryDrive.md
+      - name: Package - 3D Screensavers
+        href: Optimize-Your-Device/Removable-Packages-Details/Microsoft-Windows-ScreenSavers-3D.md
+      - name: Package - Sensor Data Service
+        href: Optimize-Your-Device/Removable-Packages-Details/Microsoft-Windows-SensorDataService.md
+      - name: Package - Desktop Wallpaper
+        href: Optimize-Your-Device/Removable-Packages-Details/Microsoft-Windows-Shell-Wallpaper-Common.md
+      - name: Package - Shell Accessories
+        href: Optimize-Your-Device/Removable-Packages-Details/Microsoft-Windows-ShellOptions.md
+      - name: Package - Webcam Experience
+        href: Optimize-Your-Device/Removable-Packages-Details/Microsoft-Windows-WebcamExperience.md
+      - name: Package - WinSAT Media Files
+        href: Optimize-Your-Device/Removable-Packages-Details/Microsoft-Windows-WinSATMediaFiles.md
+      - name: Package - Legacy Calculator App
+        href: Optimize-Your-Device/Removable-Packages-Details/Microsoft-Windows-win32calc.md
+  - name: Services Guide
+    href: Optimize-Your-Device/Services.md
 - name: Commercialization
   expanded: false
   items:
