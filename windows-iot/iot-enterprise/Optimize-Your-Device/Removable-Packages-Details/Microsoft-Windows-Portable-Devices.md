@@ -2,7 +2,7 @@
 title: Package - Windows Portable Devices
 author: twarwick
 ms.author: twarwick
-ms.date: 1/12/2023
+ms.date: 1/15/2023
 ms.topic: article
 ms.prod: windows-iot
 ms.technology: iot
@@ -13,7 +13,7 @@ keywords: IoT Enterprise, removable packages, storage
 # Package: Windows Portable Devices
 
 ## Description
-A component of the [Media Feature Pack](/windows/win32/wmdm/windows-media-device-manager-architecture) providing connectivity to portable devices for [Windows Media Device Manager](/windows/win32/wmdm/,windows-media-device-manager-architecture).
+A component of the [Media Feature Pack](/windows/win32/wmdm/windows-media-device-manager-architecture) providing connectivity to portable devices for [Windows Media Device Manager](/windows/win32/wmdm/windows-media-device-manager-architecture).
 
 **Package Name:** Microsoft-Windows-Portable-Devices
 

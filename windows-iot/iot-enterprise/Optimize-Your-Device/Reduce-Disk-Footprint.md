@@ -2,7 +2,7 @@
 title: Reduce Disk Footprint
 author: twarwick
 ms.author: twarwick
-ms.date: 12/20/2022
+ms.date: 1/15/2023
 ms.topic: article
 ms.prod: windows-iot
 ms.technology: iot
@@ -50,5 +50,5 @@ Review our [size requirements and considerations](/windows-hardware/manufacture/
 Once you've created a final image and deploy to your target device, we recommend that you thoroughly test the scenarios to ensure that your device provides a solid user experience.
 
 ## More Resources
-- [Removable Packages](/windows/iot/iot-enterprise/Optimize-Your-Device/Removable-Packages-Details/Removable-Packages.md)
-- [Device Optimization Overview](/windows/iot/iot-enterprise/Optimize-Your-Device/Overview.md)
+- [Removable Packages](/windows/iot/iot-enterprise/Optimize-Your-Device/Removable-Packages)
+- [Device Optimization Overview](/windows/iot/iot-enterprise/Optimize-Your-Device/Overview)
