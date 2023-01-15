@@ -64,7 +64,7 @@ productDirectory:
     - title: Windows CE Migration
       imageSrc: ./media/index/windows.png
       links:
-        - url: ./windows_ce/windows-ce-migration-faq.md
+        - url: ./windows_ce/windows-ce-migration-faq.yml
           text:  Frequently Asked Questions
         - url: ./windows_ce/windows-ce-app-container-overview.md
           text:  Windows CE App Container

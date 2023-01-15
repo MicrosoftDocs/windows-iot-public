@@ -1,8 +1,8 @@
 ---
 title: Windows for IoT news
-author: rsameser
-ms.author: riameser
-ms.date: 09/20/2022
+author: TerryWarwick
+ms.author: twarwick
+ms.date: 01/02/2023
 ms.topic: conceptual
 ms.prod: windows-iot
 ms.technology: iot
@@ -55,6 +55,7 @@ Stay up to date with the latest news and announcements about the Windows for IoT
 ### October
 - Blog: [Taking Azure Arc and Kubernetes to the Edge!](https://techcommunity.microsoft.com/t5/internet-of-things-blog/taking-azure-arc-and-kubernetes-to-the-edge/ba-p/3650599)
 - Blog: [NXP’s Windows IoT BSP 1.2 Release: Expanded BSP Support](https://aka.ms/NXPBSP1.2)
+- Blog: [Windows 10 IoT Enterprise, version 22H2 is now available](https://techcommunity.microsoft.com/t5/internet-of-things-blog/windows-10-iot-enterprise-version-22h2-is-now-available/ba-p/3655198)
 
 # [2021](#tab/2021)
 
