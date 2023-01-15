@@ -1,8 +1,8 @@
 ---
 title: Hardware Requirements
-author: rsameser
-ms.author: riameser
-ms.date: 10/05/2021
+author: twarwick
+ms.author: twarwick
+ms.date: 1/15/2023
 ms.topic: article
 ms.prod: windows-iot
 ms.technology: iot
@@ -26,7 +26,7 @@ This specification does not provide compatibility and certification requirements
 > Beginning with Windows 10, version 2004, all new Windows 10 systems will be required to use 64-bit builds and Microsoft will no longer release 32-bit builds for OEM distribution. This does not impact 32-bit customer systems that are manufactured with earlier versions of Windows 10; Microsoft remains committed to providing feature and security updates on these devices, including continued 32-bit media availability in non-OEM channels to support various upgrade installation scenarios.
 
 ## Processor
-Devices that run Windows IoT Enterprise must meet these [hardware requirements](/windows-hardware/design/minimum/minimum-hardware-requirements-overview#31-processor).
+Devices that run Windows IoT Enterprise must meet these [hardware requirements](/windows-hardware/design/minimum/minimum-hardware-requirements-overview).
 
 > [!TIP]
 >
