@@ -16,7 +16,7 @@ Custom Logon features allow you to take control of the welcome and shutdown scre
 ## Feature Benefits
 By using Custom Logon, you can suppress all elements of the Welcome screen UI and provide a custom logon UI for your users. You can also suppress the Blocked Shutdown Resolver (BSDR) screen and automatically end applications while the OS waits for applications to close before a shutdown.
 
-Custom Logon settings do not modify the credential behavior of **Winlogon**, so you can use any credential provider that is compatible with Windows to provide a custom sign-in experience for your device.
+Custom Logon settings do not modify the credential behavior of **Winlogon**, so you can use any credential provider that is compatible with Windows to provide a custom sign-in experience for your device. See [Winlogon and Credential Providers](/windows/win32/secauthn/winlogon-and-credential-providers) for more information about creating a custom logon experience.
 
 ## Enable Custom Logon
 Custom Logon is an optional component and is not turned on by default in Windows. It must be turned on prior to configuring. You can turn on and configure Custom Logon in a customized Windows image (.wim) if Microsoft Windows has not been installed. If Windows has already been installed and you are applying a provisioning package to configure Custom Logon, you must first turn on Custom Logon in order for a provisioning package to be successfully applied.
@@ -56,7 +56,7 @@ This includes:
 * [Ease of Access button](/windows-hardware/customize/enterprise/complementary-features-to-custom-logon#welcome-screen)
 * [Switch user button](/windows-hardware/customize/enterprise/complementary-features-to-custom-logon#welcome-screen)
 
-## Additional Resources
+## More Resources
 * [Custom Logon](/windows-hardware/customize/enterprise/custom-logon)
 * [Complementary features to Custom Logon](/windows-hardware/customize/enterprise/complementary-features-to-custom-logon)
 * [Troubleshooting Custom Logon](/windows-hardware/customize/enterprise/troubleshooting-custom-logon)
