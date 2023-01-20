@@ -1,5 +1,5 @@
 ---
-title: Removable Package Microsoft-Windows-AppManagment-UEV
+title: Package - User Experience Virtualization
 author: twarwick
 ms.author: twarwick
 ms.date: 1/12/2023
@@ -10,11 +10,14 @@ description: Removable Package Details for Microsoft-Windows-AppManagment-UEV
 keywords: IoT Enterprise, removable packages, storage
 ---
 
-# Removable Package: Microsoft-Windows-AppManagment-UEV
-## Microsoft-Windows-AppManagment-UEV
+# Package: User Experience Virtualization
+
+## Description
 See [User Experience Virtualization](/windows/configuration/ue-v/uev-for-windows) for a detailed description of this Windows feature.
 
-Approximate on-disk footprint: 13,752 KB
+**Package Name:**  Microsoft-Windows-AppManagment-UEV
+
+**Size:**  Approximately 13,752 KB
 
 ## Removing Package
 

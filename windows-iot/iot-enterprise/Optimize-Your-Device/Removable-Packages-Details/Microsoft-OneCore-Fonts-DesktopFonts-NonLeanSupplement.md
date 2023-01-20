@@ -1,5 +1,5 @@
 ---
-title: Removable Package Fonts_DesktopFonts_NonLeanSupplement
+title: Package - Supplemental Fonts
 author: twarwick
 ms.author: twarwick
 ms.date: 1/12/2023
@@ -10,11 +10,14 @@ description: Removable Package Details for Fonts_DesktopFonts_NonLeanSupplement
 keywords: IoT Enterprise, removable packages, storage
 ---
 
-# Removable Package: Fonts_DesktopFonts_NonLeanSupplement
-## Fonts_DesktopFonts_NonLeanSupplement
+# Package: Supplemental Fonts
+
+## Description
 Fonts: [Malgun Gothic](/typography/font-list/malgun-gothic), [Microsoft JhengHei](/typography/font-list/microsoft-jhenghei), [Microsoft YaHei](/typography/font-list/microsoft-yahei), [Yu Gothic](/typography/font-list/yu-gothic)
 
-Approximate on-disk footprint: 113,251 KB  
+**Package Name:** Fonts_DesktopFonts_NonLeanSupplement
+
+**Size:**  Approximately 113,251 KB  
 
 ## Removing Package
 

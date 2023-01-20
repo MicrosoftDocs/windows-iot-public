@@ -1,5 +1,5 @@
 ---
-title: Removable Package Microsoft-Windows-ShellOptions
+title: Package - Shell Accessories
 author: twarwick
 ms.author: twarwick
 ms.date: 1/12/2023
@@ -10,11 +10,14 @@ description: Removable Package Details for Microsoft-Windows-ShellOptions
 keywords: IoT Enterprise, removable packages, storage
 ---
 
-# Removable Package: Microsoft-Windows-ShellOptions
-## Microsoft-Windows-ShellOptions
+# Package: Shell Accessories
+
+## Description
 Modern Calculator, Character Map, More Icons DLL
 
-Approximate on-disk footprint: 657 KB
+**Package Name:** Microsoft-Windows-ShellOptions
+
+**Size:** Approximately 657 KB
 
 
 ## Removing Package

@@ -1,5 +1,5 @@
 ---
-title: Removable Package LanguageFeatures_WordBreaking_Common_Legacy
+title: Package - Language Word Breaking Legacy
 author: twarwick
 ms.author: twarwick
 ms.date: 1/12/2023
@@ -10,11 +10,14 @@ description: Removable Package Details for LanguageFeatures_WordBreaking_Common_
 keywords: IoT Enterprise, removable packages, storage
 ---
 
-# Removable Package: LanguageFeatures_WordBreaking_Common_Legacy
-## LanguageFeatures_WordBreaking_Common_Legacy
+# Package: Language Word Breaking Legacy
+
+## Description
 Legacy neutral word breaker, should only be needed in occasional application compatibility scenarios.
 
-Approximate on-disk footprint: 1542 KB
+**Package Name:** LanguageFeatures_WordBreaking_Common_Legacy  
+
+**Size:** Approximately 1542 KB
 
 ## Removing Package
 

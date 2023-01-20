@@ -1,5 +1,5 @@
 ---
-title: Removable Package Microsoft-Windows-win32calc
+title: Package - Legacy Calculator App
 author: twarwick
 ms.author: twarwick
 ms.date: 1/12/2023
@@ -10,11 +10,14 @@ description: Removable Package Details for Microsoft-Windows-win32calc
 keywords: IoT Enterprise, removable packages, storage
 ---
 
-# Removable Package: Microsoft-Windows-win32calc
-## Microsoft-Windows-win32calc
+# Package: Legacy Calculator App
+
+## Description
 Legacy calculator application
 
-Approximate on-disk footprint: 1,394 KB
+**Package Name:** Microsoft-Windows-win32calc
+
+**Size:** Approximately 1,394 KB
 
 
 ## Removing Package

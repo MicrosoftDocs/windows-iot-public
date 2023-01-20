@@ -1,5 +1,5 @@
 ---
-title: Removable Package Microsoft-Windows-BioEnrollment-UX
+title: Package - Bio Enrollment Experience
 author: twarwick
 ms.author: twarwick
 ms.date: 1/12/2023
@@ -10,11 +10,14 @@ description: Removable Package Details for Microsoft-Windows-BioEnrollment-UX
 keywords: IoT Enterprise, removable packages, storage
 ---
 
-# Removable Package: Microsoft-Windows-BioEnrollment-UX
-## Microsoft-Windows-BioEnrollment-UX
+# Package: Bio Enrollment Experience
+
+## Description
 See [Windows Hello](/windows-hardware/design/device-experiences/windows-hello) enrollment experience for a detailed description of this Windows feature.
 
-Approximate on-disk footprint: 3,589 KB
+**Package Name:** Microsoft-Windows-BioEnrollment-UX
+
+**Size:** Approximately 3,589 KB
 
 ## Removing Package
 

@@ -1,5 +1,5 @@
 ---
-title: Removable Package Microsoft-Windows-WebCamExperiece
+title: Package - Webcam Experience
 author: twarwick
 ms.author: twarwick
 ms.date: 1/12/2023
@@ -10,11 +10,14 @@ description: Removable Package Details for Microsoft-Windows-WebCamExperiece
 keywords: IoT Enterprise, removable packages, storage
 ---
 
-# Removable Package: Microsoft-Windows-WebCamExperiece
-## Microsoft-Windows-WebCamExperiece
+# Package: Webcam Experience
+
+## Description
 A component of the [Media Feature Pack](/windows/win32/wmdm/windows-media-device-manager-architecture) providing webcam user experience.
 
-Approximate on-disk footprint: 1,394 KB
+**Package Name:** Microsoft-Windows-WebCamExperiece
+
+**Size:** Approximately 1,394 KB
 
 
 ## Removing Package

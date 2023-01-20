@@ -1,5 +1,5 @@
 ---
-title: Removable Package Microsoft-Media-Foundation
+title: Package - Media Foundation
 author: twarwick
 ms.author: twarwick
 ms.date: 1/12/2023
@@ -10,11 +10,14 @@ description: Removable Package Details for Microsoft-Media-Foundation
 keywords: IoT Enterprise, removable packages, storage
 ---
 
-# Removable Package: Microsoft-Media-Foundation
-## Microsoft-Media-Foundation
+# Package: Media Foundation
+
+## Description  
 Component of the [Media Feature Pack](/windows/win32/wmdm/windows-media-device-manager-architecture) comprised of [Microsoft Media Foundation](/windows/win32/medfound/microsoft-media-foundation-sdk) enables the development of applications and components for using digital media. [Supported Media Formats in Media Foundation](/windows/win32/medfound/supported-media-formats-in-media-foundation).  
 
-Approximate on-disk footprint: 63,747 KB
+**Package Name:**  Microsoft-Media-Foundation
+
+**Size:** Approximately 63,747 KB
 
 ## Removing Package
 

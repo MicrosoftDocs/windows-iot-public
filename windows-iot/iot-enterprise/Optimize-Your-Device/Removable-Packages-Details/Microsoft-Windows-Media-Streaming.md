@@ -1,5 +1,5 @@
 ---
-title: Removable Package Microsoft-Windows-Media-Streaming
+title: Package - Windows Media Streaming
 author: twarwick
 ms.author: twarwick
 ms.date: 1/12/2023
@@ -10,11 +10,14 @@ description: Removable Package Details for Microsoft-Windows-Media-Streaming
 keywords: IoT Enterprise, removable packages, storage
 ---
 
-# Removable Package: Microsoft-Windows-Media-Streaming
-## Microsoft-Windows-Media-Streaming
+# Package: Windows Media Streaming
+
+## Description
 A component of the [Media Feature Pack](/windows/win32/wmdm/windows-media-device-manager-architecture) providing support for [Windows Media Streaming](/windows/win32/mediastreaming/media-streaming-api-portal).
 
-Approximate on-disk footprint: 6,644 KB
+**Package Name:**  Microsoft-Windows-Media-Streaming
+
+**Size:** Approximately 6,644 KB
 
 ## Removing Package
 

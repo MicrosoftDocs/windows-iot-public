@@ -1,8 +1,8 @@
 ---
-title: Removable Package Microsoft-Windows-Portable-Devices
+title: Package - Windows Portable Devices
 author: twarwick
 ms.author: twarwick
-ms.date: 1/12/2023
+ms.date: 1/15/2023
 ms.topic: article
 ms.prod: windows-iot
 ms.technology: iot
@@ -10,11 +10,14 @@ description: Removable Package Details for Microsoft-Windows-Portable-Devices
 keywords: IoT Enterprise, removable packages, storage
 ---
 
-# Removable Package: Microsoft-Windows-Portable-Devices
-## Microsoft-Windows-Portable-Devices
-A component of the [Media Feature Pack](/windows/win32/wmdm/windows-media-device-manager-architecture) providing connectivity to portable devices for [Windows Media Device Manager](/windows/win32/wmdm/,windows-media-device-manager-architecture).
+# Package: Windows Portable Devices
 
-Approximate on-disk footprint: 6,405 KB
+## Description
+A component of the [Media Feature Pack](/windows/win32/wmdm/windows-media-device-manager-architecture) providing connectivity to portable devices for [Windows Media Device Manager](/windows/win32/wmdm/windows-media-device-manager-architecture).
+
+**Package Name:** Microsoft-Windows-Portable-Devices
+
+**Size:** Approximately 6,405 KB
 
 ## Removing Package
 

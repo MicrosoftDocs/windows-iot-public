@@ -1,5 +1,5 @@
 ---
-title: Removable Package Microsoft-Windows-ScreenSavers-3d
+title: Package - 3D Screensavers
 author: twarwick
 ms.author: twarwick
 ms.date: 1/12/2023
@@ -10,11 +10,14 @@ description: Removable Package Details for Microsoft-Windows-ScreenSavers-3d
 keywords: IoT Enterprise, removable packages, storage
 ---
 
-# Removable Package: Microsoft-Windows-ScreenSavers-3d
-## Microsoft-Windows-ScreenSavers-3d
+# Package: 3D Screensavers
+
+## Description
 Screensavers: 3D Text, Bubbles, Mystify and Ribbons
 
-Approximate on-disk footprint: 1,312 KB
+**Package Name:** Microsoft-Windows-ScreenSavers-3dMicrosoft-Windows-ScreenSavers-3d
+
+**Size:** Approximately 1,312 KB
 
 ## Removing Package
 
