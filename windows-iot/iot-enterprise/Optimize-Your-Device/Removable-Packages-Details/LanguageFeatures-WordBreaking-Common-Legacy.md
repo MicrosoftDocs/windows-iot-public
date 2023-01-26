@@ -25,7 +25,7 @@ Legacy neutral word breaker, should only be needed in occasional application com
 Use the [DISM command-line tool](/windows-hardware/manufacture/desktop/what-is-dism) with the ```/Online``` command-line parameter to remove a single package via online servicing.
 
 ```powershell
-Dism.exe /Online /LogPath:%WINDIR%\Temp\LanguageFeatures-WordBreaking-Common-Legacy.log /NoRestart /Disable-Feature /FeatureName:LanguageFeatures-WordBreaking-Common-legacy /PackageName:@Package
+Dism.exe /Online /LogPath:%WINDIR%\Temp\LanguageFeatures-WordBreaking-Common-legacy.log /NoRestart /Disable-Feature /FeatureName:LanguageFeatures-WordBreaking-Common-legacy /PackageName:@Package
 ````
 ### Offline Servicing
 Use the [DISM command-line tool](/windows-hardware/manufacture/desktop/what-is-dism) with the ```/Image:<image path>``` command-line parameter to remove a single package via offline servicing.
