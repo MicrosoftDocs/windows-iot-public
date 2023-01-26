@@ -15,7 +15,7 @@ keywords: IoT Enterprise, removable packages, storage
 ## Description
 Legacy neutral word breaker, should only be needed in occasional application compatibility scenarios.
 
-**Package Name:** LanguageFeatures_WordBreaking_Common_Legacy  
+**Package Name:** LanguageFeatures-WordBreaking-Common-legacy  
 
 **Size:** Approximately 1542 KB
 
@@ -25,13 +25,13 @@ Legacy neutral word breaker, should only be needed in occasional application com
 Use the [DISM command-line tool](/windows-hardware/manufacture/desktop/what-is-dism) with the ```/Online``` command-line parameter to remove a single package via online servicing.
 
 ```powershell
-Dism.exe /Online /LogPath:%WINDIR%\Temp\LanguageFeatures_WordBreaking_Common_Legacy.log /NoRestart /Disable-Feature /FeatureName:LanguageFeatures_WordBreaking_Common_Legacy /PackageName:@Package
+Dism.exe /Online /LogPath:%WINDIR%\Temp\LanguageFeatures-WordBreaking-Common-legacy.log /NoRestart /Disable-Feature /FeatureName:LanguageFeatures-WordBreaking-Common-legacy /PackageName:@Package
 ````
 ### Offline Servicing
 Use the [DISM command-line tool](/windows-hardware/manufacture/desktop/what-is-dism) with the ```/Image:<image path>``` command-line parameter to remove a single package via offline servicing.
 
 ```powershell
-Dism.exe /Image:c:\offline /LogPath:%WINDIR%\Temp\LanguageFeatures_WordBreaking_Common_Legacy.log /NoRestart /Disable-Feature /FeatureName:LanguageFeatures_WordBreaking_Common_Legacy /PackageName:@Package
+Dism.exe /Image:c:\offline /LogPath:%WINDIR%\Temp\LanguageFeatures-WordBreaking-Common-legacy.log /NoRestart /Disable-Feature /FeatureName:LanguageFeatures-WordBreaking-Common-legacy /PackageName:@Package
 ````
 
 ## File List
