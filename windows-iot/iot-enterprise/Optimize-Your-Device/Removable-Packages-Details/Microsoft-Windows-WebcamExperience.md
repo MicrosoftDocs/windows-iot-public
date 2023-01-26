@@ -15,7 +15,7 @@ keywords: IoT Enterprise, removable packages, storage
 ## Description
 A component of the [Media Feature Pack](/windows/win32/wmdm/windows-media-device-manager-architecture) providing webcam user experience.
 
-**Package Name:** Microsoft-Windows-WebCamExperiece
+**Package Name:** Microsoft-Windows-WebCamExperience
 
 **Size:** Approximately 1,394 KB
 
@@ -26,13 +26,13 @@ A component of the [Media Feature Pack](/windows/win32/wmdm/windows-media-device
 Use the [DISM command-line tool](/windows-hardware/manufacture/desktop/what-is-dism) with the ```/Online``` command-line parameter to remove a single package via online servicing.
 
 ```powershell
-Dism.exe /Online /LogPath:%WINDIR%\Temp\Microsoft-Windows-WebCamExperiece.log /NoRestart /Disable-Feature /FeatureName:Microsoft-Windows-WebCamExperiece /PackageName:@Package
+Dism.exe /Online /LogPath:%WINDIR%\Temp\Microsoft-Windows-WebCamExperience.log /NoRestart /Disable-Feature /FeatureName:Microsoft-Windows-WebCamExperience /PackageName:@Package
 ````
 ### Offline Servicing
 Use the [DISM command-line tool](/windows-hardware/manufacture/desktop/what-is-dism) with the ```/Image:<image path>``` command-line parameter to remove a single package via offline servicing.
 
 ```powershell
-Dism.exe /Image:c:\offline /LogPath:%WINDIR%\Temp\Microsoft-Windows-WebCamExperiece.log /NoRestart /Disable-Feature /FeatureName:Microsoft-Windows-WebCamExperiece /PackageName:@Package
+Dism.exe /Image:c:\offline /LogPath:%WINDIR%\Temp\Microsoft-Windows-WebCamExperience.log /NoRestart /Disable-Feature /FeatureName:Microsoft-Windows-WebCamExperience /PackageName:@Package
 ````
 
 ## Related Packages
