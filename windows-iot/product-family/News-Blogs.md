@@ -19,6 +19,11 @@ This section is updated regularly with blog posts, videos, and case studies that
 
 Stay up to date with the latest news and announcements about the Windows for IoT product family.
 
+# [2023](#tab/2023)
+
+### January
+- Blog: [Windows 10 IoT Enterprise will still be available past January 2023](https://techcommunity.microsoft.com/t5/internet-of-things-blog/windows-10-iot-enterprise-will-still-be-available-past-january/ba-p/3726368)
+
 # [2022](#tab/2022)
 
 ### February
