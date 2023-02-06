@@ -6,7 +6,6 @@ ms.date: 1/15/2023
 ms.topic: article
 ms.prod: windows-iot
 ms.technology: iot
-ms.custom: kr2b-contr-experiment
 description: Windows IoT Enterprise feature to assist with reducing disk footprint
 keywords: IoT Enterprise, removable packages, storage
 ---
@@ -32,7 +31,9 @@ This feature is supported on Windows 10 IoT Enterprise LTSC 2021 (build 19044.17
  
 ## Package Removal
 
-#### Package Removal - Online Servicing 
+# [Online Servicing](#tab\online-servicing)
+
+### Package Removal 
 
 Use the [DISM command-line tool](/windows-hardware/manufacture/desktop/what-is-dism) with the ```/Online``` command-line parameter to remove a single package via online servicing.
 
@@ -53,8 +54,28 @@ Example: Use DISM.exe to remove Windows calculator using online servicing.
 ```powershell
 Dism.exe /Online /LogPath:%WINDIR%/Temp/remove_win32calc.log /NoRestart /Disable-Feature /FeatureName:Microsoft-Windows-win32calc /PackageName:@Package
 ````
+### Package Status
 
-#### Package Removal - Offline Servicing
+| Parameters       | Description |
+|------------------|-------------|
+| /Online          ||
+| /Get-FeatureInfo ||
+| /FeatureName     ||
+| /PackageName     || 
+
+```powershell
+Dism.exe /Online /Get_FeatureInfo /FeatureName:<package name> /PackageName:@Package
+```
+
+Example: Use DISM.exe to remove Windows calculator using online servicing.
+```powershell
+Dism.exe /Online /Get-FeatureInfo /FeatureName:Microsoft-Windows-win32calc /PackageName:@Package
+````
+
+
+# [Offline Servicing](#tab\offline-servicing)
+
+### Package Removal
 Use the [DISM command-line tool](/windows-hardware/manufacture/desktop/what-is-dism) with the ```/Image:<image path>``` command-line parameter to remove a single package via offline servicing.
 
 | Parameters      | Description |
@@ -75,26 +96,7 @@ Example: Use DISM.exe to remove Windows calculator using offline servicing.
 Dism.exe /Image:c:/offline /LogPath:%WINDIR%/Temp/remove_win32calc.log /NoRestart /Disable-Feature /FeatureName:Microsoft-Windows-win32calc /PackageName:@Package
 ````
 
-## Package Status
-
-#### Package Status - Online Servicing
-
-| Parameters       | Description |
-|------------------|-------------|
-| /Online          ||
-| /Get-FeatureInfo ||
-| /FeatureName     ||
-| /PackageName     || 
-
-```powershell
-Dism.exe /Online /Get_FeatureInfo /FeatureName:<package name> /PackageName:@Package
-```
-
-Example: Use DISM.exe to remove Windows calculator using online servicing.
-```powershell
-Dism.exe /Online /Get-FeatureInfo /FeatureName:Microsoft-Windows-win32calc /PackageName:@Package
-````
-#### Package Status - Offline Servicing
+### Package Status 
 
 | Parameters       | Description |
 |------------------|-------------|
@@ -112,6 +114,7 @@ Example: Use DISM.exe to remove Windows calculator using online servicing.
 Dism.exe /Image:c:/offline /Get-FeatureInfo /FeatureName:Microsoft-Windows-win32calc /PackageName:@Package
 ````
 
+---
 
 ## Package Reference
 
