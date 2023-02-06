@@ -6,6 +6,7 @@ ms.date: 1/15/2023
 ms.topic: article
 ms.prod: windows-iot
 ms.technology: iot
+ms.custom: kr2b-contr-experiment
 description: Windows IoT Enterprise feature to assist with reducing disk footprint
 keywords: IoT Enterprise, removable packages, storage
 ---
