@@ -31,8 +31,19 @@ This feature is supported on Windows 10 IoT Enterprise LTSC 2021 (build 19044.17
  
 ## Removing Packages
 
-### Online Servicing 
+# [Online Servicing](#tab/Online Servicing) 
+
+### Package Removal
 Use the [DISM command-line tool](/windows-hardware/manufacture/desktop/what-is-dism) with the ```/Online``` command-line parameter to remove a single package via online servicing.
+
+| Parameters      | Description |
+|-----------------|-------------|
+| Online          ||
+| LogPath         | (Optional) | 
+| NoRestart       ||
+| Disable-Feature ||
+| FeatureName     ||
+| PackageName     || 
 
 ```powershell
 Dism.exe /Online /LogPath:<logfile> /NoRestart /Disable-Feature /FeatureName:<package name> /PackageName:@Package
@@ -42,7 +53,27 @@ Example: Use DISM.exe to remove Windows calculator using online servicing.
 ```powershell
 Dism.exe /Online /LogPath:%WINDIR%/Temp/remove_win32calc.log /NoRestart /Disable-Feature /FeatureName:Microsoft-Windows-win32calc /PackageName:@Package
 ````
-### Offline Servicing
+
+### Package Status
+
+| Parameters      | Description |
+|-----------------|-------------|
+| Online          ||
+| Get-FeatureInfo ||
+| FeatureName     ||
+| PackageName     || 
+
+```powershell
+Dism.exe /Online /Get_FeatureInfo /FeatureName:<package name> /PackageName:@Package
+```
+
+Example: Use DISM.exe to remove Windows calculator using online servicing.
+```powershell
+Dism.exe /Online /Get-FeatureInfo /FeatureName:Microsoft-Windows-win32calc /PackageName:@Package
+````
+
+
+# [Offline Servicing](#tab/Offline Servicing)
 Use the [DISM command-line tool](/windows-hardware/manufacture/desktop/what-is-dism) with the ```/Image:<image path>``` command-line parameter to remove a single package via offline servicing.
 
 ```powershell
@@ -53,6 +84,8 @@ Example: Use DISM.exe to remove Windows calculator using offline servicing.
 ```powershell
 Dism.exe /Image:c:/offline /LogPath:%WINDIR%/Temp/remove_win32calc.log /NoRestart /Disable-Feature /FeatureName:Microsoft-Windows-win32calc /PackageName:@Package
 ````
+
+---
 
 ## Package Reference
 
