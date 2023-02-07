@@ -2,7 +2,7 @@
 title: Package - Windows Portable Devices
 author: twarwick
 ms.author: twarwick
-ms.date: 1/15/2023
+ms.date: 2/6/2023
 ms.topic: article
 ms.prod: windows-iot
 ms.technology: iot

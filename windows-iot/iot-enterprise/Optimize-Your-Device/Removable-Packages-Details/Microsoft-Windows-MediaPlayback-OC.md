@@ -2,7 +2,7 @@
 title: Package - Media Features Optional Component
 author: twarwick
 ms.author: twarwick
-ms.date: 1/12/2023
+ms.date: 2/6/2023
 ms.topic: article
 ms.prod: windows-iot
 ms.technology: iot
