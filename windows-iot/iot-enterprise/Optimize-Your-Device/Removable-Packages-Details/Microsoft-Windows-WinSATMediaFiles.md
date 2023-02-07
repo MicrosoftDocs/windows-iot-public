@@ -18,8 +18,6 @@ keywords: IoT Enterprise, removable packages, storage
 
 ## Description
 
-**WinSAT Media Files**
-
 The Windows System Assessment Tool media files have been removed from this package, however the package remains on the device with no payload.  This package is empty.
 
 **Package Name:** Microsoft-Windows-WinSATMediaFiles

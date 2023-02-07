@@ -18,8 +18,6 @@ keywords: IoT Enterprise, removable packages, storage
 
 ## Description
 
-**Media Features Optional Component**
-
 Controls availability of the *Media Features" and "Windows Media Player" options for the *Turn Windows features on or off* user experience in Control Panel.  Removing this package will remove these options from *Turn Windows features on or off*. 
 
 **Package Name:** Microsoft-Windows-MediaPlayback-OC

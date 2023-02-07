@@ -19,8 +19,6 @@ keywords: IoT Enterprise, removable packages, storage
 
 ## Description
 
-**Desktop Wallpaper**
-
 Wallpaper images
 
 **Package Name:** Microsoft-Windows-Shell-Wallpaper
