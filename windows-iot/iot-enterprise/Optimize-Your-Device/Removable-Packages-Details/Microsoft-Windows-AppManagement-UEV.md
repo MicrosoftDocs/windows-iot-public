@@ -14,9 +14,10 @@ keywords: IoT Enterprise, removable packages, storage
 |:------------------------------------|:--------------------|
 | Windows 10 IoT Enterprise LTSC 2021 | 19044.1741 or later |
 
-# Package: User Experience Virtualization
-
 ## Description
+
+**User Experience Virtualization**
+
 See [User Experience Virtualization](/windows/configuration/ue-v/uev-for-windows) for a detailed description of this Windows feature.
 
 **Package Name:**  Microsoft-Windows-AppManagment-UEV

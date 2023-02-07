@@ -14,9 +14,11 @@ keywords: IoT Enterprise, removable packages, storage
 |:------------------------------------|:--------------------|
 | Windows 10 IoT Enterprise LTSC 2021 | 19044.1741 or later |
 
-# Package: Shell Accessories
 
 ## Description
+
+**Shell Accessories**
+
 Modern Calculator, Character Map, More Icons DLL
 
 **Package Name:** Microsoft-Windows-ShellOptions

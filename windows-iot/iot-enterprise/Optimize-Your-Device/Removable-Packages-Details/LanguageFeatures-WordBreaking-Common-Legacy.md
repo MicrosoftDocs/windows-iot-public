@@ -14,9 +14,10 @@ keywords: IoT Enterprise, removable packages, storage
 |:------------------------------------|:--------------------|
 | Windows 10 IoT Enterprise LTSC 2021 | 19044.1741 or later |
 
-# Package: Language Word Breaking Legacy
-
 ## Description
+
+**Language Word Breaking Legacy** 
+
 Legacy neutral word breaker, should only be needed in occasional application compatibility scenarios.
 
 **Package Name:** LanguageFeatures-WordBreaking-Common-legacy  

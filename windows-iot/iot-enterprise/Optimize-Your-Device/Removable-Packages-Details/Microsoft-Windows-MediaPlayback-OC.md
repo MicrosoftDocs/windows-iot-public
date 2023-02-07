@@ -14,9 +14,10 @@ keywords: IoT Enterprise, removable packages, storage
 |:------------------------------------|:--------------------|
 | Windows 10 IoT Enterprise LTSC 2021 | 19044.1741 or later |
 
-# Package: Media Features Optional Component
-
 ## Description
+
+**Media Features Optional Component**
+
 Controls availability of the *Media Features" and "Windows Media Player" options for the *Turn Windows features on or off* user experience in Control Panel.  Removing this package will remove these options from *Turn Windows features on or off*. 
 
 **Package Name:** Microsoft-Windows-MediaPlayback-OC

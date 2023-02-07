@@ -14,9 +14,12 @@ keywords: IoT Enterprise, removable packages, storage
 |:------------------------------------|:--------------------|
 | Windows 10 IoT Enterprise LTSC 2021 | 19044.1741 or later |
 
-# Package: Windows Portable Devices
 
 ## Description
+
+
+**Windows Portable Devices**
+
 A component of the [Media Feature Pack](/windows/win32/wmdm/windows-media-device-manager-architecture) providing connectivity to portable devices for [Windows Media Device Manager](/windows/win32/wmdm/windows-media-device-manager-architecture).
 
 **Package Name:** Microsoft-Windows-Portable-Devices

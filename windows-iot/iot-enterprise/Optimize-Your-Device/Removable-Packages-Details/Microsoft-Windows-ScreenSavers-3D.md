@@ -14,9 +14,11 @@ keywords: IoT Enterprise, removable packages, storage
 |:------------------------------------|:--------------------|
 | Windows 10 IoT Enterprise LTSC 2021 | 19044.1741 or later |
 
-# Package: 3D Screensavers
 
 ## Description
+
+**3D Screensavers**
+
 Screensavers: 3D Text, Bubbles, Mystify and Ribbons
 
 **Package Name:** Microsoft-Windows-ScreenSavers-3d

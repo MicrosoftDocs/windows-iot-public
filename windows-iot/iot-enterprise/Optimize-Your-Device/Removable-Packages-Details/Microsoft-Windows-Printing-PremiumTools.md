@@ -14,9 +14,11 @@ keywords: IoT Enterprise, removable packages, storage
 |:------------------------------------|:--------------------|
 | Windows 10 IoT Enterprise LTSC 2021 | 19044.1741 or later |
 
-# Package: PrintBrm Command-Line tool
 
 ## Description
+
+**PrintBrm Command-Line tool**
+
 Print services migration command-line tool printbrm.exe
 
 **Package Name:** Microsoft-Windows-Printing-PremiumTools
