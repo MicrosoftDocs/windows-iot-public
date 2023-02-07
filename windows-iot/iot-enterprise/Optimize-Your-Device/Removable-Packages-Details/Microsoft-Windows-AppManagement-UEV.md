@@ -23,7 +23,7 @@ See [User Experience Virtualization](/windows/configuration/ue-v/uev-for-windows
 
 **Size:**  Approximately 13,752 KB
 
-## To remove a package using DISM
+## Package Removal
 
 1. To remove a specific package from the image type:
    ```powershell

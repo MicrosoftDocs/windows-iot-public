@@ -23,7 +23,7 @@ Controls availability of the *Media Features" and "Windows Media Player" options
 
 **Size:** Approximately 0 KB
 
-## To remove a package using DISM
+## Package Removal
 
 1. To remove a specific package from the image type:
    ```powershell

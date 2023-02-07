@@ -23,7 +23,7 @@ Create a recovery drive user experience invoked from Control Panel - Recovery
 
 **Size:** Approximately 1,041 KB
 
-## To remove a package using DISM
+## Package Removal
 
 1. To remove a specific package from the image type:
    ```powershell

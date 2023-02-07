@@ -23,7 +23,7 @@ Fonts: [Malgun Gothic](/typography/font-list/malgun-gothic), [Microsoft JhengHei
 
 **Size:**  Approximately 113,251 KB  
 
-## To remove a package using DISM
+## Package Removal
 
 1. To remove a specific package from the image type:
    ```powershell

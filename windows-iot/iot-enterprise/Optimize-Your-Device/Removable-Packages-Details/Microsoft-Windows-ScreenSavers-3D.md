@@ -23,7 +23,7 @@ Screensavers: 3D Text, Bubbles, Mystify and Ribbons
 
 **Size:** Approximately 1,312 KB
 
-## To remove a package using DISM
+## Package Removal
 
 1. To remove a specific package from the image type:
    ```powershell

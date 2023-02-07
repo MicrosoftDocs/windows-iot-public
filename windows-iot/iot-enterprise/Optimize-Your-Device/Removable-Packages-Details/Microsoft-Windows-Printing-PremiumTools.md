@@ -23,7 +23,7 @@ Print services migration command-line tool printbrm.exe
 
 **Size:**  Approximately 381 KB
 
-## To remove a package using DISM
+## Package Removal
 
 1. To remove a specific package from the image type:
    ```powershell

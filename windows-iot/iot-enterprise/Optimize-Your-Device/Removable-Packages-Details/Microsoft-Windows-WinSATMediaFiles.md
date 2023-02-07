@@ -23,7 +23,7 @@ The Windows System Assessment Tool media files have been removed from this packa
 
 **Size:** Approximately 0 KB
 
-## To remove a package using DISM
+## Package Removal
 
 1. To remove a specific package from the image type:
    ```powershell

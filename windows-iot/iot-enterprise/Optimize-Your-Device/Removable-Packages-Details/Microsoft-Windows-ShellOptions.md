@@ -23,7 +23,7 @@ Modern Calculator, Character Map, More Icons DLL
 
 **Size:** Approximately 657 KB
 
-## To remove a package using DISM
+## Package Removal
 
 1. To remove a specific package from the image type:
    ```powershell

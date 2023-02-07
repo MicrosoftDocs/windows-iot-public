@@ -23,7 +23,7 @@ This package enables **Boot from DVD** functionality in Windows.
 
 **Size:** Approximately 9,108 KB
 
-## To remove a package using DISM
+## Package Removal
 
 1. To remove a specific package from the image type:
    ```powershell

@@ -23,7 +23,7 @@ A component of the [Media Feature Pack](/windows/win32/wmdm/windows-media-device
 
 **Size:** Approximately 1,394 KB
 
-## To remove a package using DISM
+## Package Removal
 
 1. To remove a specific package from the image type:
    ```powershell
