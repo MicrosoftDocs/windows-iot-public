@@ -17,9 +17,7 @@ keywords: IoT Enterprise, removable packages, storage
 | Windows 10 IoT Enterprise LTSC 2021 | 19044.1741 or later |
 
 
-## Description
-
-**Windows Media Format**
+## Description  
 
 A component of the [Media Feature Pack](/windows/win32/wmdm/windows-media-device-manager-architecture) comprised of support for [Windows Media Device Manager](/windows/win32/wmdm/windows-media-device-manager-architecture),  [Advanced Systems Format](/windows/win32/wmformat/overview-of-the-asf-format) (ASF) file container, Windows Media audio and video codecs, basic network streaming, and [Digital Rights Management](/windows/win32/wmformat/overview-of-windows-media-drm).
 

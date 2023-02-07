@@ -18,8 +18,6 @@ keywords: IoT Enterprise, removable packages, storage
 
 ## Description
 
-**Recovery Drive**
-
 Create a recovery drive user experience invoked from Control Panel - Recovery
 
 **Package Name:** Microsoft-Windows-RecoveryDrive

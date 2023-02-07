@@ -19,8 +19,6 @@ keywords: IoT Enterprise, removable packages, storage
 
 ## Description
 
-**Sensor Data Service**
-
 A component of the [Media Feature Pack](/windows/win32/wmdm/windows-media-device-manager-architecture) supporting data acquisition from various sensors.  Supports Windows Hello.
 
 **Package Name:** Microsoft-Windows-SensorDataService
