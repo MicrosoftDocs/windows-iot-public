@@ -2,7 +2,7 @@
 title: Package - WinSAT Media Files
 author: twarwick
 ms.author: twarwick
-ms.date: 1/12/2023
+ms.date: 2/6/2023
 ms.topic: article
 ms.prod: windows-iot
 ms.technology: iot
@@ -10,30 +10,38 @@ description: Removable Package Details for Microsoft-Windows-WinSATMediaFiles
 keywords: IoT Enterprise, removable packages, storage
 ---
 
-# Package: WinSAT Media Files
+# WinSAT Media Files
+
+| Applies to                          |  Version            |
+|:------------------------------------|:--------------------|
+| Windows 10 IoT Enterprise LTSC 2021 | 19044.1741 or later |
 
 ## Description
+
+**WinSAT Media Files**
+
 The Windows System Assessment Tool media files have been removed from this package, however the package remains on the device with no payload.  This package is empty.
 
 **Package Name:** Microsoft-Windows-WinSATMediaFiles
 
 **Size:** Approximately 0 KB
 
+## Package Removal
 
-## Removing Package
+1. To remove a specific package from the image type:
+   ```powershell
+   Dism.exe /Online /NoRestart /Disable-Feature /FeatureName:Microsoft-Windows-WinSATMediaFiles /PackageName:@Package
+   ````
 
-### Online Servicing 
-Use the [DISM command-line tool](/windows-hardware/manufacture/desktop/what-is-dism) with the ```/Online``` command-line parameter to remove a single package via online servicing.
+   To remove a package from an offline image mounted at `c:\offline` type:
+   ```powershell
+   Dism.exe /Image:c:\offline  /Disable-Feature /FeatureName:Microsoft-Windows-WinSATMediaFiles /PackageName:@Package
+   ```
 
-```powershell
-Dism.exe /Online /LogPath:%WINDIR%\Temp\Microsoft-Windows-WinSATMediaFiles.log /NoRestart /Disable-Feature /FeatureName:Microsoft-Windows-WinSATMediaFiles /PackageName:@Package
-````
-### Offline Servicing
-Use the [DISM command-line tool](/windows-hardware/manufacture/desktop/what-is-dism) with the ```/Image:<image path>``` command-line parameter to remove a single package via offline servicing.
-
-```powershell
-Dism.exe /Image:c:\offline /LogPath:%WINDIR%\Temp\Microsoft-Windows-WinSATMediaFiles.log /NoRestart /Disable-Feature /FeatureName:Microsoft-Windows-WinSATMediaFiles /PackageName:@Package
-````
+1. Optional: Use DISM /GetFeatureInfo to get the status of a removable package type:
+   ```powershell
+   Dism.exe /Online /Get-FeatureInfo /FeatureName:Microsoft-Windows-WinSATMediaFiles /PackageName:@Package
+   ````
 
 ## Related Packages
 These packages collectively provide the functionality represented by the [Media Feature Pack](/windows/win32/wmdm/windows-media-device-manager-architecture).  There are dependencies between each of these packages.  If you elect to remove a subset of these packages, it is recommended that you thoroughly test your scenarios to ensure that your customers do not encounter the interaction between the packages you retain and the packages that you remove.

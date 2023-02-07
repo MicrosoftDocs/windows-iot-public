@@ -2,7 +2,7 @@
 title: Package - Media Foundation
 author: twarwick
 ms.author: twarwick
-ms.date: 1/12/2023
+ms.date: 2/6/2023
 ms.topic: article
 ms.prod: windows-iot
 ms.technology: iot
@@ -10,29 +10,38 @@ description: Removable Package Details for Microsoft-Media-Foundation
 keywords: IoT Enterprise, removable packages, storage
 ---
 
-# Package: Media Foundation
+# Media Foundation
+
+| Applies to                          |  Version            |
+|:------------------------------------|:--------------------|
+| Windows 10 IoT Enterprise LTSC 2021 | 19044.1741 or later |
 
 ## Description  
+
+**Media Foundation**
+
 Component of the [Media Feature Pack](/windows/win32/wmdm/windows-media-device-manager-architecture) comprised of [Microsoft Media Foundation](/windows/win32/medfound/microsoft-media-foundation-sdk) enables the development of applications and components for using digital media. [Supported Media Formats in Media Foundation](/windows/win32/medfound/supported-media-formats-in-media-foundation).  
 
 **Package Name:**  Microsoft-Media-Foundation
 
 **Size:** Approximately 63,747 KB
 
-## Removing Package
+## Package Removal
 
-### Online Servicing 
-Use the [DISM command-line tool](/windows-hardware/manufacture/desktop/what-is-dism) with the ```/Online``` command-line parameter to remove a single package via online servicing.
+1. To remove a specific package from the image type:
+   ```powershell
+   Dism.exe /Online /NoRestart /Disable-Feature /FeatureName:Microsoft-Media-Foundation /PackageName:@Package
+   ````
 
-```powershell
-Dism.exe /Online /LogPath:%WINDIR%\Temp\Microsoft-Media-Foundation.log /NoRestart /Disable-Feature /FeatureName:Microsoft-Media-Foundation /PackageName:@Package
-````
-### Offline Servicing
-Use the [DISM command-line tool](/windows-hardware/manufacture/desktop/what-is-dism) with the ```/Image:<image path>``` command-line parameter to remove a single package via offline servicing.
+   To remove a package from an offline image mounted at `c:\offline` type:
+   ```powershell
+   Dism.exe /Image:c:\offline  /Disable-Feature /FeatureName:Microsoft-Media-Foundation /PackageName:@Package
+   ```
 
-```powershell
-Dism.exe /Image:c:\offline /LogPath:%WINDIR%\Temp\Microsoft-Media-Foundation.log /NoRestart /Disable-Feature /FeatureName:Microsoft-Media-Foundation /PackageName:@Package
-````
+1. Optional: Use DISM /GetFeatureInfo to get the status of a removable package type:
+   ```powershell
+   Dism.exe /Online /Get-FeatureInfo /FeatureName:Microsoft-Media-Foundation /PackageName:@Package
+   ````
 
 ## Related Packages
 These packages collectively provide the functionality represented by the [Media Feature Pack](/windows/win32/wmdm/windows-media-device-manager-architecture).  There are dependencies between each of these packages.  If you elect to remove a subset of these packages, it is recommended that you thoroughly test your scenarios to ensure that your customers do not encounter the interaction between the packages you retain and the packages that you remove.

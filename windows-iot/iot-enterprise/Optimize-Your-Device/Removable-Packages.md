@@ -2,7 +2,7 @@
 title: Removable Packages Overview
 author: twarwick
 ms.author: twarwick
-ms.date: 1/15/2023
+ms.date: 2/6/2023
 ms.topic: article
 ms.prod: windows-iot
 ms.technology: iot
@@ -10,7 +10,14 @@ description: Windows IoT Enterprise feature to assist with reducing disk footpri
 keywords: IoT Enterprise, removable packages, storage
 ---
 
-# Removable Packages Overview
+# Removable Packages
+
+| Applies to                          |  Version            |
+|:------------------------------------|:--------------------|
+| Windows 10 IoT Enterprise LTSC 2021 | 19044.1741 or later |
+
+
+## Overview
 
 In addition to the image customizability provided by '[Enable or Disable Windows Features using DISM](/windows-hardware/manufacture/desktop/enable-or-disable-windows-features-using-dism)' and '[Features on Demand](/windows-hardware/manufacture/desktop/features-on-demand-v2--capabilities)', a device builder can remove extra packages from Windows IoT Enterprise LTSC using the methods described in this article.
 
@@ -29,30 +36,22 @@ This feature is supported on Windows 10 IoT Enterprise LTSC 2021 (build 19044.17
 > - Option 1: Go to Start > Settings > Windows Update then check for and apply all available updates before proceeding.
 > - Option 2: Manually download and install  [KB5014023](https://support.microsoft.com/topic/june-2-2022-kb5014023-os-builds-19042-1741-19043-1741-and-19044-1741-preview-65ac6a5d-439a-4e88-b431-a5e2d4e2516a) or any of its successors.
  
-## Removing Packages
+## Package Removal
 
-### Online Servicing 
-Use the [DISM command-line tool](/windows-hardware/manufacture/desktop/what-is-dism) with the ```/Online``` command-line parameter to remove a single package via online servicing.
+1. To remove a specific package from the image, for example Windows calculator, type:
+   ```powershell
+   Dism.exe /Online /NoRestart /Disable-Feature /FeatureName:Microsoft-Windows-win32calc /PackageName:@Package
+   ````
 
-```powershell
-Dism.exe /Online /LogPath:<logfile> /NoRestart /Disable-Feature /FeatureName:<package name> /PackageName:@Package
-```
+   To remove a package from an offline image mounted at `c:\offline`, for  example Windows calculator, type:
+   ```powershell
+   Dism.exe /Image:c:\offline  /Disable-Feature /FeatureName:Microsoft-Windows-win32calc /PackageName:@Package
+   ```
 
-Example: Use DISM.exe to remove Windows calculator using online servicing.
-```powershell
-Dism.exe /Online /LogPath:%WINDIR%/Temp/remove_win32calc.log /NoRestart /Disable-Feature /FeatureName:Microsoft-Windows-win32calc /PackageName:@Package
-````
-### Offline Servicing
-Use the [DISM command-line tool](/windows-hardware/manufacture/desktop/what-is-dism) with the ```/Image:<image path>``` command-line parameter to remove a single package via offline servicing.
-
-```powershell
-Dism.exe /Image:<image path> /LogPath:<logfile> /NoRestart /Disable-Feature /FeatureName:<package name> /PackageName:@Package
-```
-
-Example: Use DISM.exe to remove Windows calculator using offline servicing.
-```powershell
-Dism.exe /Image:c:/offline /LogPath:%WINDIR%/Temp/remove_win32calc.log /NoRestart /Disable-Feature /FeatureName:Microsoft-Windows-win32calc /PackageName:@Package
-````
+1. Optional: Use DISM /GetFeatureInfo to get the status of a removable package, for example Windows calculator, type:
+   ```powershell
+   Dism.exe /Online /Get-FeatureInfo /FeatureName:Microsoft-Windows-win32calc /PackageName:@Package
+   ````
 
 ## Package Reference
 
