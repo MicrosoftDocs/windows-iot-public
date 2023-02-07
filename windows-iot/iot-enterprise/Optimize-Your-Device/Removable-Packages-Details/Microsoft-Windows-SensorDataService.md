@@ -10,7 +10,7 @@ description: Removable Package Details for Microsoft-Windows-SensorDataService
 keywords: IoT Enterprise, removable packages, storage
 ---
 
-# Removable Package Details
+# Sensor Data Service
 
 | Applies to                          |  Version            |
 |:------------------------------------|:--------------------|

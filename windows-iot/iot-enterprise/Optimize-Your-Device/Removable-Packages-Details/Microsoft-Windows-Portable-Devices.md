@@ -10,7 +10,7 @@ description: Removable Package Details for Microsoft-Windows-Portable-Devices
 keywords: IoT Enterprise, removable packages, storage
 ---
 
-# Removable Package Details
+# Windows Portable Devices
 
 | Applies to                          |  Version            |
 |:------------------------------------|:--------------------|

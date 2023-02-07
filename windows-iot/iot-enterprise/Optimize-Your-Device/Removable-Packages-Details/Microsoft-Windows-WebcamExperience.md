@@ -10,7 +10,7 @@ description: Removable Package Details for Microsoft-Windows-WebCamExperiece
 keywords: IoT Enterprise, removable packages, storage
 ---
 
-# Removable Package Details
+# Webcam Experience
 
 | Applies to                          |  Version            |
 |:------------------------------------|:--------------------|

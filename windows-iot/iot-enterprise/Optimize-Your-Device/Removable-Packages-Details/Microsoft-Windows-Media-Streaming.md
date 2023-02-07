@@ -10,7 +10,7 @@ description: Removable Package Details for Microsoft-Windows-Media-Streaming
 keywords: IoT Enterprise, removable packages, storage
 ---
 
-# Removable Package Details
+# windows Media Streaming
 
 | Applies to                          |  Version            |
 |:------------------------------------|:--------------------|

@@ -10,7 +10,7 @@ description: Removable Package Details for Microsoft-Media-Foundation
 keywords: IoT Enterprise, removable packages, storage
 ---
 
-# Removable Package Details
+# Media Foundation
 
 | Applies to                          |  Version            |
 |:------------------------------------|:--------------------|

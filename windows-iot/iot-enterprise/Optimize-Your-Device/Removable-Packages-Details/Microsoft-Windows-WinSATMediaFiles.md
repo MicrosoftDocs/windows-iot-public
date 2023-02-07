@@ -10,7 +10,7 @@ description: Removable Package Details for Microsoft-Windows-WinSATMediaFiles
 keywords: IoT Enterprise, removable packages, storage
 ---
 
-# Removable Package Details
+# WinSAT Media Files
 
 | Applies to                          |  Version            |
 |:------------------------------------|:--------------------|

@@ -10,7 +10,7 @@ description: Removable Package Details for Microsoft-Windows-RecoveryDrive
 keywords: IoT Enterprise, removable packages, storage
 ---
 
-# Removable Package Details
+# Recovery Drive
 
 | Applies to                          |  Version            |
 |:------------------------------------|:--------------------|

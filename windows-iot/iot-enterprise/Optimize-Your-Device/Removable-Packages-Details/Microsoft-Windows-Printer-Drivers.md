@@ -10,7 +10,7 @@ description: Removable Package Details for Microsoft-Windows-Printer-Drivers
 keywords: IoT Enterprise, removable packages, storage
 ---
 
-# Removable Package Details
+# Printer Drivers
 
 | Applies to                          |  Version            |
 |:------------------------------------|:--------------------|

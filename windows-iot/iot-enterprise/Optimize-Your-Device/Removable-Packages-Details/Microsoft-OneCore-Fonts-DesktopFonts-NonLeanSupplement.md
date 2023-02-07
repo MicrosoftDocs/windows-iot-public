@@ -10,7 +10,7 @@ description: Removable Package Details for Fonts_DesktopFonts_NonLeanSupplement
 keywords: IoT Enterprise, removable packages, storage
 ---
 
-# Removable Package Details
+# Supplemental Fonts
 
 | Applies to                          |  Version            |
 |:------------------------------------|:--------------------|

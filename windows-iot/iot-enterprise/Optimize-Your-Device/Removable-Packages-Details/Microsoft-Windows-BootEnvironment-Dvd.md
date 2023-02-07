@@ -10,7 +10,7 @@ description: Removable Package Details for Microsoft-Windows-BootEnvironment-Dvd
 keywords: IoT Enterprise, removable packages, storage
 ---
 
-# Removable Package Details
+# Boot Environment DVD
 
 | Applies to                          |  Version            |
 |:------------------------------------|:--------------------|

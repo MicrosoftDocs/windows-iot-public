@@ -10,7 +10,7 @@ description: Removable Package Details for LanguageFeatures_WordBreaking_Common_
 keywords: IoT Enterprise, removable packages, storage
 ---
 
-# Removable Package Details
+# Language Word Breaking Legacy
 
 | Applies to                          |  Version            |
 |:------------------------------------|:--------------------|

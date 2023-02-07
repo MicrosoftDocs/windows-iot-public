@@ -10,7 +10,7 @@ description: Removable Package Details for Microsoft-Windows-ShellOptions
 keywords: IoT Enterprise, removable packages, storage
 ---
 
-# Removable Package Details
+# Shell Accessories
 
 | Applies to                          |  Version            |
 |:------------------------------------|:--------------------|

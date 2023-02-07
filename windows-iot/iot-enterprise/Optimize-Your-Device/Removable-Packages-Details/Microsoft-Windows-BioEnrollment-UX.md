@@ -10,7 +10,7 @@ description: Removable Package Details for Microsoft-Windows-BioEnrollment-UX
 keywords: IoT Enterprise, removable packages, storage
 ---
 
-# Removable Package Details
+# Bio Enrollment Experience
 
 | Applies to                          |  Version            |
 |:------------------------------------|:--------------------|

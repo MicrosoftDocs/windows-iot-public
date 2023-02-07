@@ -10,7 +10,7 @@ description: Removable Package Details for Microsoft-Windows-Media-Format
 keywords: IoT Enterprise, removable packages, storage
 ---
 
-# Removable Package Details
+# Windows Media Format
 
 | Applies to                          |  Version            |
 |:------------------------------------|:--------------------|

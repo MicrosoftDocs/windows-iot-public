@@ -10,7 +10,7 @@ description: Removable Package Details for Microsoft-Windows-win32calc
 keywords: IoT Enterprise, removable packages, storage
 ---
 
-# Removable Package Details
+# Legacy Calculator App
 
 | Applies to                          |  Version            |
 |:------------------------------------|:--------------------|

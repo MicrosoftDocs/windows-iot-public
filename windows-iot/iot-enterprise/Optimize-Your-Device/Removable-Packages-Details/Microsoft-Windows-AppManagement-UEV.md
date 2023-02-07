@@ -10,7 +10,7 @@ description: Removable Package Details for Microsoft-Windows-AppManagment-UEV
 keywords: IoT Enterprise, removable packages, storage
 ---
 
-# Removable Package Details
+# User Experience Virtualization
 
 | Applies to                          |  Version            |
 |:------------------------------------|:--------------------|

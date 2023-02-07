@@ -10,7 +10,7 @@ description: Removable Package Details for Microsoft-Winodws-MediaPlayback-OC
 keywords: IoT Enterprise, removable packages, storage
 ---
 
-# Removable Package Details
+# Media Features Optional Component
 
 | Applies to                          |  Version            |
 |:------------------------------------|:--------------------|

@@ -10,7 +10,7 @@ description: Removable Package Details for Microsoft-Windows-Printing-PremiumToo
 keywords: IoT Enterprise, removable packages, storage
 ---
 
-# Removable Package Details
+# PrintBRM Command-Line tool
 
 | Applies to                          |  Version            |
 |:------------------------------------|:--------------------|

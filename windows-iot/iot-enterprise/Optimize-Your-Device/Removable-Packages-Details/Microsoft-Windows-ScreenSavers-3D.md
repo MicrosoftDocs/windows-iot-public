@@ -10,7 +10,7 @@ description: Removable Package Details for Microsoft-Windows-ScreenSavers-3d
 keywords: IoT Enterprise, removable packages, storage
 ---
 
-# Removable Package Details
+# 3D  Screensavers
 
 | Applies to                          |  Version            |
 |:------------------------------------|:--------------------|

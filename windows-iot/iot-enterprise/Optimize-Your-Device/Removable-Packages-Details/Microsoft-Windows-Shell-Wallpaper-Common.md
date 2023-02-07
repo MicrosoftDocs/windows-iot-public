@@ -10,7 +10,7 @@ description: Removable Package Details for Microsoft-Windows-Shell-Wallpaper
 keywords: IoT Enterprise, removable packages, storage
 ---
 
-# Removable Package Details
+# Desktop Wallpaper
 
 | Applies to                          |  Version            |
 |:------------------------------------|:--------------------|
