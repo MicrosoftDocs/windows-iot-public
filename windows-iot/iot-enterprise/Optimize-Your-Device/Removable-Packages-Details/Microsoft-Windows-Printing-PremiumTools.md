@@ -19,8 +19,6 @@ keywords: IoT Enterprise, removable packages, storage
 
 ## Description
 
-**PrintBrm Command-Line tool**
-
 Print services migration command-line tool printbrm.exe
 
 **Package Name:** Microsoft-Windows-Printing-PremiumTools

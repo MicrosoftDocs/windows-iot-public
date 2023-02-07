@@ -19,8 +19,6 @@ keywords: IoT Enterprise, removable packages, storage
 
 ## Description
 
-**Legacy Calculator App**
-
 Legacy calculator application
 
 **Package Name:** Microsoft-Windows-win32calc

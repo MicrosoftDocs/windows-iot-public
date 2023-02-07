@@ -19,8 +19,6 @@ keywords: IoT Enterprise, removable packages, storage
 
 ## Description
 
-**Webcam Experience**
-
 A component of the [Media Feature Pack](/windows/win32/wmdm/windows-media-device-manager-architecture) providing webcam user experience.
 
 **Package Name:** Microsoft-Windows-WebCamExperience

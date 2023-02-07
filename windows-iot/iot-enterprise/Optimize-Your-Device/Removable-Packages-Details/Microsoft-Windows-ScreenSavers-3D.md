@@ -19,8 +19,6 @@ keywords: IoT Enterprise, removable packages, storage
 
 ## Description
 
-**3D Screensavers**
-
 Screensavers: 3D Text, Bubbles, Mystify and Ribbons
 
 **Package Name:** Microsoft-Windows-ScreenSavers-3d

@@ -19,8 +19,6 @@ keywords: IoT Enterprise, removable packages, storage
 
 ## Description
 
-**Shell Accessories**
-
 Modern Calculator, Character Map, More Icons DLL
 
 **Package Name:** Microsoft-Windows-ShellOptions
