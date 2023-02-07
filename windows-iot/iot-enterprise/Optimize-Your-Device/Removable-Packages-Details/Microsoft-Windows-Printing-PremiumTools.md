@@ -10,11 +10,11 @@ description: Removable Package Details for Microsoft-Windows-Printing-PremiumToo
 keywords: IoT Enterprise, removable packages, storage
 ---
 
-# Package: PrintBrm Command-Line tool
-** Applies to **
-| Operating System                    |  Version            |
+| Applies to                          |  Version            |
 |:------------------------------------|:--------------------|
 | Windows 10 IoT Enterprise LTSC 2021 | 19044.1741 or later |
+
+# Package: PrintBrm Command-Line tool
 
 ## Description
 Print services migration command-line tool printbrm.exe

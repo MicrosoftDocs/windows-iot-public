@@ -10,11 +10,11 @@ description: Removable Package Details for Microsoft-Windows-ScreenSavers-3d
 keywords: IoT Enterprise, removable packages, storage
 ---
 
-# Package: 3D Screensavers
-** Applies to **
-| Operating System                    |  Version            |
+| Applies to                          |  Version            |
 |:------------------------------------|:--------------------|
 | Windows 10 IoT Enterprise LTSC 2021 | 19044.1741 or later |
+
+# Package: 3D Screensavers
 
 ## Description
 Screensavers: 3D Text, Bubbles, Mystify and Ribbons

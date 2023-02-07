@@ -10,11 +10,11 @@ description: Removable Package Details for Microsoft-Windows-win32calc
 keywords: IoT Enterprise, removable packages, storage
 ---
 
-# Package: Legacy Calculator App
-** Applies to **
-| Operating System                    |  Version            |
+| Applies to                          |  Version            |
 |:------------------------------------|:--------------------|
 | Windows 10 IoT Enterprise LTSC 2021 | 19044.1741 or later |
+
+# Package: Legacy Calculator App
 
 ## Description
 Legacy calculator application

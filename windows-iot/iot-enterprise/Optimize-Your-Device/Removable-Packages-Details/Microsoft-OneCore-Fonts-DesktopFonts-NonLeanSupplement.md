@@ -10,11 +10,11 @@ description: Removable Package Details for Fonts_DesktopFonts_NonLeanSupplement
 keywords: IoT Enterprise, removable packages, storage
 ---
 
-# Package: Supplemental Fonts
-** Applies to **
-| Operating System                    |  Version            |
+| Applies to                          |  Version            |
 |:------------------------------------|:--------------------|
 | Windows 10 IoT Enterprise LTSC 2021 | 19044.1741 or later |
+
+# Package: Supplemental Fonts
 
 ## Description
 Fonts: [Malgun Gothic](/typography/font-list/malgun-gothic), [Microsoft JhengHei](/typography/font-list/microsoft-jhenghei), [Microsoft YaHei](/typography/font-list/microsoft-yahei), [Yu Gothic](/typography/font-list/yu-gothic)

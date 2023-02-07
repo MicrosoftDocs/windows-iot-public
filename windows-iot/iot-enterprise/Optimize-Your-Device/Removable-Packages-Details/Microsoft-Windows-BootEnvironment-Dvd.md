@@ -10,11 +10,11 @@ description: Removable Package Details for Microsoft-Windows-BootEnvironment-Dvd
 keywords: IoT Enterprise, removable packages, storage
 ---
 
-# Package: Boot Environment DVD
-** Applies to **
-| Operating System                    |  Version            |
+| Applies to                          |  Version            |
 |:------------------------------------|:--------------------|
 | Windows 10 IoT Enterprise LTSC 2021 | 19044.1741 or later |
+
+# Package: Boot Environment DVD
 
 ## Description 
 This package enables **Boot from DVD** functionality in Windows.

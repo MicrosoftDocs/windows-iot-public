@@ -10,11 +10,11 @@ description: Removable Package Details for Microsoft-Windows-RecoveryDrive
 keywords: IoT Enterprise, removable packages, storage
 ---
 
-# Package: Recovery Drive
-** Applies to **
-| Operating System                    |  Version            |
+| Applies to                          |  Version            |
 |:------------------------------------|:--------------------|
 | Windows 10 IoT Enterprise LTSC 2021 | 19044.1741 or later |
+
+# Package: Recovery Drive
 
 ## Description
 Create a recovery drive user experience invoked from Control Panel - Recovery

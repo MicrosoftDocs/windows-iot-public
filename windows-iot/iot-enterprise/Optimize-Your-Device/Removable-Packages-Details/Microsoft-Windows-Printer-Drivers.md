@@ -10,11 +10,11 @@ description: Removable Package Details for Microsoft-Windows-Printer-Drivers
 keywords: IoT Enterprise, removable packages, storage
 ---
 
-# Package: Printer Drivers
-** Applies to **
-| Operating System                    |  Version            |
+| Applies to                          |  Version            |
 |:------------------------------------|:--------------------|
 | Windows 10 IoT Enterprise LTSC 2021 | 19044.1741 or later |
+
+# Package: Printer Drivers
 
 ## Description
 Generic / Text Only, Generic IBM Graphics 9-pin, Generic IBM Graphics 9-pin wide, MS Publisher Color Printer, MS Publisher Imagesetter, Microsoft Shared Fax Driver
