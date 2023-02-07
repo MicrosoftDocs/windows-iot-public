@@ -11,6 +11,10 @@ keywords: IoT Enterprise, removable packages, storage
 ---
 
 # Package: PrintBrm Command-Line tool
+** Applies to **
+| Operating System                    |  Version            |
+|:------------------------------------|:--------------------|
+| Windows 10 IoT Enterprise LTSC 2021 | 19044.1741 or later |
 
 ## Description
 Print services migration command-line tool printbrm.exe
@@ -19,20 +23,22 @@ Print services migration command-line tool printbrm.exe
 
 **Size:**  Approximately 381 KB
 
-## Removing Package
+## To remove a package using DISM
 
-### Online Servicing 
-Use the [DISM command-line tool](/windows-hardware/manufacture/desktop/what-is-dism) with the ```/Online``` command-line parameter to remove a single package via online servicing.
+1. To remove a specific package from the image type:
+   ```powershell
+   Dism.exe /Online /NoRestart /Disable-Feature /FeatureName:Microsoft-Windows-Printing-PremiumTools /PackageName:@Package
+   ````
 
-```powershell
-Dism.exe /Online /LogPath:%WINDIR%\Temp\Microsoft-Windows-Printing-PremiumTools.log /NoRestart /Disable-Feature /FeatureName:Microsoft-Windows-Printing-PremiumTools /PackageName:@Package
-````
-### Offline Servicing
-Use the [DISM command-line tool](/windows-hardware/manufacture/desktop/what-is-dism) with the ```/Image:<image path>``` command-line parameter to remove a single package via offline servicing.
+   To remove a package from an offline image mounted at `c:\offline` type:
+   ```powershell
+   Dism.exe /Image:c:\offline  /Disable-Feature /FeatureName:Microsoft-Windows-Printing-PremiumTools /PackageName:@Package
+   ```
 
-```powershell
-Dism.exe /Image:c:\offline /LogPath:%WINDIR%\Temp\Microsoft-Windows-Printing-PremiumTools.log /NoRestart /Disable-Feature /FeatureName:Microsoft-Windows-Printing-PremiumTools /PackageName:@Package
-````
+1. Optional: Use DISM /GetFeatureInfo to get the status of a removable package type:
+   ```powershell
+   Dism.exe /Online /Get-FeatureInfo /FeatureName:Microsoft-Windows-Printing-PremiumTools /PackageName:@Package
+   ````
 
 ## File List
 | File Name | Installed Location |

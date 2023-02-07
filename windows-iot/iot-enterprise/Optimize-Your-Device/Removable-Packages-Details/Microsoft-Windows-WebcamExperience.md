@@ -11,6 +11,10 @@ keywords: IoT Enterprise, removable packages, storage
 ---
 
 # Package: Webcam Experience
+** Applies to **
+| Operating System                    |  Version            |
+|:------------------------------------|:--------------------|
+| Windows 10 IoT Enterprise LTSC 2021 | 19044.1741 or later |
 
 ## Description
 A component of the [Media Feature Pack](/windows/win32/wmdm/windows-media-device-manager-architecture) providing webcam user experience.
@@ -19,21 +23,22 @@ A component of the [Media Feature Pack](/windows/win32/wmdm/windows-media-device
 
 **Size:** Approximately 1,394 KB
 
+## To remove a package using DISM
 
-## Removing Package
+1. To remove a specific package from the image type:
+   ```powershell
+   Dism.exe /Online /NoRestart /Disable-Feature /FeatureName:Microsoft-Windows-WebCamExperience /PackageName:@Package
+   ````
 
-### Online Servicing 
-Use the [DISM command-line tool](/windows-hardware/manufacture/desktop/what-is-dism) with the ```/Online``` command-line parameter to remove a single package via online servicing.
+   To remove a package from an offline image mounted at `c:\offline` type:
+   ```powershell
+   Dism.exe /Image:c:\offline  /Disable-Feature /FeatureName:Microsoft-Windows-WebCamExperience /PackageName:@Package
+   ```
 
-```powershell
-Dism.exe /Online /LogPath:%WINDIR%\Temp\Microsoft-Windows-WebCamExperience.log /NoRestart /Disable-Feature /FeatureName:Microsoft-Windows-WebCamExperience /PackageName:@Package
-````
-### Offline Servicing
-Use the [DISM command-line tool](/windows-hardware/manufacture/desktop/what-is-dism) with the ```/Image:<image path>``` command-line parameter to remove a single package via offline servicing.
-
-```powershell
-Dism.exe /Image:c:\offline /LogPath:%WINDIR%\Temp\Microsoft-Windows-WebCamExperience.log /NoRestart /Disable-Feature /FeatureName:Microsoft-Windows-WebCamExperience /PackageName:@Package
-````
+1. Optional: Use DISM /GetFeatureInfo to get the status of a removable package type:
+   ```powershell
+   Dism.exe /Online /Get-FeatureInfo /FeatureName:Microsoft-Windows-WebCamExperience /PackageName:@Package
+   ````
 
 ## Related Packages
 These packages collectively provide the functionality represented by the [Media Feature Pack](/windows/win32/wmdm/windows-media-device-manager-architecture).  There are dependencies between each of these packages.  If you elect to remove a subset of these packages, it is recommended that you thoroughly test your scenarios to ensure that your customers do not encounter the interaction between the packages you retain and the packages that you remove.
