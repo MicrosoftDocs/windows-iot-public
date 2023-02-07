@@ -10,12 +10,14 @@ description: Windows IoT Enterprise feature to assist with reducing disk footpri
 keywords: IoT Enterprise, removable packages, storage
 ---
 
+# Removable Packages
+
 | Applies to                          |  Version            |
 |:------------------------------------|:--------------------|
 | Windows 10 IoT Enterprise LTSC 2021 | 19044.1741 or later |
 
 
-# Removable Packages Overview
+## Overview
 
 In addition to the image customizability provided by '[Enable or Disable Windows Features using DISM](/windows-hardware/manufacture/desktop/enable-or-disable-windows-features-using-dism)' and '[Features on Demand](/windows-hardware/manufacture/desktop/features-on-demand-v2--capabilities)', a device builder can remove extra packages from Windows IoT Enterprise LTSC using the methods described in this article.
 
