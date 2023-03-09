@@ -148,6 +148,8 @@ Environments that use Windows Management Instrumentation (WMI) can use the MDM B
 
   ```
 
+5. Restart the machine to activate the change.
+
 >[!TIP]
 >
 > You can use the same script for whatever number of real-time cores you need to have, just replacing the 3 in the second-to-last line with the appropriate number. This will reserve cores starting with the highest core and going downwards. So reserving 3 cores on a 4 core CPU will reserve cores 3, 2, and 1 and leave core 0 for system and non-real-time tasks. Please note that there's no guarantee that the real-time cores are going to remain highest, since the real-time core indices will remain fixed if increasing the CPU core count afterwards.
