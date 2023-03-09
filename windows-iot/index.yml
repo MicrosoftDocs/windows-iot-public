@@ -34,21 +34,21 @@ highlightedContent:
 productDirectory:
   items:
     - title: Windows IoT Enterprise
-      imageSrc: ./media/index/windows.png
+      imageSrc: ./media/windows.png
       links:
         - url: /windows/iot/iot-enterprise/getting_started
           text: Overview
         - url: /windows/iot/iot-enterprise/hardware-guidance/hardware_requirements
           text: Hardware Requirements  
-#        - url: ./iot-enterprise/Commercialization/Manufacturing-Guide.md
-#          text: Manufacturing Guide
+        # - url: ./iot-enterprise/Commercialization/Manufacturing-Guide.md
+        #   text: Manufacturing Guide
         - url: ./iot-enterprise/Kiosk-Mode/Kiosk-Mode.md
           text: Kiosk Mode
         - url: /lifecycle/products/?terms=Windows%20IoT%20Enterprise
           text: Support Lifecycle
 
     - title: Windows Server IoT
-      imageSrc: ./media/index/windows.png
+      imageSrc: ./media/windows.png
       links:
         - url: ./server/windows-server.md
           text: Overview
@@ -58,7 +58,7 @@ productDirectory:
           text:  Get Started with Windows Server
 
     - title: SQL Server IoT
-      imageSrc: ./media/index/windows.png
+      imageSrc: ./media/windows.png
       links:
         - url: https://techcommunity.microsoft.com/t5/internet-of-things-blog/announcing-sql-server-iot-2022/ba-p/3672116
           text: Overview
@@ -68,7 +68,7 @@ productDirectory:
           text:  SQL Server technical documentation
 
     - title: AKS Edge Essentials
-      imageSrc: ./media/index/windows.png
+      imageSrc: ./media/windows.png
       links:
         - url: /azure/aks/hybrid/aks-edge-overview
           text: Overview
@@ -78,7 +78,7 @@ productDirectory:
           text: How-to Guide
 
     - title: Azure IoT Edge for Linux on Windows
-      imageSrc: ./media/index/windows.png
+      imageSrc: ./media/windows.png
       links:
         - url: /azure/iot-edge/iot-edge-for-linux-on-windows?view=iotedge-2018-06
           text: Overview
@@ -88,7 +88,7 @@ productDirectory:
           text: How-to Guide
 
     - title: Previous Versions
-      imageSrc: ./media/index/windows.png
+      imageSrc: ./media/windows.png
       links:
         - url: /windows/iot-core/windows-iot-core
           text:  Windows IoT Core
@@ -99,33 +99,33 @@ productDirectory:
         - url: /previous-versions/windows/embedded/ee504814(v=winembedded.70)
           text: Windows Embedded Family       
 
-#    - title: Windows CE Migration
-#      imageSrc: ./media/index/windows.png
-#      links:
-#        - url: ./windows_ce/windows-ce-migration-faq.yml
-#          text:  Frequently Asked Questions
-#        - url: ./windows_ce/windows-ce-app-container-overview.md
-#          text:  Windows CE App Container
-#        - url: ./windows_ce/windows-ce-app-container-getting-started.md
-#          text:  Getting Started with Windows CE App Container
-#    - title: Windows 10 IoT Core
-#      imageSrc: ./media/index/windows.png
-#      links:
-#        - url: /windows/iot-core/windows-iot-core
-#          text: Overview
-#        - url: /windows-hardware/manufacture/iot/iot-core-manufacturing-guide
-#          text: Manufacturing Guide
-#        - url: /windows/iot-core/connect-your-device/iotdashboard
-#          text: Dashboard
-#    - title: Windows 10 IoT Core Services
-#      imageSrc: ./media/index/windows.png
-#      links:
-#        - url: /windows-hardware/manufacture/iot/iotcoreservicesoverview
-#          text: Overview
-#        - url: /windows/deployment/update/waas-overview#long-term-servicing-channel
-#          text: Windows Long-Term Servicing Channel (LTSC) Releases
-#        - url: /windows-hardware/service/iot/using-device-update-center
-#          text: Device Update Center
+    #    - title: Windows CE Migration
+    #      imageSrc: ./media/windows.png
+    #      links:
+    #        - url: ./windows_ce/windows-ce-migration-faq.yml
+    #          text:  Frequently Asked Questions
+    #        - url: ./windows_ce/windows-ce-app-container-overview.md
+    #          text:  Windows CE App Container
+    #        - url: ./windows_ce/windows-ce-app-container-getting-started.md
+    #          text:  Getting Started with Windows CE App Container
+    #    - title: Windows 10 IoT Core
+    #      imageSrc: ./media/windows.png
+    #      links:
+    #        - url: /windows/iot-core/windows-iot-core
+    #          text: Overview
+    #        - url: /windows-hardware/manufacture/iot/iot-core-manufacturing-guide
+    #          text: Manufacturing Guide
+    #        - url: /windows/iot-core/connect-your-device/iotdashboard
+    #          text: Dashboard
+    #    - title: Windows 10 IoT Core Services
+    #      imageSrc: ./media/windows.png
+    #      links:
+    #        - url: /windows-hardware/manufacture/iot/iotcoreservicesoverview
+    #          text: Overview
+    #        - url: /windows/deployment/update/waas-overview#long-term-servicing-channel
+    #          text: Windows Long-Term Servicing Channel (LTSC) Releases
+    #        - url: /windows-hardware/service/iot/using-device-update-center
+    #          text: Device Update Center
 
 conceptualContent:
   items:
