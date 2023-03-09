@@ -132,7 +132,7 @@ conceptualContent:
         - url: https://channel9.msdn.com/
           itemType: reference
           text: Channel 9
-title: Previous Versions
+    - title: Previous Versions
       links:
         - url: /windows/iot-core/windows-iot-core
           itemType: reference
