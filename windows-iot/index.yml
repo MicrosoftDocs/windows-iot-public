@@ -78,6 +78,7 @@ productDirectory:
           text: How-to Guide
 
     - title: Azure IoT Edge for Linux on Windows
+      imageSrc: ./media/index/windows.png
       links:
         - url: /azure/iot-edge/iot-edge-for-linux-on-windows?view=iotedge-2018-06
           text: Overview
