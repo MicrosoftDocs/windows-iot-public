@@ -80,6 +80,7 @@ productDirectory:
         - url: /azure/iot-edge/how-to-install-iot-edge-on-windows?view=iotedge-2018-06&tabs=powershell
           text: How-to Guide
     - title: Previous Versions
+      imageSrc: ./media/index/windows.png
       links:
         - url: /windows/iot-core/windows-iot-core
           itemType: reference
