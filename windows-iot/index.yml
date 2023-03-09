@@ -43,6 +43,8 @@ productDirectory:
           text: Manufacturing Guide
         - url: ./iot-enterprise/Kiosk-Mode/Kiosk-Mode.md
           text: Kiosk Mode
+        - url: /lifecycle/products/?terms=Windows%20IoT%20Enterprise
+          text: Support Lifecycle
     - title: Windows Server IoT
       imageSrc: ./media/index/windows.png
       links:
@@ -134,6 +136,7 @@ conceptualContent:
         - url: https://channel9.msdn.com/
           itemType: reference
           text: Channel 9
+
     - title: Previous Versions
       links:
         - url: /windows/iot-core/windows-iot-core
