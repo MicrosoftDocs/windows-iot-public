@@ -31,7 +31,6 @@ highlightedContent:
       itemType: whats-new
       url: ./product-family/News-Blogs.md
 
-
 productDirectory:
   items:
     - title: Windows IoT Enterprise
@@ -39,12 +38,15 @@ productDirectory:
       links:
         - url: /windows/iot/iot-enterprise/getting_started
           text: Overview
-        - url: ./iot-enterprise/Commercialization/Manufacturing-Guide.md
-          text: Manufacturing Guide
+        - url: /windows/iot/iot-enterprise/hardware-guidance/hardware_requirements
+          text: Hardware Requirements  
+#        - url: ./iot-enterprise/Commercialization/Manufacturing-Guide.md
+#          text: Manufacturing Guide
         - url: ./iot-enterprise/Kiosk-Mode/Kiosk-Mode.md
           text: Kiosk Mode
         - url: /lifecycle/products/?terms=Windows%20IoT%20Enterprise
           text: Support Lifecycle
+
     - title: Windows Server IoT
       imageSrc: ./media/index/windows.png
       links:
@@ -54,15 +56,17 @@ productDirectory:
           text:  What's new in Windows Server 2022?
         - url: /windows-server/get-started/get-started-with-windows-server
           text:  Get Started with Windows Server
+
     - title: SQL Server IoT
       imageSrc: ./media/index/windows.png
       links:
         - url: https://techcommunity.microsoft.com/t5/internet-of-things-blog/announcing-sql-server-iot-2022/ba-p/3672116
-          text: Announcement
+          text: Overview
         - url: /sql/sql-server/what-s-new-in-sql-server-2022?view=sql-server-ver16
           text:  What's new in SQL Server 2022?
         - url: /sql/sql-server/?view=sql-server-ver16
           text:  SQL Server technical documentation
+
     - title: AKS Edge Essentials
       imageSrc: ./media/index/windows.png
       links:
@@ -72,6 +76,7 @@ productDirectory:
           text: Quickstart
         - url: /azure/aks/hybrid/aks-edge-howto-setup-machine
           text: How-to Guide
+
     - title: Azure IoT Edge for Linux on Windows
       imageSrc: ./media/index/windows.png
       links:
@@ -82,6 +87,17 @@ productDirectory:
         - url: /azure/iot-edge/how-to-install-iot-edge-on-windows?view=iotedge-2018-06&tabs=powershell
           text: How-to Guide
 
+    - title: Previous Versions
+      imageSrc: ./media/index/windows.png
+      links:
+        - url: /windows/iot-core/windows-iot-core
+          text:  Windows IoT Core
+        - url: /windows-hardware/manufacture/iot/iotcoreservicesoverview
+          text:  Windows 10 IoT Core Services
+        - url: /windows/iot/windows_ce/windows-ce-app-container-overview
+          text: Windows CE Migration        
+        - url: /previous-versions/windows/embedded/ee504814(v=winembedded.70)
+          text: Windows Embedded Family       
 
 #    - title: Windows CE Migration
 #      imageSrc: ./media/index/windows.png
@@ -137,17 +153,3 @@ conceptualContent:
           itemType: reference
           text: Channel 9
 
-    - title: Previous Versions
-      links:
-        - url: /windows/iot-core/windows-iot-core
-          itemType: reference
-          text:  Windows IoT Core
-        - url: /windows-hardware/manufacture/iot/iotcoreservicesoverview
-          itemType: reference
-          text:  Windows 10 IoT Core Services
-        - url: /windows/iot/windows_ce/windows-ce-app-container-overview
-          itemType: reference
-          text: Windows CE Migration        
-        - url: /previous-versions/windows/embedded/ee504814(v=winembedded.70)
-          itemType: reference
-          text: Windows Embedded Family       
