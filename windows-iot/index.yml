@@ -79,21 +79,7 @@ productDirectory:
           text: Quickstart
         - url: /azure/iot-edge/how-to-install-iot-edge-on-windows?view=iotedge-2018-06&tabs=powershell
           text: How-to Guide
-    - title: Previous Versions
-      imageSrc: ./media/index/windows.png
-      links:
-        - url: /windows/iot-core/windows-iot-core
-          itemType: reference
-          text:  Windows IoT Core
-        - url: /windows-hardware/manufacture/iot/iotcoreservicesoverview
-          itemType: reference
-          text:  Windows 10 IoT Core Services
-        - url: /windows/iot/windows_ce/windows-ce-app-container-overview
-          itemType: reference
-          text: Windows CE Migration        
-        - url: /previous-versions/windows/embedded/ee504814(v=winembedded.70)
-          itemType: reference
-          text: Windows Embedded Family       
+
 
 #    - title: Windows CE Migration
 #      imageSrc: ./media/index/windows.png
@@ -148,3 +134,17 @@ conceptualContent:
         - url: https://channel9.msdn.com/
           itemType: reference
           text: Channel 9
+    - title: Previous Versions
+      links:
+        - url: /windows/iot-core/windows-iot-core
+          itemType: reference
+          text:  Windows IoT Core
+        - url: /windows-hardware/manufacture/iot/iotcoreservicesoverview
+          itemType: reference
+          text:  Windows 10 IoT Core Services
+        - url: /windows/iot/windows_ce/windows-ce-app-container-overview
+          itemType: reference
+          text: Windows CE Migration        
+        - url: /previous-versions/windows/embedded/ee504814(v=winembedded.70)
+          itemType: reference
+          text: Windows Embedded Family       
