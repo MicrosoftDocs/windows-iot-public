@@ -64,7 +64,7 @@ productDirectory:
     - title: AKS Edge Essentials
       imageSrc: ./media/index/windows.png
       links:
-        - url: https://aka.ms/aksedge
+        - url: /azure/aks/hybrid/aks-edge-overview
           text: Overview
         - url: /azure/aks/hybrid/aks-edge-quickstart
           text: Quickstart
@@ -79,6 +79,22 @@ productDirectory:
           text: Quickstart
         - url: /azure/iot-edge/how-to-install-iot-edge-on-windows?view=iotedge-2018-06&tabs=powershell
           text: How-to Guide
+    - title: Previous Versions
+      imageSrc: ./media/index/windows.png
+      links:
+        - url: /windows/iot-core/windows-iot-core
+          itemType: reference
+          text:  Windows IoT Core
+        - url: /windows-hardware/manufacture/iot/iotcoreservicesoverview
+          itemType: reference
+          text:  Windows 10 IoT Core Services
+        - url: /windows/iot/windows_ce/windows-ce-app-container-overview
+          itemType: reference
+          text: Windows CE Migration        
+        - url: /previous-versions/windows/embedded/ee504814(v=winembedded.70)
+          itemType: reference
+          text: Windows Embedded Family       
+
 #    - title: Windows CE Migration
 #      imageSrc: ./media/index/windows.png
 #      links:
@@ -117,9 +133,9 @@ conceptualContent:
         - url: https://aka.ms/IoTDistributorList
           itemType: how-to-guide
           text:  Distributor Information
-        - url: /windows-hardware/design/minimum/minimum-hardware-requirements-overview
-          itemType: quickstart
-          text:  Hardware Compatability List
+        - url: /windows/iot/iot-enterprise/hardware-guidance/hardware_requirements
+          itemType: reference
+          text:  Hardware Requirements
 
     - title: Resources
       links:
@@ -132,17 +148,3 @@ conceptualContent:
         - url: https://channel9.msdn.com/
           itemType: reference
           text: Channel 9
-    - title: Previous Versions
-      links:
-        - url: /windows/iot-core/windows-iot-core
-          itemType: reference
-          text:  Windows IoT Core
-        - url: /windows-hardware/manufacture/iot/iotcoreservicesoverview
-          itemType: reference
-          text:  Windows 10 IoT Core Services
-        - url: /windows/iot/windows_ce/windows-ce-app-container-overview
-          itemType: reference
-          text: Windows CE Migration        
-        - url: /previous-versions/windows/embedded/ee504814(v=winembedded.70)
-          itemType: reference
-          text: Windows Embedded        
