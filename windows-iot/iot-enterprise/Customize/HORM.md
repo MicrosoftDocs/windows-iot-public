@@ -1,8 +1,8 @@
 ---
 title: Hibernate Once/Resume Many (HORM)
-author: rsameser
-ms.author: riameser
-ms.date: 10/05/2021
+author: TerryWarwick
+ms.author: twarwick
+ms.date: 03/09/2023
 ms.topic: article
 ms.prod: windows-iot
 ms.technology: iot
@@ -14,7 +14,7 @@ keywords: Lockdown, HORM
 A device with HORM enabled can quickly be turned off or shut down, and then restarted into the preconfigured state, even in the event of a sudden power loss.
 
 ## Configure HORM
-You can use the [Hibernate Once/Resume Many (HORM)](/windows-hardware/customize/enterprise/hibernate-once-resume-many-horm-) feature with [Unified Write Filter (UWF)](./Unified-Write-Filter.md) to start your device in a preconfigured state. When HORM is enabled, your system always resumes and restarts from the last saved hibernation file (hiberfil.sys).
+You can use the [Hibernate Once/Resume Many (HORM)](/windows-hardware/customize/enterprise/hibernate-once-resume-many-horm-) feature with [Unified Write Filter (UWF)](Unified-Write-Filter.md) to start your device in a preconfigured state. When HORM is enabled, your system always resumes and restarts from the last saved hibernation file (hiberfil.sys).
 
 ## UWF configuration
 UWF must be enabled before you can enable or disable HORM. UWF must be configured in the following ways to protect the hibernation file from becoming invalid:
