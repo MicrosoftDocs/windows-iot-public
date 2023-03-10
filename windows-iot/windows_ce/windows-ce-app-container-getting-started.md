@@ -16,7 +16,7 @@ The Windows CE App Container is a technology that allows most CE applications to
 
 The solution is built in two stages. The first stage creates a Windows CE 2013 image using a BSP for either x86 or ARM32 architecture. Then in the second stage, this image is included in a Windows 10 IoT Core image that utilizes the x64 or ARM32 BSP for the specific device hardware where the solution will be installed.
 
-![CE App Container Architecture](../media/WindowsCEAppContainer/image1.png)
+![CE App Container Architecture](./media/image1.png)
 
 For more information about this architecture, please review this video: [Modernizing Windows CE Devices](https://channel9.msdn.com/Shows/Internet-of-Things-Show/Modernizing-Windows-CE-Devices).
 
@@ -70,7 +70,7 @@ When creating an OS Design for the CE App Container, select either the “Window
 
 For example, if your target IoT Core device uses Intel hardware, you will select the “Windows CE App Container: x86” option. Alternatively, if your IoT Core hardware uses NXP i.MX6, you will select the “Windows CE App Container: ARMv7” option.
 
-![Select the CE App Container BSP](../media/WindowsCEAppContainer/image2.png)
+![Select the CE App Container BSP](./media/image2.png)
 
 After doing this, you will have the ability to configure the options and sub-projects just like you would normally do for a Windows Embedded Compact image. These configurations will be built into the CE Container that you will deploy into your Windows 10 IoT Core image.
 
