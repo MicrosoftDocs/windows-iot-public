@@ -4,16 +4,16 @@
   expanded: false
   items:
   - name: Hardware Requirements
-    href: Hardware-Guidance/Hardware_Requirements.md
+    href: Hardware/Hardware_Requirements.md
   - name: SoCs and Custom Boards
-    href: Hardware-Guidance/SoCs.md
+    href: Hardware/SoCs.md
 - name: Quickstarts
   expanded: false
   items:
   - name: Getting Started with Windows IoT Enterprise on Arm
-    href: ArmFAQ.md
+    href: Hardware/ArmFAQ.md
   - name: Start prototyping
-    href: Hardware-Guidance/Prototype.md
+    href: Hardware/Prototype.md
 - name: Kiosk mode
   expanded: false
   items:
@@ -157,8 +157,8 @@
     href: Soft-Real-Time/Soft-Real-Time-Device.md
   - name: Application Development
     href: Soft-Real-Time/Soft-Real-Time-Application.md
-- name: Azure IoT Edge for Linux on Windows
-  href: Azure-IoT-Edge-For-Linux-On-Windows.md
+# - name: Azure IoT Edge for Linux on Windows
+#   href: Azure-IoT-Edge-For-Linux-On-Windows.md
 - name: Downloads
   href: Downloads.md
 - name: Code Samples
