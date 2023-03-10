@@ -42,6 +42,8 @@ productDirectory:
           text: Manufacturing Guide
         - url: ./iot-enterprise/customize/Kiosk-Mode.md
           text: Kiosk Mode
+        - url:  ./iot-enterprise/optimize-your-device/reduce-disk-footprint
+          text: Device Optimization  
         - url: /lifecycle/products/?terms=Windows%20IoT%20Enterprise
           text: Support Lifecycle
 
@@ -51,9 +53,11 @@ productDirectory:
         - url: ./server/windows-server.md
           text: Overview
         - url: /windows-server/get-started/whats-new-in-windows-server-2022
-          text:  What's new in Windows Server 2022?
+          text: What's new in Windows Server 2022?
         - url: /windows-server/get-started/get-started-with-windows-server
-          text:  Get Started with Windows Server
+          text: Get Started with Windows Server
+        - url: /windows-server/get-started/windows-server-release-info
+          text: Release Information  
 
     - title: SQL Server IoT
       imageSrc: ./media/windows.png
