@@ -61,11 +61,13 @@ productDirectory:
       imageSrc: ./media/windows.png
       links:
         - url: https://techcommunity.microsoft.com/t5/internet-of-things-blog/announcing-sql-server-iot-2022/ba-p/3672116
-          text: Overview
+          text: SQL Server IoT 2022
         - url: /sql/sql-server/what-s-new-in-sql-server-2022?view=sql-server-ver16
           text:  What's new in SQL Server 2022?
-        - url: /sql/sql-server/?view=sql-server-ver16
-          text:  SQL Server technical documentation
+        - url: /sql/sql-server/editions-and-components-of-sql-server-2022?view=sql-server-ver16
+          text:  Editions and Features
+        - url: /sql/sql-server/sql-server-2022-release-notes?view=sql-server-ver16
+          text:  Release Notes
 
     - title: AKS Edge Essentials
       imageSrc: ./media/windows.png
