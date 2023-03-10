@@ -2,17 +2,118 @@
 
 "redirections": [
 
-{
-	"source_path": "windows/iot/iot-enterprise/eflow",
-	"redirect_url": "windows/iot/iot-enterprise/Azure-IoT-Edge-For-Linux-On-Windows.md",
-	"redirect_document_id": true
-},
+    {
+	    "source_path": "windows/iot/iot-enterprise/eflow",
+	    "redirect_url": "windows/iot/iot-enterprise/Azure-IoT-Edge-For-Linux-On-Windows.md",
+	    "redirect_document_id": true
+    },
 
-{
-    "source_path": "windows/iot/iot-enterprise/eflow",
-    "redirect_url": "https://docs.microsoft.com/windows/iot/iot-enterprise/azure-iot-edge-for-linux-on-windows",
-    "redirect_document_id": false
-}
+    {
+        "source_path": "windows/iot/iot-enterprise/eflow",
+        "redirect_url": "https://docs.microsoft.com/windows/iot/iot-enterprise/azure-iot-edge-for-linux-on-windows",
+        "redirect_document_id": false
+    },
 
+    {
+        "source_path": "windows/iot/iot-enterprise/Advanced-Lockdown-Features/Application-Control.md",
+        "redirect_url": "windows/iot/iot-enterprise/customize/Application-Control.md",
+        "redirect_document_id": false
+    },
+
+    {
+        "source_path": "windows/iot/iot-enterprise/Kiosk-Mode/Browser-Support.md",
+        "redirect_url": "windows/iot/iot-enterprise/customize/Browser-Support.md",
+        "redirect_document_id": false
+    },
+
+    {
+        "source_path": "windows/iot/iot-enterprise/Branding-Features/Custom-Logon.md",
+        "redirect_url": "windows/iot/iot-enterprise/customize/Custom-Logon.md",
+        "redirect_document_id": false
+    },
+
+    {
+        "source_path": "windows/iot/iot-enterprise/Advanced-Lockdown-Features/Device-Safeguards.md",
+        "redirect_url": "windows/iot/iot-enterprise/customize/Device-Safeguards.md",
+        "redirect_document_id": false
+    },   
+
+    {
+        "source_path": "windows/iot/iot-enterprise/Advanced-Lockdown-Features/Edge-Swipe-Policy.md",
+        "redirect_url": "windows/iot/iot-enterprise/customize/Edge-Swipe-Policy.md",
+        "redirect_document_id": false
+    },
+
+    {
+        "source_path": "windows/iot/iot-enterprise/Advanced-Lockdown-Features/HORM.md",
+        "redirect_url": "windows/iot/iot-enterprise/customize/HORM.md",
+        "redirect_document_id": false
+    },
+
+    {
+        "source_path": "windows/iot/iot-enterprise/Advanced-Lockdown-Features/Keyboard-Filter.md",
+        "redirect_url": "windows/iot/iot-enterprise/customize/Keyboard-Filter.md",
+        "redirect_document_id": false
+    },
+
+    {
+        "source_path": "windows/iot/iot-enterprise/Kiosk-Mode/Kiosk-Mode.md",
+        "redirect_url": "windows/iot/iot-enterprise/customize/Kiosk-Mode.md",
+        "redirect_document_id": false
+    },
+
+    {
+        "source_path": "windows/iot/iot-enterprise/Branding-Features/Layout-Control.md",
+        "redirect_url": "windows/iot/iot-enterprise/customize/Layout-Control.md",
+        "redirect_document_id": false
+    },
+
+    {
+        "source_path": "windows/iot/iot-enterprise/Branding-Features/Microsoft-Store-Access.md",
+        "redirect_url": "windows/iot/iot-enterprise/customize/Microsoft-Store-Access.md",
+        "redirect_document_id": false
+    },
+
+    {
+        "source_path": "windows/iot/iot-enterprise/Kiosk-Mode/Multi-App-Kiosk.md",
+        "redirect_url": "windows/iot/iot-enterprise/customize/Multi-App-Kiosk.md",
+        "redirect_document_id": false
+    },
+
+    {
+        "source_path": "windows/iot/iot-enterprise/Branding-Features/Page-Visibility.md",
+        "redirect_url": "windows/iot/iot-enterprise/customize/Page-Visibility.md",
+        "redirect_document_id": false
+    },
+
+    {
+        "source_path": "windows/iot/iot-enterprise/Kiosk-Mode/Shell-Launcher.md",
+        "redirect_url": "windows/iot/iot-enterprise/customize/Shell-Launcher.md",
+        "redirect_document_id": false
+    },
+
+    {
+        "source_path": "windows/iot/iot-enterprise/Kiosk-Mode/Single-App-Kiosk.md",
+        "redirect_url": "windows/iot/iot-enterprise/customize/Single-App-Kiosk.md",
+        "redirect_document_id": false
+    },
+
+    {
+        "source_path": "windows/iot/iot-enterprise/Branding-Features/Unbranded-Boot.md",
+        "redirect_url": "windows/iot/iot-enterprise/customize/Unbranded-Boot.md",
+        "redirect_document_id": false
+    },
+
+    {
+        "source_path": "windows/iot/iot-enterprise/Advanced-Lockdown-Features/Unified-Write-Filter.md",
+        "redirect_url": "windows/iot/iot-enterprise/customize/Unified-Write-Filter.md",
+        "redirect_document_id": false
+    },
+
+    {
+        "source_path": "windows/iot/iot-enterprise/Branding-Features/Update-Notification.md",
+        "redirect_url": "windows/iot/iot-enterprise/customize/Update-Notification.md",
+        "redirect_document_id": false
+    }
 ]
 }
