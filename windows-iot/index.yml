@@ -10,8 +10,8 @@ metadata:
   ms.topic: hub-page
   ms.prod: windows-iot
   ms.technology: iot
-  author: rsameser
-  ms.author: riameser
+  author: TerryWarwick
+  ms.author: TWarwick
   ms.date: 10/19/2022
 
 # itemType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | tutorial | whats-new
@@ -31,20 +31,22 @@ highlightedContent:
       itemType: whats-new
       url: ./product-family/News-Blogs.md
 
-
 productDirectory:
   items:
     - title: Windows IoT Enterprise
-      imageSrc: ./media/index/windows.png
+      imageSrc: ./media/windows.png
       links:
-        - url: ./iot-enterprise/Getting_Started.md
+        - url: /windows/iot/iot-enterprise/getting_started
           text: Overview
         - url: ./iot-enterprise/Commercialization/Manufacturing-Guide.md
           text: Manufacturing Guide
         - url: ./iot-enterprise/customize/Kiosk-Mode.md
           text: Kiosk Mode
-    - title: Windows Server IoT 2022
-      imageSrc: ./media/index/windows.png
+        - url: /lifecycle/products/?terms=Windows%20IoT%20Enterprise
+          text: Support Lifecycle
+
+    - title: Windows Server IoT
+      imageSrc: ./media/windows.png
       links:
         - url: ./server/windows-server.md
           text: Overview
@@ -52,8 +54,29 @@ productDirectory:
           text:  What's new in Windows Server 2022?
         - url: /windows-server/get-started/get-started-with-windows-server
           text:  Get Started with Windows Server
+
+    - title: SQL Server IoT
+      imageSrc: ./media/windows.png
+      links:
+        - url: https://techcommunity.microsoft.com/t5/internet-of-things-blog/announcing-sql-server-iot-2022/ba-p/3672116
+          text: Overview
+        - url: /sql/sql-server/what-s-new-in-sql-server-2022?view=sql-server-ver16
+          text:  What's new in SQL Server 2022?
+        - url: /sql/sql-server/?view=sql-server-ver16
+          text:  SQL Server technical documentation
+
+    - title: AKS Edge Essentials
+      imageSrc: ./media/windows.png
+      links:
+        - url: /azure/aks/hybrid/aks-edge-overview
+          text: Overview
+        - url: /azure/aks/hybrid/aks-edge-quickstart
+          text: Quickstart
+        - url: /azure/aks/hybrid/aks-edge-howto-setup-machine
+          text: How-to Guide
+
     - title: Azure IoT Edge for Linux on Windows
-      imageSrc: ./media/index/windows.png
+      imageSrc: ./media/windows.png
       links:
         - url: /azure/iot-edge/iot-edge-for-linux-on-windows?view=iotedge-2018-06
           text: Overview
@@ -61,33 +84,46 @@ productDirectory:
           text: Quickstart
         - url: /azure/iot-edge/how-to-install-iot-edge-on-windows?view=iotedge-2018-06&tabs=powershell
           text: How-to Guide
-    - title: Windows CE Migration
-      imageSrc: ./media/index/windows.png
-      links:
-        - url: ./windows_ce/windows-ce-migration-faq.yml
-          text:  Frequently Asked Questions
-        - url: ./windows_ce/windows-ce-app-container-overview.md
-          text:  Windows CE App Container
-        - url: ./windows_ce/windows-ce-app-container-getting-started.md
-          text:  Getting Started with Windows CE App Container
-    - title: Windows 10 IoT Core
-      imageSrc: ./media/index/windows.png
+
+    - title: Previous Versions
+      imageSrc: ./media/windows.png
       links:
         - url: /windows/iot-core/windows-iot-core
-          text: Overview
-        - url: /windows-hardware/manufacture/iot/iot-core-manufacturing-guide
-          text: Manufacturing Guide
-        - url: /windows/iot-core/connect-your-device/iotdashboard
-          text: Dashboard
-    - title: Windows 10 IoT Core Services
-      imageSrc: ./media/index/windows.png
-      links:
+          text:  Windows IoT Core
         - url: /windows-hardware/manufacture/iot/iotcoreservicesoverview
-          text: Overview
-        - url: /windows/deployment/update/waas-overview#long-term-servicing-channel
-          text: Windows Long-Term Servicing Channel (LTSC) Releases
-        - url: /windows-hardware/service/iot/using-device-update-center
-          text: Device Update Center
+          text:  Windows 10 IoT Core Services
+        - url: /windows/iot/windows_ce/windows-ce-app-container-overview
+          text: Windows CE Migration        
+        - url: /previous-versions/windows/embedded/ee504814(v=winembedded.70)
+          text: Windows Embedded Family       
+
+    #    - title: Windows CE Migration
+    #      imageSrc: ./media/windows.png
+    #      links:
+    #        - url: ./windows_ce/windows-ce-migration-faq.yml
+    #          text:  Frequently Asked Questions
+    #        - url: ./windows_ce/windows-ce-app-container-overview.md
+    #          text:  Windows CE App Container
+    #        - url: ./windows_ce/windows-ce-app-container-getting-started.md
+    #          text:  Getting Started with Windows CE App Container
+    #    - title: Windows 10 IoT Core
+    #      imageSrc: ./media/windows.png
+    #      links:
+    #        - url: /windows/iot-core/windows-iot-core
+    #          text: Overview
+    #        - url: /windows-hardware/manufacture/iot/iot-core-manufacturing-guide
+    #          text: Manufacturing Guide
+    #        - url: /windows/iot-core/connect-your-device/iotdashboard
+    #          text: Dashboard
+    #    - title: Windows 10 IoT Core Services
+    #      imageSrc: ./media/windows.png
+    #      links:
+    #        - url: /windows-hardware/manufacture/iot/iotcoreservicesoverview
+    #          text: Overview
+    #        - url: /windows/deployment/update/waas-overview#long-term-servicing-channel
+    #          text: Windows Long-Term Servicing Channel (LTSC) Releases
+    #        - url: /windows-hardware/service/iot/using-device-update-center
+    #          text: Device Update Center
 
 conceptualContent:
   items:
@@ -99,9 +135,9 @@ conceptualContent:
         - url: https://aka.ms/IoTDistributorList
           itemType: how-to-guide
           text:  Distributor Information
-        - url: /windows-hardware/design/minimum/minimum-hardware-requirements-overview
-          itemType: quickstart
-          text:  Hardware Compatability List
+        - url: /windows/iot/iot-enterprise/hardware-guidance/hardware_requirements
+          itemType: reference
+          text:  Hardware Requirements
 
     - title: Resources
       links:
@@ -114,3 +150,4 @@ conceptualContent:
         - url: https://channel9.msdn.com/
           itemType: reference
           text: Channel 9
+
