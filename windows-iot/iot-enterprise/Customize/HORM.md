@@ -19,11 +19,11 @@ You can use the [Hibernate Once/Resume Many (HORM)](/windows-hardware/customize/
 ## UWF configuration
 UWF must be enabled before you can enable or disable HORM. UWF must be configured in the following ways to protect the hibernation file from becoming invalid:
 
-* All fixed volumes that are mounted on the system must be protected by UWF.
+* All fixed volumes that are mounted on the system must be protected with UWF.
 * Your system must not have any file, folder, or registry exclusions configured for UWF.
 * The UWF overlay must be configured to use RAM mode. HORM does not support disk-backed overlays.
 
-UWF does not filter hibernation files from being written to disk. If you want to protect the preconfigured state of your device, lock down any functionality that can modify the hibernation file. For example, disable hibernation, hybrid sleep, and fast startup on your device for standard user accounts so that the saved hibernation file is not overwritten when entering a sleep, hibernate, or shutdown state.
+UWF does not filter hibernation files from being written to disk. If you want to protect the preconfigured state of your device, lock down any functionality that can modify the hibernation file. For example, disable hibernation, hybrid sleep, and fast startup on your device for standard user accounts so that the saved hibernation file is not overwritten when entering sleep, hibernate, or shutdown state.
 
 To disable hybrid sleep and fast startup on your device, follow [these steps](/windows-hardware/customize/enterprise/hibernate-once-resume-many-horm-#how-to-disable-hybrid-sleep).
 

@@ -42,7 +42,7 @@ To enable embedded mode, you will need to create a provisioning package in Imagi
 
     ![Step #5](./media/EmbeddedMode/Step5.png)
 
-6. In the search box type **EmbeddedMode** and then click on **AllowEmbeddedMode**.
+6. In the search box type **EmbeddedMode** and then, click on **AllowEmbeddedMode**.
 
     ![Step #6](./media/EmbeddedMode/Step6.png)
 
@@ -109,7 +109,7 @@ When you enable the systemManagment capabilities for your application, this is t
 
 ## Debugging Background Applications
 
-If you are debugging on a device and you see either of the following error messages you need to ensure **AllowEmbeddedMode** is enabled on the device and that the Embedded Mode service is running:
+When you are debugging on a device and you see either of the following error messages you need to ensure **AllowEmbeddedMode** is enabled on the device and that the Embedded Mode service is running:
 
 * There are no more endpoints available from the endpoint mapper.
 * This program is blocked by group policy. For more information, contact your system administrator.
