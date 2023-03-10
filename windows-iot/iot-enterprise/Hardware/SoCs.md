@@ -13,14 +13,21 @@ keywords: IoT Enterprise, Hardware, SoCs, Custom Boards, development devices, bo
 
 ## Microsoft-enabled SoCs
 
-Microsoft works alongside Intel, Qualcomm, AMD and NXP to verify support for Windows IoT Enterprise on several vendors' system on a chip (SoCs). These SoCs are used in hundreds of different devices that you can use to prototype and commercialize your idea. The SoC you choose to adopt will depend on considerations such as performance requirements, power profile, cost, physical connectivity options, long-term support, and operating conditions.
+Microsoft works alongside Intel, Qualcomm, AMD and NXP to verify support for Windows IoT Enterprise on several vendors' system on a chip (SoCs). These SoCs are used in multiple devices that you can use to prototype and commercialize your idea. The SoC you choose to adopt will depend on considerations such as performance requirements, power profile, cost, physical connectivity options, long-term support, and operating conditions.
 
-You'll also need to decide whether you want to use an off-the-shelf board or device, build a custom device using a system on a module (SoM) plus a custom carrier board, or build a complete custom board. Cost and the degree of customization are the key factors in this decision, with both generally increasing as you customize further.
+Options to consider would include the following:
+
+* Use an off-the-shelf board or device
+* Build a custom device using a system on a module (SoM) plus a custom carrier board
+* Build a complete custom board
+
+Cost and the degree of customization are the key factors in this decision, with both generally increasing as you customize further.
 
 ## Boards
+
 If an off-the-shelf device is in a form factor that includes the connectivity options that work for your scenarios, that will often be the most cost- and time-effective choice.  
 
-For most people, developing a complete custom board would make sense when the product is expected to be sold in volumes greater than hundreds, or even thousands, of millions of units. For smaller volumes, using a SoM and designing a custom carrier board, instead of designing a completely new board, can significantly reduce your cost and time-to-market, as well as streamlining software development and integration.
+For most people, developing a complete custom board would make sense when the product is expected to be sold in volumes greater than hundreds, or even thousands of units. For smaller volumes, using a SoM and designing a custom carrier board, instead of designing a completely new board, can significantly reduce your cost and time-to-market, as well as streamlining software development and integration.
 
 Each of the platforms has unique features that need attention during implementation, please review the following SoC provider's websites for more details.  
 
@@ -30,6 +37,7 @@ Each of the platforms has unique features that need attention during implementat
 * [VIA Technologies](https://www.viatech.com/en/products/boards/embedded-boards/)
 * [NXP](https://www.nxp.com/products/processors-and-microcontrollers/arm-processors/i-mx-applications-processors/i-mx-8-processors:IMX8-SERIES)
 
-## Additional Resources
+## More Resources
+
 * [Windows IoT Enterprise Manufacturing Guide](/windows-hardware/manufacture/desktop/iot-ent-overview)
 * [Windows Processor Requirements](/windows-hardware/design/minimum/windows-processor-requirements)

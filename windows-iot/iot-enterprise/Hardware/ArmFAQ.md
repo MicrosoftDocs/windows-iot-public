@@ -11,27 +11,31 @@ keywords: IoT Enterprise, Hardware, Windows IoT, Arm64, NXP
 ---
 
 # Getting Started with Windows IoT Enterprise for Arm64
+
 This article will help you apply the strength of Windows on low power, low cost devices with Windows IoT Enterprise for Arm64.
 
 ## What is Windows IoT Enterprise on Arm?
-*Windows IoT Enterprise on Arm* refers to *Windows IoT Enterprise* built for Arm64 devices. Windows IoT Enterprise on Arm64 is the same OS as it is on X86 and X64-based devices, with IoT features available to help you build secure, powerful devices across any architecture. Since the OS is the same, the capabilities and the documentation are the same as well. Refer to the standard Windows IoT Enterprise documentation for Arm64 guidance. The only noted differences are captured below in the list of exceptions.
+
+Windows IoT Enterprise on Arm64 is the same OS as used for X64-based devices, with features available to help you build secure, powerful devices across any architecture. Since the OS is the same, the capabilities and the documentation are the same as well. Refer to the standard Windows IoT Enterprise documentation for Arm64 guidance. The only noted differences are captured below in the list of exceptions.
 
 ## NXP i.MX 8 Family Exceptions
-#### Emulation
+
+ **Emulation**
 On Arm-based devices, only X86 (32-bit) applications can be emulated on Windows IoT Enterprise.
 
-#### Graphics Runtime
+**Graphics Runtime**
 Currently, only D3D11, [feature level 9.3](/windows/win32/direct3d11/overviews-direct3d-11-devices-downlevel-intro) is supported on the *NXP i.MX 8 family*.
 
-#### Hyper-V
+**Hyper-V**
 [Hyper-V](/virtualization/hyper-v-on-windows/about/) isn't supported on the *NXP i.MX 8 family*.
 
-#### Windows 11
+**Windows 11**
 Windows 11 isn't supported on the *NXP i.MX 8 family*.
 
 ## Frequently Asked Questions
 
 ### Which hardware can I use?
+
 You can get started with the NXP Evaluation Kits (EVK), or choose a board from one of our partners below.
 
 * NXP EVKs: [i.MX 8M EVK](https://www.nxp.com/design/development-boards/i-mx-evaluation-and-development-boards/evaluation-kit-for-the-i-mx-8m-applications-processor:MCIMX8M-EVK), [i.MX 8M Plus EVK](https://www.nxp.com/design/development-boards/i-mx-evaluation-and-development-boards/evaluation-kit-for-the-i-mx-8m-plus-applications-processor:8MPLUSLPD4-EVK), [i.MX 8M Mini EVK](https://www.nxp.com/design/development-boards/i-mx-evaluation-and-development-boards/evaluation-kit-for-the-i-mx-8m-mini-applications-processor:8MMINILPD4-EVK), [i.MX 8M Nano EVK](https://www.nxp.com/design/development-boards/i-mx-evaluation-and-development-boards/evaluation-kit-for-the-i-mx-8m-nano-applications-processor:8MNANOD4-EVK)
