@@ -38,11 +38,9 @@ productDirectory:
       links:
         - url: /windows/iot/iot-enterprise/getting_started
           text: Overview
-        - url: /windows/iot/iot-enterprise/hardware-guidance/hardware_requirements
-          text: Hardware Requirements  
-        # - url: ./iot-enterprise/Commercialization/Manufacturing-Guide.md
-        #   text: Manufacturing Guide
-        - url: ./iot-enterprise/Kiosk-Mode/Kiosk-Mode.md
+        - url: ./iot-enterprise/Commercialization/Manufacturing-Guide.md
+          text: Manufacturing Guide
+        - url: ./iot-enterprise/customize/Kiosk-Mode.md
           text: Kiosk Mode
         - url: /lifecycle/products/?terms=Windows%20IoT%20Enterprise
           text: Support Lifecycle
