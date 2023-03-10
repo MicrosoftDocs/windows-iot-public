@@ -1,3 +1,9 @@
 {
-    "markdown.enableMetadataDateReminder": true
+    "markdown.enableMetadataDateReminder": true,
+    "cSpell.words": [
+        "HORM",
+        "Lockdown",
+        "LTSC",
+        "Quickstart"
+    ]
 }
