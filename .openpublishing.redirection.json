@@ -138,7 +138,20 @@
         "source_path": "windows-iot/iot-enterprise/Hardware-Guidance/SoCs.md",
         "redirect_url": "/windows/iot/iot-enterprise/Hardware/SoCs.md",
         "redirect_document_id": false
+    },
+
+    {
+        "source_path": "windows-iot/iot-enterprise/Hardware-Guidance/supported/21H2_LTSC_NXP_Processors.md",
+        "redirect_url": "/windows/iot/iot-enterprise/Hardware/supported/21H2_LTSC_NXP_Processors.md",
+        "redirect_document_id": false
+    },
+
+    {
+        "source_path": "windows-iot/iot-enterprise/Hardware-Guidance/supported/21H2_NXP_Processors.md",
+        "redirect_url": "/windows/iot/iot-enterprise/Hardware/supported/21H2_NXP_Processors.md",
+        "redirect_document_id": false
     }
+
 
 ]
 }
