@@ -1,8 +1,8 @@
 ---
 title: Custom Logon
-author: twarwick
+author: TerryWarwick
 ms.author: twarwick
-ms.date: 1/17/2023
+ms.date: 03/09/2023
 ms.topic: article
 ms.prod: windows-iot
 ms.technology: iot
@@ -36,7 +36,7 @@ You can set Custom Logon by following these steps:
 You may want to use or change some of the following features with Custom Logon to further customize the user experience.
 
 ### Power button
-We recommend that you remove the power button from the Welcome screen and block the physical power button so that a user can't turn off the device when using [assigned access](../Kiosk-Mode/Single-App-Kiosk.md) or [shell launcher](../Kiosk-Mode/Shell-Launcher.md).
+We recommend that you remove the power button from the Welcome screen and block the physical power button so that a user can't turn off the device when using [assigned access](./Single-App-Kiosk.mdSingle-App-Kiosk.md) or [shell launcher](./Shell-Launcher.mdShell-Launcher.md).
 
   Go to **Power Options** > **Choose what the power button does**, change the setting to **Do nothing**, and then **Save changes**.
 
