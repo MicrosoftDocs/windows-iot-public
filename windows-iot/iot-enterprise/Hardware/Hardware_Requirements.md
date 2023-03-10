@@ -1,8 +1,8 @@
 ---
 title: Hardware Requirements
-author: twarwick
+author: TerryWarwick
 ms.author: twarwick
-ms.date: 1/15/2023
+ms.date: 3/10/2023
 ms.topic: article
 ms.prod: windows-iot
 ms.technology: iot

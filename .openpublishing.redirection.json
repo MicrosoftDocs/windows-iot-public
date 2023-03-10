@@ -4,13 +4,13 @@
 
     {
 	    "source_path": "windows/iot/iot-enterprise/eflow",
-	    "redirect_url": "windows/iot/iot-enterprise/Azure-IoT-Edge-For-Linux-On-Windows.md",
+	    "redirect_url": "https://aka.ms/azeflow-docs",
 	    "redirect_document_id": true
     },
 
     {
-        "source_path": "windows/iot/iot-enterprise/eflow",
-        "redirect_url": "https://docs.microsoft.com/windows/iot/iot-enterprise/azure-iot-edge-for-linux-on-windows",
+        "source_path": "windows/iot/iot-enterprise/Azure-IoT-Edge-For-Linux-On-Windows.md",
+        "redirect_url": "https://aka.ms/azeflow-docs",
         "redirect_document_id": false
     },
 
@@ -114,6 +114,31 @@
         "source_path": "windows/iot/iot-enterprise/Branding-Features/Update-Notification.md",
         "redirect_url": "windows/iot/iot-enterprise/customize/Update-Notification.md",
         "redirect_document_id": false
+    },
+
+    {
+        "source_path": "windows/iot/iot-enterprise/ArmFAQ.md",
+        "redirect_url": "windows/iot/iot-enterprise/Hardware/ArmFAQ.md",
+        "redirect_document_id": false
+    },
+
+    {
+        "source_path": "windows/iot/iot-enterprise/Hardware-Guidance/Hardware_Requirements.md",
+        "redirect_url": "windows/iot/iot-enterprise/Hardware/Hardware_Requirements.md",
+        "redirect_document_id": false
+    },
+
+    {
+        "source_path": "windows/iot/iot-enterprise/Hardware-Guidance/Prototype.md",
+        "redirect_url": "windows/iot/iot-enterprise/Hardware/Prototype.md",
+        "redirect_document_id": false
+    },
+
+    {
+        "source_path": "windows/iot/iot-enterprise/Hardware-Guidance/SoCs.md",
+        "redirect_url": "windows/iot/iot-enterprise/Hardware/SoCs.md",
+        "redirect_document_id": false
     }
+
 ]
 }

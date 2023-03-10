@@ -1,8 +1,8 @@
 ---
 title: SoCs and Custom Boards for Windows IoT Enterprise
-author: rsameser
-ms.author: riameser
-ms.date: 10/05/2021
+author: TerryWarwick
+ms.author: twarwick
+ms.date: 3/10/2023
 ms.topic: article
 ms.prod: windows-iot
 ms.technology: iot
