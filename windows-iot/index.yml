@@ -42,7 +42,7 @@ productDirectory:
           text: Manufacturing Guide
         - url: ./iot-enterprise/customize/Kiosk-Mode.md
           text: Kiosk Mode
-        - url:  ./iot-enterprise/optimize-your-device/reduce-disk-footprint
+        - url:  ./iot-enterprise/optimize-your-device/reduce-disk-footprint.md
           text: Device Optimization  
         - url: /lifecycle/products/?terms=Windows%20IoT%20Enterprise
           text: Support Lifecycle
