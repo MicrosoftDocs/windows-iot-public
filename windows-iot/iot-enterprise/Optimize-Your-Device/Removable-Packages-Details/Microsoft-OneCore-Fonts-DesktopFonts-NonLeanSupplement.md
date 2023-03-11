@@ -2,7 +2,7 @@
 title: Package - Supplemental Fonts
 author: twarwick
 ms.author: twarwick
-ms.date: 1/12/2023
+ms.date: 2/6/2023
 ms.topic: article
 ms.prod: windows-iot
 ms.technology: iot
@@ -10,29 +10,36 @@ description: Removable Package Details for Fonts_DesktopFonts_NonLeanSupplement
 keywords: IoT Enterprise, removable packages, storage
 ---
 
-# Package: Supplemental Fonts
+# Supplemental Fonts
 
-## Description
+| Applies to                          |  Version            |
+|:------------------------------------|:--------------------|
+| Windows 10 IoT Enterprise LTSC 2021 | 19044.1741 or later |
+
+## Description  
+
 Fonts: [Malgun Gothic](/typography/font-list/malgun-gothic), [Microsoft JhengHei](/typography/font-list/microsoft-jhenghei), [Microsoft YaHei](/typography/font-list/microsoft-yahei), [Yu Gothic](/typography/font-list/yu-gothic)
 
-**Package Name:** Fonts_DesktopFonts_NonLeanSupplement
+**Package Name:** Microsoft-Onecore-Fonts-DesktopFonts-NonLeanSupplement
 
 **Size:**  Approximately 113,251 KB  
 
-## Removing Package
+## Package Removal
 
-### Online Servicing 
-Use the [DISM command-line tool](/windows-hardware/manufacture/desktop/what-is-dism) with the ```/Online``` command-line parameter to remove a single package via online servicing.
+1. To remove a specific package from the image type:
+   ```powershell
+   Dism.exe /Online /NoRestart /Disable-Feature /FeatureName:Microsoft-Onecore-Fonts-DesktopFonts-NonLeanSupplement /PackageName:@Package
+   ````
 
-```powershell
-Dism.exe /Online /LogPath:%WINDIR%\Temp\Fonts_DesktopFonts_NonLeanSupplement.log /NoRestart /Disable-Feature /FeatureName:Fonts_DesktopFonts_NonLeanSupplement /PackageName:@Package
-````
-### Offline Servicing
-Use the [DISM command-line tool](/windows-hardware/manufacture/desktop/what-is-dism) with the ```/Image:<image path>``` command-line parameter to remove a single package via offline servicing.
+   To remove a package from an offline image mounted at `c:\offline` type:
+   ```powershell
+   Dism.exe /Image:c:\offline  /Disable-Feature /FeatureName:Microsoft-Onecore-Fonts-DesktopFonts-NonLeanSupplement /PackageName:@Package
+   ```
 
-```powershell
-Dism.exe /Image:c:\offline /LogPath:%WINDIR%\Temp\Fonts_DesktopFonts_NonLeanSupplement.log /NoRestart /Disable-Feature /FeatureName:Fonts_DesktopFonts_NonLeanSupplement /PackageName:@Package
-````
+1. Optional: Use DISM /GetFeatureInfo to get the status of a removable package type:
+   ```powershell
+   Dism.exe /Online /Get-FeatureInfo /FeatureName:Microsoft-Onecore-Fonts-DesktopFonts-NonLeanSupplement /PackageName:@Package
+   ````
 
 ## File List
 | File Name     | Installed Location |

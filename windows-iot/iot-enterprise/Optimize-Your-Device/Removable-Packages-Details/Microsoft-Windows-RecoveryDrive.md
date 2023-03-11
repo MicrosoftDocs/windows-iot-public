@@ -2,7 +2,7 @@
 title: Package - Recovery Drive
 author: twarwick
 ms.author: twarwick
-ms.date: 1/12/2023
+ms.date: 2/6/2023
 ms.topic: article
 ms.prod: windows-iot
 ms.technology: iot
@@ -10,29 +10,36 @@ description: Removable Package Details for Microsoft-Windows-RecoveryDrive
 keywords: IoT Enterprise, removable packages, storage
 ---
 
-# Package: Recovery Drive
+# Recovery Drive
+
+| Applies to                          |  Version            |
+|:------------------------------------|:--------------------|
+| Windows 10 IoT Enterprise LTSC 2021 | 19044.1741 or later |
 
 ## Description
+
 Create a recovery drive user experience invoked from Control Panel - Recovery
 
 **Package Name:** Microsoft-Windows-RecoveryDrive
 
 **Size:** Approximately 1,041 KB
 
-## Removing Package
+## Package Removal
 
-### Online Servicing 
-Use the [DISM command-line tool](/windows-hardware/manufacture/desktop/what-is-dism) with the ```/Online``` command-line parameter to remove a single package via online servicing.
+1. To remove a specific package from the image type:
+   ```powershell
+   Dism.exe /Online /NoRestart /Disable-Feature /FeatureName:Microsoft-Windows-RecoveryDrive /PackageName:@Package
+   ````
 
-```powershell
-Dism.exe /Online /LogPath:%WINDIR%\Temp\Microsoft-Windows-RecoveryDrive.log /NoRestart /Disable-Feature /FeatureName:Microsoft-Windows-RecoveryDrive /PackageName:@Package
-````
-### Offline Servicing
-Use the [DISM command-line tool](/windows-hardware/manufacture/desktop/what-is-dism) with the ```/Image:<image path>``` command-line parameter to remove a single package via offline servicing.
+   To remove a package from an offline image mounted at `c:\offline` type:
+   ```powershell
+   Dism.exe /Image:c:\offline  /Disable-Feature /FeatureName:Microsoft-Windows-RecoveryDrive /PackageName:@Package
+   ```
 
-```powershell
-Dism.exe /Image:c:\offline /LogPath:%WINDIR%\Temp\Microsoft-Windows-RecoveryDrive.log /NoRestart /Disable-Feature /FeatureName:Microsoft-Windows-RecoveryDrive /PackageName:@Package
-````
+1. Optional: Use DISM /GetFeatureInfo to get the status of a removable package type:
+   ```powershell
+   Dism.exe /Online /Get-FeatureInfo /FeatureName:Microsoft-Windows-RecoveryDrive /PackageName:@Package
+   ````
 
 ## File List
 | File Name | Installed Location |
