@@ -6,7 +6,7 @@ ms.date: 3/10/2023
 ms.topic: article
 ms.prod: windows-iot
 ms.technology: iot
-description: Learn about what's new in Windows 11 IoT
+description: Learn about what's new in Windows 11 IoT Enterprise
 keywords: Windows IoT Enterprise, Windows 11, Windows 11 IoT, Windows 11 IoT Enterprise
 ---
 
