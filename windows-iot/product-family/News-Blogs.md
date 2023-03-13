@@ -2,11 +2,10 @@
 title: Windows for IoT News
 author: TerryWarwick
 ms.author: twarwick
-ms.date: 03/11/2023
+ms.date: 03/12/2023
 ms.topic: conceptual
 ms.prod: windows-iot
 ms.technology: iot
-ms.custom: kr2b-contr-experiment
 description: See the latest news about the Windows for IoT product family. Review blogs, videos, announcements, and case studies.
 keywords: Blogs, News, Windows IoT, Windows IoT Enterprise, Windows IoT Core, Build
 ---
@@ -24,15 +23,18 @@ Stay up to date with the latest news and announcements about the Windows for IoT
 | [Channel 9](https://channel9.msdn.com/) </br> [Microsoft IoT Developers](https://www.youtube.com/channel/UCL7wy-iy_V76xxPnrIzGOZQ) </br> [Microsoft Tech Community](https://techcommunity.microsoft.com/t5/windows-10-iot/bd-p/Windows10IoT) </br> [Windows for IoT Documentation](/windows/iot/)| [Windows Insider Program](https://blogs.windows.com/windows-insider/) </br> [Windows Servicing & Delivery by John Cable](https://blogs.windows.com/windowsexperience/author/john-cable/) </br> [Windows for IoT Business Decision Maker (BDM)](https://www.microsoft.com/WindowsForBusiness/windows-iot) </br> [Windows on Devices - IoT Developer Experience](https://developer.microsoft.com/windows/iot/) |
 | | |
 
-## Content History
-
 *All dates are listed in YYYY-MM format.*
+
+## 2023
 
 | Date | News |
 | ---- | ---- |
-| **2023** | |
 | 2023-01 | Blog: [Windows 10 IoT Enterprise will still be available past January 2023](https://techcommunity.microsoft.com/t5/internet-of-things-blog/windows-10-iot-enterprise-will-still-be-available-past-january/ba-p/3726368) |
-| **2022** ||
+
+## 2022
+
+| Date | News |
+| ---- | ---- |
 | 2022-10 | Blog: [Taking Azure Arc and Kubernetes to the Edge!](https://techcommunity.microsoft.com/t5/internet-of-things-blog/taking-azure-arc-and-kubernetes-to-the-edge/ba-p/3650599) </br> Blog: [NXP’s Windows IoT BSP 1.2 Release: Expanded BSP Support](https://aka.ms/NXPBSP1.2) </br> Blog: [Windows 10 IoT Enterprise, version 22H2 is now available](https://techcommunity.microsoft.com/t5/internet-of-things-blog/windows-10-iot-enterprise-version-22h2-is-now-available/ba-p/3655198) |
 | 2022-09 | Blog: [Windows 11 IoT Enterprise 2H22 is now generally available](https://techcommunity.microsoft.com/t5/internet-of-things-blog/windows-11-iot-enterprise-2h22-is-now-generally-available/ba-p/3631671) |
 | 2022-07 | Blog: [Multi-App Kiosk Mode Available on Windows 11 Insider Preview Build 25169](https://blogs.windows.com/windows-insider/2022/07/28/announcing-windows-11-insider-preview-build-25169/) |
@@ -41,7 +43,11 @@ Stay up to date with the latest news and announcements about the Windows for IoT
 | 2022-04 | Blog: [Announcing Public Preview for NXP i.MX 8M on Windows 10 IoT Enterprise](https://techcommunity.microsoft.com/t5/internet-of-things-blog/announcing-public-preview-for-nxp-i-mx-8m-on-windows-10-iot/ba-p/3271854) |
 | 2022-03 | Blog: [Public Preview: Edge Device Image Builder](https://techcommunity.microsoft.com/t5/internet-of-things-blog/announcing-the-public-preview-for-edge-device-image-builder/ba-p/3251230) |
 | 2022-02 | Blog: [Azure IoT Edge for Linux on Windows (EFLOW) Continuous Release Public Preview](https://techcommunity.microsoft.com/t5/internet-of-things-blog/azure-iot-edge-for-linux-on-windows-eflow-continuous-release/ba-p/3169590) |
-| **2021** ||
+
+## 2021
+
+| Date | News |
+| ---- | ---- |
 | 2021-10 | Blog: [Windows 10 IoT Enterprise LTSC 2021 - RTM for OEMs](https://aka.ms/W10IOTLTSC2021Blog) </br> Blog: [Introducing Windows 11 IoT](https://aka.ms/Win11IoTGABlog) </br> Blog: [Windows for IoT Long-term Servicing Channel explained](https://techcommunity.microsoft.com/t5/internet-of-things-blog/windows-for-iot-long-term-servicing-channel-explained/ba-p/2836254) </br> Blog: [IoT at Microsoft Ignite](https://techcommunity.microsoft.com/t5/internet-of-things-blog/iot-at-microsoft-ignite/ba-p/2874658) |
 | 2021-09 | Blog: [Windows Server IoT 2022 - Generally Available](https://techcommunity.microsoft.com/t5/internet-of-things/windows-server-iot-2022-now-generally-available/ba-p/2703521) |
 | 2021-08 | Blog: [WSL and EFLOW for IoT Edge Development](https://techcommunity.microsoft.com/t5/internet-of-things/wsl-and-eflow-for-iot-edge-development/ba-p/2593485) |
@@ -52,21 +58,33 @@ Stay up to date with the latest news and announcements about the Windows for IoT
 | 2021-03 | Video: [Accelerating Edge AI solutions](https://www.youtube.com/watch?v=QJwL0mqTudU) |
 | 2021-02 | Blog: [Windows 10 IoT Long Term Servicing Channel upcoming availability](https://techcommunity.microsoft.com/t5/internet-of-things/windows-10-iot-long-term-servicing-channel-upcoming-availability/ba-p/2139861) |
 | 2021-01 | Blog: [Enabling Linux based Azure IoT Edge Modules on Windows IoT](https://techcommunity.microsoft.com/t5/internet-of-things/enabling-linux-based-azure-iot-edge-modules-on-windows-iot/ba-p/2075882) </br> Video: [Internet of Things Show - Run Linux based IoT Edge modules on Windows IoT](https://channel9.msdn.com/Shows/Internet-of-Things-Show/Run-Linux-based-IoT-Edge-modules-on-Windows-IoT) |
-| **2020** ||
+
+## 2020
+
+| Date | News |
+| ---- | ---- |
 | 2020-09 | Blog: [Microsoft Edge Kiosk Mode](https://blogs.windows.com/windowsexperience/2020/09/22/whats-new-in-web-experiences-ignite-2020-need-to-secure-your-remote-workers-choose-microsoft-edge-as-your-browser-for-business/) |
 | 2020-07 | Video: [Deep Dive: Building secure cloud-connected IoT solutions with Windows 10 IoT Enterprise](https://www.youtube.com/watch?v=4na4RpxlnIw) |
 | 2020-05 | Blog: [IoT at Microsoft Build 2020](https://techcommunity.microsoft.com/t5/internet-of-things/iot-at-microsoft-build-2020/ba-p/1387770) </br> Video: [ROS on Windows - CI/CD using Azure DevOps](https://www.youtube.com/watch?v=4LmYCVNUWG8&feature=emb_title) </br> Video: [Windows for IoT - A Roadmap update](https://www.youtube.com/watch?v=yW6TjINVjQ0&feature=emb_title) </br> Video: [Linux modules on Windows 10 IoT Enterprise](https://www.youtube.com/watch?v=XaePrE_sz6M&feature=emb_title) </br> Blog: [Virtual Build spotlights IoT updates and rollouts](https://azure.microsoft.com/blog/virtual-build-spotlights-iot-updates-and-rollouts/) </br> Blog: [Build your IoT devices with Windows for IoT: a comprehensive platform for every device developer](https://blogs.windows.com/windowsdeveloper/2020/05/26/build-your-iot-devices-with-windows-for-iot-a-comprehensive-platform-for-every-device-developer/) </br> Blog: [Linux modules with Azure IoT Edge on Windows 10 IoT Enterprise](https://techcommunity.microsoft.com/t5/internet-of-things/linux-modules-with-azure-iot-edge-on-windows-10-iot-enterprise/ba-p/1407066) |
 | 2020-01 | Case Study: [Dover Fueling Solutions](https://customers.microsoft.com/story/775087-microsoft-country-corner-dover-fueling-solutions-oil-and-gas-azure) |
-| **2019** ||
+
+## 2019
+
+| Date | News |
+| ---- | ---- |
 | 2019-10 | Blog: [Windows expands support for robots](https://blogs.windows.com/windowsdeveloper/2019/10/30/windows-expands-support-for-robots/#GUAqMh58eL3D5BVz.97#GUAqMh58eL3D5BVz.97) |
 | 2019-07 | Video: [Internet of Things Show - The No Code Way to Connect Sensors to Azure IoT](https://channel9.msdn.com/Shows/Internet-of-Things-Show/The-No-Code-Way-to-Connect-Sensors-to-Azure-IoT) </br> Article: [FarmBeats: Improving Farm Productivity Using Data-Driven Agriculture](https://www.microsoft.com/research/publication/farmbeats-improving-farm-productivity-using-data-driven-agriculture/) |
 | 2019-06 | Video: [Rodney Clark Keynote - Windows IoT on NXP](https://youtu.be/YDBXRaQSpaY?t=1449) |
 | 2019-05 | Blog: [From automated to autonomous systems: Microsoft's developer platform aims to accelerate the journey](https://news.microsoft.com/innovation-stories/microsoft-build-autonomous-systems/) </br> Blog: [Modernizing Windows CE systems with Windows 10 IoT](https://blogs.windows.com/windowsdeveloper/2019/05/07/modernizing-windows-ce-systems-with-windows-10-iot/#oHzjguRIlWV0ryo6.97) </br> Video: [Internet of Things Show - Modernizing Windows CE devices](https://www.youtube.com/watch?v=5iUZkZmgmJA) </br> Blog: [Open Robotics and Microsoft release ROS on Windows 10 IoT Enterprise](https://blogs.windows.com/windowsdeveloper/2019/05/07/open-robotics-and-microsoft-release-ros-on-windows-10-iot-enterprise/#Y86A6YUJELKDoRJJ.97) </br> Blog: [Microsoft Azure IoT Device Agent V2 general availability](https://blogs.windows.com/windowsdeveloper/2019/05/07/microsoft-azure-iot-device-agent-v2-general-availability/#BwOSxBSymeJqU34K.97) </br> Blog: [Azure IoT at Build: making IoT solutions easier to develop, more powerful to use](https://azure.microsoft.com/blog/azure-iot-at-build-making-iot-solutions-easier-to-develop-more-powerful-to-use/) </br> Blog: [Microsoft IoT Hackathon accelerates solutions across industries](https://blogs.windows.com/windowsdeveloper/2019/05/24/microsoft-iot-hackathon-accelerates-solutions-across-industries/#BWmIOFAPt7rRUC2S.97) </br> Blog: [New Windows IoT solutions at Computex show ingenuity at the intelligent edge](https://blogs.windows.com/windowsexperience/2019/05/28/new-windows-iot-solutions-at-computex-show-ingenuity-at-the-intelligent-edge/#U3yYXu1rq054ljuk.97) |
-| 2019-04 | [Evolution of Windows IoT: The foundation for your intelligent edge](https://blogs.windows.com/windowsexperience/2019/04/03/evolution-of-windows-iot-the-foundation-for-your-intelligent-edge/) |
+| 2019-04 | Blog: [Evolution of Windows IoT: The foundation for your intelligent edge](https://blogs.windows.com/windowsexperience/2019/04/03/evolution-of-windows-iot-the-foundation-for-your-intelligent-edge/) |
 | 2019-03 | Video: [Internet of Things Show - Introduction to Windows Server IoT 2019](https://channel9.msdn.com/Shows/Internet-of-Things-Show/Introduction-to-Windows-Server-IoT-2019) </br> Blog: [New Windows IoT solutions at Computex show ingenuity at the intelligent edge](https://blogs.windows.com/windowsexperience/2019/05/28/new-windows-iot-solutions-at-computex-show-ingenuity-at-the-intelligent-edge/#U3yYXu1rq054ljuk.97) |
 | 2019-02 | Video: [Internet of Things Show - Azure IoT Device Agent for Windows](https://www.youtube.com/watch?v=DZn6diOn7uI) </br> Case Study: [Action Point](https://customers.microsoft.com/story/actionpoint-discrete-manufacturing-azure-analytics) </br> Video: [Getting started with ROS on Windows](https://www.youtube.com/watch?v=nZSjwMLi3jQ) |
 | 2019-01 | Blog: [Microsoft Azure IoT Device Agent V2 Public Preview now available](https://blogs.windows.com/windowsexperience/2019/01/15/microsoft-azure-iot-device-agent-v2-public-preview-now-available/#xxd5pzBgKdCfZ1JV.97) </br> Video: [Internet of Things Show - What's new with Windows IoT in 2019](https://channel9.msdn.com/Shows/Internet-of-Things-Show/Whats-new-with-Windows-IoT-in-2019) |
-| **2018** ||
+
+## 2018
+
+| Date | News |
+| ---- | ---- |
 | 2018-12 | Blog: [Announcing public preview of Windows 10 IoT Core on NXP SoCs](https://blogs.windows.com/windowsexperience/2018/12/14/announcing-public-preview-of-windows-10-iot-core-on-nxp-socs/) |
 | 2018-10 | Blog: [Windows 10 IoT delivers innovation and intelligence at the edge with the October 2018 Update](https://blogs.windows.com/windowsexperience/2018/10/04/windows-10-iot-delivers-innovation-and-intelligence-at-the-edge-with-the-october-2018-update/#9g9hmmO2AdUB1C6F.97) |
 | 2018-06 | [Windows 10 IoT – Tomorrow's IoT today](https://blogs.windows.com/windowsexperience/2018/06/05/windows-10-iot-tomorrows-iot-today/#wl3TcsFseJ6XROUZ.97) </br> Video: [Windows IoT #1: Basics Windows IoT introduction before you start coding (Getting Started Series)](https://www.youtube.com/watch?v=A-kazyOiBvs&t)|
@@ -75,7 +93,11 @@ Stay up to date with the latest news and announcements about the Windows for IoT
 | 2018-03 | Blog: [DevOps for IoT with Win10 IoT Core, UWP, and VSTS](https://devblogs.microsoft.com/devops/devops-for-iot-with-win10-iot-core-uwp-and-vsts/) </br> Video: [Internet of Things Show - Connecting Windows IoT Devices To Azure IoT Central](https://channel9.msdn.com/Shows/Internet-of-Things-Show/Connecting-Windows-IoT-Devices-To-IoT-Central)|
 | 2018-02 | Blog: [Microsoft doubles down on Windows 10 IoT with added support](https://blogs.windows.com/windowsexperience/2018/02/27/microsoft-doubles-down-on-windows-10-iot-with-added-support/#DJaDiKX0bYJ1JDHD.97) |
 | 2018-01 | Blog: [Johnson Controls utilizes Microsoft technology to expand the smart thermostat category](https://blogs.windows.com/windowsexperience/2018/01/04/johnson-controls-utilizes-microsoft-technology-expand-smart-thermostat-category/) |
-| **2017** ||
+
+## 2017
+
+| Date | News |
+| ---- | ---- |
 | 2017-12 | Video: [Windows 10 IoT and Azure IoT Device Management Enhancements](https://channel9.msdn.com/Shows/Azure-Friday/Windows-10-IoT-and-Azure-IoT-Device-Management-Enhancements?term=windows%20iot%20core) |
 | 2017-11 | Video: [Creating robots with Windows 10 IoT Core](https://www.youtube.com/watch?v=c2RB9xnbfBc) |
 | 2017-10 | Blog: [Windows 10 IoT enables the complete IoT lifecycle](https://blogs.windows.com/windowsdeveloper/2017/10/05/windows-10-iot-enables-complete-iot-lifecycle/) |
