@@ -24,12 +24,12 @@
   - name: Windows 10 IoT Enterprise
     expanded: false
     items: 
-     - name: Windows 10 IoT Enterprise, version 22H2
-       href: Windows-10-IoT-Enterprise-22H2.md
-     - name: Windows 10 Enterprise, version 21H2
-       href: Windows-10-IoT-Enterprise-21H2.md
-     - name: Windows 10 Enterprise, version 21H1
-       href: Windows-10-IoT-Enterprise-21H1.md
+     - name: Version 22H2
+       href: ./whats-new/Windows-10-IoT-Enterprise-22H2.md
+     - name: Version 21H2
+       href: ./whats-new/Windows-10-IoT-Enterprise-21H2.md
+     - name: Version 21H1
+       href: ./whats-new/Windows-10-IoT-Enterprise-21H1.md
 #     - name: Windows 10 Enterprise, version 20H2
 #       href: whats-new-windows-10-2015.md  
 - name: Hardware Guidance
