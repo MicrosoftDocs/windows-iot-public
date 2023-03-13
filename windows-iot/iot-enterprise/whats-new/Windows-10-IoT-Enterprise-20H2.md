@@ -11,10 +11,6 @@ ms.date: 3/10/2023
 
 # What's new in Windows 10 IoT Enterprise, version 20H2s
 
-**Applies to**:
-
-- Windows 10, version 20H2
-
 This article lists new and updated features and content that is of interest to IT Pros for Windows 10, version 20H2, also known as the Windows 10 October 2020 Update. This update also contains all features and fixes included in previous cumulative updates to Windows 10, version 2004.
 
 > [!NOTE]

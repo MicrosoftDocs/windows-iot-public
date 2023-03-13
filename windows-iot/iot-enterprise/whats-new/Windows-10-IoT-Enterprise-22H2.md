@@ -1,34 +1,43 @@
 ---
-title: What's new in Windows 10, version 22H2 for IT pros
-description: Learn more about what's new in Windows 10, version 22H2, including how to get it.
+title: What's new in Windows 10 IoT Enterprise, version 22H2
+description: Learn more about what's new in Windows 10 IoT Enterprise, version 22H2.
 ms.prod: windows-iot
 author: TerryWarwick
 ms.author: twarwick
 ms.topic: article
 ms.technology: iot
-ms.date: 3/10/2023
+ms.date: 03/12/2023
 ---
 
-# What's new in Windows 10, version 22H2
+# What's new in Windows 10 IoT Enterprise, version 22H2
 
-Windows 10, version 22H2 is a feature update for Windows 10. It's a scoped release focused on quality improvements to the overall Windows experience in existing feature areas. It includes all previous cumulative updates to Windows 10, version 21H2. This article is for IT professionals, it lists information about this release that you should know.
+## Overview
 
-Windows 10, version 22H2 is an [H2-targeted release](/lifecycle/faq/windows#what-is-the-servicing-timeline-for-a-version--feature-update--of-windows-10-), and has the following servicing schedule:
+Windows 10, version 22H2 is a feature update for Windows 10 IoT Enterprise. It's a scoped release focused on quality improvements to the overall Windows experience in existing feature areas. Windows 10, version 22H2 includes all previous cumulative updates to Windows 10 IoT Enterprise, version 21H2.
 
-- **Windows 10 Professional**: Serviced for 18 months from the release date.
-- **Windows 10 Enterprise**: Serviced for 30 months from the release date.
+## Lifecycle
 
-Windows 10, version 22H2 is available through Windows Server Update Services including Configuration Manager, Windows Update for Business, and the Volume Licensing Service Center (VLSC). For more information, see [How to get the Windows 10 2022 Update](https://blogs.windows.com/windowsexperience/2022/10/18/how-to-get-the-windows-10-2022-update/).
+Windows 10 IoT Enterprise, version 22H2 follows the [Modern Lifecycle Policy](/lifecycle/policies/modern).
 
-Devices running earlier supported versions of Windows 10 can update to version 22H2 using an enablement package. For more information, see [Feature update to Windows 10, version 22H2 by using an enablement package](https://support.microsoft.com/topic/kb5015684-featured-update-to-windows-10-version-22h2-by-using-an-enablement-package-09d43632-f438-47b5-985e-d6fd704eee61).
+| Version | Build  | Availability | End of Servicing |
+| --- | --- | --- | --- |
+| 22H2 | 19045 | 2022-10-18 | 2025-05-13 |
 
-To learn more about the status of the Windows 10, version 22H2 rollout, known issues, and build information, see [Windows 10 release information](/windows/release-health/release-information).
+For more information, see [Windows 10 IoT Enterprise support lifecycle](/lifecycle/products/windows-10-iot-enterprise).
 
-For more information about updated tools to support this release, see [IT tools to support Windows 10, version 22H2](https://techcommunity.microsoft.com/t5/windows-it-pro-blog/it-tools-to-support-windows-10-version-22h2/ba-p/3655750).
+## Availability
 
-The Windows 10, version 22H2 feature update is installed as part of the general availability channel. Quality updates are still installed monthly on patch Tuesday.
+Windows 10 IoT Enterprise, version 22H2 is available for Windows IoT Enterprise device makers through an authorized [Windows IoT Distributor](https://aka.ms/IoTDistributorList) for building new devices.
+
+Windows 10, version 22H2 is also available to users with devices running Windows 10 IoT Enterprise, version 20H2 or later who are interested in the latest features and are ready to install this release on their device. If you would like to install the new release, open your Windows Update settings (**Settings > Update & Security > Windows Update**) and select **Check for updates**. Eligible devices may also be offered the option to choose to upgrade to Windows 11. If the update appears, you can simply select Download and install to get started. Once the download is complete and the feature update is ready to install, we’ll notify you so that you can pick a convenient time to finish the installation and reboot your device, ensuring that the update does not disrupt your activities. To learn more about the status of the 2022 Update rollout, known issues and new information, visit .
 
 ## Related Topics
 
+- [How to get the update to Windows 10 IoT Enterprise, version 22H2](https://blogs.windows.com/windowsexperience/2022/10/18/how-to-get-the-windows-10-2022-update/)
+- [Windows release health](https://aka.ms/WindowsReleaseHealth) for status of update rollout, known issues and new information.
+- [Feature update to Windows 10, version 22H2 by using an enablement package](https://support.microsoft.com/topic/kb5015684-featured-update-to-windows-10-version-22h2-by-using-an-enablement-package-09d43632-f438-47b5-985e-d6fd704eee61).
+- [IT tools to support Windows 10, version 22H2](https://techcommunity.microsoft.com/t5/windows-it-pro-blog/it-tools-to-support-windows-10-version-22h2/ba-p/3655750).
 - [Feature and quality update definitions](/windows/deployment/update/waas-quick-start#definitions)
 - [Windows servicing channels](/windows/deployment/update/waas-overview#servicing-channels)
+- [Release health - Windows 10, version 22H2](https://learn.microsoft.com/windows/release-health/status-windows-10-22h2)
+- [Windows 10, version 22H2 update history](https://support.microsoft.com/topic/windows-10-update-history-8127c2c6-6edf-4fdf-8b9f-0f7be1ef3562)
