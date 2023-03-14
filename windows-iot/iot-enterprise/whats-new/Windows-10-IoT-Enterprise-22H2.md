@@ -17,15 +17,15 @@ Windows 10, version 22H2 is a feature update for Windows 10 IoT Enterprise. It's
 
 Windows 10 IoT Enterprise, version 22H2 follows the [Modern Lifecycle Policy](/lifecycle/policies/modern).
 
-| Version | Build  | Availability | End of Servicing |
+| Release | Version | Availability | End of Servicing |
 | --- | --- | --- | --- |
-| 22H2 | 19045 | 2022-10-18 | 2025-05-13 |
+| Windows 10 IoT Enterprise, version 22H2 | 19045 | 2022-10-18 | 2025-05-13 |
 
 For more information, see [Windows 10 IoT Enterprise support lifecycle](/lifecycle/products/windows-10-iot-enterprise).
 
 ## Availability
 
-Windows 10 IoT Enterprise, version 22H2 is available for Windows IoT Enterprise device makers through an authorized [Windows IoT Distributor](https://aka.ms/IoTDistributorList) for building new devices.
+Windows 10 IoT Enterprise, version 22H2 is available for Windows IoT Enterprise device makers through an authorized [Windows IoT Distributor](https://aka.ms/IoTDistributorList) for building new devices. Windows IoT Enterprise is intended for fixed purpose devices with specific allowances and restrictions in the license agreement. To learn more, see [Licensing and Usage](/windows/iot/iot-enterprise/commercialization/licensing) contact an authorized [Windows IoT Distributor](https://aka.ms/IoTDistributorList) for additional guidance.
 
 Windows 10, version 22H2 is also available to users with devices running Windows 10 IoT Enterprise, version 20H2 or later who are interested in the latest features and are ready to install this release on their device. If you would like to install the new release, open your Windows Update settings (**Settings > Update & Security > Windows Update**) and select **Check for updates**. Eligible devices may also be offered the option to choose to upgrade to Windows 11. If the update appears, you can simply select Download and install to get started. Once the download is complete and the feature update is ready to install, we’ll notify you so that you can pick a convenient time to finish the installation and reboot your device, ensuring that the update does not disrupt your activities. To learn more about the status of the 2022 Update rollout, known issues and new information, visit .
 
