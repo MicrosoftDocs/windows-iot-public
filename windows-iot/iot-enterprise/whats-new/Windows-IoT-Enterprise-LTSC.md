@@ -40,23 +40,23 @@ For more information, see [Windows IoT Enterprise LTSC support lifecycle](/lifec
 
 The LTSC is designed for devices and use cases where features and functionality will not change. It provides 10-years of security servicing to a static feature set. As part of this offering
 
-> **Silicon support**  
-> Windows IoT Enterprise LTSC will be supported for security, reliability, and compatibility on the latest silicon available at the time of release.  This may include previous silicon generations still in support by the Silicon Vendor (SV) or Original Equipment Manufacturer (OEM).
->
-> When choosing to utilize the LTSC, you must factor hardware into your decision, making sure you have a long-term supply of devices and service components for the life of your expected usage of the device. If the hardware your device is using needs to be replaced in five years, do you have a replacement supply to support the version you are running? You also want to be sure you have a hardware solution that will provide you with extended driver/firmware support to match your expected lifecycle use of the LTSC for that device.
->
-> For more information see [Windows IoT Enterprise processor list](/windows/iot/iot-enterprise/hardware/hardware_requirements#processor)
+**Silicon support**  
+Windows IoT Enterprise LTSC will be supported for security, reliability, and compatibility on the latest silicon available at the time of release.  This may include previous silicon generations still in support by the Silicon Vendor (SV) or Original Equipment Manufacturer (OEM).
 
-> **API support**  
-> Windows IoT Enterprise LTSC is designed to support the latest application APIs and driver interfaces available at the time of release.  These interfaces will not change until the release of the subsequent LTSC in order to ensure stability of solutions that rely on the underlying operating system for a long period of time.
+When choosing to utilize the LTSC, you must factor hardware into your decision, making sure you have a long-term supply of devices and service components for the life of your expected usage of the device. If the hardware your device is using needs to be replaced in five years, do you have a replacement supply to support the version you are running? You also want to be sure you have a hardware solution that will provide you with extended driver/firmware support to match your expected lifecycle use of the LTSC for that device.
 
-> **Best security**  
+For more information see [Windows IoT Enterprise processor list](/windows/iot/iot-enterprise/hardware/hardware_requirements#processor)
+
+**API support**  
+Windows IoT Enterprise LTSC is designed to support the latest application APIs and driver interfaces available at the time of release.  These interfaces will not change until the release of the subsequent LTSC in order to ensure stability of solutions that rely on the underlying operating system for a long period of time.
+
+**Best security**  
 Windows IoT Enterprise LTSC, with the latest cumulative update distributed monthly installed, provides the most secure environment for the most demanding industrial devices.
 
-> **Best stability**
+**Best stability**
 Windows IoT Enterprise LTSC, with the latest cumulative update distributed monthly installed, has the latest performance and stability improvements.
 
-> **Greatest hardware choice**  
->New devices target and ship with the latest Windows release to light up new hardware capabilities and improvements.
+**Greatest hardware choice**  
+New devices target and ship with the latest Windows release to light up new hardware capabilities and improvements.
 
 ## Related Topics
