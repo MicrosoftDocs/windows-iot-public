@@ -1,7 +1,7 @@
 - name: Windows IoT Enterprise Overview
   href: Getting_Started.md  
 - name: What's new...
-  expanded: false
+  expanded: true
   items:
   - name: Windows IoT Enterprise LTSC
     href: ./whats-new/Windows-IoT-Enterprise-LTSC.md
