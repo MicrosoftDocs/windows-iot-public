@@ -6,7 +6,7 @@ author: TerryWarwick
 ms.author: twarwick
 ms.topic: article
 ms.technology: iot
-ms.date: 03/12/2023
+ms.date: 03/13/2023
 ---
 
 # What's new in Windows 10 IoT Enterprise, version 22H2
@@ -14,8 +14,6 @@ ms.date: 03/12/2023
 ## Overview
 
 Windows 10, version 22H2 is a feature update for Windows 10 IoT Enterprise. It's a scoped release focused on quality improvements to the overall Windows experience in existing feature areas. Windows 10, version 22H2 includes all previous cumulative updates to Windows 10 IoT Enterprise, version 21H2.
-
-## Lifecycle
 
 Windows 10 IoT Enterprise, version 22H2 follows the [Modern Lifecycle Policy](/lifecycle/policies/modern).
 

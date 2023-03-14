@@ -6,7 +6,7 @@ author: TerryWarwick
 ms.author: twarwick
 ms.topic: article
 ms.technology: iot
-ms.date: 03/12/2023
+ms.date: 03/13/2023
 ---
 
 # What's new in Windows 10 IoT Enterprise, version 21H1
@@ -14,8 +14,6 @@ ms.date: 03/12/2023
 ## Overview
 
 This article lists new and updated features and content that is of interest to IT Pros for Windows 10, version 21H1, also known as the **Windows 10 May 2021 Update**. This update also contains all features and fixes included in previous cumulative updates to Windows 10, version 20H2.
-
-## Lifecycle
 
 Windows 10 IoT Enterprise, version 21H2 follows the [Modern Lifecycle Policy](/lifecycle/policies/modern).
 

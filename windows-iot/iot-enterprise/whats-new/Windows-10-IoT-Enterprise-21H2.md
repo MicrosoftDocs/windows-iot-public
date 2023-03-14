@@ -6,7 +6,7 @@ author: TerryWarwick
 ms.author: twarwick
 ms.topic: article
 ms.technology: iot
-ms.date: 3/10/2023
+ms.date: 3/13/2023
 ---
 
 # What's new in Windows 10 IoT Enterprise, version 21H2
@@ -14,8 +14,6 @@ ms.date: 3/10/2023
 ## Overview
 
 Windows 10, version 21H2 is a feature update for Windows 10 IoT Enterprise. This article lists the new and updated features supporting IoT scenarios. Windows 10, version 21H2 includes all features and fixes in previous cumulative updates to Windows 10, version 21H1.
-
-## Lifecycle
 
 Windows 10 IoT Enterprise, version 21H2 follows the [Modern Lifecycle Policy](/lifecycle/policies/modern).
 
