@@ -51,5 +51,5 @@ Windows 10, version 22H2 is also available to users with devices running Windows
 - [Release health - Windows 10, version 21H2](/windows/release-health/status-windows-10-21h2)
 - [Windows 10, version 21H2 update history](https://support.microsoft.com/topic/windows-10-update-history-857b8ccb-71e4-49e5-b3f6-7073197d98fb)
 - [Group Policy settings reference spreadsheet for Windows 10, version 21H2](https://aka.ms/GPsettings/Windows10-21H2)
-- - [Features and functionality removed in Windows 10](/windows/whats-new/removed-features)
+- [Features and functionality removed in Windows 10](/windows/whats-new/removed-features)
 - [Windows 10 features we're no longer developing](/windows/whats-new/deprecated-features)
