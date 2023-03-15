@@ -1,8 +1,8 @@
 ---
 title: Frequently Asked Questions (FAQ)
-author: rsameser
-ms.author: riameser
-ms.date: 10/26/2021
+author: TerryWarwick
+ms.author: twarwick
+ms.date: 03/14/2023
 ms.topic: article
 ms.prod: windows-iot
 ms.technology: iot
@@ -14,7 +14,7 @@ keywords: IoT Enterprise, FAQ
 
 This document outlines the Frequently Asked Questions by our customers and partners.
 
-*If you require additional assistance, please [Contact Us](./Contact-Us.md).*
+*If you require more assistance, [Contact Us](./Contact-Us.md).*
 
 ## What Windows for IoT Products are available today?
 
@@ -26,7 +26,7 @@ Windows 11 IoT Enterprise is the next evolution of Windows for IoT, and is built
 
 ## What is the difference between Windows IoT Enterprise and Windows 10 IoT Core?
 
-Windows IoT Enterprise is binary-equivalent to standard Windows Enterprise. We have incorporated all IoT features into both versions, but the IoT edition includes a few minor configuration differences at activation and has dramatically different pricing and licensing terms. Windows 10 IoT Core is the smallest version of the Windows 10 editions that leverages the Windows 10 common core architecture. These editions enable building low-cost devices with fewer resources. Development for Windows 10 IoT Core leverages the Universal Windows Platform.
+Windows IoT Enterprise is binary-equivalent to standard Windows Enterprise. We have incorporated all IoT features into both versions, but the IoT edition includes a few minor configuration differences at activation and has dramatically different pricing and licensing terms. Windows 10 IoT Core is the smallest version of the Windows 10 editions that uses the Windows 10 common core architecture. These editions enable building low-cost devices with fewer resources. Development for Windows 10 IoT Core uses the Universal Windows Platform.
 
 See [Windows IoT Overview](../product-family/windows-iot.md) for more information.
 
