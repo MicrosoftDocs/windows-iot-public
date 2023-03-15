@@ -2,7 +2,7 @@
 title: Windows for IoT News
 author: TerryWarwick
 ms.author: twarwick
-ms.date: 03/12/2023
+ms.date: 03/15/2023
 ms.topic: conceptual
 ms.prod: windows-iot
 ms.technology: iot
@@ -27,6 +27,7 @@ Stay up to date with the latest news and announcements about the Windows for IoT
 
 | Month | News |
 | ---- | ---- |
+| March | Blog: [Bring all your workloads to the edge with AKS Edge Essentials. Now Generally Available!](https://techcommunity.microsoft.com/t5/internet-of-things-blog/bring-all-your-workloads-to-the-edge-with-aks-edge-essentials/ba-p/3765162)
 | January | Blog: [Windows 10 IoT Enterprise will still be available past January 2023](https://techcommunity.microsoft.com/t5/internet-of-things-blog/windows-10-iot-enterprise-will-still-be-available-past-january/ba-p/3726368) |
 
 ## 2022
