@@ -23,7 +23,7 @@ highlightedContent:
       url: ./product-family/windows-iot.md
     - title: What's new in Windows 10 IoT Enterprise, version 22H2 
       itemType: reference
-      url: /windows/iot/product-family/what's-new-in-windows-10-iot-enterprise-21h2
+      url: /windows/iot/iot-enterprise/whats-new/Windows-10-IoT-Enterprise-22H2
     - title: What's new in Windows 11 IoT Enterprise 
       itemType: reference
       url: /windows/iot/product-family/what's-new-in-windows-11-iot-enterprise
@@ -147,9 +147,6 @@ conceptualContent:
 
     - title: Resources
       links:
-        - url: ./product-family/Product-Lifecycle.md
-          itemType: reference
-          text:  Windows for IoT Product Lifecycle
         - url: https://www.youtube.com/channel/UCL7wy-iy_V76xxPnrIzGOZQ
           itemType: reference
           text:  Microsoft IoT Developer
