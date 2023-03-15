@@ -18,6 +18,16 @@ keywords: Windows Server IoT 2022, enterprise manageability, Windows ecosystem, 
 ## What is Windows Server IoT 2022?
 Windows Server IoT 2022 is a full version of Windows Server 2022 that delivers enterprise manageability and security to IoT solutions. Windows Server IoT 2022 shares all the benefits of the world-wide Windows ecosystem. It is a binary equivalent to Windows Server 2022, so you can use the same familiar development and management tools that you use on your general-purpose servers. However, when it comes to licensing and distribution, the general-purpose version and IoT versions differ.  Windows Server IoT 2022 is only licensed through the OEM channel under special dedicated use rights.
 
+## Windows Server IoT Releases
+
+Windows Server IoT releases follow the [Fixed Lifecycle Policy](/lifecycle/policies/fixed).
+
+| Release                             | Version | Availability | End of Servicing |
+| ----------------------------------- | ----- | ------------ | ---------------- |
+| [Windows Server IoT 2022](/lifecycle/products/windows-server-iot-2022) | 20348 | 2021-08-18   | 2031-10-14       |
+| [Windows Server IoT 2019](/lifecycle/products/windows-server-iot-2019) | 17763 | 2019-03-04   | 2029-01-09       |
+| [Windows Server IoT 2019 for Storage](/lifecycle/products/windows-server-iot-2019-for-storage) | 17763 | 2019-03-04   | 2029-01-09       |
+
 ## Fixed purpose devices
 
 > [!TIP]
