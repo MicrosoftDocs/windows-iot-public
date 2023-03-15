@@ -150,7 +150,14 @@
         "source_path": "windows-iot/iot-enterprise/Hardware-Guidance/supported/21H2_NXP_Processors.md",
         "redirect_url": "/windows/iot/iot-enterprise/Hardware/supported/21H2_NXP_Processors.md",
         "redirect_document_id": false
+    },
+
+    {
+        "source_path": "windows-iot/product-family/what's-new-in-Windows-IoT-Enterprise-21H2.md",
+        "redirect_url": "/windows/iot/iot-enterprise/whats-new/Windows-IoT-Enterprise-21H2.md",
+        "redirect_document_id": false
     }
+
 
 
 ]
