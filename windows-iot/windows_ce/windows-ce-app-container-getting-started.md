@@ -21,6 +21,7 @@ The solution is built in two stages. The first stage creates a Windows CE 2013 i
 For more information about this architecture, please review this video: [Modernizing Windows CE Devices](https://channel9.msdn.com/Shows/Internet-of-Things-Show/Modernizing-Windows-CE-Devices).
 
 ## Prerequisites
+
 The Windows CE App Container software requires an updated version of [Windows Compact 2013 (Build number 6294 from June 2020 or later)](https://support.microsoft.com/help/4566035/update-for-windows-embedded-compact-2013) along with updated [Windows 10 IoT Core Packages for x64 and ARM32 (August 2020 update or later)](https://support.microsoft.com/help/4565349/windows-10-update-kb4565349). To obtain the latest packages for Windows 10 IoT Core, please contact your Microsoft distributor.
 
 > [!NOTE]
@@ -30,33 +31,23 @@ Additionally, you will need the following:
 
 - [Microsoft Visual Studio 2013 Professional or Visual Studio 2015
     Professional](<https://visualstudio.microsoft.com/vs/>). These versions are required for both the Application Builder and Platform Builder tools.
-
 - [Application Builder for Windows Embedded Compact 2013](<https://www.microsoft.com/download/details.aspx?id=38819>)
-
 - Platform Builder for Windows Compact 2013
-
 - A Working IoT Core BSP
-
 - The tools referenced in the [Windows IoT Manufacturing
     Guide](/windows-hardware/manufacture/iot/set-up-your-pc-to-customize-iot-core)
 - Remember to install the updated components in place of the ones referenced in this guide (Windows 10 ADK and Windows 10 ADK PE Add-on, IoT Core ADK Add-ons, Windows 10 IoT Core Dashboard)
-
 
 ## Configuring, Building, and Packaging CE for the Windows CE App Container
 
 The [process for creating a Windows Embedded Compact 2013 image](/previous-versions/windows/embedded/jj200349(v=winembedded.80)) has not been updated significantly. The general process for building an image is:
 
 1. Create OS Design project with Platform Builder
-
-2. Select the Platform Builder Board Support Package (BSP)
-
-3. Choose the appropriate design template
-
-4. Configure the options provided by the design template
-
-5. Optionally add Sub-projects to the design project
-
-6. Build the image
+1. Select the Platform Builder Board Support Package (BSP)
+1. Choose the appropriate design template
+1. Configure the options provided by the design template
+1. Optionally add Sub-projects to the design project
+1. Build the image
 
 The primary change is in the selection of the correct BSP and additional considerations for the CE image. This guide assumes you are already familiar with the process to build a Windows CE system image, but it is worth looking more deeply at the changed section.
 
@@ -126,7 +117,6 @@ The Windows CE App Container is created using PB as discussed above and imported
 
 Review the documentation, [Create a Basic Image](/windows-hardware/manufacture/iot/create-a-basic-image), in the IoT Core Manufacturing Guide to create your product definition.
 
-
 #### Step 5 - Adding CE App Container to a product
 
 Once you have imported your CE App Container definition to your workspace you will need to ensure that you run the [Add-IoTCEPAL](https://github.com/ms-iot/iot-adk-addonkit/blob/master/Tools/IoTCoreImaging/Docs/Add-IoTCEPAL.md#Add-IoTCEPAL) command, which will add a reference to CE App Container packages to the relevant product OEMInput.xml files (Test and Retail).
@@ -188,12 +178,9 @@ In general, the recommendation is not to modify the resulting package produced b
 The packaging process detailed above is driven by the same inputs that go into building a CE BIN file. So, if the files are referenced in OSDesign.bib and registry entries are added to OSDesign.reg, the `MAKEIMG` process will include these files in the resulting CAB file. During this process `MAKEIMG` will now:
 
 1. `ROMIMAGE` will create a directory named `CEPAL\_PKG` within the Flat Release Directory (FRD) that stages an installed directory structure for Windows CE for CEPAL.
-
-2. `ROMIMAGE` inventories all CE files that were placed into `CEPAL\_PKG` based on CE BIB files.
-
-3. `ROMIMAGE` will create multiple WM.XML files for each memory section. This is done so that updates can be pushed in a more granular fashion as the minimum unit of update is a package.
-
-4. `ROMIMAGE` will create  that references all the created packages.
+1. `ROMIMAGE` inventories all CE files that were placed into `CEPAL\_PKG` based on CE BIB files.
+1. `ROMIMAGE` will create multiple WM.XML files for each memory section. This is done so that updates can be pushed in a more granular fashion as the minimum unit of update is a package.
+1. `ROMIMAGE` will create  that references all the created packages.
 
 All of the packages created will be named with a fixed prefix of `“%OEM\_NAME%.WindowsCE.\*”`, where `%OEM\_NAME%` is populated during the IoT Core creation process when calling [New-IoTCabPackage](https://github.com/ms-iot/iot-adk-addonkit/blob/master/Tools/IoTCoreImaging/Docs/New-IoTCabPackage.md). The Package Name within the name space is derived from the memory section in the BIB file (e.g. NK) followed by modules / files (also determined by the BIB file).
 
@@ -313,7 +300,6 @@ Options:
 | FactoryReset             | Used by the config app to signal the CE App Container to dump persistent state.          |
 | PlatformBuilderDebugMode | Used to boot the CE App Container with KITL support for debugging with Platform Builder. |
 | NetInterface             | Select a Network Interface for CE based on profile name.                                 |
-
 
 ## References
 
