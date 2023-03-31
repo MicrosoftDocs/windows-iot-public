@@ -93,8 +93,8 @@ While the system will automatically restart background applications, system lock
 
 The **lowLevel** device Capability gives access to low-level hardware interfaces like GPIO, SPI, and I2C.
 
-* [Blinky Sample(GPIO)](/samples/microsoft/windows-iotcore-samples/hello-blinky)
-* [Accelerometer Sample](https://github.com/Microsoft/Windows-iotcore-samples/tree/master/Samples/Accelerometer)
+* [Blinky Sample(GPIO)](https://github.com/microsoft/Windows-IoT-Samples/tree/master/samples/Hello%20Blinky)
+* [Accelerometer Sample](https://github.com/microsoft/Windows-IoT-Samples/tree/master/samples/Accelerometer)
 
 The **lowLevelDevices** Capability allows apps to access custom devices when additional requirements are met. This
 capability shouldn't be confused with the lowLevel device capability, which allows access to GPIO, I2C, SPI, and PWM devices.
