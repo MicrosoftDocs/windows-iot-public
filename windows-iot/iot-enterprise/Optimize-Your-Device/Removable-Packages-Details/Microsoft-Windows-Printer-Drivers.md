@@ -2,7 +2,7 @@
 title: Package - Printer Drivers
 author: twarwick
 ms.author: twarwick
-ms.date: 2/6/2023
+ms.date: 03/30/2023
 ms.topic: article
 ms.prod: windows-iot
 ms.technology: iot
@@ -16,7 +16,6 @@ keywords: IoT Enterprise, removable packages, storage
 |:------------------------------------|:--------------------|
 | Windows 10 IoT Enterprise LTSC 2021 | 19044.1741 or later |
 
-
 ## Description
 
 Generic / Text Only, Generic IBM Graphics 9-pin, Generic IBM Graphics 9-pin wide, MS Publisher Color Printer, MS Publisher Imagesetter, Microsoft Shared Fax Driver
@@ -28,21 +27,25 @@ Generic / Text Only, Generic IBM Graphics 9-pin, Generic IBM Graphics 9-pin wide
 ## Package Removal
 
 1. To remove a specific package from the image type:
+
    ```powershell
    Dism.exe /Online /NoRestart /Disable-Feature /FeatureName:Microsoft-Windows-Printer-Drivers /PackageName:@Package
    ````
 
    To remove a package from an offline image mounted at `c:\offline` type:
+
    ```powershell
    Dism.exe /Image:c:\offline  /Disable-Feature /FeatureName:Microsoft-Windows-Printer-Drivers /PackageName:@Package
    ```
 
 1. Optional: Use DISM /GetFeatureInfo to get the status of a removable package type:
+
    ```powershell
    Dism.exe /Online /Get-FeatureInfo /FeatureName:Microsoft-Windows-Printer-Drivers /PackageName:@Package
    ````
 
 ## File List
+
 | File Name | Installed Location |
 |-----------|--------------------|
 | prnge001.cat | %windir%\system32\drivers\prnge001.cat |
@@ -68,6 +71,7 @@ Generic / Text Only, Generic IBM Graphics 9-pin, Generic IBM Graphics 9-pin wide
 | prnms002.inf | prnms002.inf |
 
 ## More Resources
+
 - [Removable Packages](/windows/iot/iot-enterprise/Optimize-Your-Device/Removable-Packages)
 - [Reduce Disk Footprint](/windows/iot/iot-enterprise/Optimize-Your-Device/Reduce-Disk-Footprint)
 - [Device Optimization Overview](/windows/iot/iot-enterprise/Optimize-Your-Device/Overview)
