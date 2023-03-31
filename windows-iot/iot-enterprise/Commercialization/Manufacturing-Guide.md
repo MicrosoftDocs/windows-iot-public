@@ -33,8 +33,8 @@ In addition to our documentation set, we have a series of labs that you can foll
 
 We also have guidance for a more automated solution.
 
-If you want to try script-based image customization and deployment, please visit our [GitHub repository](https://github.com/ms-iot/windows-iotent-deploy).
+If you want to try script-based image customization and deployment, visit our [GitHub repository](https://github.com/ms-iot/windows-iotent-deploy).
 
-## Additional Resources
+## More Resources
 
 * [Optimize a Windows IoT Enterprise image](/windows-hardware/manufacture/desktop/iot-ent-optimize-images)
