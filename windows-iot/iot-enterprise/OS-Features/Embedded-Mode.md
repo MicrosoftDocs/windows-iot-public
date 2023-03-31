@@ -1,8 +1,8 @@
 ---
 title: Embedded Mode
-author: rsameser
-ms.author: riameser
-ms.date: 10/05/2021
+author: TerryWarwick
+ms.author: twarwick
+ms.date: 03/30/2023
 ms.topic: article
 ms.prod: windows-iot
 ms.technology: iot
@@ -11,14 +11,17 @@ keywords: IoT Enterprise, Networking
 ---
 
 # Embedded mode
+
 Embedded Mode is a Win32 service. In Windows it only starts if the user, an application, or another service starts it. When the Embedded Mode service is started, it's run as LocalSystem in a shared process of svchost.exe along with other services. Embedded Mode is supported on Windows IoT Enterprise.
 
 Embedded Mode enables:
+
 * Background Applications
 * Use of the lowLevelDevice capability
 * Use of systemManagement capability
 
 ## Enable Embedded Mode
+
 To enable embedded mode, create a provisioning package in Imaging and Configuration Designer (ICD) that sets AllowEmbeddedMode=1. To install ICD, you need to download and install the Windows ADK for Windows 10.
 
 * [Download the Windows ADK for Windows 10](https://go.microsoft.com/fwlink/p/?LinkId=526740)
@@ -78,8 +81,8 @@ To enable embedded mode, create a provisioning package in Imaging and Configurat
 
     ![Step #14 Standard](./media/EmbeddedMode/Step14Standard.png)
 
-
 ## Background Applications
+
 [Background Applications](/windows/iot-core/develop-your-app/backgroundapplications) are created using the Background Application (IoT) template in Visual Studio.
 
 Background applications run without stopping and without resource limits. If the background application stops for some reason and embedded mode is enabled the system will restart the background application.
@@ -98,9 +101,9 @@ capability shouldn't be confused with the lowLevel device capability, which allo
 
 Refer to [App capability declarations](/windows/uwp/packaging/app-capability-declarations) for details.
 
-## systemManagment Capability
+## systemManagement Capability
 
-When you enable the systemManagment capabilities for your application, the following APIs will be unlocked:  
+When you enable the systemManagement capabilities for your application, the following APIs will be unlocked:  
 
 * [Windows.System.ProcessLauncher](https://msdn.microsoft.com/library/windows/apps/windows.system.processlauncher.aspx)
 * [Windows.System.TimeZoneSettings](https://msdn.microsoft.com/library/windows/apps/windows.system.timezonesettings.aspx)

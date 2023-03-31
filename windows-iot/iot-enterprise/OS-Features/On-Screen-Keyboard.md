@@ -1,8 +1,8 @@
 ---
 title: On-screen Keyboard
-author: rsameser
-ms.author: riameser
-ms.date: 10/05/2021
+author: TerryWarwick
+ms.author: twarwick
+ms.date: 03/30/2023
 ms.topic: article
 ms.prod: windows-iot
 ms.technology: iot
@@ -11,9 +11,11 @@ keywords: IoT Enterprise, Networking
 ---
 
 # On-screen keyboard
+
 Windows IoT Enterprise, provides developers with many on-screen keyboard features to enhance the user-experience.
 
 ## Key features
+
 The keyboard implementation provides the following benefits to your headed device development:
 
 * [Enable On-Screen Keyboard](#enable-on-screen-keyboard)
@@ -24,11 +26,12 @@ The keyboard implementation provides the following benefits to your headed devic
 * [Dictation mode](#dictation-mode)
 * [A selection of user interface preferences](#user-interface-configuration)
 
-
 ## Enable On-Screen Keyboard
+
 Windows has a built-in Ease of Access tool called the On-Screen Keyboard that can be used instead of a physical keyboard. You don’t need a touchscreen to use the On-Screen Keyboard. It displays a visual keyboard with all the standard keys, so you can use your mouse or another pointing device to select keys, or use a physical single key or group of keys to cycle through the keys on the screen.
 
 ### To open the On-Screen Keyboard
+
 Go to **Start** > then select **Settings** > **Ease of Access** > **Keyboard**, and turn on the toggle under Use the **On-Screen Keyboard**. A keyboard that can be used to move around the screen and enter text will appear on the screen. The keyboard will remain on the screen until you close it.
 
 > [!NOTE]
@@ -36,6 +39,7 @@ Go to **Start** > then select **Settings** > **Ease of Access** > **Keyboard**, 
 > To open the On-Screen Keyboard from the sign-in screen, select the **Ease of Access** button in the lower-right corner of the sign-in screen, and then select **On-Screen Keyboard**.
 
 ### To change how info is entered into the On-Screen Keyboard
+
 With the On-Screen Keyboard open, select the **Options** key, and choose the options you want:
 
 * **Use click sound.** Use this option if you want to hear a sound when you press a key.
@@ -53,8 +57,9 @@ With the On-Screen Keyboard open, select the **Options** key, and choose the opt
 * **Use Text Prediction.** Use this option if you want the On-Screen Keyboard to suggest words for you as you type so you don't need to type each complete word.
 
 > [!NOTE]
+
 > * Text Prediction is available in English, French, Italian, German, and Spanish. If you want to use one of these languages and it isn't installed, install the language files for that language.
-> * If you're using either hovering mode or scanning mode and accidently minimize the On-Screen Keyboard, you can restore it by pointing to it in the taskbar (for hovering mode) or by pressing the scan key (for scanning mode).
+> * If you're using either hovering mode or scanning mode and accidentally minimize the On-Screen Keyboard, you can restore it by pointing to it in the taskbar (for hovering mode) or by pressing the scan key (for scanning mode).
 > * If you minimize the On-Screen Keyboard and switch to tablet mode, use the Task view button to get back to the On-Screen Keyboard.
 
 ## Feature packages
@@ -63,9 +68,9 @@ For prototyping (development) images, the on-screen keyboard feature is already 
 enable it from Device Settings in the [Windows Device Portal](/windows/iot-core/manage-your-device/deviceportal).
 
 For commercialization, the following optional feature packages will add the on-screen keyboard to your image:
+
 * IOT_SHELL_ONSCREEN_KEYBOARD
 * IOT_SHELL_ONSCREEN_KEYBOARD_FOLLOWFOCUS
-
 
 ## Windows keyboard language layouts
 
@@ -119,11 +124,14 @@ By default, the touch keyboard will use the lower 45% of the screen's height. Th
 Apply the following formula to calculate the percentage: `percentage = (100 * <desired_pixel_height>) / <screen_height>`
 
 As an example, to change the height to 56.783%, you would set the following registry value:
+
 ```console
 set OskRootKey=HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon\IoTShellExtension\OSK
 reg.exe ADD "%OskRootKey%" /v MaxHeightPercentage /t REG_SZ /d "56.783" /f
 ```
+
 or from PowerShell:
+
 ```powershell
 set OskRootKey "HKLM:\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon\IoTShellExtension\OSK"
 cd $OskRootKey
@@ -137,21 +145,22 @@ Set-ItemProperty -Path . -Name MaxHeightPercentage -Type String -Value 56.783
 ### Additional preferences
 
 The remaining set of preferences is String values in the Preferences subkey:
-```
+
+```REG
 HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon\IoTShellExtension\OSK\Preferences
 ```
 
 | Registry Value               | Default Value      | Description                                                                                         |
 | ---------------------------- | ------------------ | --------------------------------------------------------------------------------------------------- |
 | AudioFeedback_Disabled       | "0"                | "0" enables the key click audio feedback; "1" disables it.                                          |
-| Dictation_Disabled           | "1"                | "0" shows the dictation (voice recognition) button; "1" hides it.<br/> (see note below)             |
+| Dictation_Disabled           | "1"                | "0" shows the dictation (voice recognition) button; "1" hides it. (see note below)             |
 | KeyboardModeEnabled_full     | "0"                | "0" disables the full keyboard mode; "1" enables it.                                                |
 | KeyboardModeEnabled_narrow   | "1"                | "0" disables the narrow keyboard mode; "1" enables it.                                              |
 | KeyboardModeEnabled_wide     | "1"                | "0" disables the wide keyboard mode; "1" enables it.                                                |
 | ModeOrder                    | "wide;narrow;full" | The order (from left to right) in which the modes are listed in the mode drop-down menu, if enabled |
 | SettingsMenuKey_Collapsed    | "0"                | Hides the mode drop-down menu. Set this to "1" if only one mode is enabled.                         |
-| Paste_Disabled               | "0"                | "0" shows the Paste button; "1" hides it.<br/> Change takes effect after reboot.                    |
-| CloseButton_Disabled         | "0"                | "0" shows the Close button; "1" hides the Close button<br/> Change takes effect after reboot.       |
+| Paste_Disabled               | "0"                | "0" shows the Paste button; "1" hides it. Change takes effect after reboot.                    |
+| CloseButton_Disabled         | "0"                | "0" shows the Close button; "1" hides the Close button. Change takes effect after reboot.       |
 | EmojiKeyEnabled              | "0"                | "0" hides the Emoji key; "1" shows it, allowing the user to enter Emoji characters.                 |
 
 > [!NOTE]
@@ -163,6 +172,7 @@ HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon\IoTShel
 > and [IoT Core manufacturing guide](/windows-hardware/manufacture/iot/iot-core-manufacturing-guide).
 
 As an example, to enable only `wide` keyboard mode, in PowerShell you could do the following:
+
 ```powershell
 set OskRootKey "HKLM:\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon\IoTShellExtension\OSK"
 cd $OskRootKey
@@ -175,5 +185,6 @@ Set-ItemProperty . -Name SettingsMenuKey_Collapsed -Value "1"
 ```
 
 ## Additional Resources
+
 * [Use the On-Screen Keyboard to type](https://support.microsoft.com/windows/use-the-on-screen-keyboard-osk-to-type-ecbb5e08-5b4e-d8c8-f794-81dbf896267a)
 * [On-screen keyboard for headed devices](/windows/iot-core/develop-your-app/onscreenkeyboard)
