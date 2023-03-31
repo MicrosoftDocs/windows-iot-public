@@ -94,7 +94,6 @@ It is recommended that devices that run Windows IoT Enterprise include at least 
 
 ## Additional Resources
 
-* [Shared Minimum Hardware Requirements for Windows OS](/windows-hardware/design/minimum/minimum-hardware-requirements-overview#section-60---shared-minimum-hardware-requirements-for-components)
-* [Minimum Hardware Requirements](/windows-hardware/design/minimum/minimum-hardware-requirements-overview)
-* [Windows Processor Requirements](/Processor_Requirements.md)
+* [Windows Minimum Hardware Requirements](/windows-hardware/design/minimum/minimum-hardware-requirements-overview)
+* [Windows Processor Requirements](/windows-hardware/design/minimum/windows-processor-requirements)
 * [Hardware Component Guidelines](/windows-hardware/design/component-guidelines/components)

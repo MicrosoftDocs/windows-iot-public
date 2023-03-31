@@ -2,7 +2,7 @@
 title: Licensing & Usage
 author: TerryWarwick
 ms.author: twarwick
-ms.date: 03/30/2023
+ms.date: 03/31/2023
 ms.topic: article
 ms.prod: windows-iot
 ms.technology: iot
@@ -42,7 +42,7 @@ A fixed purpose device differs from a general-purpose device in the following wa
 > * The General Availability Channel receives feature updates twice per year and provides support for **18-30 months**.
 > * The Long Term Servicing Channel, which is designed to be used only for specialized devices (which typically don't run Office) such as those that control medical equipment or ATM machines, receives new feature releases every two to three years and provides support for **10 years**.
 >
-> There is currently **one** annual release channel for Windows 11 IoT Enterprise - please see [Windows 11 servicing](/lifecycle/faq/windows#windows-11) and [Windows for IoT Product Lifecycle](/windows/iot/product-family/product-lifecycle) for more information.
+> There is currently **one** annual release channel for Windows 11 IoT Enterprise - please see [Windows 11 servicing](/lifecycle/faq/windows#windows-11) and [Windows for IoT Product Lifecycle](/lifecycle/products/?terms=Windows%20IoT%20Enterprise) for more information.
 
 ## General Availability Channel
 
@@ -64,7 +64,7 @@ Please review the [Fixed Lifecycle Policy](/lifecycle/policies/fixed) for more i
 
 ### Windows for IoT Releases
 
-Please visit the [Windows for IoT product lifecycle](/windows/iot/product-family/product-lifecycle) for more information on each product's latest releases and servicing information.
+Please visit the [Windows for IoT product lifecycle](/lifecycle/products/?terms=Windows%20IoT) for more information on each product's latest releases and servicing information.
 
 ## Activation Guide
 
