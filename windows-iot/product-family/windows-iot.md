@@ -35,6 +35,7 @@ Windows is well known as the operating system for laptops and desktops used by c
 > See your licensing agreement for complete guidance on all Windows IoT Enterprise usage scenarios. If you are an end-user customer, your OEM should have provided you with the terms in an agreement. If you are an OEM, you can direct questions to your distributor regarding your specific licensing agreement.
 
 A fixed purpose device differs from a general-purpose device in the following ways:
+
 * The device is locked down to a single application or fixed set of applications through the Assigned Access or Shell Launcher features.
 * The device experience is often immediate when the customer powers-on. This experience is achieved by configuring the device image to skip the normal Windows out-of-box experiences.
 * Keyboards, USB ports, and device policies can be locked down to constrain the device to be used only in its fixed purpose.

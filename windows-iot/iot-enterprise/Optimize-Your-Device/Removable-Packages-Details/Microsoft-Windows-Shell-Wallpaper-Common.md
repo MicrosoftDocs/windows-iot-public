@@ -2,7 +2,7 @@
 title: Package - Desktop Wallpaper
 author: twarwick
 ms.author: twarwick
-ms.date: 2/6/2023
+ms.date: 03/30/2023
 ms.topic: article
 ms.prod: windows-iot
 ms.technology: iot
@@ -16,7 +16,6 @@ keywords: IoT Enterprise, removable packages, storage
 |:------------------------------------|:--------------------|
 | Windows 10 IoT Enterprise LTSC 2021 | 19044.1741 or later |
 
-
 ## Description
 
 Wallpaper images
@@ -28,21 +27,25 @@ Wallpaper images
 ## Package Removal
 
 1. To remove a specific package from the image type:
+
    ```powershell
    Dism.exe /Online /NoRestart /Disable-Feature /FeatureName:Microsoft-Windows-Shell-Wallpaper /PackageName:@Package
    ````
 
    To remove a package from an offline image mounted at `c:\offline` type:
+
    ```powershell
    Dism.exe /Image:c:\offline  /Disable-Feature /FeatureName:Microsoft-Windows-Shell-Wallpaper /PackageName:@Package
    ```
 
 1. Optional: Use DISM /GetFeatureInfo to get the status of a removable package type:
+
    ```powershell
    Dism.exe /Online /Get-FeatureInfo /FeatureName:Microsoft-Windows-Shell-Wallpaper /PackageName:@Package
    ````
 
 ## File List
+
 | File Name | Installed Location |
 |-----------|--------------------|
 | img0_1024x768.jpg  | %windir%\web\4k\wallpaper\windows\img0_1024x768.jpg |
@@ -70,6 +73,7 @@ Wallpaper images
 | img0.jpg           | %windir%\web\wallpaper\windows\img0.jpg |
 
 ## More Resources
+
 - [Removable Packages](/windows/iot/iot-enterprise/Optimize-Your-Device/Removable-Packages)
 - [Reduce Disk Footprint](/windows/iot/iot-enterprise/Optimize-Your-Device/Reduce-Disk-Footprint)
 - [Device Optimization Overview](/windows/iot/iot-enterprise/Optimize-Your-Device/Overview)

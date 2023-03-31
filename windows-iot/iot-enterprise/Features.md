@@ -2,7 +2,7 @@
 title: Features by Release
 author: TerryWarwick
 ms.author: twarwick
-ms.date: 10/26/2021
+ms.date: 03/31/2023
 ms.topic: article
 ms.prod: windows-iot
 ms.technology: iot
