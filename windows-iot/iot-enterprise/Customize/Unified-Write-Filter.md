@@ -2,7 +2,7 @@
 title: Unified Write Filter
 author: TerryWarwick
 ms.author: twarwick
-ms.date: 03/09/2023
+ms.date: 03/30/2023
 ms.topic: article
 ms.prod: windows-iot
 ms.technology: iot
@@ -10,15 +10,17 @@ description: Learn about the Unified Write Filter Features of Windows IoT Enterp
 keywords: Lockdown, Unified Write Filter
 ---
 # Unified Write Filter
+
 The [Unified Write Filter (UWF)](/windows-hardware/customize/enterprise/unified-write-filter#turn-on-and-configure-uwf) is a Windows IoT Enterprise feature that helps to protect your drives by intercepting and redirecting any writes to the drive (app installations, settings changes, saved data) to a virtual overlay. The virtual overlay is a temporary location that is usually cleared during a reboot or when a guest user logs off.
 
 The Unified Write Filter is useful in the following scenarios:
+
 * Isolating writes to extend the life of storage media
 * Optimizing Application load timing on boot – it can be faster to resume from a HORM file on every boot rather than reloading the system on each boot
 * Resetting systems like Thin Clients, which are used in shared workspaces (e.g. schools, libraries, hotels, etc.) with frequent guests to ensure each guest receives a clean experience
 
-
 ## Install the Unified Write Filter
+
 The Unified Write Filter (UWF) is an optional Windows feature. So in order to use UWF, you'll first need to install the feature.
 
 * [Turn on UWF on a running PC](/windows-hardware/customize/enterprise/uwf-turnonuwf#turn-on-uwf-on-a-running-pc)
@@ -29,6 +31,7 @@ The Unified Write Filter (UWF) is an optional Windows feature. So in order to us
 Next, you'll enable (and optionally configure) the feature.
 
 The first time you enable UWF on your device, UWF makes the following changes to your system to improve the performance of UWF:
+
 * Paging files are disabled.
 * System restore is disabled.
 * SuperFetch is disabled.
@@ -44,22 +47,22 @@ After UWF is enabled, you can select a drive to protect and start using UWF.
 > You can install UWF for running PCs and devices, prepare it for customized Windows images, or manage it remotely using CSP or WMI.
 
 ## New Capabilities - 21H2
-With [Windows 10 IoT Enterprise, version 21H2](/windows/iot/product-family/what's-new-in-windows-10-iot-enterprise-21h2), a new set of capabilities have been introduced to the Unified Write Filter.
+
+With [Windows 10 IoT Enterprise, version 21H2](/windows/iot/iot-enterprise/whats-new/windows-10-iot-enterprise-21h2), a new set of capabilities have been introduced to the Unified Write Filter.
 
 1. [UWF Swapfile Created on Any Volume](/windows-hardware/customize/enterprise/uwf-wes7-ewf-to-win10-uwf)
-    * Allows booting from devices suseptible to wear from writings (e.g. SSD)
+    * Allows booting from devices susceptible to wear from writings (e.g. SSD)
     * Redirects Disk overlay to other media
-
 
 2. [Read Only Mode (ROM) Mode](/windows-hardware/customize/enterprise/uwf-wes7-ewf-to-win10-uwf#read-only-media-mode)  
     * Allows elimination to physical devices
     * Official successor to WES7 Enhanced Write Filter
 
-
 3. [Full Volume Commit in ROM Mode](/windows-hardware/customize/enterprise/uwf-wes7-ewf-to-win10-uwf#full-volume-commit-in-read-only-media-mode)
     * Ability to commit entire state of UWF protected volumes to physical disk at once.
 
 ## Additional Resources
+
 * [Enable UWF](/windows-hardware/customize/enterprise/uwf-turnonuwf)
 * [Unified Write Filter](/windows-hardware/customize/enterprise/unified-write-filter)
 * [Unified Write Filter WMI Provider Reference](/windows-hardware/customize/enterprise/uwf-wmi-provider-reference)

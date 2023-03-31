@@ -1,7 +1,7 @@
 ---
 title: Overview of Windows Server IoT 2022
 author: rsameser
-ms.date: 10/05/2021
+ms.date: 03/31/2023
 ms.author: riameser
 ms.topic: article
 ms.prod: windows-iot
@@ -16,6 +16,7 @@ keywords: Windows Server IoT 2022, enterprise manageability, Windows ecosystem, 
 > Windows Containers are supported for commercial deployments on Windows Server, Windows IoT Server, Windows IoT Enterprise and Windows IoT Core.  As of Windows October Update 2018 (Build 17763), Windows Containers can only be used with Windows Enterprise and Professional for dev/test purposes.
 
 ## What is Windows Server IoT 2022?
+
 Windows Server IoT 2022 is a full version of Windows Server 2022 that delivers enterprise manageability and security to IoT solutions. Windows Server IoT 2022 shares all the benefits of the world-wide Windows ecosystem. It is a binary equivalent to Windows Server 2022, so you can use the same familiar development and management tools that you use on your general-purpose servers. However, when it comes to licensing and distribution, the general-purpose version and IoT versions differ.  Windows Server IoT 2022 is only licensed through the OEM channel under special dedicated use rights.
 
 ## Windows Server IoT Releases
@@ -42,6 +43,7 @@ This is the release model youâ€™re already familiar with, formerly called the â€
 * [Learn more about LTSC](/windows-server/get-started-19/servicing-channels-19#long-term-servicing-channel-ltsc)
 
 ## Helpful resources
+
 > [!NOTE]
 > Additional resources may be available from your distributor or Microsoft representative.
 
