@@ -6,7 +6,7 @@ author: TerryWarwick
 ms.author: twarwick
 ms.topic: article
 ms.technology: iot
-ms.date: 3/13/2023
+ms.date: 03/30/2023
 ---
 
 # What's new in Windows 10 IoT Enterprise, version 21H2
@@ -27,7 +27,7 @@ For more information, see [Windows 10 IoT Enterprise support lifecycle](/lifecyc
 
 Windows 10 IoT Enterprise, version 22H2 is available for Windows IoT Enterprise device makers through an authorized [Windows IoT Distributor](https://aka.ms/IoTDistributorList) for building new devices.  Windows IoT Enterprise is intended for fixed purpose devices with specific allowances and restrictions in the license agreement. To learn more, see [Licensing and Usage](/windows/iot/iot-enterprise/commercialization/licensing) contact an authorized [Windows IoT Distributor](https://aka.ms/IoTDistributorList) for additional guidance.
 
-Windows 10, version 22H2 is also available to users with devices running Windows 10 IoT Enterprise, version 20H2 or later who are interested in the latest features and are ready to install this release on their device. If you would like to install the new release, open your Windows Update settings (**Settings > Update & Security > Windows Update**) and select **Check for updates**. Eligible devices may also be offered the option to choose to upgrade to Windows 11. If the update appears, you can simply select Download and install to get started. Once the download is complete and the feature update is ready to install, we’ll notify you so that you can pick a convenient time to finish the installation and reboot your device, ensuring that the update does not disrupt your activities. To learn more about the status of the 2022 Update rollout, known issues and new information, visit .
+Windows 10, version 22H2 is also available to users with devices running Windows 10 IoT Enterprise, version 20H2 or later who are interested in the latest features and are ready to install this release on their device. If you would like to install the new release, open your Windows Update settings (**Settings > Update & Security > Windows Update**) and select **Check for updates**. Eligible devices may also be offered the option to choose to upgrade to Windows 11. If the update appears, you can simply select Download and install to get started. Once the download is complete and the feature update is ready to install, we’ll notify you so that you can pick a convenient time to finish the installation and reboot your device, ensuring that the update does not disrupt your activities. To learn more about the status of the 2022 Update rollout, known issues and new information, visit [Windows release health](/windows/release-health/).
 
 ## What's new
 

@@ -43,11 +43,9 @@ Windows 10 IoT Enterprise LTSC 2021 release includes the cumulative enhancements
 
 - [Windows 10 IoT Enterprise, version 22H2](Windows-10-IoT-Enterprise-22H2.md)
 - [Windows 10 IoT Enterprise, version 21H1](Windows-10-IoT-Enterprise-21H2.md)
-- [Windows 10 IoT Enterprise, version 20H2](Windows-10-IoT-Enterprise-20H2.md)
+- Windows 10 IoT Enterprise, version 20H2
 - Windows 10 IoT Enterprise, version 2004
 - Windows 10 IoT Enterprise, version 1909
 - Windows 10 IoT Enterprise, version 1903
 
 ## Related Topics
-
-
