@@ -2,7 +2,7 @@
 title: Browser Support
 author: TerryWarwick
 ms.author: twarwick
-ms.date: 03/09/2023
+ms.date: 03/30/2023
 ms.topic: article
 ms.prod: windows-iot
 ms.technology: iot
@@ -11,6 +11,7 @@ keywords: Lockdown, Kiosks, Kiosk Mode, Browser
 ---
 
 # Browser Support
+
 Today, you can use two browsers, Internet Explorer 11 and [Microsoft Edge](/deployedge/microsoft-edge-configure-kiosk-mode) to create an assigned access single-app or multi-app kiosk experience.
 
 ## Microsoft Edge Kiosk Mode
@@ -24,8 +25,8 @@ Today, you can use two browsers, Internet Explorer 11 and [Microsoft Edge](/depl
 
 Both experiences are running a Microsoft Edge InPrivate session, which protects user data.
 
-
 ## Internet Explorer 11
+
 [Internet Explorer 11](/internet-explorer/internet-explorer) will be considered a legacy browser, in subsequent releases.
 
 In anticipation of that, you can use [Internet Explorer (IE) mode](/deployedge/edge-ie-mode) on Microsoft Edge. IE mode allows you to run legacy web apps as well as modern web apps in a single browser.
@@ -33,9 +34,10 @@ In anticipation of that, you can use [Internet Explorer (IE) mode](/deployedge/e
 > [!NOTE]
 > For in-support Windows 10 IoT Enterprise [Semi-Annual Channel (SAC) releases](/lifecycle/products/windows-10-iot-enterprise), Internet Explorer 11 will reach end of support on June 15, 2022.
 >
-> Internet Explorer 11 follows the Long-Term-Servicing-Channel (LTSC) Lifecyle for [LTSC SKUs](/windows/iot/product-family/product-lifecycle?tabs=2021).
+> Internet Explorer 11 follows the Long-Term-Servicing-Channel (LTSC) Lifecycle for [LTSC SKUs](/windows/iot/product-family/product-lifecycle?tabs=2021).
 
 ## Supported Versions
+
 | Browser | ![Internet Explorer 11](./media/IE11.png) | ![Microsoft Edge Legacy](./media/Microsoft-Edge-Legacy.png) | ![New Microsoft Edge](./media/Microsoft-Edge-New.png) |
 |--|--|--|--|
 | [OS Release](/windows/iot/product-family/product-lifecycle) | [IE11 App](/internet-explorer/internet-explorer) | [Edge Browser - Legacy](/deployedge/microsoft-edge-kiosk-mode-transition-plan) | [New Edge Browser](/deployedge/microsoft-edge-configure-kiosk-mode) |
@@ -45,5 +47,6 @@ In anticipation of that, you can use [Internet Explorer (IE) mode](/deployedge/e
 | Windows 11 IoT Enterprise | - | - | Microsoft Edge included in-box and follows [Modern Lifecycle Policy](/lifecycle/policies/modern) |
 
 ## Additional Resources
+
 * [Configure Microsoft Edge kiosk mode](/deployedge/microsoft-edge-configure-kiosk-mode)
 * [Plan your kiosk mode transition](/deployedge/microsoft-edge-kiosk-mode-transition-plan)
