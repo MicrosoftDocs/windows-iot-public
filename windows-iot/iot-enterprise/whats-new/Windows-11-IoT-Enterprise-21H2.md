@@ -3,7 +3,7 @@ title: What's new in Windows 11 IoT Enterprise, version 21H2?
 description: Learn about what's new in Windows 11 IoT Enterprise, version 21H2.
 author: TerryWarwick
 ms.author: twarwick
-ms.date: 03/30/2023
+ms.date: 03/31/2023
 ms.topic: article
 ms.prod: windows-iot
 ms.technology: iot
@@ -120,4 +120,4 @@ The security and privacy features in Windows 11 are similar to Windows 10. Secur
 - [Windows release health](https://aka.ms/windowsreleasehealth)
 - [Windows 11 release information](/windows/release-health/windows11-release-information)
 - [Deprecated features](/windows/whats-new/deprecated-features)
-- [Removed features](/windows/wiats-new/removed-features)
+- [Removed features](/windows/whats-new/removed-features)

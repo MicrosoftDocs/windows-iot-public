@@ -45,4 +45,4 @@ Windows 10 IoT Enterprise Version 1903 and beyond, you will be able to confirm y
 
 ## How do people typically manage their IoT Solutions?
 
-Listed below are the four most-commonly used management methods for IoT solutions. Review our [Device Management Documentation](/windows/iot/iot-enterprise/Device-Management/Device-Management-Overview.md) for more information.
+Listed below are the four most-commonly used management methods for IoT solutions. Review our [Device Management Documentation](/windows/iot/iot-enterprise/device-management/device-management-overview) for more information.
