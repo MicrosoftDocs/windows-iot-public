@@ -2,7 +2,7 @@
 title: On-screen Keyboard
 author: TerryWarwick
 ms.author: twarwick
-ms.date: 03/30/2023
+ms.date: 03/31/2023
 ms.topic: article
 ms.prod: windows-iot
 ms.technology: iot
@@ -64,8 +64,7 @@ With the On-Screen Keyboard open, select the **Options** key, and choose the opt
 
 ## Feature packages
 
-For prototyping (development) images, the on-screen keyboard feature is already included, but you will need to
-enable it from Device Settings in the [Windows Device Portal](/windows/iot-core/manage-your-device/deviceportal).
+For prototyping (development) images, the on-screen keyboard feature is already included, but you will need to enable it from Device Settings in the [Windows Device Portal](/windows/iot-core/manage-your-device/deviceportal).
 
 For commercialization, the following optional feature packages will add the on-screen keyboard to your image:
 
@@ -78,8 +77,8 @@ With this release, the supported language layouts have expanded to include the f
 
 [Windows.Globalization.Language.TrySetInputMethodLanguageTag](/uwp/api/windows.globalization.language.trysetinputmethodlanguagetag)
 
-An example of this API can be seen in the [IoTCoreDefaultApp sample application](https://github.com/Microsoft/Windows-iotcore-samples/tree/develop/Samples/IoTCoreDefaultApp),
-in the [LanguageManager.cs](https://github.com/microsoft/Windows-iotcore-samples/blob/develop/Samples/IoTCoreDefaultApp/CS/SmartDisplay/Presenters/LanguageManager.cs) file.
+An example of this API can be seen in the [IoT Enterprise Default App sample](https://github.com/microsoft/Windows-IoT-Samples/tree/master/samples/IoTEnterpriseDefault),
+in the [LanguageManager.cs](https://github.com/microsoft/Windows-IoT-Samples/tree/master/samples/IoTEnterpriseDefault/CS/SmartDisplay/Presenters/LanguageManager.cs) file.
 
 ## Support for input scopes
 
@@ -168,8 +167,7 @@ HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon\IoTShel
 > audio input device. If a matching speech packages is not installed, the dictation button will not be shown.
 >
 > All images include the en-US speech language. Other speech packages are installed as optional features.
-> For more information about IoT Features, see [IoT Core Feature List](/windows-hardware/manufacture/iot/iot-core-feature-list)
-> and [IoT Core manufacturing guide](/windows-hardware/manufacture/iot/iot-core-manufacturing-guide).
+> For more information about IoT Features, see [IoT Enterprise manufacturing guide](/windows/iot/iot-enterprise/commercialization/manufacturing-guide).
 
 As an example, to enable only `wide` keyboard mode, in PowerShell you could do the following:
 

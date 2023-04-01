@@ -20,9 +20,9 @@ Windows for IoT is a member of the Windows family that brings enterprise-class p
 
 Windows for IoT comes in **three** editions.
 
-[**Windows IoT Enterprise**](../iot-enterprise/Getting_Started.md) </br> A full version of Windows Enterprise with specialized features to create dedicated devices locked down to a specific set of applications and peripherals.
+[**Windows IoT Enterprise**](/windows/iot/iot-enterprise/getting_started) </br> A full version of Windows Enterprise with specialized features to create dedicated devices locked down to a specific set of applications and peripherals.
 
-[**Windows Server IoT 2022**](../server/windows-server.md) </br> A full version of Windows Server 2022 that delivers enterprise manageability and security to IoT solutions.  
+[**Windows Server IoT 2022**](/windows/iot/server/windows-server) </br> A full version of Windows Server 2022 that delivers enterprise manageability and security to IoT solutions.  
 
 [**Windows 10 IoT Core**](/windows/iot-core/windows-iot-core) </br> The smallest member of the Windows 10 operating system family. While only running a single app, it still has the manageability and security expected from Windows 10.  
 
