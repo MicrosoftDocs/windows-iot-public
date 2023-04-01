@@ -2,7 +2,7 @@
 title: Shell Launcher
 author: TerryWarwick
 ms.author: twarwick
-ms.date: 03/30/2023
+ms.date: 03/31/2023
 ms.topic: article
 ms.prod: windows-iot
 ms.technology: iot
@@ -32,7 +32,7 @@ In addition to allowing you to use a UWP app for your replacement shell, Shell L
 * You can use a custom Windows desktop application that can then launch UWP apps, such as Settings and Touch Keyboard.
 * From a custom UWP shell, you can launch secondary views and run on multiple monitors.
 * The custom shell app runs in full screen, and can run other apps in full screen on user’s demand.
-For sample XML configurations for the different app combinations, see [Samples for Shell Launcher v2](https://github.com/Microsoft/Windows-iotcore-samples/tree/develop/Samples/ShellLauncherV2).
+For sample XML configurations for the different app combinations, see [Samples for Shell Launcher v2](https://github.com/microsoft/Windows-IoT-Samples/tree/master/samples/ShellLauncher/ShellLauncherV2).
 
 ## Turn on Shell Launcher
 

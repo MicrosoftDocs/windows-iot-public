@@ -2,7 +2,7 @@
 title: Bus Providers
 author: TerryWarwick
 ms.author: twarwick
-ms.date: 03/30/2023
+ms.date: 03/31/2023
 ms.topic: article
 ms.prod: windows-iot
 ms.technology: iot
@@ -45,7 +45,7 @@ In addition to the providers that give you access to real hardware, we have buil
 
 ## Additional Resources
 
-Additional bus tools, sample codes, and building and testing on I2C, SPI, GPIO, MinComm/UART can be found [here](https://github.com/Microsoft/Windows-iotcore-samples/tree/develop/BusTools).
+Additional bus tools, sample codes, and building and testing on I2C, SPI, GPIO, MinComm/UART can be found [here](https://github.com/microsoft/Windows-IoT-Samples/tree/master/BusTools).
 
 Please reference [Windows Runtime (WinRT) APIs](/uwp/api/?view=winrt-19041&preserve-view=true) and here's how to leverage the APIs from [Win32 applications](https://blogs.windows.com/windowsdeveloper/2017/01/25/calling-windows-10-apis-desktop-application/).
 
