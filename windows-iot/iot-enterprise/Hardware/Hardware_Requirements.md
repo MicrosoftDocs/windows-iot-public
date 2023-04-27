@@ -2,7 +2,7 @@
 title: Hardware Requirements
 author: TerryWarwick
 ms.author: twarwick
-ms.date: 03/30/2023
+ms.date: 04/26/2023
 ms.topic: article
 ms.prod: windows-iot
 ms.technology: iot
@@ -46,8 +46,8 @@ For more information, visit [Windows Processor Requirements](/windows-hardware/d
 
 | Windows Edition | AMD | Intel | Qualcomm | NXP |
 | --------------- | --- | ----- | -------- | --- |
-| Windows 10 IoT Enterprise LTSB 1607 | [Supported AMD Processors](/windows-hardware/design/minimum/supported/windows-10-1607-supported-amd-processors) | [Supported Intel Processors](/windows-hardware/design/minimum/supported/windows-10-1607-supported-intel-processors) | N/A | N/A |
-| Windows 10 IoT Enterprise LTSC 1809 | [Supported AMD Processors](/windows-hardware/design/minimum/supported/windows-10-1809-supported-amd-processors) | [Supported Intel Processors](/windows-hardware/design/minimum/supported/windows-10-LTSC-1809-supported-intel-processors) | N/A] | N/A |
+| Windows 10 IoT Enterprise LTSB 1607 | [Supported AMD Processors](/windows-hardware/design/minimum/supported/windows-10-ltsb-1607-supported-amd-processors) | [Supported Intel Processors](/windows-hardware/design/minimum/supported/windows-10-ltsb-1607-supported-intel-processors) | N/A | N/A |
+| Windows 10 IoT Enterprise LTSC 1809 | [Supported AMD Processors](/windows-hardware/design/minimum/supported/windows-10-ltsc-1809-supported-amd-processorss) | [Supported Intel Processors](/windows-hardware/design/minimum/supported/windows-10-LTSC-1809-supported-intel-processors) | N/A] | N/A |
 | Windows 10 IoT Enterprise 20H2 | [Supported AMD Processors](/windows-hardware/design/minimum/supported/windows-10-20H2-supported-amd-processors) | [Supported Intel Processors](/windows-hardware/design/minimum/supported/windows-10-20H2-supported-intel-processors) | [Supported Qualcomm Processors](/windows-hardware/design/minimum/supported/windows-10-20H2-supported-qualcomm-processors) | N/A |
 | Windows 10 IoT Enterprise 21H1 | [Supported AMD Processors](/windows-hardware/design/minimum/supported/windows-10-21H1-supported-amd-processors) | [Supported Intel Processors](/windows-hardware/design/minimum/supported/windows-10-21H1-supported-intel-processors) | [Supported Qualcomm Processors](/windows-hardware/design/minimum/supported/windows-10-21H1-supported-qualcomm-processors) | N/A |
 | Windows 10 IoT Enterprise 21H2 | [Supported AMD Processors](/windows-hardware/design/minimum/supported/windows-10-21H2-supported-amd-processors) | [Supported Intel Processors](/windows-hardware/design/minimum/supported/windows-10-21H2-supported-intel-processors) | [Supported Qualcomm Processors](/windows-hardware/design/minimum/supported/windows-10-21H2-supported-qualcomm-processors) | [Supported NXP Processors](supported/21H2_NXP_Processors.md) |
