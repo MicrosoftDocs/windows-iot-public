@@ -39,6 +39,6 @@ Windows 10, version 22H2 is also available to users with devices running Windows
 - [Feature and quality update definitions](/windows/deployment/update/waas-quick-start#definitions)
 - [Windows servicing channels](/windows/deployment/update/waas-overview#servicing-channels)
 - [Release health - Windows 10, version 22H2](/windows/release-health/status-windows-10-22h2)
-- [Windows 10, version 22H2 update history](https://support.microsoft.com/topic/windows-10-update-history-8127c2c6-6edf-4fdf-8b9f-0f7be1ef3562)
 - [Features and functionality removed in Windows 10](/windows/whats-new/removed-features)
 - [Windows 10 features we're no longer developing](/windows/whats-new/deprecated-features)
+- [Windows 10, version 22H2 update history](https://support.microsoft.com/help/5018682)

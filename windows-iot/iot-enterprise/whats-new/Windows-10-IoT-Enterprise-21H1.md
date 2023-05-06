@@ -45,3 +45,4 @@ Windows 10, version 21H1 is also available to users with devices running Windows
 - [Introducing the next feature update to Windows 10, version 21H1](https://blogs.windows.com/windowsexperience/2021/02/17/introducing-the-next-feature-update-to-windows-10-version-21h1/)
 - [Features and functionality removed in Windows 10](/windows/whats-new/removed-features)
 - [Windows 10 features we're no longer developing](/windows/whats-new/deprecated-features)
+- [Windows 10, version 21H1 update history](https://support.microsoft.com/help/5003498)

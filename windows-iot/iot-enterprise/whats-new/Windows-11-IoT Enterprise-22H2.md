@@ -53,3 +53,4 @@ To learn more about the status of the update rollout, known issues, and new info
 - [Prepare for Windows 11](/windows/whats-new/windows-11-prepare)
 - [Windows release health](https://aka.ms/windowsreleasehealth)
 - [Windows 11 release information](/windows/release-health/windows11-release-information)
+- [Windows 11, version 22H2 update history](https://support.microsoft.com/topic/windows-11-version-22h2-update-history-ec4229c3-9c5f-4e75-9d6d-9025ab70fcce)
