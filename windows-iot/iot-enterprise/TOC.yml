@@ -3,25 +3,17 @@
 - name: What's new...
   expanded: true
   items:
+  - name: Release History
+    href: /whats-new/Release-History.md
   - name: Windows IoT Enterprise LTSC
     href: ./whats-new/Windows-IoT-Enterprise-LTSC.md
-#    expanded: false
-#    items: 
-#    - name: 2021
-#      href: ./whats-new/Windows-10-IoT-Enterprise-LTSC-2021.md
-#    - name: 2019
-#      href: ./whats-new/Windows-10-IoT-Enterprise-LTSC-2019.md
-#    - name: 2016
-#      href: ./whats-new/Windows-10-IoT-Enterprise-LTSC-2016.md
-#    - name: 2015
-#      href: ./whats-new/Windows-10-IoT-Enterprise-LTSC-2015.md
-#  - name: Windows 11 IoT Enterprise
-#    expanded: false
-#    items: 
-#    - name: Version 22H2
-#      href: ./whats-new/Windows-11-IoT-Enterprise-22H2.md
-#    - name: Version 21H2
-#      href: ./whats-new/Windows-11-IoT-Enterprise-22H2.md
+  - name: Windows 11 IoT Enterprise
+    expanded: false
+    items:
+     - name: Version 22H2
+       href: Windows-11-IoT-Enterprise-22H2.md
+     - name: Version 21H2
+       href: Windows-11-IoT-Enterprise-21H2.md
   - name: Windows 10 IoT Enterprise
     expanded: false
     items: 
@@ -31,8 +23,6 @@
        href: ./whats-new/Windows-10-IoT-Enterprise-21H2.md
      - name: Version 21H1
        href: ./whats-new/Windows-10-IoT-Enterprise-21H1.md
-#     - name: Windows 10 Enterprise, version 20H2
-#       href: whats-new-windows-10-2015.md  
 - name: Hardware Guidance
   expanded: false
   items:

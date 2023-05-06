@@ -121,3 +121,4 @@ The security and privacy features in Windows 11 are similar to Windows 10. Secur
 - [Windows 11 release information](/windows/release-health/windows11-release-information)
 - [Deprecated features](/windows/whats-new/deprecated-features)
 - [Removed features](/windows/whats-new/removed-features)
+- [Windows 11, version 22H2 update history](https://support.microsoft.com/topic/windows-11-version-21h2-update-history-a19cd327-b57f-44b9-84e0-26ced7109ba9)

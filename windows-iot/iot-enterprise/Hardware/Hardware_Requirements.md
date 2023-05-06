@@ -21,9 +21,9 @@ This specification defines the minimum hardware requirements necessary to:
 * Boot and run Windows IoT Enterprise.
 * Update and service Windows IoT Enterprise.
 
-The goal of this specification is to enable OEMs, ODMs, SoC vendors, and other component vendors to make early design decisions for devices and computers that will run Windows IoT Enterprise.
+The goal of this specification is to enable OEMs, ODMs, SoC vendors, and other component vendors to make early design decisions for devices and computers that run Windows IoT Enterprise.
 
-This specification does not provide compatibility and certification requirements for devices and computers that run Windows IoT Enterprise or implementation guidance for exceptional user experiences.
+This specification doesn't provide compatibility and certification requirements for devices and computers that run Windows IoT Enterprise or implementation guidance for exceptional user experiences.
 
 > [!NOTE]
 > Beginning with Windows 10, version 2004, all new Windows 10 systems will be required to use 64-bit builds and Microsoft will no longer release 32-bit builds for OEM distribution. This does not impact 32-bit customer systems that are manufactured with earlier versions of Windows 10; Microsoft remains committed to providing feature and security updates on these devices, including continued 32-bit media availability in non-OEM channels to support various upgrade installation scenarios.
@@ -40,7 +40,7 @@ Devices that run Windows IoT Enterprise must meet these [hardware requirements](
 
 ### Windows IoT Enterprise Processor Lists
 
-The processors listed in the tables below, represent the latest processor generations and models which are supported for the listed Windows IoT Enterprise Edition.
+The processors listed here represent the latest processor generations and models that are supported for the listed Windows IoT Enterprise Edition.
 
 For more information, visit [Windows Processor Requirements](/windows-hardware/design/minimum/windows-processor-requirements)
 
@@ -72,7 +72,7 @@ Devices that run Windows IoT Enterprise must include a storage device that meets
 
 ### Resolution, bit depth, and size
 
-Display size requirements do not apply to Windows IoT Enterprise.
+Display size requirements don't apply to Windows IoT Enterprise.
 
 ### Graphics
 
@@ -80,7 +80,7 @@ Devices that run Windows IoT Enterprise **and** require hardware accelerated gra
 
 ### Networking
 
-It is recommended that devices that run Windows IoT Enterprise include at least one network connectivity option, such as Wi-Fi or an Ethernet adapter.
+It's recommended that devices that run Windows IoT Enterprise include at least one network connectivity option, such as Wi-Fi or an Ethernet adapter.
 
 ## Trusted Platform Module (TPM)
 
@@ -92,7 +92,7 @@ It is recommended that devices that run Windows IoT Enterprise include at least 
 * [Trusted Platform Module Technology Overview](/windows/security/information-protection/tpm/trusted-platform-module-overview)
 * [TPM Recommendations](/windows/security/information-protection/tpm/tpm-recommendations)
 
-## Additional Resources
+## Other Resources
 
 * [Windows Minimum Hardware Requirements](/windows-hardware/design/minimum/minimum-hardware-requirements-overview)
 * [Windows Processor Requirements](/windows-hardware/design/minimum/windows-processor-requirements)
