@@ -4,16 +4,16 @@
   expanded: true
   items:
   - name: Release History
-    href: /whats-new/Release-History.md
+    href: ./whats-new/Release-History.md
   - name: Windows IoT Enterprise LTSC
     href: ./whats-new/Windows-IoT-Enterprise-LTSC.md
   - name: Windows 11 IoT Enterprise
     expanded: false
     items:
      - name: Version 22H2
-       href: Windows-11-IoT-Enterprise-22H2.md
+       href: ./whats-new/Windows-11-IoT-Enterprise-22H2.md
      - name: Version 21H2
-       href: Windows-11-IoT-Enterprise-21H2.md
+       href: ./whats-new/Windows-11-IoT-Enterprise-21H2.md
   - name: Windows 10 IoT Enterprise
     expanded: false
     items: 
