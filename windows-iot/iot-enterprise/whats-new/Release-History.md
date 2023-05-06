@@ -56,8 +56,8 @@ Windows 11 IoT Enterprise releases follow the [Modern Lifecycle Policy](/lifecyc
 
 | Release Versions | Build |  Start Date  | End of Servicing |
 | ---------------- | ----- | ------------ | ---------------- |
-| [Version 22H2](Windows-11-IoT%20Enterprise%2022H2.md)     |       |  2022-09-20  |    2025-10-14    |
-| [Version 21H2](Windows-11-IoT-Enterprise-21H2.md)     |       |  2021-10-04  |    2024-10-08    |
+| [Version 22H2](Windows-11-IoT%20Enterprise%2022H2.md) | 22621 |  2022-09-20  | 2025-10-14 |
+| [Version 21H2](Windows-11-IoT-Enterprise-21H2.md)     | 22000 |  2021-10-04  | 2024-10-08 |
 
 For more information, see [Windows 11 IoT Enterprise support lifecycle](/lifecycle/products/windows-11-iot-enterprise).
 
