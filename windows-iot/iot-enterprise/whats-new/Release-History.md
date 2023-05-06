@@ -6,7 +6,7 @@ author: TerryWarwick
 ms.author: twarwick
 ms.topic: article
 ms.technology: iot
-ms.date: 03/14/2023
+ms.date: 05/05/2023
 ---
 
 # Windows IoT Enterprise Release History
