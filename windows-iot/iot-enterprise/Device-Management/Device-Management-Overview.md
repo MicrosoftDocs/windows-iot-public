@@ -2,7 +2,7 @@
 title: Device Management Overview
 author: TerryWarwick
 ms.author: twarwick
-ms.date: 03/30/2023
+ms.date: 04/04/2023
 ms.topic: article
 ms.prod: windows-iot
 ms.technology: iot
@@ -41,15 +41,7 @@ Windows 10 provides an enterprise management solution to help IT pros manage com
 
 ## Update Management
 
-Device Update Center and Windows Server Update Services are update controls and mechanisms that are not full device management solutions, but are included in the list for completeness.
-
-### Device Update Center
-
-[Device Update Center (DUC)](/windows-hardware/service/iot/using-device-update-center) is available for IoT Core today. DUC is update control that is staged before device management in the control chain. DUC is a great solution if you are looking to push app updates or control OS updates for a SKU of devices collectively (vs. individual devices as addressed above by Device Management). This means that you can still use device management if you choose DUC for upstream control. This service is often used with [Azure Device Agent](https://github.com/ms-iot/azure-client-tools/blob/master/docs/device-agent/device-agent.md) by appliance device builders.
-
-We are working on bringing Device Update Center to Windows IoT Enterprise in the coming months, it is currently in Private Preview.
-
-To learn more about DUC, please review this animated YouTube video on [Microsoft Device Update Center Primer](https://www.youtube.com/watch?v=mbclu-nWKbU).
+Windows Server Update Services are update controls and mechanisms that are not full device management solutions, but are included in the list for completeness.
 
 ### Windows Server Update Services (WSUS)
 
