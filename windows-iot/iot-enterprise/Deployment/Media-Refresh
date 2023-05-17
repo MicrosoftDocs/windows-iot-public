@@ -46,7 +46,7 @@ In this topic you will setup your media refresh environment and gather all prere
 1. Mount the Windows IoT Enterprise installation ISO and display the mounted drive letter.
 
    ```Powershell
-   Mount-DiskImage -ImagePath (full path to ISO file) | Get-Volume
+   Mount-DiskImage -ImagePath <full path to ISO file> | Get-Volume
    ```
 
    Make note of the DriveLetter as we will need to use it in the next step.
@@ -60,7 +60,7 @@ In this topic you will setup your media refresh environment and gather all prere
 1. Dismount the Windows IoT Enterprise installation ISO using [Dismount-Diskimage](/powershell/module/storage/dismount-diskimage)
 
    ```powershell
-   Dismount -ImagePath (full path to ISO file)  
+   Dismount -ImagePath <full path to ISO file>  
    ```
 
 ### Gather servicing packages
