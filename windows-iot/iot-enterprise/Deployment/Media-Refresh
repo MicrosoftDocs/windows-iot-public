@@ -39,11 +39,11 @@ In this topic you will setup your media refresh environment and gather all prere
     New-Item -Path "c:\MediaRefresh\ISO" -Name "Out" -ItemTYpe "directory"
     ```
 
-1. Complete the following steps of this section based on the form of your original media.  
+1. Complete the following steps of this section based on the type of your original media.  
    **ISO file:** Complete steps 3, 4 and 5 below.  
    **Physical DVD:** Complete step 4 below.
 
-1. Mount the Windows IoT Enterprise installation ISO and display the mounted drive letter. 
+1. Mount the Windows IoT Enterprise installation ISO and display the mounted drive letter.
 
    ```Powershell
    Mount-DiskImage -ImagePath (full path to ISO file) | Get-Volume
@@ -78,6 +78,8 @@ In this topic you will setup your media refresh environment and gather all prere
     ```Powershell
     New_Item -Path "c:\MediaRefresh" -Name "drivers" -ItemType "directory"
     ```
+
+1. Copy the drivers that are required for your device into the *c:/MediaRefresh/drivers* folder as either separate directories or .   
 
 ### Gather configuration scripts
 
