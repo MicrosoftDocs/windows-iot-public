@@ -37,13 +37,6 @@
     href: Hardware/ArmFAQ.md
   - name: Start prototyping
     href: Hardware/Prototype.md
-- name: Deployment
-  expanded: false
-  items:
-  - name: Overview
-    href: /Deployment/overview.md
-  - name: Media Refresh
-    href: /Deployment/Media-Refresh.md  
 - name: Kiosk mode
   expanded: false
   items:
