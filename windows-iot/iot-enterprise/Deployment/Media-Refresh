@@ -1,0 +1,90 @@
+---
+title: Prepare Windows IoT Enterprise Installation Servicing Environment
+author: TerryWarwick
+ms.author: twarwick
+ms.date: 05/16/2023
+ms.topic: article
+ms.prod: windows-iot
+ms.technology: iot
+description: Prepare Windows IoT Enterprise Installation Servicing Environment
+keywords: IoT Enterprise, Installation
+---
+
+# Prepare Installation Servicing Environment
+
+In this topic you will setup your media refresh environment and gather all prerequisites that will be used to update both the WinPE environment as well as the main operating system, install drivers
+
+## Prepare Media Servicing Environment
+
+1. Start PowerShell with Administrator privileges.
+   We will use this instance of PowerShell for the end to end process of servicing the installation media to apply updates and, if needed, incorporate required drivers that are not part of the Windows installation media  
+    1. Click **Start**
+    1. Type PowerShell
+    1. Right-click **Windows PowerShell**
+    1. Click **Run as administrator**
+
+1. Create **MediaRefresh** folder, which will be used to store all of the files needed for servicing the installation media, using the PowerShell command New-Item.
+
+    ```Powershell
+    New_Item -Path "c:\" -Name "MediaRefresh" -ItemType "directory"
+    ```
+
+### Copy files from original media
+
+1. Create an **ISO** folder under **MediaRefresh** along with both an **In** and **Out** child folders.  The **In** folder to store a copy of the files from the original installation media. As you proceed through this topic, the updated installation files will be written to the **Out** folder which will then be copied to your bootable flash media.  
+
+    ```Powershell
+    New-Item -Path "c:\MediaRefresh" -Name "ISO" -ItemType "directory"
+    New-Item -Path "c:\MediaRefresh\ISO" -Name "In" -ItemType "directory"
+    New-Item -Path "c:\MediaRefresh\ISO" -Name "Out" -ItemTYpe "directory"
+    ```
+
+1. Complete the following steps of this section based on the type of your original media.  
+   **ISO file:** Complete steps 3, 4 and 5 below.  
+   **Physical DVD:** Complete step 4 below.
+
+1. Mount the Windows IoT Enterprise installation ISO and display the mounted drive letter.
+
+   ```Powershell
+   Mount-DiskImage -ImagePath <full path to ISO file> | Get-Volume
+   ```
+
+   Make note of the DriveLetter as we will need to use it in the next step.
+
+1. Copy files from the original installation media to the *c:\MediaRefresh\ISO\In* folder using Robocopy.
+
+   ```powershell
+   robocopy <DriveLetter>:\ c:\MediaRefresh\ISO\In /e
+   ```
+
+1. Dismount the Windows IoT Enterprise installation ISO using [Dismount-Diskimage](/powershell/module/storage/dismount-diskimage)
+
+   ```powershell
+   Dismount -ImagePath <full path to ISO file>  
+   ```
+
+### Gather servicing packages
+
+1. Create a **packages** folder under **MediaRefresh** which will be used to store Windows update packages that will apply the current servicing packages
+
+    ```Powershell
+    New_Item -Path "c:\MediaRefresh" -Name "packages" -ItemType "directory"
+    ```
+
+### Gather 3rd party drivers
+
+1. Create a **drivers** folder for 3rd party drivers to be added to the OS image.
+
+    ```Powershell
+    New_Item -Path "c:\MediaRefresh" -Name "drivers" -ItemType "directory"
+    ```
+
+1. Copy the drivers that are required for your device into the *c:/MediaRefresh/drivers* folder as either separate directories or .   
+
+### Gather configuration scripts
+
+1. Create a **scripts** folder to store scripts that will be executed during setup to complete installation and configuration of components that need additional configuration.
+
+    ```Powershell
+    New_Item -Path "c:\MediaRefresh" -Name "drivers" -ItemType "directory"
+    ```
