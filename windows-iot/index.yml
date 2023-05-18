@@ -20,7 +20,7 @@ highlightedContent:
   items:
     - title: What's new in Windows IoT Enterprise LTSC
       itemType: overview  # controls the icon image and super-title text
-      url: /windows/iot/iot-enterprise/whats-new/Windows-10-IoT-Enterprise-LTSC
+      url: /windows/iot/iot-enterprise/whats-new/Windows-IoT-Enterprise-LTSC
     - title: What's new in Windows 10 IoT Enterprise, version 22H2 
       itemType: overview
       url: /windows/iot/iot-enterprise/whats-new/Windows-10-IoT-Enterprise-22H2
