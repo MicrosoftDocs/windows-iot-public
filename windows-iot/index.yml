@@ -12,21 +12,21 @@ metadata:
   ms.technology: iot
   author: TerryWarwick
   ms.author: TWarwick
-  ms.date: 3/10/2023
+  ms.date: 5/17/2023
 
 # itemType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | tutorial | whats-new
 
 highlightedContent:
   items:
-    - title: What is Windows for IoT?
-      itemType: overview # controls the icon image and super-title text
-      url: ./product-family/windows-iot.md
+    - title: What's new in Windows IoT Enterprise LTSC
+      itemType: overview  # controls the icon image and super-title text
+      url: /windows/iot/iot-enterprise/whats-new/Windows-IoT-Enterprise-LTSC
     - title: What's new in Windows 10 IoT Enterprise, version 22H2 
-      itemType: reference
+      itemType: overview
       url: /windows/iot/iot-enterprise/whats-new/Windows-10-IoT-Enterprise-22H2
-    - title: What's new in Windows 11 IoT Enterprise 
-      itemType: reference
-      url: /windows/iot/product-family/what's-new-in-windows-11-iot-enterprise
+    - title: What's new in Windows 11 IoT Enterprise, version 22H2 
+      itemType: overview
+      url: /windows/iot/iot-enterprise/whats-new/Windows-11-IoT-Enterprise-22H2
     - title: Windows for IoT News
       itemType: whats-new
       url: ./product-family/News-Blogs.md
