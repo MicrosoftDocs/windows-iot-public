@@ -1,16 +1,16 @@
 ---
-title: Prepare Windows IoT Enterprise Installation Servicing Environment
+title: Refresh IoT Enterprise Installation Media
 author: TerryWarwick
 ms.author: twarwick
 ms.date: 05/19/2023
 ms.topic: article
 ms.prod: windows-iot
 ms.technology: iot
-description: Prepare Windows IoT Enterprise Installation Servicing Environment
+description: Refresh Windows IoT Enterprise Instalation media
 keywords: IoT Enterprise, Installation
 ---
 
-# Refresh Windows IoT Enterprise Installation Media
+# Refresh IoT Enterprise Installation Media
 
 In this article, you set up your media refresh environment and gather all prerequisites that are required to update both the WinPE environment and the main operating system, install drivers
 
