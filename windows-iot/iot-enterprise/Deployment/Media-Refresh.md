@@ -2,7 +2,7 @@
 title: Prepare Windows IoT Enterprise Installation Servicing Environment
 author: TerryWarwick
 ms.author: twarwick
-ms.date: 05/16/2023
+ms.date: 05/19/2023
 ms.topic: article
 ms.prod: windows-iot
 ms.technology: iot
