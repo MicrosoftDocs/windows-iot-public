@@ -11,7 +11,7 @@ ms.date: 05/05/2023
 
 # Windows IoT Enterprise Release History
 
-The Windows IoT Enterprise product line is intended for special-purpose devices typically found in industries including, but not limited to, banking, healthcare, hospitality, manufacturing, and retail.   Windows IoT Enterprise is a derivative of Windows Enterprise and as such includes advanced security, management and lockdown capabilities required to support special-purpose devices in an enterprise environment.  
+The Windows IoT Enterprise product line is intended for special-purpose devices. These devices are typically found in industries including, but not limited to, banking, healthcare, hospitality, manufacturing, and retail.   Windows IoT Enterprise is a derivative of Windows Enterprise and as such includes advanced security, management and lockdown capabilities required to support special-purpose devices in an enterprise environment.  
 
 There are currently three products offerings in the Windows IoT Enterprise product line each of which contain multiple releases. For more information, see...
 
