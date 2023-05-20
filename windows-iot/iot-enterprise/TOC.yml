@@ -41,9 +41,9 @@
   expanded: false
   items:
   - name: Overview
-    href: /Deployment/overview.md
+    href: ./Deployment/overview.md
   - name: Media Refresh
-    href: /Deployment/Media-Refresh.md  
+    href: ./Deployment/Media-Refresh.md  
 - name: Kiosk mode
   expanded: false
   items:
