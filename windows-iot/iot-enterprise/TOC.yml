@@ -41,9 +41,9 @@
   expanded: false
   items:
   - name: Overview
-    href: Deployment/overview.md
+    href: /windows/iot/iot-enterprise/deployment/overview.md
   - name: Media Refresh
-    href: Deployment/media-refresh.md  
+    href: /windows/iot/iot-enterprise/deployment/media-refresh.md  
 - name: Kiosk mode
   expanded: false
   items:
