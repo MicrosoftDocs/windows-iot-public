@@ -43,7 +43,7 @@
   - name: Overview
     href: Deployment/overview.md
   - name: Create flash media
-    href:create_bootable_drive.md
+    href: Deployment/create_bootable_drive.md
   - name: Media Refresh
     href: Deployment/media-refresh.md
   - name: Use WingGet to install apps

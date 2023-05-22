@@ -12,7 +12,7 @@ keywords: IoT Enterprise, Overview, Optimization
 
 # Deployment Overview
 
-1. [Create Bootable Installation Media using a Flash Drive](create_bootable_drive.md))
+1. [Create Bootable Installation Media using a Flash Drive](create_bootable_drive.md)
 1. Prepare installation servicing environment
 1. Update Windows Preinstallation (WinPE) environment
 1. Update Windows IoT Enterprise installation
