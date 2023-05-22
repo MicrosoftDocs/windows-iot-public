@@ -6,7 +6,7 @@ ms.date: 05/19/2023
 ms.topic: article
 ms.prod: windows-iot
 ms.technology: iot
-description: Refresh Windows IoT Enterprise Instalation media
+description: Refresh Windows IoT Enterprise Installation media
 keywords: IoT Enterprise, Installation
 ---
 
@@ -51,7 +51,7 @@ In this article, you set up your media refresh environment and gather all prereq
 
    Make note of the DriveLetter as we'll need to use it in the next step.
 
-1. Copy files from the original installation media to both ```c:\MediaRefresh\ISO\In``` and ```c:\MediaRefresh\ISO\Out``` folders using Robocopy. You'll update The files in the ```Out``` folder.  The ```In``` folder is used as a backup in case you need to overwrite the files in the ```Out``` folder to start over without remounting the ISO.
+1. Copy files from the original installation media to both ```c:\MediaRefresh\ISO\In``` and ```c:\MediaRefresh\ISO\Out``` folders using Robocopy. Updated files are stored in the ```Out``` folder.  Backup files are store in the ```In``` folder in case you need to overwrite the files in the ```Out``` folder to start over without remounting the ISO.
 
    ```powershell
    robocopy <DriveLetter>:\ c:\MediaRefresh\ISO\Out /e
@@ -66,13 +66,13 @@ In this article, you set up your media refresh environment and gather all prereq
 
 ### Gather servicing packages
 
-1. Create a **packages** folder under **MediaRefresh** which will be used to store Windows update packages that will apply the current servicing packages
+1. Create a **packages** folder under **MediaRefresh** for storing Windows update servicing packages.
 
     ```Powershell
     New_Item -Path "c:\MediaRefresh" -Name "packages" -ItemType "directory"
     ```
 
-1. Download any cumulative updates and their dependencies that you wish to incorporate into your updated installation media and place the Microsoft Servicing Update (MSU) files into this folder. The table below will help you locate updates for your specific version.
+1. Download any cumulative updates and their dependencies that you wish to incorporate into your updated installation media and place the Microsoft Servicing Update (MSU) files into this folder. Use the following table to help you locate updates for your specific version of Windows IoT Enterprise.
 
    | Release | Version |  Update History | Windows Update Catalog |
    | --- | --- | --- | --- |
@@ -93,7 +93,7 @@ In this article, you set up your media refresh environment and gather all prereq
 
 ### Gather configuration scripts
 
-1. Create a **scripts** folder to store scripts that will be executed during setup to complete installation and configuration of components that need additional configuration.
+1. Create a **scripts** folder to store scripts to be executed during setup to complete installation and configuration of components.
 
     ```Powershell
     New_Item -Path "c:\MediaRefresh" -Name "drivers" -ItemType "directory"
@@ -103,7 +103,7 @@ In this article, you set up your media refresh environment and gather all prereq
 
 ## Update Windows Preinstallation Environment (WinPE)
 
-The Windows Preinstallation Environment (WinPE) is contained within ```boot.wim``` on the original installation media under the ```\sources``` folder.  In this section, we'll walk through the process of updating the ```boot.wim``` with the latest cumulative servicing update and incorporate third party drivers if needed into the WinPE environment using the [Media Servicing Environment](#prepare-media-servicing-environment) set up earlier.
+The Windows Preinstallation Environment (WinPE) is contained within ```boot.wim``` on the original installation media under the ```\sources``` folder.  In this section, we walk through the process of updating the ```boot.wim``` with the latest cumulative servicing update and incorporate third party drivers if needed into the WinPE environment using the [Media Servicing Environment](#prepare-media-servicing-environment) set up by [Prepare Media Servicing Environment](#prepare-media-servicing-environment).
 
 ### Prerequisites for Updating WinPE
 
@@ -122,19 +122,28 @@ New-Item -Path "c:\mediarefresh\" -Name "Mounted" -ItemType "directory"
 Mount-WindowsImage -ImagePath "c:\mediarefresh\iso\out\sources\boot.wim" -Index 2 -Path "c:\mediarefresh\Mounted"
 ```
 
+### Apply third party drivers to Windows Preinstall Environment (WinPE)
+
 ```powershell
 Add-WindowsDriver -Path "c:\mediarefresh\Mounted" -Driver "c:\mediarefresh\drivers" -Recurse -ForceUnsigned
 ```
+
+### Apply servicing updates to Windows Preinstall Environment (WinPE)
 
 ```powershell
 Add-WindowsPackage -Path "c:\mediarefresh\mounted" -PackagePath "c:\mediarefresh\packages" 
 ```
 
-REM note if error 0x800f0823 occurs on the previous command, try running it a second time
+> [!NOTE]
+> If you encounter error 0x800f0823, your servicing update may have a dependency that must be applied in order.  Try running the above command a second time.  If this does not resolve the issue you may need to download an additional prerequisite for your update.
+
+### Copy updated ```Setup.exe``` to ```<out>\sources\setup.exe```
 
 ```powershell
 Copy-Item "c:\mediarefresh\mounted\sources\setup.exe" -Destination "c:\mediarefresh\iso\out\sources\setup.exe"
 ```
+
+### Dismount and save changes to Windows Preinstall Environment (WinPE)
 
 ```powershell
 Dismount-WindowsImage -path "c:\mediarefresh\mounted" -save
@@ -143,9 +152,9 @@ Remove-item c:\mediarefresh\mounted
 
 ## Update Windows IoT Enterprise
 
-The Windows IoT Enterprise image is contained within ```install.wim``` on the original installation media under the ```\sources``` folder.  In this section we'll walk through the process of updating the ```install.wim``` with the latest cumulative servicing update and incorporate third party drivers if needed by the target device using the [Media Servicing Environment](#prepare-media-servicing-environment) set up earlier.
+The Windows IoT Enterprise image is contained within ```install.wim``` on the original installation media under the ```\sources``` folder.  In this section, we walk through the process of updating the ```install.wim``` with the latest cumulative servicing update and incorporate third party drivers if needed by the target device using the [Media Servicing Environment](#prepare-media-servicing-environment) set up by [Prepare Media Servicing Environment](#prepare-media-servicing-environment).
 
-### Prerequisites for updating Windows IoT Enterprise
+### Prerequisites for updating Windows IoT Enterprise image
 
 | Directory | Contents |
 | --- | --- |
