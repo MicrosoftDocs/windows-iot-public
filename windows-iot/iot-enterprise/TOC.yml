@@ -37,6 +37,17 @@
     href: Hardware/ArmFAQ.md
   - name: Start prototyping
     href: Hardware/Prototype.md
+- name: Deployment
+  expanded: false
+  items:
+  - name: Overview
+    href: Deployment/overview.md
+  - name: Create flash media
+    href: Deployment/create_bootable_drive.md
+  - name: Media Refresh
+    href: Deployment/media-refresh.md
+  - name: Use WingGet to install apps
+    href: Deployment/instal-winget-windows-iot.md
 - name: Kiosk mode
   expanded: false
   items:

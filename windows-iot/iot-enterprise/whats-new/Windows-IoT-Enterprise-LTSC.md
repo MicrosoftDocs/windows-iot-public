@@ -27,12 +27,12 @@ Windows IoT Enterprise LTSC is available for Windows IoT Enterprise device maker
 
 Windows IoT Enterprise LTSC releases follow the [Fixed Lifecycle Policy](/lifecycle/policies/fixed).
 
-| Release                             | Version | Availability | End of Servicing |
-| ----------------------------------- | ----- | ------------ | ---------------- |
-| Windows 10 IoT Enterprise LTSC 2021 | 19044 | 2021-11-16   | 2032-01-13       |
-| Windows 10 IoT Enterprise LTSC 2019 | 17763 | 2018-11-13   | 2029-01-09       |
-| Windows 10 IoT Enterprise LTSC 2016 | 14393 | 2016-08-02   | 2026-10-13       |
-| Windows 10 IoT Enterprise LTSC 2015 | 10240 | 2015-07-29   | 2025-10-14       |
+| Release                             | Version | Availability | End of Servicing | Update History | Update Catalog |
+| ----------------------------------- | ------- | ------------ | ---------------- | -------------- | -------------- |
+| Windows&nbsp;10&nbsp;IoT&nbsp;Enterprise&nbsp;LTSC&nbsp;2021 | 19044   | 2021/11/16   | 2032/01/13       |                | Updates&nbsp;for&nbsp;x64 Updates&nbsp;for&nbsp;Arm64     |
+| Windows&nbsp;10&nbsp;IoT&nbsp;Enterprise&nbsp;LTSC&nbsp;2019 | 17763   | 2018/11/13   | 2029/01/09       |                | Updates&nbsp;for&nbsp;x64 Updates&nbsp;for&nbsp;Arm64     |
+| Windows&nbsp;10&nbsp;IoT&nbsp;Enterprise&nbsp;LTSC&nbsp;2016 | 14393   | 2016/08/02   | 2026/10/13       |                | Updates&nbsp;for&nbsp;x64  Updates&nbsp;for&nbsp;Arm64   |
+| Windows&nbsp;10&nbsp;IoT&nbsp;Enterprise&nbsp;LTSC&nbsp;2015 | 10240   | 2015/07/29   | 2025/10/14  |                | Updates&nbsp;for&nbsp;x64  Updates&nbsp;for&nbsp;Arm64       |
 
 For more information, see [Windows IoT Enterprise LTSC support lifecycle](/lifecycle/products/?terms=Windows%20IoT%20Enterprise%20LTS).
 
