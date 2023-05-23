@@ -4,21 +4,21 @@ description: How to create a bootable Flash Drive to Install Windows IoT Enterpr
 author: trumanbrown-msft 
 ms.author: trumanbrown
 ms.topic: how-to 
-ms.date: 05/18/2023
+ms.date: 05/23/2023
 ms.prod: windows-iot 
 ms.custom: template-how-to 
 ---
 
 # Create Bootable Installation Media using a Flash Drive
 
-In this tutorial, you learn how to create bootable installation media (USB Drive, SD card) that installs Windows IoT Enterprise (10 or 11) onto a destination PC. You learn how to format the drive, how to copy the Windows IoT Enterprise ISO/DVD files to the media drive, and how to split up the Windows image file if it's too large.
+In this tutorial, you learn how to create bootable installation media (USB Drive, SD card) that installs Windows IoT Enterprise (10 or 11) onto a destination PC. You learn how to format the drive and how to copy the Windows IoT Enterprise ISO/DVD files to the media drive. You'll also learn how to split up the Windows image file if it's too large.
 
 ## What You Need
 
 - **Windows installation media**. This media could be an installation .ISO or DVD
   - Refer to the following guide on how to download a Windows IoT Enterprise image:
         - [Windows IoT Enterprise Downloads | Microsoft Learn](https://learn.microsoft.com/windows/iot/iot-enterprise/downloads)
-- **Media drive with at least 5GB free space**. This drive will be formatted, so make sure it doesn't have any important files on it.
+- **Media drive with at least 5GB free space**. This drive is formatted, so make sure it doesn't have any important files on it.
 - **Technician PC** - Windows PC that is used to format the media flash drive
 - **Destination PC** - A PC that you'll install Windows on
 
@@ -86,10 +86,10 @@ In this section, you learn how to format the media drive using diskpart.
 
     :::image type="content" source="media/active-cmd.png" alt-text="active result":::
 
-10. Format the drive into NTFS format
+10. Format the drive into FAT32 format
 
     ```cmd
-    format fs=ntfs quick
+    format fs=fat32 quick
     ```
 
     :::image type="content" source="media/format-cmd.png" alt-text="format result":::
@@ -131,7 +131,7 @@ In this section, you learn how to format the media drive using diskpart.
 
 ## Split Windows Image into Smaller Files (If necessary)
 
-1. Copy everything except the Windows image file (sources\install.wim) to the drive (either drag and drop, or use this command with the command prompt.
+1. Copy everything except the Windows image file (sources\install.wim) to the drive (either drag and drop, or use this command with the command prompt.)
     1. Open the command prompt by searching **Command Prompt** in Windows search bar, and run the following command, changing the drive letters (e:, d:, etc.) as needed
 
     ```cmd
