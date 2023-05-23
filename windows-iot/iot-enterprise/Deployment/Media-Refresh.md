@@ -57,10 +57,10 @@ In this article, you set up your media refresh environment and gather all prereq
 
       Make note of the DriveLetter as we'll need to use it in the next step.
 
-   1. Copy files from the original installation media denoted here by ```<DriveLetter>``` to  ```c:\MediaRefresh\ISO\Out``` folder using [Robocopy](https://social.technet.microsoft.com/wiki/contents/articles/52831.robocopy-complete-reference.aspx).
+   1. Copy files from the original installation media denoted here by ```<DriveLetter>``` to  ```c:\MediaRefresh\Out``` folder using [Robocopy](https://social.technet.microsoft.com/wiki/contents/articles/52831.robocopy-complete-reference.aspx).
 
       ```powershell
-      robocopy <DriveLetter>:\ c:\MediaRefresh\ISO\Out /e
+      robocopy <DriveLetter>:\ c:\MediaRefresh\Out /e
       ```
 
       Where:
@@ -149,7 +149,7 @@ The Windows Preinstallation Environment (WinPE) is contained within ```boot.wim`
    Before continuing copy the updated ```setup.exe``` from WinPE at ```c:\mediarefresh\mounted\sources``` to ```c:\media\refresh\out\sources``` using the PowerShell command [Copy-Item](/powershell/module/microsoft.powershell.management/copy-item?view=powershell-7.3#description)  
 
    ```powershell
-   Copy-Item "c:\mediarefresh\mounted\sources\setup.exe" -Destination "c:\mediarefresh\iso\out\sources\setup.exe"
+   Copy-Item "c:\mediarefresh\mounted\sources\setup.exe" -Destination "c:\mediarefresh\out\sources\setup.exe"
 
    ```
 
@@ -172,7 +172,7 @@ The Windows Preinstallation Environment (WinPE) is contained within ```boot.wim`
 
    ```
 
-The Windows Preinstall Environment (WinPE) stored as ```boot.wim``` and ```setup.exe``` both located under ```c:\mediarefesh\out\sources\ ``` are fully updated.
+The Windows Preinstall Environment (WinPE) stored as ```boot.wim``` and ```setup.exe``` both located under ```c:\mediarefresh\out\sources\``` are fully updated.
 
 ## Update Windows IoT Enterprise
 
@@ -194,9 +194,9 @@ The Windows IoT Enterprise image is contained within ```install.wim``` on the or
       ```
 
    1. The contents of the Windows IoT Enterprise image store in install.wim at index 2 is now viewable at ```c:\mediarefresh\mounted```.
- 
+
 1. **Install third-party drivers**  
-   Install third-party drivers you collected in the ```c:\mediarefresh\drivers``` folder to the OS image at ```c:\mediarefresh\mounted``` using the PowerShell command [Add-WindowsDriver](/powershell/module/dism/add-windowsdriver?view=windowsserver2022-ps#description). The ```-recurse``` parameter will enable processing of sub-folders.
+   Install third-party drivers you collected in the ```c:\mediarefresh\drivers``` folder to the OS image at ```c:\mediarefresh\mounted``` using the PowerShell command [Add-WindowsDriver](/powershell/module/dism/add-windowsdriver?view=windowsserver2022-ps#description). The ```-recurse``` parameter enables processing of subfolders.
 
    ```powershell
    Add-WindowsDriver -Path "c:\mediarefresh\mounted" -Driver "c:\mediarefresh\drivers" -Recurse 
@@ -258,25 +258,26 @@ The Windows IoT Enterprise image is contained within ```install.wim``` on the or
    ```
 
 1. **Split WIM to support FAT32 file system**  
-   To ensure the new install.wim will fit onto flash media formatted as FAT32 which has a maximum file size of 4GB you use the Powershell command [Split-WindowsImage](windows-hardware/manufacture/desktop/split-a-windows-image--wim--file-to-span-across-multiple-dvds) to create multiple SWM files with a maximum size of 4000 MB inside ```c:\mediarefresh\out\sources\```
+   To ensure the new install.wim fits onto flash media formatted as FAT32, which has a maximum file size of 4 GB you split the Windows Image (install.wim) file into a set of smaller (.swm) files with a maximum size of 4000 MB using the PowerShell command [Split-WindowsImage](windows-hardware/manufacture/desktop/split-a-windows-image--wim--file-to-span-across-multiple-dvds).
 
    ```powershell
    Split-WindowsImage -ImagePath "c:\mediarefresh\out\sources\install.wim" -SplitImagePath "c:\mediarefresh\out\sources\install.swm" -FileSize 4000 -CheckIntegrity
 
    ```
 
-1. **Remove Install.wim**
-   Now that you have multiple install#.swm files stored inside of ```c:\mediarefresh\mounted\sources``` you remove ```install.wim``` using the PowerShell command [Remove-Item](/powershell/module/microsoft.powershell.management/rename-item?view=powershell-7)
+1. **Remove Install.wim**  
+   Now that you have a set of smaller (.swm) files stored inside of ```c:\mediarefresh\mounted\sources``` remove ```install.wim``` using the PowerShell command [Remove-Item](/powershell/module/microsoft.powershell.management/rename-item?view=powershell-7)
 
    ```powershell
    Remove-item c:\mediarefresh\out\sources\install.wim
 
    ```
 
-The OS installation image stored as ```install.wim``` located under ```c:\mediarefesh\out\sources\``` is now fully updated.
+The OS installation image stored as ```install.wim``` located under ```c:\mediarefresh\out\sources\``` is now fully updated.
 
 ## Copy updated media to flash drive
-If you have not created a bootable flash drive, please do so before continuing by following the steps to [Create Bootable Installation Media using a Flash Drive](create_bootable_drive.md)
+
+If you haven't created a bootable flash drive, do so before continuing by following the steps to [Create Bootable Installation Media using a Flash Drive](create_bootable_drive.md)
 
 The final step of creating your updated installation media is to copy the contents of ```c:\mediarefresh\out``` to your bootable flash drive using  [Robocopy](https://social.technet.microsoft.com/wiki/contents/articles/52831.robocopy-complete-reference.aspx).
 
