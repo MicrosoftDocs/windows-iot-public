@@ -29,10 +29,6 @@ Windows IoT Enterprise LTSC releases follow the [Fixed Lifecycle Policy](/lifecy
 
 ### Windows IoT Enterprise LTSC releases
 
-Include start ----------------------------
-
-Include stop -----------------------------
-
 (All dates are listed in ISO 8601 format: YYYY&#8209;MM&#8209;DD)
 
 | Release                             | Version | Availability | End of Servicing | Update History | Windows Update Catalog |
@@ -52,10 +48,6 @@ Windows IoT Enterprise is also available through the General Availability Channe
 
 Windows 11 IoT Enterprise releases follow the [Modern Lifecycle Policy](/lifecycle/policies/modern) where each release is supported for 36-months and each Feature Update resets the support lifecycle.
 
-Include start ----------------------------
-
-Include stop -----------------------------
-
 (All dates are listed in ISO 8601 format: YYYY/MM/DD)
 
 | Product                        |  Start Date  | Retirement Date |
@@ -72,10 +64,6 @@ For more information, see [Windows 11 IoT Enterprise support lifecycle](/lifecyc
 ### Windows 10 IoT Enterprise
 
 Windows 10 IoT Enterprise releases follow the [Modern Lifecycle Policy](/lifecycle/policies/modern) where each release is supported for 30-months and each Feature Update resets the support lifecycle.
-
-Include start ----------------------------
-
-Include stop -----------------------------
 
 (All dates are listed in ISO 8601 format: YYYY-MM-DD)
 
