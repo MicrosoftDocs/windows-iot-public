@@ -47,7 +47,7 @@
   - name: Media Refresh
     href: Deployment/media-refresh.md
   - name: Use WingGet to install apps
-    href: Deployment/instal-winget-windows-iot.md
+    href: Deployment/install-winget-windows-iot.md
 - name: Kiosk mode
   expanded: false
   items:
