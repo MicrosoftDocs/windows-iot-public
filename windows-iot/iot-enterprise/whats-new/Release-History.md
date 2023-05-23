@@ -6,7 +6,7 @@ author: TerryWarwick
 ms.author: twarwick
 ms.topic: article
 ms.technology: iot
-ms.date: 05/05/2023
+ms.date: 05/22/2023
 ---
 
 # Windows IoT Enterprise Release History
@@ -52,12 +52,12 @@ Windows 11 IoT Enterprise releases follow the [Modern Lifecycle Policy](/lifecyc
 
 | Product                        |  Start Date  | Retirement Date |
 | ------------------------------ | ------------ | --------------- |
-| Windows 11 IoT Enterprise      |  2021-10-04  |   In Support    |
+| Windows&nbsp;11&nbsp;IoT&nbsp;Enterprise      |  2021-&#8209;10&#8209;04  |   In Support    |
 
 | Release Versions | Build |  Start Date  | End of Servicing |
 | ---------------- | ----- | ------------ | ---------------- |
-| [Version 22H2](Windows-11-IoT-Enterprise-22H2.md) | 22621 |  2022-09-20  | 2025-10-14 |
-| [Version 21H2](Windows-11-IoT-Enterprise-21H2.md)     | 22000 |  2021-10-04  | 2024-10-08 |
+| [Windows&nbsp;11&nbsp;IoT&nbsp;Enterprise,&nbsp;Version&nbsp;22H2](Windows-11-IoT-Enterprise-22H2.md) | 22621 |  2022&#8209;09&#8209;20  | 2025&#8209;10&#8209;14 |
+| [Windows&nbsp;11&nbsp;IoT&nbsp;Enterprise,&nbsp;Version&nbsp;21H2](Windows-11-IoT-Enterprise-21H2.md)     | 22000 |  2021&#8209;10&#8209;04  | 2024&#8209;10&#8209;08 |
 
 For more information, see [Windows 11 IoT Enterprise support lifecycle](/lifecycle/products/windows-11-iot-enterprise).
 
@@ -69,24 +69,24 @@ Windows 10 IoT Enterprise releases follow the [Modern Lifecycle Policy](/lifecyc
 
 | Product                        |  Start Date  | Retirement Date |
 | ------------------------------ | ------------ | --------------- |
-| Windows 10 IoT Enterprise      |  2015-07-29  |   2025-10-14    |
+| Windows&nbsp;10&nbsp;IoT&nbsp;Enterprise      |  2015&#8209;07&#8209;29  |   2025&#8209;10&#8209;14    |
 
 | Release Versions | Build |  Start Date  | End of Servicing |
 | --- | --- | --- | --- |
-| [Version 22H2](Windows-10-IoT-Enterprise-22H2.md) | 19045 | 2022&#8209;10&#8209;18  | 2025&#8209;05&#8209;13 | | Show&nbsp;x64&nbsp;updates Show&nbsp;Arm64&nbsp;updates
-| [Version 21H2](Windows-10-IoT-Enterprise-21H2.md) | 19044 | 2021&#8209;11&#8209;16  | 2024&#8209;06&#8209;11 |
-| [Version 21H1](Windows-10-IoT-Enterprise-21H1.md) | 19043 | 2021&#8209;05&#8209;18  | 2022&#8209;12&#8209;13 |
-| Version 20H2     | 19042 |  2020&#8209;10&#8209;20  |    2023&#8209;05&#8209;09    |
-| Version 2004     | 19041 |  2020&#8209;05&#8209;27  |    2021&#8209;12&#8209;14    |
-| Version 1909     | 18363 |  2019&#8209;11&#8209;12  |    2022&#8209;05&#8209;10    |
-| Version 1903     | 18362 |  2019&#8209;08&#8209;29  |    2020&#8209;12&#8209;08    |
-| Version 1809     | 17763 |  2018&#8209;11&#8209;13  |    2021&#8209;05&#8209;11    |
-| Version 1803     | 17134 |  2018&#8209;04&#8209;30  |    2021&#8209;05&#8209;11    |
-| Version 1709     | 16229 |  2017&#8209;10&#8209;17  |    2020&#8209;10&#8209;13    |
-| Version 1703     | 15063 |  2017&#8209;04&#8209;11  |    2019&#8209;10&#8209;08    |
-| Version 1607     | 14393 |  2016&#8209;08&#8209;02  |    2019&#8209;04&#8209;09    |
-| Version 1511     | 10586 |  2015&#8209;11&#8209;10  |    2017&#8209;10&#8209;10    |
-| Version 1507     | 10240 |  2015&#8209;07&#8209;29  |    2017&#8209;05&#8209;09    |
+| [Windows&nbsp;10&nbsp;IoT&nbsp;Enterprise,&nbsp;Version&nbsp;22H2](Windows-10-IoT-Enterprise-22H2.md) | 19045 | 2022&#8209;10&#8209;18  | 2025&#8209;05&#8209;13 |
+| [Windows&nbsp;10&nbsp;IoT&nbsp;Enterprise,&nbsp;Version&nbsp;21H2](Windows-10-IoT-Enterprise-21H2.md) | 19044 | 2021&#8209;11&#8209;16  | 2024&#8209;06&#8209;11 |
+| [Windows&nbsp;10&nbsp;IoT&nbsp;Enterprise,&nbsp;Version&nbsp;21H1](Windows-10-IoT-Enterprise-21H1.md) | 19043 | 2021&#8209;05&#8209;18  | 2022&#8209;12&#8209;13 |
+| Windows&nbsp;10&nbsp;IoT&nbsp;Enterprise,&nbsp;Version&nbsp;20H2     | 19042 |  2020&#8209;10&#8209;20  |    2023&#8209;05&#8209;09    |
+| Windows&nbsp;10&nbsp;IoT&nbsp;Enterprise,&nbsp;Version&nbsp;2004     | 19041 |  2020&#8209;05&#8209;27  |    2021&#8209;12&#8209;14    |
+| Windows&nbsp;10&nbsp;IoT&nbsp;Enterprise,&nbsp;Version&nbsp;1909     | 18363 |  2019&#8209;11&#8209;12  |    2022&#8209;05&#8209;10    |
+| Windows&nbsp;10&nbsp;IoT&nbsp;Enterprise,&nbsp;Version&nbsp;1903     | 18362 |  2019&#8209;08&#8209;29  |    2020&#8209;12&#8209;08    |
+| Windows&nbsp;10&nbsp;IoT&nbsp;Enterprise,&nbsp;Version&nbsp;1809     | 17763 |  2018&#8209;11&#8209;13  |    2021&#8209;05&#8209;11    |
+| Windows&nbsp;10&nbsp;IoT&nbsp;Enterprise,&nbsp;Version&nbsp;1803     | 17134 |  2018&#8209;04&#8209;30  |    2021&#8209;05&#8209;11    |
+| Windows&nbsp;10&nbsp;IoT&nbsp;Enterprise,&nbsp;Version&nbsp;1709     | 16229 |  2017&#8209;10&#8209;17  |    2020&#8209;10&#8209;13    |
+| Windows&nbsp;10&nbsp;IoT&nbsp;Enterprise,&nbsp;Version&nbsp;1703     | 15063 |  2017&#8209;04&#8209;11  |    2019&#8209;10&#8209;08    |
+| Windows&nbsp;10&nbsp;IoT&nbsp;Enterprise,&nbsp;Version&nbsp;1607     | 14393 |  2016&#8209;08&#8209;02  |    2019&#8209;04&#8209;09    |
+| Windows&nbsp;10&nbsp;IoT&nbsp;Enterprise,&nbsp;Version&nbsp;1511     | 10586 |  2015&#8209;11&#8209;10  |    2017&#8209;10&#8209;10    |
+| Windows&nbsp;10&nbsp;IoT&nbsp;Enterprise,&nbsp;Version&nbsp;1507     | 10240 |  2015&#8209;07&#8209;29  |    2017&#8209;05&#8209;09    |
 
 For more information, see [Windows 10 IoT Enterprise support lifecycle](/lifecycle/products/windows-10-iot-enterprise).
 
