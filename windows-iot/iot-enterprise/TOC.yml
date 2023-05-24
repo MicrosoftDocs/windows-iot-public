@@ -46,9 +46,9 @@
     href: Deployment/overview.md
   - name: Create flash media
     href: Deployment/create_bootable_drive.md
-  - name: Media Refresh
+  - name: Update installation media
     href: Deployment/media-refresh.md
-  - name: Use WinGet to install apps
+  - name: Install Apps with WinGet
     href: Deployment/install-winget-windows-iot.md
 - name: Kiosk mode
   expanded: false

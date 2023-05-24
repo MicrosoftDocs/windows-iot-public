@@ -1,5 +1,5 @@
 ---
-title: Setting up an NXP i.MX8 EVK device
+title: Setting up an NXP i.MX EVK device
 description: Setting up an NXP i.MX8 EVK device 
 author: terrywarwick
 ms.author: twarwick
@@ -9,7 +9,7 @@ ms.technology: iot
 ms.date: 05/23/2023
 ---
 
-# Tutorial: Setup an i.MX EVK using Windows 10 IoT Enterprise LTSC 2021
+# Tutorial: Setup an NXP i.MX EVK
 
 In this tutorial, you learn how to:
 
@@ -217,7 +217,7 @@ The media servicing environment is now set up.  Lets do a quick review.
 
 ## Next Steps
 
-1. Use the media servicing environment created for the i.MX EVK boards to complete the refresh of the Windows IoT Enterprise Installation Media.
+1. Use the media servicing environment created for the i.MX EVK boards to complete the refresh of the Windows 10 IoT Enterprise LTSC 2021 installation media.
 
    1. [Update Windows Preinstallation Environment (WinPE)](/windows/iot/iot-enterprise/deployment/media-refresh#update-windows-preinstallation-environment-winpe)
    1. [Update Windows 10 IoT Enterprise LTSC 2021 Image](/windows/iot/iot-enterprise/deployment/media-refresh#update-windows-iot-enterprise)
