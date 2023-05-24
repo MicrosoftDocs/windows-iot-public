@@ -38,7 +38,7 @@
   expanded: false
   items:
   - name: Setup an i.MX EVK
-    href: Tutorials\NXP-iMX8.md
+    href: Tutorials\Win10-NXP-iMX.md
 - name: Deployment
   expanded: false
   items:
