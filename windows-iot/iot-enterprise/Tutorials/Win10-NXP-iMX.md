@@ -68,9 +68,7 @@ In this section, you gather all of the components required to add the board supp
 
       ```
 
-      Where:
-
-      - ```<ISO Path>``` is a fully qualified path to your ISO
+      Where ```<ISO Path>``` is a fully qualified path to your ISO
 
       Make note of the DriveLetter as we'll need to use it in the next step.
 
@@ -80,9 +78,7 @@ In this section, you gather all of the components required to add the board supp
       robocopy <DriveLetter>:\ c:\MediaRefresh\ISO\Out /e
       ```
 
-      Where:
-
-      - ```<DriveLetter>``` is the drive letter associated with the mounted ISO file.
+      Where ```<DriveLetter>``` represents the drive letter associated with the mounted ISO file  
 
    1. Proceed to next step if you didn't mount an ISO for the previous command, otherwise you must first dismount the Windows IoT Enterprise installation ISO using [Dismount-Diskimage](/powershell/module/storage/dismount-diskimage)
 
@@ -90,36 +86,31 @@ In this section, you gather all of the components required to add the board supp
       Dismount -ImagePath <ISO Path>  
       ```
 
-      Where:
-
-      - ```<ISO Path>``` is a fully qualified path to your ISO file.
+      Where ```<ISO Path>``` is a fully qualified path to your ISO file.
 
 1. **Gather servicing packages**  
 
-   Download the latest cumulative Microsoft Servicing Update (MSU) file and any required dependencies and place them into the ```c:\MediaRefresh\Packages``` folder. Use the following table to help you locate updates for your specific version of Windows IoT Enterprise.
-
-   | Release | Version |  Update History | Update Catalog |
-   | --- | --- | --- | --- |
-   | Windows&nbsp;10&nbsp;IoT&nbsp;Enterprise&nbsp;LTSC&nbsp;2021 |  19044 | [Show&nbsp;update&nbsp;history](https://support.microsoft.com/topic/windows-10-update-history-857b8ccb-71e4-49e5-b3f6-7073197d98fb)  | [Show&nbsp;Arm64&nbsp;updates](https://www.catalog.update.microsoft.com/Search.aspx?q=-Dynamic%20Cumulative%20Update%20for%20Windows%2010%20Version%2021H2%20for%20Arm64) |
+   1. Locate the most recent cumulative update for Windows 10 IoT Enterprise LTSC 2021 (also known as Windows 10 version 21H2) in the [Windows Update Catalog](https://www.catalog.update.microsoft.com/Search.aspx?q=-Dynamic%20Cumulative%20Update%20for%20Windows%2010%20Version%2021H2%20for%20Arm64). The most recent cumulative update should be the first one in the list.  You can verify using the value in the Last Updated column.
+   1. Select ```Download``` and save the ```.msu``` file to ```c:\mediarefresh\packages``` folder.
+   1. While you're still viewing the Windows Update Catalog, select on the title of the cumulative update that you downloaded, then select on the ```Support Url``` on the Overview tab.  This link opens a webpage with more details about the update.
+   1. Scroll down to the *How to get this update* section to see if there are any prerequisites required.  Assume that you don't have any updates installed.  If there are prerequisites listed, download the extra ```.msu``` file(s) to the ```c:\MediaRefresh\Packages``` folder.
 
 1. **Gather NXP i.MX drivers**  
    1. Download the **BSP Prebuilt Binaries** from [NXP IMXWIN10IOT Releases](https://www.nxp.com/design/software/embedded-software/i-mx-software/windows-10-iot-enterprise-for-i-mx-applications-processors:IMXWIN10IOT#RCA) to your local Downloads folder.
    1. Using the PowerShell session from earlier, use the PowerShell command [Expand-Archive](/powershell/module/microsoft.powershell.archive/expand-archive) to extract the contents of the downloaded ZIP file.
 
-   ```powershell
-   Expand-Archive -LiteralPath <Path to ZIP file> -Destination c:\mediarefresh\NXP
-   ```
+      ```powershell
+      Expand-Archive -LiteralPath <Path to ZIP file> -Destination c:\mediarefresh\NXP
+      ```
 
-   Where:
-
-   - ```<Path to ZIP file>``` represents the fully qualified path to the BSP Prebuilt Binaries ZIP file downloaded in the previous step.
+      Where ```<Path to ZIP file>``` represents the fully qualified path to the BSP Prebuilt Binaries ZIP file downloaded in the previous step.
 
    1. Copy the drivers folder from ```c:\mediarefresh\nxp\IoTEntOnNXP\drivers``` to ```c:\mediarefresh\drivers using [Robocopy](https://social.technet.microsoft.com/wiki/contents/articles/52831.robocopy-complete-reference.aspx).
 
-   ```powershell
-   robocopy c:\mediarefresh\nxp\IoTEntOnNXP\drivers c:\mediarefresh\drivers /e
+      ```powershell
+      robocopy c:\mediarefresh\nxp\IoTEntOnNXP\drivers c:\mediarefresh\drivers /e
 
-   ```
+      ```
 
 1. **Create a ```SetupComplete.cmd``` script to install VPU**  
    Save the contents of the following script as ```SetupComplete.cmd``` in the ```c:\MediaRefresh\Scripts``` folder.

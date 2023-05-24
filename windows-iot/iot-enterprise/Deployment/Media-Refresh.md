@@ -51,9 +51,7 @@ In this article, you set up your media refresh environment and gather all prereq
 
       ```
 
-      Where:
-
-      - ```<ISO Path>``` is a fully qualified path to your ISO
+      Where ```<ISO Path>``` is a fully qualified path to your ISO
 
       Make note of the DriveLetter as we'll need to use it in the next step.
 
@@ -63,9 +61,7 @@ In this article, you set up your media refresh environment and gather all prereq
       robocopy <DriveLetter>:\ c:\MediaRefresh\Out /e
       ```
 
-      Where:
-
-      - ```<DriveLetter>``` is the drive letter associated with the mounted ISO file.
+      Where ```<DriveLetter>``` is the drive letter associated with the mounted ISO file.
 
    1. Proceed to next step if you didn't mount an ISO for the previous command, otherwise you must first dismount the Windows IoT Enterprise installation ISO using [Dismount-Diskimage](/powershell/module/storage/dismount-diskimage)
 
@@ -73,9 +69,7 @@ In this article, you set up your media refresh environment and gather all prereq
       Dismount -ImagePath <ISO Path>  
       ```
 
-      Where:
-
-      - ```<ISO Path>``` is a fully qualified path to your ISO file.
+      Where ```<ISO Path>``` is a fully qualified path to your ISO file.
 
 1. **Gather servicing packages**  
 
@@ -285,9 +279,7 @@ The final step of creating your updated installation media is to copy the conten
 robocopy c:\mediarefresh\out <DriveLetter>:\ /e
 ```
 
-Where:
-
-- ```<DriveLetter>``` is the drive letter associated with your flash drive.
+Where ```<DriveLetter>``` is the drive letter associated with your flash drive.
 
 ## Other Resources
 
