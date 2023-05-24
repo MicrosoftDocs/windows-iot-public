@@ -29,7 +29,7 @@ In this tutorial, you learn how to:
   - i.MX 8QuadXPlus EVK
   - i.MX 93 EVK
 
-## Prepare Media Servicing Environment for NXP i.MX8 EVK
+## Prepare Media Servicing Environment
 
 In this section, you gather all of the components required to add the board support package for the i.MX EVK boards and apply the latest cumulative update to the Windows 10 IoT Enterprise LTSC installation media.  Once complete, you can use our standard process for updating the installation media to install Windows 10 IoT Enterprise LTSC 2021 on your NXP i.MX EVK.
 
@@ -206,7 +206,7 @@ In this section, you gather all of the components required to add the board supp
 
    ```
 
-## Recap
+## Review
 
 The media servicing environment is now set up.  Lets do a quick review.
 
