@@ -41,7 +41,7 @@
   expanded: false
   items:
   - name: Setup an i.MX EVK
-  - name: Tutorials\NXP-iMX8.md
+  - href: Tutorials\NXP-iMX8.md
 - name: Deployment
   expanded: false
   items:
