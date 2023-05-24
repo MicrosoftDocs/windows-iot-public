@@ -37,6 +37,11 @@
     href: Hardware/ArmFAQ.md
   - name: Start prototyping
     href: Hardware/Prototype.md
+- name: Tutorials
+  expanded: false
+  items:
+  - name: Setup an i.MX EVK
+  - name: Tutorials\NXP-iMX8.md
 - name: Deployment
   expanded: false
   items:
@@ -46,7 +51,7 @@
     href: Deployment/create_bootable_drive.md
   - name: Media Refresh
     href: Deployment/media-refresh.md
-  - name: Use WingGet to install apps
+  - name: Use WinGet to install apps
     href: Deployment/install-winget-windows-iot.md
 - name: Kiosk mode
   expanded: false
