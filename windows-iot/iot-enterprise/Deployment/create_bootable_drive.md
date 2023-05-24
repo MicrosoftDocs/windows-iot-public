@@ -20,7 +20,7 @@ In this tutorial, you learn how to create bootable installation media (USB Drive
         - [Windows IoT Enterprise Downloads | Microsoft Learn](https://learn.microsoft.com/windows/iot/iot-enterprise/downloads)
 - **Media drive with at least 5GB free space**. This drive is formatted, so make sure it doesn't have any important files on it.
 - **Technician PC** - Windows PC that is used to format the media flash drive
-- **Destination PC** - A PC that you'll install Windows on
+- **Destination PC** - A PC that you install Windows on
 
 ## Format the Media Drive
 
@@ -142,7 +142,7 @@ In this section, you learn how to format the media drive using diskpart.
     2. This command copies all files less than 3.8 GB from the mounted ISO to the flash drive (everything except the install.wim)
 2. Open a Command Prompt with Administrator privileges
     1. Search Command Prompt in Windows search bar and select Run as Administrator
-3. Run the following command to split the windows image into a set of smaller .swm files and copy them to the drive. Ensure there are no file explorer sessions open within the media drive or the mounted ISO.
+3. Run the following command to split the windows image into a set of smaller.swm files and copy them to the drive. Ensure there are no file explorer sessions open within the media drive or the mounted ISO.
 
     ```cmd
     Dism /Split-Image /ImageFile:<Mounted_ISO>:\sources\install.wim /SWMFile:<Media_Drive>:\sources\install.swm /FileSize:3800
@@ -161,6 +161,6 @@ In this section, you learn how to format the media drive using diskpart.
 2. Turn on the PC and press the key that opens the boot-device selection menu for the computer, such as the Esc/F10/F12 keys. Select the option that boots the PC from the media drive.
 3. Windows Setup starts. Follow the on-screen instructions to install Windows
 
-## Additional Resources
+## Other Resources
 
-- [Create Installation Media for Windows](https://support.microsoft.com/en-us/windows/create-installation-media-for-windows-99a58364-8c02-206f-aa6f-40c3b507420d)
+- [Create Installation Media for Windows](/windows/create-installation-media-for-windows-99a58364-8c02-206f-aa6f-40c3b507420d)
