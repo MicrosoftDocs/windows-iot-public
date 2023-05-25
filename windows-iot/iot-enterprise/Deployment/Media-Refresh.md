@@ -61,7 +61,7 @@ In this article, you set up your media refresh environment and gather all prereq
    1. Copy files from the original installation media denoted here by ```<DriveLetter>``` to  ```c:\MediaRefresh\Out``` folder using [Robocopy](https://social.technet.microsoft.com/wiki/contents/articles/52831.robocopy-complete-reference.aspx).
 
       ```powershell
-      robocopy <DriveLetter>:\ c:\MediaRefresh\Out /e
+      robocopy <DriveLetter>:\ c:\MediaRefresh\Out /Copy:DT /e
       ```
 
       Where ```<DriveLetter>``` is the drive letter associated with the mounted ISO file.
@@ -279,7 +279,7 @@ If you haven't created a bootable flash drive, do so before continuing by follow
 The final step of creating your updated installation media is to copy the contents of ```c:\mediarefresh\out``` to your bootable flash drive using  [Robocopy](https://social.technet.microsoft.com/wiki/contents/articles/52831.robocopy-complete-reference.aspx).
 
 ```powershell
-robocopy c:\mediarefresh\out <DriveLetter>:\ /e
+robocopy c:\mediarefresh\out <DriveLetter>:\ /Copy:DT /e
 ```
 
 Where ```<DriveLetter>``` is the drive letter associated with your flash drive.

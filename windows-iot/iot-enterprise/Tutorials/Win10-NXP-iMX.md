@@ -78,7 +78,7 @@ In this section, you gather all of the components required to add the board supp
    1. Copy files from the original installation media denoted here by ```<DriveLetter>``` to  ```c:\MediaRefresh\ISO\Out``` folder using [Robocopy](https://social.technet.microsoft.com/wiki/contents/articles/52831.robocopy-complete-reference.aspx).
 
       ```powershell
-      robocopy <DriveLetter>:\ c:\MediaRefresh\Out /e
+      robocopy <DriveLetter>:\ c:\MediaRefresh\Out /Copy:DT /e
       ```
 
       Where ```<DriveLetter>``` represents the drive letter associated with the mounted ISO file  
@@ -111,7 +111,7 @@ In this section, you gather all of the components required to add the board supp
    1. Copy the drivers folder from ```c:\mediarefresh\nxp\IoTEntOnNXP\drivers``` to ```c:\mediarefresh\drivers using [Robocopy](https://social.technet.microsoft.com/wiki/contents/articles/52831.robocopy-complete-reference.aspx).
 
       ```powershell
-      robocopy c:\mediarefresh\nxp\IoTEntOnNXP\drivers c:\mediarefresh\drivers /e
+      robocopy c:\mediarefresh\nxp\IoTEntOnNXP\drivers c:\mediarefresh\drivers /Copy:DT /e
 
       ```
 
