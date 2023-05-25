@@ -56,8 +56,10 @@ In this section, you gather all of the components required to add the board supp
    New-Item -Path "c:\MediaRefresh" -Name "Drivers" -ItemType "directory"
    New-Item -Path "c:\MediaRefresh" -Name "Scripts" -ItemType "directory"
    cd c:\mediarefresh
-   
    ```
+
+  > [!TIP]
+  > Make sure you press ```ENTER``` on the last line of the script to ensure all steps are executed.
 
 1. **Copy files from original media**  
   Copy all files from the original installation media to ```c:\MediaRefresh\Out```.
