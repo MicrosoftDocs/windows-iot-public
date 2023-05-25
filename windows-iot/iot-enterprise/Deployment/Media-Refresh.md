@@ -69,7 +69,7 @@ In this article, you set up your media refresh environment and gather all prereq
    1. Proceed to next step if you didn't mount an ISO for the previous command, otherwise you must first dismount the Windows IoT Enterprise installation ISO using [Dismount-Diskimage](/powershell/module/storage/dismount-diskimage)
 
       ```powershell
-      Dismount -ImagePath <ISO Path>  
+      Dismount-DiskImage -ImagePath <ISO Path>  
       ```
 
       Where ```<ISO Path>``` is a fully qualified path to your ISO file.

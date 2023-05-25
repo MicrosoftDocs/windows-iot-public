@@ -78,7 +78,7 @@ In this section, you gather all of the components required to add the board supp
    1. Copy files from the original installation media denoted here by ```<DriveLetter>``` to  ```c:\MediaRefresh\ISO\Out``` folder using [Robocopy](https://social.technet.microsoft.com/wiki/contents/articles/52831.robocopy-complete-reference.aspx).
 
       ```powershell
-      robocopy <DriveLetter>:\ c:\MediaRefresh\ISO\Out /e
+      robocopy <DriveLetter>:\ c:\MediaRefresh\Out /e
       ```
 
       Where ```<DriveLetter>``` represents the drive letter associated with the mounted ISO file  
@@ -86,7 +86,7 @@ In this section, you gather all of the components required to add the board supp
    1. Proceed to next step if you didn't mount an ISO for the previous command, otherwise you must first dismount the Windows IoT Enterprise installation ISO using [Dismount-Diskimage](/powershell/module/storage/dismount-diskimage)
 
       ```powershell
-      Dismount -ImagePath <ISO Path>  
+      Dismount-DiskImage -ImagePath <ISO Path>  
       ```
 
       Where ```<ISO Path>``` is a fully qualified path to your ISO file.
