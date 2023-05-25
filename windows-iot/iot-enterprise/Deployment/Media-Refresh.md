@@ -108,6 +108,7 @@ The Windows Preinstallation Environment (WinPE) is contained within ```boot.wim`
    1. Now we can mount the WinPE image stored in boot.wim at index 2 using the PowerShell command [Mount-WindowsImage](/powershell/module/dism/mount-windowsimage?view=windowsserver2022-ps##description)
 
       ```powershell
+      Set-ItemProperty -Path "c:\mediarefresh\out\sources\boot.wim" -Name IsReadOnly -Value $false
       Mount-WindowsImage -ImagePath "c:\mediarefresh\out\sources\boot.wim" -Index 2 -Path "c:\mediarefresh\Mounted"
 
       ```
@@ -186,6 +187,7 @@ The Windows IoT Enterprise image is contained within ```install.wim``` on the or
    1. Now we can mount the Windows IoT Enterprise image stored in install.wim at index 2 using the PowerShell command [Mount-WindowsImage](/powershell/module/dism/mount-windowsimage?view=windowsserver2022-ps##description)
 
       ```powershell
+            Set-ItemProperty -Path "c:\mediarefresh\out\sources\install.wim" -Name IsReadOnly -Value $false
       Mount-WindowsImage -ImagePath "c:\mediarefresh\out\sources\install.wim" -Index 2 -Path "c:\mediarefresh\Mounted"
 
       ```
