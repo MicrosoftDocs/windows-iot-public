@@ -38,7 +38,8 @@ In this article, you set up your media refresh environment and gather all prereq
    New-Item -Path "c:\MediaRefresh" -Name "Packages" -ItemType "directory"
    New-Item -Path "c:\MediaRefresh" -Name "Drivers" -ItemType "directory"
    New-Item -Path "c:\MediaRefresh" -Name "Scripts" -ItemType "directory"
-
+   cd c:\mediarefresh
+   
    ```
 
 1. **Copy files from original media**  
@@ -252,7 +253,7 @@ The Windows IoT Enterprise image is contained within ```install.wim``` on the or
    ```
 
 1. **Split WIM to support FAT32 file system**  
-   To ensure the new install.wim fits onto flash media formatted as FAT32, which has a maximum file size of 4 GB you split the Windows Image (install.wim) file into a set of smaller (.swm) files with a maximum size of 4000 MB using the PowerShell command [Split-WindowsImage](windows-hardware/manufacture/desktop/split-a-windows-image--wim--file-to-span-across-multiple-dvds).
+   To ensure the new install.wim fits onto flash media formatted as FAT32, which has a maximum file size of 4 GB you split the Windows Image (install.wim) file into a set of smaller (.swm) files with a maximum size of 4000 MB using the PowerShell command [Split-WindowsImage](/windows-hardware/manufacture/desktop/split-a-windows-image--wim--file-to-span-across-multiple-dvds).
 
    ```powershell
    Split-WindowsImage -ImagePath "c:\mediarefresh\out\sources\install.wim" -SplitImagePath "c:\mediarefresh\out\sources\install.swm" -FileSize 4000 -CheckIntegrity
@@ -285,4 +286,4 @@ Where ```<DriveLetter>``` is the drive letter associated with your flash drive.
 
 - [Update Windows installation media with Dynamic Update](/windows/deployment/update/media-dynamic-update)
 - [Windows boot and installation overview](/windows-hardware/manufacture/desktop/boot-and-install-windows)
-- [Add languages to Windows setup](windows-hardware/manufacture/desktop/add-multilingual-support-to-windows-setup)
+- [Add languages to Windows setup](/windows-hardware/manufacture/desktop/add-multilingual-support-to-windows-setup)

@@ -6,7 +6,7 @@ ms.author: twarwick
 ms.prod: windows-iot
 ms.topic: tutorial 
 ms.technology: iot
-ms.date: 05/23/2023
+ms.date: 05/25/2023
 ---
 
 # Tutorial: Setup an NXP i.MX EVK
@@ -55,7 +55,8 @@ In this section, you gather all of the components required to add the board supp
    New-Item -Path "c:\MediaRefresh" -Name "Packages" -ItemType "directory"
    New-Item -Path "c:\MediaRefresh" -Name "Drivers" -ItemType "directory"
    New-Item -Path "c:\MediaRefresh" -Name "Scripts" -ItemType "directory"
-
+   cd c:\mediarefresh
+   
    ```
 
 1. **Copy files from original media**  
