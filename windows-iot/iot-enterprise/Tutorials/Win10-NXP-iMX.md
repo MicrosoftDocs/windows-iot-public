@@ -19,7 +19,7 @@ In this tutorial, you learn how to:
 
 ## Prerequisites
 
-- Windows 10 IoT Enterprise LTSC 2021 DVD or ISO
+- Windows 10 IoT Enterprise LTSC 2021 for Arm64 DVD or ISO
 - microSD card (minimum 8 GB)
 - One of the following NXP evaluation boards
   - i.MX 8M Quad EVK
