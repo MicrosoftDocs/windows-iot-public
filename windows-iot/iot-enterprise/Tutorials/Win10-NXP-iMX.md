@@ -206,6 +206,9 @@ The media servicing environment is now set up.  Lets do a quick review.
 
 1. Use the media servicing environment created for the i.MX EVK boards to complete the refresh of the Windows 10 IoT Enterprise LTSC 2021 installation media.
 
+   > [!WARNING]
+   > The current BSP Prebuilt Binaries for the NXP i.MX EVK are Test Signed. When using `Add-WindowsDriver` in the next steps you must use the `-ForceUnsigned` attribute.
+
    1. [Update Windows Preinstallation Environment (WinPE)](/windows/iot/iot-enterprise/deployment/media-refresh#update-windows-preinstallation-environment-winpe)
    1. [Update Windows 10 IoT Enterprise LTSC 2021 Image](/windows/iot/iot-enterprise/deployment/media-refresh#update-windows-iot-enterprise)
    1. [Copy updated media to microSD card](/windows/iot/iot-enterprise/deployment/media-refresh#copy-updated-media-to-flash-drive)
