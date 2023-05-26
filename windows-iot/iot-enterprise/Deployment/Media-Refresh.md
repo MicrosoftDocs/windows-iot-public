@@ -134,11 +134,19 @@ The Windows Preinstallation Environment (WinPE) is contained within `boot.wim` o
    > - Continue to next step once error has been resolved.
 
 1. **Copy updated `Setup.exe`**  
-   Before continuing copy the updated `setup.exe` from WinPE at `c:\mediarefresh\mounted\sources` to `c:\media\refresh\out\sources` using the PowerShell command [Copy-Item](/powershell/module/microsoft.powershell.management/copy-item?view=powershell-7.3#description)  
+   Before continuing copy the updated `setup.exe` from WinPE at `c:\mediarefresh\mounted\sources` to `c:\mediarefresh\out\sources` using the PowerShell command [Copy-Item](/powershell/module/microsoft.powershell.management/copy-item?view=powershell-7.3#description).  
+  
+   1. First we need to remove the ReadOnly attribute on `c:\mediarefresh\mounted\sources\setup.exe` using the PowerShell command Set-ItemProperty.
 
-   ```powershell
-   Copy-Item "c:\mediarefresh\mounted\sources\setup.exe" -Destination "c:\mediarefresh\out\sources\setup.exe"
-   ```
+      ```powershell
+      Set-ItemProperty -Path "c:\mediarefresh\out\sources\setup.exe" -Name IsReadOnly -Value $false
+      ```
+
+   1. Now we can copy `setup.exe` from `c:\mediarefresh\mounted\sources` to `c:\mediarefresh\out\sources` using the PowerShell command Copy-Item.
+
+      ```powershell
+      Copy-Item "c:\mediarefresh\mounted\sources\setup.exe" -Destination "c:\mediarefresh\out\sources\setup.exe"
+      ```
 
 1. **Dismount and save changes to WinPE**  
    To complete the servicing process use the PowerShell command [Dismount-WindowsImage](/powershell/module/dism/dismount-windowsimage?view=windowsserver2022-ps#description) to save the changes.  
@@ -170,10 +178,15 @@ The Windows IoT Enterprise image is contained within `install.wim` on the origin
       MD c:\MediaRefresh\mounted
       ```
 
-   1. Now we can mount the Windows IoT Enterprise image stored in install.wim at index 2 using the PowerShell command [Mount-WindowsImage](/powershell/module/dism/mount-windowsimage?view=windowsserver2022-ps##description)
+   1. Before we can update the install.wim, we need to make sure that its file attribute isn't set to ReadOnly.  Use the PowerShell command Set-ItemProperty to remove the ReadOnly attribute.
 
       ```powershell
       Set-ItemProperty -Path "c:\mediarefresh\out\sources\install.wim" -Name IsReadOnly -Value $false
+      ```
+
+   1. Now we can mount the Windows IoT Enterprise image stored in install.wim at index 2 using the PowerShell command [Mount-WindowsImage](/powershell/module/dism/mount-windowsimage?view=windowsserver2022-ps##description)
+
+      ```powershell
       Mount-WindowsImage -ImagePath "c:\mediarefresh\out\sources\install.wim" -Index 2 -Path "c:\mediarefresh\Mounted"
       ```
 
