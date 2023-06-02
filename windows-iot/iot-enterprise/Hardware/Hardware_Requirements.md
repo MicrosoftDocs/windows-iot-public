@@ -38,7 +38,10 @@ Devices that run Windows IoT Enterprise must meet these [hardware requirements](
 >
 > For specific hardware support, please refer to your Original Equipment Manufacturer (OEM) provider.
 
-The processors listed in the tables below, represent the latest processor generations and models that are supported for the listed Windows IoT Enterprise edition.
+
+### Windows IoT Enterprise Processor Lists
+
+The processors listed here represent the latest processor generations and models that are supported for the listed Windows IoT Enterprise Edition.
 
 For more information, visit [Windows Processor Requirements](/windows-hardware/design/minimum/windows-processor-requirements)
 
@@ -50,15 +53,12 @@ For more information, visit [Windows Processor Requirements](/windows-hardware/d
 | Windows 10 IoT Enterprise LTSC 1809 | [Supported AMD Processors](/windows-hardware/design/minimum/supported/windows-10-ltsc-1809-supported-amd-processors) | [Supported Intel Processors](/windows-hardware/design/minimum/supported/windows-10-LTSC-1809-supported-intel-processors) | N/A] | N/A |
 | Windows 10 IoT Enterprise LTSB 1607 | [Supported AMD Processors](/windows-hardware/design/minimum/supported/windows-10-ltsb-1607-supported-amd-processors) | [Supported Intel Processors](/windows-hardware/design/minimum/supported/windows-10-ltsb-1607-supported-intel-processors) | N/A | N/A |
 
-
-
 ### Windows 11 IoT Enterprise
 
 | Version | AMD | Intel | Qualcomm | NXP |
 | --------------- | --- | ----- | -------- | --- |
 | Windows 11 IoT Enterprise, version 22H2 | [Supported AMD Processors](/windows-hardware/design/minimum/supported/windows-11-22h2-supported-amd-processors) | [Supported Intel Processors](/windows-hardware/design/minimum/supported/windows-11-22h2-supported-intel-processors) | [Supported Qualcomm Processors](/windows-hardware/design/minimum/supported/windows-11-22h2-supported-qualcomm-processors) | N/A |
 | Windows 11 IoT Enterprise, version 21H2| [Supported AMD Processors](/windows-hardware/design/minimum/supported/windows-11-supported-amd-processors) | [Supported Intel Processors](/windows-hardware/design/minimum/supported/windows-11-supported-intel-processors) | [Supported Qualcomm Processors](/windows-hardware/design/minimum/supported/windows-11-supported-qualcomm-processors) | N/A |
-
 
 ### Windows 10 IoT Enterprise
 
