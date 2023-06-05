@@ -190,7 +190,7 @@ In this section, you gather all of the components required to add the board supp
    ) 
 
    REM Disable Transparency
-   REG ADD "HKLM\Software\Microsoft\windows\CurrentVersion\Themes\Personalize" /V EnableTransparency /T REG_DWORD /D 0 /F
+   REG ADD "HKU\.DEFAULT\Software\Microsoft\windows\CurrentVersion\Themes\Personalize" /V EnableTransparency /T REG_DWORD /D 0 /F
 
    ```
 
