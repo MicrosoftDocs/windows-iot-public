@@ -31,12 +31,14 @@ In this article, you set up your media refresh environment and gather all prereq
    **c:\MediaRefresh\Packages**: Windows servicing updates.  
    **c:\MediaRefresh\Drivers**: Third-party drivers.  
    **c:\MediaRefresh\Scripts**: Custom install scripts.
+   **c:\MediaRefresh\WIM**: Working directory for updating boot.wim and install.wim
 
    ```Powershell
    md c:\MediaRefresh\Drivers
    md c:\MediaRefresh\Out
    md c:\MediaRefresh\Packages
    md c:\MediaRefresh\Scripts
+   md c:\MediaRefresh\WIM
    ```
 
 1. **Copy files from original media**  
@@ -59,6 +61,12 @@ In this article, you set up your media refresh environment and gather all prereq
       ```
 
       Where `<DriveLetter>` is the drive letter associated with the mounted ISO file.
+
+   1. Move boot.wim and install.wim from `c:\MediaRefresh\Out\Sources` to `c:\MediaRefresh\WIM` folder, which will be used as the working folder for updating the WIM files, using [Robocopy](https://social.technet.microsoft.com/wiki/contents/articles/52831.robocopy-complete-reference.aspx).
+
+      ```powershell
+      robocopy <DriveLetter>:\sources\*.wim c:\MediaRefresh\WIM /Move:DT /e
+      ```
 
    1. Proceed to next step if you didn't mount an ISO for the previous command, otherwise you must first dismount the Windows IoT Enterprise installation ISO using [Dismount-Diskimage](/powershell/module/storage/dismount-diskimage)
 
@@ -98,14 +106,19 @@ The Windows Preinstallation Environment (WinPE) is contained within `boot.wim` o
       MD c:\MediaRefresh\mounted
       ```
 
-   1. Now we can mount the WinPE image stored in boot.wim at index 2 using the PowerShell command [Mount-WindowsImage](/powershell/module/dism/mount-windowsimage?view=windowsserver2022-ps##description)
+   1. Before we can update the `boot.wim`, we need to make sure that its file attribute isn't set to ReadOnly.  Use the PowerShell command Set-ItemProperty to remove the ReadOnly attribute.
 
       ```powershell
-      Set-ItemProperty -Path "c:\mediarefresh\out\sources\boot.wim" -Name IsReadOnly -Value $false
-      Mount-WindowsImage -ImagePath "c:\mediarefresh\out\sources\boot.wim" -Index 2 -Path "c:\mediarefresh\Mounted"
+      Set-ItemProperty -Path "c:\mediarefresh\wim\boot.wim" -Name IsReadOnly -Value $false
       ```
 
-   1. The contents of the WinPE image stored in the boot.wim at index 2 is now viewable at `c:\mediarefresh\mounted`.
+   1. Now we can mount the WinPE image stored in `boot.wim` at index 2 using the PowerShell command [Mount-WindowsImage](/powershell/module/dism/mount-windowsimage?view=windowsserver2022-ps##description)
+
+      ```powershell.wim" -Name IsReadOnly -Value $false
+      Mount-WindowsImage -ImagePath "c:\mediarefresh\wim\boot.wim" -Index 2 -Path "c:\mediarefresh\Mounted"
+      ```
+
+   1. The contents of the WinPE image stored in the `boot.wim` at index 2 is now viewable at `c:\mediarefresh\mounted`.
 
 1. **Apply third-party drivers WinPE**  
    Install third-party drivers you collected in the `c:\mediarefresh\drivers` folder to WinPE at `c:\mediarefresh\mounted` using the PowerShell command [Add-WindowsDriver](/powershell/module/dism/add-windowsdriver?view=windowsserver2022-ps#description).
@@ -120,9 +133,17 @@ The Windows Preinstallation Environment (WinPE) is contained within `boot.wim` o
 1. **Apply servicing updates to WinPE**  
    Apply the latest cumulative update and its dependencies that you downloaded to `c:\mediarefresh\packages` folder to WinPE at `c:\mediarefresh\mounted` using the PowerShell command [Add-WindowsPackage](/powershell/module/dism/add-windowspackage?view=windowsserver2022-ps#description).  This process may take several minutes to complete, but will save time later as your Windows image will already have the latest servicing update applied.
 
-   ```powershell
-   Add-WindowsPackage -Path "c:\mediarefresh\mounted" -PackagePath "c:\mediarefresh\packages" 
-   ```
+   1. First apply the servicing stack update dependency.
+
+      ```powershell
+      Add-WindowsPackage -Path "c:\mediarefresh\mounted" -PackagePath "c:\mediarefresh\packages\ssu*.msu"
+      ```
+
+   1. Now apply the latest cumulative update.
+
+      ```powershell
+      Add-WindowsPackage -Path "c:\mediarefresh\mounted" -PackagePath "c:\mediarefresh\packages\win*.msu"
+      ```
 
    > [!TIP]
    > If you encounter error 0x800f0823, your servicing update may have a dependency that must be applied first. If you already downloaded its dependency, try running the above command a second time.  If this does not resolve the issue you may need to download an additional prerequisite for your update.
@@ -134,7 +155,7 @@ The Windows Preinstallation Environment (WinPE) is contained within `boot.wim` o
    > - Continue to next step once error has been resolved.
 
 1. **Copy updated `Setup.exe`**  
-   Before continuing copy the updated `setup.exe` from WinPE at `c:\mediarefresh\mounted\sources` to `c:\mediarefresh\out\sources` using the PowerShell command [Copy-Item](/powershell/module/microsoft.powershell.management/copy-item?view=powershell-7.3#description).  
+   Before continuing copy the updated `setup.exe` from WinPE at `c:\mediarefresh\mounted\sources` to `c:\mediarefresh\out\sources` using [Robocopy](https://social.technet.microsoft.com/wiki/contents/articles/52831.robocopy-complete-reference.aspx).
   
    1. First we need to remove the ReadOnly attribute on `c:\mediarefresh\mounted\sources\setup.exe` using the PowerShell command Set-ItemProperty.
 
@@ -142,13 +163,14 @@ The Windows Preinstallation Environment (WinPE) is contained within `boot.wim` o
       Set-ItemProperty -Path "c:\mediarefresh\out\sources\setup.exe" -Name IsReadOnly -Value $false
       ```
 
-   1. Now we can copy `setup.exe` from `c:\mediarefresh\mounted\sources` to `c:\mediarefresh\out\sources` using the PowerShell command Copy-Item.
+   1. Now we can copy `setup.exe` from `c:\mediarefresh\mounted\sources` to `c:\mediarefresh\out\sources` using [Robocopy](https://social.technet.microsoft.com/wiki/contents/articles/52831.robocopy-complete-reference.aspx).
 
       ```powershell
-      Copy-Item "c:\mediarefresh\mounted\sources\setup.exe" -Destination "c:\mediarefresh\out\sources\setup.exe"
+      robocopy c:\mediarefresh\mounted\sources c:\mediarefresh\out\sources setup.exe
       ```
 
 1. **Dismount and save changes to WinPE**  
+
    To complete the servicing process use the PowerShell command [Dismount-WindowsImage](/powershell/module/dism/dismount-windowsimage?view=windowsserver2022-ps#description) to save the changes.  
 
    > [!IMPORTANT]
@@ -159,17 +181,42 @@ The Windows Preinstallation Environment (WinPE) is contained within `boot.wim` o
    ```
 
 1. **Delete temporary folder**  
+
    Upon successful dismounting of the boot.wim, now we can remove the temporary folder `c:\mediarefresh\mounted` using the PowerShell command [Remove-Item](/powershell/module/microsoft.powershell.management/rename-item?view=powershell-7.3#description)
 
    ```powershell
    RD c:\MediaRefresh\mounted
    ```
 
+1. **Publish `Boot.wim` to `out` folder**
+  
+   Now copy the updated `boot.wim` from `c:\mediarefresh\wim` to `c:\mediarefresh\out\sources` using [Robocopy](https://social.technet.microsoft.com/wiki/contents/articles/52831.robocopy-complete-reference.aspx).
+
+      ```powershell
+      robocopy c:\mediarefresh\wim c:\mediarefresh\out\sources boot.wim
+      ```
+
 The Windows Preinstall Environment (WinPE) stored as `boot.wim` and `setup.exe` both located under `c:\mediarefresh\out\sources\` are fully updated.
+
+### Full Script for updating `boot.wim`
+
+```powershell
+MD c:\MediaRefresh\mounted
+Set-ItemProperty -Path "c:\mediarefresh\wim\boot.wim" -Name IsReadOnly -Value $false
+Mount-WindowsImage -ImagePath "c:\mediarefresh\wim\boot.wim" -Index 2 -Path "c:\mediarefresh\Mounted"
+Add-WindowsDriver -Path "c:\mediarefresh\mounted" -Driver "c:\mediarefresh\drivers" -Recurse 
+Add-WindowsPackage -Path "c:\mediarefresh\mounted" -PackagePath "c:\mediarefresh\packages\ssu*.msu"
+Add-WindowsPackage -Path "c:\mediarefresh\mounted" -PackagePath "c:\mediarefresh\packages\win*.msu"
+Set-ItemProperty -Path "c:\mediarefresh\out\sources\setup.exe" -Name IsReadOnly -Value $false
+robocopy c:\mediarefresh\mounted\sources c:\mediarefresh\out\sources setup.exe
+Dismount-WindowsImage -path "c:\mediarefresh\mounted" -save
+RD c:\mediarefresh\mounted
+robocopy c:\mediarefresh\wim c:\mediarefresh\out\sources boot.wim
+```
 
 ## Update Windows IoT Enterprise
 
-The Windows IoT Enterprise image is contained within `install.wim` on the original installation media under the `\sources` folder.  In this section, we walk through the process of updating the `install.wim` with the latest cumulative servicing update and incorporate third party drivers if needed by the target device using the [Media Servicing Environment](#prepare-media-servicing-environment).
+The Windows IoT Enterprise image is contained within `install.wim` on the original installation media under the `\sources` folder.  In the [Prepare Media Servicing Environment](#prepare-media-servicing-environment) section, we moved `install.wim` into a working folder.  In this section, we walk through the process of updating the `install.wim` with the latest cumulative servicing update and incorporate third party drivers if needed by the target device using the [Media Servicing Environment](#prepare-media-servicing-environment). Once the update is complete we will split the `install.wim` into smaller `*.swm` files so that they can be copied to a flash drive formatted as FAT32.
 
 1. **Mount the OS install.wim**  
    1. The first step in updating the WinPE environment is to create a temporary folder named `mounted` under  `c:\mediarefresh` using the PowerShell command [New-Item](/powershell/module/microsoft.powershell.management/new-item?view=powershell-7.3#description).
@@ -181,13 +228,13 @@ The Windows IoT Enterprise image is contained within `install.wim` on the origin
    1. Before we can update the install.wim, we need to make sure that its file attribute isn't set to ReadOnly.  Use the PowerShell command Set-ItemProperty to remove the ReadOnly attribute.
 
       ```powershell
-      Set-ItemProperty -Path "c:\mediarefresh\out\sources\install.wim" -Name IsReadOnly -Value $false
+      Set-ItemProperty -Path "c:\mediarefresh\wim\install.wim" -Name IsReadOnly -Value $false
       ```
 
    1. Now we can mount the Windows IoT Enterprise image stored in install.wim at index 2 using the PowerShell command [Mount-WindowsImage](/powershell/module/dism/mount-windowsimage?view=windowsserver2022-ps##description)
 
       ```powershell
-      Mount-WindowsImage -ImagePath "c:\mediarefresh\out\sources\install.wim" -Index 2 -Path "c:\mediarefresh\Mounted"
+      Mount-WindowsImage -ImagePath "c:\mediarefresh\wim\install.wim" -Index 2 -Path "c:\mediarefresh\Mounted"
       ```
 
    1. The contents of the Windows IoT Enterprise image store in install.wim at index 2 is now viewable at `c:\mediarefresh\mounted`.
@@ -209,18 +256,26 @@ The Windows IoT Enterprise image is contained within `install.wim` on the origin
       MD c:\mediarefresh\mounted\windows\setup\scripts
       ```
 
-   1. Copy scripts from `c:\mediarefresh\scripts` to `c:\mediarefresh\mounted\windows\setup\scripts`
+   1. Copy scripts from `c:\mediarefresh\scripts` to `c:\mediarefresh\mounted\windows\setup\scripts` using [Robocopy](https://social.technet.microsoft.com/wiki/contents/articles/52831.robocopy-complete-reference.aspx).
 
       ```powershell
-      Copy-Item "c:\mediarefresh\scripts\*.cmd" -Destination "c:\mediarefresh\mounted\windows\setup\scripts"
+      robocopy c:\mediarefresh\scripts c:\mediarefresh\mounted\windows\setup\scripts *.cmd
       ```
 
 1. **Apply servicing packages to the OS image**  
    Apply the latest cumulative update and its dependencies that you downloaded to `c:\mediarefresh\packages` folder to WinPE at `c:\mediarefresh\mounted` using the PowerShell command [Add-WindowsPackage](/powershell/module/dism/add-windowspackage?view=windowsserver2022-ps#description).
 
-   ```powershell
-   Add-WindowsPackage -Path "c:\mediarefresh\mounted" -PackagePath "c:\mediarefresh\packages" 
-   ```
+   1. First apply the servicing stack update dependency.
+
+      ```powershell
+      Add-WindowsPackage -Path "c:\mediarefresh\mounted" -PackagePath "c:\mediarefresh\packages\ssu*.msu"
+      ```
+
+   1. Now apply the latest cumulative update.
+
+      ```powershell
+      Add-WindowsPackage -Path "c:\mediarefresh\mounted" -PackagePath "c:\mediarefresh\packages\win*.msu"
+      ```
 
    > [!TIP]
    > If you encounter error 0x800f0823, your servicing update may have a dependency that must be applied first. If you already downloaded its dependency, try running the above command a second time.  If this does not resolve the issue you may need to download an additional prerequisite for your update.
@@ -249,20 +304,29 @@ The Windows IoT Enterprise image is contained within `install.wim` on the origin
    ```
 
 1. **Split WIM to support FAT32 file system**  
-   To ensure the new install.wim fits onto flash media formatted as FAT32, which has a maximum file size of 4 GB you split the Windows Image (install.wim) file into a set of smaller (.swm) files with a maximum size of 4000 MB using the PowerShell command [Split-WindowsImage](/windows-hardware/manufacture/desktop/split-a-windows-image--wim--file-to-span-across-multiple-dvds).
+   To ensure the new install.wim fits onto flash media formatted as FAT32, which has a maximum file size of 4 GB you split the Windows Image (install.wim) file into a set of smaller (.swm) files with a maximum size of 4000 MB using the PowerShell command [Split-WindowsImage](/windows-hardware/manufacture/desktop/split-a-windows-image--wim--file-to-span-across-multiple-dvds). The resulting `*.swm` files will be written to the `c:\mediarefresh\out\sources` folder.
 
    ```powershell
-   Split-WindowsImage -ImagePath "c:\mediarefresh\out\sources\install.wim" -SplitImagePath "c:\mediarefresh\out\sources\install.swm" -FileSize 4000 -CheckIntegrity
+   Split-WindowsImage -ImagePath "c:\mediarefresh\wim\install.wim" -SplitImagePath "c:\mediarefresh\out\sources\install.swm" -FileSize 4000 -CheckIntegrity
    ```
 
-1. **Remove Install.wim**  
-   Now that you have a set of smaller (.swm) files stored inside of `c:\mediarefresh\mounted\sources` remove `install.wim` using the PowerShell command [Remove-Item](/powershell/module/microsoft.powershell.management/rename-item)
+The OS installation image, originally stored as `install.wim`, is now stored under `c:\mediarefresh\out\sources\` as `install.swm` and `install2.swm` which setup will automatically detect and use as if they were the original `install.wim`.
 
-   ```powershell
-   Remove-item c:\mediarefresh\out\sources\install.wim
-   ```
+### Full Script for updating `install.wim`
 
-The OS installation image stored as `install.wim` located under `c:\mediarefresh\out\sources\` is now fully updated.
+```powershell
+MD c:\MediaRefresh\mounted
+Set-ItemProperty -Path "c:\mediarefresh\wim\install.wim" -Name IsReadOnly -Value $false
+Mount-WindowsImage -ImagePath "c:\mediarefresh\wim\install.wim" -Index 2 -Path "c:\mediarefresh\Mounted"
+Add-WindowsDriver -Path "c:\mediarefresh\mounted" -Driver "c:\mediarefresh\drivers" -Recurse 
+MD c:\mediarefresh\mounted\windows\setup\scripts
+robocopy c:\mediarefresh\scripts c:\mediarefresh\mounted\windows\setup\scripts *.cmd
+Add-WindowsPackage -Path "c:\mediarefresh\mounted" -PackagePath "c:\mediarefresh\packages\ssu*.msu"
+Add-WindowsPackage -Path "c:\mediarefresh\mounted" -PackagePath "c:\mediarefresh\packages\win*.msu"
+Dismount-WindowsImage -path "c:\mediarefresh\mounted" -save
+RD c:\mediarefresh\mounted
+Split-WindowsImage -ImagePath "c:\mediarefresh\wim\install.wim" -SplitImagePath "c:\mediarefresh\out\sources\install.swm" -FileSize 4000 -CheckIntegrity
+```
 
 ## Copy updated media to flash drive
 

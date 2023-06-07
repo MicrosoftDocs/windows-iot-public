@@ -6,7 +6,7 @@ ms.author: twarwick
 ms.prod: windows-iot
 ms.topic: tutorial 
 ms.technology: iot
-ms.date: 05/25/2023
+ms.date: 06/06/2023
 ---
 
 # Tutorial: Setup an NXP i.MX EVK
@@ -48,12 +48,14 @@ In this section, you gather all of the components required to add the board supp
    **c:\MediaRefresh\Packages**: Windows servicing updates.  
    **c:\MediaRefresh\Drivers**: NXP i.MX8 EVK drivers.  
    **c:\MediaRefresh\Scripts**: Custom install scripts.
+   **c:\MediaRefresh\WIM**: Working directory for updating boot.wim and install.wim
 
    ```powershell
    md c:\MediaRefresh\Drivers
    md c:\MediaRefresh\Out
    md c:\MediaRefresh\Packages
    md c:\MediaRefresh\Scripts
+   md c:\MediaRefresh\WIM
    ```
 
 1. **Copy files from original media**</br>
@@ -76,6 +78,12 @@ In this section, you gather all of the components required to add the board supp
       ```
 
       Where `<DriveLetter>` represents the drive letter associated with the mounted ISO file  
+
+   1. Move boot.wim and install.wim from `c:\MediaRefresh\Out\Sources` to `c:\MediaRefresh\WIM` folder, which will be used as the working folder for updating the WIM files.
+
+      ```powershell
+      robocopy <DriveLetter>:\sources\*.wim c:\MediaRefresh\WIM /Move:DT /e
+      ```
 
    1. Proceed to next step if you didn't mount an ISO for the previous command, otherwise you must first dismount the Windows IoT Enterprise installation ISO using [Dismount-Diskimage](/powershell/module/storage/dismount-diskimage)
 
@@ -190,7 +198,7 @@ In this section, you gather all of the components required to add the board supp
    ) 
 
    REM Disable Transparency
-   REG ADD "HKU\.DEFAULT\Software\Microsoft\windows\CurrentVersion\Themes\Personalize" /V EnableTransparency /T REG_DWORD /D 0 /F
+   REG ADD "HKLM\Software\Microsoft\Windows\CurrentVersion\Run" /V DisableTransparency /T REG_EXPAND_SZ /D "reg add HKCU\Software\Microsoft\Windows\CurrentVersion\Themes\Personalize /V EnableTransparency /T REG_DWORD /D 0 /F"
 
    ```
 
