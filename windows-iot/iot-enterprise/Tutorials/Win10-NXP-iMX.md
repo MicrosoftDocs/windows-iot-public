@@ -45,7 +45,8 @@ In this section, you gather all of the components required to add the board supp
 
    **c:\MediaRefresh**: Parent folder for storing files during media servicing.  
    **c:\MediaRefresh\Out**: Copy of the original media updated during servicing.  
-   **c:\MediaRefresh\Packages**: Windows servicing updates.  
+   **c:\MediaRefresh\Packages\LCU**: Latest Cumulative Update
+   **c:\MediaRefresh\Packages\SSU**: Servicing Stack Update if required  
    **c:\MediaRefresh\Drivers**: NXP i.MX8 EVK drivers.  
    **c:\MediaRefresh\Scripts**: Custom install scripts.
    **c:\MediaRefresh\WIM**: Working directory for updating boot.wim and install.wim
@@ -53,7 +54,8 @@ In this section, you gather all of the components required to add the board supp
    ```powershell
    md c:\MediaRefresh\Drivers
    md c:\MediaRefresh\Out
-   md c:\MediaRefresh\Packages
+   md c:\MediaRefresh\Packages\LCU
+   md c:\MediaRefresh\Packages\SSU
    md c:\MediaRefresh\Scripts
    md c:\MediaRefresh\WIM
    ```
@@ -82,7 +84,7 @@ In this section, you gather all of the components required to add the board supp
    1. Move boot.wim and install.wim from `c:\MediaRefresh\Out\Sources` to `c:\MediaRefresh\WIM` folder, which will be used as the working folder for updating the WIM files.
 
       ```powershell
-      robocopy <DriveLetter>:\sources\*.wim c:\MediaRefresh\WIM /Move:DT /e
+      robocopy c:\mediarefresh\out\sources c:\MediaRefresh\WIM *.wim /Mov
       ```
 
    1. Proceed to next step if you didn't mount an ISO for the previous command, otherwise you must first dismount the Windows IoT Enterprise installation ISO using [Dismount-Diskimage](/powershell/module/storage/dismount-diskimage)
@@ -95,9 +97,9 @@ In this section, you gather all of the components required to add the board supp
 
 1. **Gather servicing packages**
    1. Locate the most recent cumulative update for Windows 10 IoT Enterprise LTSC 2021 (also known as Windows 10 version 21H2) in the [Windows Update Catalog](https://www.catalog.update.microsoft.com/Search.aspx?q=-Dynamic%20Cumulative%20Update%20for%20Windows%2010%20Version%2021H2%20for%20Arm64). The most recent cumulative update should be the first one in the list.  You can verify using the value in the Last Updated column.
-   1. Select `Download` and save the `.msu` file to `c:\mediarefresh\packages` folder.
+   1. Select `Download` and save the `.msu` file to `c:\mediarefresh\packages\LCU` folder.
    1. While you're still viewing the Windows Update Catalog, select on the title of the cumulative update that you downloaded, then select on the `Support Url` on the Overview tab.  This link opens a webpage with more details about the update.
-   1. Scroll down to the *How to get this update* section to see if there are any prerequisites required.  Assume that you don't have any updates installed.  If there are prerequisites listed, download the extra `.msu` file(s) to the `c:\MediaRefresh\Packages` folder.
+   1. Scroll down to the *How to get this update* section to see if there are any prerequisites required.  Assume that you don't have any updates installed.  If there are prerequisites listed, download the extra `.msu` file(s) to the `c:\MediaRefresh\Packages\SSU` folder.
 
 1. **Gather NXP i.MX drivers**
 

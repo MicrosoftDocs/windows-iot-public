@@ -28,7 +28,8 @@ In this article, you set up your media refresh environment and gather all prereq
 
    **c:\MediaRefresh**: Parent folder for storing files during media servicing.  
    **c:\MediaRefresh\Out**: Copy of the original media updated during servicing.  
-   **c:\MediaRefresh\Packages**: Windows servicing updates.  
+   **c:\MediaRefresh\Packages\LCU**: Latest Cumulative Update
+   **c:\MediaRefresh\Packages\SSU**: Servicing Stack Update if required  
    **c:\MediaRefresh\Drivers**: Third-party drivers.  
    **c:\MediaRefresh\Scripts**: Custom install scripts.
    **c:\MediaRefresh\WIM**: Working directory for updating boot.wim and install.wim
@@ -36,7 +37,8 @@ In this article, you set up your media refresh environment and gather all prereq
    ```Powershell
    md c:\MediaRefresh\Drivers
    md c:\MediaRefresh\Out
-   md c:\MediaRefresh\Packages
+   md c:\MediaRefresh\Packages\LCU
+   md c:\MediaRefresh\Packages\SSU
    md c:\MediaRefresh\Scripts
    md c:\MediaRefresh\WIM
    ```
@@ -65,7 +67,7 @@ In this article, you set up your media refresh environment and gather all prereq
    1. Move boot.wim and install.wim from `c:\MediaRefresh\Out\Sources` to `c:\MediaRefresh\WIM` folder, which will be used as the working folder for updating the WIM files, using [Robocopy](https://social.technet.microsoft.com/wiki/contents/articles/52831.robocopy-complete-reference.aspx).
 
       ```powershell
-      robocopy <DriveLetter>:\sources\*.wim c:\MediaRefresh\WIM /Move:DT /e
+      robocopy c:\mediarefresh\out\sources c:\MediaRefresh\WIM *.wim /Mov
       ```
 
    1. Proceed to next step if you didn't mount an ISO for the previous command, otherwise you must first dismount the Windows IoT Enterprise installation ISO using [Dismount-Diskimage](/powershell/module/storage/dismount-diskimage)
@@ -78,7 +80,9 @@ In this article, you set up your media refresh environment and gather all prereq
 
 1. **Gather servicing packages**  
 
-   Download the latest cumulative Microsoft Servicing Update (MSU) file and any required dependencies and place them into the `c:\MediaRefresh\Packages` folder. Use the following table to help you locate updates for your specific version of Windows IoT Enterprise.
+   Download the latest cumulative Microsoft Servicing Update (MSU) file to the `c:\MediaRefresh\Packages\LCU` folder.
+
+   If this update requires a separate Servicing Stack Update (MSU) file download it to `c:\MediaRefresh\Packages\SSU` folder. Use the following table to help you locate updates for your specific version of Windows IoT Enterprise.
 
    | Release | Version |  Update History | Update Catalog |
    | --- | --- | --- | --- |
@@ -120,7 +124,7 @@ The Windows Preinstallation Environment (WinPE) is contained within `boot.wim` o
 
    1. The contents of the WinPE image stored in the `boot.wim` at index 2 is now viewable at `c:\mediarefresh\mounted`.
 
-1. **Apply third-party drivers WinPE**  
+1. **Apply third-party drivers to WinPE**  
    Install third-party drivers you collected in the `c:\mediarefresh\drivers` folder to WinPE at `c:\mediarefresh\mounted` using the PowerShell command [Add-WindowsDriver](/powershell/module/dism/add-windowsdriver?view=windowsserver2022-ps#description).
 
    > [!NOTE]
@@ -136,13 +140,13 @@ The Windows Preinstallation Environment (WinPE) is contained within `boot.wim` o
    1. First apply the servicing stack update dependency.
 
       ```powershell
-      Add-WindowsPackage -Path "c:\mediarefresh\mounted" -PackagePath "c:\mediarefresh\packages\ssu*.msu"
+      Add-WindowsPackage -Path "c:\mediarefresh\mounted" -PackagePath "c:\mediarefresh\packages\SSU"
       ```
 
    1. Now apply the latest cumulative update.
 
       ```powershell
-      Add-WindowsPackage -Path "c:\mediarefresh\mounted" -PackagePath "c:\mediarefresh\packages\win*.msu"
+      Add-WindowsPackage -Path "c:\mediarefresh\mounted" -PackagePath "c:\mediarefresh\packages\LCU"
       ```
 
    > [!TIP]
@@ -198,22 +202,6 @@ The Windows Preinstallation Environment (WinPE) is contained within `boot.wim` o
 
 The Windows Preinstall Environment (WinPE) stored as `boot.wim` and `setup.exe` both located under `c:\mediarefresh\out\sources\` are fully updated.
 
-### Full Script for updating `boot.wim`
-
-```powershell
-MD c:\MediaRefresh\mounted
-Set-ItemProperty -Path "c:\mediarefresh\wim\boot.wim" -Name IsReadOnly -Value $false
-Mount-WindowsImage -ImagePath "c:\mediarefresh\wim\boot.wim" -Index 2 -Path "c:\mediarefresh\Mounted"
-Add-WindowsDriver -Path "c:\mediarefresh\mounted" -Driver "c:\mediarefresh\drivers" -Recurse 
-Add-WindowsPackage -Path "c:\mediarefresh\mounted" -PackagePath "c:\mediarefresh\packages\ssu*.msu"
-Add-WindowsPackage -Path "c:\mediarefresh\mounted" -PackagePath "c:\mediarefresh\packages\win*.msu"
-Set-ItemProperty -Path "c:\mediarefresh\out\sources\setup.exe" -Name IsReadOnly -Value $false
-robocopy c:\mediarefresh\mounted\sources c:\mediarefresh\out\sources setup.exe
-Dismount-WindowsImage -path "c:\mediarefresh\mounted" -save
-RD c:\mediarefresh\mounted
-robocopy c:\mediarefresh\wim c:\mediarefresh\out\sources boot.wim
-```
-
 ## Update Windows IoT Enterprise
 
 The Windows IoT Enterprise image is contained within `install.wim` on the original installation media under the `\sources` folder.  In the [Prepare Media Servicing Environment](#prepare-media-servicing-environment) section, we moved `install.wim` into a working folder.  In this section, we walk through the process of updating the `install.wim` with the latest cumulative servicing update and incorporate third party drivers if needed by the target device using the [Media Servicing Environment](#prepare-media-servicing-environment). Once the update is complete we will split the `install.wim` into smaller `*.swm` files so that they can be copied to a flash drive formatted as FAT32.
@@ -268,13 +256,13 @@ The Windows IoT Enterprise image is contained within `install.wim` on the origin
    1. First apply the servicing stack update dependency.
 
       ```powershell
-      Add-WindowsPackage -Path "c:\mediarefresh\mounted" -PackagePath "c:\mediarefresh\packages\ssu*.msu"
+      Add-WindowsPackage -Path "c:\mediarefresh\mounted" -PackagePath "c:\mediarefresh\packages\SSU"
       ```
 
    1. Now apply the latest cumulative update.
 
       ```powershell
-      Add-WindowsPackage -Path "c:\mediarefresh\mounted" -PackagePath "c:\mediarefresh\packages\win*.msu"
+      Add-WindowsPackage -Path "c:\mediarefresh\mounted" -PackagePath "c:\mediarefresh\packages\LCU"
       ```
 
    > [!TIP]
@@ -312,22 +300,6 @@ The Windows IoT Enterprise image is contained within `install.wim` on the origin
 
 The OS installation image, originally stored as `install.wim`, is now stored under `c:\mediarefresh\out\sources\` as `install.swm` and `install2.swm` which setup will automatically detect and use as if they were the original `install.wim`.
 
-### Full Script for updating `install.wim`
-
-```powershell
-MD c:\MediaRefresh\mounted
-Set-ItemProperty -Path "c:\mediarefresh\wim\install.wim" -Name IsReadOnly -Value $false
-Mount-WindowsImage -ImagePath "c:\mediarefresh\wim\install.wim" -Index 2 -Path "c:\mediarefresh\Mounted"
-Add-WindowsDriver -Path "c:\mediarefresh\mounted" -Driver "c:\mediarefresh\drivers" -Recurse 
-MD c:\mediarefresh\mounted\windows\setup\scripts
-robocopy c:\mediarefresh\scripts c:\mediarefresh\mounted\windows\setup\scripts *.cmd
-Add-WindowsPackage -Path "c:\mediarefresh\mounted" -PackagePath "c:\mediarefresh\packages\ssu*.msu"
-Add-WindowsPackage -Path "c:\mediarefresh\mounted" -PackagePath "c:\mediarefresh\packages\win*.msu"
-Dismount-WindowsImage -path "c:\mediarefresh\mounted" -save
-RD c:\mediarefresh\mounted
-Split-WindowsImage -ImagePath "c:\mediarefresh\wim\install.wim" -SplitImagePath "c:\mediarefresh\out\sources\install.swm" -FileSize 4000 -CheckIntegrity
-```
-
 ## Copy updated media to flash drive
 
 If you haven't created a bootable flash drive, do so before continuing by following the steps to [Create Bootable Installation Media using a Flash Drive](create_bootable_drive.md)
@@ -339,6 +311,57 @@ robocopy c:\mediarefresh\out <DriveLetter>:\ /e
 ```
 
 Where `<DriveLetter>` is the drive letter associated with your flash drive.
+
+## Full Script
+
+```powershell
+Write-Host "Create \Mounted folder"
+MD c:\MediaRefresh\mounted
+Write-Host "Set read-write attribute on boot.wim"
+Set-ItemProperty -Path "c:\mediarefresh\wim\boot.wim" -Name IsReadOnly -Value $false
+Write-Host "Mount boot.wim"
+Mount-WindowsImage -ImagePath "c:\mediarefresh\wim\boot.wim" -Index 2 -Path "c:\mediarefresh\Mounted"
+Write-Host "Install Drivers"
+Add-WindowsDriver -Path "c:\mediarefresh\mounted" -Driver "c:\mediarefresh\drivers" -Recurse 
+Write-Host "Install Servicing Stack Update"
+Add-WindowsPackage -Path "c:\mediarefresh\mounted" -PackagePath "c:\mediarefresh\packages\SSU"
+Write-Host "Install Latest Cumulative Update"
+Add-WindowsPackage -Path "c:\mediarefresh\mounted" -PackagePath "c:\mediarefresh\packages\LCU"
+Write-Host "Set read-write attribute on \out\sources\setup.exe"
+Set-ItemProperty -Path "c:\mediarefresh\out\sources\setup.exe" -Name IsReadOnly -Value $false
+Write-Host "Copy updated setup.exe to \out\sources"
+robocopy c:\mediarefresh\mounted\sources c:\mediarefresh\out\sources setup.exe
+Write-Host "Save and dismount boot.wim"
+Dismount-WindowsImage -path "c:\mediarefresh\mounted" -save
+Write-Host "Remove \Mounted folder"
+RD c:\mediarefresh\mounted
+Write-Host "Copy updated boot.wim to \out\sources"
+robocopy c:\mediarefresh\wim c:\mediarefresh\out\sources boot.wim
+Write-Host "Create \Mounted folder"
+MD c:\MediaRefresh\mounted
+Write-Host "Set read-write attribute on install.wim"
+Set-ItemProperty -Path "c:\mediarefresh\wim\install.wim" -Name IsReadOnly -Value $false
+Write-Host "Mount install.wim"
+Mount-WindowsImage -ImagePath "c:\mediarefresh\wim\install.wim" -Index 2 -Path "c:\mediarefresh\Mounted"
+Write-Host "Install Drivers"
+Add-WindowsDriver -Path "c:\mediarefresh\mounted" -Driver "c:\mediarefresh\drivers" -Recurse 
+Write-Host "Create folder \Windows\Setup\Scripts"
+MD c:\mediarefresh\mounted\windows\setup\scripts
+Write-Host "Copy Scripts to \Windows\Setup\Scripts"
+robocopy c:\mediarefresh\scripts c:\mediarefresh\mounted\windows\setup\scripts *.cmd
+Write-Host "Install Servicing Stack Update"
+Add-WindowsPackage -Path "c:\mediarefresh\mounted" -PackagePath "c:\mediarefresh\packages\SSU"
+Write-Host "Install Latest Cumulative Update"
+Add-WindowsPackage -Path "c:\mediarefresh\mounted" -PackagePath "c:\mediarefresh\packages\LCU"
+Write-Host "Save and dismount install.wim"
+Dismount-WindowsImage -path "c:\mediarefresh\mounted" -save
+Write-Host "Remove \Mounted folder"
+RD c:\mediarefresh\mounted
+Write-Host "Split Install.wim"
+Split-WindowsImage -ImagePath "c:\mediarefresh\wim\install.wim" -SplitImagePath "c:\mediarefresh\out\sources\install.swm" -FileSize 4000 -CheckIntegrity
+Write-Host "Update Complete"
+Write-Host "Copy contents of c:\mediarefresh\out to your flash drive"
+```
 
 ## Other Resources
 
