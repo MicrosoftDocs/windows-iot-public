@@ -2,7 +2,7 @@
 title: Refresh IoT Enterprise Installation Media
 author: TerryWarwick
 ms.author: twarwick
-ms.date: 05/23/2023
+ms.date: 06/07/2023
 ms.topic: article
 ms.prod: windows-iot
 ms.technology: iot
@@ -24,7 +24,7 @@ In this article, you set up your media refresh environment and gather all prereq
     - Select **Run as administrator**
 
 1. **Create folders to store files during media servicing**  
-   Use the PowerShell command [New_Item](/powershell/module/microsoft.powershell.management/new-item?view=powershell-7.3#example-2-create-a-directory) to create the following folders on your technician PC to store files needed during media servicing.
+   Use the PowerShell command [New_Item](/powershell/module/microsoft.powershell.management/new-item#example-2-create-a-directory) to create the following folders on your technician PC to store files needed during media servicing.
 
    **c:\MediaRefresh**: Parent folder for storing files during media servicing.  
    **c:\MediaRefresh\Out**: Copy of the original media updated during servicing.  
@@ -104,7 +104,7 @@ In this article, you set up your media refresh environment and gather all prereq
 The Windows Preinstallation Environment (WinPE) is contained within `boot.wim` on the original installation media under the `\sources` folder.  In this section, we walk through the process of updating the `boot.wim` with the latest cumulative servicing update and incorporate third party drivers if needed into the WinPE environment using the [Media Servicing Environment](#prepare-media-servicing-environment).
 
 1. **Mount WinPE boot.wim**  
-   1. The first step in updating the WinPE environment is to create a temporary folder named `mounted` under `c:\mediarefresh` using the PowerShell command [New-Item](/powershell/module/microsoft.powershell.management/new-item?view=powershell-7.3#description)
+   1. The first step in updating the WinPE environment is to create a temporary folder named `mounted` under `c:\mediarefresh` using the PowerShell command [New-Item](/powershell/module/microsoft.powershell.management/new-item#description)
 
       ```powershell
       MD c:\MediaRefresh\mounted
@@ -116,7 +116,7 @@ The Windows Preinstallation Environment (WinPE) is contained within `boot.wim` o
       Set-ItemProperty -Path "c:\mediarefresh\wim\boot.wim" -Name IsReadOnly -Value $false
       ```
 
-   1. Now we can mount the WinPE image stored in `boot.wim` at index 2 using the PowerShell command [Mount-WindowsImage](/powershell/module/dism/mount-windowsimage?view=windowsserver2022-ps##description)
+   1. Now we can mount the WinPE image stored in `boot.wim` at index 2 using the PowerShell command [Mount-WindowsImage](/powershell/module/dism/mount-windowsimage#description)
 
       ```powershell.wim" -Name IsReadOnly -Value $false
       Mount-WindowsImage -ImagePath "c:\mediarefresh\wim\boot.wim" -Index 2 -Path "c:\mediarefresh\Mounted"
@@ -125,7 +125,7 @@ The Windows Preinstallation Environment (WinPE) is contained within `boot.wim` o
    1. The contents of the WinPE image stored in the `boot.wim` at index 2 is now viewable at `c:\mediarefresh\mounted`.
 
 1. **Apply third-party drivers to WinPE**  
-   Install third-party drivers you collected in the `c:\mediarefresh\drivers` folder to WinPE at `c:\mediarefresh\mounted` using the PowerShell command [Add-WindowsDriver](/powershell/module/dism/add-windowsdriver?view=windowsserver2022-ps#description).
+   Install third-party drivers you collected in the `c:\mediarefresh\drivers` folder to WinPE at `c:\mediarefresh\mounted` using the PowerShell command [Add-WindowsDriver](/powershell/module/dism/add-windowsdriver#description).
 
    > [!NOTE]
    > For testing purposes you can use `-ForceUnsigned` to add unsigned drivers and override the requirement that drivers must have a digital signature. For more information about driver signing requirements, see [Device Drivers and Deployment Overview](/windows-hardware/manufacture/desktop/device-drivers-and-deployment-overview).
@@ -135,7 +135,7 @@ The Windows Preinstallation Environment (WinPE) is contained within `boot.wim` o
    ```
 
 1. **Apply servicing updates to WinPE**  
-   Apply the latest cumulative update and its dependencies that you downloaded to `c:\mediarefresh\packages` folder to WinPE at `c:\mediarefresh\mounted` using the PowerShell command [Add-WindowsPackage](/powershell/module/dism/add-windowspackage?view=windowsserver2022-ps#description).  This process may take several minutes to complete, but will save time later as your Windows image will already have the latest servicing update applied.
+   Apply the latest cumulative update and its dependencies that you downloaded to `c:\mediarefresh\packages` folder to WinPE at `c:\mediarefresh\mounted` using the PowerShell command [Add-WindowsPackage](/powershell/module/dism/add-windowspackage#description).  This process may take several minutes to complete, but will save time later as your Windows image will already have the latest servicing update applied.
 
    1. First apply the servicing stack update dependency.
 
@@ -175,7 +175,7 @@ The Windows Preinstallation Environment (WinPE) is contained within `boot.wim` o
 
 1. **Dismount and save changes to WinPE**  
 
-   To complete the servicing process use the PowerShell command [Dismount-WindowsImage](/powershell/module/dism/dismount-windowsimage?view=windowsserver2022-ps#description) to save the changes.  
+   To complete the servicing process use the PowerShell command [Dismount-WindowsImage](/powershell/module/dism/dismount-windowsimage#description) to save the changes.  
 
    > [!IMPORTANT]
    > Before executing the `Dismount-WindowsImage` command, make sure you do not have any File Explorer views or command windows that are viewing contents under `c:\mediarefresh\mounted`.  Failure to do so will result in an error when attempting to dismount.
@@ -186,7 +186,7 @@ The Windows Preinstallation Environment (WinPE) is contained within `boot.wim` o
 
 1. **Delete temporary folder**  
 
-   Upon successful dismounting of the boot.wim, now we can remove the temporary folder `c:\mediarefresh\mounted` using the PowerShell command [Remove-Item](/powershell/module/microsoft.powershell.management/rename-item?view=powershell-7.3#description)
+   Upon successful dismounting of the boot.wim, now we can remove the temporary folder `c:\mediarefresh\mounted` using the PowerShell command [Remove-Item](/powershell/module/microsoft.powershell.management/rename-item#description)
 
    ```powershell
    RD c:\MediaRefresh\mounted
@@ -207,7 +207,7 @@ The Windows Preinstall Environment (WinPE) stored as `boot.wim` and `setup.exe` 
 The Windows IoT Enterprise image is contained within `install.wim` on the original installation media under the `\sources` folder.  In the [Prepare Media Servicing Environment](#prepare-media-servicing-environment) section, we moved `install.wim` into a working folder.  In this section, we walk through the process of updating the `install.wim` with the latest cumulative servicing update and incorporate third party drivers if needed by the target device using the [Media Servicing Environment](#prepare-media-servicing-environment). Once the update is complete we will split the `install.wim` into smaller `*.swm` files so that they can be copied to a flash drive formatted as FAT32.
 
 1. **Mount the OS install.wim**  
-   1. The first step in updating the WinPE environment is to create a temporary folder named `mounted` under  `c:\mediarefresh` using the PowerShell command [New-Item](/powershell/module/microsoft.powershell.management/new-item?view=powershell-7.3#description).
+   1. The first step in updating the WinPE environment is to create a temporary folder named `mounted` under  `c:\mediarefresh` using the PowerShell command [New-Item](/powershell/module/microsoft.powershell.management/new-item#description).
 
       ```powershell
       MD c:\MediaRefresh\mounted
@@ -219,7 +219,7 @@ The Windows IoT Enterprise image is contained within `install.wim` on the origin
       Set-ItemProperty -Path "c:\mediarefresh\wim\install.wim" -Name IsReadOnly -Value $false
       ```
 
-   1. Now we can mount the Windows IoT Enterprise image stored in install.wim at index 2 using the PowerShell command [Mount-WindowsImage](/powershell/module/dism/mount-windowsimage?view=windowsserver2022-ps##description)
+   1. Now we can mount the Windows IoT Enterprise image stored in install.wim at index 2 using the PowerShell command [Mount-WindowsImage](/powershell/module/dism/mount-windowsimage#description)
 
       ```powershell
       Mount-WindowsImage -ImagePath "c:\mediarefresh\wim\install.wim" -Index 2 -Path "c:\mediarefresh\Mounted"
@@ -228,7 +228,7 @@ The Windows IoT Enterprise image is contained within `install.wim` on the origin
    1. The contents of the Windows IoT Enterprise image store in install.wim at index 2 is now viewable at `c:\mediarefresh\mounted`.
 
 1. **Install third-party drivers**  
-   Install third-party drivers you collected in the `c:\mediarefresh\drivers` folder to the OS image at `c:\mediarefresh\mounted` using the PowerShell command [Add-WindowsDriver](/powershell/module/dism/add-windowsdriver?view=windowsserver2022-ps#description). The `-recurse` parameter enables processing of subfolders.
+   Install third-party drivers you collected in the `c:\mediarefresh\drivers` folder to the OS image at `c:\mediarefresh\mounted` using the PowerShell command [Add-WindowsDriver](/powershell/module/dism/add-windowsdriver#description). The `-recurse` parameter enables processing of subfolders.
 
    ```powershell
    Add-WindowsDriver -Path "c:\mediarefresh\mounted" -Driver "c:\mediarefresh\drivers" -Recurse 
@@ -238,7 +238,7 @@ The Windows IoT Enterprise image is contained within `install.wim` on the origin
    > For testing purposes you can use `-ForceUnsigned` to add unsigned drivers and override the requirement that drivers must have a digital signature. For more information about driver signing requirements, see [Device Drivers and Deployment Overview](/windows-hardware/manufacture/desktop/device-drivers-and-deployment-overview).
 
 1. **Add Custom Setup Scripts**
-   1. Before adding custom setup scripts to the OS image, first create a `scripts` folder under `c:\mediarefresh\mounted\windows\setup\` using the PowerShell command [New-Item](/powershell/module/microsoft.powershell.management/new-item?view=powershell-7.3#description).
+   1. Before adding custom setup scripts to the OS image, first create a `scripts` folder under `c:\mediarefresh\mounted\windows\setup\` using the PowerShell command [New-Item](/powershell/module/microsoft.powershell.management/new-item#description).
 
       ```powershell
       MD c:\mediarefresh\mounted\windows\setup\scripts
@@ -251,7 +251,7 @@ The Windows IoT Enterprise image is contained within `install.wim` on the origin
       ```
 
 1. **Apply servicing packages to the OS image**  
-   Apply the latest cumulative update and its dependencies that you downloaded to `c:\mediarefresh\packages` folder to WinPE at `c:\mediarefresh\mounted` using the PowerShell command [Add-WindowsPackage](/powershell/module/dism/add-windowspackage?view=windowsserver2022-ps#description).
+   Apply the latest cumulative update and its dependencies that you downloaded to `c:\mediarefresh\packages` folder to WinPE at `c:\mediarefresh\mounted` using the PowerShell command [Add-WindowsPackage](/powershell/module/dism/add-windowspackage#description).
 
    1. First apply the servicing stack update dependency.
 
@@ -275,7 +275,7 @@ The Windows IoT Enterprise image is contained within `install.wim` on the origin
    > - Continue to next step once error has been resolved.
 
 1. **Save and dismount updated install.wim**  
-   To complete the servicing process use the PowerShell command [Dismount-WindowsImage](/powershell/module/dism/dismount-windowsimage?view=windowsserver2022-ps#description) to save the changes.  
+   To complete the servicing process use the PowerShell command [Dismount-WindowsImage](/powershell/module/dism/dismount-windowsimage#description) to save the changes.  
 
    > [!IMPORTANT]
    > Before executing the `Dismount-WindowsImage` command, make sure you do not have any File Explorer views or command windows that are viewing contents under `c:\mediarefresh\mounted`.  Failure to do so will result in an error when attempting to dismount.
@@ -285,7 +285,7 @@ The Windows IoT Enterprise image is contained within `install.wim` on the origin
    ```
   
 1. **Delete temporary folder `mounted`**  
-   Upon successful dismounting of the boot.wim, now we can remove the temporary folder `c:\mediarefresh\mounted` using the PowerShell command [Remove-Item](/powershell/module/microsoft.powershell.management/rename-item?view=powershell-7.3#description)
+   Upon successful dismounting of the boot.wim, now we can remove the temporary folder `c:\mediarefresh\mounted` using the PowerShell command [Remove-Item](/powershell/module/microsoft.powershell.management/rename-item#description)
 
    ```powershell
    RD c:\mediarefresh\mounted
