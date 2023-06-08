@@ -48,7 +48,7 @@ This guide walks you through how to set up your device for real-time performance
 
 This configures the device while powered on. To ensure that the device maintains soft-RT performance, you should configure the machine to run these commands as a script every time the machine powers on using [this guidance](https://aka.ms/SRT-GPS).
 
-1. Run these two commands in a cmd prompt. This disables CPU idle states, where a CPU with no instructions to run will go into a power-saving state. This is undesirable in real-time scenarios as idle CPUs have a delay in starting to execute new instructions:
+1. Run these two commands in a cmd prompt. This disables CPU idle states, where a CPU with no instructions to run will enter a power-saving state. This is undesirable in real-time scenarios as idle CPUs have a delay in starting to execute new instructions:
 
    ```console
    powercfg.exe /setacvalueindex SCHEME_CURRENT SUB_PROCESSOR IdleDisable 1
