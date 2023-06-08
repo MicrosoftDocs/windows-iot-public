@@ -220,9 +220,9 @@ The media servicing environment is now set up.  Lets do a quick review.
    > [!WARNING]
    > The current BSP Prebuilt Binaries for the NXP i.MX EVK are Test Signed. When using `Add-WindowsDriver` in the next steps you must use the `-ForceUnsigned` attribute.
 
-   1. [Update Windows Preinstallation Environment (WinPE)](/windows/iot/iot-enterprise/deployment/media-refresh#update-windows-preinstallation-environment-winpe)
-   1. [Update Windows 10 IoT Enterprise LTSC 2021 Image](/windows/iot/iot-enterprise/deployment/media-refresh#update-windows-iot-enterprise)
-   1. [Copy updated media to microSD card](/windows/iot/iot-enterprise/deployment/media-refresh#copy-updated-media-to-flash-drive)
+   1. [Update Windows Preinstallation Environment (WinPE)](../Deployment/Media-Refresh.md#update-windows-preinstallation-environment-winpe)Update Windows Preinstallation Environment (WinPE)
+   1. [Update Windows 10 IoT Enterprise LTSC 2021 Image](../Deployment/Media-Refresh.md#update-windows-iot-enterprise)
+   1. [Copy updated media to microSD card](../Deployment/Media-Refresh.md#copy-updated-media-to-flash-drive)
 
 1. Make sure the NXP i.MX EVK board is in eMMC boot mode. Refer to the Quick Start Guide from NXP to learn how to configure your board.
 1. Insert the microSD card into the slot on the NXP i.MX EVK board.
@@ -231,4 +231,4 @@ The media servicing environment is now set up.  Lets do a quick review.
 
 ## Other Information
 
-- [Refresh IoT Enterprise Installation Media](/windows/iot/iot-enterprise/deployment/media-refresh)
+- [Refresh IoT Enterprise Installation Media](../Deployment/Media-Refresh.md)
