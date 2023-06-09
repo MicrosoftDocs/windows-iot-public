@@ -10,11 +10,11 @@ description: Windows IoT Enterprise Deployment Overview
 keywords: IoT Enterprise, Overview, Optimization
 ---
 
-# Overview
+# Deployment Overview
 
 `Add description here`
 
-## Deployment Topics
+## In this section
 
 | Topic | Description |
 | ----- | ----------- |
@@ -22,4 +22,4 @@ keywords: IoT Enterprise, Overview, Optimization
 | WinGet | Using WinGet to install applications from the Windows Store from command line. |
 | Updating Installation Media | Create a media servicing environment to apply servicing updates and 3rd party drivers to both the preinstallation environment as well as operating system image. This will ensure the resulting installation has the most recent servicing updates and drivers needed for the target device are incorporated during the installation. |
 
-## Other Information
+## Related topics

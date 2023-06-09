@@ -9,7 +9,7 @@ ms.technology: iot
 description: Windows IoT Enterprise customizations allow OEMs and system administrators to provide a controlled and specialized experience for end-users of Windows IoT Enterprise based devices..
 
 ---
-# Overview
+# Customization Overview
 
 Windows IoT Enterprise advanced lockdown features provide a controlled and specialized experience for end-users of Windows IoT Enterprise by allowing OEMs and system administrators to lock down the device interaction experience.
 
