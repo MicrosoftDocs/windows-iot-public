@@ -302,7 +302,7 @@ The OS installation image, originally stored as `install.wim`, is now stored und
 
 ## Copy updated media to flash drive
 
-If you haven't created a bootable flash drive, do so before continuing by following the steps to [Create Bootable Installation Media using a Flash Drive](create_bootable_drive.md)
+If you haven't created a bootable flash drive, do so before continuing by following the steps to [Install Windows from a flash drive](/windows-hardware/manufacture/desktop/install-windows-from-a-usb-flash-drive).
 
 The final step of creating your updated installation media is to copy the contents of `c:\mediarefresh\out` to your bootable flash drive using  [Robocopy](https://social.technet.microsoft.com/wiki/contents/articles/52831.robocopy-complete-reference.aspx).
 
