@@ -43,9 +43,7 @@
   expanded: false
   items:
   - name: Overview
-    href: Deployment/overview.md
-  - name: Create flash media
-    href: Deployment/create_bootable_drive.md
+    href: Deployment/Deployment-overview.md
   - name: Update installation media
     href: Deployment/media-refresh.md
   - name: Install Apps with WinGet
