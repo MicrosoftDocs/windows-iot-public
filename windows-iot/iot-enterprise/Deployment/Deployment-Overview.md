@@ -2,7 +2,7 @@
 title: Windows IoT Enterprise Deployment Overview
 author: TerryWarwick
 ms.author: twarwick
-ms.date: 03/30/2023
+ms.date: 06/13/2023
 ms.topic: article
 ms.prod: windows-iot
 ms.technology: iot
@@ -16,10 +16,11 @@ keywords: IoT Enterprise, Overview, Optimization
 
 ## In this section
 
-| Topic | Description |
+| Article | Description |
 | ----- | ----------- |
-| [Bootable flash drive](/windows-hardware/manufacture/desktop/install-windows-from-a-usb-flash-drive) | Create a bootable flash drive that can be used for installing Windows IoT Enterprise to a device that can boot from a USB flash drive or microSD card. |
+| [Understanding deployment and imaging](/windows-hardware/manufacture/desktop/deployment-and-imaging-primer) | This topic covers manufacturing and deployment and the process for how OEMs get customized versions of Windows onto their devices. oem-deployment-of-windows-desktop-editions). |
+| [Windows Engineering Guide](/windows-hardware/manufacture/desktop/manufacturing-windows-engineering-guide)| The Manufacturing WEG provides original equipment manufacturer (OEM) and ODM partners with a roadmap of the ideal manufacturing process for Windows 10 and later devices, with guidance for potential pitfalls and opportunities to streamline the process.|
+| [Bootable flash drive](/windows-hardware/manufacture/desktop/iot-ent-create-a-basic-image#create-a-bootable-flash-drive) | Create a bootable flash drive that can be used for installing Windows IoT Enterprise to a device that can boot from a USB flash drive or microSD card. |
 | [Install apps with WinGet](install-winget-windows-iot.md) | Using WinGet to install applications from the Windows Store from command line. |
-| [Updating installation media](Media-Refresh.md) | Create a media servicing environment to apply servicing updates and 3rd party drivers to both the preinstallation environment as well as operating system image. This will ensure the resulting installation has the most recent servicing updates and drivers needed for the target device are incorporated during the installation. |
-
-## Related topics
+| [Updating installation media](Media-Refresh.md) | Create a media servicing environment and walk through applying servicing updates and third party drivers to installation media. |
+| [Deployment Lab](/windows-hardware/manufacture/desktop/iot-ent-overview)| This is a lab exercise which covers how to build, customize and deploy Windows 10 IoT Enterprise image |
