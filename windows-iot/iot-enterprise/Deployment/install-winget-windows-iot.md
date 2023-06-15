@@ -4,7 +4,7 @@ description: How to Install WinGet on Windows IoT Enterprise
 author: trumanbrown-msft 
 ms.author: trumanbrown
 ms.topic: how-to 
-ms.date: 05/18/2023
+ms.date: 06/14/2023
 ms.prod: windows-iot
 ms.custom: template-how-to 
 ---
@@ -102,7 +102,7 @@ In this tutorial, you learn how to install and utilize WinGet on Windows IoT Ent
 
    :::image type="content" source="media/add-app-package.png" alt-text="All the commands ran":::
 
-Now, you should see the "winget.exe" file appear at `C:\Users\[Username]\AppData\Local\Microsoft\WindowsApps`. Furthermore, it should also be automatically added to your path. You should also be able to use `WinGet` in the PowerShell terminal.
+Now, you should see the `winget.exe` file appear at `C:\Users\[Username]\AppData\Local\Microsoft\WindowsApps`. Furthermore, it should also be automatically added to your path. You should also be able to use `WinGet` in the PowerShell terminal.
 
 1. If you're having issues, try restarting the shell and the PC.
    :::image type="content" source="media/winget-result.png" alt-text="WinGet in powershell":::
