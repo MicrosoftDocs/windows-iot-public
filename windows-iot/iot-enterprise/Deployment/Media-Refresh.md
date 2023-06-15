@@ -29,7 +29,7 @@ In this article, you set up your media refresh environment and gather all prereq
    **c:\MediaRefresh**: Parent folder for storing files during media servicing.  
    **c:\MediaRefresh\Out**: Copy of the original media updated during servicing.  
    **c:\MediaRefresh\Packages\LCU**: Latest Cumulative Update
-   **c:\MediaRefresh\Packages\SSU**: Servicing Stack Update if required  
+   **c:\MediaRefresh\Packages\SSU**: Servicing Stack Update if necessary  
    **c:\MediaRefresh\Drivers**: Third-party drivers.  
    **c:\MediaRefresh\Scripts**: Custom install scripts.
    **c:\MediaRefresh\WIM**: Working directory for updating boot.wim and install.wim
@@ -62,9 +62,9 @@ In this article, you set up your media refresh environment and gather all prereq
       robocopy <DriveLetter>:\ c:\MediaRefresh\Out /Copy:DT /e
       ```
 
-      Where `<DriveLetter>` is the drive letter associated with the mounted ISO file.
+      Where `<DriveLetter>` is the drive letter associated with the mounted ISO file
 
-   1. Move boot.wim and install.wim from `c:\MediaRefresh\Out\Sources` to `c:\MediaRefresh\WIM` folder, which will be used as the working folder for updating the WIM files, using [Robocopy](https://social.technet.microsoft.com/wiki/contents/articles/52831.robocopy-complete-reference.aspx).
+   1. Move boot.wim and install.wim from `c:\MediaRefresh\Out\Sources` to `c:\MediaRefresh\WIM` folder, the working folder for updating the WIM files, using [Robocopy](https://social.technet.microsoft.com/wiki/contents/articles/52831.robocopy-complete-reference.aspx).
 
       ```powershell
       robocopy c:\mediarefresh\out\sources c:\MediaRefresh\WIM *.wim /Mov
@@ -82,7 +82,7 @@ In this article, you set up your media refresh environment and gather all prereq
 
    Download the latest cumulative Microsoft Servicing Update (MSU) file to the `c:\MediaRefresh\Packages\LCU` folder.
 
-   If this update requires a separate Servicing Stack Update (MSU) file download it to `c:\MediaRefresh\Packages\SSU` folder. Use the following table to help you locate updates for your specific version of Windows IoT Enterprise.
+   If a Servicing Stack Update (MSU) dependency is required, download it to `c:\MediaRefresh\Packages\SSU` folder. Use the following table to help you locate updates for your specific version of Windows IoT Enterprise.
 
    | Release | Version |  Update History | Update Catalog |
    | --- | --- | --- | --- |
@@ -135,7 +135,7 @@ The Windows Preinstallation Environment (WinPE) is contained within `boot.wim` o
    ```
 
 1. **Apply servicing updates to WinPE**  
-   Apply the latest cumulative update and its dependencies that you downloaded to `c:\mediarefresh\packages` folder to WinPE at `c:\mediarefresh\mounted` using the PowerShell command [Add-WindowsPackage](/powershell/module/dism/add-windowspackage#description).  This process may take several minutes to complete, but will save time later as your Windows image will already have the latest servicing update applied.
+   Apply the latest cumulative update and its dependencies that you downloaded to `c:\mediarefresh\packages` folder to WinPE at `c:\mediarefresh\mounted` using the PowerShell command [Add-WindowsPackage](/powershell/module/dism/add-windowspackage#description).  This process may take several minutes to complete, however it ensures that your Windows image already has the latest servicing update applied.
 
    1. First apply the servicing stack update dependency.
 
@@ -175,7 +175,7 @@ The Windows Preinstallation Environment (WinPE) is contained within `boot.wim` o
 
 1. **Dismount and save changes to WinPE**  
 
-   To complete the servicing process use the PowerShell command [Dismount-WindowsImage](/powershell/module/dism/dismount-windowsimage#description) to save the changes.  
+   To complete the servicing process, use the PowerShell command [Dismount-WindowsImage](/powershell/module/dism/dismount-windowsimage#description) to save the changes.  
 
    > [!IMPORTANT]
    > Before executing the `Dismount-WindowsImage` command, make sure you do not have any File Explorer views or command windows that are viewing contents under `c:\mediarefresh\mounted`.  Failure to do so will result in an error when attempting to dismount.
@@ -204,7 +204,7 @@ The Windows Preinstall Environment (WinPE) stored as `boot.wim` and `setup.exe` 
 
 ## Update Windows IoT Enterprise
 
-The Windows IoT Enterprise image is contained within `install.wim` on the original installation media under the `\sources` folder.  In the [Prepare Media Servicing Environment](#prepare-media-servicing-environment) section, we moved `install.wim` into a working folder.  In this section, we walk through the process of updating the `install.wim` with the latest cumulative servicing update and incorporate third party drivers if needed by the target device using the [Media Servicing Environment](#prepare-media-servicing-environment). Once the update is complete we will split the `install.wim` into smaller `*.swm` files so that they can be copied to a flash drive formatted as FAT32.
+The Windows IoT Enterprise image is contained within `install.wim` on the original installation media under the `\sources` folder.  In the [Prepare Media Servicing Environment](#prepare-media-servicing-environment) section, we moved `install.wim` into a working folder.  In this section, we walk through the process of updating the `install.wim` with the latest cumulative servicing update and incorporate third party drivers if needed by the target device using the [Media Servicing Environment](#prepare-media-servicing-environment). Once the update is complete, split the `install.wim` into smaller `*.swm` files so that they can be copied to a flash drive formatted as FAT32.
 
 1. **Mount the OS install.wim**  
    1. The first step in updating the WinPE environment is to create a temporary folder named `mounted` under  `c:\mediarefresh` using the PowerShell command [New-Item](/powershell/module/microsoft.powershell.management/new-item#description).
@@ -292,13 +292,13 @@ The Windows IoT Enterprise image is contained within `install.wim` on the origin
    ```
 
 1. **Split WIM to support FAT32 file system**  
-   To ensure the new install.wim fits onto flash media formatted as FAT32, which has a maximum file size of 4 GB you split the Windows Image (install.wim) file into a set of smaller (.swm) files with a maximum size of 4000 MB using the PowerShell command [Split-WindowsImage](/windows-hardware/manufacture/desktop/split-a-windows-image--wim--file-to-span-across-multiple-dvds). The resulting `*.swm` files will be written to the `c:\mediarefresh\out\sources` folder.
+   To ensure the new install.wim fits onto flash media formatted as FAT32, which has a maximum file size of 4 GB you split the Windows Image (install.wim) file into a set of smaller (.swm) files with a maximum size of 4000 MB using the PowerShell command [Split-WindowsImage](/windows-hardware/manufacture/desktop/split-a-windows-image--wim--file-to-span-across-multiple-dvds). The resulting `*.swm` files are written to the `c:\mediarefresh\out\sources` folder.
 
    ```powershell
    Split-WindowsImage -ImagePath "c:\mediarefresh\wim\install.wim" -SplitImagePath "c:\mediarefresh\out\sources\install.swm" -FileSize 4000 -CheckIntegrity
    ```
 
-The OS installation image, originally stored as `install.wim`, is now stored under `c:\mediarefresh\out\sources\` as `install.swm` and `install2.swm` which setup will automatically detect and use as if they were the original `install.wim`.
+The OS installation image, originally stored as `install.wim`, is now stored under `c:\mediarefresh\out\sources\` as `install.swm` and `install2.swm` which setup uses as if they were the original `install.wim`.
 
 ## Copy updated media to flash drive
 
@@ -310,7 +310,7 @@ The final step of creating your updated installation media is to copy the conten
 robocopy c:\mediarefresh\out <DriveLetter>:\ /e
 ```
 
-Where `<DriveLetter>` is the drive letter associated with your flash drive.
+Where `<DriveLetter>` is the drive letter associated with your flash drive
 
 ## Full Script
 
