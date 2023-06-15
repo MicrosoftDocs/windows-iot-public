@@ -112,7 +112,7 @@ Now, you should see the `winget.exe` file appear at `C:\Users\[Username]\AppData
 1. Follow the [**Use winget**](/windows/package-manager/winget/#use-winget) documentation on instructions on how to search, install, configure, and uninstall applications with WinGet.
 
 > [!NOTE]
-> These instructions are adapted from the [original WinGet documentation](https://github.com/microsoft/winget-cli) targeting Windows desktop editions for Windows IoT Enterprise LTSC which does not have a Windows Store user experience.s. This copies many instructions from Zamiell's original discussion [here](https://github.com/microsoft/winget-cli/discussions/1956) and from MuradBuyukasik's repo [here](https://github.com/muradbuyukasik/winget-script).
+> These instructions are adapted from the [original WinGet documentation](https://github.com/microsoft/winget-cli) targeting Windows desktop editions for Windows IoT Enterprise LTSC which does not have a Windows Store user experience. These instructions also incorporate guidance [Zamiell's WinGet CLI repository discussion](https://github.com/microsoft/winget-cli/discussions/1956) and from [MuradBuyukasik's WinGet Scripts repository](https://github.com/muradbuyukasik/winget-script).
 
 ## More Resources
 
