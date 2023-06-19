@@ -17,6 +17,8 @@ There are many reasons for locking down a device, such as protecting the system 
 
 You can lock down your Windows IoT Enterprise device by using the lock down features individually or in combination with each other to get the effect you desire for your image. You can, for instance, create a dedicated cashier device that runs a full screen Point of Service (POS) application.
 
+## In this section
+
 | Topic                                                   | Description                                                                                         |
 |:--------------------------------------------------------|:----------------------------------------------------------------------------------------------------|
 | [Custom Logon](custom-logon.md)  | You can use the Custom Logon feature to suppress Windows 10 UI elements that relate to the Welcome screen and shutdown screen. For example, you can [suppress all elements of the Welcome screen UI](/windows-hardware/customize/enterprise/complementary-features-to-custom-logon) and provide a custom logon UI. You can suppress the ease of access option on the logon screen. You can also suppress the Blocked Shutdown Resolver (BSDR) screen and automatically end applications while the OS waits for applications to close before a shutdown.    |

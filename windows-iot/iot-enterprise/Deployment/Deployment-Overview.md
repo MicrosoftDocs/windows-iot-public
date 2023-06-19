@@ -12,7 +12,7 @@ keywords: IoT Enterprise, Overview, Optimization
 
 # Deployment Overview
 
-`Add description here`
+This article provides an index for the Windows IoT Enterprise deployment related topics along with a brief description of each.
 
 ## In this section
 
