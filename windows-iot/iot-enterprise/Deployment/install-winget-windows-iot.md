@@ -4,7 +4,7 @@ description: How to Install WinGet on Windows IoT Enterprise
 author: trumanbrown-msft 
 ms.author: trumanbrown
 ms.topic: how-to 
-ms.date: 06/14/2023
+ms.date: 06/19/2023
 ms.prod: windows-iot
 ms.custom: template-how-to 
 ---
@@ -49,7 +49,7 @@ In this tutorial, you learn how to install and utilize WinGet on Windows IoT Ent
    ```
 
    1. Open the `.zip` folder renamed in the previous step using `File Explorer` and copy the file `tools\AppX\<your architecture>\release\Microsoft.UI.XAML.2.7.appx` to your downloads folder.  This file will be installed to your device in a future step.
-      1. For more information about working with `.zip files`, see [zipping and unzipping files.](https://support.microsoft.com/en-us/windows/zip-and-unzip-files-8d28fa72-f2f9-712f-67df-f80cf89fd4e5)
+      1. For more information about working with `.zip files`, see [zipping and unzipping files.](https://support.microsoft.com/windows/zip-and-unzip-files-8d28fa72-f2f9-712f-67df-f80cf89fd4e5)
 
 ## Install WinGet Client
 
