@@ -2,7 +2,7 @@
 title: Refresh IoT Enterprise Installation Media
 author: TerryWarwick
 ms.author: twarwick
-ms.date: 06/07/2023
+ms.date: 06/19/2023
 ms.topic: article
 ms.prod: windows-iot
 ms.technology: iot
@@ -314,53 +314,165 @@ Where `<DriveLetter>` is the drive letter associated with your flash drive
 
 ## Full Script
 
+This section contains a full script that performs each of the media servicing steps in succession automatically. Before using this script, you must complete the [Prepare Media Servicing Environment](#prepare-media-servicing-environment) section of this article.  Once you're ready, copy the following PowerShell script to `c:\mediarefresh\mediarefresh.ps1.`  
+
 ```powershell
-Write-Host "Create \Mounted folder"
-MD c:\MediaRefresh\mounted
-Write-Host "Set read-write attribute on boot.wim"
-Set-ItemProperty -Path "c:\mediarefresh\wim\boot.wim" -Name IsReadOnly -Value $false
-Write-Host "Mount boot.wim"
-Mount-WindowsImage -ImagePath "c:\mediarefresh\wim\boot.wim" -Index 2 -Path "c:\mediarefresh\Mounted"
-Write-Host "Install Drivers"
-Add-WindowsDriver -Path "c:\mediarefresh\mounted" -Driver "c:\mediarefresh\drivers" -Recurse 
-Write-Host "Install Servicing Stack Update"
-Add-WindowsPackage -Path "c:\mediarefresh\mounted" -PackagePath "c:\mediarefresh\packages\SSU"
-Write-Host "Install Latest Cumulative Update"
-Add-WindowsPackage -Path "c:\mediarefresh\mounted" -PackagePath "c:\mediarefresh\packages\LCU"
-Write-Host "Set read-write attribute on \out\sources\setup.exe"
-Set-ItemProperty -Path "c:\mediarefresh\out\sources\setup.exe" -Name IsReadOnly -Value $false
-Write-Host "Copy updated setup.exe to \out\sources"
-robocopy c:\mediarefresh\mounted\sources c:\mediarefresh\out\sources setup.exe
-Write-Host "Save and dismount boot.wim"
-Dismount-WindowsImage -path "c:\mediarefresh\mounted" -save
-Write-Host "Remove \Mounted folder"
-RD c:\mediarefresh\mounted
-Write-Host "Copy updated boot.wim to \out\sources"
-robocopy c:\mediarefresh\wim c:\mediarefresh\out\sources boot.wim
-Write-Host "Create \Mounted folder"
-MD c:\MediaRefresh\mounted
-Write-Host "Set read-write attribute on install.wim"
-Set-ItemProperty -Path "c:\mediarefresh\wim\install.wim" -Name IsReadOnly -Value $false
-Write-Host "Mount install.wim"
-Mount-WindowsImage -ImagePath "c:\mediarefresh\wim\install.wim" -Index 2 -Path "c:\mediarefresh\Mounted"
-Write-Host "Install Drivers"
-Add-WindowsDriver -Path "c:\mediarefresh\mounted" -Driver "c:\mediarefresh\drivers" -Recurse 
-Write-Host "Create folder \Windows\Setup\Scripts"
-MD c:\mediarefresh\mounted\windows\setup\scripts
-Write-Host "Copy Scripts to \Windows\Setup\Scripts"
-robocopy c:\mediarefresh\scripts c:\mediarefresh\mounted\windows\setup\scripts *.cmd
-Write-Host "Install Servicing Stack Update"
-Add-WindowsPackage -Path "c:\mediarefresh\mounted" -PackagePath "c:\mediarefresh\packages\SSU"
-Write-Host "Install Latest Cumulative Update"
-Add-WindowsPackage -Path "c:\mediarefresh\mounted" -PackagePath "c:\mediarefresh\packages\LCU"
-Write-Host "Save and dismount install.wim"
-Dismount-WindowsImage -path "c:\mediarefresh\mounted" -save
-Write-Host "Remove \Mounted folder"
-RD c:\mediarefresh\mounted
-Write-Host "Split Install.wim"
-Split-WindowsImage -ImagePath "c:\mediarefresh\wim\install.wim" -SplitImagePath "c:\mediarefresh\out\sources\install.swm" -FileSize 4000 -CheckIntegrity
-Write-Host "Update Complete"
-Write-Host "Copy contents of c:\mediarefresh\out to your flash drive"
+$LogFile = ".\MediaRefresh.log"
+$LogDetail = ".\MediaRefreshDetail.log"
+
+"================================================" >> $LogFile
+(get-date).ToString("yyyy-MM-dd HH:mm:ss") + " | Starting MediaRefresh" >> $LogFile
+"================================================" >> $LogFile
+Write-Host "Updating Boot.wim" -ForegroundColor Blue
+(get-date).ToString("yyyy-MM-dd HH:mm:ss") + " | Boot.wim Update Started" >> $LogFile
+Write-Host "     Preparing to mount boot.wim" -ForegroundColor Blue
+
+(get-date).ToString("yyyy-MM-dd HH:mm:ss") + " |     Checking for existing .\Mounted folder" >> $LogFile
+
+if ( -not (Test-Path -Path 'c:\MediaRefresh\mounted' -PathType Container)) { 
+   (get-date).ToString("yyyy-MM-dd HH:mm:ss") + " |     Create .\Mounted folder" >> $LogFile
+   MD c:\MediaRefresh\mounted >> $LogDetail
+   (get-date).ToString("yyyy-MM-dd HH:mm:ss") + " |     Created .\Mounted folder" >> $LogFile
+   }
+   else {
+   (get-date).ToString("yyyy-MM-dd HH:mm:ss") + " |     .\Mounted folder already existed" >> $LogFile 
+   }
+
+Write-Host "     Setting boot.wim file attributes to read-write" -ForegroundColor Blue
+(get-date).ToString("yyyy-MM-dd HH:mm:ss") + " |     Setting boot.wim file attributes to read-write" >> $LogFile
+Set-ItemProperty -Path "c:\mediarefresh\wim\boot.wim" -Name IsReadOnly -Value $false | out-null
+(get-date).ToString("yyyy-MM-dd HH:mm:ss") + " |     Set boot.wim file attributes to read-write" >> $LogFile
+
+Write-Host "     Mounting boot.wim" -ForegroundColor Blue
+(get-date).ToString("yyyy-MM-dd HH:mm:ss") + " |     Mount-WindowsImage boot.wim Started" >> $LogFile
+Mount-WindowsImage -ImagePath "c:\mediarefresh\wim\boot.wim" -Index 2 -Path "c:\mediarefresh\Mounted" >> $LogDetail
+(get-date).ToString("yyyy-MM-dd HH:mm:ss") + " |     Mount-WindowsImage boot.wim Completed" >> $LogFile
+
+Write-Host "     Installing Drivers" -ForegroundColor Blue
+(get-date).ToString("yyyy-MM-dd HH:mm:ss") + " |     Add-WindowsDrivers to boot.wim Started" >> $LogFile
+Add-WindowsDriver -Path "c:\mediarefresh\mounted" -Driver "c:\mediarefresh\drivers" -Recurse >> $LogDetail
+(get-date).ToString("yyyy-MM-dd HH:mm:ss") + " |     Add-WindowsDrivers to boot.wim Completed" >> $LogFile
+
+Write-Host "     Installing Servicing Stack Update" -ForegroundColor Blue
+(get-date).ToString("yyyy-MM-dd HH:mm:ss") + " |     Add-WindowsPackage SSU to boot.wim Started" >> $LogFile
+Add-WindowsPackage -Path "c:\mediarefresh\mounted" -PackagePath "c:\mediarefresh\packages\SSU" >> $LogDetail
+(get-date).ToString("yyyy-MM-dd HH:mm:ss") + " |     Add-WindowsPackage SSU to boot.wim Completed" >> $LogFile
+
+Write-Host "     Installing Latest Cumulative Update" -ForegroundColor Blue
+Write-Host "          Note: This process may take several minutes to complete." -ForegroundColor Cyan
+(get-date).ToString("yyyy-MM-dd HH:mm:ss") + " |     Add-WindowsPackage LCU to boot.wim Started" >> $LogFile
+Add-WindowsPackage -Path "c:\mediarefresh\mounted" -PackagePath "c:\mediarefresh\packages\LCU" >> $LogDetail
+(get-date).ToString("yyyy-MM-dd HH:mm:ss") + " |     Add-WindowsPackage LCU to boot.wim Completed" >> $LogFile
+
+Write-Host "     Setting read-write attribute on \out\sources\setup.exe" -ForegroundColor Blue
+(get-date).ToString("yyyy-MM-dd HH:mm:ss") + " |     Setting \out\sources\setup.exe file attributes to read-write" >> $LogFile
+Set-ItemProperty -Path "c:\mediarefresh\out\sources\setup.exe" -Name IsReadOnly -Value $false >> $LogDetail
+(get-date).ToString("yyyy-MM-dd HH:mm:ss") + " |     Set \out\sources\setup.exe file attributes to read-write" >> $LogFile
+
+Write-Host "     Copying updated setup.exe to \out\sources" -ForegroundColor Blue
+(get-date).ToString("yyyy-MM-dd HH:mm:ss") + " |     Copy updated setup.exe to .\out\sources Started" >> $LogFile
+robocopy c:\mediarefresh\mounted\sources c:\mediarefresh\out\sources setup.exe | out-null
+(get-date).ToString("yyyy-MM-dd HH:mm:ss") + " |     Copy updated setup.exe to .\out\sources Completed" >> $LogFile
+
+Write-Host "     Saving and dismounting boot.wim" -ForegroundColor Blue
+Write-Host "          Note: This process may take several minutes to complete." -ForegroundColor Cyan
+(get-date).ToString("yyyy-MM-dd HH:mm:ss") + " |     Dismount-WindowsImage boot.wim Started" >> $LogFile
+Dismount-WindowsImage -path "c:\mediarefresh\mounted" -save -CheckIntegrity -LogLevel 3 >> $LogDetail
+(get-date).ToString("yyyy-MM-dd HH:mm:ss") + " |     Dismount-WindowsImage boot.wim Completed" >> $LogFile
+
+Write-Host "     Removing \Mounted folder" -ForegroundColor Blue
+(get-date).ToString("yyyy-MM-dd HH:mm:ss") + " |     Removing .\mounted folder" >> $LogFile
+RD c:\mediarefresh\mounted | out-null
+(get-date).ToString("yyyy-MM-dd HH:mm:ss") + " |     .\mounted folder removed" >> $LogFile
+
+Write-Host "     Copying updated boot.wim to \out\sources" -ForegroundColor Blue
+(get-date).ToString("yyyy-MM-dd HH:mm:ss") + " |     Copy boot.wim to .\out\sources Started" >> $LogFile
+robocopy c:\mediarefresh\wim c:\mediarefresh\out\sources boot.wim | out-null
+(get-date).ToString("yyyy-MM-dd HH:mm:ss") + " |     Copy boot.wim to .\out\sources Completed" >> $LogFile
+(get-date).ToString("yyyy-MM-dd HH:mm:ss") + " | Boot.wim Update Completed" >> $LogFile
+Write-Host "Updating Boot.wim Complete" -ForegroundColor Blue
+
+Write-Host "Updating Install.wim" -ForegroundColor Blue
+(get-date).ToString("yyyy-MM-dd HH:mm:ss") + " | Install.wim Update Started" >> $LogFile
+Write-Host "     Preparing to mount install.wim" -ForegroundColor Blue
+
+(get-date).ToString("yyyy-MM-dd HH:mm:ss") + " |     Checking for existing .\Mounted folder" >> $LogFile
+
+if ( -not (Test-Path -Path 'c:\MediaRefresh\mounted' -PathType Container)) { 
+   (get-date).ToString("yyyy-MM-dd HH:mm:ss") + " |     Create .\Mounted folder" >> $LogFile
+   MD c:\MediaRefresh\mounted  >> $LogDetail
+   (get-date).ToString("yyyy-MM-dd HH:mm:ss") + " |     Created .\Mounted folder" >> $LogFile
+   }
+   else {
+   (get-date).ToString("yyyy-MM-dd HH:mm:ss") + " |     .\Mounted folder already existed" >> $LogFile 
+   }
+
+Write-Host "     Setting read-write attribute on install.wim" -ForegroundColor Blue
+(get-date).ToString("yyyy-MM-dd HH:mm:ss") + " |     Setting install.wim file attributes to read-write" >> $LogFile
+Set-ItemProperty -Path "c:\mediarefresh\wim\install.wim" -Name IsReadOnly -Value $false | out-null
+(get-date).ToString("yyyy-MM-dd HH:mm:ss") + " |     Set install.wim file attributes to read-write" >> $LogFile
+
+Write-Host "     Mounting install.wim" -ForegroundColor Blue
+Write-Host "          Note: This process may take several minutes to complete." -ForegroundColor Cyan
+(get-date).ToString("yyyy-MM-dd HH:mm:ss") + " |     Mount-WindowsImage install.wim Started" >> $LogFile
+Mount-WindowsImage -ImagePath "c:\mediarefresh\wim\install.wim" -Index 2 -Path "c:\mediarefresh\Mounted" >> $LogDetail
+(get-date).ToString("yyyy-MM-dd HH:mm:ss") + " |     Mount-WindowsImage install.wim Completed" >> $LogFile
+
+
+Write-Host "     Installing Drivers" -ForegroundColor Blue
+(get-date).ToString("yyyy-MM-dd HH:mm:ss") + " |     Add-WindowsDrivers to install.wim Started" >> $LogFile
+Add-WindowsDriver -Path "c:\mediarefresh\mounted" -Driver "c:\mediarefresh\drivers" -Recurse  >> $LogDetail
+(get-date).ToString("yyyy-MM-dd HH:mm:ss") + " |     Add-WindowsDrivers to install.wim Completed" >> $LogFile
+
+Write-Host "     Creating folder \Windows\Setup\Scripts" -ForegroundColor Blue
+(get-date).ToString("yyyy-MM-dd HH:mm:ss") + " |     Checking for existing \windows\setup\scripts folder" >> $LogFile
+if ( -not (Test-Path -Path 'c:\mediarefresh\mounted\windows\setup\scripts' -PathType Container)) {
+   (get-date).ToString("yyyy-MM-dd HH:mm:ss") + " |     Create \windows\setup\scripts folder" >> $LogFile
+   MD c:\mediarefresh\mounted\windows\setup\scripts >> $LogDetail
+   (get-date).ToString("yyyy-MM-dd HH:mm:ss") + " |     Created \windows\setup\scripts folder" >> $LogFile
+   }
+   else {
+   (get-date).ToString("yyyy-MM-dd HH:mm:ss") + " |     \windows\setup\scripts already existed" >> $LogFile 
+   }
+
+Write-Host "     Copying Scripts to \Windows\Setup\Scripts" -ForegroundColor Blue
+(get-date).ToString("yyyy-MM-dd HH:mm:ss") + " |     Copy scripts to \windows\setup\scripts Started" >> $LogFile
+robocopy c:\mediarefresh\scripts c:\mediarefresh\mounted\windows\setup\scripts *.cmd | out-null
+(get-date).ToString("yyyy-MM-dd HH:mm:ss") + " |     Copy scripts to \windows\setup\scripts Completed" >> $LogFile
+
+Write-Host "     Installing Servicing Stack Update" -ForegroundColor Blue
+(get-date).ToString("yyyy-MM-dd HH:mm:ss") + " |     Add-WindowsPackage SSU to install.wim Started" >> $LogFile
+Add-WindowsPackage -Path "c:\mediarefresh\mounted" -PackagePath "c:\mediarefresh\packages\SSU"  >> $LogDetail
+(get-date).ToString("yyyy-MM-dd HH:mm:ss") + " |     Add-WindowsPackage SSU to install.wim Completed" >> $LogFile 
+
+Write-Host "     Installing Latest Cumulative Update" -ForegroundColor Blue
+Write-Host "          Note: This process may take several minutes to complete." -ForegroundColor Cyan
+(get-date).ToString("yyyy-MM-dd HH:mm:ss") + " |     Add-WindowsPackage LCU to install.wim Started" >> $LogFile 
+Add-WindowsPackage -Path "c:\mediarefresh\mounted" -PackagePath "c:\mediarefresh\packages\LCU" >> $LogDetail
+(get-date).ToString("yyyy-MM-dd HH:mm:ss") + " |     Add-WindowsPackage LCU to install.wim Completed" >> $LogFile 
+
+Write-Host "     Saving and dismounting install.wim" -ForegroundColor Blue
+Write-Host "          Note: This process may take several minutes to complete." -ForegroundColor Cyan
+(get-date).ToString("yyyy-MM-dd HH:mm:ss") + " |     Dismount-WindowsImage install.wim Started" >> $LogFile
+Dismount-WindowsImage -path "c:\mediarefresh\mounted" -save -CheckIntegrity -LogLevel 3 >> $LogDetail
+(get-date).ToString("yyyy-MM-dd HH:mm:ss") + " |     Dismount-WindowsImage install.wim Completed" >> $LogFile
+
+Write-Host "     Removing \Mounted folder" -ForegroundColor Blue
+(get-date).ToString("yyyy-MM-dd HH:mm:ss") + " |     Removing .\mounted folder" >> $LogFile
+RD c:\mediarefresh\mounted | out-null
+(get-date).ToString("yyyy-MM-dd HH:mm:ss") + " |     .\mounted folder removed" >> $LogFile
+
+Write-Host "Updating Install.wim Complete" -ForegroundColor Blue
+(get-date).ToString("yyyy-MM-dd HH:mm:ss") + " | Install.wim Update Completed" >> $LogFile
+
+Write-Host "Splitting Install.wim" -ForegroundColor Blue
+Write-Host "     Note: This process may take several minutes to complete." -ForegroundColor Cyan
+(get-date).ToString("yyyy-MM-dd HH:mm:ss") + " | Split-WindowsImage Started" >> $LogFile
+Split-WindowsImage -ImagePath "c:\mediarefresh\wim\install.wim" -SplitImagePath "c:\mediarefresh\out\sources\install.swm" -FileSize 4000 -CheckIntegrity >> $LogDetail
+(get-date).ToString("yyyy-MM-dd HH:mm:ss") + " | Split-WindowsImage Completed" >> $LogFile
+
+Write-Host "Update Complete" -ForegroundColor Blue
+Write-Host "Copy contents of c:\mediarefresh\out to your flash drive" -ForegroundColor Blue
 ```
 
 ## Other Resources
