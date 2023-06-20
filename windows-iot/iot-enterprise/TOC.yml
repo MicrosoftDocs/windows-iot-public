@@ -43,7 +43,7 @@
   expanded: false
   items:
   - name: Overview
-    href: Deployment/Deployment-overview.md
+    href: Deployment/index.md
   - name: Update installation media
     href: Deployment/media-refresh.md
   - name: Install Apps with WinGet
