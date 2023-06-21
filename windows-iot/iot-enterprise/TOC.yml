@@ -30,13 +30,24 @@
     href: Hardware/Hardware_Requirements.md
   - name: SoCs and Custom Boards
     href: Hardware/SoCs.md
-- name: Quickstarts
-  expanded: false
-  items:
-  - name: Getting Started with Windows IoT Enterprise on Arm
+  - name: Windows IoT Enterprise on Arm64 FAQ
     href: Hardware/ArmFAQ.md
   - name: Start prototyping
     href: Hardware/Prototype.md
+- name: Tutorials
+  expanded: false
+  items:
+  - name: Setup an i.MX EVK
+    href: Tutorials\Win10-NXP-iMX.md
+- name: Deployment
+  expanded: false
+  items:
+  - name: Overview
+    href: Deployment/index.md
+  - name: Update installation media
+    href: Deployment/media-refresh.md
+  - name: Install Apps with WinGet
+    href: Deployment/install-winget-windows-iot.md
 - name: Kiosk mode
   expanded: false
   items:
