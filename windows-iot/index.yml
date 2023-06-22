@@ -113,7 +113,7 @@ conceptualContent:
         - url: https://aka.ms/IoTDistributorList
           itemType: how-to-guide
           text:  Distributor Information
-        - url: /windows/iot/iot-enterprise/hardware-guidance/hardware_requirements
+        - url: ./iot-enterprise/hardware-guidance/hardware_requirements.md
           itemType: reference
           text:  Hardware Requirements
 
