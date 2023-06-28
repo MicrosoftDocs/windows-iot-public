@@ -217,9 +217,6 @@ The media servicing environment is now set up.  Lets do a quick review.
 
 1. Use the media servicing environment created for the i.MX EVK boards to complete the refresh of the Windows 10 IoT Enterprise LTSC 2021 installation media.
 
-   > [!WARNING]
-   > The current BSP Prebuilt Binaries for the NXP i.MX EVK are Test Signed. When using `Add-WindowsDriver` in the next steps you must use the `-ForceUnsigned` attribute.
-
    1. [Update Windows Preinstallation Environment (WinPE)](../Deployment/Media-Refresh.md#update-windows-preinstallation-environment-winpe)Update Windows Preinstallation Environment (WinPE)
    1. [Update Windows 10 IoT Enterprise LTSC 2021 Image](../Deployment/Media-Refresh.md#update-windows-iot-enterprise)
    1. [Copy updated media to microSD card](../Deployment/Media-Refresh.md#copy-updated-media-to-flash-drive)
@@ -267,7 +264,7 @@ Mount-WindowsImage -ImagePath "c:\mediarefresh\wim\boot.wim" -Index 2 -Path "c:\
 
 Write-Host "     Installing Drivers" -ForegroundColor Blue
 (get-date).ToString("yyyy-MM-dd HH:mm:ss") + " |     Add-WindowsDrivers to boot.wim Started" >> $LogFile
-Add-WindowsDriver -Path "c:\mediarefresh\mounted" -Driver "c:\mediarefresh\drivers" -Recurse -ForceUnsigned>> $LogDetail
+Add-WindowsDriver -Path "c:\mediarefresh\mounted" -Driver "c:\mediarefresh\drivers" -Recurse >> $LogDetail
 (get-date).ToString("yyyy-MM-dd HH:mm:ss") + " |     Add-WindowsDrivers to boot.wim Completed" >> $LogFile
 
 Write-Host "     Installing Servicing Stack Update" -ForegroundColor Blue
