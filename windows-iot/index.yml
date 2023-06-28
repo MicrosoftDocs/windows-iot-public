@@ -19,13 +19,13 @@ metadata:
 highlightedContent:
   items:
     - title: What's new in Windows IoT Enterprise LTSC
-      itemType: overview  # controls the icon image and super-title text
+      itemType: whats-new  # controls the icon image and super-title text
       url: /windows/iot/iot-enterprise/whats-new/Windows-IoT-Enterprise-LTSC
     - title: What's new in Windows 10 IoT Enterprise, version 22H2 
-      itemType: overview
+      itemType: whats-new
       url: /windows/iot/iot-enterprise/whats-new/Windows-10-IoT-Enterprise-22H2
     - title: What's new in Windows 11 IoT Enterprise, version 22H2 
-      itemType: overview
+      itemType: whats-new
       url: /windows/iot/iot-enterprise/whats-new/Windows-11-IoT-Enterprise-22H2
     - title: Windows for IoT News
       itemType: whats-new
@@ -34,7 +34,7 @@ highlightedContent:
 productDirectory:
   items:
     - title: Windows IoT Enterprise
-      imageSrc: ./media/windows.png
+      imageSrc: /media/logos/logo_Windows.svg
       links:
         - url: /windows/iot/iot-enterprise/getting_started
           text: Overview
@@ -48,7 +48,7 @@ productDirectory:
           text: Support Lifecycle
 
     - title: Windows Server IoT
-      imageSrc: ./media/windows.png
+      imageSrc: /media/common/i_server.svg
       links:
         - url: ./server/windows-server.md
           text: Overview
@@ -60,7 +60,7 @@ productDirectory:
           text: Release Information  
 
     - title: SQL Server IoT
-      imageSrc: ./media/windows.png
+      imageSrc: /media/logos/logo_SQL.svg
       links:
         - url: https://techcommunity.microsoft.com/t5/internet-of-things-blog/announcing-sql-server-iot-2022/ba-p/3672116
           text: SQL Server IoT 2022
@@ -72,7 +72,7 @@ productDirectory:
           text:  Release Notes
 
     - title: AKS Edge Essentials
-      imageSrc: ./media/windows.png
+      imageSrc: /media/common/i_multi-connect.svg
       links:
         - url: /azure/aks/hybrid/aks-edge-overview
           text: Overview
@@ -82,7 +82,7 @@ productDirectory:
           text: How-to Guide
 
     - title: Azure IoT Edge for Linux on Windows
-      imageSrc: ./media/windows.png
+      imageSrc: /media/common/i_multi-connect.svg
       links:
         - url: /azure/iot-edge/iot-edge-for-linux-on-windows?view=iotedge-2018-06
           text: Overview
@@ -113,7 +113,7 @@ conceptualContent:
         - url: https://aka.ms/IoTDistributorList
           itemType: how-to-guide
           text:  Distributor Information
-        - url: /windows/iot/iot-enterprise/hardware-guidance/hardware_requirements
+        - url: ./iot-enterprise/hardware-guidance/hardware_requirements.md
           itemType: reference
           text:  Hardware Requirements
 
