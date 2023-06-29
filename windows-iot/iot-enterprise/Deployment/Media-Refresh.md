@@ -312,6 +312,24 @@ robocopy c:\mediarefresh\out <DriveLetter>:\ /e
 
 Where `<DriveLetter>` is the drive letter associated with your flash drive
 
+## Install Windows to the new device
+
+1. Connect the flash drive to your target device.
+1. Turn on the device and press the key that opens the boot-device selection menu for the computer, such as the Esc/F10/F12 keys. Select the option that boots the device from the flash drive.
+
+   Windows Setup starts.  Follow the instructions to install Windows
+
+   >[!TIP]
+   > You may need to consult the device manufacturer instructions to configure it for booting from the flash drive it this process does not work on your device.
+
+1. Once the initial phase of Setup is complete and your device reboots, Setup may start again from the beginning.  If Setup starts again, cancel Setup, and shut down the computer then remove the flash drive and turn on the device to continue with the next phase of Setup.
+
+   >[!TIP]
+   >If, for some reason, you encounter an error during the Setup process, please see the following articles for troubleshooting guidance.
+   >
+   > - [Deployment Troubleshooting and Log Files](/windows-hardware/manufacture/desktop/deployment-troubleshooting-and-log-files)
+   > - [Windows Setup Log Files and Event Logs](/windows-hardware/manufacture/desktop/windows-setup-log-files-and-event-logs)
+
 ## Full Script
 
 This section contains a full script that performs each of the media servicing steps in succession automatically. Before using this script, you must complete the [Prepare Media Servicing Environment](#prepare-media-servicing-environment) section of this article.  Once you're ready, copy the following PowerShell script to `c:\mediarefresh\mediarefresh.ps1.`  

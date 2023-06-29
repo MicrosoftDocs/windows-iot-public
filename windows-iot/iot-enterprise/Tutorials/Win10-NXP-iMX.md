@@ -225,7 +225,13 @@ The media servicing environment is now set up.  Lets do a quick review.
 1. Insert the microSD card into the slot on the NXP i.MX EVK board.
 1. Connect the power to the i.MX EVK and power it on to boot into the Windows setup experience.
 1. Window setup walks you through the rest of the process.
+1. Once the initial phase of Setup is complete and your device reboots, Setup may start again from the beginning.  If Setup starts again, cancel Setup, and shut down the computer then remove the microSD card and turn on the device to continue with the next phase of Setup.
 
+   >[!TIP]
+   >If, for some reason, you encounter an error during the Setup process, please see the following articles for troubleshooting guidance.
+   >
+   > - [Deployment Troubleshooting and Log Files](/windows-hardware/manufacture/desktop/deployment-troubleshooting-and-log-files)
+   > - [Windows Setup Log Files and Event Logs](/windows-hardware/manufacture/desktop/windows-setup-log-files-and-event-logs)
 ## Full Script
 
 This section contains a full script that performs each of the steps from  [Update Windows Preinstallation Environment (WinPE)](../Deployment/Media-Refresh.md#update-windows-preinstallation-environment-winpe)Update Windows Preinstallation Environment (WinPE) and [Update Windows 10 IoT Enterprise LTSC 2021 Image](../Deployment/Media-Refresh.md#update-windows-iot-enterprise) in succession automatically. Before using this script, you must complete the [Prepare Media Servicing Environment](#prepare-media-servicing-environment) section of this article.  Once you're ready, copy the following PowerShell script to `c:\mediarefresh\mediarefresh.ps1.`  
