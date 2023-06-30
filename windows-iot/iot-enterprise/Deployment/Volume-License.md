@@ -20,26 +20,41 @@ keywords: IoT Enterprise, Installation
 
 Windows IoT Enterprise LTSC is now available through [Volume Licensing](https://www.microsoft.com/licensing/how-to-buy/how-to-buy) in addition to original equipment manufacturer preinstallation on a specialized device. Volume licensing is available to customers who purchase software under various volume programs (such as [Open](https://www.microsoft.com/Licensing/licensing-programs/open-license) and [Select](https://www.microsoft.com/Licensing/licensing-programs/select)).  Licenses for Windows IoT Enterprise provided through volume licensing cover upgrades only.
 
+Volume activation provides two ways to complete volume activations. Either or both key types can be used by customers to activate systems in their organization:
+
+- [Key Management Service (KMS)](/windows/deployment/volume-activation/activate-windows-10-clients-vamt#how-key-management-service-works) allows organizations to activate systems within their own network.
+- [Multiple Activation Key (MAK)](/windows/deployment/volume-activation/activate-windows-10-clients-vamt#how-multiple-activation-key-works) activates systems on a one-time basis, using Microsoft hosted activation services.
+
+For more information, see [Plan for Volume Activation](/windows/deployment/volume-activation/plan-for-volume-activation-client).
+
 > [!NOTE]
 > Windows IoT Enterprise LTSC is intended for use for fixed-function specialized devices only and cannot be used as a replacement of Windows desktop for general purpose computing.
+
+## Prerequisites
+
+To deploy Windows 10 IoT Enterprise LTSC 2021 with volume activation you need the following assets which can be obtained by your [Volume License Administrator](/licensing/administrator-faq), typically associated with the procurement process.
+
+> [!div class="checklist"]
+>
+> - Windows 10 Enterprise LTSC 2021 (x64) installation media or ISO
+> - Multiple Activation Key (MAK) if you are not using an on-prem Key Management Service (KMS)
 
 ## Getting Started
 
 In this section, you install **Windows 10 Enterprise LTSC 2021** then transform it into **Windows 10 IoT Enterprise LTSC 2021** using a 5-by-5 volume activation key associated with the activation model that best suits your needs.
 
->[!TIP]
->If you are new to volume activation and need a little more background before proceeding, see see [Plan for volume activation](/windows/deployment/volume-activation/plan-for-volume-activation-client).
-
 1. **Install Windows 10 Enterprise LTSC 2021**</br>
    Using the media for Windows 10 Enterprise LTSC 2021 acquired through your Volume License Service Center or Visual Studio Subscription
 
-1. **Install Latest Cumulative Updates**
-   The activation keys required to enable Windows 10 IoT Enterprise LTSC 2021 requires the installation of 2023-05 Cumulative update or a more recent successor.
+1. **Install Latest Cumulative Updates**</br>
+   The activation keys for Windows 10 IoT Enterprise LTSC 2021 require the installation of 2023-05 Cumulative update (10.0.19044.2905) or a more recent successor.
    - Select **Start**
    - Select **Settings**
    - Select **Windows Update**
    - Select **Check for Updates**
    - Install all available updates
+
+   Alternatively, you can install the update and its prerequisites manually using the 2023-05 Cumulative Update for Windows 10 Version 21H2 or a more recent successor.  For more information about this update, see [KB5026361](https://support.microsoft.com/topic/may-9-2023-kb5026361-os-builds-19042-2965-19044-2965-and-19045-2965-3edafffe-c3cc-4010-af43-2097c84c9437).
 
 1. **Start PowerShell with Administrator privileges.**</br>
    You use this instance of PowerShell to verify the target operating system meets requirements then perform the transformation.  
@@ -105,9 +120,23 @@ In this section, you install **Windows 10 Enterprise LTSC 2021** then transform 
 
 ## Related articles
 
-- [Plan for volume activation](/windows/deployment/volume-activation/plan-for-volume-activation-client)
-- [Volume Activation for Windows 10](/windows/deployment/volume-activation/volume-activation-windows-10)
-- [Monitor activation](/windows/deployment/volume-activation/monitor-activation-client)
-- [Using the Volume Activation Management Tool (VAMT)](/windows/deployment/volume-activation/use-the-volume-activation-management-tool-client)
-- [Key Management Services (KMS) client activation and product keys](/windows-server/get-started/kms-client-activation-keys)
-- [Slmgr.vbs Command Line Utility](/windows-server/get-started/activation-slmgr-vbs-options)
+### Deployment
+
+- [Deployment - Plan for Volume Activation](/windows/deployment/volume-activation/plan-for-volume-activation-client)
+- [Deployment - Volume Activation for Windows 10](/windows/deployment/volume-activation/volume-activation-windows-10)
+- [Deployment - Monitor Activation Count](/windows/deployment/volume-activation/monitor-activation-client)
+- [Deployment - Slmgr.vbs Command Line Activation Utility](/windows-server/get-started/activation-slmgr-vbs-options)
+- [Deployment - Volume Activation Management Tool (VAMT)](/windows/deployment/volume-activation/use-the-volume-activation-management-tool-client)
+- [Deployment - KMS client activation and product keys](/windows-server/get-started/kms-client-activation-keys)
+- [Using Edition Configuration and Product ID Files during Windows Installation](/windows-hardware/manufacture/desktop/windows-setup-edition-configuration-and-product-id-files--eicfg-and-pidtxt)
+
+### Licensing & Procurement
+
+- [Volume Licensing - Overview](https://www.microsoft.com/licensing/default)
+- [Volume Licensing - Product activation and key information](https://licensingapps.microsoft.com/product-activation)
+- [Volume License Service Center (VLSC) - FAQ](/licensing/vlsc-faqs-home-page)
+- [Volume License Service Center (VLSC) - Downloads FAQ](/licensing/downloads-faq)
+- [Volume License Service Center (VLSC) - Product Keys FAQ](/licensing/products-keys-faq)
+- [Microsoft 365 Admin Center - Help Portal](/microsoft-365/admin)
+- [Microsoft 365 Admin Center - Volume License Product Keys FAQ](/microsoft-365/commerce/licenses/product-keys-faq)
+- [Microsoft 365 Admin Center - Downloads FAQ](/microsoft-365/commerce/licenses/downloads-faq)
