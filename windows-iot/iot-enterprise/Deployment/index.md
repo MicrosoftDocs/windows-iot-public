@@ -24,3 +24,5 @@ This article provides an index for the Windows IoT Enterprise deployment related
 | [Install apps with WinGet](install-winget-windows-iot.md) | Using WinGet to install applications from the Windows Store from command line. |
 | [Updating installation media](Media-Refresh.md) | Create a media servicing environment and walk through applying servicing updates and third party drivers to installation media. |
 | [Deployment Lab](/windows-hardware/manufacture/desktop/iot-ent-overview)| This is a lab exercise which covers how to build, customize and deploy Windows 10 IoT Enterprise image |
+| Windows Update | Windows provides a lot of flexibility in how devices scan and receive updates. To learn how to configure Windows update behavior, see [Scanning for updates](/windows/deployment/update/waas-wu-settings), [Installing updates](/windows/deployment/update/waas-wu-settings), and [Manage device restarts after updates](/windows/deployment/update/waas-restart) |
+| [Microsoft Edge update policies](/deployedge/microsoft-edge-update-policies) | Microsoft Edge provides policies to control how and when Microsoft Edge is updated. |
