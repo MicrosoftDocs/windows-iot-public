@@ -20,7 +20,7 @@ keywords: IoT Enterprise, Installation
 
 Windows IoT Enterprise LTSC is now available through [Volume Licensing](https://www.microsoft.com/licensing/how-to-buy/how-to-buy) in addition to original equipment manufacturer preinstallation on a specialized device. Volume licensing is available to customers who purchase software under various volume programs (such as [Open](https://www.microsoft.com/Licensing/licensing-programs/open-license) and [Select](https://www.microsoft.com/Licensing/licensing-programs/select)).  Licenses for Windows IoT Enterprise provided through volume licensing cover upgrades only.
 
-Volume activation provides two ways to complete volume activations. Either or both key types can be used by customers to activate systems in their organization:
+Volume activation provides two ways to complete volume activations. Customers may use either key types to activate systems in their organization:
 
 - [Key Management Service (KMS)](/windows/deployment/volume-activation/activate-windows-10-clients-vamt#how-key-management-service-works) allows organizations to activate systems within their own network.
 - [Multiple Activation Key (MAK)](/windows/deployment/volume-activation/activate-windows-10-clients-vamt#how-multiple-activation-key-works) activates systems on a one-time basis, using Microsoft hosted activation services.
@@ -32,7 +32,7 @@ For more information, see [Plan for Volume Activation](/windows/deployment/volum
 
 ## Prerequisites
 
-To deploy Windows 10 IoT Enterprise LTSC 2021 with volume activation you need the following assets which can be obtained by your [Volume License Administrator](/licensing/administrator-faq), typically associated with the procurement process.
+To deploy Windows 10 IoT Enterprise LTSC 2021 with volume activation you need the following assets from your [Volume License Administrator](/licensing/administrator-faq), typically associated with the procurement process.
 
 > [!div class="checklist"]
 >
