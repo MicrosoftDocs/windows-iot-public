@@ -25,8 +25,16 @@ The goal of this specification is to enable OEMs, ODMs, SoC vendors, and other c
 
 This specification doesn't provide compatibility and certification requirements for devices and computers that run Windows IoT Enterprise or implementation guidance for exceptional user experiences.
 
-
 ## Hardware Requirements
+
+| Topic | Description |
+| ----- | ----------- |
+| Memory | Devices that run Windows IoT Enterprise must meet the following [RAM requirements](/windows-hardware/design/minimum/minimum-hardware-requirements-overview#32-memory). |
+| Storage | Devices that run Windows IoT Enterprise must include a storage device that meets the following [size requirements](/windows-hardware/design/minimum/minimum-hardware-requirements-overview#331-storage-device-size).  To achieve the minimum storage requirements, review how to [optimize a Windows IoT Enterprise image](/windows-hardware/manufacture/desktop/iot-ent-optimize-images). |
+| Display | Display size requirements don't apply to Windows IoT Enterprise. |
+| Graphics | Devices that run Windows IoT Enterprise **and** require hardware accelerated graphics, must include a GPU that supports DirectX 9 or later. |
+| Networking | It's recommended that devices that run Windows IoT Enterprise include at least one network connectivity option, such as Wi-Fi or an Ethernet adapter. |
+| Trusted Platform Module (TPM) | While TPM requirements are highly encouraged for Windows 10 IoT Enterprise, it isn't required. The use of a TPM for Windows 10 IoT Enterprise devices is determined based on the usage and security requirements of each device.  For additional information about TPM, see [TPM Requirements](/windows-hardware/design/minimum/minimum-hardware-requirements-overview#37-trusted-platform-module-tpm), [Trusted Platform Module Technology Overview](/windows/security/information-protection/tpm/trusted-platform-module-overview), and [TPM Recommendations](/windows/security/information-protection/tpm/tpm-recommendations) |
 
 Recommended [hardware requirements](/windows-hardware/design/minimum/minimum-hardware-requirements-overview).
 
