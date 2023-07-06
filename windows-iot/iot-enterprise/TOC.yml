@@ -28,6 +28,8 @@
   items:
   - name: Hardware Requirements
     href: Hardware/Hardware_Requirements.md
+  - name: Processor Requirements
+    href: Hardware/Processor_Requirements.md
   - name: SoCs and Custom Boards
     href: Hardware/SoCs.md
   - name: Windows IoT Enterprise on Arm64 FAQ
