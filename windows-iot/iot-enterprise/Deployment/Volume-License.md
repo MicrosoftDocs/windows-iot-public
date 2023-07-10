@@ -135,11 +135,10 @@ In this section, you install **Windows 10 Enterprise LTSC 2021** then transform 
 
 ### Licensing & Procurement
 
-- [Volume Licensing - Overview](https://www.microsoft.com/licensing/default)
+For organizations purchasing IoT Enterprise LTSC through a via volume license agreement, consult your [Volume License Administrator](/licensing/administrator-faq) for assistance. The software download and volume license keys are found in the Downloads and Keys section of Volume Licensing Service Center or Microsoft 365 admin center.
+
 - [Volume Licensing - Product activation and key information](https://licensingapps.microsoft.com/product-activation)
-- [Volume License Service Center (VLSC) - FAQ](/licensing/vlsc-faqs-home-page)
 - [Volume License Service Center (VLSC) - Downloads FAQ](/licensing/downloads-faq)
 - [Volume License Service Center (VLSC) - Product Keys FAQ](/licensing/products-keys-faq)
-- [Microsoft 365 Admin Center - Help Portal](/microsoft-365/admin)
-- [Microsoft 365 Admin Center - Volume License Product Keys FAQ](/microsoft-365/commerce/licenses/product-keys-faq)
-- [Microsoft 365 Admin Center - Downloads FAQ](/microsoft-365/commerce/licenses/downloads-faq)
+- [Microsoft 365 admin center - Volume License Product Keys FAQ](/microsoft-365/commerce/licenses/product-keys-faq)
+- [Microsoft 365 admin center - Downloads FAQ](/microsoft-365/commerce/licenses/downloads-faq)
