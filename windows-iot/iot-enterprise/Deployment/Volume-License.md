@@ -2,7 +2,7 @@
 title: Windows IoT Enterprise LTSC in Volume License
 author: TerryWarwick
 ms.author: twarwick
-ms.date: 06/26/2023
+ms.date: 07/10/2023
 ms.topic: article
 ms.prod: windows-iot
 ms.technology: iot
@@ -21,7 +21,7 @@ keywords: IoT Enterprise, Installation
 
 ## Introduction
 
-Windows IoT Enterprise LTSC is now available through [Volume Licensing](https://www.microsoft.com/licensing/how-to-buy/how-to-buy) in addition to original equipment manufacturer preinstallation on a specialized device. Volume licensing is available to customers who purchase software under various volume programs (such as [Open](https://www.microsoft.com/Licensing/licensing-programs/open-license) and [Select](https://www.microsoft.com/Licensing/licensing-programs/select)).  Licenses for Windows IoT Enterprise provided through volume licensing cover upgrades only.
+Windows IoT Enterprise LTSC is now available through [Volume Licensing](/partner-center/support-resources-licensing) in addition to original equipment manufacturer preinstallation on a specialized device. Volume licensing is available to customers who purchase software under various volume programs (such as [Open](https://www.microsoft.com/Licensing/licensing-programs/open-license) and [Select](https://www.microsoft.com/Licensing/licensing-programs/select)).  Licenses for Windows IoT Enterprise provided through volume licensing cover upgrades only.
 
 Volume activation provides two ways to complete volume activations. Customers may use either key types to activate systems in their organization:
 
