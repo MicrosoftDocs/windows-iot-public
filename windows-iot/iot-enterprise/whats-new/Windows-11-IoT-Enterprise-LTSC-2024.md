@@ -1,6 +1,6 @@
 ---
-title: What's new in Windows 10 IoT Enterprise LTSC 2021
-description: Learn what's new in Windows 10 Enterprise LTSC 2021.
+title: What's new in Windows 11 IoT Enterprise LTSC 2024
+description: Learn what's new in Windows 11 IoT Enterprise LTSC 2024.
 ms.prod: windows-iot
 author: TerryWarwick
 ms.author: twarwick
@@ -9,13 +9,13 @@ ms.technology: iot
 ms.date: 3/10/2023
 ---
 
-# What's new in Windows 10 Enterprise LTSC 2021
+# What's new in Windows 11 Enterprise LTSC 2024
 
 ## Overview
 
-This article lists new and updated features that are of interest to device makers and IT Pros working with Windows 10 IoT Enterprise LTSC 2021, compared to Windows 10 IoT Enterprise LTSC 2019. Windows 10 IoT Enterprise LTSC will continue to offer a 10-year support lifecycle.
+This article lists new and updated features that are of interest to device makers and IT Pros working with Windows 11 IoT Enterprise LTSC 2024, compared to Windows 10 IoT Enterprise LTSC 2021. Windows 11 IoT Enterprise 2024 LTSC will continue to offer a 10-year support lifecycle.
 
-This article lists new and updated features and content that is of interest to IT Pros for Windows 10 Enterprise LTSC 2021, compared to Windows 10 Enterprise LTSC 2019 (LTSB). For a brief description of the LTSC servicing channel and associated support, see [Windows IoT Enterprise LTSC](Windows-IoT-Enterprise-LTSC.md).
+For a brief description of the LTSC servicing channel and associated support, see [Windows IoT Enterprise LTSC](Windows-IoT-Enterprise-LTSC.md).
 
 > [!NOTE]
 > Features in Windows 10 Enterprise LTSC 2021 are equivalent to Windows 10, version 21H2.
