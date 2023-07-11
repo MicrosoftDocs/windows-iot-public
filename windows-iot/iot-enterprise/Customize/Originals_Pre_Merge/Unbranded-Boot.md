@@ -13,7 +13,7 @@ ms.topic: article
 
 
 ---
-# Unbranded Boot
+# XUnbranded Boot
 
 You can suppress Windows elements that appear when Windows starts or resumes and can suppress the crash screen when Windows encounters an error that it cannot recover from. This feature is known as Unbranded Boot.
 

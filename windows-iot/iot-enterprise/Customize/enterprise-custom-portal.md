@@ -5,8 +5,10 @@ MSHAttr:
 - 'PreferredSiteName:MSDN'
 - 'PreferredLib:/library/windows/hardware'
 ms.assetid: dac59fd3-f5d0-4d02-ac89-0caf7fe3c9dd
-
-
+author: TerryWarwick
+ms.author: twarwick
+ms.prod: windows-iot
+ms.technology: iot
 ms.date: 04/30/2018
 ms.topic: article
 

@@ -13,7 +13,7 @@ ms.topic: article
 
 
 ---
-# Shell Launcher
+# XShell Launcher
 
 Using Shell Launcher, you can configure a kiosk device to use almost any application or executable as your custom shell. The application that you specify replaces the default shell (explorer.exe) that usually runs when a user logs on.
 
