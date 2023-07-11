@@ -18,7 +18,7 @@ The following article reviews the various features that are available to assist 
 
 Compact OS installs the operating system files as compressed files. Compact OS is supported on both UEFI-based and BIOS-based devices. When running Compact OS, Windows update can replace or remove individual files as needed to help maintain the drive footprint size over time.
 
-Learn more about [how to enable Compact OS](/windows-hardware/manufacture/desktop/iot-ent-optimize-images).
+Learn more about [how to enable Compact OS](./iot-ent-optimize-images.md).
 
 ## Single-instancing of PPKGs
 
@@ -28,15 +28,15 @@ While single-instancing is supported on both solid-state drives and rotational d
 
 ## Remove Features On Demand (FoD) Packages
 
-Removing all [preinstalled FoDs](/windows-hardware/manufacture/desktop/features-on-demand-v2--capabilities) can save you more than 300 MB of disk space, review [how to remove FoDs](/windows-hardware/manufacture/desktop/iot-ent-optimize-images#remove-features-on-demand-fod-packages).
+Removing all [preinstalled FoDs](/windows-hardware/manufacture/desktop/features-on-demand-v2--capabilities) can save you more than 300 MB of disk space, review [how to remove FoDs](./iot-ent-optimize-images.md#remove-features-on-demand-fod-packages).
 
 ## Clean up Component Store
 
-After installing an update, the old versions of OS files are still kept in the component store for a certain period time. You can use the DISM.exe tool to [clean up the store](/windows-hardware/manufacture/desktop/iot-ent-optimize-images?#clean-up-component-store) immediately.
+After installing an update, the old versions of OS files are still kept in the component store for a certain period time. You can use the DISM.exe tool to [clean up the store](./iot-ent-optimize-images.md?#clean-up-component-store) immediately.
 
 ## Disable Hibernation
 
-Hibernation creates hiberfil.sys file, whose max size could be as large as the physical RAM. With 16 GB physical RAM, hiberfil.sys file could take up about 16 GB of your disk space. If your device doesn't need hibernation, you can [disable it](/windows-hardware/manufacture/desktop/iot-ent-optimize-images?#disable-hibernation).
+Hibernation creates hiberfil.sys file, whose max size could be as large as the physical RAM. With 16 GB physical RAM, hiberfil.sys file could take up about 16 GB of your disk space. If your device doesn't need hibernation, you can [disable it]./iot-ent-optimize-images.md?#disable-hibernation).
 
 ## Disable the Page File
 
