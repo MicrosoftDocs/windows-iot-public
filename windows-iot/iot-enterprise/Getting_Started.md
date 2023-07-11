@@ -80,7 +80,7 @@ Articles include:
 * [Put in Place Device Safeguards](./Customize/Device-Safeguards.md)
 * [Use a Keyboard Filter](./Customize/Keyboard-Filter.md)
 * [Explore the Unified Write Filter](./Customize/Unified-Write-Filter.md)
-* [Enable Hibernate Once, Resume Many (HORM)](./Customize/HORM.md)
+* [Enable Hibernate Once, Resume Many (HORM)](./Customize/hibernate-once-resume-many-horm.md)
 
 ### Branding Features
 

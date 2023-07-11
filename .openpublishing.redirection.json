@@ -171,9 +171,16 @@
     {
         "source_path": "Windows-iot/product-family/product-lifecycle.md",
         "redirect_url": "Windows-iot/iot-enterprise/whats-new/release-history.md"
+    },
+
+    {
+        "source_path": "Windows-iot/iot-enterprise/customize/horm.md",
+        "redirect_url": "Windows-iot/iot-enterprise/customize/hibernate-once-resume-many-horm.md"
+    },
+
+    {
+        "source_path": "Windows-iot/iot-enterprise/customize/keyboard-filter.md",
+        "redirect_url": "Windows-iot/iot-enterprise/customize/keyboardfilter.md"
     }
-
-
-
 ]
 }

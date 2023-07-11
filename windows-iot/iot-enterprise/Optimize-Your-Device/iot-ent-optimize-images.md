@@ -16,7 +16,7 @@ Windows 10 IoT Enterprise is constantly improving by adding features, like Windo
 
 Windows 10 introduced new features that take two separate and independent approaches to reduce the OS footprint:
 
-- The [Compact OS](compact-os.md) feature, when enabled, compresses the files for the entire operating system and lets you run it from the compressed files.  
+- The [Compact OS](/windows-hardware/manufacture/desktop/compact-os) feature, when enabled, compresses the files for the entire operating system and lets you run it from the compressed files.  
 - The recovery enhancement feature removed the requirement for a separate static recovery image for system reset.  
 
 These two features, on a typical 64-bit Windows system, saves around 6 GB disk space.  This topic focuses on the Compact OS feature in Windows 10 and tell you how to compress the OS files to save disk space, as well as share some best practices to help further reduce image footprint.  
@@ -33,7 +33,7 @@ Windows 10 Compact OS is the evolution of WIMBoot. Similar to WIMBoot, Compact O
 
 ### Using the Compact OS feature
 
-The Compact OS feature can be enabled while deploying Windows or at runtime after Windows is installed. You can enable the Compact OS feature in a couple of ways. Below lists the most common methods. You can check [this page](compact-os.md) for a complete list of methods to deploy Compact OS feature.
+The Compact OS feature can be enabled while deploying Windows or at runtime after Windows is installed. You can enable the Compact OS feature in a couple of ways. Below lists the most common methods. You can check [this page](/windows-hardware/manufacture/desktop/compact-os) for a complete list of methods to deploy Compact OS feature.
 
 #### Deploy Compact OS using a WIM file
 
@@ -98,7 +98,7 @@ In addition to the Windows ADK, you can use the [diskspd](https://gallery.techne
 
 ### Best practices for using Compact OS and UWF
 
-[Unified Write Filter (UWF)](/windows-hardware/customize/enterprise/unified-write-filter) is an optional Windows 10 IoT Enterprise feature that helps to protect your drives by intercepting and redirecting any writes to the drive (e.g. settings changes and saved data) to a virtual overlay. The virtual overlay is a temporary location that is usually cleared during a reboot or when a guest user logs off. When enabling both Compact OS and UWF on a device, you need to consider the order of enabling these two features to make sure both features work properly:
+[Unified Write Filter (UWF)](../Customize/Unified-Write-Filter.md) is an optional Windows 10 IoT Enterprise feature that helps to protect your drives by intercepting and redirecting any writes to the drive (e.g. settings changes and saved data) to a virtual overlay. The virtual overlay is a temporary location that is usually cleared during a reboot or when a guest user logs off. When enabling both Compact OS and UWF on a device, you need to consider the order of enabling these two features to make sure both features work properly:
 
 - Enable/Disable Compact OS when UWF is disabled. Enabling or disabling Compact OS means compressing/decompressing the system files.  Since UWF intercepts and redirects any writes to the driver, enabling/disabling Compact OS when UWF is enabled will inflate the overlay and, in many cases, fill the overlay so the system no longer works.  This is no different than changing a lot of files on a regular system with UWF enabled.
 - For deployment, the sequence of enabling Compact OS and UWF is to first enable CompactOS and then enable UWF.
@@ -110,11 +110,11 @@ Consider the following actions to further reduce the disk footprint and keep dis
 
 ### Single Instancing of PPKGs
 
-Enable Single-instancing for LoB apps. Single-instancing allows you to run your LoB apps directly from the compressed provisioning package.  For more details about single-instancing, check the [Single-instancing of provisioning packages](./compact-os.md#single-instancing-of-provisioning-packages).
+Enable Single-instancing for LoB apps. Single-instancing allows you to run your LoB apps directly from the compressed provisioning package.  For more details about single-instancing, check the [Single-instancing of provisioning packages](/windows-hardware/manufacture/desktop/compact-os#single-instancing-of-provisioning-packages).
 
 ### Remove Features On Demand (FoD) Packages
 
-Review [preinstalled FoDs](features-on-demand-v2--capabilities.md), uninstall unused FoDs, or not pre-install unwanted FoDs.
+Review [preinstalled FoDs](/windows-hardware/manufacture/desktop/features-on-demand-v2--capabilities), uninstall unused FoDs, or not pre-install unwanted FoDs.
 
 Based on Windows 10 IoT Enterprise 2019 LTSC, preinstalled FoDs packages are:
 
@@ -133,7 +133,7 @@ Microsoft-Windows-LanguageFeatures-Speech-en-us-Package~31bf3856ad364e35~amd64~~
 Microsoft-Windows-LanguageFeatures-TextToSpeech-en-us-Package~31bf3856ad364e35~amd64~~10.0.17763.1
 ```
 
-Please note that the bottom 5 [Language Feature FoD packages](features-on-demand-language-fod.md) will be automatically reinstalled after uninstallation unless the following scheduled task is disabled:
+Please note that the bottom 5 [Language Feature FoD packages](/windows-hardware/manufacture/desktop/features-on-demand-language-fod.md) will be automatically reinstalled after uninstallation unless the following scheduled task is disabled:
 
 ```cmd
 \Microsoft\Windows\LanguageComponentsInstaller\Installation
@@ -160,7 +160,7 @@ Dism.exe /online /Cleanup-Image /StartComponentCleanup /ResetBase
 >[!Note]
 >After cleaning up the component store with the ResetBase option, you will no longer be able to uninstall any of the previously installed updates.  The ResetBase option freed up additional 110MB of disk space on the reference update.
 
-See [Clean Up the WinSxS Folder](./clean-up-the-winsxs-folder.md) for more details.
+See [Clean Up the WinSxS Folder](/windows-hardware/manufacture/desktop/clean-up-the-winsxs-folder.md) for more details.
 
 ### Disable Hibernation
 
@@ -201,7 +201,7 @@ Remove specific drivers from the image:
 Dism.exe /Image:c:\offline /Remove-Driver /Driver:OEM1.inf /Driver:OEM2:inf
 ```
 
-See [add and remove drivers](./add-and-remove-drivers-to-an-offline-windows-image.md) to learn more about adding and removing drivers.
+See [add and remove drivers](/windows-hardware/manufacture/desktop//add-and-remove-drivers-to-an-offline-windows-image.md) to learn more about adding and removing drivers.
 
 ### Additional File Compression
 
@@ -241,6 +241,6 @@ The above guidelines may help you optimize your image and reduce the disk footpr
 | Total |	11GB |  	5.8GB |
 
 >[!note]
->This minimal baseline was configured through removing all preinstalled FoD packages, disabling the page file, removing WinRE, and enabling Compact OS. It was captured on a virtual machine with minimum drivers. The actual size for drivers could vary per devices. You also need to reserve additonal space for taking updates.  
+>This minimal baseline was configured through removing all preinstalled FoD packages, disabling the page file, removing WinRE, and enabling Compact OS. It was captured on a virtual machine with minimum drivers. The actual size for drivers could vary per devices. You also need to reserve additional space for taking updates.  
 
 Once you have created a final image and deploy to your target device, we recommend that you thoroughly test the scenarios to ensure that your device provides a good user experience.
