@@ -133,7 +133,7 @@ Microsoft-Windows-LanguageFeatures-Speech-en-us-Package~31bf3856ad364e35~amd64~~
 Microsoft-Windows-LanguageFeatures-TextToSpeech-en-us-Package~31bf3856ad364e35~amd64~~10.0.17763.1
 ```
 
-Please note that the bottom 5 [Language Feature FoD packages](/windows-hardware/manufacture/desktop/features-on-demand-language-fod.md) will be automatically reinstalled after uninstallation unless the following scheduled task is disabled:
+Please note that the bottom 5 [Language Feature FoD packages](/windows-hardware/manufacture/desktop/features-on-demand-language-fod) will be automatically reinstalled after uninstallation unless the following scheduled task is disabled:
 
 ```cmd
 \Microsoft\Windows\LanguageComponentsInstaller\Installation
@@ -160,7 +160,7 @@ Dism.exe /online /Cleanup-Image /StartComponentCleanup /ResetBase
 >[!Note]
 >After cleaning up the component store with the ResetBase option, you will no longer be able to uninstall any of the previously installed updates.  The ResetBase option freed up additional 110MB of disk space on the reference update.
 
-See [Clean Up the WinSxS Folder](/windows-hardware/manufacture/desktop/clean-up-the-winsxs-folder.md) for more details.
+See [Clean Up the WinSxS Folder](/windows-hardware/manufacture/desktop/clean-up-the-winsxs-folder) for more details.
 
 ### Disable Hibernation
 
@@ -201,7 +201,7 @@ Remove specific drivers from the image:
 Dism.exe /Image:c:\offline /Remove-Driver /Driver:OEM1.inf /Driver:OEM2:inf
 ```
 
-See [add and remove drivers](/windows-hardware/manufacture/desktop//add-and-remove-drivers-to-an-offline-windows-image.md) to learn more about adding and removing drivers.
+See [add and remove drivers](/windows-hardware/manufacture/desktop//add-and-remove-drivers-to-an-offline-windows-image) to learn more about adding and removing drivers.
 
 ### Additional File Compression
 

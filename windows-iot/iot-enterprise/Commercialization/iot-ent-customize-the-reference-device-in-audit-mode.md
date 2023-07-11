@@ -73,7 +73,7 @@ To add a Feature on Demand in audit mode, you'll need the FOD ISO either on a US
     ...     	                                             |
     ```
 
-See [Features on Demand](/windows-hardware/manufacture/desktop/features-on-demand-v2--capabilities.md) to learn more about Features on Demand, including how to add them to an offline mounted image.
+See [Features on Demand](/windows-hardware/manufacture/desktop/features-on-demand-v2--capabilities) to learn more about Features on Demand, including how to add them to an offline mounted image.
 
 ### Install drivers in Audit Mode 
 

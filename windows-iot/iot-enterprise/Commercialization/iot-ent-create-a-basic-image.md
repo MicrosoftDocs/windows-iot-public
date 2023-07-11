@@ -26,7 +26,7 @@ This section covers how to create bootable Windows installation flash drive, and
 
 #### Create a bootable flash drive
 
-The typical way to install Windows is to create a bootable flash drive, and then copy the Windows installation files onto the flash drive. Once you have the files on the flash drive, you can insert it into the IoT device and boot from the flash drive. See [Install Windows from a USB flash drive](/windows-hardware/manufacture/desktop/install-windows-from-a-usb-flash-drive.md) to learn more.
+The typical way to install Windows is to create a bootable flash drive, and then copy the Windows installation files onto the flash drive. Once you have the files on the flash drive, you can insert it into the IoT device and boot from the flash drive. See [Install Windows from a USB flash drive](/windows-hardware/manufacture/desktop/install-windows-from-a-usb-flash-drive) to learn more.
 
 Here's how to prepare the installation flash drive:
 

@@ -137,7 +137,7 @@ In this section, we show you how to deploy a WIM image from WinPE. The reference
     ```
  
     >[!Note] 
-    >The above Diskpart commands don't create a recovery partition. If you need to configure a recovery partition, see [Configure UEFI/GPT-based hard drive partitions](/windows-hardware/manufacture/desktop/configure-uefigpt-based-hard-drive-partitions.md).
+    >The above Diskpart commands don't create a recovery partition. If you need to configure a recovery partition, see [Configure UEFI/GPT-based hard drive partitions](/windows-hardware/manufacture/desktop/configure-uefigpt-based-hard-drive-partitions).
     
 3. Deploy the WIM image to the W: drive created in the previous step. From the WinPE command prompt: 
 
