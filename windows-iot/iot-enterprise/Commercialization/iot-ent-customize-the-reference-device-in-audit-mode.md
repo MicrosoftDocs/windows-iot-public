@@ -15,7 +15,7 @@ ms.technology: iot
 In [Lab 1a](iot-ent-create-a-basic-image.md), you installed Windows 10 IoT Enterprise onto an IoT device and booted into audit mode. In this lab, we'll show you how to customize your device from audit mode.
 
 >[!Tip]
->Most customizations in this lab can be made to an offline mounted Windows image, as well as in Audit mode. See [Modify a Windows image using DISM](/windows-hardware/manufacture/desktop/mount-and-modify-a-windows-image-using-dism.md) for more information.
+>Most customizations in this lab can be made to an offline mounted Windows image, as well as in Audit mode. See [Modify a Windows image using DISM](/windows-hardware/manufacture/desktop/mount-and-modify-a-windows-image-using-dism) for more information.
 
 ## What is Audit Mode?
 
@@ -49,7 +49,7 @@ Device partners will often include FODs in Windows images. A commonly added feat
 To add a Feature on Demand in audit mode, you'll need the FOD ISO either on a USB drive, or copied to your IoT device. Once you've finished installing FODs, you can remove the ISO from your IoT device or remove the USB drive.
 
 1. Mount the Feature on Demand (FOD) ISO on the Technician PC. 
-2. Locate the cab file for the FOD you're going to install. In this example we'll use .NET Framework 3.5. The cab is named `Microsoft-Windows-NetFx3-OnDemand-Package~31bf3856ad364e35~amd64~~.cab`. You can view all the FOD .cab names at [Available Features on Demand](/windows-hardware/manufacture/desktop/features-on-demand-non-language-fod.md).
+2. Locate the cab file for the FOD you're going to install. In this example we'll use .NET Framework 3.5. The cab is named `Microsoft-Windows-NetFx3-OnDemand-Package~31bf3856ad364e35~amd64~~.cab`. You can view all the FOD .cab names at [Available Features on Demand](/windows-hardware/manufacture/desktop/features-on-demand-non-language-fod).
 3. Copy the cab file to the IoT device in a folder called C:\FoD. 
 4. Add the FOD. From an Administrative Command Prompt:
 
@@ -73,7 +73,7 @@ To add a Feature on Demand in audit mode, you'll need the FOD ISO either on a US
     ...     	                                             |
     ```
 
-See [Features on Demand](./features-on-demand-v2--capabilities.md) to learn more about Features on Demand, including how to add them to an offline mounted image.
+See [Features on Demand](/windows-hardware/manufacture/desktop/features-on-demand-v2--capabilities.md) to learn more about Features on Demand, including how to add them to an offline mounted image.
 
 ### Install drivers in Audit Mode 
 
@@ -91,7 +91,7 @@ Use this method if the driver supplied by the independent hardware vendor (IHV) 
 
 #### Advanced method 
 
-To use this method, the driver supplied by the IHV has to already be extracted out into INF, SYS, CAT, etc. files, or be an MSI or EXE package that can be extracted. This method can also be used to [add drivers to an offline mounted image](/windows-hardware/manufacture/desktop/add-and-remove-drivers-to-an-offline-windows-image.md).
+To use this method, the driver supplied by the IHV has to already be extracted out into INF, SYS, CAT, etc. files, or be an MSI or EXE package that can be extracted. This method can also be used to [add drivers to an offline mounted image](/windows-hardware/manufacture/desktop/add-and-remove-drivers-to-an-offline-windows-image).
 
 1. If the driver is distributed as an MSI or EXE, copy the driver package provided by the IHV into a folder on the IoT device (we'll use C:\Drivers in our example). If the driver package is an .msi or .exe, extract the contents into a folder.
 
@@ -152,7 +152,7 @@ After you've downloaded an update, double click the update in File Explorer to s
 
 #### Install an update, advanced method 
 
-You can install an LCU using DISM. This can be helpful if you're scripting the installation of the update. You can also use this method to add the update to an offline mounted image. See [Add updates to a Windows image](/windows-hardware/manufacture/desktop/servicing-the-image-with-windows-updates-sxs.md) for more information.
+You can install an LCU using DISM. This can be helpful if you're scripting the installation of the update. You can also use this method to add the update to an offline mounted image. See [Add updates to a Windows image](/windows-hardware/manufacture/desktop/servicing-the-image-with-windows-updates-sxs) for more information.
 
 Use DISM to install the LCU:
 

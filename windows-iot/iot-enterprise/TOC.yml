@@ -73,11 +73,11 @@
   - name: Device Safeguards
     href: Customize/Device-Safeguards.md
   - name: Keyboard Filter
-    href: Customize/Keyboard-Filter.md
+    href: Customize/keyboardfilter.md
   - name: Unified Write Filter
     href: Customize/Unified-Write-Filter.md
   - name: Hibernate Once/Resume Many (HORM)
-    href: Customize/HORM.md
+    href: Customize/hibernate-once-resume-many-horm.md
 - name: Branding Features
   expanded: false
   items:

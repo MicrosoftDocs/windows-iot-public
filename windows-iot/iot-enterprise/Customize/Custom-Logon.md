@@ -75,7 +75,7 @@ The Custom Logon feature is available in the Control Panel. You can set Custom L
 
 ### Configure Custom Logon settings using Unattend
 
-You can configure the Unattend settings in the [Microsoft-Windows-Embedded-EmbeddedLogon](/windows-hardware/customize/desktop/unattend/microsoft-windows-embedded-embeddedlogon.md) component to add custom logon features to your image during the design or imaging phase. You can manually create an Unattend answer file or use Windows System Image Manager (Windows SIM) to add the appropriate settings to your answer file. For more information about the custom logon settings and XML examples, see the settings in Microsoft-Windows-Embedded-EmbeddedLogon.
+You can configure the Unattend settings in the [Microsoft-Windows-Embedded-EmbeddedLogon](/windows-hardware/customize/desktop/unattend/microsoft-windows-embedded-embeddedlogon) component to add custom logon features to your image during the design or imaging phase. You can manually create an Unattend answer file or use Windows System Image Manager (Windows SIM) to add the appropriate settings to your answer file. For more information about the custom logon settings and XML examples, see the settings in Microsoft-Windows-Embedded-EmbeddedLogon.
 
 The following example shows how to disable all Welcome screen UI elements and the **Switch user** button.
 

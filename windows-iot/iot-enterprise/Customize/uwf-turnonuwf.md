@@ -4,6 +4,10 @@ description: Unified Write Filter (UWF) feature (uwf-turnonuwf)
 MSHAttr:
 - 'PreferredSiteName:MSDN'
 - 'PreferredLib:/library/windows/hardware'
+- author: TerryWarwick
+ms.author: twarwick
+ms.prod: windows-iot
+ms.technology: iot
 ms.date: 10/02/2018
 ms.topic: article
 ms.custom: RS5

@@ -9,8 +9,10 @@ ms.assetid: 944d2987-5b2c-4c88-8199-dcec12d626b2
 
 ms.date: 05/02/2017
 ms.topic: article
-
-
+author: TerryWarwick
+ms.author: twarwick
+ms.prod: windows-iot
+ms.technology: iot
 ---
 # WEKF\_CustomKey.Remove
 

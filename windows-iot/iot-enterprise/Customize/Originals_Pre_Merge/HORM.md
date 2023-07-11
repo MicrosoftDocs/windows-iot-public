@@ -1,5 +1,5 @@
 ---
-title: Hibernate Once/Resume Many (HORM)
+title: XHibernate Once/Resume Many (HORM)
 author: TerryWarwick
 ms.author: twarwick
 ms.date: 03/09/2023
@@ -10,7 +10,7 @@ description: Learn about the Hibernate Once/Resume Many (HORM) Feature in Window
 keywords: Lockdown, HORM
 ---
 
-# Hibernate Once/Resume Many (HORM)
+# XHibernate Once/Resume Many (HORM)
 
 A device with HORM enabled can quickly be turned off or shut down, and then restarted into the previously defined state, even in the event of a sudden power loss.
 

@@ -1,6 +1,6 @@
 ---
-title: Shell Launcher
-description: Shell Launcher
+title: XShell Launcher
+description: XShell Launcher
 MSHAttr:
 - 'PreferredSiteName:MSDN'
 - 'PreferredLib:/library/windows/hardware'

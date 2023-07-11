@@ -1,5 +1,5 @@
 ---
-title: Keyboard Filter
+title: XKeyboard Filter
 author: TerryWarwick
 ms.author: twarwick
 ms.date: 03/30/2023
@@ -10,7 +10,7 @@ description: Learn about the Keyboard Filter Feature in Windows IoT Enterprise.
 keywords: Lockdown, Keyboard Filter
 ---
 
-# Keyboard Filter
+# XKeyboard Filter
 
 If your device is being use for a dedicated purpose, it may make sense to ensure that key combinations like 'Ctrl+Alt+Delete' do not alter the operation of the device by locking the screen or using Task Manager to close a running application. Windows IoT Enterprise provides a feature called [Keyboard Filter](/windows-hardware/customize/enterprise/keyboardfilter#:~:text=Keyboard%20Filter.%20You%20can%20use%20Keyboard%20Filter%20to,using%20Task%20Manager%20to%20close%20a%20running%20application.) that allows you to suppress undesirable key presses or key combinations.
 
