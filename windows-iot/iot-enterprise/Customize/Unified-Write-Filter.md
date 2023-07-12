@@ -16,13 +16,13 @@ ms.topic: article
 ---
 # Unified Write Filter (UWF) feature
 
-Unified Write Filter (UWF) is an optional Windows 10 feature that helps to protect your drives by intercepting and redirecting any writes to the drive (app installations, settings changes, saved data) to a virtual overlay. The virtual overlay is a temporary location that is usually cleared during a reboot or when a guest user logs off.
+Unified Write Filter (UWF) is an optional Windows 10 feature that helps to protect your drives by intercepting and redirecting any writes to the drive (app installations, settings changes, saved data) to a virtual overlay. The virtual overlay is a temporary location that is cleared during a reboot or when a guest user logs off.
 
 ## Benefits
 
 * Provides a clean experience for thin clients and workspaces that have frequent guests, like school, library or hotel computers. Guests can work, change settings, and install software. After the device reboots, the next guest receives a clean experience.
 
-* Increases security and reliability for kiosks, IoT-embedded devices, or other devices where new apps are not expected to be frequently added.
+* Increases security and reliability for kiosks, IoT-embedded devices, or other devices where new apps aren't expected to be frequently added.
 
 * Can be used to reduce wear on solid-state drives and other write-sensitive media.
 
@@ -32,7 +32,7 @@ UWF replaces the Windows 7 Enhanced Write Filter (EWF) and the File Based Write 
 
 ## Features
 
-* UWF can protect most supported writable storage types, including physical hard disks, solid-state drives, internal USB devices, and external SATA devices. You cannot use UWF to protect external removable drives, USB devices or flash drives. Supports both master boot record (MBR) and GUID partition table (GPT) volumes.
+* UWF can protect most supported writable storage types, including physical hard disks, solid-state drives, internal USB devices, and external SATA devices. You can't use UWF to protect external removable drives, USB devices or flash drives. Supports both master boot record (MBR) and GUID partition table (GPT) volumes.
 
 * You can use UWF to make read-only media appear to the OS as a writable volume.
 
@@ -42,9 +42,9 @@ UWF replaces the Windows 7 Enhanced Write Filter (EWF) and the File Based Write 
 
 * On Windows 10, version 1803, you can use a [persistent overlay](uwfoverlay.md#persistentoverlay) to allow data saved in the virtual overlay to remain even after a reboot.
 
-* On devices with a disk overlay, you can use [freespace passthrough](uwfoverlay.md#freespacepassthrough) to access your drive's additional free space.
+* On devices with a disk overlay, you can use [free space passthrough](uwfoverlay.md#freespacepassthrough) to access your drive's free space.
 
-* UWF supports paging to increase virtual memory, if the page file exists on an unprotected volume. When paging is used together with a RAM-based overlay, the uptime of the system can be significantly increased.
+* UWF supports paging to increase virtual memory, if the page file exists on an unprotected volume. When paging is used together with a RAM-based overlay, the uptime of the system can be increased.
 
 ## Requirements
 
@@ -60,17 +60,17 @@ Supported Operating Systems
 * File systems:
   * FAT: fully supported.
   * NTFS: fully supported. However, during device startup, NTFS file system journal files can write to a protected volume before UWF has started protecting the volume.
-  * Other file systems (example: exFAT): You can protect the volume, but cannot create file exclusions or do file commit operations on the volume. Writes to excluded files still influence the growth of the Overlay.
+  * Other file systems (example: exFAT): You can protect the volume, but can't create file exclusions or do file commit operations on the volume. Writes to excluded files still influence the growth of the Overlay.
 
-* The overlay does not mirror the entire volume, but dynamically grows to keep track of redirected writes.
+* The overlay doesn't mirror the entire volume, but dynamically grows to keep track of redirected writes.
 
 * UWF supports up to 16 terabytes of protected volumes.
 
-* UWF does not support the use of fast startup when shutting down your device. If fast startup is turned on, shutting down the device does not clear the overlay. You can disable fast startup in Control Panel by navigating to **Control Panel** &gt; **All Control Panel Items** &gt; **Power Options** &gt; **System Settings** and clearing the checkbox next to **Turn on fast startup (recommended)**.
+* UWF doesn't support the use of fast startup when shutting down your device. If fast startup is turned on, shutting down the device doesn't clear the overlay. You can disable fast startup in Control Panel by navigating to **Control Panel** &gt; **All Control Panel Items** &gt; **Power Options** &gt; **System Settings** and clearing the checkbox next to **Turn on fast startup (recommended)**.
 
-* UWF does not support [Storage Spaces](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/hh831739(v=ws.11)).
+* UWF doesn't support [Storage Spaces](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/hh831739(v=ws.11)).
 
-* On a computer on which [UWF is enabled and used to protect drive C](./uwf-turnonuwf.md#turn-on-uwf-on-a-running-pc), you cannot permanently set the date and time to a past time. If you make such a change, the original date and time settings will be restored after the computer restarts.
+* On a computer on which [UWF is enabled and used to protect drive C](./uwf-turnonuwf.md#turn-on-uwf-on-a-running-pc), you can't permanently set the date and time to a past time. If you make such a change, the original date and time settings will be restored after the computer restarts.
 
   To work around this issue, you must disable UWF before you change the date and time. To do this, run uwfmgr.exe filter disable.
 
@@ -79,7 +79,7 @@ Supported Operating Systems
 
 ## Turn on and configure UWF
 
-UWF is an optional component and is not enabled by default in Windows 10. You must [turn on UWF](uwf-turnonuwf.md) before you can configure it. 
+UWF is an optional component and isn't enabled by default in Windows 10. You must [turn on UWF](uwf-turnonuwf.md) before you can configure it. 
 
 ## UWF overlay
 
@@ -113,7 +113,7 @@ UWF uses Windows Event Log to log events, errors and messages related to overlay
 
 For more information about how to find event log information for troubleshooting problems with Unified Write Filter (UWF), see [Troubleshooting Unified Write Filter (UWF)](uwftroubleshooting.md).
 
-## Related topics
+## Related articles
 
 [Unbranded Boot](unbranded-boot.md)
 

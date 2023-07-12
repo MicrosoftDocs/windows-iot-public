@@ -16,7 +16,7 @@ ms.topic: article
 ---
 # Keyboard Filter key names
 
-You can configure Keyboard Filter to block keys or key combinations. A key combination consists of one or more modifier keys, separated by a plus sign (+), and either a key name or a key scan code. In addition to the keys listed in the tables below, you can also use the predefined key combinations names as custom key combinations, but we recommend using the predefined key settings when enabling or disabling predefined key combinations.
+You can configure Keyboard Filter to block keys or key combinations. A key combination consists of one or more modifier keys, separated by a plus sign (+), and either a key name or a key scan code. In addition to the keys listed in the following tables, you can use the predefined key combinations names as custom key combinations. However, we recommend using the predefined key settings when enabling or disabling predefined key combinations.
 
 The key names are grouped as follows:
 
@@ -29,7 +29,7 @@ The key names are grouped as follows:
 
 ## <a href="" id="modkey"></a>Modifier keys
 
-You can use the modifier keys listed in the following table when you configure keyboard filter. Multiple modifiers must be separated by a plus sign (+). You can also configure Keyboard Filter to block any modifier key even if it’s not part of a key combination..
+You can use the modifier keys listed in the following table when you configure keyboard filter. Multiple modifiers are separated by a plus sign (+). You can also configure Keyboard Filter to block any modifier key even if it’s not part of a key combination.
 
 <table>
 <colgroup>
@@ -742,6 +742,6 @@ You can use the modifier keys listed in the following table when you configure k
 </tbody>
 </table>
 
-## Related topics
+## Related articles
 
 [Keyboard filter](keyboardfilter.md)

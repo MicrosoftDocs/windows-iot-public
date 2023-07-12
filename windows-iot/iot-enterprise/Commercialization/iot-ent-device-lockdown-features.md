@@ -28,7 +28,7 @@ Complete Lab 1a: Create a basic image.
 
 ### Keyboard filter overview
  
-The [Keyboard Filter](/windows-hardware/customize/enterprise/keyboardfilter) enables controls that you can use to suppress undesireable key presses or key combinations. Normally, a customer can alter the operation of a device by using certain key combinations like Ctrl+Alt+Delete, Ctrl+Shift+Tab, Alt+F4, etc. The Keyboard filter will prevent users from using these key combinations, which is helpful if your device is intended for a dedicated purpose.
+The [Keyboard Filter](/windows-hardware/customize/enterprise/keyboardfilter) enables controls that you can use to suppress undesirable key presses or key combinations. Normally, a customer can alter the operation of a device by using certain key combinations like Ctrl+Alt+Delete, Ctrl+Shift+Tab, Alt+F4, etc. The Keyboard filter prevents users from using these key combinations, which is helpful if your device is intended for a dedicated purpose.
 
 The Keyboard Filter feature works with physical keyboards, the Windows on-screen keyboard, and the touch keyboard. Keyboard Filter also detects dynamic layout changes, such as switching from one language set to another, and continues to suppress keys correctly, even if the location of suppressed keys has changed on the keyboard layout.  
 
@@ -36,7 +36,7 @@ Keyboard filter keys are stored in the Registry at **HKEY_LOCAL_MACHINE\SOFTWARE
 
 ### Enable the Keyboard filter 
 
-There are several methods to enable the Keyboard Filter, we are providing instructions for one of those methods in this lab.  
+There are several methods to enable the Keyboard Filter, we're providing instructions for one of those methods in this lab.  
  
 >[!Note]
 >See [Keyboard Filter](/windows-hardware/customize/enterprise/keyboardfilter) for more information.
@@ -48,11 +48,11 @@ There are several methods to enable the Keyboard Filter, we are providing instru
     DISM /online /enable-feature /featurename:Client-DeviceLockdown /featurename:Client-KeyboardFilter 
     ```
 
-2. You'll be prompted to restart the reference device, type **Y** to reboot. The device will reboot into audit mode.
+2. You are prompted to restart the reference device, type **Y** to reboot. The device reboots into audit mode.
 
 Once you've enabled the keyboard filter, see [Keyboard filter PowerShell script samples](/windows-hardware/customize/enterprise/keyboardfilter-powershell-script-samples) to learn about blocking key combinations.
  
-3. For this lab we are going to provide a demo on blocking the CTRL+ALT+DEL key. In an administrative PowerShell command window copy and paste the below commands.  
+3. For this lab we're going to provide a demo on blocking the CTRL+ALT+DEL key. In an administrative PowerShell command window, copy and paste the following commands.  
     
     ```PowerShell
     $key = "Ctrl+Alt+Del"
@@ -82,11 +82,11 @@ Once you've enabled the keyboard filter, see [Keyboard filter PowerShell script 
 
 2. Restart the reference device 
 
-3. Configuring and enabling the overlay and protection is best done through scripting but for this lab we will configure using command line
+3. Configuring and enabling the overlay and protection is best done through scripting but for this lab we'll configure using command line
 
-See [Unified write filter](/windows-hardware/customize/enterprise/unified-write-filter) for more information about the UWF, including sample scripts.
+ For more information about the UWF, including sample scripts, see [Unified write filter](/windows-hardware/customize/enterprise/unified-write-filter).
 
-4. At an Admistrative Command prompt run the following commands
+4. At an Admistrative Command prompt, run the following commands
 
     ```cmd
     uwfmgr volume protect c:
@@ -95,7 +95,7 @@ See [Unified write filter](/windows-hardware/customize/enterprise/unified-write-
 
 5. Restart the reference device
 
-6. Now all writes will be redirected to the RAM overlay and will not be retained when the reference device is rebooted.
+6. Now all writes are redirected to the RAM overlay and won't be retained when the reference device is rebooted.
 
 7. To disable the Unified Write Filter, at an Administrative Command prompt run the following command and then reboot the device.
 
@@ -111,7 +111,7 @@ See [Unified write filter](/windows-hardware/customize/enterprise/unified-write-
  
 ### Unbranded boot overview
 
-[Unbranded boot](/windows-hardware/customize/enterprise/unbranded-boot) allows you to suppress Windows elements that appear when Windows starts or resumes, and can suppress the crash screen when Windows encounters an error that it cannot recover from.
+[Unbranded boot](/windows-hardware/customize/enterprise/unbranded-boot) allows you to suppress Windows elements that appear when Windows starts or resumes, and can suppress the crash screen when Windows encounters an error that it can't recover from.
 
 ### Enable Unbranded boot
 
@@ -163,9 +163,9 @@ See [Custom logon](/windows-hardware/customize/enterprise/custom-logon) for more
     ```
     DISM /online /enable-feature /featurename:Client-DeviceLockdown /featurename:Client-EmbeddedLogon 
     ```
-2. If prompted to restart choose No.
+2. If prompted to restart, choose No.
 
-3. Next at an Administrative Command prompt modify the following registry entries. If prompted to overwrite choose Yes.
+3. Next at an Administrative Command prompt modify the following registry entries. If prompted to overwrite, choose Yes.
 
     ```
     Reg add "HKLM\SOFTWARE\Microsoft\Windows Embedded\EmbeddedLogon" /v  BrandingNeutral  /t REG_DWORD /d 1 
@@ -180,7 +180,7 @@ See [Custom logon](/windows-hardware/customize/enterprise/custom-logon) for more
 
 ## Next steps
 
-Your device now has device lockdown features in place. You can use group policies to further customize your device's user experience. Lab 3 covers how to congifure policy settings.
+Your device now has device lockdown features in place. You can use group policies to further customize your device's user experience. Lab 3 covers how to configure policy settings.
 
 >[!div class="nextstepaction"]
 >[Go to lab 3](iot-ent-configure-policy-settings.md)

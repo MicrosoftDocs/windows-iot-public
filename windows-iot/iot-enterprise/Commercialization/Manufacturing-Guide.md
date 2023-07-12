@@ -12,7 +12,7 @@ keywords: IoT Enterprise, Manufacturing Guide
 
 # Manufacturing Guide Overview
 
-This Manufacturing Guide consists of a series of labs which walk through how to build. set-up, and commercialize your Windows IoT Enterprise devices.
+This Manufacturing Guide consists of a series of labs that walk through how to build. set up, and commercialize your Windows IoT Enterprise devices.
 
 ## Labs
 
@@ -24,7 +24,7 @@ This Manufacturing Guide consists of a series of labs which walk through how to 
 - [Lab 4: Sysprep, capture, and deploy](./iot-ent-sysprep-capture-deploy.md)
 - [Lab 5: Configure Shell Launcher or assigned access](./iot-ent-shell-launcher-app-launcher.md)
 
-## Related topics
+## Related articles
 
 - [Script-based image customization and deployment](https://github.com/ms-iot/windows-iotent-deploy)
 - [Optimize a Windows IoT Enterprise image](../optimize/iot-ent-optimize-images.md)

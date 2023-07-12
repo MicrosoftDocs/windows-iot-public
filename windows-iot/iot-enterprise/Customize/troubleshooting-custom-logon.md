@@ -22,7 +22,7 @@ This section highlights some common issues that you may encounter when using Cus
 
 This can occur when your device is configured to require a password when waking up from a sleep state.
 
-### To disable password protection on wake up
+### To disable password protection on wake-up
 
 1. If you have write filters enabled on your device, perform the following steps to disable them so that you can save setting changes:
 
@@ -37,13 +37,13 @@ This can occur when your device is configured to require a password when waking 
       uwfmgr.exe restart
       ```
 
-1. In **Contol Panel**, search for **Power Options** , and then click the Power Options heading.
+1. In **Contol Panel**, search for **Power Options** , and then select the Power Options heading.
 
-1. Under the **Power Options** heading, click **Require a password on wakeup**.
+1. Under the **Power Options** heading, select **Require a password on wake up**.
 
 1. On the **Define power buttons and turn on password protection** page, under **Password protection on wakeup**, select **Don’t require a password**.
 
-1. If you disabled write filters, perform the following steps to enable them again:
+1. If you have disabled write filters, perform the following steps to enable them again:
 
    1. At an administrator command prompt, type the following command:
 
@@ -77,15 +77,15 @@ Set the **HideAutoLogonUI** and **AnimationDisabled** settings to **0** (zero). 
 
 ## The device displays a black screen when the device is suspended and then resumed
 
-**HideAutoLogonUI** and **ForceAutoLogon** have known issues when used together. To avoid a black screen, we recommend you disable the password protection on wakeup.
+**HideAutoLogonUI** and **ForceAutoLogon** have known issues when used together. To avoid a black screen, we recommend you disable the password protection on wake up.
 
-### To disable password protection on wakeup
+### To disable password protection on wake up
 
-1. In **Control Panel**, click **Power Options**.
+1. In **Control Panel**, select **Power Options**.
 
-1. In the **Power Options** item, click **Require a password on wakeup**.
+1. In the **Power Options** item, select **Require a password on wake up**.
 
-1. On the **Define power buttons and turn on password protection** page, under **Password protection on wakeup**, select **Don’t require a password**.
+1. On the **Define power buttons and turn on password protection** page, under **Password protection on wake up**, select **Don’t require a password**.
 
 ### The device displays a black screen when a password expiration screen is displayed
 
@@ -111,7 +111,7 @@ Set the **HideAutoLogonUI** and **AnimationDisabled** settings to **0** (zero). 
    net accounts /MaxPWAge:unlimited
    ```
 
-## Related topics
+## Related articles
 
 [Custom Logon](custom-logon.md)
 
