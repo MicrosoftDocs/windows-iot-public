@@ -91,11 +91,11 @@
         expanded: false
         items:
         - name: Overview
-          hkey: Customize/wekf-predefinedkey.md
+          href: Customize/wekf-predefinedkey.md
         - name: Disable
-          hkey: Customize/wekf-predefinedkeydisable.md
+          href: Customize/wekf-predefinedkeydisable.md
         - name: Enable
-          hkey: Customize/wekf-predefinedkeyenable.md
+          href: Customize/wekf-predefinedkeyenable.md
       - name: Class WEKF_Scancode
         expanded: false
         items:
