@@ -49,7 +49,7 @@
   - name: Install Apps with WinGet
     href: Deployment/install-winget-windows-iot.md
 #  - name: Volume License Deployment
-#    hrev: Deployment/Volume-License.md  
+#    href: Deployment/Volume-License.md  
 - name: Customization
   expanded: false
   items:
