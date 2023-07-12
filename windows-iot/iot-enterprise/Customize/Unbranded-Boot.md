@@ -184,7 +184,7 @@ Microsoft offers Windows 10 IoT Enterprise customers methods to manage crash scr
 ### Errors During Boot Phase
 The **noerrordisplay** switch takes care of exhaustively suppressing all error display during the boot phase.
 For example, if **noerrordisplay** to on, and if the boot manager hits a *WinLoad Error* or *Bad Disk Error*, the system will sit at a black screen and require manual reset.
-Review [Configure Unbranded Boot settings at runtime using BCDEdit](/windows-hardware/customize/enterprise/unbranded-boot#configure-unbranded-boot-settings-at-runtime-using-bcdedit) to enable the **noerrordisplay** setting.
+Review [Configure Unbranded Boot settings at runtime using BCDEdit](#configure-unbranded-boot-settings-at-runtime-using-bcdedit) to enable the **noerrordisplay** setting.
 > [!NOTE]
 >
 > BCDEdit is the primary tool for editing the startup configuration and is on your development computer in the %WINDIR%\System32 folder. You have administrator rights for it. BCDEdit is included in a typical Windows Preinstallation Environment (Windows PE) 4.0. You can download it from the [BCDEdit Commands for Boot Environment](/previous-versions/windows/hardware/design/dn653986(v=vs.85)) in the Microsoft Download Center if needed.

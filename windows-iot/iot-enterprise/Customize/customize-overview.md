@@ -35,7 +35,6 @@ You can lock down your Windows 10 desktop device by using the lock down features
 
 ## Related topics
 
-
 **Keyboard Filter reference**: [Keyboard Filter key names](keyboardfilter-key-names.md)
 
 [Keyboard Filter WMI provider reference](keyboardfilter-wmi-provider-reference.md)

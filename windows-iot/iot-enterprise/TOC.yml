@@ -50,49 +50,273 @@
     href: Deployment/install-winget-windows-iot.md
 #  - name: Volume License Deployment
 #    hrev: Deployment/Volume-License.md  
-- name: Kiosk mode
+- name: Customization
   expanded: false
   items:
   - name: Overview
-    href: Customize/Kiosk-Mode.md
-  - name: Assigned access single-app kiosk
-    href: Customize/Single-App-Kiosk.md
-  - name: Assigned access multi-app kiosk
-    href: Customize/Multi-App-Kiosk.md
-  - name: Shell Launcher
-    href: Customize/Shell-Launcher.md
-  - name: Browser Support
-    href: Customize/Browser-Support.md
-  - name: Screen Swipe Policy
-    href: Customize/Edge-Swipe-Policy.md
-- name: Advanced Lockdown Features
-  expanded: false
-  items:
-  - name: Application Control
-    href: Customize/Application-Control.md
-  - name: Device Safeguards
-    href: Customize/Device-Safeguards.md
-  - name: Keyboard Filter
-    href: Customize/keyboardfilter.md
-  - name: Unified Write Filter
-    href: Customize/Unified-Write-Filter.md
-  - name: Hibernate Once/Resume Many (HORM)
-    href: Customize/hibernate-once-resume-many-horm.md
-- name: Branding Features
-  expanded: false
-  items:
+    href: Customize/customize-overview.md
   - name: Custom Logon
-    href: Customize/Custom-Logon.md
-  - name: Microsoft Store Access
-    href: Customize/Microsoft-Store-Access.md
-  - name: Page Visibility
-    href: Customize/Page-Visibility.md
-  - name: Layout Control
-    href: Customize/Layout-Control.md
-  - name: Unbranded Boot and Errors
-    href: Customize/Unbranded-Boot.md
-  - name: Manage Update Experience
-    href: Customize/Update-Notification.md
+    expanded: false
+    items:
+    - name: Overview
+      href: Customize/Custom-Logon.md
+    - name: Complementary features
+      href: Customize/complementary-features-to-custom-logon.md
+    - name: Troubleshooting
+      href: Customize/troubleshooting-custom-logon.md
+  - name: Keyboard Filter
+    expanded: false
+    items:
+    - name: Overview
+      href: Customize/keyboardfilter.md
+    - name: Key Names
+      href: Customize/keyboardfilter-key-names.md
+    - name: Predefined Key Combinations
+      href: Customize/keyboardfilter-list-all-configured-key-combinations.md
+    - name: WMI Provider Reference
+      expanded: false
+      items:
+      - name: Overview
+        href: Customize/keyboardfilter-wmi-provider-reference.md
+      - name: Class WEKF_CustomKey
+        expanded: false
+        items:
+        - name: Overview
+          href: Customize/wekf-customkey.md
+        - name: Add
+          href: Customize/wekf-customkeyadd.md
+        - name: Remove
+          href: Customize/wekf-customkeyremove.md
+      - name: Class WEKF_PredefinedKey
+        expanded: false
+        items:
+        - name: Overview
+          hkey: Customize/wekf-predefinedkey.md
+        - name: Disable
+          hkey: Customize/wekf-predefinedkeydisable.md
+        - name: Enable
+          hkey: Customize/wekf-predefinedkeyenable.md
+      - name: Class WEKF_Scancode
+        expanded: false
+        items:
+        - name: Overview
+          hkey: Customize/wekf-scancode.md
+        - name: Add
+          hkey: Customize/wekf-scancodeadd.md
+        - name: Remove
+          hkey: Customize/wekf-scancoderemove.md    
+      - name: Class WEKF-Settings
+        hkey: Customize/wekf-settings.md
+    - name: PowerShell script samples
+      expanded: false
+      items: 
+      - name: Overview
+        href: Customize/keyboardfilter-powershell-script-samples.md
+      - name: Add blocked key Combinations
+        href: Customize/keyboardfilter-add-blocked-key-combinations.md
+      - name: Disable all blocked key Combinations
+        href: Customize/disable-all-blocked-key-combinations.md
+      - name: List all configured key combinations
+        href: Customize/keyboardfilter-list-all-configured-key-combinations.md
+      - name: Modify global settings
+        href: Customize/modify-global-settings.md
+      - name: Remove key combination configurations
+        href: Customize/remove-key-combination-configurations.md
+  - name: Kiosk Mode
+    expanded: false
+    items:
+    - name: Overview
+      href: Customize/Kiosk-Mode.md
+    - name: Assigned Access
+      expanded: false
+      items:   
+      - name: Assigned access single-app kiosk
+        href: Customize/Single-App-Kiosk.md
+      - name: Assigned access multi-app kiosk
+        href: Customize/Multi-App-Kiosk.md
+      - name: Browser Support
+        href: Customize/Browser-Support.md
+      - name: WMI Provider Reference
+        href: Customize/wedl-assignedaccess.md
+    - name: Shell Launcher
+      expanded: false
+      items:
+      - name: Overview
+        href: Customize/Shell-Launcher.md
+      - name: WMI Provider Reference
+        expanded: false
+        items: 
+        - name: Class WESL_UserSetting
+          href: Customize\wesl-usersetting.md 
+        - name: GetCustomShell
+          href: Customize\wesl-usersettinggetcustomshell.md 
+        - name: GetDefaultShell
+          href: Customize\wesl-usersettinggetdefaultshell.md 
+        - name: IsEnabled
+          href: Customize\wesl-usersettingisenabled.md 
+        - name: RemoveCustomShell
+          href: Customize\wesl-usersettingremovecustomshell.md 
+        - name: SetCustomShell
+          href: Customize\wesl-usersettingsetcustomshell.md 
+        - name: SetDefaultShell
+          href: Customize\wesl-usersettingsetdefaultshell.md 
+        - name: SetEnabled
+          href: Customize\wesl-usersettingsetenabled.md 
+  - name: Unbranded Boot
+    expanded: false
+    items:
+    - name: Overview
+      href: Customize/Unbranded-Boot.md
+  - name: Unified Write Filter
+    expanded: false
+    items: 
+    - name: Overview
+      href: Customize/Unified-Write-Filter.md
+    - name: Hibernate Once/Resume Many (HORM)
+      href: Customize/hibernate-once-resume-many-horm.md
+    - name: Exclusions
+      href: Customize/uwfexclusions.md
+    - name: Overlay
+      href: Customize/uwfoverlay.md
+    - name: Enable
+      href: Customize/uwf-turnonuwf.md
+    - name: Command Line Utility (uwfmgr.exe)
+      href: Customize/uwfmgrexe.md
+    - name: Servicing
+      expanded: false
+      items:
+      - name: Servicing protected devices
+        href: Customize/service-uwf-protected-devices.md
+      - name: Antimalware support
+        href: Customize/uwf-antimalware-support.md
+      - name: Windows Updates
+        href: Customize/uwf-apply-windows-updates.md
+      - name: OEM Updates
+        href: Customize/uwf-apply-oem-updates.md
+      - name: Servicing master script
+        href: Customize/uwf-master-servicing-script.md
+      - name: Servicing screen saver
+        href: Customize/uwf-servicing-screen-saver.md
+    - name: Troubleshooting
+      href: Customize/uwftroubleshooting.md
+    - name: WMI Provider Reference
+      expanded: false
+      items:
+      - name: Overview
+        href: Customize/uwf-wmi-provider-reference.md
+      - name: Class UWF_ExcludedFile
+        href: Customize/uwf-excludedfile.md
+      - name: Class UWF_ExcludedRegistryKey
+        href: Customize/uwf-excludedregistrykey.md
+      - name: Class UWF_Filter
+        expanded: false
+        items:
+        - name: Overview
+          href: Customize/uwf-filter.md
+        - name: Disable
+          href: Customize/uwf-filterdisable.md
+        - name: Enable
+          href: Customize/uwf-filterdisable.md
+        - name: ResetSettings
+          href: Customize/uwf-filterresetsettings.md
+        - name: RestartSystem
+          href: Customize/uwf-filterrestartsystem.md
+        - name: ShutdownSystem
+          href: Customize/uwf-filtershutdownsystem.md
+      - name: Class UWF_Overlay
+        expanded: false
+        items:
+        - name: Overview
+          href: Customize/uwf-overlay.md
+        - name: GetOverlayFiles
+          href: Customize/uwf-overlaygetoverlayfiles.md
+        - name: SetCriticalThreshold
+          href:  Customize/uwf-overlaysetcriticalthreshold.md
+        - name: SetWarningThreshold
+          href: Customize/uwf-overlaysetwarningthreshold.md
+      - name: Class UWF_OverlayConfig
+        expanded: false
+        items:
+        - name: Overview
+          href: Customize/uwf-overlayconfig.md
+        - name: SetMaximumSize
+          href: Customize/uwf-overlayconfigsetmaximumsize.md
+        - name: SetType
+          href: Customize/uwf-overlayconfigsettype.md
+      - name: Class UWF_OverlayFile
+        expanded: false
+        items:
+      - name: Class UWF_RegistryFilter
+        expanded: false
+        items:
+        - name: Overview
+          href: Customize/uwf-registryfilter.md
+        - name: AddExclusion
+          href: Customize/uwf-registryfilteraddexclusion.md
+        - name: CommitRegistry
+          href: Customize/uwf-registryfiltercommitregistry.md
+        - name: CommitRegistryDeletion
+          href: Customize/uwf-registryfiltercommitregistrydeletion.md
+        - name: FindExclusion
+          href: Customize/uwf-registryfilterfindexclusion.md
+        - name: GetExclusions
+          href: Customize/uwf-registryfiltergetexclusions.md
+        - name: RemoveExclusion  
+      - name: Class UWF_Servicing
+        expanded: false
+        items:
+        - name: Overview
+          href: Customize/uwf-servicing.md
+        - name: Disable
+          href: Customize/uwf-servicingdisable.md
+        - name: Enable
+          href: Customize/uwf-servicingenable.md
+        - name: UpdateWindows
+          href: Customize/uwf-servicingupdatewindows.md
+      - name: Class UWF_Volume
+        expanded: false
+        items:
+        - name: Overview
+          href: Customize/uwf-volume.md
+        - name: AddExclusion
+          href: Customize/uwf-volumeaddexclusion.md
+        - name: CommitFile
+          href: Customize/uwf-volumecommitfile.md
+        - name: CommitFileDeletion
+          href: Customize/uwf-volumecommitfiledeletion.md
+        - name: FindExclusion
+          href: Customize/uwf-volumefindexclusion.md
+        - name: GetExclusions
+          href: Customize/uwf-volumegetexclusions.md
+        - name: protect
+          href: Customize/uwf-volumeprotect.md
+        - name: RemoveAllExclusions
+          href: Customize/uwf-volumeremoveallexclusions.md
+        - name: RemoveExclusion
+          href: Customize/uwf-volumeremoveexclusion.md
+        - name: SetBindByDriveLetter
+          href: Customize/uwf-volumesetbindbydriveletter.md
+        - name: Unprotect
+          href: Customize/uwf-volumeunprotect.md
+      - name: Migration from Enhanced Write Filter
+        href: Customize/uwf-wes7-ewf-to-win10-uwf.md  
+  - name: User Experience
+    expanded: false
+    items: 
+    - name: Application Control
+      href: Customize/Application-Control.md
+    - name: Device Safeguards
+      href: Customize/Device-Safeguards.md
+    - name: Layout Control
+      href: Customize/Layout-Control.md
+    - name: Manage Update Experience
+      href: Customize/Update-Notification.md
+    - name: Microsoft Store Access
+      href: Customize/Microsoft-Store-Access.md
+    - name: Screen Edge Swipe Policy
+      href: Customize/Edge-Swipe-Policy.md
+    - name: Settings Page Visibility
+      href: Customize/Page-Visibility.md
 - name: Device Management
   expanded: false
   items:
@@ -210,8 +434,6 @@
     href: Soft-Real-Time/Soft-Real-Time-Device.md
   - name: Application Development
     href: Soft-Real-Time/Soft-Real-Time-Application.md
-# - name: Azure IoT Edge for Linux on Windows
-#   href: Azure-IoT-Edge-For-Linux-On-Windows.md
 - name: Downloads
   href: Downloads.md
 - name: Code Samples
