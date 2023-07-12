@@ -106,7 +106,7 @@
         - name: Remove
           href: Customize/wekf-scancoderemove.md
       - name: Class WEKF-Settings
-        hkey: Customize/wekf-settings.md
+        href: Customize/wekf-settings.md
     - name: PowerShell script samples
       expanded: false
       items: 
