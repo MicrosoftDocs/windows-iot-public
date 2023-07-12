@@ -307,16 +307,16 @@
       href: Customize/Application-Control.md
     - name: Device Safeguards
       href: Customize/Device-Safeguards.md
-    - name: Layout Control
-      href: Customize/Layout-Control.md
-    - name: Manage Update Experience
-      href: Customize/Update-Notification.md
     - name: Microsoft Store Access
       href: Customize/Microsoft-Store-Access.md
     - name: Screen Edge Swipe Policy
       href: Customize/Edge-Swipe-Policy.md
     - name: Settings Page Visibility
       href: Customize/Page-Visibility.md
+    - name: Start Menu and Taskbar
+      href: Customize/Layout-Control.md
+    - name: Windows Update Experience
+      href: Customize/Update-Notification.md
 - name: Device Management
   expanded: false
   items:
