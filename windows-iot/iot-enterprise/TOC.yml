@@ -100,11 +100,11 @@
         expanded: false
         items:
         - name: Overview
-          hkey: Customize/wekf-scancode.md
+          href: Customize/wekf-scancode.md
         - name: Add
-          hkey: Customize/wekf-scancodeadd.md
+          href: Customize/wekf-scancodeadd.md
         - name: Remove
-          hkey: Customize/wekf-scancoderemove.md    
+          href: Customize/wekf-scancoderemove.md
       - name: Class WEKF-Settings
         hkey: Customize/wekf-settings.md
     - name: PowerShell script samples
