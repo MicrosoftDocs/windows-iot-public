@@ -230,8 +230,10 @@
           href: Customize/uwf-overlay.md
         - name: GetOverlayFiles
           href: Customize/uwf-overlaygetoverlayfiles.md
+        - name: OverlayFile
+          href: Customize/uwf-overlayfile.md  
         - name: SetCriticalThreshold
-          href:  Customize/uwf-overlaysetcriticalthreshold.md
+          href: Customize/uwf-overlaysetcriticalthreshold.md
         - name: SetWarningThreshold
           href: Customize/uwf-overlaysetwarningthreshold.md
       - name: Class UWF_OverlayConfig
@@ -243,9 +245,6 @@
           href: Customize/uwf-overlayconfigsetmaximumsize.md
         - name: SetType
           href: Customize/uwf-overlayconfigsettype.md
-      - name: Class UWF_OverlayFile
-        expanded: false
-        items:
       - name: Class UWF_RegistryFilter
         expanded: false
         items:
@@ -262,6 +261,7 @@
         - name: GetExclusions
           href: Customize/uwf-registryfiltergetexclusions.md
         - name: RemoveExclusion  
+          href: Customize/uwf-registryfilterremoveexclusion.md
       - name: Class UWF_Servicing
         expanded: false
         items:
