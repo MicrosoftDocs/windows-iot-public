@@ -54,6 +54,6 @@ Create a recovery drive user experience invoked from Control Panel - Recovery
 
 ## More Resources
 
-- [Removable Packages](/windows/iot/iot-enterprise/optimize/Removable-Packages.md)
-- [Reduce Disk Footprint](/windows/iot/iot-enterprise/optimize/Reduce-Disk-Footprint.md)
-- [Device Optimization Overview](/windows/iot/iot-enterprise/optimize/Overview.md)
+- [Removable Packages]../Removable-Packages.md)
+- [Reduce Disk Footprint]../Reduce-Disk-Footprint.md)
+- [Device Optimization Overview]../Overview.md)
