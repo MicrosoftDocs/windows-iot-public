@@ -48,13 +48,13 @@ A component of the [Media Feature Pack](/windows/win32/wmdm/windows-media-device
 
 These packages collectively provide the functionality represented by the [Media Feature Pack](/windows/win32/wmdm/windows-media-device-manager-architecture).  There are dependencies between each of these packages.  If you elect to remove a subset of these packages, it is recommended that you thoroughly test your scenarios to ensure that your customers do not encounter the interaction between the packages you retain and the packages that you remove.
 
-- [Microsoft-Media-Foundation](/windows/iot/iot-enterprise/Optimize-Your-Device/Removable-Packages-Details/Microsoft-Media-Foundation)
-- [Microsoft-Windows-Media-Format](/windows/iot/iot-enterprise/Optimize-Your-Device/Removable-Packages-Details/Microsoft-Windows-Media-Format)
-- [Microsoft-Windows-Media-Streaming](/windows/iot/iot-enterprise/Optimize-Your-Device/Removable-Packages-Details/Microsoft-Windows-Media-Streaming)
-- [Microsoft-Windows-MediaPlayback-OC](/windows/iot/iot-enterprise/Optimize-Your-Device/Removable-Packages-Details/Microsoft-Windows-MediaPlayback-OC)
-- [Microsoft-Windows-Portable-Devices](/windows/iot/iot-enterprise/Optimize-Your-Device/Removable-Packages-Details/Microsoft-Windows-Portable-Devices)
-- [Microsoft-Windows-WebcamExperience](/windows/iot/iot-enterprise/Optimize-Your-Device/Removable-Packages-Details/Microsoft-Windows-WebcamExperience)
-- [Microsoft-Windows-WinSATMediaFiles](/windows/iot/iot-enterprise/Optimize-Your-Device/Removable-Packages-Details/Microsoft-Windows-WinSATMediaFiles)
+- [Microsoft-Media-Foundation](/windows/iot/iot-enterprise/optimize/removable-packages/Microsoft-Media-Foundation)
+- [Microsoft-Windows-Media-Format](/windows/iot/iot-enterprise/optimize/removable-packages/Microsoft-Windows-Media-Format)
+- [Microsoft-Windows-Media-Streaming](/windows/iot/iot-enterprise/optimize/removable-packages/Microsoft-Windows-Media-Streaming)
+- [Microsoft-Windows-MediaPlayback-OC](/windows/iot/iot-enterprise/optimize/removable-packages/Microsoft-Windows-MediaPlayback-OC)
+- [Microsoft-Windows-Portable-Devices](/windows/iot/iot-enterprise/optimize/removable-packages/Microsoft-Windows-Portable-Devices)
+- [Microsoft-Windows-WebcamExperience](/windows/iot/iot-enterprise/optimize/removable-packages/Microsoft-Windows-WebcamExperience)
+- [Microsoft-Windows-WinSATMediaFiles](/windows/iot/iot-enterprise/optimize/removable-packages/Microsoft-Windows-WinSATMediaFiles)
 
 ## File List
 
@@ -73,6 +73,6 @@ These packages collectively provide the functionality represented by the [Media 
 
 ## More Resources
 
-- [Removable Packages](/windows/iot/iot-enterprise/Optimize-Your-Device/Removable-Packages)
-- [Reduce Disk Footprint](/windows/iot/iot-enterprise/Optimize-Your-Device/Reduce-Disk-Footprint)
-- [Device Optimization Overview](/windows/iot/iot-enterprise/Optimize-Your-Device/Overview)
+- [Removable Packages](/windows/iot/iot-enterprise/optimize/Removable-Packages)
+- [Reduce Disk Footprint](/windows/iot/iot-enterprise/optimize/Reduce-Disk-Footprint)
+- [Device Optimization Overview](/windows/iot/iot-enterprise/optimize/Overview)

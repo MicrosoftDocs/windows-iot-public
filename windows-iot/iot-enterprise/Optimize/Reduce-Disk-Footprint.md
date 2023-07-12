@@ -52,7 +52,7 @@ Enabling Compact OS will compress OS files and some select set of program files,
 
 ## Removable Packages
 
-The [removable packages feature](/windows/iot/iot-enterprise/optimize-your-device/removable-packages) will enable Windows IoT Enterprise device builders to use DISM to permanently remove specific optional packages that may not be needed for the OEM’s device use case, such as printer drivers and fonts. These packages are explicitly tagged as 'OEM removable' by Microsoft and ensure feature OS updates don't restore the removed packages. Removing packages helps OEMs optimize their device and reduce their overall disk footprint.
+The [removable packages feature](/windows/iot/iot-enterprise/optimize/removable-packages) will enable Windows IoT Enterprise device builders to use DISM to permanently remove specific optional packages that may not be needed for the OEM’s device use case, such as printer drivers and fonts. These packages are explicitly tagged as 'OEM removable' by Microsoft and ensure feature OS updates don't restore the removed packages. Removing packages helps OEMs optimize their device and reduce their overall disk footprint.
 
 ## Guidance
 
@@ -62,5 +62,5 @@ Once you've created a final image and deploy to your target device, we recommend
 
 ## More Resources
 
-- [Removable Packages](/windows/iot/iot-enterprise/Optimize-Your-Device/Removable-Packages)
-- [Device Optimization Overview](/windows/iot/iot-enterprise/Optimize-Your-Device/Overview)
+- [Removable Packages](/windows/iot/iot-enterprise/optimize/Removable-Packages)
+- [Device Optimization Overview](/windows/iot/iot-enterprise/optimize/Overview)

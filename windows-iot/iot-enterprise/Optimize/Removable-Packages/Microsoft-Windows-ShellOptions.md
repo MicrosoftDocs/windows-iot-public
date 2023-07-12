@@ -65,6 +65,6 @@ Modern Calculator, Character Map, More Icons DLL
 
 ## More Resources
 
-- [Removable Packages](/windows/iot/iot-enterprise/Optimize-Your-Device/Removable-Packages)
-- [Reduce Disk Footprint](/windows/iot/iot-enterprise/Optimize-Your-Device/Reduce-Disk-Footprint)
-- [Device Optimization Overview](/windows/iot/iot-enterprise/Optimize-Your-Device/Overview)
+- [Removable Packages](/windows/iot/iot-enterprise/optimize/Removable-Packages)
+- [Reduce Disk Footprint](/windows/iot/iot-enterprise/optimize/Reduce-Disk-Footprint)
+- [Device Optimization Overview](/windows/iot/iot-enterprise/optimize/Overview)

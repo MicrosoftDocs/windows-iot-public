@@ -126,9 +126,9 @@ This section provides insight into how OEMs can optimize their devices for manuf
 
 Articles include:
 
-* [Guidelines for Device Optimization](./optimize-your-device/overview.md)
-* [Reduce Disk Footprint](./optimize-your-device/Reduce-Disk-Footprint.md)
-* [Services Guide](./optimize-your-device/services.md)
+* [Guidelines for Device Optimization](./optimize/overview.md)
+* [Reduce Disk Footprint](./optimize/Reduce-Disk-Footprint.md)
+* [Services Guide](./optimize/services.md)
 
 ### Commercialization
 

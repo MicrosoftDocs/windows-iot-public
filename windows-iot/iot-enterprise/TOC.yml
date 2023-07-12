@@ -347,7 +347,7 @@
     href: OS-Features/Privacy.md
   - name: Security
     href: OS-Features/Security.md
-- name: Device Optimization
+- name: Optimization
   expanded: false
   items:
   - name: Overview
