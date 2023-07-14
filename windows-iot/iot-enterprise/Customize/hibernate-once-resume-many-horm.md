@@ -20,7 +20,7 @@ You can use the Hibernate Once/Resume Many (HORM) feature with Unified Write Fil
 
 A device with HORM enabled can quickly be turned off or shut down, and then restarted into the preconfigured state, even in the event of a sudden power loss.
 
-> [!Note]
+> [!NOTE]
 > HORM can be used on Unified Extensible Firmware Interface (UEFI) devices running Windows 10, version 1709, or newer versions of Windows, only. In previous Windows versions, the installation procedure for UEFI creates a hidden system partition. Because UWF cannot protect hidden partitions, HORM cannot be used on any devices that contain a hidden partition, including UEFI-capable devices on older versions of Windows.
 
 ## Requirements
@@ -33,24 +33,24 @@ On Windows 10, version 21H2 or newer versions of Windows, Read-Only Media mode m
 
 UWF must be enabled before you can enable or disable HORM. UWF must be configured in the following ways to protect the hibernation file from becoming invalid:
 
-* All fixed volumes that are mounted on the system must be protected by UWF.
-* Your system must not have any file, folder, or registry exclusions configured for UWF.
-* The UWF overlay must be configured to use RAM mode. HORM does not support disk-backed overlays.
+- All fixed volumes that are mounted on the system must be protected by UWF.
+- Your system must not have any file, folder, or registry exclusions configured for UWF.
+- The UWF overlay must be configured to use RAM mode. HORM does not support disk-backed overlays.
 
 UWF does not filter hibernation files from being written to disk. If you want to protect the preconfigured state of your device, lock down any functionality that can modify the hibernation file. For example, disable hibernation, hybrid sleep, and fast startup on your device for standard user accounts so that the saved hibernation file is not overwritten when entering a sleep, hibernate, or shutdown state.
 
-To disable hybrid sleep and fast startup on your device, follow these steps. 
+To disable hybrid sleep and fast startup on your device, follow these steps.
 
 ### How to disable hybrid sleep
 
 1. Open the Local Group Policy Editor (gpedit.msc) and navigate to the following path.  
    Computer Configuration\Administrative Templates\System\Power Management\Sleep settings
 
-2. Enable the following two settings under the path:
+1. Enable the following two settings under the path:
 
    Turn off hybrid sleep (plugged in)  
    Turn off hybrid sleep (on battery)
- 
+
 ### How to disable fast startup
 
 To disable fast startup, set the following registry value:
@@ -62,8 +62,8 @@ Key: HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\Power
 Name : HiberbootEnabled  
 Type : DWORD  
 Value : 0 (0 = Disabled、1 = Enabled)
- 
-###  How to prevent Windows from entering hibernation due to the system idle time out or user operations
+
+### How to prevent Windows from entering hibernation due to the system idle time out or user operations
 
 Configure the following two policies in Local Group Policy Editor (gpedit.msc):
 
@@ -72,7 +72,7 @@ Policy to prevent Windows from entering hibernation by the system idle time:
 1. Under the following path:  
    Computer Configuration\Administrative Templates\System\Power Management\Sleep settings
 
-2. Enable these two settings and set the value to 0.
+1. Enable these two settings and set the value to 0.
 
    Specify the system hibernate timeout (plugged in)  
    Specify the system hibernate timeout (on battery)
@@ -82,10 +82,11 @@ Disable the policy to show “Hibernation” in the power options menu:
 1. Under the following path:  
    Computer Configuration\Windows Components\File Explorer
 
-2. Disable the following setting:  
+1. Disable the following setting:  
    Show hibernate in the power options menu
 
-> [!Note]
+> [!NOTE]
+>
 > - Don’t disable hibernate (i.e. powercfg /h off) because it will delete the hiberfil.sys which HORM requires.
 > - Even after you set all these settings, the timestamp of hiberfil.sys is updated after the system reboot. This is because UWF cannot filter the hiberfil.sys file, and the file needs to be compressed and decompressed during the system reboot. However, this doesn’t change the content of hiberfil.sys so the preconfigured state of the device is protected.
 
@@ -142,7 +143,7 @@ Disable the policy to show “Hibernation” in the power options menu:
 
     The system will restart normally with HORM disabled.
 
-> [!Warning]
+> [!WARNING]
 > Do not uninstall UWF when the filter is enabled or when HORM is enabled, either online or offline by using Windows PE.
 
 ## Fix an issue when you cannot disable HORM
