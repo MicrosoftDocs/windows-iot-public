@@ -34,7 +34,7 @@ Windows 10 Enterprise or Windows 10 Education.
 
 **Custom Logon:** This feature is called Custom Logon in Windows 10, version 1607 and later.
 
-## <a href="" id="turn-on-logon"></a>Turn on Custom Logon
+## Turn on Custom Logon
 
 Custom Logon is an optional component and is not turned on by default in Windows 10. It must be turned on prior to configuring. You can turn on and configure Custom Logon in a customized Windows 10 image (.wim) if Microsoft Windows has not been installed. If Windows has already been installed and you are applying a provisioning package to configure Custom Logon, you must first turn on Custom Logon in order for a provisioning package to be successfully applied.
 
@@ -91,13 +91,9 @@ The following example shows how to disable all Welcome screen UI elements and th
 </settings>
 ```
 
-## In this section
-
-* [Complementary features to Custom Logon](complementary-features-to-custom-logon.md)
-* [Troubleshooting Custom Logon](troubleshooting-custom-logon.md)
-
 ## Related topics
 
-[Unbranded Boot](unbranded-boot.md)
-
-[Shell Launcher](shell-launcher.md)
+- [Complementary features to Custom Logon](complementary-features-to-custom-logon.md)
+- [Troubleshooting Custom Logon](troubleshooting-custom-logon.md)
+- [Unbranded Boot](unbranded-boot.md)
+- [Shell Launcher](shell-launcher.md)
