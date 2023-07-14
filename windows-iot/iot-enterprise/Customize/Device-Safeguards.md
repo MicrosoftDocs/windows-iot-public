@@ -28,18 +28,18 @@ Microsoft recommends [a layered approach to securing removable media](https://ak
 
 1. [Discover plug and play connected events for peripherals in Microsoft Defender for Endpoint advanced hunting](/windows/security/threat-protection/device-control/control-usb-devices-using-intune#discover-plug-and-play-connected-events). Identify or investigate suspicious usage activity.
 
-2. Configure to allow or block only certain removable devices and prevent threats.
-    1. [Allow or block removable devices](/windows/security/threat-protection/device-control/control-usb-devices-using-intune#allow-or-block-removable-devices) based on granular configuration to deny write access to removable disks and approve or deny devices by using USB device IDs.
+1. Configure to allow or block only certain removable devices and prevent threats.
+   1. [Allow or block removable devices](/windows/security/threat-protection/device-control/control-usb-devices-using-intune#allow-or-block-removable-devices) based on granular configuration to deny write access to removable disks and approve or deny devices by using USB device IDs.
 
-    2. [Prevent threats from removable storage](/windows/security/threat-protection/device-control/control-usb-devices-using-intune#prevent-threats-from-removable-storage) introduced by removable storage devices by enabling:  
+   1. [Prevent threats from removable storage](/windows/security/threat-protection/device-control/control-usb-devices-using-intune#prevent-threats-from-removable-storage) introduced by removable storage devices by enabling:  
 
-        * Microsoft Defender Antivirus real-time protection (RTP) to scan removable storage for malware.  
-        * The Attack Surface Reduction (ASR) USB rule to block untrusted and unsigned processes that run from USB.  
-        *  Direct Memory Access (DMA) protection settings to mitigate DMA attacks, including Kernel DMA Protection for Thunderbolt and blocking DMA until a user signs in.  
+      - Microsoft Defender Antivirus real-time protection (RTP) to scan removable storage for malware.  
+      - The Attack Surface Reduction (ASR) USB rule to block untrusted and unsigned processes that run from USB.  
+      - Direct Memory Access (DMA) protection settings to mitigate DMA attacks, including Kernel DMA Protection for Thunderbolt and blocking DMA until a user signs in.  
 
-3. [Create customized alerts and response actions](/windows/security/threat-protection/device-control/control-usb-devices-using-intune#create-customized-alerts-and-response-actions) to monitor usage of removable devices based on these plug and play events or any other Microsoft Defender for Endpoint events with [custom detection rules](/windows/security/threat-protection/microsoft-defender-atp/custom-detection-rules).
+1. [Create customized alerts and response actions](/windows/security/threat-protection/device-control/control-usb-devices-using-intune#create-customized-alerts-and-response-actions) to monitor usage of removable devices based on these plug and play events or any other Microsoft Defender for Endpoint events with [custom detection rules](/windows/security/threat-protection/microsoft-defender-atp/custom-detection-rules).
 
-4. [Respond to threats](/windows/security/threat-protection/device-control/control-usb-devices-using-intune#respond-to-threats) from peripherals in real-time based on properties reported by each peripheral.
+1. [Respond to threats](/windows/security/threat-protection/device-control/control-usb-devices-using-intune#respond-to-threats) from peripherals in real-time based on properties reported by each peripheral.
 
 >[!NOTE]
 >
@@ -49,25 +49,25 @@ Microsoft recommends [a layered approach to securing removable media](https://ak
 
 If your organization manages devices through mobile device management, we recommend you review the following [device installation policies](/windows/client-management/mdm/policy-csp-deviceinstallation):
 
-* [Allow Installation Of Matching Device IDs](/windows/client-management/mdm/policy-csp-deviceinstallation#deviceinstallation-allowinstallationofmatchingdeviceids)
-* [Allow Installation Of Matching Device Instance IDs](/windows/client-management/mdm/policy-csp-deviceinstallation#deviceinstallation-allowinstallationofmatchingdeviceinstanceids)
-* [Allow Installation Of Matching Device Setup Classes](/windows/client-management/mdm/policy-csp-deviceinstallation#deviceinstallation-allowinstallationofmatchingdevicesetupclasses)
-* [Prevent Device Metadata From Network](/windows/client-management/mdm/policy-csp-deviceinstallation#deviceinstallation-preventdevicemetadatafromnetwork)
-* [Prevent Installation Of Devices Not Described By Other Policy Settings](/windows/client-management/mdm/policy-csp-deviceinstallation#deviceinstallation-preventinstallationofdevicesnotdescribedbyotherpolicysettings)
-* [Prevent Installation Of Matching Device IDs](/windows/client-management/mdm/policy-csp-deviceinstallation#deviceinstallation-preventinstallationofmatchingdeviceids)
-* [Prevent Installation Of Matching Device Instance IDs](/windows/client-management/mdm/policy-csp-deviceinstallation#deviceinstallation-preventinstallationofmatchingdeviceinstanceids)
-* [Prevent Installation Of Matching Device Setup Classes](/windows/client-management/mdm/policy-csp-deviceinstallation#deviceinstallation-preventinstallationofmatchingdevicesetupclasses)
+- [Allow Installation Of Matching Device IDs](/windows/client-management/mdm/policy-csp-deviceinstallation#deviceinstallation-allowinstallationofmatchingdeviceids)
+- [Allow Installation Of Matching Device Instance IDs](/windows/client-management/mdm/policy-csp-deviceinstallation#deviceinstallation-allowinstallationofmatchingdeviceinstanceids)
+- [Allow Installation Of Matching Device Setup Classes](/windows/client-management/mdm/policy-csp-deviceinstallation#deviceinstallation-allowinstallationofmatchingdevicesetupclasses)
+- [Prevent Device Metadata From Network](/windows/client-management/mdm/policy-csp-deviceinstallation#deviceinstallation-preventdevicemetadatafromnetwork)
+- [Prevent Installation Of Devices Not Described By Other Policy Settings](/windows/client-management/mdm/policy-csp-deviceinstallation#deviceinstallation-preventinstallationofdevicesnotdescribedbyotherpolicysettings)
+- [Prevent Installation Of Matching Device IDs](/windows/client-management/mdm/policy-csp-deviceinstallation#deviceinstallation-preventinstallationofmatchingdeviceids)
+- [Prevent Installation Of Matching Device Instance IDs](/windows/client-management/mdm/policy-csp-deviceinstallation#deviceinstallation-preventinstallationofmatchingdeviceinstanceids)
+- [Prevent Installation Of Matching Device Setup Classes](/windows/client-management/mdm/policy-csp-deviceinstallation#deviceinstallation-preventinstallationofmatchingdevicesetupclasses)
 
 ## Look up device ID
 
 You can use Device Manager to look up a device ID.
 
 1. Open Device Manager.
-2. Click **View** and select **Devices by connection**.
-3. From the tree, right-click the device and select **Properties**.
-4. In the dialog box for the selected device, click the **Details** tab.
-5. Click the **Property** drop-down list and select **Hardware Ids**.
-6. Right-click the top ID value and select **Copy**.
+1. Click **View** and select **Devices by connection**.
+1. From the tree, right-click the device and select **Properties**.
+1. In the dialog box for the selected device, click the **Details** tab.
+1. Click the **Property** drop-down list and select **Hardware Ids**.
+1. Right-click the top ID value and select **Copy**.
 
 For information about Device ID formats, see [Standard USB Identifiers](/windows-hardware/drivers/install/standard-usb-identifiers).
 
@@ -83,8 +83,8 @@ Select-Object -Property *
 
 ## Additional Resources
 
-* [Policy CSP - DeviceInstallation](/windows/client-management/mdm/policy-csp-deviceinstallation)
-* [Defender/AllowFullScanRemovableDriveScanning](/windows/client-management/mdm/policy-csp-defender#defender-allowfullscanremovabledrivescanning)
-* [Perform a custom scan of a removable device](https://aka.ms/scanusb)
-* [Device Control Power BI Template for custom reporting](https://github.com/microsoft/MDATP-PowerBI-Templates)
-* [Windows Information Protection](/windows/security/information-protection/windows-information-protection/create-wip-policy-using-intune-azure)
+- [Policy CSP - DeviceInstallation](/windows/client-management/mdm/policy-csp-deviceinstallation)
+- [Defender/AllowFullScanRemovableDriveScanning](/windows/client-management/mdm/policy-csp-defender#defender-allowfullscanremovabledrivescanning)
+- [Perform a custom scan of a removable device](https://aka.ms/scanusb)
+- [Device Control Power BI Template for custom reporting](https://github.com/microsoft/MDATP-PowerBI-Templates)
+- [Windows Information Protection](/windows/security/information-protection/windows-information-protection/create-wip-policy-using-intune-azure)
