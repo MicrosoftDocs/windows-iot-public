@@ -20,727 +20,166 @@ You can configure Keyboard Filter to block keys or key combinations. A key combi
 
 The key names are grouped as follows:
 
-* [Modifier keys](#modkey)
-* [System keys](#syskey)
-* [Cursor and math keys](#curkey)
-* [State keys](#stakey)
-* [OEM keys](#oemkey)
-* [Function keys](#funkey)
+- [Modifier keys](#modifier-keys)
+- [System keys](#system-keys)
+- [Cursor and edit keys](#cursor-and-edit-keys)
+- [State keys](#state-keys)
+- [OEM keys](#oem-keys)
+- [Function keys](#function-keys)
+- [Numeric keypad keys](#numeric-keypad-keys)
 
-## <a href="" id="modkey"></a>Modifier keys
+## Modifier keys
 
 You can use the modifier keys listed in the following table when you configure keyboard filter. Multiple modifiers are separated by a plus sign (+). You can also configure Keyboard Filter to block any modifier key even if it’s not part of a key combination.
 
-<table>
-<colgroup>
-<col width="33%" />
-<col width="33%" />
-<col width="33%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Modifier key name</th>
-<th>Virtual key</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p><strong>Ctrl</strong></p></td>
-<td><p>VK_CONTROL</p></td>
-<td><p>The Ctrl key</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>LCtrl</strong></p></td>
-<td><p>VK_LCONTROL</p></td>
-<td><p>The left Ctrl key</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>RCtrl</strong></p></td>
-<td><p>VK_RCONTROL</p></td>
-<td><p>The right Ctrl key</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Control</strong></p></td>
-<td><p>VK_CONTROL</p></td>
-<td><p>The Ctrl key</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>LControl</strong></p></td>
-<td><p>VK_LCONTROL</p></td>
-<td><p>The left Ctrl key</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>RControl</strong></p></td>
-<td><p>VK_RCONTROL</p></td>
-<td><p>The right Ctrl key</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>Alt</strong></p></td>
-<td><p>VK_MENU</p></td>
-<td><p>The Alt key</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>LAlt</strong></p></td>
-<td><p>VK_LMENU</p></td>
-<td><p>The left Alt key</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>RAlt</strong></p></td>
-<td><p>VK_RMENU</p></td>
-<td><p>The right Alt key</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Shift</strong></p></td>
-<td><p>VK_SHIFT</p></td>
-<td><p>The Shift key</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>LShift</strong></p></td>
-<td><p>VK_LSHIFT</p></td>
-<td><p>The left Shift key</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>RShift</strong></p></td>
-<td><p>VK_RSHIFT</p></td>
-<td><p>The right Shift key</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>Win</strong></p></td>
-<td><p>VK_WIN</p></td>
-<td><p>The Windows logo key</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>LWin</strong></p></td>
-<td><p>VK_LWIN</p></td>
-<td><p>The left Windows logo key</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>RWin</strong></p></td>
-<td><p>VK_RWIN</p></td>
-<td><p>The right Windows logo key</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Windows</strong></p></td>
-<td><p>VK_WIN</p></td>
-<td><p>The Windows logo key</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>LWindows</strong></p></td>
-<td><p>VK_LWIN</p></td>
-<td><p>The left Windows logo key</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>RWindows</strong></p></td>
-<td><p>VK_RWIN</p></td>
-<td><p>The right Windows logo key</p></td>
-</tr>
-</tbody>
-</table>
+| Modifier key name | Virtual key | Description |
+| ----------------- | ----------- | ----------- |
+| **Ctrl**     | VK_CONTROL  | The <kbd>Ctrl</kbd> key |
+| **LCtrl**    | VK_LCONTROL | The left <kbd>Ctrl</kbd> key |
+| **RCtrl**    | VK_RCONTROL | The right <kbd>Ctrl</kbd> key |
+| **Control**  | VK_CONTROL  | The <kbd>Ctrl</kbd> key |
+| **LControl** | VK_LCONTROL | The left <kbd>Ctrl</kbd> key |
+| **RControl** | VK_RCONTROL | The right <kbd>Ctrl</kbd> key |
+| **Alt**      | VK_MENU     | The <kbd>Alt</kbd> key |
+| **LAlt**     | VK_LMENU    | The left <kbd>Alt</kbd> key |
+| **RAlt**     | VK_RMENU    | The right <kbd>Alt</kbd> key |
+| **Shift**    | VK_SHIFT    | The <kbd>Shift</kbd> key |
+| **LShift**   | VK_LSHIFT   | The left <kbd>Shift</kbd> key |
+| **RShift**   | VK_RSHIFT   | The right <kbd>Shift</kbd> key |
+| **Win**      | VK_WIN      | The <kbd>Windows</kbd> logo key |
+| **LWin**     | VK_LWIN     | The left <kbd>Windows</kbd> logo key |
+| **RWin**     | VK_RWIN     | The right <kbd>Windows</kbd> logo key |
+| **Windows**  | VK_WIN      | The <kbd>Windows</kbd> logo key |
+| **LWindows** | VK_LWIN     | The left <kbd>Windows</kbd> logo key |
+| **RWindows** | VK_RWIN     | The right <kbd>Windows</kbd> key |
 
-## <a href="" id="syskey"></a>System keys
+## System keys
 
-<table>
-<colgroup>
-<col width="33%" />
-<col width="33%" />
-<col width="33%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Key name</th>
-<th>Virtual key</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p><strong>Backspace</strong></p></td>
-<td><p>VK_BACK</p></td>
-<td><p>The Backspace key</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Back</strong></p></td>
-<td><p>VK_BACK</p></td>
-<td><p>The Backspace key</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>Tab</strong></p></td>
-<td><p>VK_TAB</p></td>
-<td><p>The Tab key</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Clear</strong></p></td>
-<td><p>VK_CLEAR</p></td>
-<td><p>The Clear key</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>Enter</strong></p></td>
-<td><p>VK_RETURN</p></td>
-<td><p>The Enter key</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Return</strong></p></td>
-<td><p>VK_RETURN</p></td>
-<td><p>The Enter key</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>Pause</strong></p></td>
-<td><p>VK_PAUSE</p></td>
-<td><p>The Pause key</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Esc</strong></p></td>
-<td><p>VK_ESCAPE</p></td>
-<td><p>The Esc key</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>Escape</strong></p></td>
-<td><p>VK_ESCAPE</p></td>
-<td><p>The Esc key</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Space</strong></p></td>
-<td><p>VK_SPACE</p></td>
-<td><p>The Spacebar</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>Break</strong></p></td>
-<td><p>VK_BREAK</p></td>
-<td><p>The Break key</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Select</strong></p></td>
-<td><p>VK_SELECT</p></td>
-<td><p>The Select key</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>PrintScreen</strong></p></td>
-<td><p>VK_PRINT</p></td>
-<td><p>The Print Screen key</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>PrintScrn</strong></p></td>
-<td><p>VK_PRINT</p></td>
-<td><p>The Print Screen key</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>Print</strong></p></td>
-<td><p>VK_PRINT</p></td>
-<td><p>The Print Screen key</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Execute</strong></p></td>
-<td><p>VK_EXECUTE</p></td>
-<td><p>The Execute key</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>Snapshot</strong></p></td>
-<td><p>VK_SNAPSHOT</p></td>
-<td><p>The Print Screen key</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Help</strong></p></td>
-<td><p>VK_HELP</p></td>
-<td><p>The Help key</p></td>
-</tr>
-</tbody>
-</table>
+| Modifier key name | Virtual key | Description |
+| ----------------- | ----------- | ----------- |
+| **Ctrl**     | VK_CONTROL   | The <kbd>Ctrl</kbd> key |
+| **LCtrl**    | VK_LCONTROL  | The left <kbd>Ctrl</kbd> key |
+| **RCtrl**    | VK_RCONTROL  | The right <kbd>Ctrl</kbd> key |
+| **Control**  | VK_CONTROL   | The <kbd>Ctrl</kbd> key |
+| **LControl** | VK_LCONTROL  | The left <kbd>Ctrl</kbd> key |
+| **RControl** | VK_RCONTROL  | The right <kbd>Ctrl</kbd> key |
+| **Alt**      | VK_MENU      | The <kbd>Alt</kbd> key |
+| **LAlt**     | VK_LMENU     | The left <kbd>Alt</kbd> key |
+| **RAlt**     | VK_RMENU     | The right <kbd>Alt</kbd> key |
+| **Shift**    | VK_SHIFT     | The <kbd>Shift</kbd> key |
+| **LShift**   | VK_LSHIFT    | The left <kbd>Shift</kbd> key |
+| **RShift**   | VK_RSHIFT    | The right <kbd>Shift</kbd> key |
+| **Win**      | VK_WIN       | The <kbd>Windows</kbd> logo key |
+| **LWin**     | VK_LWIN      | The left <kbd>Windows</kbd> logo key |
+| **RWin**     | VK_RWIN      | The right <kbd>Windows</kbd> logo key |
+| **Windows**  | VK_WIN       | The <kbd>Windows</kbd> logo key |
+| **LWindows** | VK_LWIN      | The left <kbd>Windows</kbd> logo key |
+| **RWindows** | VK_RWIN      | The right <kbd>Windows</kbd> logo key
 
-## <a href="" id="curkey"></a>Cursor and edit keys
+## Cursor and edit keys
 
-<table>
-<colgroup>
-<col width="33%" />
-<col width="33%" />
-<col width="33%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Key name</th>
-<th>Virtual key</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p><strong>PageUp</strong></p></td>
-<td><p>VK_PRIOR</p></td>
-<td><p>The Page Up key</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Prior</strong></p></td>
-<td><p>VK_PRIOR</p></td>
-<td><p>The Page Up key</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>PgUp</strong></p></td>
-<td><p>VK_PRIOR</p></td>
-<td><p>The Page Up key</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>PageDown</strong></p></td>
-<td><p>VK_NEXT</p></td>
-<td><p>The Page Down key</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>PgDown</strong></p></td>
-<td><p>VK_NEXT</p></td>
-<td><p>The Page Down key</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Next</strong></p></td>
-<td><p>VK_NEXT</p></td>
-<td><p>The Page Down key</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>End</strong></p></td>
-<td><p>VK_END</p></td>
-<td><p>The End key</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Home</strong></p></td>
-<td><p>VK_HOME</p></td>
-<td><p>The Home key</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>Left</strong></p></td>
-<td><p>VK_LEFT</p></td>
-<td><p>The Left Arrow key</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Up</strong></p></td>
-<td><p>VK_UP</p></td>
-<td><p>The Up Arrow key</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>Right</strong></p></td>
-<td><p>VK_RIGHT</p></td>
-<td><p>The Right Arrow key</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Down</strong></p></td>
-<td><p>VK_DOWN</p></td>
-<td><p>The Down Arrow key</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>Insert</strong></p></td>
-<td><p>VK_INSERT</p></td>
-<td><p>The Insert key</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Delete</strong></p></td>
-<td><p>VK_DELETE</p></td>
-<td><p>The Delete key</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>Del</strong></p></td>
-<td><p>VK_DELETE</p></td>
-<td><p>The Delete key</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Separator</strong></p></td>
-<td><p>VK_SEPARATOR</p></td>
-<td><p>The Separator key</p></td>
-</tr>
-</tbody>
-</table>
- 
-## <a href="" id="stakey"></a>State keys
+| Key name | Virtual key | Description |
+| ----------------- | ----------- | ----------- |
+| **PageUp**   | VK_PRIOR     | The <kbd>Page Up</kbd> key |
+| **Prior**    | VK_PRIOR     | The <kbd>Page Up</kbd> key |
+| **PgUp**     | VK_PRIOR     | The <kbd>Page Up</kbd> key |
+| **PageDown** | VK_NEXT      | The <kbd>Page Down</kbd> key |
+| **PgDown**   | VK_NEXT      | The <kbd>Page Down</kbd> key |
+| **Next**     | VK_NEXT      | The <kbd>Page Down</kbd> key |
+| **End**      | VK_END       | The <kbd>End</kbd> key |
+| **Home**     | VK_HOME      | The <kbd>Home</kbd> key |
+| **Left**     | VK_LEFT      | The <kbd>Left Arrow</kbd> key |
+| **Up**       | VK_UP        | The <kbd>Up Arrow</kbd> key |
+| **Right**    | VK_RIGHT     | The <kbd>Right Arrow</kbd> key |
+| **Down**     | VK_DOWN      | The <kbd>Down Arrow</kbd> key |
+| **Insert**   | VK_INSERT    | The <kbd>Insert</kbd> key |
+| **Delete**   | VK_DELETE    | The <kbd>Delete</kbd> key |
+| **Del**      | VK_DELETE    | The <kbd>Delete</kbd> key |
+| **Separator** | VK_SEPARATOR | The <kbd>Separator</kbd> key |
 
-<table>
-<colgroup>
-<col width="33%" />
-<col width="33%" />
-<col width="33%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Key name</th>
-<th>Virtual key</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p><strong>NumLock</strong></p></td>
-<td><p>VK_NUMLOCK</p></td>
-<td><p>The Num Lock key</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>ScrollLock</strong></p></td>
-<td><p>VK_SCROLL</p></td>
-<td><p>The Scroll Lock key</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>Scroll</strong></p></td>
-<td><p>VK_SCROLL</p></td>
-<td><p>The Scroll Lock key</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>CapsLock</strong></p></td>
-<td><p>VK_CAPITAL</p></td>
-<td><p>The Caps Lock key</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>Capital</strong></p></td>
-<td><p>VK_CAPITAL</p></td>
-<td><p>The Caps Lock key</p></td>
-</tr>
-</tbody>
-</table>
+## State keys
 
-## <a href="" id="oemkey"></a>OEM keys
+| Key name | Virtual key | Description |
+| ----------------- | ----------- | ----------- |
+| **NumLock**       | VK_NUMLOCK  | The <kbd>Num Lock</kbd> key |
+| **ScrollLock**    | VK_SCROLL   | The <kbd>Scroll Lock</kbd> key |
+| **Scroll**        | VK_SCROLL   | The <kbd>Scroll Lock</kbd> key |
+| **CapsLock**      | VK_CAPITAL  | The <kbd>Caps Lock</kbd> key |
+| **Capital**       | VK_CAPITAL  | The <kbd>Caps Lock</kbd> key |
 
-<table>
-<colgroup>
-<col width="33%" />
-<col width="33%" />
-<col width="33%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Key Name</th>
-<th>Virtual Key</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p><strong>KeypadEqual</strong></p></td>
-<td><p>VK_OEM_NEC_EQUAL</p></td>
-<td><p>The Equal Sign (=) key on the numeric keypad (OEM-specific)</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Dictionary</strong></p></td>
-<td><p>VK_OEM_FJ_JISHO</p></td>
-<td><p>The Dictionary key (OEM-specific)</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>Unregister</strong></p></td>
-<td><p>VK_OEM_FJ_MASSHOU</p></td>
-<td><p>The Unregister Word key (OEM-specific)</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Register</strong></p></td>
-<td><p>VK_OEM_FJ_TOUROKU</p></td>
-<td><p>The Register Word key (OEM-specific)</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>LeftOyayubi</strong></p></td>
-<td><p>VK_OEM_FJ_LOYA</p></td>
-<td><p>The Left OYAYUBI key (OEM-specific)</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>RightOyayubi</strong></p></td>
-<td><p>VK_OEM_FJ_ROYA</p></td>
-<td><p>The Right OYAYUBI key (OEM-specific)</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>OemPlus</strong></p></td>
-<td><p>VK_OEM_PLUS</p></td>
-<td><p>For any country/region, the Plus Sign (+’) key</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>OemComma</strong></p></td>
-<td><p>VK_OEM_COMMA</p></td>
-<td><p>For any country/region, the Comma (,) key</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>OemMinus</strong></p></td>
-<td><p>VK_OEM_MINUS</p></td>
-<td><p>For any country/region, the Minus Sign (-) key</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>OemPeriod</strong></p></td>
-<td><p>VK_OEM_PERIOD</p></td>
-<td><p>For any country/region, the Period (.) key</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>Oem1</strong></p></td>
-<td><p>VK_OEM_1</p></td>
-<td><p>Varies by keyboard</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Oem2</strong></p></td>
-<td><p>VK_OEM_2</p></td>
-<td><p>Varies by keyboard</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>Oem3</strong></p></td>
-<td><p>VK_OEM_3</p></td>
-<td><p>Varies by keyboard</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Oem4</strong></p></td>
-<td><p>VK_OEM_4</p></td>
-<td><p>Varies by keyboard</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>Oem5</strong></p></td>
-<td><p>VK_OEM_5</p></td>
-<td><p>Varies by keyboard</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Oem6</strong></p></td>
-<td><p>VK_OEM_6</p></td>
-<td><p>Varies by keyboard</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>Oem7</strong></p></td>
-<td><p>VK_OEM_7</p></td>
-<td><p>Varies by keyboard</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Oem8</strong></p></td>
-<td><p>VK_OEM_8</p></td>
-<td><p>Varies by keyboard</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>OemAX</strong></p></td>
-<td><p>VK_OEM_AX</p></td>
-<td><p>The AX key on a Japanese AX keyboard</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Oem102</strong></p></td>
-<td><p>VK_OEM_102</p></td>
-<td><p>Either the angle bracket key or the backslash key on the RT 102-key keyboard</p></td>
-</tr>
-</tbody>
-</table>
+## OEM keys
 
-## <a href="" id="funkey"></a>Function keys
+| Key name | Virtual key | Description |
+| ----------------- | ----------- | ----------- |
+| **KeypadEqual**   | VK_OEM_NEC_EQUAL  | The <kbd>Equals (=)</kbd> key on the numeric keypad (OEM-specific) |
+| **Dictionary**    | VK_OEM_FJ_JISHO   | The Dictionary key (OEM-specific) |
+| **Unregister**    | VK_OEM_FJ_MASSHOU | The Unregister Word key (OEM-specific) |
+| **Register**      | VK_OEM_FJ_TOUROKU | The Register Word key (OEM-specific) |
+| **LeftOyayubi**   | VK_OEM_FJ_LOYA    | The Left OYAYUBI key (OEM-specific) |
+| **RightOyayubi**  | VK_OEM_FJ_ROYA    | The Right OYAYUBI key (OEM-specific) |
+| **OemPlus**       | VK_OEM_PLUS       | For any country/region, the <kbd>Plus Sign (+)</kbd> key |
+| **OemComma**      | VK_OEM_COMMA      | For any country/region, the <kbd>Comma (,)</kbd> key |
+| **OemMinus**      | VK_OEM_MINUS      | For any country/region, the <kbd>Minus Sign (-)</kbd> key |
+| **OemPeriod**     | VK_OEM_PERIOD     | For any country/region, the <kbd>Period (.)</kbd> key |
+| **Oem1**          | VK_OEM_1          | Varies by keyboard |
+| **Oem2**          | VK_OEM_2          | Varies by keyboard |
+| **Oem3**          | VK_OEM_3          | Varies by keyboard |
+| **Oem4**          | VK_OEM_4          | Varies by keyboard |
+| **Oem5**          | VK_OEM_5          | Varies by keyboard |
+| **Oem6**          | VK_OEM_6          | Varies by keyboard |
+| **Oem7**          | VK_OEM_7          | Varies by keyboard |
+| **Oem8**          | VK_OEM_8          | Varies by keyboard |
+| **OemAX**         | VK_OEM_AX         | The <kbd>AX</kbd> key on a Japanese AX keyboard |
+| **Oem102**        | VK_OEM_102        | Either the angle bracket key or the backslash key on the RT 102-key keyboard |
 
-<table>
-<colgroup>
-<col width="33%" />
-<col width="33%" />
-<col width="33%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Key name</th>
-<th>Virtual key</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p><strong>F1</strong></p></td>
-<td><p>VK_F1</p></td>
-<td><p>The F1 key</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>F2</strong></p></td>
-<td><p>VK_F2</p></td>
-<td><p>The F2 key</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>F3</strong></p></td>
-<td><p>VK_F3</p></td>
-<td><p>The F3 key</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>F4</strong></p></td>
-<td><p>VK_F4</p></td>
-<td><p>The F4 key</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>F5</strong></p></td>
-<td><p>VK_F5</p></td>
-<td><p>The F5 key</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>F6</strong></p></td>
-<td><p>VK_F6</p></td>
-<td><p>The F6 key</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>F7</strong></p></td>
-<td><p>VK_F7</p></td>
-<td><p>The F7 key</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>F8</strong></p></td>
-<td><p>VK_F8</p></td>
-<td><p>The F8 key</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>F9</strong></p></td>
-<td><p>VK_F9</p></td>
-<td><p>The F9 key</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>F10</strong></p></td>
-<td><p>VK_F10</p></td>
-<td><p>The F10 key</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>F11</strong></p></td>
-<td><p>VK_F11</p></td>
-<td><p>The F11 key</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>F12</strong></p></td>
-<td><p>VK_F12</p></td>
-<td><p>The F12 key</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>F13</strong></p></td>
-<td><p>VK_F13</p></td>
-<td><p>The F13 key</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>F14</strong></p></td>
-<td><p>VK_F14</p></td>
-<td><p>The F14 key</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>F15</strong></p></td>
-<td><p>VK_F15</p></td>
-<td><p>The F15 key</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>F16</strong></p></td>
-<td><p>VK_F16</p></td>
-<td><p>The F16 key</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>F17</strong></p></td>
-<td><p>VK_F17</p></td>
-<td><p>The F17 key</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>F18</strong></p></td>
-<td><p>VK_F18</p></td>
-<td><p>The F18 key</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>F19</strong></p></td>
-<td><p>VK_F19</p></td>
-<td><p>The F19 key</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>F20</strong></p></td>
-<td><p>VK_F20</p></td>
-<td><p>The F20 key</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>F21</strong></p></td>
-<td><p>VK_F21</p></td>
-<td><p>The F21 key</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>F22</strong></p></td>
-<td><p>VK_F22</p></td>
-<td><p>The F22 key</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>F23</strong></p></td>
-<td><p>VK_F23</p></td>
-<td><p>The F23 key</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>F24</strong></p></td>
-<td><p>VK_F24</p></td>
-<td><p>The F24 key</p></td>
-</tr>
-</tbody>
-</table>
+## Function keys
+
+| Key name | Virtual key | Description |
+| ----------------- | ----------- | ----------- |
+| **F1**  | VK_F1   | The <kbd>F1</kbd> key |
+| **F2**  | VK_F2   | The <kbd>F2</kbd> key |
+| **F3**  | VK_F3   | The <kbd>F3</kbd> key |
+| **F4**  | VK_F4   | The <kbd>F4</kbd> key |
+| **F5**  | VK_F5   | The <kbd>F5</kbd> key |
+| **F6**  | VK_F6   | The <kbd>F6</kbd> key |
+| **F7**  | VK_F7   | The <kbd>F7</kbd> key |
+| **F8**  | VK_F8   | The <kbd>F8</kbd> key |
+| **F9**  | VK_F9   | The <kbd>F9</kbd> key |
+| **F10** | VK_F10  | The <kbd>F10</kbd> key |
+| **F11** | VK_F11  | The <kbd>F11</kbd> key |
+| **F12** | VK_F12  | The <kbd>F12</kbd> key |
+| **F13** | VK_F13  | The <kbd>F13</kbd> key |
+| **F14** | VK_F14  | The <kbd>F14</kbd> key |
+| **F15** | VK_F15  | The <kbd>F15</kbd> key |
+| **F16** | VK_F16  | The <kbd>F16</kbd> key |
+| **F17** | VK_F17  | The <kbd>F17</kbd> key |
+| **F18** | VK_F18  | The <kbd>F18</kbd> key |
+| **F19** | VK_F19  | The <kbd>F19</kbd> key |
+| **F20** | VK_F20  | The <kbd>F20</kbd> key |
+| **F21** | VK_F21  | The <kbd>F21</kbd> key |
+| **F22** | VK_F22  | The <kbd>F22</kbd> key |
+| **F23** | VK_F23  | The <kbd>F23</kbd> key |
+| **F24** | VK_F24  | The <kbd>F24</kbd> key |
 
 ## Numeric keypad keys
 
-<table>
-<colgroup>
-<col width="33%" />
-<col width="33%" />
-<col width="33%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Key name</th>
-<th>Virtual key</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p><strong>Numpad0</strong></p></td>
-<td><p>VK_NUMPAD0</p></td>
-<td><p>The 0 key on the numeric keypad</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Numpad1</strong></p></td>
-<td><p>VK_NUMPAD1</p></td>
-<td><p>The 1 key on the numeric keypad</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>Numpad2</strong></p></td>
-<td><p>VK_NUMPAD2</p></td>
-<td><p>The 2 key on the numeric keypad</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Numpad3</strong></p></td>
-<td><p>VK_NUMPAD3</p></td>
-<td><p>The 3 key on the numeric keypad</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>Numpad4</strong></p></td>
-<td><p>VK_NUMPAD4</p></td>
-<td><p>The 4 key on the numeric keypad</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Numpad5</strong></p></td>
-<td><p>VK_NUMPAD5</p></td>
-<td><p>The 5 key on the numeric keypad</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>Numpad6</strong></p></td>
-<td><p>VK_NUMPAD6</p></td>
-<td><p>The 6 key on the numeric keypad</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Numpad7</strong></p></td>
-<td><p>VK_NUMPAD7</p></td>
-<td><p>The 7 key on the numeric keypad</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>Numpad8</strong></p></td>
-<td><p>VK_NUMPAD8</p></td>
-<td><p>The 8 key on the numeric keypad</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Numpad9</strong></p></td>
-<td><p>VK_NUMPAD9</p></td>
-<td><p>The 9 key on the numeric keypad</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>Multiply</strong></p></td>
-<td><p>VK_MULTIPLY</p></td>
-<td><p>The Multiply (*) key on the numeric keypad</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Add</strong></p></td>
-<td><p>VK_ADD</p></td>
-<td><p>The Add (+) key on the numeric keypad</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>Subtract</strong></p></td>
-<td><p>VK_SUBTRACT</p></td>
-<td><p>The Subtract (-) key on the numeric keypad</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Decimal</strong></p></td>
-<td><p>VK_DECIMAL</p></td>
-<td><p>The Decimal (.) key on the numeric keypad</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>Divide</strong></p></td>
-<td><p>VK_DIVIDE</p></td>
-<td><p>The Divide (/) key on the numeric keypad</p></td>
-</tr>
-</tbody>
-</table>
+| Key name | Virtual key | Description |
+| ----------------- | ----------- | ----------- |
+| **Numpad0**   | VK_NUMPAD0  | The <kbd>0</kbd> key on the numeric keypad |
+| **Numpad1**   | VK_NUMPAD1  | The <kbd>1</kbd> key on the numeric keypad |
+| **Numpad2**   | VK_NUMPAD2  | The <kbd>2</kbd> key on the numeric keypad |
+| **Numpad3**   | VK_NUMPAD3  | The <kbd>3</kbd> key on the numeric keypad |
+| **Numpad4**   | VK_NUMPAD4  | The <kbd>4</kbd> key on the numeric keypad |
+| **Numpad5**   | VK_NUMPAD5  | The <kbd>5</kbd> key on the numeric keypad |
+| **Numpad6**   | VK_NUMPAD6  | The <kbd>6</kbd> key on the numeric keypad |
+| **Numpad7**   | VK_NUMPAD7  | The <kbd>7</kbd> key on the numeric keypad |
+| **Numpad8**   | VK_NUMPAD8  | The <kbd>8</kbd> key on the numeric keypad |
+| **Numpad9**   | VK_NUMPAD9  | The <kbd>9</kbd> key on the numeric keypad |
+| **Multiply**  | VK_MULTIPLY | The <kbd>Multiply (*)</kbd> key on the numeric keypad |
+| **Add**       | VK_ADD      | The <kbd>Add (+)</kbd> key on the numeric keypad |
+| **Subtract**  | VK_SUBTRACT | The <kbd>Subtract (-)</kbd> key on the numeric keypad |
+| **Decimal**   | VK_DECIMAL  | The <kbd>Decimal (.)</kbd> key on the numeric keypad |
+| **Divide**    | VK_DIVIDE   | The <kbd>Divide (/)</kbd> key on the numeric keypad |
 
 ## Related articles
 
