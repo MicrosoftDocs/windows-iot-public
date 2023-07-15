@@ -18,20 +18,13 @@ ms.topic: article
 
 The list below describes sample Windows PowerShell scripts that demonstrate how to use the Windows Management Instrumentation (WMI) providers for Keyboard Filter.
 
-<a href="" id="keyboardfilter-add-blocked-key-combinations"></a>[Add blocked key combinations](keyboardfilter-add-blocked-key-combinations.md)
-Demonstrates how to block key combinations for Keyboard Filter.
-
-<a href="" id="disable-all-blocked-key-combinations"></a>[Disable all blocked key combinations](disable-all-blocked-key-combinations.md)
-Demonstrates how to disable all blocked key combinations for Keyboard Filter.
-
-<a href="" id="keyboardfilter-list-all-configured-key-combinations.md"></a>[List all configured key combinations](keyboardfilter-list-all-configured-key-combinations.md)
-Demonstrates how to list all defined key combination configurations for Keyboard Filter.
-
-<a href="" id="modify-global-settings"></a>[Modify global settings](modify-global-settings.md)
-Demonstrates how to modify global settings for Keyboard Filter.
-
-<a href="" id="remove-key-combination-configurations"></a>[Remove key combination configurations](remove-key-combination-configurations.md)
-Demonstrates how to remove a custom defined key combination configuration for Keyboard Filter.
+| Script | Description |
+| ------ | ----------- |
+| [Add blocked key combinations](keyboardfilter-add-blocked-key-combinations.md) | Demonstrates how to block key combinations for Keyboard Filter.|
+| [Disable all blocked key combinations](disable-all-blocked-key-combinations.md) | Demonstrates how to disable all blocked key combinations for Keyboard Filter. |
+| [List all configured key combinations](keyboardfilter-list-all-configured-key-combinations.md) | Demonstrates how to list all defined key combination configurations for Keyboard Filter. |
+| [Modify global settings](modify-global-settings.md) | Demonstrates how to modify global settings for Keyboard Filter. |
+| [Remove key combination configurations](remove-key-combination-configurations.md) | Demonstrates how to remove a custom defined key combination configuration for Keyboard Filter. |
 
 ## Related topics
 
