@@ -350,4 +350,3 @@ A custom shell is launched with the same level of user rights as the account tha
 - [Launch different shells for different user accounts](/windows-hardware/customize/enterprise/shell-launcher#launch-different-shells-for-different-user-accounts)
 - [Perform an action when the shell exits](/windows-hardware/customize/enterprise/shell-launcher#perform-an-action-when-the-shell-exits)
 - [Shell Launcher user rights](/windows-hardware/customize/enterprise/shell-launcher#shell-launcher-user-rights)
-- 
