@@ -37,81 +37,23 @@ class UWF_Filter{
 
 The following tables list any methods and properties that belong to this class.
 
-### <a href="" id="mth"></a>Methods
+### Methods
 
-<table>
-<colgroup>
-<col width="50%" />
-<col width="50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Methods</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p><a href="uwf-filterenable.md" data-raw-source="[UWF_Filter.Enable](uwf-filterenable.md)">UWF_Filter.Enable</a></p></td>
-<td><p>Enables UWF on the next restart.</p></td>
-</tr>
-<tr class="even">
-<td><p><a href="uwf-filterdisable.md" data-raw-source="[UWF_Filter.Disable](uwf-filterdisable.md)">UWF_Filter.Disable</a></p></td>
-<td><p>Disables UWF on the next restart.</p></td>
-</tr>
-<tr class="odd">
-<td><p><a href="uwf-filterresetsettings.md" data-raw-source="[UWF_Filter.ResetSettings](uwf-filterresetsettings.md)">UWF_Filter.ResetSettings</a></p></td>
-<td><p>Restores UWF settings to the original state that was captured at install time.</p></td>
-</tr>
-<tr class="even">
-<td><p><a href="uwf-filtershutdownsystem.md" data-raw-source="[UWF_Filter.ShutdownSystem](uwf-filtershutdownsystem.md)">UWF_Filter.ShutdownSystem</a></p></td>
-<td><p>Safely shuts down a system protected by UWF, even if the overlay is full.</p></td>
-</tr>
-<tr class="odd">
-<td><p><a href="uwf-filterrestartsystem.md" data-raw-source="[UWF_Filter.RestartSystem](uwf-filterrestartsystem.md)">UWF_Filter.RestartSystem</a></p></td>
-<td><p>Safely restarts a system protected by UWF, even if the overlay is full.</p></td>
-</tr>
-</tbody>
-</table>
+| Methods  | Description |
+|----------|-------------|
+| [UWF_Filter.Enable](uwf-filterenable.md) | Enables UWF on the next restart. |
+| [UWF_Filter.Disable](uwf-filterdisable.md) | Disables UWF on the next restart. |
+| [UWF_Filter.ResetSettings](uwf-filterresetsettings.md) | Restores UWF settings to the orig inal state that was captured at install time. |
+| [UWF_Filter.ShutdownSystem](uwf-filtershutdownsystem.md) |Safely shuts down a system protected by UWF, even if the overlay is full. |
+| [UWF_Filter.RestartSystem](uwf-filterrestartsystem.md) | Safely restarts a system protected by UWF, even if the overlay is full. |
 
-### <a href="" id="pro"></a>Properties
+### Properties
 
-<table>
-<colgroup>
-<col width="25%" />
-<col width="25%" />
-<col width="25%" />
-<col width="25%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Property</th>
-<th>Data type</th>
-<th>Qualifiers</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p><strong>Id</strong></p></td>
-<td><p>string</p></td>
-<td><p>[key]</p></td>
-<td><p>A unique ID. This is always set to <strong>UWF_Filter</strong>.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>CurrentEnabled</strong></p></td>
-<td><p>Boolean</p></td>
-<td><p>[read]</p></td>
-<td><p>Indicates if UWF is enabled for the current session.</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>NextEnabled</strong></p></td>
-<td><p>Boolean</p></td>
-<td><p>[read]</p></td>
-<td><p>Indicates if UWF is enabled after the next restart.</p></td>
-</tr>
-</tbody>
-</table>
+| Property | Data&nbsp;type | Qualifiers | Description |
+|----------|----------------|------------|-------------|
+| **Id**   | string         | [key]      | A unique ID. This is always set to **UWF_Filter** |
+| **CurrentEnabled** | Boolean | [read] | Indicates if UWF is enabled for the current session. |
+| **NextEnabled** | Boolean | [read] | Indicates if UWF is enabled after the next restart. |
 
 ### Remarks
 
@@ -224,10 +166,11 @@ Display-UWFState
 
 | Windows Edition       | Supported |
 |:----------------------|:----------|
-| Windows 10 Home       | No        |
-| Windows 10 Pro        | No        |
-| Windows 10 Enterprise | Yes       |
-| Windows 10 Education  | Yes       |
+| Windows 10/11 Home       | No        |
+| Windows 10/11 Pro        | No        |
+| Windows 10/11 Enterprise | Yes       |
+| Windows 10/11 Education  | Yes       |
+| Windows 10/11 IoT Enterprise | Yes |
 
 ## Related topics
 
