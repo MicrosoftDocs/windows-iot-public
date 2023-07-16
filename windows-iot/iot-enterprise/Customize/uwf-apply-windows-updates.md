@@ -20,20 +20,20 @@ When a device is protected with Unified Write Filter (UWF), you must use UWF ser
 
 UWF servicing mode uses the following files to when it applies Windows updates to your device:
 
-* UWFMgr.exe command-line tool
-* UwfServicingScr.scr screen saver
-* UwfServicingMasterScript.cmd script
+- UWFMgr.exe command-line tool
+- UwfServicingScr.scr screen saver
+- UwfServicingMasterScript.cmd script
 
 > [!NOTE]
 > The master servicing script can be modified to service third-party applications, service custom OEM applications, or call custom OEM servicing scripts.
 
 UWF servicing supports the following types of Windows updates:
 
-* Critical updates
-* Security updates
-* Driver updates
+- Critical updates
+- Security updates
+- Driver updates
 
-## Apply Windows updates to UWF-protected devices
+## Enable Servicing Mode
 
 1. To apply Windows updates to your device, at an administrator command prompt, type the following command:
 
@@ -73,8 +73,6 @@ When Windows update servicing is finished, the system will disable UWF servicing
 
 ## Related topics
 
-[Unified Write Filter](unified-write-filter.md)
-
-[UWF master servicing script](uwf-master-servicing-script.md)
-
-[UWF servicing screen saver](uwf-servicing-screen-saver.md)
+- [Unified Write Filter](unified-write-filter.md)
+- [UWF master servicing script](uwf-master-servicing-script.md)
+- [UWF servicing screen saver](uwf-servicing-screen-saver.md)
