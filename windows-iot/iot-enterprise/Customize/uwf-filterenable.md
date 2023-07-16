@@ -40,25 +40,22 @@ You must restart your device after you enable or disable UWF before the change t
 
 The first time you enable UWF on your device, UWF makes the following changes to your system to improve the performance of UWF:
 
-* Paging files are disabled.
-* System restore is disabled.
-* SuperFetch is disabled.
-* File indexing service is turned off.
-* Defragmentation service is turned off.
-* Fast boot is disabled.
-* BCD setting **bootstatuspolicy** is set to **ignoreallfailures**.
+- Paging files are disabled.
+- System restore is disabled.
+- SuperFetch is disabled.
+- File indexing service is turned off.
+- Defragmentation service is turned off.
+- Fast boot is disabled.
+- BCD setting **bootstatuspolicy** is set to **ignoreallfailures**.
 
 You can change these settings after you enable UWF if you want to. For example, you can move the page file location to an unprotected volume and re-enable paging files.
 
 Additionally, after you run `uwfmgr filter enable`, restart the computer and exit the servicing mode, the following things are disabled:
 
-- Windows Update (by setting HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\WindowsUpdate\AU\NoAutoUpdate.)
-
-- Windows Store Update (by setting HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\WindowsStore\AutoDownload.)
-
-- Registry Reorganization (by setting HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\Session Manager\Configuration Manager\RegistryReorganizationLimitDays.)
-
-- Maintenance Hour (by setting HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Schedule\Maintenance\MaintenanceDisabled.)
+- Windows Update by setting `HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\WindowsUpdate\AU\NoAutoUpdate`
+- Windows Store Update by setting `HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\WindowsStore\AutoDownload`
+- Registry Reorganization by setting `HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\Session Manager\Configuration Manager\RegistryReorganizationLimitDays`
+- Maintenance Hour by setting `HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Schedule\Maintenance\MaintenanceDisabled`
 
 After you run `uwfmgr filter disable`, restart the computer and enter the serving mode, the changes are reverted.
 
@@ -66,13 +63,13 @@ After you run `uwfmgr filter disable`, restart the computer and enter the servin
 
 | Windows Edition       | Supported |
 |:----------------------|:----------|
-| Windows 10 Home       | No        |
-| Windows 10 Pro        | No        |
-| Windows 10 Enterprise | Yes       |
-| Windows 10 Education  | Yes       |
+| Windows 10/11 Home       | No        |
+| Windows 10/11 Pro        | No        |
+| Windows 10/11 Enterprise | Yes       |
+| Windows 10/11 Education  | Yes       |
+| Windows 10/11 IoT Enterprise | Yes|
 
 ## Related topics
 
-[UWF_Filter](uwf-filter.md)
-
-[Unified Write Filter](unified-write-filter.md)
+- [UWF_Filter](uwf-filter.md)
+- [Unified Write Filter](unified-write-filter.md)
