@@ -21,11 +21,11 @@ You can also configure Shell Launcher to launch different shell applications for
 
 There are a few exceptions to the applications and executables you can use as a custom shell:
 
-* You cannot use the following executable as a custom shell: `C:\\Windows\\System32\\Eshell.exe`. Using Eshell.exe as the default shell will result in a blank screen after user signs in.
-* You cannot use a Universal Windows app as a custom shell.
-* You cannot use a custom shell to launch Universal Windows apps, for example, the Settings app.  
-* You cannot use an application that launches a different process and exits as a custom shell. For example, you cannot specify **write.exe** in Shell Launcher. Shell Launcher launches a custom shell and monitors the process to identify when the custom shell exits. **Write.exe** creates a 32-bit wordpad.exe process and exits. Because Shell Launcher is not aware of the newly created wordpad.exe process, Shell Launcher will take action based on the exit code of **Write.exe**, and restart the custom shell.
-* You cannot prevent the system from shutting down. For Shell Launcher V1 and V2, you cannot block the session ending by returning FALSE upon receiving the [WM_QUERYENDSESSION](/windows/win32/shutdown/wm-queryendsession) message in a graphical application or returning FALSE in the [handler routine](/windows/console/handlerroutine) that is added through the [SetConsoleCtrlHandler](/windows/console/setconsolectrlhandler) function in a console application.
+- You cannot use the following executable as a custom shell: `C:\\Windows\\System32\\Eshell.exe`. Using Eshell.exe as the default shell will result in a blank screen after user signs in.
+- You cannot use a Universal Windows app as a custom shell.
+- You cannot use a custom shell to launch Universal Windows apps, for example, the Settings app.  
+- You cannot use an application that launches a different process and exits as a custom shell. For example, you cannot specify **write.exe** in Shell Launcher. Shell Launcher launches a custom shell and monitors the process to identify when the custom shell exits. **Write.exe** creates a 32-bit wordpad.exe process and exits. Because Shell Launcher is not aware of the newly created wordpad.exe process, Shell Launcher will take action based on the exit code of **Write.exe**, and restart the custom shell.
+- You cannot prevent the system from shutting down. For Shell Launcher V1 and V2, you cannot block the session ending by returning FALSE upon receiving the [WM_QUERYENDSESSION](/windows/win32/shutdown/wm-queryendsession) message in a graphical application or returning FALSE in the [handler routine](/windows/console/handlerroutine) that is added through the [SetConsoleCtrlHandler](/windows/console/setconsolectrlhandler) function in a console application.
 
 > [!NOTE]
 > You cannot configure both Shell Launcher and assigned access on the same system.
@@ -43,13 +43,16 @@ Methods of controlling access to other desktop applications and system component
 > In Shell Launcher v1, available in Windows 10, you can only specify a Windows desktop application as the replacement shell. In Shell Launcher v2, available in Windows 10, version 1809 and above, you can also specify a UWP app as the replacement shell.
 >
 > To use Shell Launcher v2 in version 1809, you need to install the [KB4551853 update](https://support.microsoft.com/topic/may-12-2020-kb4551853-os-build-17763-1217-c2ea33f7-4506-dd13-2739-d9c7bb80b26d).
+
 ## Differences between Shell Launcher v1 and Shell Launcher v2
+
 Shell Launcher v1 replaces ```explorer.exe```, the default shell, with ```eshell.exe```, which can launch a Windows desktop application.
 Shell Launcher v2 replaces ```explorer.exe``` with ```customshellhost.exe```. This new executable file can launch a Windows desktop application or a UWP app.
 In addition to allowing you to use a UWP app for your replacement shell, Shell Launcher v2 offers additional enhancements:
-* You can use a custom Windows desktop application that can then launch UWP apps, such as Settings and Touch Keyboard.
-* From a custom UWP shell, you can launch secondary views and run on multiple monitors.
-* The custom shell app runs in full screen, and can run other apps in full screen on user’s demand.
+
+- You can use a custom Windows desktop application that can then launch UWP apps, such as Settings and Touch Keyboard.
+- From a custom UWP shell, you can launch secondary views and run on multiple monitors.
+- The custom shell app runs in full screen, and can run other apps in full screen on user’s demand.
 For sample XML configurations for the different app combinations, see [Samples for Shell Launcher v2](https://github.com/microsoft/Windows-IoT-Samples/tree/master/samples/ShellLauncher/ShellLauncherV2).
 
 ## Requirements
@@ -58,10 +61,10 @@ Windows 10 Enterprise or Windows 10 Education.
 
 ## Terminology
 
-* **Turn on, enable:** To make the setting available to the device and optionally apply the settings to the device.
-* **Configure:** To customize the setting or sub-settings.
-* **Embedded Shell Launcher:** This feature is called Embedded Shell Launcher in Windows 10, version 1511.
-* **Custom Shell Launcher:** This feature is called Shell Launcher in Windows 10, version 1607 and later.
+- **Turn on, enable:** To make the setting available to the device and optionally apply the settings to the device.
+- **Configure:** To customize the setting or sub-settings.
+- **Embedded Shell Launcher:** This feature is called Embedded Shell Launcher in Windows 10, version 1511.
+- **Custom Shell Launcher:** This feature is called Shell Launcher in Windows 10, version 1607 and later.
 
 ## Turn on Shell Launcher
 
@@ -133,11 +136,11 @@ There are two ways you can configure Shell Launcher:
 
 You can configure the following options for Shell Launcher:
 
-* Enable or disable Shell Launcher.
-* Specify a shell configuration for a specific user or group.
-* Remove a shell configuration for a specific user or group.
-* Change the default shell configuration.
-* Get information on a shell configuration for a specific user or group.
+- Enable or disable Shell Launcher.
+- Specify a shell configuration for a specific user or group.
+- Remove a shell configuration for a specific user or group.
+- Change the default shell configuration.
+- Get information on a shell configuration for a specific user or group.
 
 Any changes do not take effect until a user signs in.
 
@@ -178,6 +181,7 @@ Shell Launcher can take a specific action based on the exit code returned by the
 If the exit code does not match a defined value, Shell Launcher performs the default return code action.
 
 For example, your shell might return exit code values of -1, 0, 1, or 255 depending on how the shell exits. You can configure Shell Launcher to:
+
 - restart the device (1) when the shell returns an exit code of value -1
 - restart the shell (0) when the shell returns an exit code of value 0
 - do nothing (3) when the shell returns an exit code of value 1
@@ -186,7 +190,7 @@ For example, your shell might return exit code values of -1, 0, 1, or 255 depend
 Your custom return code action mapping would look like this:
 
 |Exit code|Action|
-|----|----|
+|:----:|----|
 |-1|1 (restart the device)|
 |0|0 (restart the shell)|
 |1|3 (do nothing)|
@@ -340,9 +344,10 @@ A custom shell is launched with the same level of user rights as the account tha
 
 ## Related topics
 
-* [Unbranded Boot](unbranded-boot.md)
-* [Custom Logon](custom-logon.md)
-* [Use Shell Launcher to create a Windows 10 Kiosk](/windows/configuration/kiosk-shelllauncher)
-* [Launch different shells for different user accounts](/windows-hardware/customize/enterprise/shell-launcher#launch-different-shells-for-different-user-accounts)
-* [Perform an action when the shell exits](/windows-hardware/customize/enterprise/shell-launcher#perform-an-action-when-the-shell-exits)
-* [Shell Launcher user rights](/windows-hardware/customize/enterprise/shell-launcher#shell-launcher-user-rights)
+- [Unbranded Boot](unbranded-boot.md)
+- [Custom Logon](custom-logon.md)
+- [Use Shell Launcher to create a Windows 10 Kiosk](/windows/configuration/kiosk-shelllauncher)
+- [Launch different shells for different user accounts](/windows-hardware/customize/enterprise/shell-launcher#launch-different-shells-for-different-user-accounts)
+- [Perform an action when the shell exits](/windows-hardware/customize/enterprise/shell-launcher#perform-an-action-when-the-shell-exits)
+- [Shell Launcher user rights](/windows-hardware/customize/enterprise/shell-launcher#shell-launcher-user-rights)
+- 
