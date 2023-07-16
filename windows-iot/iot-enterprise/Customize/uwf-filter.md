@@ -174,6 +174,5 @@ Display-UWFState
 
 ## Related topics
 
-[Unified Write Filter WMI provider reference](uwf-wmi-provider-reference.md)
-
-[Unified Write Filter](unified-write-filter.md)
+- [Unified Write Filter WMI provider reference](uwf-wmi-provider-reference.md)
+- [Unified Write Filter](unified-write-filter.md)
