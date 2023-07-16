@@ -20,35 +20,36 @@ Unified Write Filter (UWF) is an optional Windows 10 feature that helps to prote
 
 ## Benefits
 
-* Provides a clean experience for thin clients and workspaces that have frequent guests, like school, library or hotel computers. Guests can work, change settings, and install software. After the device reboots, the next guest receives a clean experience.
+- Provides a clean experience for thin clients and workspaces that have frequent guests, like school, library or hotel computers. Guests can work, change settings, and install software. After the device reboots, the next guest receives a clean experience.
 
-* Increases security and reliability for kiosks, IoT-embedded devices, or other devices where new apps aren't expected to be frequently added.
+- Increases security and reliability for kiosks, IoT-embedded devices, or other devices where new apps aren't expected to be frequently added.
 
-* Can be used to reduce wear on solid-state drives and other write-sensitive media.
+- Can be used to reduce wear on solid-state drives and other write-sensitive media.
 
-* Optimizing Application load timing on boot – it can be faster to resume from a HORM file on every boot rather than reloading the system on each boot
+- Optimizing Application load timing on boot – it can be faster to resume from a HORM file on every boot rather than reloading the system on each boot
 
 UWF replaces the Windows 7 Enhanced Write Filter (EWF) and the File Based Write Filter (FBWF).
 
 ## Features
 
-* UWF can protect most supported writable storage types, including physical hard disks, solid-state drives, internal USB devices, and external SATA devices. You can't use UWF to protect external removable drives, USB devices or flash drives. Supports both master boot record (MBR) and GUID partition table (GPT) volumes.
+- UWF can protect most supported writable storage types, including physical hard disks, solid-state drives, internal USB devices, and external SATA devices. You can't use UWF to protect external removable drives, USB devices or flash drives. Supports both master boot record (MBR) and GUID partition table (GPT) volumes.
 
-* You can use UWF to make read-only media appear to the OS as a writable volume.
+- You can use UWF to make read-only media appear to the OS as a writable volume.
 
-* You can manage UWF directly on a Windows 10 device using [uwfmgr.exe](uwfmgrexe.md), or remotely using MDM tools with the [UnifiedWriteFilter CSP](/windows/client-management/mdm/unifiedwritefilter-csp) or the [UWF WMI](uwf-wmi-provider-reference.md).
+- You can manage UWF directly on a Windows 10 device using [uwfmgr.exe](uwfmgrexe.md), or remotely using MDM tools with the [UnifiedWriteFilter CSP](/windows/client-management/mdm/unifiedwritefilter-csp) or the [UWF WMI](uwf-wmi-provider-reference.md).
 
-* You can [update and service UWF-protected devices](service-uwf-protected-devices.md), either by using UWF servicing mode or by adding file and registry exclusions to specific system areas.
+- You can [update and service UWF-protected devices](service-uwf-protected-devices.md), either by using UWF servicing mode or by adding file and registry exclusions to specific system areas.
 
-* On Windows 10, version 1803, you can use a [persistent overlay](uwfoverlay.md#persistentoverlay) to allow data saved in the virtual overlay to remain even after a reboot.
+- On Windows 10, version 1803, you can use a [persistent overlay](uwfoverlay.md#persistentoverlay) to allow data saved in the virtual overlay to remain even after a reboot.
 
-* On devices with a disk overlay, you can use [free space passthrough](uwfoverlay.md#freespacepassthrough) to access your drive's free space.
+- On devices with a disk overlay, you can use [free space passthrough](uwfoverlay.md#freespacepassthrough) to access your drive's free space.
 
-* UWF supports paging to increase virtual memory, if the page file exists on an unprotected volume. When paging is used together with a RAM-based overlay, the uptime of the system can be increased.
+- UWF supports paging to increase virtual memory, if the page file exists on an unprotected volume. When paging is used together with a RAM-based overlay, the uptime of the system can be increased.
 
 ## Requirements
 
 Supported Operating Systems
+
 - Windows 10/11 Enterprise
 - Windows 10/11 IoT Enterprise
 - Windows 10 Enterprise LTSC
@@ -57,29 +58,29 @@ Supported Operating Systems
 
 ## Limitations
 
-* File systems:
-  * FAT: fully supported.
-  * NTFS: fully supported. However, during device startup, NTFS file system journal files can write to a protected volume before UWF has started protecting the volume.
-  * Other file systems (example: exFAT): You can protect the volume, but can't create file exclusions or do file commit operations on the volume. Writes to excluded files still influence the growth of the Overlay.
+- File systems:
+  - FAT: fully supported.
+  - NTFS: fully supported. However, during device startup, NTFS file system journal files can write to a protected volume before UWF has started protecting the volume.
+  - Other file systems (example: exFAT): You can protect the volume, but can't create file exclusions or do file commit operations on the volume. Writes to excluded files still influence the growth of the Overlay.
 
-* The overlay doesn't mirror the entire volume, but dynamically grows to keep track of redirected writes.
+- The overlay doesn't mirror the entire volume, but dynamically grows to keep track of redirected writes.
 
-* UWF supports up to 16 terabytes of protected volumes.
+- UWF supports up to 16 terabytes of protected volumes.
 
-* UWF doesn't support the use of fast startup when shutting down your device. If fast startup is turned on, shutting down the device doesn't clear the overlay. You can disable fast startup in Control Panel by navigating to **Control Panel** &gt; **All Control Panel Items** &gt; **Power Options** &gt; **System Settings** and clearing the checkbox next to **Turn on fast startup (recommended)**.
+- UWF doesn't support the use of fast startup when shutting down your device. If fast startup is turned on, shutting down the device doesn't clear the overlay. You can disable fast startup in Control Panel by navigating to **Control Panel** &gt; **All Control Panel Items** &gt; **Power Options** &gt; **System Settings** and clearing the checkbox next to **Turn on fast startup (recommended)**.
 
-* UWF doesn't support [Storage Spaces](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/hh831739(v=ws.11)).
+- UWF doesn't support [Storage Spaces](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/hh831739(v=ws.11)).
 
-* On a computer on which [UWF is enabled and used to protect drive C](./uwf-turnonuwf.md#turn-on-uwf-on-a-running-pc), you can't permanently set the date and time to a past time. If you make such a change, the original date and time settings will be restored after the computer restarts.
+- On a computer on which [UWF is enabled and used to protect drive C](./uwf-turnonuwf.md#turn-on-uwf-on-a-running-pc), you can't permanently set the date and time to a past time. If you make such a change, the original date and time settings will be restored after the computer restarts.
 
   To work around this issue, you must disable UWF before you change the date and time. To do this, run uwfmgr.exe filter disable.
 
-  > [!Note]
+  > [!NOTE]
   > Do not add the file that retains date and time settings ("%windir%\bootstat.dat") to the [write filter exclusions](./uwfexclusions.md) to work around this issue. Doing this causes Stop error 0x7E (SYSTEM_THREAD_EXCEPTION_NOT_HANDLED) to occur.
 
 ## Turn on and configure UWF
 
-UWF is an optional component and isn't enabled by default in Windows 10. You must [turn on UWF](uwf-turnonuwf.md) before you can configure it. 
+UWF is an optional component and isn't enabled by default in Windows 10. You must [turn on UWF](uwf-turnonuwf.md) before you can configure it.
 
 ## UWF overlay
 
@@ -115,8 +116,6 @@ For more information about how to find event log information for troubleshooting
 
 ## Related articles
 
-[Unbranded Boot](unbranded-boot.md)
-
-[Custom Logon](custom-logon.md)
-
-[Shell Launcher](shell-launcher.md)
+- [Unbranded Boot](unbranded-boot.md)
+- [Custom Logon](custom-logon.md)
+- [Shell Launcher](shell-launcher.md)
