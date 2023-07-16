@@ -14,7 +14,7 @@ ms.topic: article
 
 
 ---
-# UWF\_Filter.Disable
+# UWF_Filter.Disable
 
 Disables Unified Write Filter (UWF) on the next restart.
 
@@ -40,13 +40,13 @@ You must use an administrator account to disable UWF.
 
 | Windows Edition       | Supported |
 |:----------------------|:----------|
-| Windows 10 Home       | No        |
-| Windows 10 Pro        | No        |
-| Windows 10 Enterprise | Yes       |
-| Windows 10 Education  | Yes       |
+| Windows 10/11 Home       | No        |
+| Windows 10/11 Pro        | No        |
+| Windows 10/11 Enterprise | Yes       |
+| Windows 10/11 Education  | Yes       |
+| Windows 10/11 IoT Enterprise | Yes   |
 
 ## Related topics
 
-[UWF\_Filter](uwf-filter.md)
-
-[Unified Write Filter](unified-write-filter.md)
+- [UWF\_Filter](uwf-filter.md)
+- [Unified Write Filter](unified-write-filter.md)
