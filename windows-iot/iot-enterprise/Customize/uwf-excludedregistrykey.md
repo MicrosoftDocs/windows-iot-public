@@ -14,7 +14,7 @@ ms.topic: article
 
 
 ---
-# UWF\_ExcludedRegistryKey
+# UWF_ExcludedRegistryKey
 
 Contains the registry keys that are currently in the registry key exclusion list for Unified Write Filter (UWF).
 
@@ -30,52 +30,31 @@ class UWF_ExcludedRegistryKey {
 
 The following tables list any methods and properties that belong to this class.
 
-### <a href="" id="pro"></a>Properties
+### Properties
 
-<table>
-<colgroup>
-<col width="25%" />
-<col width="25%" />
-<col width="25%" />
-<col width="25%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Property</th>
-<th>Data type</th>
-<th>Qualifier</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>RegistryKey</p></td>
-<td><p>string</p></td>
-<td><p>[read]</p></td>
-<td><p>The full path of the registry key in the registry key exclusion list.</p></td>
-</tr>
-</tbody>
-</table>
+| Property    | Data&nbsp;type | Qualifier | Description |
+|-------------|----------------|-----------|-------------|
+| RegistryKey | string         | [read]    | The full path of the registry key in the registry key exclusion list. |
 
 ### Remarks
 
-UWF\_ExcludedRegistryKeydoes not represent an actual WMI object, and you cannot use this class to get or set registry key exclusions.
+UWF_ExcludedRegistryKeydoes not represent an actual WMI object, and you cannot use this class to get or set registry key exclusions.
 
-You can use the [UWF\_RegistryFilter.GetExclusions](uwf-registryfiltergetexclusions.md) or [UWF\_RegistryFilter.FindExclusion](uwf-registryfilterfindexclusion.md) methods to retrieve UWF\_ExcludedRegistryKey objects.
+You can use the [UWF_RegistryFilter.GetExclusions](uwf-registryfiltergetexclusions.md) or [UWF_RegistryFilter.FindExclusion](uwf-registryfilterfindexclusion.md) methods to retrieve UWF_ExcludedRegistryKey objects.
 
-You can use the [UWF\_Volume.AddExclusion](uwf-volumeaddexclusion.md) and [UWF\_Volume.RemoveExclusion](uwf-volumeremoveexclusion.md) methods to add or remove registry keys to the UWF registry key exclusion list.
+You can use the [UWF_Volume.AddExclusion](uwf-volumeaddexclusion.md) and [UWF_Volume.RemoveExclusion](uwf-volumeremoveexclusion.md) methods to add or remove registry keys to the UWF registry key exclusion list.
 
 ## Requirements
 
-| Windows Edition       | Supported |
-|:----------------------|:----------|
-| Windows 10 Home       | No        |
-| Windows 10 Pro        | No        |
-| Windows 10 Enterprise | Yes       |
-| Windows 10 Education  | Yes       |
+| Windows Edition              | Supported |
+|:-----------------------------|:---------:|
+| Windows 10/11 Home           | No        |
+| Windows 10/11 Pro            | No        |
+| Windows 10/11 Enterprise     | Yes       |
+| Windows 10/11 Education      | Yes       |
+| Windows 10/11 IoT Enterprise | Yes       |
 
 ## Related topics
 
-[Unified Write Filter WMI provider reference](uwf-wmi-provider-reference.md)
-
-[Unified Write Filter](unified-write-filter.md)
+- [Unified Write Filter WMI provider reference](uwf-wmi-provider-reference.md)
+- [Unified Write Filter](unified-write-filter.md)
