@@ -20,7 +20,7 @@ You can use Keyboard Filter to suppress undesirable key presses or key combinati
 
 The Keyboard Filter feature works with physical keyboards, the Windows on-screen keyboard, and the touch keyboard. Keyboard Filter also detects dynamic layout changes, such as switching from one language set to another, and continues to suppress keys correctly, even if the location of suppressed keys has changed on the keyboard layout.
 
-> [!Note]
+> [!NOTE]
 > Keyboard filter is not supported in a remote desktop session.
 
 ## Requirements
@@ -149,7 +149,7 @@ You can configure keyboard filter by using Windows Management Instrumentation (W
 
 For more information about Keyboard Filter WMI providers, see [Keyboard Filter WMI provider reference](keyboardfilter-wmi-provider-reference.md).
 
-## <a href="" id="change-keyboard-breakout"></a>Keyboard breakout
+## >Keyboard breakout
 
 You may need to sign in to a locked down device with a different account in order to service or configure the device. You can configure a breakout key to break out of a locked down account by specifying a key scan code. When you press Ctrl+Alt+Delete, Windows presents the Welcome screen so that you can sign in to a different account.
 
