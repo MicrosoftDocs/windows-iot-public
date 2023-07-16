@@ -24,6 +24,7 @@ To update your devices, use UWF servicing mode. UWF servicing mode allows you to
 Normally, when the Unified Write Filter (UWF) is active, system updates are disabled, as they would be erased when the overlay is cleared.
 
 When UWF servicing mode is triggered, Windows does the following:
+
 1. Clears the UWF overlay.
 1. Reboots the devices.
 1. Triggers a [system maintenance hour](/windows/desktop/TaskSchd/task-maintenence).
