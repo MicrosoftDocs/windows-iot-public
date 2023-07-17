@@ -1,6 +1,6 @@
 ---
-title: UWF\_Filter.ResetSettings
-description: UWF\_Filter.ResetSettings
+title: UWF_Filter.ResetSettings
+description: UWF_Filter.ResetSettings
 MSHAttr:
 - 'PreferredSiteName:MSDN'
 - 'PreferredLib:/library/windows/hardware'
