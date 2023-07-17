@@ -14,7 +14,7 @@ ms.topic: article
 
 
 ---
-# UWF\_Filter.ResetSettings
+# UWF_Filter.ResetSettings
 
 Restores UWF settings to the original configuration settings.
 
@@ -44,13 +44,13 @@ If you added UWF to your device by using SMI settings in an unattend.xml file, t
 
 | Windows Edition       | Supported |
 |:----------------------|:----------|
-| Windows 10 Home       | No        |
-| Windows 10 Pro        | No        |
-| Windows 10 Enterprise | Yes       |
-| Windows 10 Education  | Yes       |
+| Windows 10/11 Home       | No        |
+| Windows 10/11 Pro        | No        |
+| Windows 10/11 Enterprise | Yes       |
+| Windows 10/11 Education  | Yes       |
+| Windows 10/11 IoT Enterprise | Yes|
 
 ## Related topics
 
-[UWF\_Filter](uwf-filter.md)
-
-[Unified Write Filter](unified-write-filter.md)
+- [UWF\_Filter](uwf-filter.md)
+- [Unified Write Filter](unified-write-filter.md)
