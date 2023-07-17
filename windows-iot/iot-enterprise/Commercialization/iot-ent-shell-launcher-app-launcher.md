@@ -36,7 +36,7 @@ In lab 4 we used Sysprep to get the system ready for capture and deployment. The
 
 2. Complete the OOBE experience. Choose the settings that match your device requirements.  
  
->[!Note]
+> [!NOTE]
 > The OOBE experience can be fully automated using an Answer File along with Sysprep to answer the OOBE questions in advance. For more details refer to the example Answer Files in the [Windows 10 IoT Enterprise deployment framework](https://github.com/ms-iot/windows-iotent-deploy).
 
 ## Enable and configure Shell Launcher
@@ -71,8 +71,8 @@ To set Notepad.exe as your custom shell:
 
 The lab steps below provide links on how to install a UWP application suitable for Assigned Access and to configure the system to launch the application automatically at startup. The UWP application must be able to run above the lock screen in order to work correctly with assigned access. 
 
->[!Note]
->See details on the UWP application requirements for Assigned Access at [Create a kiosk app for Assigned Access](/windows-hardware/drivers/partnerapps/create-a-kiosk-app-for-assigned-access). 
+> [!NOTE]
+> See details on the UWP application requirements for Assigned Access at [Create a kiosk app for Assigned Access](/windows-hardware/drivers/partnerapps/create-a-kiosk-app-for-assigned-access). 
 
 ### Sideload a UWP application and configure Assigned Access to run it
 
@@ -84,5 +84,5 @@ In this lab, you'll add a UWP app to your image by sideloading it onto the syste
 
 3. Follow the steps at [Set up a kiosk using Windows PowerShell](/windows/configuration/kiosk-single-app#set-up-a-kiosk-using-windows-powershell) to complete the process.
 
->[!Note]
+> [!NOTE]
 >For scenarios where multiple apps are needed, follow the steps at [Set up a multi-app kiosk](/windows/configuration/lock-down-windows-10-to-specific-apps)
