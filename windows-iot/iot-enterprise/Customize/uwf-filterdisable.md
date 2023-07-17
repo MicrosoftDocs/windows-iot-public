@@ -1,6 +1,6 @@
 ---
-title: UWF\_Filter.Disable
-description: UWF\_Filter.Disable
+title: UWF_Filter.Disable
+description: UWF_Filter.Disable
 MSHAttr:
 - 'PreferredSiteName:MSDN'
 - 'PreferredLib:/library/windows/hardware'
@@ -48,5 +48,5 @@ You must use an administrator account to disable UWF.
 
 ## Related topics
 
-- [UWF\_Filter](uwf-filter.md)
+- [UWF_Filter](uwf-filter.md)
 - [Unified Write Filter](unified-write-filter.md)

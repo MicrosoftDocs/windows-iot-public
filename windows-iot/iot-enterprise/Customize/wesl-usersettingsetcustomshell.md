@@ -1,6 +1,6 @@
 ---
-title: WESL\_UserSetting.SetCustomShell
-description: WESL\_UserSetting.SetCustomShell
+title: WESL_UserSetting.SetCustomShell
+description: WESL_UserSetting.SetCustomShell
 MSHAttr:
 - 'PreferredSiteName:MSDN'
 - 'PreferredLib:/library/windows/hardware'
@@ -14,7 +14,7 @@ ms.topic: article
 
 
 ---
-# WESL\_UserSetting.SetCustomShell
+# WESL_UserSetting.SetCustomShell
 
 This method configures Shell Launcher for a specific user or group, based on the security identifier (SID).
 
@@ -32,17 +32,13 @@ This method configures Shell Launcher for a specific user or group, based on the
 
 ## Parameters
 
-<a href="" id="sid"></a>*Sid*
-\[in, required\] A string containing the security identifier (SID) of the user or group that Shell Launcher is being configured for.
+**Sid**</br>\[in, required\] A string containing the security identifier (SID) of the user or group that Shell Launcher is being configured for.
 
-<a href="" id="shell"></a>*Shell*
-\[in, required\] The application or executable that Shell Launcher starts as the shell.
+**Shell**</br>\[in, required\] The application or executable that Shell Launcher starts as the shell.
 
-<a href="" id="customreturncodes"></a>*CustomReturnCodes*
-\[in\] An array of custom return codes that can be returned by the shell application.
+**CustomReturnCodes**</br>\[in\] An array of custom return codes that can be returned by the shell application.
 
-<a href="" id="customreturncodesaction"></a>*CustomReturnCodesAction*
-\[in\] An array of custom return code actions that determine the action that Shell Launcher takes when the shell application exits. The custom actions map to the array of *CustomReturnCodes*.
+**CustomReturnCodesAction**</br>\[in\] An array of custom return code actions that determine the action that Shell Launcher takes when the shell application exits. The custom actions map to the array of *CustomReturnCodes*.
 
 The possible actions are defined in the following table:
 
@@ -134,6 +130,6 @@ If the return value does not exist in *CustomReturnCodes*, or if the correspondi
 
 ## Related topics
 
-[WESL\_UserSetting](wesl-usersetting.md)
+[WESL_UserSetting](wesl-usersetting.md)
 
 [Shell Launcher](shell-launcher.md)

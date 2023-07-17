@@ -1,6 +1,6 @@
 ---
-title: WEKF\_PredefinedKey
-description: WEKF\_PredefinedKey
+title: WEKF_PredefinedKey
+description: WEKF_PredefinedKey
 MSHAttr:
 - 'PreferredSiteName:MSDN'
 - 'PreferredLib:/library/windows/hardware'
@@ -14,7 +14,7 @@ ms.topic: article
 
 
 ---
-# WEKF\_PredefinedKey
+# WEKF_PredefinedKey
 
 This class blocks or unblocks predefined key combinations, such as Ctrl+Alt+Delete.
 
@@ -38,14 +38,14 @@ class WEKF_PredefinedKey {
 
 The following tables list any constructors, methods, fields, and properties that belong to this class.
 
-### <a href="" id="mth"></a>Methods
+### Methods
 
 | Methods                                                    | Description                            |
 |:-----------------------------------------------------------|:---------------------------------------|
 | [WEKF_PredefinedKey.Enable](wekf-predefinedkeyenable.md)   | Blocks the specified predefined key.   |
 | [WEKF_PredefinedKey.Disable](wekf-predefinedkeydisable.md) | Unblocks the specified predefined key. |
 
-### <a href="" id="pro"></a>Properties
+### Properties
 
 | Property    | Data type | Qualifiers    | Description                                                                                                                                                           |
 |:------------|:----------|:--------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -54,7 +54,7 @@ The following tables list any constructors, methods, fields, and properties that
 
 ### Remarks
 
-All accounts have read access to the **WEKF\_PRedefinedKey** class, but only administrator accounts can modify the class.
+All accounts have read access to the **WEKF_PRedefinedKey** class, but only administrator accounts can modify the class.
 
 For a list of predefined key combinations for Keyboard Filter, see [Predefined key combinations](predefined-key-combinations.md).
 

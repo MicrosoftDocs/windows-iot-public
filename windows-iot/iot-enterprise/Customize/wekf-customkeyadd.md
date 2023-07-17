@@ -1,6 +1,6 @@
 ---
-title: WEKF\_CustomKey.Add
-description: WEKF\_CustomKey.Add
+title: WEKF_CustomKey.Add
+description: WEKF_CustomKey.Add
 MSHAttr:
 - 'PreferredSiteName:MSDN'
 - 'PreferredLib:/library/windows/hardware'
@@ -14,7 +14,7 @@ ms.topic: article
 
 
 ---
-# WEKF\_CustomKey.Add
+# WEKF_CustomKey.Add
 
 Creates a new custom key combination and enables Keyboard Filter to block the new key combination.
 
@@ -28,19 +28,17 @@ Creates a new custom key combination and enables Keyboard Filter to block the ne
 
 ## Parameters
 
-<a href="" id="customkey"></a>*CustomKey*  
-\[in\] The custom key combination to add. For a list of valid key names, see [Keyboard Filter key names](keyboardfilter-key-names.md).
+**CustomKey**</br>\[in\] The custom key combination to add. For a list of valid key names, see [Keyboard Filter key names](keyboardfilter-key-names.md).
 
 ## Return Value
-
 
 Returns an HRESULT value that indicates a [WMI Non-Error Constant](/windows/win32/wmisdk/wmi-non-error-constants) or a [WMI Error Constant](/windows/win32/wmisdk/wmi-error-constants).
 
 ## Remarks
 
-**WEKF\_CustomKey.Add** creates a new **WEKF\_CustomKey** object and sets the **Enabled** property of the new object to **true**, and the **Id** property to *CustomKey*.
+**WEKF_CustomKey.Add** creates a new **WEKF_CustomKey** object and sets the **Enabled** property of the new object to **true**, and the **Id** property to *CustomKey*.
 
-If a **WEKF\_CustomKey** object already exists with the **Id** property equal to *CustomKey*, then **WEKF\_CustomKey.Add** returns an error code and does not create a new object or modify any properties of the existing object. If the existing **WEKF\_CustomKey** object has the **Enabled** property set to **false**, Keyboard Filter does not block the custom key combination.
+If a **WEKF_CustomKey** object already exists with the **Id** property equal to *CustomKey*, then **WEKF_CustomKey.Add** returns an error code and does not create a new object or modify any properties of the existing object. If the existing **WEKF_CustomKey** object has the **Enabled** property set to **false**, Keyboard Filter does not block the custom key combination.
 
 ## Example
 
@@ -106,10 +104,7 @@ foreach ($objCustomKeyItem in $objCustomKeyList) {
 | Windows 10 Enterprise | Yes       |
 | Windows 10 Education  | Yes       |
 
- 
-
 ## Related topics
 
-[WEKF\_CustomKey](wekf-customkey.md)
-
-[Keyboard Filter](keyboardfilter.md)
+- [WEKF_CustomKey](wekf-customkey.md)
+- [Keyboard Filter](keyboardfilter.md)

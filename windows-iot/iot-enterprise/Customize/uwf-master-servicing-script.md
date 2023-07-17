@@ -2,8 +2,8 @@
 title: UWF master servicing script
 description: UWF master servicing script
 MS-HAID:
-- 'p\_embedded.uwf\_master\_servicing\_script\_blue'
-- 'p\_enterprise\_customizations.uwf\_master\_servicing\_script'
+- 'p\_embedded.UWF_master\_servicing\_script\_blue'
+- 'p\_enterprise\_customizations.UWF_master\_servicing\_script'
 MSHAttr:
 - 'PreferredSiteName:MSDN'
 - 'PreferredLib:/library/windows/hardware'

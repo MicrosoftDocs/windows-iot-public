@@ -1,6 +1,6 @@
 ---
-title: WESL\_UserSetting.IsEnabled
-description: WESL\_UserSetting.IsEnabled
+title: WESL_UserSetting.IsEnabled
+description: WESL_UserSetting.IsEnabled
 MSHAttr:
 - 'PreferredSiteName:MSDN'
 - 'PreferredLib:/library/windows/hardware'
@@ -14,7 +14,7 @@ ms.topic: article
 
 
 ---
-# WESL\_UserSetting.IsEnabled
+# WESL_UserSetting.IsEnabled
 
 This method retrieves a value that indicates if Shell Launcher is enabled or disabled.
 
@@ -28,8 +28,7 @@ This method retrieves a value that indicates if Shell Launcher is enabled or dis
 
 ## Parameters
 
-<a href="" id="enabled"></a>*Enabled*
-\[out, required\] A Boolean value that indicates if Shell Launcher is enabled.
+**Enabled**</br>\[out, required\] A Boolean value that indicates if Shell Launcher is enabled.
 
 ## Return Value
 
@@ -46,6 +45,6 @@ Returns an HRESULT value that indicates [WMI status](/windows/win32/wmisdk/wmi-n
 
 ## Related topics
 
-[WESL\_UserSetting](wesl-usersetting.md)
+[WESL_UserSetting](wesl-usersetting.md)
 
 [Shell Launcher](shell-launcher.md)

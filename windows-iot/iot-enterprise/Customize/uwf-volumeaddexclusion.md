@@ -1,6 +1,6 @@
 ---
-title: UWF\_Volume.AddExclusion
-description: UWF\_Volume.AddExclusion
+title: UWF_Volume.AddExclusion
+description: UWF_Volume.AddExclusion
 MSHAttr:
 - 'PreferredSiteName:MSDN'
 - 'PreferredLib:/library/windows/hardware'
@@ -14,7 +14,7 @@ ms.topic: article
 
 
 ---
-# UWF\_Volume.AddExclusion
+# UWF_Volume.AddExclusion
 
 Adds a file or folder to the file exclusion list for a volume protected by Unified Write Filter (UWF).
 
@@ -28,8 +28,7 @@ UInt32 AddExclusion(
 
 ## Parameters
 
-<a href="" id="filename"></a>*FileName*
-A string that contains the full path of the file or folder relative to the volume.
+**FileName**</br>A string that contains the full path of the file or folder relative to the volume.
 
 ## Return Value
 
@@ -39,14 +38,14 @@ Returns an HRESULT value that indicates [WMI status](/windows/win32/wmisdk/wmi-n
 
 You must use an administrator account to add or remove file or folder exclusions during run time, and you must restart the device for new exclusions to take effect.
 
-> [!Important]
+> [!IMPORTANT]
 > You can’t add exclusions for the following items:
 >
-> * The volume root. For example, C: or D:.
-> * The \\Windows folder on the system volume.
-> * The \\Windows\\System32 folder on the system volume.
-> * The \\Windows\\system32\\drivers folder on the system volume.
-> * Paging files.
+> - The volume root. For example, C: or D:.
+> - The \Windows folder on the system volume.
+> - The \Windows\System32 folder on the system volume.
+> - The \Windows\system32\drivers folder on the system volume.
+> - Paging files.
 
 However, you can exclude subdirectories and files under these items.
 
@@ -54,16 +53,13 @@ However, you can exclude subdirectories and files under these items.
 
 | Windows Edition       | Supported |
 |:----------------------|:----------|
-| Windows 10 Home       | No        |
-| Windows 10 Pro        | No        |
-| Windows 10 Enterprise | Yes       |
-| Windows 10 Education  | Yes       |
+| Windows 10/11 Home       | No        |
+| Windows 10/11 Pro        | No        |
+| Windows 10/11 Enterprise | Yes       |
+| Windows 10/11 Education  | Yes       |
+| Windows 10/11 IoT Enterprise | Yes |
 
 ## Related topics
 
-[UWF\_Volume](uwf-volume.md)
-
-[Unified Write Filter](unified-write-filter.md)
-
- 
-
+- [UWF_Volume](uwf-volume.md)
+- [Unified Write Filter](unified-write-filter.md)

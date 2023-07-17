@@ -1,6 +1,6 @@
 ---
-title: UWF\_Volume.RemoveExclusion
-description: UWF\_Volume.RemoveExclusion
+title: UWF_Volume.RemoveExclusion
+description: UWF_Volume.RemoveExclusion
 MSHAttr:
 - 'PreferredSiteName:MSDN'
 - 'PreferredLib:/library/windows/hardware'
@@ -14,7 +14,7 @@ ms.topic: article
 
 
 ---
-# UWF\_Volume.RemoveExclusion
+# UWF_Volume.RemoveExclusion
 
 Removes a specific file or folder from the file exclusion list for a volume protected by Unified Write Filter (UWF).
 
@@ -28,8 +28,7 @@ UInt32 RemoveExclusion(
 
 ## Parameters
 
-<a href="" id="filename"></a>*FileName*
-A string that contains the full path of the file or folder relative to the volume.
+**FileName**</br>A string that contains the full path of the file or folder relative to the volume.
 
 ## Return Value
 
@@ -43,13 +42,13 @@ You must use an administrator account to remove file or folder exclusions, and y
 
 | Windows Edition       | Supported |
 |:----------------------|:----------|
-| Windows 10 Home       | No        |
-| Windows 10 Pro        | No        |
-| Windows 10 Enterprise | Yes       |
-| Windows 10 Education  | Yes       |
+| Windows 10/11 Home       | No        |
+| Windows 10/11 Pro        | No        |
+| Windows 10/11 Enterprise | Yes       |
+| Windows 10/11 Education  | Yes       |
+| Windows 10/11 IoT Enterprise | Yes |
 
 ## Related topics
 
-[UWF\_Volume](uwf-volume.md)
-
-[Unified Write Filter](unified-write-filter.md)
+- [UWF_Volume](uwf-volume.md)
+- [Unified Write Filter](unified-write-filter.md)

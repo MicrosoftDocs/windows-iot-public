@@ -1,6 +1,6 @@
 ---
-title: WEKF\_Scancode
-description: WEKF\_Scancode
+title: WEKF_Scancode
+description: WEKF_Scancode
 MSHAttr:
 - 'PreferredSiteName:MSDN'
 - 'PreferredLib:/library/windows/hardware'
@@ -14,7 +14,7 @@ ms.topic: article
 
 
 ---
-# WEKF\_Scancode
+# WEKF_Scancode
 
 Blocks or unblocks key combinations by using the keyboard scan code, which is an integer number that is generated whenever a key is pressed or released.
 
@@ -41,92 +41,20 @@ class WEKF_Scancode {
 
 The following tables list any constructors, methods, fields, and properties that belong to this class.
 
-### <a href="" id="mth"></a>Methods
+### Methods
 
-<table>
-<colgroup>
-<col width="50%" />
-<col width="50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Methods</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p><a href="wekf-scancodeadd.md" data-raw-source="[WEKF_Scancode.Add](wekf-scancodeadd.md)">WEKF_Scancode.Add</a></p></td>
-<td><p>Adds a new custom scan code combination and enables Keyboard Filter to block the new scan code combination.</p></td>
-</tr>
-<tr class="even">
-<td><p><a href="wekf-scancoderemove.md" data-raw-source="[WEKF_Scancode.Remove](wekf-scancoderemove.md)">WEKF_Scancode.Remove</a></p></td>
-<td><p>Removes the specified custom scan code combination. Keyboard Filter stops blocking the scan code combination that was removed.</p></td>
-</tr>
-</tbody>
-</table>
+| Methods | Description |
+|---------|-------------|
+[WEKF_Scancode.Add](wekf-scancodeadd.md) | Adds a new custom scan code combination and enables Keyboard Filter to block the new scan code combination. |
+| [WEKF_Scancode.Remove](wekf-scancoderemove.md) | Removes the specified custom scan code combination. Keyboard Filter stops blocking the scan code combination that was removed. |
 
-### <a href="" id="pro"></a>Properties
+### Properties
 
-<table>
-<colgroup>
-<col width="25%" />
-<col width="25%" />
-<col width="25%" />
-<col width="25%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Property</th>
-<th>Data type</th>
-<th>Qualifiers</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p><strong>Modifiers</strong></p></td>
-<td><p>string</p></td>
-<td><p>[key]</p></td>
-<td><p>The modifier keys that are part of the key combination to block.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Scancode</strong></p></td>
-<td><p>uint16</p></td>
-<td><p>[key]</p></td>
-<td><p>The scan code part of the key combination to block.</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>Enabled</strong></p></td>
-<td><p>Boolean</p></td>
-<td><p>[read, write]</p></td>
-<td><p>Indicates whether the scan code is blocked or unblocked. This property can be one of the following values:</p>
-<table>
-<colgroup>
-<col width="50%" />
-<col width="50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Value</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p><strong>true</strong></p></td>
-<td><p>Indicates that the scan code is blocked.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>false</strong></p></td>
-<td><p>Indicates that the scan code is not blocked.</p></td>
-</tr>
-</tbody>
-</table>
-<p> </p></td>
-</tr>
-</tbody>
-</table>
+| Property | Data&nbsp;type | Qualifiers | Description |
+|----------|----------------|------------|-------------|
+| **Modifiers** | string | [key] | The modifier keys that are part of the key combination to block. |
+| **Scancode** | uint16 | [key] | The scan code part of the key combination to block. |
+| **Enabled** | Boolean | [read, write] | Indicates whether the scan code is blocked or unblocked. This property can be one of the following values:</br>- **true** Indicates that the scan code is blocked.</br>- **false** Indicates that the scan code is not blocked. |
 
 ### Remarks
 
@@ -136,7 +64,7 @@ You can specify key combinations by including the modifier keys in the *Modifier
 
 ## Example
 
-The following code demonstrates how to add or enable a keyboard scan code that Keyboard Filter will block by using the Windows Management Instrumentation (WMI) providers for Keyboard Filter. This example modifies the properties directly, and does not call any of the methods defined in **WEKF\_Scancode**.
+The following code demonstrates how to add or enable a keyboard scan code that Keyboard Filter will block by using the Windows Management Instrumentation (WMI) providers for Keyboard Filter. This example modifies the properties directly, and does not call any of the methods defined in **WEKF_Scancode**.
 
 ```powershell
 <#

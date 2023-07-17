@@ -1,6 +1,6 @@
 ---
-title: WEKF\_Settings
-description: WEKF\_Settings
+title: WEKF_Settings
+description: WEKF_Settings
 MSHAttr:
 - 'PreferredSiteName:MSDN'
 - 'PreferredLib:/library/windows/hardware'
@@ -14,7 +14,7 @@ ms.topic: article
 
 
 ---
-# WEKF\_Settings
+# WEKF_Settings
 
 Enables or disables settings for Keyboard Filter.
 
@@ -50,16 +50,16 @@ The following tables list any methods and properties that belong to this class.
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>Name</strong></p></td>
+<td><p>**Name**</p></td>
 <td><p>string</p></td>
 <td><p>[key]</p></td>
 <td><p>Indicates the name of the Keyboard Filter setting that this object represents. See the Remarks section for a list of valid setting names.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Value</strong></p></td>
+<td><p>**Value**</p></td>
 <td><p>string</p></td>
 <td><p>[read, write]</p></td>
-<td><p>Represents the value of the <strong>Name</strong> setting. The value is not case-sensitive.</p>
+<td><p>Represents the value of the **Name** setting. The value is not case-sensitive.</p>
 <p>See the Remarks section for a list of valid values for each setting.</p></td>
 </tr>
 </tbody>
@@ -69,7 +69,7 @@ The following tables list any methods and properties that belong to this class.
 
 You must be signed in to an administrator account to make any changes to this class.
 
-Each **WEKF\_Settings** object represents a single Keyboard Filter setting. You can enumerate across all **WEKF\_Settings** objects to see the value of all Keyboard Filter settings.
+Each **WEKF_Settings** object represents a single Keyboard Filter setting. You can enumerate across all **WEKF_Settings** objects to see the value of all Keyboard Filter settings.
 
 The following table lists all settings available for Keyboard Filter.
 
@@ -86,23 +86,23 @@ The following table lists all settings available for Keyboard Filter.
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>DisableKeyboardFilterForAdministrators</strong></p></td>
-<td><p>This setting specifies whether Keyboard Filter is enabled or disabled for administrator accounts. Set to <strong>true</strong> to disable Keyboard Filter for administrator accounts; otherwise, set to <strong>false</strong>. Set to <strong>true</strong> by default.</p></td>
+<td><p>**DisableKeyboardFilterForAdministrators**</p></td>
+<td><p>This setting specifies whether Keyboard Filter is enabled or disabled for administrator accounts. Set to **true** to disable Keyboard Filter for administrator accounts; otherwise, set to **false**. Set to **true** by default.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>ForceOffAccessibility</strong></p></td>
-<td><p>This setting specifies whether Keyboard Filter blocks users from enabling Ease of Access features. Set to <strong>true</strong> to force disabling the Ease of Access features. Set to <strong>false</strong> to allow enabling the Ease of Access features. Set to <strong>false</strong> by default.</p>
-<p>Changing this setting to <strong>false</strong> does not automatically enable Ease of Access features; you must manually enable them.</p></td>
+<td><p>**ForceOffAccessibility**</p></td>
+<td><p>This setting specifies whether Keyboard Filter blocks users from enabling Ease of Access features. Set to **true** to force disabling the Ease of Access features. Set to **false** to allow enabling the Ease of Access features. Set to **false** by default.</p>
+<p>Changing this setting to **false** does not automatically enable Ease of Access features; you must manually enable them.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>BreakoutKeyScanCode</strong></p></td>
+<td><p>**BreakoutKeyScanCode**</p></td>
 <td><p>This setting specifies the scan code of the key that enables a user to break out of an account that is locked down with Keyboard Filter. A user can press CTRL+ALT+DELETE to switch to the Welcome screen.</p>
 <p>Set to the scan code for the left Windows logo key by default.</p></td>
 </tr>
 </tbody>
 </table>
 
-One instance of the **WEKF\_Settings** class exists for each valid setting.
+One instance of the **WEKF_Settings** class exists for each valid setting.
 
 Changes to the **DisableKeyboardFilterForAdministrator** setting are applied when an administrator account signs in, and applies to all applications run during the user session. If a user without an administrator account runs an application as an administrator, Keyboard Filter is still enabled, regardless of the **DisableKeyboardFilterForAdministrator** setting.
 

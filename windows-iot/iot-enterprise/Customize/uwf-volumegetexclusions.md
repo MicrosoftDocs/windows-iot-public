@@ -1,6 +1,6 @@
 ---
-title: UWF\_Volume.GetExclusions
-description: UWF\_Volume.GetExclusions
+title: UWF_Volume.GetExclusions
+description: UWF_Volume.GetExclusions
 MSHAttr:
 - 'PreferredSiteName:MSDN'
 - 'PreferredLib:/library/windows/hardware'
@@ -14,7 +14,7 @@ ms.topic: article
 
 
 ---
-# UWF\_Volume.GetExclusions
+# UWF_Volume.GetExclusions
 
 Gets a list of all file exclusions for a Unified Write Filter (UWF) protected volume.
 
@@ -28,8 +28,7 @@ UInt32 GetExclusions(
 
 ## Parameters
 
-<a href="" id="excludedfiles"></a>*ExcludedFiles*  
-\[out\] An array of [UWF\_ExcludedFile](uwf-excludedfile.md) objects that represent the files and folders that are excluded from UWF filtering for a volume.
+**ExcludedFiles**</br>\[out\] An array of [UWF_ExcludedFile](uwf-excludedfile.md) objects that represent the files and folders that are excluded from UWF filtering for a volume.
 
 ## Return Value
 
@@ -43,13 +42,13 @@ If **GetExclusions** does not find any files or folders in the file exclusion li
 
 | Windows Edition       | Supported |
 |:----------------------|:----------|
-| Windows 10 Home       | No        |
-| Windows 10 Pro        | No        |
-| Windows 10 Enterprise | Yes       |
-| Windows 10 Education  | Yes       |
+| Windows 10/11 Home       | No        |
+| Windows 10/11 Pro        | No        |
+| Windows 10/11 Enterprise | Yes       |
+| Windows 10/11 Education  | Yes       |
+| Windows 10/11 IoT Enterprise | Yes |
 
 ## Related topics
 
-[UWF\_Volume](uwf-volume.md)
-
-[Unified Write Filter](unified-write-filter.md)
+- [UWF_Volume](uwf-volume.md)
+- [Unified Write Filter](unified-write-filter.md)

@@ -1,6 +1,6 @@
 ---
-title: UWF\_RegistryFilter
-description: UWF\_RegistryFilter
+title: UWF_RegistryFilter
+description: UWF_RegistryFilter
 MSHAttr:
 - 'PreferredSiteName:MSDN'
 - 'PreferredLib:/library/windows/hardware'
@@ -14,7 +14,7 @@ ms.topic: article
 
 
 ---
-# UWF\_RegistryFilter
+# UWF_RegistryFilter
 
 Adds or removes registry exclusions from Unified Write Filter (UWF) filtering, and also commits registry changes.
 
@@ -54,88 +54,22 @@ class UWF_RegistryFilter{
 
 The following tables list the methods and properties that belong to this class.
 
-### <a href="" id="mth"></a>Methods
+| Method | Description&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; |
+|--------|-------------|
+| [UWF_RegistryFilter.AddExclusion](uwf-registryfilteraddexclusion.md) | Adds a registry key to the registry exclusion list for UWF. |
+| [UWF_RegistryFilter.CommitRegistry](uwf-registryfiltercommitregistry.md) | Commits changes to the specified registry key and value. |
+| [UWF_RegistryFilter.CommitRegistryDeletion](uwf-registryfiltercommitregistrydeletion.md) | Deletes the specified registry key or registry value and commits the deletion. |
+| [UWF_RegistryFilter.FindExclusion](uwf-registryfilterfindexclusion.md) | Determines whether a specific registry key is excluded from being filtered by UWF. |
+| [UWF_RegistryFilter.GetExclusions](uwf-registryfiltergetexclusions.md) | Retrieves all registry key exclusions from a system that is protected by UWF |
+| [UWF_RegistryFilter.RemoveExclusion](uwf-registryfilterremoveexclusion.md) | Removes a registry key from the registry exclusion list for Unified Write Filter (UWF). |
 
-<table>
-<colgroup>
-<col width="50%" />
-<col width="50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Method</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p><a href="uwf-registryfilteraddexclusion.md" data-raw-source="[UWF_RegistryFilter.AddExclusion](uwf-registryfilteraddexclusion.md)">UWF_RegistryFilter.AddExclusion</a></p></td>
-<td><p>Adds a registry key to the registry exclusion list for UWF.</p></td>
-</tr>
-<tr class="even">
-<td><p><a href="uwf-registryfiltercommitregistry.md" data-raw-source="[UWF_RegistryFilter.CommitRegistry](uwf-registryfiltercommitregistry.md)">UWF_RegistryFilter.CommitRegistry</a></p></td>
-<td><p>Commits changes to the specified registry key and value.</p></td>
-</tr>
-<tr class="odd">
-<td><p><a href="uwf-registryfiltercommitregistrydeletion.md" data-raw-source="[UWF_RegistryFilter.CommitRegistryDeletion](uwf-registryfiltercommitregistrydeletion.md)">UWF_RegistryFilter.CommitRegistryDeletion</a></p></td>
-<td><p>Deletes the specified registry key or registry value and commits the deletion.</p></td>
-</tr>
-<tr class="even">
-<td><p><a href="uwf-registryfilterfindexclusion.md" data-raw-source="[UWF_RegistryFilter.FindExclusion](uwf-registryfilterfindexclusion.md)">UWF_RegistryFilter.FindExclusion</a></p></td>
-<td><p>Determines whether a specific registry key is excluded from being filtered by UWF.</p></td>
-</tr>
-<tr class="odd">
-<td><p><a href="uwf-registryfiltergetexclusions.md" data-raw-source="[UWF_RegistryFilter.GetExclusions](uwf-registryfiltergetexclusions.md)">UWF_RegistryFilter.GetExclusions</a></p></td>
-<td><p>Retrieves all registry key exclusions from a system that is protected by UWF.</p></td>
-</tr>
-<tr class="even">
-<td><p><a href="uwf-registryfilterremoveexclusion.md" data-raw-source="[UWF_RegistryFilter.RemoveExclusion](uwf-registryfilterremoveexclusion.md)">UWF_RegistryFilter.RemoveExclusion</a></p></td>
-<td><p>Removes a registry key from the registry exclusion list for Unified Write Filter (UWF).</p></td>
-</tr>
-</tbody>
-</table>
+### Properties
 
-### <a href="" id="pro"></a>Properties
-
-<table>
-<colgroup>
-<col width="25%" />
-<col width="25%" />
-<col width="25%" />
-<col width="25%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Property</th>
-<th>Data type</th>
-<th>Qualifiers</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p><strong>CurrentSession</strong></p></td>
-<td><p>Boolean</p></td>
-<td><p>[key, read]</p></td>
-<td><p>Indicates which session the object contains settings for.</p>
-<p><strong>True</strong> if settings are for the current session; <strong>False</strong> if settings are for the next session that follows a restart.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>PersistDomainSecretKey</strong></p></td>
-<td><p>Boolean</p></td>
-<td><p>[read, write]</p></td>
-<td><p>Indicates if the domain secret registry key is in the registry exclusion list. If the registry key is not in the exclusion list, changes are not persisted after a restart.</p>
-<p>Set to <strong>True</strong> to include in the exclusion list; otherwise, set to <strong>False</strong>.</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>PersistTSCAL</strong></p></td>
-<td><p>Boolean</p></td>
-<td><p>[read, write]</p></td>
-<td><p>Indicates if the Terminal Server Client Access License (TSCAL) registry key is in the UWF registry exclusion list. If the registry key is not in the exclusion list, changes are not persisted after a restart.</p>
-<p>Set to <strong>True</strong> to include in the exclusion list; otherwise, set to <strong>False</strong>.</p></td>
-</tr>
-</tbody>
-</table>
+| Property | Data&nbsp;type | Qualifiers | Description&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; |
+|----------|----------------|------------|-------------|
+| CurrentSession | Boolean | [key, read] | Indicates which session the object contains settings for. </br> - **True** if settings are for the current session </br>- **False** if settings are for the next session that follows a restart. |
+| PersistDomainSecretKey | Boolean | [read, write] | Indicates if the domain secret registry key is in the registry exclusion list. If the registry key is not in the exclusion list, changes are not persisted after a restart.</br>- **True** to include in the exclusion list </br>- Otherwise **False**. |
+| PersistTSCAL | Boolean | [read, write] | Indicates if the Terminal Server Client Access License (TSCAL) registry key is in the UWF registry exclusion list. If the registry key is not in the exclusion list, changes are not persisted after a restart. </br>- **True** to include in the exclusion list</br>- Otherwise, set to **False** |
 
 ### Remarks
 
@@ -143,7 +77,7 @@ Additions or removals of registry exclusions, including changes to the values of
 
 You can only add registry keys in the HKLM registry root to the UWF registry exclusion list.
 
-You can also use **UWF\_RegistryFilter** to exclude the domain secret registry key and the TSCAL registry key from UWF filtering.
+You can also use **UWF_RegistryFilter** to exclude the domain secret registry key and the TSCAL registry key from UWF filtering.
 
 ### Example
 
@@ -333,11 +267,12 @@ Clear-RegistryExclusions
 
 | Windows Edition       | Supported |
 |:----------------------|:----------|
-| Windows 10 Home       | No        |
-| Windows 10 Pro        | No        |
-| Windows 10 Enterprise | Yes       |
-| Windows 10 Education  | Yes       |
+| Windows 10/11 Home       | No        |
+| Windows 10/11 Pro        | No        |
+| Windows 10/11 Enterprise | Yes       |
+| Windows 10/11 Education  | Yes       |
+| Windows 10/11 IoT Enterprise | Yes |
 
 ## Related topics
 
-[Unified Write Filter](unified-write-filter.md)
+- [Unified Write Filter](unified-write-filter.md)

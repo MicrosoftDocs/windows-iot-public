@@ -20,7 +20,7 @@ The default settings for the Unified Write Filter (UWF) servicing screen saver c
 
 The UWF servicing screen saver (UwfServicingScr.scr) is located in the \\Windows\\System32 folder.
 
-> [!Important]
+> [!IMPORTANT]
 > When UWF is installed on your device, when you right-click on the **Desktop**, and then click **Personalize** &gt; **Screen Saver**, the UWF servicing screen saver will appear in the list of available screen savers in the **Screen Saver Settings** dialog box.
 
 Do not select **UwfServicingScr** as the screen saver and then click **Preview**, as you will not be able to exit the UWF servicing screen saver by moving the mouse or pressing a key. The only way to exit the UWF servicing screen saver in this case is by pressing the Ctrl+Alt+Delete keys.

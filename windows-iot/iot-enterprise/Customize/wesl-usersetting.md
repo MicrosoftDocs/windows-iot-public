@@ -1,6 +1,6 @@
 ---
-title: WESL\_UserSetting
-description: WESL\_UserSetting
+title: WESL_UserSetting
+description: WESL_UserSetting
 MSHAttr:
 - 'PreferredSiteName:MSDN'
 - 'PreferredLib:/library/windows/hardware'
@@ -14,7 +14,7 @@ ms.topic: article
 
 
 ---
-# WESL\_UserSetting
+# WESL_UserSetting
 
 This class configures which application Shell Launcher starts based on the security identifier (SID) of the signed in user, and also configures the set of return codes and return actions that Shell Launcher performs when the application exits.
 
@@ -130,30 +130,30 @@ The following tables list any methods and properties that belong to this class.
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>Sid</strong></p></td>
+<td><p>**Sid**</p></td>
 <td><p>string</p></td>
 <td><p>[read, write, required]</p></td>
 <td><p>User or group SID.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>shell</strong></p></td>
+<td><p>**shell**</p></td>
 <td><p>string</p></td>
 <td><p>[read, write, required]</p></td>
 <td><p>The application to start as the shell.</p>
-<p>The <strong>shell</strong> property can be a filename in the <em>Path</em> environment variable, or it can contain a fully qualified path to the application. You can also use environment variables in the path.</p>
-<p>Any spaces in the <strong>shell</strong> property must be part of a quote-delimited string.</p></td>
+<p>The **shell** property can be a filename in the *Path* environment variable, or it can contain a fully qualified path to the application. You can also use environment variables in the path.</p>
+<p>Any spaces in the **shell** property must be part of a quote-delimited string.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>CustomReturnCodes</strong></p></td>
+<td><p>**CustomReturnCodes**</p></td>
 <td><p>Sint32[]</p></td>
 <td><p>[read, write]</p></td>
 <td><p>An array of custom return codes that can be returned by the shell.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>CustomReturnCodesAction</strong></p></td>
+<td><p>**CustomReturnCodesAction**</p></td>
 <td><p>Sint32[]</p></td>
 <td><p>[read, write]</p></td>
-<td><p>An array of custom return code actions that determine what action Shell Launcher takes when the shell exits. The custom actions map to the array of <strong>CustomReturnCodes</strong>.</p>
+<td><p>An array of custom return code actions that determine what action Shell Launcher takes when the shell exits. The custom actions map to the array of **CustomReturnCodes**.</p>
 <p>The possible actions are defined in the following table:</p>
 <table>
 <colgroup>
@@ -188,7 +188,7 @@ The following tables list any methods and properties that belong to this class.
 <p> </p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>DefaultAction</strong></p></td>
+<td><p>**DefaultAction**</p></td>
 <td><p>Sint32</p></td>
 <td><p>[read, write]</p></td>
 <td><p>The default action Shell Launcher takes when the shell exits.</p>
@@ -230,7 +230,7 @@ The following tables list any methods and properties that belong to this class.
 
 ### Remarks
 
-Only one **WESL\_UserSetting** instance exists on a device with Shell Launcher.
+Only one **WESL_UserSetting** instance exists on a device with Shell Launcher.
 
 Shell Launcher uses the custom configuration defined for the SID of the user currently signed in, if one exists. Otherwise, Shell Launcher uses a custom configuration defined for a group SID that the user is a member of, if any exist. If multiple group custom configurations for the user exist, Shell Launcher uses the first valid configuration it finds. The search order is not defined.
 

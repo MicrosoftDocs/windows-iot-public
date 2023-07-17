@@ -1,6 +1,6 @@
 ---
-title: WESL\_UserSetting.GetCustomShell
-description: WESL\_UserSetting.GetCustomShell
+title: WESL_UserSetting.GetCustomShell
+description: WESL_UserSetting.GetCustomShell
 MSHAttr:
 - 'PreferredSiteName:MSDN'
 - 'PreferredLib:/library/windows/hardware'
@@ -14,7 +14,7 @@ ms.topic: article
 
 
 ---
-# WESL\_UserSetting.GetCustomShell
+# WESL_UserSetting.GetCustomShell
 
 This method retrieves the Shell Launcher configuration for a specific user or group, based on the security identifier (SID).
 
@@ -32,17 +32,13 @@ This method retrieves the Shell Launcher configuration for a specific user or gr
 
 ## Parameters
 
-<a href="" id="sid"></a>*Sid*
-\[in, required\] A string containing the security identifier (SID) of the user or group that Shell Launcher is configured for.
+**Sid**</br>\[in, required\] A string containing the security identifier (SID) of the user or group that Shell Launcher is configured for.
 
-<a href="" id="shell"></a>*Shell*
-\[out, required\] The application or executable that Shell Launcher starts as the shell.
+**Shell**</br>\[out, required\] The application or executable that Shell Launcher starts as the shell.
 
-<a href="" id="customreturncodes"></a>*CustomReturnCodes*
-\[out, required\] An array of custom return codes returned by the shell application.
+**CustomReturnCodes**</br>\[out, required\] An array of custom return codes returned by the shell application.
 
-<a href="" id="customreturncodesaction"></a>*CustomReturnCodesAction*
-\[out, required\] An array of custom return code actions that determine the action that Shell Launcher takes when the shell application exits. The custom actions map to the array of *CustomReturnCodes*.
+**CustomReturnCodesAction**</br>\[out, required\] An array of custom return code actions that determine the action that Shell Launcher takes when the shell application exits. The custom actions map to the array of *CustomReturnCodes*.
 
 The possible actions are defined in the following table:
 
@@ -134,6 +130,6 @@ If the return value does not exist in *CustomReturnCodes*, or if the correspondi
 
 ## Related topics
 
-[WESL\_UserSetting](wesl-usersetting.md)
+[WESL_UserSetting](wesl-usersetting.md)
 
 [Shell Launcher](shell-launcher.md)

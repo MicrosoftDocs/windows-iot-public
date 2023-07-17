@@ -1,6 +1,6 @@
 ---
-title: WESL\_UserSetting.SetEnabled
-description: WESL\_UserSetting.SetEnabled
+title: WESL_UserSetting.SetEnabled
+description: WESL_UserSetting.SetEnabled
 MSHAttr:
 - 'PreferredSiteName:MSDN'
 - 'PreferredLib:/library/windows/hardware'
@@ -14,7 +14,7 @@ ms.topic: article
 
 
 ---
-# WESL\_UserSetting.SetEnabled
+# WESL_UserSetting.SetEnabled
 
 This method enables or disables Shell Launcher.
 
@@ -28,8 +28,7 @@ This method enables or disables Shell Launcher.
 
 ## Parameters
 
-<a href="" id="enabled"></a>*Enabled*  
-\[in, required\] A Boolean value that indicates whether to enable or disable Shell Launcher.
+**Enabled**</br>\[in, required\] A Boolean value that indicates whether to enable or disable Shell Launcher.
 
 ## Return Value
 
@@ -37,7 +36,7 @@ Returns an HRESULT value that indicates [WMI status](/windows/win32/wmisdk/wmi-n
 
 ## Remarks
 
-This method enables or disables Shell Launcher by modifying the **Shell** value in the registry key **HKEY\_LOCAL\_MACHINE\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\\Winlogon**. If Unified Write Filter (UWF) is enabled, you may need to disable UWF or commit this registry key by using [UWF\_RegistryFilter.CommitRegistry](uwf-registryfiltercommitregistry.md) in order to enable or disable Shell Launcher.
+This method enables or disables Shell Launcher by modifying the **Shell** value in the registry key **HKEY\_LOCAL\_MACHINE\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\\Winlogon**. If Unified Write Filter (UWF) is enabled, you may need to disable UWF or commit this registry key by using [UWF_RegistryFilter.CommitRegistry](uwf-registryfiltercommitregistry.md) in order to enable or disable Shell Launcher.
 
 Enabling or disabling Shell Launcher does not take effect until a user signs in.
 
@@ -52,6 +51,5 @@ Enabling or disabling Shell Launcher does not take effect until a user signs in.
 
 ## Related topics
 
-[WESL\_UserSetting](wesl-usersetting.md)
-
-[Shell Launcher](shell-launcher.md)
+- [WESL_UserSetting](wesl-usersetting.md)
+- [Shell Launcher](shell-launcher.md)

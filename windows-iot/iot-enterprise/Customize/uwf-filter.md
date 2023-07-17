@@ -1,6 +1,6 @@
 ---
-title: UWF\_Filter
-description: UWF\_Filter
+title: UWF_Filter
+description: UWF_Filter
 MSHAttr:
 - 'PreferredSiteName:MSDN'
 - 'PreferredLib:/library/windows/hardware'
@@ -14,7 +14,7 @@ ms.topic: article
 
 
 ---
-# UWF\_Filter
+# UWF_Filter
 
 Enables or disables Unified Write Filter (UWF), resets configuration settings for UWF, and shuts down or restarts your device.
 
@@ -65,11 +65,11 @@ The following example demonstrates how to enable or disable UWF by using the WMI
 
 The PowerShell script creates three functions to help enable or disable UWF. It then demonstrates how to use each function.
 
-The first function, `Disable-UWF`, retrieves a WMI object for **UWF\_Filter**, and calls the **Disable()** method to disable UWF after the next device restart.
+The first function, `Disable-UWF`, retrieves a WMI object for **UWF_Filter**, and calls the **Disable()** method to disable UWF after the next device restart.
 
-The second function, `Enable-UWF`, retrieves a WMI object for **UWF\_Filter**, and calls the **Enable()** method to enable UWF after the next device restart.
+The second function, `Enable-UWF`, retrieves a WMI object for **UWF_Filter**, and calls the **Enable()** method to enable UWF after the next device restart.
 
-The third function, `Display-UWFState`, examines the properties of the **UWF\_Filter** object, and prints out the current settings for **UWF\_Filter**.
+The third function, `Display-UWFState`, examines the properties of the **UWF_Filter** object, and prints out the current settings for **UWF_Filter**.
 
 ```powershell
 $COMPUTER = "localhost"

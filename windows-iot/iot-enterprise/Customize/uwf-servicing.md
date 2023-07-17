@@ -1,6 +1,6 @@
 ---
-title: UWF\_Servicing
-description: UWF\_Servicing
+title: UWF_Servicing
+description: UWF_Servicing
 MSHAttr:
 - 'PreferredSiteName:MSDN'
 - 'PreferredLib:/library/windows/hardware'
@@ -14,7 +14,7 @@ ms.topic: article
 
 
 ---
-# UWF\_Servicing
+# UWF_Servicing
 
 This class contains properties and methods that enable you to query and control Unified Write Filter (UWF) servicing mode.
 
@@ -37,71 +37,20 @@ class UWF_Servicing {
 
 The following tables list the methods and properties that belong to this class.
 
-### <a href="" id="mth"></a>Methods
+### Methods
 
-<table>
-<colgroup>
-<col width="50%" />
-<col width="50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Method</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p><a href="uwf-servicingdisable.md" data-raw-source="[UWF_Servicing.Disable](uwf-servicingdisable.md)">UWF_Servicing.Disable</a></p></td>
-<td><p>Disables Unified Write Filter (UWF) servicing mode.</p>
-<p>The system leaves servicing mode in the next session that follows a restart.</p></td>
-</tr>
-<tr class="even">
-<td><p><a href="uwf-servicingenable.md" data-raw-source="[UWF_Servicing.Enable](uwf-servicingenable.md)">UWF_Servicing.Enable</a></p></td>
-<td><p>Enables Unified Write Filter (UWF) servicing mode.</p>
-<p>The system enters servicing mode in the next session that follows a restart.</p></td>
-</tr>
-<tr class="odd">
-<td><p><a href="uwf-servicingupdatewindows.md" data-raw-source="[UWF_Servicing.UpdateWindows](uwf-servicingupdatewindows.md)">UWF_Servicing.UpdateWindows</a></p></td>
-<td><p>Calls Windows Update to download and install critical and security updates for your device running Windows 10 Enterprise.</p></td>
-</tr>
-</tbody>
-</table>
+| Method | Description&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; |
+|--------|-------------|
+|[UWF_Servicing.Disable](uwf-servicingdisable.md) | Disables Unified Write Filter (UWF) servicing mode.</br>The system leaves servicing mode in the next session that follows a restart. |
+| [UWF_Servicing.Enable](uwf-servicingenable.md) | Enables Unified Write Filter (UWF) servicing mode.</br>The system enters servicing mode in the next session that follows a restart. |
+| [UWF_Servicing.UpdateWindows](uwf-servicingupdatewindows.md) | Calls Windows Update to download and install critical and security updates for your device running Windows 10 Enterprise. |
 
-### <a href="" id="pro"></a>Properties
+### Properties
 
-<table>
-<colgroup>
-<col width="25%" />
-<col width="25%" />
-<col width="25%" />
-<col width="25%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Property</th>
-<th>Data type</th>
-<th>Qualifiers</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p><strong>CurrentSession</strong></p></td>
-<td><p>Boolean</p></td>
-<td><p>[key, read]</p></td>
-<td><p>Indicates when to enable servicing.</p>
-<p><strong>True</strong> if servicing is enabled in the current session; <strong>False</strong> if servicing will be enabled in the session that follows a restart.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>ServiceEnabled</strong></p></td>
-<td><p>Boolean</p></td>
-<td><p>[read]</p></td>
-<td><p>Indicates if the system is in servicing mode in the current session, or will be in servicing mode in the next session that follows a restart.</p>
-<p><strong>True</strong> if servicing is enabled; otherwise, <strong>False</strong>.</p></td>
-</tr>
-</tbody>
-</table>
+| Property | Data&nbsp;type | Qualifiers | Description&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;& |
+|----------|----------------|------------|-------------|
+| CurrentSession | Boolean | [key, read] | Indicates when to enable servicing.</br>- **True** if servicing is enabled in the current session</br>- **False** if servicing will be enabled in the session that follows a restart. |
+| ServiceEnabled | Boolean | [read] | Indicates if the system is in servicing mode in the current session, or will be in servicing mode in the next session that follows a restart.</br>- **True** if servicing is enabled</br>- otherwise, **False**. |
 
 ### Remarks
 
@@ -148,10 +97,11 @@ if ($nextSession) {
 
 | Windows Edition       | Supported |
 |:----------------------|:----------|
-| Windows 10 Home       | No        |
-| Windows 10 Pro        | No        |
-| Windows 10 Enterprise | Yes       |
-| Windows 10 Education  | Yes       |
+| Windows 10/11 Home       | No        |
+| Windows 10/11 Pro        | No        |
+| Windows 10/11 Enterprise | Yes       |
+| Windows 10/11 Education  | Yes       |
+| Windows 10/11 IoT Enterprise | Yes |
 
 ## Related topics
 

@@ -32,91 +32,27 @@ class WEDL_AssignedAccess {
 
 The following tables list any methods and properties that belong to this class.
 
-### <a href="" id="mth"></a>Methods
+### Methods
 
 This class contains no methods.
 
-### <a href="" id="pro"></a>Properties
+### Properties
 
-<table>
-<colgroup>
-<col width="25%" />
-<col width="25%" />
-<col width="25%" />
-<col width="25%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Property</th>
-<th>Data type</th>
-<th>Qualifiers</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p><strong>UserSID</strong></p></td>
-<td><p>string</p></td>
-<td><p>[key]</p></td>
-<td><p>The security identifier (SID) for the user account that you want to use as the assigned access account.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>AppUserModelId</strong></p></td>
-<td><p>string</p></td>
-<td><p>[read, write]</p></td>
-<td><p>The Application User Model ID (AUMID) of the Windows app to launch for the assigned access account.</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>Status</strong></p></td>
-<td><p>Boolean</p></td>
-<td><p>none</p></td>
-<td><p>Indicates the current status of the assigned access configuration:</p>
-<table>
-<colgroup>
-<col width="50%" />
-<col width="50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Value</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>0</p></td>
-<td><p>A valid account is configured, but no Windows app is specified. Assigned access is not enabled.</p></td>
-</tr>
-<tr class="even">
-<td><p>1</p></td>
-<td><p>Assigned access is enabled.</p></td>
-</tr>
-<tr class="odd">
-<td><p>0x100</p></td>
-<td><p>UserSID error: cannot find the account.</p></td>
-</tr>
-<tr class="even">
-<td><p>0x103</p></td>
-<td><p>UserSID error: the account profile does not exist.</p></td>
-</tr>
-<tr class="odd">
-<td><p>0x200</p></td>
-<td><p>AppUserModelID error: cannot find the Windows app.</p></td>
-</tr>
-<tr class="even">
-<td><p>0x201</p></td>
-<td><p>Task Scheduler error: Could not schedule task. Make sure that the Task Scheduler service is running.</p></td>
-</tr>
-<tr class="odd">
-<td><p>0xffffffff</p></td>
-<td><p>Unspecified error.</p></td>
-</tr>
-</tbody>
-</table>
-<p> </p></td>
-</tr>
-</tbody>
-</table>
+| Property | Data&nbsp;type | Qualifiers | Description |
+|----------|----------------|------------|-------------|
+| **UserSID** | string | [key] | The security identifier (SID) for the user account that you want to use as the assigned access account. |
+| **AppUserModelId** | string | [read, write] | The Application User Model ID (AUMID) of the Windows app to launch for the assigned access account. |
+| **Status** | Boolean | none | Indicates the current status of the assigned access configuration |
+
+| Value | Description |
+|:-----:|-------------|
+| 0 | A valid account is configured, but no Windows app is specified. Assigned access is not enabled. |
+| 1 | Assigned access is enabled. |
+| 0x100 | UserSID error: cannot find the account. |
+| 0x103 | UserSID error: the account profile does not exist. |
+| 0x200 | AppUserModelID error: cannot find the Windows app. |
+| 0x201 | Task Scheduler error: Could not schedule task. Make sure that the Task Scheduler service is running. |
+| 0xffffffff | Unspecified error.|
 
 ### Remarks
 
@@ -207,9 +143,8 @@ if ($AssignedAccessConfig) {
 
 | Windows Edition       | Supported |
 |:----------------------|:----------|
-| Windows 10 Home       | No        |
-| Windows 10 Pro        | Yes       |
-| Windows 10 Enterprise | Yes       |
-| Windows 10 Education  | Yes       |
-
-
+| Windows 10/11 Home       | No        |
+| Windows 10/11 Pro        | Yes       |
+| Windows 10/11 Enterprise | Yes       |
+| Windows 10/11 Education  | Yes       |
+| Windows 10/11 IoT Enterprise | Yea |

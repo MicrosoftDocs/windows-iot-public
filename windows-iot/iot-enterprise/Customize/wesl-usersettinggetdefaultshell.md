@@ -1,6 +1,6 @@
 ---
-title: WESL\_UserSetting.GetDefaultShell
-description: WESL\_UserSetting.GetDefaultShell
+title: WESL_UserSetting.GetDefaultShell
+description: WESL_UserSetting.GetDefaultShell
 MSHAttr:
 - 'PreferredSiteName:MSDN'
 - 'PreferredLib:/library/windows/hardware'
@@ -14,7 +14,7 @@ ms.topic: article
 
 
 ---
-# WESL\_UserSetting.GetDefaultShell
+# WESL_UserSetting.GetDefaultShell
 
 This method retrieves the default Shell Launcher configuration.
 
@@ -29,11 +29,9 @@ This method retrieves the default Shell Launcher configuration.
 
 ## Parameters
 
-<a href="" id="shell"></a>*Shell*
-\[out, required\] The application or executable that Shell Launcher starts as the shell.
+**Shell**</br>\[out, required\] The application or executable that Shell Launcher starts as the shell.
 
-<a href="" id="defaultaction"></a>*DefaultAction*
-\[out, required\] The default action Shell Launcher takes when the shell application exits.
+**DefaultAction**</br>\[out, required\] The default action Shell Launcher takes when the shell application exits.
 
 The possible actions are defined in the following table:
 
@@ -87,6 +85,6 @@ Shell Launcher uses the default configuration when the security identifier (SID)
 
 ## Related topics
 
-[WESL\_UserSetting](wesl-usersetting.md)
+[WESL_UserSetting](wesl-usersetting.md)
 
 [Shell Launcher](shell-launcher.md)

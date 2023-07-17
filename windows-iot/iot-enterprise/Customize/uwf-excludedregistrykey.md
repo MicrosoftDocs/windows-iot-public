@@ -1,6 +1,6 @@
 ---
-title: UWF\_ExcludedRegistryKey
-description: UWF\_ExcludedRegistryKey
+title: UWF_ExcludedRegistryKey
+description: UWF_ExcludedRegistryKey
 MSHAttr:
 - 'PreferredSiteName:MSDN'
 - 'PreferredLib:/library/windows/hardware'

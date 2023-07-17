@@ -20,10 +20,10 @@ Describes the Windows Management Instrumentation (WMI) provider classes that you
 
 | WMI Provider Class | Description |
 | ------------------ | ----------- |
-| [WEKF\_CustomKey](wekf-customkey.md) | Blocks or unblocks custom defined key combinations. |
-| [WEKF\_PredefinedKey](wekf-predefinedkey.md) | Blocks or unblocks predefined key combinations. |
-| [WEKF\_Scancode](wekf-scancode.md) | Blocks or unblocks key combinations by using keyboard scan codes. |
-| [WEKF\_Settings](wekf-settings.md) | Enables or disables settings for Keyboard Filter. |
+| [WEKF_CustomKey](wekf-customkey.md) | Blocks or unblocks custom defined key combinations. |
+| [WEKF_PredefinedKey](wekf-predefinedkey.md) | Blocks or unblocks predefined key combinations. |
+| [WEKF_Scancode](wekf-scancode.md) | Blocks or unblocks key combinations by using keyboard scan codes. |
+| [WEKF_Settings](wekf-settings.md) | Enables or disables settings for Keyboard Filter. |
 
 ## Related topics
 

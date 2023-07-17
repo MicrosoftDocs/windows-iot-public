@@ -1,6 +1,6 @@
 ---
-title: UWF\_RegistryFilter.FindExclusion
-description: UWF\_RegistryFilter.FindExclusion
+title: UWF_RegistryFilter.FindExclusion
+description: UWF_RegistryFilter.FindExclusion
 MSHAttr:
 - 'PreferredSiteName:MSDN'
 - 'PreferredLib:/library/windows/hardware'
@@ -14,7 +14,7 @@ ms.topic: article
 
 
 ---
-# UWF\_RegistryFilter.FindExclusion
+# UWF_RegistryFilter.FindExclusion
 
 Checks if a specific registry key is excluded from being filtered by Unified Write Filter (UWF).
 
@@ -29,11 +29,9 @@ UInt32 FindExclusion(
 
 ## Parameters
 
-<a href="" id="registrykey"></a>*RegistryKey*
-\[in\] A string that contains the full path of the registry key.
+**RegistryKey**</br>\[in\] A string that contains the full path of the registry key.
 
-<a href="" id="bfound"></a>*bFound*
-\[out\] Indicates if the *RegistryKey* is in the exclusion list of registry keys.
+**bFound**</br>\[out\] Indicates if the *RegistryKey* is in the exclusion list of registry keys.
 
 ## Return Value
 
@@ -43,13 +41,13 @@ Returns an HRESULT value that indicates [WMI status](/windows/win32/wmisdk/wmi-n
 
 | Windows Edition       | Supported |
 |:----------------------|:----------|
-| Windows 10 Home       | No        |
-| Windows 10 Pro        | No        |
-| Windows 10 Enterprise | Yes       |
-| Windows 10 Education  | Yes       |
+| Windows 10/11 Home       | No        |
+| Windows 10/11 Pro        | No        |
+| Windows 10/11 Enterprise | Yes       |
+| Windows 10/11 Education  | Yes       |
+| Windows 10/11 IoT Enterprise | Yes |
 
 ## Related topics
 
-[UWF\_RegistryFilter](uwf-registryfilter.md)
-
-[Unified Write Filter](unified-write-filter.md)
+- [UWF_RegistryFilter](uwf-registryfilter.md)
+- [Unified Write Filter](unified-write-filter.md)

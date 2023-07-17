@@ -1,6 +1,6 @@
 ---
-title: UWF\_RegistryFilter.GetExclusions
-description: UWF\_RegistryFilter.GetExclusions
+title: UWF_RegistryFilter.GetExclusions
+description: UWF_RegistryFilter.GetExclusions
 MSHAttr:
 - 'PreferredSiteName:MSDN'
 - 'PreferredLib:/library/windows/hardware'
@@ -14,7 +14,7 @@ ms.topic: article
 
 
 ---
-# UWF\_RegistryFilter.GetExclusions
+# UWF_RegistryFilter.GetExclusions
 
 Retrieves all registry key exclusions from a device that is protected by Unified Write Filter (UWF).
 
@@ -28,8 +28,7 @@ UInt32 GetExclusions(
 
 ## Parameters
 
-<a href="" id="excludedkeys"></a>*ExcludedKeys*
-\[out\] An array of [UWF\_ExcludedRegistryKey](uwf-excludedregistrykey.md) objects that represent the registry keys excluded from UWF filtering.
+**ExcludedKeys**</br>\[out\] An array of [UWF_ExcludedRegistryKey](uwf-excludedregistrykey.md) objects that represent the registry keys excluded from UWF filtering.
 
 ## Return Value
 
@@ -43,13 +42,13 @@ If this method does not find any registry keys in the registry key exclusion lis
 
 | Windows Edition       | Supported |
 |:----------------------|:----------|
-| Windows 10 Home       | No        |
-| Windows 10 Pro        | No        |
-| Windows 10 Enterprise | Yes       |
-| Windows 10 Education  | Yes       |
+| Windows 10/11 Home       | No        |
+| Windows 10/11 Pro        | No        |
+| Windows 10/11 Enterprise | Yes       |
+| Windows 10/11 Education  | Yes       |
+| Windows 10/11 IoT Enterprise | Yes |
 
 ## Related topics
 
-[UWF\_RegistryFilter](uwf-registryfilter.md)
-
-[Unified Write Filter](unified-write-filter.md)
+- [UWF_RegistryFilter](uwf-registryfilter.md)
+- [Unified Write Filter](unified-write-filter.md)

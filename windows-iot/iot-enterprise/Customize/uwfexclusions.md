@@ -20,31 +20,31 @@ You can add specific files or folders on a protected volume to a file exclusion 
 
 You must use an administrator account to add or remove file or folder exclusions during run time, and you must restart the device for new exclusions to take effect.
 
-> [!Important]
+> [!IMPORTANT]
 > Don't add exclusions for the following:
 >
-> * `\Windows\System32\config\DEFAULT`
-> * `\Windows\System32\config\SAM`
-> * `\Windows\System32\config\SECURITY`
-> * `\Windows\System32\config\SOFTWARE`
-> * `\Windows\System32\config\SYSTEM`
-> * `\Users\<User Name>\NTUSER.DAT`
-> * `\Windows\BOOTSTAT.DAT`
-> * `<System Drive>\EFI\Microsoft\Boot\BOOTSTAT.DAT`
-> * `<System Drive>\Boot\BOOTSTAT.DAT`
+> - \Windows\System32\config\DEFAULT
+> - \Windows\System32\config\SAM
+> - \Windows\System32\config\SECURITY
+> - \Windows\System32\config\SOFTWARE
+> - \Windows\System32\config\SYSTEM
+> - \Users\<User Name>\NTUSER.DAT
+> - \Windows\BOOTSTAT.DAT
+> - %System Drive%\EFI\Microsoft\Boot\BOOTSTAT.DAT
+> - %System Drive%\Boot\BOOTSTAT.DAT
 >
 > Also, don't add exclusions for the following:
 >
-> * The volume root. For example, C: or D:.
-> * The `\Windows` folder on the system volume.
-> * The `\Windows\System32` folder on the system volume.
-> * The `\Windows\System32\Drivers` folder on the system volume.
-> * Paging files.
+> - The volume root. For example, C: or D:.
+> - The `\Windows` folder on the system volume.
+> - The `\Windows\System32` folder on the system volume.
+> - The `\Windows\System32\Drivers` folder on the system volume.
+> - Paging files.
 >
-> Adding an exclusion for any of these items is unsupported and may lead to unpredictable results. 
+> Adding an exclusion for any of these items is unsupported and may lead to unpredictable results.
 > It's OK to exclude subdirectories and files under these locations.
 >
-> Folders need to exist prior to adding them to the exclusion list. 
+> Folders need to exist prior to adding them to the exclusion list.
 >
 
 You cannot rename or move a file or folder from a protected location to an unprotected location, or vice versa. When write filters are active and you attempt to delete an excluded file or folder in Windows Explorer, the system attempts to move the file or folder to the Recycle Bin. This causes an error, because you cannot move files that are not filtered to a location that is write filter protected.
@@ -75,23 +75,22 @@ You must use an administrator account to add or remove registry exclusions durin
 
 If you exclude a registry key, all its subkeys are also excluded from filtering. You can exclude registry subkeys only under the following registry keys:
 
-* `HKEY\LOCAL\MACHINE\BCD00000000`
-* `HKEY\LOCAL\MACHINE\SYSTEM`
-* `HKEY\LOCAL\MACHINE\SOFTWARE`
-* `HKEY\LOCAL\MACHINE\SAM`
-* `HKEY\LOCAL\MACHINE\SECURITY`
-* `HKEY\LOCAL\MACHINE\COMPONENTS`
+- `HKEY\LOCAL\MACHINE\BCD00000000`
+- `HKEY\LOCAL\MACHINE\SYSTEM`
+- `HKEY\LOCAL\MACHINE\SOFTWARE`
+- `HKEY\LOCAL\MACHINE\SAM`
+- `HKEY\LOCAL\MACHINE\SECURITY`
+- `HKEY\LOCAL\MACHINE\COMPONENTS`
 
-> [!Important]
+> [!IMPORTANT]
 > Don't add exclusions for the following:
 >
-> * `HKLM\SECURITY\Policy\Secrets\$MACHINE.ACC`
+> - `HKLM\SECURITY\Policy\Secrets\$MACHINE.ACC`
 
-> [!Note]
+> [!NOTE]
 > UWF automatically excludes certain registry keys from being filtered. These registry keys are primarily related to UWF configuration settings and cannot be removed from the exclusion list.
 
 For more information about common registry exclusions, see [Common write filter exclusions](uwfexclusions.md).
-
 
 ## Common write-filter exclusions
 
@@ -99,7 +98,7 @@ Some services and features write information to a device’s persistent volume, 
 
 This topic lists registry and file exclusions that can help enable some common services and features to work correctly when write filters are enabled.
 
-If you are running any antivirus or security software in addition to UWF, please consult with your antivirus vendor for advice on how to configure their solution in a UWF environment. You may need to add a UWF exclusion for the signature or update folder. 
+If you are running any antivirus or security software in addition to UWF, please consult with your antivirus vendor for advice on how to configure their solution in a UWF environment. You may need to add a UWF exclusion for the signature or update folder.
 
 ### Customer Experience Improvement Program (CEIP)
 
@@ -117,11 +116,9 @@ Add file and folder exclusions as required for any .sqm files located on your de
 
 Add registry exclusions for the following registry keys:
 
-* **HKEY\_LOCAL\_MACHINE\\Software\\Policies\\Microsoft\\SQMClient\\Windows\\CEIPEnable**
-
-* **HKEY\_LOCAL\_MACHINE\\Software\\Microsoft\\SQMClient\\Windows\\CEIPEnable**
-
-* **HKEY\_LOCAL\_MACHINE\\Software\\Microsoft\\SQMClient\\UploadDisableFlag**
+- `HKEY_LOCAL_MACHINE\Software\Policies\Microsoft\SQMClient\Windows\CEIPEnable`
+- `HKEY_LOCAL_MACHINE\Software\Microsoft\SQMClient\Windows\CEIPEnable`
+- `HKEY_LOCAL_MACHINE\Software\Microsoft\SQMClient\UploadDisableFlag`
 
 ### Background Intelligent Transfer Service (BITS)
 
@@ -129,11 +126,11 @@ Background Intelligent Transfer Service (BITS) downloads or uploads files betwee
 
 Add file exclusions for the following folders and files:
 
-* *% ALLUSERSPROFILE%*\\Microsoft\\Network\\Downloader
+- `%ALLUSERSPROFILE%*\Microsoft\Network\Downloader`
 
 Add registry exclusions for the following registry keys:
 
-* **HKEY\_LOCAL\_MACHINE\\Software\\Microsoft\\Windows\\CurrentVersion\\BITS\\StateIndex**
+- `HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\BITS\StateIndex`
 
 ### Windows Explorer
 
@@ -147,47 +144,43 @@ When you use write filters on your device, you can add file and registry exclusi
 
 Client Group Policy Object (GPO) registry keys:
 
-* Wireless: **HKEY\_LOCAL\_MACHINE\\SOFTWARE\\Policies\\Microsoft\\Windows\\Wireless\\GPTWirelessPolicy**
-* Wired: **HKEY\_LOCAL\_MACHINE\\SOFTWARE\\Policies\\Microsoft\\Windows\\WiredL2\\GP\_Policy**
+- Wireless: `HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\Wireless\GPTWirelessPolicy`
+- Wired: `HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\WiredL2\GP_Policy`
 
 GPO policy files:
 
-* Wireless: **C:\\Windows\\wlansvc\\Policies**
-* Wired: **C:\\Windows\\dot2svc\\Policies**
+- Wireless: `C:\Windows\wlansvc\Policies`
+- Wired: `C:\Windows\dot2svc\Policies`
 
 Interface profile registry keys:
 
-* Wireless: **HKEY\_LOCAL\_MACHINE\\SOFTWARE\\Microsoft\\wlansvc**
-* Wired: **HKEY\_LOCAL\_MACHINE\\SOFTWARE\\Microsoft\\dot3svc**
+- Wireless: `HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\wlansvc`
+- Wired: `HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\dot3svc`
 
 Interface policy file:
 
-* Wireless: **C:\\ProgramData\\Microsoft\\wlansvc\\Profiles\\Interfaces\\{***&lt;Interface GUID&gt;***}\\{***&lt;Profile GUID&gt;***}.xml**
-* Wired: **C:\\ProgramData\\Microsoft\\dot3svc\\Profiles\\Interfaces\\{***&lt;Interface GUID&gt;***}\\{***&lt;Profile GUID&gt;***}.xml**
+- Wireless: `C:\ProgramData\Microsoft\wlansvc\Profiles\Interfaces\{***&lt;Interface GUID&gt;***}\{***&lt;Profile GUID&gt;***}.xml`
+- Wired: `C:\ProgramData\Microsoft\dot3svc\Profiles\Interfaces\{***&lt;Interface GUID&gt;***}\{***&lt;Profile GUID&gt;***}.xml`
 
 Services registry keys:
 
-* Wireless: **HKEY\_LOCAL\_MACHINE\\SYSTEM\\CurrentControlSet\\services\\Wlansvc**
-* Wireless: **HKEY\_LOCAL\_MACHINE\\SYSTEM\\CurrentControlSet\\services\\WwanSvc**
-* Wired: **HKEY\_LOCAL\_MACHINE\\SYSTEM\\CurrentControlSet\\services\\dot3svc**
+- Wireless: `HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\services\Wlansvc`
+- Wireless: `HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\services\WwanSvc`
+- Wired: `HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\services\dot3svc`
 
-> [!Important]
-> Folders need to exist prior to adding them to the exclusion list. 
+> [!IMPORTANT]
+> Folders need to exist prior to adding them to the exclusion list.
 >
 
 ### Daylight saving time (DST)
 
-
 You can add the following registry exclusions to persist daylight saving time (DST) settings on your device.
 
-* **HKEY\_LOCAL\_MACHINE\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\\Time Zones**
-
-* **HKEY\_LOCAL\_MACHINE\\SYSTEM\\CurrentControlSet\\Control\\TimeZoneInformation**
+- `HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Time Zones`
+- `HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\TimeZoneInformation`
 
 ## Related topics
 
-[Unified Write Filter](unified-write-filter.md)
-
-[Service UWF-protected devices](service-uwf-protected-devices.md)
-
-[Unified Write Filter WMI provider reference](uwf-wmi-provider-reference.md)
+- [Unified Write Filter](unified-write-filter.md)
+- [Service UWF-protected devices](service-uwf-protected-devices.md)
+- [Unified Write Filter WMI provider reference](uwf-wmi-provider-reference.md)

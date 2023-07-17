@@ -1,6 +1,6 @@
 ---
-title: UWF\_Volume.SetBindByDriveLetter
-description: UWF\_Volume.SetBindByDriveLetter
+title: UWF_Volume.SetBindByDriveLetter
+description: UWF_Volume.SetBindByDriveLetter
 MSHAttr:
 - 'PreferredSiteName:MSDN'
 - 'PreferredLib:/library/windows/hardware'
@@ -14,7 +14,7 @@ ms.topic: article
 
 
 ---
-# UWF\_Volume.SetBindByDriveLetter
+# UWF_Volume.SetBindByDriveLetter
 
 Sets the **BindByDriveLetter** property, which indicates if the Unified Write Filter (UWF) volume is bound to the physical volume by drive letter or volume name.
 
@@ -28,31 +28,12 @@ UInt32 SetBindByDriveLetter(
 
 ## Parameters
 
-<a href="" id="bbindbydriveletter"></a>*bBindByDriveLetter*
-A Boolean value that indicates the type of binding to use. The **BindByDriveLetter** property is set to this value.
+**bBindByDriveLetter**</br>A Boolean value that indicates the type of binding to use. The **BindByDriveLetter** property is set to this value.
 
-<table>
-<colgroup>
-<col width="50%" />
-<col width="50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Value</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p><strong>true</strong></p></td>
-<td><p>Binds the UWF volume by the drive letter (<em>loose binding</em>).</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>false</strong></p></td>
-<td><p>Binds the UWF volume by the volume name (<em>tight binding</em>).</p></td>
-</tr>
-</tbody>
-</table>
+| Value  | Description  |
+|:------:|--------------|
+| **true**  | Binds the UWF volume by the drive letter (*loose binding*). |
+| **false** | Binds the UWF volume by the volume name (*tight binding*). |
 
 ## Return Value
 
@@ -66,13 +47,13 @@ Binding by volume name is considered more reliable than binding by drive letter,
 
 | Windows Edition       | Supported |
 |:----------------------|:----------|
-| Windows 10 Home       | No        |
-| Windows 10 Pro        | No        |
-| Windows 10 Enterprise | Yes       |
-| Windows 10 Education  | Yes       |
+| Windows 10/11 Home       | No        |
+| Windows 10/11 Pro        | No        |
+| Windows 10/11 Enterprise | Yes       |
+| Windows 10/11 Education  | Yes       |
+| Windows 10/11 IoT Enterprise | Yes |
 
 ## Related topics
 
-[UWF\_Volume](uwf-volume.md)
-
-[Unified Write Filter](unified-write-filter.md)
+- [UWF_Volume](uwf-volume.md)
+- [Unified Write Filter](unified-write-filter.md)

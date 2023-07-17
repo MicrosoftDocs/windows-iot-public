@@ -1,6 +1,6 @@
 ---
-title: WEKF\_PredefinedKey.Disable
-description: WEKF\_PredefinedKey.Disable
+title: WEKF_PredefinedKey.Disable
+description: WEKF_PredefinedKey.Disable
 MSHAttr:
 - 'PreferredSiteName:MSDN'
 - 'PreferredLib:/library/windows/hardware'
@@ -14,7 +14,7 @@ ms.topic: article
 
 
 ---
-# WEKF\_PredefinedKey.Disable
+# WEKF_PredefinedKey.Disable
 
 Unblocks the specified predefined key combination.
 
@@ -28,8 +28,7 @@ Unblocks the specified predefined key combination.
 
 ## Parameters
 
-<a href="" id="predefinedkey"></a>*PredefinedKey*
-\[in\] The predefined key combination to unblock. For a list of predefined keys, see [Predefined key combinations](predefined-key-combinations.md).
+**PredefinedKey**</br>\[in\] The predefined key combination to unblock. For a list of predefined keys, see [Predefined key combinations](predefined-key-combinations.md).
 
 ## Return Value
 
@@ -46,6 +45,5 @@ Returns an HRESULT value that indicates [WMI Non-error constant](/windows/win32/
 
 ## Related topics
 
-[WEKF\_PredefinedKey](wekf-predefinedkey.md)
-
-[Keyboard Filter](keyboardfilter.md)
+- [WEKF_PredefinedKey](wekf-predefinedkey.md)
+- [Keyboard Filter](keyboardfilter.md)

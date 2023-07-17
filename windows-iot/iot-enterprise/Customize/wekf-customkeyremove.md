@@ -1,6 +1,6 @@
 ---
-title: WEKF\_CustomKey.Remove
-description: WEKF\_CustomKey.Remove
+title: WEKF_CustomKey.Remove
+description: WEKF_CustomKey.Remove
 MSHAttr:
 - 'PreferredSiteName:MSDN'
 - 'PreferredLib:/library/windows/hardware'
@@ -14,7 +14,7 @@ ms.author: twarwick
 ms.prod: windows-iot
 ms.technology: iot
 ---
-# WEKF\_CustomKey.Remove
+# WEKF_CustomKey.Remove
 
 Removes a custom key combination, causing Keyboard Filter to stop blocking the removed key combination.
 
@@ -28,8 +28,7 @@ Removes a custom key combination, causing Keyboard Filter to stop blocking the r
 
 ## Parameters
 
-<a href="" id="customkey"></a>*CustomKey*
-\[in\] The custom key combination to remove.
+**CustomKey**</br>\[in\] The custom key combination to remove.
 
 ## Return Value
 
@@ -37,7 +36,7 @@ Returns an HRESULT value that indicates [WMI status](/windows/win32/wmisdk/wmi-n
 
 ## Remarks
 
-**WEKF\_CustomKey.Remove** removes an existing **WEKF\_CustomKey** object. If the object does not exist, **WEKF\_CustomKey.Remove** returns an error with the value 0x8007007B.
+**WEKF_CustomKey.Remove** removes an existing **WEKF_CustomKey** object. If the object does not exist, **WEKF_CustomKey.Remove** returns an error with the value 0x8007007B.
 
 Because this method is static, you cannot call it on an object instance, but must instead call it at the class level.
 
@@ -99,6 +98,5 @@ foreach ($objCustomKey in $objDisabledCustomKeys) {
 
 ## Related topics
 
-[WEKF\_CustomKey](wekf-customkey.md)
-
-[Keyboard Filter](keyboardfilter.md)
+- [WEKF_CustomKey](wekf-customkey.md)
+- [Keyboard Filter](keyboardfilter.md)

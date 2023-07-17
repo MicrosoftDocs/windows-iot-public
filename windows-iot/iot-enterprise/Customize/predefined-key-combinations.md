@@ -16,11 +16,11 @@ ms.topic: article
 ---
 # Predefined key combinations
 
-This topic lists a set of key combinations that are predefined by a keyboard filter.  You can list the value of the WEKF\_PredefinedKey.Id to get a complete list of key combinations defined by a keyboard filter. 
+This topic lists a set of key combinations that are predefined by a keyboard filter.  You can list the value of the WEKF_PredefinedKey.Id to get a complete list of key combinations defined by a keyboard filter.
 
-You can use the values in the WEKF\_PredefinedKey.Id column to configure the Windows Management Instrumentation (WMI) class [WEKF\_PredefinedKey](wekf-predefinedkey.md).
+You can use the values in the WEKF_PredefinedKey.Id column to configure the Windows Management Instrumentation (WMI) class [WEKF_PredefinedKey](wekf-predefinedkey.md).
 
-## <a href="" id="accessibility"></a>Accessibility keys
+## Accessibility keys
 
 The following table contains predefined key combinations for accessibility:
 
@@ -30,8 +30,7 @@ The following table contains predefined key combinations for accessibility:
 | Left Alt + Left Shift + Num Lock     | **LShift+LAlt+NumLock**   | Open Mouse Keys.            |
 | Windows logo key + U                 | **Win+U**                 | Open Ease of Access Center. |
 
-
-## <a href="" id="application"></a>Application keys
+## Application keys
 
 The following table contains predefined key combinations for controlling application state:
 
@@ -41,7 +40,7 @@ The following table contains predefined key combinations for controlling applica
 | Ctrl + F4             | **Ctrl+F4**           | Close window.      |
 | Windows logo key + F1 | **Win+F1**            | Open Windows Help. |
 
-## <a href="" id="shell"></a>Shell keys
+## Shell keys
 
 The following table contains predefined key combinations for general UI control:
 
@@ -91,7 +90,7 @@ The following table contains predefined key combinations for general UI control:
 | Windows logo key + Comma               | **Win+,**             | Peek at the desktop.                                                                                                                 |
 | Windows logo key + V                   | **Win+V**             | Cycle through toasts in reverse order.                                                                                               |
 
-## <a href="" id="modifier"></a>Modifier keys
+## Modifier keys
 
 The following table contains predefined key combinations for modifier keys (such as Shift and Ctrl):
 
@@ -103,7 +102,7 @@ The following table contains predefined key combinations for modifier keys (such
 | Shift            | **Shift**             | Both Shift keys        |
 | Windows logo key | **Windows**           | Both Windows logo keys |
 
-## <a href="" id="security"></a>Security keys
+## Security keys
 
 The following table contains predefined key combinations for OS security:
 
@@ -113,7 +112,7 @@ The following table contains predefined key combinations for OS security:
 | Ctrl + Shift + Esc     | **Shift+Ctrl+Esc**    | Open Task Manager.                |
 | Windows logo key + L   | **Win+L**             | Lock the device.                  |
 
-## <a href="" id="exshell"></a>Extended shell keys
+## Extended shell keys
 
 The following table contains predefined key combinations for extended shell functions (such as automatically opening certain apps):
 
@@ -124,7 +123,7 @@ The following table contains predefined key combinations for extended shell func
 | LaunchApp1          | **LaunchApp1**        | Start Application 1 key |
 | LaunchApp2          | **LaunchApp2**        | Start Application 2 key |
 
-## <a href="" id="browser"></a>Browser keys
+## Browser keys
 
 The following table contains predefined key combinations for controlling the browser:
 
@@ -138,7 +137,7 @@ The following table contains predefined key combinations for controlling the bro
 | BrowserFavorites | **BrowserFavorites**  | Browser Favorites key      |
 | BrowserHome      | **BrowserHome**       | Browser Start and Home key |
 
-## <a href="" id="media"></a>Media keys
+## Media keys
 
 The following table contains predefined key combinations for controlling media playback:
 
@@ -152,7 +151,7 @@ The following table contains predefined key combinations for controlling media p
 | MediaStop       | **MediaStop**         | Stop Media key       |
 | MediaPlayPause  | **MediaPlayPause**    | Play/Pause Media key |
 
-## <a href="" id="surface"></a>Microsoft Surface keyboard keys
+## Microsoft Surface keyboard keys
 
 The following table contains predefined key combinations for Microsoft Surface devices:
 

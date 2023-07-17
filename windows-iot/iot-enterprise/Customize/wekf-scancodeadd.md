@@ -1,6 +1,6 @@
 ---
-title: WEKF\_Scancode.Add
-description: WEKF\_Scancode.Add
+title: WEKF_Scancode.Add
+description: WEKF_Scancode.Add
 MSHAttr:
 - 'PreferredSiteName:MSDN'
 - 'PreferredLib:/library/windows/hardware'
@@ -14,7 +14,7 @@ ms.topic: article
 
 
 ---
-# WEKF\_Scancode.Add
+# WEKF_Scancode.Add
 
 This method adds a new custom scan code combination and enables Keyboard Filter to block the new combination.
 
@@ -29,11 +29,9 @@ This method adds a new custom scan code combination and enables Keyboard Filter 
 
 ## Parameters
 
-<a href="" id="modifers"></a>*Modifers*
-The modifier keys that are part of the key combination to block.
+**Modifers**</br>The modifier keys that are part of the key combination to block.
 
-<a href="" id="scancode"></a>*Scancode*
-The hardware scan code of the key to block.
+**Scancode**</br>The hardware scan code of the key to block.
 
 ## Return Value
 
@@ -41,9 +39,9 @@ Returns an HRESULT value that indicates [WMI non-error constant](/windows/win32/
 
 ## Remarks
 
-**WEKF\_Scancode.Add** creates a new **WEKF\_Scancode** object and sets the **Enabled** property of the new object to **true**.
+**WEKF_Scancode.Add** creates a new **WEKF_Scancode** object and sets the **Enabled** property of the new object to **true**.
 
-If a **WEKF\_Scancode** object already exists with same *Modifiers* and *Scancode* properties, then **WEKF\_Scancode.Add** returns an error code and does not create a new object or modify any properties of the existing object. If the existing **WEKF\_Scancode** object has the **Enabled** property set to **false**, Keyboard Filter does not block the scan code.
+If a **WEKF_Scancode** object already exists with same *Modifiers* and *Scancode* properties, then **WEKF_Scancode.Add** returns an error code and does not create a new object or modify any properties of the existing object. If the existing **WEKF_Scancode** object has the **Enabled** property set to **false**, Keyboard Filter does not block the scan code.
 
 ## Requirements
 
@@ -56,6 +54,5 @@ If a **WEKF\_Scancode** object already exists with same *Modifiers* and *Scancod
 
 ## Related topics
 
-[WEKF\_Scancode](wekf-scancode.md)
-
-[Keyboard Filter](keyboardfilter.md)
+- [WEKF_Scancode](wekf-scancode.md)
+- [Keyboard Filter](keyboardfilter.md)

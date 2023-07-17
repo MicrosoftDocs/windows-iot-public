@@ -1,6 +1,6 @@
 ---
-title: UWF\_Volume
-description: UWF\_Volume
+title: UWF_Volume
+description: UWF_Volume
 MSHAttr:
 - 'PreferredSiteName:MSDN'
 - 'PreferredLib:/library/windows/hardware'
@@ -14,7 +14,7 @@ ms.topic: article
 
 
 ---
-# UWF\_Volume
+# UWF_Volume
 
 This class manages a volume protected by Unified Write Filter (UWF).
 
@@ -47,122 +47,31 @@ class UWF_Volume {
 
 The following tables list the methods and properties that belong to this class.
 
-### <a href="" id="mth"></a>Methods
+### Methods
 
-<table>
-<colgroup>
-<col width="50%" />
-<col width="50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Method</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p><a href="uwf-volumeaddexclusion.md" data-raw-source="[UWF_Volume.AddExclusion](uwf-volumeaddexclusion.md)">UWF_Volume.AddExclusion</a></p></td>
-<td><p>Adds a file or folder to the file exclusion list for a volume protected byUWF.</p></td>
-</tr>
-<tr class="even">
-<td><p><a href="uwf-volumecommitfile.md" data-raw-source="[UWF_Volume.CommitFile](uwf-volumecommitfile.md)">UWF_Volume.CommitFile</a></p></td>
-<td><p>Commits changes from the overlay to the physical volume for a specified file on a volume protected by Unified Write Filter (UWF).</p></td>
-</tr>
-<tr class="odd">
-<td><p><a href="uwf-volumecommitfiledeletion.md" data-raw-source="[UWF_Volume.CommitFileDeletion](uwf-volumecommitfiledeletion.md)">UWF_Volume.CommitFileDeletion</a></p></td>
-<td><p>Deletes a protected file from the volume, and commits the deletion to the physical volume.</p></td>
-</tr>
-<tr class="even">
-<td><p><a href="uwf-volumefindexclusion.md" data-raw-source="[UWF_Volume.FindExclusion](uwf-volumefindexclusion.md)">UWF_Volume.FindExclusion</a></p></td>
-<td><p>Determines whether a specific file or folder is in the exclusion list for a volume protected byUWF.</p></td>
-</tr>
-<tr class="odd">
-<td><p><a href="uwf-volumegetexclusions.md" data-raw-source="[UWF_Volume.GetExclusions](uwf-volumegetexclusions.md)">UWF_Volume.GetExclusions</a></p></td>
-<td><p>Retrieves a list of all file exclusions for a volume protected byUWF.</p></td>
-</tr>
-<tr class="even">
-<td><p><a href="uwf-volumeprotect.md" data-raw-source="[UWF_Volume.Protect](uwf-volumeprotect.md)">UWF_Volume.Protect</a></p></td>
-<td><p>Protects the volume after the next system restart, if UWF is enabled after the restart.</p></td>
-</tr>
-<tr class="odd">
-<td><p><a href="uwf-volumeremoveallexclusions.md" data-raw-source="[UWF_Volume.RemoveAllExclusions](uwf-volumeremoveallexclusions.md)">UWF_Volume.RemoveAllExclusions</a></p></td>
-<td><p>Removes all files and folders from the file exclusion list for a volume protected byUWF.</p></td>
-</tr>
-<tr class="even">
-<td><p><a href="uwf-volumeremoveexclusion.md" data-raw-source="[UWF_Volume.RemoveExclusion](uwf-volumeremoveexclusion.md)">UWF_Volume.RemoveExclusion</a></p></td>
-<td><p>Removes a specific file or folder from the file exclusion list for a volume protected byUWF.</p></td>
-</tr>
-<tr class="odd">
-<td><p><a href="uwf-volumesetbindbydriveletter.md" data-raw-source="[UWF_Volume.SetBindByDriveLetter](uwf-volumesetbindbydriveletter.md)">UWF_Volume.SetBindByDriveLetter</a></p></td>
-<td><p>Sets the <strong>BindByDriveLetter</strong> property, which indicates whether the UWF volume is bound to the physical volume by drive letter or by volume name.</p></td>
-</tr>
-<tr class="even">
-<td><p><a href="uwf-volumeunprotect.md" data-raw-source="[UWF_Volume.Unprotect](uwf-volumeunprotect.md)">UWF_Volume.Unprotect</a></p></td>
-<td><p>Disables UWF protection of the volume after the next system restart.</p></td>
-</tr>
-</tbody>
-</table>
+| Method | Description |
+|--------|-------------|
+| [UWF_Volume.AddExclusion](uwf-volumeaddexclusion.md) | Adds a file or folder to the file exclusion list for a volume protected byUWF. |
+| [UWF_Volume.CommitFile](uwf-volumecommitfile.md) | Commits changes from the overlay to the physical volume for a specified file on a volume protected by Unified Write Filter (UWF). |
+| [UWF_Volume.CommitFileDeletion](uwf-volumecommitfiledeletion.md) | Deletes a protected file from the volume, and commits the deletion to the physical volume. |
+| [UWF_Volume.FindExclusion](uwf-volumefindexclusion.md) | Determines whether a specific file or folder is in the exclusion list for a volume protected byUWF. |
+| [UWF_Volume.GetExclusions](uwf-volumegetexclusions.md) | Retrieves a list of all file exclusions for a volume protected byUWF. |
+| [UWF_Volume.Protect](uwf-volumeprotect.md) | Protects the volume after the next system restart, if UWF is enabled after the restart. |
+| [UWF_Volume.RemoveAllExclusions](uwf-volumeremoveallexclusions.md) | Removes all files and folders from the file exclusion list for a volume protected by UWF. |
+| [UWF_Volume.RemoveExclusion](uwf-volumeremoveexclusion.md) | Removes a specific file or folder from the file exclusion list for a volume protected byUWF. |
+| [UWF_Volume.SetBindByDriveLetter](uwf-volumesetbindbydriveletter.md) | Sets the **BindByDriveLetter** property, which indicates whether the UWF volume is bound to the physical volume by drive letter or by volume name. |
+| [UWF_Volume.Unprotect](uwf-volumeunprotect.md) | Disables UWF protection of the volume after the next system restart. |
 
-### <a href="" id="pro"></a>Properties
+### Properties
 
-<table>
-<colgroup>
-<col width="25%" />
-<col width="25%" />
-<col width="25%" />
-<col width="25%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Property</th>
-<th>Data type</th>
-<th>Qualifiers</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p><strong>BindByDriveLetter</strong></p></td>
-<td><p>Boolean</p></td>
-<td><p>[read, write]</p></td>
-<td><p>Indicates the type of binding that the volume uses.</p>
-<p>Set to <strong>True</strong> to bind the volume by <strong>DriveLetter</strong>(loose binding); set to <strong>False</strong> to bind the volume by <strong>VolumeName</strong> (tight binding).</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>CommitPending</strong></p></td>
-<td><p>Boolean</p></td>
-<td><p>[read]</p></td>
-<td><p>Reserved for Microsoft use.</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>CurrentSession</strong></p></td>
-<td><p>Boolean</p></td>
-<td><p>[key, read]</p></td>
-<td><p>Indicates which session the object contains settings for.</p>
-<p><strong>True</strong> if settings are for the current session; <strong>False</strong> if settings are for the next session that follows a restart.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>DriveLetter</strong></p></td>
-<td><p>string</p></td>
-<td><p>[key, read]</p></td>
-<td><p>The drive letter of the volume. If the volume does not have a drive letter, this value is <strong>NULL</strong>.</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>Protected</strong></p></td>
-<td><p>Boolean</p></td>
-<td><p>[read, write]</p></td>
-<td><p>If <strong>CurrentSession</strong> is <strong>true</strong>, indicates whether the volume is currently protected by UWF.</p>
-<p>If <strong>CurrentSession</strong> is <strong>false</strong>, indicates whether the volume is protected in the next session after the device restarts.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>VolumeName</strong></p></td>
-<td><p>string</p></td>
-<td><p>[key, read]</p></td>
-<td><p>The unique identifier of the volume on the current system. The <strong>VolumeName</strong> is the same as the <strong>DeviceID</strong> property of the <a href="/previous-versions/windows/desktop/legacy/aa394515(v=vs.85)" data-raw-source="[Win32_Volume](/previous-versions/windows/desktop/legacy/aa394515(v=vs.85))">Win32_Volume</a> class for the volume.</p></td>
-</tr>
-</tbody>
-</table>
+| Property | Data&nbsp;type | Qualifiers | Description |
+|----------|----------------|------------|-------------|
+| **BindByDriveLetter** | Boolean | [read, write] | Indicates the type of binding that the volume uses.</br>- **True** to bind the volume by **DriveLetter**(loose binding)</br>- **False** to bind the volume by **VolumeName** (tight binding). |
+| **CommitPending** | Boolean | [read] | Reserved for Microsoft use.|
+| **CurrentSession** | Boolean | [key, read] | Indicates which session the object contains settings for.</br>- **True** if settings are for the current session</br>- **False** if settings are for the next session that follows a restart. |
+| **DriveLetter** | string | [key, read] | The drive letter of the volume. If the volume does not have a drive letter, this value is **NULL**. |
+| **Protected** | Boolean | [read, write] | If **CurrentSession** is **true**, indicates whether the volume is currently protected by UWF.</br>If **CurrentSession** is **false**, indicates whether the volume is protected in the next session after the device restarts. |
+| **VolumeName** | string | [key, read] | The unique identifier of the volume on the current system. The **VolumeName** is the same as the **DeviceID** property of the [Win32_Volume](/previous-versions/windows/desktop/legacy/aa394515(v=vs.85)) class for the volume. |
 
 ### Remarks
 
@@ -400,11 +309,12 @@ Get-FileExclusions "C:"
 
 | Windows Edition       | Supported |
 |:----------------------|:----------|
-| Windows 10 Home       | No        |
-| Windows 10 Pro        | No        |
-| Windows 10 Enterprise | Yes       |
-| Windows 10 Education  | Yes       |
+| Windows 10/11 Home       | No        |
+| Windows 10/11 Pro        | No        |
+| Windows 10/11 Enterprise | Yes       |
+| Windows 10/11 Education  | Yes       |
+| Windows 10/11 IoT Enterprise | Yes |
 
 ## Related topics
 
-[Unified Write Filter](unified-write-filter.md)
+- [Unified Write Filter](unified-write-filter.md)

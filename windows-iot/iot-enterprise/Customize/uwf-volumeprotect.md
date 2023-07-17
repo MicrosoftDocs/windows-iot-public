@@ -1,6 +1,6 @@
 ---
-title: UWF\_Volume.Protect
-description: UWF\_Volume.Protect
+title: UWF_Volume.Protect
+description: UWF_Volume.Protect
 MSHAttr:
 - 'PreferredSiteName:MSDN'
 - 'PreferredLib:/library/windows/hardware'
@@ -14,7 +14,7 @@ ms.topic: article
 
 
 ---
-# UWF\_Volume.Protect
+# UWF_Volume.Protect
 
 Enables Unified Write Filter (UWF) to protect the volume after the next system restart, if UWF is enabled after the restart.
 
@@ -42,13 +42,13 @@ This method does not enable UWF if it is disabled; you must explicitly enable UW
 
 | Windows Edition       | Supported |
 |:----------------------|:----------|
-| Windows 10 Home       | No        |
-| Windows 10 Pro        | No        |
-| Windows 10 Enterprise | Yes       |
-| Windows 10 Education  | Yes       |
+| Windows 10/11 Home       | No        |
+| Windows 10/11 Pro        | No        |
+| Windows 10/11 Enterprise | Yes       |
+| Windows 10/11 Education  | Yes       |
+| Windows 10/11 IoT Enterprise | Yes |
 
 ## Related topics
 
-[UWF\_Volume](uwf-volume.md)
-
-[Unified Write Filter](unified-write-filter.md)
+- [UWF_Volume](uwf-volume.md)
+- [Unified Write Filter](unified-write-filter.md)

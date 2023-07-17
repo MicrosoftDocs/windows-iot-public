@@ -1,6 +1,6 @@
 ---
-title: UWF\_Servicing.Disable
-description: UWF\_Servicing.Disable
+title: UWF_Servicing.Disable
+description: UWF_Servicing.Disable
 MSHAttr:
 - 'PreferredSiteName:MSDN'
 - 'PreferredLib:/library/windows/hardware'
@@ -14,7 +14,7 @@ ms.topic: article
 
 
 ---
-# UWF\_Servicing.Disable
+# UWF_Servicing.Disable
 
 Disables Unified Write Filter (UWF) servicing mode.
 
@@ -40,13 +40,13 @@ When this method is called, the system will leave servicing mode in the next ses
 
 | Windows Edition       | Supported |
 |:----------------------|:----------|
-| Windows 10 Home       | No        |
-| Windows 10 Pro        | No        |
-| Windows 10 Enterprise | Yes       |
-| Windows 10 Education  | Yes       |
+| Windows 10/11 Home       | No        |
+| Windows 10/11 Pro        | No        |
+| Windows 10/11 Enterprise | Yes       |
+| Windows 10/11 Education  | Yes       |
+| Windows 10/11 IoT Enterprise | Yes |
 
 ## Related topics
 
-[UWF\_Servicing](uwf-servicing.md)
-
-[Unified Write Filter](unified-write-filter.md)
+- [UWF_Servicing](uwf-servicing.md)
+- [Unified Write Filter](unified-write-filter.md)

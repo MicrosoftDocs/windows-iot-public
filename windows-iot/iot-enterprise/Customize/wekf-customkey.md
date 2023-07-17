@@ -1,6 +1,6 @@
 ---
-title: WEKF\_CustomKey
-description: WEKF\_CustomKey
+title: WEKF_CustomKey
+description: WEKF_CustomKey
 MSHAttr:
 - 'PreferredSiteName:MSDN'
 - 'PreferredLib:/library/windows/hardware'
@@ -14,7 +14,7 @@ ms.topic: article
 
 
 ---
-# WEKF\_CustomKey
+# WEKF_CustomKey
 
 Adds or removes custom-defined key combinations.
 
@@ -38,86 +38,19 @@ class WEKF_CustomKey {
 
 The following tables list any methods and properties that belong to this class.
 
-### <a href="" id="mth"></a>Methods
+### Methods
 
-<table>
-<colgroup>
-<col width="50%" />
-<col width="50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Methods</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p><a href="wekf-customkeyadd.md" data-raw-source="[WEKF_CustomKey.Add](wekf-customkeyadd.md)">WEKF_CustomKey.Add</a></p></td>
-<td><p>Creates a new custom key combination and enables Keyboard Filter to block the new key combination.</p></td>
-</tr>
-<tr class="even">
-<td><p><a href="wekf-customkeyremove.md" data-raw-source="[WEKF_CustomKey.Remove](wekf-customkeyremove.md)">WEKF_CustomKey.Remove</a></p></td>
-<td><p>Removes the specified custom key combination. Keyboard Filter stops blocking the key combination that was removed.</p></td>
-</tr>
-</tbody>
-</table>
+| Methods | Description |
+|---------|-------------|
+| [WEKF_CustomKey.Add](wekf-customkeyadd.md) | Creates a new custom key combination and enables Keyboard Filter to block the new key combination. |
+| [WEKF_CustomKey.Remove](wekf-customkeyremove.md) | Removes the specified custom key combination. Keyboard Filter stops blocking the key combination that was removed. |
 
-### <a href="" id="pro"></a>Properties
+### Properties
 
-<table>
-<colgroup>
-<col width="25%" />
-<col width="25%" />
-<col width="25%" />
-<col width="25%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Property</th>
-<th>Data type</th>
-<th>Qualifiers</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p><strong>Id</strong></p></td>
-<td><p>string</p></td>
-<td><p>[key]</p></td>
-<td><p>The name of the custom key combination.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Enabled</strong></p></td>
-<td><p>Boolean</p></td>
-<td><p>[read, write]</p></td>
-<td><p>Indicates if the key is blocked or unblocked. This property can be one of the following values:</p>
-<table>
-<colgroup>
-<col width="50%" />
-<col width="50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Value</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p><strong>true</strong></p></td>
-<td><p>Indicates that the key is blocked.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>false</strong></p></td>
-<td><p>Indicates that the key is not blocked.</p></td>
-</tr>
-</tbody>
-</table>
-<p> </p></td>
-</tr>
-</tbody>
-</table>
+| Property | Data&nbsp;type | Qualifiers | Description  |
+|----------|----------------|------------|--------------|
+| **Id** | string | [key] | The name of the custom key combination. |
+| **Enabled** | Boolean | [read, write] | Indicates if the key is blocked or unblocked. This property can be one of the following values </br>- **true**  Indicates that the key is blocked.</br>- **false** Indicates that the key is not blocked. |
 
 ### Remarks
 
@@ -129,7 +62,7 @@ When you specify the key combination to block, you must use the English names fo
 
 ## Example
 
-The following code demonstrates how to add or enable a custom key combination that Keyboard Filter will block by using the Windows Management Instrumentation (WMI) providers for Keyboard Filter. This example modifies the properties directly and does not call any of the methods defined in **WEKF\_CustomKey**.
+The following code demonstrates how to add or enable a custom key combination that Keyboard Filter will block by using the Windows Management Instrumentation (WMI) providers for Keyboard Filter. This example modifies the properties directly and does not call any of the methods defined in **WEKF_CustomKey**.
 
 ```powershell
 <#

@@ -1,6 +1,6 @@
 ---
-title: UWF\_Overlay
-description: UWF\_Overlay
+title: UWF_Overlay
+description: UWF_Overlay
 MSHAttr:
 - 'PreferredSiteName:MSDN'
 - 'PreferredLib:/library/windows/hardware'
@@ -14,7 +14,7 @@ ms.topic: article
 
 
 ---
-# UWF\_Overlay
+# UWF_Overlay
 
 Contains the current size of the Unified Write Filter (UWF) overlay and manages the critical and warning thresholds for the overlay size.
 

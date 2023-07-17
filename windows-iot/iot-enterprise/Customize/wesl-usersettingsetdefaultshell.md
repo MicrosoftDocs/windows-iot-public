@@ -1,6 +1,6 @@
 ---
-title: WESL\_UserSetting.SetDefaultShell
-description: WESL\_UserSetting.SetDefaultShell
+title: WESL_UserSetting.SetDefaultShell
+description: WESL_UserSetting.SetDefaultShell
 MSHAttr:
 - 'PreferredSiteName:MSDN'
 - 'PreferredLib:/library/windows/hardware'
@@ -14,7 +14,7 @@ ms.topic: article
 
 
 ---
-# WESL\_UserSetting.SetDefaultShell
+# WESL_UserSetting.SetDefaultShell
 
 This method sets the default Shell Launcher configuration.
 
@@ -29,44 +29,18 @@ This method sets the default Shell Launcher configuration.
 
 ## Parameters
 
-<a href="" id="shell"></a>*Shell*
-\[in, required\] The application or executable that Shell Launcher starts as the shell.
+**Shell**</br>\[in, required\] The application or executable that Shell Launcher starts as the shell.
 
-<a href="" id="defaultaction"></a>*DefaultAction*
-\[in, required\] The default action that Shell Launcher takes when the *Shell* application exits.
+**DefaultAction**</br>\[in, required\] The default action that Shell Launcher takes when the *Shell* application exits.
 
 The possible actions are defined in the following table:
 
-<table>
-<colgroup>
-<col width="50%" />
-<col width="50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Value</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>0</p></td>
-<td><p>Restart the shell.</p></td>
-</tr>
-<tr class="even">
-<td><p>1</p></td>
-<td><p>Restart the device.</p></td>
-</tr>
-<tr class="odd">
-<td><p>2</p></td>
-<td><p>Shut down the device.</p></td>
-</tr>
-<tr class="even">
-<td><p>3</p></td>
-<td><p>Do nothing.</p></td>
-</tr>
-</tbody>
-</table>
+| Value | Description |
+|:-------:|-------------|
+| 0 | Restart the shell. |
+| 1 | Restart the device. |
+| 2 | Shut down the device. |
+| 3 | Do nothing. |
 
 ## Return Value
 
@@ -87,6 +61,5 @@ Shell Launcher uses the default configuration when the security identifier (SID)
 
 ## Related topics
 
-[WESL\_UserSetting](wesl-usersetting.md)
-
-[Shell Launcher](shell-launcher.md)
+- [WESL_UserSetting](wesl-usersetting.md)
+- [Shell Launcher](shell-launcher.md)

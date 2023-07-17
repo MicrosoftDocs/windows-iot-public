@@ -28,8 +28,7 @@ UInt32 SetMaximumSize(
 
 ## Parameters
 
-*size*
-An integer that represents the maximum cache size, in megabytes, of the overlay.
+**size**</br>An integer that represents the maximum cache size, in megabytes, of the overlay.
 
 ## Return Value
 

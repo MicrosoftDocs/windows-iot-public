@@ -1,6 +1,6 @@
 ---
-title: WESL\_UserSetting.RemoveCustomShell
-description: WESL\_UserSetting.RemoveCustomShell
+title: WESL_UserSetting.RemoveCustomShell
+description: WESL_UserSetting.RemoveCustomShell
 MSHAttr:
 - 'PreferredSiteName:MSDN'
 - 'PreferredLib:/library/windows/hardware'
@@ -14,7 +14,7 @@ ms.topic: article
 
 
 ---
-# WESL\_UserSetting.RemoveCustomShell
+# WESL_UserSetting.RemoveCustomShell
 
 This method removes a Shell Launcher configuration for a specific user or group, based on the security identifier (SID).
 
@@ -28,8 +28,7 @@ This method removes a Shell Launcher configuration for a specific user or group,
 
 ## Parameters
 
-<a href="" id="sid"></a>Sid  
-\[in, required\] A string containing the security identifier (SID) of the user or group that Shell Launcher is configured for.
+**Sid**</br>\[in, required\] A string containing the security identifier (SID) of the user or group that Shell Launcher is configured for.
 
 ## Return Value
 
@@ -50,6 +49,6 @@ You must restart your device for the changes to take effect.
 
 ## Related topics
 
-[WESL\_UserSetting](wesl-usersetting.md)
+[WESL_UserSetting](wesl-usersetting.md)
 
 [Shell Launcher](shell-launcher.md)

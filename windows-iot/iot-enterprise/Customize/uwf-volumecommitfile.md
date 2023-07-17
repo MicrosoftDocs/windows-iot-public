@@ -1,6 +1,6 @@
 ---
-title: UWF\_Volume.CommitFile
-description: UWF\_Volume.CommitFile
+title: UWF_Volume.CommitFile
+description: UWF_Volume.CommitFile
 MSHAttr:
 - 'PreferredSiteName:MSDN'
 - 'PreferredLib:/library/windows/hardware'
@@ -14,7 +14,7 @@ ms.topic: article
 
 
 ---
-# UWF\_Volume.CommitFile
+# UWF_Volume.CommitFile
 
 Commits changes from the overlay to the physical volume for a specified file on a volume protected by Unified Write Filter (UWF).
 
@@ -28,8 +28,7 @@ UInt32 CommitFile(
 
 ## Parameters
 
-<a href="" id="filename"></a>*FileName*
-\[in\] A string that contains the path of the file to commit on the overlay, but does not include the drive letter or volume name. For example, “\\users\\test.dat”.
+**FileName**</br>\[in\] A string that contains the path of the file to commit on the overlay, but does not include the drive letter or volume name. For example, “\\users\\test.dat”.
 
 ## Return Value
 
@@ -45,13 +44,13 @@ You must use an administrator account to change any properties or call any metho
 
 | Windows Edition       | Supported |
 |:----------------------|:----------|
-| Windows 10 Home       | No        |
-| Windows 10 Pro        | No        |
-| Windows 10 Enterprise | Yes       |
-| Windows 10 Education  | Yes       |
+| Windows 10/11 Home       | No        |
+| Windows 10/11 Pro        | No        |
+| Windows 10/11 Enterprise | Yes       |
+| Windows 10/11 Education  | Yes       |
+| Windows 10/11 IoT Enterprise | Yes |
 
 ## Related topics
 
-[UWF\_Volume](uwf-volume.md)
-
-[Unified Write Filter](unified-write-filter.md)
+- [UWF_Volume](uwf-volume.md)
+- [Unified Write Filter](unified-write-filter.md)

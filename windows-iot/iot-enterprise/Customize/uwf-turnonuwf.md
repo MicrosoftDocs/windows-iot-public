@@ -122,7 +122,7 @@ To activate UWF, you can use a command-line script, CSP, or WMI:
 
 ## Install the UWF feature by using Windows Management Instrumentation (WMI)
 
-If Windows has already been installed and you do not want to use a provisioning package, you can also configure UWF by using the Windows Management Instrumentation (WMI) providers. To turn on UWF using WMI, you can use the [UWF\_Filter](uwf-filter.md) function, specifically the [UWF\_Filter.Enable](uwf-filterenable.md) method. You can do this in one of the following ways:
+If Windows has already been installed and you do not want to use a provisioning package, you can also configure UWF by using the Windows Management Instrumentation (WMI) providers. To turn on UWF using WMI, you can use the [UWF_Filter](uwf-filter.md) function, specifically the [UWF_Filter.Enable](uwf-filterenable.md) method. You can do this in one of the following ways:
 
 * Use the WMI providers directly in a PowerShell script.
 * Use the WMI providers directly in an application.

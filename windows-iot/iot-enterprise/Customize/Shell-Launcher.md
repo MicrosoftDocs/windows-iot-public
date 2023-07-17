@@ -81,10 +81,10 @@ Shell Launcher is an optional component and is not turned on by default in Windo
 > [!NOTE]
 > Turning on Shell Launcher does not require a device restart.
 
-### Enable Shell Launcher by calling WESL\_UserSetting
+### Enable Shell Launcher by calling WESL_UserSetting
 
-1. Enable or disable Shell Launcher by calling the WESL\_UserSetting.SetEnabled function in the Windows Management Instrumentation (WMI) class WESL\_UserSetting.
-1. If you enable or disable Shell Launcher using WESL\_UserSetting, the changes do not affect any sessions that are currently signed in; you must sign out and sign back in.
+1. Enable or disable Shell Launcher by calling the WESL_UserSetting.SetEnabled function in the Windows Management Instrumentation (WMI) class WESL_UserSetting.
+1. If you enable or disable Shell Launcher using WESL_UserSetting, the changes do not affect any sessions that are currently signed in; you must sign out and sign back in.
 
 This example uses a Windows image called install.wim, but you can use the same procedure to apply a provisioning package (for more information on DISM, see [What Is Deployment Image Servicing and Management](/windows-hardware/manufacture/desktop/what-is-dism).
 

@@ -1,6 +1,6 @@
 ---
-title: UWF\_RegistryFilter.RemoveExclusion
-description: UWF\_RegistryFilter.RemoveExclusion
+title: UWF_RegistryFilter.RemoveExclusion
+description: UWF_RegistryFilter.RemoveExclusion
 MSHAttr:
 - 'PreferredSiteName:MSDN'
 - 'PreferredLib:/library/windows/hardware'
@@ -14,7 +14,7 @@ ms.topic: article
 
 
 ---
-# UWF\_RegistryFilter.RemoveExclusion
+# UWF_RegistryFilter.RemoveExclusion
 
 Removes a registry key from the registry exclusion list for Unified Write Filter (UWF).
 
@@ -28,8 +28,7 @@ UInt32 RemoveExclusion(
 
 ## Parameters
 
-<a href="" id="registrykey"></a>*RegistryKey*
-A string that contains the full path of the registry key.
+**RegistryKey**</br>A string that contains the full path of the registry key.
 
 ## Return Value
 
@@ -43,13 +42,13 @@ You must restart the device before the registry key is excluded from UWF filteri
 
 | Windows Edition       | Supported |
 |:----------------------|:----------|
-| Windows 10 Home       | No        |
-| Windows 10 Pro        | No        |
-| Windows 10 Enterprise | Yes       |
-| Windows 10 Education  | Yes       |
+| Windows 10/11 Home       | No        |
+| Windows 10/11 Pro        | No        |
+| Windows 10/11 Enterprise | Yes       |
+| Windows 10/11 Education  | Yes       |
+| Windows 10/11 IoT Enterprise | Yes |
 
 ## Related topics
 
-[UWF\_RegistryFilter](uwf-registryfilter.md)
-
-[Unified Write Filter](unified-write-filter.md)
+- [UWF_RegistryFilter](uwf-registryfilter.md)
+- [Unified Write Filter](unified-write-filter.md)

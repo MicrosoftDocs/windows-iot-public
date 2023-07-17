@@ -1,6 +1,6 @@
 ---
-title: UWF\_Volume.FindExclusion
-description: UWF\_Volume.FindExclusion
+title: UWF_Volume.FindExclusion
+description: UWF_Volume.FindExclusion
 MSHAttr:
 - 'PreferredSiteName:MSDN'
 - 'PreferredLib:/library/windows/hardware'
@@ -14,7 +14,7 @@ ms.topic: article
 
 
 ---
-# UWF\_Volume.FindExclusion
+# UWF_Volume.FindExclusion
 
 Checks if a specific file or folder is in the exclusion list for a volume protected by Unified Write Filter (UWF).
 
@@ -29,11 +29,9 @@ UInt32 FindExclusion (
 
 ## Parameters
 
-<a href="" id="filename"></a>*FileName*
-\[in\] A string that contains the full path of the file or folder relative to the volume.
+**FileName**</br>\[in\] A string that contains the full path of the file or folder relative to the volume.
 
-<a href="" id="bfound"></a>*bFound*
-\[out\] Indicates if *FileName* is in the file exclusion list for the volume.
+**bFound**</br>\[out\] Indicates if *FileName* is in the file exclusion list for the volume.
 
 ## Return Value
 
@@ -47,13 +45,13 @@ Returns an HRESULT value that indicates [WMI status](/windows/win32/wmisdk/wmi-n
 
 | Windows Edition       | Supported |
 |:----------------------|:----------|
-| Windows 10 Home       | No        |
-| Windows 10 Pro        | No        |
-| Windows 10 Enterprise | Yes       |
-| Windows 10 Education  | Yes       |
+| Windows 10/11 Home       | No        |
+| Windows 10/11 Pro        | No        |
+| Windows 10/11 Enterprise | Yes       |
+| Windows 10/11 Education  | Yes       |
+| Windows 10/11 IoT Enterprise | Yes |
 
 ## Related topics
 
-[UWF\_Volume](uwf-volume.md)
-
-[Unified Write Filter](unified-write-filter.md)
+- [UWF_Volume](uwf-volume.md)
+- [Unified Write Filter](unified-write-filter.md)

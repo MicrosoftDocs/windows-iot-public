@@ -1,6 +1,6 @@
 ---
-title: WEKF\_Scancode.Remove
-description: WEKF\_Scancode.Remove
+title: WEKF_Scancode.Remove
+description: WEKF_Scancode.Remove
 MSHAttr:
 - 'PreferredSiteName:MSDN'
 - 'PreferredLib:/library/windows/hardware'
@@ -14,7 +14,7 @@ ms.topic: article
 
 
 ---
-# WEKF\_Scancode.Remove
+# WEKF_Scancode.Remove
 
 This method removes a custom scan code key combination, causing Keyboard Filter to stop blocking the removed combination.
 
@@ -29,11 +29,9 @@ This method removes a custom scan code key combination, causing Keyboard Filter 
 
 ## Parameters
 
-<a href="" id="modifiers"></a>*Modifiers*
-The modifier keys of the combination to remove.
+**Modifiers**</br>The modifier keys of the combination to remove.
 
-<a href="" id="scancode"></a>*Scancode*
-The scan code of the combination to remove.
+**Scancode**</br>The scan code of the combination to remove.
 
 ## Return Value
 
@@ -41,7 +39,7 @@ Returns an HRESULT value that indicates [WMI non-error constant](/windows/win32/
 
 ## Remarks
 
-**WEKF\_Scancode.Remove** removes an existing **WEKF\_Scancode** object. If the object does not exist, **WEKF\_Scancode.Remove** returns an error with the value 0x8007007B.
+**WEKF_Scancode.Remove** removes an existing **WEKF_Scancode** object. If the object does not exist, **WEKF_Scancode.Remove** returns an error with the value 0x8007007B.
 
 Because this method is static, you cannot call it on an object instance, but must instead call it at the class level.
 
@@ -56,6 +54,5 @@ Because this method is static, you cannot call it on an object instance, but mus
 
 ## Related topics
 
-[WEKF\_Scancode](wekf-scancode.md)
-
-[Keyboard Filter](keyboardfilter.md)
+- [WEKF_Scancode](wekf-scancode.md)
+- [Keyboard Filter](keyboardfilter.md)

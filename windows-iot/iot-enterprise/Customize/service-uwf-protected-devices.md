@@ -2,8 +2,8 @@
 title: Service UWF-protected devices
 description: Service UWF-protected devices
 MS-HAID:
-- 'p\_embedded.service\_uwf\_protected\_devices'
-- 'p\_enterprise\_customizations.service\_uwf\_protected\_devices'
+- 'p\_embedded.service\_UWF_protected\_devices'
+- 'p\_enterprise\_customizations.service\_UWF_protected\_devices'
 MSHAttr:
 - 'PreferredSiteName:MSDN'
 - 'PreferredLib:/library/windows/hardware'

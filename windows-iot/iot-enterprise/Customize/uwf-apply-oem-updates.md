@@ -2,8 +2,8 @@
 title: Apply OEM updates to UWF-protected devices
 description: Apply OEM updates to UWF-protected devices
 MS-HAID:
-- 'p\_embedded.apply\_oem\_updates\_to\_uwf\_protected\_devices\_blue'
-- 'p\_enterprise\_customizations.apply\_oem\_updates\_to\_uwf\_protected\_devices'
+- 'p\_embedded.apply\_oem\_updates\_to\_UWF_protected\_devices\_blue'
+- 'p\_enterprise\_customizations.apply\_oem\_updates\_to\_UWF_protected\_devices'
 MSHAttr:
 - 'PreferredSiteName:MSDN'
 - 'PreferredLib:/library/windows/hardware'

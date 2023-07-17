@@ -1,6 +1,6 @@
 ---
-title: UWF\_RegistryFilter.AddExclusion
-description: UWF\_RegistryFilter.AddExclusion
+title: UWF_RegistryFilter.AddExclusion
+description: UWF_RegistryFilter.AddExclusion
 MSHAttr:
 - 'PreferredSiteName:MSDN'
 - 'PreferredLib:/library/windows/hardware'
@@ -14,21 +14,21 @@ ms.topic: article
 
 
 ---
-# UWF\_RegistryFilter.AddExclusion
+# UWF_RegistryFilter.AddExclusion
 
 Adds a registry key to the registry exclusion list for Unified Write Filter (UWF).
 
-> [!Important]
+> [!IMPORTANT]
 > Only registry subkeys under the following registry keys can be added to the exclusion list.
 >
-> * HKEY\_LOCAL\_MACHINE\\BCD00000000
-> * HKEY\_LOCAL\_MACHINE\\SYSTEM
-> * HKEY\_LOCAL\_MACHINE\\SOFTWARE
-> * HKEY\_LOCAL\_MACHINE\\SAM
-> * HKEY\_LOCAL\_MACHINE\\SECURITY
-> * HKEY\_LOCAL\_MACHINE\\COMPONENTS
+> - HKEY_LOCAL_MACHINE\BCD00000000
+> - HKEY_LOCAL_MACHINE\SYSTEM
+> - HKEY_LOCAL_MACHINE\SOFTWARE
+> - HKEY_LOCAL_MACHINE\SAM
+> - HKEY_LOCAL_MACHINE\SECURITY
+> - HKEY_LOCAL_MACHINE\COMPONENTS
 
-> [!Important]
+> [!IMPORTANT]
 > Excluding a registry key from filtering also excludes all subkeys from filtering.
 
 ## Syntax
@@ -41,8 +41,7 @@ UInt32 AddExclusion(
 
 ## Parameters
 
-<a href="" id="registrykey"></a>*RegistryKey*
-A string that contains the full path of the registry key.
+**RegistryKey**</br>A string that contains the full path of the registry key.
 
 ## Return Value
 
@@ -56,13 +55,13 @@ You must restart the device before the registry key is excluded from UWF filteri
 
 | Windows Edition       | Supported |
 |:----------------------|:----------|
-| Windows 10 Home       | No        |
-| Windows 10 Pro        | No        |
-| Windows 10 Enterprise | Yes       |
-| Windows 10 Education  | Yes       |
+| Windows 10/11 Home       | No        |
+| Windows 10/11 Pro        | No        |
+| Windows 10/11 Enterprise | Yes       |
+| Windows 10/11 Education  | Yes       |
+| Windows 10/11 IoT Enterprise | Yes |
 
 ## Related topics
 
-[UWF\_RegistryFilter](uwf-registryfilter.md)
-
-[Unified Write Filter](unified-write-filter.md)
+- [UWF_RegistryFilter](uwf-registryfilter.md)
+- [Unified Write Filter](unified-write-filter.md)
