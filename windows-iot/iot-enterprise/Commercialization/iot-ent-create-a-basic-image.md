@@ -56,7 +56,7 @@ Here's how to prepare the installation flash drive:
 
 4. When you've identified the disk number of your flash drive, use `diskpart` to prepare the drive so you can use it as a bootable installation drive:
 
-    >[!Warning]
+    > [!WARNING]
     >The following commands will erase everything on the flash drive.
 
     Enter the following commands from within `diskpart`, where Disk 1 is the flash drive:
