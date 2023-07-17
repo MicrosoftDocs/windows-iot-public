@@ -31,7 +31,7 @@ The image that you created in [Lab 1a: Create a basic image](iot-ent-create-a-ba
 
 ## Customize the device
 
-The steps in this lab are optional. Most OEM devices require at least one of the customizations in this lab, but if you don't see the need to make any audit mode customizations, you don't have to.
+The steps in this lab are optional. Most OEM devices require at least one of the customizations in this lab, but it isn't required.
 
 This section covers how to add:
 
@@ -45,7 +45,7 @@ This section covers how to add:
 
 Features on Demand (FODs) are Windows feature packages that can be added at any time. Common features include language resources like handwriting recognition or other features like the .NET Framework (.NetFx3).
 
-Device partners will often include FODs in Windows images. A commonly added feature is .NET Framework 3.5 to support scenarios where the device is running an OEM application and that needs .NET Framework 3.5 support.
+Device partners often include FODs in Windows images. A commonly added feature is .NET Framework 3.5 to support scenarios where the device is running an OEM application and that needs .NET Framework 3.5 support.
 
 To add a Feature on Demand in audit mode, you need the FOD ISO either on a USB drive, or copied to your IoT device. Once you've finished installing FODs, you can remove the ISO from your IoT device or remove the USB drive.
 
@@ -87,7 +87,7 @@ To add a driver, you have to have a driver supplied from a hardware vendor. The 
 
 Use this method if the driver supplied by the independent hardware vendor (IHV) is a simple MSI or EXE package. If you want auto driver installation, you can use an unattend file or scripting. The following steps outline an installation.
 
-1. Gather the driver installer package provided by the IHV. This is often an installation MSI or EXE package.
+1. Gather the driver installer package provided by the IHV. A driver installer package is typically an MSI or EXE package.
 1. Copy the package to a temporary location on the IoT device. In audit mode, the system is logged in locally as the local Administrator account. Run the installation MSI or EXE and follow the prompts.
 1. **Optional** Remove the installation package from the temporary location.  
 
@@ -109,11 +109,11 @@ To use this method, the driver supplied by the IHV has to already be extracted o
 
 ### Add a language in Audit Mode
 
-Device partners may need to add more languages to an image to enable a user to change languages. This is important for devices that may not have a persistent internet connection to download and install a language with the Settings app.
+Device partners may need to add more languages to an image to enable a user to change languages. Adding languages during Audit mode is important for devices that may not have a persistent internet connection to download and install a language with the Settings app.
 
 You can add more languages to your custom image by using DISM to install a language pack and the related Features on Demand. You can add languages in audit mode or to an offline mounted image. For more information, see [Languages overview](/windows-hardware/manufacture/desktop/add-language-packs-to-windows).
 
-1. Mount the Feature on Demand ISO on your Technician PC. This might still be mounted if you added a FOD earlier in the lab.
+1. Mount the Feature on Demand ISO on your Technician PC. Your ISO might still be mounted if you added a FOD earlier in the lab.
 1. Mount the Language Pack ISO on your Technician PC.
 1. Add a language pack to your image. In this example, we use French (fr-FR). From an Administrative Command Prompt:
 
@@ -137,7 +137,7 @@ Device partners may need to update the OS image with the latest cumulative updat
 
 To add an update, you first download the most recent LCU from the [Microsoft Update Catalog](https://www.catalog.update.microsoft.com/Home.aspx), and then install it. You can install the update through the GUI or the command line.
 
-Below, we show you how to install an LCU using a .msu from the Microsoft Update catalog.
+In the following steps, we show you how to install an LCU using a .msu from the Microsoft Update catalog.
 
 #### Download an update
 
@@ -145,8 +145,8 @@ These steps can be performed on the Technician PC if the IoT device doesn't have
 
 1. Visit [Windows 10 Update History](https://support.microsoft.com/help/4464619) to see which updates are available for your Windows image.
 1. In the upper left of the page, select your Windows 10 build. Select on, for example, Windows 10, version 1809.
-1. In the left-hand navigation, you see a section called **In this release**. This section shows the most recent LCU's KB number. Select on the latest KB name, which will take you to a KB article with some information about the release.
-1. On the KB article page, locate the link for the Microsoft Update Catalog and select the link. This takes you to the download page in the catalog.
+1. In the left-hand navigation, you see a section called **In this release**. This section shows the most recent LCU's KB number. Select on the latest KB name, which takes you to a KB article with some information about the release.
+1. On the KB article page, locate the link for the Microsoft Update Catalog and select the link to open the download page in the catalog.
 1. Download the MSU package from the catalog and save it to C:\Packages on the IoT device.
 
 #### Install an update, simple method
@@ -155,7 +155,7 @@ After you've downloaded an update, double select the update in File Explorer to 
 
 #### Install an update, advanced method
 
-You can install an LCU using DISM. This can be helpful if you're scripting the installation of the update. You can also use this method to add the update to an offline mounted image. See [Add updates to a Windows image](/windows-hardware/manufacture/desktop/servicing-the-image-with-windows-updates-sxs) for more information.
+You can install an LCU using DISM, which can be helpful if you're scripting the installation of the update. You can also use this method to add the update to an offline mounted image. For more information, see [Add updates to a Windows image](/windows-hardware/manufacture/desktop/servicing-the-image-with-windows-updates-sxs).
 
 Use DISM to install the LCU:
 
@@ -171,9 +171,9 @@ Device partners may need to install software in audit mode. This software might 
 
 Some things to consider:
 
-- If an installed application is to become the shell experience for the device, follow the steps in lab #5 to set up Shell Launcher or Assigned Access. The features used depend on the type of application that will become the shell.
-  - Shell Launcher is used if a Win32 or .NET application will be used as the shell.
-  - Assigned Access is used if a UWP application will be used as the shell.
+- If an installed application is to become the shell experience for the device, follow the steps in lab #5 to set up Shell Launcher or Assigned Access. The features used depend on the type of application used for the shell.
+  - Shell Launcher is used if a Win32 or .NET application is used as the shell.
+  - Assigned Access is used if a UWP application is used as the shell.
 - If the device experience is more like a customized desktop experience (for example, a hotel kiosk) where users are able to have access to the desktop, there are customization steps that can make it easier to ensure your device layout is preserved. For example, icon layout on the desktop and start menu can be preserved as part of the Sysprep process.  
 - This type of installation has to be done in audit mode, and can't be done on an offline mounted image.
 
