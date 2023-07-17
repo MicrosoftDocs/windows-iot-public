@@ -31,39 +31,12 @@ class WEKF_Settings {
 
 The following tables list any methods and properties that belong to this class.
 
-### <a href="" id="pro"></a>Properties
+### Properties
 
-<table>
-<colgroup>
-<col width="25%" />
-<col width="25%" />
-<col width="25%" />
-<col width="25%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Property</th>
-<th>Data type</th>
-<th>Qualifiers</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>**Name**</p></td>
-<td><p>string</p></td>
-<td><p>[key]</p></td>
-<td><p>Indicates the name of the Keyboard Filter setting that this object represents. See the Remarks section for a list of valid setting names.</p></td>
-</tr>
-<tr class="even">
-<td><p>**Value**</p></td>
-<td><p>string</p></td>
-<td><p>[read, write]</p></td>
-<td><p>Represents the value of the **Name** setting. The value is not case-sensitive.</p>
-<p>See the Remarks section for a list of valid values for each setting.</p></td>
-</tr>
-</tbody>
-</table>
+| Property | Data&nbsp;type | Qualifiers | Description |
+|----------|----------------|------------|-------------|
+| **Name** | string | [key] | Indicates the name of the Keyboard Filter setting that this object represents. See the Remarks section for a list of valid setting names. |
+| **Value** | string | [read,&nbsp;write] | Represents the value of the **Name** setting. The value is not case-sensitive. </br> See the Remarks section for a list of valid values for each setting. |
 
 ### Remarks
 
@@ -73,34 +46,11 @@ Each **WEKF_Settings** object represents a single Keyboard Filter setting. You c
 
 The following table lists all settings available for Keyboard Filter.
 
-<table>
-<colgroup>
-<col width="50%" />
-<col width="50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Setting name</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>**DisableKeyboardFilterForAdministrators**</p></td>
-<td><p>This setting specifies whether Keyboard Filter is enabled or disabled for administrator accounts. Set to **true** to disable Keyboard Filter for administrator accounts; otherwise, set to **false**. Set to **true** by default.</p></td>
-</tr>
-<tr class="even">
-<td><p>**ForceOffAccessibility**</p></td>
-<td><p>This setting specifies whether Keyboard Filter blocks users from enabling Ease of Access features. Set to **true** to force disabling the Ease of Access features. Set to **false** to allow enabling the Ease of Access features. Set to **false** by default.</p>
-<p>Changing this setting to **false** does not automatically enable Ease of Access features; you must manually enable them.</p></td>
-</tr>
-<tr class="odd">
-<td><p>**BreakoutKeyScanCode**</p></td>
-<td><p>This setting specifies the scan code of the key that enables a user to break out of an account that is locked down with Keyboard Filter. A user can press CTRL+ALT+DELETE to switch to the Welcome screen.</p>
-<p>Set to the scan code for the left Windows logo key by default.</p></td>
-</tr>
-</tbody>
-</table>
+| Setting name | Description |
+|--------------|-------------|
+| **DisableKeyboardFilterForAdministrators** | This setting specifies whether Keyboard Filter is enabled or disabled for administrator accounts. Set to **true** to disable Keyboard Filter for administrator accounts; otherwise, set to **false**. Set to **true** by default. |
+| **ForceOffAccessibility** | This setting specifies whether Keyboard Filter blocks users from enabling Ease of Access features. Set to **true** to force disabling the Ease of Access features. Set to **false** to allow enabling the Ease of Access features. Set to **false** by default.</br>Changing this setting to **false** does not automatically enable Ease of Access features; you must manually enable them. |
+| **BreakoutKeyScanCode** | This setting specifies the scan code of the key that enables a user to break out of an account that is locked down with Keyboard Filter. A user can press CTRL+ALT+DELETE to switch to the Welcome screen.</br>Set to the scan code for the left Windows logo key by default. |
 
 One instance of the **WEKF_Settings** class exists for each valid setting.
 
@@ -112,10 +62,10 @@ If the **BreakoutKeyScanCode** is set to the scan code for either the left Windo
 
 The **BreakoutKeyScanCode** setting only applies to accounts where Keyboard Filter is active. If the scan code is set to a value that does not map to any key, such as 0 (zero), then you must use another method to access the Welcome screen if you need to service the device, such as remotely connecting, or restarting the device if automatic sign-in is not enabled.
 
-**Important**  
-On some devices, if the breakout key is pressed too rapidly, the key presses may not register. We recommend that you include a slight pause between each breakout key press.
+> [!IMPORTANT]
+> On some devices, if the breakout key is pressed too rapidly, the key presses may not register. We recommend that you include a slight pause between each breakout key press.
 
-> [!Warning]
+> [!WARNING]
 > When setting the **BreakoutKeyScanCode**, be sure to use the scan code of the key, and not the virtual key value.
 
 ### Example
