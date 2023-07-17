@@ -12,12 +12,12 @@ ms.technology: iot
 
 # Lab 2: Device Lockdown Features
 
-In labs [1a](iot-ent-create-a-basic-image.md) and [1b](iot-ent-customize-the-reference-device-in-audit-mode.md) we installed the OS onto a reference device and made customizations in audit mode. This lab describes several ways lock down your device using device lockdown features that are built in to Windows. The device lockdown features aren't listed in any particular order, and you can enable some, all, or none of the features, depending on the device you're building.
+In labs [1a](iot-ent-create-a-basic-image.md) and [1b](iot-ent-customize-the-reference-device-in-audit-mode.md), we installed the OS onto a reference device and made customizations in audit mode. This lab describes several ways lock down your device using device lockdown features that are built in to Windows. The device lockdown features aren't listed in any particular order. You can enable all of the features, some of the feature or none of the features, depending on the device you're building.
 
 > [!NOTE]
 > This lab is optional. You can build an IoT Enterprise device without enabling any of the features described in this lab. If you aren't implementing any of these features, you can continue to [Lab 3](iot-ent-configure-policy-settings.md).
 
-For a fully automated approach to these steps consider using the [Windows 10 IoT Enterprise deployment framework](https://github.com/ms-iot/windows-iotent-deploy).
+For a fully automated approach to these steps, consider using the [Windows 10 IoT Enterprise deployment framework](https://github.com/ms-iot/windows-iotent-deploy).
 
 ## Prerequisites
 
@@ -29,16 +29,13 @@ Complete Lab 1a: Create a basic image.
 
 The [Keyboard Filter](/windows-hardware/customize/enterprise/keyboardfilter) enables controls that you can use to suppress undesirable key presses or key combinations. Normally, a customer can alter the operation of a device by using certain key combinations like Ctrl+Alt+Delete, Ctrl+Shift+Tab, Alt+F4, etc. The Keyboard filter prevents users from using these key combinations, which is helpful if your device is intended for a dedicated purpose.
 
-The Keyboard Filter feature works with physical keyboards, the Windows on-screen keyboard, and the touch keyboard. Keyboard Filter also detects dynamic layout changes, such as switching from one language set to another, and continues to suppress keys correctly, even if the location of suppressed keys has changed on the keyboard layout.  
+The Keyboard Filter feature works with physical keyboards, the Windows on-screen keyboard, and the touch keyboard. Keyboard Filter also detects dynamic layout changes and continues to suppress keys correctly even if the location of the suppressed keys has changed on the keyboard.  An example of this scenario is switching from one language set to another.
 
 Keyboard filter keys are stored in the Registry at **HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows Embedded\KeyboardFilter**.
 
 ### Enable the Keyboard filter
 
-There are several methods to enable the Keyboard Filter, we're providing instructions for one of those methods in this lab.  
-
-> [!NOTE]
-> See [Keyboard Filter](/windows-hardware/customize/enterprise/keyboardfilter) for more information.
+There are several methods to enable the Keyboard Filter, we're providing instructions for one of those methods in this lab.  For more information, see [Keyboard Filter](/windows-hardware/customize/enterprise/keyboardfilter).
 
 1. Enable the Keyboard Filter feature by running the following command from an Administrative Command Prompt:
 
@@ -46,11 +43,11 @@ There are several methods to enable the Keyboard Filter, we're providing instruc
    DISM /online /enable-feature /featurename:Client-DeviceLockdown /featurename:Client-KeyboardFilter 
    ```
 
-1. You are prompted to restart the reference device, type **Y** to reboot. The device reboots into audit mode.
+1. You're prompted to restart the reference device, type **Y** to reboot. The device reboots into audit mode.
 
    Once you've enabled the keyboard filter, see [Keyboard filter PowerShell script samples](/windows-hardware/customize/enterprise/keyboardfilter-powershell-script-samples) to learn about blocking key combinations.
 
-1. For this lab we're going to provide a demo on blocking the CTRL+ALT+DEL key. In an administrative PowerShell command window, copy and paste the following commands.  
+1. For this lab, we're going to provide a demo on blocking the CTRL+ALT+DEL key. In an administrative PowerShell command window, copy and paste the following commands.  
 
     ```PowerShell
     $key = "Ctrl+Alt+Del"
@@ -66,7 +63,7 @@ There are several methods to enable the Keyboard Filter, we're providing instruc
 
 ### Unified Write Filter overview
 
-[Unified Write Filter (UWF)](/windows-hardware/customize/enterprise/unified-write-filter) is a Windows 10 device lockdown feature that helps to protect your device's configuration by intercepting and redirecting any writes to the drive (app installations, settings changes, saved data) to a virtual overlay.  This overlay can be deleted by rebooting or, in certain configurations, the overlay can be retained until the Unified Write Filter is disabled.
+[Unified Write Filter (UWF)](/windows-hardware/customize/enterprise/unified-write-filter) helps to protect your device's configuration by intercepting and redirecting any writes to the drive (app installations, settings changes, saved data) in a virtual overlay.  This overlay is automatically deleted by rebooting unless configured to be retained until the Unified Write Filter is disabled.
 
 ### Enable the UWF
 
@@ -78,11 +75,11 @@ There are several methods to enable the Keyboard Filter, we're providing instruc
 
 1. Restart the reference device
 
-1. Configuring and enabling the overlay and protection is best done through scripting but for this lab we'll configure using command line
+1. Configuring and enabling the overlay and protection is best done through scripting but for this lab we configure using command line
 
    For more information about the UWF, including sample scripts, see [Unified write filter](/windows-hardware/customize/enterprise/unified-write-filter).
 
-1. At an Admistrative Command prompt, run the following commands
+1. At an Administrative Command prompt, run the following commands
 
    ```cmd
    uwfmgr volume protect c:
@@ -91,7 +88,7 @@ There are several methods to enable the Keyboard Filter, we're providing instruc
 
 1. Restart the reference device
 
-1. Now all writes are redirected to the RAM overlay and won't be retained when the reference device is rebooted.
+1. Now all writes are redirected to the RAM overlay, which is discarded when the reference device is rebooted.
 
 1. To disable the Unified Write Filter, at an Administrative Command prompt run the following command and then reboot the device.
 
@@ -106,7 +103,10 @@ There are several methods to enable the Keyboard Filter, we're providing instruc
 
 ### Unbranded boot overview
 
-[Unbranded boot](/windows-hardware/customize/enterprise/unbranded-boot) allows you to suppress Windows elements that appear when Windows starts or resumes, and can suppress the crash screen when Windows encounters an error that it can't recover from.
+[Unbranded boot](/windows-hardware/customize/enterprise/unbranded-boot) allows you to:
+
+- Suppress Windows elements that appear when Windows starts or resumes.
+- Suppress the crash screen when Windows encounters an error that it can't recover from.
 
 ### Enable Unbranded boot
 
@@ -146,9 +146,7 @@ You can customize Unbranded boot from an Administrative Command prompt in the fo
 
 ## Custom Logon
 
-You can use the [Custom Logon](/windows-hardware/customize/enterprise/custom-logon) feature to suppress Windows 10 UI elements that relate to the Welcome screen and shutdown screen. For example, you can suppress all elements of the Welcome screen UI and provide a custom logon UI. You can also suppress the Blocked Shutdown Resolver (BSDR) screen and automatically end applications while the OS waits for applications to close before a shutdown.
-
-See [Custom logon](/windows-hardware/customize/enterprise/custom-logon) for more information.
+You can use the [Custom Logon](/windows-hardware/customize/enterprise/custom-logon) feature to suppress Windows 10 UI elements that relate to the Welcome screen and shutdown screen. For example, you can suppress all elements of the Welcome screen UI and provide a custom logon UI. You can also suppress the Blocked Shutdown Resolver (BSDR) screen and automatically end applications while the OS waits for applications to close before a shutdown.  For more information, see [Custom logon](/windows-hardware/customize/enterprise/custom-logon).
 
 > [!NOTE]
 > Custom Logon feature will not work on images that are using a blank or evaluation product key. You must use a valid Product Key to see the changes made with the below commands.
@@ -176,7 +174,7 @@ See [Custom logon](/windows-hardware/customize/enterprise/custom-logon) for more
 
 ## Next steps
 
-Your device now has device lockdown features in place. You can use group policies to further customize your device's user experience. Lab 3 covers how to configure policy settings.
+You you completed enabling lockdown features. You can use group policies to further customize your device's user experience. Lab 3 covers how to configure policy settings.
 
 >[!div class="nextstepaction"]
 >[Go to lab 3](iot-ent-configure-policy-settings.md)
