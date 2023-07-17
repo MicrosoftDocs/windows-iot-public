@@ -11,9 +11,9 @@ ms.topic: article
 
 # Lab 3: Configure policy settings on IoT Devices
 
-In lab 2 we enabled device lockdown features on our custom image. In addition to the Windows IoT Enterprise lockdown features, device partners can use a mix of Group Policies and feature customizations to achieve the desired user experience.
+In lab 2, we enabled device lockdown features on our custom image. In addition to the Windows IoT Enterprise lockdown features, device partners can use a mix of Group Policies and feature customizations to achieve the desired user experience.
 
-In this lab, we'll recommend some common configuration settings that IoT device partners tend to use. Consider whether each individual configuration setting applies to your device scenario.
+In this lab, we recommend some common configuration settings that IoT device partners tend to use. Consider whether each individual configuration setting applies to your device scenario.
 
 ## Control Windows Updates
 
@@ -23,7 +23,11 @@ One of the most common requests from device partners is centered around controll
 - How are updates validated prior to deployment?
 - What is the update user experience on the device itself?
 
-If you have a device where disruption of the user experience isn't acceptable, you should consider limiting updates to only certain hours, disabling automatic updates, or deploying updates either manually or through a controlled 3rd party solution.
+If you have a device where disruption of the user experience isn't acceptable, you should:
+
+- Consider limiting updates to only certain hours
+- Consider disabling automatic updates
+- Consider deploying updates either manually or through a controlled third party solution.
 
 ### Limit reboots from updates
 
@@ -45,7 +49,7 @@ A device can be configured in a way to hide the UI experience for Windows Update
 
 ### Completely disable automatic Windows Updates
 
-Security and stability are at the core of a successful IoT project, and Windows Update provides updates to ensure Windows 10 IoT Enterprise has the latest applicable security and stability updates.  You might, however, have a device scenario where updating Windows has to be handled completely manually. For this type of scenario, we recommend disabling automatic updating through Windows Update. In previous versions of Windows device partners could stop and disable the Windows Update service, but this is no longer the supported method for disabling automatic updates. Windows 10 has a number of policies that allow you to configure Windows Updates in several ways.
+Security and stability are at the core of a successful IoT project, and Windows Update provides updates to ensure Windows 10 IoT Enterprise has the latest applicable security and stability updates.  You might, however, have a device scenario where updating Windows has to be handled manually. For this type of scenario, we recommend disabling automatic updating through Windows Update. In previous versions of Windows device partners could stop and disable the Windows Update service, but this is no longer the supported method for disabling automatic updates. Windows 10 has many policies that allow you to configure Windows Updates in several ways.
 
 To completely disable automatic updating of Windows 10 with Windows Update.
 
@@ -59,21 +63,21 @@ In some scenarios, configuring Automatic Updates isn't enough to preserve a desi
 To prohibit access to Windows update:
 
 1. Open the Group Policy Editor (gpedit.msc) and navigate to **Computer Configuration\Administrative Templates\Windows Components\Windows update\Remove access to use all Windows update features**.
-1. Set this policy to **Enabled** to prevent the "Check for updates" option for users. Note: Any background update scans, downloads, and installations will continue to work as configured. This policy simply prevents the user from accessing the manual check through settings. Use the steps in the [previous section](#completely-disable-automatic-windows-updates) to also disable scans, downloads and installations.
+1. Set this policy to **Enabled** to prevent the "Check for updates" option for users. Note: Any background update scans, downloads, and installations continue to work as configured. This policy simply prevents the user from accessing the manual check through settings. Use the steps in the [previous section](#completely-disable-automatic-windows-updates) to also disable scans, downloads and installations.
 
 > [!IMPORTANT]
 > Be sure to have a well-designed servicing strategy for your device. Disabling Windows Update capabilities leaves the device in a vulnerable state if your device isn't getting updates in another way.
 
 ### Prevent drivers from being installed via Windows Update
 
-Sometimes drivers installed from Windows Update can cause issues with a device experience. The steps below prohibit Windows Update from downloading and installing new drivers on the device.
+Sometimes drivers installed from Windows Update can cause issues with a device experience. The following steps prohibit Windows Update from downloading and installing new drivers on the device.
 
 1. Open the Group Policy Editor (gpedit.msc) and navigate to **Computer Configuration\Administrative Templates\Windows Components\Windows update\Do not include drivers with Windows Updates**.  
 1. **Enable** this policy, which tells Windows to not include drivers with Windows quality updates.  
 
 ### Windows Update Summary
 
-You can configure Windows Update in several ways, and not all policies are applicable to all devices. As a general rule, IoT devices require special attention to the servicing and management strategy to be used on the devices. If your servicing strategy is to disable all Windows Update features through policy, the steps below provide a combined list of policies to configure.
+You can configure Windows Update in several ways, and not all policies are applicable to all devices. As a general rule, IoT devices require special attention to the servicing and management strategy to be used on the devices. If your servicing strategy is to disable all Windows Update features through policy, the following steps provide a combined list of policies to configure.
 
 1. Open the Group Policy Editor (gpedit.msc) and navigate to **Computer Configuration -> Administrative Templates -> System -> Device Installation** and set the following policies:
    1. **Specify the search server for device driver updates** to **Enabled**, with **Select update server** set to **Search Managed Server**
@@ -86,7 +90,7 @@ You can configure Windows Update in several ways, and not all policies are appli
 
 ## Configure the system to hide blue screens
 
-Bugchecks on the system (Blue Screen or BSOD) can happen for many reasons. For IoT devices it is important to hide these errors if they occur. The system can still collect a memory dump for debugging, but the user experience should avoid showing the bugcheck error screen itself. You can configure the system to replace "blue screen" with a blank screen for OS errors.
+Bugchecks on the system (Blue Screen or BSOD) can happen for many reasons. For IoT devices, it's important to hide these errors if they occur. The system can still collect a memory dump for debugging, but the user experience should avoid showing the bugcheck error screen itself. You can configure the system to replace "blue screen" with a blank screen for OS errors.
 
 1. Open Registry Editor on the IoT device and navigate to HKLM\SYSTEM\CurrentControlSet\Control\CrashControl
 2. Add a new registry value named DisplayDisabled as DWORD (32-bit) type with a value of 1.
@@ -97,7 +101,7 @@ IoT devices typically suppress common Windows dialogs that make sense in PC scen
 
 ### Notifications
 
-In some scenarios disabling individual notifications is beneficial. For example, if the device is a tablet device, the Battery Saver notification may be something the user should see, while other notifications such as OneDrive or Photos should be hidden. You might also decide that your device should suppress all notifications, regardless of the OS component that's providing them.
+Disabling individual notifications is beneficial in some scenarios. For example, if the device is a tablet device, the Battery Saver notification may be something the user should see, while other notifications such as OneDrive or Photos should be hidden. You might also decide that your device should suppress all notifications, regardless of the OS component that's providing them.
 
 ### Hide all notifications
 
@@ -114,14 +118,14 @@ One method to disable notifications is to use Windows' Quiet Hours feature. Quie
 
 #### Message Box Default Reply
 
-This is a registry change that will disable MessageBox class boxes from popping up, by having the system automatically click the default button on the dialog (usually OK or Cancel). This can be useful if 3rd party applications, which the device partner doesn't control, show MessageBox style dialogs. You can learn about this registry value at [Message Box Default Reply](/previous-versions/windows/embedded/aa940743(v=winembedded.5)).
+This is a registry change that disables MessageBox class boxes from popping up, by having the system automatically select the default button on the dialog (OK or Cancel). This can be useful if third party applications, which the device partner doesn't control, show MessageBox style dialogs. You can learn about this registry value at [Message Box Default Reply](/previous-versions/windows/embedded/aa940743(v=winembedded.5)).
 
 ##### Disable MessageBox class boxes
 
 1. Open the Registry Editor as administrator
 1. Create a new Dword registry value under **HKLM\System\CurrentControlSet\Control\Error Message Instrument**, with a value named **EnableDefaultReply**
 1. Set the data for the EnableDefaultReply value to 0
-1. Test the scenario to ensure it is working as expected
+1. Test the scenario to ensure it's working as expected
 
 ## Security Baseline
 
@@ -131,7 +135,7 @@ Note: Devices requiring certification such as STIG would benefit from using the 
 
 You can download the [Security Compliance Toolkit](https://www.microsoft.com/download/details.aspx?id=55319) from the Download Center.
 
-1. Click **Download** on the link above. Select the Windows 10 Version xxxx Security Baseline.zip and the LGPO.zip. Be sure to choose the version that matches the version of Windows 10 you are deploying.
+1. Select **Download** on the link above. Select the Windows 10 Version xxxx Security Baseline.zip and the LGPO.zip. Be sure to choose the version that matches the version of Windows 10 you're deploying.
 1. Extract the Windows 10 Version xxxx Security Baseline.zip file and the LGPO.zip file on the IoT device.  
 1. Copy LGPO.exe to the Local_Script\Tools folder of the Windows 10 Version xxxx Security Baseline. LGPO is needed by the security baseline installation script but must be downloaded separately.
 1. From an Administrative Command Prompt run:
@@ -150,7 +154,7 @@ You can download the [Security Compliance Toolkit](https://www.microsoft.com/dow
 
 ### What you can expect
 
-Many settings are included as part of the security baseline. In the Documentation folder you'll find an Excel spreadsheet which outlines all the policies set by the baseline. You'll immediately notice that user account password complexity has been changed from its default, so you may need to update user account passwords on the system or as part of your deployment. Additionally, policies are configured for USB drive data access. Copying data from the system is protected by default now. Continue to explore the other settings added by the security baseline.
+Many settings are included as part of the security baseline. In the Documentation folder, you find an Excel spreadsheet that outlines all the policies set by the baseline. You'll immediately notice that user account password complexity has been changed from its default, so you may need to update user account passwords on the system or as part of your deployment. Additionally, policies are configured for USB drive data access. Copying data from the system is protected by default now. Continue to explore the other settings added by the security baseline.
 
 ## Microsoft Defender
 
