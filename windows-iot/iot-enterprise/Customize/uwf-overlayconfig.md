@@ -1,6 +1,6 @@
 ---
-title: UWF\_OverlayConfig
-description: UWF\_OverlayConfig
+title: UWF_OverlayConfig
+description: UWF_OverlayConfig
 MSHAttr:
 - 'PreferredSiteName:MSDN'
 - 'PreferredLib:/library/windows/hardware'
@@ -14,7 +14,7 @@ ms.topic: article
 
 
 ---
-# UWF\_OverlayConfig
+# UWF_OverlayConfig
 
 Displays and configures global settings for the Unified Write Filter (UWF) overlay. You can modify the maximum size and the type of the UWF overlay.
 
@@ -39,71 +39,20 @@ class UWF_OverlayConfig{
 
 The following tables list the methods and properties that belong to this class.
 
-### <a href="" id="mth"></a>Methods
+### Methods
 
-<table>
-<colgroup>
-<col width="50%" />
-<col width="50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Method</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p><a href="uwf-overlayconfigsetmaximumsize.md" data-raw-source="[UWF_OverlayConfig.SetMaximumSize](uwf-overlayconfigsetmaximumsize.md)">UWF_OverlayConfig.SetMaximumSize</a></p></td>
-<td><p>Sets the maximum cache size, in megabytes, of the overlay.</p></td>
-</tr>
-<tr class="even">
-<td><p><a href="uwf-overlayconfigsettype.md" data-raw-source="[UWF_OverlayConfig.SetType](uwf-overlayconfigsettype.md)">UWF_OverlayConfig.SetType</a></p></td>
-<td><p>Sets the type of the UWF overlay to either RAM-based or disk-based.</p></td>
-</tr>
-</tbody>
-</table>
+| Method | Description |
+|--------|-------------|
+| [UWF_OverlayConfig.SetMaximumSize](uwf-overlayconfigsetmaximumsize.md) | Sets the maximum cache size, in megabytes, of the overlay. |
+| [UWF_OverlayConfig.SetType](uwf-overlayconfigsettype.md) | Sets the type of the UWF overlay to either RAM-based or disk-based. |
 
-### <a href="" id="pro"></a>Properties
+### Properties
 
-<table>
-<colgroup>
-<col width="25%" />
-<col width="25%" />
-<col width="25%" />
-<col width="25%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Property</th>
-<th>Data type</th>
-<th>Qualifiers</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p><strong>CurrentSessoin</strong></p></td>
-<td><p>Boolean</p></td>
-<td><p>[key, read]</p></td>
-<td><p>Indicates which session the object contains settings for.</p>
-<p>Set to <strong>True</strong> for the current session; set to <strong>False</strong> for the next session that begins after a restart.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Type</strong></p></td>
-<td><p>UInt32</p></td>
-<td><p>[read]</p></td>
-<td><p>Indicates the type of overlay.</p>
-<p>Set to <strong>0</strong> for a RAM-based overlay; set to <strong>1</strong> for a disk-based overlay.</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>MaximumSize</strong></p></td>
-<td><p>SInt32</p></td>
-<td><p>[read]</p></td>
-<td><p>Indicates the maximum cache size, in megabytes, of the overlay.</p></td>
-</tr>
-</tbody>
-</table>
+| Property | Data&nbsp;type | Qualifiers | Description |
+|----------|----------------|------------|-------------|
+| CurrentSession | Boolean | [key, read] | Indicates which session the object contains settings for. </br>- **True** for the current session </br>- **False** for the next session that begins after a restart. |
+| Type | UInt32 | [read] | Indicates the type of overlay. </br>- **0** for a RAM-based overlay</br>- **1** for a disk-based overlay. |
+| MaximumSize | SInt32 | [read] | Indicates the maximum cache size, in megabytes, of the overlay. |
 
 ### Remarks
 
