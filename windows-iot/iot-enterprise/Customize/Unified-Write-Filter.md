@@ -40,9 +40,9 @@ UWF replaces the Windows 7 Enhanced Write Filter (EWF) and the File Based Write 
 
 - You can [update and service UWF-protected devices](service-uwf-protected-devices.md), either by using UWF servicing mode or by adding file and registry exclusions to specific system areas.
 
-- On Windows 10, version 1803, you can use a [persistent overlay](uwfoverlay.md#persistentoverlay) to allow data saved in the virtual overlay to remain even after a reboot.
+- On Windows 10, version 1803, you can use a [persistent overlay](uwfoverlay.md#persistent-overlay) to allow data saved in the virtual overlay to remain even after a reboot.
 
-- On devices with a disk overlay, you can use [free space passthrough](uwfoverlay.md#freespacepassthrough) to access your drive's free space.
+- On devices with a disk overlay, you can use [free space passthrough)](uwfoverlay.md#freespace-passthrough-recommended) to access your drive's free space.
 
 - UWF supports paging to increase virtual memory, if the page file exists on an unprotected volume. When paging is used together with a RAM-based overlay, the uptime of the system can be increased.
 

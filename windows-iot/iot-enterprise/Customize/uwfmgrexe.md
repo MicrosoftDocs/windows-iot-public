@@ -184,9 +184,9 @@ The following list describes the options and sub-options that are available to u
     - Sets the overlay size, in megabytes, at which the driver issues critical notifications for the current session.
     - [UWF_Overlay.SetCriticalThreshold](uwf-overlaysetcriticalthreshold.md)
   - *Set-Passthrough* *<on/off>*
-    - Turns the [freespace passthrough](uwfoverlay.md#freespacepassthrough) on or off, allowing UWF to use free space outside of the reserved space when available.
+    - Turns the [free space passthrough](uwfoverlay.md#freespace-passthrough-recommended) on or off, allowing UWF to use free space outside of the reserved space when available.
   - *Set-Persistent* *<on/off>*
-    - Sets the overlay as a [persistent overlay](uwfoverlay.md#persistentoverlay), allowing users to keep using their data after a reboot.
+    - Sets the overlay as a [persistent overlay](uwfoverlay.md#persistent-overlay), allowing users to keep using their data after a reboot.
   - *Reset-PersistentState* *<on/off>*
     - Clears a persistent overlay on the next boot (on/off).
 
