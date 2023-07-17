@@ -13,8 +13,7 @@ ms.technology: iot
 # Lab 4: Sysprep, capture and deploy
 
 Now that the reference IoT device has been customized with software and settings, the system is prepared for mass deployment using Sysprep and then captured to a WIM using DISM. This is the WIM image used during manufacturing to deploy to new systems. 
- 
->[!Note] 
+> [!NOTE]
 >The steps below use a combination of WinPE and DISM to complete the capture process. These tools are freely available from Microsoft. Some tools, like DISM, are included with all Windows installations. Many 3rd party tools also offer image capture and deployment that might work better for your deployment strategy. Choose the tool that is right for your device scenario.
  
 For a fully automated approach to these steps, consider using the [Windows 10 IoT Enterprise deployment framework](https://github.com/ms-iot/windows-iotent-deploy). 
