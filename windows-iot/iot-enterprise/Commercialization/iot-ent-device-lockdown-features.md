@@ -15,11 +15,11 @@ ms.technology: iot
 
 In labs [1a](iot-ent-create-a-basic-image.md) and [1b](iot-ent-customize-the-reference-device-in-audit-mode.md) we installed the OS onto a reference device and made customizations in audit mode. This lab describes several ways lock down your device using device lockdown features that are built in to Windows. The device lockdown features aren't listed in any particular order, and you can enable some, all, or none of the features, depending on the device you're building.
 
->[!Note]
->This lab is optional. You can build an IoT Enterprise device without enabling any of the features described in this lab. If you aren't implementing any of these features, you can continue to [Lab 3](iot-ent-configure-policy-settings.md). 
+> [!NOTE]
+> This lab is optional. You can build an IoT Enterprise device without enabling any of the features described in this lab. If you aren't implementing any of these features, you can continue to [Lab 3](iot-ent-configure-policy-settings.md). 
  
 For a fully automated approach to these steps consider using the [Windows 10 IoT Enterprise deployment framework](https://github.com/ms-iot/windows-iotent-deploy).
- 
+
 ## Prerequisites 
 
 Complete Lab 1a: Create a basic image. 
@@ -38,8 +38,8 @@ Keyboard filter keys are stored in the Registry at **HKEY_LOCAL_MACHINE\SOFTWARE
 
 There are several methods to enable the Keyboard Filter, we're providing instructions for one of those methods in this lab.  
  
->[!Note]
->See [Keyboard Filter](/windows-hardware/customize/enterprise/keyboardfilter) for more information.
+> [!NOTE]
+> See [Keyboard Filter](/windows-hardware/customize/enterprise/keyboardfilter) for more information.
  
  
 1. Enable the Keyboard Filter feature by running the following command from an Administrative Command Prompt:
@@ -103,12 +103,11 @@ Once you've enabled the keyboard filter, see [Keyboard filter PowerShell script 
     uwfmgr filter disable  
     ```
 
->[!Note]
->When using the Unified Write Filter you must take into consideration the Operating System product activation. Product activation must be done with the Unified Write Filter disabled. Also, when cloning the image to other devices the image needs to be in a Sysprep state and the filter disabled prior to capturing the image. 
- 
+> [!NOTE]
+> When using the Unified Write Filter you must take into consideration the Operating System product activation. Product activation must be done with the Unified Write Filter disabled. Also, when cloning the image to other devices the image needs to be in a Sysprep state and the filter disabled prior to capturing the image.
 
 ## Unbranded boot
- 
+
 ### Unbranded boot overview
 
 [Unbranded boot](/windows-hardware/customize/enterprise/unbranded-boot) allows you to suppress Windows elements that appear when Windows starts or resumes, and can suppress the crash screen when Windows encounters an error that it can't recover from.
@@ -122,9 +121,9 @@ Once you've enabled the keyboard filter, see [Keyboard filter PowerShell script 
     DISM /online /Enable-Feature /FeatureName:Client-EmbeddedBootExp 
     ```
 
-2. Restart the reference device 
+2. Restart the reference device
  
-### Configure Unbranded Boot settings at runtime using BCDEdit 
+### Configure Unbranded Boot settings at runtime using BCDEdit
 
 You can customize Unbranded boot from an Administrative Command prompt in the following ways:
  
@@ -146,8 +145,8 @@ You can customize Unbranded boot from an Administrative Command prompt in the fo
     bcdedit.exe -set {globalsettings} bootuxdisabled on 
     ```
 
->[!note]
->Anytime you rebuild the BCD information, for example using bcdboot, you'll have to re-run the above commands.
+> [!NOTE]
+> Anytime you rebuild the BCD information, for example using bcdboot, you'll have to re-run the above commands.
 
 ## Custom Logon 
  
@@ -155,8 +154,8 @@ You can use the [Custom Logon](/windows-hardware/customize/enterprise/custom-log
  
 See [Custom logon](/windows-hardware/customize/enterprise/custom-logon) for more information.
  
->[!Note]
->Custom Logon feature will not work on images that are using a blank or evaluation product key. You must use a valid Product Key to see the changes made with the below commands.
+> [!NOTE]
+> Custom Logon feature will not work on images that are using a blank or evaluation product key. You must use a valid Product Key to see the changes made with the below commands.
 
 1. Enable the Custom Logon feature by running the following command at an Administrative Command Prompt:
 
