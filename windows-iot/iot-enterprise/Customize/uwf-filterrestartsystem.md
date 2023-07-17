@@ -1,6 +1,6 @@
 ---
-title: UWF\_Filter.RestartSystem
-description: UWF\_Filter.RestartSystem
+title: UWF_Filter.RestartSystem
+description: UWF_Filter.RestartSystem
 MSHAttr:
 - 'PreferredSiteName:MSDN'
 - 'PreferredLib:/library/windows/hardware'
@@ -14,7 +14,7 @@ ms.topic: article
 
 
 ---
-# UWF\_Filter.RestartSystem
+# UWF_Filter.RestartSystem
 
 Safely restarts a system protected by UWF, even if the overlay is full.
 
@@ -45,13 +45,13 @@ If the overlay becomes full while the system is performing a large amount of wri
 
 | Windows Edition       | Supported |
 |:----------------------|:----------|
-| Windows 10 Home       | No        |
-| Windows 10 Pro        | No        |
-| Windows 10 Enterprise | Yes       |
-| Windows 10 Education  | Yes       |
+| Windows 10/11 Home       | No        |
+| Windows 10/11 Pro        | No        |
+| Windows 10/11 Enterprise | Yes       |
+| Windows 10/11 Education  | Yes       |
+| Windows 10/11 IoT Ennterprise | Yes |
 
 ## Related topics
 
-[UWF\_Filter](uwf-filter.md)
-
-[Unified Write Filter](unified-write-filter.md)
+- [UWF_Filter](uwf-filter.md)
+- [Unified Write Filter](unified-write-filter.md)
