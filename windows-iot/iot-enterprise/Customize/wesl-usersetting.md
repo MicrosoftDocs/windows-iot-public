@@ -66,167 +66,27 @@ class WESL_UserSetting {
 
 The following tables list any methods and properties that belong to this class.
 
-### <a href="" id="mth"></a>Methods
+### Methods
 
-<table>
-<colgroup>
-<col width="50%" />
-<col width="50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Methods</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p><a href="wesl-usersettingsetcustomshell.md" data-raw-source="[WESL_UserSetting.SetCustomShell](wesl-usersettingsetcustomshell.md)">WESL_UserSetting.SetCustomShell</a></p></td>
-<td><p>Configures Shell Launcher for a specific user or group, based on SID.</p></td>
-</tr>
-<tr class="even">
-<td><p><a href="wesl-usersettinggetcustomshell.md" data-raw-source="[WESL_UserSetting.GetCustomShell](wesl-usersettinggetcustomshell.md)">WESL_UserSetting.GetCustomShell</a></p></td>
-<td><p>Retrieves the Shell Launcher configuration for a specific user or group, based on the SID.</p></td>
-</tr>
-<tr class="odd">
-<td><p><a href="wesl-usersettingremovecustomshell.md" data-raw-source="[WESL_UserSetting.RemoveCustomShell](wesl-usersettingremovecustomshell.md)">WESL_UserSetting.RemoveCustomShell</a></p></td>
-<td><p>Removes a Shell Launcher configuration for a specific user or group, based on the SID.</p></td>
-</tr>
-<tr class="even">
-<td><p><a href="wesl-usersettinggetdefaultshell.md" data-raw-source="[WESL_UserSetting.GetDefaultShell](wesl-usersettinggetdefaultshell.md)">WESL_UserSetting.GetDefaultShell</a></p></td>
-<td><p>Retrieves the default Shell Launcher configuration.</p></td>
-</tr>
-<tr class="odd">
-<td><p><a href="wesl-usersettingsetdefaultshell.md" data-raw-source="[WESL_UserSetting.SetDefaultShell](wesl-usersettingsetdefaultshell.md)">WESL_UserSetting.SetDefaultShell</a></p></td>
-<td><p>Sets the default Shell Launcher configuration.</p></td>
-</tr>
-<tr class="even">
-<td><p><a href="wesl-usersettingisenabled.md" data-raw-source="[WESL_UserSetting.IsEnabled](wesl-usersettingisenabled.md)">WESL_UserSetting.IsEnabled</a></p></td>
-<td><p>Retrieves a value that indicates if Shell Launcher is enabled or disabled.</p></td>
-</tr>
-<tr class="odd">
-<td><p><a href="wesl-usersettingsetenabled.md" data-raw-source="[WESL_UserSetting.SetEnabled](wesl-usersettingsetenabled.md)">WESL_UserSetting.SetEnabled</a></p></td>
-<td><p>Enables or disables Shell Launcher.</p></td>
-</tr>
-</tbody>
-</table>
+| Methods | Description |
+|---------|-------------|
+| [WESL_UserSetting.SetCustomShell](wesl-usersettingsetcustomshell.md) | Configures Shell Launcher for a specific user or group, based on SID. |
+| [WESL_UserSetting.GetCustomShell](wesl-usersettinggetcustomshell.md) | Retrieves the Shell Launcher configuration for a specific user or group, based on the SID. |
+| [WESL_UserSetting.RemoveCustomShell](wesl-usersettingremovecustomshell.md) | Removes a Shell Launcher configuration for a specific user or group, based on the SID. |
+| [WESL_UserSetting.GetDefaultShell](wesl-usersettinggetdefaultshell.md) | Retrieves the default Shell Launcher configuration. |
+| [WESL_UserSetting.SetDefaultShell](wesl-usersettingsetdefaultshell.md) | Sets the default Shell Launcher configuration. |
+| [WESL_UserSetting.IsEnabled](wesl-usersettingisenabled.md) | Retrieves a value that indicates if Shell Launcher is enabled or disabled. |
+| [WESL_UserSetting.SetEnabled](wesl-usersettingsetenabled.md) | Enables or disables Shell Launcher. |
 
-### <a href="" id="pro"></a>Properties
+### Properties
 
-<table>
-<colgroup>
-<col width="25%" />
-<col width="25%" />
-<col width="25%" />
-<col width="25%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Property</th>
-<th>Data type</th>
-<th>Qualifiers</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>**Sid**</p></td>
-<td><p>string</p></td>
-<td><p>[read, write, required]</p></td>
-<td><p>User or group SID.</p></td>
-</tr>
-<tr class="even">
-<td><p>**shell**</p></td>
-<td><p>string</p></td>
-<td><p>[read, write, required]</p></td>
-<td><p>The application to start as the shell.</p>
-<p>The **shell** property can be a filename in the *Path* environment variable, or it can contain a fully qualified path to the application. You can also use environment variables in the path.</p>
-<p>Any spaces in the **shell** property must be part of a quote-delimited string.</p></td>
-</tr>
-<tr class="odd">
-<td><p>**CustomReturnCodes**</p></td>
-<td><p>Sint32[]</p></td>
-<td><p>[read, write]</p></td>
-<td><p>An array of custom return codes that can be returned by the shell.</p></td>
-</tr>
-<tr class="even">
-<td><p>**CustomReturnCodesAction**</p></td>
-<td><p>Sint32[]</p></td>
-<td><p>[read, write]</p></td>
-<td><p>An array of custom return code actions that determine what action Shell Launcher takes when the shell exits. The custom actions map to the array of **CustomReturnCodes**.</p>
-<p>The possible actions are defined in the following table:</p>
-<table>
-<colgroup>
-<col width="50%" />
-<col width="50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Value</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>0</p></td>
-<td><p>Restart the shell.</p></td>
-</tr>
-<tr class="even">
-<td><p>1</p></td>
-<td><p>Restart the device.</p></td>
-</tr>
-<tr class="odd">
-<td><p>2</p></td>
-<td><p>Shut down the device.</p></td>
-</tr>
-<tr class="even">
-<td><p>3</p></td>
-<td><p>Do nothing.</p></td>
-</tr>
-</tbody>
-</table>
-<p> </p></td>
-</tr>
-<tr class="odd">
-<td><p>**DefaultAction**</p></td>
-<td><p>Sint32</p></td>
-<td><p>[read, write]</p></td>
-<td><p>The default action Shell Launcher takes when the shell exits.</p>
-<p>The possible actions are defined in the following table:</p>
-<table>
-<colgroup>
-<col width="50%" />
-<col width="50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Value</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>0</p></td>
-<td><p>Restart the shell.</p></td>
-</tr>
-<tr class="even">
-<td><p>1</p></td>
-<td><p>Restart the device.</p></td>
-</tr>
-<tr class="odd">
-<td><p>2</p></td>
-<td><p>Shut down the device.</p></td>
-</tr>
-<tr class="even">
-<td><p>3</p></td>
-<td><p>Do nothing.</p></td>
-</tr>
-</tbody>
-</table>
-<p> </p></td>
-</tr>
-</tbody>
-</table>
+| Property | Data&nbsp;type | Qualifiers | Description |
+|----------|----------------|------------|-------------|
+| **Sid** | string | [read, write, required] | User or group SID. |
+| **shell** | string | [read, write, required] | The application to start as the shell.</br>The **shell** property can be a filename in the *Path* environment variable, or it can contain a fully qualified path to the application. You can also use environment variables in the path.</br>Any spaces in the **shell** property must be part of a quote-delimited string. |
+| **CustomReturnCodes** | Sint32[] |[read, write] | An array of custom return codes that can be returned by the shell. |
+| **CustomReturnCodesAction** | Sint32[] | [read, write] | An array of custom return code actions that determine what action Shell Launcher takes when the shell exits. The custom actions map to the array of **CustomReturnCodes**.</br>The possible actions are:</br>0 - Restart the shell.</br>1 - Restart the device.</br>2 - Shut down the device.</br>3 - Do nothing. |
+| **DefaultAction** | Sint32 | [read, write] | The default action Shell Launcher takes when the shell exits.</br>The possible actions are defined as follows:</br>0 - Restart the shell.</br>1 - Restart the device.</br>2 - Shut down the device.</br>3 - Do nothing. |
 
 ### Remarks
 
@@ -320,4 +180,4 @@ $ShellLauncherClass.RemoveCustomShell($Cashier_SID)
 
 ## Related topics
 
-[Shell Launcher](shell-launcher.md)
+- [Shell Launcher](shell-launcher.md)
