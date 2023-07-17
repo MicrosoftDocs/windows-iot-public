@@ -1,6 +1,6 @@
 ---
-title: UWF\_OverlayConfig.SetMaximumSize
-description: UWF\_OverlayConfig.SetMaximumSize
+title: UWF_OverlayConfig.SetMaximumSize
+description: UWF_OverlayConfig.SetMaximumSize
 MSHAttr:
 - 'PreferredSiteName:MSDN'
 - 'PreferredLib:/library/windows/hardware'
@@ -14,7 +14,7 @@ ms.topic: article
 
 
 ---
-# UWF\_OverlayConfig.SetMaximumSize
+# UWF_OverlayConfig.SetMaximumSize
 
 Sets the maximum cache size of the Unified Write Filter (UWF) overlay.
 
@@ -28,7 +28,7 @@ UInt32 SetMaximumSize(
 
 ## Parameters
 
-<a href="" id="size"></a>*size*
+*size*
 An integer that represents the maximum cache size, in megabytes, of the overlay.
 
 ## Return Value
@@ -41,25 +41,25 @@ When the size of the overlay reaches the *size* value, UWF returns an error for 
 
 If the overlay type is disk-based, your device must meet the following requirements to change the maximum size of the overlay.
 
-* UWF must be disabled in the current session.
-* The *size* value must be at least 1024.
-* The system volume on your device must have available free space greater than the new maximum size value.
+- UWF must be disabled in the current session.
+- The *size* value must be at least 1024.
+- The system volume on your device must have available free space greater than the new maximum size value.
 
 If the overlay type is RAM-based, your device must meet the following requirement to change the maximum size of the overlay.
 
-* UWF must be disabled in the current session.
+- UWF must be disabled in the current session.
 
 ## Requirements
 
 | Windows Edition       | Supported |
 |:----------------------|:----------|
-| Windows 10 Home       | No        |
-| Windows 10 Pro        | No        |
-| Windows 10 Enterprise | Yes       |
-| Windows 10 Education  | Yes       |
+| Windows 10/11 Home       | No        |
+| Windows 10/11 Pro        | No        |
+| Windows 10/11 Enterprise | Yes       |
+| Windows 10/11 Education  | Yes       |
+| Windows 10/11 IoT Enterprise | Yes |
 
 ## Related topics
 
-[UWF\_OverlayConfig](uwf-overlayconfig.md)
-
-[Unified Write Filter](unified-write-filter.md)
+- [UWF_OverlayConfig](uwf-overlayconfig.md)
+- [Unified Write Filter](unified-write-filter.md)
