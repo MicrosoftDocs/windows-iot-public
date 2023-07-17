@@ -12,7 +12,7 @@ ms.technology: iot
 
 # Lab 1a: Create a basic image (iot-ent-create-a-basic-image)
 
-To get started, we walk through installing a basic Windows 10 IoT Enterprise image onto a device. This ensures that everything's working before we move on to adding customizations. This lab is a prerequisite  for completing all of the other labs in this section, as the other labs build on this first basic image.
+To get started, we walk through installing a basic Windows 10 IoT Enterprise image onto a device to make sure everything is working before we move on to adding customizations. This lab is a prerequisite  for completing all of the other labs in this section, as the other labs build on this first basic image.
 
 ## What you need to complete this series of labs
 
@@ -22,7 +22,7 @@ See [Get the tools you need to create an IoT Enterprise image](iot-ent-get-the-t
 
 ### Install Windows onto a reference device
 
-This section covers how to create bootable Windows installation flash drive, and then installs it onto a device so it's ready to be customized.
+This section covers how to create bootable Windows installation flash drive for use during installation.
 
 #### Create a bootable flash drive
 
@@ -31,13 +31,13 @@ The typical way to install Windows is to create a bootable flash drive, and then
 Here's how to prepare the installation flash drive:
 
 1. Insert a flash drive into your Technician PC
-2. Open an Administrative Command Prompt and run `diskpart`:
+1. Open an Administrative Command Prompt and run `diskpart`:
 
    ```console
    diskpart
    ```
 
-3. Use `diskpart` to list the disks so you can identify the flash drive:
+1. Use `diskpart` to list the disks so you can identify the flash drive:
 
    ```console
    list disk
@@ -54,7 +54,7 @@ Here's how to prepare the installation flash drive:
 
    In this example, Disk 1 is our flash drive, because the size represents the size of the flash drive that we're using.
 
-4. When you've identified the disk number of your flash drive, use `diskpart` to prepare the drive so you can use it as a bootable installation drive:
+1. When you've identified the disk number of your flash drive, use `diskpart` to prepare the drive so you can use it as a bootable installation drive:
 
     > [!WARNING]
     >The following commands will erase everything on the flash drive.
@@ -72,7 +72,7 @@ Here's how to prepare the installation flash drive:
     exit
     ```
 
-5. Copy the entire contents of the Windows IoT Enterprise ISO or DVD onto the root of the flash drive. You can use File explorer to manually copy the files.  
+1. Copy the entire contents of the Windows IoT Enterprise ISO or DVD onto the root of the flash drive. You can use File explorer to manually copy the files.  
 
 #### Install Windows from the flash drive onto your IoT device and boot into Audit mode
 
@@ -83,24 +83,24 @@ We recommend not having your device connected to any network during Windows Setu
 ##### Boot the device to Windows Setup
 
 1. Move the flash drive from the Technician PC to the powered down IoT device.
-2. Turn on your IoT device and enter the device's boot menu. Your device has a specific button combination or keyboard key to press to get to the boot menu. If you don't know how to get to your device's boot menu, consult your hardware documentation.  
-3. From the boot menu, select the flash drive to boot from. Your device boots from the flash drive and enter into the Windows Setup.
+1. Turn on your IoT device and enter the device's boot menu. Your device has a specific button combination or keyboard key to press to get to the boot menu. You may need to consult your hardware documentation if you aren't familiar with how to get to your device's boot menu.  
+1. From the boot menu, select the flash drive to boot from. Your device boots from the flash drive and enter into the Windows Setup.
 
 ##### Install Windows with Windows Setup
 
 1. Step through the Windows Setup menus, providing the requested information. Choose the settings, such as language, time and currency, and keyboard options that apply to your device and select to the next screen.
-2. On the "Install now" screen, select on **Install now**.
-3. On the Activate Windows screen, insert a valid product key. If you don't have a valid product key select "I don't have a product key".  
-4. On the Application notices and license terms screen, if the terms are acceptable check the checkbox that you accept the license terms and then select **Next**.  
-5. On the "Which type of installation do you want" screen, select **Custom: Install Windows only**. This starts a clean installation
-6. In the "Where do you want to install Windows?" screen, if the device has existing partitions, we recommend deleting the partitions so you have a single block on unallocated space to start from, then select **Next** to start the installation.
-7. While the Operating System is being installed the device may restart a couple of time. Wait until the IoT device has entered OOBE (Out Of Box Experience) and is showing a screen that says "Let's start with region. Is this right?".
+1. On the "Install now" screen, select on **Install now**.
+1. On the Activate Windows screen, insert a valid product key.  Select **I don't have a product key** if you don't have a product key.  
+1. On the Application notices and license terms screen, if the terms are acceptable check the checkbox that you accept the license terms and then select **Next**.  
+1. On the "Which type of installation do you want" screen, select **Custom: Install Windows only**. This option starts a clean installation
+1. In the "Where do you want to install Windows?" screen, if the device has existing partitions, we recommend deleting the partitions so you have a single block on unallocated space to start from, then select **Next** to start the installation.
+1. Your device restarts a couple of times during the operating system installation. Wait until the IoT device has entered OOBE (Out Of Box Experience) and is showing a screen that says **Let's start with region.**.
 
 ##### Enter Audit Mode
 
 1. From the first OOBE screen, use the **CTRL+SHIFT+F3** combination on your keyboard to enter Audit mode.
-2. Your device should restart in Audit mode. You know you're in Audit mode when you see a System Preparation Tool window. Select **Cancel** on the System Preparation Tool to close it.
-3. Every time you reboot the system you'll see the System Preparation Tool, also called Sysprep.  In a future lab you'll be invoking the Sysprep utility to get the system out of Audit mode. Refer to lab 1b for more information on Audit mode.
+1. Your device should restart in Audit mode. You know you're in Audit mode when you see a System Preparation Tool window. Select **Cancel** on the System Preparation Tool to close it.
+1. Every time you reboot the system you see the System Preparation Tool, also called Sysprep.  In a future lab, you invoke the Sysprep utility to get the system out of Audit mode. For more information on Audit mode, see [Lab 1b - Customize a reference device in Audit mode](iot-ent-customize-the-reference-device-in-audit-mode.md).
 
 ## Next steps
 
