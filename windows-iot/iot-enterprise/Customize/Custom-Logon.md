@@ -18,7 +18,7 @@ ms.topic: article
 
 You can use the Custom Logon feature to suppress Windows UI elements that relate to the Welcome screen and shutdown screen. For example, you can suppress all elements of the Welcome screen UI and provide a custom logon UI. You can also suppress the Blocked Shutdown Resolver (BSDR) screen and automatically end applications while the OS waits for applications to close before a shutdown.
 
-Custom Logon settings do not modify the credential behavior of **Winlogon**, so you can use any credential provider that is compatible with Windows 10 to provide a custom sign-in experience for your device. For more information about creating a custom logon experience, see [Winlogon and Credential Providers](/windows/win32/secauthn/winlogon-and-credential-providers).
+Custom Logon settings don't modify the credential behavior of **Winlogon**, so you can use any credential provider that is compatible with Windows 10 to provide a custom sign-in experience for your device. For more information about creating a custom logon experience, see [Winlogon and Credential Providers](/windows/win32/secauthn/winlogon-and-credential-providers).
 
 ## Requirements
 
@@ -26,9 +26,9 @@ Windows 10 Enterprise or Windows 10 Education.
 
 ## Terminology
 
-**Turn on, enable:** To make the setting available to the device and optionally apply the settings to the device. Generally *turn on* is used in the user interface or control panel, whereas *enable* is used for command line.
+**Turn on, enable:** To make the feature available and optionally apply settings to the device. Generally *turn on* is used in the user interface or control panel, whereas *enable* is used for command line.
 
-**Configure:** To customize the setting or sub-settings.
+**Configure:** To customize the setting or subsettings.
 
 **Embedded Logon:** This feature is called Embedded Logon in Windows 10, version 1511.
 
@@ -36,7 +36,7 @@ Windows 10 Enterprise or Windows 10 Education.
 
 ## Turn on Custom Logon
 
-Custom Logon is an optional component and is not turned on by default in Windows 10. It must be turned on prior to configuring. You can turn on and configure Custom Logon in a customized Windows 10 image (.wim) if Microsoft Windows has not been installed. If Windows has already been installed and you are applying a provisioning package to configure Custom Logon, you must first turn on Custom Logon in order for a provisioning package to be successfully applied.
+Custom Logon is an optional component and isn't turned on by default in Windows 10. It must be turned on prior to configuring. You can turn on and configure Custom Logon in a customized Windows 10 image (.wim) if Microsoft Windows hasn't been installed. If Windows has already been installed and you're applying a provisioning package to configure Custom Logon, you must first turn on Custom Logon in order for a provisioning package to be successfully applied.
 
 The Custom Logon feature is available in the Control Panel. You can set Custom Logon by following these steps:
 
@@ -48,7 +48,7 @@ The Custom Logon feature is available in the Control Panel. You can set Custom L
 ### Turn on and configure Custom Logon using DISM
 
 1. Open a command prompt with administrator rights.
-1. Copy install.wim to a temporary folder on hard drive (in the following steps, we'll assume it's called C:\\wim).
+1. Copy install.wim to a temporary folder on hard drive (in the following steps, we assume it's called C:\\wim).
 1. Create a new directory.
 
     ```cmd
@@ -91,7 +91,7 @@ The following example shows how to disable all Welcome screen UI elements and th
 </settings>
 ```
 
-## Related topics
+## Related articles
 
 - [Complementary features to Custom Logon](complementary-features-to-custom-logon.md)
 - [Troubleshooting Custom Logon](troubleshooting-custom-logon.md)
