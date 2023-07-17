@@ -12,7 +12,7 @@ keywords: Filtering and Controlling, USB Access
 
 # Device Safeguards
 
-Windows IoT Enterprise gives you the power as the administrator of your devices to set certain policies to protect your IoT devices. Whether that be against device tampering, malware infections, data loss, or preventing peripherals from gaining access to your device, Windows IoT Enterprise gives you the power to create a customized experience that safeguards against these threats.
+Windows IoT Enterprise provides you, the device administrator, certain policies to protect your IoT devices from tampering, malware infections, data loss, or preventing peripherals from gaining access to your device. Windows IoT Enterprise gives you the power to create a customized experience that safeguards against these threats.
 
 In a Windows IoT device restrictions profile, most configurable settings are deployed at the device level using device groups.
 
@@ -37,7 +37,7 @@ Microsoft recommends [a layered approach to securing removable media](https://ak
       - The Attack Surface Reduction (ASR) USB rule to block untrusted and unsigned processes that run from USB.  
       - Direct Memory Access (DMA) protection settings to mitigate DMA attacks, including Kernel DMA Protection for Thunderbolt and blocking DMA until a user signs in.  
 
-1. [Create customized alerts and response actions](/windows/security/threat-protection/device-control/control-usb-devices-using-intune#create-customized-alerts-and-response-actions) to monitor usage of removable devices based on these plug and play events or any other Microsoft Defender for Endpoint events with [custom detection rules](/windows/security/threat-protection/microsoft-defender-atp/custom-detection-rules).
+1. [Create customized alerts and response actions](/windows/security/threat-protection/device-control/control-usb-devices-using-intune#create-customized-alerts-and-response-actions) to monitor usage of removable devices based on these plug and play events. You can also monitor other Microsoft Defender for Endpoint events with [custom detection rules](/windows/security/threat-protection/microsoft-defender-atp/custom-detection-rules).
 
 1. [Respond to threats](/windows/security/threat-protection/device-control/control-usb-devices-using-intune#respond-to-threats) from peripherals in real-time based on properties reported by each peripheral.
 
@@ -63,25 +63,25 @@ If your organization manages devices through mobile device management, we recomm
 You can use Device Manager to look up a device ID.
 
 1. Open Device Manager.
-1. Click **View** and select **Devices by connection**.
+1. Select **View** and select **Devices by connection**.
 1. From the tree, right-click the device and select **Properties**.
-1. In the dialog box for the selected device, click the **Details** tab.
-1. Click the **Property** drop-down list and select **Hardware Ids**.
+1. In the dialog box for the selected device, select the **Details** tab.
+1. Select the **Property** drop-down list and select **Hardware Ids**.
 1. Right-click the top ID value and select **Copy**.
 
 For information about Device ID formats, see [Standard USB Identifiers](/windows-hardware/drivers/install/standard-usb-identifiers).
 
 For information on vendor IDs, see [USB members](https://www.usb.org/members).
 
-The following is an example for looking up a device vendor ID or product ID (which is part of the device ID) using PowerShell:
+Use the following PowerShell script to look up a device vendor ID or product ID (which is part of the device ID).
 
-```psh
+```powershell
 PowerShell
 Get-WMIObject -Class Win32_DiskDrive |
 Select-Object -Property *
 ```
 
-## Additional Resources
+## Related articles
 
 - [Policy CSP - DeviceInstallation](/windows/client-management/mdm/policy-csp-deviceinstallation)
 - [Defender/AllowFullScanRemovableDriveScanning](/windows/client-management/mdm/policy-csp-defender#defender-allowfullscanremovabledrivescanning)
