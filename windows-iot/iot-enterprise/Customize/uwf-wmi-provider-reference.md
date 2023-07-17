@@ -39,7 +39,13 @@ This section describes the WMI provider classes for UWF.
 
 ## Requirements
 
-Windows 10 Enterprise, Windows 10 Education, or Windows 10 IoT Core Enterprise
+| Windows Edition        | Supported |
+|:-----------------------|:---------:|
+| Windows Home           | No        |
+| Windows Pro            | No        |
+| Windows Enterprise     | Yes       |
+| Windows Education      | Yes       |
+| Windows IoT Enterprise | Yea       |
 
 ## Related topics
 

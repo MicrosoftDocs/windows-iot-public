@@ -42,72 +42,23 @@ This method configures Shell Launcher for a specific user or group, based on the
 
 The possible actions are defined in the following table:
 
-<table>
-<colgroup>
-<col width="50%" />
-<col width="50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Value</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>0</p></td>
-<td><p>Restart the shell.</p></td>
-</tr>
-<tr class="even">
-<td><p>1</p></td>
-<td><p>Restart the device.</p></td>
-</tr>
-<tr class="odd">
-<td><p>2</p></td>
-<td><p>Shut down the device.</p></td>
-</tr>
-<tr class="even">
-<td><p>3</p></td>
-<td><p>Do nothing.</p></td>
-</tr>
-</tbody>
-</table>
+| Value | Description |
+|:-----:|-------------|
+| 0 | Restart the shell. |
+| 1 | Restart the device. |
+| 2 | Shut down the device. |
+| 3 | Do nothing. |
 
-<a href="" id="defaultaction"></a>DefaultAction
-\[In\] The default action that Shell Launcher takes when the shell application exits.
+**DefaultAction**</br>\[In\] The default action that Shell Launcher takes when the shell application exits.
 
 The possible actions are defined in the following table:
 
-<table>
-<colgroup>
-<col width="50%" />
-<col width="50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Value</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>0</p></td>
-<td><p>Restart the shell.</p></td>
-</tr>
-<tr class="even">
-<td><p>1</p></td>
-<td><p>Restart the device.</p></td>
-</tr>
-<tr class="odd">
-<td><p>2</p></td>
-<td><p>Shut down the device.</p></td>
-</tr>
-<tr class="even">
-<td><p>3</p></td>
-<td><p>Do nothing.</p></td>
-</tr>
-</tbody>
-</table>
+| Value | Description |
+|:-----:|-------------|
+| 0 | Restart the shell.|
+| 1 | Restart the device. |
+| 2 | Shut down the device. |
+| 3 | Do nothing. |
 
 ## Return Value
 
@@ -121,15 +72,15 @@ If the return value does not exist in *CustomReturnCodes*, or if the correspondi
 
 ## Requirements
 
-| Windows Edition       | Supported |
-|:----------------------|:----------|
-| Windows 10 Home       | No        |
-| Windows 10 Pro        | No        |
-| Windows 10 Enterprise | Yes       |
-| Windows 10 Education  | Yes       |
+| Windows Edition        | Supported |
+|:-----------------------|:---------:|
+| Windows Home           | No        |
+| Windows Pro            | No        |
+| Windows Enterprise     | Yes       |
+| Windows Education      | Yes       |
+| Windows IoT Enterprise | Yea       |
 
 ## Related topics
 
-[WESL_UserSetting](wesl-usersetting.md)
-
-[Shell Launcher](shell-launcher.md)
+- [WESL_UserSetting](wesl-usersetting.md)
+- [Shell Launcher](shell-launcher.md)

@@ -43,13 +43,13 @@ If the overlay becomes full while the system is performing a large amount of wri
 
 ## Requirements
 
-| Windows Edition       | Supported |
-|:----------------------|:----------|
-| Windows 10/11 Home       | No        |
-| Windows 10/11 Pro        | No        |
-| Windows 10/11 Enterprise | Yes       |
-| Windows 10/11 Education  | Yes       |
-| Windows 10/11 IoT Ennterprise | Yes |
+| Windows Edition        | Supported |
+|:-----------------------|:---------:|
+| Windows Home           | No        |
+| Windows Pro            | No        |
+| Windows Enterprise     | Yes       |
+| Windows Education      | Yes       |
+| Windows IoT Enterprise | Yea       |
 
 ## Related topics
 

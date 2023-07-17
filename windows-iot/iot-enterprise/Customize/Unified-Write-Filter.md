@@ -48,13 +48,13 @@ UWF replaces the Windows 7 Enhanced Write Filter (EWF) and the File Based Write 
 
 ## Requirements
 
-Supported Operating Systems
-
-- Windows 10/11 Enterprise
-- Windows 10/11 IoT Enterprise
-- Windows 10 Enterprise LTSC
-- Windows 10 IoT Enterprise LTSC
-- Windows 10 IoT Core
+| Windows Edition        | Supported |
+|:-----------------------|:---------:|
+| Windows Home           | No        |
+| Windows Pro            | No        |
+| Windows Enterprise     | Yes       |
+| Windows Education      | Yes       |
+| Windows IoT Enterprise | Yea       |
 
 ## Limitations
 

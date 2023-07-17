@@ -62,13 +62,13 @@ You should also be aware of the following items when you use the **GetOverlayFil
 
 ## Requirements
 
-| Windows Edition       | Supported |
-|:----------------------|:----------|
-| Windows 10/11 Home       | No        |
-| Windows 10/11 Pro        | No        |
-| Windows 10/11 Enterprise | Yes       |
-| Windows 10/11 Education  | Yes       |
-| Windows 10/11 IoT Enterprise | Yes |
+| Windows Edition        | Supported |
+|:-----------------------|:---------:|
+| Windows Home           | No        |
+| Windows Pro            | No        |
+| Windows Enterprise     | Yes       |
+| Windows Education      | Yes       |
+| Windows IoT Enterprise | Yea       |
 
 ## Related topics
 
