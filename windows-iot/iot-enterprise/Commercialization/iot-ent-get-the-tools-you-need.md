@@ -30,7 +30,7 @@ You need the following tools to go through any of the labs in this section and c
 
 Here's how we refer to them:
 
-- Technician PC: Your work PC. This PC should have at least 15 GB of free space for installing the software and for modifying IoT Enterprise images. We recommend using either Windows 10 or Windows 8.1 with the latest updates. The minimum requirement is Windows 7 SP1, though this may require other tools or workarounds for tasks such as mounting .ISO images.
+- Technician PC: Your work PC. This PC should have at least 15 GB of free space for installing the software and for modifying IoT Enterprise images. We recommend using either Windows 10 or Windows 11 with the latest updates.
 
   - Configure the technician PC as follows:
     - [Windows ADK](/windows-hardware/get-started/adk-install) with Deployment Tools, Configuration Designer, and the Windows PE add-on installed
@@ -38,7 +38,7 @@ Here's how we refer to them:
     - Feature on Demand ISO
     - Language Pack ISO
 
-- IoT device: A test device or board that represents all of the devices in a single model line. Depending on the device you'll most likely need a keyboard, mouse and a monitor.
+- IoT device: A test device or board that represents all of the devices in a single model line. Depending on the device you need a keyboard, mouse and a monitor.
 - A USB key that's at least 8 GB in size and that can have all information removed from it
 
 ## Next steps
