@@ -32,8 +32,8 @@ You can additionally customize the update experience on your devices by changing
 To update the accent color:
 
 1. Open the Settings app and navigate to Personalization.
-2. In the menu on the left side, navigate to Colors.
-3. Scroll to the bottom of the page and select a color from the list or use the custom color picker.
+1. In the menu on the left side, navigate to Colors.
+1. Scroll to the bottom of the page and select a color from the list or use the custom color picker.
 
 > [!NOTE]
 >
@@ -44,8 +44,8 @@ To update the accent color:
 A device can be configured in a way to hide the UI experience for Windows Update while letting the service itself run in the background and update the system. The Windows Update client still honors the policies set for configuring Automatic Updates, this policy controls the UI portion of that experience.
 
 1. Open the Group Policy Editor (gpedit.msc) and navigate to **Computer Configuration\Administrative Templates\Windows Components\Windows Update\Display options for update notifications**
-2. Set the policy to **Enabled**.
-3. Specify the update notifications display options to 1 or 2.
+1. Set the policy to **Enabled**.
+1. Specify the update notifications display options to 1 or 2.
 
 > [!TIP]
 >
@@ -53,8 +53,8 @@ A device can be configured in a way to hide the UI experience for Windows Update
 
 ## Additional Resources
 
-* [Windows Updates in Windows IoT Enterprise](../OS-Features/Updates.md)
-* [Manage device restarts after updates](/windows/deployment/update/waas-restart)
-* [Manage additional Windows Update settings](/windows/deployment/update/waas-wu-settings)
-* [Deploy feature updates during maintenance windows](/windows/deployment/update/feature-update-maintenance-window)
-* [Deploy feature updates for user-initiated installations](/windows/deployment/update/feature-update-user-install)
+- [Windows Updates in Windows IoT Enterprise](../OS-Features/Updates.md)
+- [Manage device restarts after updates](/windows/deployment/update/waas-restart)
+- [Manage additional Windows Update settings](/windows/deployment/update/waas-wu-settings)
+- [Deploy feature updates during maintenance windows](/windows/deployment/update/feature-update-maintenance-window)
+- [Deploy feature updates for user-initiated installations](/windows/deployment/update/feature-update-user-install)
