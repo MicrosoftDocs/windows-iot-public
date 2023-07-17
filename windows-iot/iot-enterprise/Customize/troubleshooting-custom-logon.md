@@ -115,6 +115,5 @@ Set the **HideAutoLogonUI** and **AnimationDisabled** settings to **0** (zero). 
 
 ## Related articles
 
-[Custom Logon](custom-logon.md)
-
-[Complementary features to Custom Logon](complementary-features-to-custom-logon.md)
+- [Custom Logon](custom-logon.md)
+- [Complementary features to Custom Logon](complementary-features-to-custom-logon.md)
