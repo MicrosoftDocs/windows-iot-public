@@ -36,7 +36,7 @@ REM OEM can call their custom scripts
 REM at this point through a "call".
 REM
 REM The OEM script should hand control
-REM back to this script once it’s done.
+REM back to this script once complete.
 REM
 REM Any error recovery for OEM script
 REM should be handled outside of this script
