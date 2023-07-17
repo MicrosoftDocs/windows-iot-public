@@ -35,36 +35,12 @@ This method retrieves the default Shell Launcher configuration.
 
 The possible actions are defined in the following table:
 
-<table>
-<colgroup>
-<col width="50%" />
-<col width="50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Value</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>0</p></td>
-<td><p>Restart the shell.</p></td>
-</tr>
-<tr class="even">
-<td><p>1</p></td>
-<td><p>Restart the device.</p></td>
-</tr>
-<tr class="odd">
-<td><p>2</p></td>
-<td><p>Shut down the device.</p></td>
-</tr>
-<tr class="even">
-<td><p>3</p></td>
-<td><p>Do nothing.</p></td>
-</tr>
-</tbody>
-</table>
+| Value | Description |
+|:-----:|-------------|
+| 0 | Restart the shell. |
+| 1 | Restart the device. |
+| 2 | Shut down the device. |
+| 3 | Do nothing. |
 
 ## Return Value
 
@@ -86,6 +62,5 @@ Shell Launcher uses the default configuration when the security identifier (SID)
 
 ## Related topics
 
-[WESL_UserSetting](wesl-usersetting.md)
-
-[Shell Launcher](shell-launcher.md)
+- [WESL_UserSetting](wesl-usersetting.md)
+- [Shell Launcher](shell-launcher.md)
