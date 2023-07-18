@@ -31,7 +31,7 @@ This guide walks you through how to set up your device for real-time performance
    >
    > This will open up your device to vulnerabilities as security patches will not go through. That said, it is necessary as the Windows Update agent does not respect CPU core isolation. We recommend having a plan to ensure device security and install updates during times when the device can be taken down for maintenance
 
-   >[!TIP]
+   > [!TIP]
    >
    > A good example of managing updates during downtime can be found in the UWF documentation: [Service UWF-protected devices](/windows-hardware/customize/enterprise/service-uwf-protected-devices) If you are using UWF and Soft Real-time then this process should take care of the OS update need for both features at the same time.
 
@@ -137,7 +137,7 @@ Environments that use Windows Management Instrumentation (WMI) can use the MDM B
 
 1. Restart the machine to activate the change.
 
->[!TIP]
+> [!TIP]
 >
 > You can use the same script for whatever number of real-time cores you need to have, just replacing the 3 in the second-to-last line with the appropriate number. This will reserve cores starting with the highest core and going downwards. So reserving 3 cores on a 4 core CPU will reserve cores 3, 2, and 1 and leave core 0 for system and non-real-time tasks. Please note that there's no guarantee that the real-time cores are going to remain highest, since the real-time core indices will remain fixed if increasing the CPU core count afterwards.
 
