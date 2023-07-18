@@ -57,10 +57,10 @@ With the On-Screen Keyboard open, select the **Options** key, and choose the opt
 * **Use Text Prediction.** Use this option if you want the On-Screen Keyboard to suggest words for you as you type so you don't need to type each complete word.
 
 > [!NOTE]
-
-> * Text Prediction is available in English, French, Italian, German, and Spanish. If you want to use one of these languages and it isn't installed, install the language files for that language.
-> * If you're using either hovering mode or scanning mode and accidentally minimize the On-Screen Keyboard, you can restore it by pointing to it in the taskbar (for hovering mode) or by pressing the scan key (for scanning mode).
-> * If you minimize the On-Screen Keyboard and switch to tablet mode, use the Task view button to get back to the On-Screen Keyboard.
+>
+> - Text Prediction is available in English, French, Italian, German, and Spanish. If you want to use one of these languages and it isn't installed, install the language files for that language.
+> - If you're using either hovering mode or scanning mode and accidentally minimize the On-Screen Keyboard, you can restore it by pointing to it in the taskbar (for hovering mode) or by pressing the scan key (for scanning mode).
+> - If you minimize the On-Screen Keyboard and switch to tablet mode, use the Task view button to get back to the On-Screen Keyboard.
 
 ## Feature packages
 
@@ -120,7 +120,7 @@ During development, you can use [PowerShell](/windows/iot-core/connect-your-devi
 
 By default, the touch keyboard will use the lower 45% of the screen's height. This may appear too large or small on your device, depending on its size and resolution. You can adjust the height up to a maximum of two-thirds the height of the screen. Any value not in range will be clamped into range. Because this is specified as a floating point value, it allows for pixel-level precision.
 
-Apply the following formula to calculate the percentage: `percentage = (100 * <desired_pixel_height>) / <screen_height>`
+Apply the following formula to calculate the percentage: `percentage = (100 - <desired_pixel_height>) / <screen_height>`
 
 As an example, to change the height to 56.783%, you would set the following registry value:
 

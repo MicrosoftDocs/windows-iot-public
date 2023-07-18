@@ -62,7 +62,7 @@ As mentioned above, Windows 11 IoT Enterprise preserves the application compatib
 
 Windows 11 IoT Enterprise is built on the same foundation as Windows 10 IoT Enterprise. Typically, you can use the same tools and solutions you use today to deploy, manage, and secure your Windows 11 IoT Enterprise device. Your current management tools and processes will also work to manage monthly quality updates for both Windows 10 IoT Enterprise and Windows 11 IoT Enterprise devices.
 
->[!TIP]
+> [!TIP]
 >
 > Please see [Prepare for Windows 11](/windows/whats-new/windows-11-prepare#infrastructure-and-tools) for more details on infrastructure and tools nuanced differences in regards to [on-premises solutions (WSUS)](/windows/whats-new/windows-11-prepare#on-premises-solutions) or [Cloud-based solutions](/windows/whats-new/windows-11-prepare#cloud-based-solutions).
 
@@ -72,7 +72,7 @@ Like Windows 10 IoT Enterprise, Windows 11 IoT Enterprise will receive monthly q
 
 Important servicing-related announcements and information about known issues and safeguard holds can be found on the [Windows release health hub](https://aka.ms/windowsreleasehealth). For more information, see [Servicing and support](/windows/whats-new/windows-11-plan#servicing-and-support).
 
->[!NOTE]
+> [!NOTE]
 >
 > Microsoft does not publish feature updates through Windows Update for devices running Windows 10 IoT Enterprise LTSC.
 >
