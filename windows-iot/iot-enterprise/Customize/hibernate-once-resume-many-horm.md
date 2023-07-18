@@ -18,7 +18,7 @@ ms.topic: article
 
 You can use the Hibernate Once/Resume Many (HORM) feature with Unified Write Filter (UWF) to start your device in a preconfigured state. When HORM is enabled, your system always resumes and restarts from the last saved hibernation file (hiberfil.sys).
 
-A device with HORM enabled can quickly be turned off or shut down, and then restarted into the preconfigured state, even in the event of a sudden power loss.
+A device with HORM enabled can quickly be turned off or shut down, and then restarted into the preconfigured state, even if a sudden power loss.
 
 > [!NOTE]
 > HORM can be used on Unified Extensible Firmware Interface (UEFI) devices running Windows 10, version 1709, or newer versions of Windows, only. In previous Windows versions, the installation procedure for UEFI creates a hidden system partition. Because UWF cannot protect hidden partitions, HORM cannot be used on any devices that contain a hidden partition, including UEFI-capable devices on older versions of Windows.
@@ -33,11 +33,11 @@ On Windows 10, version 21H2 or newer versions of Windows, Read-Only Media mode m
 
 UWF must be enabled before you can enable or disable HORM. UWF must be configured in the following ways to protect the hibernation file from becoming invalid:
 
-- All fixed volumes that are mounted on the system must be protected by UWF.
+- All fixed volumes that are mounted on the system are protected by UWF.
 - Your system must not have any file, folder, or registry exclusions configured for UWF.
-- The UWF overlay must be configured to use RAM mode. HORM does not support disk-backed overlays.
+- The UWF overlay must be configured to use RAM mode. HORM doesn't support disk-backed overlays.
 
-UWF does not filter hibernation files from being written to disk. If you want to protect the preconfigured state of your device, lock down any functionality that can modify the hibernation file. For example, disable hibernation, hybrid sleep, and fast startup on your device for standard user accounts so that the saved hibernation file is not overwritten when entering a sleep, hibernate, or shutdown state.
+UWF doesn't filter hibernation files from being written to disk. If you want to protect the preconfigured state of your device, lock down any functionality that can modify the hibernation file. For example, disable hibernation, hybrid sleep, and fast startup for standard user accounts to prevent the saved hibernation file from being overwritten when entering sleep, hibernate, or shutdown state.
 
 To disable hybrid sleep and fast startup on your device, follow these steps.
 
@@ -59,11 +59,11 @@ To disable fast startup, set the following registry value:
 > Follow the steps in this section carefully. Serious problems might occur if you modify the registry incorrectly. Before you modify it, [back up the registry for restoration](https://support.microsoft.com/help/322756) in case problems occur.
 
 Key: HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\Power  
-Name : HiberbootEnabled  
-Type : DWORD  
-Value : 0 (0 = Disabled、1 = Enabled)
+Name: HiberbootEnabled  
+Type: DWORD  
+Value: 0 (0 = Disabled、1 = Enabled)
 
-### How to prevent Windows from entering hibernation due to the system idle time out or user operations
+### How to prevent Windows from entering hibernation due to the system idle time-out or user operations
 
 Configure the following two policies in Local Group Policy Editor (gpedit.msc):
 
@@ -133,7 +133,7 @@ Disable the policy to show “Hibernation” in the power options menu:
 
     `uwfmgr.exe restart`
 
-1. When HORM is enabled, you cannot change the UWF configuration. To make changes, you must first disable HORM. To disable HORM, type the following command:
+1. When HORM is enabled, you can't change the UWF configuration. To make changes, you must first disable HORM. To disable HORM, type the following command:
 
     `uwfmgr.exe filter disable-horm`
 
@@ -141,16 +141,16 @@ Disable the policy to show “Hibernation” in the power options menu:
 
     `uwfmgr.exe restart`
 
-    The system will restart normally with HORM disabled.
+    The system restarts normally with HORM disabled.
 
 > [!WARNING]
 > Do not uninstall UWF when the filter is enabled or when HORM is enabled, either online or offline by using Windows PE.
 
-## Fix an issue when you cannot disable HORM
+## Fix an issue when you can't disable HORM
 
-In rare circumstances, your device can enter a state where you cannot disable HORM normally.
+In rare circumstances, your device can enter a state where you can't disable HORM normally.
 
-If you cannot disable HORM on your device, use following procedure to resolve this issue:
+If you can't disable HORM on your device, use following procedure to resolve this issue:
 
 1. Start your device in Windows PE.
 1. Type the following command:
