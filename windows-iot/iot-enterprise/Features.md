@@ -13,7 +13,7 @@ keywords: IoT Enterprise, Features, Release
 
 Each Windows 10 IoT Enterprise release offers our latest features, including specific updates made to address customer requests. One of the most obvious benefits of migrating to Windows 10 IoT Enterprise is the continuous value add you’re always getting. As you can see, with each release, Windows just gets better and better.  
 
->[!NOTE]
+> [!NOTE]
 > We are highlighting some of the more prominent new features that have come out in each release of Windows 10 IoT Enterprise – this doesn’t include every new feature, nor does it in include the continuous improvements and enhancements we make to the existing features in the product with each release.  
 
 ## Release 21H2 - October 2021
