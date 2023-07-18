@@ -22,7 +22,7 @@ Unified Write Filter (UWF) is an optional Windows 10 feature that helps to prote
 
 - Provides a clean experience for thin clients and workspaces that have frequent guests, like school, library or hotel computers. Guests can work, change settings, and install software. After the device reboots, the next guest receives a clean experience.
 
-- Increases security and reliability for kiosks, IoT-embedded devices, or other devices where new apps aren't expected to be frequently added.
+- Increases security and reliability where new apps aren't frequently added.
 
 - Can be used to reduce wear on solid-state drives and other write-sensitive media.
 
@@ -38,7 +38,7 @@ UWF replaces the Windows 7 Enhanced Write Filter (EWF) and the File Based Write 
 
 - You can manage UWF directly on a Windows 10 device using [uwfmgr.exe](uwfmgrexe.md), or remotely using MDM tools with the [UnifiedWriteFilter CSP](/windows/client-management/mdm/unifiedwritefilter-csp) or the [UWF WMI](uwf-wmi-provider-reference.md).
 
-- You can [update and service UWF-protected devices](service-uwf-protected-devices.md), either by using UWF servicing mode or by adding file and registry exclusions to specific system areas.
+- You can [update and service UWF-protected devices](service-uwf-protected-devices.md) by using UWF servicing mode or adding file and registry exclusions to specific system areas.
 
 - On Windows 10, version 1803, you can use a [persistent overlay](uwfoverlay.md#persistent-overlay) to allow data saved in the virtual overlay to remain even after a reboot.
 
@@ -73,7 +73,11 @@ UWF replaces the Windows 7 Enhanced Write Filter (EWF) and the File Based Write 
 
 - On a computer on which [UWF is enabled and used to protect drive C](./uwf-turnonuwf.md#turn-on-uwf-on-a-running-pc), you can't permanently set the date and time to a past time. If you make such a change, the original date and time settings will be restored after the computer restarts.
 
-  To work around this issue, you must disable UWF before you change the date and time. To do this, run uwfmgr.exe filter disable.
+  To work around this issue, you must disable UWF before you change the date and time with th the following command.
+
+  ```cmd
+  uwfmgr.exe filter disable
+  ```
 
   > [!NOTE]
   > Do not add the file that retains date and time settings ("%windir%\bootstat.dat") to the [write filter exclusions](./uwfexclusions.md) to work around this issue. Doing this causes Stop error 0x7E (SYSTEM_THREAD_EXCEPTION_NOT_HANDLED) to occur.
@@ -84,7 +88,7 @@ UWF is an optional component and isn't enabled by default in Windows 10. You mu
 
 ## UWF overlay
 
-You can choose where the overlay is stored (RAM or disk), how much space is reserved, whether the overlay persists after a reboot.
+You can choose the type of overlay, reserved space and persistence after a reboot.
 
 To increase uptime, set up monitoring to check if your overlay is filling up. At certain levels, your device can warn users and/or reboot the device.
 
@@ -92,15 +96,23 @@ To learn more, see [UWF Overlay location and size](uwfoverlay.md).
 
 ## Volumes
 
-A volume is a logical unit that represents an area of persistent storage to the file system that is used by the OS. A volume can correspond to a single physical storage device, such as a hard disk, but volumes can also correspond to a single partition on a physical storage device with multiple partitions, or can span across multiple physical storage devices. For example, a collection of hard disks in a RAID array can be represented as a single volume to the OS.
+A volume is a logical unit that represents an area of persistent storage to the file system that is used by the OS such as:
 
-When you configure UWF to protect a volume, you can specify the volume by using either a drive letter or the volume device identifier. To determine the device identifier for a volume, query the **DeviceID** property in the **Win32\_Volume** WMI class.
+- A single physical storage device, such as a hard disk
+- A single partition on a physical storage device with multiple partitions
+- Span across multiple physical storage devices
 
-If you specify a volume using a drive letter, UWF uses *loose binding* to recognize the volume. By using loose binding, drive letters can be assigned to different volumes if the hardware or volume configuration changes. If you specify a volume using the volume device identifier, UWF uses *tight binding* to recognize the volume. By using tight binding, the device identifier is unique to the storage volume and is independent from the drive letter assigned to the volume by the file system.
+For example, a collection of hard disks in a RAID array can be represented as a single volume to the OS.
+
+When you configure UWF to protect a volume, you can specify the volume by using either a drive letter or the volume device identifier. To determine the device identifier for a volume, query the **DeviceID** property in the **Win32_Volume** WMI class.
+
+If you specify a volume using a drive letter, UWF uses *loose binding* to recognize the volume. With *loose binding*, drive letters are assigned dynamically as the volume configuration changes.
+
+If you specify a volume using the volume device identifier, UWF uses *tight binding* to recognize the volume. With *tight binding*, the device identifier is unique to the storage volume and is independent from the drive letter assigned to the volume by the file system.
 
 ## Exclusions
 
-If you want to protect a volume with UWF while excluding specific files, folders, or registry keys from being filtered by UWF, you can add them to a [write filter exclusion](uwfexclusions.md) list.
+You can add specific files, folders, and registry keys to the [write filter exclusion](uwfexclusions.md) list to prevent them from being filtered.
 
 ## UWF servicing mode
 
