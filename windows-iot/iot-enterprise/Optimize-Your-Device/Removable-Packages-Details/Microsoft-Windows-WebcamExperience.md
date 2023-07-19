@@ -12,17 +12,18 @@ keywords: IoT Enterprise, removable packages, storage
 
 # Webcam Experience
 
-| Applies to                          |  Version            |
-|:------------------------------------|:--------------------|
+| Applies to   |  Version            |
+|:-------------|:--------------------|
 | Windows 10 IoT Enterprise LTSC 2021 | 19044.1741 or later |
+| Windows 11 IoT Enterprise LTSC 2024 | |
 
 ## Description
 
 A component of the [Media Feature Pack](/windows/win32/wmdm/windows-media-device-manager-architecture) providing webcam user experience.
 
-**Package Name:** Microsoft-Windows-WebCamExperience
-
-**Size:** Approximately 1,394 KB
+| Package Name | LTSC&nbsp;2021 | LTSC&nbsp;2024  |
+|--------------|---------------:|----------------:|
+| `Microsoft-Windows-WebCamExperience`  | 1,394&nbsp;KB | TBD |
 
 ## Package Removal
 

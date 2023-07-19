@@ -1,5 +1,5 @@
 ---
-title: Package - USB COnnector Manager
+title: Package - USB Connector Manager
 author: twarwick
 ms.author: twarwick
 ms.date: 03/30/2023
@@ -10,38 +10,38 @@ description: Removable Package Details for USB Connector Manager
 keywords: IoT Enterprise, removable packages, storage
 ---
 
-# USB COnnector Manager
+# USB Connector Manager
 
-**Applies to:**
-
-- Windows&nbsp;11&nbsp;IoT&nbsp;Enterprise&nbsp;LTSC&nbsp;vNext
+| Applies to   |  Version            |
+|:-------------|:--------------------|
+| Windows 11 IoT Enterprise LTSC 2024 | |
 
 ## Description
 
 <fill in the blank>
 
-**Package Name:** Microsoft-OneCore-Connectivity-UsbConnectorManager
-
-**Size:** Approximately <fill in the blank>
+| Package Name | LTSC&nbsp;2021 | LTSC&nbsp;2024  |
+|--------------|---------------:|----------------:|
+| `Microsoft-OneCore-Connectivity-UsbConnectorManager`  | TBD | TBD |
 
 ## Package Removal
 
 1. To remove a specific package from the image type:
 
    ```powershell
-   Dism.exe /Online /NoRestart /Disable-Feature /FeatureName:<fill in the blank> /PackageName:@Package
+   Dism.exe /Online /NoRestart /Disable-Feature /FeatureName:Microsoft-OneCore-Connectivity-UsbConnectorManager /PackageName:@Package
    ````
 
    To remove a package from an offline image mounted at `c:\offline` type:
 
    ```powershell
-   Dism.exe /Image:c:\offline  /Disable-Feature /FeatureName:<fill in the blank> /PackageName:@Package
+   Dism.exe /Image:c:\offline  /Disable-Feature /FeatureName:Microsoft-OneCore-Connectivity-UsbConnectorManager /PackageName:@Package
    ```
 
 1. Optional: Use DISM /GetFeatureInfo to get the status of a removable package type:
 
    ```powershell
-   Dism.exe /Online /Get-FeatureInfo /FeatureName:<fill in the blank> /PackageName:@Package
+   Dism.exe /Online /Get-FeatureInfo /FeatureName:Microsoft-OneCore-Connectivity-UsbConnectorManager /PackageName:@Package
    ````
 
 ## File List

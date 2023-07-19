@@ -12,17 +12,18 @@ keywords: IoT Enterprise, removable packages, storage
 
 # Recovery Drive
 
-| Applies to                          |  Version            |
-|:------------------------------------|:--------------------|
+| Applies to   |  Version            |
+|:-------------|:--------------------|
 | Windows 10 IoT Enterprise LTSC 2021 | 19044.1741 or later |
+| Windows 11 IoT Enterprise LTSC 2024 | |
 
 ## Description
 
 Create a recovery drive user experience invoked from Control Panel - Recovery
 
-**Package Name:** Microsoft-Windows-RecoveryDrive
-
-**Size:** Approximately 1,041 KB
+| Package Name | LTSC&nbsp;2021 | LTSC&nbsp;2024  |
+|--------------|---------------:|----------------:|
+| `Microsoft-Windows-RecoveryDrive` | 1,041&nbsp;KB | TBD |
 
 ## Package Removal
 

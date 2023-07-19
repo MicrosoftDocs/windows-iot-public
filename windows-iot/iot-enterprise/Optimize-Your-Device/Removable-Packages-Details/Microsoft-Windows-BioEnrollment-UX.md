@@ -12,17 +12,18 @@ keywords: IoT Enterprise, removable packages, storage
 
 # Bio Enrollment Experience
 
-| Applies to                          |  Version            |
-|:------------------------------------|:--------------------|
+| Applies to   |  Version            |
+|:-------------|:--------------------|
 | Windows 10 IoT Enterprise LTSC 2021 | 19044.1741 or later |
+| Windows 11 IoT Enterprise LTSC 2024 | |
 
 ## Description  
 
 See [Windows Hello](/windows-hardware/design/device-experiences/windows-hello) enrollment experience for a detailed description of this Windows feature.
 
-**Package Name:** Microsoft-Windows-BioEnrollment-UX
-
-**Size:** Approximately 3,589 KB
+| Package Name | LTSC&nbsp;2021 | LTSC&nbsp;2024  |
+|--------------|---------------:|----------------:|
+| `Microsoft-Windows-BioEnrollment-UX`  | TBD | TBD |
 
 ## Package Removal
 

@@ -6,21 +6,26 @@ ms.date: 03/30/2023
 ms.topic: article
 ms.prod: windows-iot
 ms.technology: iot
-description: Removable Package Details for Microsoft-Windows-AppManagment-UEV
+description: Removable Package Details for Microsoft-Windows-AppManagement-UEV
 keywords: IoT Enterprise, removable packages, storage
 ---
 
 # User Experience Virtualization
 
-| Applies to                          |  Version            |
-|:------------------------------------|:--------------------|
+| Applies to   |  Version            |
+|:-------------|:--------------------|
 | Windows 10 IoT Enterprise LTSC 2021 | 19044.1741 or later |
+| Windows 11 IoT Enterprise LTSC 2024 | |
 
 ## Description  
 
 See [User Experience Virtualization](/windows/configuration/ue-v/uev-for-windows) for a detailed description of this Windows feature.
 
-**Package Name:**  Microsoft-Windows-AppManagment-UEV
+| Package Name | LTSC&nbsp;2021 | LTSC&nbsp;2024  |
+|--------------|---------------:|----------------:|
+| `Microsoft-Windows-AppManagement-UEV`  | TBD | TBD |
+
+**Package Name:**  
 
 **Size:**  Approximately 13,752 KB
 

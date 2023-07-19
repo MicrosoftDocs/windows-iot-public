@@ -12,17 +12,18 @@ keywords: IoT Enterprise, removable packages, storage
 
 # WinSAT Media Files
 
-| Applies to                          |  Version            |
-|:------------------------------------|:--------------------|
+| Applies to   |  Version            |
+|:-------------|:--------------------|
 | Windows 10 IoT Enterprise LTSC 2021 | 19044.1741 or later |
+| Windows 11 IoT Enterprise LTSC 2024 | |
 
 ## Description
 
 The Windows System Assessment Tool media files have been removed from this package, however the package remains on the device with no payload.  This package is empty.
 
-**Package Name:** Microsoft-Windows-WinSATMediaFiles
-
-**Size:** Approximately 0 KB
+| Package Name | LTSC&nbsp;2021 | LTSC&nbsp;2024  |
+|--------------|---------------:|----------------:|
+| `Microsoft-Windows-WinSATMediaFiles`  | 0&nbsp;KB | TBD |
 
 ## Package Removal
 

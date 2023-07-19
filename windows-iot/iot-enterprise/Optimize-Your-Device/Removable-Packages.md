@@ -83,7 +83,7 @@ The following packages can be removed from Windows IoT Enterprise LTSC 2021.  Se
 | [Desktop Wallpaper](/windows/iot/iot-enterprise/Optimize-Your-Device/Removable-Packages-Details/Microsoft-Windows-Shell-Wallpaper-Common) | Wallpaper images |  8,538&nbsp;KB | TBD |
 | [Webcam Experience](/windows/iot/iot-enterprise/Optimize-Your-Device/Removable-Packages-Details/Microsoft-Windows-WebcamExperience) | A component of the [Media Feature Pack](/windows/win32/wmdm/windows-media-device-manager-architecture) providing webcam user experience. | 1,394&nbsp;KB | TBD |
 | [Legacy Calculator App](/windows/iot/iot-enterprise/Optimize-Your-Device/Removable-Packages-Details/Microsoft-Windows-win32calc) | Legacy Calculator Application | 1,394&nbsp;KB | TBD |
-| [WinSAT Media Files](/windows/iot/iot-enterprise/Optimize-Your-Device/Removable-Packages-Details/Microsoft-Windows-WinSATMediaFiles) | A component of the [Media Feature Pack](/windows/win32/wmdm/windows-media-device-manager-architecture) comprised of media files for Windows System Assessment Tool. | 0 KB | TBD |
+| [WinSAT Media Files](/windows/iot/iot-enterprise/Optimize-Your-Device/Removable-Packages-Details/Microsoft-Windows-WinSATMediaFiles) | A component of the [Media Feature Pack](/windows/win32/wmdm/windows-media-device-manager-architecture) comprised of media files for Windows System Assessment Tool. | 0&nbsp;KB | TBD |
 | [USB Connection Manager](Removable-Packages-Details/Microsoft-OneCore-Connectivity-UsbConnectorManager.md) ||n/a| TBD |
 | [USB Function](Removable-Packages-Details/Microsoft-OneCore-Connectivity-UsbFunction.md) ||n/a| TBD |
 | [Miracast Transmitter](Removable-Packages-Details/Microsoft-OneCore-Miracast-Transmitter.md) ||n/a| TBD |

@@ -12,17 +12,18 @@ keywords: IoT Enterprise, removable packages, storage
 
 # Shell Accessories
 
-| Applies to                          |  Version            |
-|:------------------------------------|:--------------------|
+| Applies to   |  Version            |
+|:-------------|:--------------------|
 | Windows 10 IoT Enterprise LTSC 2021 | 19044.1741 or later |
+| Windows 11 IoT Enterprise LTSC 2024 | |
 
 ## Description
 
 Modern Calculator, Character Map, More Icons DLL
 
-**Package Name:** Microsoft-Windows-ShellOptions
-
-**Size:** Approximately 657 KB
+| Package Name | LTSC&nbsp;2021 | LTSC&nbsp;2024  |
+|--------------|---------------:|----------------:|
+| `Microsoft-Windows-ShellOptions`  | 657&nbsp;KB | TBD |
 
 ## Package Removal
 

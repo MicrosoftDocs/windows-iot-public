@@ -12,36 +12,36 @@ keywords: IoT Enterprise, removable packages, storage
 
 # Multimedia ACX
 
-**Applies to:**
-
-- Windows&nbsp;11&nbsp;IoT&nbsp;Enterprise&nbsp;LTSC&nbsp;vNext
+| Applies to   |  Version            |
+|:-------------|:--------------------|
+| Windows 11 IoT Enterprise LTSC 2024 | |
 
 ## Description
 
 <fill in the blank>
 
-**Package Name:** Microsoft-OneCore-Multimedia-Acx
-
-**Size:** Approximately <fill in the blank>
+| Package Name | LTSC&nbsp;2021 | LTSC&nbsp;2024  |
+|--------------|---------------:|----------------:|
+| `Microsoft-OneCore-Multimedia-Acx`  | TBD | TBD |
 
 ## Package Removal
 
 1. To remove a specific package from the image type:
 
    ```powershell
-   Dism.exe /Online /NoRestart /Disable-Feature /FeatureName:<fill in the blank> /PackageName:@Package
+   Dism.exe /Online /NoRestart /Disable-Feature /FeatureName:Microsoft-OneCore-Multimedia-Acx /PackageName:@Package
    ````
 
    To remove a package from an offline image mounted at `c:\offline` type:
 
    ```powershell
-   Dism.exe /Image:c:\offline  /Disable-Feature /FeatureName:<fill in the blank> /PackageName:@Package
+   Dism.exe /Image:c:\offline  /Disable-Feature /FeatureName:Microsoft-OneCore-Multimedia-Acx /PackageName:@Package
    ```
 
 1. Optional: Use DISM /GetFeatureInfo to get the status of a removable package type:
 
    ```powershell
-   Dism.exe /Online /Get-FeatureInfo /FeatureName:<fill in the blank> /PackageName:@Package
+   Dism.exe /Online /Get-FeatureInfo /FeatureName:Microsoft-OneCore-Multimedia-Acx /PackageName:@Package
    ````
 
 ## File List
