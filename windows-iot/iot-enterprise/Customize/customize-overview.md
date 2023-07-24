@@ -58,15 +58,15 @@ These are some common ways to customize your Windows device.
 
 | Topic | Description |
 |-------|-------------|
-| [Adaptive hibernate](/windows-hardware/customize/power-settings/adaptive-hibernate.md) |Adaptive hibernate supports triggers which eliminate resume to a dead battery, and provide a great Modern Standby experience by ensuring that the system remains in CS for as long as possible. |
-| [Power controls](/windows-hardware/customize/power-settings/power-controls.md) | Settings in this subgroup include settings that control the system&#39;s power and behavior. |
-| [Processor power management options](/windows-hardware/customize/power-settings/configure-processor-power-management-options.md) | The Windows processor power management (PPM) algorithms allow the OS to efficiently use the available processing resources by balancing the user&#39;s expectations of performance and energy efficiency. |
-| [Battery settings](/windows-hardware/customize/power-settings/battery-settings.md) | Settings in this subgroup control the customization of battery actions and thresholds. |
-| [Power button and lid settings](/windows-hardware/customize/power-settings/power-button-and-lid-settings.md) | Settings in this subgroup control the customization of system button actions. |
-| [Display settings](/windows-hardware/customize/power-settings/display-settings.md) | Settings in this subgroup control the power management of the display. |
-| [Disk settings](/windows-hardware/customize/power-settings/disk-settings.md) | Settings in this subgroup control the power management of disk devices. |
-| [Energy Saver settings](/windows-hardware/customize/power-settings/energy-saver-settings.md) | Settings in this subgroup control the battery threshold and brightness when Energy Saver is turned on. |
-| [PCI Express settings](/windows-hardware/customize/power-settings/pci-express-settings.md) | Settings in this subgroup control the power management of PCI Express links. |
+| [Adaptive hibernate](/windows-hardware/customize/power-settings/adaptive-hibernate) |Adaptive hibernate supports triggers which eliminate resume to a dead battery, and provide a great Modern Standby experience by ensuring that the system remains in CS for as long as possible. |
+| [Power controls](/windows-hardware/customize/power-settings/power-controls) | Settings in this subgroup include settings that control the system&#39;s power and behavior. |
+| [Processor power management options](/windows-hardware/customize/power-settings/configure-processor-power-management-options) | The Windows processor power management (PPM) algorithms allow the OS to efficiently use the available processing resources by balancing the user&#39;s expectations of performance and energy efficiency. |
+| [Battery settings](/windows-hardware/customize/power-settings/battery-settings) | Settings in this subgroup control the customization of battery actions and thresholds. |
+| [Power button and lid settings](/windows-hardware/customize/power-settings/power-button-and-lid-settings) | Settings in this subgroup control the customization of system button actions. |
+| [Display settings](/windows-hardware/customize/power-settings/display-settings) | Settings in this subgroup control the power management of the display. |
+| [Disk settings](/windows-hardware/customize/power-settings/disk-settings) | Settings in this subgroup control the power management of disk devices. |
+| [Energy Saver settings](/windows-hardware/customize/power-settings/energy-saver-settings) | Settings in this subgroup control the battery threshold and brightness when Energy Saver is turned on. |
+| [PCI Express settings](/windows-hardware/customize/power-settings/pci-express-settings) | Settings in this subgroup control the power management of PCI Express links. |
 |[Sleep settings](/windows-hardware/customize/power-settings/sleep-settings.md) | Settings in this subgroup control sleep, resume, and other related functionality. |
-| [Other power settings](/windows-hardware/customize/power-settings/no-subgroup-settings.md) | Settings in this subgroup don't belong to any other subgroup. |
-| [Legacy configuration options](/windows-hardware/customize/power-settings/legacy-configuration-options.md) |
+| [Other power settings](/windows-hardware/customize/power-settings/no-subgroup-settings) | Settings in this subgroup don't belong to any other subgroup. |
+| [Legacy configuration options](/windows-hardware/customize/power-settings/legacy-configuration-options) |
