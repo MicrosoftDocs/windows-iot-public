@@ -48,8 +48,8 @@
     href: Deployment/media-refresh.md
   - name: Install Apps with WinGet
     href: Deployment/install-winget-windows-iot.md
-#  - name: Volume License Deployment
-#    href: Deployment/Volume-License.md  
+  - name: Volume License Deployment
+    href: Deployment/Volume-License.md  
 - name: Customization
   expanded: false
   items:
