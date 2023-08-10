@@ -2,7 +2,7 @@
 title: Removable Packages Overview
 author: twarwick
 ms.author: twarwick
-ms.date: 07/05/2023
+ms.date: 08/10/2023
 ms.topic: article
 ms.prod: windows-iot
 ms.technology: iot
