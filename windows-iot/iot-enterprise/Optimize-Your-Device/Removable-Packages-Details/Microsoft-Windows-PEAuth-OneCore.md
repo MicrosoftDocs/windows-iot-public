@@ -12,6 +12,9 @@ keywords: IoT Enterprise, removable packages, storage
 
 # PEAuth
 
+> [!WARNING]
+> THIS IS AN IN-PROGRESS ROUGH DRAFT. The wording and feature list may change before publishing.
+
 | Applies to   |  Version            |
 |:-------------|:--------------------|
 | Windows 11 IoT Enterprise LTSC 2024 | |

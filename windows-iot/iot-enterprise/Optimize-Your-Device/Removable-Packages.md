@@ -12,6 +12,9 @@ keywords: IoT Enterprise, removable packages, storage
 
 # Removable Packages
 
+> [!WARNING]
+> THIS IS AN IN-PROGRESS ROUGH DRAFT. The wording and feature list may change before publishing.
+
 **Applies to:**
 
 - Windows&nbsp;11&nbsp;IoT&nbsp;Enterprise&nbsp;LTSC&nbsp;vNext
@@ -97,6 +100,8 @@ The following packages can be removed from Windows IoT Enterprise LTSC 2021.  Se
 | [Desktop File Explorer](Removable-Packages-Details/Microsoft-Windows-DesktopFileExplorer.md)  ||n/a| TBD |
 | [Microsoft Edge Dev Tools Client](Removable-Packages-Details/Microsoft-Windows-MicrosoftEdgeDevToolsClient.md)  ||n/a| TBD |
 | [Mobile PC Client Basic](Removable-Packages-Details/Microsoft-Windows-MobilePC-Client-Basic.md) ||n/a| TBD |
+| [NetProfilesUX] ||n/a| TBD |
+| [Network Mobile Handlers Settings] || n/a| TBD |
 | [PEAuth](Removable-Packages-Details/Microsoft-Windows-PEAuth-OneCore.md) ||n/a| TBD |
 | [SDK Tools](Removable-Packages-Details/Microsoft-Windows-SDKTools.md) ||n/a| TBD |
 | [Window Tab Manager](Removable-Packages-Details/Microsoft-Windows-UI-Shell-WindowTabManager.md)  ||n/a| TBD |

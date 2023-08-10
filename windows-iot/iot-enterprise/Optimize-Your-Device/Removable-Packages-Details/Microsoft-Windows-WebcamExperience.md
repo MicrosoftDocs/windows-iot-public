@@ -12,6 +12,9 @@ keywords: IoT Enterprise, removable packages, storage
 
 # Webcam Experience
 
+> [!WARNING]
+> THIS IS AN IN-PROGRESS ROUGH DRAFT. The wording and feature list may change before publishing.
+
 | Applies to   |  Version            |
 |:-------------|:--------------------|
 | Windows 10 IoT Enterprise LTSC 2021 | 19044.1741 or later |

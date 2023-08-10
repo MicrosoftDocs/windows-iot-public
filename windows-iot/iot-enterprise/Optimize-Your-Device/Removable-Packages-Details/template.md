@@ -12,6 +12,9 @@ keywords: IoT Enterprise, removable packages, storage
 
 # <fill in the blank>
 
+> [!WARNING]
+> THIS IS AN IN-PROGRESS ROUGH DRAFT. The wording and feature list may change before publishing.
+
 **Applies to:**
 
 - Windows&nbsp;11&nbsp;IoT&nbsp;Enterprise&nbsp;LTSC&nbsp;vNext
