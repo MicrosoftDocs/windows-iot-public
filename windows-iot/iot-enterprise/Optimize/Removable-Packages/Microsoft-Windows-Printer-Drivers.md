@@ -72,6 +72,6 @@ Generic / Text Only, Generic IBM Graphics 9-pin, Generic IBM Graphics 9-pin wide
 
 ## More Resources
 
-- [Removable Packages]../Removable-Packages.md)
-- [Reduce Disk Footprint]../Reduce-Disk-Footprint.md)
-- [Device Optimization Overview]../Overview.md)
+- [Removable Packages](../Removable-Packages.md)
+- [Reduce Disk Footprint](../Reduce-Disk-Footprint.md)
+- [Device Optimization Overview](../Overview.md)
