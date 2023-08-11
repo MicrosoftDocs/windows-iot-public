@@ -53,6 +53,6 @@ Legacy calculator application
 
 ## More Resources
 
-- [Removable Packages]../Removable-Packages.md)
-- [Reduce Disk Footprint]../Reduce-Disk-Footprint.md)
-- [Device Optimization Overview]../Overview.md)
+- [Removable Packages](../Removable-Packages.md)
+- [Reduce Disk Footprint](../Reduce-Disk-Footprint.md)
+- [Device Optimization Overview](../Overview.md)
