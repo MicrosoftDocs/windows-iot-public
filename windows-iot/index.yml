@@ -44,7 +44,7 @@ productDirectory:
           text: Deployment
         - url: ./iot-enterprise/customize/customize-overview.md
           text: Customization
-        - url:  ./iot-enterprise/optimize-your-device/overview.md
+        - url:  ./iot-enterprise/optimize/overview.md
           text: Optimization  
         - url: ./iot-enterprise/Commercialization/Manufacturing-Guide.md
           text: Manufacturing Guide
