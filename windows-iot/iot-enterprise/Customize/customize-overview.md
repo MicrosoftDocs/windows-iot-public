@@ -67,6 +67,6 @@ These are some common ways to customize your Windows device.
 | [Disk settings](/windows-hardware/customize/power-settings/disk-settings) | Settings in this subgroup control the power management of disk devices. |
 | [Energy Saver settings](/windows-hardware/customize/power-settings/energy-saver-settings) | Settings in this subgroup control the battery threshold and brightness when Energy Saver is turned on. |
 | [PCI Express settings](/windows-hardware/customize/power-settings/pci-express-settings) | Settings in this subgroup control the power management of PCI Express links. |
-|[Sleep settings](/windows-hardware/customize/power-settings/sleep-settings.md) | Settings in this subgroup control sleep, resume, and other related functionality. |
+|[Sleep settings](/windows-hardware/customize/power-settings/sleep-settings) | Settings in this subgroup control sleep, resume, and other related functionality. |
 | [Other power settings](/windows-hardware/customize/power-settings/no-subgroup-settings) | Settings in this subgroup don't belong to any other subgroup. |
 | [Legacy configuration options](/windows-hardware/customize/power-settings/legacy-configuration-options) |
