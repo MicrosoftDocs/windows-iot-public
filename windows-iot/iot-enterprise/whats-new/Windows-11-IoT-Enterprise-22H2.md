@@ -3,7 +3,7 @@ title: What's new in Windows 11 IoT Enterprise, version 22H2?
 description: Learn about what's new in Windows 11 IoT Enterprise, version 22H2.
 author: TerryWarwick
 ms.author: twarwick
-ms.date: 05/05/2023
+ms.date: 08/10/2023
 ms.topic: article
 ms.prod: windows-iot
 ms.technology: iot
@@ -16,11 +16,11 @@ keywords: Windows IoT Enterprise, Windows 11, Windows 11 IoT, Windows 11 IoT Ent
 
 Windows 11, version 22H2 is a feature update for Windows 11 IoT Enterprise. Windows 11, version 22H2 includes all previous cumulative updates to Windows 11 IoT Enterprise, version 21H2 plus some new and updated features valuable for IoT scenarios.
 
-Windows 11 IoT Enterprise, version 21H2 follows the [Modern Lifecycle Policy](/lifecycle/policies/modern).
+Windows 11 IoT Enterprise follows the [Modern Lifecycle Policy](/lifecycle/policies/modern).
 
 | Release | Version | Availability | End of Servicing |
 | --- | --- | --- | --- |
-| Windows 11 IoT Enterprise, version 21H2 | 22621 | 2022-09-20 | 2025-10-14 |
+| Windows 11 IoT Enterprise, version 22H2 | 22621 | 2022-09-20 | 2025-10-14 |
 
 For more information, see [Windows 11 IoT Enterprise support lifecycle](/lifecycle/products/windows-11-iot-enterprise).
 

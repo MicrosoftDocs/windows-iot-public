@@ -1,0 +1,131 @@
+{
+
+"redirections": [
+
+    {
+        "source_path_from_root": "/Windows-iot/iot-enterprise/optimize-your-device/iot-ent-optimize-image.md",
+        "redirect_url": "/windows-iot/iot-enterprise/optimize/iot-ent-optimize-image.md"
+    },
+
+    {
+        "source_path_from_root": "/Windows-iot/iot-enterprise/optimize-your-device/overview.md",
+        "redirect_url": "/windows-iot/iot-enterprise/optimize/overview.md"
+    },
+
+    {
+        "source_path_from_root": "/Windows-iot/iot-enterprise/optimize-your-device/reduce-disk-footprint.md",
+        "redirect_url": "/windows-iot/iot-enterprise/optimize/reduce-disk-footprint.md"
+    },
+
+    {
+        "source_path_from_root": "/Windows-iot/iot-enterprise/optimize-your-device/removable-packages.md",
+        "redirect_url": "/windows-iot/iot-enterprise/optimize/removable-packages.md"
+    },
+
+    {
+        "source_path_from_root": "/Windows-iot/iot-enterprise/optimize-your-device/services.md",
+        "redirect_url": "/windows-iot/iot-enterprise/optimize/services.md"
+    },
+
+    {
+        "source_path_from_root": "/Windows-iot/iot-enterprise/optimize-your-device/removable-packages-details/LanguageFeatures-WordBreaking-Common-Legacy.md",
+        "redirect_url": "/windows-iot/iot-enterprise/optimize/removable-packages/LanguageFeatures-WordBreaking-Common-Legacy.md"
+    },
+
+    {
+        "source_path_from_root": "/Windows-iot/iot-enterprise/optimize-your-device/removable-packages-details/Microsoft-Media-Foundation.md",
+        "redirect_url": "/windows-iot/iot-enterprise/optimize/removable-packages/Microsoft-Media-Foundation.md"
+    },
+
+    {
+        "source_path_from_root": "/Windows-iot/iot-enterprise/optimize-your-device/removable-packages-details/Microsoft-OneCore-Fonts-DesktopFonts-NonLeanSupplement.md",
+        "redirect_url": "/windows-iot/iot-enterprise/optimize/removable-packages/Microsoft-OneCore-Fonts-DesktopFonts-NonLeanSupplement.md"
+    },
+
+    {
+        "source_path_from_root": "/Windows-iot/iot-enterprise/optimize-your-device/removable-packages-details/Microsoft-Windows-AppManagement-UEV.md",
+        "redirect_url": "/windows-iot/iot-enterprise/optimize/removable-packages/Microsoft-Windows-AppManagement-UEV.md"
+    },
+
+    {
+        "source_path_from_root": "/Windows-iot/iot-enterprise/optimize-your-device/removable-packages-details/Microsoft-Windows-BioEnrollment-UX.md",
+        "redirect_url": "/windows-iot/iot-enterprise/optimize/removable-packages/Microsoft-Windows-BioEnrollment-UX.md"
+    },
+
+    {
+        "source_path_from_root": "/Windows-iot/iot-enterprise/optimize-your-device/removable-packages-details/Microsoft-Windows-BootEnvironment-Dvd.md",
+        "redirect_url": "/windows-iot/iot-enterprise/optimize/removable-packages/Microsoft-Windows-BootEnvironment-Dvd.md"
+    },
+
+    {
+        "source_path_from_root": "/Windows-iot/iot-enterprise/optimize-your-device/removable-packages-details/Microsoft-Windows-Media-Format.md",
+        "redirect_url": "/windows-iot/iot-enterprise/optimize/removable-packages/Microsoft-Windows-Media-Format.md"
+    },
+
+    {
+        "source_path_from_root": "/Windows-iot/iot-enterprise/optimize-your-device/removable-packages-details/Microsoft-Windows-Media-Streaming.md",
+        "redirect_url": "/windows-iot/iot-enterprise/optimize/removable-packages/Microsoft-Windows-Media-Streaming.md"
+    },
+
+    {
+        "source_path_from_root": "/Windows-iot/iot-enterprise/optimize-your-device/removable-packages-details/Microsoft-Windows-MediaPlayback-OC.md",
+        "redirect_url": "/windows-iot/iot-enterprise/optimize/removable-packages/Microsoft-Windows-MediaPlayback-OC.md"
+    },
+
+    {
+        "source_path_from_root": "/Windows-iot/iot-enterprise/optimize-your-device/removable-packages-details/Microsoft-Windows-Portable-Devices.md",
+        "redirect_url": "/windows-iot/iot-enterprise/optimize/removable-packages/Microsoft-Windows-Portable-Devices.md"
+    },
+
+    {
+        "source_path_from_root": "/Windows-iot/iot-enterprise/optimize-your-device/removable-packages-details/Microsoft-Windows-Printer-Drivers.md",
+        "redirect_url": "/windows-iot/iot-enterprise/optimize/removable-packages/Microsoft-Windows-Printer-Drivers.md"
+    },
+
+    {
+        "source_path_from_root": "/Windows-iot/iot-enterprise/optimize-your-device/removable-packages-details/Microsoft-Windows-Printing-PremiumTools.md",
+        "redirect_url": "/windows-iot/iot-enterprise/optimize/removable-packages/Microsoft-Windows-Printing-PremiumTools.md"
+    },
+
+    {
+        "source_path_from_root": "/Windows-iot/iot-enterprise/optimize-your-device/removable-packages-details/Microsoft-Windows-RecoveryDrive.md",
+        "redirect_url": "/windows-iot/iot-enterprise/optimize/removable-packages/Microsoft-Windows-RecoveryDrive.md"
+    },
+
+    {
+        "source_path_from_root": "/Windows-iot/iot-enterprise/optimize-your-device/removable-packages-details/Microsoft-Windows-ScreenSavers-3D.md",
+        "redirect_url": "/windows-iot/iot-enterprise/optimize/removable-packages/Microsoft-Windows-ScreenSavers-3D.md"
+    },
+
+    {
+        "source_path_from_root": "/Windows-iot/iot-enterprise/optimize-your-device/removable-packages-details/Microsoft-Windows-SensorDataService.md",
+        "redirect_url": "/windows-iot/iot-enterprise/optimize/removable-packages/Microsoft-Windows-SensorDataService.md"
+    },
+
+    {
+        "source_path_from_root": "/Windows-iot/iot-enterprise/optimize-your-device/removable-packages-details/Microsoft-Windows-Shell-Wallpaper-Common.md",
+        "redirect_url": "/windows-iot/iot-enterprise/optimize/removable-packages/Microsoft-Windows-Shell-Wallpaper-Common.md"
+    },
+
+    {
+        "source_path_from_root": "/Windows-iot/iot-enterprise/optimize-your-device/removable-packages-details/Microsoft-Windows-ShellOptions.md",
+        "redirect_url": "/windows-iot/iot-enterprise/optimize/removable-packages/Microsoft-Windows-ShellOptions.md"
+    },
+
+    {
+        "source_path_from_root": "/Windows-iot/iot-enterprise/optimize-your-device/removable-packages-details/Microsoft-Windows-WebcamExperience.md",
+        "redirect_url": "/windows-iot/iot-enterprise/optimize/removable-packages/Microsoft-Windows-WebcamExperience.md"
+    },
+
+    {
+        "source_path_from_root": "/Windows-iot/iot-enterprise/optimize-your-device/removable-packages-details/Microsoft-Windows-win32calc.md",
+        "redirect_url": "/windows-iot/iot-enterprise/optimize/removable-packages/Microsoft-Windows-win32calc.md"
+    },
+
+    {
+        "source_path_from_root": "/Windows-iot/iot-enterprise/optimize-your-device/removable-packages-details/Microsoft-Windows-WinSATMediaFiles.md",
+        "redirect_url": "/windows-iot/iot-enterprise/optimize/removable-packages/Microsoft-Windows-WinSATMediaFiles.md"
+    }
+
+]
+}

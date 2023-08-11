@@ -16,7 +16,7 @@ This article will give you an overview of the product and guide you through how 
 
 ## What is Windows IoT Enterprise?
 
-Windows IoT Enterprise is a full version of Windows Enterprise that delivers enterprise manageability and security to IoT solutions. Windows IoT Enterprise shares all the benefits of the worldwide Windows ecosystem. It is a binary equivalent to Windows Enterprise, so you can use the same familiar development and management tools as client PCs and laptops. However, when it comes to *licensing and distribution*, the desktop version and IoT versions differ. Today there are two releases of Windows IoT Enterprise: [Windows 10 IoT Enterprise](/windows/iot/product-family/what's-new-in-windows-10-iot-enterprise-21h2) and [Windows 11 IoT Enterprise](/windows/iot/product-family/what's-new-in-windows-11-iot-enterprise).
+Windows IoT Enterprise is a full version of Windows Enterprise that delivers enterprise manageability and security to IoT solutions. Windows IoT Enterprise shares all the benefits of the worldwide Windows ecosystem. It is a binary equivalent to Windows Enterprise, so you can use the same familiar development and management tools as client PCs and laptops. However, when it comes to *licensing and distribution*, the desktop version and IoT versions differ. To learn more about current releases, see [Release History](whats-new/Release-History.md).
 
 > [!NOTE]
 >
@@ -80,7 +80,7 @@ Articles include:
 * [Put in Place Device Safeguards](./Customize/Device-Safeguards.md)
 * [Use a Keyboard Filter](./Customize/Keyboard-Filter.md)
 * [Explore the Unified Write Filter](./Customize/Unified-Write-Filter.md)
-* [Enable Hibernate Once, Resume Many (HORM)](./Customize/HORM.md)
+* [Enable Hibernate Once, Resume Many (HORM)](./Customize/hibernate-once-resume-many-horm.md)
 
 ### Branding Features
 
@@ -126,9 +126,9 @@ This section provides insight into how OEMs can optimize their devices for manuf
 
 Articles include:
 
-* [Guidelines for Device Optimization](./optimize-your-device/overview.md)
-* [Reduce Disk Footprint](./optimize-your-device/Reduce-Disk-Footprint.md)
-* [Services Guide](./optimize-your-device/services.md)
+* [Guidelines for Device Optimization](./optimize/overview.md)
+* [Reduce Disk Footprint](./optimize/Reduce-Disk-Footprint.md)
+* [Services Guide](./optimize/services.md)
 
 ### Commercialization
 

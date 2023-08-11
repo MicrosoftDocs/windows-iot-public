@@ -3,7 +3,7 @@ title: What's new in Windows 11 IoT Enterprise, version 21H2?
 description: Learn about what's new in Windows 11 IoT Enterprise, version 21H2.
 author: TerryWarwick
 ms.author: twarwick
-ms.date: 05/05/2023
+ms.date: 08/10/2023
 ms.topic: article
 ms.prod: windows-iot
 ms.technology: iot
@@ -16,7 +16,7 @@ keywords: Windows IoT Enterprise, Windows 11, Windows 11 IoT, Windows 11 IoT Ent
 
 Windows 11 IoT Enterprise, version 21H2 is the next evolution of Windows for IoT and it is build on the same foundation as Windows 10.  Investments you have made in tools for update and device management are carried forward.  Many of the same applications and tools that you used in Windows 10 IoT Enterprise can be use in Windows 11 IoT Enterprise. many of the same security settings and policies can also be applied to Windows 11 IoT Enterprise devices.  
 
-Windows 11 IoT Enterprise, version 21H2 follows the [Modern Lifecycle Policy](/lifecycle/policies/modern).
+Windows 11 IoT Enterprise follows the [Modern Lifecycle Policy](/lifecycle/policies/modern).
 
 | Release | Version | Availability | End of Servicing |
 | --- | --- | --- | --- |
