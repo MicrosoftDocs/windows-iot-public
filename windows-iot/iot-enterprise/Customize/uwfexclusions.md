@@ -16,11 +16,13 @@ ms.topic: article
 ---
 # Write filter exclusions
 
-You can add specific files or folders on a protected volume to a file exclusion list to exclude those files and folders from being filtered by UWF. When a file or folder is in the exclusion list for a volume, all writes to that file or folder bypass UWF filtering, and are written directly to the protected volume and persist after the device restarts.
+You can add specific files or folders on a protected volume to a file exclusion list to exclude those files and folders from being filtered by UWF. When a file or folder is in the exclusion list for a volume all writes to that file or folder persist after the device restarts.
 
 You must use an administrator account to add or remove file or folder exclusions during run time, and you must restart the device for new exclusions to take effect.
 
 > [!IMPORTANT]
+> Adding files and folders to exclusions will not reduce overlay consumption. Exclusions are intended to allow small amounts of data and configuration to persist after the device restarts.
+>
 > Don't add exclusions for the following:
 >
 > - \Windows\System32\config\DEFAULT
