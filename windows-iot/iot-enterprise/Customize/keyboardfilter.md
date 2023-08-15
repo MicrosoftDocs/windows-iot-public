@@ -1,15 +1,11 @@
 ---
 title: Keyboard Filter
 description: Keyboard Filter
-MSHAttr:
-- 'PreferredSiteName:MSDN'
-- 'PreferredLib:/library/windows/hardware'
-ms.assetid: 95de7d47-f488-44ea-94a1-2ae542b7f344
 author: TerryWarwick
 ms.author: twarwick
 ms.prod: windows-iot
 ms.technology: iot
-ms.date: 05/02/2017
+ms.date: 08/15/2023
 ms.topic: article
 
 
@@ -151,7 +147,7 @@ For more information about Keyboard Filter WMI providers, see [Keyboard Filter W
 
 ## >Keyboard breakout
 
-You may need to sign in to a locked down device with a different account in order to service or configure the device. You can configure a breakout key to break out of a locked down account by specifying a key scan code. When you press Ctrl+Alt+Delete, Windows presents the Welcome screen so that you can sign in to a different account.
+You may need to sign in to a locked down device with a different account in order to service or configure the device. You can configure a breakout key to break out of a locked down account by specifying a key scan code. A user can press this key consecutively five times to switch to the Welcome screen so that you can sign in to a different account.
 
 The breakout key is set to the scan code for the left Windows logo key by default. You can use the [WEKF_Settings](wekf-settings.md)WMI class to change the breakout key scan code. If you change the breakout key scan code, you must restart the device before the change takes effect.
 
