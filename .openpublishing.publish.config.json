@@ -26,8 +26,7 @@
     "twarwick@microsoft.com"
   ],
   "sync_notification_subscribers": [
-    "twarwick@microsoft.com",
-    " riameser@microsoft.com"
+    "twarwick@microsoft.com"
   ],
   "branches_to_filter": [],
   "git_repository_url_open_to_public_contributors": "https://github.com/MicrosoftDocs/windows-iot-public",
