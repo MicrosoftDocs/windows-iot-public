@@ -1,15 +1,11 @@
 ---
 title: WEKF_Settings
 description: WEKF_Settings
-MSHAttr:
-- 'PreferredSiteName:MSDN'
-- 'PreferredLib:/library/windows/hardware'
-ms.assetid: 976a98c4-9ca9-4ac9-b1d5-842bc0ffe396
 author: TerryWarwick
 ms.author: twarwick
 ms.prod: windows-iot
 ms.technology: iot
-ms.date: 05/02/2017
+ms.date: 08/15/2023
 ms.topic: article
 
 

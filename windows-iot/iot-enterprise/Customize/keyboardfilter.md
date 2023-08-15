@@ -1,15 +1,11 @@
 ---
 title: Keyboard Filter
 description: Keyboard Filter
-MSHAttr:
-- 'PreferredSiteName:MSDN'
-- 'PreferredLib:/library/windows/hardware'
-ms.assetid: 95de7d47-f488-44ea-94a1-2ae542b7f344
 author: TerryWarwick
 ms.author: twarwick
 ms.prod: windows-iot
 ms.technology: iot
-ms.date: 05/02/2017
+ms.date: 08/15/2023
 ms.topic: article
 
 
