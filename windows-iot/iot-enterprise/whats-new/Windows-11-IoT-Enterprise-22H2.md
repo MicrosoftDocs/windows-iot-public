@@ -3,7 +3,7 @@ title: What's new in Windows 11 IoT Enterprise, version 22H2?
 description: Learn about what's new in Windows 11 IoT Enterprise, version 22H2.
 author: TerryWarwick
 ms.author: twarwick
-ms.date: 08/10/2023
+ms.date: 08/16/2023
 ms.topic: article
 ms.prod: windows-iot
 ms.technology: iot
@@ -31,6 +31,11 @@ Windows 11 IoT Enterprise, version 22H2 is available through Windows Server Upda
 To learn more about the status of the update rollout, known issues, and new information, see [Windows release health](/windows/release-health/).
 
 ## What's new
+
+> [!NOTE]
+> Multi-app kiosk mode is not available for Windows 11 IoT Enterprise, version 22H2.  Please refer to What's new about subsequent releases for information about its return.
+>
+> **Update** - [Multi-app kiosk mode is now available in Windows 11, version 22H2](https://techcommunity.microsoft.com/t5/windows-it-pro-blog/multi-app-kiosk-mode-now-available-in-windows-11/ba-p/3845558), as part of the Windows continuous innovation releases.  To learn how you can take advantage of features introduced via Windows continuous innovation, see more about how you can access this feature in Windows 11 IoT Enterprise, version 22H2, see [Delivering continuous innovation in Windows 11](https://support.microsoft.com/windows/delivering-continuous-innovation-in-windows-11-b0aa0a27-ea9a-4365-9224-cb155e517f12).
 
 | Feature | Description |
 | --- | --- |
