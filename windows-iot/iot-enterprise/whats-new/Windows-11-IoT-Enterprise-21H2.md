@@ -82,6 +82,9 @@ Important servicing-related announcements and information about known issues and
 
 With every new operating system, comes exciting new features and capabilities - Windows 11 IoT Enterprise is no different.
 
+> [!NOTE]
+> Multi-app kiosk mode is not available for Windows 11 IoT Enterprise, version 21H2.  Please refer to What's new about subsequent releases for information about its return.
+
 ### Security and scanning
 
 The security and privacy features in Windows 11 are similar to Windows 10. Security for your devices starts with the hardware, and includes OS security, application security, and user & identity security. There are features available in the Windows OS to help in these areas. This section describes some of these features. For a more comprehensive view, including zero trust, see [Windows security](/windows/security/).

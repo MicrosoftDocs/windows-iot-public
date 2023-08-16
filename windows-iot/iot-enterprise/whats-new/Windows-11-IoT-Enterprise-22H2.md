@@ -32,6 +32,11 @@ To learn more about the status of the update rollout, known issues, and new info
 
 ## What's new
 
+> [!NOTE]
+> Multi-app kiosk mode is not available for Windows 11 IoT Enterprise, version 22H2.  Please refer to What's new about subsequent releases for information about its return.
+>
+> **Update** - [Multi-app kiosk mode is now available in Windows 11](https://techcommunity.microsoft.com/t5/windows-it-pro-blog/multi-app-kiosk-mode-now-available-in-windows-11/ba-p/3845558)., version 22H2 as part of the Windows continuous innovation releases.  To learn how you can take advantage of features introduced via Windows continuous innovation, see more about how you can access this feature in Windows 11 IoT Enterprise, version 22H2, see [Delivering continuous innovation in Windows 11](https://support.microsoft.com/windows/delivering-continuous-innovation-in-windows-11-b0aa0a27-ea9a-4365-9224-cb155e517f12).
+
 | Feature | Description |
 | --- | --- |
 | Microsoft Pluton | Designed by Microsoft and built by silicon partners, Microsoft Pluton is a secure crypto-processor built into the CPU for security at the core to ensure code integrity and the latest protection with updates delivered by Microsoft through Windows Update. Pluton protects credentials, identities, personal data and encryption keys. Information is significantly harder to be removed even if an attacker has installed malware or has complete physical possession Microsoft Pluton can be enabled on devices with Pluton capable processors running Windows 11, version 22H2. </br></br>For more information, see [Microsoft Pluton security processor](/windows/security/information-protection/pluton/microsoft-pluton-security-processor). |
