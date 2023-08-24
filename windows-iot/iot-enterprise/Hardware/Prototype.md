@@ -23,11 +23,8 @@ The following boards have been proven to be a great start point for your Windows
 * [Intel NuC](https://www.intel.com/content/www/us/en/products/boards-kits/nuc.html)
 * [AAEON Up Squared](https://www.aaeon.com/en/p/iot-gateway-maker-boards-up-squared)
 * [Up Board](https://up-board.org/up/specifications/)
-* [NXP i.MX 8](https://www.nxp.com/products/processors-and-microcontrollers/arm-processors/i-mx-applications-processors/i-mx-8-processors/i-mx-8-family-arm-cortex-a53-cortex-a72-virtualization-vision-3d-graphics-4k-video:i.MX8)
-* [NXP i.MX 8M](https://www.nxp.com/products/processors-and-microcontrollers/arm-processors/i-mx-applications-processors/i-mx-8-processors/i-mx-8m-family-armcortex-a53-cortex-m4-audio-voice-video:i.MX8M)
-* [NXP i.MX 8M Mini](https://www.nxp.com/products/processors-and-microcontrollers/arm-processors/i-mx-applications-processors/i-mx-8-processors/i-mx-8m-mini-arm-cortex-a53-cortex-m4-audio-voice-video:i.MX8MMINI)
-* [NXP i.MX 8M Nano](https://www.nxp.com/products/processors-and-microcontrollers/arm-processors/i-mx-applications-processors/i-mx-8-processors/i-mx-8m-nano-family-arm-cortex-a53-cortex-m7:i.MX8MNANO)
-* [NXP i.MX 8M Plus](https://www.nxp.com/products/processors-and-microcontrollers/arm-processors/i-mx-applications-processors/i-mx-8-processors/i-mx-8m-plus-arm-cortex-a53-machine-learning-vision-multimedia-and-industrial-iot:IMX8MPLUS)
+* [NXP i.MX 8 Family](https://www.nxp.com/products/processors-and-microcontrollers/arm-processors/i-mx-applications-processors/i-mx-8-applications-processors:IMX8-SERIES)
+* [NXP i.MX 93](https://www.nxp.com/products/processors-and-microcontrollers/arm-processors/i-mx-applications-processors/i-mx-9-processors/i-mx-93-applications-processor-family-arm-cortex-a55-ml-acceleration-power-efficient-mpu:i.MX93)
 
 >NOTE: *If you are a SoM provider or an ODM and would like to be added to the list above, directly edit this page and submit a pull request or send an email to winiotentsomhelp@microsoft.com*
 
