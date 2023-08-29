@@ -11,140 +11,30 @@ ms.date: 08/29/2023
 
 # Setting up an NXP i.MX EVK device
 
-This article details two approaches to setting up an i.MX EVK device with Windows 10 IoT Enterprise.
+This article details two approaches to getting Windows 10 IoT Enterprise set up on an NXP i.MX Evaluation Kit device. The two methods achieve the same final result, but offer different benefits. 
 
-[Setting up an EVK using the NXP Quick Start Guide](#setting-up-an-evk-using-the-nxp-quick-start-guide)
+Booting Windows 10 IoT Enterprise on NXP's EVK boards involves applying updates, platform-specific drivers and other customizations to a base Windows image, then installing your custom image on the device using [WinPE](https://learn.microsoft.com/windows-hardware/manufacture/desktop/winpe-intro?view=windows-11), a small operating system designed to install, deploy and repair Windows operating systems. 
 
-[Setting up an NXP EVK using Media Servicing](#setting-up-an-nxp-evk-using-media-servicing)
+> [!TIP]
+> Try out [Edge Device Image Builder](https://aka.ms/EDIBPublicPreviewRelease) a tool currently in public preview that walks OEMs through customizing and configuring a Windows 10 IoT Enterprise LTSC 2021 image. Check out the [announcement blog](https://aka.ms/EDIBPublicPreviewBlog) and [documentation](https://aka.ms/EDIBDocumentation) for more information on how to get started.
+
+
+|Method  |Description  |
+|---------|---------|
+|[Setting up an EVK using the NXP Quick Start Guide](#setting-up-an-evk-using-the-nxp-quick-start-guide) | Follows the NXP Quick Start Guide using a base Windows 10 IoT Enterprise. For support, see the *Support* tab on the [Windows IoT on NXP landing page](https://aka.ms/nxpiot)     |
+|[Setting up an NXP EVK using Media Servicing](#setting-up-an-nxp-evk-using-media-servicing)    | Covers applying updates and working with Windows IoT Enterprise installation media. |
+
+Note that the above methods are specific to the NXP EVK devices; if you would like to use another i.MX-based device, contact the manufacturer for instructions.
 
 ## Setting up an EVK using the NXP Quick Start Guide
 
-The quickest way to get started with Windows IoT Enterprise on NXP is to use NXP’s EVK device along with the prebuilt NXP BSP binaries. If you wish to use different hardware, contact the manufacturer for instructions tailored to your device.
+The quickest way to get started with Windows IoT Enterprise on an NXP EVK is to use NXP’s prebuilt BSP binaries, and follow NXP's Quick Start Guide. Download the BSP and the Quick Start Guide from the [Windows 10 IoT Enterprise on NXP landing page](https://aka.ms/nxpiot).
 
-### Gather Materials
-You need the following tools to create OEM images using the Windows IoT Enterprise Operating System for Arm devices.
+With the Quick Start Guide, you will learn how to:
 
-**Hardware Prerequisites:**
-- Technician PC
-  - Your work PC. This PC should have at least 15 GB of free space for installing the software and for modifying IoT Enterprise images. We recommend using either Windows 10 or Windows 11 with the latest updates.
-- One of the following NXP EVKs
-- [i.MX 8M Evaluation Kit](https://www.nxp.com/design/development-boards/i-mx-evaluation-and-development-boards/evaluation-kit-for-the-i-mx-8m-applications-processor:MCIMX8M-EVK)
-  - [i.MX 8M Mini Evaluation Kit](https://www.nxp.com/design/development-boards/i-mx-evaluation-and-development-boards/evaluation-kit-for-the-i-mx-8m-mini-applications-processor:8MMINILPD4-EVK)
-  - [i.MX 8M Nano Evaluation Kit](https://www.nxp.com/design/development-boards/i-mx-evaluation-and-development-boards/evaluation-kit-for-the-i-mx-8m-nano-applications-processor:8MNANOD4-EVK)
-  - [i.MX 8M Plus Evaluation Kit](https://www.nxp.com/design/development-boards/i-mx-evaluation-and-development-boards/evaluation-kit-for-the-i-mx-8m-plus-applications-processor:8MPLUSLPD4-EVK)
-  - [i.MX 8QuadXPlus Multisensory Enablement Kit ](https://www.nxp.com/design/development-boards/i-mx-evaluation-and-development-boards/i-mx-8quadxplus-multisensory-enablement-kit-mek:MCIMX8QXP-CPU)
-  - [i.MX 93 Evaluation Kit](https://www.nxp.com/design/development-boards/i-mx-evaluation-and-development-boards/i-mx-93-evaluation-kit:i.MX93EVK)
-- 16 GB or 32 GB micro SD card
-- Monitor and HDMI cable
-- USB-C cable
-- USB mouse and keyboard
-
-**Software Prerequisites:**
-
-Download the following software prerequisites on to your technician PC.
-
-- [NXP BSP](https://aka.ms/nxpiot)
-- A copy of the latest Windows 10 IoT Enterprise LTSC OS, from a Windows IoT Distributor or through a Visual Studio subscription, including Features on Demand ISO and Language Pack ISO
-- [Windows ADK for Windows 10 2004](https://learn.microsoft.com/windows-hardware/get-started/adk-install#other-adk-downloads)
-- [WinPE Add-on for the ADK 2004](https://learn.microsoft.com/windows-hardware/get-started/adk-install#other-adk-downloads)
-- [NXP Universal Update Utility](https://github.com/nxp-imx/mfgtools)
-
-**Optional step:** Use [Edge Device Image Builder](https://learn.microsoft.com/windows-hardware/manufacture/desktop/edib) to customize your Windows 10 IoT Enterprise image prior to installation.
-
-### Set up your Technician PC
-
-1. Install the ADK and WinPE add-on for your system
-2. Extract the NXP BSP into a directory of your choice. We'll refer to this directory going forward as `<NXP BSP Directory>`
-3. Copy the “uuu.exe” utility into `<NXP BSP Directory>/firmware/tools/uuu`
-4. Mount your Windows IoT Enterprise image and copy the “install.wim” file from `<Mounted Drive>/sources/install` to `<NXP BSP Directory>/IoTEntOnNXP`
-
-
-### Deploy the boot firmware to the EVK
-
-1. On your technician PC, open a command prompt with admin privileges and navigate to `<NXP BSP Directory>/firmware`
-1. Ensure your EVK board is powered off.
-1. Set the DIP switches into USB download mode for your board following Table 1.  
-:::image type="content" source="../../media/dipswitches.png" alt-text="Table depicting the DIP switch configurations for the i.MX devices"::: Table 1. Boot DIP switch configurations
-
-1. Connect your board to your technician PC using the USB-C cable
-1. Boot the NXP EVK by connecting to power and sliding the power switch to the ON position
-1. Type the following command that corresponds to your EVK.
-
-- For i.MX 8M Mini EVK board:
-
-```powershell
-flash_bootloader.cmd /device MX8M_MINI_EVK
-```
-
-- For i.MX 8M Quad EVK board:
-
-```powershell
-flash_bootloader.cmd /device MX8M_EVK
-```
-
-- For i.MX 8M Nano EVK board:
-
-```powershell
-flash_bootloader.cmd /device MX8M_NANO_EVK
-```
-
-- For i.MX 8M Plus EVK board:
-
-```powershell
-flash_bootloader.cmd /device MX8M_PLUS_EVK
-```
-
-- For i.MX 8QuadXPlus MEK board:
-
-```powershell
-flash_bootloader.cmd /device MX8QXP_MEK
-```
-
-- For i.MX 93 EVK board:
-
-```powershell
-flash_bootloader.cmd /device MX93_11X11_EVK
-```
-
-1. Upon successful completion, power off the NXP EVK by sliding the power switch into the OFF position
-
-### Flash the Windows IoT Enterprise installer on to the SD card
-
-1. In your command prompt on your technician PC, navigate to the `<NXP BSP Directory>/IoTEntOnNXP` folder
-2. Run the following command. This command creates a copy of the selected install.wim image with injected i.MX drivers and applied updates from the kbpatch/ directory. Note this can take upwards of an hour due to the installation of LCUs.
-
-```powershell
-make-winpe-enterprise.cmd /disable_updates /test_signing
-`````
-
-3. Insert the micro SD card into your technician PC.
-1. In your command prompt, ensure you are still in the `<NXP BSP Directory>/IoTEntOnNXP` folder
-1. Use diskpart to determine which disk number corresponds to your SD card with the following commands:
-
-```powershell
-diskpart
-DISKPART> list disk
-DISKPART> exit
-```
-
-Be sure to note the disk number of the SD card and not your main system disk, as the next step will wipe the disk.
-
-6. Run the following command, replacing `<disk_number>` with the disk number of your SD card
-
-```powershell
-make-winpe-enterprise.cmd /apply <disk_number>
-```
-
-
-### Install Windows IoT Enterprise on the EVK
-
-1. Ensure that the EVK board power switch is set to OFF.
-2. Using the configurations for your board according to Table 1, set the DIP switches to eMMC Boot mode.
-3. Insert the prepared micro SD card into the EVK board.
-4. Boot the EVK device by connecting to power and turning the power switch to ON.
-5. Allow the device to boot into WinPE and begin installing Windows. This should take around 30 minutes.
-6. Once installation completes, it will restart and boot into OOBE.
-
+- Work with the different i.MX EVK boards
+- Flash Windows 10 IoT Enterprise and related firmware to the device via SD card and eMMC
+- Install and boot into Windows 10 IoT Enterprise
 
 ## Setting up an NXP EVK using Media Servicing
 
