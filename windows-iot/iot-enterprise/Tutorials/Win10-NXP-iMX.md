@@ -45,11 +45,11 @@ Download the following software prerequisites on to your technician PC.
 
 - [NXP BSP](https://aka.ms/nxpiot)
 - A copy of the latest Windows 10 IoT Enterprise LTSC OS, from a Windows IoT Distributor or through a Visual Studio subscription, including Features on Demand ISO and Language Pack ISO
-- [Windows ADK for Windows 10 2004](https://learn.microsoft.com/en-us/windows-hardware/get-started/adk-install#other-adk-downloads)
-- [WinPE Add-on for the ADK 2004](https://learn.microsoft.com/en-us/windows-hardware/get-started/adk-install#other-adk-downloads)
+- [Windows ADK for Windows 10 2004](https://learn.microsoft.com/windows-hardware/get-started/adk-install#other-adk-downloads)
+- [WinPE Add-on for the ADK 2004](https://learn.microsoft.com/windows-hardware/get-started/adk-install#other-adk-downloads)
 - [NXP Universal Update Utility](https://github.com/nxp-imx/mfgtools)
 
-**Optional step:** Use [Edge Device Image Builder](https://learn.microsoft.com/en-us/windows-hardware/manufacture/desktop/edib/?view=windows-11) to customize your Windows 10 IoT Enterprise image prior to installation.
+**Optional step:** Use [Edge Device Image Builder](https://learn.microsoft.com/windows-hardware/manufacture/desktop/edib) to customize your Windows 10 IoT Enterprise image prior to installation.
 
 ### Set up your Technician PC
 

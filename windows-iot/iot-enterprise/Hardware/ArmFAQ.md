@@ -2,7 +2,7 @@
 title: Arm64 Guidance
 author: sydbruck
 ms.author: sybruckm
-ms.date: 10/19/2022
+ms.date: 08/29/2023
 ms.topic: article
 ms.prod: windows-iot
 ms.technology: iot
@@ -44,7 +44,7 @@ You can get started with the NXP Evaluation Kits (EVK), or choose a board from o
 
 ### Where can I download Windows?
 
-For more information on the various ways to get a Windows license, see our [licensing page](./Commercialization/Licensing.md).
+For more information on the various ways to get a Windows license, see our [licensing page](../Commercialization/Licensing.md).
 
 ### Which Windows IoT Enterprise version should I use?
 
