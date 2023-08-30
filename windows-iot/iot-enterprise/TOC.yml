@@ -354,6 +354,8 @@
     href: Optimize/Overview.md
   - name: Reduce Disk Footprint
     href: Optimize/Reduce-Disk-Footprint.md
+  - name: CompactOS
+    href: Optimize/iot-ent-optimize-images.md  
   - name: Removable Packages
     expanded: false
     items:
