@@ -6,7 +6,7 @@ ms.author: twarwick
 ms.prod: windows-iot
 ms.topic: tutorial 
 ms.technology: iot
-ms.date: 08/29/2023
+ms.date: 08/30/2023
 ---
 
 # Setting up an NXP i.MX EVK device
@@ -28,7 +28,7 @@ Note that the above methods are specific to the NXP EVK devices; if you would li
 
 ## Setting up an EVK using the NXP Quick Start Guide
 
-The quickest way to get started with Windows IoT Enterprise on an NXP EVK is to use NXP’s prebuilt BSP binaries, and follow NXP's Quick Start Guide. Download the BSP and the Quick Start Guide from the [Windows 10 IoT Enterprise on NXP landing page](https://aka.ms/nxpiot).
+To get a basic Windows IoT Enterprise image running on an NXP EVK, use NXP’s prebuilt BSP binaries and follow NXP's Quick Start Guide. Download the BSP and the Quick Start Guide from the [Windows 10 IoT Enterprise on NXP landing page](https://aka.ms/nxpiot).
 
 With the Quick Start Guide, you will learn how to:
 

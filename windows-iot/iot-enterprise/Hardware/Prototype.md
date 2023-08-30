@@ -2,7 +2,7 @@
 title: Start Prototyping
 author: TerryWarwick
 ms.author: twarwick
-ms.date: 3/10/2023
+ms.date: 8/30/2023
 ms.topic: article
 ms.prod: windows-iot
 ms.technology: iot
@@ -19,12 +19,10 @@ To begin your prototyping journey, you can select a SoC board or leverage your e
 
 The following boards have been proven to be a great start point for your Windows IoT Enterprise solution. Feel free to choose a specific version based upon your budgetary constraints and technical requirements.
 
-* [Latte Panda](https://www.lattepanda.com/)
-* [Intel NuC](https://www.intel.com/content/www/us/en/products/boards-kits/nuc.html)
-* [AAEON Up Squared](https://www.aaeon.com/en/p/iot-gateway-maker-boards-up-squared)
-* [Up Board](https://up-board.org/up/specifications/)
-* [NXP i.MX 8 Family](https://www.nxp.com/products/processors-and-microcontrollers/arm-processors/i-mx-applications-processors/i-mx-8-applications-processors:IMX8-SERIES)
-* [NXP i.MX 93](https://www.nxp.com/products/processors-and-microcontrollers/arm-processors/i-mx-applications-processors/i-mx-9-processors/i-mx-93-applications-processor-family-arm-cortex-a55-ml-acceleration-power-efficient-mpu:i.MX93)
+|Architecture|Recommended Boards|
+|----|----|
+|x64| [Latte Panda](https://www.lattepanda.com/)<br>[Intel NuC](https://www.intel.com/content/www/us/en/products/boards-kits/nuc.html)<br>[AAEON Up Squared](https://www.aaeon.com/en/p/iot-gateway-maker-boards-up-squared)<br>[Up Board](https://up-board.org/up/specifications/)|
+|Arm64|[NXP i.MX 8 Family](https://www.nxp.com/products/processors-and-microcontrollers/arm-processors/i-mx-applications-processors/i-mx-8-applications-processors:IMX8-SERIES)<br>[NXP i.MX 93](https://www.nxp.com/products/processors-and-microcontrollers/arm-processors/i-mx-applications-processors/i-mx-9-processors/i-mx-93-applications-processor-family-arm-cortex-a55-ml-acceleration-power-efficient-mpu:i.MX93)|
 
 >NOTE: *If you are a SoM provider or an ODM and would like to be added to the list above, directly edit this page and submit a pull request or send an email to winiotentsomhelp@microsoft.com*
 
