@@ -106,13 +106,13 @@
 
     {
         "source_path_from_root": "/Windows-iot/iot-enterprise/customize/horm.md",
-        "redirect_url": "/windows-iot/iot-enterprise/customize/hibernate-once-resume-many-horm",
+        "redirect_url": "/windows/iot/iot-enterprise/customize/hibernate-once-resume-many-horm",
         "redirect_document_id": false
     },
 
     {
         "source_path_from_root": "/Windows-iot/iot-enterprise/customize/keyboard-filter.md",
-        "redirect_url": "/windows-iot/iot-enterprise/customize/keyboardfilter",
+        "redirect_url": "/windows/iot/iot-enterprise/customize/keyboardfilter",
         "redirect_document_id": false
     }
 
