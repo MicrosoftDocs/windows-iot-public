@@ -18,17 +18,17 @@
 
     {
         "source_path_from_root": "/windows-iot/product-family/what's-new-in-Windows-11-IoT-Enterprise.md",
-        "redirect_url": "/windows-iot/iot-enterprise/whats-new/Windows-11-IoT-Enterprise-22H2"
+        "redirect_url": "/windows/iot/iot-enterprise/whats-new/Windows-11-IoT-Enterprise-22H2"
     },
 
     {
         "source_path_from_root": "/Windows-iot/product-family/fall-2021-releases.md",
-        "redirect_url": "/windows-iot/iot-enterprise/whats-new/release-history"
+        "redirect_url": "/windows/iot/iot-enterprise/whats-new/release-history"
     },
 
     {
         "source_path_from_root": "/Windows-iot/product-family/product-lifecycle.md",
-        "redirect_url": "/windows-iot/iot-enterprise/whats-new/release-history"
+        "redirect_url": "/windows/iot/iot-enterprise/whats-new/release-history"
     }
 
 ]
