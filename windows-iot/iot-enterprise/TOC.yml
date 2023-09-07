@@ -403,6 +403,15 @@
         href: Optimize/Removable-Packages/Microsoft-Windows-win32calc.md
   - name: Services Guide
     href: Optimize/Services.md
+  - name: Soft Real-Time
+    expanded: false
+    items:
+    - name: Overview
+      href: Soft-Real-Time/Soft-Real-Time.md
+    - name: Device Configuration
+      href: Soft-Real-Time/Soft-Real-Time-Device.md
+    - name: Application Development
+      href: Soft-Real-Time/Soft-Real-Time-Application.md
 - name: Commercialization
   expanded: false
   items:
@@ -427,15 +436,6 @@
       href: Commercialization/iot-ent-sysprep-capture-deploy.md
     - name: Lab 5 - Configure Shell Launcher or Assigned Access
       href: Commercialization/iot-ent-shell-launcher-app-launcher.md
-- name: Soft Real-Time
-  expanded: false
-  items:
-  - name: Overview
-    href: Soft-Real-Time/Soft-Real-Time.md
-  - name: Device Configuration
-    href: Soft-Real-Time/Soft-Real-Time-Device.md
-  - name: Application Development
-    href: Soft-Real-Time/Soft-Real-Time-Application.md
 - name: Downloads
   href: Downloads.md
 - name: Code Samples
