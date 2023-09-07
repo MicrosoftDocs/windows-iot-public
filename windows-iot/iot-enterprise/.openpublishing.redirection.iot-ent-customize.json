@@ -40,7 +40,7 @@
 
     {
         "source_path_from_root": "/windows-iot/iot-enterprise/Advanced-Lockdown-Features/Keyboard-Filter.md",
-        "redirect_url": "/windows/iot/iot-enterprise/customize/Keyboard-Filter",
+        "redirect_url": "/windows/iot/iot-enterprise/customize/KeyboardFilter",
         "redirect_document_id": false
     },
 
