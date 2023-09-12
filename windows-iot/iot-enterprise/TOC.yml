@@ -34,6 +34,10 @@
     href: Hardware/ArmFAQ.md
   - name: Start prototyping
     href: Hardware/Prototype.md
+  - name: Bus Providers
+    href: OS-Features/Bus-Providers.md
+  - name: Device Drivers
+    href: OS-Features/Device-Drivers.md    
 - name: Tutorials
   expanded: false
   items:
@@ -64,6 +68,8 @@
       href: Customize/complementary-features-to-custom-logon.md
     - name: Troubleshooting
       href: Customize/troubleshooting-custom-logon.md
+  - name: Embedded Mode
+    href: OS-Features/Embedded-Mode.md
   - name: Keyboard Filter
     expanded: false
     items:
@@ -162,6 +168,8 @@
           href: Customize\wesl-usersettingsetdefaultshell.md 
         - name: SetEnabled
           href: Customize\wesl-usersettingsetenabled.md 
+  - name: On-Screen Keyboard
+    href: OS-Features/On-Screen-Keyboard.md
   - name: Unbranded Boot
     expanded: false
     items:
@@ -317,7 +325,7 @@
       href: Customize/Layout-Control.md
     - name: Windows Update Experience
       href: Customize/Update-Notification.md
-- name: Device Management
+- name: Management
   expanded: false
   items:
   - name: Overview
@@ -328,25 +336,28 @@
     href: Device-Management/App-Updates.md
   - name: Reset and Recovery
     href: Device-Management/Reset-and-Recovery.md
-- name: IoT Device Features
+- name: Security & Compliance
   expanded: false
   items:
-  - name: Network Service Controls
-    href: OS-Features/Network-Controls.md
-  - name: Bus Providers
-    href: OS-Features/Bus-Providers.md
-  - name: Device Drivers
-    href: OS-Features/Device-Drivers.md
-  - name: Embedded Mode
-    href: OS-Features/Embedded-Mode.md
-  - name: On-Screen Keyboard
-    href: OS-Features/On-Screen-Keyboard.md
   - name: Accessibility
-    href: OS-Features/Accessibility.md
+    href: /windows/apps/develop/accessibility
   - name: Privacy
-    href: OS-Features/Privacy.md
+    href: /windows/privacy/  
+  - name: Regulatory & Industry Compliance
+    href: /compliance
   - name: Security
-    href: OS-Features/Security.md
+    href: /windows/security/
+  - name: Other
+    expanded: false
+    items:
+    - name: Network Service Controls
+      href: OS-Features/Network-Controls.md
+    - name: Accessibility
+      href: OS-Features/Accessibility.md  
+    - name: Privacy
+      href: OS-Features/Privacy.md
+    - name: Security
+      href: OS-Features/Security.md
 - name: Optimization
   expanded: false
   items:
