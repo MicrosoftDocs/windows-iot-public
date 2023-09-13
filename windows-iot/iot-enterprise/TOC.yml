@@ -43,17 +43,30 @@
   items:
   - name: Setup an NXP i.MX EVK
     href: Tutorials\Win10-NXP-iMX.md
-- name: Deployment
+- name: Commercialization
   expanded: false
   items:
-  - name: Overview
-    href: Deployment/index.md
-  - name: Update installation media
-    href: Deployment/media-refresh.md
-  - name: Install Apps with WinGet
-    href: Deployment/install-winget-windows-iot.md
-  - name: Volume License Deployment
-    href: Deployment/Volume-License.md  
+  - name: Licensing & Usage
+    href: Commercialization/Licensing.md
+  - name: Manufacturing Guide
+    expanded: false
+    items:
+    - name: Overview
+      href: Commercialization/Manufacturing-Guide.md
+    - name: Lab 0 - Get the tools you need
+      href: Commercialization/iot-ent-get-the-tools-you-need.md
+    - name: Lab 1a - Create a basic image
+      href: Commercialization/iot-ent-create-a-basic-image.md
+    - name: Lab 1b - Customize a reference device in Audit mode
+      href: Commercialization/iot-ent-customize-the-reference-device-in-audit-mode.md
+    - name: Lab 2 - Configure device lockdown features
+      href: Commercialization/iot-ent-device-lockdown-features.md
+    - name: Lab 3 - Configure policy settings
+      href: Commercialization/iot-ent-configure-policy-settings.md
+    - name: Lab 4 - Sysprep, capture, and deploy
+      href: Commercialization/iot-ent-sysprep-capture-deploy.md
+    - name: Lab 5 - Configure Shell Launcher or Assigned Access
+      href: Commercialization/iot-ent-shell-launcher-app-launcher.md
 - name: Customization
   expanded: false
   items:
@@ -325,6 +338,17 @@
       href: Customize/Layout-Control.md
     - name: Windows Update Experience
       href: Customize/Update-Notification.md
+- name: Deployment
+  expanded: false
+  items:
+  - name: Overview
+    href: Deployment/index.md
+  - name: Update installation media
+    href: Deployment/media-refresh.md
+  - name: Install Apps with WinGet
+    href: Deployment/install-winget-windows-iot.md
+  - name: Volume License Deployment
+    href: Deployment/Volume-License.md  
 - name: Management
   expanded: false
   items:
@@ -336,28 +360,6 @@
     href: Device-Management/App-Updates.md
   - name: Reset and Recovery
     href: Device-Management/Reset-and-Recovery.md
-- name: Security & Compliance
-  expanded: false
-  items:
-  - name: Accessibility
-    href: /windows/apps/develop/accessibility
-  - name: Privacy
-    href: /windows/privacy/  
-  - name: Regulatory & Industry Compliance
-    href: /compliance
-  - name: Security
-    href: /windows/security/
-  - name: Other
-    expanded: false
-    items:
-    - name: Network Service Controls
-      href: OS-Features/Network-Controls.md
-    - name: Accessibility
-      href: OS-Features/Accessibility.md  
-    - name: Privacy
-      href: OS-Features/Privacy.md
-    - name: Security
-      href: OS-Features/Security.md
 - name: Optimization
   expanded: false
   items:
@@ -423,30 +425,28 @@
       href: Soft-Real-Time/Soft-Real-Time-Device.md
     - name: Application Development
       href: Soft-Real-Time/Soft-Real-Time-Application.md
-- name: Commercialization
+- name: Security & Compliance
   expanded: false
   items:
-  - name: Licensing & Usage
-    href: Commercialization/Licensing.md
-  - name: Manufacturing Guide
+  - name: Accessibility
+    href: /windows/apps/develop/accessibility
+  - name: Privacy
+    href: /windows/privacy/  
+  - name: Regulatory & Industry Compliance
+    href: /compliance
+  - name: Security
+    href: /windows/security/
+  - name: Other
     expanded: false
     items:
-    - name: Overview
-      href: Commercialization/Manufacturing-Guide.md
-    - name: Lab 0 - Get the tools you need
-      href: Commercialization/iot-ent-get-the-tools-you-need.md
-    - name: Lab 1a - Create a basic image
-      href: Commercialization/iot-ent-create-a-basic-image.md
-    - name: Lab 1b - Customize a reference device in Audit mode
-      href: Commercialization/iot-ent-customize-the-reference-device-in-audit-mode.md
-    - name: Lab 2 - Configure device lockdown features
-      href: Commercialization/iot-ent-device-lockdown-features.md
-    - name: Lab 3 - Configure policy settings
-      href: Commercialization/iot-ent-configure-policy-settings.md
-    - name: Lab 4 - Sysprep, capture, and deploy
-      href: Commercialization/iot-ent-sysprep-capture-deploy.md
-    - name: Lab 5 - Configure Shell Launcher or Assigned Access
-      href: Commercialization/iot-ent-shell-launcher-app-launcher.md
+    - name: Network Service Controls
+      href: OS-Features/Network-Controls.md
+    - name: Accessibility
+      href: OS-Features/Accessibility.md  
+    - name: Privacy
+      href: OS-Features/Privacy.md
+    - name: Security
+      href: OS-Features/Security.md
 - name: Downloads
   href: Downloads.md
 - name: Code Samples
