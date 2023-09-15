@@ -95,7 +95,7 @@ Microsoft has all the tooling to provide immediate support and assistance.
 
 ### Device Management
 
-Microsoft provides a whole suite of [device management](../Device-Management/Device-Management-Overview.md) solutions to keep your devices safe and monitor activity at all times. Managing a device is now easier than ever on Windows IoT Enterprise. There are multiple options that your organization can choose from in order to best manage your devices, such as Microsoft Intune, Endpoint Manager and third-party OMA-DM based management tools. OEMs can also select [Azure Device Agent](/windows/iot-core/manage-your-device/azureiotda), which leaves it up to their customers to select the device management solution that fits them best.
+Microsoft provides a whole suite of [device management](../Device-Management/Device-Management-Overview.md) solutions to keep your devices safe and monitor activity at all times. Managing a device is now easier than ever on Windows IoT Enterprise. There are multiple options that your organization can choose from in order to best manage your devices, such as Microsoft Intune, Endpoint Manager and third-party OMA-DM based management tools. OEMs can also select [Azure Device Agent](https://github.com/ms-iot/azure-client-tools/blob/master/docs/device-agent/device-agent.md), which leaves it up to their customers to select the device management solution that fits them best.
 
 * [Use Intune to remediate vulnerabilities identified by Microsoft Defender ATP](/mem/intune/protect/atp-manage-vulnerabilities)
 
