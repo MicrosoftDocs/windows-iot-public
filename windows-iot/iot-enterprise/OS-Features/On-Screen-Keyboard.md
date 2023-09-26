@@ -57,14 +57,14 @@ With the On-Screen Keyboard open, select the **Options** key, and choose the opt
 * **Use Text Prediction.** Use this option if you want the On-Screen Keyboard to suggest words for you as you type so you don't need to type each complete word.
 
 > [!NOTE]
-
-> * Text Prediction is available in English, French, Italian, German, and Spanish. If you want to use one of these languages and it isn't installed, install the language files for that language.
-> * If you're using either hovering mode or scanning mode and accidentally minimize the On-Screen Keyboard, you can restore it by pointing to it in the taskbar (for hovering mode) or by pressing the scan key (for scanning mode).
-> * If you minimize the On-Screen Keyboard and switch to tablet mode, use the Task view button to get back to the On-Screen Keyboard.
+>
+> - Text Prediction is available in English, French, Italian, German, and Spanish. If you want to use one of these languages and it isn't installed, install the language files for that language.
+> - If you're using either hovering mode or scanning mode and accidentally minimize the On-Screen Keyboard, you can restore it by pointing to it in the taskbar (for hovering mode) or by pressing the scan key (for scanning mode).
+> - If you minimize the On-Screen Keyboard and switch to tablet mode, use the Task view button to get back to the On-Screen Keyboard.
 
 ## Feature packages
 
-For prototyping (development) images, the on-screen keyboard feature is already included, but you will need to enable it from Device Settings in the [Windows Device Portal](/windows/iot-core/manage-your-device/deviceportal).
+For prototyping (development) images, the on-screen keyboard feature is already included, but you will need to enable it from Device Settings in the [Windows Device Portal](/windows/uwp/debug-test-perf/device-portal-desktop).
 
 For commercialization, the following optional feature packages will add the on-screen keyboard to your image:
 
@@ -106,7 +106,7 @@ To show the dictation button in the keyboard, refer to the following section on
 ## User Interface configuration
 
 The on-screen keyboard provides several configurable options for its user interface. These are configured via the registry.
-During development, you can use [PowerShell](/windows/iot-core/connect-your-device/powershell) or [Secure Shell (SSH)](/windows/iot-core/connect-your-device/ssh). For creating an OEM image, the preferred mechanism for setting registry values is the `OEMInput.xml` file discussed here:
+During development, you can use [PowerShell](/powershell/scripting/learn/remoting/running-remote-commands) or [Secure Shell (SSH)](/windows-server/administration/openssh/openssh_overview). For creating an OEM image, the preferred mechanism for setting registry values is the `OEMInput.xml` file discussed here:
 
 [Runtime customizations](/windows-hardware/manufacture/iot/oscustomizations#runtime-customizations)
 
@@ -120,7 +120,7 @@ During development, you can use [PowerShell](/windows/iot-core/connect-your-devi
 
 By default, the touch keyboard will use the lower 45% of the screen's height. This may appear too large or small on your device, depending on its size and resolution. You can adjust the height up to a maximum of two-thirds the height of the screen. Any value not in range will be clamped into range. Because this is specified as a floating point value, it allows for pixel-level precision.
 
-Apply the following formula to calculate the percentage: `percentage = (100 * <desired_pixel_height>) / <screen_height>`
+Apply the following formula to calculate the percentage: `percentage = (100 - <desired_pixel_height>) / <screen_height>`
 
 As an example, to change the height to 56.783%, you would set the following registry value:
 

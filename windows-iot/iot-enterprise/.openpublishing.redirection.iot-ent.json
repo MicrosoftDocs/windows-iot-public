@@ -1,0 +1,55 @@
+{
+
+"redirections": [
+    {
+	    "source_path_from_root": "/windows-iot/iot-enterprise/eflow",
+	    "redirect_url": "https://aka.ms/azeflow-docs"
+    },
+
+    {
+        "source_path_from_root": "/windows-iot/iot-enterprise/Azure-IoT-Edge-For-Linux-On-Windows.md",
+        "redirect_url": "https://aka.ms/azeflow-docs"
+    },
+
+    {
+        "source_path_from_root": "/windows-iot/product-family/what's-new-in-Windows-10-IoT-Enterprise-21H2.md",
+        "redirect_url": "/windows/iot/iot-enterprise/whats-new/Windows-IoT-Enterprise-21H2"
+    },
+
+    {
+        "source_path_from_root": "/windows-iot/product-family/what's-new-in-Windows-11-IoT-Enterprise.md",
+        "redirect_url": "/windows/iot/iot-enterprise/whats-new/Windows-11-IoT-Enterprise-22H2"
+    },
+
+    {
+        "source_path_from_root": "/Windows-iot/product-family/fall-2021-releases.md",
+        "redirect_url": "/windows/iot/iot-enterprise/whats-new/release-history"
+    },
+
+    {
+        "source_path_from_root": "/Windows-iot/product-family/product-lifecycle.md",
+        "redirect_url": "/windows/iot/iot-enterprise/whats-new/release-history"
+    },
+
+    {
+        "source_path_from_root": "/Windows-iot/iot-enterprise/features.md",
+        "redirect_url": "/windows/iot/iot-enterprise/whats-new/release-history"
+    },
+
+    {
+        "source_path_from_root": "/Windows-iot/iot-enterprise/os-features/accessibility.md",
+        "redirect_url": "/windows/iot/iot-enterprise/resources/accessibility"
+    },
+
+    {
+        "source_path_from_root": "/Windows-iot/iot-enterprise/os-features/privacy.md",
+        "redirect_url": "/windows/iot/iot-enterprise/resources/privacy"
+    },
+
+    {
+        "source_path_from_root": "/Windows-iot/iot-enterprise/os-features/security.md",
+        "redirect_url": "/windows/iot/iot-enterprise/resources/security"
+    }
+
+]
+}

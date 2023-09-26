@@ -3,7 +3,7 @@ title: What's new in Windows 11 IoT Enterprise, version 22H2?
 description: Learn about what's new in Windows 11 IoT Enterprise, version 22H2.
 author: TerryWarwick
 ms.author: twarwick
-ms.date: 05/05/2023
+ms.date: 08/16/2023
 ms.topic: article
 ms.prod: windows-iot
 ms.technology: iot
@@ -16,11 +16,11 @@ keywords: Windows IoT Enterprise, Windows 11, Windows 11 IoT, Windows 11 IoT Ent
 
 Windows 11, version 22H2 is a feature update for Windows 11 IoT Enterprise. Windows 11, version 22H2 includes all previous cumulative updates to Windows 11 IoT Enterprise, version 21H2 plus some new and updated features valuable for IoT scenarios.
 
-Windows 11 IoT Enterprise, version 21H2 follows the [Modern Lifecycle Policy](/lifecycle/policies/modern).
+Windows 11 IoT Enterprise follows the [Modern Lifecycle Policy](/lifecycle/policies/modern).
 
 | Release | Version | Availability | End of Servicing |
 | --- | --- | --- | --- |
-| Windows 11 IoT Enterprise, version 21H2 | 22621 | 2022-09-20 | 2025-10-14 |
+| Windows 11 IoT Enterprise, version 22H2 | 22621 | 2022-09-20 | 2025-10-14 |
 
 For more information, see [Windows 11 IoT Enterprise support lifecycle](/lifecycle/products/windows-11-iot-enterprise).
 
@@ -31,6 +31,11 @@ Windows 11 IoT Enterprise, version 22H2 is available through Windows Server Upda
 To learn more about the status of the update rollout, known issues, and new information, see [Windows release health](/windows/release-health/).
 
 ## What's new
+
+> [!NOTE]
+> Multi-app kiosk mode is not available for Windows 11 IoT Enterprise, version 22H2.  Please refer to What's new about subsequent releases for information about its return.
+>
+> **Update** - [Multi-app kiosk mode is now available in Windows 11, version 22H2](https://techcommunity.microsoft.com/t5/windows-it-pro-blog/multi-app-kiosk-mode-now-available-in-windows-11/ba-p/3845558), as part of the Windows continuous innovation releases.  To learn how you can take advantage of features introduced via Windows continuous innovation, see more about how you can access this feature in Windows 11 IoT Enterprise, version 22H2, see [Delivering continuous innovation in Windows 11](https://support.microsoft.com/windows/delivering-continuous-innovation-in-windows-11-b0aa0a27-ea9a-4365-9224-cb155e517f12).
 
 | Feature | Description |
 | --- | --- |

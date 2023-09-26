@@ -1,71 +1,99 @@
 ---
 title: Custom Logon
+description: Custom Logon
+MSHAttr:
+- 'PreferredSiteName:MSDN'
+- 'PreferredLib:/library/windows/hardware'
+ms.assetid: aaf4ddd3-eac4-4c60-90c8-38837078c43b
 author: TerryWarwick
 ms.author: twarwick
-ms.date: 03/30/2023
-ms.topic: article
 ms.prod: windows-iot
 ms.technology: iot
-description: Learn about the Custom Logon Feature in Windows IoT Enterprise.
-keywords: Branding, Custom Logon
----
+ms.date: 05/02/2017
+ms.topic: article
 
+
+---
 # Custom Logon
 
-Custom Logon features allow you to take control of the welcome and shutdown screens for your device.
+You can use the Custom Logon feature to suppress Windows UI elements that relate to the Welcome screen and shutdown screen. For example, you can suppress all elements of the Welcome screen UI and provide a custom logon UI. You can also suppress the Blocked Shutdown Resolver (BSDR) screen and automatically end applications while the OS waits for applications to close before a shutdown.
 
-## Feature Benefits
+Custom Logon settings don't modify the credential behavior of **Winlogon**, so you can use any credential provider that is compatible with Windows 10 to provide a custom sign-in experience for your device. For more information about creating a custom logon experience, see [Winlogon and Credential Providers](/windows/win32/secauthn/winlogon-and-credential-providers).
 
-By using Custom Logon, you can suppress all elements of the Welcome screen UI and provide a custom logon UI for your users. You can also suppress the Blocked Shutdown Resolver (BSDR) screen and automatically end applications while the OS waits for applications to close before a shutdown.
+## Requirements
 
-Custom Logon settings don't modify the credential behavior of **Winlogon**, so you can use any credential provider that is compatible with Windows to provide a custom sign-in experience for your device. For more information about creating a custom logon experience, see [Winlogon and Credential Providers](/windows/win32/secauthn/winlogon-and-credential-providers).
+Windows 10 Enterprise or Windows 10 Education.
 
-## Enable Custom Logon
+## Terminology
 
-Custom Logon is an optional component that isn't turned on by default in Windows. It must be turned on prior to configuring. You can turn on and configure Custom Logon in a customized Windows image (.wim) if Microsoft Windows han't been installed. If Windows has already been installed and you're applying a provisioning package to configure Custom Logon, you must first turn on Custom Logon in order for a provisioning package to be successfully applied.
+**Turn on, enable:** To make the feature available and optionally apply settings to the device. Generally *turn on* is used in the user interface or control panel, whereas *enable* is used for command line.
 
-The Custom Logon feature is available in the Control Panel.
+**Configure:** To customize the setting or subsettings.
 
-You can set Custom Logon by following these steps:
+**Embedded Logon:** This feature is called Embedded Logon in Windows 10, version 1511.
 
-  1. In the Windows search bar, type **Turn Windows features on or off**.
-  2. In the Windows Features window, expand the **Device Lockdown** node, and select the checkbox for Custom Logon.
+**Custom Logon:** This feature is called Custom Logon in Windows 10, version 1607 and later.
 
-        * [Turn on and configure Custom Logon using DISM](/windows-hardware/customize/enterprise/custom-logon#turn-on-custom-logon)
-        * [Configure Custom Logon settings using Unattend](/windows-hardware/customize/enterprise/custom-logon#turn-on-custom-logon)
+## Turn on Custom Logon
 
-## Complementary Features
+Custom Logon is an optional component and isn't turned on by default in Windows 10. It must be turned on prior to configuring. You can turn on and configure Custom Logon in a customized Windows 10 image (.wim) if Microsoft Windows hasn't been installed. If Windows has already been installed and you're applying a provisioning package to configure Custom Logon, you must first turn on Custom Logon in order for a provisioning package to be successfully applied.
 
-You may want to use or change some of the following features with Custom Logon to further customize the user experience.
+The Custom Logon feature is available in the Control Panel. You can set Custom Logon by following these steps:
 
-### Power button
+### Turn on Custom Logon in Control Panel
 
-We recommend that you remove the power button from the Welcome screen and block the physical power button so that a user can't turn off the device when using [assigned access](Single-App-Kiosk.md) or [shell launcher](Shell-Launcher.md).
+1. In the **Search the web and Windows** field, type **Turn Windows features on or off**.
+1. In the **Windows Features** window, expand the **Device Lockdown** node, and select or clear the checkbox for **Custom Logon**.
 
-  Go to **Power Options** > **Choose what the power button does**, change the setting to **Do nothing**, and then **Save changes**.
+### Turn on and configure Custom Logon using DISM
 
-### Remove Wireless UI from the Welcome screen
+1. Open a command prompt with administrator rights.
+1. Copy install.wim to a temporary folder on hard drive (in the following steps, we assume it's called C:\\wim).
+1. Create a new directory.
 
-You can also remove the Wireless UI option from the Welcome screen by using Group Policy.
+    ```cmd
+    md c:\wim
+    ```
 
-To remove Wireless UI from the Welcome screen:
+1. Mount the image.
 
-1. From a command prompt, run **gpedit.msc** to open the Local Group Policy Editor.
-2. In the Local Group Policy Editor, under **Computer Configuration** > **Administrative Templates** > **System** > **Logon**.
-3. Double-tap or click **Do not display network selection UI**.
+    ```cmd
+    dism /mount-wim /wimfile:c:\bootmedia\sources\install.wim /index:1 /MountDir:c:\wim
+    ```
 
-### Welcome Screen
+1. Enable the feature.
 
-You also have the option to remove other buttons from the Welcome screen to create your own customized experience.
+    ```cmd
+    dism /image:c:\wim /enable-feature /featureName:Client-EmbeddedLogon
+    ```
 
-This includes:
+1. Commit the change.
 
-* [Language button](/windows-hardware/customize/enterprise/complementary-features-to-custom-logon#welcome-screen)
-* [Ease of Access button](/windows-hardware/customize/enterprise/complementary-features-to-custom-logon#welcome-screen)
-* [Switch user button](/windows-hardware/customize/enterprise/complementary-features-to-custom-logon#welcome-screen)
+    ```cmd
+    dism /unmount-wim /MountDir:c:\wim /Commit
+    ```
 
-## More Resources
+### Configure Custom Logon settings using Unattend
 
-* [Custom Logon](/windows-hardware/customize/enterprise/custom-logon)
-* [Complementary features to Custom Logon](/windows-hardware/customize/enterprise/complementary-features-to-custom-logon)
-* [Troubleshooting Custom Logon](/windows-hardware/customize/enterprise/troubleshooting-custom-logon)
+You can configure the Unattend settings in the [Microsoft-Windows-Embedded-EmbeddedLogon](/windows-hardware/customize/desktop/unattend/microsoft-windows-embedded-embeddedlogon) component to add custom logon features to your image during the design or imaging phase. You can manually create an Unattend answer file or use Windows System Image Manager (Windows SIM) to add the appropriate settings to your answer file. For more information about the custom logon settings and XML examples, see the settings in Microsoft-Windows-Embedded-EmbeddedLogon.
+
+The following example shows how to disable all Welcome screen UI elements and the **Switch user** button.
+
+```xml
+<settings pass="specialize">
+    <component name="Microsoft-Windows-Embedded-EmbeddedLogon" processorArchitecture="x86" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <BrandingNeutral>17</BrandingNeutral>
+      <AnimationDisabled>1</AnimationDisabled>
+      <NoLockScreen>1</NoLockScreen>
+      <UIVerbosityLevel>1</UIVerbosityLevel>
+      <HideAutoLogonUI>1</HideAutoLogonUI>
+    </component>
+</settings>
+```
+
+## Related articles
+
+- [Complementary features to Custom Logon](complementary-features-to-custom-logon.md)
+- [Troubleshooting Custom Logon](troubleshooting-custom-logon.md)
+- [Unbranded Boot](unbranded-boot.md)
+- [Shell Launcher](shell-launcher.md)

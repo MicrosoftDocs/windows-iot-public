@@ -3,7 +3,7 @@ title: What's new in Windows 11 IoT Enterprise, version 21H2?
 description: Learn about what's new in Windows 11 IoT Enterprise, version 21H2.
 author: TerryWarwick
 ms.author: twarwick
-ms.date: 05/05/2023
+ms.date: 08/16/2023
 ms.topic: article
 ms.prod: windows-iot
 ms.technology: iot
@@ -16,7 +16,7 @@ keywords: Windows IoT Enterprise, Windows 11, Windows 11 IoT, Windows 11 IoT Ent
 
 Windows 11 IoT Enterprise, version 21H2 is the next evolution of Windows for IoT and it is build on the same foundation as Windows 10.  Investments you have made in tools for update and device management are carried forward.  Many of the same applications and tools that you used in Windows 10 IoT Enterprise can be use in Windows 11 IoT Enterprise. many of the same security settings and policies can also be applied to Windows 11 IoT Enterprise devices.  
 
-Windows 11 IoT Enterprise, version 21H2 follows the [Modern Lifecycle Policy](/lifecycle/policies/modern).
+Windows 11 IoT Enterprise follows the [Modern Lifecycle Policy](/lifecycle/policies/modern).
 
 | Release | Version | Availability | End of Servicing |
 | --- | --- | --- | --- |
@@ -34,9 +34,9 @@ For more information, see [Windows 11 IoT Enterprise support lifecycle](/lifecyc
 
 Windows 11 IoT Enterprise, version 21H2 is available for Windows IoT Enterprise device makers through an authorized [Windows IoT Distributor](https://aka.ms/IoTDistributorList) for building new devices. Windows IoT Enterprise is intended for fixed purpose devices with specific allowances and restrictions in the license agreement. To learn more, see [Licensing and Usage](/windows/iot/iot-enterprise/commercialization/licensing) contact an authorized [Windows IoT Distributor](https://aka.ms/IoTDistributorList) for additional guidance.
 
-Windows 11, version 21H2 is also available to users with devices running Windows 10 IoT Enterprise, version 20H2 or later who are interested in the latest features and are ready to install this release on their device if the hardware ....
+Windows 11, version 21H2 is also available to users with devices running Windows 10 IoT Enterprise, version 20H2 or later who are interested in the latest features and are ready to install this release on their device if the hardware satisfies the minimum requirements.
 
-. If you would like to install the new release, open your Windows Update settings (**Settings > Update & Security > Windows Update**) and select **Check for updates**. Eligible devices may also be offered the option to choose to upgrade to Windows 11. If the update appears, you can simply select Download and install to get started. Once the download is complete and the feature update is ready to install, we’ll notify you so that you can pick a convenient time to finish the installation and reboot your device, ensuring that the update does not disrupt your activities. To learn more about the status of the 2022 Update rollout, known issues and new information, visit .
+If you would like to install the new release, open your Windows Update settings (**Settings > Update & Security > Windows Update**) and select **Check for updates**. Eligible devices may also be offered the option to choose to upgrade to Windows 11. If the update appears, you can simply select Download and install to get started. Once the download is complete and the feature update is ready to install, we’ll notify you so that you can pick a convenient time to finish the installation and reboot your device, ensuring that the update does not disrupt your activities. To learn more about the status of the 2022 Update rollout, known issues and new information, visit .
 
 Windows 11 IoT Enterprise will be delivered as an upgrade to eligible devices running Windows 10 IoT Enterprise, beginning on October 5, 2021.
 
@@ -62,25 +62,22 @@ As mentioned above, Windows 11 IoT Enterprise preserves the application compatib
 
 Windows 11 IoT Enterprise is built on the same foundation as Windows 10 IoT Enterprise. Typically, you can use the same tools and solutions you use today to deploy, manage, and secure your Windows 11 IoT Enterprise device. Your current management tools and processes will also work to manage monthly quality updates for both Windows 10 IoT Enterprise and Windows 11 IoT Enterprise devices.
 
->[!TIP]
+> [!TIP]
 >
 > Please see [Prepare for Windows 11](/windows/whats-new/windows-11-prepare#infrastructure-and-tools) for more details on infrastructure and tools nuanced differences in regards to [on-premises solutions (WSUS)](/windows/whats-new/windows-11-prepare#on-premises-solutions) or [Cloud-based solutions](/windows/whats-new/windows-11-prepare#cloud-based-solutions).
 
 ## Servicing
 
-Like Windows 10 IoT Enterprise, Windows 11 IoT Enterprise will receive monthly quality updates. However, it will have a new feature update cadence. The semi-annual update cadence for Windows 10 IoT Enterprise will remain, but starting with Windows 11 IoT Enterprise, there will only be one release a year.  
-
-Important servicing-related announcements and information about known issues and safeguard holds can be found on the [Windows release health hub](https://aka.ms/windowsreleasehealth). For more information, see [Servicing and support](/windows/whats-new/windows-11-plan#servicing-and-support).
-
->[!NOTE]
->
-> Microsoft does not publish feature updates through Windows Update for devices running Windows 10 IoT Enterprise LTSC.
->
-> Microsoft releases new LTSC editions every 2–3 years. OEMs may purchase a newer LTSC as a field upgrade for their devices, if appropriate. Please contact your [Windows IoT Distributor](https://aka.ms/IoTDistributorList) for more information.
+Like Windows 10 IoT Enterprise, Windows 11 IoT Enterprise will receive monthly quality updates. For more information about servicing related announcements see [Windows release health hub](https://aka.ms/windowsreleasehealth) as well as [Servicing and support](/windows/whats-new/windows-11-plan#servicing-and-support).
 
 ## New Features and Functionality Updates
 
 With every new operating system, comes exciting new features and capabilities - Windows 11 IoT Enterprise is no different.
+
+> [!NOTE]
+> Multi-app kiosk mode is not available for Windows 11 IoT Enterprise, version 21H2.  Please refer to What's new about subsequent releases for information about its return.
+>
+> **Update** - [Multi-app kiosk mode is now available in Windows 11, version 22H2](https://techcommunity.microsoft.com/t5/windows-it-pro-blog/multi-app-kiosk-mode-now-available-in-windows-11/ba-p/3845558), as part of the Windows continuous innovation releases.  To learn how you can take advantage of features introduced via Windows continuous innovation, see more about how you can access this feature in Windows 11 IoT Enterprise, version 22H2, see [Delivering continuous innovation in Windows 11](https://support.microsoft.com/windows/delivering-continuous-innovation-in-windows-11-b0aa0a27-ea9a-4365-9224-cb155e517f12).
 
 ### Security and scanning
 

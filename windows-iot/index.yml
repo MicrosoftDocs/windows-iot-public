@@ -36,16 +36,20 @@ productDirectory:
     - title: Windows IoT Enterprise
       imageSrc: /media/logos/logo_Windows.svg
       links:
-        - url: /windows/iot/iot-enterprise/getting_started
+        - url: ./iot-enterprise/whats-new/Release-History.md
           text: Overview
+        - url: ./iot-enterprise/hardware/Hardware_Requirements.md
+          text: Hardware Requirements  
+        - url: ./iot-enterprise/deployment/index.md
+          text: Deployment
+        - url: ./iot-enterprise/customize/customize-overview.md
+          text: Customization
+        - url:  ./iot-enterprise/optimize/overview.md
+          text: Optimization  
         - url: ./iot-enterprise/Commercialization/Manufacturing-Guide.md
           text: Manufacturing Guide
-        - url: ./iot-enterprise/customize/Kiosk-Mode.md
-          text: Kiosk Mode
-        - url:  ./iot-enterprise/optimize-your-device/reduce-disk-footprint.md
-          text: Device Optimization  
-        - url: /lifecycle/products/?terms=Windows%20IoT%20Enterprise
-          text: Support Lifecycle
+#        - url: /lifecycle/products/?terms=Windows%20IoT%20Enterprise
+#          text: Support Lifecycle
 
     - title: Windows Server IoT
       imageSrc: /media/common/i_server.svg
@@ -113,7 +117,7 @@ conceptualContent:
         - url: https://aka.ms/IoTDistributorList
           itemType: how-to-guide
           text:  Distributor Information
-        - url: /windows/iot/iot-enterprise/hardware-guidance/hardware_requirements
+        - url: ./iot-enterprise/hardware-guidance/hardware_requirements.md
           itemType: reference
           text:  Hardware Requirements
 
