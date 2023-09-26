@@ -34,22 +34,39 @@
     href: Hardware/ArmFAQ.md
   - name: Start prototyping
     href: Hardware/Prototype.md
+  - name: Bus Providers
+    href: OS-Features/Bus-Providers.md
+  - name: Device Drivers
+    href: OS-Features/Device-Drivers.md    
 - name: Tutorials
   expanded: false
   items:
   - name: Setup an NXP i.MX EVK
     href: Tutorials\Win10-NXP-iMX.md
-- name: Deployment
+- name: Commercialization
   expanded: false
   items:
-  - name: Overview
-    href: Deployment/index.md
-  - name: Update installation media
-    href: Deployment/media-refresh.md
-  - name: Install Apps with WinGet
-    href: Deployment/install-winget-windows-iot.md
-  - name: Volume License Deployment
-    href: Deployment/Volume-License.md  
+  - name: Licensing & Usage
+    href: Commercialization/Licensing.md
+  - name: Manufacturing Guide
+    expanded: false
+    items:
+    - name: Overview
+      href: Commercialization/Manufacturing-Guide.md
+    - name: Lab 0 - Get the tools you need
+      href: Commercialization/iot-ent-get-the-tools-you-need.md
+    - name: Lab 1a - Create a basic image
+      href: Commercialization/iot-ent-create-a-basic-image.md
+    - name: Lab 1b - Customize a reference device in Audit mode
+      href: Commercialization/iot-ent-customize-the-reference-device-in-audit-mode.md
+    - name: Lab 2 - Configure device lockdown features
+      href: Commercialization/iot-ent-device-lockdown-features.md
+    - name: Lab 3 - Configure policy settings
+      href: Commercialization/iot-ent-configure-policy-settings.md
+    - name: Lab 4 - Sysprep, capture, and deploy
+      href: Commercialization/iot-ent-sysprep-capture-deploy.md
+    - name: Lab 5 - Configure Shell Launcher or Assigned Access
+      href: Commercialization/iot-ent-shell-launcher-app-launcher.md
 - name: Customization
   expanded: false
   items:
@@ -64,6 +81,8 @@
       href: Customize/complementary-features-to-custom-logon.md
     - name: Troubleshooting
       href: Customize/troubleshooting-custom-logon.md
+  - name: Embedded Mode
+    href: OS-Features/Embedded-Mode.md
   - name: Keyboard Filter
     expanded: false
     items:
@@ -162,6 +181,8 @@
           href: Customize\wesl-usersettingsetdefaultshell.md 
         - name: SetEnabled
           href: Customize\wesl-usersettingsetenabled.md 
+  - name: On-Screen Keyboard
+    href: OS-Features/On-Screen-Keyboard.md
   - name: Unbranded Boot
     expanded: false
     items:
@@ -317,7 +338,18 @@
       href: Customize/Layout-Control.md
     - name: Windows Update Experience
       href: Customize/Update-Notification.md
-- name: Device Management
+- name: Deployment
+  expanded: false
+  items:
+  - name: Overview
+    href: Deployment/index.md
+  - name: Update installation media
+    href: Deployment/media-refresh.md
+  - name: Install Apps with WinGet
+    href: Deployment/install-winget-windows-iot.md
+  - name: Volume License Deployment
+    href: Deployment/Volume-License.md  
+- name: Management
   expanded: false
   items:
   - name: Overview
@@ -328,25 +360,6 @@
     href: Device-Management/App-Updates.md
   - name: Reset and Recovery
     href: Device-Management/Reset-and-Recovery.md
-- name: IoT Device Features
-  expanded: false
-  items:
-  - name: Network Service Controls
-    href: OS-Features/Network-Controls.md
-  - name: Bus Providers
-    href: OS-Features/Bus-Providers.md
-  - name: Device Drivers
-    href: OS-Features/Device-Drivers.md
-  - name: Embedded Mode
-    href: OS-Features/Embedded-Mode.md
-  - name: On-Screen Keyboard
-    href: OS-Features/On-Screen-Keyboard.md
-  - name: Accessibility
-    href: OS-Features/Accessibility.md
-  - name: Privacy
-    href: OS-Features/Privacy.md
-  - name: Security
-    href: OS-Features/Security.md
 - name: Optimization
   expanded: false
   items:
@@ -403,45 +416,30 @@
         href: Optimize/Removable-Packages/Microsoft-Windows-win32calc.md
   - name: Services Guide
     href: Optimize/Services.md
-- name: Commercialization
-  expanded: false
-  items:
-  - name: Licensing & Usage
-    href: Commercialization/Licensing.md
-  - name: Manufacturing Guide
+  - name: Soft Real-Time
     expanded: false
     items:
     - name: Overview
-      href: Commercialization/Manufacturing-Guide.md
-    - name: Lab 0 - Get the tools you need
-      href: Commercialization/iot-ent-get-the-tools-you-need.md
-    - name: Lab 1a - Create a basic image
-      href: Commercialization/iot-ent-create-a-basic-image.md
-    - name: Lab 1b - Customize a reference device in Audit mode
-      href: Commercialization/iot-ent-customize-the-reference-device-in-audit-mode.md
-    - name: Lab 2 - Configure device lockdown features
-      href: Commercialization/iot-ent-device-lockdown-features.md
-    - name: Lab 3 - Configure policy settings
-      href: Commercialization/iot-ent-configure-policy-settings.md
-    - name: Lab 4 - Sysprep, capture, and deploy
-      href: Commercialization/iot-ent-sysprep-capture-deploy.md
-    - name: Lab 5 - Configure Shell Launcher or Assigned Access
-      href: Commercialization/iot-ent-shell-launcher-app-launcher.md
-- name: Soft Real-Time
-  expanded: false
+      href: Soft-Real-Time/Soft-Real-Time.md
+    - name: Device Configuration
+      href: Soft-Real-Time/Soft-Real-Time-Device.md
+    - name: Application Development
+      href: Soft-Real-Time/Soft-Real-Time-Application.md
+- name: Security & Compliance
+  expanded: true
   items:
-  - name: Overview
-    href: Soft-Real-Time/Soft-Real-Time.md
-  - name: Device Configuration
-    href: Soft-Real-Time/Soft-Real-Time-Device.md
-  - name: Application Development
-    href: Soft-Real-Time/Soft-Real-Time-Application.md
+  - name: Accessibility
+    href: resources/accessibility.md
+  - name: Compliance
+    href: resources/compliance.md
+  - name: Privacy
+    href: resources/privacy.md
+  - name: Security
+    href: resources/security.md
 - name: Downloads
   href: Downloads.md
 - name: Code Samples
   href: https://aka.ms/winiotsamples
-- name: Features by Release
-  href: Features.md
 - name: Frequently Asked Questions
   href: FAQ.md
 - name: Contact us

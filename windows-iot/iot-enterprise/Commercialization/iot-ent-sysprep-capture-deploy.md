@@ -139,7 +139,7 @@ In this section, we show you how to deploy a WIM image from WinPE. The reference
 1. Deploy the WIM image to the W: drive created in the previous step. From the WinPE command prompt:
 
     ```cmd
-    DISM /Apply-Image /ImageFile:D:\IoTOS.swm /SWMFile:IoTOS*.swm /ApplyDir:W:\ /Index:1 and press Enter
+    DISM /Apply-Image /ImageFile:D:\IoTOS.swm /SWMFile:D:\IoTOS*.swm /ApplyDir:W:\ /Index:1 and press Enter
     ```
 
 1. Configure the default BCD on the system, which is a required step as the disk was freshly partitioned and formatted which requires a new BCD. From the WinPE Command Prompt:

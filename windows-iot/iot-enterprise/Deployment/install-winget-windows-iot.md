@@ -1,10 +1,10 @@
 ---
-title: Install WinGet (Windows Package Manager) on Windows IoT OS
+title: Using WinGet to Install Apps on Windows IoT Enterprise
 description: How to Install WinGet on Windows IoT Enterprise
 author: trumanbrown-msft 
 ms.author: trumanbrown
 ms.topic: how-to 
-ms.date: 06/19/2023
+ms.date: 09/08/2023
 ms.prod: windows-iot
 ms.custom: template-how-to 
 ---
