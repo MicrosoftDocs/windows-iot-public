@@ -2,7 +2,7 @@
 title: Reduce Disk Footprint
 author: twarwick
 ms.author: twarwick
-ms.date: 03/31/2023
+ms.date: 09/26/2023
 ms.topic: article
 ms.prod: windows-iot
 ms.technology: iot
@@ -36,11 +36,11 @@ After installing an update, the old versions of OS files are still kept in the c
 
 ## Disable Hibernation
 
-Hibernation creates hiberfil.sys file, whose max size could be as large as the physical RAM. With 16 GB physical RAM, hiberfil.sys file could take up about 16 GB of your disk space. If your device doesn't need hibernation, you can [disable it]./iot-ent-optimize-images.md?#disable-hibernation).
+Hibernation creates hiberfil.sys file, whose max size could be as large as the physical RAM. With 16 GB physical RAM, hiberfil.sys file could take up about 16 GB of your disk space. If your device doesn't need hibernation, you can [disable it](/iot-ent-optimize-images#disable-hibernation).
 
 ## Disable the Page File
 
-Disabling the Page file can save several GBs depending on physical RAM size and default memory manager setting. Learn how to [disable the page file from the registry](/windows-hardware/manufacture/desktop/iot-ent-optimize-images#disable-the-page-file).
+Disabling the Page file can save several GBs depending on physical RAM size and default memory manager setting. Learn how to [disable the page file from the registry](iot-ent-optimize-images#disable-the-page-file).
 
 ## Remove Unnecessary Drivers
 
@@ -48,7 +48,7 @@ You can remove drivers from an offline image. To learn more, review [add and rem
 
 ## More File Compression
 
-Enabling Compact OS will compress OS files and some select set of program files, highly optimized for executables and read-only binary files. For custom read-only program files added by OEMs, you can target and [additionally compress](/windows-hardware/manufacture/desktop/iot-ent-optimize-images#additional-file-compression) them with Compact.exe /EXE options.
+Enabling Compact OS will compress OS files and some select set of program files, highly optimized for executables and read-only binary files. For custom read-only program files added by OEMs, you can target and [additionally compress](iot-ent-optimize-images#additional-file-compression) them with Compact.exe /EXE options.
 
 ## Removable Packages
 
