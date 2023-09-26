@@ -429,13 +429,13 @@
   expanded: false
   items:
   - name: Accessibility
-    href: /security+compliance/accessibility
+    href: /security+compliance/accessibility.md
+  - name: Compliance
+    href: /security+compliance/compliance.md
   - name: Privacy
-    href: /security+compliance/privacy  
-  - name: Regulatory & Industry Compliance
-    href: /security+compliance/compliance
+    href: /security+compliance/privacy.md
   - name: Security
-    href: /security+compliance/security
+    href: /security+compliance/security.md
 - name: Downloads
   href: Downloads.md
 - name: Code Samples
