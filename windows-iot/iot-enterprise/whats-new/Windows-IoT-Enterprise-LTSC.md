@@ -6,7 +6,7 @@ author: TerryWarwick
 ms.author: twarwick
 ms.topic: article
 ms.technology: iot
-ms.date: 06/08/2023
+ms.date: 08/16/2023
 ---
 
 # Windows IoT Enterprise LTSC
@@ -20,6 +20,11 @@ We designed Windows IoT Enterprise LTSC with these use cases in mind. We support
 Windows IoT Enterprise LTSC releases approximately every three years, and each release contains all the new capabilities and support included in Windows feature updates that have been released since the previous LTSC release.  LTSC releases are named with a specific year, such as Windows 10 IoT Enterprise LTSC 2021.
 
 Windows IoT Enterprise LTSC releases receive 10 years of servicing and support. Upgrading from one version of Windows IoT Enterprise LTSC to the next version requires a new license.
+
+> [!NOTE]
+> Microsoft does not publish feature updates through Windows Update for devices running Windows 10 IoT Enterprise LTSC.
+>
+> Microsoft releases new LTSC editions every 2–3 years. OEMs may purchase a newer LTSC as a field upgrade for their devices, if appropriate. Please contact your [Windows IoT Distributor](https://aka.ms/IoTDistributorList) for more information.
 
 ## Availability
 

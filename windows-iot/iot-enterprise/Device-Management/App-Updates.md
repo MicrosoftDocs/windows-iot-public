@@ -48,7 +48,7 @@ See [Download and install package updates for your app](/windows/uwp/packaging/s
 
 ## Using Azure IoT Device Management
 
-[Azure IoT Device Management (AzureDM)](/windows/iot-core/manage-your-device/azureiotdm) is a highly scalable management solution available on Windows IoT Enterprise. See [Application Management](https://github.com/ms-iot/iot-core-azure-dm-client/blob/master/docs/application-management.md) for the details of installing and updating applications via AzureDM.
+[Azure IoT Device Management (AzureDM)](https://github.com/ms-iot/iot-core-azure-dm-client/) is a highly scalable management solution available on Windows IoT Enterprise. See [Application Management](https://github.com/ms-iot/iot-core-azure-dm-client/blob/master/docs/application-management.md) for the details of installing and updating applications via AzureDM.
 
 ## Using OMA-DM
 

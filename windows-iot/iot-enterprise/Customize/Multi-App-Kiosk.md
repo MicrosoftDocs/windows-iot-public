@@ -2,7 +2,7 @@
 title: Multi-App Kiosk
 author: TerryWarwick
 ms.author: twarwick
-ms.date: 03/30/2023
+ms.date: 08/16/2023
 ms.topic: article
 ms.prod: windows-iot
 ms.technology: iot
@@ -14,9 +14,10 @@ keywords: Lockdown, Multi-App, Kiosk
 
 An assigned access multi-app kiosk runs one or more apps from the desktop. People using the kiosk see a customized Start that shows only the tiles for the apps that are allowed. With this approach, you can configure a locked-down experience for different account types. A multi-app kiosk is appropriate for devices that are shared by multiple people. Here's a [guide](/windows/configuration/lock-down-windows-10-to-specific-apps) on how to set up a multi-app kiosk.
 
->[!NOTE]
+> [!NOTE]
+> Multi-app kiosk mode is not available for Windows 11 IoT Enterprise, version 21H2 or 22H2.  Please refer to [What's new for subsequent releases](../whats-new/Release-History.md#windows-11-iot-enterprise) for information about its return.
 >
-> Assigned access multi-app kiosk will not be available in the [initial release](/lifecycle/products/windows-11-iot-enterprise-version-21h2) of Windows 11 IoT Enterprise. See [What's new in Windows 11 IoT Enterprise](/windows/iot/product-family/what's-new-in-windows-11-iot-enterprise) for more information.
+> **Update** - [Multi-app kiosk mode is now available in Windows 11](https://techcommunity.microsoft.com/t5/windows-it-pro-blog/multi-app-kiosk-mode-now-available-in-windows-11/ba-p/3845558)., version 22H2 as part of the Windows continuous innovation releases.  To learn how you can take advantage of features introduced via Windows continuous innovation, see more about how you can access this feature in Windows 11 IoT Enterprise, version 22H2, see [Delivering continuous innovation in Windows 11](https://support.microsoft.com/windows/delivering-continuous-innovation-in-windows-11-b0aa0a27-ea9a-4365-9224-cb155e517f12).
 
 ## Benefits of using a multi-app kiosk
 

@@ -1,15 +1,11 @@
 ---
 title: WEKF_Settings
 description: WEKF_Settings
-MSHAttr:
-- 'PreferredSiteName:MSDN'
-- 'PreferredLib:/library/windows/hardware'
-ms.assetid: 976a98c4-9ca9-4ac9-b1d5-842bc0ffe396
 author: TerryWarwick
 ms.author: twarwick
 ms.prod: windows-iot
 ms.technology: iot
-ms.date: 05/02/2017
+ms.date: 08/15/2023
 ms.topic: article
 
 
@@ -50,7 +46,7 @@ The following table lists all settings available for Keyboard Filter.
 |--------------|-------------|
 | **DisableKeyboardFilterForAdministrators** | This setting specifies whether Keyboard Filter is enabled or disabled for administrator accounts. Set to **true** to disable Keyboard Filter for administrator accounts; otherwise, set to **false**. Set to **true** by default. |
 | **ForceOffAccessibility** | This setting specifies whether Keyboard Filter blocks users from enabling Ease of Access features. Set to **true** to force disabling the Ease of Access features. Set to **false** to allow enabling the Ease of Access features. Set to **false** by default.</br>Changing this setting to **false** does not automatically enable Ease of Access features; you must manually enable them. |
-| **BreakoutKeyScanCode** | This setting specifies the scan code of the key that enables a user to break out of an account that is locked down with Keyboard Filter. A user can press CTRL+ALT+DELETE to switch to the Welcome screen.</br>Set to the scan code for the left Windows logo key by default. |
+| **BreakoutKeyScanCode** | This setting specifies the scan code of the key that enables a user to break out of an account that is locked down with Keyboard Filter. A user can press this key consecutively five times to switch to the Welcome screen.</br>By default, the BreakoutKeyScanCode is set to the scan code for the left Windows logo key. |
 
 One instance of the **WEKF_Settings** class exists for each valid setting.
 

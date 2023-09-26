@@ -2,7 +2,7 @@
 title: Embedded Mode
 author: TerryWarwick
 ms.author: twarwick
-ms.date: 03/30/2023
+ms.date: 09/14/2023
 ms.topic: article
 ms.prod: windows-iot
 ms.technology: iot
@@ -83,11 +83,11 @@ To enable embedded mode, create a provisioning package in Imaging and Configurat
 
 ## Background Applications
 
-[Background Applications](/windows/iot-core/develop-your-app/backgroundapplications) are created using the Background Application (IoT) template in Visual Studio.
-
 Background applications run without stopping and without resource limits. If the background application stops for some reason and embedded mode is enabled the system will restart the background application.
 
 While the system will automatically restart background applications, system lockdown features must be enabled to prevent users from stopping or interfering with the operation of Background Applications.
+
+For more information about running background applications, see [Background tasks](/windows/uwp/launch-resume/#background-tasks)
 
 ## lowLevel device Capability and lowLevelDevice capability
 
