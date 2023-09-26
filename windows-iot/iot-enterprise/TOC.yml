@@ -429,24 +429,13 @@
   expanded: false
   items:
   - name: Accessibility
-    href: /windows/apps/develop/accessibility
+    href: /security+compliance/accessibility
   - name: Privacy
-    href: /windows/privacy/  
+    href: /security+compliance/privacy  
   - name: Regulatory & Industry Compliance
-    href: /compliance
+    href: /security+compliance/compliance
   - name: Security
-    href: /windows/security/
-  - name: Other
-    expanded: false
-    items:
-    - name: Network Service Controls
-      href: OS-Features/Network-Controls.md
-    - name: Accessibility
-      href: OS-Features/Accessibility.md  
-    - name: Privacy
-      href: OS-Features/Privacy.md
-    - name: Security
-      href: OS-Features/Security.md
+    href: /security+compliance/security
 - name: Downloads
   href: Downloads.md
 - name: Code Samples
