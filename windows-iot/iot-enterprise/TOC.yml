@@ -426,16 +426,16 @@
     - name: Application Development
       href: Soft-Real-Time/Soft-Real-Time-Application.md
 - name: Security & Compliance
-  expanded: false
+  expanded: true
   items:
   - name: Accessibility
-    href: security+compliance/accessibility.md
+    href: resources/accessibility.md
   - name: Compliance
-    href: security+compliance/compliance.md
+    href: resources/compliance.md
   - name: Privacy
-    href: security+compliance/privacy.md
+    href: resources/privacy.md
   - name: Security
-    href: security+compliance/security.md
+    href: resources/security.md
 - name: Downloads
   href: Downloads.md
 - name: Code Samples
