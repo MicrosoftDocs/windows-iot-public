@@ -64,7 +64,7 @@ With the On-Screen Keyboard open, select the **Options** key, and choose the opt
 
 ## Feature packages
 
-For prototyping (development) images, the on-screen keyboard feature is already included, but you will need to enable it from Device Settings in the [Windows Device Portal](/windows/iot-core/manage-your-device/deviceportal).
+For prototyping (development) images, the on-screen keyboard feature is already included, but you will need to enable it from Device Settings in the [Windows Device Portal](/windows/uwp/debug-test-perf/device-portal-desktop).
 
 For commercialization, the following optional feature packages will add the on-screen keyboard to your image:
 
@@ -106,7 +106,7 @@ To show the dictation button in the keyboard, refer to the following section on
 ## User Interface configuration
 
 The on-screen keyboard provides several configurable options for its user interface. These are configured via the registry.
-During development, you can use [PowerShell](/windows/iot-core/connect-your-device/powershell) or [Secure Shell (SSH)](/windows/iot-core/connect-your-device/ssh). For creating an OEM image, the preferred mechanism for setting registry values is the `OEMInput.xml` file discussed here:
+During development, you can use [PowerShell](/powershell/scripting/learn/remoting/running-remote-commands) or [Secure Shell (SSH)](/windows-server/administration/openssh/openssh_overview). For creating an OEM image, the preferred mechanism for setting registry values is the `OEMInput.xml` file discussed here:
 
 [Runtime customizations](/windows-hardware/manufacture/iot/oscustomizations#runtime-customizations)
 

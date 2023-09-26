@@ -29,6 +29,26 @@
     {
         "source_path_from_root": "/Windows-iot/product-family/product-lifecycle.md",
         "redirect_url": "/windows/iot/iot-enterprise/whats-new/release-history"
+    },
+
+    {
+        "source_path_from_root": "/Windows-iot/iot-enterprise/features.md",
+        "redirect_url": "/windows/iot/iot-enterprise/whats-new/release-history"
+    },
+
+    {
+        "source_path_from_root": "/Windows-iot/iot-enterprise/os-features/accessibility.md",
+        "redirect_url": "/windows/iot/iot-enterprise/resources/accessibility"
+    },
+
+    {
+        "source_path_from_root": "/Windows-iot/iot-enterprise/os-features/privacy.md",
+        "redirect_url": "/windows/iot/iot-enterprise/resources/privacy"
+    },
+
+    {
+        "source_path_from_root": "/Windows-iot/iot-enterprise/os-features/security.md",
+        "redirect_url": "/windows/iot/iot-enterprise/resources/security"
     }
 
 ]
