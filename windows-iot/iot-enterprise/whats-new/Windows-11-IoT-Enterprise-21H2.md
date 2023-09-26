@@ -34,9 +34,9 @@ For more information, see [Windows 11 IoT Enterprise support lifecycle](/lifecyc
 
 Windows 11 IoT Enterprise, version 21H2 is available for Windows IoT Enterprise device makers through an authorized [Windows IoT Distributor](https://aka.ms/IoTDistributorList) for building new devices. Windows IoT Enterprise is intended for fixed purpose devices with specific allowances and restrictions in the license agreement. To learn more, see [Licensing and Usage](/windows/iot/iot-enterprise/commercialization/licensing) contact an authorized [Windows IoT Distributor](https://aka.ms/IoTDistributorList) for additional guidance.
 
-Windows 11, version 21H2 is also available to users with devices running Windows 10 IoT Enterprise, version 20H2 or later who are interested in the latest features and are ready to install this release on their device if the hardware ....
+Windows 11, version 21H2 is also available to users with devices running Windows 10 IoT Enterprise, version 20H2 or later who are interested in the latest features and are ready to install this release on their device if the hardware satisfies the minimum requirements.
 
-. If you would like to install the new release, open your Windows Update settings (**Settings > Update & Security > Windows Update**) and select **Check for updates**. Eligible devices may also be offered the option to choose to upgrade to Windows 11. If the update appears, you can simply select Download and install to get started. Once the download is complete and the feature update is ready to install, we’ll notify you so that you can pick a convenient time to finish the installation and reboot your device, ensuring that the update does not disrupt your activities. To learn more about the status of the 2022 Update rollout, known issues and new information, visit .
+If you would like to install the new release, open your Windows Update settings (**Settings > Update & Security > Windows Update**) and select **Check for updates**. Eligible devices may also be offered the option to choose to upgrade to Windows 11. If the update appears, you can simply select Download and install to get started. Once the download is complete and the feature update is ready to install, we’ll notify you so that you can pick a convenient time to finish the installation and reboot your device, ensuring that the update does not disrupt your activities. To learn more about the status of the 2022 Update rollout, known issues and new information, visit .
 
 Windows 11 IoT Enterprise will be delivered as an upgrade to eligible devices running Windows 10 IoT Enterprise, beginning on October 5, 2021.
 
@@ -68,15 +68,7 @@ Windows 11 IoT Enterprise is built on the same foundation as Windows 10 IoT Ente
 
 ## Servicing
 
-Like Windows 10 IoT Enterprise, Windows 11 IoT Enterprise will receive monthly quality updates. However, it will have a new feature update cadence. The semi-annual update cadence for Windows 10 IoT Enterprise will remain, but starting with Windows 11 IoT Enterprise, there will only be one release a year.  
-
-Important servicing-related announcements and information about known issues and safeguard holds can be found on the [Windows release health hub](https://aka.ms/windowsreleasehealth). For more information, see [Servicing and support](/windows/whats-new/windows-11-plan#servicing-and-support).
-
-> [!NOTE]
->
-> Microsoft does not publish feature updates through Windows Update for devices running Windows 10 IoT Enterprise LTSC.
->
-> Microsoft releases new LTSC editions every 2–3 years. OEMs may purchase a newer LTSC as a field upgrade for their devices, if appropriate. Please contact your [Windows IoT Distributor](https://aka.ms/IoTDistributorList) for more information.
+Like Windows 10 IoT Enterprise, Windows 11 IoT Enterprise will receive monthly quality updates. For more information about servicing related announcements see [Windows release health hub](https://aka.ms/windowsreleasehealth) as well as [Servicing and support](/windows/whats-new/windows-11-plan#servicing-and-support).
 
 ## New Features and Functionality Updates
 
