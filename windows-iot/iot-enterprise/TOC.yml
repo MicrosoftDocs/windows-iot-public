@@ -426,27 +426,16 @@
     - name: Application Development
       href: Soft-Real-Time/Soft-Real-Time-Application.md
 - name: Security & Compliance
-  expanded: false
+  expanded: true
   items:
   - name: Accessibility
-    href: /windows/apps/develop/accessibility
+    href: resources/accessibility.md
+  - name: Compliance
+    href: resources/compliance.md
   - name: Privacy
-    href: /windows/privacy/  
-  - name: Regulatory & Industry Compliance
-    href: /compliance
+    href: resources/privacy.md
   - name: Security
-    href: /windows/security/
-  - name: Other
-    expanded: false
-    items:
-    - name: Network Service Controls
-      href: OS-Features/Network-Controls.md
-    - name: Accessibility
-      href: OS-Features/Accessibility.md  
-    - name: Privacy
-      href: OS-Features/Privacy.md
-    - name: Security
-      href: OS-Features/Security.md
+    href: resources/security.md
 - name: Downloads
   href: Downloads.md
 - name: Code Samples
