@@ -2,7 +2,7 @@
 title: Hardware Requirements
 author: TerryWarwick
 ms.author: twarwick
-ms.date: 04/28/2023
+ms.date: 09/26/2023
 ms.topic: article
 ms.prod: windows-iot
 ms.technology: iot
@@ -37,7 +37,6 @@ Devices that run Windows IoT Enterprise must meet these [hardware requirements](
 > Information on support is available at [Microsoft Support Policy](https://support.microsoft.com/lifecycle) and [Microsoft Lifecycle FAQ](https://support.microsoft.com/help/18581).
 >
 > For specific hardware support, please refer to your Original Equipment Manufacturer (OEM) provider.
-
 
 ### Windows IoT Enterprise Processor Lists
 
@@ -74,7 +73,7 @@ For more information, visit [Windows Processor Requirements](/windows-hardware/d
 | Topic | Description |
 | ----- | ----------- |
 | Memory | Devices that run Windows IoT Enterprise must meet the following [RAM requirements](/windows-hardware/design/minimum/minimum-hardware-requirements-overview#32-memory). |
-| Storage | Devices that run Windows IoT Enterprise must include a storage device that meets the following [size requirements](/windows-hardware/design/minimum/minimum-hardware-requirements-overview#331-storage-device-size).  To achieve the minimum storage requirements, review how to [optimize a Windows IoT Enterprise image](/windows-hardware/manufacture/desktop/iot-ent-optimize-images). |
+| Storage | Devices that run Windows IoT Enterprise must include a storage device that meets the following [size requirements](/windows-hardware/design/minimum/minimum-hardware-requirements-overview#331-storage-device-size).  To achieve the minimum storage requirements, review how to [Optimize a Windows IoT Enterprise image](../Optimize/iot-ent-optimize-images.md). |
 | Display | Display size requirements don't apply to Windows IoT Enterprise. |
 | Graphics | Devices that run Windows IoT Enterprise **and** require hardware accelerated graphics, must include a GPU that supports DirectX 9 or later. |
 | Networking | It's recommended that devices that run Windows IoT Enterprise include at least one network connectivity option, such as Wi-Fi or an Ethernet adapter. |

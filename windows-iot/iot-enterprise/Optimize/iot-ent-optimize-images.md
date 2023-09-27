@@ -1,7 +1,7 @@
 ---
 description: How to optimize an IoT Enterprise image
 title: Optimize a Windows 10 IoT Enterprise image
-ms.date: 12/10/2018
+ms.date: 09/26/2023
 ms.topic: article
 author: TerryWarwick
 ms.author: twarwick
@@ -12,20 +12,20 @@ ms.technology: iot
 
 # Optimize a Windows 10 IoT Enterprise image
 
-Windows 10 IoT Enterprise is constantly improving by adding features, like Window AI and Windows Subsystem for Linux 2, that empower businesses to achieve more by providing intelligent solutions to complex problems. With all this progress has come an issue that we've been hearing about from our partners and customers, namely that the OS is simply getting too big.  This is especially problematic for devices with limited disk space; many dedicated devices fall into this category, like thin clients, gaming devices and medical equipment. Image size can also impact boot and deployment time. We've been working on this and now have some ways to reduce the size of Windows 10 IoT Enterprise.
+Windows 10 IoT Enterprise is constantly improving by adding features, like Window AI and Windows Subsystem for Linux 2, that empower businesses to achieve more by providing intelligent solutions to complex problems. With all this progress has come an issue that we've been hearing about from our partners and customers, namely that the OS is simply getting too large.  This is especially problematic for devices with limited disk space; many dedicated devices fall into this category, like thin clients, gaming devices and medical equipment. Image size can also affect boot and deployment time. We've been working on this and now have some ways to reduce the size of Windows 10 IoT Enterprise.
 
 Windows 10 introduced new features that take two separate and independent approaches to reduce the OS footprint:
 
 - The [Compact OS](/windows-hardware/manufacture/desktop/compact-os) feature, when enabled, compresses the files for the entire operating system and lets you run it from the compressed files.  
 - The recovery enhancement feature removed the requirement for a separate static recovery image for system reset.  
 
-These two features, on a typical 64-bit Windows system, saves around 6 GB disk space.  This topic focuses on the Compact OS feature in Windows 10 and tell you how to compress the OS files to save disk space, as well as share some best practices to help further reduce image footprint.  
+These two features, on a typical 64-bit Windows system, save around 6-GB disk space.  This topic focuses on the Compact OS feature in Windows 10 and tells you how to compress the OS files to save disk space, and share some best practices to help further reduce image footprint.  
 
 ![Chart showing how much space can be saved](images/iot-ent-space-saving-chart.png)
- 
+
 ## Windows 10 Compact OS feature
 
-Before talking about the Compact OS feature, let's take a quick look at the [WIMBoot feature](https://blogs.windows.com/buildingapps/2014/08/21/ensuring-compatibility-of-desktop-applications-with-wimboot-systems).  WIMBoot stands for Windows Image Boot, and was introduced in a Windows 8.1 Update. It's a deployment option available for UEFI systems to save disk space on devices.  The basic idea of WIMBoot is that the OS image is compressed by default and is only de-compressed if it needs to be modified in any way.  WIMBoot uses the compressed OS WIM file in the recovery partition as the basis, it boots and runs Windows directly out of the WIM file.  The OS WIM in the recovery partition is immutable, and access to the WIM file is managed by a file system filter.  Since the WIM file is immutable, when a file compressed in WIM is opened with write access, it causes the file to be replaced with a full uncompressed version stored on the disk to enable writing to the file .
+Before talking about the Compact OS feature, let's take a quick look at the [WIMBoot feature](https://blogs.windows.com/buildingapps/2014/08/21/ensuring-compatibility-of-desktop-applications-with-wimboot-systems).  WIMBoot stands for Windows Image Boot, and was introduced in a Windows 8.1 Update. It's a deployment option available for UEFI systems to save disk space on devices.  The basic idea of WIMBoot is that the OS image is compressed by default and is only decompressed if it needs to be modified in any way.  WIMBoot uses the compressed OS WIM file in the recovery partition as the basis, it boots and runs Windows directly out of the WIM file.  The OS WIM in the recovery partition is immutable, and access to the WIM file is managed by a file system filter.  Since the WIM file is immutable, when a file compressed in WIM is opened with write access, it causes the file to be replaced with a full uncompressed version stored on the disk to enable writing to the file.
 
 The WIMBoot feature has a couple of issues.  First, WIMBoot wasn't something that could be easily done. It had to be done at deployment time when the system image was put onto the computer, it was mostly done by OEMs or system administrators. The other issue was when there were security updates to the operating system, more and more system files would be replaced with a full uncompressed versions and over time Windows would grow to fill more and more of the drive space, the benefit of the WIMBoot partition would become less and less.
 
@@ -41,7 +41,7 @@ The Compact OS feature can be enabled while deploying Windows or at runtime afte
 2. Create a pagefile equal to 256 MB.
 
     ```cmd
-	wpeutil createpagefile C:\pagefile /size=256
+    wpeutil createpagefile C:\pagefile /size=256
     ```
 
     where `C` is the Windows partition
@@ -50,7 +50,7 @@ The Compact OS feature can be enabled while deploying Windows or at runtime afte
 
     ```cmd
     DISM /Apply-Image /ImageFile:install.wim /Index:1 /ApplyDir:D:\ /compact
-	```
+    ```
 
 #### Deploy Compact OS from Windows Setup
 
@@ -211,7 +211,7 @@ Enabling Compact OS will compress OS files and some select set of program files,
 Compact.exe /C /S:"c:\Program Files (x86)\ target custom program folder" /EXE:XPRESS8K *.dll  
 ```
 
->[!note]
+>[!NOTE]
 >The `/EXE:<compression algorithm>` option is optimized for executables or read-only files similar to Compact OS.  If files compressed with this option are ever opened for write, they will automatically be decompressed.  The installer of these custom program files is responsible for detecting the files were compressed with "/EXE:XPRESS8K", and must re-compress them after overwriting them.
 
 For writable files, you can use the traditional NTFS compression.  They remain compressed even if they are written to. Also, their performance overhead is higher than "/EXE:" option or Compact OS.
@@ -225,22 +225,22 @@ Compact.exe /C /S:"c:\Program Files (x86)\target custom program folder" *writabl
 
 ## Test your scenarios
 
-The above guidelines may help you optimize your image and reduce the disk footprint. Based on Windows 10 IoT Enterprise LTSC 2019 evaluation edition, disk footprint for the minimal baseline OS configuration looks like the following table: 
- 
-| Disk Budget Item (size in MBs) |	Out-of-box Default |	Min Baseline |
-| --- | --- | --- |
-| Windows OS including WinSxS and SoftwareDistribution |	7377 |	5043 |
-| Drivers |	355 |	184 |
-| Program Files and Program Data |	665 |	565 |
-| User Data |	75 |	75 |
-| Recovery Environment |	442 |	0 |
-| Page File and SwapFile |	2176 |	0 |
-| EFI system partition |	100 |	100 |
-| MSR partition	 |	16 | 16 |
-| Others  |	126 |	108 |
-| Total |	11GB |  	5.8GB |
+The above guidelines may help you optimize your image and reduce the disk footprint. Based on Windows 10 IoT Enterprise LTSC 2019 evaluation edition, disk footprint for the minimal baseline OS configuration looks like the following table:
 
->[!note]
+| Disk Budget Item (size in MBs) | Out-of-box Default | Min Baseline |
+| --- | --- | --- |
+| Windows OS including WinSxS and SoftwareDistribution | 7377 |  5043 |
+| Drivers                                              |  355 |   184 |
+| Program Files and Program Data                       |  665 |   565 |
+| User Data                                            |   75 |    75 |
+| Recovery Environment                                 |  442 |     0 |
+| Page File and SwapFile                               | 2176 |     0 |
+| EFI system partition                                 |  100 |   100 |
+| MSR partition                                        |   16 |    16 |
+| Others                                               |  126 |   108 |
+| Total                                                | 11GB |  5.8GB |
+
+>[!NOTE]
 >This minimal baseline was configured through removing all preinstalled FoD packages, disabling the page file, removing WinRE, and enabling Compact OS. It was captured on a virtual machine with minimum drivers. The actual size for drivers could vary per devices. You also need to reserve additional space for taking updates.  
 
 Once you have created a final image and deploy to your target device, we recommend that you thoroughly test the scenarios to ensure that your device provides a good user experience.
