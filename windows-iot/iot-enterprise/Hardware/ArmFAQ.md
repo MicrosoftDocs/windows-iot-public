@@ -2,7 +2,7 @@
 title: Arm64 Guidance
 author: sydbruck
 ms.author: sybruckm
-ms.date: 08/30/2023
+ms.date: 10/03/2023
 ms.topic: article
 ms.prod: windows-iot
 ms.technology: iot
@@ -61,3 +61,9 @@ On Arm64 devices, Windows IoT Enterprise allows emulation of x86 applications. F
 ### Can I use Hyper-V on my Arm64 device?
 
 Hyper-V is only supported on boards that support Windows 11 IoT Enterprise. For more information, see [Which Windows IoT Enterprise version should I use?](#which-windows-iot-enterprise-version-should-i-use).
+
+### Can I use Windows IoT Enterprise on Qualcomm hardware?
+
+Yes, you can see the list of supported Qualcomm processors on the [Windows 11 processor requirements](/windows-hardware/design/minimum/supported/windows-11-22h2-supported-qualcomm-processors) page.
+
+Additionally, the Qualcomm QCS6490 and QCS5430 are supported as part of [Qualcomm's IoT hardware longevity program](https://www.qualcomm.com/products/product-longevity-program), guaranteeing both hardware and OS support with Windows IoT Enterprise on Qualcomm.

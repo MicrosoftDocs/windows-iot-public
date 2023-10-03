@@ -2,7 +2,7 @@
 title: Start Prototyping
 author: TerryWarwick
 ms.author: twarwick
-ms.date: 8/30/2023
+ms.date: 10/03/2023
 ms.topic: article
 ms.prod: windows-iot
 ms.technology: iot
@@ -34,9 +34,6 @@ To get started, you can try the [Windows 10 Enterprise 90 day Evaluation](https:
 
 If your board comes with instructions on how to deploy Windows IoT Enterprise, follow those instructions. Otherwise, you can follow the labs provided in the [Windows IoT Enterprise Manufacturing Guide](../Commercialization/Manufacturing-Guide.md).
 
-> [!TIP]
-> Try out [Edge Device Image Builder](https://aka.ms/EDIBPublicPreviewRelease) a tool currently in public preview that walks OEMs through customizing and configuring a Windows 10 IoT Enterprise LTSC 2021 image. Check out the [announcement blog](https://aka.ms/EDIBPublicPreviewBlog) and [documentation](https://aka.ms/EDIBDocumentation) for more information on how to get started.
-
 ## Step 4: Load an Application
 
 You can choose to port over any of your existing [Windows applications](/windows/apps/desktop/choose-your-platform) or feel free to reference any of our [UWP app samples](https://github.com/microsoft/Windows-universal-samples) in GitHub.
@@ -47,5 +44,5 @@ If you are interested in pursuing your prototype, past the 90-day evaluation per
 
 ## Additional Resources
 
-* [Windows IoT Enterprise Manufacturing Guide](/windows-hardware/manufacture/desktop/iot-ent-overview)
+* [Windows IoT Enterprise Manufacturing Guide](../Commercialization/Manufacturing-Guide.md)
 * [Windows Processor Requirements](/windows-hardware/design/minimum/windows-processor-requirements)
