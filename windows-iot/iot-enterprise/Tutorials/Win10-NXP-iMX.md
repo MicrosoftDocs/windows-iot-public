@@ -6,16 +6,19 @@ ms.author: twarwick
 ms.prod: windows-iot
 ms.topic: tutorial 
 ms.technology: iot
-ms.date: 06/19/2023
+ms.date: 10/09/2023
 ---
 
-# Tutorial: Setup an NXP i.MX EVK
+# Setting up an NXP i.MX EVK device using Media Servicing
 
 In this tutorial, you learn how to:
 
 - Add the board support package drivers from NXP for the i.MX EVKs to the *Windows 10 IoT Enterprise LTSC 2021* installation media.
 - Update the *Windows 10 IoT Enterprise LTSC 2021* installation media with the latest cumulative servicing update.
 - Install *Windows 10 IoT Enterprise LTSC 2021* to your i.MX EVK board.
+
+> [!NOTE]
+> You can also set up an NXP i.MX EVK using the NXP Quick Start Guide, which can be found on the [Windows IoT Enterprise on NXP landing page](https://aka.ms/nxpiot).
 
 ## Prerequisites
 
