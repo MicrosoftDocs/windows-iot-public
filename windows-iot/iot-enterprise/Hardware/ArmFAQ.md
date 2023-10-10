@@ -51,7 +51,7 @@ Both LTSC and GAC editions of Windows IoT Enterprise are available for NXP devic
 |i.MX 8M Mini|    Supported from 21H2     |    Not Supported     |
 |i.MX 8M Nano|    Supported from 21H2     |    Not Supported     |
 |i.MX 8M Plus|    Supported from 21H2     |    Not Supported     |
-|i.MX 8 X    |    Supported from 21H2     |    Not Supported     |
+|i.MX 8X    |    Supported from 21H2     |    Not Supported     |
 |i.MX 93     |    Supported from 21H2     |    Coming Soon     |
 
 ### Can I run applications that are not native to Arm64?
