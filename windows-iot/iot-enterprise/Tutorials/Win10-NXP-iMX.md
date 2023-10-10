@@ -6,7 +6,7 @@ ms.author: twarwick
 ms.prod: windows-iot
 ms.topic: tutorial 
 ms.technology: iot
-ms.date: 10/03/2023
+ms.date: 10/09/2023
 ---
 
 # Setting up an NXP i.MX EVK device using Media Servicing
