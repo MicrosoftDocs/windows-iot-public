@@ -12,7 +12,7 @@ keywords: IoT Enterprise, Hardware, Windows IoT, Arm64, NXP
 
 # Getting Started with Windows IoT Enterprise for Arm64
 
-This article will help you leverage the strength of Windows on low power, low cost devices with Windows IoT Enterprise for Arm64.
+This article helps you use the strength of Windows on low power, low cost devices with Windows IoT Enterprise for Arm64.
 
 ## What is Windows IoT Enterprise on Arm?
 
@@ -20,7 +20,7 @@ Windows IoT Enterprise on Arm is simply Windows IoT Enterprise built for Arm64 d
 
 ## Getting Started
 
-Follow our [Quick Start guide](../Tutorials/Win10-NXP-iMX.md) to learn how to get Windows 10 IoT Enterprise running on NXP's Evaluation Kits. This is the quickest way to get familiar with Windows IoT Enterprise on Arm64.
+For the quickest way to get familiar with Windows IoT Enterprise on Arm64, see our [Tutorial: Setup an NXP i,MX EVK](../Tutorials/Win10-NXP-iMX.md)
 
 ## Frequently Asked Questions
 
@@ -47,14 +47,14 @@ Both LTSC and GAC editions of Windows IoT Enterprise are available for NXP devic
 
 |SoC  |Windows 10 IoT Enterprise  |Windows 11 IoT Enterprise  |
 |---------|---------|---------|
-|i.MX 8M     |    Supported from 21H2     |    Not Supported     |
-|i.MX 8M Mini|    Supported from 21H2     |    Not Supported     |
-|i.MX 8M Nano|    Supported from 21H2     |    Not Supported     |
-|i.MX 8M Plus|    Supported from 21H2     |    Not Supported     |
-|i.MX 8X    |    Supported from 21H2     |    Not Supported     |
-|i.MX 93     |    Supported from 21H2     |    Coming Soon     |
+|i.MX 8M      |    build 19044 or later     |    Not Supported    |
+|i.MX 8M Mini |    build 19044 or later     |    Not Supported    |
+|i.MX 8M Nano |    build 19044 or later     |    Not Supported    |
+|i.MX 8M Plus |    build 19044 or later     |    Not Supported    |
+|i.MX 8X      |    build 19044 or later     |    Not Supported    |
+|i.MX 93      |    build 19044 or later     |    Coming Soon      |
 
-### Can I run applications that are not native to Arm64?
+### Can I run applications that aren't native to Arm64?
 
 On Arm64 devices, Windows IoT Enterprise allows emulation of x86 applications. For more information, see [How x86 emulation works on Arm](/windows/arm/apps-on-arm-x86-emulation).
 
