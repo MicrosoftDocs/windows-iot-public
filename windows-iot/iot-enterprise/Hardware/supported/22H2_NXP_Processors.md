@@ -10,7 +10,7 @@ ms.prod: windows-iot
 
 # Windows 10 IoT Enterprise 22H2 Supported NXP Processors
 
-Earlier generations and models of the CPUs listed may have limited support for devices on this version of Windows 10. Contact your hardware vendor(s) for specific support details.
+Earlier generations and models of the CPUs listed can have limited support for devices on this version of Windows 10. Contact your hardware vendor(s) for specific support details.
 
 | Manufacturer | Family | Model |
 |---|---|---|
