@@ -6,7 +6,7 @@ ms.author: twarwick
 ms.prod: windows-iot
 ms.topic: tutorial 
 ms.technology: iot
-ms.date: 10/09/2023
+ms.date: 10/20/2023
 ---
 
 # Setting up an NXP i.MX EVK device using Media Servicing
@@ -22,7 +22,7 @@ In this tutorial, you learn how to:
 
 ## Prerequisites
 
-- Windows 10 IoT Enterprise LTSC 2021 for Arm64 DVD or ISO
+- Windows 10 IoT Enterprise LTSC 2021 for ARM64 DVD or ISO
 - microSD card (minimum 8 GB)
 - One of the following NXP evaluation boards
   - i.MX 8M Quad EVK
