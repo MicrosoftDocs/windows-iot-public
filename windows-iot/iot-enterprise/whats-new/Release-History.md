@@ -52,10 +52,11 @@ Windows 11 IoT Enterprise releases follow the [Modern Lifecycle Policy](/lifecyc
 
 | Product                        |  Start Date  | Retirement Date |
 | ------------------------------ | ------------ | --------------- |
-| Windows&nbsp;11&nbsp;IoT&nbsp;Enterprise      |  2021-&#8209;10&#8209;04  |   In Support    |
+| Windows&nbsp;11&nbsp;IoT&nbsp;Enterprise      |  2021&#8209;10&#8209;04  |   In Support    |
 
 | Release Versions | Build |  Start Date  | End of Servicing |
 | ---------------- | ----- | ------------ | ---------------- |
+| [Windows&nbsp;11&nbsp;IoT&nbsp;Enterprise,&nbsp;version&nbsp;23H2](Windows-11-IoT-Enterprise-23H2.md) | 22631 | 2023&#8209;10&#8209;31 | 2026&#8209;11&#8209;10 |
 | [Windows&nbsp;11&nbsp;IoT&nbsp;Enterprise,&nbsp;version&nbsp;22H2](Windows-11-IoT-Enterprise-22H2.md) | 22621 |  2022&#8209;09&#8209;20  | 2025&#8209;10&#8209;14 |
 | [Windows&nbsp;11&nbsp;IoT&nbsp;Enterprise,&nbsp;version&nbsp;21H2](Windows-11-IoT-Enterprise-21H2.md)     | 22000 |  2021&#8209;10&#8209;04  | 2024&#8209;10&#8209;08 |
 
@@ -73,7 +74,7 @@ Windows 10 IoT Enterprise releases follow the [Modern Lifecycle Policy](/lifecyc
 
 | Release Versions | Build |  Start Date  | End of Servicing |
 | --- | --- | --- | --- |
-| [Windows&nbsp;10&nbsp;IoT&nbsp;Enterprise,&nbsp;version&nbsp;22H2](Windows-10-IoT-Enterprise-22H2.md) | 19045 | 2022&#8209;10&#8209;18  | 2025&#8209;05&#8209;13 |
+| [Windows&nbsp;10&nbsp;IoT&nbsp;Enterprise,&nbsp;version&nbsp;22H2](Windows-10-IoT-Enterprise-22H2.md) | 19045 | 2022&#8209;10&#8209;18  | 2025&#8209;10&#8209;14 |
 | [Windows&nbsp;10&nbsp;IoT&nbsp;Enterprise,&nbsp;version&nbsp;21H2](Windows-10-IoT-Enterprise-21H2.md) | 19044 | 2021&#8209;11&#8209;16  | 2024&#8209;06&#8209;11 |
 | [Windows&nbsp;10&nbsp;IoT&nbsp;Enterprise,&nbsp;version&nbsp;21H1](Windows-10-IoT-Enterprise-21H1.md) | 19043 | 2021&#8209;05&#8209;18  | 2022&#8209;12&#8209;13 |
 | Windows&nbsp;10&nbsp;IoT&nbsp;Enterprise,&nbsp;version&nbsp;20H2     | 19042 |  2020&#8209;10&#8209;20  |    2023&#8209;05&#8209;09    |

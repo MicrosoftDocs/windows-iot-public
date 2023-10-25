@@ -20,7 +20,7 @@ Windows 10 IoT Enterprise, version 22H2 follows the [Modern Lifecycle Policy](/l
 
 | Release | Version | Availability | End of Servicing |
 | --- | --- | --- | --- |
-| Windows 10 IoT Enterprise, version 22H2 | 19045 | 2022-10-18 | 2025-05-13 |
+| Windows 10 IoT Enterprise, version 22H2 | 19045 | 2022-10-18 | 2025-10-14 |
 
 For more information, see [Windows 10 IoT Enterprise support lifecycle](/lifecycle/products/windows-10-iot-enterprise).
 
