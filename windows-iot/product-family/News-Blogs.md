@@ -2,7 +2,7 @@
 title: Windows for IoT News
 author: TerryWarwick
 ms.author: twarwick
-ms.date: 10/20/2023
+ms.date: 10/31/2023
 ms.topic: conceptual
 ms.prod: windows-iot
 ms.technology: iot
