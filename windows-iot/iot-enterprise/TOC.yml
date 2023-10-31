@@ -10,6 +10,8 @@
   - name: Windows 11 IoT Enterprise
     expanded: false
     items:
+     - name: Version 23H2
+       href: ./whats-new/Windows-11-IoT-Enterprise-23H2.md
      - name: Version 22H2
        href: ./whats-new/Windows-11-IoT-Enterprise-22H2.md
      - name: Version 21H2
@@ -17,8 +19,6 @@
   - name: Windows 10 IoT Enterprise
     expanded: false
     items: 
-     - name: Version 23H2
-       href: ./whats-new/Windows-10-IoT-Enterprise-23H2.md
      - name: Version 22H2
        href: ./whats-new/Windows-10-IoT-Enterprise-22H2.md
      - name: Version 21H2
