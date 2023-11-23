@@ -6,7 +6,7 @@ author: TerryWarwick
 ms.author: twarwick
 ms.topic: article
 ms.technology: iot
-ms.date: 08/16/2023
+ms.date: 11/22/2023
 ---
 
 # Windows IoT Enterprise LTSC

@@ -2,7 +2,7 @@
 title: SoCs and Custom Boards for Windows IoT Enterprise
 author: TerryWarwick
 ms.author: twarwick
-ms.date: 3/10/2023
+ms.date: 09/26/2023
 ms.topic: article
 ms.prod: windows-iot
 ms.technology: iot
@@ -34,7 +34,7 @@ Each of the platforms has unique features that need attention during implementat
 * [Intel](https://www.intel.com/content/www/us/en/internet-of-things/overview.html)
 * [AMD](https://www.amd.com/en/products/embedded)
 * [Qualcomm](https://www.qualcomm.com/products/snapdragon-850-mobile-compute-platform)
-* [VIA Technologies](https://www.viatech.com/en/products/boards/embedded-boards/)
+* [VIA Technologies](https://www.viatech.com)
 * [NXP](https://www.nxp.com/products/processors-and-microcontrollers/arm-processors/i-mx-applications-processors/i-mx-8-processors:IMX8-SERIES)
 
 ## More Resources
