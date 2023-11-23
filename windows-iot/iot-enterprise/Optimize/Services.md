@@ -577,7 +577,7 @@ The following tables offer Microsoft guidance on disabling system services on Wi
 
 | Name | Description |
 |--|--|
-| **Service name** | dmwappushservic |
+| **Service name** | dmwappushservice |
 | **Description** | Routes Wireless Application Protocol (WAP) Push messages received by the device and synchronizes Device Management sessions |
 | **Installation** | Always installed |
 | **Startup type** | Manual |
