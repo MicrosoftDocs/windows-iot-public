@@ -2,7 +2,7 @@
 title: Hardware Requirements
 author: TerryWarwick
 ms.author: twarwick
-ms.date: 04/28/2023
+ms.date: 09/26/2023
 ms.topic: article
 ms.prod: windows-iot
 ms.technology: iot
@@ -12,7 +12,7 @@ keywords: IoT Enterprise, Hardware, Windows IoT
 
 # Minimum Hardware Requirements for Windows IoT Enterprise
 
-This specification defines the minimum hardware requirements for Windows IoT Enterprise. Microsoft will build and test the Windows IoT Enterprise OS against the requirements described in this specification.
+This specification defines the minimum hardware requirements for Windows IoT Enterprise. 
 
 ## Overview
 
@@ -38,7 +38,6 @@ Devices that run Windows IoT Enterprise must meet these [hardware requirements](
 >
 > For specific hardware support, please refer to your Original Equipment Manufacturer (OEM) provider.
 
-
 ### Windows IoT Enterprise Processor Lists
 
 The processors listed here represent the latest processor generations and models that are supported for the listed Windows IoT Enterprise Edition.
@@ -57,7 +56,7 @@ For more information, visit [Windows Processor Requirements](/windows-hardware/d
 
 | Version | AMD | Intel | Qualcomm | NXP |
 | --------------- | --- | ----- | -------- | --- |
-| Windows 11 IoT Enterprise, version 22H2 | [Supported AMD Processors](/windows-hardware/design/minimum/supported/windows-11-22h2-supported-amd-processors) | [Supported Intel Processors](/windows-hardware/design/minimum/supported/windows-11-22h2-supported-intel-processors) | [Supported Qualcomm Processors](/windows-hardware/design/minimum/supported/windows-11-22h2-supported-qualcomm-processors) | N/A |
+| Windows 11 IoT Enterprise, version 22H2/23H2 | [Supported AMD Processors](/windows-hardware/design/minimum/supported/windows-11-22h2-supported-amd-processors) | [Supported Intel Processors](/windows-hardware/design/minimum/supported/windows-11-22h2-supported-intel-processors) | [Supported Qualcomm Processors](/windows-hardware/design/minimum/supported/windows-11-22h2-supported-qualcomm-processors) | N/A |
 | Windows 11 IoT Enterprise, version 21H2| [Supported AMD Processors](/windows-hardware/design/minimum/supported/windows-11-supported-amd-processors) | [Supported Intel Processors](/windows-hardware/design/minimum/supported/windows-11-supported-intel-processors) | [Supported Qualcomm Processors](/windows-hardware/design/minimum/supported/windows-11-supported-qualcomm-processors) | N/A |
 
 ### Windows 10 IoT Enterprise
@@ -74,11 +73,11 @@ For more information, visit [Windows Processor Requirements](/windows-hardware/d
 | Topic | Description |
 | ----- | ----------- |
 | Memory | Devices that run Windows IoT Enterprise must meet the following [RAM requirements](/windows-hardware/design/minimum/minimum-hardware-requirements-overview#32-memory). |
-| Storage | Devices that run Windows IoT Enterprise must include a storage device that meets the following [size requirements](/windows-hardware/design/minimum/minimum-hardware-requirements-overview#331-storage-device-size).  To achieve the minimum storage requirements, review how to [optimize a Windows IoT Enterprise image](/windows-hardware/manufacture/desktop/iot-ent-optimize-images). |
+| Storage | Devices that run Windows IoT Enterprise must include a storage device that meets the following [size requirements](/windows-hardware/design/minimum/minimum-hardware-requirements-overview#331-storage-device-size).  To achieve the minimum storage requirements, review how to [Optimize a Windows IoT Enterprise image](../Optimize/iot-ent-optimize-images.md). |
 | Display | Display size requirements don't apply to Windows IoT Enterprise. |
 | Graphics | Devices that run Windows IoT Enterprise **and** require hardware accelerated graphics, must include a GPU that supports DirectX 9 or later. |
 | Networking | It's recommended that devices that run Windows IoT Enterprise include at least one network connectivity option, such as Wi-Fi or an Ethernet adapter. |
-| Trusted Platform Module (TPM) | While TPM requirements are highly encouraged for Windows 10 IoT Enterprise, it isn't required. The use of a TPM for Windows 10 IoT Enterprise devices is determined based on the usage and security requirements of each device.  For additional information about TPM, see [TPM Requirements](/windows-hardware/design/minimum/minimum-hardware-requirements-overview#37-trusted-platform-module-tpm), [Trusted Platform Module Technology Overview](/windows/security/information-protection/tpm/trusted-platform-module-overview), and [TPM Recommendations](/windows/security/information-protection/tpm/tpm-recommendations) |
+| Trusted Platform Module (TPM) | While TPM requirements are highly encouraged for Windows 10 IoT Enterprise, it isn't required. The use of a TPM for Windows 10 IoT Enterprise devices is determined based on the usage and security requirements of each device.  For more information, see [TPM Requirements](/windows-hardware/design/minimum/minimum-hardware-requirements-overview#37-trusted-platform-module-tpm), [Trusted Platform Module Technology Overview](/windows/security/information-protection/tpm/trusted-platform-module-overview), and [TPM Recommendations](/windows/security/information-protection/tpm/tpm-recommendations) |
 
 ## Other Resources
 
