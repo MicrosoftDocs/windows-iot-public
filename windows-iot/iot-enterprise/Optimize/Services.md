@@ -1802,7 +1802,7 @@ The following tables offer Microsoft guidance on disabling system services on Wi
 | **Description** | Provides support for the Secure Socket Tunneling Protocol (SSTP) to connect to remote computers using VPN. If this service is disabled, users will not be able to use SSTP to access remote servers. |
 | **Installation** | Always installed |
 | **Startup type** | Manual |
-| **Recommendation** | Ok to disable |
+| **Recommendation** | OK to disable |
 | **Comments** | Disabling breaks RRAS |
 
 ## Security Accounts Manager
@@ -1868,7 +1868,7 @@ The following tables offer Microsoft guidance on disabling system services on Wi
 | **Description** | Supports file, print, and named-pipe sharing over the network for this computer. If this service is stopped, these functions will be unavailable. If this service is disabled, any services that explicitly depend on it will fail to start. |
 | **Installation** | Always installed |
 | **Startup type** | Automatic |
-| **Recommendation** | Ok to disable |
+| **Recommendation** | OK to disable |
 | **Comments** | Needed for remote management, IPC$, SMB file sharing |
 
 ## Shared PC Account Manager
@@ -1879,7 +1879,7 @@ The following tables offer Microsoft guidance on disabling system services on Wi
 | **Description** | Manages profiles and accounts on a SharedPC configured device. |
 | **Installation** | Always installed |
 | **Startup type** | Automatic |
-| **Recommendation** | Ok to disable |
+| **Recommendation** | OK to disable |
 | **Comments** | Needed for remote management, IPC$, SMB file sharing |
 
 ## Shell Hardware Detection
@@ -1923,7 +1923,7 @@ The following tables offer Microsoft guidance on disabling system services on Wi
 | **Description** | Allows the system to be configured to lock the user desktop upon smart card removal. |
 | **Installation** | Always installed |
 | **Startup type** | Manual |
-| **Recommendation** | Ok to disable |
+| **Recommendation** | OK to disable |
 | **Comments** | None |
 
 ## SNMP Trap
@@ -2517,7 +2517,7 @@ The following tables offer Microsoft guidance on disabling system services on Wi
 | **Description** | Provides infrastructure support for the Microsoft Store. This service is started on demand and if disabled then content acquired through the Microsoft Store will not function properly. |
 | **Installation** | Always installed |
 | **Startup type** | Manual |
-| **Recommendation** | Ok to disable |
+| **Recommendation** | OK to disable |
 | **Comments** | None |
 
 ## Windows Management Instrumentation
@@ -2583,7 +2583,7 @@ The following tables offer Microsoft guidance on disabling system services on Wi
 | **Description** | Enables spatial perception, spatial input, and holographic rendering. |
 | **Installation** | Always installed |
 | **Startup type** | Manual |
-| **Recommendation** | Ok to disable |
+| **Recommendation** | OK to disable |
 | **Comments** | None |
 
 ## Windows Perception Simulation Service
@@ -2594,7 +2594,7 @@ The following tables offer Microsoft guidance on disabling system services on Wi
 | **Description** | Enables spatial perception simulation, virtual camera management and spatial input simulation. |
 | **Installation** | Always installed |
 | **Startup type** | Manual |
-| **Recommendation** | Ok to disable |
+| **Recommendation** | OK to disable |
 | **Comments** | None |
 
 ## Windows Push Notifications System Service
@@ -2627,7 +2627,7 @@ The following tables offer Microsoft guidance on disabling system services on Wi
 | **Description** | Provides infrastructure support for the Microsoft Store.  This service is started automatically and if disabled then remote installations will not function properly. |
 | **Installation** | Always installed |
 | **Startup type** | Manual |
-| **Recommendation** | Ok to disable |
+| **Recommendation** | OK to disable |
 | **Comments** | None |
 
 ## Windows Remote Management (WS-Management)
@@ -2649,7 +2649,7 @@ The following tables offer Microsoft guidance on disabling system services on Wi
 | **Description** | Provides content indexing, property caching, and search results for files, e-mail, and other content. |
 | **Installation** | Always installed |
 | **Startup type** | Manual |
-| **Recommendation** | Ok to disable |
+| **Recommendation** | OK to disable |
 | **Comments** | None |
 
 ## Windows Security Service
@@ -2748,7 +2748,7 @@ The following tables offer Microsoft guidance on disabling system services on Wi
 | **Description** | This service syncs files with the Work Folders server, enabling you to use the files on any of the PCs and devices on which you've set up Work Folders. |
 | **Installation** | Always installed |
 | **Startup type** | Automatic |
-| **Recommendation** | Ok to disable |
+| **Recommendation** | OK to disable |
 | **Comments** | None |
 
 ## Workstation
