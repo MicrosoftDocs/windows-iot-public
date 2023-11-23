@@ -54,7 +54,7 @@ UWF replaces the Windows 7 Enhanced Write Filter (EWF) and the File Based Write 
 | Windows Pro            | No        |
 | Windows Enterprise     | Yes       |
 | Windows Education      | Yes       |
-| Windows IoT Enterprise | Yea       |
+| Windows IoT Enterprise | Yes       |
 
 ## Limitations
 

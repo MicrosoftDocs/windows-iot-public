@@ -4,7 +4,7 @@ description: How to Install WinGet on Windows IoT Enterprise
 author: trumanbrown-msft 
 ms.author: trumanbrown
 ms.topic: how-to 
-ms.date: 09/08/2023
+ms.date: 10/20/2023
 ms.prod: windows-iot
 ms.custom: template-how-to 
 ---
@@ -28,7 +28,7 @@ In this tutorial, you learn how to install and utilize WinGet on Windows IoT Ent
 
 1. Download the VCLibs Desktop framework package associated with your processor architecture.
 
-   - For Arm64 architecture, download [Microsoft.VCLibs.arm64.14.00.Desktop.appx](https://aka.ms/Microsoft.VCLibs.arm64.14.00.Desktop.appx)
+   - For ARM64 architecture, download [Microsoft.VCLibs.arm64.14.00.Desktop.appx](https://aka.ms/Microsoft.VCLibs.arm64.14.00.Desktop.appx)
 
    - For x64 architecture, download [Microsoft.VCLibs.x64.14.00.Desktop.appx](https://aka.ms/Microsoft.VCLibs.x64.14.00.Desktop.appx)  
 

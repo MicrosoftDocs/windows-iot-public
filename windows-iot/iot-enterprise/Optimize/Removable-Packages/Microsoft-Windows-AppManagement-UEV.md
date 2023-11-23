@@ -2,7 +2,7 @@
 title: Package - User Experience Virtualization
 author: twarwick
 ms.author: twarwick
-ms.date: 03/30/2023
+ms.date: 11/21/2023
 ms.topic: article
 ms.prod: windows-iot
 ms.technology: iot
@@ -20,7 +20,7 @@ keywords: IoT Enterprise, removable packages, storage
 
 See [User Experience Virtualization](/windows/configuration/ue-v/uev-for-windows) for a detailed description of this Windows feature.
 
-**Package Name:**  Microsoft-Windows-AppManagment-UEV
+**Package Name:**  Microsoft-Windows-AppManagement-UEV
 
 **Size:**  Approximately 13,752 KB
 
@@ -29,19 +29,19 @@ See [User Experience Virtualization](/windows/configuration/ue-v/uev-for-windows
 1. To remove a specific package from the image type:
 
    ```powershell
-   Dism.exe /Online /NoRestart /Disable-Feature /FeatureName:Microsoft-Windows-AppManagment-UEV /PackageName:@Package
+   Dism.exe /Online /NoRestart /Disable-Feature /FeatureName:Microsoft-Windows-AppManagement-UEV /PackageName:@Package
    ````
 
    To remove a package from an offline image mounted at `c:\offline` type:
 
    ```powershell
-   Dism.exe /Image:c:\offline  /Disable-Feature /FeatureName:Microsoft-Windows-AppManagment-UEV /PackageName:@Package
+   Dism.exe /Image:c:\offline  /Disable-Feature /FeatureName:Microsoft-Windows-AppManagement-UEV /PackageName:@Package
    ```
 
 1. Optional: Use DISM /GetFeatureInfo to get the status of a removable package type:
 
    ```powershell
-   Dism.exe /Online /Get-FeatureInfo /FeatureName:Microsoft-Windows-AppManagment-UEV /PackageName:@Package
+   Dism.exe /Online /Get-FeatureInfo /FeatureName:Microsoft-Windows-AppManagement-UEV /PackageName:@Package
    ````
 
 ## File List

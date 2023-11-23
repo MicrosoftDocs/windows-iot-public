@@ -6,7 +6,8 @@ author: TerryWarwick
 ms.author: twarwick
 ms.topic: article
 ms.technology: iot
-ms.date: 05/22/2023
+ms.date: 10/31/2023
+
 ---
 
 # Windows IoT Enterprise Release History
@@ -33,8 +34,8 @@ Windows IoT Enterprise LTSC releases follow the [Fixed Lifecycle Policy](/lifecy
 
 | Release                             | Version | Availability | End of Servicing | Update History | Windows Update Catalog |
 | --- | --- | --- | --- | --- | ---|
-| Windows&nbsp;10&nbsp;IoT&nbsp;Enterprise&nbsp;LTSC&nbsp;2021 |   19044 | 2021&#8209;11&#8209;16  |    2032&#8209;01&#8209;13 | [Show&nbsp;update&nbsp;history](https://support.microsoft.com/topic/windows-10-update-history-857b8ccb-71e4-49e5-b3f6-7073197d98fb)               | [Show&nbsp;x64&nbsp;updates](https://www.catalog.update.microsoft.com/Search.aspx?q=-Dynamic%20Cumulative%20Update%20for%20Windows%2010%20version%2021H2%20for%20x64) [Show&nbsp;Arm64&nbsp;updates](https://www.catalog.update.microsoft.com/Search.aspx?q=-Dynamic%20Cumulative%20Update%20for%20Windows%2010%20version%2021H2%20for%20Arm64) |
-| Windows&nbsp;10&nbsp;IoT&nbsp;Enterprise&nbsp;LTSC&nbsp;2019 |   17763 |  2018&#8209;11&#8209;13  |    2029&#8209;01&#8209;09    | [Show&nbsp;update&nbsp;history](https://support.microsoft.com/topic/windows-10-and-windows-server-2019-update-history-725fc2e1-4443-6831-a5ca-51ff5cbcb059)               |  [Show&nbsp;x64&nbsp;updates](https://www.catalog.update.microsoft.com/Search.aspx?q=-Dynamic%20Cumulative%20Update%20for%20Windows%2010%20version%201809%20for%20x64) [Show&nbsp;Arm64&nbsp;updates](https://www.catalog.update.microsoft.com/Search.aspx?q=-Dynamic%20Cumulative%20Update%20for%20Windows%2010%20version%201809%20for%20Arm64) |
+| Windows&nbsp;10&nbsp;IoT&nbsp;Enterprise&nbsp;LTSC&nbsp;2021 |   19044 | 2021&#8209;11&#8209;16  |    2032&#8209;01&#8209;13 | [Show&nbsp;update&nbsp;history](https://support.microsoft.com/topic/windows-10-update-history-857b8ccb-71e4-49e5-b3f6-7073197d98fb)               | [Show&nbsp;x64&nbsp;updates](https://www.catalog.update.microsoft.com/Search.aspx?q=-Dynamic%20Cumulative%20Update%20for%20Windows%2010%20version%2021H2%20for%20x64) [Show&nbsp;ARM64&nbsp;updates](https://www.catalog.update.microsoft.com/Search.aspx?q=-Dynamic%20Cumulative%20Update%20for%20Windows%2010%20version%2021H2%20for%20Arm64) |
+| Windows&nbsp;10&nbsp;IoT&nbsp;Enterprise&nbsp;LTSC&nbsp;2019 |   17763 |  2018&#8209;11&#8209;13  |    2029&#8209;01&#8209;09    | [Show&nbsp;update&nbsp;history](https://support.microsoft.com/topic/windows-10-and-windows-server-2019-update-history-725fc2e1-4443-6831-a5ca-51ff5cbcb059)               |  [Show&nbsp;x64&nbsp;updates](https://www.catalog.update.microsoft.com/Search.aspx?q=-Dynamic%20Cumulative%20Update%20for%20Windows%2010%20version%201809%20for%20x64) [Show&nbsp;ARM64&nbsp;updates](https://www.catalog.update.microsoft.com/Search.aspx?q=-Dynamic%20Cumulative%20Update%20for%20Windows%2010%20version%201809%20for%20Arm64) |
 | Windows&nbsp;10&nbsp;IoT&nbsp;Enterprise&nbsp;LTSC&nbsp;2016 |   14393 |  2016&#8209;08&#8209;02  |    2026&#8209;10&#8209;13    | [Show&nbsp;update&nbsp;history](https://support.microsoft.com/topic/windows-10-and-windows-server-2016-update-history-4acfbc84-a290-1b54-536a-1c0430e9f3fd) | [Show&nbsp;x64&nbsp;updates](https://www.catalog.update.microsoft.com/Search.aspx?q=-Dynamic%20Cumulative%20Update%20for%20Windows%2010%20version%201607%20for%20x64) [Show&nbsp;x86&nbsp;updates](https://www.catalog.update.microsoft.com/Search.aspx?q=-Dynamic%20Cumulative%20Update%20for%20Windows%2010%20version%201607%20for%20x86) |
 | Windows&nbsp;10&nbsp;IoT&nbsp;Enterprise&nbsp;LTSC&nbsp;2015 |   10240 |  2015&#8209;07&#8209;29  |    2025&#8209;10&#8209;14    |  [Show&nbsp;update&nbsp;history](https://support.microsoft.com/topic/windows-10-update-history-93345c32-4ae1-6d1c-f885-6c0b718adf3b)              | [Show&nbsp;x64&nbsp;updates](https://www.catalog.update.microsoft.com/Search.aspx?q=-Dynamic%20Cumulative%20Update%20for%20Windows%2010%20version%201507%20for%20x64) [Show&nbsp;x86&nbsp;updates](https://www.catalog.update.microsoft.com/Search.aspx?q=-Dynamic%20Cumulative%20Update%20for%20Windows%2010%20version%201507%20for%20x64) |
 
@@ -52,10 +53,11 @@ Windows 11 IoT Enterprise releases follow the [Modern Lifecycle Policy](/lifecyc
 
 | Product                        |  Start Date  | Retirement Date |
 | ------------------------------ | ------------ | --------------- |
-| Windows&nbsp;11&nbsp;IoT&nbsp;Enterprise      |  2021-&#8209;10&#8209;04  |   In Support    |
+| Windows&nbsp;11&nbsp;IoT&nbsp;Enterprise      |  2021&#8209;10&#8209;04  |   In Support    |
 
 | Release Versions | Build |  Start Date  | End of Servicing |
 | ---------------- | ----- | ------------ | ---------------- |
+| [Windows&nbsp;11&nbsp;IoT&nbsp;Enterprise,&nbsp;version&nbsp;23H2](Windows-11-IoT-Enterprise-23H2.md) | 22631 | 2023&#8209;10&#8209;31 | 2026&#8209;11&#8209;10 |
 | [Windows&nbsp;11&nbsp;IoT&nbsp;Enterprise,&nbsp;version&nbsp;22H2](Windows-11-IoT-Enterprise-22H2.md) | 22621 |  2022&#8209;09&#8209;20  | 2025&#8209;10&#8209;14 |
 | [Windows&nbsp;11&nbsp;IoT&nbsp;Enterprise,&nbsp;version&nbsp;21H2](Windows-11-IoT-Enterprise-21H2.md)     | 22000 |  2021&#8209;10&#8209;04  | 2024&#8209;10&#8209;08 |
 
@@ -73,7 +75,7 @@ Windows 10 IoT Enterprise releases follow the [Modern Lifecycle Policy](/lifecyc
 
 | Release Versions | Build |  Start Date  | End of Servicing |
 | --- | --- | --- | --- |
-| [Windows&nbsp;10&nbsp;IoT&nbsp;Enterprise,&nbsp;version&nbsp;22H2](Windows-10-IoT-Enterprise-22H2.md) | 19045 | 2022&#8209;10&#8209;18  | 2025&#8209;05&#8209;13 |
+| [Windows&nbsp;10&nbsp;IoT&nbsp;Enterprise,&nbsp;version&nbsp;22H2](Windows-10-IoT-Enterprise-22H2.md) | 19045 | 2022&#8209;10&#8209;18  | 2025&#8209;10&#8209;14 |
 | [Windows&nbsp;10&nbsp;IoT&nbsp;Enterprise,&nbsp;version&nbsp;21H2](Windows-10-IoT-Enterprise-21H2.md) | 19044 | 2021&#8209;11&#8209;16  | 2024&#8209;06&#8209;11 |
 | [Windows&nbsp;10&nbsp;IoT&nbsp;Enterprise,&nbsp;version&nbsp;21H1](Windows-10-IoT-Enterprise-21H1.md) | 19043 | 2021&#8209;05&#8209;18  | 2022&#8209;12&#8209;13 |
 | Windows&nbsp;10&nbsp;IoT&nbsp;Enterprise,&nbsp;version&nbsp;20H2     | 19042 |  2020&#8209;10&#8209;20  |    2023&#8209;05&#8209;09    |

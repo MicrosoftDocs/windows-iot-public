@@ -10,6 +10,8 @@
   - name: Windows 11 IoT Enterprise
     expanded: false
     items:
+     - name: Version 23H2
+       href: ./whats-new/Windows-11-IoT-Enterprise-23H2.md
      - name: Version 22H2
        href: ./whats-new/Windows-11-IoT-Enterprise-22H2.md
      - name: Version 21H2
@@ -30,7 +32,7 @@
     href: Hardware/Hardware_Requirements.md
   - name: SoCs and Custom Boards
     href: Hardware/SoCs.md
-  - name: Windows IoT Enterprise on Arm64 FAQ
+  - name: Windows IoT Enterprise on ARM64 FAQ
     href: Hardware/ArmFAQ.md
   - name: Start prototyping
     href: Hardware/Prototype.md
