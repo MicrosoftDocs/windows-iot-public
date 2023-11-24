@@ -2403,7 +2403,7 @@ The following tables offer Microsoft guidance on disabling system services on Wi
 
 | Name | Description |
 |--|--|
-| **Service name** | WdNisSvc |
+| **Service name** | Sense |
 | **Description** | Windows Defender Advanced Threat Protection service helps protect against advanced threats by monitoring and reporting security events that happen on the computer. |
 | **Installation** | Always installed |
 | **Startup type** | Manual |
