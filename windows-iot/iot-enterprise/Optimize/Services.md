@@ -2777,7 +2777,7 @@ The following tables offer Microsoft guidance on disabling system services on Wi
 
 | Name | Description |
 |--|--|
-| **Service name** | XblAuthManager |
+| **Service name** | XboxGipSvc |
 | **Description** | This service manages connected Xbox Accessories. |
 | **Installation** | Always installed |
 | **Startup type** | Manual |
