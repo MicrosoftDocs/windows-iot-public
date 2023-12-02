@@ -18,12 +18,12 @@ Distributors can leverage their Windows IoT development experiences, and knowled
 
 | Location&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Distributor&nbsp;Name&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Contact&nbsp;Name&nbsp;/&nbsp;Email&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Contact&nbsp;Phone&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
 |----------------------|------------------|----------------------|:--------------:|
-| Brazil | Softline International BRASIL COMER | info.brasil@softlinegroup.com | +55 11 5188 8100|
-|United States | Advantech Corporation | iot.software@advantech.com | +1 425-922-0721 |
+| Brazil | Softline International BRASIL COMER | <mailto:info.brasil@softlinegroup.com> | +55 11 5188 8100|
+|United States | Advantech Corporation | <mailto:iot.software@advantech.com> | +1 425-922-0721 |
 |United States | Arrow Electronics INC. | Ken Marlin - Windows Champ on YouTube </br> Henry Castillo – Microsoft Champion </br> WindowsChamp@arrow.com | +1 (830) 365-7023 |
-| United States | Avnet INC | Software@Avnet.com | +1 480 643 7055 |
-| United States | Bsquare Corporation | Info@bsquare.com | + 1 425-519-5900 |
-| United States | Dell, INC. | Jordan Wright </br> embeddedsoftwaresales@dell.com | +737 227 1602 |
+| United States | Avnet INC | <mailto:Software@Avnet.com> | +1 480 643 7055 |
+| United States | Bsquare Corporation | <mailto:Info@bsquare.com> | + 1 425-519-5900 |
+| United States | Dell, INC. | Jordan Wright </br> <mailto:embeddedsoftwaresales@dell.com> | +737 227 1602 |
 
 ## APAC
 
