@@ -37,13 +37,13 @@ Distributors can leverage their Windows IoT development experiences, and knowled
  | Australia / New Zealand | Avnet Electronics Marketing Australia Pty Ltd | Wayne Leong</br>[Wayne.Leong@AVNET.COM](mailto:Wayne.Leong@AVNET.COM) | +612 9585 5520 |
  | Australia / New Zealand | MDS Pacific PTY Ltd. | Haeli An</br>[haeli@mdspacific.com](mailto:haeli@mdspacific.com) | +61 2-9888-7715 |
  | China | AVNET(Shanghai) Limited | Jack Xu</br>[jackwuhan.xu@avnet.com](mailto:jackwuhan.xu@avnet.com) | +86 18627083759 |
- | China | Beijing Advantech XING YE Electronics | Zicheng Yan [zicheng.yan@advantech.com.cn](mailto:zicheng.yan@advantech.com.cn)</br>CuiCui.Ding</br>[CuiCui.Ding@advantech.com.cn](mailto:CuiCui.Ding@advantech.com.cn) | +86 15818585213</br>+86 18565739591 |
+ | China | Beijing Advantech XING YE Electronics | Zicheng Yan [zicheng.yan@advantech.com.cn](mailto:zicheng.yan@advantech.com.cn)</br>CuiCui.Ding</br>[CuiCui.Ding@advantech.com.cn](mailto:CuiCui.Ding@advantech.com.cn) | +86 15818585213</br></br>+86 18565739591 |
  | China | Shenzhen Comtech Limited | Selina Gong</br>[selinagong@comtech.com.cn](mailto:selinagong@comtech.com.cn) | +86 15986642886 |
  | China | Dell (China) CO. Ltd. | Gao Defeng</br>[dell.emb.os@dell.com](mailto:dell.emb.os@dell.com) | +86-592-8182210 |
  | China | MDS(Shenzhen) Technology Co.,Ltd | Adam Yi</br>[adamyi@mdspacific.com](mailto:adamyi@mdspacific.com) | +86 18565885612 |
  | China | Lanxiang Technology (Shenzhen) | Becky Wang</br>[beckywang@synnex.com.tw](mailto:beckywang@synnex.com.tw) | +86 13417570375 |
  | China | WT Microelectronics (Shanghai) CO., | Sun Liang</br>[liang.sun@wtmec.com](mailto:liang.sun@wtmec.com) | +86 18600933866 |
- | Hong Kong SAR | Advantech Automation Corp. | Zicheng Yan</br>[zicheng.yan@advantech.com.cn](mailto:zicheng.yan@advantech.com.cn)</br>CuiCui.Ding</br>[CuiCui.Ding@advantech.com.cn](mailto:CuiCui.Ding@advantech.com.cn) | +86 15818585213</br>+86 18565739591 |
+ | Hong Kong SAR | Advantech Automation Corp. | Zicheng Yan</br>[zicheng.yan@advantech.com.cn](mailto:zicheng.yan@advantech.com.cn)</br>CuiCui.Ding</br>[CuiCui.Ding@advantech.com.cn](mailto:CuiCui.Ding@advantech.com.cn) | +86 15818585213</br></br>+86 18565739591 |
  | Hong Kong SAR | Avnet Technology Hong Kong Limited | Jack Xu</br>[jackwuhan.xu@avnet.com](mailto:jackwuhan.xu@avnet.com) | +86 18627083759 |
  | Hong Kong SAR | Comtech International (Hong Kong) | Selina Gong</br>[selinagong@comtech.com.cn](mailto:selinagong@comtech.com.cn) | +86 15986642886 |
  | Hong Kong SAR | MDS Tech China Holding Co Limited | Adam Yi</br>[adamyi@mdspacific.com](mailto:adamyi@mdspacific.com) | +86-19917267583 |
@@ -113,4 +113,4 @@ Distributors can leverage their Windows IoT development experiences, and knowled
  | Japan | Avnet K.K. | Toshitaka Saito</br>[Toshitaka.Saito@AVNET.COM](mailto:Toshitaka.Saito@AVNET.COM)</br>MS Support</br>[akk-ms-support@avnet.com](mailto:akk-ms-support@avnet.com) | +81 3 5792 9820 |
  | Japan | Okaya Electronics Corp. | Hideaki Nagai</br>[nagai@oec.okaya.co.jp](mailto:nagai@oec.okaya.co.jp)</br>Software Promotion Group</br>[info_ms@oec.okaya.co.jp](mailto:info_ms@oec.okaya.co.jp) | +81 45 475 1502 |
  | Japan | Ryoyo Electro Corporation | Toshihiko Kanazawa</br>[Toshihiko_kanazawa@ryoyo.co.jp](mailto:Toshihiko_kanazawa@ryoyo.co.jp)</br>IS MSIS Division</br>[msoem@ryoyo.co.jp](mailto:msoem@ryoyo.co.jp) | +81 3 3546 6211 |
- | Japan | Tokyo Electron Device Limited | Toshinori Suzuno</br>[suzuno.t@teldevice.co.jp](mailto:suzuno.t@teldevice.co.jp)</br>IoT Company Embedded Division</br>[esg@teldevice.co.jp](mailto:esg@teldevice.co.jp) | +81 45 443 4422 |
+ | Japan | Tokyo Electron Device Limited | Toshinori Suzuno</br>[suzuno.t@teldevice.co.jp](mailto:suzuno.t@teldevice.co.jp)</br>IoT&nbsp;Company&nbsp;Embedded&nbsp;Division</br>[esg@teldevice.co.jp](mailto:esg@teldevice.co.jp) | +81 45 443 4422 |
