@@ -2,7 +2,7 @@
 title: Windows IoT Distributors
 author: TerryWarwick
 ms.author: twarwick
-ms.date: 12/01/2023
+ms.date: 12/05/2023
 ms.topic: article
 ms.prod: windows-iot
 ms.technology: iot
@@ -12,7 +12,7 @@ keywords: Windows IoT Enterprise, Windows Sever IoT 2022, Distributor, Windows I
 
 # Windows IoT Distributor Information
 
-<img align="right" width="50%" src="map.png" alt="Windows IoT Distributors Regional Map">
+<img align="right" width="50%" src="media/map.png" alt="Windows IoT Distributors Regional Map">
 
 Distributors can leverage their Windows IoT development experiences, and knowledge, to help you build secure and connected Windows IoT solutions. If you would like to work with one of our distributors, please select a distributor in your region and contact the distributor directly for more detail
 
