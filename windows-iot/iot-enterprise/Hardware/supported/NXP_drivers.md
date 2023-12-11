@@ -1,6 +1,6 @@
 ---
 title: NXP i.MX Supported Drivers
-author: sybruckm
+author: sydbruck
 ms.author: sybruckm
 ms.date: 12/11/2023
 ms.topic: article
