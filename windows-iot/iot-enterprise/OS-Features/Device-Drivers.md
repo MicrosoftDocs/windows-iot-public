@@ -12,11 +12,11 @@ keywords: IoT Enterprise, Device Drivers
 
 # Device Drivers
 
-Device Drivers are essential for any IoT device. This section outlines how to write device drivers, how to driver signing works in Windows IoT Enterprise (this is different than traditional client signing), and how to add device drivers to images.  
+Device Drivers are essential for any IoT device. This section outlines how to write device drivers, how driver signing works in Windows IoT Enterprise (different than traditional client signing), and how to add device drivers to images.  
 
 ## How to Write Device Drivers
 
-Windows contains [built-in drivers](/windows-hardware/drivers/gettingstarted/do-you-need-to-write-a-driver-) for many device types. If there is a built-in driver for your device type, you do not need to write your own driver. Your device can use the built-in driver. However if you need to write a device driver for your device, please leverage the programming reference for [Windows Driver Kit (WDK)](/windows-hardware/drivers/ddi/).  
+Windows contains [built-in drivers](/windows-hardware/drivers/gettingstarted/do-you-need-to-write-a-driver-) for many device types. If there's a built-in driver for your device type, you don't need to write your own driver. Your device can use the built-in driver. However if you need to write a device driver for your device, use the programming reference for [Windows Driver Kit (WDK)](/windows-hardware/drivers/ddi/).  
 
 ## Device Signing
 
@@ -24,7 +24,7 @@ With Windows IoT Enterprise, you have two options on how to get your driver sign
 
 ### Traditional Client Signing
 
-For typical traditional client signing, if you are unfamiliar with the device and driver installation process, we recommend that you start by reviewing [Roadmap for Device and Driver Installation](/windows-hardware/drivers/install/roadmap-for-device-and-driver-installation--windows-vista-and-later-). You may also want to read [Overview of Device and Driver Installation](/windows-hardware/drivers/install/overview-of-device-and-driver-installation) for a high-level overview of this process and its components.
+For typical traditional client signing, if you're unfamiliar with the device and driver installation process, we recommend that you start by reviewing [Roadmap for Device and Driver Installation](/windows-hardware/drivers/install/roadmap-for-device-and-driver-installation--windows-vista-and-later-). You may also want to read [Overview of Device and Driver Installation](/windows-hardware/drivers/install/overview-of-device-and-driver-installation) for a high-level overview of this process and its components.
 
 ### Attestation Signing
 
