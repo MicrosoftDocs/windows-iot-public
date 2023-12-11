@@ -1,16 +1,16 @@
 ---
-title: NXP i.MX Supported Drivers
+title: Supported ARM64 Drivers for NXP i.MX
 author: sybruckm
 ms.author: sybruckm
 ms.date: 12/11/2023
 ms.topic: article
 ms.prod: windows-iot
 ms.technology: iot
-description: Arm64 Supported Drivers
+description: Supported ARM64 Drivers for NXP i.MX
 keywords: IoT Enterprise, Device Drivers
 ---
 
-# Supported NXP Drivers
+# Supported Arm64 Drivers for NXP i.MX
 
 |Type  |Driver  |Vendor  |Platform  |Notes |
 |---------|---------|---------|---------|--------|
