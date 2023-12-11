@@ -1,16 +1,20 @@
 ---
-title: NXP i.MX Supported Drivers
+title: Supported ARM64 Drivers for NXP i.MX
 author: sydbruck
 ms.author: sybruckm
 ms.date: 12/11/2023
 ms.topic: article
 ms.prod: windows-iot
 ms.technology: iot
-description: Arm64 Supported Drivers
+description: Supported ARM64 Drivers for NXP i.MX
 keywords: IoT Enterprise, Device Drivers
 ---
 
-# Supported NXP Drivers
+# Supported Arm64 Drivers for NXP i.MX
+
+Make full use of Windows IoT Enterprise on your NXP device by selecting peripherals to make use of existing drivers, either from the NXP BSP or from Windows. For further details, contact your chip manufacturer. 
+
+## NXP Supported Drivers
 
 |Type  |Driver  |Vendor  |Platform  |Notes |
 |---------|---------|---------|---------|--------|
