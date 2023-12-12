@@ -447,6 +447,8 @@
     href: resources/privacy.md
   - name: Security
     href: resources/security.md
+- name: Windows IoT Distributors
+  href: windows-iot-distributors.md
 - name: Downloads
   href: Downloads.md
 - name: Code Samples
