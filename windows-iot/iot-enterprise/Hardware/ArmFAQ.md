@@ -10,13 +10,13 @@ description: Windows IoT on ARM64
 keywords: IoT Enterprise, Hardware, Windows IoT, Arm64, NXP
 ---
 
-# Getting Started with Windows IoT Enterprise for ARM64
+# Getting Started with Windows IoT Enterprise for Arm64
 
-This article helps you use the strength of Windows on low power, low cost devices with Windows IoT Enterprise for ARM64.
+This article helps you use the strength of Windows on low power, low cost devices with Windows IoT Enterprise for Arm64.
 
 ## What is Windows IoT Enterprise on Arm?
 
-Windows IoT Enterprise on Arm is simply Windows IoT Enterprise built for ARM64 devices. Windows IoT Enterprise on ARM64 is the same OS as it is on X64-based devices, with IoT features available to help you build secure, powerful devices across any architecture. Since the OS is the same, the capabilities and the documentation are the same as well. Refer to the standard Windows IoT Enterprise documentation for ARM64 guidance.
+Windows IoT Enterprise on Arm is simply Windows IoT Enterprise built for Arm64 devices. Windows IoT Enterprise on Arm64 is the same OS as it is on X64-based devices, with IoT features available to help you build secure, powerful devices across any architecture. Since the OS is the same, the capabilities and the documentation are the same as well. Refer to the standard Windows IoT Enterprise documentation for Arm64 guidance.
 
 ## Getting Started
 
@@ -26,7 +26,7 @@ For the quickest way to get familiar with Windows IoT Enterprise on Arm64, see o
 
 ### Which hardware is supported?
 
-Windows IoT Enterprise supports various peripheral interfaces on ARM64 devices. The following list isn't exhaustive. There are many other peripherals not listed on this page that are compatible with Windows IoT Enterprise. If you are an IHV with a peripheral that supports Windows IoT Enterprise on ARM64 and would like to be added to this list, reach out to winiotinquire@microsoft.com.
+Windows IoT Enterprise supports various peripheral interfaces on Arm64 devices. The following list isn't exhaustive. There are many other peripherals not listed on this page that are compatible with Windows IoT Enterprise. If you are an IHV with a peripheral that supports Windows IoT Enterprise on Arm64 and would like to be added to this list, reach out to winiotinquire@microsoft.com.
 
 #### Platforms
 
@@ -64,11 +64,11 @@ Both LTSC and GAC editions of Windows IoT Enterprise are available for NXP devic
 |i.MX 8X      |    build 19044 or later     |    Not Supported    |
 |i.MX 93      |    build 19044 or later     |    Coming Soon      |
 
-### Can I run applications that aren't native to ARM64?
+### Can I run applications that aren't native to Arm64?
 
-On ARM64 devices, Windows IoT Enterprise allows emulation of x86 applications. For more information, see [How x86 emulation works on Arm](/windows/arm/apps-on-arm-x86-emulation).
+On Arm64 devices, Windows IoT Enterprise allows emulation of x86 applications. For more information, see [How x86 emulation works on Arm](/windows/arm/apps-on-arm-x86-emulation).
 
-### Can I use Hyper-V on my ARM64 device?
+### Can I use Hyper-V on my Arm64 device?
 
 Hyper-V is only supported on boards that support Windows 11 IoT Enterprise. For more information, see [Which Windows IoT Enterprise version should I use?](#which-windows-iot-enterprise-version-should-i-use).
 
