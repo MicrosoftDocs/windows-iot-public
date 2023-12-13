@@ -2,7 +2,7 @@
 title: Windows IoT Distributors
 author: TerryWarwick
 ms.author: twarwick
-ms.date: 12/05/2023
+ms.date: 12/12/2023
 ms.topic: article
 ms.prod: windows-iot
 ms.technology: iot
@@ -50,6 +50,17 @@ Distributors can leverage their Windows IoT development experiences, and knowled
  | Hong Kong SAR | Syntech Asia Limited | Becky Wang</br>[beckywang@synnex.com.tw](mailto:beckywang@synnex.com.tw) | +86 13417570375 |
  | Hong Kong SAR | WT Microelectronics Ltd. | Sun Liang</br>[liang.sun@wtmec.com](mailto:liang.sun@wtmec.com) | +86 18600933866 |
  | India | Advantech Industrial Computing | Praveen B</br>[Praveen.B@advantech.com](mailto:Praveen.B@advantech.com) | +91 9845071709 |
+ | India | MDS Pacific India Pvt Ltd|Sreejith Krishnan</br>[sreejith.krishnan@mdspacific.com](mailto:sreejith.krishnan@mdspacific.com)</br>Prajwal Shetty</br>[prajwal.shetty@mdspacific.com](mailto:prajwal.shetty@mdspacific.com)|+91 78 4784 8412</br>+91 80 4123 9727 |
+| Korea | Advantech KR Co., Ltd.|Zesty Lee</br>[Zesty.Lee@advantech.co.kr](mailto:Zesty.Lee@advantech.co.kr)|+82 2 3660 9220 |
+| Korea | MDS Tech Inc.|Sungwoo Park</br>[sungwoo@mdstech.co.kr](mailto:sungwoo@mdstech.co.kr) |+82 31 602 2026 |
+| Korea | VOICEYE Co., Ltd.|Young Seung .ko </br>[ysko@sgacorp.kr](mailto:ysko@sgacorp.kr)|+82 10 3333 4187 |
+| Malaysia, Philippines, Singapore, Thailand, Vietnam|Avnet Asia Pte Ltd|Catherine Wong</br>[Catherine.wong@avnet.com](mailto:Catherine.wong@avnet.com)|+65 9681 9211 |
+| Singapore,Malaysia, Thailand, Indonesia, Philippine|Advantech Co. Singapore PTE Ltd.|Kenneth Ong</br>[Kenneth.Ong@advantech.com](mailto:Kenneth.Ong@advantech.com)|Mobile: +65-9764 3716</br>DID: 65-6413 8723 |
+| Singapore | Dell Global B.V. (Singapore Branch)|Shree Vidhya</br>[Shree.Vidhya.Aj@dell.com](mailto:Shree.Vidhya.Aj@dell.com)|+91 9739096714 |
+| Singapore</br>Malaysia</br>Thailand</br>Indonesia</br>Philippines</br>Vietnam | MDS Pacific PTE Ltd.|Edmund Foo</br>[edmund.foo@mdspacific.com](mailto:edmund.foo@mdspacific.com)</br>Stacey Leaw</br>[Stacey.leaw@mdspacific.com](mailto:Stacey.leaw@mdspacific.com)|+65 6297 2800  |
+| Taiwan | Advantech CO., LTD.|Grace Chen </br>[Grace88.Chen@advantech.com.tw](mailto:Grace88.Chen@advantech.com.tw)|+886 2 27927818 ext. 9292 |
+| Taiwan | Chander Electronics Corp.|Fransky Liu</br>[fransky_liu@chander.com.tw](mailto:fransky_liu@chander.com.tw)|+886 2 2218-6500 EXT 861 |
+| Taiwan | Synnex Technology Internationals COR|Nicole Wu</br>[peiyinwu@synnex.com.tw](mailto:peiyinwu@synnex.com.tw)|+886 912830162 |
 
 ## EMEA
 
