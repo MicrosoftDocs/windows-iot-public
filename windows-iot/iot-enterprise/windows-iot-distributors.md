@@ -2,7 +2,7 @@
 title: Windows IoT Distributors
 author: TerryWarwick
 ms.author: twarwick
-ms.date: 12/05/2023
+ms.date: 12/12/2023
 ms.topic: article
 ms.prod: windows-iot
 ms.technology: iot
