@@ -40,6 +40,13 @@
     href: OS-Features/Bus-Providers.md
   - name: Device Drivers
     href: OS-Features/Device-Drivers.md    
+- name: Arm64 Guidance
+  expanded: false
+  items:
+  - name: Windows IoT Enterprise on ARM64 FAQ
+    href: ARM64/ArmFAQ.md
+  - name: Arm64 App Development Guidance
+    href: Arm64/Arm_App_dev.md
 - name: Tutorials
   expanded: false
   items:
