@@ -36,7 +36,7 @@ Microsoft has a series of tools available to streamline app development.
 |Visual Studio   |[Visual Studio](https://visualstudio.microsoft.com/downloads/) | The preferred development tool of many Windows developers, Visual Studio lets you create projects for Windows, and many other platforms. It's a powerful IDE that can help you write, debug, and deploy your apps.        |
 |Visual Studio Code   | [Visual Studio Code](https://code.visualstudio.com/)|A highly extensible editor, Visual Studio Code can be customized to support almost any kind of development you can think of. It's a great choice for writing apps for Windows, and other platforms.   |
 |Windows App SDK| [Windows App SDK](/windows/apps/windows-app-sdk/set-up-your-development-environment)|To develop apps for Windows 10 and 11, you will need Visual Studio, the Windows SDK, and the Windows App SDK. |
-|Windows SDK| [Windows SDK](/windows/downloads/windows-sdk/)|To develop apps for Windows 10 and 11, you'll need Visual Studio, the Windows SDK, and the Windows App SDK. |
+|Windows SDK| [Windows SDK](https://developer.microsoft.com/windows/downloads/windows-sdk/)|To develop apps for Windows 10 and 11, you'll need Visual Studio, the Windows SDK, and the Windows App SDK. |
 |Windows Terminal  |[Windows Terminal](/windows/terminal/)  |Windows Terminal is a modern host application for the command-line shells you already love, like Command Prompt, PowerShell, and bash (via Windows Subsystem for Linux (WSL)). It provides a modern, tabbed interface, and supports themes and extensions.  |
 |Windows Subsystem for Linux|[Windows Subsystem for Linux](/windows/wsl/install)|WSL lets you run Linux distributions on Windows and is a great way to use open source tools to develop apps for Windows.|
 
@@ -48,7 +48,7 @@ Understand the options available to you for developing Windows Apps.
 
 |Topic  |Resource  |Description  |
 |---------|---------|---------|
-|Windows Language and Platform Options |[Windows Development Options](windows/apps/get-started/)  |Windows offers a wide range of options for building apps, including C++, .NET, and other emerging technologies such as open source tools on WSL and Rust. This article contains the information you need to get started building apps for the Windows desktop environment. |
+|Windows Language and Platform Options |[Windows Development Options](windows/apps/get-started)  |Windows offers a wide range of options for building apps, including C++, .NET, and other emerging technologies such as open source tools on WSL and Rust. This article contains the information you need to get started building apps for the Windows desktop environment. |
 |App Framework Comparison |  [App Development Frameworks](/windows/apps/get-started/dev-options) |Evaluate which app development framework is best suited for your app.  |
 |Windows App Packaging and Deployment Options   |[Windows apps: packaging, deployment, and process](/windows/apps/get-started/intro-pack-dep-proc)  |This topic discusses your options concerning whether or not your app will be packaged, how you'll deploy/distribute your app, and your app's run-time process.|
 |Windows Services (background apps)   |[Worker Services](/dotnet/core/extensions/workers) |A Windows service is a background process that runs independently of any user interface and is designed to perform specific tasks or functions on a Windows operating system.  |

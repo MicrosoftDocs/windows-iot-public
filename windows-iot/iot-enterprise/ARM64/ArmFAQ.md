@@ -53,7 +53,7 @@ For more information on the various ways to get a Windows license, see our [lice
 
 ### Which Windows IoT Enterprise version should I use?
 
-Both LTSC and GAC editions of Windows IoT Enterprise are available for NXP devices. You can find more information on the [Hardware Requirements](Hardware_Requirements.md) page.
+Both LTSC and GAC editions of Windows IoT Enterprise are available for NXP devices. You can find more information on the [Hardware Requirements](../Hardware/Hardware_Requirements.md) page.
 
 |SoC  |Windows 10 IoT Enterprise  |Windows 11 IoT Enterprise  |
 |---------|---------|---------|
@@ -80,4 +80,4 @@ Additionally, the Qualcomm QCS6490 and QCS5430 are supported as part of [Qualcom
 
 ### What drivers are supported?
 
-NXP Drivers: [NXP Supported Drivers](supported/NXP_drivers.md)
+NXP Drivers: [NXP Supported Drivers](../Hardware/supported/NXP_drivers.md)
