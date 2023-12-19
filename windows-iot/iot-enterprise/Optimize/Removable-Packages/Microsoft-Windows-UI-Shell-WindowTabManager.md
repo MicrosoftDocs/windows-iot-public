@@ -25,26 +25,26 @@ keywords: IoT Enterprise, removable packages, storage
 
 | Package Name | LTSC&nbsp;2021 | LTSC&nbsp;2024  |
 |--------------|---------------:|----------------:|
-| `Microsoft-Windows-UI-Shell-WindowTaskManager` | TBD | TBD |
+| `Microsoft-Windows-UI-Shell-WindowTabManager` | TBD | TBD |
 
 ## Package Removal
 
 1. To remove a specific package from the image type:
 
    ```powershell
-   Dism.exe /Online /NoRestart /Disable-Feature /FeatureName:Microsoft-Windows-UI-Shell-WindowTaskManager /PackageName:@Package
+   Dism.exe /Online /NoRestart /Disable-Feature /FeatureName:Microsoft-Windows-UI-Shell-WindowTabManager /PackageName:@Package
    ````
 
    To remove a package from an offline image mounted at `c:\offline` type:
 
    ```powershell
-   Dism.exe /Image:c:\offline  /Disable-Feature /FeatureName:Microsoft-Windows-UI-Shell-WindowTaskManager /PackageName:@Package
+   Dism.exe /Image:c:\offline  /Disable-Feature /FeatureName:Microsoft-Windows-UI-Shell-WindowTabManager /PackageName:@Package
    ```
 
 1. Optional: Use DISM /GetFeatureInfo to get the status of a removable package type:
 
    ```powershell
-   Dism.exe /Online /Get-FeatureInfo /FeatureName:Microsoft-Windows-UI-Shell-WindowTaskManager /PackageName:@Package
+   Dism.exe /Online /Get-FeatureInfo /FeatureName:Microsoft-Windows-UI-Shell-WindowTabManager /PackageName:@Package
    ````
 
 ## File List

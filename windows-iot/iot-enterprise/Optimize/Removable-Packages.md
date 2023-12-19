@@ -2,7 +2,7 @@
 title: Removable Packages Overview
 author: twarwick
 ms.author: twarwick
-ms.date: 08/10/2023
+ms.date: 12/18/2023
 ms.topic: article
 ms.prod: windows-iot
 ms.technology: iot
@@ -67,44 +67,41 @@ The following packages can be removed from Windows IoT Enterprise LTSC 2021.  Se
 
 | Removable Package  | Description | LTSC&nbsp;2021 | LTSC&nbsp;2024 |
 |:-------------------|-------------|-----:|:----:|
-| [Language Word Breaking Legacy](/windows/iot/iot-enterprise/Optimize-Your-Device/Removable-Packages-Details/LanguageFeatures-Wordbreaking-Common-legacy)   | Legacy neutral word breaker should only be needed in occasional application compatibility scenarios. | 1,542&nbsp;KB | TBD |
-| [Media Foundation](/windows/iot/iot-enterprise/Optimize-Your-Device/Removable-Packages-Details/Microsoft-Media-Foundation) | Component of the [Media Feature Pack](/windows/win32/wmdm/windows-media-device-manager-architecture) comprised of [Microsoft Media Foundation](/windows/win32/medfound/microsoft-media-foundation-sdk) enables the development of applications and components for using digital media. [Supported Media Formats in Media Foundation](/windows/win32/medfound/supported-media-formats-in-media-foundation).   | 63,747&nbsp;KB | TBD |
-| [Supplemental Fonts](/windows/iot/iot-enterprise/Optimize-Your-Device/Removable-Packages-Details/Microsoft-OneCore-Fonts-DesktopFonts-NonLeanSupplement) | Fonts: [Malgun Gothic](/typography/font-list/malgun-gothic), [Microsoft JhengHei](/typography/font-list/microsoft-jhenghei), [Microsoft YaHei](/typography/font-list/microsoft-yahei), [Yu Gothic](/typography/font-list/yu-gothic) | 113,251&nbsp;KB | TBD |
-| [User Experience Virtualization](/windows/iot/iot-enterprise/Optimize-Your-Device/Removable-Packages-Details/Microsoft-Windows-AppManagement-UEV)                   | [User Experience Virtualization](/windows/configuration/ue-v/uev-for-windows) | 13,752&nbsp;KB | TBD |
-| [Bio Enrollment Experience](/windows/iot/iot-enterprise/Optimize-Your-Device/Removable-Packages-Details/Microsoft-Windows-BioEnrollment-UX) | [Windows Hello](/windows-hardware/design/device-experiences/windows-hello) | 3,589&nbsp;KB | TBD |
-| [Boot Environment DVD](/windows/iot/iot-enterprise/Optimize-Your-Device/Removable-Packages-Details/Microsoft-Windows-BootEnvironment-Dvd) | Boot from DVD | 9,108&nbsp;KB | TBD |
-| [Windows Media Format](/windows/iot/iot-enterprise/Optimize-Your-Device/Removable-Packages-Details/Microsoft-Windows-Media-Format) | A component of the [Media Feature Pack](/windows/win32/wmdm/windows-media-device-manager-architecture) comprised of support for [Windows Media Device Manager](/windows/win32/wmdm/windows-media-device-manager-architecture),  [Advanced Systems Format](/windows/win32/wmformat/overview-of-the-asf-format) (ASF) file container, Windows Media audio and video codecs, basic network streaming, and [Digital Rights Management](/windows/win32/wmformat/overview-of-windows-media-drm). | 5,559&nbsp;KB | TBD |
-| [Media Features Optional Component](/windows/iot/iot-enterprise/Optimize-Your-Device/Removable-Packages-Details/Microsoft-Windows-MediaPlayback-OC) | Controls availability of the "Media Features" and "Windows Media Player" options for the *Turn Windows features on or off* user experience in Control Panel. | 0&nbsp;KB | TBD |
-| [Windows Media Streaming](/windows/iot/iot-enterprise/Optimize-Your-Device/Removable-Packages-Details/Microsoft-Windows-Media-Streaming) | A component of the [Media Feature Pack](/windows/win32/wmdm/windows-media-device-manager-architecture) providing support for [Windows Media Streaming](/windows/win32/mediastreaming/media-streaming-api-portal). | 6,644&nbsp;KB | TBD |
-| [Windows Portable Devices](/windows/iot/iot-enterprise/Optimize-Your-Device/Removable-Packages-Details/Microsoft-Windows-Portable-Devices) | A component of the [Media Feature Pack](/windows/win32/wmdm/windows-media-device-manager-architecture) providing connectivity to portable devices for [Windows Media Device Manager](/windows/win32/wmdm/windows-media-device-manager-architecture). | 6,405&nbsp;KB | TBD |
-| [Printer Drivers](/windows/iot/iot-enterprise/Optimize-Your-Device/Removable-Packages-Details/Microsoft-Windows-Printer-Drivers) | Generic / Text Only, Generic IBM Graphics 9pin, Generic IBM Graphics 9-pin wide, MS Publisher Color Printer, MS Publisher Imagesetter, Microsoft Shared Fax Driver | 8,200&nbsp;KB | TBD |
-| [PrintBrm Command-Line Tool](/windows/iot/iot-enterprise/Optimize-Your-Device/Removable-Packages-Details/Microsoft-Windows-Printing-PremiumTools) | Print services migration command-line tool printbrm.exe | 381&nbsp;KB | TBD |
-| [Recovery Drive](/windows/iot/iot-enterprise/Optimize-Your-Device/Removable-Packages-Details/Microsoft-Windows-RecoveryDrive) | Create a recovery drive user experience invoked from Control Panel - Recovery | 1.041&nbsp;KB | TBD |
-| [3D Screensavers](/windows/iot/iot-enterprise/Optimize-Your-Device/Removable-Packages-Details/Microsoft-Windows-ScreenSavers-3D) | Screensavers: 3D Text, Bubbles, Mystify and Ribbons | 1,312&nbsp;KB | TBD |
-| [Sensor Data Service](/windows/iot/iot-enterprise/Optimize-Your-Device/Removable-Packages-Details/Microsoft-Windows-SensorDataService) | Component of the [Media Feature Pack](/windows/win32/wmdm/windows-media-device-manager-architecture) supporting data acquisition from  various sensors.  Supports Windows Hello.  | 1,367&nbsp;KB | TBD |
-| [Shell Accessories](/windows/iot/iot-enterprise/Optimize-Your-Device/Removable-Packages-Details/Microsoft-Windows-ShellOptions) | Modern Calculator, Character Map, More Icons DLL | 657&nbsp;KB | TBD |
-| [Desktop Wallpaper](/windows/iot/iot-enterprise/Optimize-Your-Device/Removable-Packages-Details/Microsoft-Windows-Shell-Wallpaper-Common) | Wallpaper images |  8,538&nbsp;KB | TBD |
-| [Webcam Experience](/windows/iot/iot-enterprise/Optimize-Your-Device/Removable-Packages-Details/Microsoft-Windows-WebcamExperience) | A component of the [Media Feature Pack](/windows/win32/wmdm/windows-media-device-manager-architecture) providing webcam user experience. | 1,394&nbsp;KB | TBD |
-| [Legacy Calculator App](/windows/iot/iot-enterprise/Optimize-Your-Device/Removable-Packages-Details/Microsoft-Windows-win32calc) | Legacy Calculator Application | 1,394&nbsp;KB | TBD |
-| [WinSAT Media Files](/windows/iot/iot-enterprise/Optimize-Your-Device/Removable-Packages-Details/Microsoft-Windows-WinSATMediaFiles) | A component of the [Media Feature Pack](/windows/win32/wmdm/windows-media-device-manager-architecture) comprised of media files for Windows System Assessment Tool. | 0&nbsp;KB | TBD |
-| [USB Connection Manager](Removable-Packages-Details/Microsoft-OneCore-Connectivity-UsbConnectorManager.md) ||n/a| TBD |
-| [USB Function](Removable-Packages-Details/Microsoft-OneCore-Connectivity-UsbFunction.md) ||n/a| TBD |
-| [Miracast Transmitter](Removable-Packages-Details/Microsoft-OneCore-Miracast-Transmitter.md) ||n/a| TBD |
-| [Multimedia ACX](Removable-Packages-Details/Microsoft-OneCore-Multimedia-Acx.md)  ||n/a| TBD |
-| [Remote Desktop Services](Removable-Packages-Details/Microsoft-OneCore-RemoteDesktopServices-Collaboration.md)  ||n/a| TBD |
-| [SD](Removable-Packages-Details/Microsoft-OneCore-SD.md)  ||n/a| TBD |
-| [System Settings Devices](Removable-Packages-Details/Microsoft-OneCore-SystemSettings-Devices.md)  ||n/a| TBD |
-| [3D Audio HRTF Data](Removable-Packages-Details/Microsoft-Windows-3DAudio-HrtfData.md)  ||n/a| TBD |
-| [Computer Manager Launcher](Removable-Packages-Details/Microsoft-Windows-ComputerManagerLauncher.md)  ||n/a| TBD |
-| [Defrag User Experience](Removable-Packages-Details/Microsoft-Windows-Defrag-UI.md) ||n/a| TBD |
-| [Desktop File Explorer](Removable-Packages-Details/Microsoft-Windows-DesktopFileExplorer.md)  ||n/a| TBD |
-| [Microsoft Edge Dev Tools Client](Removable-Packages-Details/Microsoft-Windows-MicrosoftEdgeDevToolsClient.md)  ||n/a| TBD |
-| [Mobile PC Client Basic](Removable-Packages-Details/Microsoft-Windows-MobilePC-Client-Basic.md) ||n/a| TBD |
-| [NetProfilesUX] ||n/a| TBD |
-| [Network Mobile Handlers Settings] || n/a| TBD |
-| [PEAuth](Removable-Packages-Details/Microsoft-Windows-PEAuth-OneCore.md) ||n/a| TBD |
-| [SDK Tools](Removable-Packages-Details/Microsoft-Windows-SDKTools.md) ||n/a| TBD |
-| [Window Tab Manager](Removable-Packages-Details/Microsoft-Windows-UI-Shell-WindowTabManager.md)  ||n/a| TBD |
+| [Language Word Breaking Legacy](/windows/iot/iot-enterprise/Optimize-Your-Device/Removable-Packages/LanguageFeatures-Wordbreaking-Common-legacy)   | Legacy neutral word breaker should only be needed in occasional application compatibility scenarios. | 1,542&nbsp;KB | TBD |
+| [Media Foundation](/windows/iot/iot-enterprise/Optimize-Your-Device/Removable-Packages/Microsoft-Media-Foundation) | Component of the [Media Feature Pack](/windows/win32/wmdm/windows-media-device-manager-architecture) comprised of [Microsoft Media Foundation](/windows/win32/medfound/microsoft-media-foundation-sdk) enables the development of applications and components for using digital media. [Supported Media Formats in Media Foundation](/windows/win32/medfound/supported-media-formats-in-media-foundation).   | 63,747&nbsp;KB | TBD |
+| [Supplemental Fonts](/windows/iot/iot-enterprise/Optimize-Your-Device/Removable-Packages/Microsoft-OneCore-Fonts-DesktopFonts-NonLeanSupplement) | Fonts: [Malgun Gothic](/typography/font-list/malgun-gothic), [Microsoft JhengHei](/typography/font-list/microsoft-jhenghei), [Microsoft YaHei](/typography/font-list/microsoft-yahei), [Yu Gothic](/typography/font-list/yu-gothic) | 113,251&nbsp;KB | TBD |
+| [User Experience Virtualization](/windows/iot/iot-enterprise/Optimize-Your-Device/Removable-Packages/Microsoft-Windows-AppManagement-UEV)                   | [User Experience Virtualization](/windows/configuration/ue-v/uev-for-windows) | 13,752&nbsp;KB | TBD |
+| [Bio Enrollment Experience](/windows/iot/iot-enterprise/Optimize-Your-Device/Removable-Packages/Microsoft-Windows-BioEnrollment-UX) | [Windows Hello](/windows-hardware/design/device-experiences/windows-hello) | 3,589&nbsp;KB | TBD |
+| [Boot Environment DVD](/windows/iot/iot-enterprise/Optimize-Your-Device/Removable-Packages/Microsoft-Windows-BootEnvironment-Dvd) | Boot from DVD | 9,108&nbsp;KB | TBD |
+| [Windows Media Format](/windows/iot/iot-enterprise/Optimize-Your-Device/Removable-Packages/Microsoft-Windows-Media-Format) | A component of the [Media Feature Pack](/windows/win32/wmdm/windows-media-device-manager-architecture) comprised of support for [Windows Media Device Manager](/windows/win32/wmdm/windows-media-device-manager-architecture),  [Advanced Systems Format](/windows/win32/wmformat/overview-of-the-asf-format) (ASF) file container, Windows Media audio and video codecs, basic network streaming, and [Digital Rights Management](/windows/win32/wmformat/overview-of-windows-media-drm). | 5,559&nbsp;KB | TBD |
+| [Media Features Optional Component](/windows/iot/iot-enterprise/Optimize-Your-Device/Removable-Packages/Microsoft-Windows-MediaPlayback-OC) | Controls availability of the "Media Features" and "Windows Media Player" options for the *Turn Windows features on or off* user experience in Control Panel. | 0&nbsp;KB | TBD |
+| [Windows Media Streaming](/windows/iot/iot-enterprise/Optimize-Your-Device/Removable-Packages/Microsoft-Windows-Media-Streaming) | A component of the [Media Feature Pack](/windows/win32/wmdm/windows-media-device-manager-architecture) providing support for [Windows Media Streaming](/windows/win32/mediastreaming/media-streaming-api-portal). | 6,644&nbsp;KB | TBD |
+| [Windows Portable Devices](/windows/iot/iot-enterprise/Optimize-Your-Device/Removable-Packages/Microsoft-Windows-Portable-Devices) | A component of the [Media Feature Pack](/windows/win32/wmdm/windows-media-device-manager-architecture) providing connectivity to portable devices for [Windows Media Device Manager](/windows/win32/wmdm/windows-media-device-manager-architecture). | 6,405&nbsp;KB | TBD |
+| [Printer Drivers](/windows/iot/iot-enterprise/Optimize-Your-Device/Removable-Packages/Microsoft-Windows-Printer-Drivers) | Generic / Text Only, Generic IBM Graphics 9pin, Generic IBM Graphics 9-pin wide, MS Publisher Color Printer, MS Publisher Imagesetter, Microsoft Shared Fax Driver | 8,200&nbsp;KB | TBD |
+| [PrintBrm Command-Line Tool](/windows/iot/iot-enterprise/Optimize-Your-Device/Removable-Packages/Microsoft-Windows-Printing-PremiumTools) | Print services migration command-line tool printbrm.exe | 381&nbsp;KB | TBD |
+| [Recovery Drive](/windows/iot/iot-enterprise/Optimize-Your-Device/Removable-Packages/Microsoft-Windows-RecoveryDrive) | Create a recovery drive user experience invoked from Control Panel - Recovery | 1.041&nbsp;KB | TBD |
+| [3D Screensavers](/windows/iot/iot-enterprise/Optimize-Your-Device/Removable-Packages/Microsoft-Windows-ScreenSavers-3D) | Screensavers: 3D Text, Bubbles, Mystify and Ribbons | 1,312&nbsp;KB | TBD |
+| [Sensor Data Service](/windows/iot/iot-enterprise/Optimize-Your-Device/Removable-Packages/Microsoft-Windows-SensorDataService) | Component of the [Media Feature Pack](/windows/win32/wmdm/windows-media-device-manager-architecture) supporting data acquisition from  various sensors.  Supports Windows Hello.  | 1,367&nbsp;KB | TBD |
+| [Shell Accessories](/windows/iot/iot-enterprise/Optimize-Your-Device/Removable-Packages/Microsoft-Windows-ShellOptions) | Modern Calculator, Character Map, More Icons DLL | 657&nbsp;KB | TBD |
+| [Desktop Wallpaper](/windows/iot/iot-enterprise/Optimize-Your-Device/Removable-Packages/Microsoft-Windows-Shell-Wallpaper-Common) | Wallpaper images |  8,538&nbsp;KB | TBD |
+| [Webcam Experience](/windows/iot/iot-enterprise/Optimize-Your-Device/Removable-Packages/Microsoft-Windows-WebcamExperience) | A component of the [Media Feature Pack](/windows/win32/wmdm/windows-media-device-manager-architecture) providing webcam user experience. | 1,394&nbsp;KB | TBD |
+| [Legacy Calculator App](/windows/iot/iot-enterprise/Optimize-Your-Device/Removable-Packages/Microsoft-Windows-win32calc) | Legacy Calculator Application | 1,394&nbsp;KB | TBD |
+| [WinSAT Media Files](/windows/iot/iot-enterprise/Optimize-Your-Device/Removable-Packages/Microsoft-Windows-WinSATMediaFiles) | A component of the [Media Feature Pack](/windows/win32/wmdm/windows-media-device-manager-architecture) comprised of media files for Windows System Assessment Tool. | 0&nbsp;KB | TBD |
+| [USB Connector Manager](Removable-Packages/Microsoft-OneCore-Connectivity-UsbConnectorManager.md) ||n/a| TBD |
+| [USB Function](Removable-Packages/Microsoft-OneCore-Connectivity-UsbFunction.md) ||n/a| TBD |
+| [Camera Barcode Scanner](Removable-Packages/Microsoft-OneCore-PointOfService-CameraBarcodeScanner.md)  ||n/a| TBD |
+| [Remote Desktop Services](Removable-Packages/Microsoft-OneCore-RemoteDesktopServices-Collaboration.md)  ||n/a| TBD |
+| [SD](Removable-Packages/Microsoft-OneCore-SD.md)  ||n/a| TBD |
+| [System Settings Devices](Removable-Packages/Microsoft-OneCore-SystemSettings-Devices.md)  ||n/a| TBD |
+| [3D Audio HRTF Data](Removable-Packages/Microsoft-Windows-3DAudio-HrtfData.md)  ||n/a| TBD |
+| [Computer Manager Launcher](Removable-Packages/Microsoft-Windows-ComputerManagerLauncher.md)  ||n/a| TBD |
+| [Defrag User Experience](Removable-Packages/Microsoft-Windows-Defrag-UI.md) ||n/a| TBD |
+| [Desktop File Explorer](Removable-Packages/Microsoft-Windows-DesktopFileExplorer.md)  ||n/a| TBD |
+| [Microsoft Edge Dev Tools Client](Removable-Packages/Microsoft-Windows-MicrosoftEdgeDevToolsClient.md)  ||n/a| TBD |
+| [Mobile PC Client Basic](Removable-Packages/Microsoft-Windows-MobilePC-Client-Basic.md) ||n/a| TBD |
+| [NetProfilesUX](Removable-Packages/Microsoft-Windows-NetProfilesUX.md) ||n/a| TBD |
+| [PEAuth](Removable-Packages/Microsoft-Windows-PEAuth-OneCore.md) ||n/a| TBD |
+| [Window Tab Manager](Removable-Packages/Microsoft-Windows-UI-Shell-WindowTabManager.md)  ||n/a| TBD |
 
 ## More Resources
 
