@@ -63,7 +63,7 @@ This feature is supported on Windows 10 IoT Enterprise LTSC 2021 (build 19044.17
 
 ## Package Reference
 
-# [Windows 11 IoT Enterprise LTSC 2024](#tab/LTSC2024)
+# [2024](#tab/LTSC2024)
 
 The following packages can be removed from Windows IoT Enterprise LTSC 2024.  Select on each package name to see more details about the package payload.
 
@@ -107,7 +107,7 @@ The following packages can be removed from Windows IoT Enterprise LTSC 2024.  Se
 | | **[Legacy Calculator App](/Removable-Packages/Microsoft-Windows-win32calc)** </br> Legacy Calculator Application | <!-- x64 --> 709&nbsp;KB | <!-- arm64 --> 704&nbsp;KB |
 | | **[WinSAT Media Files](/Removable-Packages/Microsoft-Windows-WinSATMediaFiles)** </br> A component of the [Media Feature Pack](/windows/win32/wmdm/windows-media-device-manager-architecture) comprised of media files for Windows System Assessment Tool. | <!-- x64 --> 0&nbsp;KB | <!-- arm64 --> 0&nbsp;KB |
 
-# [Windows 10 IoT Enterprise LTSC 2021](#tab/LTSC2021)
+# [2021](#tab/LTSC2021)
 
 The following packages can be removed from Windows IoT Enterprise LTSC 2021.  Select on each package name to see more details about the package payload.
 
