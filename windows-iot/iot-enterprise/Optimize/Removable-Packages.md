@@ -61,6 +61,16 @@ This feature is supported on Windows 10 IoT Enterprise LTSC 2021 (build 19044.17
    Dism.exe /Online /Get-FeatureInfo /FeatureName:Microsoft-Windows-win32calc /PackageName:@Package
    ````
 
+# [Linux](#tab/linux)
+
+Content for Linux...
+
+# [Windows](#tab/windows)
+
+Content for Windows...
+
+---
+
 ## Package Reference
 
 # [2024](#tab/LTSC2024)
