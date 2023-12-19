@@ -79,7 +79,7 @@ The following packages can be removed from Windows IoT Enterprise LTSC 2024.  Se
 |🆕| **[Remote Desktop Services](/Removable-Packages/Microsoft-OneCore-RemoteDesktopServices-Collaboration.md)** </br> | <!-- x64 --> 1,460&nbsp;KB | <!-- arm64 --> 2,517&nbsp;KB |
 |🆕| **[SD](/Removable-Packages/Microsoft-OneCore-SD.md)** </br> | <!-- x64 --> 928&nbsp;KB | <!-- arm64 --> 764&nbsp;KB |
 |🆕| **[System Settings Devices](/Removable-Packages/Microsoft-OneCore-SystemSettings-Devices.md)** </br> | <!-- x64 --> 824&nbsp;KB | <!-- arm64 -->    980&nbsp;KB |
-|🆕| **[Network Mobile Handlers]** </br> | <!-- x64 --> 3,340&nbsp;KB | <!-- arm64 --> 3,842&nbsp;KB |
+|🆕| **[Network Mobile Handlers](/Removable-Packages/Microsoft-OneCore-SystemSettings-NetworkMobileHandlers.md)** </br> | <!-- x64 --> 3,340&nbsp;KB | <!-- arm64 --> 3,842&nbsp;KB |
 |🆕| **[3D Audio HRTF Data](/Removable-Packages/Microsoft-Windows-3DAudio-HrtfData.md)** </br> | <!-- x64 --> &nbsp;KB | <!-- arm64 --> 6,171&nbsp;KB |
 | | **[User Experience Virtualization](/Removable-Packages/Microsoft-Windows-AppManagement-UEV)** </br> [User Experience Virtualization](/windows/configuration/ue-v/uev-for-windows) | <!-- x64 --> 13,752&nbsp;KB | <!-- arm64 --> ???  &nbsp;KB |
 | | **[Bio Enrollment Experience](/Removable-Packages/Microsoft-Windows-BioEnrollment-UX)** </br> [Windows Hello](/windows-hardware/design/device-experiences/windows-hello) | <!-- x64 --> 3,589&nbsp;KB | <!-- arm64 --> 4,867&nbsp;KB |
