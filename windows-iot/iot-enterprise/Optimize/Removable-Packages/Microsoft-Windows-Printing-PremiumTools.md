@@ -12,9 +12,6 @@ keywords: IoT Enterprise, removable packages, storage
 
 # PrintBRM Command-Line tool
 
-> [!WARNING]
-> THIS IS AN IN-PROGRESS ROUGH DRAFT. The wording and feature list may change before publishing.
-
 Applies to:  
 ✅ Windows 11 IoT Enterprise LTSC 2024  
 ✅ Windows 10 IoT Enterprise LTSC 2021 (19044.1741 or later)  
@@ -22,11 +19,6 @@ Applies to:
 ## Package Description
 
 Package: **Microsoft-Windows-Printing-PremiumTools** </br> Print services migration command-line tool printbrm.exe.
-
-| Release                             |   x64     |    ARM64    |
-|-------------------------------------|:---------:|:-----------:|
-| Windows 11 IoT Enterprise LTSC 2024 | 460 KB    | 397 KB      |
-| Windows 10 IoT Enterprise LTSC 2021 | 381 KB    |             |
 
 ## Package Removal
 
@@ -48,7 +40,16 @@ Package: **Microsoft-Windows-Printing-PremiumTools** </br> Print services migrat
    Dism.exe /Online /Get-FeatureInfo /FeatureName:Microsoft-Windows-Printing-PremiumTools /PackageName:@Package
    ````
 
-## File List
+## Package Details
+
+### Package Size
+
+| Release                             |   x64     |    ARM64    |
+|-------------------------------------|:---------:|:-----------:|
+| Windows 11 IoT Enterprise LTSC 2024 | 460 KB    | 397 KB      |
+| Windows 10 IoT Enterprise LTSC 2021 | 381 KB    |             |
+
+### File List
 
 | File Name | Installed Location |
 |-----------|--------------------|

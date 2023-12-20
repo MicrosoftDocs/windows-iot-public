@@ -12,9 +12,6 @@ keywords: IoT Enterprise, removable packages, storage
 
 # PEAuth
 
-> [!WARNING]
-> THIS IS AN IN-PROGRESS ROUGH DRAFT. The wording and feature list may change before publishing.
-
 Applies to:  
 ✅ Windows 11 IoT Enterprise LTSC 2024  
 ⛔ Windows 10 IoT Enterprise LTSC 2021
@@ -22,11 +19,6 @@ Applies to:
 ## Package Description
 
 Package: **Microsoft-Windows-PEAuth-OneCore** </br> `Add Description Here`
-
-| Release                             |   x64     |    ARM64    |
-|-------------------------------------|:---------:|:-----------:|
-| Windows 11 IoT Enterprise LTSC 2024 | 0 KB      | 0 KB        |
-| Windows 10 IoT Enterprise LTSC 2021 | 0 KB      | 0 KB        |
 
 ## Package Removal
 
@@ -48,7 +40,16 @@ Package: **Microsoft-Windows-PEAuth-OneCore** </br> `Add Description Here`
    Dism.exe /Online /Get-FeatureInfo /FeatureName:Microsoft-Windows-PEAuth-Onecore /PackageName:@Package
    ````
 
-## File List
+## Package Details
+
+### Package Size
+
+| Release                             |   x64     |    ARM64    |
+|-------------------------------------|:---------:|:-----------:|
+| Windows 11 IoT Enterprise LTSC 2024 | 0 KB      | 0 KB        |
+| Windows 10 IoT Enterprise LTSC 2021 | 0 KB      | 0 KB        |
+
+### File List
 
 | File Name | Installed Location |
 |-----------|--------------------|

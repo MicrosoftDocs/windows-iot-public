@@ -12,9 +12,6 @@ keywords: IoT Enterprise, removable packages, storage
 
 # Remote Desktop Services
 
-> [!WARNING]
-> THIS IS AN IN-PROGRESS ROUGH DRAFT. The wording and feature list may change before publishing.
-
 Applies to:  
 ✅ Windows 11 IoT Enterprise LTSC 2024  
 ⛔ Windows 10 IoT Enterprise LTSC 2021
@@ -22,10 +19,6 @@ Applies to:
 ## Package Description
 
 Package: **[Microsoft-OneCore-RemoteDesktopServices-Collaboration** </br>  `Add Description Here`
-
-| Release                             |   x64     |    ARM64    |
-|-------------------------------------|:---------:|:-----------:|
-| Windows 11 IoT Enterprise LTSC 2024 | 1,460 KB  | 2,517 KB    |
 
 ## Package Removal
 
@@ -47,7 +40,15 @@ Package: **[Microsoft-OneCore-RemoteDesktopServices-Collaboration** </br>  `Add 
    Dism.exe /Online /Get-FeatureInfo /FeatureName:Microsoft-OneCore-RemoteDesktopServices-Collaboration /PackageName:@Package
    ````
 
-## File List
+## Package Details
+
+### Package Size
+
+| Release                             |   x64     |    ARM64    |
+|-------------------------------------|:---------:|:-----------:|
+| Windows 11 IoT Enterprise LTSC 2024 | 1,460 KB  | 2,517 KB    |
+
+### File List
 
 | File Name | Installed Location |
 |-----------|--------------------|

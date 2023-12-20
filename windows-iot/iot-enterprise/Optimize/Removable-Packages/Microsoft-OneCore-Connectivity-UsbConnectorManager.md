@@ -12,9 +12,6 @@ keywords: IoT Enterprise, removable packages, storage
 
 # USB Connector Manager
 
-> [!WARNING]
-> THIS IS AN IN-PROGRESS ROUGH DRAFT. The wording and feature list may change before publishing.
-
 Applies to:  
 ✅ Windows 11 IoT Enterprise LTSC 2024  
 ⛔ Windows 10 IoT Enterprise LTSC 2021
@@ -22,11 +19,6 @@ Applies to:
 ## Package Description
 
 Package: **Microsoft-OneCore-Connectivity-UsbConnectorManager** </br> `Add Description Here`
-
-| Release                             |   x64     |    ARM64    |
-|-------------------------------------|:---------:|:-----------:|
-| Windows 11 IoT Enterprise LTSC 2024 | 1,111 KB  | 853 KB      |
-
 
 ## Package Removal
 
@@ -48,7 +40,15 @@ Package: **Microsoft-OneCore-Connectivity-UsbConnectorManager** </br> `Add Descr
    Dism.exe /Online /Get-FeatureInfo /FeatureName:Microsoft-OneCore-Connectivity-UsbConnectorManager /PackageName:@Package
    ````
 
-## File List
+## Package Details
+
+### Package Size
+
+| Release                             |   x64     |    ARM64    |
+|-------------------------------------|:---------:|:-----------:|
+| Windows 11 IoT Enterprise LTSC 2024 | 1,111 KB  | 853 KB      |
+
+### File List
 
 | File Name | Installed Location |
 |-----------|--------------------|

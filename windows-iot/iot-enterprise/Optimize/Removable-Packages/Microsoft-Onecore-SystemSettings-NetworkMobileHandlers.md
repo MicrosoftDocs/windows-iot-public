@@ -1,19 +1,16 @@
 ---
-title: Package - MobilePC Client
+title: Package - Network Mobile Handlers
 author: twarwick
 ms.author: twarwick
-ms.date: 03/30/2023
+ms.date: 12/20/2023
 ms.topic: article
 ms.prod: windows-iot
 ms.technology: iot
-description: Removable Package Details for MobilePC Client
+description: Removable Package Details for Mobile Network Handlers
 keywords: IoT Enterprise, removable packages, storage
 ---
 
-# MobilePC Client
-
-> [!WARNING]
-> THIS IS AN IN-PROGRESS ROUGH DRAFT. The wording and feature list may change before publishing.
+# Mobile Network Handlers
 
 Applies to:  
 ✅ Windows 11 IoT Enterprise LTSC 2024  
@@ -22,10 +19,6 @@ Applies to:
 ## Package Description
 
 Package: **Microsoft-OneCore-SystemSettings-NetworkMobileHandlers** </br>  `Add Description Here`
-
-| Release                             |   x64     |    ARM64    |
-|-------------------------------------|:---------:|:-----------:|
-| Windows 11 IoT Enterprise LTSC 2024 | 3,340 KB | 3,842 KB |
 
 ## Package Removal
 
@@ -47,7 +40,15 @@ Package: **Microsoft-OneCore-SystemSettings-NetworkMobileHandlers** </br>  `Add 
    Dism.exe /Online /Get-FeatureInfo /FeatureName:Microsoft-Windows-MobilePC-Client-Basic /PackageName:@Package
    ````
 
-## File List
+## Package Details
+
+### Package Size
+
+| Release                             |   x64     |    ARM64    |
+|-------------------------------------|:---------:|:-----------:|
+| Windows 11 IoT Enterprise LTSC 2024 | 3,340 KB | 3,842 KB |
+
+### File List
 
 | File Name | Installed Location |
 |-----------|--------------------|

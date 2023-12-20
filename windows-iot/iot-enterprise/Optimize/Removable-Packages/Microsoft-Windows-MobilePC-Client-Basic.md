@@ -2,7 +2,7 @@
 title: Package - MobilePC Client
 author: twarwick
 ms.author: twarwick
-ms.date: 03/30/2023
+ms.date: 12/20/2023
 ms.topic: article
 ms.prod: windows-iot
 ms.technology: iot
@@ -12,9 +12,6 @@ keywords: IoT Enterprise, removable packages, storage
 
 # MobilePC Client
 
-> [!WARNING]
-> THIS IS AN IN-PROGRESS ROUGH DRAFT. The wording and feature list may change before publishing.
-
 Applies to:  
 ✅ Windows 11 IoT Enterprise LTSC 2024  
 ⛔ Windows 10 IoT Enterprise LTSC 2021
@@ -22,10 +19,6 @@ Applies to:
 ## Package Description
 
 Package: **Microsoft-Windows-MobilePC-Client-Basic** </br>  `Add Description Here`
-
-| Release                             |   x64     |    ARM64    |
-|-------------------------------------|:---------:|:-----------:|
-| Windows 11 IoT Enterprise LTSC 2024 | 823 KB    | 797 KB      |
 
 ## Package Removal
 
@@ -47,7 +40,15 @@ Package: **Microsoft-Windows-MobilePC-Client-Basic** </br>  `Add Description Her
    Dism.exe /Online /Get-FeatureInfo /FeatureName:Microsoft-Windows-MobilePC-Client-Basic /PackageName:@Package
    ````
 
-## File List
+## Package Details
+
+### Package Size
+
+| Release                             |   x64     |    ARM64    |
+|-------------------------------------|:---------:|:-----------:|
+| Windows 11 IoT Enterprise LTSC 2024 | 823 KB    | 797 KB      |
+
+### File List
 
 | File Name | Installed Location |
 |-----------|--------------------|

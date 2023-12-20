@@ -12,9 +12,6 @@ keywords: IoT Enterprise, removable packages, storage
 
 # Boot Environment DVD
 
-> [!WARNING]
-> THIS IS AN IN-PROGRESS ROUGH DRAFT. The wording and feature list may change before publishing.
-
 Applies to:  
 ✅ Windows 11 IoT Enterprise LTSC 2024  
 ✅ Windows 10 IoT Enterprise LTSC 2021 (19044.1741 or later)  
@@ -22,11 +19,6 @@ Applies to:
 ## Package Description  
 
 Package: **Microsoft-Windows-BootEnvironment-Dvd** </br> Boot from DVD.
-
-| Release                             |   x64     |    ARM64    |
-|-------------------------------------|:---------:|:-----------:|
-| Windows 11 IoT Enterprise LTSC 2024 | 6,224 KB  | 3,112 KB    |
-| Windows 10 IoT Enterprise LTSC 2021 | 9.108 KB  |             |
 
 ## Package Removal
 
@@ -48,7 +40,16 @@ Package: **Microsoft-Windows-BootEnvironment-Dvd** </br> Boot from DVD.
    Dism.exe /Online /Get-FeatureInfo /FeatureName:Microsoft-Windows-BootEnvironment-Dvd /PackageName:@Package
    ````
 
-## File List
+## Package Details
+
+### Package Size
+
+| Release                             |   x64     |    ARM64    |
+|-------------------------------------|:---------:|:-----------:|
+| Windows 11 IoT Enterprise LTSC 2024 | 6,224 KB  | 3,112 KB    |
+| Windows 10 IoT Enterprise LTSC 2021 | 9.108 KB  |             |
+
+### File List
 
 | File Name | Installed Location |
 |-----------|--------------------|

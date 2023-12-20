@@ -12,9 +12,6 @@ keywords: IoT Enterprise, removable packages, storage
 
 # Windows Media Format
 
-> [!WARNING]
-> THIS IS AN IN-PROGRESS ROUGH DRAFT. The wording and feature list may change before publishing.
-
 Applies to:  
 ✅ Windows 11 IoT Enterprise LTSC 2024  
 ✅ Windows 10 IoT Enterprise LTSC 2021 (19044.1741 or later)  
@@ -22,11 +19,6 @@ Applies to:
 ## Package Description  
 
 Package: **Microsoft-Windows-Media-Format** </br> A component of the [Media Feature Pack](/windows/win32/wmdm/windows-media-device-manager-architecture) comprised of support for [Windows Media Device Manager](/windows/win32/wmdm/windows-media-device-manager-architecture),  [Advanced Systems Format](/windows/win32/wmformat/overview-of-the-asf-format) (ASF) file container, Windows Media audio and video codecs, basic network streaming, and [Digital Rights Management](/windows/win32/wmformat/overview-of-windows-media-drm).
-
-| Release                             |   x64     |    ARM64    |
-|-------------------------------------|:---------:|:-----------:|
-| Windows 11 IoT Enterprise LTSC 2024 | 5,202 KB  | 8,908 KB    |
-| Windows 10 IoT Enterprise LTSC 2021 | 5,559 KB  |             |
 
 ## Package Removal
 
@@ -60,7 +52,16 @@ These packages collectively provide the functionality represented by the [Media 
 - [Microsoft-Windows-WebcamExperience](Microsoft-Windows-WebcamExperience.md)
 - [Microsoft-Windows-WinSATMediaFiles](Microsoft-Windows-WinSATMediaFiles.md)
 
-## File List
+## Package Details
+
+### Package Size
+
+| Release                             |   x64     |    ARM64    |
+|-------------------------------------|:---------:|:-----------:|
+| Windows 11 IoT Enterprise LTSC 2024 | 5,202 KB  | 8,908 KB    |
+| Windows 10 IoT Enterprise LTSC 2021 | 5,559 KB  |             |
+
+### File List
 
 | File Name | Installed Location |
 |-----------|--------------------|

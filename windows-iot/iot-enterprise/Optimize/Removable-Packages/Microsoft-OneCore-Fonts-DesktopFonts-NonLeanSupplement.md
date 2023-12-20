@@ -12,9 +12,6 @@ keywords: IoT Enterprise, removable packages, storage
 
 # Supplemental Fonts
 
-> [!WARNING]
-> THIS IS AN IN-PROGRESS ROUGH DRAFT. The wording and feature list may change before publishing.
-
 Applies to:  
 ✅ Windows 11 IoT Enterprise LTSC 2024  
 ✅ Windows 10 IoT Enterprise LTSC 2021 (19044.1741 or later)  
@@ -22,11 +19,6 @@ Applies to:
 ## Package Description  
 
 Package: **Microsoft-OneCore-Fonts-DesktopFonts-NonLeanSupplement** </br> Fonts: [Malgun Gothic](/typography/font-list/malgun-gothic), [Microsoft JhengHei](/typography/font-list/microsoft-jhenghei), [Microsoft YaHei](/typography/font-list/microsoft-yahei), [Yu Gothic](/typography/font-list/yu-gothic).
-
-| Release                             |   x64      |    ARM64    |
-|-------------------------------------|:----------:|:-----------:|
-| Windows 11 IoT Enterprise LTSC 2024 | 28,383 KB  | 28,383 KB   |
-| Windows 10 IoT Enterprise LTSC 2021 | 113,251 KB |             |
 
 ## Package Removal
 
@@ -48,7 +40,16 @@ Package: **Microsoft-OneCore-Fonts-DesktopFonts-NonLeanSupplement** </br> Fonts:
    Dism.exe /Online /Get-FeatureInfo /FeatureName:Microsoft-Onecore-Fonts-DesktopFonts-NonLeanSupplement /PackageName:@Package
    ````
 
-## File List
+## Package Details
+
+### Package Size
+
+| Release                             |   x64      |    ARM64    |
+|-------------------------------------|:----------:|:-----------:|
+| Windows 11 IoT Enterprise LTSC 2024 | 28,383 KB  | 28,383 KB   |
+| Windows 10 IoT Enterprise LTSC 2021 | 113,251 KB |             |
+
+### File List
 
 | File Name     | Installed Location |
 |---------------|--------------------|

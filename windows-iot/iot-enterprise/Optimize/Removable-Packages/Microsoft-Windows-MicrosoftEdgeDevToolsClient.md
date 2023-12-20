@@ -2,7 +2,7 @@
 title: Package - Microsoft Edge Developer Tools Client
 author: twarwick
 ms.author: twarwick
-ms.date: 03/30/2023
+ms.date: 12/20/2023
 ms.topic: article
 ms.prod: windows-iot
 ms.technology: iot
@@ -12,9 +12,6 @@ keywords: IoT Enterprise, removable packages, storage
 
 # Microsoft Edge Developer Tools Client
 
-> [!WARNING]
-> THIS IS AN IN-PROGRESS ROUGH DRAFT. The wording and feature list may change before publishing.
-
 Applies to:  
 ✅ Windows 11 IoT Enterprise LTSC 2024  
 ⛔ Windows 10 IoT Enterprise LTSC 2021
@@ -22,10 +19,6 @@ Applies to:
 ## Package Description
 
 Package: **Microsoft-Windows-MicrosoftEdgeDevToolsClient** </br>  `Add Description Here`
-
-| Release                             |   x64     |    ARM64    |
-|-------------------------------------|:---------:|:-----------:|
-| Windows 11 IoT Enterprise LTSC 2024 | 10,811 KB | 10,792 KB   |
 
 ## Package Removal
 
@@ -47,7 +40,15 @@ Package: **Microsoft-Windows-MicrosoftEdgeDevToolsClient** </br>  `Add Descripti
    Dism.exe /Online /Get-FeatureInfo /FeatureName:Microsoft-Windows-MicrosoftEdgeDevToolsClient /PackageName:@Package
    ````
 
-## File List
+## Package Details
+
+### Package Size
+
+| Release                             |   x64     |    ARM64    |
+|-------------------------------------|:---------:|:-----------:|
+| Windows 11 IoT Enterprise LTSC 2024 | 10,811 KB | 10,792 KB   |
+
+### File List
 
 | File Name | Installed Location |
 |-----------|--------------------|
@@ -439,7 +440,6 @@ Package: **Microsoft-Windows-MicrosoftEdgeDevToolsClient** </br>  `Add Descripti
 | appxmanifest.xml | %windir%\systemapps\microsoft.microsoftedgedevtoolsclient_8wekyb3d8bbwe\appxmanifest.xml |
 | appxsignature.p7x | %windir%\systemapps\microsoft.microsoftedgedevtoolsclient_8wekyb3d8bbwe\appxsignature.p7x |
 | resources.pri | %windir%\systemapps\microsoft.microsoftedgedevtoolsclient_8wekyb3d8bbwe\resources.pri |
-
 
 ## More Resources
 

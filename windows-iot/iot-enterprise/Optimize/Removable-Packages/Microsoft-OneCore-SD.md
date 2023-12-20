@@ -12,9 +12,6 @@ keywords: IoT Enterprise, removable packages, storage
 
 # SD
 
-> [!WARNING]
-> THIS IS AN IN-PROGRESS ROUGH DRAFT. The wording and feature list may change before publishing.
-
 Applies to:  
 ✅ Windows 11 IoT Enterprise LTSC 2024  
 ⛔ Windows 10 IoT Enterprise LTSC 2021
@@ -22,10 +19,6 @@ Applies to:
 ## Package Description
 
 Package: **Microsoft-OneCore-SD** </br> `Add Description Here`
-
-| Release                             |   x64     |    ARM64    |
-|-------------------------------------|:---------:|:-----------:|
-| Windows 11 IoT Enterprise LTSC 2024 | 928 KB    | 764 KB      |
 
 ## Package Removal
 
@@ -47,7 +40,15 @@ Package: **Microsoft-OneCore-SD** </br> `Add Description Here`
    Dism.exe /Online /Get-FeatureInfo /FeatureName:Microsoft-OneCore-SD /PackageName:@Package
    ````
 
-## File List
+## Package Details
+
+### Package Size
+
+| Release                             |   x64     |    ARM64    |
+|-------------------------------------|:---------:|:-----------:|
+| Windows 11 IoT Enterprise LTSC 2024 | 928 KB    | 764 KB      |
+
+### File List
 
 | File Name | Installed Location |
 |-----------|--------------------|
@@ -58,7 +59,6 @@ Package: **Microsoft-OneCore-SD** </br> `Add Description Here`
 | sdbus.sys | %windir%\system32\drivers\sdbus.sys |
 | sdport.sys | %windir%\system32\drivers\sdport.sys |
 | sdstor.sys | %windir%\system32\drivers\sdstor.sys |
-
 
 ## More Resources
 

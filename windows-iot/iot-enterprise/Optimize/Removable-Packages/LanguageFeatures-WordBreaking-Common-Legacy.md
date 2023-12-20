@@ -12,9 +12,6 @@ keywords: IoT Enterprise, removable packages, storage
 
 # Language Word Breaking Legacy
 
-> [!WARNING]
-> THIS IS AN IN-PROGRESS ROUGH DRAFT. The wording and feature list may change before publishing.
-
 Applies to:  
 ✅ Windows 11 IoT Enterprise LTSC 2024  
 ✅ Windows 10 IoT Enterprise LTSC 2021 (19044.1741 or later)  
@@ -22,11 +19,6 @@ Applies to:
 ## Package Description  
 
 Package: **LanguageFeatures-Wordbreaking-Common-legacy** </br> Legacy neutral word breaker should only be needed in occasional application compatibility scenarios.
-
-| Release                             |   x64     |    ARM64    |
-|-------------------------------------|:---------:|:-----------:|
-| Windows 11 IoT Enterprise LTSC 2024 | 1,568 KB  | 1,765 KB    |
-| Windows 10 IoT Enterprise LTSC 2021 | 1542 KB   |             |
 
 ## Package Removal
 
@@ -48,7 +40,16 @@ Package: **LanguageFeatures-Wordbreaking-Common-legacy** </br> Legacy neutral wo
    Dism.exe /Online /Get-FeatureInfo /FeatureName:LanguageFeatures-WordBreaking-Common-legacy /PackageName:@Package
    ````
 
-## File List
+## Package Details
+
+### Package Size
+
+| Release                             |   x64     |    ARM64    |
+|-------------------------------------|:---------:|:-----------:|
+| Windows 11 IoT Enterprise LTSC 2024 | 1,568 KB  | 1,765 KB    |
+| Windows 10 IoT Enterprise LTSC 2021 | 1542 KB   |             |
+
+### File List
 
 | File Name | Installed Location |
 |-----------|--------------------|

@@ -12,9 +12,6 @@ keywords: IoT Enterprise, removable packages, storage
 
 # windows Media Streaming
 
-> [!WARNING]
-> THIS IS AN IN-PROGRESS ROUGH DRAFT. The wording and feature list may change before publishing.
-
 Applies to:  
 ✅ Windows 11 IoT Enterprise LTSC 2024  
 ✅ Windows 10 IoT Enterprise LTSC 2021 (19044.1741 or later)  
@@ -22,11 +19,6 @@ Applies to:
 ## Package Description
 
 Package: **Microsoft-Windows-Media-Streaming** </br> A component of the [Media Feature Pack](/windows/win32/wmdm/windows-media-device-manager-architecture) providing support for [Windows Media Streaming](/windows/win32/mediastreaming/media-streaming-api-portal).
-
-| Release                             |   x64     |    ARM64    |
-|-------------------------------------|:---------:|:-----------:|
-| Windows 11 IoT Enterprise LTSC 2024 | 7,028 KB  | 10,195 KB   |
-| Windows 10 IoT Enterprise LTSC 2021 | 6,644 KB  |             |
 
 ## Package Removal
 
@@ -60,7 +52,16 @@ These packages collectively provide the functionality represented by the [Media 
 - [Microsoft-Windows-WebcamExperience](Microsoft-Windows-WebcamExperience.md)
 - [Microsoft-Windows-WinSATMediaFiles](Microsoft-Windows-WinSATMediaFiles.md)
 
-## File List
+## Package Details
+
+### Package Size
+
+| Release                             |   x64     |    ARM64    |
+|-------------------------------------|:---------:|:-----------:|
+| Windows 11 IoT Enterprise LTSC 2024 | 7,028 KB  | 10,195 KB   |
+| Windows 10 IoT Enterprise LTSC 2021 | 6,644 KB  |             |
+
+### File List
 
 | File Name                         | Installed Location |
 |-----------------------------------|--------------------|

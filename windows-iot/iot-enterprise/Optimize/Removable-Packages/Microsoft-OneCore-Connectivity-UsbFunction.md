@@ -12,9 +12,6 @@ keywords: IoT Enterprise, removable packages, storage
 
 # USB Function Driver
 
-> [!WARNING]
-> THIS IS AN IN-PROGRESS ROUGH DRAFT. The wording and feature list may change before publishing.
-
 Applies to:  
 ✅ Windows 11 IoT Enterprise LTSC 2024  
 ⛔ Windows 10 IoT Enterprise LTSC 2021
@@ -22,10 +19,6 @@ Applies to:
 ## Package Description
 
 Package: **Microsoft-OneCore-Connectivity-UsbFunction** </br>  `Add Description Here`
-
-| Release                             |   x64     |    ARM64    |
-|-------------------------------------|:---------:|:-----------:|
-| Windows 11 IoT Enterprise LTSC 2024 | 747 KB    | 622 KB      |
 
 ## Package Removal
 
@@ -47,7 +40,15 @@ Package: **Microsoft-OneCore-Connectivity-UsbFunction** </br>  `Add Description 
    Dism.exe /Online /Get-FeatureInfo /FeatureName:Microsoft-OneCore-Connectivity-UsbFunction /PackageName:@Package
    ````
 
-## File List
+## Package Details
+
+### Package Size
+
+| Release                             |   x64     |    ARM64    |
+|-------------------------------------|:---------:|:-----------:|
+| Windows 11 IoT Enterprise LTSC 2024 | 747 KB    | 622 KB      |
+
+### File List
 
 | File Name | Installed Location |
 |-----------|--------------------|
@@ -58,7 +59,6 @@ Package: **Microsoft-OneCore-Connectivity-UsbFunction** </br>  `Add Description 
 | ufx01000.sys | %windir%\system32\drivers\ufx01000.sys |
 | ufxchipidea.sys | %windir%\system32\driverstore\filerepository\ufxchipidea.inf_amd64_1a8f9d49db4bf636\ufxchipidea.sys |
 | ufxsynopsys.sys | %windir%\system32\drivers\ufxsynopsys.sys |
-
 
 ## More Resources
 

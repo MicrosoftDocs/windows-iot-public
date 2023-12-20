@@ -12,9 +12,6 @@ keywords: IoT Enterprise, removable packages, storage
 
 # 3D  Screensavers
 
-> [!WARNING]
-> THIS IS AN IN-PROGRESS ROUGH DRAFT. The wording and feature list may change before publishing.
-
 Applies to:  
 ✅ Windows 11 IoT Enterprise LTSC 2024  
 ✅ Windows 10 IoT Enterprise LTSC 2021 (19044.1741 or later)  
@@ -22,11 +19,6 @@ Applies to:
 ## Package Description
 
 Package: **Microsoft-Windows-ScreenSavers-3D** </br> Screensavers: 3D Text, Bubbles, Mystify and Ribbons.
-
-| Release                             |   x64     |    ARM64    |
-|-------------------------------------|:---------:|:-----------:|
-| Windows 11 IoT Enterprise LTSC 2024 | 1,396 KB  | 1,173 KB    |
-| Windows 10 IoT Enterprise LTSC 2021 | 1,312 KB  |             |
 
 ## Package Removal
 
@@ -48,7 +40,16 @@ Package: **Microsoft-Windows-ScreenSavers-3D** </br> Screensavers: 3D Text, Bubb
    Dism.exe /Online /Get-FeatureInfo /FeatureName:Microsoft-Windows-ScreenSavers-3d /PackageName:@Package
    ````
 
-## File List
+## Package Details
+
+### Package Size
+
+| Release                             |   x64     |    ARM64    |
+|-------------------------------------|:---------:|:-----------:|
+| Windows 11 IoT Enterprise LTSC 2024 | 1,396 KB  | 1,173 KB    |
+| Windows 10 IoT Enterprise LTSC 2021 | 1,312 KB  |             |
+
+### File List
 
 | File Name    | Installed Location |
 |-----------   |--------------------|

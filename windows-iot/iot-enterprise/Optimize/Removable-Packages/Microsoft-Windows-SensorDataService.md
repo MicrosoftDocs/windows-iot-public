@@ -12,9 +12,6 @@ keywords: IoT Enterprise, removable packages, storage
 
 # Sensor Data Service
 
-> [!WARNING]
-> THIS IS AN IN-PROGRESS ROUGH DRAFT. The wording and feature list may change before publishing.
-
 Applies to:  
 ✅ Windows 11 IoT Enterprise LTSC 2024  
 ✅ Windows 10 IoT Enterprise LTSC 2021 (19044.1741 or later)  
@@ -22,11 +19,6 @@ Applies to:
 ## Package Description
 
 Package: **Microsoft-Windows-SensorDataService** </br> Component of the [Media Feature Pack](/windows/win32/wmdm/windows-media-device-manager-architecture) supporting data acquisition from  various sensors.  Supports Windows Hello.
-
-| Release                             |   x64     |    ARM64    |
-|-------------------------------------|:---------:|:-----------:|
-| Windows 11 IoT Enterprise LTSC 2024 | 0 KB      | 0 KB        |
-| Windows 10 IoT Enterprise LTSC 2021 | 1,367 KB  |             |
 
 ## Package Removal
 
@@ -48,7 +40,16 @@ Package: **Microsoft-Windows-SensorDataService** </br> Component of the [Media F
    Dism.exe /Online /Get-FeatureInfo /FeatureName:Microsoft-Windows-SensorDataService /PackageName:@Package
    ````
 
-## File List
+## Package Details
+
+### Package Size
+
+| Release                             |   x64     |    ARM64    |
+|-------------------------------------|:---------:|:-----------:|
+| Windows 11 IoT Enterprise LTSC 2024 | 0 KB      | 0 KB        |
+| Windows 10 IoT Enterprise LTSC 2021 | 1,367 KB  |             |
+
+### File List
 
 | File Name | Installed Location |
 |-----------|--------------------|

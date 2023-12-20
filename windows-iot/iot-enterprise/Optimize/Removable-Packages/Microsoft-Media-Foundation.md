@@ -12,9 +12,6 @@ keywords: IoT Enterprise, removable packages, storage
 
 # Media Foundation
 
-> [!WARNING]
-> THIS IS AN IN-PROGRESS ROUGH DRAFT. The wording and feature list may change before publishing.
-
 Applies to:  
 ✅ Windows 11 IoT Enterprise LTSC 2024  
 ✅ Windows 10 IoT Enterprise LTSC 2021 (19044.1741 or later)  
@@ -22,11 +19,6 @@ Applies to:
 ## Package Description  
 
 Package: **Microsoft-Media-Foundation** </br> Component of the [Media Feature Pack](/windows/win32/wmdm/windows-media-device-manager-architecture) comprised of [Microsoft Media Foundation](/windows/win32/medfound/microsoft-media-foundation-sdk) enables the development of applications and components for using digital media. [Supported Media Formats in Media Foundation](/windows/win32/medfound/supported-media-formats-in-media-foundation).
-
-| Release                             |   x64     |    ARM64    |
-|-------------------------------------|:---------:|:-----------:|
-| Windows 11 IoT Enterprise LTSC 2024 | 56,959 KB | 99,210 KB   |
-| Windows 10 IoT Enterprise LTSC 2021 | 63,747 KB |             |
 
 ## Package Removal
 
@@ -60,7 +52,16 @@ These packages collectively provide the functionality represented by the [Media 
 - [Microsoft-Windows-WebcamExperience](Microsoft-Windows-WebcamExperience.md)
 - [Microsoft-Windows-WinSATMediaFiles](Microsoft-Windows-WinSATMediaFiles.md)
 
-## File List
+## Package Details
+
+### Package Size
+
+| Release                             |   x64     |    ARM64    |
+|-------------------------------------|:---------:|:-----------:|
+| Windows 11 IoT Enterprise LTSC 2024 | 56,959 KB | 99,210 KB   |
+| Windows 10 IoT Enterprise LTSC 2021 | 63,747 KB |             |
+
+### File List
 
 | File Name                 | Installed Location |
 |---------------------------|--------------------|

@@ -1,19 +1,16 @@
 ---
-title: Package - MobilePC Client
+title: Package - Net Profiles UX
 author: twarwick
 ms.author: twarwick
-ms.date: 03/30/2023
+ms.date: 12/20/2023
 ms.topic: article
 ms.prod: windows-iot
 ms.technology: iot
-description: Removable Package Details for MobilePC Client
+description: Removable Package Details for Net Orifukes UX
 keywords: IoT Enterprise, removable packages, storage
 ---
 
-# MobilePC Client
-
-> [!WARNING]
-> THIS IS AN IN-PROGRESS ROUGH DRAFT. The wording and feature list may change before publishing.
+# Net Profiles UX
 
 Applies to:  
 ✅ Windows 11 IoT Enterprise LTSC 2024  
@@ -22,10 +19,6 @@ Applies to:
 ## Package Description
 
 Package: **Microsoft-Windows-NetProfilesUX** </br>  `Add Description Here`
-
-| Release                             |   x64     |    ARM64    |
-|-------------------------------------|:---------:|:-----------:|
-| Windows 11 IoT Enterprise LTSC 2024 | 899 KB    | 1,106 KB    |
 
 ## Package Removal
 
@@ -47,12 +40,20 @@ Package: **Microsoft-Windows-NetProfilesUX** </br>  `Add Description Here`
    Dism.exe /Online /Get-FeatureInfo /FeatureName:Microsoft-Windows-MobilePC-Client-Basic /PackageName:@Package
    ````
 
-## File List
+## Package Details
+
+### Package Size
+
+| Release                             |   x64     |    ARM64    |
+|-------------------------------------|:---------:|:-----------:|
+| Windows 11 IoT Enterprise LTSC 2024 | 899 KB    | 1,106 KB    |
+
+### File List
 
 | File Name | Installed Location |
 |-----------|--------------------|
 | netcenter.dll | %windir%\system32\netcenter.dll |
-| 	netcenter.dll.mun | %windir%\systemresources\netcenter.dll.mun |
+| netcenter.dll.mun | %windir%\systemresources\netcenter.dll.mun |
 
 ## More Resources
 

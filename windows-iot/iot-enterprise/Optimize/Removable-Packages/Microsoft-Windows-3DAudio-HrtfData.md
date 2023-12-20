@@ -12,9 +12,6 @@ keywords: IoT Enterprise, removable packages, storage
 
 # 3D Audion HRTF Data
 
-> [!WARNING]
-> THIS IS AN IN-PROGRESS ROUGH DRAFT. The wording and feature list may change before publishing.
-
 Applies to:  
 ✅ Windows 11 IoT Enterprise LTSC 2024  
 ⛔ Windows 10 IoT Enterprise LTSC 2021
@@ -22,10 +19,6 @@ Applies to:
 ## Package Description
 
 Package: **Microsoft-Windows-3DAudio-HrtfData** </br>  `Add Description Here`
-
-| Release                             |   x64     |    ARM64    |
-|-------------------------------------|:---------:|:-----------:|
-| Windows 11 IoT Enterprise LTSC 2024 | 6,171 KB  | 6,171 KB    |
 
 ## Package Removal
 
@@ -47,7 +40,15 @@ Package: **Microsoft-Windows-3DAudio-HrtfData** </br>  `Add Description Here`
    Dism.exe /Online /Get-FeatureInfo /FeatureName:Microsoft-Windows-3DAudio-HrtfData /PackageName:@Package
    ````
 
-## File List
+## Package Details
+
+### Package Size
+
+| Release                             |   x64     |    ARM64    |
+|-------------------------------------|:---------:|:-----------:|
+| Windows 11 IoT Enterprise LTSC 2024 | 6,171 KB  | 6,171 KB    |
+
+### File List
 
 | File Name | Installed Location |
 |-----------|--------------------|

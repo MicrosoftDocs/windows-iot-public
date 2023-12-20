@@ -12,9 +12,6 @@ keywords: IoT Enterprise, removable packages, storage
 
 # Printer Drivers
 
-> [!WARNING]
-> THIS IS AN IN-PROGRESS ROUGH DRAFT. The wording and feature list may change before publishing.
-
 Applies to:  
 ✅ Windows 11 IoT Enterprise LTSC 2024  
 ✅ Windows 10 IoT Enterprise LTSC 2021 (19044.1741 or later)  
@@ -22,11 +19,6 @@ Applies to:
 ## Package Description
 
 Package: **Microsoft-Windows-Printer-Drivers** </br> Generic / Text Only, Generic IBM Graphics 9pin, Generic IBM Graphics 9-pin wide, MS Publisher Color Printer, MS Publisher Imagesetter, Microsoft Shared Fax Driver.
-
-| Release                             |   x64     |    ARM64    |
-|-------------------------------------|:---------:|:-----------:|
-| Windows 11 IoT Enterprise LTSC 2024 | 8,578 KB  | 94 KB       |
-| Windows 10 IoT Enterprise LTSC 2021 | 8,200 KB  |             |
 
 ## Package Removal
 
@@ -48,7 +40,16 @@ Package: **Microsoft-Windows-Printer-Drivers** </br> Generic / Text Only, Generi
    Dism.exe /Online /Get-FeatureInfo /FeatureName:Microsoft-Windows-Printer-Drivers /PackageName:@Package
    ````
 
-## File List
+## Package Details
+
+### Package Size
+
+| Release                             |   x64     |    ARM64    |
+|-------------------------------------|:---------:|:-----------:|
+| Windows 11 IoT Enterprise LTSC 2024 | 8,578 KB  | 94 KB       |
+| Windows 10 IoT Enterprise LTSC 2021 | 8,200 KB  |             |
+
+### File List
 
 | File Name | Installed Location |
 |-----------|--------------------|

@@ -12,9 +12,6 @@ keywords: IoT Enterprise, removable packages, storage
 
 # Media Features Optional Component
 
-> [!WARNING]
-> THIS IS AN IN-PROGRESS ROUGH DRAFT. The wording and feature list may change before publishing.
-
 Applies to:  
 ✅ Windows 11 IoT Enterprise LTSC 2024  
 ✅ Windows 10 IoT Enterprise LTSC 2021 (19044.1741 or later)  
@@ -22,11 +19,6 @@ Applies to:
 ## Package Description
 
 Package: **Microsoft-Windows-MediaPlayback-OC** </br> Controls availability of the "Media Features" and "Windows Media Player" options for the *Turn Windows features on or off* user experience in Control Panel.
-
-| Release                             |   x64     |    ARM64    |
-|-------------------------------------|:---------:|:-----------:|
-| Windows 11 IoT Enterprise LTSC 2024 | 0 KB      | 0 KB        |
-| Windows 10 IoT Enterprise LTSC 2021 | 0 KB      | 0 KB        |
 
 ## Package Removal
 
@@ -60,7 +52,16 @@ These packages collectively provide the functionality represented by the [Media 
 - [Microsoft-Windows-WebcamExperience](Microsoft-Windows-WebcamExperience.md)
 - [Microsoft-Windows-WinSATMediaFiles](Microsoft-Windows-WinSATMediaFiles.md)
 
-## File List
+## Package Details
+
+### Package Size
+
+| Release                             |   x64     |    ARM64    |
+|-------------------------------------|:---------:|:-----------:|
+| Windows 11 IoT Enterprise LTSC 2024 | 0 KB      | 0 KB        |
+| Windows 10 IoT Enterprise LTSC 2021 | 0 KB      | 0 KB        |
+
+### File List
 
 | File Name | Installed Location |
 |-----------|--------------------|

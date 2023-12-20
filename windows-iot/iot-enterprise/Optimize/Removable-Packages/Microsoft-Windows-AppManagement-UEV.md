@@ -12,9 +12,6 @@ keywords: IoT Enterprise, removable packages, storage
 
 # User Experience Virtualization
 
-> [!WARNING]
-> THIS IS AN IN-PROGRESS ROUGH DRAFT. The wording and feature list may change before publishing.
-
 Applies to:  
 ✅ Windows 11 IoT Enterprise LTSC 2024  
 ✅ Windows 10 IoT Enterprise LTSC 2021 (19044.1741 or later)  
@@ -22,15 +19,6 @@ Applies to:
 ## Package Description  
 
 Package: **Microsoft-Windows-AppManagement-UEV** </br> For a complete description, see [User Experience Virtualization](/windows/configuration/ue-v/uev-for-windows).
-
-| Release                             |   x64     |    ARM64    |
-|-------------------------------------|:---------:|:-----------:|
-| Windows 11 IoT Enterprise LTSC 2024 | 10,801 KB | 0 KB        |
-| Windows 10 IoT Enterprise LTSC 2021 | 13,752 KB |             |
-
-**Package Name:**  
-
-**Size:**  Approximately 13,752 KB
 
 ## Package Removal
 
@@ -52,7 +40,16 @@ Package: **Microsoft-Windows-AppManagement-UEV** </br> For a complete descriptio
    Dism.exe /Online /Get-FeatureInfo /FeatureName:Microsoft-Windows-AppManagement-UEV /PackageName:@Package
    ````
 
-## File List
+## Package Details
+
+### Package Size
+
+| Release                             |   x64     |    ARM64    |
+|-------------------------------------|:---------:|:-----------:|
+| Windows 11 IoT Enterprise LTSC 2024 | 10,801 KB | 0 KB        |
+| Windows 10 IoT Enterprise LTSC 2021 | 13,752 KB |             |
+
+### File List
 
 | File Name | Installed Location |
 |-----------|--------------------|

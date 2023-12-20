@@ -12,9 +12,6 @@ keywords: IoT Enterprise, removable packages, storage
 
 # Defragmentation User Experience
 
-> [!WARNING]
-> THIS IS AN IN-PROGRESS ROUGH DRAFT. The wording and feature list may change before publishing.
-
 Applies to:  
 ✅ Windows 11 IoT Enterprise LTSC 2024  
 ⛔ Windows 10 IoT Enterprise LTSC 2021
@@ -22,10 +19,6 @@ Applies to:
 ## Package Description
 
 Package: **Microsoft-Windows-Defrag-UI** </br>  `Add Description Here`
-
-| Release                             |   x64     |    ARM64    |
-|-------------------------------------|:---------:|:-----------:|
-| Windows 11 IoT Enterprise LTSC 2024 | 604 KB    | 583 KB      |
 
 ## Package Removal
 
@@ -47,7 +40,15 @@ Package: **Microsoft-Windows-Defrag-UI** </br>  `Add Description Here`
    Dism.exe /Online /Get-FeatureInfo /FeatureName:Microsoft-Windows-Defrag-UI /PackageName:@Package
    ````
 
-## File List
+## Package Details
+
+### Package Size
+
+| Release                             |   x64     |    ARM64    |
+|-------------------------------------|:---------:|:-----------:|
+| Windows 11 IoT Enterprise LTSC 2024 | 604 KB    | 583 KB      |
+
+### File List
 
 | File Name | Installed Location |
 |-----------|--------------------|

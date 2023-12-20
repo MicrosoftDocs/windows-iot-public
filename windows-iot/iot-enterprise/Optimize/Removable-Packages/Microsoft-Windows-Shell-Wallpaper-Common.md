@@ -12,9 +12,6 @@ keywords: IoT Enterprise, removable packages, storage
 
 # Desktop Wallpaper
 
-> [!WARNING]
-> THIS IS AN IN-PROGRESS ROUGH DRAFT. The wording and feature list may change before publishing.
-
 Applies to:  
 ✅ Windows 11 IoT Enterprise LTSC 2024  
 ✅ Windows 10 IoT Enterprise LTSC 2021 (19044.1741 or later)  
@@ -22,11 +19,6 @@ Applies to:
 ## Package Description
 
 Package: **Microsoft-Windows-Shell-Wallpaper-Common** </br> Wallpaper images.
-
-| Release                             |   x64     |    ARM64    |
-|-------------------------------------|:---------:|:-----------:|
-| Windows 11 IoT Enterprise LTSC 2024 | 21,493 KB | 21,493 KB   |
-| Windows 10 IoT Enterprise LTSC 2021 | 8,538 KB  |             |
 
 ## Package Removal
 
@@ -48,7 +40,16 @@ Package: **Microsoft-Windows-Shell-Wallpaper-Common** </br> Wallpaper images.
    Dism.exe /Online /Get-FeatureInfo /FeatureName:Microsoft-Windows-Shell-Wallpaper /PackageName:@Package
    ````
 
-## File List
+## Package Details
+
+### Package Size
+
+| Release                             |   x64     |    ARM64    |
+|-------------------------------------|:---------:|:-----------:|
+| Windows 11 IoT Enterprise LTSC 2024 | 21,493 KB | 21,493 KB   |
+| Windows 10 IoT Enterprise LTSC 2021 | 8,538 KB  |             |
+
+### File List
 
 | File Name | Installed Location |
 |-----------|--------------------|

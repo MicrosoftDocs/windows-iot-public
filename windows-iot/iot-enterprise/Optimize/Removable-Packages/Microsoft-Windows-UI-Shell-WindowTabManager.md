@@ -12,9 +12,6 @@ keywords: IoT Enterprise, removable packages, storage
 
 # Window Tab Manager
 
-> [!WARNING]
-> THIS IS AN IN-PROGRESS ROUGH DRAFT. The wording and feature list may change before publishing.
-
 Applies to:  
 ✅ Windows 11 IoT Enterprise LTSC 2024  
 ⛔ Windows 10 IoT Enterprise LTSC 2021
@@ -22,10 +19,6 @@ Applies to:
 ## Package Description
 
 Package: **Microsoft-Windows-UI-Shell-WindowTabManager** </br> `Add Description Here`
-
-| Release                             |   x64     |    ARM64    |
-|-------------------------------------|:---------:|:-----------:|
-| Windows 11 IoT Enterprise LTSC 2024 | 408 KB    | 947 KB      |
 
 ## Package Removal
 
@@ -47,11 +40,19 @@ Package: **Microsoft-Windows-UI-Shell-WindowTabManager** </br> `Add Description 
    Dism.exe /Online /Get-FeatureInfo /FeatureName:Microsoft-Windows-UI-Shell-WindowTabManager /PackageName:@Package
    ````
 
-## File List
+## Package Details
+
+### Package Size
+
+| Release                             |   x64     |    ARM64    |
+|-------------------------------------|:---------:|:-----------:|
+| Windows 11 IoT Enterprise LTSC 2024 | 408 KB    | 947 KB      |
+
+### File List
 
 | File Name | Installed Location |
 |-----------|--------------------|
-| 	windows.internal.ui.shell.windowtabmanager.dll | %windir%\system32\windows.internal.ui.shell.windowtabmanager.dll |
+| windows.internal.ui.shell.windowtabmanager.dll | %windir%\system32\windows.internal.ui.shell.windowtabmanager.dll |
 
 ## More Resources
 

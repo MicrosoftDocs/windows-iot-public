@@ -2,7 +2,7 @@
 title: Package - Camera Barcode Scanner
 author: twarwick
 ms.author: twarwick
-ms.date: 03/30/2023
+ms.date: 12/20/2023
 ms.topic: article
 ms.prod: windows-iot
 ms.technology: iot
@@ -12,9 +12,6 @@ keywords: IoT Enterprise, removable packages, storage
 
 # Camera Barcode Scanner
 
-> [!WARNING]
-> THIS IS AN IN-PROGRESS ROUGH DRAFT. The wording and feature list may change before publishing.
-
 Applies to:  
 ✅ Windows 11 IoT Enterprise LTSC 2024  
 ⛔ Windows 10 IoT Enterprise LTSC 2021
@@ -22,10 +19,6 @@ Applies to:
 ## Package Description
 
 Package: **Microsoft-OneCore-PointOfService-CameraBarcodeScanner** </br>  `Add Description Here`
-
-| Release                             |   x64     |    ARM64    |
-|-------------------------------------|:---------:|:-----------:|
-| Windows 11 IoT Enterprise LTSC 2024 | 4,022 KB  | 4,661 KB    |
 
 ## Package Removal
 
@@ -47,7 +40,15 @@ Package: **Microsoft-OneCore-PointOfService-CameraBarcodeScanner** </br>  `Add D
    Dism.exe /Online /Get-FeatureInfo /FeatureName:Microsoft-OneCore-PointOfService-CameraBarcodeScanner /PackageName:@Package
    ````
 
-## File List
+## Package Details
+
+### Package Size
+
+| Release                             |   x64     |    ARM64    |
+|-------------------------------------|:---------:|:-----------:|
+| Windows 11 IoT Enterprise LTSC 2024 | 4,022 KB  | 4,661 KB    |
+
+### File List
 
 | File Name | Installed Location |
 |-----------|--------------------|
@@ -65,7 +66,6 @@ Package: **Microsoft-OneCore-PointOfService-CameraBarcodeScanner** </br>  `Add D
 | mainpage.xbf | %windir%\systemapps\windows.cbspreview_cw5n1h2txyewy\mainpage.xbf |
 | neutral.pri | %windir%\systemapps\windows.cbspreview_cw5n1h2txyewy\resources.pri |
 | dmrcdecoder.dll | %windir%\system32\dmrcdecoder.dll |
-
 
 ## More Resources
 
