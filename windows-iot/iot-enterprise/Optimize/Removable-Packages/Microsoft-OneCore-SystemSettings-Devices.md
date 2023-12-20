@@ -15,17 +15,17 @@ keywords: IoT Enterprise, removable packages, storage
 > [!WARNING]
 > THIS IS AN IN-PROGRESS ROUGH DRAFT. The wording and feature list may change before publishing.
 
-| Applies to   |  Version            |
-|:-------------|:--------------------|
-| Windows 11 IoT Enterprise LTSC 2024 | |
+Applies to:  
+✅ Windows 11 IoT Enterprise LTSC 2024  
+⛔ Windows 10 IoT Enterprise LTSC 2021
 
-## Description
+## Package Description
 
-<fill in the blank>
+Package: **Microsoft-OneCore-SystemSettings-Devices** </br>  `Add Description Here`
 
-| Package Name | LTSC&nbsp;2021 | LTSC&nbsp;2024  |
-|--------------|---------------:|----------------:|
-| `Microsoft-OneCore-SystemSettings-Devices`  | TBD | TBD |
+| Release                             |   x64     |    ARM64    |
+|-------------------------------------|:---------:|:-----------:|
+| Windows 11 IoT Enterprise LTSC 2024 | 824 KB    | 980 KB      |
 
 ## Package Removal
 
@@ -51,7 +51,7 @@ keywords: IoT Enterprise, removable packages, storage
 
 | File Name | Installed Location |
 |-----------|--------------------|
-| <fill in the blank>| <fill in the blank>  |
+| settingshandlers_devices.dll | %windir%\system32\settingshandlers_devices.dll  |
 
 ## More Resources
 

@@ -15,18 +15,18 @@ keywords: IoT Enterprise, removable packages, storage
 > [!WARNING]
 > THIS IS AN IN-PROGRESS ROUGH DRAFT. The wording and feature list may change before publishing.
 
-| Applies to   |  Version            |
-|:-------------|:--------------------|
-| Windows 10 IoT Enterprise LTSC 2021 | 19044.1741 or later |
-| Windows 11 IoT Enterprise LTSC 2024 | |
+Applies to:  
+✅ Windows 11 IoT Enterprise LTSC 2024  
+✅ Windows 10 IoT Enterprise LTSC 2021 (19044.1741 or later)  
 
-## Description
+## Package Description
 
-A component of the [Media Feature Pack](/windows/win32/wmdm/windows-media-device-manager-architecture) providing connectivity to portable devices for [Windows Media Device Manager](/windows/win32/wmdm/windows-media-device-manager-architecture).
+Package: **Microsoft-Windows-Portable-Devices** </br> A component of the [Media Feature Pack](/windows/win32/wmdm/windows-media-device-manager-architecture) providing connectivity to portable devices for [Windows Media Device Manager](/windows/win32/wmdm/windows-media-device-manager-architecture).
 
-| Package Name | LTSC&nbsp;2021 | LTSC&nbsp;2024  |
-|--------------|---------------:|----------------:|
-| `Microsoft-Windows-Portable-Devices`  | 6,405&nbsp;KB | TBD |
+| Release                             |   x64     |    ARM64    |
+|-------------------------------------|:---------:|:-----------:|
+| Windows 11 IoT Enterprise LTSC 2024 | 6,830 KB  | 7,979 KB    |
+| Windows 10 IoT Enterprise LTSC 2021 | 6,405 KB  |             |
 
 ## Package Removal
 

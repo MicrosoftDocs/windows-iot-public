@@ -15,18 +15,18 @@ keywords: IoT Enterprise, removable packages, storage
 > [!WARNING]
 > THIS IS AN IN-PROGRESS ROUGH DRAFT. The wording and feature list may change before publishing.
 
-| Applies to   |  Version            |
-|:-------------|:--------------------|
-| Windows 10 IoT Enterprise LTSC 2021 | 19044.1741 or later |
-| Windows 11 IoT Enterprise LTSC 2024 | |
+Applies to:  
+✅ Windows 11 IoT Enterprise LTSC 2024  
+✅ Windows 10 IoT Enterprise LTSC 2021 (19044.1741 or later)  
 
-## Description
+## Package Description
 
-Modern Calculator, Character Map, More Icons DLL
+Package: **Microsoft-Windows-ShellOptions** </br> Modern Calculator, Character Map, More Icons DLL.
 
-| Package Name | LTSC&nbsp;2021 | LTSC&nbsp;2024  |
-|--------------|---------------:|----------------:|
-| `Microsoft-Windows-ShellOptions`  | 657&nbsp;KB | TBD |
+| Release                             |   x64     |    ARM64    |
+|-------------------------------------|:---------:|:-----------:|
+| Windows 11 IoT Enterprise LTSC 2024 | 787 KB    | 745 KB      |
+| Windows 10 IoT Enterprise LTSC 2021 | 657 KB    |             |
 
 ## Package Removal
 

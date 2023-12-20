@@ -15,18 +15,17 @@ keywords: IoT Enterprise, removable packages, storage
 > [!WARNING]
 > THIS IS AN IN-PROGRESS ROUGH DRAFT. The wording and feature list may change before publishing.
 
-| Applies to   |  Version            |
-|:-------------|:--------------------|
-| Windows 11 IoT Enterprise LTSC 2024 | |
+Applies to:  
+✅ Windows 11 IoT Enterprise LTSC 2024  
+⛔ Windows 10 IoT Enterprise LTSC 2021
 
+## Package Description
 
-## Description
+Package: **Microsoft-OneCore-SD** </br> `Add Description Here`
 
-<fill in the blank>
-
-| Package Name | LTSC&nbsp;2021 | LTSC&nbsp;2024  |
-|--------------|---------------:|----------------:|
-| `Microsoft-OneCore-SD`  | TBD | TBD |
+| Release                             |   x64     |    ARM64    |
+|-------------------------------------|:---------:|:-----------:|
+| Windows 11 IoT Enterprise LTSC 2024 | 928 KB    | 764 KB      |
 
 ## Package Removal
 
@@ -52,7 +51,14 @@ keywords: IoT Enterprise, removable packages, storage
 
 | File Name | Installed Location |
 |-----------|--------------------|
-| <fill in the blank>| <fill in the blank>  |
+| sdbus.inf | %windir%\system32\driverstore\filerepository\sdbus.inf_amd64_3ef198d9aa8cd1aa\sdbus.inf |
+| sdstor.inf | %windir%\system32\driverstore\filerepository\sdstor.inf_amd64_37a216051ca61bf2\sdstor.inf |
+| dumpsd.sys | %windir%\system32\drivers\dumpsd.sys |
+| dumpsdport.sys | %windir%\system32\drivers\dumpsdport.sys |
+| sdbus.sys | %windir%\system32\drivers\sdbus.sys |
+| sdport.sys | %windir%\system32\drivers\sdport.sys |
+| sdstor.sys | %windir%\system32\drivers\sdstor.sys |
+
 
 ## More Resources
 

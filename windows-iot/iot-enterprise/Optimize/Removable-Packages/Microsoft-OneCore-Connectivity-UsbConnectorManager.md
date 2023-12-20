@@ -15,17 +15,18 @@ keywords: IoT Enterprise, removable packages, storage
 > [!WARNING]
 > THIS IS AN IN-PROGRESS ROUGH DRAFT. The wording and feature list may change before publishing.
 
-| Applies to   |  Version            |
-|:-------------|:--------------------|
-| Windows 11 IoT Enterprise LTSC 2024 | |
+Applies to:  
+✅ Windows 11 IoT Enterprise LTSC 2024  
+⛔ Windows 10 IoT Enterprise LTSC 2021
 
-## Description
+## Package Description
 
-<fill in the blank>
+Package: **Microsoft-OneCore-Connectivity-UsbConnectorManager** </br> `Add Description Here`
 
-| Package Name | LTSC&nbsp;2021 | LTSC&nbsp;2024  |
-|--------------|---------------:|----------------:|
-| `Microsoft-OneCore-Connectivity-UsbConnectorManager`  | TBD | TBD |
+| Release                             |   x64     |    ARM64    |
+|-------------------------------------|:---------:|:-----------:|
+| Windows 11 IoT Enterprise LTSC 2024 | 1,111 KB  | 853 KB      |
+
 
 ## Package Removal
 
@@ -51,7 +52,15 @@ keywords: IoT Enterprise, removable packages, storage
 
 | File Name | Installed Location |
 |-----------|--------------------|
-| <fill in the blank>| <fill in the blank>  |
+| ucmucsiacpiclient.inf | %windir%\system32\driverstore\filerepository\ucmucsiacpiclient.inf_amd64_ec9b4186b56641aa\ucmucsiacpiclient.inf |
+| ucmcx.dll | %windir%\system32\drivers\umdf\ucmcx.dll |
+| ucmcx.sys | %windir%\system32\drivers\ucmcx.sys |
+| usbcapi.dll | %windir%\system32\usbcapi.dll |
+| usbpmapi.dll | %windir%\system32\usbpmapi.dll |
+| usbpmapi.sys | %windir%\system32\drivers\usbpmapi.sys |
+| ucmtcpcicx.sys | %windir%\system32\drivers\ucmtcpcicx.sys |
+| ucmucsiacpiclient.sys | %windir%\system32\drivers\ucmucsiacpiclient.sys |
+| ucmucsicx.sys | %windir%\system32\drivers\ucmucsicx.sys |
 
 ## More Resources
 

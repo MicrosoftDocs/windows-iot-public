@@ -15,17 +15,17 @@ keywords: IoT Enterprise, removable packages, storage
 > [!WARNING]
 > THIS IS AN IN-PROGRESS ROUGH DRAFT. The wording and feature list may change before publishing.
 
-| Applies to   |  Version            |
-|:-------------|:--------------------|
-| Windows 11 IoT Enterprise LTSC 2024 | |
+Applies to:  
+✅ Windows 11 IoT Enterprise LTSC 2024  
+⛔ Windows 10 IoT Enterprise LTSC 2021
 
-## Description
+## Package Description
 
-<fill in the blank>
+Package: **Microsoft-Windows-3DAudio-HrtfData** </br>  `Add Description Here`
 
-| Package Name | LTSC&nbsp;2021 | LTSC&nbsp;2024  |
-|--------------|---------------:|----------------:|
-| `Microsoft-Windows-3DAudio-HrtfData`  | TBD | TBD |
+| Release                             |   x64     |    ARM64    |
+|-------------------------------------|:---------:|:-----------:|
+| Windows 11 IoT Enterprise LTSC 2024 | 6,171 KB  | 6,171 KB    |
 
 ## Package Removal
 
@@ -51,7 +51,15 @@ keywords: IoT Enterprise, removable packages, storage
 
 | File Name | Installed Location |
 |-----------|--------------------|
-| <fill in the blank>| <fill in the blank>  |
+| averageroom.bin | %windir%\system32\averageroom.bin |
+| baselinehrtfs.bin | %windir%\system32\defaulthrtfs.bin |
+| dynamiclong.bin | %windir%\system32\dynamiclong.bin |
+| dynamicmedium.bin | %windir%\system32\dynamicmedium.bin |
+| dynamicshort.bin | %windir%\system32\dynamicshort.bin |
+| largeroom.bin | %windir%\system32\largeroom.bin |
+| mediumroom.bin | %windir%\system32\mediumroom.bin |
+| outdooraudioenvironment.bin | %windir%\system32\outdooraudioenvironment.bin |
+| smallroom.bin | %windir%\system32\smallroom.bin |
 
 ## More Resources
 

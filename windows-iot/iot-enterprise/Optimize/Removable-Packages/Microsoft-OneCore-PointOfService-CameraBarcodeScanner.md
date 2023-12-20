@@ -15,17 +15,17 @@ keywords: IoT Enterprise, removable packages, storage
 > [!WARNING]
 > THIS IS AN IN-PROGRESS ROUGH DRAFT. The wording and feature list may change before publishing.
 
-| Applies to   |  Version            |
-|:-------------|:--------------------|
-| Windows 11 IoT Enterprise LTSC 2024 | |
+Applies to:  
+✅ Windows 11 IoT Enterprise LTSC 2024  
+⛔ Windows 10 IoT Enterprise LTSC 2021
 
-## Description
+## Package Description
 
-<fill in the blank>
+Package: **Microsoft-OneCore-PointOfService-CameraBarcodeScanner** </br>  `Add Description Here`
 
-| Package Name | LTSC&nbsp;2021 | LTSC&nbsp;2024  |
-|--------------|---------------:|----------------:|
-| `Microsoft-OneCore-PointOfService-CameraBarcodeScanner`  | TBD | TBD |
+| Release                             |   x64     |    ARM64    |
+|-------------------------------------|:---------:|:-----------:|
+| Windows 11 IoT Enterprise LTSC 2024 | 4,022 KB  | 4,661 KB    |
 
 ## Package Removal
 
@@ -51,7 +51,21 @@ keywords: IoT Enterprise, removable packages, storage
 
 | File Name | Installed Location |
 |-----------|--------------------|
-| <fill in the blank>| <fill in the blank>  |
+| camerabarcodescannerpreview.exe | %windir%\systemapps\windows.cbspreview_cw5n1h2txyewy\camerabarcodescannerpreview.exe |
+| app.xbf | %windir%\systemapps\windows.cbspreview_cw5n1h2txyewy\app.xbf |
+| appxblockmap.xml | %windir%\systemapps\windows.cbspreview_cw5n1h2txyewy\appxblockmap.xml |
+| appxmanifest.xml | %windir%\systemapps\windows.cbspreview_cw5n1h2txyewy\appxmanifest.xml |
+| appxsignature.p7x | %windir%\systemapps\windows.cbspreview_cw5n1h2txyewy\appxsignature.p7x |
+| assets\digimarc-logo.png | %windir%\systemapps\windows.cbspreview_cw5n1h2txyewy\assets\digimarc-logo.png |
+| assets\splashscreen.png | %windir%\systemapps\windows.cbspreview_cw5n1h2txyewy\assets\splashscreen.png |
+| assets\square150x150logo.png | %windir%\systemapps\windows.cbspreview_cw5n1h2txyewy\assets\square150x150logo.png |
+| assets\square44x44logo.png | %windir%\systemapps\windows.cbspreview_cw5n1h2txyewy\assets\square44x44logo.png |
+| assets\storelogo.png | %windir%\systemapps\windows.cbspreview_cw5n1h2txyewy\assets\storelogo.png |
+| assets\wide310x150logo.png | %windir%\systemapps\windows.cbspreview_cw5n1h2txyewy\assets\wide310x150logo.png |
+| mainpage.xbf | %windir%\systemapps\windows.cbspreview_cw5n1h2txyewy\mainpage.xbf |
+| neutral.pri | %windir%\systemapps\windows.cbspreview_cw5n1h2txyewy\resources.pri |
+| dmrcdecoder.dll | %windir%\system32\dmrcdecoder.dll |
+
 
 ## More Resources
 

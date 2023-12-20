@@ -15,17 +15,18 @@ keywords: IoT Enterprise, removable packages, storage
 > [!WARNING]
 > THIS IS AN IN-PROGRESS ROUGH DRAFT. The wording and feature list may change before publishing.
 
-| Applies to   |  Version            |
-|:-------------|:--------------------|
-| Windows 11 IoT Enterprise LTSC 2024 | |
+Applies to:  
+✅ Windows 11 IoT Enterprise LTSC 2024  
+⛔ Windows 10 IoT Enterprise LTSC 2021
 
-## Description
+## Package Description
 
-<fill in the blank>
+Package: **Microsoft-Windows-PEAuth-OneCore** </br> `Add Description Here`
 
-| Package Name | LTSC&nbsp;2021 | LTSC&nbsp;2024  |
-|--------------|---------------:|----------------:|
-| `Microsoft-Windows-PEAuth-Onecore` | TBD | TBD |
+| Release                             |   x64     |    ARM64    |
+|-------------------------------------|:---------:|:-----------:|
+| Windows 11 IoT Enterprise LTSC 2024 | 0 KB      | 0 KB        |
+| Windows 10 IoT Enterprise LTSC 2021 | 0 KB      | 0 KB        |
 
 ## Package Removal
 
@@ -51,7 +52,7 @@ keywords: IoT Enterprise, removable packages, storage
 
 | File Name | Installed Location |
 |-----------|--------------------|
-| <fill in the blank>| <fill in the blank>  |
+| peauth.sys | %windir%\system32\drivers\peauth.sys |
 
 ## More Resources
 

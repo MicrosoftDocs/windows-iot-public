@@ -15,18 +15,18 @@ keywords: IoT Enterprise, removable packages, storage
 > [!WARNING]
 > THIS IS AN IN-PROGRESS ROUGH DRAFT. The wording and feature list may change before publishing.
 
-| Applies to   |  Version            |
-|:-------------|:--------------------|
-| Windows 10 IoT Enterprise LTSC 2021 | 19044.1741 or later |
-| Windows 11 IoT Enterprise LTSC 2024 | |
+Applies to:  
+✅ Windows 11 IoT Enterprise LTSC 2024  
+✅ Windows 10 IoT Enterprise LTSC 2021 (19044.1741 or later)  
 
-## Description  
+## Package Description  
 
-This package enables **Boot from DVD** functionality in Windows.
+Package: **Microsoft-Windows-BootEnvironment-Dvd** </br> Boot from DVD.
 
-| Package Name | LTSC&nbsp;2021 | LTSC&nbsp;2024  |
-|--------------|---------------:|----------------:|
-| `Microsoft-Windows-BootEnvironment-Dvd`  | 9,108&nbsp;KB | TBD |
+| Release                             |   x64     |    ARM64    |
+|-------------------------------------|:---------:|:-----------:|
+| Windows 11 IoT Enterprise LTSC 2024 | 6,224 KB  | 3,112 KB    |
+| Windows 10 IoT Enterprise LTSC 2021 | 9.108 KB  |             |
 
 ## Package Removal
 

@@ -15,17 +15,17 @@ keywords: IoT Enterprise, removable packages, storage
 > [!WARNING]
 > THIS IS AN IN-PROGRESS ROUGH DRAFT. The wording and feature list may change before publishing.
 
-| Applies to   |  Version            |
-|:-------------|:--------------------|
-| Windows 11 IoT Enterprise LTSC 2024 | |
+Applies to:  
+✅ Windows 11 IoT Enterprise LTSC 2024  
+⛔ Windows 10 IoT Enterprise LTSC 2021
 
-## Description
+## Package Description
 
-<fill in the blank>
+Package: **Microsoft-Windows-Defrag-UI** </br>  `Add Description Here`
 
-| Package Name | LTSC&nbsp;2021 | LTSC&nbsp;2024  |
-|--------------|---------------:|----------------:|
-| `Microsoft-Windows-Defrag-UI` | TBD | TBD |
+| Release                             |   x64     |    ARM64    |
+|-------------------------------------|:---------:|:-----------:|
+| Windows 11 IoT Enterprise LTSC 2024 | 604 KB    | 583 KB      |
 
 ## Package Removal
 
@@ -51,7 +51,9 @@ keywords: IoT Enterprise, removable packages, storage
 
 | File Name | Installed Location |
 |-----------|--------------------|
-| <fill in the blank>| <fill in the blank>  |
+| dfrgui.exe | %windir%\system32\dfrgui.exe |
+| dfrgui.exe.mun | %windir%\systemresources\dfrgui.exe.mun |
+| dfrgui.lnk | %programdata%\microsoft\windows\start menu\programs\administrative tools\dfrgui.lnk |
 
 ## More Resources
 

@@ -15,18 +15,17 @@ keywords: IoT Enterprise, removable packages, storage
 > [!WARNING]
 > THIS IS AN IN-PROGRESS ROUGH DRAFT. The wording and feature list may change before publishing.
 
-| Applies to   |  Version            |
-|:-------------|:--------------------|
-| Windows 11 IoT Enterprise LTSC 2024 | |
+Applies to:  
+✅ Windows 11 IoT Enterprise LTSC 2024  
+⛔ Windows 10 IoT Enterprise LTSC 2021
 
+## Package Description
 
-## Description
+Package: **Microsoft-OneCore-Connectivity-UsbFunction** </br>  `Add Description Here`
 
-<fill in the blank>
-
-| Package Name | LTSC&nbsp;2021 | LTSC&nbsp;2024  |
-|--------------|---------------:|----------------:|
-| `Microsoft-OneCore-Connectivity-UsbFunction`  | TBD | TBD |
+| Release                             |   x64     |    ARM64    |
+|-------------------------------------|:---------:|:-----------:|
+| Windows 11 IoT Enterprise LTSC 2024 | 747 KB    | 622 KB      |
 
 ## Package Removal
 
@@ -52,7 +51,14 @@ keywords: IoT Enterprise, removable packages, storage
 
 | File Name | Installed Location |
 |-----------|--------------------|
-| <fill in the blank>| <fill in the blank>  |
+| genericusbfn.inf | %windir%\system32\driverstore\filerepository\genericusbfn.inf_amd64_253b6957ba775622\genericusbfn.inf |
+| ufxchipidea.inf | %windir%\system32\driverstore\filerepository\ufxchipidea.inf_amd64_1a8f9d49db4bf636\ufxchipidea.inf |
+| ufxsynopsys.inf | %windir%\system32\driverstore\filerepository\ufxsynopsys.inf_amd64_4ed1fada2f2925e8\ufxsynopsys.inf |
+| genericusbfn.sys | %windir%\system32\driverstore\filerepository\genericusbfn.inf_amd64_253b6957ba775622\genericusbfn.sys |
+| ufx01000.sys | %windir%\system32\drivers\ufx01000.sys |
+| ufxchipidea.sys | %windir%\system32\driverstore\filerepository\ufxchipidea.inf_amd64_1a8f9d49db4bf636\ufxchipidea.sys |
+| ufxsynopsys.sys | %windir%\system32\drivers\ufxsynopsys.sys |
+
 
 ## More Resources
 

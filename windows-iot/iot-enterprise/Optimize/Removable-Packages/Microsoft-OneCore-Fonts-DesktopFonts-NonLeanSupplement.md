@@ -15,18 +15,18 @@ keywords: IoT Enterprise, removable packages, storage
 > [!WARNING]
 > THIS IS AN IN-PROGRESS ROUGH DRAFT. The wording and feature list may change before publishing.
 
-| Applies to   |  Version            |
-|:-------------|:--------------------|
-| Windows 10 IoT Enterprise LTSC 2021 | 19044.1741 or later |
-| Windows 11 IoT Enterprise LTSC 2024 | |
+Applies to:  
+✅ Windows 11 IoT Enterprise LTSC 2024  
+✅ Windows 10 IoT Enterprise LTSC 2021 (19044.1741 or later)  
 
-## Description  
+## Package Description  
 
-Fonts: [Malgun Gothic](/typography/font-list/malgun-gothic), [Microsoft JhengHei](/typography/font-list/microsoft-jhenghei), [Microsoft YaHei](/typography/font-list/microsoft-yahei), [Yu Gothic](/typography/font-list/yu-gothic)
+Package: **Microsoft-OneCore-Fonts-DesktopFonts-NonLeanSupplement** </br> Fonts: [Malgun Gothic](/typography/font-list/malgun-gothic), [Microsoft JhengHei](/typography/font-list/microsoft-jhenghei), [Microsoft YaHei](/typography/font-list/microsoft-yahei), [Yu Gothic](/typography/font-list/yu-gothic).
 
-| Package Name | LTSC&nbsp;2021 | LTSC&nbsp;2024  |
-|--------------|---------------:|----------------:|
-| `Microsoft-Onecore-Fonts-DesktopFonts-NonLeanSupplement` | 113,251&nbsp;KB   | TBD |
+| Release                             |   x64      |    ARM64    |
+|-------------------------------------|:----------:|:-----------:|
+| Windows 11 IoT Enterprise LTSC 2024 | 28,383 KB  | 28,383 KB   |
+| Windows 10 IoT Enterprise LTSC 2021 | 113,251 KB |             |
 
 ## Package Removal
 
@@ -52,15 +52,15 @@ Fonts: [Malgun Gothic](/typography/font-list/malgun-gothic), [Microsoft JhengHei
 
 | File Name     | Installed Location |
 |---------------|--------------------|
-| malgunbd.ttf  | %windir%\fonts\malgunbd.ttf |
-| malgunsl.ttf  | %windir%\fonts\malgunsl.ttf |
-| msjhbd.ttc    | %windir%\fonts\msjhbd.ttc |
-| msjhl.ttc     | %windir%\fonts\msjhl.ttc  |
-| msyhbd.ttc    | %windir%\fonts\msyhbd.ttc |
-| msyhl.ttc     | %windir%\fonts\msyhl.ttc  |
-| yugothb.ttc   | %windir%\fonts\yugothb.ttc  |
-| yugothl.ttc   | %windir%\fonts\yugothl.ttc |
-| yugothr.ttc   | %windir%\fonts\yugothr.ttc |
+| malgunbd.ttf | %windir%\fonts\malgunbd.ttf |
+| malgunsl.ttf | %windir%\fonts\malgunsl.ttf |
+| msjhbd.ttc | %windir%\fonts\msjhbd.ttc |
+| msjhl.ttc | %windir%\fonts\msjhl.ttc  |
+| msyhbd.ttc | %windir%\fonts\msyhbd.ttc |
+| msyhl.ttc | %windir%\fonts\msyhl.ttc  |
+| yugothb.ttc | %windir%\fonts\yugothb.ttc  |
+| yugothl.ttc | %windir%\fonts\yugothl.ttc |
+| yugothr.ttc | %windir%\fonts\yugothr.ttc |
 
 ## More Resources
 

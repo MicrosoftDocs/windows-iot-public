@@ -15,18 +15,18 @@ keywords: IoT Enterprise, removable packages, storage
 > [!WARNING]
 > THIS IS AN IN-PROGRESS ROUGH DRAFT. The wording and feature list may change before publishing.
 
-| Applies to   |  Version            |
-|:-------------|:--------------------|
-| Windows 10 IoT Enterprise LTSC 2021 | 19044.1741 or later |
-| Windows 11 IoT Enterprise LTSC 2024 | |
+Applies to:  
+✅ Windows 11 IoT Enterprise LTSC 2024  
+✅ Windows 10 IoT Enterprise LTSC 2021 (19044.1741 or later)  
 
-## Description
+## Package Description
 
-Wallpaper images
+Package: **Microsoft-Windows-Shell-Wallpaper-Common** </br> Wallpaper images.
 
-| Package Name | LTSC&nbsp;2021 | LTSC&nbsp;2024  |
-|--------------|---------------:|----------------:|
-| `Microsoft-Windows-Shell-Wallpaper`  | 8,538&nbsp;KB | TBD |
+| Release                             |   x64     |    ARM64    |
+|-------------------------------------|:---------:|:-----------:|
+| Windows 11 IoT Enterprise LTSC 2024 | 21,493 KB | 21,493 KB   |
+| Windows 10 IoT Enterprise LTSC 2021 | 8,538 KB  |             |
 
 ## Package Removal
 
@@ -52,29 +52,32 @@ Wallpaper images
 
 | File Name | Installed Location |
 |-----------|--------------------|
-| img0_1024x768.jpg  | %windir%\web\4k\wallpaper\windows\img0_1024x768.jpg |
-| img0_1200x1920.jpg | %windir%\web\4k\wallpaper\windows\img0_1200x1920.jpg |
-| img0_1366x768.jpg  | %windir%\web\4k\wallpaper\windows\img0_1366x768.jpg |
-| img0_1600x2560.jpg | %windir%\web\4k\wallpaper\windows\img0_1600x2560.jpg |
-| img0_2160x3840.jpg | %windir%\web\4k\wallpaper\windows\img0_2160x3840.jpg |
-| img0_2560x1600.jpg | %windir%\web\4k\wallpaper\windows\img0_2560x1600.jpg |
-| img0_3840x2160.jpg | %windir%\web\4k\wallpaper\windows\img0_3840x2160.jpg |
-| img0_768x1024.jpg  | %windir%\web\4k\wallpaper\windows\img0_768x1024.jpg |
-| img0_768x1366.jpg  | %windir%\web\4k\wallpaper\windows\img0_768x1366.jpg |
-| desktop.ini        | %windir%\web\wallpaper\theme1\desktop.ini |
-| img1.jpg           | %windir%\web\wallpaper\theme1\img1.jpg |
-| img13.jpg          | %windir%\web\wallpaper\theme1\img13.jpg |
-| img2.jpg           | %windir%\web\wallpaper\theme1\img2.jpg |
-| img3.jpg           | %windir%\web\wallpaper\theme1\img3.jpg |
-| img4.jpg           | %windir%\web\wallpaper\theme1\img4.jpg |
-| desktop.ini        | %windir%\web\wallpaper\theme2\desktop.ini |
-| img10.jpg          | %windir%\web\wallpaper\theme2\img10.jpg |
-| img11.jpg          | %windir%\web\wallpaper\theme2\img11.jpg |
-| img12.jpg          | %windir%\web\wallpaper\theme2\img12.jpg |
-| img7.jpg           | %windir%\web\wallpaper\theme2\img7.jpg |
-| img8.jpg           | %windir%\web\wallpaper\theme2\img8.jpg |
-| img9.jpg           | %windir%\web\wallpaper\theme2\img9.jpg |
-| img0.jpg           | %windir%\web\wallpaper\windows\img0.jpg |
+img0.jpg | %windir%\web\wallpaper\windows\img0.jpg |
+| img0_1920x1200.jpg | %windir%\web\4k\wallpaper\windows\img0_1920x1200.jpg |
+| img14.jpg | %windir%\web\wallpaper\spotlight\img14.jpg |
+| img19.jpg | %windir%\web\wallpaper\windows\img19.jpg |
+| img19_1920x1200.jpg | %windir%\web\4k\wallpaper\windows\img19_1920x1200.jpg |
+| img20.jpg | %windir%\web\wallpaper\themea\img20.jpg |
+| img21.jpg | %windir%\web\wallpaper\themea\img21.jpg |
+| img22.jpg | %windir%\web\wallpaper\themea\img22.jpg |
+| img23.jpg | %windir%\web\wallpaper\themea\img23.jpg |
+| img24.jpg | %windir%\web\wallpaper\themeb\img24.jpg |
+| img25.jpg | %windir%\web\wallpaper\themeb\img25.jpg |
+| img26.jpg | %windir%\web\wallpaper\themeb\img26.jpg |
+| img27.jpg | %windir%\web\wallpaper\themeb\img27.jpg |
+| img28.jpg | %windir%\web\wallpaper\themec\img28.jpg |
+| img29.jpg | %windir%\web\wallpaper\themec\img29.jpg |
+| img30.jpg | %windir%\web\wallpaper\themec\img30.jpg |
+| img31.jpg | %windir%\web\wallpaper\themec\img31.jpg |
+| img32.jpg | %windir%\web\wallpaper\themed\img32.jpg |
+| img33.jpg | %windir%\web\wallpaper\themed\img33.jpg |
+| img34.jpg | %windir%\web\wallpaper\themed\img34.jpg |
+| img35.jpg | %windir%\web\wallpaper\themed\img35.jpg |
+| img50.jpg | %windir%\web\wallpaper\spotlight\img50.jpg |
+| themea.ini | %windir%\web\wallpaper\themea\desktop.ini |
+| themeb.ini | %windir%\web\wallpaper\themeb\desktop.ini |
+| themec.ini | %windir%\web\wallpaper\themec\desktop.ini |
+| themed.ini | %windir%\web\wallpaper\themed\desktop.ini |
 
 ## More Resources
 

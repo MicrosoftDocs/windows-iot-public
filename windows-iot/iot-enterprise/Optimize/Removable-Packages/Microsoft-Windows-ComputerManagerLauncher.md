@@ -15,17 +15,17 @@ keywords: IoT Enterprise, removable packages, storage
 > [!WARNING]
 > THIS IS AN IN-PROGRESS ROUGH DRAFT. The wording and feature list may change before publishing.
 
-| Applies to   |  Version            |
-|:-------------|:--------------------|
-| Windows 11 IoT Enterprise LTSC 2024 | |
+Applies to:  
+✅ Windows 11 IoT Enterprise LTSC 2024  
+⛔ Windows 10 IoT Enterprise LTSC 2021
 
-## Description
+## Package Description
 
-<fill in the blank>
+Package: **Microsoft-Windows-ComputerManagerLauncher** </br>  `Add Description Here`
 
-| Package Name | LTSC&nbsp;2021 | LTSC&nbsp;2024  |
-|--------------|---------------:|----------------:|
-| `Microsoft-Windows-ComputerManagerLauncher` | TBD | TBD |
+| Release                             |   x64     |    ARM64    |
+|-------------------------------------|:---------:|:-----------:|
+| Windows 11 IoT Enterprise LTSC 2024 | 483 KB    | 604 KB      |
 
 ## Package Removal
 
@@ -51,7 +51,11 @@ keywords: IoT Enterprise, removable packages, storage
 
 | File Name | Installed Location |
 |-----------|--------------------|
-| <fill in the blank>| <fill in the blank>  |
+| compmgmt.msc | %windir%\system32\compmgmt.msc |
+| mycomput.dll | %windir%\system32\mycomput.dll |
+| mycomput.dll.mun | %windir%\systemresources\mycomput.dll.mun |
+| compmgmtlauncher.exe | %windir%\system32\compmgmtlauncher.exe |
+| computer&nbsp;management.lnk | %programdata%\microsoft\windows\start menu\programs\administrative tools\computer management.lnk |
 
 ## More Resources
 

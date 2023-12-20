@@ -15,17 +15,17 @@ keywords: IoT Enterprise, removable packages, storage
 > [!WARNING]
 > THIS IS AN IN-PROGRESS ROUGH DRAFT. The wording and feature list may change before publishing.
 
-| Applies to   |  Version            |
-|:-------------|:--------------------|
-| Windows 11 IoT Enterprise LTSC 2024 | |
+Applies to:  
+✅ Windows 11 IoT Enterprise LTSC 2024  
+⛔ Windows 10 IoT Enterprise LTSC 2021
 
-## Description
+## Package Description
 
-<fill in the blank>
+Package: **Microsoft-Windows-DesktopFileExplorer** </br>  `Add Description Here`
 
-| Package Name | LTSC&nbsp;2021 | LTSC&nbsp;2024  |
-|--------------|---------------:|----------------:|
-| `Microsoft-Windows-DesktopFileExplorer` | TBD | TBD |
+| Release                             |   x64     |    ARM64    |
+|-------------------------------------|:---------:|:-----------:|
+| Windows 11 IoT Enterprise LTSC 2024 | 2,738 KB  | 3,787 KB    |
 
 ## Package Removal
 
@@ -51,7 +51,50 @@ keywords: IoT Enterprise, removable packages, storage
 
 | File Name | Installed Location |
 |-----------|--------------------|
-| <fill in the blank>| <fill in the blank>  |
+| appxblockmap.xml | %windir%\systemapps\microsoft.windows.fileexplorer_cw5n1h2txyewy\appxblockmap.xml |
+| appxmanifest.xml | %windir%\systemapps\microsoft.windows.fileexplorer_cw5n1h2txyewy\appxmanifest.xml |
+| appxsignature.p7x | %windir%\systemapps\microsoft.windows.fileexplorer_cw5n1h2txyewy\appxsignature.p7x |
+| bitmdl2.ttf | %windir%\systemapps\microsoft.windows.fileexplorer_cw5n1h2txyewy\assets\bitmdl2.ttf |
+| folder_large.scale-100.png | %windir%\systemapps\microsoft.windows.fileexplorer_cw5n1h2txyewy\assets\folder_large.scale-100.png |
+| folder_large.scale-200.png | %windir%\systemapps\microsoft.windows.fileexplorer_cw5n1h2txyewy\assets\folder_large.scale-200.png |
+| folder_large.scale-400.png | %windir%\systemapps\microsoft.windows.fileexplorer_cw5n1h2txyewy\assets\folder_large.scale-400.png |
+| folder_small.scale-100.png | %windir%\systemapps\microsoft.windows.fileexplorer_cw5n1h2txyewy\assets\folder_small.scale-100.png |
+| folder_small.scale-200.png | %windir%\systemapps\microsoft.windows.fileexplorer_cw5n1h2txyewy\assets\folder_small.scale-200.png |
+| folder_small.scale-400.png | %windir%\systemapps\microsoft.windows.fileexplorer_cw5n1h2txyewy\assets\folder_small.scale-400.png |
+| ppiremovablestoragedevicessquaretile150x150.scale-100.png | %windir%\systemapps\microsoft.windows.fileexplorer_cw5n1h2txyewy\assets\ppiremovablestoragedevicessquaretile150x150.scale-100.png |
+| ppiremovablestoragedevicessquaretile150x150.scale-200.png | %windir%\systemapps\microsoft.windows.fileexplorer_cw5n1h2txyewy\assets\ppiremovablestoragedevicessquaretile150x150.scale-200.png |
+| ppiremovablestoragedevicessquaretile150x150.scale-400.png | %windir%\systemapps\microsoft.windows.fileexplorer_cw5n1h2txyewy\assets\ppiremovablestoragedevicessquaretile150x150.scale-400.png |
+| ppiremovablestoragedevicessquaretile44x44.scale-100.png | %windir%\systemapps\microsoft.windows.fileexplorer_cw5n1h2txyewy\assets\ppiremovablestoragedevicessquaretile44x44.scale-100.png |
+| ppiremovablestoragedevicessquaretile44x44.scale-200.png | %windir%\systemapps\microsoft.windows.fileexplorer_cw5n1h2txyewy\assets\ppiremovablestoragedevicessquaretile44x44.scale-200.png |
+| ppiremovablestoragedevicessquaretile44x44.scale-400.png | %windir%\systemapps\microsoft.windows.fileexplorer_cw5n1h2txyewy\assets\ppiremovablestoragedevicessquaretile44x44.scale-400.png |
+| splashscreen.scale-100.png | %windir%\systemapps\microsoft.windows.fileexplorer_cw5n1h2txyewy\assets\splashscreen.scale-100.png |
+| squaretile150x150.scale-100.png | %windir%\systemapps\microsoft.windows.fileexplorer_cw5n1h2txyewy\assets\squaretile150x150.scale-100.png |
+| squaretile150x150.scale-200.png | %windir%\systemapps\microsoft.windows.fileexplorer_cw5n1h2txyewy\assets\squaretile150x150.scale-200.png |
+| squaretile150x150.scale-400.png | %windir%\systemapps\microsoft.windows.fileexplorer_cw5n1h2txyewy\assets\squaretile150x150.scale-400.png |
+| squaretile310x150.scale-100.png | %windir%\systemapps\microsoft.windows.fileexplorer_cw5n1h2txyewy\assets\squaretile310x150.scale-100.png |
+| squaretile310x150.scale-200.png | %windir%\systemapps\microsoft.windows.fileexplorer_cw5n1h2txyewy\assets\squaretile310x150.scale-200.png |
+| squaretile310x150.scale-400.png | %windir%\systemapps\microsoft.windows.fileexplorer_cw5n1h2txyewy\assets\squaretile310x150.scale-400.png |
+| squaretile44x44.scale-100.png | %windir%\systemapps\microsoft.windows.fileexplorer_cw5n1h2txyewy\assets\squaretile44x44.scale-100.png |
+| squaretile44x44.scale-200.png | %windir%\systemapps\microsoft.windows.fileexplorer_cw5n1h2txyewy\assets\squaretile44x44.scale-200.png |
+| squaretile44x44.scale-400.png | %windir%\systemapps\microsoft.windows.fileexplorer_cw5n1h2txyewy\assets\squaretile44x44.scale-400.png |
+| squaretile44x44.targetsize-24.png | %windir%\systemapps\microsoft.windows.fileexplorer_cw5n1h2txyewy\assets\squaretile44x44.targetsize-24.png |
+| squaretile44x44.targetsize-256_altform-lightunplated_devicefamily-colorfulunplated.png | %windir%\systemapps\microsoft.windows.fileexplorer_cw5n1h2txyewy\assets\squaretile44x44.targetsize-256_altform-lightunplated_devicefamily-colorfulunplated.png |
+| squaretile44x44.targetsize-256_altform-unplated_contrast-black_devicefamily-colorfulunplated.png | %windir%\systemapps\microsoft.windows.fileexplorer_cw5n1h2txyewy\assets\squaretile44x44.targetsize-256_altform-unplated_contrast-black_devicefamily-colorfulunplated.png |
+| squaretile44x44.targetsize-256_altform-unplated_contrast-white_devicefamily-colorfulunplated.png | %windir%\systemapps\microsoft.windows.fileexplorer_cw5n1h2txyewy\assets\squaretile44x44.targetsize-256_altform-unplated_contrast-white_devicefamily-colorfulunplated.png |
+| squaretile44x44.targetsize-256_altform-unplated_devicefamily-colorfulunplated.png | %windir%\systemapps\microsoft.windows.fileexplorer_cw5n1h2txyewy\assets\squaretile44x44.targetsize-256_altform-unplated_devicefamily-colorfulunplated.png |
+| squaretile44x44.targetsize-48_altform-lightunplated_devicefamily-colorfulunplated.png | %windir%\systemapps\microsoft.windows.fileexplorer_cw5n1h2txyewy\assets\squaretile44x44.targetsize-48_altform-lightunplated_devicefamily-colorfulunplated.png |
+| squaretile44x44.targetsize-48_altform-unplated_contrast-black_devicefamily-colorfulunplated.png | %windir%\systemapps\microsoft.windows.fileexplorer_cw5n1h2txyewy\assets\squaretile44x44.targetsize-48_altform-unplated_contrast-black_devicefamily-colorfulunplated.png |
+| squaretile44x44.targetsize-48_altform-unplated_contrast-white_devicefamily-colorfulunplated.png | %windir%\systemapps\microsoft.windows.fileexplorer_cw5n1h2txyewy\assets\squaretile44x44.targetsize-48_altform-unplated_contrast-white_devicefamily-colorfulunplated.png |
+| squaretile44x44.targetsize-48_altform-unplated_devicefamily-colorfulunplated.png | %windir%\systemapps\microsoft.windows.fileexplorer_cw5n1h2txyewy\assets\squaretile44x44.targetsize-48_altform-unplated_devicefamily-colorfulunplated.png |
+| squaretile44x44.targetsize-96_altform-lightunplated_devicefamily-colorfulunplated.png | %windir%\systemapps\microsoft.windows.fileexplorer_cw5n1h2txyewy\assets\squaretile44x44.targetsize-96_altform-lightunplated_devicefamily-colorfulunplated.png |
+| squaretile44x44.targetsize-96_altform-unplated_contrast-black_devicefamily-colorfulunplated.png | %windir%\systemapps\microsoft.windows.fileexplorer_cw5n1h2txyewy\assets\squaretile44x44.targetsize-96_altform-unplated_contrast-black_devicefamily-colorfulunplated.png |
+| squaretile44x44.targetsize-96_altform-unplated_contrast-white_devicefamily-colorfulunplated.png | %windir%\systemapps\microsoft.windows.fileexplorer_cw5n1h2txyewy\assets\squaretile44x44.targetsize-96_altform-unplated_contrast-white_devicefamily-colorfulunplated.png |
+| squaretile44x44.targetsize-96_altform-unplated_devicefamily-colorfulunplated.png | %windir%\systemapps\microsoft.windows.fileexplorer_cw5n1h2txyewy\assets\squaretile44x44.targetsize-96_altform-unplated_devicefamily-colorfulunplated.png |
+| squaretile71x71.scale-100.png | %windir%\systemapps\microsoft.windows.fileexplorer_cw5n1h2txyewy\assets\squaretile71x71.scale-100.png |
+| squaretile71x71.scale-200.png | %windir%\systemapps\microsoft.windows.fileexplorer_cw5n1h2txyewy\assets\squaretile71x71.scale-200.png |
+| squaretile71x71.scale-400.png | %windir%\systemapps\microsoft.windows.fileexplorer_cw5n1h2txyewy\assets\squaretile71x71.scale-400.png |
+| fileexplorer.exe | %windir%\systemapps\microsoft.windows.fileexplorer_cw5n1h2txyewy\fileexplorer.exe |
+| resources.pri | %windir%\systemapps\microsoft.windows.fileexplorer_cw5n1h2txyewy\resources.pri |
 
 ## More Resources
 

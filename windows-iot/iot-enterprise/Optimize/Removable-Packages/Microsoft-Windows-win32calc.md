@@ -2,7 +2,7 @@
 title: Package - Legacy Calculator App
 author: twarwick
 ms.author: twarwick
-ms.date: 03/30/2023
+ms.date: 12/19/2023
 ms.topic: article
 ms.prod: windows-iot
 ms.technology: iot
@@ -15,18 +15,18 @@ keywords: IoT Enterprise, removable packages, storage
 > [!WARNING]
 > THIS IS AN IN-PROGRESS ROUGH DRAFT. The wording and feature list may change before publishing.
 
-| Applies to   |  Version            |
-|:-------------|:--------------------|
-| Windows 10 IoT Enterprise LTSC 2021 | 19044.1741 or later |
-| Windows 11 IoT Enterprise LTSC 2024 | |
+Applies to:  
+✅ Windows 11 IoT Enterprise LTSC 2024  
+✅ Windows 10 IoT Enterprise LTSC 2021 (19044.1741 or later)  
 
-## Description
+## Package Description
 
-Legacy calculator application
+Package: **Microsoft-Windows-win32calc** </br> Legacy Calculator Application.
 
-| Package Name | LTSC&nbsp;2021 | LTSC&nbsp;2024  |
-|--------------|---------------:|----------------:|
-| `Microsoft-Windows-win32calc`  | 1,394&nbsp;KB | TBD |
+| Release                             |   x64     |    ARM64    |
+|-------------------------------------|:---------:|:-----------:|
+| Windows 11 IoT Enterprise LTSC 2024 | 709 KB    | 704 KB      |
+| Windows 10 IoT Enterprise LTSC 2021 | 1,394 KB  |             |
 
 ## Package Removal
 
