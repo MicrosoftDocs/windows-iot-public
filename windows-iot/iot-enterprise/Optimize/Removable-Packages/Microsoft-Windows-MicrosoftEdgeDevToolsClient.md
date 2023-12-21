@@ -25,19 +25,28 @@ Package: **Microsoft-Windows-MicrosoftEdgeDevToolsClient** </br>  `Add Descripti
 1. To remove a specific package from the image type:
 
    ```powershell
-   Dism.exe /Online /NoRestart /Disable-Feature /FeatureName:Microsoft-Windows-MicrosoftEdgeDevToolsClient /PackageName:@Package
+   $Arch = $env:PROCESSOR_ARCHITECTURE
+   $OSVer = (Get-ItemProperty -Path 'HKLM:\SOFTWARE\Microsoft\Windows NT\CurrentVersion').LCUVer
+   Dism.exe /Online /NoRestart /Disable-Feature /FeatureName:Microsoft-Windows-MicrosoftEdgeDevToolsClient /PackageName:Microsoft-Windows-Desktop-Required-ClientOnly-removable-Package~31bf3856ad364e35~$Arch~~$OSVer
    ````
 
    To remove a package from an offline image mounted at `c:\offline` type:
 
    ```powershell
-   Dism.exe /Image:c:\offline  /Disable-Feature /FeatureName:Microsoft-Windows-MicrosoftEdgeDevToolsClient /PackageName:@Package
+   $OfflinePath = "C:\Offline"
+   $Arch = dism /image:$OfflinePath /Get-DriverInfo /driver:hal.inf | findstr Architecture
+   $Arch = $Arch.Split(':')[1]
+   $Arch = $Arch.Trim()
+   $OSVer = (Get-Command $OfflinePath\windows\system32\ntdll.dll).FileVersionInfo.ProductVersion
+   Dism.exe /Image:$OfflinePath  /Disable-Feature /FeatureName:Microsoft-Windows-MicrosoftEdgeDevToolsClient /PackageName:Microsoft-Windows-Desktop-Required-ClientOnly-removable-Package~31bf3856ad364e35~$Arch~~$OSVer
    ```
 
 1. Optional: Use DISM /GetFeatureInfo to get the status of a removable package type:
 
    ```powershell
-   Dism.exe /Online /Get-FeatureInfo /FeatureName:Microsoft-Windows-MicrosoftEdgeDevToolsClient /PackageName:@Package
+   $Arch = $env:PROCESSOR_ARCHITECTURE
+   $OSVer = (Get-ItemProperty -Path 'HKLM:\SOFTWARE\Microsoft\Windows NT\CurrentVersion').LCUVer
+   Dism.exe /Online /Get-FeatureInfo /FeatureName:Microsoft-Windows-MicrosoftEdgeDevToolsClient /PackageName:Microsoft-Windows-Desktop-Required-ClientOnly-removable-Package~31bf3856ad364e35~$Arch~~$OSVer
    ````
 
 ## Package Details
