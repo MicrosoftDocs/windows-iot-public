@@ -17,7 +17,8 @@ keywords: IoT Enterprise, Installation
 - Windows 10 IoT Enterprise LTSC 2021
 
 > [!NOTE]
-> Windows 10 IoT Enterprise LTSC 2021 will be available as a Volume License purchase beginning August 1, 2023
+> As of August 1, 2023, Windows 10 IoT Enterprise LTSC 2021 is now available for purchase through the following programs: _Select Plus_, _Microsoft Product and Services Agreement (MPSA)_, and _Cloud Solution Provider (CSP)_.  Currently, Windows 10 IoT Enterprise LTSC 2021 is not available through the Enterprise Agreement program.  
+> For more information, see [Windows Desktop Operating System Program Terms](https://www.microsoft.com/licensing/terms/productoffering/WindowsDesktopOperatingSystem/all).
 
 ## Introduction
 
