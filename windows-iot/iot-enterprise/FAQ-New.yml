@@ -15,13 +15,6 @@ summary: |
   [This summary appears as the introductory paragraph 
   of the FAQ as it's displayed.]
 
-# Remove all the comments in this template before you
-# sign off or merge to the main branch.
-
-# Remember that indentation is significant in YAML files.
-
-# If there is any disallowed spacing, the build fails.
-
 sections:
   - name: Section 1
     questions:
@@ -36,9 +29,6 @@ sections:
           the | characters.
 
   - name: Section 2
-               # a few questions. 
-# The first name value is ignored and your questions 
-# become the H2 level. 
     questions:
       - question: Question A
         answer: Answer A
