@@ -10,7 +10,7 @@
     items:
      - name: Windows IoT Enterprise LTSC Overview
        href: ./whats-new/Windows-IoT-Enterprise-LTSC.md
-     - name: Windows 11 IoT Enterprise LTSC 2024
+     - name: 🚩 Windows 11 IoT Enterprise LTSC 2024
        href: ./whats-new/Windows-11-IoT-Enterprise-LTSC-2024.md
      - name: Windows 10 IoT Enterprise LTSC 2021
        href: ./whats-new/Windows-10-IoT-Enterprise-LTSC-2021.md
@@ -35,7 +35,7 @@
 - name: Hardware Guidance
   expanded: false
   items:
-  - name: Hardware Requirements
+  - name: 🚩 Hardware Requirements
     href: Hardware/Hardware_Requirements.md
   - name: Processor Requirements
     href: Hardware/Processor_Requirements.md
@@ -380,10 +380,10 @@
     href: Optimize/Reduce-Disk-Footprint.md
   - name: CompactOS
     href: Optimize/iot-ent-optimize-images.md  
-  - name: Removable Packages
+  - name: 🚩 Removable Packages
     expanded: false
     items:
-      - name: Overview
+      - name: 🚩 Overview
         href: Optimize/Removable-Packages.md
       - name: Package - Language Word Breaking Legacy
         href: Optimize/Removable-Packages/LanguageFeatures-wordBreaking-Common-Legacy.md
