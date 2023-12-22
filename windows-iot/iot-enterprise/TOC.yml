@@ -446,5 +446,7 @@
   href: https://aka.ms/winiotsamples
 - name: Frequently Asked Questions
   href: FAQ.md
+- name: New - Frequently Asked Questions
+  href: FAQ-New.yml
 - name: Contact us
   href: Contact-Us.md
