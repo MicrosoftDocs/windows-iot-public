@@ -1,15 +1,17 @@
 ### YamlMime:FAQ
 metadata:
-  title: Frequently asked questions about Windows IoT Enterprise
+  title: Windows IoT Enterprise FAQ
+  description: Frequently asked questions (faq) about Windows IoT Enterprise.
+  keywords: IoT Enterprise, FAQ
   author: TerryWarwick
   ms.author: twarwick
   ms.date: 03/31/2023
   ms.topic: faq
   ms.prod: windows-iot
   ms.technology: iot
-  description: Frequently asked questions about Windows IoT Enterprise.
-  keywords: IoT Enterprise, FAQ
-  summary: Have a question about Windows IoT Enterprise, see if it's answered in the list below.
+
+title: Windows IoT Enterprise frequently asked questins (faq)
+summary: Have a question about Windows IoT Enterprise, see if it's answered in the list below.
 
 
 sections:
@@ -25,12 +27,12 @@ sections:
       - question: |
           What are the prerequisites for running containers on Windows?
         answer: |
-          Containers were introduced to the platform with Windows Server 2016. To use containers, you'll need either Windows Server 2016, the Windows 10 Anniversary update (version 1607) or newer, or Windows 10 IoT Enterprise or newer. Read the [System Requirements](../deploy-containers/system-requirements.md) to learn more.
+          Containers were introduced to the platform with Windows Server 2016. To use containers, you'll need either Windows Server 2016, the Windows 10 Anniversary update (version 1607) or newer, or Windows 10 IoT Enterprise or newer. Read the [System Requirements]() to learn more.
           
       - question: |
           What of the Windows operating systems are supported in Kubernetes?
         answer: |
-          Support for Windows containers is dependent on the Kubernetes platform on which it runs. Azure Kubernetes Service (AKS) and AKS on Azure Stack HCI and Windows Server supports both Windows Server 2019 and Windows Server 2022 Windows nodes. Azure Kubernetes Service Edge Essentials support Windows Server 2019, Windows Server 2022, and Windows 10/11 Enterprise or Pro. For Windows container version compatibility, see [Windows container version compatibility](../deploy-containers/version-compatibility.md).
+          Support for Windows containers is dependent on the Kubernetes platform on which it runs. Azure Kubernetes Service (AKS) and AKS on Azure Stack HCI and Windows Server supports both Windows Server 2019 and Windows Server 2022 Windows nodes. Azure Kubernetes Service Edge Essentials support Windows Server 2019, Windows Server 2022, and Windows 10/11 Enterprise or Pro. For Windows container version compatibility, see [Windows container version compatibility]().
           
       - question: |
           How do I patch my Windows nodes?
@@ -50,7 +52,7 @@ sections:
       - question: |
           How are containers licensed? Is there a limit to the number of containers I can run?
         answer: |
-          The Windows container image [EULA](../images-eula.md) describes a usage that depends on a user having a validly licensed host OS. The number of containers a user is allowed to run depends upon the host OS edition and the [isolation mode](../manage-containers/hyperv-container.md) a container is being run with, as well as whether these containers are running for dev/test purposes or in production.
+          The Windows container image [EULA]() describes a usage that depends on a user having a validly licensed host OS. The number of containers a user is allowed to run depends upon the host OS edition and the [isolation mode]() a container is being run with, as well as whether these containers are running for dev/test purposes or in production.
           
           |Host OS                                                         |Process-isolated container limit                   |Hyper-V-isolated container limit                   |
           |----------------------------------------------------------------|---------------------------------------------------|---------------------------------------------------|
@@ -63,7 +65,7 @@ sections:
           Windows Server container image usage is determined by reading the number of virtualization guests supported for that [edition](/windows-server/get-started-19/editions-comparison-19). <br/>
           
           >[!NOTE]
-          >\*Production usage of containers on an IoT edition of Windows depend on if you have agreed to the Microsoft Commercial Terms of Use for Windows Core Runtime Images or the Windows IoT Enterprise Device License (“Windows IoT Commercial Agreement”). Additional terms and restrictions in the Windows IoT Commercial Agreements apply to your use of Container Image in a production environment. Please read the [container image EULA](../images-eula.md) to understand exactly what is permitted and what is not.
+          >\*Production usage of containers on an IoT edition of Windows depend on if you have agreed to the Microsoft Commercial Terms of Use for Windows Core Runtime Images or the Windows IoT Enterprise Device License (“Windows IoT Commercial Agreement”). Additional terms and restrictions in the Windows IoT Commercial Agreements apply to your use of Container Image in a production environment. Please read the [container image EULA]() to understand exactly what is permitted and what is not.
           
       - question: |
           As a developer, do I have to rewrite my app for each type of container?
