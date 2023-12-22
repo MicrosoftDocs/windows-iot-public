@@ -2,10 +2,10 @@
   href: Getting_Started.md  
 - name: Release History
   href: ./whats-new/Release-History.md
-- name: What's new...
+- name: 🚩 What's new...
   expanded: true
   items:
-  - name: Windows IoT Enterprise LTSC
+  - name: 🚩 Windows IoT Enterprise LTSC
     expanded: false
     items:
      - name: Windows IoT Enterprise LTSC Overview
@@ -32,7 +32,7 @@
        href: ./whats-new/Windows-10-IoT-Enterprise-21H2.md
      - name: Version 21H1
        href: ./whats-new/Windows-10-IoT-Enterprise-21H1.md
-- name: Hardware Guidance
+- name: 🚩 Hardware Guidance
   expanded: false
   items:
   - name: 🚩 Hardware Requirements
@@ -371,7 +371,7 @@
     href: Device-Management/App-Updates.md
   - name: Reset and Recovery
     href: Device-Management/Reset-and-Recovery.md
-- name: Optimization
+- name: 🚩 Optimization
   expanded: false
   items:
   - name: Overview
