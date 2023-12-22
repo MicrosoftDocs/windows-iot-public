@@ -1,5 +1,7 @@
 - name: Windows IoT Enterprise Overview
   href: Getting_Started.md  
+- name: Frequently Asked Questions
+  href: FAQ.yml
 - name: Release History
   href: ./whats-new/Release-History.md
 - name: What's new...
@@ -444,9 +446,5 @@
   href: Downloads.md
 - name: Code Samples
   href: https://aka.ms/winiotsamples
-- name: Frequently Asked Questions
-  href: FAQ.md
-- name: New - Frequently Asked Questions
-  href: FAQ-New.yml
 - name: Contact us
   href: Contact-Us.md
