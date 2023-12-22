@@ -1,6 +1,6 @@
 - name: Windows IoT Enterprise Overview
   href: Getting_Started.md  
-- name: Release History
+- name: 🚩 Release History
   href: ./whats-new/Release-History.md
 - name: 🚩 What's new...
   expanded: true
