@@ -1,18 +1,18 @@
 - name: Windows IoT Enterprise Overview
   href: ./Getting_Started.md  
-- name: 🚩 Release History
+- name: 🔵 Release History
   href: ./whats-new/Release-History.md
-- name: 🚩 What's new...
+- name: 🔵 What's new...
   expanded: true
   items:
-  - name: 🚩 Windows IoT Enterprise LTSC
+  - name: 🔵 Windows IoT Enterprise LTSC
     expanded: false
     items:
      - name: Windows IoT Enterprise LTSC Overview
        href: ./whats-new/Windows-IoT-Enterprise-LTSC.md
-     - name: 🚩 Windows 11 IoT Enterprise LTSC 2024
+     - name: 🔵 Windows 11 IoT Enterprise LTSC 2024
        href: ./whats-new/Windows-11-IoT-Enterprise-LTSC-2024.md
-     - name: Windows 10 IoT Enterprise LTSC 2021
+     - name: 🔵 Windows 10 IoT Enterprise LTSC 2021
        href: ./whats-new/Windows-10-IoT-Enterprise-LTSC-2021.md
   - name: Windows 11 IoT Enterprise
     expanded: false
@@ -32,10 +32,10 @@
        href: ./whats-new/Windows-10-IoT-Enterprise-21H2.md
      - name: Version 21H1
        href: ./whats-new/Windows-10-IoT-Enterprise-21H1.md
-- name: 🚩 Hardware Guidance
+- name: 🔵 Hardware Guidance
   expanded: false
   items:
-  - name: 🚩 Hardware Requirements
+  - name: 🔵 Hardware Requirements
     href: ./Hardware/Hardware_Requirements.md
   - name: Processor Requirements
     href: ./Hardware/Processor_Requirements.md
@@ -371,7 +371,7 @@
     href: ./Device-Management/App-Updates.md
   - name: Reset and Recovery
     href: ./Device-Management/Reset-and-Recovery.md
-- name: 🚩 Optimization
+- name: 🔵 Optimization
   expanded: false
   items:
   - name: Overview
@@ -380,10 +380,10 @@
     href: ./Optimize/Reduce-Disk-Footprint.md
   - name: CompactOS
     href: ./Optimize/iot-ent-optimize-images.md  
-  - name: 🚩 Removable Packages
+  - name: 🔵 Removable Packages
     expanded: false
     items:
-      - name: 🚩 Overview
+      - name: 🔵 Overview
         href: ./Optimize/Removable-Packages.md
       - name: Package - Language Word Breaking Legacy
         href: ./Optimize/Removable-Packages/LanguageFeatures-wordBreaking-Common-Legacy.md
@@ -437,7 +437,7 @@
     - name: Application Development
       href: ./Soft-Real-Time/Soft-Real-Time-Application.md
 - name: Security & Compliance
-  expanded: true
+  expanded: false
   items:
   - name: Accessibility
     href: ./resources/accessibility.md
