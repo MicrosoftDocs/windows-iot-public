@@ -22,17 +22,19 @@ sections:
         answer: |
           There are three product lines within the Windows for IoT portfolio, including:
 
-          1. [Windows IoT Enterprise](faq.yml#windows-iot-enterprise)
-          1. [Windows Server IoT](faq.yml#windows-server-iot)
-          1. [SQL Sever IoT](faq.yml#sql-server-iot)
+          - [Windows IoT Enterprise](faq.yml#windows-iot-enterprise)
+          - [Windows Server IoT](faq.yml#windows-server-iot)
+          - [SQL Sever IoT](faq.yml#sql-server-iot)
 
   - name: Windows IoT Enterprise
     questions:
       - question: Contents
         answer: |
+          Group 1
           - [What is Windows IoT Enterprise?](faq.yml#what-is-windows-iot-enterprise)
           - [How can I purchase Windows IoT Enteprise?](faq.yml#how-can-i-purchase-windows-iot-enterprise)
           - ...
+          Group 2
           - [What connectivity drivers are available for Windows IoT Enterprise on ARM64?](faq.yml#what-connectivity-drivers-are-available-for-windows-iot-enterprise-on-arm64)
 
       - question: What is Windows IoT Enterprise?
@@ -91,7 +93,7 @@ sections:
           |WiFi + Bluetooth| NXP |[88W8897](https://www.nxp.com/products/wireless-connectivity/wi-fi-plus-bluetooth-plus-802-15-4/2-4-5-ghz-dual-band-2x2-wi-fi-5-802-11ac-plus-bluetooth-5-0-solution:88W8897)|
           |WiFi + Bluetooth| NXP |[88W8997](https://www.nxp.com/products/wireless-connectivity/wi-fi-plus-bluetooth-plus-802-15-4/2-4-5-ghz-dual-band-2x2-wi-fi-5-802-11ac-plus-bluetooth-5-3-solution:88W8997)|
 
-          <div style="text-align: right"> [Top of Windows IoT Enterprise Section](faq.yml#windows-iot-enterprise) </div>
+          [Top of Windows IoT Enterprise Section](faq.yml#windows-iot-enterprise)
 
       - question: Which Windows IoT Enterprise version should I use with NXP hardware?
         answer: |
