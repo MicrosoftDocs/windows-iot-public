@@ -27,7 +27,14 @@ sections:
           1. [SQL Sever IoT](faq.yml#sql-server-iot)
 
   - name: Windows IoT Enterprise
-    questions:        
+    questions:
+      - question: Frequently Asked Questions
+        answer: |
+          - [What is Windows IoT Enterprise?](faq.yml#what-is-windows-iot-enterprise)
+          - [How can I purchase Windows IoT Enteprise?](faq.yml#how-can-i-purchase-windows-iot-enterprise)
+          - ...
+          - [What connectivity drivers are available for Windows IoT Enterprise on ARM64?]faq.yml#what-connectivity-drivers-are-available-for-windows-iot-enterprise-on-arm64)
+
       - question: What is Windows IoT Enterprise?
         answer: |
           TBD
