@@ -29,7 +29,7 @@ highlightedContent:
       url: /windows/iot/iot-enterprise/whats-new/Windows-11-IoT-Enterprise-23H2
     - title: Windows for IoT News
       itemType: whats-new
-      url: ./product-family/News-Blogs.md
+      url: /windows/iot/iot-enterprise/whats-new/News-Blogs.md
 
 productDirectory:
   items:
