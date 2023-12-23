@@ -25,55 +25,115 @@ sections:
           - [Windows IoT Enterprise](faq.yml#windows-iot-enterprise)
           - [Windows Server IoT](faq.yml#windows-server-iot)
           - [SQL Sever IoT](faq.yml#sql-server-iot)
+          - [Windows IoT Core](faq.yml#windows-iot-core)
 
   - name: Windows IoT Enterprise
     questions:
       - question: Contents
         answer: |
-          Group 1
+          General
           - [What is Windows IoT Enterprise?](faq.yml#what-is-windows-iot-enterprise)
-          - [How can I purchase Windows IoT Enteprise?](faq.yml#how-can-i-purchase-windows-iot-enterprise)
-          - ...
-          Group 2
+          - [Can I upgrade my Windows IoT Enterprise to a newer version?](faq.yml#can-i-upgrade-my-windows-iot-enterprise-to-a-newer-version)
+          - How do I update Windows IoT Enterprise?
+          - How do I update Windows IoT Enterprise LTSC?
+          - What is the support lifecycle for Windows IoT Enterprise?
+          - What is the current version of Windows IoT Enterprise?
+          - How do I know if I am running Windows IoT Enterprise?
+          - How do I check if I am using Windows IoT Enterprise?
+          - What editons of Windows IoT Enterprise are available?
+          - Can I get an evaluation copy of Windows IoT Enterprise?
+          - How does Windows IoT Enterprise differ from Windows Pro?
+          - Is Windows IoT Enterprise secure?
+          - What's new in the latest version of Windows IoT Enterprise?
+          - Does Windows IoT Enterprise support real-time computing?
+          - Does Windows IoT Enterprise support Windows Containers?
+          - What are the hardware requirements for Windows IoT Enterprise
+          - When is the next Windows IoT Enterprise release?
+          - How often does Windows IoT Enterprise get security updates?
+          - Can I use my existing management infrastructure for Windows with Windows IoT Enterprise?
+          - How do I reinstall Windows IoT Enterprise?
+          - Where can I find information about new features and changes in Windows IoT Enterprise
+          - Where can I find informaiton about security updates for Windows IoT Enterprise?
+
+          Use Cases
+          - What kind of devices can I create with Windows IoT Enterprise?
+          - Where can I use Windows IoT Enterprise?
+          - Can I create a public facing kiosk with Windows IoT Enterprise?
+          - Can I create a specialized device using my own branding experience?
+          - Are there features in Windows IoT Enterprise to help me build a specialized device?
+          - Why do special purpose devices use Windows IoT Enterprise?          
+
+          LTSC
+          - What is Long-Term Servicing Channel (LTSC)?
+          - How long is Windows IoT Enterprise LTSC supported
+          - Can I upgrade from one LTSC to the next LTSC?
+          - What are the pros and cons of LTSC compared to other editions of Windows?
+          - How do I install an app from the Microsoft Store on Windows IoT Enterprise LTSC?
+          
+          ARM64
+          - [Is Windows IoT Enterprise available for ARM64?](faq.yml#is-windows-iot-enterprise-available-for-arm64)
+          - [What is Windows IoT Enterprise on ARM?](faq.yml#what-is-windows-iot-enterprise-for-arm64)
+          - [Can I run applications that aren't native to ARM64?](faq.yml#can-i-run-applications-that-aren-t-native-to-arm64)
+          - [What silicon vendors provide support for Windows IoT Enterprise on ARM64?](faq.yml#what-silicon-vendors-provide-support-for-windows-iot-enterprise-on-arm64)
+          - [What hardware is available for Windows IoT Enterprise on ARM64?](faq.yml#what-hardware-is-available-for-windows-iot-enterprise-on-arm64)
           - [What connectivity drivers are available for Windows IoT Enterprise on ARM64?](faq.yml#what-connectivity-drivers-are-available-for-windows-iot-enterprise-on-arm64)
+          - [Which Windows IoT Enterprise version should I use with NXP hardware?](faq.yml#which-windows-iot-enterprise-version-should-i-use-with-nxp-hardware)
+          - [What drivers are available for NXP based systems?](faq.yml#what-drivers-are-available-for-nxp-based-systems)
+
+          Licensing & Acquisition
+          - [How can I purchase Windows IoT Enteprise?](faq.yml#how-can-i-purchase-windows-iot-enterprise)
+          - How is Windows IoT Enterprise licensed?
+          - Where can I get Windows IoT Enterprise?
+          - Can I get Windows IoT Enterprise through an Enterprise Agreement?
+          
 
       - question: What is Windows IoT Enterprise?
         answer: |
           TBD
 
+          [Top of Windows IoT Enterprise section](faq.yml#windows-iot-enterprise)
+
       - question: How can I purchase Windows IoT Enterprise?
         answer: |
           TBD
+
+          [Top of Windows IoT Enterprise section](faq.yml#windows-iot-enterprise)
 
       - question: Can I upgrade my Windows IoT Enterprise to a newer version?
         answer: |
           TBD
 
+          [Top of Windows IoT Enterprise section](faq.yml#windows-iot-enterprise)
+
       - question: Is Windows IoT Enterprise available for ARM64?
         answer: |
           Yes, the Windows IoT Enterprise editions are available for both X64 as well as ARM64 processor architectures. 
 
-      - question: What is Windows IoT Enterprise on ARM?
+          [Top of Windows IoT Enterprise section](faq.yml#windows-iot-enterprise)
+
+      - question: What is Windows IoT Enterprise for ARM64?
         answer: |
           Windows IoT Enterprise is available for ARM64 is the same OS as it is on X64-based devices, with IoT features available to help you build secure, powerful devices across any architecture. Since the OS is the same, the capabilities and the documentation are the same as well. Refer to the standard Windows IoT Enterprise documentation for ARM64 guidance.
 
-          [top](faq.yml)
+          [Top of Windows IoT Enterprise section](faq.yml#windows-iot-enterprise)
 
       - question: Can I run applications that aren't native to ARM64?
         answer: |
           Yes, Windows IoT Enterprise provides emulation for x86 applications. For more information, see [How x86 emulation works on Arm](/windows/arm/apps-on-arm-x86-emulation).
 
-          [top](faq.yml)
+          [Top of Windows IoT Enterprise section](faq.yml#windows-iot-enterprise)
 
       - question: What silicon vendors provide support for Windows IoT Enterprise on ARM64?
         answer: |
           Systems are available from Qualcomm and NXP which support Windows IoT Enterprise on ARM64. FOr more information about supported processors, see [Windows IoT Entperprise Processor Lists](./hardware/hardware_requirements.md#windows-iot-enterprise-processor-lists)
 
-          [top](faq.yml)
+          [Top of Windows IoT Enterprise section](faq.yml#windows-iot-enterprise)
 
       - question: How do I get started with Windows IoT Enterprise on ARM64
         answer: |
           For the quickest way to get familiar with Windows IoT Enterprise on ARM64, see our [Tutorial: Setup an NXP i.MX EVK](Tutorials/Win10-NXP-iMX.md).
+
+          [Top of Windows IoT Enterprise section](faq.yml#windows-iot-enterprise)
 
       - question: What hardware is available for Windows IoT Enterprise on ARM64?
         answer: |
@@ -86,6 +146,8 @@ sections:
           | ASUS       | [IMX8P IM A](https://www.asus.com/us/site/IOT/#!/products/single-board-computer/IMX8P-IM-A)</br> [PE100A](https://iot.asus.com/products/intelligent-edge-computer/PE100A/) |
           | Reycom     | [RIA 8M](https://www.reycom.swiss/oem-hardware/ria-8m/)</br> [RIA 8M](https://www.reycom.swiss/oem-hardware/ria-8mplus/) |
 
+          [Top of Windows IoT Enterprise section](faq.yml#windows-iot-enterprise)
+
       - question: What connectivity drivers are available for Windows IoT Enterprise on ARM64?
         answer: |
           | Type | Manufacturer  | Name    |
@@ -93,7 +155,7 @@ sections:
           |WiFi + Bluetooth| NXP |[88W8897](https://www.nxp.com/products/wireless-connectivity/wi-fi-plus-bluetooth-plus-802-15-4/2-4-5-ghz-dual-band-2x2-wi-fi-5-802-11ac-plus-bluetooth-5-0-solution:88W8897)|
           |WiFi + Bluetooth| NXP |[88W8997](https://www.nxp.com/products/wireless-connectivity/wi-fi-plus-bluetooth-plus-802-15-4/2-4-5-ghz-dual-band-2x2-wi-fi-5-802-11ac-plus-bluetooth-5-3-solution:88W8997)|
 
-          ⬆🔝▲[Top of Windows IoT Enterprise Section](faq.yml#windows-iot-enterprise)
+          [Top of Windows IoT Enterprise section](faq.yml#windows-iot-enterprise)
 
       - question: Which Windows IoT Enterprise version should I use with NXP hardware?
         answer: |
@@ -108,9 +170,13 @@ sections:
           |i.MX 8X      |    build 19044 or later     |    Not Supported    |
           |i.MX 93      |    build 19044 or later     |    TBD              |
 
+          [Top of Windows IoT Enterprise section](faq.yml#windows-iot-enterprise)
+
       - question: What drivers are available for NXP based systems?
         answer: |
           For more information, see [NXP Supported Drivers](Hardware/supported/NXP_drivers.md)
+
+          [Top of Windows IoT Enterprise section](faq.yml#windows-iot-enterprise)
 
   - name: Windows Server IoT
     questions:
@@ -125,7 +191,12 @@ sections:
         answer: Answer 1
       - question: Question 2
         answer: Answer 2
-           
+
+  - name: Windows IoT Core
+    questions:
+      - question: What is the status of Windows IoT Core
+        answer: |
+          TBD
 
 additionalContent: |
     ## Related content
