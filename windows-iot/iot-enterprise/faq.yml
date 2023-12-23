@@ -12,21 +12,14 @@ metadata:
 
 title: "Windows IoT Frequently asked questions"
 summary: |
-  [This summary appears as the introductory paragraph 
-  of the FAQ as it's displayed.]
+  This article addresses frequently asked questions about products available in the Windows for IoT portfolio.  
+  
+  - FAQ for [Windows IoT Enterprise](faq.yml#windows-iot-enterprise)
+  - FAQ for [Windows Server IoT](faq.yml#windows-server-iot)
+  - FAQ for [SQL Sever IoT](faq.yml#sql-server-iot)
+  - FAQ for [Windows IoT Core](faq.yml#windows-iot-core)
 
 sections:
-  - name: General
-    questions:
-      - question: What products are in the Windows for IoT portfolio?
-        answer: |
-          There are three product lines within the Windows for IoT portfolio, including:
-
-          - [Windows IoT Enterprise](faq.yml#windows-iot-enterprise)
-          - [Windows Server IoT](faq.yml#windows-server-iot)
-          - [SQL Sever IoT](faq.yml#sql-server-iot)
-          - [Windows IoT Core](faq.yml#windows-iot-core)
-
   - name: Windows IoT Enterprise
     questions:
       - question: Contents
