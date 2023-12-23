@@ -91,7 +91,7 @@ sections:
           |WiFi + Bluetooth| NXP |[88W8897](https://www.nxp.com/products/wireless-connectivity/wi-fi-plus-bluetooth-plus-802-15-4/2-4-5-ghz-dual-band-2x2-wi-fi-5-802-11ac-plus-bluetooth-5-0-solution:88W8897)|
           |WiFi + Bluetooth| NXP |[88W8997](https://www.nxp.com/products/wireless-connectivity/wi-fi-plus-bluetooth-plus-802-15-4/2-4-5-ghz-dual-band-2x2-wi-fi-5-802-11ac-plus-bluetooth-5-3-solution:88W8997)|
 
-          [Top of Windows IoT Enterprise Section](faq.yml#windows-iot-enterprise)
+          <div style="text-align: right"> [Top of Windows IoT Enterprise Section](faq.yml#windows-iot-enterprise) </div>
 
       - question: Which Windows IoT Enterprise version should I use with NXP hardware?
         answer: |
