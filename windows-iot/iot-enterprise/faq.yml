@@ -22,9 +22,9 @@ sections:
         answer: |
           There are three product lines within the Windows for IoT portfolio, including:
 
-          1. [Windows IoT Enterprise](/windows/iot/iot-enterprise/getting_started)
-          1. [Windows Server IoT](/windows/iot/server/windows-server)
-          1. [SQL Sever IoT](/sql/sql-server/what-is-sql-server?view=sql-server-ver16)
+          1. [Windows IoT Enterprise](faq.yml#windows-iot-enterprise)
+          1. [Windows Server IoT](faq.yml#windows-server-iot)
+          1. [SQL Sever IoT](faq.yml#sql-server-iot)
 
   - name: Windows IoT Enterprise
     questions:        
@@ -49,7 +49,7 @@ sections:
           Windows IoT Enterprise is available for ARM64 is the same OS as it is on X64-based devices, with IoT features available to help you build secure, powerful devices across any architecture. Since the OS is the same, the capabilities and the documentation are the same as well. Refer to the standard Windows IoT Enterprise documentation for ARM64 guidance.
 
           [top](faq.yml)
-          
+
       - question: Can I run applications that aren't native to ARM64?
         answer: |
           Yes, Windows IoT Enterprise provides emulation for x86 applications. For more information, see [How x86 emulation works on Arm](/windows/arm/apps-on-arm-x86-emulation).
@@ -108,7 +108,7 @@ sections:
       - question: Question 2
         answer: Answer 2
 
-  - name: Windows SQL IoT 
+  - name: SQL Server IoT 
     questions:
       - question: Question 1
         answer: Answer 1
