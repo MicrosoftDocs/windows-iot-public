@@ -86,6 +86,7 @@ sections:
           - Where can I get Windows IoT Enterprise?
           - Can I get Windows IoT Enterprise through an Enterprise Agreement?
           
+          [Top of FAQ](faq.yml)
 
       - question: What is Windows IoT Enterprise?
         answer: |
@@ -181,22 +182,32 @@ sections:
   - name: Windows Server IoT
     questions:
       - question: Question 1
-        answer: Answer 1
+        answer: |
+          Answer 1
       - question: Question 2
-        answer: Answer 2
+        answer: |
+          Answer 2
+
+          [Top of FAQ](faq.yml)
 
   - name: SQL Server IoT 
     questions:
       - question: Question 1
-        answer: Answer 1
+        answer: |
+          Answer 1
       - question: Question 2
-        answer: Answer 2
+        answer: |
+          Answer 2
+
+          [Top of FAQ](faq.yml)
 
   - name: Windows IoT Core
     questions:
       - question: What is the status of Windows IoT Core
         answer: |
           TBD
+
+          [Top of FAQ](faq.yml)
 
 additionalContent: |
     ## Related content
