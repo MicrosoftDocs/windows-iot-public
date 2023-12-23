@@ -20,16 +20,16 @@ highlightedContent:
   items:
     - title: What's new in Windows IoT Enterprise LTSC
       itemType: whats-new  # controls the icon image and super-title text
-      url: /windows/iot/iot-enterprise/whats-new/Windows-IoT-Enterprise-LTSC
+      url: ./iot-enterprise/whats-new/Windows-IoT-Enterprise-LTSC.md
     - title: What's new in Windows 10 IoT Enterprise, version 22H2 
       itemType: whats-new
-      url: /windows/iot/iot-enterprise/whats-new/Windows-10-IoT-Enterprise-22H2
+      url: ./iot-enterprise/whats-new/Windows-10-IoT-Enterprise-22H2.md
     - title: What's new in Windows 11 IoT Enterprise, version 23H2 
       itemType: whats-new
-      url: /windows/iot/iot-enterprise/whats-new/Windows-11-IoT-Enterprise-23H2
+      url: ./iot-enterprise/whats-new/Windows-11-IoT-Enterprise-23H2.md
     - title: Windows for IoT News
       itemType: whats-new
-      url: /windows/iot/iot-enterprise/whats-new/News-Blogs.md
+      url: ./iot-enterprise/whats-new/News-Blogs.md
 
 productDirectory:
   items:
