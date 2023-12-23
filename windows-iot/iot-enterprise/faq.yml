@@ -40,9 +40,6 @@ sections:
         answer: |
           TBD
 
-
-  - name: Windows IoT Enterprise on ARM64
-    questions:
       - question: Is Windows IoT Enterprise available for ARM64?
         answer: |
           Yes, the Windows IoT Enterprise editions are available for both X64 as well as ARM64 processor architectures. 
@@ -51,22 +48,24 @@ sections:
         answer: |
           Windows IoT Enterprise is available for ARM64 is the same OS as it is on X64-based devices, with IoT features available to help you build secure, powerful devices across any architecture. Since the OS is the same, the capabilities and the documentation are the same as well. Refer to the standard Windows IoT Enterprise documentation for ARM64 guidance.
 
+          [top](faq.yml)
+          
       - question: Can I run applications that aren't native to ARM64?
         answer: |
           Yes, Windows IoT Enterprise provides emulation for x86 applications. For more information, see [How x86 emulation works on Arm](/windows/arm/apps-on-arm-x86-emulation).
 
-  - name: ARM64 silicon
-    questions:
+          [top](faq.yml)
+
       - question: What silicon vendors provide support for Windows IoT Enterprise on ARM64?
         answer: |
           Systems are available from Qualcomm and NXP which support Windows IoT Enterprise on ARM64. FOr more information about supported processors, see [Windows IoT Entperprise Processor Lists](./hardware/hardware_requirements.md#windows-iot-enterprise-processor-lists)
+
+          [top](faq.yml)
 
       - question: How do I get started with Windows IoT Enterprise on ARM64
         answer: |
           For the quickest way to get familiar with Windows IoT Enterprise on ARM64, see our [Tutorial: Setup an NXP i.MX EVK](Tutorials/Win10-NXP-iMX.md).
 
-  - name: Hardware based on NXP processors
-    questions:
       - question: What hardware is available for Windows IoT Enterprise on ARM64?
         answer: |
           |Manufacture | Hardware  |
@@ -101,6 +100,21 @@ sections:
       - question: What drivers are available for NXP based systems?
         answer: |
           For more information, see [NXP Supported Drivers](Hardware/supported/NXP_drivers.md)
+
+  - name: Windows Server IoT
+    questions:
+      - question: Question 1
+        answer: Answer 1
+      - question: Question 2
+        answer: Answer 2
+
+  - name: Windows SQL IoT 
+    questions:
+      - question: Question 1
+        answer: Answer 1
+      - question: Question 2
+        answer: Answer 2
+           
 
 additionalContent: |
     ## Related content
