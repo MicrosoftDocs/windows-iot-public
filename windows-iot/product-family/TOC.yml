@@ -3,9 +3,4 @@
   items: 
   - name: Overview
     href: windows-iot.md
-  - name: News, blogs, & updates
-    href: News-Blogs.md
-  - name: Distributor Contact Information 
-    href: https://aka.ms/IoTDistributorList
-  - name: Datasheet
-    href: https://download.microsoft.com/download/d/e/0/de05c36e-e182-43db-8ba6-023d808f0d64/Windows-for-IoT-Datasheet-Final.pdf
+
