@@ -3,7 +3,7 @@
 "redirections": [
     {
 	    "source_path_from_root": "/windows-iot/product-family/news-blogs.md",
-	    "redirect_url": "/windows-iot/iot-enterprise/whats-new/news-blogs.md"
+	    "redirect_url": "/windows/iot/iot-enterprise/whats-new/news-blogs.md"
     }
 
 ]
