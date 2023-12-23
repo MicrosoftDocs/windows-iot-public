@@ -27,7 +27,7 @@ Stay up to date with the latest news and announcements about the Windows for IoT
 
 | Month | News |
 | ---- | ---- |
-| October | [Windows Experience Blog: How to get the Windows 11 2023 Update](https://blogs.windows.com/windowsexperience/?p=178531)</br>[Windows IT Pro Blog: What’s new for IT pros in Windows 11, version 23H2](https://aka.ms/new-in-23H2) </br> [What's new in Windows 11 IoT Enterprise, Version 23H2](../iot-enterprise/whats-new/Windows-11-IoT-Enterprise-23H2.md)|
+| October | [Windows Experience Blog: How to get the Windows 11 2023 Update](https://blogs.windows.com/windowsexperience/?p=178531)</br>[Windows IT Pro Blog: What’s new for IT pros in Windows 11, version 23H2](https://aka.ms/new-in-23H2) </br> [What's new in Windows 11 IoT Enterprise, Version 23H2](Windows-11-IoT-Enterprise-23H2.md)|
 | April | Blog: [Windows roadmap update](https://aka.ms/Windows/RoadmapUpdate)
 | March | Blog: [Bring all your workloads to the edge with AKS Edge Essentials. Now Generally Available!](https://techcommunity.microsoft.com/t5/internet-of-things-blog/bring-all-your-workloads-to-the-edge-with-aks-edge-essentials/ba-p/3765162)
 | January | Blog: [Windows 10 IoT Enterprise will still be available past January 2023](https://techcommunity.microsoft.com/t5/internet-of-things-blog/windows-10-iot-enterprise-will-still-be-available-past-january/ba-p/3726368) |

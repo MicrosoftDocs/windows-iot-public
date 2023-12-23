@@ -440,6 +440,8 @@
     href: resources/privacy.md
   - name: Security
     href: resources/security.md
+- name: Frequently asked questions
+  href: faq.md
 - name: Windows IoT Distributors
   href: windows-iot-distributors.md
 - name: Downloads
