@@ -5,6 +5,8 @@
 - name: 🔵 What's new...
   expanded: true
   items:
+  - name: Announcements & blogs
+    href: ./whats-new/News-Blogs.md
   - name: 🔵 Windows IoT Enterprise LTSC
     expanded: false
     items:
@@ -447,13 +449,13 @@
     href: ./resources/privacy.md
   - name: Security
     href: ./resources/security.md
+- name: Frequently asked questions
+  href: faq.md
 - name: Windows IoT Distributors
   href: ./windows-iot-distributors.md
 - name: Downloads
   href: ./Downloads.md
 - name: Code Samples
   href:  https://aka.ms/winiotsamples
-- name: Frequently Asked Questions
-  href: ./FAQ.md
 - name: Contact us
   href: ./Contact-Us.md
