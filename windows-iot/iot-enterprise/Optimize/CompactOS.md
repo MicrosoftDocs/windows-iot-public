@@ -107,7 +107,7 @@ Compact.exe /C /S:"c:\Program Files (x86)\target custom program folder" *writabl
 >[!note]
 >Windows IoT Enterprise OEMs are expected to conduct thorough tests to assess perf impact of applying such additional compression beyond Compact OS against their fixed scenarios.
 
-# More Resources
+## More Resources
 
 - [Device Optimization Overview](Overview.md)
 - [Compact OS, single-instancing, and image optimization](/windows-hardware/manufacture/desktop/compact-os)
