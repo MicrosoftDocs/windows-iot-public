@@ -14,8 +14,10 @@ keywords: IoT Enterprise, Security, services
 
 **Applies to:**
 
-- Windows 10 IoT Enterprise
-- Windows 11 IoT Enterprise
+Applies to:  
+✅ Windows 11 IoT Enterprise
+✅ Windows 10 IoT Enterprise
+✅ Windows 10 IoT Enterprise LTSC 2021
 
 ##
 

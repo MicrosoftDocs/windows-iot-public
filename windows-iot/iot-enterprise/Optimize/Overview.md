@@ -13,6 +13,11 @@ keywords: IoT Enterprise, Overview, Optimization
 
 # Device Optimization Overview
 
+Applies to:  
+✅ Windows 11 IoT Enterprise
+✅ Windows 10 IoT Enterprise
+✅ Windows 10 IoT Enterprise LTSC 2021
+
 Windows IoT Enterprise is configured to run with 2GB RAM and 16GB flash configurations on the [LTSC SKU](/windows/iot/iot-enterprise/commercialization/licensing#long-term-servicing-channel-ltsc) only. For other editions of Windows IoT Enterprise, please review and follow the appropriate [hardware requirements](/windows/iot/iot-enterprise/hardware/hardware_requirements).
 
 ## Building an Optimized Device
