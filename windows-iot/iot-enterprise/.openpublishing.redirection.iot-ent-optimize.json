@@ -4,7 +4,12 @@
 
     {
         "source_path_from_root": "/Windows-iot/iot-enterprise/optimize-your-device/iot-ent-optimize-image.md",
-        "redirect_url": "/windows/iot/iot-enterprise/optimize/iot-ent-optimize-image"
+        "redirect_url": "/windows/iot/iot-enterprise/optimize/overview"
+    },
+
+    {
+        "source_path_from_root": "/Windows-iot/iot-enterprise/optimize/iot-ent-optimize-image.md",
+        "redirect_url": "/windows/iot/iot-enterprise/optimize/overview"
     },
 
     {
@@ -14,9 +19,13 @@
 
     {
         "source_path_from_root": "/Windows-iot/iot-enterprise/optimize-your-device/reduce-disk-footprint.md",
-        "redirect_url": "/windows/iot/iot-enterprise/optimize/reduce-disk-footprint"
+        "redirect_url": "/windows/iot/iot-enterprise/optimize/overview"
     },
 
+    {
+        "source_path_from_root": "/Windows-iot/iot-enterprise/optimize/reduce-disk-footprint.md",
+        "redirect_url": "/windows/iot/iot-enterprise/optimize/overview"
+    },
     {
         "source_path_from_root": "/Windows-iot/iot-enterprise/optimize-your-device/removable-packages.md",
         "redirect_url": "/windows/iot/iot-enterprise/optimize/removable-packages"
