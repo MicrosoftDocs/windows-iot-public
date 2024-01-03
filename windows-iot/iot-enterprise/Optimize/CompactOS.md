@@ -1,12 +1,13 @@
 ---
-description: Using Compact OS with Windows IoT Enterprise
-title: Using Compact OS with Windows IoT Enterprise
-ms.date: 09/26/2023
+title: Using Compact OS
+titleSuffix: Windows IoT Enterprise
+ms.date: 01/03/2024
 ms.topic: article
 author: TerryWarwick
 ms.author: twarwick
 ms.prod: windows-iot
 ms.technology: iot
+description: Using Compact OS with Windows IoT Enterprise
 
 ---
 
