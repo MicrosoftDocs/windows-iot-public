@@ -1,5 +1,6 @@
 ---
 title: Hardware Requirements
+titleSuffix: Windows IoT Enterprise
 author: TerryWarwick
 ms.author: twarwick
 ms.date: 09/26/2023
