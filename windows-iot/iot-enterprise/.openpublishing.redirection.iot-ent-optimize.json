@@ -3,6 +3,11 @@
 "redirections": [
 
     {
+        "source_path_from_root": "/Windows-iot/iot-enterprise/optimize-your-device/iot-ent-optimize-image.md",
+        "redirect_url": "/windows/iot/iot-enterprise/optimize/overview"
+    },
+    
+    {
         "source_path_from_root": "/Windows-iot/iot-enterprise/optimize-your-device/iot-ent-optimize-images.md",
         "redirect_url": "/windows/iot/iot-enterprise/optimize/overview"
     },
