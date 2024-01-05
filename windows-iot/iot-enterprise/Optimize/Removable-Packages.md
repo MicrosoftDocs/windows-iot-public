@@ -18,9 +18,9 @@ Applies to:
 
 ## Overview
 
-In addition to the image customizing provided by '[Enable or Disable Windows Features using DISM](/windows-hardware/manufacture/desktop/enable-or-disable-windows-features-using-dism)' and '[Features on Demand](/windows-hardware/manufacture/desktop/features-on-demand-v2--capabilities)', a device builder can remove extra packages from Windows IoT Enterprise LTSC using the methods described in this article.
+While all Windows editions can reduce on-disk footprint by removal of unnecessary [Features on Demand](/windows-hardware/manufacture/desktop/features-on-demand-v2--capabilities) and [Legacy Optional Components](/windows-hardware/manufacture/desktop/enable-or-disable-windows-features-using-dism), Windows IoT Enterprise LTSC provides support for the removal of even more feature packages.
 
-Using the desktop manufacturing process to '[Modify a Windows image](/windows-hardware/manufacture/desktop/modify-an-image)', a device maker may use either '[Online servicing](/windows-hardware/manufacture/desktop/audit-mode-overview)' or '[Offline Servicing](/windows-hardware/manufacture/desktop/mount-and-modify-a-windows-image-using-dism)' methods to completely remove packages in the list below from the '[Windows Component Store](/windows-hardware/manufacture/desktop/manage-the-component-store)'. Once packages are removed from the Windows Component Store, they can't be added back to the operating system. Restoring removed packages requires a reinstallation of the operating system.
+Using the desktop manufacturing process to [Modify a Windows image](/windows-hardware/manufacture/desktop/modify-an-image), a device maker can use either [Online servicing](/windows-hardware/manufacture/desktop/audit-mode-overview) or [Offline Servicing](/windows-hardware/manufacture/desktop/mount-and-modify-a-windows-image-using-dism) methods to completely remove packages in the following table from the [Windows Component Store](/windows-hardware/manufacture/desktop/manage-the-component-store). Once packages are removed from the Windows Component Store, they can't be added back to the operating system. Restoring removed packages requires a reinstallation of the operating system.
 
 > [!IMPORTANT]
 >
@@ -59,11 +59,11 @@ This feature is supported on Windows 10 IoT Enterprise LTSC 2021 (build 19044.17
 
 ## Package Reference
 
-The following packages can be removed from Windows IoT Enterprise LTSC 2021.  Click on each package name to see more details about the package payload.
+The following packages can be removed from Windows IoT Enterprise LTSC 2021.  Select each package name to see more details about the package payload.
 
 | Removable Package  | Description | Size |
 |:-------------------|-------------|-----:|
-| [Language Word Breaking Legacy](removable-packages/LanguageFeatures-Wordbreaking-Common-legacy.md) | Legacy neutral word breaker, should only be needed in occasional application compatibility scenarios. | 1,542 KB |
+| [Language Word Breaking Legacy](removable-packages/LanguageFeatures-Wordbreaking-Common-legacy.md) | Legacy neutral word breaker should only be needed in occasional application compatibility scenarios. | 1,542 KB |
 | [Media Foundation](removable-packages/Microsoft-Media-Foundation.md)                                     | Component of the [Media Feature Pack](/windows/win32/wmdm/windows-media-device-manager-architecture) comprised of [Microsoft Media Foundation](/windows/win32/medfound/microsoft-media-foundation-sdk) enables the development of applications and components for using digital media. [Supported Media Formats in Media Foundation](/windows/win32/medfound/supported-media-formats-in-media-foundation).   | 63,747 KB |
 | [Supplemental Fonts](removable-packages/Microsoft-OneCore-Fonts-DesktopFonts-NonLeanSupplement.md) | Fonts: [Malgun Gothic](/typography/font-list/malgun-gothic), [Microsoft JhengHei](/typography/font-list/microsoft-jhenghei), [Microsoft YaHei](/typography/font-list/microsoft-yahei), [Yu Gothic](/typography/font-list/yu-gothic) | 113,251 KB |
 | [User Experience Virtualization](removable-packages/Microsoft-Windows-AppManagement-UEV.md)                   | [User Experience Virtualization](/windows/configuration/ue-v/uev-for-windows) | 13,752 KB |
