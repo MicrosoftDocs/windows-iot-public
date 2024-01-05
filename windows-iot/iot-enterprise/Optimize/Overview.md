@@ -28,6 +28,8 @@ OEMs must consider their device scenarios and plan ahead if they choose to use m
 
 OEMs must also plan to have potential minor expansions of the LTSC working-set and storage requirements due to security patching. -->
 
+Windows IoT Enterprise optimizations provide multiple approaches to tailor specialized device deployments by reduce storage and memory requirements of the operating system.  While Windows IoT Enterprise can use many optimization methods that are available to other editions of Windows, Windows IoT Enterprise has extra optimization methods designed for fixed-function specialized devices.
+
 ## Optimization features specific to Windows IoT Enterprise
 
 The features listed in this table are unique to Windows IoT Enterprise.
