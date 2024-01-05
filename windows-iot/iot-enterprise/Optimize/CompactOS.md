@@ -1,5 +1,5 @@
 ---
-title: Using Compact OS
+title: Using Compact OS to optimize storage footprint
 titleSuffix: Windows IoT Enterprise
 ms.date: 01/03/2024
 ms.topic: article
@@ -14,9 +14,9 @@ description: Using Compact OS with Windows IoT Enterprise
 # Using Compact OS with Windows IoT Enterprise
 
 Applies to:  
-✅ Windows 11 IoT Enterprise
-✅ Windows 10 IoT Enterprise
-✅ Windows 10 IoT Enterprise LTSC 2021
+✅ Windows 11 IoT Enterprise  
+✅ Windows 10 IoT Enterprise  
+✅ Windows 10 IoT Enterprise LTSC 2021  
 
  Compact OS installs the operating system files as compressed files and lets you run the operating system from the compressed files to save disk space.  Compact OS can be enabled or disabled on the fly and is supported on both UEFI-based and BIOS-based devices.
 

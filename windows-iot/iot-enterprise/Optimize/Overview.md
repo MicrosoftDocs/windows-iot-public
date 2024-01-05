@@ -3,7 +3,7 @@ title: Device Optimization Overview
 titleSuffix: Windows IoT Enterprise
 author: TerryWarwick
 ms.author: twarwick
-ms.date: 12/22/2023
+ms.date: 01/04/2024
 ms.topic: article
 ms.prod: windows-iot
 ms.technology: iot
@@ -30,16 +30,18 @@ OEMs must also plan to have potential minor expansions of the LTSC working-set a
 
 ## Optimization features specific to Windows IoT Enterprise
 
-| Feature            | Description |
-|--------------------|-------------|
-| **Removable Packages**       | In addition to Features on Demand and Legacy Optional Components, Windows IoT Enterprise LTSC supports the removal of additional packages. For more informaion, see [Removable Packages Overview](Removable-Packages.md). |
-| **Enable/Disable Services**  | The Windows operating system includes many system services which may be configured to start automatically, start manually or disabled by default. Some services may be deemed not required for specific fixed function devices and as such can be disabled.  For additional information, see [Disabling system services on Windows IoT Enterprise](Services.md). |
-
-## Optimization features available in Windows
+The featues  
 
 | Feature            | Description |
 |--------------------|-------------|
-| **Features on Demand** | Features on Demand (FODs) are Windows features that can be added at any time, such as [language packs](/windows-hardware/manufacture/desktop/features-on-demand-language-fod), network drivers, networking tools and wireless display. For more information, see [Features On Demand Overview](/windows-hardware/manufacture/desktop/features-on-demand-v2--capabilities) and [Available Features on Demand](/windows-hardware/manufacture/desktop/features-on-demand-non-language-fod). |
+| [Removable Packages](Removable-Packages.md)       | In addition to Features on Demand and Legacy Optional Components, Windows IoT Enterprise LTSC supports the removal of additional packages. |
+| [Enable/Disable Services](Services.md)  | The Windows operating system includes many system services which may be configured to start automatically, start manually or disabled by default. Some services may be deemed not required for specific fixed function devices and as such can be disabled. |
+
+## More optimization features available in Windows
+
+| Feature            | Description |
+|--------------------|-------------|
+| Features on Demand | Features on Demand (FODs) are Windows features that can be added at any time, such as [language packs](/windows-hardware/manufacture/desktop/features-on-demand-language-fod), network drivers, networking tools and wireless display. For more information, see [Features On Demand Overview](/windows-hardware/manufacture/desktop/features-on-demand-v2--capabilities) and [Available Features on Demand](/windows-hardware/manufacture/desktop/features-on-demand-non-language-fod). |
 | **Languages**  | Many display languages and language features are also delivered as Features on Demand. You can save disk space by choosing not to include some language components in your image. For more information, see [Language Features on Demand](/windows-hardware/manufacture/desktop/features-on-demand-language-fod)|
 | **Legacy Optional Features** | Prior to the introduction of Features on Demand, Optional Features were offered through Control Panel - Turn Windows Features On or Off and many are still managed in this way.  For more information, see [Enable or Disable Windows Features using DISM](/windows-hardware/manufacture/desktop/enable-or-disable-windows-features-using-dism). |
 | **Drivers** | Remove unnecessary drivers.  For more information, see [Add and Remove Driver packages to an offline Windows Image](/windows-hardware/manufacture/desktop/add-and-remove-drivers-to-an-offline-windows-image).  |
