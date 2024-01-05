@@ -14,9 +14,9 @@ keywords: IoT Enterprise, Overview, Optimization
 # Device Optimization Overview
 
 Applies to:  
-✅ Windows 11 IoT Enterprise
-✅ Windows 10 IoT Enterprise
-✅ Windows 10 IoT Enterprise LTSC 2021
+✅ Windows 11 IoT Enterprise  
+✅ Windows 10 IoT Enterprise  
+✅ Windows 10 IoT Enterprise LTSC 2021  
 
 Windows IoT Enterprise provides several features to help device makers create highly curated, fixed-function, specialized devices. In some cases, this includes optimization of storage and memory consumption. This article provides a overview of the optimization features available for Windows IoT Enterprise.
 
