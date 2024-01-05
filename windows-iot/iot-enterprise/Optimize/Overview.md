@@ -18,15 +18,9 @@ Applies to:
 ✅ Windows 10 IoT Enterprise
 ✅ Windows 10 IoT Enterprise LTSC 2021
 
-<!-- Windows IoT Enterprise is configured to run with 2 GB RAM and 16 GB flash configurations on the [LTSC SKU](/windows/iot/iot-enterprise/commercialization/licensing#long-term-servicing-channel-ltsc) only. For other editions of Windows IoT Enterprise, please review and follow the appropriate [hardware requirements](/windows/iot/iot-enterprise/hardware/hardware_requirements). -->
+Windows IoT Enterprise provides several features to help device makers create highly curated, fixed-function, specialized devices. In some cases, this includes optimization of storage and memory consumption. This article provides a overview of the optimization features available for Windows IoT Enterprise.
 
 ## Building an Optimized Device
-
-<!-- Windows IoT devices are considered [fixed purpose](/windows/iot/iot-enterprise/commercialization/licensing#fixed-purpose-devices) and OEMs are responsible for the configuration and validation of their devices.
-
-OEMs must consider their device scenarios and plan ahead if they choose to use mechanisms like standard [Windows Update](/windows/iot/iot-enterprise/device-management/device-management-overview#update-management) versus [alternative image reflash mechanisms](/windows/iot/iot-enterprise/device-management/reset-and-recovery) and/or other service components that may periodically expect more memory than your base configuration, such as [Azure IoT Edge for Linux on Windows](/windows/iot/iot-enterprise/azure-iot-edge-for-linux-on-windows).
-
-OEMs must also plan to have potential minor expansions of the LTSC working-set and storage requirements due to security patching. -->
 
 Windows IoT Enterprise optimizations provide multiple approaches to tailor specialized device deployments by reduce storage and memory requirements of the operating system.  While Windows IoT Enterprise can use many optimization methods that are available to other editions of Windows, Windows IoT Enterprise has extra optimization methods designed for fixed-function specialized devices.
 
