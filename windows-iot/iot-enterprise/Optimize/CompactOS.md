@@ -1,7 +1,7 @@
 ---
 title: Using Compact OS to optimize storage footprint
 titleSuffix: Windows IoT Enterprise
-ms.date: 01/04/2024
+ms.date: 01/08/2024
 ms.topic: article
 author: TerryWarwick
 ms.author: twarwick
@@ -111,7 +111,7 @@ Compact.exe /C /S:"c:\Program Files (x86)\target custom program folder" *writabl
 ```
 
 >[!note]
->Windows IoT Enterprise OEMs are expected to conduct thorough tests to assess perf impact of applying such additional compression beyond Compact OS against their fixed scenarios.
+>Windows IoT Enterprise OEMs are expected to conduct thorough tests to assess performance impact of applying such additional compression beyond Compact OS against their fixed scenarios.
 
 ## More Resources
 
