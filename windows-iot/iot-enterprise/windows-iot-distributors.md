@@ -106,7 +106,7 @@ Distributors can leverage their Windows IoT development experiences, and knowled
  | Estonia, Latvia, Lithuania | Elbacom GmbH | Zsolt Szanya</br>[z.szanya@elbacom.com](mailto:z.szanya@elbacom.com) | +36 (30) 7480458 |
  | Poland | Elbacom GmbH | Tomasz Legat</br>[t.legat@elbacom.com](mailto:t.legat@elbacom.com) | +48 (71) 3399247 |
  | Czech Republic, Slovakia | Elbacom GmbH | Michal Šaštinský</br>[m.sastinsky@elbacom.com](mailto:m.sastinsky@elbacom.com) | +421 (911) 464 089 |
- | Bosnia and Herzegovina,</br>Croatia, Kosovo, Macedonia,</br>Montenegro, Serbia, Slovenia | Elbacom GmbH | Uros Ribic</br>[u.ribic@elbacom.com](mailto:u.ribic@elbacom.com) | +386 (70) 431288 |
+ | Bosnia and Herzegovina,</br>Croatia, Kosovo, North Macedonia,</br>Montenegro, Serbia, Slovenia | Elbacom GmbH | Uros Ribic</br>[u.ribic@elbacom.com](mailto:u.ribic@elbacom.com) | +386 (70) 431288 |
  | Benelux | Elbacom GmbH | Danny Vermeylen</br>[d.vermeylen@elbacom.com](mailto:d.vermeylen@elbacom.com) | +32 (479) 981303 |
  | France | Elbacom GmbH | Pascal Angee   </br>[p.angee@elbacom.com](mailto:p.angee@elbacom.com) | +33 (6) 64404536 |
  | Germany | Elbacom GmbH | Andreas Ahamer</br>[a.ahamer@elbacom.com](mailto:a.ahamer@elbacom.com) | +49 (160) 6712039 |
