@@ -3,7 +3,7 @@ title: Guidance on configuring system services
 titleSuffix: Windows IoT Enterprise
 author: TerryWarwick
 ms.author: twarwick
-ms.date: 01/04/2024
+ms.date: 01/09/2024
 ms.topic: article
 ms.prod: windows-iot
 ms.technology: iot
@@ -44,7 +44,7 @@ When a user signs in to Windows, the OS creates per-user services. When the user
 
 The following table lists per-user services in the current version of Windows. Other versions of Windows 10/11 might not have the same services available. Before you reconfigure any of these services, review this information to understand the implications. For example, if you disable the per-user service, there might be dependent apps that don't work correctly.
 
-| **Service Name | Startup&nbsp;Type</br>(Default)| Recommendation | Description&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; |
+| Service Name | Startup&nbsp;Type</br>(Default)| Recommendation | Description&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; |
 |--|--|--|--|
 | **Agent Activation runtime** </br> (AarSvc)                                                              | Manual                          | ⛔&nbsp;Don't&nbsp;disable           | Runtime for activating conversational agent applications. |
 | **Bluetooth User Support Service** </br> (BluetoothUserService)                                          | Manual                          | 🟢&nbsp;OK&nbsp;to&nbsp;disable      | Supports proper functionality of Bluetooth features relevant to each user session. |
@@ -74,7 +74,7 @@ The following table lists per-user services in the current version of Windows. O
 
 The following table lists system services in the current version of Windows IoT Enterprise. Other versions of Windows IoT Enterprise might not have the same services available. Before you reconfigure any of these services, review this information to understand the implications. 
 
-| **Service Name | Startup&nbsp;Type</br>(Default)| Recommendation | Description&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; |
+| Service Name | Startup&nbsp;Type</br>(Default)| Recommendation | Description&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; |
 |--|--|--|--|
 | **ActiveX Installer** </br> (AxInstSV)                                                                   | Manual                          | 🟢&nbsp;OK&nbsp;to&nbsp;disable      | Provides User Account Control validation for the installation of ActiveX controls from the Internet and enables management of ActiveX control installation based on Group Policy settings. This service is started on demand and if disabled the installation of ActiveX controls behaves according to default browser settings. |
 | **AllJoyn Router Service** </br> (AJRouter)                                                              | Manual                          | 🟢&nbsp;OK&nbsp;to&nbsp;disable      | Routes AllJoyn messages for the local AllJoyn clients. If this service is stopped the AllJoyn clients that don't have their own bundled routers are unable to run. |
