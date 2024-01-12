@@ -54,5 +54,4 @@ A component of the [Media Feature Pack](/windows/win32/wmdm/windows-media-device
 ## More Resources
 
 - [Removable Packages](../Removable-Packages.md)
-- [Reduce Disk Footprint](../Reduce-Disk-Footprint.md)
 - [Device Optimization Overview](../Overview.md)
