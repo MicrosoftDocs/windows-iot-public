@@ -27,5 +27,5 @@ This Manufacturing Guide consists of a series of labs that walk through how to b
 ## Related articles
 
 - [Script-based image customization and deployment](https://github.com/ms-iot/windows-iotent-deploy)
-- [Optimize a Windows IoT Enterprise image](../optimize/iot-ent-optimize-images.md)
+- [Optimize a Windows IoT Enterprise image](../optimize/overview.md)
 - [Edge Device Image Builder Preview](/windows-hardware/manufacture/desktop/edib)
