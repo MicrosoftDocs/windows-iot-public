@@ -1,8 +1,9 @@
 ---
 title: Removable Packages Overview
+titleSuffix: Windows IoT Enterprise
 author: twarwick
 ms.author: twarwick
-ms.date: 03/30/2023
+ms.date: 01/03/2024
 ms.topic: article
 ms.prod: windows-iot
 ms.technology: iot
@@ -12,15 +13,14 @@ keywords: IoT Enterprise, removable packages, storage
 
 # Removable Packages
 
-| Applies to                          |  Version            |
-|:------------------------------------|:--------------------|
-| Windows 10 IoT Enterprise LTSC 2021 | 19044.1741 or later |
+Applies to:  
+✅ Windows 10 IoT Enterprise LTSC 2021 (19044.1741 or later)  
 
 ## Overview
 
-In addition to the image customizing provided by '[Enable or Disable Windows Features using DISM](/windows-hardware/manufacture/desktop/enable-or-disable-windows-features-using-dism)' and '[Features on Demand](/windows-hardware/manufacture/desktop/features-on-demand-v2--capabilities)', a device builder can remove extra packages from Windows IoT Enterprise LTSC using the methods described in this article.
+While all Windows editions can reduce on-disk footprint by removal of unnecessary [Features on Demand](/windows-hardware/manufacture/desktop/features-on-demand-v2--capabilities) and [Legacy Optional Components](/windows-hardware/manufacture/desktop/enable-or-disable-windows-features-using-dism), Windows IoT Enterprise LTSC provides support for the removal of even more feature packages.
 
-Using the desktop manufacturing process to '[Modify a Windows image](/windows-hardware/manufacture/desktop/modify-an-image)', a device maker may use either '[Online servicing](/windows-hardware/manufacture/desktop/audit-mode-overview)' or '[Offline Servicing](/windows-hardware/manufacture/desktop/mount-and-modify-a-windows-image-using-dism)' methods to completely remove packages in the list below from the '[Windows Component Store](/windows-hardware/manufacture/desktop/manage-the-component-store)'. Once packages are removed from the Windows Component Store, they can't be added back to the operating system. Restoring removed packages requires a reinstallation of the operating system.
+Using the desktop manufacturing process to [Modify a Windows image](/windows-hardware/manufacture/desktop/modify-an-image), a device maker can use either [Online servicing](/windows-hardware/manufacture/desktop/audit-mode-overview) or [Offline Servicing](/windows-hardware/manufacture/desktop/mount-and-modify-a-windows-image-using-dism) methods to completely remove packages in the following table from the [Windows Component Store](/windows-hardware/manufacture/desktop/manage-the-component-store). Once packages are removed from the Windows Component Store, they can't be added back to the operating system. Restoring removed packages requires a reinstallation of the operating system.
 
 > [!IMPORTANT]
 >
@@ -33,7 +33,7 @@ This feature is supported on Windows 10 IoT Enterprise LTSC 2021 (build 19044.17
 > [!NOTE]
 >
 > To use this feature with Windows 10 IoT Enterprise LTSC 2021, you must first install a servicing update.  
-
+>
 > - Option 1: Go to Start > Settings > Windows Update then check for and apply all available updates before proceeding.
 > - Option 2: Manually download and install  [KB5014023](https://support.microsoft.com/topic/june-2-2022-kb5014023-os-builds-19042-1741-19043-1741-and-19044-1741-preview-65ac6a5d-439a-4e88-b431-a5e2d4e2516a) or any of its successors.
 
@@ -59,18 +59,18 @@ This feature is supported on Windows 10 IoT Enterprise LTSC 2021 (build 19044.17
 
 ## Package Reference
 
-The following packages can be removed from Windows IoT Enterprise LTSC 2021.  Click on each package name to see more details about the package payload.
+The following packages can be removed from Windows IoT Enterprise LTSC 2021.  Select each package name to see more details about the package payload.
 
 | Removable Package  | Description | Size |
 |:-------------------|-------------|-----:|
-| [Language Word Breaking Legacy](removable-packages/LanguageFeatures-Wordbreaking-Common-legacy.md) | Legacy neutral word breaker, should only be needed in occasional application compatibility scenarios. | 1,542 KB |
+| [Language Word Breaking Legacy](removable-packages/LanguageFeatures-Wordbreaking-Common-legacy.md) | Legacy neutral word breaker should only be needed in occasional application compatibility scenarios. | 1,542 KB |
 | [Media Foundation](removable-packages/Microsoft-Media-Foundation.md)                                     | Component of the [Media Feature Pack](/windows/win32/wmdm/windows-media-device-manager-architecture) comprised of [Microsoft Media Foundation](/windows/win32/medfound/microsoft-media-foundation-sdk) enables the development of applications and components for using digital media. [Supported Media Formats in Media Foundation](/windows/win32/medfound/supported-media-formats-in-media-foundation).   | 63,747 KB |
 | [Supplemental Fonts](removable-packages/Microsoft-OneCore-Fonts-DesktopFonts-NonLeanSupplement.md) | Fonts: [Malgun Gothic](/typography/font-list/malgun-gothic), [Microsoft JhengHei](/typography/font-list/microsoft-jhenghei), [Microsoft YaHei](/typography/font-list/microsoft-yahei), [Yu Gothic](/typography/font-list/yu-gothic) | 113,251 KB |
 | [User Experience Virtualization](removable-packages/Microsoft-Windows-AppManagement-UEV.md)                   | [User Experience Virtualization](/windows/configuration/ue-v/uev-for-windows) | 13,752 KB |
 | [Bio Enrollment Experience](removable-packages/Microsoft-Windows-BioEnrollment-UX.md)                     | [Windows Hello](/windows-hardware/design/device-experiences/windows-hello) | 3,589 KB |
 | [Boot Environment DVD](removable-packages/Microsoft-Windows-BootEnvironment-Dvd.md)               | Boot from DVD | 9,108 KB |
 | [Windows Media Format](removable-packages/Microsoft-Windows-Media-Format.md)                             | A component of the [Media Feature Pack](/windows/win32/wmdm/windows-media-device-manager-architecture) comprised of support for [Windows Media Device Manager](/windows/win32/wmdm/windows-media-device-manager-architecture),  [Advanced Systems Format](/windows/win32/wmformat/overview-of-the-asf-format) (ASF) file container, Windows Media audio and video codecs, basic network streaming, and [Digital Rights Management](/windows/win32/wmformat/overview-of-windows-media-drm). | 5,559 KB |
-| [Media Features Optional Component](removable-packages/Microsoft-Windows-MediaPlayback-OC.md)                     | Controls availability of the "Media Features" and "Windows Media Player" options for the *Turn Windows features on or off* user experience in Control Panel. | 0 KB
+| [Media Features Optional Component](removable-packages/Microsoft-Windows-MediaPlayback-OC.md)                     | Controls availability of the "Media Features" and "Windows Media Player" options for the *Turn Windows features on or off* user experience in Control Panel. | 0 KB |
 | [Windows Media Streaming](removable-packages/Microsoft-Windows-Media-Streaming.md)                       | A component of the [Media Feature Pack](/windows/win32/wmdm/windows-media-device-manager-architecture) providing support for [Windows Media Streaming](/windows/win32/mediastreaming/media-streaming-api-portal). | 6,644 KB |
 | [Windows Portable Devices](removable-packages/Microsoft-Windows-Portable-Devices.md)                     | A component of the [Media Feature Pack](/windows/win32/wmdm/windows-media-device-manager-architecture) providing connectivity to portable devices for [Windows Media Device Manager](/windows/win32/wmdm/windows-media-device-manager-architecture). | 6,405 KB |
 | [Printer Drivers](removable-packages/Microsoft-Windows-Printer-Drivers.md)                       | Generic / Text Only, Generic IBM Graphics 9pin, Generic IBM Graphics 9-pin wide, MS Publisher Color Printer, MS Publisher Imagesetter, Microsoft Shared Fax Driver | 8,200 KB |
@@ -86,7 +86,6 @@ The following packages can be removed from Windows IoT Enterprise LTSC 2021.  Cl
 
 ## More Resources
 
-- [Reduce Disk Footprint](Reduce-Disk-Footprint.md)
 - [Device Optimization Overview](Overview.md)
 - [Removable Packages Blog](https://aka.ms/RemovablePackagesBlog)
 - [Removable Packages Script](https://aka.ms/RemovablePackagesScript)
