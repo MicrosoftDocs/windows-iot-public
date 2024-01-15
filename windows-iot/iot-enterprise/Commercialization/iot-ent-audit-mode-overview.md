@@ -4,8 +4,8 @@ author: TerryWarwick
 ms.author: twarwick
 ms.date: 1/5/2021
 ms.topic: article
-ms.prod: windows-iot
-ms.technology: iot
+ms.service: windows-iot
+ms.subservice: iot
 description: Learn about the OEM Customization features of Windows 10 IoT Enterprise.
 keywords: IoT Enterprise, OEM Software, manufacture, Distributor
 ---

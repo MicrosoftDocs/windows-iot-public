@@ -3,9 +3,9 @@ title: Setting up an NXP i.MX EVK device
 description: Setting up an NXP i.MX8 EVK device 
 author: terrywarwick
 ms.author: twarwick
-ms.prod: windows-iot
+ms.service: windows-iot
 ms.topic: tutorial 
-ms.technology: iot
+ms.subservice: iot
 ms.date: 10/20/2023
 ---
 

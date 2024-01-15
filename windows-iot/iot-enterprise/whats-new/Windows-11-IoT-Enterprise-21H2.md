@@ -5,8 +5,8 @@ author: TerryWarwick
 ms.author: twarwick
 ms.date: 01/11/2024
 ms.topic: article
-ms.prod: windows-iot
-ms.technology: iot
+ms.service: windows-iot
+ms.subservice: iot
 keywords: Windows IoT Enterprise, Windows 11, Windows 11 IoT, Windows 11 IoT Enterprise
 ---
 

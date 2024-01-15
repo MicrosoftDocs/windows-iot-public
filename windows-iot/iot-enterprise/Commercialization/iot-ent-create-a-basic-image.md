@@ -5,8 +5,8 @@ ms.date: 06/13/2023
 ms.topic: article
 author: TerryWarwick
 ms.author: twarwick
-ms.prod: windows-iot
-ms.technology: iot
+ms.service: windows-iot
+ms.subservice: iot
 ---
 
 
