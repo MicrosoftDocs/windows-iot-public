@@ -8,8 +8,8 @@ metadata:
   title: Windows for IoT Documentation
   description: The Windows for IoT platform has multiple editions, each optimized for specific scenarios. They all share the security, manageability, support and cloud connectivity you expect from Windows.
   ms.topic: hub-page
-  ms.prod: windows-iot
-  ms.technology: iot
+  ms.service: windows-iot
+  ms.subservice: iot
   author: TerryWarwick
   ms.author: TWarwick
   ms.date: 10/31/2023
