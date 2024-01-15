@@ -5,27 +5,34 @@ author: TerryWarwick
 ms.author: twarwick
 ms.prod: windows-iot
 ms.technology: iot
-ms.date: 08/15/2023
+ms.date: 01/15/2024
 ms.topic: article
 
 
 ---
 # Keyboard Filter
 
-You can use Keyboard Filter to suppress undesirable key presses or key combinations. Normally, a customer can use certain Microsoft Windows key combinations like Ctrl+Alt+Delete or Ctrl+Shift+Tab to alter the operation of a device by locking the screen or using Task Manager to close a running application. This may not be desirable if your device is intended for a dedicated purpose.
+You can use Keyboard Filter to suppress undesirable key presses or key combinations. Normally, a customer can use certain Microsoft Windows key combinations like Ctrl+Alt+Delete or Ctrl+Shift+Tab to alter the operation of a device by locking the screen or using Task Manager to close a running application. This behavior might not be desirable if your device is intended for a dedicated purpose.
 
-The Keyboard Filter feature works with physical keyboards, the Windows on-screen keyboard, and the touch keyboard. Switching from one language to another may cause the location of suppressed keys on the keyboard layout to change. Keyboard Filter detects these dynamic layout changes and continues to suppress keys correctly.
+The Keyboard Filter feature works with physical keyboards, the Windows on-screen keyboard, and the touch keyboard. Switching from one language to another might cause the location of suppressed keys on the keyboard layout to change. Keyboard Filter detects these dynamic layout changes and continues to suppress keys correctly.
 
 > [!NOTE]
 > Keyboard filter is not supported in a remote desktop session.
 
 ## Requirements
 
-Windows 10 Enterprise or Windows 10 Education.
+Keyboard Filter can be enabled on:
+
+- Windows 10 Enterprise
+- Windows 10 IoT Enterprise
+- Windows 10 Education
+- Windows 11 Enterprise
+- Windows 11 IoT Enterprise
+- Windows 11 Education
 
 ## Terminology
 
-* **Turn on, enable:** To make the setting available to the device and optionally apply the settings to the device. Generally *turn on* is used in the user interface or control panel, whereas *enable* is used for command line.
+* **Turn on, enable:** Make the setting available to the device and optionally apply the settings to the device. Generally *turn on* is used in the user interface or control panel, whereas *enable* is used for command line.
 
 * **Configure:** To customize the setting or subsettings.
 
@@ -41,10 +48,10 @@ Turning on an off Keyboard Filter requires that you restart your device. Keyboar
 
 ### Turn on Keyboard Filter by using Control Panel
 
-1. In the **Search the web and Windows** field, type **Programs and Features** and either press **Enter** or tap or select **Programs and Features** to open it.
-1. In the **Programs and Features** window, select **Turn Windows features on or off**.
-1. In the **Windows Features** window, expand the **Device Lockdown** node, and select or clear the checkbox for **Keyboard Filter**.
-1. Select **OK**. The **Windows Features** window indicates Windows 10 is searching for required files and displays a progress bar. Once found, the window indicates Windows 10 is applying the changes. When completed, the window indicates the requested changes are completed.
+1. In the Windows search bar, type **Turn Windows features on or off** and either press **Enter** or tap or select **Turn Windows features on or off** to open the **Windows Features** window.
+1. In the **Windows Features** window, expand the **Device Lockdown** node, and select (to turn on) or clear (to turn off) the checkbox for **Keyboard Filter**.
+1. Select **OK**. The **Windows Features** window indicates that Windows is searching for required files and displays a progress bar. Once found, the window indicates that Windows is applying the changes. When completed, the window indicates the requested changes are completed.
+1. Restart your device to apply the changes.
 1. Select **Close** to close the **Windows Features** window.
 
 ### Configure Keyboard using Unattend
@@ -56,43 +63,26 @@ Turning on an off Keyboard Filter requires that you restart your device. Keyboar
 
 The Keyboard Filter settings are also available as Windows provisioning settings so you can configure these settings to be applied during the image deployment time or runtime. You can set one or all keyboard filter settings by creating a provisioning package using Windows Configuration Designer and then applying the provisioning package during image deployment time or runtime.
 
-1. Build a provisioning package in Windows Configuration Designer by following the instructions in [Create a provisioning package](/windows/configuration/provisioning-packages/provisioning-create-package).
+1. Build a provisioning package in Windows Configuration Designer by following the instructions in [Create a provisioning package](/windows/configuration/provisioning-packages/provisioning-create-package), selecting the **Advanced Provisioning** option.
 
    > [!Note]
-   > In the **Select Windows Edition** window, choose **Common to all Windows desktop editions**.
+   > In the **Choose which settings to view and configure** window, choose **Common to all Windows desktop editions**.
 
 1. On the **Available customizations** page, select **Runtime settings** &gt; **SMISettings**, and then set the desired values for the keyboard filter settings.
-1. Once you have finished configuring the settings and building the provisioning package, you can apply the package to the image deployment time or runtime. For more information, see [Apply a provisioning package](/windows/configuration/provisioning-packages/provisioning-apply-package). The process for applying the provisioning package to a Windows 10 Enterprise image is the same.
+1. Once you have finished configuring the settings and building the provisioning package, you can apply the package to the image deployment time or runtime. For more information, see [Apply a provisioning package](/windows/configuration/provisioning-packages/provisioning-apply-package).
 
 This example uses a Windows image called install.wim, but you can use the same procedure to apply a provisioning package. For more information on DISM, see [What Is Deployment Image Servicing and Management](/windows-hardware/manufacture/desktop/what-is-dism).
 
 ### Turn on and configure Keyboard Filter by using DISM
 
 1. Open a command prompt with administrator privileges.
-1. Copy install.wim to a temporary folder on hard drive (in the following steps, we assume it's called C:\\wim).
-1. Create a new directory.
-
-   ```cmd
-   md c:\wim
-   ```
-
-1. Mount the image.
-
-   ```cmd
-   dism /mount-wim /wimfile:c:\bootmedia\sources\install.wim /index:1 /MountDir:c:\wim
-   ```
-
-1. Enable the feature.
+1. Enable the feature using the following command.
 
    ```cmd
    Dism /online /Enable-Feature /FeatureName:Client-KeyboardFilter
    ```
 
-1. Commit the change.
-
-   ```cmd
-   dism /unmount-wim /MountDir:c:\wim /Commit
-   ```
+1. Once the script completes, restart the device to apply the change.
 
 ## Keyboard Filter features
 
