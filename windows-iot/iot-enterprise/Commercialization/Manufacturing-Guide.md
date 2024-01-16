@@ -12,7 +12,7 @@ keywords: IoT Enterprise, Manufacturing Guide
 
 # Manufacturing Guide Overview
 
-This Manufacturing Guide consists of a series of labs that walk through how to build. set up, and commercialize your Windows IoT Enterprise devices.
+This Manufacturing Guide consists of a series of labs that walk through how to build, set up, and commercialize your Windows IoT Enterprise devices.
 
 ## Labs
 
