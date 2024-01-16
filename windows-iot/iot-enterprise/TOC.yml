@@ -377,12 +377,10 @@
   expanded: false
   items:
   - name: Overview
-    href: ./Optimize/Overview.md
-  - name: Reduce Disk Footprint
-    href: ./Optimize/Reduce-Disk-Footprint.md
+    href: Optimize/Overview.md
   - name: CompactOS
-    href: ./Optimize/iot-ent-optimize-images.md  
-  - name: 🔵 Removable Packages
+    href: Optimize/CompactOS.md  
+  - name: Removable Packages
     expanded: false
     items:
       - name: 🔵 Overview

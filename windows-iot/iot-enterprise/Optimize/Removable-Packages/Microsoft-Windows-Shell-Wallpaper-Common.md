@@ -83,5 +83,4 @@ img0.jpg | %windir%\web\wallpaper\windows\img0.jpg |
 ## More Resources
 
 - [Removable Packages](../Removable-Packages.md)
-- [Reduce Disk Footprint](../Reduce-Disk-Footprint.md)
 - [Device Optimization Overview](../Overview.md)

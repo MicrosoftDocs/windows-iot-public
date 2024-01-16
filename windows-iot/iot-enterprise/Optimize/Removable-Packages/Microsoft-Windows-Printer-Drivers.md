@@ -78,5 +78,4 @@ Package: **Microsoft-Windows-Printer-Drivers** </br> Generic / Text Only, Generi
 ## More Resources
 
 - [Removable Packages](../Removable-Packages.md)
-- [Reduce Disk Footprint](../Reduce-Disk-Footprint.md)
 - [Device Optimization Overview](../Overview.md)

@@ -1,8 +1,10 @@
 ---
 title: Removable Packages Overview
+titleSuffix: Windows IoT Enterprise
 author: twarwick
 ms.author: twarwick
-ms.date: 12/20/2023
+ms.date: 01/15/2024
+ms.date: 01/03/2024
 ms.topic: article
 ms.prod: windows-iot
 ms.technology: iot

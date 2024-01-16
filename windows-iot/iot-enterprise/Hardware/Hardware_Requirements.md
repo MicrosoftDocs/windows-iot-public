@@ -1,8 +1,9 @@
 ---
-title: Windows IoT Enterprise Hardware Requirements
+title: Hardware Requirements
+titleSuffix: Windows IoT Enterprise
 author: TerryWarwick
 ms.author: twarwick
-ms.date: 11/22/2023
+ms.date: 01/15/2024
 ms.topic: article
 ms.prod: windows-iot
 ms.technology: iot
@@ -30,7 +31,7 @@ This specification doesn't provide compatibility and certification requirements 
 | Topic | Description |
 | ----- | ----------- |
 | Memory | Devices that run Windows IoT Enterprise must meet the following [RAM requirements](/windows-hardware/design/minimum/minimum-hardware-requirements-overview#32-memory). |
-| Storage | Devices that run Windows IoT Enterprise must include a storage device that meets the following [size requirements](/windows-hardware/design/minimum/minimum-hardware-requirements-overview#331-storage-device-size).  To achieve the minimum storage requirements, review how to [Optimize a Windows IoT Enterprise image](../Optimize/iot-ent-optimize-images.md). |
+| Storage | Devices that run Windows IoT Enterprise must include a storage device that meets the following [size requirements](/windows-hardware/design/minimum/minimum-hardware-requirements-overview#331-storage-device-size).  To achieve the minimum storage requirements, review how to [Optimize a Windows IoT Enterprise image](../Optimize/overview.md). |
 | Display | Display size requirements don't apply to Windows IoT Enterprise. |
 | Graphics | Devices that run Windows IoT Enterprise **and** require hardware accelerated graphics, must include a GPU that supports DirectX 9 or later. |
 | Networking | It's recommended that devices that run Windows IoT Enterprise include at least one network connectivity option, such as Wi-Fi or an Ethernet adapter. |

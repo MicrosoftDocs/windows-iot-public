@@ -64,5 +64,4 @@ Package: **Microsoft-Windows-BioEnrollment-UX** </br> For a complete description
 ## More Resources
 
 - [Removable Packages](../Removable-Packages.md)
-- [Reduce Disk Footprint](../Reduce-Disk-Footprint.md)
 - [Device Optimization Overview](../Overview.md)

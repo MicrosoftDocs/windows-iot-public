@@ -2,7 +2,7 @@
 title: Package - Shell Accessories
 author: twarwick
 ms.author: twarwick
-ms.date: 03/30/2023
+ms.date: 01/02/2024
 ms.topic: article
 ms.prod: windows-iot
 ms.technology: iot
@@ -71,5 +71,4 @@ Package: **Microsoft-Windows-ShellOptions** </br> Modern Calculator, Character M
 ## More Resources
 
 - [Removable Packages](../Removable-Packages.md)
-- [Reduce Disk Footprint](../Reduce-Disk-Footprint.md)
 - [Device Optimization Overview](../Overview.md)

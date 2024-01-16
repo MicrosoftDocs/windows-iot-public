@@ -2,7 +2,7 @@
 title: Package - Legacy Calculator App
 author: twarwick
 ms.author: twarwick
-ms.date: 12/20/2023
+ms.date: 01/15/2024
 ms.topic: article
 ms.prod: windows-iot
 ms.technology: iot
@@ -59,5 +59,4 @@ Package: **Microsoft-Windows-win32calc** </br> Legacy Calculator Application.
 ## More Resources
 
 - [Removable Packages](../Removable-Packages.md)
-- [Reduce Disk Footprint](../Reduce-Disk-Footprint.md)
 - [Device Optimization Overview](../Overview.md)

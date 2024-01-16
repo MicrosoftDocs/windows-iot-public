@@ -63,5 +63,4 @@ Package: **Microsoft-Windows-BootEnvironment-Dvd** </br> Boot from DVD.
 ## More Resources
 
 - [Removable Packages](../Removable-Packages.md)
-- [Reduce Disk Footprint](../Reduce-Disk-Footprint.md)
 - [Device Optimization Overview](../Overview.md)

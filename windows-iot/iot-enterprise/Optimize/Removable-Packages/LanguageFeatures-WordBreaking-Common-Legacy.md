@@ -58,5 +58,4 @@ Package: **LanguageFeatures-Wordbreaking-Common-legacy** </br> Legacy neutral wo
 ## More Resources
 
 - [Removable Packages](../Removable-Packages.md)
-- [Reduce Disk Footprint](../Reduce-Disk-Footprint.md)
 - [Device Optimization Overview](../Overview.md)
