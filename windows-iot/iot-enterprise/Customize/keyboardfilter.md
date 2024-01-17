@@ -52,7 +52,6 @@ Turning on an off Keyboard Filter requires that you restart your device. Keyboar
 1. In the **Windows Features** window, expand the **Device Lockdown** node, and select (to turn on) or clear (to turn off) the checkbox for **Keyboard Filter**.
 1. Select **OK**. The **Windows Features** window indicates that Windows is searching for required files and displays a progress bar. Once found, the window indicates that Windows is applying the changes. When completed, the window indicates the requested changes are completed.
 1. Restart your device to apply the changes.
-1. Select **Close** to close the **Windows Features** window.
 
 ### Configure Keyboard using Unattend
 
