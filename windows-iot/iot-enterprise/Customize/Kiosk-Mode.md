@@ -2,7 +2,7 @@
 title: Kiosk Mode
 author: TerryWarwick
 ms.author: twarwick
-ms.date: 03/30/2023
+ms.date: 01/18/2024
 ms.topic: article
 ms.prod: windows-iot
 ms.technology: iot
@@ -42,10 +42,6 @@ The kiosk account can be a local standard user account, a domain account, or an 
 | Assigned access | Single-app kiosk (Microsoft Edge) | Auto launches Microsoft Edge and prevents access to other system functions, while monitoring the lifecycle of browser. Only supports one single-app kiosk profile under one account per device. | Public browsing kiosks & digital signs |
 | Assigned access | Multi-app kiosk | Always auto launches a restricted Start menu in full screen with the list of allowed app tiles. Supports configuring different multi-app kiosk profiles for different users/user groups per device. | Firstline Worker shared devices |
 | Shell launcher | Shell launcher | Auto launches an app that the customer specifies and monitors the lifecycle of this app. App can be used as a ‘shell’ if desired. No default lockdown policies like hotkey blocking are enforced in Shell Launcher. | Fixed purpose devices with a custom shell experience |
-
->[!NOTE]
->
-> Assigned access multi-app kiosk is not available in Windows 11 IoT Enterprise, Version 21H2. For More information, see [What's new in Windows 11 IoT Enterprise, version 21H2](/windows/iot/iot-enterprise/whats-new/windows-11-iot-enterprise-21H2).
 
 ## How to configure your device for kiosk mode?
 
