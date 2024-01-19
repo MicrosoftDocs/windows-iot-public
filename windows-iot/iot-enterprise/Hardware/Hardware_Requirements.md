@@ -39,16 +39,15 @@ This specification doesn't provide compatibility and certification requirements 
 
 Recommended [hardware requirements](/windows-hardware/design/minimum/minimum-hardware-requirements-overview).
 
-| Components | Recommended | Minimum |
-| ---------- | ----------- | ------- |
-| Processor  | 1 GHz, 2 Cores</br>[Supported Processors](Processor_Requirements.md) | 1 GHz, 2 Cores |
-| System Memory | 4 GB | 2 GB |
-| Storage | 64 GB | |
-| System Firmware | UEFI | |
-| TPM | TPM 2.0 | Optional |
-| UEFI Secure Boot | Enabled | Optional |
-| Display | | |
-| Camera | | |
+| Components        | Recommended    | Minimum </br> IoT&nbsp;Enterprise  | Minimum </br> IoT&nbsp;Enterprise&nbsp;LTSC |
+| ----------------- |:--------------:|:--------------:|:--------------:|
+| Processor         | 1 GHz, 2 Cores | 1 GHz, 2 Cores | 1 GHz, 2 Cores |
+| System Memory     | 4 GB           | 4 GB           | 2 GB           |
+| Storage           | 64 GB          | 64 GB          | 16 GB          |
+| System Firmware   | UEFI           | TBD            | TBD            |
+| TPM               | TPM 2.0        | Optional       | Optional       |
+| UEFI Secure Boot  | Enabled        | Optional       | Optional       |
+| Display           | 9" diagonal </br> 720p HD       | Optional       | Optional       |
 
 ## Other Resources
 
