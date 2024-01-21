@@ -4,8 +4,8 @@ author: sydbruck
 ms.author: sybruckm
 ms.date: 12/11/2023
 ms.topic: article
-ms.prod: windows-iot
-ms.technology: iot
+ms.service: windows-iot
+ms.subservice: iot
 description: Supported ARM64 Drivers for NXP i.MX
 keywords: IoT Enterprise, Device Drivers
 ---
