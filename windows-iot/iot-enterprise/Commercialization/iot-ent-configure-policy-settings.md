@@ -3,8 +3,8 @@ description: Configure policy settings on IoT devices to better control the devi
 title: Configure policy settings on IoT devices
 author: TerryWarwick
 ms.author: twarwick
-ms.prod: windows-iot
-ms.technology: iot
+ms.service: windows-iot
+ms.subservice: iot
 ms.date: 12/10/2018
 ms.topic: article
 ---

@@ -4,8 +4,8 @@ author: twarwick
 ms.author: twarwick
 ms.date: 01/02/2024
 ms.topic: article
-ms.prod: windows-iot
-ms.technology: iot
+ms.service: windows-iot
+ms.subservice: iot
 description: Removable Package Details for Microsoft-Windows-ShellOptions
 keywords: IoT Enterprise, removable packages, storage
 ---

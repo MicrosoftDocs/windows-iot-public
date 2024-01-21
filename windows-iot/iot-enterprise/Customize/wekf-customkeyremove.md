@@ -11,8 +11,8 @@ ms.date: 05/02/2017
 ms.topic: article
 author: TerryWarwick
 ms.author: twarwick
-ms.prod: windows-iot
-ms.technology: iot
+ms.service: windows-iot
+ms.subservice: iot
 ---
 # WEKF_CustomKey.Remove
 

@@ -4,8 +4,8 @@ author: TerryWarwick
 ms.author: twarwick
 ms.date: 08/16/2023
 ms.topic: article
-ms.prod: windows-iot
-ms.technology: iot
+ms.service: windows-iot
+ms.subservice: iot
 description: Learn about the Multi-App Kiosk in Windows IoT Enterprise.
 keywords: Lockdown, Multi-App, Kiosk
 ---
