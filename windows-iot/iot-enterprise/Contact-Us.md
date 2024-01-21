@@ -4,8 +4,8 @@ author: rsameser
 ms.author: riameser
 ms.date: 04/25/2022
 ms.topic: conceptual
-ms.prod: windows-iot
-ms.technology: iot
+ms.service: windows-iot
+ms.subservice: iot
 ms.custom: kr2b-contr-experiment
 description: Learn how to get support for Windows IoT Enterprise. See resources that offer assistance with questions and problems.
 keywords: IoT Enterprise, FAQ

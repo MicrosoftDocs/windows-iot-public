@@ -4,8 +4,8 @@ author: rsameser
 ms.author: riameser
 ms.date: 08/25/2020
 ms.topic: article
-ms.prod: windows-iot
-ms.technology: iot
+ms.service: windows-iot
+ms.subservice: iot
 description: Windows CE App Container Migration Getting Started Guide
 keywords: Windows 10 IoT Core, Windows CE, application migration, cepal
 ---
