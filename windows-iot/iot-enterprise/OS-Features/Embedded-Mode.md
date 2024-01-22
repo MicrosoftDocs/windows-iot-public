@@ -4,8 +4,8 @@ author: TerryWarwick
 ms.author: twarwick
 ms.date: 09/14/2023
 ms.topic: article
-ms.prod: windows-iot
-ms.technology: iot
+ms.service: windows-iot
+ms.subservice: iot
 description: Learn about the Embedded Mode features of Windows IoT Enterprise.
 keywords: IoT Enterprise, Networking
 ---

@@ -1,11 +1,11 @@
 ---
 title: What's new in Windows 10 IoT Enterprise, version 21H2
 description: Learn more about what's new in Windows 10 IoT Enterprise, version 21H2, including servicing updates, Windows Subsystem for Linux, the latest CSPs, and more.
-ms.prod: windows-iot
+ms.service: windows-iot
 author: TerryWarwick
 ms.author: twarwick
 ms.topic: article
-ms.technology: iot
+ms.subservice: iot
 ms.date: 04/04/2023
 ---
 

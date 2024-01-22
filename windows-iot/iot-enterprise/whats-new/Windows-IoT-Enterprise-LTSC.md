@@ -1,11 +1,11 @@
 ---
 title: Windows IoT Enterprise LTSC
 description: Learn about Windows IoT Enterprise LTSC.
-ms.prod: windows-iot
+ms.service: windows-iot
 author: TerryWarwick
 ms.author: twarwick
 ms.topic: article
-ms.technology: iot
+ms.subservice: iot
 ms.date: 10/20/2023
 ---
 

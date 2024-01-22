@@ -3,8 +3,8 @@ title: Windows IoT Enterprise Accessibility
 description: Learn about the Accessibility in Windows IoT Enterprise.
 author: TerryWarwick
 ms.author: twarwick
-ms.prod: windows-iot
-ms.technology: iot
+ms.service: windows-iot
+ms.subservice: iot
 ms.date: 09/25/2023
 ms.topic: article
 
