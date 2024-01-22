@@ -5,8 +5,8 @@ ms.date: 01/08/2024
 ms.topic: article
 author: TerryWarwick
 ms.author: twarwick
-ms.prod: windows-iot
-ms.technology: iot
+ms.service: windows-iot
+ms.subservice: iot
 description: Using Compact OS with Windows IoT Enterprise
 
 ---
