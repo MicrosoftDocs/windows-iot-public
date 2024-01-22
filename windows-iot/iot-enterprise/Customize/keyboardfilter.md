@@ -3,8 +3,8 @@ title: Keyboard Filter
 description: Keyboard Filter
 author: TerryWarwick
 ms.author: twarwick
-ms.prod: windows-iot
-ms.technology: iot
+ms.service: windows-iot
+ms.subservice: iot
 ms.date: 08/15/2023
 ms.topic: article
 

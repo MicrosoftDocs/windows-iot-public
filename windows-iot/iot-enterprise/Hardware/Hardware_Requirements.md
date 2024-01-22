@@ -5,8 +5,8 @@ author: TerryWarwick
 ms.author: twarwick
 ms.date: 09/26/2023
 ms.topic: article
-ms.prod: windows-iot
-ms.technology: iot
+ms.service: windows-iot
+ms.subservice: iot
 description: Learn about what Hardware is Required for Windows IoT Enterprise.
 keywords: IoT Enterprise, Hardware, Windows IoT
 ---
