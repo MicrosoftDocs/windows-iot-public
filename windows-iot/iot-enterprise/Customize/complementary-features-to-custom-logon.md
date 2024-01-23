@@ -40,7 +40,7 @@ HKLM\Software\Microsoft\Windows Embedded\EmbeddedLogon
 > [!NOTE]
 > Changing the **Base** of **BrandingNeutral** will automatically convert the value field to the selected base. To ensure you are getting the correct value, select the base before entering the value. 
 
-The following table shows the possible values. To disable multiple Welcome screen UI elements, combine these values using bitwise exclusive-or logic. Alternatively, you can select the **Decimal** base when modifying the **BrandingNeutral** value, and combine actions by adding the decimal values of the desired actions and inputting the sum as the value of **BrandingNeutral**. For example, to disable the Power button and the Language button, select the decimal option for the base, then add the decimal values of each, in this case 2 and 4 respectively, and input the total (6) as the value for **BrandingNeutral**.
+The following table shows the possible values. To disable multiple Logon screen UI elements, you can select the **Decimal** base when modifying the **BrandingNeutral** value, and combine actions by adding the decimal values of the desired actions and inputting the sum as the value of **BrandingNeutral**. For example, to disable the Power button and the Language button, select the decimal option for the base, then add the decimal values of each, in this case 2 and 4 respectively, and input the total (6) as the value for **BrandingNeutral**.
 
 | Action |Description| Registry value (Hexadecimal) | Registry value (Decimal)|
 |--------|------------|----|---|
