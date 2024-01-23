@@ -44,12 +44,12 @@ The following table shows the possible values. To disable multiple Logon screen 
 
 | Action |Description| Registry value (Hexadecimal) | Registry value (Decimal)|
 |--------|------------|----|---|
-| Disable all Logon screen UI elements |Disables the Power, Language, and Ease of Access buttons on the Logon and Ctrl+Alt+Del screens. |`static const DWORD EMBEDDED_DISABLE_LOGON_ANCHOR_ALL = 0x1` | 1|
-| Disable the Power button |Disables the Power button on the Logon and Ctrl+Alt+Del screens.|`static const DWORD EMBEDDED_DISABLE_LOGON_ANCHOR_SHUTDOWN = 0x2` |2|
-| Disable the Language button |Disables the Language button on the Logon and Ctrl+Alt+Del screens.|`static const DWORD EMBEDDED_DISABLE_LOGON_ANCHOR_LANGUAGE = 0x4` |4|
-| Disable the Ease of Access button |Disables the Ease of Access button on the Logon and Ctrl+Alt+Del screens.|`static const DWORD EMBEDDED_DISABLE_LOGON_ANCHOR_EASEOFACCESS = 0x8` |8|
-| Disable the Switch user button |Disables the Switch User button from the Ctrl+Alt+Del screen, preventing a user from switching accounts. | `static const DWORD EMBEDDED_DISABLE_BACK_BUTTON = 0x10` |16|
-|Disable the Blocked Shutdown Resolver (BSDR) screen|Disables the Blocked Shutdown Resolver (BSDR) screen so that restarting or shutting down the system causes the OS to immediately force close any open applications that are blocking system shut down. No UI is displayed, and users aren't given a chance to cancel the shutdown process. | `static const DWORD EMBEDDED_DISABLE_BSDR= 0x20` |32|
+| Disable all Logon screen UI elements |Disables the Power, Language, and Ease of Access buttons on the Logon and Ctrl+Alt+Del screens. |`0x1` | 1|
+| Disable the Power button |Disables the Power button on the Logon and Ctrl+Alt+Del screens.|`0x2` |2|
+| Disable the Language button |Disables the Language button on the Logon and Ctrl+Alt+Del screens.|`0x4` |4|
+| Disable the Ease of Access button |Disables the Ease of Access button on the Logon and Ctrl+Alt+Del screens.|`0x8` |8|
+| Disable the Switch user button |Disables the Switch User button from the Ctrl+Alt+Del screen, preventing a user from switching accounts. | `0x10` |16|
+|Disable the Blocked Shutdown Resolver (BSDR) screen|Disables the Blocked Shutdown Resolver (BSDR) screen so that restarting or shutting down the system causes the OS to immediately force close any open applications that are blocking system shut down. No UI is displayed, and users aren't given a chance to cancel the shutdown process. | `0x20` |32|
 
 In the following image of the `[ctrl + alt + del]` screen, you can see the Switch user button highlighted by a light green outline, the Language button highlighted by an orange outline, the Ease of Access button highlighted by a red outline, and the power button highlighted by a yellow outline. If you disable these buttons, they're hidden from the UI.
 
