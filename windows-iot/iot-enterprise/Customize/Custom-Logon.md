@@ -7,9 +7,9 @@ MSHAttr:
 ms.assetid: aaf4ddd3-eac4-4c60-90c8-38837078c43b
 author: TerryWarwick
 ms.author: twarwick
-ms.prod: windows-iot
-ms.technology: iot
-ms.date: 01/17/2024
+ms.service: windows-iot
+ms.subservice: iot
+ms.date: 05/02/2017
 ms.topic: article
 
 
@@ -22,14 +22,7 @@ Custom Logon settings don't modify the credential behavior of **Winlogon**, so y
 
 ## Requirements
 
-Custom Logon can be enabled on:
-
-- Windows 10 Enterprise
-- Windows 10 IoT Enterprise
-- Windows 10 Education
-- Windows 11 Enterprise
-- Windows 11 IoT Enterprise
-- Windows 11 Education
+Windows 10 Enterprise or Windows 10 Education.
 
 ## Terminology
 
@@ -49,17 +42,35 @@ The Custom Logon feature is available in the Control Panel. You can set Custom L
 
 ### Turn on Custom Logon in Control Panel
 
-1. In the Windows search bar, type **Turn Windows features on or off** and either press **Enter** or tap or select **Turn Windows features on or off** to open the **Windows Features** window.
-1. In the **Windows Features** window, expand the **Device Lockdown** node, and select (to turn on) or clear (to turn off) the checkbox for **Custom Logon**.
-1. Select **OK**. The **Windows Features** window indicates that Windows is searching for required files and displays a progress bar. Once found, the window indicates that Windows is applying the changes. When completed, the window indicates the requested changes are completed.
+1. In the **Search the web and Windows** field, type **Turn Windows features on or off**.
+1. In the **Windows Features** window, expand the **Device Lockdown** node, and select or clear the checkbox for **Custom Logon**.
 
 ### Turn on and configure Custom Logon using DISM
 
 1. Open a command prompt with administrator rights.
-1. Enable the feature using the following command.
+1. Copy install.wim to a temporary folder on hard drive (in the following steps, we assume it's called C:\\wim).
+1. Create a new directory.
 
     ```cmd
-    dism /online /enable-feature /featureName:Client-EmbeddedLogon
+    md c:\wim
+    ```
+
+1. Mount the image.
+
+    ```cmd
+    dism /mount-wim /wimfile:c:\bootmedia\sources\install.wim /index:1 /MountDir:c:\wim
+    ```
+
+1. Enable the feature.
+
+    ```cmd
+    dism /image:c:\wim /enable-feature /featureName:Client-EmbeddedLogon
+    ```
+
+1. Commit the change.
+
+    ```cmd
+    dism /unmount-wim /MountDir:c:\wim /Commit
     ```
 
 ### Configure Custom Logon settings using Unattend

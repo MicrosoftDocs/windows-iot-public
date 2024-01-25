@@ -4,8 +4,8 @@ author: TerryWarwick
 ms.author: twarwick
 ms.date: 01/18/2024
 ms.topic: article
-ms.prod: windows-iot
-ms.technology: iot
+ms.service: windows-iot
+ms.subservice: iot
 description: Learn about Kiosk Mode in Windows IoT Enterprise.
 keywords: Lockdown, Kiosks, Kiosk Mode
 ---

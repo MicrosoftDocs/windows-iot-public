@@ -5,7 +5,7 @@ author: trumanbrown-msft
 ms.author: trumanbrown
 ms.topic: how-to 
 ms.date: 10/20/2023
-ms.prod: windows-iot
+ms.service: windows-iot
 ms.custom: template-how-to 
 ---
 

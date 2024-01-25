@@ -4,8 +4,8 @@ author: rsameser
 ms.date: 03/31/2023
 ms.author: riameser
 ms.topic: article
-ms.prod: windows-iot
-ms.technology: iot
+ms.service: windows-iot
+ms.subservice: iot
 description: Learn about what Windows Server IoT 2022 is and what you can do with it.
 keywords: Windows Server IoT 2022, enterprise manageability, Windows ecosystem, IoT
 ---
