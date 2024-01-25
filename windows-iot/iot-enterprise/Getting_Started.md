@@ -4,8 +4,8 @@ author: TerryWarwick
 ms.author: twarwick
 ms.date: 03/10/2023
 ms.topic: article
-ms.prod: windows-iot
-ms.technology: iot
+ms.service: windows-iot
+ms.subservice: iot
 description: Learn about what Windows IoT Enterprise is and what you can do with it.
 keywords: IoT Enterprise, binary, fixed purpose devices, LTSC, Silicon
 ---

@@ -4,8 +4,8 @@ author: TerryWarwick
 ms.author: twarwick
 ms.date: 04/04/2023
 ms.topic: article
-ms.prod: windows-iot
-ms.technology: iot
+ms.service: windows-iot
+ms.subservice: iot
 description: Learn about the Device Management feature of Windows 10 IoT Enterprise.
 keywords: IoT Enterprise, Device Management, MDM, Intune, SCCM, Azure Device Twin, Endpoint Manager, Device Health
 ---

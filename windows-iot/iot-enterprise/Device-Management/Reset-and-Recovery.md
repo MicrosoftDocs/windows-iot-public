@@ -4,8 +4,8 @@ author: TerryWarwick
 ms.author: twarwick
 ms.date: 9/15/2021
 ms.topic: article
-ms.prod: windows-iot
-ms.technology: iot
+ms.service: windows-iot
+ms.subservice: iot
 description: Learn about how to reset and recover your Windows 10 IoT Enterprise.
 keywords: IoT Enterprise, Device Management, Reset, Recovery
 ---

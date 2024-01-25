@@ -4,8 +4,8 @@ author: sydbruck
 ms.author: sybruckm
 ms.date: 10/20/2023
 ms.topic: article
-ms.prod: windows-iot
-ms.technology: iot
+ms.service: windows-iot
+ms.subservice: iot
 description: Windows IoT on ARM64
 keywords: IoT Enterprise, Hardware, Windows IoT, Arm64, NXP
 ---
