@@ -6,8 +6,8 @@ ms.author: twarwick
 ms.date: 01/15/2024
 ms.date: 01/03/2024
 ms.topic: article
-ms.prod: windows-iot
-ms.technology: iot
+ms.service: windows-iot
+ms.subservice: iot
 description: Windows IoT Enterprise feature to assist with reducing disk footprint
 keywords: IoT Enterprise, removable packages, storage
 ---

@@ -5,7 +5,7 @@ author: sydbruck
 ms.author: sybruckm
 ms.date: 10/09/2023
 ms.topic: article
-ms.prod: windows-iot
+ms.service: windows-iot
 ---
 
 # Windows 10 IoT Enterprise 21H2 Supported NXP Processors

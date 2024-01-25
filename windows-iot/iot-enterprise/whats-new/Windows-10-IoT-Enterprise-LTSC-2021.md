@@ -1,11 +1,11 @@
 ---
 title: What's new in Windows 10 IoT Enterprise LTSC 2021
-description: Learn what's new in Windows 10 Enterprise LTSC 2021.
-ms.prod: windows-iot
+description: New and updated IT Pro content about new features in Windows 10 Enterprise LTSC 2021.
+ms.service: windows-iot
 author: TerryWarwick
 ms.author: twarwick
 ms.topic: article
-ms.technology: iot
+ms.subservice: iot
 ms.date: 3/10/2023
 ---
 

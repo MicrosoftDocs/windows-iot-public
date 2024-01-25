@@ -5,8 +5,8 @@ author: TerryWarwick
 ms.author: twarwick
 ms.date: 01/12/2024
 ms.topic: article
-ms.prod: windows-iot
-ms.technology: iot
+ms.service: windows-iot
+ms.subservice: iot
 description: Windows IoT Enterprise Device Optimization Overview
 keywords: IoT Enterprise, Overview, Optimization
 ---

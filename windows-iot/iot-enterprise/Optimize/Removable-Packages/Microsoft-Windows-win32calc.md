@@ -4,8 +4,8 @@ author: twarwick
 ms.author: twarwick
 ms.date: 01/15/2024
 ms.topic: article
-ms.prod: windows-iot
-ms.technology: iot
+ms.service: windows-iot
+ms.subservice: iot
 description: Removable Package Details for Microsoft-Windows-win32calc
 keywords: IoT Enterprise, removable packages, storage
 ---

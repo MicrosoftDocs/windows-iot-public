@@ -7,8 +7,8 @@ MSHAttr:
 ms.assetid: 602B4A95-7C98-41DC-B604-DBA7832A96ED
 author: TerryWarwick
 ms.author: twarwick
-ms.prod: windows-iot
-ms.technology: iot
+ms.service: windows-iot
+ms.subservice: iot
 ms.date: 04/12/2018
 ms.topic: article
 

@@ -4,8 +4,8 @@ author: TerryWarwick
 ms.author: twarwick
 ms.date: 03/12/2023
 ms.topic: article
-ms.prod: windows-iot
-ms.technology: iot
+ms.service: windows-iot
+ms.subservice: iot
 description: See an overview of Windows for IoT product line.
 keywords: Windows IoT Enterprise, Windows 10 IoT Core, Windows Sever IoT 2022
 ---

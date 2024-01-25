@@ -4,8 +4,8 @@ author: TerryWarwick
 ms.author: twarwick
 ms.date: 12/12/2023
 ms.topic: article
-ms.prod: windows-iot
-ms.technology: iot
+ms.service: windows-iot
+ms.subservice: iot
 description: Windows IoT Distributor Information
 keywords: Windows IoT Enterprise, Windows Sever IoT 2022, Distributor, Windows IoT
 ---

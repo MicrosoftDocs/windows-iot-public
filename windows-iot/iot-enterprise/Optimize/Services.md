@@ -5,8 +5,8 @@ author: TerryWarwick
 ms.author: twarwick
 ms.date: 01/09/2024
 ms.topic: article
-ms.prod: windows-iot
-ms.technology: iot
+ms.service: windows-iot
+ms.subservice: iot
 description: Security guidelines for disabling services in Windows IoT Enterprise
 keywords: IoT Enterprise, Security, services
 ---
