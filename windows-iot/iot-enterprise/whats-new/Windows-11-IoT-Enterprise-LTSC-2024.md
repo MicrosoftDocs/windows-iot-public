@@ -7,13 +7,15 @@ ms.service: windows-iot
 ms.subservice: iot
 author: TerryWarwick
 ms.author: twarwick
-ms.date: 01/31/2024
+ms.date: 02/01/2024
 ---
 
 # What's new in Windows 11 Enterprise LTSC 2024
 
 > [!WARNING]
 > THIS IS AN IN-PROGRESS ROUGH DRAFT. The wording and feature list may change before publishing.
+
+## Overview
 
 This article lists new and updated features that are of interest to device makers and IT Pros working with Windows 11 IoT Enterprise LTSC 2024, compared to Windows 10 IoT Enterprise LTSC 2021. Windows 11 IoT Enterprise 2024 LTSC will continue to offer a 10-year support lifecycle.
 
@@ -25,21 +27,7 @@ For a brief description of the LTSC servicing channel and associated support, se
 
 Windows 10 Enterprise LTSC 2021 builds on Windows 10 Enterprise LTSC 2019, adding premium features such as advanced protection against modern security threats and comprehensive device management, app management, and control capabilities.
 
-## Lifecycle
-
-Windows 10 IoT Enterprise LTSC 2021 follows the [Fixed Lifecycle Policy](/lifecycle/policies/fixed).
-
-| Version | Build  | Availability | End of Servicing |
-| --- | --- | --- |
-| 2024 | ###### | 2024-04-08 | 2035 |
-
-For more information, see [Windows 11 IoT Enterprise LTSC 2024 support lifecycle](/lifecycle/products/windows-11-iot-enterprise-ltsc-2024).
-
-## Availability
-
 Windows 10 IoT Enterprise LTSC 2021 is available for Windows IoT Enterprise device makers through an authorized [Windows IoT Distributor Information](../windows-iot-distributors.md) for building new devices.  This release requires a new license.
-
-## What's New
 
 With every new operating system, comes exciting new features and capabilities - Windows 11 IoT Enterprise is no different.
 
@@ -50,7 +38,48 @@ Windows 11 IoT Enterprise LTSC 2024 release includes the cumulative enhancements
 - [Windows 11 IoT Enterprise, version 23H2](Windows-11-IoT-Enterprise-23H2.md)
 - [Windows 11 IoT Enterprise, version 24H2](Windows-11-IoT-Enterprise-24H2.md)
 
-### Security and scanning
+### Lifecycle
+
+Windows 10 IoT Enterprise LTSC 2021 follows the [Fixed Lifecycle Policy](/lifecycle/policies/fixed).
+
+| Version | Build  | Availability | End of Servicing |
+| --- | --- | --- |
+| 2024 | ###### | 2024-04-08 | 2035 |
+
+For more information, see [Windows 11 IoT Enterprise LTSC 2024 support lifecycle](/lifecycle/products/windows-11-iot-enterprise-ltsc-2024).
+
+## Accessibility
+
+| Feature | Description |
+| --- | --- |
+| **Windows accessibility** </br> [22H2] | Windows 11, version 22H2, includes additional improvements for people with disabilities: system-wide live captions, Focus sessions, voice access, and more natural voices for Narrator. </br></br> For more information, see [New accessibility features coming to Windows 11](https://blogs.windows.com/windowsexperience/2022/05/10/new-accessibility-features-coming-to-windows-11/) and [How inclusion drives innovation in Windows 11](https://blogs.windows.com/windowsexperience/?p=177554). For more information, see [Accessibility information for IT professionals](/windows/configuration/windows-10-accessibility-for-itpros). |
+| **Braille displays**  </br> [23H2] <!--7579823-->        | The compatibility of braille displays was expanded. Braille displays work seamlessly and reliably across multiple screen readers, improving the end user experience. We also added support for new braille displays and new braille input and output languages in Narrator. For more information, see [Accessibility information for IT professionals](/windows/configuration/windows-accessibility-for-ITPros). |
+| **Narrator improvements**  </br> [23H2] <!--kb5019509--> | Scripting functionality was added to Narrator. Narrator includes more natural voices. <!--8138352, 8138357--> |
+
+## Application Compatability
+
+| Feature | Description |
+| --- | --- |
+| | Most accessories and associated drivers that work with Windows 10 IoT Enterprise are expected to work with Windows 11 IoT Enterprise. Check with your accessory manufacturer for specific details. |
+| | As mentioned above, Windows 11 IoT Enterprise preserves the application compatibility promise made with Windows operating systems, and does not require changes to existing support processes or tooling to sustain the currency of applications and devices.|
+| | Windows 11 IoT Enterprise is built on the same foundation as Windows 10 IoT Enterprise. Typically, you can use the same tools and solutions you use today to deploy, manage, and secure your Windows 11 IoT Enterprise device. Your current management tools and processes will also work to manage monthly quality updates for both Windows 10 IoT Enterprise and Windows 11 IoT Enterprise devices. |
+| **App Compatibility** </br> [21H2] | Your Windows 10 apps will also work on Windows 11. **[App Assure](https://www.microsoft.com/fasttrack/microsoft-365/app-assure)** is also available if there are some issues. </br></br>   You can continue to use **MSIX packages** for your UWP, Win32, WPF, and WinForm desktop application files. Continue to use **Windows Package Manager** to install Windows apps. You can create **Azure virtual desktops** that run Windows 11. Use **Azure Virtual desktop with MSIX app attach** to virtualize desktops and apps. </br></br> For more information on these features, see [Overview of apps on Windows devices](/windows/application-management/apps-in-windows-10). Using an MDM provider, like Intune, you can create policies that also manage some app settings. For a list of settings, see [App Store in Intune](/mem/intune/configuration/device-restrictions-windows-10#app-store). </br></br> Your apps compiled for x64 processors will now work on ARM64 processors via emulation. For more information, see [ARM64EC](/windows/arm/arm64ec).|
+| <!-- **Windows Terminal app** </br> [21H2] -->| <!-- This app is included with the OS. On previous Windows versions, it's a separate download in the Microsoft Store. For more information, see [What is Windows Terminal?](/windows/terminal/). </br></br> This app combines Windows PowerShell, a command prompt, and Azure Cloud Shell all within the same terminal window. You don't need to open separate apps to use these command-line applications. It has tabs. And when you open a new tab, you can choose your command-line application.  --> |
+| **Microsoft Edge** </br> [21H2] | The Microsoft Edge browser is included with the OS, and is the default browser. Internet Explorer (IE) isn't available in Windows 11. In Microsoft Edge, you can use IE Mode if a website needs Internet Explorer. Open Microsoft Edge, and enter `edge://settings/defaultBrowser` in the URL. </br></br> To save system resources, Microsoft Edge uses sleeping tabs. Users can configure these settings, and more, in `edge://settings/system`. </br></br> Using Group Policy or an MDM provider, such as Intune, you can configure some Microsoft Edge settings. For more information, see [Microsoft Edge - Policies](/deployedge/microsoft-edge-policies) and [Configure Microsoft Edge policy settings](/mem/intune/configuration/administrative-templates-configure-edge).|
+
+## Deployment
+
+| Feature | Description |
+| --- | --- |
+| **Installation** </br> [21H2] | The same methods you use to install Windows 10 Iot Enterprise can also be used to install Windows 11 IoT Enterprise. For example, you can deploy Windows to your devices using Microsoft Deployment Toolkit (MDT), Configuration Manager, and more. Windows 11 IoT Enterprise will be delivered as an upgrade to eligible devices running Windows 10 IoT Enterprise. </br></br>   For more information on getting started, see [Windows client deployment resources and documentation](/windows/deployment/) and [Plan for Windows 11](/windows/whats-new/windows-11-plan). </br></br>  For more information on the end-user experience, see [Ways to install Windows 11](https://support.microsoft.com/windows/e0edbbfb-cfc5-4011-868b-2ce77ac7c70e). |
+
+## Hardware
+
+| Feature | Description |
+| --- | --- |
+|  **High Efficiency Video Coding (HEVC) support**  </br> [22H2] | Starting in Windows 11, version 22H2, support for High Efficiency Video Coding (HEVC) is now available. HEVC is designed to take advantage of hardware capabilities on some newer devices to support 4K and Ultra HD content. </br></br>  For devices that don't have hardware support for HEVC videos, software support is provided, but the playback experience might vary based on the video resolution and your devices performance. |
+
+## Security
 
 The security and privacy features in Windows 11 are similar to Windows 10. Security for your devices starts with the hardware, and includes OS security, application security, and user & identity security. There are features available in the Windows OS to help in these areas. This section describes some of these features. For a more comprehensive view, including zero trust, see [Windows security](/windows/security/).
 
@@ -73,28 +102,14 @@ The security and privacy features in Windows 11 are similar to Windows 10. Secur
 | **Windows Hello for Business authentication improvement** </br> [23H2] <!--7771685--> | Peripheral face and fingerprint sensors can be used for Windows Hello for Business authentication on devices where Enhanced Sign-in Security (Secure Biometrics) has been enabled at the factory. Previously this functionality was blocked. For more information, see [Common questions about Windows Hello for Business](/windows/security/identity-protection/hello-for-business/hello-faq). |
 | **LAPS native integration** </br> [23H2] <!--6399966--> | Use Windows Local Administrator Password Solution (LAPS) to regularly rotate and manage local administrator account passwords. For more information, see [Local Administrator Password Solution (LAPS)](/windows-server/identity/laps/laps-overview) |
 
-### Use your same apps, and new apps, improved
-
-| Feature | Description |
-| --- | --- |
-| **App Compatibility** </br> [21H2] | Your Windows 10 apps will also work on Windows 11. **[App Assure](https://www.microsoft.com/fasttrack/microsoft-365/app-assure)** is also available if there are some issues. </br></br>   You can continue to use **MSIX packages** for your UWP, Win32, WPF, and WinForm desktop application files. Continue to use **Windows Package Manager** to install Windows apps. You can create **Azure virtual desktops** that run Windows 11. Use **Azure Virtual desktop with MSIX app attach** to virtualize desktops and apps. </br></br> For more information on these features, see [Overview of apps on Windows devices](/windows/application-management/apps-in-windows-10). Using an MDM provider, like Intune, you can create policies that also manage some app settings. For a list of settings, see [App Store in Intune](/mem/intune/configuration/device-restrictions-windows-10#app-store). </br></br> Your apps compiled for x64 processors will now work on ARM64 processors via emulation. For more information, see [ARM64EC](/windows/arm/arm64ec).|
-| **Windows Terminal app** </br> [21H2] | This app is included with the OS. On previous Windows versions, it's a separate download in the Microsoft Store. For more information, see [What is Windows Terminal?](/windows/terminal/). </br></br> This app combines Windows PowerShell, a command prompt, and Azure Cloud Shell all within the same terminal window. You don't need to open separate apps to use these command-line applications. It has tabs. And when you open a new tab, you can choose your command-line application.|
-| **Microsoft Edge** </br> [21H2] | The Microsoft Edge browser is included with the OS, and is the default browser. Internet Explorer (IE) isn't available in Windows 11. In Microsoft Edge, you can use IE Mode if a website needs Internet Explorer. Open Microsoft Edge, and enter `edge://settings/defaultBrowser` in the URL. </br></br> To save system resources, Microsoft Edge uses sleeping tabs. Users can configure these settings, and more, in `edge://settings/system`. </br></br> Using Group Policy or an MDM provider, such as Intune, you can configure some Microsoft Edge settings. For more information, see [Microsoft Edge - Policies](/deployedge/microsoft-edge-policies) and [Configure Microsoft Edge policy settings](/mem/intune/configuration/administrative-templates-configure-edge).|
-
-### Deployment
-
-| Feature | Description |
-| --- | --- |
-| **Installation** </br> [21H2] | The same methods you use to install Windows 10 Iot Enterprise can also be used to install Windows 11 IoT Enterprise. For example, you can deploy Windows to your devices using Microsoft Deployment Toolkit (MDT), Configuration Manager, and more. Windows 11 IoT Enterprise will be delivered as an upgrade to eligible devices running Windows 10 IoT Enterprise. </br></br>   For more information on getting started, see [Windows client deployment resources and documentation](/windows/deployment/) and [Plan for Windows 11](/windows/whats-new/windows-11-plan). </br></br>  For more information on the end-user experience, see [Ways to install Windows 11](https://support.microsoft.com/windows/e0edbbfb-cfc5-4011-868b-2ce77ac7c70e). |
-
-### Servicing
+## Servicing
 
 | Feature | Description |
 | --- | --- |
 | **Windows Updates and Delivery optimization** </br> [21H2] | Windows Updates and Delivery optimization helps manage updates, and manage features on your devices. Starting with Windows 11, the OS feature updates are installed annually. For more information on servicing channels, and what they are, see [Servicing channels](/windows/deployment/update/waas-overview#servicing-channels). </br></br> Like Windows 10, Windows 11 will receive monthly quality updates. </br></br> You have options to install updates on your Windows devices, including Intune, Group Policy, Windows Server Update Services (WSUS), and more. For more information, see [Assign devices to servicing channels](/windows/deployment/update/waas-servicing-channels-windows-10-updates). </br></br> Some updates are large, and use bandwidth. Delivery optimization helps reduce bandwidth consumption. It shares the work of downloading the update packages with multiple devices in your deployment. Windows 11 updates are smaller, as they only pull down source files that are different. You can create policies that configure delivery optimization settings. For example, set the maximum upload and download bandwidth, set caching sizes, and more.  </br></br>   For more information, see [Delivery Optimization for Windows updates](/windows/deployment/update/waas-delivery-optimization).  </br></br> For more information on the end-user experience, see:  </br> - [Installation & updates](https://support.microsoft.com/office/installation-updates-2f9c1819-310d-48a7-ac12-25191269903c#PickTab=Windows_11) </br> - [Manage updates in Windows](https://support.microsoft.com/windows/manage-updates-in-windows-643e9ea7-3cf6-7da6-a25c-95d4f7f099fe)|
 | **Windows Update notifications** </br> [22H2] | You can now block user notifications for Windows Updates during active hours. This setting is especially useful for organizations that want to prevent Windows Update notifications from occurring during business hours. For more information, see [Control restart notifications](/windows/deployment/update/waas-restart#control-restart-notifications).</br></br> The organization name now appears in the Windows Update notifications when Windows clients are associated with an Azure Active Directory tenant. For more information, see [Display organization name in Windows Update notifications](/windows/deployment/update/waas-wu-settings#bkmk_display-name). |
 
-### Management
+## Management
 
 | Feature | Description |
 | --- | --- |
@@ -107,32 +122,18 @@ The security and privacy features in Windows 11 are similar to Windows 10. Secur
 | **Control Taskbar Search Button**  </br> [23H2] <!--07525381, 8092554, WIP.25252--> |[Policies to customize Windows 11 taskbar buttons](/windows/configuration/supported-csp-taskbar-windows#csp-policies-to-customize-windows-11-taskbar-buttons) were added to provide you with more control over the taskbar search experience across your organization. |
 | **Control Start Menu Recommended section**  </br> [23H2] <!--8092554, WIP.23475-->| The Recommended section of the Start Menu displays personalized website recommendations. </br> **CSP**: ./Device/Vendor/MSFT/Policy/Config/Start/[HideRecoPersonalizedSites](/windows/client-management/mdm/policy-csp-start)</br> </br>**Group Policy**: Computer Configuration\Administrative Templates\Start Menu and Taskbar\\**Remove Personalized Website Recommendations from the Recommended section in the Start Menu**|
 | **Temporary enterprise feature control**  </br> [23H2] <!--7790977--> | Controls were added to temporarily disable certain features that were introduced during monthly cumulative updates for managed Windows 11, version 22H2 devices. For more information, see [Temporary enterprise feature control](/windows/whats-new/temporary-enterprise-feature-control). |
-| **Copilot in Windows**  </br> [23H2] <!--8138371, 8092554, WIP.23493 --> | Copilot in Windows provides centralized generative AI assistance to your users right from the Windows desktop. For more information, see [Manage Copilot in Windows](/windows/client-management/manage-windows-copilot) and [September 2023 - KB5030310](https://support.microsoft.com/kb/5030310)  |
+ | <!-- **Copilot in Windows**  </br> [23H2] --><!--8138371, 8092554, WIP.23493 --> | <!-- Copilot in Windows provides centralized generative AI assistance to your users right from the Windows desktop. For more information, see [Manage Copilot in Windows](/windows/client-management/manage-windows-copilot) and [September 2023 - KB5030310](https://support.microsoft.com/kb/5030310)  --> |
 | **Taskbar: Button Policies**  </br> [23H2] <!--07525381, 8092554, WIP.25252--> |[Policies to customize Windows 11 taskbar buttons](/windows/configuration/supported-csp-taskbar-windows#csp-policies-to-customize-windows-11-taskbar-buttons) were added to provide you with more control over the taskbar search experience across your organization. |
 
-### Accessibility
-
-| Feature | Description |
-| --- | --- |
-| **Windows accessibility** </br> [22H2] | Windows 11, version 22H2, includes additional improvements for people with disabilities: system-wide live captions, Focus sessions, voice access, and more natural voices for Narrator. </br></br> For more information, see [New accessibility features coming to Windows 11](https://blogs.windows.com/windowsexperience/2022/05/10/new-accessibility-features-coming-to-windows-11/) and [How inclusion drives innovation in Windows 11](https://blogs.windows.com/windowsexperience/?p=177554). For more information, see [Accessibility information for IT professionals](/windows/configuration/windows-10-accessibility-for-itpros). |
-| **Braille displays**  </br> [23H2] <!--7579823-->        | The compatibility of braille displays was expanded. Braille displays work seamlessly and reliably across multiple screen readers, improving the end user experience. We also added support for new braille displays and new braille input and output languages in Narrator. For more information, see [Accessibility information for IT professionals](/windows/configuration/windows-accessibility-for-ITPros). |
-| **Narrator improvements**  </br> [23H2] <!--kb5019509--> | Scripting functionality was added to Narrator. Narrator includes more natural voices. <!--8138352, 8138357--> |
-
-## Hardware
-
-| Feature | Description |
-| --- | --- |
-|  **High Efficiency Video Coding (HEVC) support**  </br> [22H2] | Starting in Windows 11, version 22H2, support for High Efficiency Video Coding (HEVC) is now available. HEVC is designed to take advantage of hardware capabilities on some newer devices to support 4K and Ultra HD content. </br></br>  For devices that don't have hardware support for HEVC videos, software support is provided, but the playback experience might vary based on the video resolution and your devices performance. |
-
-### User Experience
+## User Experience
 
 | Feature | Description |
 | --- | --- |
 | **Improvements to task manager**  </br> [22H2] | A new command bar was added to each page to give access to common actions. Task Manager will automatically match the system wide theme configured in **Windows Settings**. Added an efficiency mode that allows you to limit the resource usage of a process.|
-| **Multi-app kiosk** </br> [23H2] <!--6444738--> | You can configure a multi-app kiosk, which displays a customized start menu of allowed apps. For more information, see [Set up a multi-app kiosk on Windows 11 devices](/windows/configuration/lock-down-windows-11-to-specific-apps). |
+| **Restricted User Experience** </br> [23H2] <!--6444738--> | <!-- You can configure a multi-app kiosk, which displays a customized start menu of allowed apps. For more information, see [Set up a multi-app kiosk on Windows 11 devices](/windows/configuration/lock-down-windows-11-to-specific-apps). --> |
 | **Taskbar: overflow menu**  </br> [23H2] | The taskbar offers an entry point to a menu that shows all of your overflowed apps in one spot.<!--kb5019509--> |
 | **Taskbar: Optimize for touch**  </br> [23H2] | Taskbar touch optimization is available for devices that can be used as a tablet. Once enabled, the user can switch between a collapsed taskbar, saving screen space, and an expanded taskbar, optimized for touch. The taskbar changes to this optimized version when you disconnect or fold back the keyboard on a 2-in-1 device. To enable or disable this feature on a tablet capable device, go to Settings > Personalization > Taskbar > Taskbar behaviors. </br> See also [February 28, 2023 - KB5022913](https://support.microsoft.com/kb/5022913)  |
-| **Copilot in Windows**  </br> [23H2] <!--8138371, 8092554, WIP.23493 --> | Copilot in Windows provides centralized generative AI assistance to your users right from the Windows desktop. For more information, see [Manage Copilot in Windows](/windows/client-management/manage-windows-copilot) and [September 2023 - KB5030310](https://support.microsoft.com/kb/5030310)  |
+| <!-- **Copilot in Windows**  </br> [23H2] --><!--8138371, 8092554, WIP.23493 --> | <!-- Copilot in Windows provides centralized generative AI assistance to your users right from the Windows desktop. For more information, see [Manage Copilot in Windows](/windows/client-management/manage-windows-copilot) and [September 2023 - KB5030310](https://support.microsoft.com/kb/5030310)  -->|
 | **Start Menu: Recommended section**  </br> [23H2] <!--8092554, WIP.23475-->| The Recommended section of the Start Menu displays personalized website recommendations. </br> **CSP**: ./Device/Vendor/MSFT/Policy/Config/Start/[HideRecoPersonalizedSites](/windows/client-management/mdm/policy-csp-start)</br> </br>**Group Policy**: Computer Configuration\Administrative Templates\Start Menu and Taskbar\\**Remove Personalized Website Recommendations from the Recommended section in the Start Menu**|
 | **File Explorer Tabs** </br> [23H2] <!--kb5019509--> | File Explorer includes tabs to help you organize your File Explorer sessions. |
 | **File Explorer Home: Recommended section** </br> [23H2] <!--8092554, DisableGraphRecentItems, WIP.23475, WIP.23403-->|  **Recommended** section added to File Explorer Home for users signed into Windows with an Azure Active Directory account. </br> **CSP**:./Device/Vendor/MSFT/Policy/Config/FileExplorer/[DisableGraphRecentItems](/windows/client-management/mdm/policy-csp-fileexplorer#disablegraphrecentitems) </br> </br> **Group Policy**: Computer Configuration\Administrative Templates\Windows Components\File Explorer\\**Turn off files from Office.com in Quick Access View**|
@@ -140,8 +141,13 @@ The security and privacy features in Windows 11 are similar to Windows 10. Secur
 | **Windows Ink as input** </br> [23H2] | Windows Ink allows users to handwrite directly onto most editable fields <!--8092554, WIP.23481-->|
 | **Uninstall Win32 app** </br> [23H2] | Selecting **Uninstall** for a Win32 app from the right-click menu uses the **Installed Apps** page in **Settings** rather than **Programs and Features** under the **Control Panel**. <!--[February 28, 2023 - KB5022913](https://support.microsoft.com/topic/february-28-2023-kb5022913-os-build-22621-1344-preview-3e38c0d9-924d-4f3f-b0b6-3bd49b2657b9) --> </br></br> See also [September 2023 - KB5030310](https://support.microsoft.com/kb/5030310)  |
 | **Microsoft Teams** </br> [23H2] | Chat is being removed from the Microsoft Teams in-box app. Teams is removed from the taskbar for enterprise editions of Windows 11, version 23H2 or later. To identify the appx package: `Get-AppxPackage -Name MicrosoftTeams` <!--8349096--> |
-| **Dev Home** </br> [23H2] <!--8092554, WIP.23506--> | Dev Home is a new app that provides a central location for developers to start building, testing, and deploying Windows apps. For more information, see [Dev Home](/windows/dev-home/). To identify the appx package: `Get-AppxPackage -Name Microsoft.Windows.DevHome` </br> See also [September 2023 - KB5030310](https://support.microsoft.com/kb/5030310) |
+| <!-- **Dev Home** </br> [23H2] --><!--8092554, WIP.23506--> | <!-- Dev Home is a new app that provides a central location for developers to start building, testing, and deploying Windows apps. For more information, see [Dev Home](/windows/dev-home/). To identify the appx package: `Get-AppxPackage -Name Microsoft.Windows.DevHome` </br> See also [September 2023 - KB5030310](https://support.microsoft.com/kb/5030310) -->|
 | **Dev Drive** </br> [23H2] | Dev Drive is a new form of storage volume available to improve performance for key developer workloads. For more information, see [Set up a Dev Drive on Windows 11](/windows/dev-drive/) and [September 2023 - KB5030310](https://support.microsoft.com/kb/5030310). |
 | **Suggested actions** </br> [23H2] <!--kb5019509--> | Copied text in certain formats, such as phone numbers or dates, offer suggested actions such as calling the number or adding the event to your calendar. |
 
 ## Related Topics
+
+- [Release History](Release-History.md)
+- [Minimum Hardware Requirements](../Hardware/Hardware_Requirements.md)
+- [Windows IoT Distributors](../windows-iot-distributors.md)
+- 
