@@ -1,5 +1,6 @@
 ---
 title: Windows IoT Enterprise LTSC
+titleSuffix: Windows IoT Enterprise
 description: Learn about Windows IoT Enterprise LTSC.
 ms.service: windows-iot
 author: TerryWarwick
@@ -10,8 +11,6 @@ ms.date: 10/20/2023
 ---
 
 # Windows IoT Enterprise LTSC
-
-## Overview
 
 Windows IoT Enterprise LTSC is designed for specialty devices and use cases where functionality and features remain constant for the life of the device.  These devices are typically found in industries including, but not limited to, banking, healthcare, hospitality, manufacturing and retail. Devices that require regulatory certification and devices that perform a critical business function can't accept feature updates for years at a time.  
 
@@ -24,11 +23,11 @@ Windows IoT Enterprise LTSC releases receive 10 years of servicing and support. 
 > [!NOTE]
 > Microsoft does not publish feature updates through Windows Update for devices running Windows 10 IoT Enterprise LTSC.
 >
-> Microsoft releases new LTSC editions every 2–3 years. OEMs may purchase a newer LTSC as a field upgrade for their devices, if appropriate. Please contact your [Windows IoT Distributor](https://aka.ms/IoTDistributorList) for more information.
+> Microsoft releases new LTSC editions every 2–3 years. OEMs may purchase a newer LTSC as a field upgrade for their devices, if appropriate. Please contact your [Windows IoT Distributor](../windows-iot-distributors.md) for more information.
 
 ## Availability
 
-Windows IoT Enterprise LTSC is available for Windows IoT Enterprise device makers through an authorized [Windows IoT Distributor](https://aka.ms/IoTDistributorList) for building new devices. Windows IoT Enterprise is intended for fixed purpose devices with specific allowances and restrictions in the license agreement. For more information, see [Licensing and Usage](/windows/iot/iot-enterprise/commercialization/licensing) or contact an authorized [Windows IoT Distributor](https://aka.ms/IoTDistributorList) for further assistance.
+Windows IoT Enterprise LTSC is available for Windows IoT Enterprise device makers through an authorized [Windows IoT Distributor](../windows-iot-distributors.md) for building new devices. Windows IoT Enterprise is intended for fixed purpose devices with specific allowances and restrictions in the license agreement. For more information, see [Licensing and Usage](/windows/iot/iot-enterprise/commercialization/licensing) or contact an authorized [Windows IoT Distributor](../windows-iot-distributors.md) for further assistance.
 
 Windows IoT Enterprise LTSC releases follow the [Fixed Lifecycle Policy](/lifecycle/policies/fixed).
 
