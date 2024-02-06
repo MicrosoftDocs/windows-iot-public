@@ -12,15 +12,15 @@ keywords: IoT Enterprise, App Development
 
 # Develop Apps for Windows IoT Enterprise
 
-This page compiles resources on Windows application development that will help you get started developing applications for Windows IoT Enterprise devices.
+This page compiles resources on Windows application development to help you get started developing applications for Windows IoT Enterprise devices.
 
-Developing applications for Windows IoT Enterprise devices is much like developing for Windows Client devices. The same applications built for Windows Client will run on Windows IoT Enterprise without any modifications. The difference between developing applications for Windows IoT Enterprise and Windows Desktop is the extra consideration that should be taken for any [Windows IoT customization or lockdown policies](../Customize/customize-overview.md) applied to the device.
+Developing applications for Windows IoT Enterprise devices is much like developing for Windows Client devices. The same applications built for Windows Client run on Windows IoT Enterprise without any modifications. The difference between developing applications for Windows IoT Enterprise and Windows Desktop is the extra consideration that should be taken for any [Windows IoT customization or lockdown policies](../Customize/customize-overview.md) applied to the device.
 
 ## Set Up your Environment
 
 ### Install Development Tools
 
-To develop applications for Windows IoT, you will need Visual Studio, the Windows SDK, and the Windows App SDK.
+To develop applications for Windows IoT, you need Visual Studio, the Windows SDK, and the Windows App SDK.
 
 |Topic  |Resource  |Description  |
 |---------|---------|---------|
@@ -50,9 +50,9 @@ Learn about Windows app development patterns and features commonly used for Wind
 |Topic|Resource|Description|
 |---|---|---|
 |Embedded Mode |[Embedded mode](../OS-Features/Embedded-Mode.md) |Enables UWP applications to run in the [background](/windows/iot-core/develop-your-app/backgroundapplications), and to use [the lowLevelDevices or the systemManagement UWP application capabilities](/windows/uwp/packaging/app-capability-declarations) |
-|Background Applications (UWP)|[Background UWP tasks and applications](windows/uwp/launch-resume/#background-tasks)|Background Applications are a special type of UWP application that have no UI but can still run code. These apps are commonly used on Windows IoT Core devices and devices without displays. [Embedded Mode](../OS-Features/Embedded-Mode.md) must be enabled in order for Background Applications to run.|
+|Background Applications (UWP)|[Background UWP tasks and applications](windows/uwp/launch-resume/#background-tasks)|Background Applications are a special type of UWP application that has no UI but can still run code. These apps are commonly used on Windows IoT Core devices and devices without displays. [Embedded Mode](../OS-Features/Embedded-Mode.md) must be enabled in order for Background Applications to run.|
 |Windows Services (.NET) |[Windows services](/dotnet/core/extensions/workers) |Windows Services are background processes that that have no UI and are designed to perform specific tasks or functions. Windows Services are commonly used on Windows Client devices and can also be used on Windows IoT devices.|
-|UWP Application Deployment|[Deploying and debugging UWP applications](/windows/uwp/debug-test-perf/deploying-and-debugging-uwp-apps)|Describes the various ways you can deploy and debug UWP applications. The most common paradigm for IoT Devices is deploying to a Remote Machine, which [requires some additional setup steps on the IoT device](/windows/uwp/debug-test-perf/deploying-and-debugging-uwp-apps#remote-pc-instructions)|
+|UWP Application Deployment|[Deploying and debugging UWP applications](/windows/uwp/debug-test-perf/deploying-and-debugging-uwp-apps)|Describes the various ways you can deploy and debug UWP applications. The most common paradigm for IoT Devices is deploying to a Remote Machine, which [requires extra steps to set up on the IoT device](/windows/uwp/debug-test-perf/deploying-and-debugging-uwp-apps#remote-pc-instructions)|
 |UWP Application Debugging|[Debugging UWP applications on remote machines](/visualstudio/debugger/run-windows-store-apps-on-a-remote-machine)|Describes how you debug your application running on a Windows IoT device from your development machine.|
 
 
@@ -66,7 +66,7 @@ Native ARM64 applications have several advantages compared to emulated ARM64 app
 - Lower power consumption
 - Better compatibility
 
-The decision to run a Arm64 application natively or emulated on an ARM64 device comes down to what is right for your specific device scenario. It is generally recommended to build your applications natively for ARM64 so you can take advantage of the benefits on native ARM64 applications. However, if you have an existing X86 or X64 application that is difficult or expensive to rebuild and maintain on ARM64, it is perfectly fine to run the application using Windows' built in ARM64 emulation technology.
+The decision to run a ARM64 application natively or emulated on an ARM64 device comes down to what is right for your specific device scenario. It's recommended to build your applications natively for ARM64 so you can take advantage of the benefits on native ARM64 applications. However, it's also perfectly fine to run the application using Windows' built in ARM64 emulation technology.
 
 ### How to Add ARM64 Native Support
 To add ARM64 Native Support to an existing or a new application, follow the [guide on adding ARM64 support to Windows applications](/windows/arm/add-arm-support)
@@ -84,7 +84,7 @@ Windows IoT Enterprise supports app emulation on ARM64 devices according to this
 
 To use Windows' built-in emulation technology to run an X86 or X64 application on your ARM64 device, simply deploy the X86 or X64 application to your ARM64 device and run it normally.
 
-## Additional App Development Resources
+## More App Development Resources
 
 ### Testing and Debugging
 
