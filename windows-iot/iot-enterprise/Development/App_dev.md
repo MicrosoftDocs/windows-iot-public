@@ -14,7 +14,7 @@ keywords: IoT Enterprise, App Development
 
 This page compiles resources on Windows application development to help you get started developing applications for Windows IoT Enterprise devices.
 
-Developing applications for Windows IoT Enterprise devices is much like developing for Windows Client devices. The same applications built for Windows Client run on Windows IoT Enterprise without any modifications. The difference between developing applications for Windows IoT Enterprise and Windows Desktop is the extra consideration that should be taken for any [Windows IoT customization or lockdown policies](../Customize/customize-overview.md) applied to the device.
+Developing applications for Windows IoT Enterprise devices is much like developing for Windows Client devices. The same applications built for Windows Client run on Windows IoT Enterprise without any modifications. The difference between developing applications for Windows IoT Enterprise and Windows Desktop is the extra consideration that should be taken for the hardware you deploy your application to, and any [Windows IoT customization or lockdown policies](../Customize/customize-overview.md) applied to the device.
 
 ## Set Up your Environment
 
@@ -26,7 +26,6 @@ To develop applications for Windows IoT, you need Visual Studio, the Windows SDK
 |---------|---------|---------|
 |Visual Studio|[Visual Studio](https://visualstudio.microsoft.com/downloads/) | The preferred development tool of many Windows developers, Visual Studio lets you create projects for Windows, and many other platforms. It's a powerful IDE that can help you write, debug, and deploy your apps.        |
 |Windows SDK| [Windows SDK](https://developer.microsoft.com/windows/downloads/windows-sdk/)|The Windows SDK is a development platform that lets you build UWP apps and Win32/desktop apps. It's designed around Windows APIs that are coupled to particular versions of the OS.|
-
 |Windows App SDK| [Windows App SDK](/windows/apps/windows-app-sdk/set-up-your-development-environment)|The Windows App SDK complements the Windows SDK by letting you build modern desktop apps that can be installed across Windows versions (down to Windows 10 1809).|
 
 ## Start Developing
