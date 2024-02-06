@@ -28,18 +28,19 @@ This specification doesn't provide compatibility and certification requirements 
 
 ## Hardware Requirements
 
-
 Recommended [hardware requirements](/windows-hardware/design/minimum/minimum-hardware-requirements-overview).
 
 | Components        | Recommended               | Minimum</br>IoT&nbsp;Enterprise | Minimum</br>IoT&nbsp;Enterprise&nbsp;LTSC |
 | ----------------- |:-------------------------:|:-------------------------------:|:-----------------------------------------:|
 | Processor         | 1&nbsp;GHz,&nbsp;2 Cores¹ | 1&nbsp;GHz,&nbsp;2&nbsp;Cores¹  | 1&nbsp;GHz,&nbsp;2&nbsp;Cores¹            |
 | System Memory     |  4 GB                     |  4 GB                           |  2 GB                                     |
-| Storage           | 64 GB                     | 64 GB                           | 16 GB                                     |
-| System Firmware   | UEFI                      |                                 |                                           |
+| Storage Size      | 64 GB                     | 64 GB                           | 16 GB                                     |
+| Storage Type      | Solid-State&nbsp;Drive&nbsp;(SSD)   | Hard&nbsp;Disk&nbsp;Drive&nbsp;(HDD)</br> Hybrid&nbsp;Hard&nbsp;Drive&nbsp;(SSHD) </br> Flash&nbsp;(eMMC,&nbsp;SD,&nbsp;USB)  |  Hard&nbsp;Disk&nbsp;Drive&nbsp;(HDD)</br> Hybrid&nbsp;Hard&nbsp;Drive&nbsp;(SSHD) </br> Flash&nbsp;(eMMC,&nbsp;SD,&nbsp;USB)  |
+| System Firmware   | UEFI                      | BIOS                            | BIOS                                      |
 | TPM               | TPM 2.0                   | Optional                        | Optional                                  |
-| UEFI Secure Boot  | Enabled                   | Optional                        | Optional                                  |
-| Display           | 9" diagonal</br>720p HD   | Optional                        | Optional                                  |
+| Secure Boot       | Enabled                   | Optional                        | Optional                                  |
+| DirectX           | DirectX 12                | DirectX 10 / None               | DirectX 10 / None                         |
+| Display           | 9" diagonal</br>720p HD   | Custome Size / Optional         | Custom Size / Optional                    |
 
 ¹ For more information, see [Windows IoT Enterprise Supported Processors](Processor_Requirements.md)
 
