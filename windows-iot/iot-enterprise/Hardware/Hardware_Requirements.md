@@ -3,7 +3,7 @@ title: Hardware Requirements
 titleSuffix: Windows IoT Enterprise
 author: TerryWarwick
 ms.author: twarwick
-ms.date: 09/26/2023
+ms.date: 02/06/2024
 ms.topic: article
 ms.service: windows-iot
 ms.subservice: iot
@@ -13,7 +13,7 @@ keywords: IoT Enterprise, Hardware, Windows IoT
 
 # Minimum Hardware Requirements for Windows IoT Enterprise
 
-This specification defines the minimum hardware requirements for Windows IoT Enterprise. 
+This specification defines the minimum hardware requirements for Windows IoT Enterprise. Microsoft will build and test the Windows IoT Enterprise OS against the requirements described in this specification.
 
 ## Overview
 
@@ -26,48 +26,22 @@ The goal of this specification is to enable OEMs, ODMs, SoC vendors, and other c
 
 This specification doesn't provide compatibility and certification requirements for devices and computers that run Windows IoT Enterprise or implementation guidance for exceptional user experiences.
 
-> [!NOTE]
-> Beginning with Windows 10, version 2004, all new Windows 10 systems will be required to use 64-bit builds and Microsoft will no longer release 32-bit builds for OEM distribution. This does not impact 32-bit customer systems that are manufactured with earlier versions of Windows 10; Microsoft remains committed to providing feature and security updates on these devices, including continued 32-bit media availability in non-OEM channels to support various upgrade installation scenarios.
+## Hardware Requirements
 
-## Processor Requirements
 
-Devices that run Windows IoT Enterprise must meet these [hardware requirements](/windows-hardware/design/minimum/minimum-hardware-requirements-overview).
+Recommended [hardware requirements](/windows-hardware/design/minimum/minimum-hardware-requirements-overview).
 
-> [!TIP]
->
-> Information on support is available at [Microsoft Support Policy](https://support.microsoft.com/lifecycle) and [Microsoft Lifecycle FAQ](https://support.microsoft.com/help/18581).
->
-> For specific hardware support, please refer to your Original Equipment Manufacturer (OEM) provider.
+| Components        | Recommended               | Minimum</br>IoT&nbsp;Enterprise | Minimum</br>IoT&nbsp;Enterprise&nbsp;LTSC |
+| ----------------- |:-------------------------:|:-------------------------------:|:-----------------------------------------:|
+| Processor         | 1&nbsp;GHz,&nbsp;2 Cores¹ | 1&nbsp;GHz,&nbsp;2&nbsp;Cores¹  | 1&nbsp;GHz,&nbsp;2&nbsp;Cores¹            |
+| System Memory     |  4 GB                     |  4 GB                           |  2 GB                                     |
+| Storage           | 64 GB                     | 64 GB                           | 16 GB                                     |
+| System Firmware   | UEFI                      |                                 |                                           |
+| TPM               | TPM 2.0                   | Optional                        | Optional                                  |
+| UEFI Secure Boot  | Enabled                   | Optional                        | Optional                                  |
+| Display           | 9" diagonal</br>720p HD   | Optional                        | Optional                                  |
 
-### Windows IoT Enterprise Processor Lists
-
-The processors listed here represent the latest processor generations and models that are supported for the listed Windows IoT Enterprise Edition.
-
-For more information, visit [Windows Processor Requirements](/windows-hardware/design/minimum/windows-processor-requirements)
-
-### Windows IoT Enterprise LTSC
-
-| Version | AMD | Intel | Qualcomm | NXP |
-| --------------- | --- | ----- | -------- | --- |
-| Windows 10 IoT Enterprise LTSC 2021 | [Supported AMD Processors](/windows-hardware/design/minimum/supported/windows-10-LTSC-2021-supported-amd-processors) | [Supported Intel Processors](/windows-hardware/design/minimum/supported/windows-10-LTSC-2021-supported-intel-processors) | N/A | [Supported NXP Processors](supported\21H2_LTSC_NXP_Processors.md) |
-| Windows 10 IoT Enterprise LTSC 1809 | [Supported AMD Processors](/windows-hardware/design/minimum/supported/windows-10-ltsc-1809-supported-amd-processors) | [Supported Intel Processors](/windows-hardware/design/minimum/supported/windows-10-LTSC-1809-supported-intel-processors) | N/A] | N/A |
-| Windows 10 IoT Enterprise LTSB 1607 | [Supported AMD Processors](/windows-hardware/design/minimum/supported/windows-10-ltsb-1607-supported-amd-processors) | [Supported Intel Processors](/windows-hardware/design/minimum/supported/windows-10-ltsb-1607-supported-intel-processors) | N/A | N/A |
-
-### Windows 11 IoT Enterprise
-
-| Version | AMD | Intel | Qualcomm | NXP |
-| --------------- | --- | ----- | -------- | --- |
-| Windows 11 IoT Enterprise, version 22H2/23H2 | [Supported AMD Processors](/windows-hardware/design/minimum/supported/windows-11-22h2-supported-amd-processors) | [Supported Intel Processors](/windows-hardware/design/minimum/supported/windows-11-22h2-supported-intel-processors) | [Supported Qualcomm Processors](/windows-hardware/design/minimum/supported/windows-11-22h2-supported-qualcomm-processors) | N/A |
-| Windows 11 IoT Enterprise, version 21H2| [Supported AMD Processors](/windows-hardware/design/minimum/supported/windows-11-supported-amd-processors) | [Supported Intel Processors](/windows-hardware/design/minimum/supported/windows-11-supported-intel-processors) | [Supported Qualcomm Processors](/windows-hardware/design/minimum/supported/windows-11-supported-qualcomm-processors) | N/A |
-
-### Windows 10 IoT Enterprise
-
-| Version | AMD | Intel | Qualcomm | NXP |
-| --------------- | --- | ----- | -------- | --- |
-| Windows 10 IoT Enterprise, version 22H2 | [Supported AMD Processors](/windows-hardware/design/minimum/supported/windows-10-22H2-supported-amd-processors) | [Supported Intel Processors](/windows-hardware/design/minimum/supported/windows-10-22H2-supported-intel-processors) | [Supported Qualcomm Processors](/windows-hardware/design/minimum/supported/windows-10-22H2-supported-qualcomm-processors) | [Supported NXP Processors](supported/22H2_NXP_Processors.md) |
-| Windows 10 IoT Enterprise, version 21H2 | [Supported AMD Processors](/windows-hardware/design/minimum/supported/windows-10-21H2-supported-amd-processors) | [Supported Intel Processors](/windows-hardware/design/minimum/supported/windows-10-21H2-supported-intel-processors) | [Supported Qualcomm Processors](/windows-hardware/design/minimum/supported/windows-10-21H2-supported-qualcomm-processors) | [Supported NXP Processors](supported/21H2_NXP_Processors.md) |
-| Windows 10 IoT Enterprise, version 21H1 | [Supported AMD Processors](/windows-hardware/design/minimum/supported/windows-10-21H1-supported-amd-processors) | [Supported Intel Processors](/windows-hardware/design/minimum/supported/windows-10-21H1-supported-intel-processors) | [Supported Qualcomm Processors](/windows-hardware/design/minimum/supported/windows-10-21H1-supported-qualcomm-processors) | N/A |
-| Windows 10 IoT Enterprise, version 20H2 | [Supported AMD Processors](/windows-hardware/design/minimum/supported/windows-10-20H2-supported-amd-processors) | [Supported Intel Processors](/windows-hardware/design/minimum/supported/windows-10-20H2-supported-intel-processors) | [Supported Qualcomm Processors](/windows-hardware/design/minimum/supported/windows-10-20H2-supported-qualcomm-processors) | N/A |
+¹ For more information, see [Windows IoT Enterprise Supported Processors](Processor_Requirements.md)
 
 ## Hardware Component Guidelines
 
