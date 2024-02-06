@@ -39,7 +39,7 @@
   items:
   - name: 🔵 Hardware Requirements
     href: ./Hardware/Hardware_Requirements.md
-  - name: Processor Requirements
+  - name: 🔵 Processor Requirements
     href: ./Hardware/Processor_Requirements.md
   - name: SoCs and Custom Boards
     href: ./Hardware/SoCs.md
