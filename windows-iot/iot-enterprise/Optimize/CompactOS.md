@@ -80,7 +80,7 @@ The [Windows Assessment and Deployment Kit (Windows ADK)](/windows-hardware/get-
 - [Boot up and Shutdown time](/windows-hardware/test/assessments/onoff-transition-performance)
 - App launch time
 
-In addition to the Windows ADK, you can use the [diskspd](https://gallery.technet.microsoft.com/DiskSpd-A-Robust-Storage-6ef84e62) tool to measure disk i/o performance, such as:
+In addition to the Windows ADK, you can use the [diskspd](https://github.com/microsoft/diskspd) tool to measure disk i/o performance, such as:
 
 - Disk i/o throughput
 - CPU usage when performing disk reads
