@@ -137,7 +137,6 @@ The following table shows additional customizations that can be made using regis
 
 ## Related articles
 
-- [Complementary features to Custom Logon](complementary-features-to-custom-logon.md)
 - [Troubleshooting Custom Logon](troubleshooting-custom-logon.md)
 - [Unbranded Boot](unbranded-boot.md)
 - [Shell Launcher](shell-launcher.md)
