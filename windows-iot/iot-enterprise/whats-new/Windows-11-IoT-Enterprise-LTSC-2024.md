@@ -33,9 +33,9 @@ Upgrading from one version of Windows IoT Enterprise LTSC to the next version re
 
 ### Servicing Lifecycle
 
-Windows 11 IoT Enterprise 2024 LTSC continues to offer a 10-year support lifecycle, which includes quality updates distributed via Windows Update monthly.
+Windows 11 IoT Enterprise LTSC 2024 continues to offer a 10-year support lifecycle, which includes quality updates distributed via Windows Update monthly.
 
-Windows 10 IoT Enterprise LTSC 2021 follows the [Fixed Lifecycle Policy](/lifecycle/policies/fixed).
+Windows 11 IoT Enterprise LTSC 2024 follows the [Fixed Lifecycle Policy](/lifecycle/policies/fixed).
 
 | Version | Build  | Availability | End of Servicing |
 | --- | --- | --- | --- |

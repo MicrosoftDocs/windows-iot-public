@@ -380,7 +380,7 @@
     href: Optimize/Overview.md
   - name: CompactOS
     href: Optimize/CompactOS.md  
-  - name: Removable Packages
+  - name: 🔵 Removable Packages
     expanded: false
     items:
       - name: 🔵 Overview
