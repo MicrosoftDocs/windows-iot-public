@@ -14,7 +14,5 @@ Earlier generations and models of the CPUs listed may have limited support for d
 
 | Manufacturer | Family | Model |
 |---|---|---|
-|NXP®|i.MX 9 ||
-|NXP®| | |
-|NXP®| | |
-|NXP®| | |
+|NXP®|i.MX 9 | i.MX 93 *(in preview)*|
+
