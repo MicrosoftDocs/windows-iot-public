@@ -11,6 +11,9 @@ ms.date: 3/10/2023
 
 # What's new in Windows 10 Enterprise LTSC 2021
 
+> [!WARNING]
+> THIS IS AN IN-PROGRESS ROUGH DRAFT. The wording and feature list may change before publishing.
+
 ## Overview
 
 This article lists new and updated features that are of interest to device makers and IT Pros working with Windows 10 IoT Enterprise LTSC 2021, compared to Windows 10 IoT Enterprise LTSC 2019. Windows 10 IoT Enterprise LTSC will continue to offer a 10-year support lifecycle.

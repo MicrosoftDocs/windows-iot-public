@@ -4,13 +4,16 @@ author: TerryWarwick
 ms.author: twarwick
 ms.date: 07/05/2023
 ms.topic: article
-ms.prod: windows-iot
-ms.technology: iot
+ms.service: windows-iot
+ms.subservice: iot
 description: Learn about Processor Requirements for Windows IoT Enterprise.
 keywords: IoT Enterprise, Hardware, Windows IoT
 ---
 
 # Processor Hardware Requirements for Windows IoT Enterprise
+
+> [!WARNING]
+> THIS IS AN IN-PROGRESS ROUGH DRAFT. The wording and feature list may change before publishing.
 
 This specification defines the minimum hardware requirements for Windows IoT Enterprise. Microsoft will build and test the Windows IoT Enterprise OS against the requirements described in this specification.
 

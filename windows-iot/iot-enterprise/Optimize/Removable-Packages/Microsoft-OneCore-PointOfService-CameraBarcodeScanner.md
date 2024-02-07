@@ -12,6 +12,9 @@ keywords: IoT Enterprise, removable packages, storage
 
 # Camera Barcode Scanner
 
+> [!WARNING]
+> THIS IS AN IN-PROGRESS ROUGH DRAFT. The wording and feature list may change before publishing.
+
 Applies to:  
 ✅ Windows 11 IoT Enterprise LTSC 2024  
 ⛔ Windows 10 IoT Enterprise LTSC 2021
