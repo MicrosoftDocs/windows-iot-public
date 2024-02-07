@@ -2,7 +2,7 @@
 title: Device Safeguards
 author: TerryWarwick
 ms.author: twarwick
-ms.date: 03/30/2023
+ms.date: 02/07/2024
 ms.topic: article
 ms.service: windows-iot
 ms.subservice: iot
@@ -85,6 +85,5 @@ Select-Object -Property *
 
 - [Policy CSP - DeviceInstallation](/windows/client-management/mdm/policy-csp-deviceinstallation)
 - [Defender/AllowFullScanRemovableDriveScanning](/windows/client-management/mdm/policy-csp-defender#defender-allowfullscanremovabledrivescanning)
-- [Perform a custom scan of a removable device](https://aka.ms/scanusb)
 - [Device Control Power BI Template for custom reporting](https://github.com/microsoft/MDATP-PowerBI-Templates)
 - [Windows Information Protection](/windows/security/information-protection/windows-information-protection/create-wip-policy-using-intune-azure)
