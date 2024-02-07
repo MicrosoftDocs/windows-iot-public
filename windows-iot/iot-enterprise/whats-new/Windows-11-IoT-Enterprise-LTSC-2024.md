@@ -7,7 +7,7 @@ ms.service: windows-iot
 ms.subservice: iot
 author: TerryWarwick
 ms.author: twarwick
-ms.date: 02/01/2024
+ms.date: 02/07/2024
 ---
 
 # What's new in Windows 11 Enterprise LTSC 2024
@@ -39,7 +39,7 @@ Windows 10 IoT Enterprise LTSC 2021 follows the [Fixed Lifecycle Policy](/lifecy
 
 | Version | Build  | Availability | End of Servicing |
 | --- | --- | --- | --- |
-| 2024 | ###### | 2024-04-08 | 2035 |
+| 2024 | TBD | ~Q2 CY2024 | ~Q1 CY2035 |
 
 For more information, see [Windows 11 IoT Enterprise LTSC 2024 support lifecycle](/lifecycle/products/windows-11-iot-enterprise-ltsc-2024).
 
@@ -54,10 +54,10 @@ Windows 11 IoT Enterprise LTSC 2024 release includes the cumulative enhancements
 
 | Feature | Description |
 | --- | --- |
-| **Hardware Requirements** | |
+| **Hardware Requirements** | System hardware requirement have been updated to provide more flexibility to device makers.  For more information, see [Minimum Hardware Requirements for Windows IoT Enterprise](../Hardware/Hardware_Requirements.md) |
 | **Restricted User Experience** </br> [23H2] <!--6444738--> | <!-- You can configure a multi-app kiosk, which displays a customized start menu of allowed apps. For more information, see [Set up a multi-app kiosk on Windows 11 devices](/windows/configuration/lock-down-windows-11-to-specific-apps). --> |
-| **Removable Packages** | |
-| **Wireless Display** | |
+| **Removable Packages** | Removable package support for Windows IoT Enterprise LTSC has expanded from 20 to 36 removable packages.  For more information, see [Removable Packages](../Optimize/Removable-Packages.md). |
+| **Wireless Display** | The Wireless Display optional feauture is now available for Windows 11 IoT Enterprise LTSC, allowing other devices to wirelessly project to a device running Windows 11 IoT Enterprise LTSC.  Requires Miracast-compatable hardware.  For more information, see [Screen mirroring and projecting to your PC](https://support.microsoft.com/en-us/windows/screen-mirroring-and-projecting-to-your-pc-5af9f371-c704-1c7f-8f0d-fa607551d09c). |
 
 ## Accessibility
 
