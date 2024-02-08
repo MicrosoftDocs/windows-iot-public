@@ -5,7 +5,7 @@ author: TerryWarwick
 ms.author: Twarwick
 ms.date: 07/05/2023
 ms.topic: article
-ms.prod: windows-iot
+ms.service: windows-iot
 ---
 
 # Supported NXP Processors for Windows 11 IoT Enterprise LTSC
