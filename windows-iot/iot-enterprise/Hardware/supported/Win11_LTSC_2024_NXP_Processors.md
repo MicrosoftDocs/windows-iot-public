@@ -5,7 +5,7 @@ author: TerryWarwick
 ms.author: Twarwick
 ms.date: 07/05/2023
 ms.topic: article
-ms.prod: windows-iot
+ms.service: windows-iot
 ---
 
 # Supported NXP Processors for Windows 11 IoT Enterprise LTSC
@@ -14,7 +14,5 @@ Earlier generations and models of the CPUs listed may have limited support for d
 
 | Manufacturer | Family | Model |
 |---|---|---|
-|NXP®|i.MX 9 ||
-|NXP®| | |
-|NXP®| | |
-|NXP®| | |
+|NXP®|i.MX 9 | i.MX 93 *(in preview)*|
+
