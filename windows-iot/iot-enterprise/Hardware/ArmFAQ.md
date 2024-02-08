@@ -36,8 +36,8 @@ Windows IoT Enterprise supports various peripheral interfaces on ARM64 devices. 
 |Avnet|[MSC SM2S IMX8PLUS](https://embedded.avnet.com/product/msc-sm2s-imx8plus/)<br> [MSC SM2S-IMX8M](https://embedded.avnet.com/product/msc-sm2s-imx8m/)    |
 |Advantech|[RSB-3720](https://www.advantech.com/en/products/single_board_computer/rsb-3720/mod_d2f1b0bc-650b-449a-8ef7-b65ce4f69949)<br> [ROM-5720](https://www.advantech.com/en/products/computer-on-module/rom-5720/mod_4fbfe9fa-f5b2-4ba8-940e-e47585ad0fef)<br> [ROM-5722](https://www.advantech.com/en/products/computer-on-module/rom-5722/mod_11aa0c77-868e-4014-8151-ac7a7a1c5c1b)     |
 |SECO|[Trizeps VIII Plus](https://edge.seco.com/usa/trizeps-viii-plus.html)<br> [Trizeps VIII](https://edge.seco.com/usa/trizeps-viii.html)<br> [Trizeps VIII Mini](https://edge.seco.com/usa/trizeps-viii-mini.html)     |
-|ASUS|[IMX8P IM A](https://www.asus.com/us/site/IOT/#!/products/single-board-computer/IMX8P-IM-A)<br> [PE100A](https://iot.asus.com/products/intelligent-edge-computer/PE100A/)     |
-|Reycom|[RIA 8M](https://www.reycom.swiss/oem-hardware/ria-8m/)<br> [RIA 8M](https://www.reycom.swiss/oem-hardware/ria-8mplus/)|
+|ASUS|[IMX8P IM A](https://www.asus.com/networking-iot-servers/aiot-industrial-solutions/single-board-computers/imx8p-im-a/)<br> [PE100A](https://iot.asus.com/products/intelligent-edge-computer/PE100A/)     |
+|Reycom|[RIA 8M](https://www.reycom.swiss/en/oem-hardware/ria-8m/)|
 
 #### Connectivity
 
