@@ -49,6 +49,11 @@
     {
         "source_path_from_root": "/Windows-iot/iot-enterprise/os-features/security.md",
         "redirect_url": "/windows/iot/iot-enterprise/resources/security"
+    },
+
+    {
+        "source_path_from_root": "/Windows-iot/iot-enterprise/arm64/armfaq.md",
+        "redirect_url": "/windows/iot/iot-enterprise/hardware/armfaq"
     }
 
 ]

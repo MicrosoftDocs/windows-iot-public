@@ -4,9 +4,9 @@ author: sydbruck
 ms.author: sybruckm
 ms.date: 2/5/2024
 ms.topic: article
-ms.prod: windows-iot
-ms.technology: iot
-description: App development guidance for Windows IoT Enterprise on ARM64
+ms.service: windows-iot
+ms.subservice: iot
+description: App development guidance for Windows IoT Enterprise
 keywords: IoT Enterprise, App Development
 ---
 
@@ -36,7 +36,7 @@ Learn everything about writing apps for Windows devices and explore sample appli
 
 |Topic  |Resource  |Description  |
 |---------|---------|---------|
-|Windows Language and Platform Options |[Windows Development Options](windows/apps/get-started)  |Windows offers a wide range of options for building apps, from the programming language to the application framework. This article contains the information you need to get started building apps. |
+|Windows Language and Platform Options |[Windows Development Options](/windows/apps/get-started)  |Windows offers a wide range of options for building apps, from the programming language to the application framework. This article contains the information you need to get started building apps. |
 |App Framework Comparison |  [App Development Frameworks](/windows/apps/get-started/dev-options) |Evaluate which app development framework is best suited for your app.  |
 |Windows App Packaging and Deployment Options   |[Windows apps: packaging, deployment, and process](/windows/apps/get-started/intro-pack-dep-proc)  |Learn how Windows applications are packaged, distributed, and deployed, and how these different options impact your app's run-time process. |
 |Sample Code |[Sample applications for Windows development](/windows/apps/get-started/samples)  |This topic compiles sample code for Windows applications that demonstrate specific tasks, features, and API usage patterns. These samples demonstrate features from Windows App SDK / WinUI 3, UWP / WinUI 2, .NET MAUI, and more. |
@@ -49,7 +49,7 @@ Learn about Windows app development patterns and features commonly used for Wind
 |Topic|Resource|Description|
 |---|---|---|
 |Embedded Mode |[Embedded mode](../OS-Features/Embedded-Mode.md) |Enables UWP applications to run in the [background](/windows/iot-core/develop-your-app/backgroundapplications), and to use [the lowLevelDevices or the systemManagement UWP application capabilities](/windows/uwp/packaging/app-capability-declarations) |
-|Background Applications (UWP)|[Background UWP tasks and applications](windows/uwp/launch-resume/#background-tasks)|Background Applications are a special type of UWP application that has no UI but can still run code. These apps are commonly used on Windows IoT Core devices and devices without displays. [Embedded Mode](../OS-Features/Embedded-Mode.md) must be enabled in order for Background Applications to run.|
+|Background Applications (UWP)|[Background UWP tasks and applications](/windows/uwp/launch-resume/#background-tasks)|Background Applications are a special type of UWP application that has no UI but can still run code. These apps are commonly used on Windows IoT Core devices and devices without displays. [Embedded Mode](../OS-Features/Embedded-Mode.md) must be enabled in order for Background Applications to run.|
 |Windows Services (.NET) |[Windows services](/dotnet/core/extensions/workers) |Windows Services are background processes that that have no UI and are designed to perform specific tasks or functions. Windows Services are commonly used on Windows Client devices and can also be used on Windows IoT devices.|
 |UWP Application Deployment|[Deploying and debugging UWP applications](/windows/uwp/debug-test-perf/deploying-and-debugging-uwp-apps)|Describes the various ways you can deploy and debug UWP applications. The most common paradigm for IoT Devices is deploying to a Remote Machine, which [requires extra steps to set up on the IoT device](/windows/uwp/debug-test-perf/deploying-and-debugging-uwp-apps#remote-pc-instructions)|
 |UWP Application Debugging|[Debugging UWP applications on remote machines](/visualstudio/debugger/run-windows-store-apps-on-a-remote-machine)|Describes how you debug your application running on a Windows IoT device from your development machine.|
