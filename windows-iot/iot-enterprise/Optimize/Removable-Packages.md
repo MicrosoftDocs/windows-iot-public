@@ -3,7 +3,7 @@ title: Removable Packages Overview
 titleSuffix: Windows IoT Enterprise
 author: twarwick
 ms.author: twarwick
-ms.date: 01/15/2024
+ms.date: 02/08/2024
 ms.date: 01/03/2024
 ms.topic: article
 ms.service: windows-iot
@@ -91,8 +91,7 @@ The following packages can be removed from Windows IoT Enterprise LTSC 2024.  Se
 |✅| **[Microsoft-Windows-MicrosoftEdgeDevToolsClient](Removable-Packages/Microsoft-Windows-MicrosoftEdgeDevToolsClient.md)** </br> Microsoft Edge developer tools.  For more information, see [Microsoft Edge DevTools documentation](/microsoft-edge/devtools-guide-chromium/landing/). | <!-- x64 --> 10,811&nbsp;KB | <!-- arm64 --> 10,792&nbsp;KB |
 |✅| **[Microsoft-Windows-MobilePC-Client-Basic](Removable-Packages/Microsoft-Windows-MobilePC-Client-Basic.md)** </br> Windows Mobility Center Control Panel application. | <!-- x64 --> 823&nbsp;KB | <!-- arm64 --> 797&nbsp;KB |
 |✅| **[Microsoft-Windows-NetProfilesUX](Removable-Packages/Microsoft-Windows-NetProfilesUX.md)** </br> | <!-- x64 --> 899&nbsp;KB | <!-- arm64 --> 1,106&nbsp;KB |
-|✅| **[Microsoft-Windows-PEAuth-OneCore](Removable-Packages/Microsoft-Windows-PEAuth-OneCore.md)** </br> Protected Environment authentication.
-| <!-- x64 --> 0&nbsp;KB | <!-- arm64 --> 0&nbsp;KB |
+|✅| **[Microsoft-Windows-PEAuth-OneCore](Removable-Packages/Microsoft-Windows-PEAuth-OneCore.md)** </br> Protected Environment authentication. | <!-- x64 --> 0&nbsp;KB | <!-- arm64 --> 0&nbsp;KB |
 | | **[Microsoft-Windows-Portable-Devices](Removable-Packages/Microsoft-Windows-Portable-Devices.md)** </br> A component of the [Media Feature Pack](/windows/win32/wmdm/windows-media-device-manager-architecture) providing connectivity to portable devices for [Windows Media Device Manager](/windows/win32/wmdm/windows-media-device-manager-architecture). | <!-- x64 --> 6,830&nbsp;KB | <!-- arm64 --> 7,979&nbsp;KB |
 | | **[Microsoft-Windows-Printer-Drivers](Removable-Packages/Microsoft-Windows-Printer-Drivers.md)** </br> Generic / Text Only, Generic IBM Graphics 9pin, Generic IBM Graphics 9-pin wide, MS Publisher Color Printer, MS Publisher Imagesetter, Microsoft Shared Fax Driver | <!-- x64 --> 8,578&nbsp;KB | <!-- arm64 --> 94&nbsp;KB |
 | | **[Microsoft-Windows-Printing-PremiumTools](Removable-Packages/Microsoft-Windows-Printing-PremiumTools.md)** </br> Print services migration command-line tool printbrm.exe | <!-- x64 --> 460&nbsp;KB | <!-- arm64 --> 397&nbsp;KB |
@@ -100,7 +99,7 @@ The following packages can be removed from Windows IoT Enterprise LTSC 2024.  Se
 | | **[Microsoft-Windows-ScreenSavers-3D](Removable-Packages/Microsoft-Windows-ScreenSavers-3D.md)** </br> Screensavers: 3D Text, Bubbles, Mystify and Ribbons | <!-- x64 --> 1,396&nbsp;KB | <!-- arm64 --> 1,173&nbsp;KB |
 | | **[Microsoft-Windows-SensorDataService](Removable-Packages/Microsoft-Windows-SensorDataService.md)** </br> Component of the [Media Feature Pack](/windows/win32/wmdm/windows-media-device-manager-architecture) supporting data acquisition from  various sensors.  Supports Windows Hello.  | <!-- x64 --> 0&nbsp;KB | <!-- arm64 --> 0&nbsp;KB |
 | | **[Microsoft-Windows-ShellOptions](Removable-Packages/Microsoft-Windows-ShellOptions.md)** </br> Modern Calculator, Character Map, More Icons DLL | <!-- x64 --> 787&nbsp;KB | <!-- arm64 --> 745&nbsp;KB |
-|✅| **[Microsoft-Windows-UI-Shell-WindowTabManager](Removable-Packages/Microsoft-Windows-UI-Shell-WindowTabManager.md)** </br> Window tab manabager | <!-- x64 --> 408&nbsp;KB | <!-- arm64 --> 947&nbsp;KB |
+|✅| **[Microsoft-Windows-UI-Shell-WindowTabManager](Removable-Packages/Microsoft-Windows-UI-Shell-WindowTabManager.md)** </br> Window tab manager | <!-- x64 --> 408&nbsp;KB | <!-- arm64 --> 947&nbsp;KB |
 | | **[Microsoft-Windows-Shell-Wallpaper-Common](Removable-Packages/Microsoft-Windows-Shell-Wallpaper-Common.md)** </br> Wallpaper images | <!-- x64 --> 21,493&nbsp;KB | <!-- arm64 --> 21,493&nbsp;KB |
 | | **[Microsoft-Windows-WebcamExperience](Removable-Packages/Microsoft-Windows-WebcamExperience.md)** </br> A component of the [Media Feature Pack](/windows/win32/wmdm/windows-media-device-manager-architecture) providing webcam user experience. | <!-- x64 --> 1,013&nbsp;KB | <!-- arm64 --> 980&nbsp;KB |
 | | **[Microsoft-Windows-win32calc](Removable-Packages/Microsoft-Windows-win32calc.md)** </br> Legacy Calculator Application | <!-- x64 --> 709&nbsp;KB | <!-- arm64 --> 704&nbsp;KB |
