@@ -28,19 +28,19 @@ Package: **Microsoft-Windows-NetProfilesUX** </br>  `Add Description Here`
 1. To remove a specific package from the image type:
 
    ```powershell
-   Dism.exe /Online /NoRestart /Disable-Feature /FeatureName:Microsoft-Windows-MobilePC-Client-Basic /PackageName:@Package
+   Dism.exe /Online /NoRestart /Disable-Feature /FeatureName:Microsoft-Windows-NetProfilesUX /PackageName:@Package
    ````
 
    To remove a package from an offline image mounted at `c:\offline` type:
 
    ```powershell
-   Dism.exe /Image:c:\offline  /Disable-Feature /FeatureName:Microsoft-Windows-MobilePC-Client-Basic /PackageName:@Package
+   Dism.exe /Image:c:\offline  /Disable-Feature /FeatureName:Microsoft-Windows-NetProfilesUX /PackageName:@Package
    ```
 
 1. Optional: Use DISM /GetFeatureInfo to get the status of a removable package type:
 
    ```powershell
-   Dism.exe /Online /Get-FeatureInfo /FeatureName:Microsoft-Windows-MobilePC-Client-Basic /PackageName:@Package
+   Dism.exe /Online /Get-FeatureInfo /FeatureName:Microsoft-Windows-NetProfilesUX /PackageName:@Package
    ````
 
 ## Package Details
