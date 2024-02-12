@@ -99,5 +99,8 @@
         "WPAD",
         "writability",
         "YYMM"
+    ],
+    "githubPullRequests.ignoredPullRequestBranches": [
+        "main"
     ]
 }
