@@ -36,14 +36,17 @@
     href: Hardware/Hardware_Requirements.md
   - name: SoCs and Custom Boards
     href: Hardware/SoCs.md
-  - name: Windows IoT Enterprise on ARM64 FAQ
-    href: Hardware/ArmFAQ.md
   - name: Start prototyping
     href: Hardware/Prototype.md
   - name: Bus Providers
     href: OS-Features/Bus-Providers.md
   - name: Device Drivers
     href: OS-Features/Device-Drivers.md    
+- name: Arm64 Guidance
+  expanded: false
+  items:
+  - name: Windows IoT Enterprise on ARM64 FAQ
+    href: ARM64/ArmFAQ.md
 - name: Tutorials
   expanded: false
   items:
@@ -73,6 +76,11 @@
       href: Commercialization/iot-ent-sysprep-capture-deploy.md
     - name: Lab 5 - Configure Shell Launcher or Assigned Access
       href: Commercialization/iot-ent-shell-launcher-app-launcher.md
+- name: Development
+  expanded: false
+  items:
+  - name: Develop Applications
+    href: Development/App_dev.md
 - name: Customization
   expanded: false
   items:
