@@ -21,7 +21,7 @@ Applies to:
 
 ## Package Description
 
-Package: **Microsoft-OneCore-SD** </br> `Add Description Here`
+Package: **Microsoft-OneCore-SD** </br> SD Port and Dump SD Port.
 
 ## Package Removal
 
