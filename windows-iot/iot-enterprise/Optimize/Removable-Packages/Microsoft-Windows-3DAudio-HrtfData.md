@@ -2,7 +2,7 @@
 title: Package - 3D Audion HRTF Data
 author: twarwick
 ms.author: twarwick
-ms.date: 03/30/2023
+ms.date: 02/12/2024
 ms.topic: article
 ms.prod: windows-iot
 ms.technology: iot
@@ -21,7 +21,7 @@ Applies to:
 
 ## Package Description
 
-Package: **Microsoft-Windows-3DAudio-HrtfData** </br>  `Add Description Here`
+Package: **Microsoft-Windows-3DAudio-HrtfData** </br>  3D Audio Head-related transfer function (HRTF) also known as Spacial Sound.  For more information, see [Spatial Sound for App Developers](/windows/win32/coreaudio/spatial-sound).
 
 ## Package Removal
 
