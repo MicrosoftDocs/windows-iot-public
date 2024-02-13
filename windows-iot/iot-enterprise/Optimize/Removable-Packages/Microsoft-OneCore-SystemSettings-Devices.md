@@ -2,7 +2,7 @@
 title: Package - System Settings Devices
 author: twarwick
 ms.author: twarwick
-ms.date: 03/30/2023
+ms.date: 02/12/2024
 ms.topic: article
 ms.prod: windows-iot
 ms.technology: iot
@@ -21,7 +21,7 @@ Applies to:
 
 ## Package Description
 
-Package: **Microsoft-OneCore-SystemSettings-Devices** </br>  `Add Description Here`
+Package: **Microsoft-OneCore-SystemSettings-Devices** </br>  Systems Settings handlers for Devices.
 
 ## Package Removal
 
