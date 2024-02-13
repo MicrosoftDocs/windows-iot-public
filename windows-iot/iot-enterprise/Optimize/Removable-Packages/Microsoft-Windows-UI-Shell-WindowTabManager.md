@@ -2,7 +2,7 @@
 title: Package - Window Tab Manager
 author: twarwick
 ms.author: twarwick
-ms.date: 03/30/2023
+ms.date: 02/12/2024
 ms.topic: article
 ms.prod: windows-iot
 ms.technology: iot
@@ -21,7 +21,7 @@ Applies to:
 
 ## Package Description
 
-Package: **Microsoft-Windows-UI-Shell-WindowTabManager** </br> `Add Description Here`
+Package: **Microsoft-Windows-UI-Shell-WindowTabManager** </br> Lets an app manage the relationship between its in-app UI tabs and representations of the tabs in the system shell UI. For more information, see [WindowTabManager Class](/uwp/api/windows.ui.shell.windowtabmanager).
 
 ## Package Removal
 
