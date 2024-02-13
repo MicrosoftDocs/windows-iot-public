@@ -2,7 +2,7 @@
 title: Package - PEAuth
 author: twarwick
 ms.author: twarwick
-ms.date: 03/30/2023
+ms.date: 02/12/2024
 ms.topic: article
 ms.prod: windows-iot
 ms.technology: iot
@@ -21,7 +21,7 @@ Applies to:
 
 ## Package Description
 
-Package: **Microsoft-Windows-PEAuth-OneCore** </br> `Add Description Here`
+Package: **Microsoft-Windows-PEAuth-OneCore** </br> Protected Environment authorization supporting playback of protected media. For more information, see [How to Play Protected Media Files](/windows/win32/medfound/how-to-play-protected-media-files).
 
 ## Package Removal
 
