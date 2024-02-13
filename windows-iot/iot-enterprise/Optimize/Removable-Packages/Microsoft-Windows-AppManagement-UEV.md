@@ -110,7 +110,7 @@ See [User Experience Virtualization](/windows/configuration/ue-v/uev-for-windows
 | microsoft.uev.office2010customactions.dll  | %windir%\system32\microsoft.uev.office2010customactions.dll |
 | microsoft.uev.office2013customactions.dll  | %windir%\system32\microsoft.uev.office2013customactions.dll |
 | microsoft.uev.printercustomactions.dll     | %windir%\system32\microsoft.uev.printercustomactions.dll |
-| microsoft.uev.smbsyncprovider.dll          | %windir%\system32\microsoft.uev.smbsyncprovider.dll
+| microsoft.uev.smbsyncprovider.dll          | %windir%\system32\microsoft.uev.smbsyncprovider.dll |
 | microsoft.uev.synccommon.dll               | %windir%\system32\microsoft.uev.synccommon.dll |
 | microsoft.uev.syncconditions.dll           | %windir%\system32\microsoft.uev.syncconditions.dll |
 | microsoft.uev.synccontroller.exe           | %windir%\system32\microsoft.uev.synccontroller.exe |

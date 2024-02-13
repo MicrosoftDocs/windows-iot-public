@@ -54,7 +54,7 @@ Package: **Microsoft-Windows-Shell-Wallpaper-Common** </br> Wallpaper images.
 
 | File Name | Installed Location |
 |-----------|--------------------|
-img0.jpg | %windir%\web\wallpaper\windows\img0.jpg |
+| img0.jpg | %windir%\web\wallpaper\windows\img0.jpg |
 | img0_1920x1200.jpg | %windir%\web\4k\wallpaper\windows\img0_1920x1200.jpg |
 | img14.jpg | %windir%\web\wallpaper\spotlight\img14.jpg |
 | img19.jpg | %windir%\web\wallpaper\windows\img19.jpg |

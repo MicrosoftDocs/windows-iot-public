@@ -1,5 +1,5 @@
 ---
-title: Package - SD
+title: Package - SD Port
 titleSuffix: Windows IoT Enterprise
 author: twarwick
 ms.author: twarwick

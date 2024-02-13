@@ -66,16 +66,16 @@ These packages collectively provide the functionality represented by the [Media 
 
 | File Name                         | Installed Location |
 |-----------------------------------|--------------------|
-| castingshellext.dll               | %windir%\system32\castingshellext.dll
-| dlnashext.dll                     | %windir%\system32\dlnashext.dll
-| dmrserver.dll                     | %windir%\system32\dmrserver.dll
-| mdeserver.exe                     | %windir%\system32\mdeserver.exe
-| playtoreceiver.dll                | %windir%\system32\playtoreceiver.dll
-| windows.media.streaming.dll       | %windir%\system32\windows.media.streaming.dll
-| windows.media.streaming.ps.dll    | %windir%\system32\windows.media.streaming.ps.dll
-| winmde.dll                        | %windir%\system32\winmde.dll
-| wmpdmc.exe                        | %windir%\system32\wmpdmc.exe
-| wmpdui.dll                        | %windir%\system32\wmpdui.dll
+| castingshellext.dll               | %windir%\system32\castingshellext.dll |
+| dlnashext.dll                     | %windir%\system32\dlnashext.dll |
+| dmrserver.dll                     | %windir%\system32\dmrserver.dll |
+| mdeserver.exe                     | %windir%\system32\mdeserver.exe |
+| playtoreceiver.dll                | %windir%\system32\playtoreceiver.dll |
+| windows.media.streaming.dll       | %windir%\system32\windows.media.streaming.dll |
+| windows.media.streaming.ps.dll    | %windir%\system32\windows.media.streaming.ps.dll |
+| winmde.dll                        | %windir%\system32\winmde.dll |
+| wmpdmc.exe                        | %windir%\system32\wmpdmc.exe |
+| wmpdui.dll                        | %windir%\system32\wmpdui.dll |
 
 ## More Resources
 
