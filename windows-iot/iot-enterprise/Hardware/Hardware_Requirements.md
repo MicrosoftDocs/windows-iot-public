@@ -35,7 +35,7 @@ keywords: IoT Enterprise, Hardware, Windows IoT
 
 ---
 
-# [Windows 11 IoT Enterprise, version 24H2 or later](#tab/win11.24h2)
+# [Windows 11 IoT Enterprise, version 24H2 or later](#tab/win1124h2)
 
 | Components        | Recommended               | Minimum¹</br>IoT&nbsp;Enterprise |
 | ----------------- |:-------------------------:|:--------------------------------:|
@@ -54,7 +54,7 @@ keywords: IoT Enterprise, Hardware, Windows IoT
 
 ---
 
-# [Windows 11 IoT Enterprise, versions 21H2, 22H2, 23H2](#tab/win11.21H2-23H2)
+# [Windows 11 IoT Enterprise, versions 21H2, 22H2, 23H2](#tab/win1121H2to23H2)
 
 | Components        | Recommended                         | Minimum</br>IoT&nbsp;Enterprise  |
 | ----------------- |:-----------------------------------:|:--------------------------------:|
