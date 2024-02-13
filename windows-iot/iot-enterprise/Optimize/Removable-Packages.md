@@ -4,7 +4,6 @@ titleSuffix: Windows IoT Enterprise
 author: twarwick
 ms.author: twarwick
 ms.date: 02/09/2024
-ms.date: 01/03/2024
 ms.topic: article
 ms.service: windows-iot
 ms.subservice: iot
