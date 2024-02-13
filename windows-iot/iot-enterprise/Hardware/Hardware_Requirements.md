@@ -3,7 +3,7 @@ title: Hardware Requirements
 titleSuffix: Windows IoT Enterprise
 author: TerryWarwick
 ms.author: twarwick
-ms.date: 02/06/2024
+ms.date: 02/12/2024
 ms.topic: article
 ms.service: windows-iot
 ms.subservice: iot
@@ -16,48 +16,79 @@ keywords: IoT Enterprise, Hardware, Windows IoT
 > [!WARNING]
 > THIS IS AN IN-PROGRESS ROUGH DRAFT. The wording and feature list may change before publishing.
 
-This specification defines the minimum hardware requirements for Windows IoT Enterprise. Microsoft will build and test the Windows IoT Enterprise OS against the requirements described in this specification.
+## Windows 11 IoT Enterprise LTSC 2024
 
-## Overview
+| Components        | Recommended                       | Minimum¹</br>IoT&nbsp;Enterprise&nbsp;LTSC |
+| ----------------- |:---------------------------------:|:------------------------------------------:|
+| Processor²        | 1&nbsp;GHz,&nbsp;2 Cores          | 1&nbsp;GHz,&nbsp;2&nbsp;Cores              |
+| System Memory     |  4 GB                             |  2 GB                                      |
+| Storage Size      | 64 GB                             | 16 GB                                      |
+| Storage Type      | Solid-State&nbsp;Drive&nbsp;(SSD) |  Hard&nbsp;Disk&nbsp;Drive&nbsp;(HDD)</br> Hybrid&nbsp;Hard&nbsp;Drive&nbsp;(SSHD) </br> Flash&nbsp;(eMMC,&nbsp;SD,&nbsp;USB)  |
+| System Firmware   | UEFI                              | BIOS                                       |
+| TPM               | TPM 2.0                           | Optional                                   |
+| Secure Boot       | Enabled                           | Optional                                   |
+| DirectX           | DirectX 12                        | DirectX 10 / None                          |
+| Display           | 9" diagonal</br>720p HD           | Custome Size / Optional                    |
 
-This specification defines the minimum hardware requirements necessary to:
-
-* Boot and run Windows IoT Enterprise.
-* Update and service Windows IoT Enterprise.
-
-The goal of this specification is to enable OEMs, ODMs, SoC vendors, and other component vendors to make early design decisions for devices and computers that run Windows IoT Enterprise.
-
-This specification doesn't provide compatibility and certification requirements for devices and computers that run Windows IoT Enterprise or implementation guidance for exceptional user experiences.
-
-## Hardware Requirements
-
-Recommended [hardware requirements](/windows-hardware/design/minimum/minimum-hardware-requirements-overview).
-
-| Components        | Recommended               | Minimum¹</br>IoT&nbsp;Enterprise | Minimum¹</br>IoT&nbsp;Enterprise&nbsp;LTSC |
-| ----------------- |:-------------------------:|:-------------------------------:|:-----------------------------------------:|
-| Processor²         | 1&nbsp;GHz,&nbsp;2 Cores  | 1&nbsp;GHz,&nbsp;2&nbsp;Cores   | 1&nbsp;GHz,&nbsp;2&nbsp;Cores             |
-| System Memory     |  4 GB                     |  4 GB                           |  2 GB                                     |
-| Storage Size      | 64 GB                     | 64 GB                           | 16 GB                                     |
-| Storage Type      | Solid-State&nbsp;Drive&nbsp;(SSD)   | Hard&nbsp;Disk&nbsp;Drive&nbsp;(HDD)</br> Hybrid&nbsp;Hard&nbsp;Drive&nbsp;(SSHD) </br> Flash&nbsp;(eMMC,&nbsp;SD,&nbsp;USB)  |  Hard&nbsp;Disk&nbsp;Drive&nbsp;(HDD)</br> Hybrid&nbsp;Hard&nbsp;Drive&nbsp;(SSHD) </br> Flash&nbsp;(eMMC,&nbsp;SD,&nbsp;USB)  |
-| System Firmware   | UEFI                      | BIOS                            | BIOS                                      |
-| TPM               | TPM 2.0                   | Optional                        | Optional                                  |
-| Secure Boot       | Enabled                   | Optional                        | Optional                                  |
-| DirectX           | DirectX 12                | DirectX 10 / None               | DirectX 10 / None                         |
-| Display           | 9" diagonal</br>720p HD   | Custome Size / Optional         | Custom Size / Optional                    |
-
-¹ Applies to Windows 11 IoT Enterprise LTSC 2024 and Windows 11 IoT Enterprise, Version 24H2 (build XXXXX) and later.
+¹ Applies to Windows 11 IoT Enterprise LTSC 2024 (build XXXXX)
 ² For more information, see [Windows IoT Enterprise Supported Processors](Processor_Requirements.md)
 
-## Hardware Component Guidelines
+## Windows 11 IoT Enterprise, version 24H2 or later
 
-| Topic | Description |
-| ----- | ----------- |
-| Memory | Devices that run Windows IoT Enterprise must meet the following [RAM requirements](/windows-hardware/design/minimum/minimum-hardware-requirements-overview#32-memory). |
-| Storage | Devices that run Windows IoT Enterprise must include a storage device that meets the following [size requirements](/windows-hardware/design/minimum/minimum-hardware-requirements-overview#331-storage-device-size).  To achieve the minimum storage requirements, review how to [Optimize a Windows IoT Enterprise image](../Optimize/overview.md). |
-| Display | Display size requirements don't apply to Windows IoT Enterprise. |
-| Graphics | Devices that run Windows IoT Enterprise **and** require hardware accelerated graphics, must include a GPU that supports DirectX 9 or later. |
-| Networking | It's recommended that devices that run Windows IoT Enterprise include at least one network connectivity option, such as Wi-Fi or an Ethernet adapter. |
-| Trusted Platform Module (TPM) | While TPM requirements are highly encouraged for Windows 10 IoT Enterprise, it isn't required. The use of a TPM for Windows 10 IoT Enterprise devices is determined based on the usage and security requirements of each device.  For more information, see [TPM Requirements](/windows-hardware/design/minimum/minimum-hardware-requirements-overview#37-trusted-platform-module-tpm), [Trusted Platform Module Technology Overview](/windows/security/information-protection/tpm/trusted-platform-module-overview), and [TPM Recommendations](/windows/security/information-protection/tpm/tpm-recommendations) |
+| Components        | Recommended               | Minimum¹</br>IoT&nbsp;Enterprise |
+| ----------------- |:-------------------------:|:--------------------------------:|
+| Processor²         | 1&nbsp;GHz,&nbsp;2 Cores  | 1&nbsp;GHz,&nbsp;2&nbsp;Cores   |
+| System Memory     |  4 GB                     |  4 GB                            |
+| Storage Size      | 64 GB                     | 64 GB                            |
+| Storage Type      | Solid-State&nbsp;Drive&nbsp;(SSD)   | Hard&nbsp;Disk&nbsp;Drive&nbsp;(HDD)</br> Hybrid&nbsp;Hard&nbsp;Drive&nbsp;(SSHD) </br> Flash&nbsp;(eMMC,&nbsp;SD,&nbsp;USB)  |
+| System Firmware   | UEFI                      | BIOS                             |
+| TPM               | TPM 2.0                   | Optional                         |
+| Secure Boot       | Enabled                   | Optional                         |
+| DirectX           | DirectX 12                | DirectX 10 / None                |
+| Display           | 9" diagonal</br>720p HD   | Custome Size / Optional          |
+
+¹ Applies to Windows 11 IoT Enterprise, Version 24H2 (build XXXXX) and later.
+² For more information, see [Windows IoT Enterprise Supported Processors](Processor_Requirements.md)
+
+## Windows 11 IoT Enterprise, versions 21H2, 22H2, 23H2
+
+| Components        | Recommended                         | Minimum</br>IoT&nbsp;Enterprise  |
+| ----------------- |:-----------------------------------:|:--------------------------------:|
+| Processor²        | 1&nbsp;GHz,&nbsp;2 Cores            | 1&nbsp;GHz,&nbsp;2&nbsp;Cores    |
+| System Memory     |  4 GB                               |  4 GB                            |
+| Storage Size      | 64 GB                               | 64 GB                            |
+| Storage Type      | Solid-State&nbsp;Drive&nbsp;(SSD)   | Hard&nbsp;Disk&nbsp;Drive&nbsp;(HDD)</br> Hybrid&nbsp;Hard&nbsp;Drive&nbsp;(SSHD) </br> Flash&nbsp;(eMMC,&nbsp;SD,&nbsp;USB)  |
+| System Firmware   | UEFI                                | UEFI                             |
+| TPM               | TPM 2.0                             | TPM 2.0                          |
+| Secure Boot       | Enabled                             | Optional                         |
+| DirectX           | DirectX 12                          | DirectX 12                       |
+| Display           | 9" diagonal</br>720p HD             | Custome Size / Optional          |
+
+² For more information, see [Windows IoT Enterprise Supported Processors](Processor_Requirements.md)
+
+## Windows 10 IoT Enterprise (All versions)
+
+| Topic         | Recommended                    | Minimum</br>64-bit&nbsp;IoT&nbsp;Enterprise | Minimum</br>32-bit&nbsp;IoT&nbsp;Enterprise |
+|:--------------|:------------------------------:|:-------------------------------------------:|:------------------------------:|
+| Processor²    | 1&nbsp;GHz&nbsp;or&nbsp;faster | 1&nbsp;GHz&nbsp;or&nbsp;faster              | 1&nbsp;GHz&nbsp;or&nbsp;faster |
+| System Memory | x64: 2 GB                      | 2 GB                                        | 1 GB                           |
+| Storage Size  | 20 GB                          | 20 GB                                       | 16 GB                          |
+| TPM           | TPM 2.0                        | Optional                                    | Optional                       |
+| Display       | 7" diagonal</br>800x600 SVGA   | Optional                                    | Optional                       |
+| Graphics      | DirectX 9 or later             | Optional                                    | Optional                       |
+| Networking    | Ethernet or Wi-Fi              | Optional                                    | Optional                       |
+
+² For more information, see [Windows IoT Enterprise Supported Processors](Processor_Requirements.md)
+
+For more information, see [Windows 10 Minimum Hardware Requirements](https://download.microsoft.com/download/c/1/5/c150e1ca-4a55-4a7e-94c5-bfc8c2e785c5/Windows%2010%20Minimum%20Hardware%20Requirements.pdf)
+
+The use of a TPM for Windows 10 IoT Enterprise devices is determined based on the usage and security requirements of each device.  
+
+For more information, see...
+
+- [TPM Requirements](/windows-hardware/design/minimum/minimum-hardware-requirements-overview#37-trusted-platform-module-tpm)
+- [Trusted Platform Module Technology Overview](/windows/security/information-protection/tpm/trusted-platform-module-overview)
+- [TPM Recommendations](/windows/security/information-protection/tpm/tpm-recommendations)
 
 ## Other Resources
 
