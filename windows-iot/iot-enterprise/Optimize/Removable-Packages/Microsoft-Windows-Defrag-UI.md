@@ -2,7 +2,7 @@
 title: Package - Defragmentation User Experience
 author: twarwick
 ms.author: twarwick
-ms.date: 03/30/2023
+ms.date: 02/12/2024
 ms.topic: article
 ms.prod: windows-iot
 ms.technology: iot
@@ -21,7 +21,7 @@ Applies to:
 
 ## Package Description
 
-Package: **Microsoft-Windows-Defrag-UI** </br>  `Add Description Here`
+Package: **Microsoft-Windows-Defrag-UI** </br>  Defragment and Optimize Drives graphical user experience.
 
 ## Package Removal
 
