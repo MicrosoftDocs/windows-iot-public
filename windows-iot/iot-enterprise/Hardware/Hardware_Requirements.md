@@ -34,7 +34,7 @@ keywords: IoT Enterprise, Hardware, Windows IoT
 
 ² For more information, see [Windows IoT Enterprise Supported Processors](Processor_Requirements.md)
 
-# [Windows&nbsp;11</br>IoT&nbsp;Enterprise,</br>version&nbsp;24H2&nbsp;or&nbsp;later](#tab/win1124h2)
+# [Windows&nbsp;11</br>IoT&nbsp;Enterprise</br>(24H2&nbsp;or&nbsp;later)](#tab/win1124h2)
 
 | Components        | Recommended               | Minimum¹</br>IoT&nbsp;Enterprise |
 | ----------------- |:-------------------------:|:--------------------------------:|
@@ -52,7 +52,7 @@ keywords: IoT Enterprise, Hardware, Windows IoT
 
 ² For more information, see [Windows IoT Enterprise Supported Processors](Processor_Requirements.md)
 
-# [Windows&nbsp;11</br>IoT&nbsp;Enterprise,</br>versions&nbsp;21H2,&nbsp;22H2,&nbsp;23H2](#tab/win1121H2to23H2)
+# [Windows&nbsp;11</br>IoT&nbsp;Enterprise</br>(21H2,&nbsp;22H2,&nbsp;23H2)](#tab/win1121H2to23H2)
 
 | Components        | Recommended                         | Minimum</br>IoT&nbsp;Enterprise  |
 | ----------------- |:-----------------------------------:|:--------------------------------:|
