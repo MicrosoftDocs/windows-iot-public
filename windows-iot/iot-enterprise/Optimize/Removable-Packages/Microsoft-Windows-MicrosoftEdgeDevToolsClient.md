@@ -2,7 +2,7 @@
 title: Package - Microsoft Edge Developer Tools Client
 author: twarwick
 ms.author: twarwick
-ms.date: 12/20/2023
+ms.date: 02/12/2024
 ms.topic: article
 ms.prod: windows-iot
 ms.technology: iot
@@ -21,7 +21,7 @@ Applies to:
 
 ## Package Description
 
-Package: **Microsoft-Windows-MicrosoftEdgeDevToolsClient** </br>  `Add Description Here`
+Package: **Microsoft-Windows-MicrosoftEdgeDevToolsClient** </br>  Microsoft Edge developer tools.  For more information, see [Microsoft Edge DevTools documentation](/microsoft-edge/devtools-guide-chromium/landing/).
 
 ## Package Removal
 
