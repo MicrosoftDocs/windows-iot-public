@@ -2,7 +2,7 @@
 title: Package - Camera Barcode Scanner
 author: twarwick
 ms.author: twarwick
-ms.date: 12/20/2023
+ms.date: 02/12/2024
 ms.topic: article
 ms.prod: windows-iot
 ms.technology: iot
@@ -21,7 +21,7 @@ Applies to:
 
 ## Package Description
 
-Package: **Microsoft-OneCore-PointOfService-CameraBarcodeScanner** </br>  `Add Description Here`
+Package: **Microsoft-OneCore-PointOfService-CameraBarcodeScanner** </br>  Software decoder supporting detection of barcodes using a standard camera lens.  For more information, see [Camera Barcode Decoder](/windows/uwp/devices-sensors/pos-camerabarcode).
 
 ## Package Removal
 
