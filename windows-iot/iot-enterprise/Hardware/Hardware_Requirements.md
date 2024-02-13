@@ -20,7 +20,7 @@ keywords: IoT Enterprise, Hardware, Windows IoT
 
 Enter details about recommended requirements here
 
-## Optional Requirements
+## Optional Minimum Requirements
 
 Enter details aboout minimum requirements here
 
@@ -30,7 +30,7 @@ Applies to:
 ✅ Windows 11 IoT Enterprise  
 ✅ Windows 11 IoT Enterprise LTSC  
 
-| </br></br>Components        | Recommended</br>Minimum</br>Requirements   | 21H2,&nbsp;22H2,&nbsp;23H2 </br> Optional </br>Requirements  | 24H2 or Later </br> Optional </br> Requirements                | LTSC 2024 </br> Optional </br> Requirements    |
+| </br></br>Components        | </br>Recommended</br>Minimum</br>Requirements   | 21H2,&nbsp;22H2,&nbsp;23H2 </br> Optional </br> Minimum </br>Requirements  | 24H2 or Later </br> Optional </br> Minimum </br> Requirements  | LTSC 2024 </br> Optional </br> Minimum </br> Requirements    |
 | ---------------------- |:---------------------------------:|:---------------------------------:|:------------------------------------------:|:--------------------------------:|
 | Processor²             | 1&nbsp;GHz,&nbsp;2 Cores          | 1&nbsp;GHz,&nbsp;2&nbsp;Cores              | 1&nbsp;GHz,&nbsp;2&nbsp;Cores    | 1&nbsp;GHz,&nbsp;2&nbsp;Cores     |
 | System&nbsp;Memory     |  4 GB                             |  4 GB                                      |  4 GB                            |  2 GB                             |
@@ -52,7 +52,7 @@ Applies to:
 ✅ Windows 10 IoT Enterprise  
 ✅ Windows 10 IoT Enterprise LTSC
 
-| Topic              | Recommended                    | Minimum</br>64-bit&nbsp;IoT&nbsp;Enterprise | Minimum</br>32-bit&nbsp;IoT&nbsp;Enterprise |
+| Topic              | Recommended Minimum Requirements | Minimum</br>64&#x2011;bit&nbsp;IoT&nbsp;Enterprise | Minimum</br>32&#x2011;bit&nbsp;IoT&nbsp;Enterprise |
 |:-------------------|:------------------------------:|:-------------------------------------------:|:------------------------------:|
 | Processor²         | 1&nbsp;GHz&nbsp;or&nbsp;faster | 1&nbsp;GHz&nbsp;or&nbsp;faster              | 1&nbsp;GHz&nbsp;or&nbsp;faster |
 | System&nbsp;Memory | x64: 2 GB                      | 2 GB                                        | 1 GB                           |
