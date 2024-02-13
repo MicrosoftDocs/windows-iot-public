@@ -33,8 +33,6 @@ keywords: IoT Enterprise, Hardware, Windows IoT
 ¹ Applies to Windows 11 IoT Enterprise LTSC 2024 (build XXXXX)
 ² For more information, see [Windows IoT Enterprise Supported Processors](Processor_Requirements.md)
 
----
-
 # [Windows 11 IoT Enterprise, version 24H2 or later](#tab/win1124h2)
 
 | Components        | Recommended               | Minimum¹</br>IoT&nbsp;Enterprise |
@@ -52,8 +50,6 @@ keywords: IoT Enterprise, Hardware, Windows IoT
 ¹ Applies to Windows 11 IoT Enterprise, Version 24H2 (build XXXXX) and later.
 ² For more information, see [Windows IoT Enterprise Supported Processors](Processor_Requirements.md)
 
----
-
 # [Windows 11 IoT Enterprise, versions 21H2, 22H2, 23H2](#tab/win1121H2to23H2)
 
 | Components        | Recommended                         | Minimum</br>IoT&nbsp;Enterprise  |
@@ -69,8 +65,6 @@ keywords: IoT Enterprise, Hardware, Windows IoT
 | Display           | 9" diagonal</br>720p HD             | Custome Size / Optional          |
 
 ² For more information, see [Windows IoT Enterprise Supported Processors](Processor_Requirements.md)
-
----
 
 # [Windows 10 IoT Enterprise (All versions)](#tab/win10)
 
