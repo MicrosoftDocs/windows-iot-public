@@ -2,7 +2,7 @@
 title: Package - Computer Manager Launcher
 author: twarwick
 ms.author: twarwick
-ms.date: 03/30/2023
+ms.date: 02/12/2024
 ms.topic: article
 ms.prod: windows-iot
 ms.technology: iot
@@ -21,7 +21,7 @@ Applies to:
 
 ## Package Description
 
-Package: **Microsoft-Windows-ComputerManagerLauncher** </br>  `Add Description Here`
+Package: **Microsoft-Windows-ComputerManagerLauncher** </br>  Computer Management App and Computer Management Snap-in for the Microsoft Managmenent Console (MMC).  For more informaition, see [What is Microsoft Management Console?](/troubleshoot/windows-server/system-management-components/what-is-microsoft-management-console).
 
 ## Package Removal
 
