@@ -2,7 +2,7 @@
 title: Package - Network Mobile Handlers
 author: twarwick
 ms.author: twarwick
-ms.date: 12/20/2023
+ms.date: 02/12/2024
 ms.topic: article
 ms.prod: windows-iot
 ms.technology: iot
@@ -21,7 +21,7 @@ Applies to:
 
 ## Package Description
 
-Package: **Microsoft-OneCore-SystemSettings-NetworkMobileHandlers** </br>  `Add Description Here`
+Package: **Microsoft-OneCore-SystemSettings-NetworkMobileHandlers** </br> System Settings handlers for mobile network.
 
 ## Package Removal
 
