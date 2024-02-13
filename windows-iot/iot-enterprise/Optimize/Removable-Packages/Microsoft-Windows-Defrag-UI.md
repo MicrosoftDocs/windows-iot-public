@@ -1,11 +1,12 @@
 ---
 title: Package - Defragmentation User Experience
+titleSuffix: Windows IoT Enterprise
 author: twarwick
 ms.author: twarwick
 ms.date: 02/12/2024
 ms.topic: article
-ms.prod: windows-iot
-ms.technology: iot
+ms.service: windows-iot
+ms.subservice: iot
 description: Removable Package Details for Defragmentation User Experience
 keywords: IoT Enterprise, removable packages, storage
 ---

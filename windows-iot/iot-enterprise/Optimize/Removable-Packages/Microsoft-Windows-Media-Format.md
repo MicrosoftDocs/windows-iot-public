@@ -1,5 +1,6 @@
 ---
 title: Package - Windows Media Format
+titleSuffix: Windows IoT Enterprise
 author: twarwick
 ms.author: twarwick
 ms.date: 03/30/2023

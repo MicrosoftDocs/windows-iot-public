@@ -1,5 +1,6 @@
 ---
 title: Package - Camera Barcode Scanner
+titleSuffix: Windows IoT Enterprise
 author: twarwick
 ms.author: twarwick
 ms.date: 02/12/2024

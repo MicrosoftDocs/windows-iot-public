@@ -1,11 +1,12 @@
 ---
 title: Package - MobilePC Client
+titleSuffix: Windows IoT Enterprise
 author: twarwick
 ms.author: twarwick
 ms.date: 02/12/2024
 ms.topic: article
-ms.prod: windows-iot
-ms.technology: iot
+ms.service: windows-iot
+ms.subservice: iot
 description: Removable Package Details for MobilePC Client
 keywords: IoT Enterprise, removable packages, storage
 ---

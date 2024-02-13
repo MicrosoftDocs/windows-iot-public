@@ -1,5 +1,6 @@
 ---
 title: Package - Remote Desktop Services
+titleSuffix: Windows IoT Enterprise
 author: twarwick
 ms.author: twarwick
 ms.date: 02/12/2024
