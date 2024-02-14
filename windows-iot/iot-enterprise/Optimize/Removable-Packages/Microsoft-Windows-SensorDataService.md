@@ -3,7 +3,7 @@ title: Package - Sensor Data Service
 titleSuffix: Windows IoT Enterprise
 author: TerryWarwick
 ms.author: twarwick
-ms.date: 03/30/2023
+ms.date: 02/13/2024
 ms.topic: article
 ms.service: windows-iot
 ms.subservice: iot
@@ -19,7 +19,7 @@ Applies to:
 
 ## Package Description
 
-Package: **Microsoft-Windows-SensorDataService** </br> Component of the [Media Feature Pack](/windows/win32/wmdm/windows-media-device-manager-architecture) supporting data acquisition from  various sensors.  Supports Windows Hello.
+Package: **Microsoft-Windows-SensorDataService** </br> Component of the [Media Feature Pack](/windows/win32/wmdm/windows-media-device-manager-architecture) supporting data acquisition from  various sensors. Supports Windows Hello.
 
 ## Package Removal
 
