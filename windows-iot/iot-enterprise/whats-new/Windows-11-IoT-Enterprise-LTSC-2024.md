@@ -17,9 +17,9 @@ ms.date: 02/07/2024
 
 ## Overview
 
-Windows IoT Enterprise LTSC is designed for specialty devices and use cases where functionality and features remain constant for the life of the device. These devices are typically found in industries including, but not limited to, banking, healthcare, hospitality, manufacturing and retail. Devices that require regulatory certification and devices that perform a critical business function, which can't accept feature updates for years at a time.  
+Windows IoT Enterprise LTSC is designed for specialty devices and use cases where functionality and features remain constant for the life of the device. Examples are devices that require regulatory certification or devices that perform a critical business function and can't accept feature updates for years at a time. These devices are typically found in industries including, but not limited to, banking, healthcare, hospitality, manufacturing and retail. 
 
-We designed Windows IoT Enterprise LTSC with these use cases in mind. We support each Windows IoT Enterprise LTSC release for 10 years, and that features and functionality don't change over the course of that 10-year lifecycle.
+We designed Windows IoT Enterprise LTSC with these use cases in mind. We support each Windows IoT Enterprise LTSC release for 10 years, and ensure that features and functionality don't change over the course of that 10-year lifecycle.
 
 Every new Windows release comes exciting new features and capabilities - **Windows 11 IoT Enterprise LTSC 2024** is no different. This article provides a high level overview of notable updates in this release that are of interest to device makers and IT Pros.
 
@@ -55,7 +55,7 @@ Windows 11 IoT Enterprise LTSC 2024 release includes the cumulative enhancements
 | Feature | Description |
 | --- | --- |
 | **Hardware Requirements** | System requirements are updated to provide more flexibility to device makers. For more information, see [Minimum Hardware Requirements for Windows IoT Enterprise](../Hardware/Hardware_Requirements.md) |
-| **Restricted User Experience** </br> [23H2] <!--6444738--> | Restricted User Experience (formerly Multi-App Kiosk Mode) supports the creation a controlled user experience while maintaining the familiar look and feel of the Windows 11 desktop. Ideal for shared devices that require access to more than one app, admins can configure a curated experience to limit distractions and potential tampering points while focusing the experience around the device's dedicated purpose. |
+| **Restricted User Experience** </br> [23H2] <!--6444738--> | Restricted User Experience (formerly Multi-App Kiosk Mode) supports the creation of a controlled user experience while maintaining the familiar look and feel of the Windows 11 desktop. Ideal for shared devices that require access to more than one app, admins can configure a curated experience to limit distractions and potential tampering points while focusing the experience around the device's dedicated purpose. |
 | **Removable Packages** | Removable package support for Windows IoT Enterprise LTSC expanded from 20 to 36 removable packages. For more information, see [Removable Packages](../Optimize/Removable-Packages.md). |
 | **Wireless Display** | The Wireless Display optional feature is now available for Windows 11 IoT Enterprise LTSC, allowing other devices to wirelessly project to a device running Windows 11 IoT Enterprise LTSC. Requires Miracast-compatable hardware. For more information, see [Screen mirroring and projecting to your PC](https://support.microsoft.com/en-us/windows/screen-mirroring-and-projecting-to-your-pc-5af9f371-c704-1c7f-8f0d-fa607551d09c). |
 
@@ -69,9 +69,9 @@ Windows 11 IoT Enterprise LTSC 2024 release includes the cumulative enhancements
 
 ## Applications
 
-Windows 11 IoT Enterprise is built on the same foundation as Windows 10 IoT Enterprise. Typically, you can use the same tools and solutions you use today to deploy, manage, and secure your Windows 11 IoT Enterprise device. Your current management tools and processes to manage monthly quality updates for both Windows 10 IoT Enterprise and Windows 11 IoT Enterprise devices.
+Windows 11 IoT Enterprise is built on the same foundation as Windows 10 IoT Enterprise. Hence, you can use the same tools and solutions you use to manage Windows 10 IoT Enterprise devices today to deploy, manage, and secure your Windows 11 IoT Enterprise devices.
 
-Windows 11 IoT Enterprise preserves the application compatibility promise made with Windows operating systems. Windows 11 IoT Enterprise doesn't require changes to existing support processes or tooling to sustain the currency of applications and devices.
+Windows 11 IoT Enterprise preserves the application compatibility promise made with Windows operating systems. Windows 11 IoT Enterprise doesn't require changes to existing support processes or tooling to build, deploy, or keep your applications up to date.
 
 Most accessories and associated drivers that work with Windows 10 IoT Enterprise are expected to work with Windows 11 IoT Enterprise. Check with your accessory manufacturer for specific details.
 
@@ -79,7 +79,7 @@ Most accessories and associated drivers that work with Windows 10 IoT Enterprise
 | --- | --- |
 | **Internet Explorer** | Internet Explorer (IE) is no longer available in Windows 11 IoT Enterprise LTSC 2024, however you can use IE Mode if a website needs Internet Explorer. For more information, see [Internet Explorer (IE) Mode](/deployedge/edge-ie-mode) |
 | **Microsoft Edge** </br> [21H2] | The Microsoft Edge browser is the default browser. For information about configuring Microsoft Edge on Windows, see [Configure Microsoft Edge policy settings on Windows devices](/deployedge/configure-microsoft-edge). |
-| **Support for existing Windows apps on Arm** | Windows on Arm runs native Arm apps, and many unmodified x86 & x64 apps. For the best performance and battery life, apps should be built to be Arm-native wherever possible. For more information, see [Windows on ARM processor](/windows/arm/overview)|
+| **Windows applications on ARM** | Windows 11 IoT Enterprise adds support for running x64 applications without modification on ARM64 processors. For more information, see [Windows on ARM processor](/windows/arm/overview)|
 | **Arm64EC (“Emulation Compatible”)** | Arm64EC ("Emulation Compatible") enables you to build new native apps or incrementally transition existing x64 apps to take advantage of the native speed and performance possible with Arm-powered devices, including better power consumption, battery life, and accelerated AI & ML workloads. For more information, see [Arm64EC - Build and port apps for native performance on Arm](/windows/arm/arm64ec)|
 
 ## Security
