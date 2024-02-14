@@ -42,7 +42,6 @@ Applies to:
 | DirectX                | DirectX 12                        | DirectX 12                          | DirectX 10 / None                | DirectX 10 / None                        |
 | Display                | 9" diagonal</br>720p HD           | Custom Size / Optional                    | Custom Size / Optional          | Custom Size / Optional           |
 
-
 # [Windows 10](#tab/Windows10)
 
 Applies to:  
@@ -76,6 +75,6 @@ For more information, see...
 
 ## Other Resources
 
-* [Windows Minimum Hardware Requirements](/windows-hardware/design/minimum/minimum-hardware-requirements-overview)
-* [Windows Processor Requirements](/windows-hardware/design/minimum/windows-processor-requirements)
-* [Hardware Component Guidelines](/windows-hardware/design/component-guidelines/components)
+- [Windows Minimum Hardware Requirements](/windows-hardware/design/minimum/minimum-hardware-requirements-overview)
+- [Windows Processor Requirements](/windows-hardware/design/minimum/windows-processor-requirements)
+- [Hardware Component Guidelines](/windows-hardware/design/component-guidelines/components)
