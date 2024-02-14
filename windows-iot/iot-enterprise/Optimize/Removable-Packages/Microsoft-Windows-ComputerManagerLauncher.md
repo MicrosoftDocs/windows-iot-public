@@ -3,7 +3,7 @@ title: Package - Computer Manager Launcher
 titleSuffix: Windows IoT Enterprise
 author: TerryWarwick
 ms.author: twarwick
-ms.date: 02/12/2024
+ms.date: 02/13/2024
 ms.topic: article
 ms.service: windows-iot
 ms.subservice: iot
@@ -22,7 +22,7 @@ Applies to:
 
 ## Package Description
 
-Package: **Microsoft-Windows-ComputerManagerLauncher** </br>  Computer Management App and Computer Management Snap-in for the Microsoft Managmenent Console (MMC).  For more informaition, see [What is Microsoft Management Console?](/troubleshoot/windows-server/system-management-components/what-is-microsoft-management-console).
+Package: **Microsoft-Windows-ComputerManagerLauncher** </br>  Computer Management App and Computer Management Snap-in for the Microsoft Management Console (MMC). For more information, see [What is Microsoft Management Console?](/troubleshoot/windows-server/system-management-components/what-is-microsoft-management-console).
 
 ## Package Removal
 
