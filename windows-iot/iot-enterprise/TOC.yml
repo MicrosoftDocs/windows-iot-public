@@ -45,9 +45,6 @@
   items:
   - name: Windows IoT Enterprise on ARM64 FAQ
     href: ./ARM64/ArmFAQ.md
-- name: Tutorials
-  expanded: false
-  items:
   - name: Setup an NXP i.MX EVK
     href: ./Tutorials/Win10-NXP-iMX.md
 - name: Commercialization
@@ -74,11 +71,6 @@
       href: ./Commercialization/iot-ent-sysprep-capture-deploy.md
     - name: Lab 5 - Configure Shell Launcher or Assigned Access
       href: ./Commercialization/iot-ent-shell-launcher-app-launcher.md
-- name: Development
-  expanded: false
-  items:
-  - name: Develop Applications
-    href: ./Development/App_dev.md
 - name: Customization
   expanded: false
   items:
@@ -361,6 +353,11 @@
     href: ./Deployment/install-winget-windows-iot.md
   - name: Volume License Deployment
     href: ./Deployment/Volume-License.md  
+- name: Development
+  expanded: false
+  items:
+  - name: Develop Applications
+    href: ./Development/App_dev.md
 - name: Management
   expanded: false
   items:
