@@ -1,7 +1,7 @@
 ---
 title: Package - Legacy Calculator App
 titleSuffix: Windows IoT Enterprise
-author: twarwick
+author: TerryWarwick
 ms.author: twarwick
 ms.date: 01/15/2024
 ms.topic: article

@@ -1,7 +1,7 @@
 ---
 title: Package - Shell Accessories
 titleSuffix: Windows IoT Enterprise
-author: twarwick
+author: TerryWarwick
 ms.author: twarwick
 ms.date: 01/02/2024
 ms.topic: article

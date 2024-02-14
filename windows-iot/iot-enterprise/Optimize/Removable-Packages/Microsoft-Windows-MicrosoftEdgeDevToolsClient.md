@@ -1,9 +1,9 @@
 ---
 title: Package - Microsoft Edge Developer Tools Client
 titleSuffix: Windows IoT Enterprise
-author: twarwick
+author: TerryWarwick
 ms.author: twarwick
-ms.date: 02/12/2024
+ms.date: 02/13/2024
 ms.topic: article
 ms.service: windows-iot
 ms.subservice: iot
@@ -22,7 +22,7 @@ Applies to:
 
 ## Package Description
 
-Package: **Microsoft-Windows-MicrosoftEdgeDevToolsClient** </br>  Microsoft Edge developer tools.  For more information, see [Microsoft Edge DevTools documentation](/microsoft-edge/devtools-guide-chromium/landing/).
+Package: **Microsoft-Windows-MicrosoftEdgeDevToolsClient** </br>  Microsoft Edge developer tools. For more information, see [Microsoft Edge DevTools documentation](/microsoft-edge/devtools-guide-chromium/landing/).
 
 ## Package Removal
 

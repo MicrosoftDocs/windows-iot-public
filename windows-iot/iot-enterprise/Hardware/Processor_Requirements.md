@@ -10,7 +10,7 @@ description: Learn about Processor Requirements for Windows IoT Enterprise.
 keywords: IoT Enterprise, Hardware, Windows IoT
 ---
 
-# Processor Hardware Requirements for Windows IoT Enterprise
+# Processor Requirements for Windows IoT Enterprise
 
 > [!WARNING]
 > THIS IS AN IN-PROGRESS ROUGH DRAFT. The wording and feature list may change before publishing.

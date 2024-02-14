@@ -3,7 +3,7 @@ title: Minimum System Requirements
 titleSuffix: Windows IoT Enterprise
 author: TerryWarwick
 ms.author: twarwick
-ms.date: 02/12/2024
+ms.date: 02/13/2024
 ms.topic: article
 ms.service: windows-iot
 ms.subservice: iot
@@ -22,7 +22,7 @@ Enter details about recommended requirements here
 
 **Optional Minimum Requirements**
 
-Enter details aboout minimum requirements here
+Enter details about minimum requirements here
 
 # [Windows 11](#tab/Windows11)
 
@@ -35,13 +35,12 @@ Applies to:
 | Processor¹             | 1&nbsp;GHz,&nbsp;2 Cores          | 1&nbsp;GHz,&nbsp;2&nbsp;Cores              | 1&nbsp;GHz,&nbsp;2&nbsp;Cores    | 1&nbsp;GHz,&nbsp;2&nbsp;Cores     |
 | System&nbsp;Memory     |  4 GB                             |  4 GB                                      |  4 GB                            |  2 GB                             |
 | Storage&nbsp;Size      | 64 GB                             | 64 GB                                      | 64 GB                            | 16 GB                             |
-| Storage&nbsp;Type      | Solid&#x2011;State&nbsp;Drive&nbsp;(SSD) | Solid&#x2011;State&nbsp;Drive&nbsp;(SSD)</br>Hard&nbsp;Disk&nbsp;Drive&nbsp;(HDD)</br> Hybrid&nbsp;Hard&nbsp;Drive&nbsp;(SSHD) </br> Flash&nbsp;(eMMC,&nbsp;SD,&nbsp;USB)  | Solid&#x2011;State&nbsp;Drive&nbsp;(SSD)</br>Hard&nbsp;Disk&nbsp;Drive&nbsp;(HDD)</br> Hybrid&nbsp;Hard&nbsp;Drive&nbsp;(SSHD) </br> Flash&nbsp;(eMMC,&nbsp;SD,&nbsp;USB)  | Solid&#x2011;State&nbsp;Drive&nbsp;(SSD)</br>Hard&nbsp;Disk&nbsp;Drive&nbsp;(HDD)</br> Hybrid&nbsp;Hard&nbsp;Drive&nbsp;(SSHD) </br> Flash&nbsp;(eMMC,&nbsp;SD,&nbsp;USB)  |
+| Storage&nbsp;Type      | Solid&#x2011;State&nbsp;Drive&nbsp;(SSD) | Solid&#x2011;State&nbsp;Drive&nbsp;(SSD) </br> Hard&nbsp;Disk&nbsp;Drive&nbsp;(HDD)</br> Hybrid&nbsp;Hard&nbsp;Drive&nbsp;(SSHD) </br> Flash&nbsp;(eMMC,&nbsp;SD,&nbsp;USB)  | Solid&#x2011;State&nbsp;Drive&nbsp;(SSD) </br> Hard&nbsp;Disk&nbsp;Drive&nbsp;(HDD)</br> Hybrid&nbsp;Hard&nbsp;Drive&nbsp;(SSHD) </br> Flash&nbsp;(eMMC,&nbsp;SD,&nbsp;USB)  | Solid&#x2011;State&nbsp;Drive&nbsp;(SSD) </br> Hard&nbsp;Disk&nbsp;Drive&nbsp;(HDD)</br> Hybrid&nbsp;Hard&nbsp;Drive&nbsp;(SSHD) </br> Flash&nbsp;(eMMC,&nbsp;SD,&nbsp;USB)  |
 | System&nbsp;Firmware   | UEFI                              | UEFI                                       | BIOS                             | BIOS                              |
 | TPM                    | TPM 2.0                           |TPM 2.0                                   | Optional                         | Optional                           |
 | Secure Boot            | Enabled                           | Optional                                   | Optional                         | Optional                          |
 | DirectX                | DirectX 12                        | DirectX 12                          | DirectX 10 / None                | DirectX 10 / None                        |
-| Display                | 9" diagonal</br>720p HD           | Custome Size / Optional                    | Custom Size / Optional          | Custom Size / Optional           |
-
+| Display                | 9" diagonal</br>720p HD           | Custom Size / Optional                    | Custom Size / Optional          | Custom Size / Optional           |
 
 # [Windows 10](#tab/Windows10)
 
@@ -59,11 +58,11 @@ Applies to:
 | Graphics           | DirectX 9 or later             | Optional                                    | Optional                       |
 | Networking         | Ethernet or Wi-Fi              | Optional                                    | Optional                       |
 
-For more information, see [Windows 10 Minimum Hardware Requirements](https://download.microsoft.com/download/c/1/5/c150e1ca-4a55-4a7e-94c5-bfc8c2e785c5/Windows%2010%20Minimum%20Hardware%20Requirements.pdf)
+For more information, see [Windows 10 Minimum Hardware Requirements](https://download.microsoft.com/download/c/1/5/c150e1ca-4a55-4a7e-94c5-bfc8c2e785c5/Windows%2010%20Minimum%20Hardware%20Requirements.pdf).
 
 ---
 
-¹ For more information, see [Windows IoT Enterprise Supported Processors](Processor_Requirements.md)
+¹ For more information, see [Windows IoT Enterprise Supported Processors](Processor_Requirements.md).
 
 The use of a TPM for Windows 10 IoT Enterprise devices is determined based on the usage and security requirements of each device.  
 
@@ -76,6 +75,6 @@ For more information, see...
 
 ## Other Resources
 
-* [Windows Minimum Hardware Requirements](/windows-hardware/design/minimum/minimum-hardware-requirements-overview)
-* [Windows Processor Requirements](/windows-hardware/design/minimum/windows-processor-requirements)
-* [Hardware Component Guidelines](/windows-hardware/design/component-guidelines/components)
+- [Windows Minimum Hardware Requirements](/windows-hardware/design/minimum/minimum-hardware-requirements-overview)
+- [Windows Processor Requirements](/windows-hardware/design/minimum/windows-processor-requirements)
+- [Hardware Component Guidelines](/windows-hardware/design/component-guidelines/components)

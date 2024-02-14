@@ -10,7 +10,12 @@
 
     {
         "source_path_from_root": "/windows-iot/iot-enterprise/Hardware-Guidance/Hardware_Requirements.md",
-        "redirect_url": "/windows/iot/iot-enterprise/Hardware/Hardware_Requirements",
+        "redirect_url": "/windows/iot/iot-enterprise/Hardware/System_Requirements",
+        "redirect_document_id": false
+    },
+     {
+        "source_path_from_root": "/windows-iot/iot-enterprise/Hardware/Hardware_Requirements.md",
+        "redirect_url": "/windows/iot/iot-enterprise/Hardware/System_Requirements",
         "redirect_document_id": false
     },
 

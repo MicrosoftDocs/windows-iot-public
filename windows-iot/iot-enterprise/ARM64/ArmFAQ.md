@@ -20,7 +20,7 @@ Windows IoT Enterprise on Arm is simply Windows IoT Enterprise built for ARM64 d
 
 ## Getting Started
 
-For the quickest way to get familiar with Windows IoT Enterprise on Arm64, see our [Tutorial: Setup an NXP i.MX EVK](../Tutorials/Win10-NXP-iMX.md).
+For the quickest way to get familiar with Windows IoT Enterprise on ARM64, see our [Tutorial: Setup an NXP i.MX EVK](../Tutorials/Win10-NXP-iMX.md).
 
 ## Frequently Asked Questions
 
@@ -53,7 +53,7 @@ For more information on the various ways to get a Windows license, see our [lice
 
 ### Which Windows IoT Enterprise version should I use?
 
-Both LTSC and GAC editions of Windows IoT Enterprise are available for NXP devices. You can find more information on the [Hardware Requirements](Hardware_Requirements.md) page.
+Both LTSC and GAC editions of Windows IoT Enterprise are available for NXP devices. You can find more information on the [Hardware Requirements](../Hardware/Hardware_Requirements.md) page.
 
 |SoC  |Windows 10 IoT Enterprise  |Windows 11 IoT Enterprise  |
 |---------|---------|---------|
@@ -66,7 +66,7 @@ Both LTSC and GAC editions of Windows IoT Enterprise are available for NXP devic
 
 ### Can I run applications that aren't native to ARM64?
 
-On ARM64 devices, Windows IoT Enterprise allows emulation of x86 applications. For more information, see [How x86 emulation works on Arm](/windows/arm/apps-on-arm-x86-emulation).
+On ARM64 devices, Windows IoT Enterprise allows you to run x86 applications without re-compiling the application through emulation. In addition, Windows 11 IoT Enterprise supports running AMD64 applications without re-compiling. For more information, see [How x86 emulation works on Arm](/windows/arm/apps-on-arm-x86-emulation).
 
 ### Can I use Hyper-V on my ARM64 device?
 
@@ -80,4 +80,4 @@ Additionally, the Qualcomm QCS6490 and QCS5430 are supported as part of [Qualcom
 
 ### What drivers are supported?
 
-NXP Drivers: [NXP Supported Drivers](supported/NXP_drivers.md)
+NXP Drivers: [NXP Supported Drivers](../Hardware/supported/NXP_drivers.md)

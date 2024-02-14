@@ -37,25 +37,28 @@
 - name: 🔵 Hardware Guidance
   expanded: false
   items:
-  - name: 🔵 Hardware Requirements
-    href: ./Hardware/Hardware_Requirements.md
+  - name: 🔵 System Requirements
+    href: ./Hardware/System_Requirements.md
   - name: 🔵 Processor Requirements
     href: ./Hardware/Processor_Requirements.md
   - name: SoCs and Custom Boards
     href: ./Hardware/SoCs.md
-  - name: Windows IoT Enterprise on ARM64 FAQ
-    href: ./Hardware/ArmFAQ.md
   - name: Start prototyping
     href: ./Hardware/Prototype.md
   - name: Bus Providers
     href: ./OS-Features/Bus-Providers.md
   - name: Device Drivers
     href: ./OS-Features/Device-Drivers.md    
+- name: Arm64 Guidance
+  expanded: false
+  items:
+  - name: Windows IoT Enterprise on ARM64 FAQ
+    href: ./ARM64/ArmFAQ.md
 - name: Tutorials
   expanded: false
   items:
   - name: Setup an NXP i.MX EVK
-    href: ./Tutorials\Win10-NXP-iMX.md
+    href: ./Tutorials/Win10-NXP-iMX.md
 - name: Commercialization
   expanded: false
   items:
@@ -80,6 +83,11 @@
       href: ./Commercialization/iot-ent-sysprep-capture-deploy.md
     - name: Lab 5 - Configure Shell Launcher or Assigned Access
       href: ./Commercialization/iot-ent-shell-launcher-app-launcher.md
+- name: Development
+  expanded: false
+  items:
+  - name: Develop Applications
+    href: ./Development/App_dev.md
 - name: Customization
   expanded: false
   items:
@@ -179,21 +187,21 @@
         expanded: false
         items: 
         - name: Class WESL_UserSetting
-          href: ./Customize\wesl-usersetting.md 
+          href: ./Customize/wesl-usersetting.md 
         - name: GetCustomShell
-          href: ./Customize\wesl-usersettinggetcustomshell.md 
+          href: ./Customize/wesl-usersettinggetcustomshell.md 
         - name: GetDefaultShell
-          href: ./Customize\wesl-usersettinggetdefaultshell.md 
+          href: ./Customize/wesl-usersettinggetdefaultshell.md 
         - name: IsEnabled
-          href: ./Customize\wesl-usersettingisenabled.md 
+          href: ./Customize/wesl-usersettingisenabled.md 
         - name: RemoveCustomShell
-          href: ./Customize\wesl-usersettingremovecustomshell.md 
+          href: ./Customize/wesl-usersettingremovecustomshell.md 
         - name: SetCustomShell
-          href: ./Customize\wesl-usersettingsetcustomshell.md 
+          href: ./Customize/wesl-usersettingsetcustomshell.md 
         - name: SetDefaultShell
-          href: ./Customize\wesl-usersettingsetdefaultshell.md 
+          href: ./Customize/wesl-usersettingsetdefaultshell.md 
         - name: SetEnabled
-          href: ./Customize\wesl-usersettingsetenabled.md 
+          href: ./Customize/wesl-usersettingsetenabled.md 
   - name: On-Screen Keyboard
     href: ./OS-Features/On-Screen-Keyboard.md
   - name: Unbranded Boot
@@ -377,7 +385,7 @@
   expanded: false
   items:
   - name: Overview
-    href: Optimize/Overview.md
+    href: ./Optimize/Overview.md
   - name: CompactOS
     href: Optimize/CompactOS.md  
   - name: 🔵 Removable Packages

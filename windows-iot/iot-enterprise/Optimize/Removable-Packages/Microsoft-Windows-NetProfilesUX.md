@@ -1,13 +1,13 @@
 ---
 title: Package - Net Profiles UX
 titleSuffix: Windows IoT Enterprise
-author: twarwick
+author: TerryWarwick
 ms.author: twarwick
-ms.date: 02/12/2024
+ms.date: 02/13/2024
 ms.topic: article
 ms.service: windows-iot
 ms.subservice: iot
-description: Removable Package Details for Net Orifukes UX
+description: Removable Package Details for Net Profiles UX
 keywords: IoT Enterprise, removable packages, storage
 ---
 
@@ -22,7 +22,7 @@ Applies to:
 
 ## Package Description
 
-Package: **Microsoft-Windows-NetProfilesUX** </br>  Network and Sharing Center Contol Panel application.
+Package: **Microsoft-Windows-NetProfilesUX** </br>  Network and Sharing Center Control Panel application.
 
 ## Package Removal
 
