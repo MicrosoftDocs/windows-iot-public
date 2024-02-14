@@ -51,7 +51,7 @@ For more information, visit [Windows Processor Requirements](/windows-hardware/d
 
 | Version | AMD | Intel | Qualcomm | NXP |
 | --------------- | --- | ----- | -------- | --- |
-| Windows&nbsp;11&nbsp;IoT&nbsp;Enterprise&nbsp;LTSC&nbsp;2024 | TBD | [Supported Intel Processors](supported/Win11_LTSC_2024_Intel_Processors.md) | TBD | [Supported NXP Processors](supported/Win11_LTSC_2024_NXP_Processors.md)
+| Windows&nbsp;11&nbsp;IoT&nbsp;Enterprise&nbsp;LTSC&nbsp;2024 | [Supported AMD Processors](supported/Win11_LTSC_2024_AMD_Processors.md) | [Supported Intel Processors](supported/Win11_LTSC_2024_Intel_Processors.md) | TBD | [Supported NXP Processors](supported/Win11_LTSC_2024_NXP_Processors.md)
 | Windows&nbsp;10&nbsp;IoT&nbsp;Enterprise&nbsp;LTSC&nbsp;2021 | [Supported AMD Processors](/windows-hardware/design/minimum/supported/windows-10-LTSC-2021-supported-amd-processors) | [Supported Intel Processors](/windows-hardware/design/minimum/supported/windows-10-LTSC-2021-supported-intel-processors) | N/A | [Supported NXP Processors](supported\21H2_LTSC_NXP_Processors.md) |
 | Windows&nbsp;10&nbsp;IoT&nbsp;Enterprise&nbsp;LTSC&nbsp;1809 | [Supported AMD Processors](/windows-hardware/design/minimum/supported/windows-10-ltsc-1809-supported-amd-processors) | [Supported Intel Processors](/windows-hardware/design/minimum/supported/windows-10-LTSC-1809-supported-intel-processors) | N/A | N/A |
 | Windows&nbsp;10&nbsp;IoT&nbsp;Enterprise&nbsp;LTSB&nbsp;1607 | [Supported AMD Processors](/windows-hardware/design/minimum/supported/windows-10-ltsb-1607-supported-amd-processors) | [Supported Intel Processors](/windows-hardware/design/minimum/supported/windows-10-ltsb-1607-supported-intel-processors) | N/A | N/A |
