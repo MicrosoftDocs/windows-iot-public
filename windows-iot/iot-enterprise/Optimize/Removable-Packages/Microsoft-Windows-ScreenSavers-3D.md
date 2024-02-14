@@ -3,7 +3,7 @@ title: Package - 3D Screensavers
 titleSuffix: Windows IoT Enterprise
 author: TerryWarwick
 ms.author: twarwick
-ms.date: 03/30/2023
+ms.date: 02/13/2024
 ms.topic: article
 ms.service: windows-iot
 ms.subservice: iot
@@ -19,7 +19,7 @@ Applies to:
 
 ## Package Description
 
-Package: **Microsoft-Windows-ScreenSavers-3D** </br> Screensavers: 3D Text, Bubbles, Mystify and Ribbons.
+Package: **Microsoft-Windows-ScreenSavers-3D** </br> Screensavers: 3D Text, Bubbles, Mystify, and Ribbons.
 
 ## Package Removal
 
