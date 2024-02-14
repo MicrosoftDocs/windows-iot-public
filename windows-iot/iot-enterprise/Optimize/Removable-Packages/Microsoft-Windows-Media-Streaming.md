@@ -1,7 +1,7 @@
 ---
 title: Package - Windows Media Streaming
 titleSuffix: Windows IoT Enterprise
-author: twarwick
+author: TerryWarwick
 ms.author: twarwick
 ms.date: 03/30/2023
 ms.topic: article

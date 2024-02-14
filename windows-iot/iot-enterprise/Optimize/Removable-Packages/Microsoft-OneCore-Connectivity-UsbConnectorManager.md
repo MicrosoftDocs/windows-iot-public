@@ -1,7 +1,7 @@
 ---
 title: Package - USB Connector Manager
 titleSuffix: Windows IoT Enterprise
-author: twarwick
+author: TerryWarwick
 ms.author: twarwick
 ms.date: 02/13/2024
 ms.topic: article

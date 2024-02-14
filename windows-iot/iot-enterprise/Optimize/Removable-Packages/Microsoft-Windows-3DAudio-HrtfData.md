@@ -1,7 +1,7 @@
 ---
 title: Package - 3D Audion HRTF Data
 titleSuffix: Windows IoT Enterprise
-author: twarwick
+author: TerryWarwick
 ms.author: twarwick
 ms.date: 02/12/2024
 ms.topic: article

@@ -1,7 +1,7 @@
 ---
 title: Package - User Experience Virtualization
 titleSuffix: Windows IoT Enterprise
-author: twarwick
+author: TerryWarwick
 ms.author: twarwick
 ms.date: 11/21/2023
 ms.topic: article
