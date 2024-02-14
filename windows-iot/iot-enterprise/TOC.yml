@@ -37,14 +37,12 @@
 - name: 🔵 Hardware Guidance
   expanded: false
   items:
-  - name: 🔵 Hardware Requirements
-    href: ./Hardware/Hardware_Requirements.md
+  - name: 🔵 System Requirements
+    href: ./Hardware/System_Requirements.md
   - name: 🔵 Processor Requirements
     href: ./Hardware/Processor_Requirements.md
   - name: SoCs and Custom Boards
     href: ./Hardware/SoCs.md
-  - name: Windows IoT Enterprise on ARM64 FAQ
-    href: ./Hardware/ArmFAQ.md
   - name: Start prototyping
     href: ./Hardware/Prototype.md
   - name: Bus Providers
