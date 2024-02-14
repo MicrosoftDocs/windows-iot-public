@@ -14,8 +14,6 @@ Microsoft supports Windows 11 IoT Enterprise LTSC running on the Intel processor
 
 For information on which processors Intel&reg; supports on Windows 11 IoT Enterprise LTSC, refer to the [Intel&reg; Processor Support for Windows IoT Enterprise webpage](https://www.intel.com/content/www/us/en/internet-of-things/window-processor-server-support.html) or contact Intel&reg; for details.
 
-## Intel&reg; Processors
-
 | Generation | Models |
 |---|---|
 |14th Generation | [Core&trade; Processors](https://www.intel.com/content/www/us/en/products/details/embedded-processors/core/14thgen.html)</br>[Core&trade; Ultra&trade; Processors](https://www.intel.com/content/www/us/en/products/details/embedded-processors/core-ultra.html)|
