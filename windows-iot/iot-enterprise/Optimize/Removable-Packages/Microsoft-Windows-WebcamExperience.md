@@ -1,5 +1,6 @@
 ---
 title: Package - Webcam Experience
+titleSuffix: Windows IoT Enterprise
 author: twarwick
 ms.author: twarwick
 ms.date: 03/30/2023
@@ -66,7 +67,7 @@ These packages collectively provide the functionality represented by the [Media 
 | File Name | Installed Location |
 |-----------|--------------------|
 | camerasettingsuihost.exe    | %windir%\system32\camerasettingsuihost.exe |
-| webcamui.dll                | %windir%\system32\webcamui.dll
+| webcamui.dll                | %windir%\system32\webcamui.dll |
 
 ## More Resources
 

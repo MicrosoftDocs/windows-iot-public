@@ -1,16 +1,20 @@
 ---
 title: Package - 3D Audion HRTF Data
+titleSuffix: Windows IoT Enterprise
 author: twarwick
 ms.author: twarwick
-ms.date: 03/30/2023
+ms.date: 02/12/2024
 ms.topic: article
-ms.prod: windows-iot
-ms.technology: iot
+ms.service: windows-iot
+ms.subservice: iot
 description: Removable Package Details for 3D Audion HRTF Data
 keywords: IoT Enterprise, removable packages, storage
 ---
 
 # 3D Audion HRTF Data
+
+> [!WARNING]
+> THIS IS AN IN-PROGRESS ROUGH DRAFT. The wording and feature list may change before publishing.
 
 Applies to:  
 ✅ Windows 11 IoT Enterprise LTSC 2024  
@@ -18,7 +22,7 @@ Applies to:
 
 ## Package Description
 
-Package: **Microsoft-Windows-3DAudio-HrtfData** </br>  `Add Description Here`
+Package: **Microsoft-Windows-3DAudio-HrtfData** </br>  3D Audio Head-related transfer function (HRTF) also known as Spacial Sound.  For more information, see [Spatial Sound for App Developers](/windows/win32/coreaudio/spatial-sound).
 
 ## Package Removal
 

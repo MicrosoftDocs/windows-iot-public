@@ -7,7 +7,7 @@ ms.service: windows-iot
 ms.subservice: iot
 author: TerryWarwick
 ms.author: twarwick
-ms.date: 02/01/2024
+ms.date: 02/07/2024
 ---
 
 # What's new in Windows 11 Enterprise LTSC 2024
@@ -33,13 +33,13 @@ Upgrading from one version of Windows IoT Enterprise LTSC to the next version re
 
 ### Servicing Lifecycle
 
-Windows 11 IoT Enterprise 2024 LTSC continues to offer a 10-year support lifecycle, which includes quality updates distributed via Windows Update monthly.
+Windows 11 IoT Enterprise LTSC 2024 continues to offer a 10-year support lifecycle, which includes quality updates distributed via Windows Update monthly.
 
-Windows 10 IoT Enterprise LTSC 2021 follows the [Fixed Lifecycle Policy](/lifecycle/policies/fixed).
+Windows 11 IoT Enterprise LTSC 2024 follows the [Fixed Lifecycle Policy](/lifecycle/policies/fixed).
 
 | Version | Build  | Availability | End of Servicing |
 | --- | --- | --- | --- |
-| 2024 | ###### | 2024-04-08 | 2035 |
+| 2024 | TBD | ~Q2 CY2024 | ~Q1 CY2035 |
 
 For more information, see [Windows 11 IoT Enterprise LTSC 2024 support lifecycle](/lifecycle/products/windows-11-iot-enterprise-ltsc-2024).
 
@@ -54,10 +54,10 @@ Windows 11 IoT Enterprise LTSC 2024 release includes the cumulative enhancements
 
 | Feature | Description |
 | --- | --- |
-| **Hardware Requirements** | |
-| **Restricted User Experience** </br> [23H2] <!--6444738--> | <!-- You can configure a multi-app kiosk, which displays a customized start menu of allowed apps. For more information, see [Set up a multi-app kiosk on Windows 11 devices](/windows/configuration/lock-down-windows-11-to-specific-apps). --> |
-| **Removable Packages** | |
-| **Wireless Display** | |
+| **Hardware Requirements** | System hardware requirement have been updated to provide more flexibility to device makers.  For more information, see [Minimum Hardware Requirements for Windows IoT Enterprise](../Hardware/Hardware_Requirements.md) |
+| **Restricted User Experience** </br> [23H2] <!--6444738--> | Restricted User Experience (formerly Multi-App Kiosk Mode) supports the creation a controlled user experience while maintaining the familiar look and feel of the Windows 11 desktop. Ideal for shared devices that require access to more than one app, admins can configure a curated experience to limit distractions and potential tampering points while focusing the experience around the device's dedicated purpose. |
+| **Removable Packages** | Removable package support for Windows IoT Enterprise LTSC has expanded from 20 to 36 removable packages.  For more information, see [Removable Packages](../Optimize/Removable-Packages.md). |
+| **Wireless Display** | The Wireless Display optional feauture is now available for Windows 11 IoT Enterprise LTSC, allowing other devices to wirelessly project to a device running Windows 11 IoT Enterprise LTSC.  Requires Miracast-compatable hardware.  For more information, see [Screen mirroring and projecting to your PC](https://support.microsoft.com/en-us/windows/screen-mirroring-and-projecting-to-your-pc-5af9f371-c704-1c7f-8f0d-fa607551d09c). |
 
 ## Accessibility
 

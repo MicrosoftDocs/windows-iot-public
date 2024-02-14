@@ -1,8 +1,9 @@
 ---
 title: Package - Remote Desktop Services
+titleSuffix: Windows IoT Enterprise
 author: twarwick
 ms.author: twarwick
-ms.date: 03/30/2023
+ms.date: 02/12/2024
 ms.topic: article
 ms.prod: windows-iot
 ms.technology: iot
@@ -12,13 +13,16 @@ keywords: IoT Enterprise, removable packages, storage
 
 # Remote Desktop Services
 
+> [!WARNING]
+> THIS IS AN IN-PROGRESS ROUGH DRAFT. The wording and feature list may change before publishing.
+
 Applies to:  
 ✅ Windows 11 IoT Enterprise LTSC 2024  
 ⛔ Windows 10 IoT Enterprise LTSC 2021
 
 ## Package Description
 
-Package: **[Microsoft-OneCore-RemoteDesktopServices-Collaboration** </br>  `Add Description Here`
+Package: **[Microsoft-OneCore-RemoteDesktopServices-Collaboration** </br>  Terminal Services Collaboration feature and sharer APIs.
 
 ## Package Removal
 

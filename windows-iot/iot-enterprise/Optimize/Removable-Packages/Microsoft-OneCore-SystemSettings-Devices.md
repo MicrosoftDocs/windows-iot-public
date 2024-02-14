@@ -1,16 +1,20 @@
 ---
 title: Package - System Settings Devices
+titleSuffix: Windows IoT Enterprise
 author: twarwick
 ms.author: twarwick
-ms.date: 03/30/2023
+ms.date: 02/12/2024
 ms.topic: article
-ms.prod: windows-iot
-ms.technology: iot
+ms.service: windows-iot
+ms.subservice: iot
 description: Removable Package Details for System Settings Devices
 keywords: IoT Enterprise, removable packages, storage
 ---
 
 # System Settings Devices
+
+> [!WARNING]
+> THIS IS AN IN-PROGRESS ROUGH DRAFT. The wording and feature list may change before publishing.
 
 Applies to:  
 ✅ Windows 11 IoT Enterprise LTSC 2024  
@@ -18,7 +22,7 @@ Applies to:
 
 ## Package Description
 
-Package: **Microsoft-OneCore-SystemSettings-Devices** </br>  `Add Description Here`
+Package: **Microsoft-OneCore-SystemSettings-Devices** </br>  Systems Settings handlers for Devices.
 
 ## Package Removal
 

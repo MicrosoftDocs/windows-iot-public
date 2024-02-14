@@ -1,5 +1,6 @@
 ---
 title: Package - Windows Media Format
+titleSuffix: Windows IoT Enterprise
 author: twarwick
 ms.author: twarwick
 ms.date: 03/30/2023
@@ -65,21 +66,21 @@ These packages collectively provide the functionality represented by the [Media 
 
 | File Name | Installed Location |
 |-----------|--------------------|
-| asferror.dll            | %windir%\system32\asferror.dll
-| cewmdm.dll              | %windir%\system32\cewmdm.dll
-| laprxy.dll              | %windir%\system32\laprxy.dll
-| logagent.exe            | %windir%\system32\logagent.exe
-| mswmdm.dll              | %windir%\system32\mswmdm.dll
-| mswmdm.mof              | %windir%\system32\wbem\mswmdm.mof
-| sqmapi.dll              | %programfiles%\windows multimedia platform\sqmapi.dll
+| asferror.dll            | %windir%\system32\asferror.dll |
+| cewmdm.dll              | %windir%\system32\cewmdm.dll |
+| laprxy.dll              | %windir%\system32\laprxy.dll |
+| logagent.exe            | %windir%\system32\logagent.exe |
+| mswmdm.dll              | %windir%\system32\mswmdm.dll |
+| mswmdm.mof              | %windir%\system32\wbem\mswmdm.mof |
+| sqmapi.dll              | %programfiles%\windows multimedia platform\sqmapi.dll |
 | windowsmediadrm.admx    | %windir%\policydefinitions\windowsmediadrm.admx |
-| wmasf.dll               | %windir%\system32\wmasf.dll
-| wmdmlog.dll             | %windir%\system32\wmdmlog.dll
-| wmdmps.dll              | %windir%\system32\wmdmps.dll
-| wmidx.dll               | %windir%\system32\wmidx.dll
-| wmnetmgr.dll            | %windir%\system32\wmnetmgr.dll
-| wmsyspr9.prx            | %windir%\wmsyspr9.prx
-| wmvcore.dll             | %windir%\system32\wmvcore.dll
+| wmasf.dll               | %windir%\system32\wmasf.dll |
+| wmdmlog.dll             | %windir%\system32\wmdmlog.dll |
+| wmdmps.dll              | %windir%\system32\wmdmps.dll |
+| wmidx.dll               | %windir%\system32\wmidx.dll |
+| wmnetmgr.dll            | %windir%\system32\wmnetmgr.dll |
+| wmsyspr9.prx            | %windir%\wmsyspr9.prx |
+| wmvcore.dll             | %windir%\system32\wmvcore.dll |
 
 ## More Resources
 
