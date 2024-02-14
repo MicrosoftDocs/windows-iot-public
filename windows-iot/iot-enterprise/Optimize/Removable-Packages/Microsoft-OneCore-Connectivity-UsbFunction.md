@@ -1,16 +1,20 @@
 ---
 title: Package - USB Function Driver
+titleSuffix: Windows IoT Enterprise
 author: twarwick
 ms.author: twarwick
-ms.date: 03/30/2023
+ms.date: 02/12/2024
 ms.topic: article
-ms.prod: windows-iot
-ms.technology: iot
+ms.service: windows-iot
+ms.subservice: iot
 description: Removable Package Details for USB Function Driver
 keywords: IoT Enterprise, removable packages, storage
 ---
 
 # USB Function Driver
+
+> [!WARNING]
+> THIS IS AN IN-PROGRESS ROUGH DRAFT. The wording and feature list may change before publishing.
 
 Applies to:  
 ✅ Windows 11 IoT Enterprise LTSC 2024  
@@ -18,7 +22,7 @@ Applies to:
 
 ## Package Description
 
-Package: **Microsoft-OneCore-Connectivity-UsbFunction** </br>  `Add Description Here`
+Package: **Microsoft-OneCore-Connectivity-UsbFunction** </br>  UFX, UFX Synopsis Events. For more information, see [Overview of developing Windows drivers for USB function controllers](/windows-hardware/drivers/usbcon/developing-windows-drivers-for-usb-function-controllers) and [Overview of developing Windows applications for USB devices](/windows-hardware/drivers/usbcon/developing-windows-applications-that-communicate-with-a-usb-device).
 
 ## Package Removal
 

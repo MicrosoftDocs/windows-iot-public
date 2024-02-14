@@ -1,16 +1,20 @@
 ---
 title: Package - Network Mobile Handlers
+titleSuffix: Windows IoT Enterprise
 author: twarwick
 ms.author: twarwick
-ms.date: 12/20/2023
+ms.date: 02/12/2024
 ms.topic: article
-ms.prod: windows-iot
-ms.technology: iot
+ms.service: windows-iot
+ms.subservice: iot
 description: Removable Package Details for Mobile Network Handlers
 keywords: IoT Enterprise, removable packages, storage
 ---
 
 # Mobile Network Handlers
+
+> [!WARNING]
+> THIS IS AN IN-PROGRESS ROUGH DRAFT. The wording and feature list may change before publishing.
 
 Applies to:  
 ✅ Windows 11 IoT Enterprise LTSC 2024  
@@ -18,7 +22,7 @@ Applies to:
 
 ## Package Description
 
-Package: **Microsoft-OneCore-SystemSettings-NetworkMobileHandlers** </br>  `Add Description Here`
+Package: **Microsoft-OneCore-SystemSettings-NetworkMobileHandlers** </br> System Settings handlers for mobile network.
 
 ## Package Removal
 

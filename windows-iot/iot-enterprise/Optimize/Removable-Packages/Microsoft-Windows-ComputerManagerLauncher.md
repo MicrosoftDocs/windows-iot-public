@@ -1,16 +1,20 @@
 ---
 title: Package - Computer Manager Launcher
+titleSuffix: Windows IoT Enterprise
 author: twarwick
 ms.author: twarwick
-ms.date: 03/30/2023
+ms.date: 02/12/2024
 ms.topic: article
-ms.prod: windows-iot
-ms.technology: iot
+ms.service: windows-iot
+ms.subservice: iot
 description: Removable Package Details for Computer Manager Launcher
 keywords: IoT Enterprise, removable packages, storage
 ---
 
 # Computer Manager Launcher
+
+> [!WARNING]
+> THIS IS AN IN-PROGRESS ROUGH DRAFT. The wording and feature list may change before publishing.
 
 Applies to:  
 ✅ Windows 11 IoT Enterprise LTSC 2024  
@@ -18,7 +22,7 @@ Applies to:
 
 ## Package Description
 
-Package: **Microsoft-Windows-ComputerManagerLauncher** </br>  `Add Description Here`
+Package: **Microsoft-Windows-ComputerManagerLauncher** </br>  Computer Management App and Computer Management Snap-in for the Microsoft Managmenent Console (MMC).  For more informaition, see [What is Microsoft Management Console?](/troubleshoot/windows-server/system-management-components/what-is-microsoft-management-console).
 
 ## Package Removal
 

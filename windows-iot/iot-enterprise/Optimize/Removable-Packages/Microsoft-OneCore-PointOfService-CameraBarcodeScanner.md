@@ -1,16 +1,20 @@
 ---
 title: Package - Camera Barcode Scanner
+titleSuffix: Windows IoT Enterprise
 author: twarwick
 ms.author: twarwick
-ms.date: 12/20/2023
+ms.date: 02/12/2024
 ms.topic: article
 ms.prod: windows-iot
 ms.technology: iot
-description: Removable Package Details for SD
+description: Removable Package Details for Camera Barcode Scanner
 keywords: IoT Enterprise, removable packages, storage
 ---
 
 # Camera Barcode Scanner
+
+> [!WARNING]
+> THIS IS AN IN-PROGRESS ROUGH DRAFT. The wording and feature list may change before publishing.
 
 Applies to:  
 ✅ Windows 11 IoT Enterprise LTSC 2024  
@@ -18,7 +22,7 @@ Applies to:
 
 ## Package Description
 
-Package: **Microsoft-OneCore-PointOfService-CameraBarcodeScanner** </br>  `Add Description Here`
+Package: **Microsoft-OneCore-PointOfService-CameraBarcodeScanner** </br>  Software decoder supporting detection of barcodes using a standard camera lens.  For more information, see [Camera Barcode Decoder](/windows/uwp/devices-sensors/pos-camerabarcode).
 
 ## Package Removal
 

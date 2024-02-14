@@ -39,7 +39,7 @@
   items:
   - name: 🔵 Hardware Requirements
     href: ./Hardware/Hardware_Requirements.md
-  - name: Processor Requirements
+  - name: 🔵 Processor Requirements
     href: ./Hardware/Processor_Requirements.md
   - name: SoCs and Custom Boards
     href: ./Hardware/SoCs.md
@@ -380,51 +380,86 @@
     href: Optimize/Overview.md
   - name: CompactOS
     href: Optimize/CompactOS.md  
-  - name: Removable Packages
+  - name: 🔵 Removable Packages
     expanded: false
     items:
       - name: 🔵 Overview
         href: ./Optimize/Removable-Packages.md
-      - name: Package - Language Word Breaking Legacy
-        href: ./Optimize/Removable-Packages/LanguageFeatures-wordBreaking-Common-Legacy.md
-      - name: Package - Media Foundation
-        href: ./Optimize/Removable-Packages/Microsoft-Media-Foundation.md
-      - name: Package - Supplemental Fonts
-        href: ./Optimize/Removable-Packages/Microsoft-OneCore-Fonts-DesktopFonts-NonLeanSupplement.md
-      - name: Package - User Experience Virtualization
-        href: ./Optimize/Removable-Packages/Microsoft-Windows-AppManagement-UEV.md
-      - name: Package - Bio Enrollment Experience
-        href: ./Optimize/Removable-Packages/Microsoft-Windows-BioEnrollment-UX.md
-      - name: Package - Boot Environment DVD
-        href: ./Optimize/Removable-Packages/Microsoft-Windows-BootEnvironment-Dvd.md
-      - name: Package - Windows Media Format
-        href: ./Optimize/Removable-Packages/Microsoft-Windows-Media-Format.md
-      - name: Package - Windows Media Streaming
-        href: ./Optimize/Removable-Packages/Microsoft-Windows-Media-Streaming.md
-      - name: Package - Media Features O.C.
-        href: ./Optimize/Removable-Packages/Microsoft-Windows-MediaPlayback-OC.md
-      - name: Package - Windows Portable Devices
-        href: ./Optimize/Removable-Packages/Microsoft-Windows-Portable-Devices.md
-      - name: Package - Printer Drivers
-        href: ./Optimize/Removable-Packages/Microsoft-Windows-Printer-Drivers.md
-      - name: Package - PrintBrm Command-Line tool
-        href: ./Optimize/Removable-Packages/Microsoft-Windows-Printing-PremiumTools.md
-      - name: Package - Recovery Drive
-        href: ./Optimize/Removable-Packages/Microsoft-Windows-RecoveryDrive.md
-      - name: Package - 3D Screensavers
-        href: ./Optimize/Removable-Packages/Microsoft-Windows-ScreenSavers-3D.md
-      - name: Package - Sensor Data Service
-        href: ./Optimize/Removable-Packages/Microsoft-Windows-SensorDataService.md
-      - name: Package - Desktop Wallpaper
-        href: ./Optimize/Removable-Packages/Microsoft-Windows-Shell-Wallpaper-Common.md
-      - name: Package - Shell Accessories
-        href: ./Optimize/Removable-Packages/Microsoft-Windows-ShellOptions.md
-      - name: Package - Webcam Experience
-        href: ./Optimize/Removable-Packages/Microsoft-Windows-WebcamExperience.md
-      - name: Package - WinSAT Media Files
-        href: ./Optimize/Removable-Packages/Microsoft-Windows-WinSATMediaFiles.md
-      - name: Package - Legacy Calculator App
-        href: ./Optimize/Removable-Packages/Microsoft-Windows-win32calc.md
+      - name: 🔵 Removable Package Reference
+        expanded: false
+        items:  
+        - name: Package - Language Word Breaking Legacy
+          href: ./Optimize/Removable-Packages/LanguageFeatures-wordBreaking-Common-Legacy.md
+        - name: Package - Media Foundation
+          href: ./Optimize/Removable-Packages/Microsoft-Media-Foundation.md
+        - name: 🔵 Package - USB Connector Manager 
+          href: ./Optimize/Removable-Packages/Microsoft-OneCore-Connectivity-UsbConnectorManager.md
+        - name: 🔵 Package - USB Function 
+          href: ./Optimize/Removable-Packages/Microsoft-OneCore-Connectivity-UsbFunction.md
+        - name: Package - Supplemental Fonts
+          href: ./Optimize/Removable-Packages/Microsoft-OneCore-Fonts-DesktopFonts-NonLeanSupplement.md
+        - name: 🔵 Package - Camera Barcode Software Decoder
+          href: ./Optimize/Removable-Packages/Microsoft-OneCore-PointOfService-CameraBarcodeScanner.md
+        - name: 🔵 Package - Remote Desktop Services Collaboration
+          href: ./Optimize/Removable-Packages/Microsoft-OneCore-RemoteDesktopServices-Collaboration.md
+        - name: 🔵 Package - SD Removable Storage
+          href: ./Optimize/Removable-Packages/Microsoft-OneCore-SD.md
+        - name: 🔵 Package - System Settings Devices
+          href: ./Optimize/Removable-Packages/Microsoft-OneCore-SystemSettings-Devices.md
+        - name: 🔵 Package - System Settings Network Mobile Handlers
+          href: ./Optimize/Removable-Packages/Microsoft-OneCore-SystemSettings-NetworkMobileHandlers.md
+        - name: 🔵 Package - 3D Audio HrftData
+          href: ./Optimize/Removable-Packages/Microsoft-Windows-3DAudio-HrtfData.md
+        - name: Package - User Experience Virtualization
+          href: ./Optimize/Removable-Packages/Microsoft-Windows-AppManagement-UEV.md
+        - name: Package - Bio Enrollment Experience
+          href: ./Optimize/Removable-Packages/Microsoft-Windows-BioEnrollment-UX.md
+        - name: Package - Boot Environment DVD
+          href: ./Optimize/Removable-Packages/Microsoft-Windows-BootEnvironment-Dvd.md
+        - name: 🔵 Package - Computer Manager Launcher
+          href: ./Optimize/Removable-Packages/Microsoft-Windows-ComputerManagerLauncher.md
+        - name: 🔵 Package - Storage Defragmentation User Experience
+          href: ./Optimize/Removable-Packages/Microsoft-Windows-Defrag-UI.md
+        - name: 🔵 Package - Desktop File Explorer
+          href: ./Optimize/Removable-Packages/Microsoft-Windows-DesktopFileExplorer.md
+        - name: Package - Windows Media Format
+          href: ./Optimize/Removable-Packages/Microsoft-Windows-Media-Format.md
+        - name: Package - Windows Media Streaming
+          href: ./Optimize/Removable-Packages/Microsoft-Windows-Media-Streaming.md
+        - name: Package - Media Features O.C.
+          href: ./Optimize/Removable-Packages/Microsoft-Windows-MediaPlayback-OC.md
+        - name: 🔵 Package - Microsoft Edge Developer Tools Client
+          href: ./Optimize/Removable-Packages/Microsoft-Windows-MicrosoftEdgeDevToolsClient.md
+        - name: 🔵 Package - Mobile PC Client
+          href: ./Optimize/Removable-Packages/Microsoft-Windows-MobilePC-Client-Basic.md
+        - name: 🔵 Package - Net Profiles UX
+          href: ./Optimize/Removable-Packages/Microsoft-Windows-NetProfilesUX.md
+        - name: 🔵 Package - PE Auth
+          href: ./Optimize/Removable-Packages/Microsoft-Windows-PEAuth-OneCore.md
+        - name: Package - Windows Portable Devices
+          href: ./Optimize/Removable-Packages/Microsoft-Windows-Portable-Devices.md
+        - name: Package - Printer Drivers
+          href: ./Optimize/Removable-Packages/Microsoft-Windows-Printer-Drivers.md
+        - name: Package - PrintBrm Command-Line tool
+          href: ./Optimize/Removable-Packages/Microsoft-Windows-Printing-PremiumTools.md
+        - name: Package - Recovery Drive
+          href: ./Optimize/Removable-Packages/Microsoft-Windows-RecoveryDrive.md
+        - name: Package - 3D Screensavers
+          href: ./Optimize/Removable-Packages/Microsoft-Windows-ScreenSavers-3D.md
+        - name: Package - Sensor Data Service
+          href: ./Optimize/Removable-Packages/Microsoft-Windows-SensorDataService.md
+        - name: Package - Desktop Wallpaper
+          href: ./Optimize/Removable-Packages/Microsoft-Windows-Shell-Wallpaper-Common.md
+        - name: Package - Shell Accessories
+          href: ./Optimize/Removable-Packages/Microsoft-Windows-ShellOptions.md
+        - name: 🔵 Package - Window Tab Manager
+          href: ./Optimize/Removable-Packages/Microsoft-Windows-UI-Shell-WindowTabManager.md
+        - name: Package - Webcam Experience
+          href: ./Optimize/Removable-Packages/Microsoft-Windows-WebcamExperience.md
+        - name: Package - WinSAT Media Files
+          href: ./Optimize/Removable-Packages/Microsoft-Windows-WinSATMediaFiles.md
+        - name: Package - Legacy Calculator App
+          href: ./Optimize/Removable-Packages/Microsoft-Windows-win32calc.md
   - name: Services Guide
     href: ./Optimize/Services.md
   - name: Soft Real-Time

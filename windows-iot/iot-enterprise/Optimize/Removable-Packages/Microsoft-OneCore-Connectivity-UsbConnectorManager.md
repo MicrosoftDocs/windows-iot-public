@@ -1,16 +1,20 @@
 ---
 title: Package - USB Connector Manager
+titleSuffix: Windows IoT Enterprise
 author: twarwick
 ms.author: twarwick
-ms.date: 03/30/2023
+ms.date: 02/12/2024
 ms.topic: article
-ms.prod: windows-iot
-ms.technology: iot
+ms.service: windows-iot
+ms.subservice: iot
 description: Removable Package Details for USB Connector Manager
 keywords: IoT Enterprise, removable packages, storage
 ---
 
 # USB Connector Manager
+
+> [!WARNING]
+> THIS IS AN IN-PROGRESS ROUGH DRAFT. The wording and feature list may change before publishing.
 
 Applies to:  
 ✅ Windows 11 IoT Enterprise LTSC 2024  
@@ -18,7 +22,7 @@ Applies to:
 
 ## Package Description
 
-Package: **Microsoft-OneCore-Connectivity-UsbConnectorManager** </br> `Add Description Here`
+Package: **Microsoft-OneCore-Connectivity-UsbConnectorManager** </br> USB Connection Manager (UCM), USB Type-C port controller interface (TCPCI), and USB Type-C connector system software interface (UCSI) class extensions,  USB Connector and USB Policy Manager APIs.  For amore information, see [USB Type-C connector system software interface (UCSI) driver](windows-hardware/drivers/usbcon/ucsi), [Wite a USB Type-C port controller driver](/windows-hardware/drivers/usbcon/write-a-usb-type-c-port-controller-driver) and [Write a USB Type-connector driver](/windows-hardware/drivers/usbcon/bring-up-a-usb-type-c-connector-on-a-windows-system).
 
 ## Package Removal
 

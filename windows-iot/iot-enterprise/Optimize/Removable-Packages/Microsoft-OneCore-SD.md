@@ -1,5 +1,6 @@
 ---
-title: Package - SD
+title: Package - SD Port
+titleSuffix: Windows IoT Enterprise
 author: twarwick
 ms.author: twarwick
 ms.date: 03/30/2023
@@ -12,13 +13,16 @@ keywords: IoT Enterprise, removable packages, storage
 
 # SD
 
+> [!WARNING]
+> THIS IS AN IN-PROGRESS ROUGH DRAFT. The wording and feature list may change before publishing.
+
 Applies to:  
 ✅ Windows 11 IoT Enterprise LTSC 2024  
 ⛔ Windows 10 IoT Enterprise LTSC 2021
 
 ## Package Description
 
-Package: **Microsoft-OneCore-SD** </br> `Add Description Here`
+Package: **Microsoft-OneCore-SD** </br> SD Port and Dump SD Port.
 
 ## Package Removal
 

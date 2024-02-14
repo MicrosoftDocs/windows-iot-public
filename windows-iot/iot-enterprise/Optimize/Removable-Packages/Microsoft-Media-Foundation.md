@@ -1,5 +1,6 @@
 ---
 title: Package - Media Foundation
+titleSuffix: Windows IoT Enterprise
 author: twarwick
 ms.author: twarwick
 ms.date: 03/30/2023
@@ -144,7 +145,7 @@ These packages collectively provide the functionality represented by the [Media 
 | wmvencod.dll | %windir%\system32\wmvencod.dll |
 | wmvsdecd.dll | %windir%\system32\wmvsdecd.dll |
 | wmvsencd.dll | %windir%\system32\wmvsencd.dll |
-| wmvxencd.dll | %windir%\system32\wmvxencd.dll
+| wmvxencd.dll | %windir%\system32\wmvxencd.dll |
 
 ## More Resources
 
