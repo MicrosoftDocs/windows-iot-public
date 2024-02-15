@@ -80,7 +80,7 @@ Most accessories and associated drivers that work with Windows 10 IoT Enterprise
 | **Internet Explorer** | Internet Explorer (IE) is no longer available in Windows 11 IoT Enterprise LTSC 2024. However, you can use IE Mode if a website needs Internet Explorer. For more information, see [Internet Explorer (IE) Mode](/deployedge/edge-ie-mode) |
 | **Microsoft Edge** </br> [21H2] | The Microsoft Edge browser is the default browser. For information about configuring Microsoft Edge on Windows, see [Configure Microsoft Edge policy settings on Windows devices](/deployedge/configure-microsoft-edge). |
 | **Windows applications on ARM** | Windows 11 IoT Enterprise adds support for running x64 applications without modification on ARM64 processors. For more information, see [Windows on ARM processor](/windows/arm/overview)|
-| **Arm64EC (“Emulation Compatible”)** | Arm64EC ("Emulation Compatible") enables you to build new native apps or incrementally transition existing x64 apps to take advantage of the native speed and performance possible with Arm-powered devices, including better power consumption, battery life, and accelerated AI & ML workloads. For more information, see [Arm64EC - Build and port apps for native performance on Arm](/windows/arm/arm64ec)|
+| **Arm64EC (“Emulation Compatible”)** | Code built as Arm64EC is interoperable with x64 code running under emulation within the same process. The Arm64EC code in the process runs with native performance, while any x64 code runs using emulation that comes built-in with Windows 11. For more information, see [Arm64EC - Build and port apps for native performance on Arm](/windows/arm/arm64ec)|
 
 ## Security
 
