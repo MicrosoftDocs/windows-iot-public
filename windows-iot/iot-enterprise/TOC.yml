@@ -33,421 +33,418 @@
   expanded: false
   items:
   - name: Hardware Requirements
-    href: Hardware/Hardware_Requirements.md
+    href: ./Hardware/Hardware_Requirements.md
   - name: SoCs and Custom Boards
-    href: Hardware/SoCs.md
+    href: ./Hardware/SoCs.md
   - name: Start prototyping
-    href: Hardware/Prototype.md
+    href: ./Hardware/Prototype.md
   - name: Bus Providers
-    href: OS-Features/Bus-Providers.md
+    href: ./OS-Features/Bus-Providers.md
   - name: Device Drivers
-    href: OS-Features/Device-Drivers.md    
+    href: ./OS-Features/Device-Drivers.md    
 - name: Arm64 Guidance
   expanded: false
   items:
   - name: Windows IoT Enterprise on ARM64 FAQ
-    href: ARM64/ArmFAQ.md
-- name: Tutorials
-  expanded: false
-  items:
+    href: ./ARM64/ArmFAQ.md
   - name: Setup an NXP i.MX EVK
-    href: Tutorials\Win10-NXP-iMX.md
+    href: ./Tutorials/Win10-NXP-iMX.md
 - name: Commercialization
   expanded: false
   items:
   - name: Licensing & Usage
-    href: Commercialization/Licensing.md
+    href: ./Commercialization/Licensing.md
   - name: Manufacturing Guide
     expanded: false
     items:
     - name: Overview
-      href: Commercialization/Manufacturing-Guide.md
+      href: ./Commercialization/Manufacturing-Guide.md
     - name: Lab 0 - Get the tools you need
-      href: Commercialization/iot-ent-get-the-tools-you-need.md
+      href: ./Commercialization/iot-ent-get-the-tools-you-need.md
     - name: Lab 1a - Create a basic image
-      href: Commercialization/iot-ent-create-a-basic-image.md
+      href: ./Commercialization/iot-ent-create-a-basic-image.md
     - name: Lab 1b - Customize a reference device in Audit mode
-      href: Commercialization/iot-ent-customize-the-reference-device-in-audit-mode.md
+      href: ./Commercialization/iot-ent-customize-the-reference-device-in-audit-mode.md
     - name: Lab 2 - Configure device lockdown features
-      href: Commercialization/iot-ent-device-lockdown-features.md
+      href: ./Commercialization/iot-ent-device-lockdown-features.md
     - name: Lab 3 - Configure policy settings
-      href: Commercialization/iot-ent-configure-policy-settings.md
+      href: ./Commercialization/iot-ent-configure-policy-settings.md
     - name: Lab 4 - Sysprep, capture, and deploy
-      href: Commercialization/iot-ent-sysprep-capture-deploy.md
+      href: ./Commercialization/iot-ent-sysprep-capture-deploy.md
     - name: Lab 5 - Configure Shell Launcher or Assigned Access
-      href: Commercialization/iot-ent-shell-launcher-app-launcher.md
-- name: Development
-  expanded: false
-  items:
-  - name: Develop Applications
-    href: Development/App_dev.md
+      href: ./Commercialization/iot-ent-shell-launcher-app-launcher.md
 - name: Customization
   expanded: false
   items:
   - name: Overview
-    href: Customize/customize-overview.md
+    href: ./Customize/customize-overview.md
   - name: Custom Logon
     expanded: false
     items:
     - name: Overview
-      href: Customize/Custom-Logon.md
+      href: ./Customize/Custom-Logon.md
     - name: Complementary features
-      href: Customize/complementary-features-to-custom-logon.md
+      href: ./Customize/complementary-features-to-custom-logon.md
     - name: Troubleshooting
-      href: Customize/troubleshooting-custom-logon.md
+      href: ./Customize/troubleshooting-custom-logon.md
   - name: Embedded Mode
-    href: OS-Features/Embedded-Mode.md
+    href: ./OS-Features/Embedded-Mode.md
   - name: Keyboard Filter
     expanded: false
     items:
     - name: Overview
-      href: Customize/keyboardfilter.md
+      href: ./Customize/keyboardfilter.md
     - name: Key Names
-      href: Customize/keyboardfilter-key-names.md
+      href: ./Customize/keyboardfilter-key-names.md
     - name: Predefined Key Combinations
-      href: Customize/keyboardfilter-list-all-configured-key-combinations.md
+      href: ./Customize/keyboardfilter-list-all-configured-key-combinations.md
     - name: WMI Provider Reference
       expanded: false
       items:
       - name: Overview
-        href: Customize/keyboardfilter-wmi-provider-reference.md
+        href: ./Customize/keyboardfilter-wmi-provider-reference.md
       - name: Class WEKF_CustomKey
         expanded: false
         items:
         - name: Overview
-          href: Customize/wekf-customkey.md
+          href: ./Customize/wekf-customkey.md
         - name: Add
-          href: Customize/wekf-customkeyadd.md
+          href: ./Customize/wekf-customkeyadd.md
         - name: Remove
-          href: Customize/wekf-customkeyremove.md
+          href: ./Customize/wekf-customkeyremove.md
       - name: Class WEKF_PredefinedKey
         expanded: false
         items:
         - name: Overview
-          href: Customize/wekf-predefinedkey.md
+          href: ./Customize/wekf-predefinedkey.md
         - name: Disable
-          href: Customize/wekf-predefinedkeydisable.md
+          href: ./Customize/wekf-predefinedkeydisable.md
         - name: Enable
-          href: Customize/wekf-predefinedkeyenable.md
+          href: ./Customize/wekf-predefinedkeyenable.md
       - name: Class WEKF_Scancode
         expanded: false
         items:
         - name: Overview
-          href: Customize/wekf-scancode.md
+          href: ./Customize/wekf-scancode.md
         - name: Add
-          href: Customize/wekf-scancodeadd.md
+          href: ./Customize/wekf-scancodeadd.md
         - name: Remove
-          href: Customize/wekf-scancoderemove.md
+          href: ./Customize/wekf-scancoderemove.md
       - name: Class WEKF-Settings
-        href: Customize/wekf-settings.md
+        href: ./Customize/wekf-settings.md
     - name: PowerShell script samples
       expanded: false
       items: 
       - name: Overview
-        href: Customize/keyboardfilter-powershell-script-samples.md
+        href: ./Customize/keyboardfilter-powershell-script-samples.md
       - name: Add blocked key Combinations
-        href: Customize/keyboardfilter-add-blocked-key-combinations.md
+        href: ./Customize/keyboardfilter-add-blocked-key-combinations.md
       - name: Disable all blocked key Combinations
-        href: Customize/disable-all-blocked-key-combinations.md
+        href: ./Customize/disable-all-blocked-key-combinations.md
       - name: List all configured key combinations
-        href: Customize/keyboardfilter-list-all-configured-key-combinations.md
+        href: ./Customize/keyboardfilter-list-all-configured-key-combinations.md
       - name: Modify global settings
-        href: Customize/modify-global-settings.md
+        href: ./Customize/modify-global-settings.md
       - name: Remove key combination configurations
-        href: Customize/remove-key-combination-configurations.md
+        href: ./Customize/remove-key-combination-configurations.md
   - name: Kiosk Mode
     expanded: false
     items:
     - name: Overview
-      href: Customize/Kiosk-Mode.md
+      href: ./Customize/Kiosk-Mode.md
     - name: Assigned Access
       expanded: false
       items:   
       - name: Assigned access single-app kiosk
-        href: Customize/Single-App-Kiosk.md
+        href: ./Customize/Single-App-Kiosk.md
       - name: Assigned access multi-app kiosk
-        href: Customize/Multi-App-Kiosk.md
+        href: ./Customize/Multi-App-Kiosk.md
       - name: Browser Support
-        href: Customize/Browser-Support.md
+        href: ./Customize/Browser-Support.md
       - name: WMI Provider Reference
-        href: Customize/wedl-assignedaccess.md
+        href: ./Customize/wedl-assignedaccess.md
     - name: Shell Launcher
       expanded: false
       items:
       - name: Overview
-        href: Customize/Shell-Launcher.md
+        href: ./Customize/Shell-Launcher.md
       - name: WMI Provider Reference
         expanded: false
         items: 
         - name: Class WESL_UserSetting
-          href: Customize\wesl-usersetting.md 
+          href: ./Customize/wesl-usersetting.md 
         - name: GetCustomShell
-          href: Customize\wesl-usersettinggetcustomshell.md 
+          href: ./Customize/wesl-usersettinggetcustomshell.md 
         - name: GetDefaultShell
-          href: Customize\wesl-usersettinggetdefaultshell.md 
+          href: ./Customize/wesl-usersettinggetdefaultshell.md 
         - name: IsEnabled
-          href: Customize\wesl-usersettingisenabled.md 
+          href: ./Customize/wesl-usersettingisenabled.md 
         - name: RemoveCustomShell
-          href: Customize\wesl-usersettingremovecustomshell.md 
+          href: ./Customize/wesl-usersettingremovecustomshell.md 
         - name: SetCustomShell
-          href: Customize\wesl-usersettingsetcustomshell.md 
+          href: ./Customize/wesl-usersettingsetcustomshell.md 
         - name: SetDefaultShell
-          href: Customize\wesl-usersettingsetdefaultshell.md 
+          href: ./Customize/wesl-usersettingsetdefaultshell.md 
         - name: SetEnabled
-          href: Customize\wesl-usersettingsetenabled.md 
+          href: ./Customize/wesl-usersettingsetenabled.md 
   - name: On-Screen Keyboard
-    href: OS-Features/On-Screen-Keyboard.md
+    href: ./OS-Features/On-Screen-Keyboard.md
   - name: Unbranded Boot
     expanded: false
     items:
     - name: Overview
-      href: Customize/Unbranded-Boot.md
+      href: ./Customize/Unbranded-Boot.md
   - name: Unified Write Filter
     expanded: false
     items: 
     - name: Overview
-      href: Customize/Unified-Write-Filter.md
+      href: ./Customize/Unified-Write-Filter.md
     - name: Hibernate Once/Resume Many (HORM)
-      href: Customize/hibernate-once-resume-many-horm.md
+      href: ./Customize/hibernate-once-resume-many-horm.md
     - name: Exclusions
-      href: Customize/uwfexclusions.md
+      href: ./Customize/uwfexclusions.md
     - name: Overlay
-      href: Customize/uwfoverlay.md
+      href: ./Customize/uwfoverlay.md
     - name: Enable
-      href: Customize/uwf-turnonuwf.md
+      href: ./Customize/uwf-turnonuwf.md
     - name: Command Line Utility (uwfmgr.exe)
-      href: Customize/uwfmgrexe.md
+      href: ./Customize/uwfmgrexe.md
     - name: Servicing
       expanded: false
       items:
       - name: Servicing protected devices
-        href: Customize/service-uwf-protected-devices.md
+        href: ./Customize/service-uwf-protected-devices.md
       - name: Antimalware support
-        href: Customize/uwf-antimalware-support.md
+        href: ./Customize/uwf-antimalware-support.md
       - name: Windows Updates
-        href: Customize/uwf-apply-windows-updates.md
+        href: ./Customize/uwf-apply-windows-updates.md
       - name: OEM Updates
-        href: Customize/uwf-apply-oem-updates.md
+        href: ./Customize/uwf-apply-oem-updates.md
       - name: Servicing master script
-        href: Customize/uwf-master-servicing-script.md
+        href: ./Customize/uwf-master-servicing-script.md
       - name: Servicing screen saver
-        href: Customize/uwf-servicing-screen-saver.md
+        href: ./Customize/uwf-servicing-screen-saver.md
     - name: Troubleshooting
-      href: Customize/uwftroubleshooting.md
+      href: ./Customize/uwftroubleshooting.md
     - name: WMI Provider Reference
       expanded: false
       items:
       - name: Overview
-        href: Customize/uwf-wmi-provider-reference.md
+        href: ./Customize/uwf-wmi-provider-reference.md
       - name: Class UWF_ExcludedFile
-        href: Customize/uwf-excludedfile.md
+        href: ./Customize/uwf-excludedfile.md
       - name: Class UWF_ExcludedRegistryKey
-        href: Customize/uwf-excludedregistrykey.md
+        href: ./Customize/uwf-excludedregistrykey.md
       - name: Class UWF_Filter
         expanded: false
         items:
         - name: Overview
-          href: Customize/uwf-filter.md
+          href: ./Customize/uwf-filter.md
         - name: Disable
-          href: Customize/uwf-filterdisable.md
+          href: ./Customize/uwf-filterdisable.md
         - name: Enable
-          href: Customize/uwf-filterdisable.md
+          href: ./Customize/uwf-filterdisable.md
         - name: ResetSettings
-          href: Customize/uwf-filterresetsettings.md
+          href: ./Customize/uwf-filterresetsettings.md
         - name: RestartSystem
-          href: Customize/uwf-filterrestartsystem.md
+          href: ./Customize/uwf-filterrestartsystem.md
         - name: ShutdownSystem
-          href: Customize/uwf-filtershutdownsystem.md
+          href: ./Customize/uwf-filtershutdownsystem.md
       - name: Class UWF_Overlay
         expanded: false
         items:
         - name: Overview
-          href: Customize/uwf-overlay.md
+          href: ./Customize/uwf-overlay.md
         - name: GetOverlayFiles
-          href: Customize/uwf-overlaygetoverlayfiles.md
+          href: ./Customize/uwf-overlaygetoverlayfiles.md
         - name: OverlayFile
-          href: Customize/uwf-overlayfile.md  
+          href: ./Customize/uwf-overlayfile.md  
         - name: SetCriticalThreshold
-          href: Customize/uwf-overlaysetcriticalthreshold.md
+          href: ./Customize/uwf-overlaysetcriticalthreshold.md
         - name: SetWarningThreshold
-          href: Customize/uwf-overlaysetwarningthreshold.md
+          href: ./Customize/uwf-overlaysetwarningthreshold.md
       - name: Class UWF_OverlayConfig
         expanded: false
         items:
         - name: Overview
-          href: Customize/uwf-overlayconfig.md
+          href: ./Customize/uwf-overlayconfig.md
         - name: SetMaximumSize
-          href: Customize/uwf-overlayconfigsetmaximumsize.md
+          href: ./Customize/uwf-overlayconfigsetmaximumsize.md
         - name: SetType
-          href: Customize/uwf-overlayconfigsettype.md
+          href: ./Customize/uwf-overlayconfigsettype.md
       - name: Class UWF_RegistryFilter
         expanded: false
         items:
         - name: Overview
-          href: Customize/uwf-registryfilter.md
+          href: ./Customize/uwf-registryfilter.md
         - name: AddExclusion
-          href: Customize/uwf-registryfilteraddexclusion.md
+          href: ./Customize/uwf-registryfilteraddexclusion.md
         - name: CommitRegistry
-          href: Customize/uwf-registryfiltercommitregistry.md
+          href: ./Customize/uwf-registryfiltercommitregistry.md
         - name: CommitRegistryDeletion
-          href: Customize/uwf-registryfiltercommitregistrydeletion.md
+          href: ./Customize/uwf-registryfiltercommitregistrydeletion.md
         - name: FindExclusion
-          href: Customize/uwf-registryfilterfindexclusion.md
+          href: ./Customize/uwf-registryfilterfindexclusion.md
         - name: GetExclusions
-          href: Customize/uwf-registryfiltergetexclusions.md
+          href: ./Customize/uwf-registryfiltergetexclusions.md
         - name: RemoveExclusion  
-          href: Customize/uwf-registryfilterremoveexclusion.md
+          href: ./Customize/uwf-registryfilterremoveexclusion.md
       - name: Class UWF_Servicing
         expanded: false
         items:
         - name: Overview
-          href: Customize/uwf-servicing.md
+          href: ./Customize/uwf-servicing.md
         - name: Disable
-          href: Customize/uwf-servicingdisable.md
+          href: ./Customize/uwf-servicingdisable.md
         - name: Enable
-          href: Customize/uwf-servicingenable.md
+          href: ./Customize/uwf-servicingenable.md
         - name: UpdateWindows
-          href: Customize/uwf-servicingupdatewindows.md
+          href: ./Customize/uwf-servicingupdatewindows.md
       - name: Class UWF_Volume
         expanded: false
         items:
         - name: Overview
-          href: Customize/uwf-volume.md
+          href: ./Customize/uwf-volume.md
         - name: AddExclusion
-          href: Customize/uwf-volumeaddexclusion.md
+          href: ./Customize/uwf-volumeaddexclusion.md
         - name: CommitFile
-          href: Customize/uwf-volumecommitfile.md
+          href: ./Customize/uwf-volumecommitfile.md
         - name: CommitFileDeletion
-          href: Customize/uwf-volumecommitfiledeletion.md
+          href: ./Customize/uwf-volumecommitfiledeletion.md
         - name: FindExclusion
-          href: Customize/uwf-volumefindexclusion.md
+          href: ./Customize/uwf-volumefindexclusion.md
         - name: GetExclusions
-          href: Customize/uwf-volumegetexclusions.md
+          href: ./Customize/uwf-volumegetexclusions.md
         - name: protect
-          href: Customize/uwf-volumeprotect.md
+          href: ./Customize/uwf-volumeprotect.md
         - name: RemoveAllExclusions
-          href: Customize/uwf-volumeremoveallexclusions.md
+          href: ./Customize/uwf-volumeremoveallexclusions.md
         - name: RemoveExclusion
-          href: Customize/uwf-volumeremoveexclusion.md
+          href: ./Customize/uwf-volumeremoveexclusion.md
         - name: SetBindByDriveLetter
-          href: Customize/uwf-volumesetbindbydriveletter.md
+          href: ./Customize/uwf-volumesetbindbydriveletter.md
         - name: Unprotect
-          href: Customize/uwf-volumeunprotect.md
+          href: ./Customize/uwf-volumeunprotect.md
       - name: Migration from Enhanced Write Filter
-        href: Customize/uwf-wes7-ewf-to-win10-uwf.md  
+        href: ./Customize/uwf-wes7-ewf-to-win10-uwf.md  
   - name: User Experience
     expanded: false
     items: 
     - name: Application Control
-      href: Customize/Application-Control.md
+      href: ./Customize/Application-Control.md
     - name: Device Safeguards
-      href: Customize/Device-Safeguards.md
+      href: ./Customize/Device-Safeguards.md
     - name: Microsoft Store Access
-      href: Customize/Microsoft-Store-Access.md
+      href: ./Customize/Microsoft-Store-Access.md
     - name: Screen Edge Swipe Policy
-      href: Customize/Edge-Swipe-Policy.md
+      href: ./Customize/Edge-Swipe-Policy.md
     - name: Settings Page Visibility
-      href: Customize/Page-Visibility.md
+      href: ./Customize/Page-Visibility.md
     - name: Start Menu and Taskbar
-      href: Customize/Layout-Control.md
+      href: ./Customize/Layout-Control.md
     - name: Windows Update Experience
-      href: Customize/Update-Notification.md
+      href: ./Customize/Update-Notification.md
 - name: Deployment
   expanded: false
   items:
   - name: Overview
-    href: Deployment/index.md
+    href: ./Deployment/index.md
   - name: Update installation media
-    href: Deployment/media-refresh.md
+    href: ./Deployment/media-refresh.md
   - name: Install Apps with WinGet
-    href: Deployment/install-winget-windows-iot.md
+    href: ./Deployment/install-winget-windows-iot.md
   - name: Volume License Deployment
-    href: Deployment/Volume-License.md  
+    href: ./Deployment/Volume-License.md  
+- name: Development
+  expanded: false
+  items:
+  - name: Develop Applications
+    href: ./Development/App_dev.md
 - name: Management
   expanded: false
   items:
   - name: Overview
-    href: Device-Management/Device-Management-Overview.md
+    href: ./Device-Management/Device-Management-Overview.md
   - name: OS Updates
-    href: OS-Features/Updates.md
+    href: ./OS-Features/Updates.md
   - name: App Updates
-    href: Device-Management/App-Updates.md
+    href: ./Device-Management/App-Updates.md
   - name: Reset and Recovery
-    href: Device-Management/Reset-and-Recovery.md
+    href: ./Device-Management/Reset-and-Recovery.md
 - name: Optimization
   expanded: false
   items:
   - name: Overview
-    href: Optimize/Overview.md
+    href: ./Optimize/Overview.md
   - name: CompactOS
-    href: Optimize/CompactOS.md  
+    href: ./Optimize/CompactOS.md  
   - name: Removable Packages
     expanded: false
     items:
       - name: Overview
-        href: Optimize/Removable-Packages.md
+        href: ./Optimize/Removable-Packages.md
       - name: Package - Language Word Breaking Legacy
-        href: Optimize/Removable-Packages/LanguageFeatures-wordBreaking-Common-Legacy.md
+        href: ./Optimize/Removable-Packages/LanguageFeatures-wordBreaking-Common-Legacy.md
       - name: Package - Media Foundation
-        href: Optimize/Removable-Packages/Microsoft-Media-Foundation.md
+        href: ./Optimize/Removable-Packages/Microsoft-Media-Foundation.md
       - name: Package - Supplemental Fonts
-        href: Optimize/Removable-Packages/Microsoft-OneCore-Fonts-DesktopFonts-NonLeanSupplement.md
+        href: ./Optimize/Removable-Packages/Microsoft-OneCore-Fonts-DesktopFonts-NonLeanSupplement.md
       - name: Package - User Experience Virtualization
-        href: Optimize/Removable-Packages/Microsoft-Windows-AppManagement-UEV.md
+        href: ./Optimize/Removable-Packages/Microsoft-Windows-AppManagement-UEV.md
       - name: Package - Bio Enrollment Experience
-        href: Optimize/Removable-Packages/Microsoft-Windows-BioEnrollment-UX.md
+        href: ./Optimize/Removable-Packages/Microsoft-Windows-BioEnrollment-UX.md
       - name: Package - Boot Environment DVD
-        href: Optimize/Removable-Packages/Microsoft-Windows-BootEnvironment-Dvd.md
+        href: ./Optimize/Removable-Packages/Microsoft-Windows-BootEnvironment-Dvd.md
       - name: Package - Windows Media Format
-        href: Optimize/Removable-Packages/Microsoft-Windows-Media-Format.md
+        href: ./Optimize/Removable-Packages/Microsoft-Windows-Media-Format.md
       - name: Package - Windows Media Streaming
-        href: Optimize/Removable-Packages/Microsoft-Windows-Media-Streaming.md
+        href: ./Optimize/Removable-Packages/Microsoft-Windows-Media-Streaming.md
       - name: Package - Media Features O.C.
-        href: Optimize/Removable-Packages/Microsoft-Windows-MediaPlayback-OC.md
+        href: ./Optimize/Removable-Packages/Microsoft-Windows-MediaPlayback-OC.md
       - name: Package - Windows Portable Devices
-        href: Optimize/Removable-Packages/Microsoft-Windows-Portable-Devices.md
+        href: ./Optimize/Removable-Packages/Microsoft-Windows-Portable-Devices.md
       - name: Package - Printer Drivers
-        href: Optimize/Removable-Packages/Microsoft-Windows-Printer-Drivers.md
+        href: ./Optimize/Removable-Packages/Microsoft-Windows-Printer-Drivers.md
       - name: Package - PrintBrm Command-Line tool
-        href: Optimize/Removable-Packages/Microsoft-Windows-Printing-PremiumTools.md
+        href: ./Optimize/Removable-Packages/Microsoft-Windows-Printing-PremiumTools.md
       - name: Package - Recovery Drive
-        href: Optimize/Removable-Packages/Microsoft-Windows-RecoveryDrive.md
+        href: ./Optimize/Removable-Packages/Microsoft-Windows-RecoveryDrive.md
       - name: Package - 3D Screensavers
-        href: Optimize/Removable-Packages/Microsoft-Windows-ScreenSavers-3D.md
+        href: ./Optimize/Removable-Packages/Microsoft-Windows-ScreenSavers-3D.md
       - name: Package - Sensor Data Service
-        href: Optimize/Removable-Packages/Microsoft-Windows-SensorDataService.md
+        href: ./Optimize/Removable-Packages/Microsoft-Windows-SensorDataService.md
       - name: Package - Desktop Wallpaper
-        href: Optimize/Removable-Packages/Microsoft-Windows-Shell-Wallpaper-Common.md
+        href: ./Optimize/Removable-Packages/Microsoft-Windows-Shell-Wallpaper-Common.md
       - name: Package - Shell Accessories
-        href: Optimize/Removable-Packages/Microsoft-Windows-ShellOptions.md
+        href: ./Optimize/Removable-Packages/Microsoft-Windows-ShellOptions.md
       - name: Package - Webcam Experience
-        href: Optimize/Removable-Packages/Microsoft-Windows-WebcamExperience.md
+        href: ./Optimize/Removable-Packages/Microsoft-Windows-WebcamExperience.md
       - name: Package - WinSAT Media Files
-        href: Optimize/Removable-Packages/Microsoft-Windows-WinSATMediaFiles.md
+        href: ./Optimize/Removable-Packages/Microsoft-Windows-WinSATMediaFiles.md
       - name: Package - Legacy Calculator App
-        href: Optimize/Removable-Packages/Microsoft-Windows-win32calc.md
+        href: ./Optimize/Removable-Packages/Microsoft-Windows-win32calc.md
   - name: Services Guide
-    href: Optimize/Services.md
+    href: ./Optimize/Services.md
   - name: Soft Real-Time
     expanded: false
     items:
     - name: Overview
-      href: Soft-Real-Time/Soft-Real-Time.md
+      href: ./Soft-Real-Time/Soft-Real-Time.md
     - name: Device Configuration
-      href: Soft-Real-Time/Soft-Real-Time-Device.md
+      href: ./Soft-Real-Time/Soft-Real-Time-Device.md
     - name: Application Development
-      href: Soft-Real-Time/Soft-Real-Time-Application.md
+      href: ./Soft-Real-Time/Soft-Real-Time-Application.md
 - name: Security & Compliance
   expanded: true
   items:
   - name: Accessibility
-    href: resources/accessibility.md
+    href: ./resources/accessibility.md
   - name: Compliance
-    href: resources/compliance.md
+    href: ./resources/compliance.md
   - name: Privacy
-    href: resources/privacy.md
+    href: ./resources/privacy.md
   - name: Security
-    href: resources/security.md
+    href: ./resources/security.md
 - name: Frequently asked questions
   href: faq.md
 - name: Windows IoT Distributors
