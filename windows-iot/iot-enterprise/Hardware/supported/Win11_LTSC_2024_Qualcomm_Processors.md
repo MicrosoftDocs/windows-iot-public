@@ -20,3 +20,11 @@ For information on which processors Qualcomm supports on Windows 11 IoT Enterpri
 |Qualcomm&reg; | QCS6490 |
 |Qualcomm&reg; | QCM5430 |
 |Qualcomm&reg; | QCS5430 |
+|Snapdragon&trade; | 8cx Gen 3 |
+|Snapdragon&trade; | 8cx Gen 2 |
+|Snapdragon&trade; | 8cx |
+|Snapdragon&trade; | 8c |
+|Snapdragon&trade; | 7c+ Gen 3 |
+|Snapdragon&trade; | 7c Gen 2 |
+|Snapdragon&trade; | 7c |
+|Snapdragon&trade; | 850 |
