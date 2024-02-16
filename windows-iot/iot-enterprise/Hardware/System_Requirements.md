@@ -26,10 +26,11 @@ Enter details about minimum requirements here
 
 # [Windows 11 LTSC](#tab/Windows11LTSC)
 Applies to:  
+✅ Windows 11 IoT Enterprise LTSC 
 ⛔ Windows 11 IoT Enterprise  
-✅ Windows 11 IoT Enterprise LTSC  
+ 
 
-| </br></br>Component    | </br>RECOMMENDED</br>Minimum&nbsp;Requirements   | OPTIONAL </br> Minimum&nbsp;Requirements  |
+| </br></br>Component    | RECOMMENDED</br>Minimum&nbsp;Requirements   | OPTIONAL </br> Minimum&nbsp;Requirements  |
 | ---------------------- |:---------------------------------:|:---------------------------------:|
 | Processor¹             | 1&nbsp;GHz,&nbsp;2 Cores          | 1&nbsp;GHz,&nbsp;2&nbsp;Cores     |
 | System&nbsp;Memory     |  4 GB                             |  2 GB                             |
@@ -47,7 +48,7 @@ Applies to:
 ✅ Windows 11 IoT Enterprise  
 ⛔ Windows 11 IoT Enterprise LTSC  
 
-| </br></br>Component    | </br>RECOMMENDED</br>Minimum&nbsp;Requirements   | 21H2,&nbsp;22H2,&nbsp;23H2 </br> OPTIONAL </br> Minimum&nbsp;Requirements  | 24H2 or Later </br> OPTIONAL </br> Minimum&nbsp;Requirements  |
+| </br></br>Component    | RECOMMENDED</br>Minimum&nbsp;Requirements   | 21H2,&nbsp;22H2,&nbsp;23H2 </br> OPTIONAL </br> Minimum&nbsp;Requirements  | 24H2 or Later </br> OPTIONAL </br> Minimum&nbsp;Requirements  |
 | ---------------------- |:-----------------------------:|:---------------------------------:|:---------------------------------:|
 | Processor¹             | 1&nbsp;GHz,&nbsp;2 Cores      | 1&nbsp;GHz,&nbsp;2&nbsp;Cores     | 1&nbsp;GHz,&nbsp;2&nbsp;Cores     |
 | System&nbsp;Memory     |  4 GB                         |  4 GB                             |  4 GB                             |
@@ -65,7 +66,7 @@ Applies to:
 ✅ Windows 10 IoT Enterprise  
 ✅ Windows 10 IoT Enterprise LTSC
 
-| </br></br></br>Component  | </br>RECOMMENDED</br>Minimum&nbsp;Requirements | 64&#x2011;bit</br>OPTIONAL</br>Minimum&nbsp;Requirements | 32&#x2011;bit</br>OPTIONAL</br>Minimum&nbsp;Requirements |
+| </br></br></br>Component  | RECOMMENDED</br>Minimum&nbsp;Requirements | 64&#x2011;bit</br>OPTIONAL</br>Minimum&nbsp;Requirements | 32&#x2011;bit</br>OPTIONAL</br>Minimum&nbsp;Requirements |
 |:-------------------|:------------------------------:|:-------------------------------------------:|:------------------------------:|
 | Processor¹         | 1&nbsp;GHz&nbsp;or&nbsp;faster | 1&nbsp;GHz&nbsp;or&nbsp;faster              | 1&nbsp;GHz&nbsp;or&nbsp;faster |
 | System&nbsp;Memory | x64: 2 GB                      | 2 GB                                        | 1 GB                           |
