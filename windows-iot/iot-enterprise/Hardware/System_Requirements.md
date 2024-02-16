@@ -3,7 +3,7 @@ title: Minimum System Requirements
 titleSuffix: Windows IoT Enterprise
 author: TerryWarwick
 ms.author: twarwick
-ms.date: 02/13/2024
+ms.date: 02/15/2024
 ms.topic: article
 ms.service: windows-iot
 ms.subservice: iot
@@ -24,23 +24,40 @@ Enter details about recommended requirements here
 
 Enter details about minimum requirements here
 
-# [Windows 11](#tab/Windows11)
+# [Windows 11 LTSC](#tab/Windows11LTSC)
+Applies to:  
+⛔ Windows 11 IoT Enterprise  
+✅ Windows 11 IoT Enterprise LTSC  
+
+| </br></br>Component    | </br>Recommended</br>Minimum</br>Requirements   | 2024 </br> Optional </br> Minimum </br>Requirements  |
+| ---------------------- |:---------------------------------:|:---------------------------------:|
+| Processor¹             | 1&nbsp;GHz,&nbsp;2 Cores          | 1&nbsp;GHz,&nbsp;2&nbsp;Cores     |
+| System&nbsp;Memory     |  4 GB                             |  2 GB                             |
+| Storage&nbsp;Size      | 64 GB                             | 16 GB                             |
+| Storage&nbsp;Type      | Solid&#x2011;State&nbsp;Drive&nbsp;(SSD) | Solid&#x2011;State&nbsp;Drive&nbsp;(SSD) </br> Hard&nbsp;Disk&nbsp;Drive&nbsp;(HDD)</br> Hybrid&nbsp;Hard&nbsp;Drive&nbsp;(SSHD) </br> Flash&nbsp;(eMMC,&nbsp;SD,&nbsp;USB)  |
+| System&nbsp;Firmware   | UEFI                              | BIOS                              |
+| TPM                    | TPM 2.0                           | Optional                          |
+| Secure Boot            | Enabled                           | Optional                          |
+| DirectX                | DirectX 12                        | DirectX 10 / None                 |
+| Display                | 9" diagonal</br>720p HD           | Custom Size / Optional            |
+
+# [Windows 11 (Non-LTSC)](#tab/Windows11)
 
 Applies to:  
 ✅ Windows 11 IoT Enterprise  
-✅ Windows 11 IoT Enterprise LTSC  
+⛔ Windows 11 IoT Enterprise LTSC  
 
-| </br></br>Component    | </br>Recommended</br>Minimum</br>Requirements   | 21H2,&nbsp;22H2,&nbsp;23H2 </br> Optional </br> Minimum </br>Requirements  | 24H2 or Later </br> Optional </br> Minimum </br> Requirements  | LTSC 2024 </br> Optional </br> Minimum </br> Requirements    |
-| ---------------------- |:---------------------------------:|:---------------------------------:|:------------------------------------------:|:--------------------------------:|
-| Processor¹             | 1&nbsp;GHz,&nbsp;2 Cores          | 1&nbsp;GHz,&nbsp;2&nbsp;Cores              | 1&nbsp;GHz,&nbsp;2&nbsp;Cores    | 1&nbsp;GHz,&nbsp;2&nbsp;Cores     |
-| System&nbsp;Memory     |  4 GB                             |  4 GB                                      |  4 GB                            |  2 GB                             |
-| Storage&nbsp;Size      | 64 GB                             | 64 GB                                      | 64 GB                            | 16 GB                             |
-| Storage&nbsp;Type      | Solid&#x2011;State&nbsp;Drive&nbsp;(SSD) | Solid&#x2011;State&nbsp;Drive&nbsp;(SSD) </br> Hard&nbsp;Disk&nbsp;Drive&nbsp;(HDD)</br> Hybrid&nbsp;Hard&nbsp;Drive&nbsp;(SSHD) </br> Flash&nbsp;(eMMC,&nbsp;SD,&nbsp;USB)  | Solid&#x2011;State&nbsp;Drive&nbsp;(SSD) </br> Hard&nbsp;Disk&nbsp;Drive&nbsp;(HDD)</br> Hybrid&nbsp;Hard&nbsp;Drive&nbsp;(SSHD) </br> Flash&nbsp;(eMMC,&nbsp;SD,&nbsp;USB)  | Solid&#x2011;State&nbsp;Drive&nbsp;(SSD) </br> Hard&nbsp;Disk&nbsp;Drive&nbsp;(HDD)</br> Hybrid&nbsp;Hard&nbsp;Drive&nbsp;(SSHD) </br> Flash&nbsp;(eMMC,&nbsp;SD,&nbsp;USB)  |
-| System&nbsp;Firmware   | UEFI                              | UEFI                                       | BIOS                             | BIOS                              |
-| TPM                    | TPM 2.0                           |TPM 2.0                                   | Optional                         | Optional                           |
-| Secure Boot            | Enabled                           | Optional                                   | Optional                         | Optional                          |
-| DirectX                | DirectX 12                        | DirectX 12                          | DirectX 10 / None                | DirectX 10 / None                        |
-| Display                | 9" diagonal</br>720p HD           | Custom Size / Optional                    | Custom Size / Optional          | Custom Size / Optional           |
+| </br></br>Component    | </br>Recommended</br>Minimum</br>Requirements   | 21H2,&nbsp;22H2,&nbsp;23H2 </br> Optional </br> Minimum </br>Requirements  | 24H2 or Later </br> Optional </br> Minimum </br> Requirements  |
+| ---------------------- |:-----------------------------:|:---------------------------------:|:---------------------------------:|
+| Processor¹             | 1&nbsp;GHz,&nbsp;2 Cores      | 1&nbsp;GHz,&nbsp;2&nbsp;Cores     | 1&nbsp;GHz,&nbsp;2&nbsp;Cores     |
+| System&nbsp;Memory     |  4 GB                         |  4 GB                             |  4 GB                             |
+| Storage&nbsp;Size      | 64 GB                         | 64 GB                             | 64 GB                             |
+| Storage&nbsp;Type      | Solid&#x2011;State&nbsp;Drive&nbsp;(SSD) | Solid&#x2011;State&nbsp;Drive&nbsp;(SSD) </br> Hard&nbsp;Disk&nbsp;Drive&nbsp;(HDD)</br> Hybrid&nbsp;Hard&nbsp;Drive&nbsp;(SSHD) </br> Flash&nbsp;(eMMC,&nbsp;SD,&nbsp;USB)  | Solid&#x2011;State&nbsp;Drive&nbsp;(SSD) </br> Hard&nbsp;Disk&nbsp;Drive&nbsp;(HDD)</br> Hybrid&nbsp;Hard&nbsp;Drive&nbsp;(SSHD) </br> Flash&nbsp;(eMMC,&nbsp;SD,&nbsp;USB)  |
+| System&nbsp;Firmware   | UEFI                          | UEFI                              | BIOS                              |
+| TPM                    | TPM 2.0                       |TPM 2.0                            | Optional                          |
+| Secure Boot            | Enabled                       | Optional                          | Optional                          |
+| DirectX                | DirectX 12                    | DirectX 12                        | DirectX 10 / None                 |
+| Display                | 9" diagonal</br>720p HD       | Custom Size / Optional            | Custom Size / Optional            |
 
 # [Windows 10](#tab/Windows10)
 
