@@ -26,9 +26,8 @@ Enter details about minimum requirements here
 
 # [Windows 11 LTSC](#tab/Windows11LTSC)
 Applies to:  
-✅ Windows 11 IoT Enterprise LTSC 
+✅ Windows 11 IoT Enterprise LTSC  
 ⛔ Windows 11 IoT Enterprise  
- 
 
 | </br></br>Component    | RECOMMENDED</br>Minimum&nbsp;Requirements   | OPTIONAL </br> Minimum&nbsp;Requirements  |
 | ---------------------- |:---------------------------------:|:---------------------------------:|
