@@ -1,8 +1,9 @@
 ---
 title: Package - Windows Media Format
+titleSuffix: Windows IoT Enterprise
 author: twarwick
 ms.author: twarwick
-ms.date: 03/30/2023
+ms.date: 01/31/2024
 ms.topic: article
 ms.service: windows-iot
 ms.subservice: iot
@@ -23,6 +24,11 @@ A component of the [Media Feature Pack](/windows/win32/wmdm/windows-media-device
 **Package Name:** Microsoft-Windows-Media-Format
 
 **Size:** Approximately 5,559 KB
+
+> [!IMPORTANT]
+>
+> This feature is only supported on the Windows IoT Entrprise LTSC edition.  If you choose to remove any of this package from Windows IoT Enterprise, you must ensure that your solution does not rely on functionality of the removed package. You cannot restore the package without a full reinstall of Windows IoT Enterprise LTSC.  
+> For more information, see [Removable Packages System Requirements](../Removable-Packages.md#system-requirements).
 
 ## Package Removal
 
@@ -60,21 +66,21 @@ These packages collectively provide the functionality represented by the [Media 
 
 | File Name | Installed Location |
 |-----------|--------------------|
-| asferror.dll            | %windir%\system32\asferror.dll
-| cewmdm.dll              | %windir%\system32\cewmdm.dll
-| laprxy.dll              | %windir%\system32\laprxy.dll
-| logagent.exe            | %windir%\system32\logagent.exe
-| mswmdm.dll              | %windir%\system32\mswmdm.dll
-| mswmdm.mof              | %windir%\system32\wbem\mswmdm.mof
-| sqmapi.dll              | %programfiles%\windows multimedia platform\sqmapi.dll
+| asferror.dll            | %windir%\system32\asferror.dll |
+| cewmdm.dll              | %windir%\system32\cewmdm.dll |
+| laprxy.dll              | %windir%\system32\laprxy.dll |
+| logagent.exe            | %windir%\system32\logagent.exe |
+| mswmdm.dll              | %windir%\system32\mswmdm.dll |
+| mswmdm.mof              | %windir%\system32\wbem\mswmdm.mof |
+| sqmapi.dll              | %programfiles%\windows multimedia platform\sqmapi.dll |
 | windowsmediadrm.admx    | %windir%\policydefinitions\windowsmediadrm.admx |
-| wmasf.dll               | %windir%\system32\wmasf.dll
-| wmdmlog.dll             | %windir%\system32\wmdmlog.dll
-| wmdmps.dll              | %windir%\system32\wmdmps.dll
-| wmidx.dll               | %windir%\system32\wmidx.dll
-| wmnetmgr.dll            | %windir%\system32\wmnetmgr.dll
-| wmsyspr9.prx            | %windir%\wmsyspr9.prx
-| wmvcore.dll             | %windir%\system32\wmvcore.dll
+| wmasf.dll               | %windir%\system32\wmasf.dll |
+| wmdmlog.dll             | %windir%\system32\wmdmlog.dll |
+| wmdmps.dll              | %windir%\system32\wmdmps.dll |
+| wmidx.dll               | %windir%\system32\wmidx.dll |
+| wmnetmgr.dll            | %windir%\system32\wmnetmgr.dll |
+| wmsyspr9.prx            | %windir%\wmsyspr9.prx |
+| wmvcore.dll             | %windir%\system32\wmvcore.dll |
 
 ## More Resources
 
