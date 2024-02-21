@@ -2,7 +2,7 @@
 title: Windows IoT Distributors
 author: TerryWarwick
 ms.author: twarwick
-ms.date: 02/20/2024
+ms.date: 02/21/2024
 ms.topic: article
 ms.service: windows-iot
 ms.subservice: iot
@@ -14,7 +14,7 @@ keywords: Windows IoT Enterprise, Windows Sever IoT 2022, Distributor, Windows I
 
 <img align="right" width="50%" src="media/map.png" alt="Windows IoT Distributors Regional Map">
 
-Distributors can leverage their Windows IoT development experiences, and knowledge, to help you build secure and connected Windows IoT solutions. If you would like to work with one of our distributors, please select a distributor in your region and contact the distributor directly for more detail
+Distributors can apply their Windows IoT development experiences, and knowledge, to help you build secure and connected Windows IoT solutions. If you would like to work with one of our distributors, select a distributor in your region and contact the distributor directly for more detail.
 
 **Contact Updates:** To update your contact information, submit a request to [IoTDistributorList@microsoft.com](mailto:iotdistributorlist@microsoft.com).
 
@@ -25,7 +25,7 @@ Distributors can leverage their Windows IoT development experiences, and knowled
  | Brazil             | Softline International BRASIL COMER | [info.brasil@softlinegroup.com](mailto:info.brasil@softlinegroup.com) | +55 11 5188 8100 |
  | United&nbsp;States | Advantech Corporation               | [iot.software@advantech.com](mailto:iot.software@advantech.com) | +1 425-922-0721 |
  | United&nbsp;States | Arrow Electronics INC.              | Ken Marlin</br>Windows Champ on YouTube</br></br>Henry Castillo</br>Microsoft Champion</br>[WindowsChamp@arrow.com](mailto:WindowsChamp@arrow.com) | +1 (830) 365-7023 |
- | United&nbsp;States | Avnet INC                           | [Software@Avnet.com](mailto:Software@Avnet.com) | +1 480 643 7055 |
+ | United&nbsp;States | Avnet INC.                          | [Software@Avnet.com](mailto:Software@Avnet.com) | +1 480 643 7055 |
  | United&nbsp;States | Bsquare Corporation                 | [Info@bsquare.com](mailto:Info@bsquare.com) | + 1 425-519-5900 |
  | United&nbsp;States | Dell, INC.                          | Jordan Wright</br>[embeddedsoftwaresales@dell.com](mailto:embeddedsoftwaresales@dell.com) | +737 227 1602 |
 
@@ -40,13 +40,13 @@ Distributors can leverage their Windows IoT development experiences, and knowled
 | China                   | Beijing Advantech XING YE Electronics         | Zicheng Yan [zicheng.yan@advantech.com.cn](mailto:zicheng.yan@advantech.com.cn)</br>CuiCui.Ding</br>[CuiCui.Ding@advantech.com.cn](mailto:CuiCui.Ding@advantech.com.cn) | +86 15818585213</br></br>+86 18565739591 |
 | China                   | Shenzhen Comtech Limited                      | Selina Gong</br>[selinagong@comtech.com.cn](mailto:selinagong@comtech.com.cn)    | +86 15986642886 |
 | China                   | Dell (China) CO. Ltd.                         | Gao Defeng</br>[dell.emb.os@dell.com](mailto:dell.emb.os@dell.com)               | +86-592-8182210 |
-| China                   | MDS(Shenzhen) Technology Co.,Ltd              | Adam Yi</br>[adamyi@mdspacific.com](mailto:adamyi@mdspacific.com)                | +86 18565885612 |
+| China                   | MDS(Shenzhen) Technology Co., Ltd              | Adam Yi</br>[adamyi@mdspacific.com](mailto:adamyi@mdspacific.com)                | +86 18565885612 |
 | China                   | Lanxiang Technology (Shenzhen)                | Becky Wang</br>[beckywang@synnex.com.tw](mailto:beckywang@synnex.com.tw)         | +86 13417570375 |
 | China                   | WT Microelectronics (Shanghai) CO.,           | Sun Liang</br>[liang.sun@wtmec.com](mailto:liang.sun@wtmec.com)                  | +86 18600933866 |
 | Hong&nbsp;Kong&nbsp;SAR | Advantech Automation Corp.                    | Zicheng Yan</br>[zicheng.yan@advantech.com.cn](mailto:zicheng.yan@advantech.com.cn)</br>CuiCui.Ding</br>[CuiCui.Ding@advantech.com.cn](mailto:CuiCui.Ding@advantech.com.cn) | +86 15818585213</br></br>+86 18565739591 |
 | Hong&nbsp;Kong&nbsp;SAR | Avnet Technology Hong Kong Limited            | Jack Xu</br>[jackwuhan.xu@avnet.com](mailto:jackwuhan.xu@avnet.com)              | +86 18627083759 |
 | Hong&nbsp;Kong&nbsp;SAR | Comtech International (Hong Kong)             | Selina Gong</br>[selinagong@comtech.com.cn](mailto:selinagong@comtech.com.cn)    | +86 15986642886 |
-| Hong&nbsp;Kong&nbsp;SAR | MDS Tech China Holding Co Limited             | Adam Yi</br>[adamyi@mdspacific.com](mailto:adamyi@mdspacific.com)                | +86-19917267583 |
+| Hong&nbsp;Kong&nbsp;SAR | MDS Tech China Holding Co. Limited             | Adam Yi</br>[adamyi@mdspacific.com](mailto:adamyi@mdspacific.com)                | +86-19917267583 |
 | Hong&nbsp;Kong&nbsp;SAR | Syntech Asia Limited                          | Becky Wang</br>[beckywang@synnex.com.tw](mailto:beckywang@synnex.com.tw)         | +86 13417570375 |
 | Hong&nbsp;Kong&nbsp;SAR | WT Microelectronics Ltd.                      | Sun Liang</br>[liang.sun@wtmec.com](mailto:liang.sun@wtmec.com)                  | +86 18600933866 |
 | India                   | Advantech Industrial Computing                | Praveen B</br>[Praveen.B@advantech.com](mailto:Praveen.B@advantech.com)          | +91 9845071709 |
@@ -55,7 +55,7 @@ Distributors can leverage their Windows IoT development experiences, and knowled
 | Indonesia               | MDS Pacific PTE Ltd.                          | Edmund Foo</br>[edmund.foo@mdspacific.com](mailto:edmund.foo@mdspacific.com)</br>Stacey Leaw</br>[Stacey.leaw@mdspacific.com](mailto:Stacey.leaw@mdspacific.com)|+65 6297 2800  |
 | Korea                   | Advantech KR Co., Ltd.                        | Zesty Lee</br>[Zesty.Lee@advantech.co.kr](mailto:Zesty.Lee@advantech.co.kr)      | +82 2 3660 9220 |
 | Korea                   | MDS Tech Inc.                                 | Sungwoo Park</br>[sungwoo@mdstech.co.kr](mailto:sungwoo@mdstech.co.kr)           | +82 31 602 2026 |
-| Korea                   | VOICEYE Co., Ltd.                             | Young Seung .ko </br>[ysko@sgacorp.kr](mailto:ysko@sgacorp.kr)                   | +82 10 3333 4187 |
+| Korea                   | VOICEYE Co., Ltd.                             | Young Seung Ko </br>[ysko@sgacorp.kr](mailto:ysko@sgacorp.kr)                   | +82 10 3333 4187 |
 | Malaysia                | Advantech Co. Singapore PTE Ltd.              | Daren See</br>[Daren.See@advantech.com](mailto:Daren.See@advantech.com)          | Mobile: +65 8800 0938 </br> DID: +65 6413 8724  |
 | Malaysia                | Avnet Asia Pte Ltd                            | Catherine Wong</br>[Catherine.wong@avnet.com](mailto:Catherine.wong@avnet.com)   | +65 9681 9211 |
 | Malaysia                | MDS Pacific PTE Ltd.                          | Edmund Foo</br>[edmund.foo@mdspacific.com](mailto:edmund.foo@mdspacific.com)</br>Stacey Leaw</br>[Stacey.leaw@mdspacific.com](mailto:Stacey.leaw@mdspacific.com)|+65 6297 2800  |
@@ -108,7 +108,7 @@ Distributors can leverage their Windows IoT development experiences, and knowled
 | Switzerland                           | Avnet Silica: Switzerland                     | Martin Grossen</br>[mailto:microsoft@avnet.eu](mailto:microsoft@avnet.eu) | +41 62 919 55 57 |
 | Germany                               | Avnet Silica: Germany                         | Christine Falke</br>[microsoft@avnet.eu](mailto:microsoft@avnet.eu) | +49 151 1420 6230 |
 | Northern Europe, Denmark, Finland, Sweden & Norway | Avnet Silica: Northern Europe.</br>Denmark, Finland, Sweden & Norway | Mark Winther</br>[Mark.Winther@avnet.eu](mailto:Mark.Winther@avnet.eu) | +45 4322 8027 |
-| Baltic States, Latvia, Lithuania & Estonia | Avnet Silica: Baltic States:</br>Latvia, Lithuania & Estonia | Mark Winther</br>[Mark.Winther@avnet.eu](mailto:Mark.Winther@avnet.eu) | +45 4322 8027 |
+| Baltic States, Latvia, Lithuania & Estonia | Avnet Silica: Baltic States: </br>Latvia, Lithuania & Estonia | Mark Winther</br>[Mark.Winther@avnet.eu](mailto:Mark.Winther@avnet.eu) | +45 4322 8027 |
 | UK, Ireland, Egypt                    | Avnet Silica: United Kingdom, Ireland & Egypt | Mark Winther</br>[Mark.Winther@avnet.eu](mailto:Mark.Winther@avnet.eu) | +45 4322 8027 |
 | France                                | Avnet Silica: France                          | Benedicte Chagot</br>[Benedicte.Chagot@avnet.eu](mailto:Benedicte.Chagot@avnet.eu) | +33 (1) 64 47 99 96 |
 | Italy                                 | Avnet Silica: Italy                           | Cesare De Siena</br>[Cesare.DeSiena@avnet.eu](mailto:Cesare.DeSiena@avnet.eu) | +39 (02) 66092 459 |
@@ -122,7 +122,7 @@ Distributors can leverage their Windows IoT development experiences, and knowled
 | Estonia, Latvia, Lithuania            | Elbacom GmbH                                  | Zsolt Szanya</br>[z.szanya@elbacom.com](mailto:z.szanya@elbacom.com) | +36 (30) 7480458 |
 | Poland                                | Elbacom GmbH                                  | Tomasz Legat</br>[t.legat@elbacom.com](mailto:t.legat@elbacom.com) | +48 (71) 3399247 |
 | Czech Republic, Slovakia              | Elbacom GmbH                                  | Michal Šaštinský</br>[m.sastinsky@elbacom.com](mailto:m.sastinsky@elbacom.com) | +421 (911) 464 089 |
-| Bosnia and Herzegovina,</br>Croatia, Kosovo, North Macedonia,</br>Montenegro, Serbia, Slovenia | Elbacom GmbH | Uros Ribic</br>[u.ribic@elbacom.com](mailto:u.ribic@elbacom.com) | +386 (70) 431288 |
+| Bosnia and Herzegovina, Croatia, Kosovo, North Macedonia, Montenegro, Serbia, Slovenia | Elbacom GmbH | Uros Ribic</br>[u.ribic@elbacom.com](mailto:u.ribic@elbacom.com) | +386 (70) 431288 |
 | Benelux                               | Elbacom GmbH                                  | Danny Vermeylen</br>[d.vermeylen@elbacom.com](mailto:d.vermeylen@elbacom.com) | +32 (479) 981303 |
 | France                                | Elbacom GmbH                                  | Pascal Angee   </br>[p.angee@elbacom.com](mailto:p.angee@elbacom.com) | +33 (6) 64404536 |
 | Germany                               | Elbacom GmbH                                  | Andreas Ahamer</br>[a.ahamer@elbacom.com](mailto:a.ahamer@elbacom.com) | +49 (160) 6712039 |
@@ -131,7 +131,7 @@ Distributors can leverage their Windows IoT development experiences, and knowled
 | Rest of EMEA                          | Elbacom GmbH                                  | David Kotzenmacher</br>[d.Kotzenmacher@elbacom.com](mailto:d.Kotzenmacher@elbacom.com) | +43 (664) 2163504 |
 | Belgium                               | Koning & Hartman B.V.                         | Kjell De Clercq, Kelly Bornauw, Alida Coninx</br>[Info.be@koningenhartman.com](mailto:Info.be@koningenhartman.com) | +32 2 257 02 00 |
 | Ukraine, Kazakhstan, Uzbekistan, Moldova, Azerbaijan, Georgia, Armenia, Kyrgyzstan, Turkmenistan, Tajikistan | Quarta IoT LLC | Ruben Molunts</br>[sales@quarta-iot.com](mailto:sales@quarta-iot.com) | +374 77 115784</br>+374 99 115784 |
-| Russia, Ukraine, Belarus, Kazakhstan, Uzbekistan, Moldova, Azerbaijan,</br>Georgia, Armenia, Kyrgyzstan, Turkmenistan, Tajikistan | Quarta Technologies | [mse@quarta.ru](mailto:mse@quarta.ru) | +7 495 123 4518 |
+| Russia, Ukraine, Belarus, Kazakhstan, Uzbekistan, Moldova, Azerbaijan, Georgia, Armenia, Kyrgyzstan, Turkmenistan, Tajikistan | Quarta Technologies | [mse@quarta.ru](mailto:mse@quarta.ru) | +7 495 123 4518 |
 
 ## Japan
 

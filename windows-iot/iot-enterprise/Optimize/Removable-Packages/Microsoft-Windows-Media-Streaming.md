@@ -3,7 +3,7 @@ title: Package - Windows Media Streaming
 titleSuffix: Windows IoT Enterprise
 author: twarwick
 ms.author: twarwick
-ms.date: 01/31/2024
+ms.date: 02/21/2024
 ms.topic: article
 ms.service: windows-iot
 ms.subservice: iot
@@ -11,7 +11,7 @@ description: Removable Package Details for Microsoft-Windows-Media-Streaming
 keywords: IoT Enterprise, removable packages, storage
 ---
 
-# windows Media Streaming
+# Windows Media Streaming
 
 | Applies to                          |  Version            |
 |:------------------------------------|:--------------------|
@@ -52,7 +52,7 @@ A component of the [Media Feature Pack](/windows/win32/wmdm/windows-media-device
 
 ## Related Packages
 
-These packages collectively provide the functionality represented by the [Media Feature Pack](/windows/win32/wmdm/windows-media-device-manager-architecture).  There are dependencies between each of these packages.  If you elect to remove a subset of these packages, it is recommended that you thoroughly test your scenarios to ensure that your customers do not encounter the interaction between the packages you retain and the packages that you remove.
+These packages collectively provide the functionality represented by the [Media Feature Pack](/windows/win32/wmdm/windows-media-device-manager-architecture). There are dependencies between each of these packages. If you elect to remove a subset of these packages, it's recommended that you thoroughly test your scenarios to ensure that your customers don't encounter the interaction between the packages you retain and the packages that you remove.
 
 - [Microsoft-Media-Foundation](Microsoft-Media-Foundation.md)
 - [Microsoft-Windows-Media-Format](Microsoft-Windows-Media-Format.md)
