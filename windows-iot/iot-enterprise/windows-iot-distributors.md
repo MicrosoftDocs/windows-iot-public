@@ -2,10 +2,11 @@
 title: Windows IoT Distributors
 author: TerryWarwick
 ms.author: twarwick
-ms.date: 02/21/2024
+ms.date: 02/22/2024
 ms.topic: article
 ms.service: windows-iot
 ms.subservice: iot
+no-loc: [Arrow Europe]
 description: Windows IoT Distributor Information
 keywords: Windows IoT Enterprise, Windows Sever IoT 2022, Distributor, Windows IoT
 ---
