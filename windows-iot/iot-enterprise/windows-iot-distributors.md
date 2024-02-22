@@ -6,7 +6,7 @@ ms.date: 02/22/2024
 ms.topic: article
 ms.service: windows-iot
 ms.subservice: iot
-no-loc: ['Arrow Europe', 'Arrow', 'Europe']
+no-loc: [Arrow Europe, Arrow, Europe, 'Arrow Europe', 'Arrow', 'Europe']
 description: Windows IoT Distributor Information
 keywords: Windows IoT Enterprise, Windows Sever IoT 2022, Distributor, Windows IoT
 ---
@@ -142,3 +142,9 @@ Distributors can apply their Windows IoT development experiences, and knowledge,
  | Japan    | Okaya Electronics Corp.       | Hideaki Nagai</br>[nagai@oec.okaya.co.jp](mailto:nagai@oec.okaya.co.jp)</br>Software Promotion Group</br>[info_ms@oec.okaya.co.jp](mailto:info_ms@oec.okaya.co.jp) | +81 45 475 1502 |
  | Japan    | Ryoyo Electro Corporation     | Toshihiko Kanazawa</br>[Toshihiko_kanazawa@ryoyo.co.jp](mailto:Toshihiko_kanazawa@ryoyo.co.jp)</br>IS MSIS Division</br>[msoem@ryoyo.co.jp](mailto:msoem@ryoyo.co.jp) | +81 3 3546 6211 |
  | Japan    | Tokyo Electron Device Limited | Toshinori Suzuno</br>[suzuno.t@teldevice.co.jp](mailto:suzuno.t@teldevice.co.jp)</br>IoT&nbsp;Company&nbsp;Embedded&nbsp;Division</br>[esg@teldevice.co.jp](mailto:esg@teldevice.co.jp) | +81 45 443 4422 |
+
+Arrow Europe
+
+:::no-loc text=`Arrow Europe`:::
+
+:::no-loc text="Arrow Europe":::
