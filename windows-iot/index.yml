@@ -75,7 +75,7 @@ productDirectory:
         - url: /sql/sql-server/sql-server-2022-release-notes?view=sql-server-ver16
           text:  Release Notes
 
-    - title: AKS Edge Essentials
+    - title: Azure Kubernetes Service (AKS) Edge Essentials
       imageSrc: /media/common/i_multi-connect.svg
       links:
         - url: /azure/aks/hybrid/aks-edge-overview
@@ -84,6 +84,8 @@ productDirectory:
           text: Quickstart
         - url: /azure/aks/hybrid/aks-edge-howto-setup-machine
           text: How-to Guide
+        - url: /training/paths/get-started-aks-edge-essentials/
+          text: Get started with AKS Edge Essentials - Training
 
     - title: Azure IoT Edge for Linux on Windows
       imageSrc: /media/common/i_multi-connect.svg
