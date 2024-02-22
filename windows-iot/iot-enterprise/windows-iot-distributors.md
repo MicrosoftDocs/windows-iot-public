@@ -2,10 +2,11 @@
 title: Windows IoT Distributors
 author: TerryWarwick
 ms.author: twarwick
-ms.date: 02/21/2024
+ms.date: 02/22/2024
 ms.topic: article
 ms.service: windows-iot
 ms.subservice: iot
+no-loc: ['Arrow Europe', 'Arrow', 'Europe']
 description: Windows IoT Distributor Information
 keywords: Windows IoT Enterprise, Windows Sever IoT 2022, Distributor, Windows IoT
 ---
@@ -94,12 +95,12 @@ Distributors can apply their Windows IoT development experiences, and knowledge,
 | Rest of EMEA                          | Advantech Europe B.V.                         | Sabrina Lin</br>[sabrina.lin@advantech.com](mailto:sabrina.lin@advantech.com) | +886 227927818 Ext. 9269 |
 | South Africa                          | Arrow Altech Distribution (Pty) Ltd           | Riaan van Kooten</br>[RvanKooten@arrow.altech.co.za](mailto:RvanKooten@arrow.altech.co.za) | +27 0 31 279 1660 |
 | EMEA                                  | Arrow Europe                                  | Tze Chiew</br>[WindowsChamp@arrow.com](mailto:WindowsChamp@arrow.com) | +31 (0) 61240 3476 |
-| Netherlands, Belgium, Luxembourg      | Arrow Europe                                  | Microsoft Support Team Benelux</br>[sales.ais.benelux@arrow.com](mailto:sales.ais.benelux@arrow.com) | +31 30 899 0730 |
-| Germany, Austria, Switzerland         | Arrow Europe                                  | Christian Hammes</br>[chammes@arrow.com](mailto:chammes@arrow.com) | +49 6102 5030 8268 |
+| Netherlands, Belgium, Luxembourg      | :::no-loc text=`Arrow Europe`:::              | Microsoft Support Team Benelux</br>[sales.ais.benelux@arrow.com](mailto:sales.ais.benelux@arrow.com) | +31 30 899 0730 |
+| Germany, Austria, Switzerland         | :::no-loc text="Arrow Europe":::              | Christian Hammes</br>[chammes@arrow.com](mailto:chammes@arrow.com) | +49 6102 5030 8268 |
 | Italy, Spain, Portugal                | Arrow Europe                                  | Davide Chiodi</br>[Davide.Chiodi@arrow.com](mailto:Davide.Chiodi@arrow.com) | +39 02 6612 5388 |
 | Norway, Sweden, Finland, Denmark      | Arrow Europe                                  | Microsoft Support NORDIC</br>[sales.ais.nordic@arrow.com](mailto:sales.ais.nordic@arrow.com) | + 46 73 901 76 38 |
 | UK, Ireland                           | Arrow Europe                                  | Microsoft Support UK&I</br>[sales.ais.northern@arrow.com](mailto:sales.ais.northern@arrow.com) | + 46 73 901 76 38 |
-| France                                | Arrow Europe                                  | Isabelle Pillois</br>[Isabelle.Pillois@arrow.com](mailto:Isabelle.Pillois@arrow.com) | +33 1 49 97 13 38 |
+| France                                | Arrow Europe                                   | Isabelle Pillois</br>[Isabelle.Pillois@arrow.com](mailto:Isabelle.Pillois@arrow.com) | +33 1 49 97 13 38 |
 | Italy                                 | Arrow Europe                                  | Alberto Alzati</br>[aalzati@arroweurope.com](mailto:aalzati@arroweurope.com) | +39 02 6612 5535 |
 | Israel                                | Arrow Rapac Ltd.                              | Danny Morim</br>[dmorim@arroweurope.com](mailto:dmorim@arroweurope.com) | +97 23 920 3479 |
 | Eastern Europe, Iberia                | Avnet Silica: Eastern Europe and Iberia       | Claudia Remane</br>[microsoft@avnet.eu](mailto:microsoft@avnet.eu) | +49 8121 777 299 |
