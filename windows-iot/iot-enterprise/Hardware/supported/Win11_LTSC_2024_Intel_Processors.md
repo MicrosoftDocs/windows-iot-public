@@ -23,4 +23,3 @@ For information on which processors Intel&reg; supports on Windows 11 IoT Enterp
 |10th Generation | [Comet Lake S Processors](https://www.intel.com/content/www/us/en/products/platforms/details/comet-lake-s.html)|
 |9th Generation  | [Coffee Lake Refresh Processors](https://www.intel.com/content/www/us/en/products/platforms/details/coffee-lake-refresh.html)|
 |8th Generation  | [Whiskey Lake Processors](https://www.intel.com/content/www/us/en/products/platforms/details/whiskey-lake.html)</br>[Coffee Lake S Processors](https://www.intel.com/content/www/us/en/products/platforms/details/coffee-lake-s.html)</br>[Coffee Lake H Processors](https://www.intel.com/content/www/us/en/products/platforms/details/coffee-lake-h.html)|
-|7th Generation  | [Kaby Lake U/Y Processors](https://www.intel.com/content/www/us/en/products/platforms/details/kaby-lake-u-y.html)</br>[Kaby Lake S Processors](https://www.intel.com/content/www/us/en/products/platforms/details/kaby-lake-s.html)|
