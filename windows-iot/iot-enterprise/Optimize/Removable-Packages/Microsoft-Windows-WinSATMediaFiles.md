@@ -19,7 +19,16 @@ Applies to:
 
 ## Package Description
 
-Package: **Microsoft-Windows-WinSATMediaFiles** </br> A component of the [Media Feature Pack](/windows/win32/wmdm/windows-media-device-manager-architecture) comprised of media files for Windows System Assessment Tool.
+This package no longer contains the media files for the Windows System Assessment Tool, however the package remains on the device with no payload. This package is empty.
+
+**Package Name:** Microsoft-Windows-WinSATMediaFiles
+
+**Size:** Approximately 0 KB
+
+> [!IMPORTANT]
+>
+> This feature is only supported on the Windows IoT Entrprise LTSC edition.  If you choose to remove any of this package from Windows IoT Enterprise, you must ensure that your solution does not rely on functionality of the removed package. You cannot restore the package without a full reinstall of Windows IoT Enterprise LTSC.  
+> For more information, see [Removable Packages System Requirements](../Removable-Packages.md#system-requirements).
 
 ## Package Removal
 

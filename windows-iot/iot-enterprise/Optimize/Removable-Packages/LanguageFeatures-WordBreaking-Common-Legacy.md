@@ -3,7 +3,7 @@ title: Package - Language Word Breaking Legacy
 titleSuffix: Windows IoT Enterprise
 author: TerryWarwick
 ms.author: twarwick
-ms.date: 02/13/2024
+ms.date: 02/23/2024
 ms.topic: article
 ms.service: windows-iot
 ms.subservice: iot
@@ -20,6 +20,11 @@ Applies to:
 ## Package Description  
 
 Package: **LanguageFeatures-Wordbreaking-Common-legacy** </br> Legacy neutral word breaker should only be needed in occasional application compatibility scenarios.
+
+> [!IMPORTANT]
+>
+> This feature is only supported on the Windows IoT Entrprise LTSC edition.  If you choose to remove any of this package from Windows IoT Enterprise, you must ensure that your solution does not rely on functionality of the removed package. You cannot restore the package without a full reinstall of Windows IoT Enterprise LTSC.  
+> For more information, see [Removable Packages System Requirements](../Removable-Packages.md#system-requirements).
 
 ## Package Removal
 
