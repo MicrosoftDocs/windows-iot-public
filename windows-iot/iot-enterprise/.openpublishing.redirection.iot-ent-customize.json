@@ -117,7 +117,7 @@
     },
 
     {
-        "source_path_from_root": "windows-iot/iot-enterprise/Customize/complementary-features-to-custom-logon.md",
+        "source_path_from_root": "/windows-iot/iot-enterprise/Customize/complementary-features-to-custom-logon.md",
         "redirect_url": "/windows/iot/iot-enterprise/customize/Custom-Logon",
         "redirect_document_id": false
     }
