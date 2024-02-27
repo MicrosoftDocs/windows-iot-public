@@ -1,8 +1,8 @@
 ---
 title: Keyboard Filter
 description: Keyboard Filter
-author: TerryWarwick
-ms.author: twarwick
+author: sydbruck
+ms.author: sybruckm
 ms.prod: windows-iot
 ms.technology: iot
 ms.date: 02/07/2024
