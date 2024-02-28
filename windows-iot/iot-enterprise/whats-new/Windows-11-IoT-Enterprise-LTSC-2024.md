@@ -7,7 +7,7 @@ ms.service: windows-iot
 ms.subservice: iot
 author: TerryWarwick
 ms.author: twarwick
-ms.date: 02/14/2024
+ms.date: 02/28/2024
 ---
 
 # What's new in Windows 11 Enterprise LTSC 2024
@@ -52,7 +52,7 @@ Windows 11 IoT Enterprise LTSC 2024 release includes the cumulative enhancements
 - [Windows 11 IoT Enterprise, version 23H2](Windows-11-IoT-Enterprise-23H2.md)
 - [Windows 11 IoT Enterprise, version 24H2](Windows-11-IoT-Enterprise-24H2.md)
 
-| Feature | Description |
+| Feature </br> [Release] | Description |
 | --- | --- |
 | **Hardware Requirements** | System requirements are updated to provide more flexibility to device makers. For more information, see [Minimum Hardware Requirements for Windows IoT Enterprise](../Hardware/Hardware_Requirements.md) |
 | **Restricted User Experience** </br> [23H2] <!--6444738--> | Restricted User Experience (formerly Multi-App Kiosk Mode) supports the creation of a controlled user experience while maintaining the familiar look and feel of the Windows 11 desktop. Ideal for shared devices that require access to more than one app, admins can configure a curated experience to limit distractions and potential tampering points while focusing the experience around the device's dedicated purpose. |
@@ -61,7 +61,7 @@ Windows 11 IoT Enterprise LTSC 2024 release includes the cumulative enhancements
 
 ## Accessibility
 
-| Feature | Description |
+| Feature </br> [Release] | Description |
 | --- | --- |
 | **Windows accessibility** </br> [22H2] | Improvements for people with disabilities: system-wide live captions, Focus sessions, voice access, and more natural voices for Narrator.</br> For more information, see:</br>&nbsp;&nbsp;• [New accessibility features coming to Windows 11](https://blogs.windows.com/windowsexperience/2022/05/10/new-accessibility-features-coming-to-windows-11/)</br>&nbsp;&nbsp;• [How inclusion drives innovation in Windows 11](https://blogs.windows.com/windowsexperience/?p=177554)</br>&nbsp;&nbsp;• [Accessibility information for IT professionals](/windows/configuration/windows-10-accessibility-for-itpros). |
 | **Braille displays**  </br> [23H2] <!--7579823-->        | Braille displays work seamlessly and reliably across multiple screen readers, improving the end user experience. We also added support for new braille displays and new braille input and output languages in Narrator. For more information, see [Accessibility information for IT professionals](/windows/configuration/windows-accessibility-for-ITPros). |
@@ -75,7 +75,7 @@ Windows 11 IoT Enterprise preserves the application compatibility promise made w
 
 Most accessories and associated drivers that work with Windows 10 IoT Enterprise are expected to work with Windows 11 IoT Enterprise. Check with your accessory manufacturer for specific details.
 
-| Feature | Description |
+| Feature </br> [Release]| Description |
 | --- | --- |
 | **Internet Explorer** | Internet Explorer (IE) is no longer available in Windows 11 IoT Enterprise LTSC 2024. However, you can use IE Mode if a website needs Internet Explorer. For more information, see [Internet Explorer (IE) Mode](/deployedge/edge-ie-mode) |
 | **Microsoft Edge** </br> [21H2] | The Microsoft Edge browser is the default browser. For information about configuring Microsoft Edge on Windows, see [Configure Microsoft Edge policy settings on Windows devices](/deployedge/configure-microsoft-edge). |
@@ -86,7 +86,7 @@ Most accessories and associated drivers that work with Windows 10 IoT Enterprise
 
 The security and privacy features in Windows 11 are similar to Windows 10. Security for your devices starts with the hardware, and includes OS security, application security, and user & identity security. There are features available in the Windows OS to help in these areas. This section describes some of these features. For a more comprehensive view, including zero trust, see [Windows security](/windows/security/).
 
-| Feature | Description |
+| Feature </br> [Release] | Description |
 | --- | --- |
 | **Windows Security app** </br> [21H2] | Windows Security app is an easy-to-use interface, and combines commonly used security features. For example, your get access to virus & threat protection, firewall & network protection, account protection, and more. For more information, see [the Windows Security app](/windows/security/threat-protection/windows-defender-security-center/windows-defender-security-center). |
 | **Security baselines** </br> [21H2] | Security baselines include security settings that are already configured, and ready to be deployed to your devices. If you don't know where to start, or it's too time consuming to go through all the settings, then you should look at Security Baselines. For more information, see [Windows security baselines](/windows/security/threat-protection/windows-security-configuration-framework/windows-security-baselines). |
@@ -109,7 +109,7 @@ The security and privacy features in Windows 11 are similar to Windows 10. Secur
 
 Like Windows 10, Windows 11 IoT Enterprise LTSC 2024 receives monthly quality updates. Some updates are large, and use bandwidth. </br>
 
-| Feature | Description |
+| Feature </br> [Release] | Description |
 | --- | --- |
 | **Windows Updates and Delivery optimization** </br> [21H2] | Delivery optimization helps reduce bandwidth consumption. It shares the work of downloading the update packages with multiple devices in your deployment. Windows 11 updates are smaller, as they only pull down source files that are different. You can create policies that configure delivery optimization settings. For example, set the maximum upload and download bandwidth, set caching sizes, and more. For more information, see:</br>&nbsp;&nbsp;• [Delivery Optimization for Windows updates](/windows/deployment/update/waas-delivery-optimization)</br>&nbsp;&nbsp;• [Installation & updates](https://support.microsoft.com/office/installation-updates-2f9c1819-310d-48a7-ac12-25191269903c#PickTab=Windows_11)</br>&nbsp;&nbsp;• [Manage updates in Windows](https://support.microsoft.com/windows/manage-updates-in-windows-643e9ea7-3cf6-7da6-a25c-95d4f7f099fe)|
 | **Control Windows Update notifications** </br> [22H2] | You can now block user notifications for Windows Updates during active hours. This setting is especially useful for organizations that want to prevent Windows Update notifications from occurring during business hours. For more information, see [Control restart notifications](/windows/deployment/update/waas-restart#control-restart-notifications).|
@@ -117,7 +117,7 @@ Like Windows 10, Windows 11 IoT Enterprise LTSC 2024 receives monthly quality up
 
 ## Management
 
-| Feature | Description |
+| Feature </br> [Release] | Description |
 | --- | --- |
 | **Microsoft Intune** </br> [21H2] | Microsoft Intune is a mobile application management (MAM) and mobile device management (MDM) provider. It helps manage devices, and manage apps on devices in your organization. You configure policies, and then deploy these policies to users and groups. You can create and deploy policies that install apps, configure device features, enforce PIN requirements, block compromised devices, and more. </br></br>  If you use Group Policy to manage your Windows 10 devices, then you can also use Group Policy to manage Windows 11 devices. In Intune, there are [administrative templates](/mem/intune/configuration/administrative-templates-windows) and the [settings catalog](/mem/intune/configuration/settings-catalog) that include many of the same policies. [Group Policy analytics](/mem/intune/configuration/group-policy-analytics) analyze your on-premises group policy objects. |
 | **Control Windows Update notifications** </br> [22H2] | You can now block user notifications for Windows Updates during active hours. This setting is especially useful for organizations that want to prevent Windows Update notifications from occurring during business hours. For more information, see [Control restart notifications](/windows/deployment/update/waas-restart#control-restart-notifications).|
@@ -130,7 +130,7 @@ Like Windows 10, Windows 11 IoT Enterprise LTSC 2024 receives monthly quality up
 
 ## User Experience
 
-| Feature | Description |
+| Feature </br> [Release] | Description |
 | --- | --- |
 | **Task Manager**  </br> [22H2]/[23H2] | A new command bar was added to each page to give access to common actions. Task Manager matches the system wide theme configured in Windows Settings. Added an efficiency mode that allows you to limit the resource usage of a process. </br> <!--kb5019509--> Process filtering, theme settings, and the ability to opt out of efficiency mode notification were added to Task Manager. |
 | **Taskbar overflow menu**  </br> [23H2] | The taskbar offers an entry point to a menu that shows all of your overflowed apps in one spot.<!--kb5019509--> |
