@@ -21,6 +21,11 @@ Applies to:
 
 Package: **Microsoft-Windows-Portable-Devices** </br> A component of the [Media Feature Pack](/windows/win32/wmdm/windows-media-device-manager-architecture) providing connectivity to portable devices for [Windows Media Device Manager](/windows/win32/wmdm/windows-media-device-manager-architecture).
 
+> [!IMPORTANT]
+>
+> This feature is only supported on the Windows IoT Entrprise LTSC edition.  If you choose to remove any of this package from Windows IoT Enterprise, you must ensure that your solution does not rely on functionality of the removed package. You cannot restore the package without a full reinstall of Windows IoT Enterprise LTSC.  
+> For more information, see [Removable Packages System Requirements](../Removable-Packages.md#system-requirements).
+
 ## Package Removal
 
 1. To remove a specific package from the image type:

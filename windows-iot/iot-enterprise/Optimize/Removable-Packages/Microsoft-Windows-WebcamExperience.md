@@ -3,7 +3,7 @@ title: Package - Webcam Experience
 titleSuffix: Windows IoT Enterprise
 author: TerryWarwick
 ms.author: twarwick
-ms.date: 03/30/2023
+ms.date: 02/21/2024
 ms.topic: article
 ms.service: windows-iot
 ms.subservice: iot
@@ -20,6 +20,11 @@ Applies to:
 ## Package Description
 
 Package: **Microsoft-Windows-WebcamExperience** </br> A component of the [Media Feature Pack](/windows/win32/wmdm/windows-media-device-manager-architecture) providing webcam user experience.
+
+> [!IMPORTANT]
+>
+> This feature is only supported on the Windows IoT Entrprise LTSC edition. If you choose to remove any of this package from Windows IoT Enterprise, you must ensure that your solution does not rely on functionality of the removed package. You cannot restore the package without a full reinstall of Windows IoT Enterprise LTSC.  
+> For more information, see [Removable Packages System Requirements](../Removable-Packages.md#system-requirements).
 
 ## Package Removal
 

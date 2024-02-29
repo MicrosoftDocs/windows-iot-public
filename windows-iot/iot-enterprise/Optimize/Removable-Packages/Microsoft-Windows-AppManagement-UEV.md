@@ -3,7 +3,7 @@ title: Package - User Experience Virtualization
 titleSuffix: Windows IoT Enterprise
 author: TerryWarwick
 ms.author: twarwick
-ms.date: 11/21/2023
+ms.date: 01/31/2024
 ms.topic: article
 ms.service: windows-iot
 ms.subservice: iot
@@ -24,6 +24,11 @@ See [User Experience Virtualization](/windows/configuration/ue-v/uev-for-windows
 **Package Name:**  Microsoft-Windows-AppManagement-UEV
 
 **Size:**  Approximately 13,752 KB
+
+> [!IMPORTANT]
+>
+> This feature is only supported on the Windows IoT Entrprise LTSC edition.  If you choose to remove any of this package from Windows IoT Enterprise, you must ensure that your solution does not rely on functionality of the removed package. You cannot restore the package without a full reinstall of Windows IoT Enterprise LTSC.  
+> For more information, see [Removable Packages System Requirements](../Removable-Packages.md#system-requirements).
 
 ## Package Removal
 

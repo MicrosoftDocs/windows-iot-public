@@ -3,7 +3,7 @@ title: Package - Desktop File Explorer
 titleSuffix: Windows IoT Enterprise
 author: TerryWarwick
 ms.author: twarwick
-ms.date: 03/30/2023
+ms.date: 02/23/2024
 ms.topic: article
 ms.service: windows-iot
 ms.subservice: iot
@@ -22,7 +22,7 @@ Applies to:
 
 ## Package Description
 
-Package: **Microsoft-Windows-DesktopFileExplorer** </br>  `Add Description Here`
+Package: **Microsoft-Windows-DesktopFileExplorer** </br>  A special version of File Explorer used in mixed-reality scenarios for navigating the file system. For more information, see [What is mixed reality?](/windows/mixed-reality/discover/mixed-reality)
 
 ## Package Removal
 

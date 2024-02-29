@@ -3,7 +3,7 @@ title: Removable Packages Overview
 titleSuffix: Windows IoT Enterprise
 author: twarwick
 ms.author: twarwick
-ms.date: 02/13/2024
+ms.date: 02/23/2024
 ms.topic: article
 ms.service: windows-iot
 ms.subservice: iot
@@ -83,7 +83,7 @@ The following packages can be removed from Windows IoT Enterprise LTSC 2024. Sel
 | | **[Microsoft-Windows-BootEnvironment-Dvd](Removable-Packages/Microsoft-Windows-BootEnvironment-Dvd.md)** </br> Boot from DVD | <!-- x64 --> 9,108&nbsp;KB | <!-- arm64 --> 3,112&nbsp;KB |
 |✅| **[Microsoft-Windows-ComputerManagerLauncher](Removable-Packages/Microsoft-Windows-ComputerManagerLauncher.md)** </br> Computer Management App and Computer Management Snap-in for the Microsoft Management Console (MMC). For more information, see [What is Microsoft Management Console?](/troubleshoot/windows-server/system-management-components/what-is-microsoft-management-console).| <!-- x64 --> 483&nbsp;KB | <!-- arm64 --> 604&nbsp;KB |
 |✅| **[Microsoft-Windows-Defrag-UI](Removable-Packages/Microsoft-Windows-Defrag-UI.md)** </br> Defragment and Optimize Drives graphical user experience.  | <!-- x64 --> 604&nbsp;KB | <!-- arm64 --> 583&nbsp;KB |
-|✅| **[Microsoft-Windows-DesktopFileExplorer](Removable-Packages/Microsoft-Windows-DesktopFileExplorer.md)** </br> File Explorer Application. | <!-- x64 --> 2,738&nbsp;KB | <!-- arm64 --> 3,787&nbsp;KB |
+|✅| **[Microsoft-Windows-DesktopFileExplorer](Removable-Packages/Microsoft-Windows-DesktopFileExplorer.md)** </br> A special version of File Explorer used in mixed-reality scenarios for navigating the file system. For more information, see [What is mixed reality?](/windows/mixed-reality/discover/mixed-reality) | <!-- x64 --> 2,738&nbsp;KB | <!-- arm64 --> 3,787&nbsp;KB |
 | | **[Microsoft-Windows-Media-Format](Removable-Packages/Microsoft-Windows-Media-Format.md)** </br> A component of the [Media Feature Pack](/windows/win32/wmdm/windows-media-device-manager-architecture) comprised of support for [Windows Media Device Manager](/windows/win32/wmdm/windows-media-device-manager-architecture),  [Advanced Systems Format](/windows/win32/wmformat/overview-of-the-asf-format) (ASF) file container, Windows Media audio and video codecs, basic network streaming, and [Digital Rights Management](/windows/win32/wmformat/overview-of-windows-media-drm). | <!-- x64 --> 5,202&nbsp;KB | <!-- arm64 --> 8,908&nbsp;KB |
 | | **[Microsoft-Windows-Media-Streaming](Removable-Packages/Microsoft-Windows-Media-Streaming.md)** </br> A component of the [Media Feature Pack](/windows/win32/wmdm/windows-media-device-manager-architecture) providing support for [Windows Media Streaming](/windows/win32/mediastreaming/media-streaming-api-portal). | <!-- x64 --> 7,028&nbsp;KB | <!-- arm64 --> 10,195&nbsp;KB |
 | | **[Microsoft-Windows-MediaPlayback-OC](Removable-Packages/Microsoft-Windows-MediaPlayback-OC.md)** </br> Controls availability of the "Media Features" and "Windows Media Player" options for the *Turn Windows features on or off* user experience in Control Panel. | <!-- x64 --> 0&nbsp;KB | <!-- arm64 --> 0&nbsp;KB |
