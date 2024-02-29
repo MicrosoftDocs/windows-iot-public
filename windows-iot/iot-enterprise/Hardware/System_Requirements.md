@@ -42,6 +42,8 @@ Applies to:
 | DirectX                | DirectX 12                        | DirectX 10 / None                 |
 | Display                | 9" diagonal</br>720p HD           | Custom Size / Optional            |
 
+---
+
 # [Windows 11 (Non-LTSC)](#tab/Windows11)
 
 Applies to:  
@@ -59,6 +61,8 @@ Applies to:
 | Secure Boot            | Enabled                       | Optional                          | Optional                          |
 | DirectX                | DirectX 12                    | DirectX 12                        | DirectX 10 / None                 |
 | Display                | 9" diagonal</br>720p HD       | Custom Size / Optional            | Custom Size / Optional            |
+
+---
 
 # [Windows 10](#tab/Windows10)
 
