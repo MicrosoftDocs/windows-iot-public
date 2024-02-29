@@ -3,7 +3,7 @@ title: Minimum System Requirements
 titleSuffix: Windows IoT Enterprise
 author: TerryWarwick
 ms.author: twarwick
-ms.date: 02/15/2024
+ms.date: 02/28/2024
 ms.topic: article
 ms.service: windows-iot
 ms.subservice: iot
@@ -16,13 +16,13 @@ keywords: IoT Enterprise, Hardware, Windows IoT
 > [!WARNING]
 > THIS IS AN IN-PROGRESS ROUGH DRAFT. The wording and feature list may change before publishing.
 
-**Recommended Minimum Requirements**
+**Preferred Minimum Requirements**
 
-Enter details about recommended requirements here
+The Windows IoT Enterprise preferred minimum requirements match the requirements for consumer general purpose devices where optimal performance and compatibility are required. Windows IoT Enterprise based devices have some flexibility from this system requirements bar for specialized devices. You must carefully consider deviating from this bar when producing specialized devices where software can be added to the device by the end customer. As an example, not offering a TPM can affect software that the end user would require, whereas using different storage devices typically only affect read and write performance.    
 
 **Optional Minimum Requirements**
 
-Enter details about minimum requirements here
+The Windows IoT Enterprise optional minimum requirements are provided for device makers to use when building a specialized device, which provides a curated "appliance like" experience. Some of these optional minimum requirements, such as a lower storage requirement needs extra monitoring and management throughout the lifecycle of the device to ensure the storage doesn't fill up. It's important to fully validate the chosen configurations meet the needs of the specialized device for its lifetime before distribution. 
 
 # [Windows 11 LTSC](#tab/Windows11LTSC)
 
@@ -30,7 +30,7 @@ Applies to:
 ✅ Windows 11 IoT Enterprise LTSC  
 ⛔ Windows 11 IoT Enterprise  
 
-| </br></br>Component    | RECOMMENDED</br>Minimum&nbsp;Requirements   | OPTIONAL </br> Minimum&nbsp;Requirements  |
+| </br></br>Component    | PREFERRED</br>Minimum&nbsp;Requirements   | OPTIONAL </br> Minimum&nbsp;Requirements  |
 | ---------------------- |:---------------------------------:|:---------------------------------:|
 | Processor¹             | 1&nbsp;GHz,&nbsp;2 Cores          | 1&nbsp;GHz,&nbsp;2&nbsp;Cores     |
 | System&nbsp;Memory     |  4 GB                             |  2 GB                             |
@@ -48,7 +48,7 @@ Applies to:
 ✅ Windows 11 IoT Enterprise  
 ⛔ Windows 11 IoT Enterprise LTSC  
 
-| </br></br>Component    | RECOMMENDED</br>Minimum&nbsp;Requirements   | 21H2,&nbsp;22H2,&nbsp;23H2 </br> OPTIONAL </br> Minimum&nbsp;Requirements  | 24H2 or Later </br> OPTIONAL </br> Minimum&nbsp;Requirements  |
+| </br></br>Component    | PREFERRED/br>Minimum&nbsp;Requirements   | 21H2,&nbsp;22H2,&nbsp;23H2 </br> OPTIONAL </br> Minimum&nbsp;Requirements  | 24H2 or Later </br> OPTIONAL </br> Minimum&nbsp;Requirements  |
 | ---------------------- |:-----------------------------:|:---------------------------------:|:---------------------------------:|
 | Processor¹             | 1&nbsp;GHz,&nbsp;2 Cores      | 1&nbsp;GHz,&nbsp;2&nbsp;Cores     | 1&nbsp;GHz,&nbsp;2&nbsp;Cores     |
 | System&nbsp;Memory     |  4 GB                         |  4 GB                             |  4 GB                             |
