@@ -3,7 +3,7 @@ title: Supported Qualcomm Processors for Windows 11 IoT Enterprise LTSC 2024
 description: Learn about Qualcomm Processors supported for Windows 11 IoT Enterprise LTSC 2024
 author: anch-msft
 ms.author: anthonychen
-ms.date: 02/15/2024
+ms.date: 02/23/2024
 ms.topic: article
 ms.service: windows-iot
 ---
@@ -16,4 +16,4 @@ For information on which processors NXP supports on Windows 11 IoT Enterprise LT
 
 | Family | Model |
 |---|---|
-|i.MX 9 | i.MX 93 |
+|i.MX 9 | [i.MX 93](https://www.nxp.com/products/processors-and-microcontrollers/arm-processors/i-mx-applications-processors/i-mx-9-processors/i-mx-93-applications-processor-family-arm-cortex-a55-ml-acceleration-power-efficient-mpu:i.MX93) |
