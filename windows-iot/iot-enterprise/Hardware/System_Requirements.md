@@ -22,7 +22,7 @@ The Windows IoT Enterprise preferred minimum requirements match the requirements
 
 **Optional Minimum Requirements**
 
-The Windows IoT Enterprise optional minimum requirements are provided for device makers to use when building a specialized device, which provides a curated "appliance like" experience. Some of these optional minimum requirements, such as a lower storage requirement needs extra monitoring and management throughout the lifecycle of the device to ensure the storage doesn't fill up. It's important to fully validate the chosen configurations meet the needs of the specialized device for its lifetime before distribution. 
+The Windows IoT Enterprise optional minimum requirements are provided for device makers to use when building a specialized device, which provides a curated "appliance like" experience. Some of these optional minimum requirements, such as a lower storage requirement, require extra monitoring and management throughout the lifecycle of the device to prevent storage from being fully consumed. It's important to fully validate the chosen configurations meet the needs of the specialized device for its lifetime before distribution. 
 
 # [Windows 11 LTSC](#tab/Windows11LTSC)
 
