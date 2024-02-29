@@ -3,7 +3,7 @@ title: Removable Packages Overview
 titleSuffix: Windows IoT Enterprise
 author: twarwick
 ms.author: twarwick
-ms.date: 02/23/2024
+ms.date: 02/28/2024
 ms.topic: article
 ms.service: windows-iot
 ms.subservice: iot
@@ -69,7 +69,7 @@ The following packages can be removed from Windows IoT Enterprise LTSC 2024. Sel
 |-----|:-------------------|-----:|-----:|
 | | **[LanguageFeatures-Wordbreaking-Common-legacy](Removable-Packages/LanguageFeatures-Wordbreaking-Common-legacy.md)** </br> Legacy neutral word breaker should only be needed in occasional application compatibility scenarios. | <!-- x64 -->  1,568&nbsp;KB | <!-- arm64 --> 1,756&nbsp;KB |
 | | **[Microsoft-Media-Foundation](Removable-Packages/Microsoft-Media-Foundation.md)** </br> Component of the [Media Feature Pack](/windows/win32/wmdm/windows-media-device-manager-architecture) comprised of [Microsoft Media Foundation](/windows/win32/medfound/microsoft-media-foundation-sdk) enables the development of applications and components for using digital media. [Supported Media Formats in Media Foundation](/windows/win32/medfound/supported-media-formats-in-media-foundation).   |  <!-- x64 --> 56,959&nbsp;KB | <!-- arm64 --> 99,210&nbsp;KB |
-|✅| **[Microsoft-OneCore-Connectivity-UsbConnectorManager](Removable-Packages/Microsoft-OneCore-Connectivity-UsbConnectorManager.md)** </br> USB Connection Manager (UCM), USB Type-C port controller interface (TCPCI), and USB Type-C connector system software interface (UCSI) class extensions,  USB Connector and USB Policy Manager APIs. For more information, see [USB Type-C connector system software interface (UCSI) driver](windows-hardware/drivers/usbcon/ucsi), [Write a USB Type-C port controller driver](/windows-hardware/drivers/usbcon/write-a-usb-type-c-port-controller-driver) and [Write a USB Type-connector driver](/windows-hardware/drivers/usbcon/bring-up-a-usb-type-c-connector-on-a-windows-system). | <!-- x64 -->  1,111&nbsp;KB | <!-- arm64 --> 853&nbsp;KB |
+|✅| **[Microsoft-OneCore-Connectivity-UsbConnectorManager](Removable-Packages/Microsoft-OneCore-Connectivity-UsbConnectorManager.md)** </br> USB Connection Manager (UCM), USB Type-C port controller interface (TCPCI), and USB Type-C connector system software interface (UCSI) class extensions,  USB Connector and USB Policy Manager APIs. For more information, see [USB Type-C connector system software interface (UCSI) driver](/windows-hardware/drivers/usbcon/ucsi), [Write a USB Type-C port controller driver](/windows-hardware/drivers/usbcon/write-a-usb-type-c-port-controller-driver) and [Write a USB Type-connector driver](/windows-hardware/drivers/usbcon/bring-up-a-usb-type-c-connector-on-a-windows-system). | <!-- x64 -->  1,111&nbsp;KB | <!-- arm64 --> 853&nbsp;KB |
 |✅| **[Microsoft-OneCore-Connectivity-UsbFunction](Removable-Packages/Microsoft-OneCore-Connectivity-UsbFunction.md)** </br> UFX, UFX Synopsis Events. For more information, see [Overview of developing Windows drivers for USB function controllers](/windows-hardware/drivers/usbcon/developing-windows-drivers-for-usb-function-controllers) and [Overview of developing Windows applications for USB devices](/windows-hardware/drivers/usbcon/developing-windows-applications-that-communicate-with-a-usb-device). | <!-- x64 --> 747&nbsp;KB | <!-- arm64 --> 622&nbsp;KB |
 | | **[Microsoft-OneCore-Fonts-DesktopFonts-NonLeanSupplement](Removable-Packages/Microsoft-OneCore-Fonts-DesktopFonts-NonLeanSupplement.md)** </br> Fonts: [Malgun Gothic](/typography/font-list/malgun-gothic), [Microsoft JhengHei](/typography/font-list/microsoft-jhenghei), [Microsoft YaHei](/typography/font-list/microsoft-yahei), [Yu Gothic](/typography/font-list/yu-gothic) | <!-- x64 --> 28,383&nbsp;KB | <!-- arm64 --> 28,383&nbsp;KB |
 |✅| **[Microsoft-OneCore-PointOfService-CameraBarcodeScanner](Removable-Packages/Microsoft-OneCore-PointOfService-CameraBarcodeScanner.md)** </br> Software decoder supporting detection of barcodes using a standard camera lens. For more information, see [Camera Barcode Decoder](/windows/uwp/devices-sensors/pos-camerabarcode). | <!-- x64 --> 4,022&nbsp;KB | <!-- arm64 --> 4,661&nbsp;KB |
@@ -135,7 +135,6 @@ The following packages can be removed from Windows IoT Enterprise LTSC 2021. Sel
 
 ## More Resources
 
-- [Reduce Disk Footprint](/Reduce-Disk-Footprint)
-- [Device Optimization Overview](/Overview)
+- [Device Optimization Overview](Overview.md)
 - [Removable Packages Blog](https://aka.ms/RemovablePackagesBlog)
 - [Removable Packages Script](https://aka.ms/RemovablePackagesScript)
