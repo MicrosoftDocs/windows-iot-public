@@ -13,13 +13,13 @@ ms.subservice: iot
 # Lab 5: Configure Shell Launcher or Assigned Access
 
 Many IoT device scenarios require a custom user experience by either automatically launching an application at Windows startup, or a custom shell experience. Using a custom shell experience enables the OEM to create a controlled user experience where the Windows UI is hidden and the OEM application is the focus.
-Windows 10 IoT Enterprise has two custom shell features that enable this custom user experience.
+Windows IoT Enterprise has two custom shell features that enable this custom user experience.
 
 - **Shell Launcher** enables OEMs to set a classic, non-UWP, app as the system shell. The advantage to using Shell Launcher is the ability to provide custom actions based on the exit code of the OEM application. For example if the OEM application exits with a specific exit code, the system can be configured to automatically restart the application, reboot or shutdown the device, etc.
 
 - **Assigned Access** enables OEMs to set a UWP application as the system shell. Similar to Shell Launcher, Assigned Access can automatically restart the application when it's closed, keeping the device in the intended user experience.
 
-For a fully automated approach to enabling these features, consider using the [Windows 10 IoT Enterprise deployment framework](https://github.com/ms-iot/windows-iotent-deploy).
+For a fully automated approach to enabling these features, consider using the [Windows IoT Enterprise deployment framework](https://github.com/ms-iot/windows-iotent-deploy).
 
 ## Prerequisites
 
@@ -36,7 +36,7 @@ In lab 4, we used Sysprep to get the system ready for capture and deployment. Th
 1. Complete the OOBE experience. Choose the settings that match your device requirements.  
 
 > [!NOTE]
-> The OOBE experience can be fully automated using an Answer File along with Sysprep to answer the OOBE questions in advance. For more information, see the example Answer Files in the [Windows 10 IoT Enterprise deployment framework](https://github.com/ms-iot/windows-iotent-deploy).
+> The OOBE experience can be fully automated using an Answer File along with Sysprep to answer the OOBE questions in advance. For more information, see the example Answer Files in the [Windows IoT Enterprise deployment framework](https://github.com/ms-iot/windows-iotent-deploy).
 
 ## Enable and configure Shell Launcher
 

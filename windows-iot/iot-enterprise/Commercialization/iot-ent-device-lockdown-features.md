@@ -17,7 +17,7 @@ In labs [1a](iot-ent-create-a-basic-image.md) and [1b](iot-ent-customize-the-ref
 > [!NOTE]
 > This lab is optional. You can build an IoT Enterprise device without enabling any of the features described in this lab. If you aren't implementing any of these features, you can continue to [Lab 3](iot-ent-configure-policy-settings.md).
 
-For a fully automated approach to these steps, consider using the [Windows 10 IoT Enterprise deployment framework](https://github.com/ms-iot/windows-iotent-deploy).
+For a fully automated approach to these steps, consider using the [Windows IoT Enterprise deployment framework](https://github.com/ms-iot/windows-iotent-deploy).
 
 ## Prerequisites
 
@@ -146,7 +146,7 @@ You can customize Unbranded boot from an Administrative Command prompt in the fo
 
 ## Custom Logon
 
-You can use the [Custom Logon](/windows-hardware/customize/enterprise/custom-logon) feature to suppress Windows 10 UI elements that relate to the Welcome screen and shutdown screen. For example, you can suppress all elements of the Welcome screen UI and provide a custom logon UI. You can also suppress the Blocked Shutdown Resolver (BSDR) screen and automatically end applications while the OS waits for applications to close before a shutdown.  For more information, see [Custom logon](/windows-hardware/customize/enterprise/custom-logon).
+You can use the [Custom Logon](/windows-hardware/customize/enterprise/custom-logon) feature to suppress Windows UI elements that relate to the Welcome screen and shutdown screen. For example, you can suppress all elements of the Welcome screen UI and provide a custom logon UI. You can also suppress the Blocked Shutdown Resolver (BSDR) screen and automatically end applications while the OS waits for applications to close before a shutdown.  For more information, see [Custom logon](/windows-hardware/customize/enterprise/custom-logon).
 
 > [!NOTE]
 > Custom Logon feature will not work on images that are using a blank or evaluation product key. You must use a valid Product Key to see the changes made with the below commands.

@@ -17,7 +17,7 @@ Now that the reference IoT device has been customized with software and settings
 > [!NOTE]
 >The following steps use a combination of WinPE and DISM to complete the capture process. These tools are freely available from Microsoft. Some tools, like DISM, are included with all Windows installations. Many 3rd party tools also offer image capture and deployment that might work better for your deployment strategy. Choose the tool that is right for your device scenario.
 
-For a fully automated approach to these steps, consider using the [Windows 10 IoT Enterprise deployment framework](https://github.com/ms-iot/windows-iotent-deploy).
+For a fully automated approach to these steps, consider using the [Windows IoT Enterprise deployment framework](https://github.com/ms-iot/windows-iotent-deploy).
 
 ## Prerequisites
 
@@ -45,7 +45,7 @@ After Sysprep prepares the image, the reference device will shut down. The next 
 
 In this section, we show you how to create a bootable WinPE USB drive. You can use this USB key for both capturing and deploying your image.
 
-The process outlined in the next steps can be scripted to make capturing and deploying images easier. For a fully automated scenario, see the [Windows 10 IoT Enterprise deployment framework](https://github.com/ms-iot/windows-iotent-deploy)
+The process outlined in the next steps can be scripted to make capturing and deploying images easier. For a fully automated scenario, see the [Windows IoT Enterprise deployment framework](https://github.com/ms-iot/windows-iotent-deploy)
 
 1. Insert a USB drive into the Technician PC.
 
@@ -72,21 +72,21 @@ The process outlined in the next steps can be scripted to make capturing and dep
 
 1. Move the USB flash drive from the Technician PC to the reference IoT device.
 
-### Boot the IoT reference device to WinPE and capture the Windows 10 IoT Enterprise OS image
+### Boot the IoT reference device to WinPE and capture the Windows IoT Enterprise OS image
 
 The following steps capture a WIM image from the reference IoT device's hard drive. This WIM can be used in development or in production. It's common to capture OS images during different stages of the development process. For example, the following steps could be used to capture a base image of the OS with default apps installed. A later image could be captured with more end customer apps installed.
 
 1. Boot the reference IoT device from the bootable WinPE USB flash drive. The sequence to select which media to boot from is different from device to device. Consult the documentation for the IoT reference device in order to determine which key to press during boot in order to select the USB flash device as the boot target.
 
     > [!IMPORTANT]
-    > Don't boot your device until you know which key brings up the device's boot menu. The imaged IoT device is in a Sysprepped state and should not be allowed to boot back into Windows 10 IoT Enterprise.
+    > Don't boot your device until you know which key brings up the device's boot menu. The imaged IoT device is in a Sysprepped state and should not be allowed to boot back into Windows IoT Enterprise.
 
     The system boots to the WinPE, where you see a Command prompt.
 
 1. From the WinPE Command prompt, use DISM to capture an image of the Windows partition:
 
     ```cmd
-    DISM /capture-image /imagefile:C:\IoTOS.wim /CaptureDir:C:\ /Name:"Windows 10 IoT Enterprise"
+    DISM /capture-image /imagefile:C:\IoTOS.wim /CaptureDir:C:\ /Name:"Windows IoT Enterprise"
     ```
 
     DISM captures an image of the OS partition and store it on C: drive.

@@ -12,7 +12,7 @@ ms.subservice: iot
 
 # Lab 1b: Customize the reference device in Audit Mode
 
-In [Lab 1a](iot-ent-create-a-basic-image.md), you installed Windows 10 IoT Enterprise onto an IoT device and booted into audit mode. In this lab, we show you how to customize your device from audit mode.
+In [Lab 1a](iot-ent-create-a-basic-image.md), you installed Windows IoT Enterprise onto an IoT device and booted into audit mode. In this lab, we show you how to customize your device from audit mode.
 
 > [!TIP]
 > Most customizations in this lab can be made to an offline mounted Windows image, as well as in Audit mode. For more information, see [Modify a Windows image using DISM](/windows-hardware/manufacture/desktop/mount-and-modify-a-windows-image-using-dism).
@@ -23,7 +23,7 @@ In [Lab 1a](iot-ent-create-a-basic-image.md), you installed Windows 10 IoT Enter
 
 Audit mode isn't necessarily the only way to implement these customizations. If the following examples don't fit into your workflow, explore the desktop deployment documentation for other alternatives.
 
-For a fully automated approach to these steps, consider using the [Windows 10 IoT Enterprise deployment framework](https://github.com/ms-iot/windows-iotent-deploy).
+For a fully automated approach to these steps, consider using the [Windows IoT Enterprise deployment framework](https://github.com/ms-iot/windows-iotent-deploy).
 
 ## Prerequisites
 
@@ -143,8 +143,8 @@ In the following steps, we show you how to install an LCU using a .msu from the 
 
 These steps can be performed on the Technician PC if the IoT device doesn't have internet connectivity, or if the device scenario requires never connecting to the internet.
 
-1. Visit [Windows 10 Update History](https://support.microsoft.com/help/4464619) to see which updates are available for your Windows image.
-1. In the upper left of the page, select your Windows 10 build. Select on, for example, Windows 10, version 1809.
+1. Visit [Windows Update History](https://support.microsoft.com/help/4464619) to see which updates are available for your Windows image.
+1. In the upper left of the page, select your Windows build. Select on, for example, Windows, version 1809.
 1. In the left-hand navigation, you see a section called **In this release**. This section shows the most recent LCU's KB number. Select on the latest KB name, which takes you to a KB article with some information about the release.
 1. On the KB article page, locate the link for the Microsoft Update Catalog and select the link to open the download page in the catalog.
 1. Download the MSU package from the catalog and save it to C:\Packages on the IoT device.

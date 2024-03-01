@@ -12,7 +12,7 @@ ms.subservice: iot
 
 # Lab 1a: Create a basic image (iot-ent-create-a-basic-image)
 
-To get started, we walk through installing a basic Windows 10 IoT Enterprise image onto a device to make sure everything is working before we move on to adding customizations. This lab is a prerequisite  for completing all of the other labs in this section, as the other labs build on this first basic image.
+To get started, we walk through installing a basic Windows IoT Enterprise image onto a device to make sure everything is working before we move on to adding customizations. This lab is a prerequisite  for completing all of the other labs in this section, as the other labs build on this first basic image.
 
 ## What you need to complete this series of labs
 

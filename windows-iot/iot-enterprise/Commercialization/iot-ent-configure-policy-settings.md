@@ -17,7 +17,7 @@ In this lab, we recommend some common configuration settings that IoT device par
 
 ## Control Windows Updates
 
-One of the most common requests from device partners is centered around controlling automatic updates on Windows 10 IoT devices. The nature of IoT devices is such that unexpected disruptions, through something like an unplanned update, can create a bad device experience. Questions that you should ask when considering how to control Windows updates:
+One of the most common requests from device partners is centered around controlling automatic updates on Windows IoT devices. The nature of IoT devices is such that unexpected disruptions, through something like an unplanned update, can create a bad device experience. Questions that you should ask when considering how to control Windows updates:
 
 - Is the device scenario such that any disruption of the workflow is unacceptable?
 - How are updates validated prior to deployment?
@@ -49,9 +49,9 @@ A device can be configured in a way to hide the UI experience for Windows Update
 
 ### Completely disable automatic Windows Updates
 
-Security and stability are at the core of a successful IoT project, and Windows Update provides updates to ensure Windows 10 IoT Enterprise has the latest applicable security and stability updates.  You might, however, have a device scenario where updating Windows has to be handled manually. For this type of scenario, we recommend disabling automatic updating through Windows Update. In previous versions of Windows device partners could stop and disable the Windows Update service, but this is no longer the supported method for disabling automatic updates. Windows 10 has many policies that allow you to configure Windows Updates in several ways.
+Security and stability are at the core of a successful IoT project, and Windows Update provides updates to ensure Windows IoT Enterprise has the latest applicable security and stability updates.  You might, however, have a device scenario where updating Windows has to be handled manually. For this type of scenario, we recommend disabling automatic updating through Windows Update. In previous versions of Windows device partners could stop and disable the Windows Update service, but this is no longer the supported method for disabling automatic updates. Windows has many policies that allow you to configure Windows Updates in several ways.
 
-To completely disable automatic updating of Windows 10 with Windows Update.
+To completely disable automatic updating of Windows with Windows Update.
 
 1. Open the Group Policy Editor (gpedit.msc) and navigate to **Computer Configuration\Administrative Templates\Windows Components\Windows update\Configure Automatic Updates**.
 1. Explicitly set the policy to **Disabled**. When this setting is set to Disabled, any available updates from Windows Update must be downloaded and installed manually, which you can do in the Settings app under **Update & security > Windows Update**.
@@ -105,7 +105,7 @@ Disabling individual notifications is beneficial in some scenarios. For example,
 
 ### Hide all notifications
 
-One method to disable notifications is to use Windows' Quiet Hours feature. Quiet Hours works similarly to features found on many smartphones that suppress notifications during certain hours, usually during the overnight hours. In Windows 10, Quiet Hours can be set to 24x7 so that notifications are never shown.
+One method to disable notifications is to use Windows' Quiet Hours feature. Quiet Hours works similarly to features found on many smartphones that suppress notifications during certain hours, usually during the overnight hours. In Windows, Quiet Hours can be set to 24x7 so that notifications are never shown.
 
 #### Enable 24x7 Quiet Hours
 
@@ -129,15 +129,15 @@ This is a registry change that disables MessageBox class boxes from popping up, 
 
 ## Security Baseline
 
-Starting with the first release of Windows 10, an accompanying set of policies called the Security Baseline have been provided with each Windows release. A security baseline is a group of Microsoft-recommended configuration settings based on feedback from Microsoft security engineering teams, product groups, partners, and customers. The Security Baseline is a good way to quickly enable recommended security settings on IoT devices.
+Starting with the first release of Windows, an accompanying set of policies called the Security Baseline have been provided with each Windows release. A security baseline is a group of Microsoft-recommended configuration settings based on feedback from Microsoft security engineering teams, product groups, partners, and customers. The Security Baseline is a good way to quickly enable recommended security settings on IoT devices.
 
 Note: Devices requiring certification such as STIG would benefit from using the Security Baseline as a starting point. The security baseline is delivered as part of the [Security Compliance Toolkit](/windows/security/threat-protection/security-compliance-toolkit-10)
 
 You can download the [Security Compliance Toolkit](https://www.microsoft.com/download/details.aspx?id=55319) from the Download Center.
 
-1. Select **Download** on the link above. Select the Windows 10 Version xxxx Security Baseline.zip and the LGPO.zip. Be sure to choose the version that matches the version of Windows 10 you're deploying.
-1. Extract the Windows 10 Version xxxx Security Baseline.zip file and the LGPO.zip file on the IoT device.  
-1. Copy LGPO.exe to the Local_Script\Tools folder of the Windows 10 Version xxxx Security Baseline. LGPO is needed by the security baseline installation script but must be downloaded separately.
+1. Select **Download** on the link above. Select the Windows Version xxxx Security Baseline.zip and the LGPO.zip. Be sure to choose the version that matches the version of Windows you're deploying.
+1. Extract the Windows Version xxxx Security Baseline.zip file and the LGPO.zip file on the IoT device.  
+1. Copy LGPO.exe to the Local_Script\Tools folder of the Windows Version xxxx Security Baseline. LGPO is needed by the security baseline installation script but must be downloaded separately.
 1. From an Administrative Command Prompt run:
 
    ```cmd
@@ -158,7 +158,7 @@ Many settings are included as part of the security baseline. In the Documentatio
 
 ## Microsoft Defender
 
-Anti-virus protection is required in many IoT device scenarios, especially devices that are more fully featured and running an operating system like Windows 10 IoT Enterprise. For devices such as kiosks, retail POS, ATM, etc. Microsoft Defender is included and enabled by default as part of the Windows 10 IoT Enterprise installation. You may have a scenario where you want to modify the default Microsoft Defender user experience. For example, disabling notifications about scans performed, or even disabling scheduled deep scans in favor of only using real-time scanning. The policies below are useful for preventing unwanted UI to be created by Microsoft Defender.
+Anti-virus protection is required in many IoT device scenarios, especially devices that are more fully featured and running an operating system like Windows IoT Enterprise. For devices such as kiosks, retail POS, ATM, etc. Microsoft Defender is included and enabled by default as part of the Windows IoT Enterprise installation. You may have a scenario where you want to modify the default Microsoft Defender user experience. For example, disabling notifications about scans performed, or even disabling scheduled deep scans in favor of only using real-time scanning. The policies below are useful for preventing unwanted UI to be created by Microsoft Defender.
 
 1. Open the Group Policy Editor (gpedit.msc) and navigate to **Computer Configuration -> Administrative Templates -> Windows Components -> Microsoft Defender Antivirus -> Scan** and set:
    1. **Check for the latest virus and spyware definitions before running a schedule scan** to **Disabled**

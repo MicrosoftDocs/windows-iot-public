@@ -6,19 +6,19 @@ ms.date: 1/5/2021
 ms.topic: article
 ms.service: windows-iot
 ms.subservice: iot
-description: Learn about the OEM Customization features of Windows 10 IoT Enterprise.
+description: Learn about the OEM Customization features of Windows IoT Enterprise.
 keywords: IoT Enterprise, OEM Software, manufacture, Distributor
 ---
 
 # Audit Mode
 
-Most of our solutions are customized by our OEM partners. OEM software plays a significant role in the functionality of the IoT Device. Windows 10 IoT Enterprise supports OEM customization and allows for a custom-built device to be run on top of the operating system.
+Most of our solutions are customized by our OEM partners. OEM software plays a significant role in the functionality of the IoT Device. Windows IoT Enterprise supports OEM customization and allows for a custom-built device to be run on top of the operating system.
 
 To assist our OEM customers, we offer [Audit Mode](/windows-hardware/manufacture/desktop/audit-mode-overview) that allows administrators to boot directly to the desktop before you get to the Windows Welcome screen, giving them the opportunity to install Windows Updates, drivers, and other software as needed.
 
 Audit mode isn't necessarily the only way to implement these customizations. If the following examples don't fit into your workflow, explore the [desktop deployment documentation](/windows/deployment/) for other alternatives.
 
-For a fully automated approach to these steps, consider using the [Windows 10 IoT Enterprise deployment framework](https://github.com/ms-iot/windows-iotent-deploy).
+For a fully automated approach to these steps, consider using the [Windows IoT Enterprise deployment framework](https://github.com/ms-iot/windows-iotent-deploy).
 
 ## Overview
 
@@ -35,7 +35,7 @@ When you boot to audit mode, you log into the system using the built-in administ
 > - If you are in audit mode and a password-protected screen saver starts, you can't log back on to the system. The built-in administrator account that was used to log on to audit mode is immediately disabled after logon.
 > - To disable the screen saver, either change the power plan through Control Panel or configure and deploy a custom plan. For more information, see Create a Custom Power Plan.
 > - Settings in an unattended answer file from the oobeSystem configuration pass don't appear in audit mode.
-> - If you're running scripts, installers, and diagnostic tools on Windows 10 S in Audit Mode, you may have to enable manufacturing mode for Windows 10 S. See Manufacturing mode for details.
+> - If you're running scripts, installers, and diagnostic tools on Windows S in Audit Mode, you may have to enable manufacturing mode for Windows S. See Manufacturing mode for details.
 
 ## Benefits of using Audit Mode
 
@@ -148,8 +148,8 @@ Next, we show you how to install an LCU using a .msu from the Microsoft Update c
 
 These steps can be performed on the Technician PC if the IoT device doesn't have internet connectivity, or if the device scenario requires never connecting to the internet.
 
-1. Visit Windows 10 Update History to see which updates are available for your Windows image.
-1. In the upper left of the page, select your Windows 10 build. Select on, for example, Windows 10, version 1809.
+1. Visit Windows Update History to see which updates are available for your Windows image.
+1. In the upper left of the page, select your Windows build. Select on, for example, Windows, version 1809.
 1. In the left-hand navigation, you see a section called In this release. This section shows the most recent LCU's KB number. Select on the latest KB name, which takes you to a KB article with some information about the release.
 1. On the KB article page, locate the link for the Microsoft Update Catalog and select the link. This takes you to the download page in the catalog.
 1. Download the MSU package from the catalog and save it to C:\Packages on the IoT device.
@@ -176,7 +176,7 @@ Device partners may need to install software in audit mode. This software might 
 
 Some things to consider:
 
-- If an installed application is to become the shell experience for the device, follow the steps in [lab 5](/windows-hardware/manufacture/desktop/iot-ent-shell-launcher-app-launcher) to set up Shell Launcher or Assigned Access. The features used depend on the type of application that becomes the shell.
+- If an installed application is to become the shell experience for the device, follow the steps in [lab 5](iot-ent-shell-launcher-app-launcher.md) to set up Shell Launcher or Assigned Access. The features used depend on the type of application that becomes the shell.
   - Shell Launcher is used if a Win32 or .NET application is used as shell.
   - Assigned Access is used if a UWP application is used as the shell.
 - If the device experience is more like a customized desktop experience (for example, a hotel kiosk) where users are able to have access to the desktop, there are customization steps that can make it easier to ensure your device layout is preserved. For example, icon layout on the desktop and start menu can be preserved as part of the Sysprep process.
@@ -184,6 +184,6 @@ Some things to consider:
 
 ## Related Resources
 
-- [Audit Mode Overview](/windows-hardware/manufacture/desktop/audit-mode-overview)
-- [Customize a reference device in Audit Mode](/windows-hardware/manufacture/desktop/iot-ent-customize-the-reference-device-in-audit-mode)
-- [Windows 10 IoT Enterprise Manufacturing Guide](/windows-hardware/manufacture/desktop/iot-ent-overview)
+- [Audit Mode Overview](./iot-ent-audit-mode-overview.md)
+- [Customize a reference device in Audit Mode](./iot-ent-customize-the-reference-device-in-audit-mode.md)
+- [Windows IoT Enterprise Manufacturing Guide](./Manufacturing-Guide.md)
