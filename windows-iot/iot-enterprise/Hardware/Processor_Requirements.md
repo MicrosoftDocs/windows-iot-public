@@ -33,7 +33,7 @@ This specification doesn't provide compatibility and certification requirements 
 
 ## Processor Requirements
 
-Devices that run Windows IoT Enterprise must meet these [hardware requirements](/windows-hardware/design/minimum/minimum-hardware-requirements-overview).
+Devices that run Windows IoT Enterprise must meet these [system requirements](./System_Requirements.md).
 
 > [!TIP]
 >
