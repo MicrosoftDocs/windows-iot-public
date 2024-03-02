@@ -118,18 +118,45 @@ You can add more languages to your custom image by using DISM to install a langu
 1. Add a language pack to your image. In this example, we use French (fr-FR). From an Administrative Command Prompt:
 
    ```cmd
-   Dism /Add-Package /online /packagepath:"E:\x64\langpacks\Microsoft-Windows-Client-Language-Pack_x64_fr-fr.cab
+   Dism /Add-Package /online /packagepath:"E:\x64\langpacks\Microsoft-Windows-Client-Language-Pack_x64_fr-fr.cab"
    ```
 
     Where E: is the mounted Language Pack ISO
 
-1. Install the language FODs for your language pack.
+1. OPTIONAL Install the supporting language components for your language pack.
+
+    ```cmd
+    DISM /online /add-package /packagepath:D:Microsoft-Windows-LanguageFeatures-Basic-fr-fr-Package~31bf3856ad364e35~amd64~~.cab
+    ```
+
+1. (enter description)
 
    ```cmd
-   DISM /online /add-package /packagepath:D:Microsoft-Windows-LanguageFeatures-Basic-fr-fr-Package~31bf3856ad364e35~amd64~~.cab /packagepath:D:Microsoft-Windows-LanguageFeatures-OCR-fr-fr-Package~31bf3856ad364e35~amd64~~.cab /packagepath:D:Microsoft-Windows-LanguageFeatures-Handwriting-fr-fr-Package~31bf3856ad364e35~amd64~~.cab /packagepath:D:Microsoft-Windows-LanguageFeatures-TextToSpeech-fr-fr-Package~31bf3856ad364e35~amd64~~.cab /packagepath:D:Microsoft-Windows-LanguageFeatures-Speech-fr-fr-Package~31bf3856ad364e35~amd64~~.cab 
+   DISM /online /add-package /packagepath:D:Microsoft-Windows-LanguageFeatures-OCR-fr-fr-Package~31bf3856ad364e35~amd64~~.cab 
    ```
+1. (enter description)
+   ```cmd
+   DISM /online /add-package /packagepath:D:Microsoft-Windows-LanguageFeatures-Handwriting-fr-fr-Package~31bf3856ad364e35~amd64~~.cab 
+   ```
+1. (enter description)
+   ```cmd
+   DISM /online /add-package /packagepath:D:Microsoft-Windows-LanguageFeatures-TextToSpeech-fr-fr-Package~31bf3856ad364e35~amd64~~.cab
+   ```
+1. (enter description)
+    ```cmd
+    DISM /online /add-package /packagepath:D:Microsoft-Windows-LanguageFeatures-Speech-fr-fr-Package~31bf3856ad364e35~amd64~~.cab 
+    ```
 
     Where D: is the mounted FOD ISO
+
+1. (enter description)
+
+   ```powershell
+   $OldList = Get-WinUserLanguageList
+   $OldList.Add("fr-FR")
+   Set-WinUserLanguageList -LanguageList $OldList   
+   ```
+   For more information, see [Set-WinUserLanuageList](/powershell/module/international/set-winuserlanguagelist)
 
 ### Add a cumulative update in Audit Mode
 
