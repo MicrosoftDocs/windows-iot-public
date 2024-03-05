@@ -3,7 +3,7 @@ title: Supported Intel&reg; Processors for Windows 11 IoT Enterprise LTSC 2024
 description: Learn about Intel&reg; Processors supported for Windows 11 IoT Enterprise LTSC 2024
 author: anch-msft
 ms.author: anthonychen
-ms.date: 02/13/2024
+ms.date: 03/05/2024
 ms.topic: article
 ms.service: windows-iot
 ---
