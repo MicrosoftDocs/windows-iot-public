@@ -3,9 +3,9 @@ title: Keyboard Filter
 description: Keyboard Filter
 author: sydbruck
 ms.author: sybruckm
-ms.prod: windows-iot
-ms.technology: iot
-ms.date: 02/07/2024
+ms.service: windows-iot
+ms.subservice: iot
+ms.date: 03/05/2024
 ms.topic: article
 
 
