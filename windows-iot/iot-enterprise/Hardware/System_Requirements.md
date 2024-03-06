@@ -3,7 +3,7 @@ title: Minimum System Requirements
 titleSuffix: Windows IoT Enterprise
 author: TerryWarwick
 ms.author: twarwick
-ms.date: 02/28/2024
+ms.date: 03/06/2024
 ms.topic: article
 ms.service: windows-iot
 ms.subservice: iot
@@ -12,9 +12,6 @@ keywords: IoT Enterprise, Hardware, Windows IoT
 ---
 
 # Minimum System Requirements for Windows IoT Enterprise
-
-> [!WARNING]
-> THIS IS AN IN-PROGRESS ROUGH DRAFT. The wording and feature list may change before publishing.
 
 **Preferred Minimum Requirements**
 
@@ -27,8 +24,10 @@ The Windows IoT Enterprise optional minimum requirements are provided for device
 # [Windows 11 LTSC](#tab/Windows11LTSC)
 
 Applies to:  
-✅ Windows 11 IoT Enterprise LTSC  
-⛔ Windows 11 IoT Enterprise  
+✅ Windows 11 IoT Enterprise LTSC
+
+> [!NOTE]
+> Windows 11 IoT Enterprise LTSC 2024 is coming later this year.
 
 | </br>Component    | PREFERRED</br>Minimum&nbsp;Requirements   | OPTIONAL </br> Minimum&nbsp;Requirements  |
 | ---------------------- |:---------------------------------:|:---------------------------------:|
@@ -42,13 +41,13 @@ Applies to:
 | DirectX                | DirectX 12                        | DirectX 10 / None                 |
 | Display                | 9" diagonal</br>720p HD           | Custom Size / Optional            |
 
----
-
 # [Windows 11 (Non-LTSC)](#tab/Windows11)
 
 Applies to:  
 ✅ Windows 11 IoT Enterprise  
-⛔ Windows 11 IoT Enterprise LTSC  
+
+> [!NOTE]
+> Windows 11 IoT Enterprise, version 24H2 is coming later this year.
 
 | </br></br>Component    | </br>PREFERRED</br>Minimum&nbsp;Requirements   | 21H2,&nbsp;22H2,&nbsp;23H2 </br> OPTIONAL </br> Minimum&nbsp;Requirements  | 24H2 or Later </br> OPTIONAL </br> Minimum&nbsp;Requirements  |
 | ---------------------- |:-----------------------------:|:---------------------------------:|:---------------------------------:|
@@ -61,8 +60,6 @@ Applies to:
 | Secure Boot            | Enabled                       | Optional                          | Optional                          |
 | DirectX                | DirectX 12                    | DirectX 12                        | DirectX 10 / None                 |
 | Display                | 9" diagonal</br>720p HD       | Custom Size / Optional            | Custom Size / Optional            |
-
----
 
 # [Windows 10](#tab/Windows10)
 
