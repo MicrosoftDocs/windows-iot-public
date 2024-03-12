@@ -25,7 +25,7 @@ Distributors can apply their Windows IoT development experiences, and knowledge,
  | -------------------|-------------------------------------|-------------------|:--------------:|
  | Brazil             | Softline International BRASIL COMER | [info.brasil@softlinegroup.com](mailto:info.brasil@softlinegroup.com) | +55 11 5188 8100 |
  | United&nbsp;States | Advantech Corporation               | [iot.software@advantech.com](mailto:iot.software@advantech.com) | +1 425-922-0721 |
- | United&nbsp;States | Arrow Electronics INC.              | Ken Marlin</br>Windows Champ on YouTube</br></br>Henry Castillo</br>Microsoft Champion</br>[WindowsChamp@arrow.com](mailto:WindowsChamp@arrow.com) | +1 (830) 365-7023 |
+ | United&nbsp;States | Arrow Electronics INC.              | Ken Marlin</br>Windows Champ on YouTube</br></br>Henry Castillo</br>Microsoft Champion</br>[WindowsChamp@arrow.com](mailto:WindowsChamp@arrow.com) | +1 (830) 365-7024 |
  | United&nbsp;States | Avnet INC.                          | [Software@Avnet.com](mailto:Software@Avnet.com) | +1 480 643 7055 |
  | United&nbsp;States | Bsquare Corporation                 | [Info@bsquare.com](mailto:Info@bsquare.com) | + 1 425-519-5900 |
  | United&nbsp;States | Dell, INC.                          | Jordan Wright</br>[embeddedsoftwaresales@dell.com](mailto:embeddedsoftwaresales@dell.com) | +737 227 1602 |
