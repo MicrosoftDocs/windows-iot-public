@@ -3,7 +3,7 @@ title: Supported Intel&reg; Processors for Windows 11 IoT Enterprise LTSC 2024
 description: Learn about Intel&reg; Processors supported for Windows 11 IoT Enterprise LTSC 2024
 author: anch-msft
 ms.author: anthonychen
-ms.date: 02/13/2024
+ms.date: 03/05/2024
 ms.topic: article
 ms.service: windows-iot
 ---
@@ -14,12 +14,18 @@ Microsoft supports Windows 11 IoT Enterprise LTSC running on the Intel processor
 
 For information on which processors Intel&reg; supports on Windows 11 IoT Enterprise LTSC, refer to the [Intel&reg; Processor Support for Windows IoT Enterprise webpage](https://www.intel.com/content/www/us/en/internet-of-things/window-processor-server-support.html) or contact Intel&reg; for details.
 
-| Generation | Models |
+| Intel&reg; Processor Platform | Products Formerly Known As (Code Name) |
 |---|---|
-|14th Generation | [Core&trade; Processors](https://www.intel.com/content/www/us/en/products/details/embedded-processors/core/14thgen.html)</br>[Core&trade; Ultra&trade; Processors](https://www.intel.com/content/www/us/en/products/details/embedded-processors/core-ultra.html)|
-|13th Generation | [Core&trade; Processors](https://www.intel.com/content/www/us/en/products/details/embedded-processors/core/13thgenmobile.html)|
-|12th Generation | [Alder Lake S Processors](https://www.intel.com/content/www/us/en/products/platforms/details/alder-lake-s.html)</br>[Alder Lake PS Processors](https://www.intel.com/content/www/us/en/products/platforms/details/alder-lake-ps.html)</br>[Alder Lake P Processors](https://www.intel.com/content/www/us/en/products/platforms/details/alder-lake-p.html)</br>[Alder Lake N Processors](https://www.intel.com/content/www/us/en/products/details/embedded-processors/atom/atomx7000e.html)|
-|11th Generation | [Tiger Lake UP3 Processors](https://www.intel.com/content/www/us/en/products/platforms/details/tiger-lake-up3.html)</br>[Tiger Lake H Processors](https://www.intel.com/content/www/us/en/products/platforms/details/tiger-lake-h.html)|
-|10th Generation | [Comet Lake S Processors](https://www.intel.com/content/www/us/en/products/platforms/details/comet-lake-s.html)|
-|9th Generation  | [Coffee Lake Refresh Processors](https://www.intel.com/content/www/us/en/products/platforms/details/coffee-lake-refresh.html)|
-|8th Generation  | [Whiskey Lake Processors](https://www.intel.com/content/www/us/en/products/platforms/details/whiskey-lake.html)</br>[Coffee Lake S Processors](https://www.intel.com/content/www/us/en/products/platforms/details/coffee-lake-s.html)</br>[Coffee Lake H Processors](https://www.intel.com/content/www/us/en/products/platforms/details/coffee-lake-h.html)|
+|Intel&reg; Core&trade; Ultra Processors (Series 1)| [Meteor Lake](https://ark.intel.com/content/www/us/en/ark/products/codename/90353/products-formerly-meteor-lake.html) |
+|13th and 14th Generation Intel&reg; Core&trade; Processors</br> 13th and 14th Generation Intel&reg; Processors</br> | [Raptor Lake](https://ark.intel.com/content/www/us/en/ark/products/codename/215599/products-formerly-raptor-lake.html) |
+|12th Generation Intel&reg; Core&trade; Processors</br> 12th Generation Intel&reg; Pentium&reg; Processors</br> 12th Generation Intel&reg; Celeron&reg; Processors</br>| [Alder Lake](https://ark.intel.com/content/www/us/en/ark/products/codename/147470/products-formerly-alder-lake.html) |
+|11th Generation Intel&reg; Core&trade; Processors</br> Intel&reg; Xeon&reg; W-11XXX Processors</br> Intel&reg; Celeron&reg; Processors</br>| [Tiger Lake](https://ark.intel.com/content/www/us/en/ark/products/codename/88759/products-formerly-tiger-lake.html) |
+|10th Generation Intel&reg; Core&trade; Processors</br> Intel&reg; Xeon&reg; W-1XXX and W-10XXX Processors</br> Intel&reg; Pentium&reg; Processors</br> Intel&reg; Celeron&reg; Processors</br>| [Comet Lake](https://ark.intel.com/content/www/us/en/ark/products/codename/90354/products-formerly-comet-lake.html) |
+|8th and 9th Generation Intel&reg; Core&trade; Processors</br> Intel&reg; Xeon&reg; E-2XXX Processors</br> Intel&reg; Pentium&reg; Processors</br> Intel&reg; Celeron&reg; Processors</br>| [Coffee Lake](https://ark.intel.com/content/www/us/en/ark/products/codename/97787/products-formerly-coffee-lake.html) |
+|8th Generation Intel&reg; Core&trade; Processors</br> Intel&reg; Celeron&reg; Processors</br>| [Whiskey Lake](https://ark.intel.com/content/www/us/en/ark/products/codename/135883/products-formerly-whiskey-lake.html) |
+|Intel&reg; Xeon&reg; Processors| [Sapphire Rapids](https://ark.intel.com/content/www/us/en/ark/products/codename/126212/products-formerly-sapphire-rapids.html) |
+|Intel&reg; Xeon&reg; Processors| [Ice Lake](https://ark.intel.com/content/www/us/en/ark/products/codename/74979/products-formerly-ice-lake.html) |
+|Intel&reg; Xeon&reg; Processors</br> Intel&reg; Core&trade; X-Series Processors | [Cascade Lake](https://ark.intel.com/content/www/us/en/ark/products/codename/124664/products-formerly-cascade-lake.html) |
+|Intel&reg; Xeon&reg; Processor</br> Intel&reg; Core&trade; X-Series Processors | [Skylake-SP or Skylake-X](https://ark.intel.com/content/www/us/en/ark/products/codename/37572/products-formerly-skylake.html) |
+|Intel&reg; Atom&reg; Processors</br> Intel&reg; Core&trade; N-Series Processors</br> Intel&reg; Processors</br> | [Alder Lake-N](https://ark.intel.com/content/www/us/en/ark/products/codename/232598/products-formerly-alder-laken.html) |
+|Intel&reg; Atom&reg; Processors</br> Intel&reg; Pentium&reg; Processors</br> Intel&reg; Celeron&reg; Processors</br> | [Elkhart Lake](https://ark.intel.com/content/www/us/en/ark/products/codename/128825/products-formerly-elkhart-lake.html) |
