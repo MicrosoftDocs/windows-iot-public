@@ -5,11 +5,11 @@ MSHAttr:
 - 'PreferredSiteName:MSDN'
 - 'PreferredLib:/library/windows/hardware'
 ms.assetid: dac59fd3-f5d0-4d02-ac89-0caf7fe3c9dd
-author: TerryWarwick
-ms.author: twarwick
+author: sydbruck
+ms.author: sybruckm
 ms.service: windows-iot
 ms.subservice: iot
-ms.date: 07/24/2023
+ms.date: 02/27/2024
 ms.topic: article
 
 
@@ -29,7 +29,7 @@ You can lock down your Windows 10 desktop device by using the lock down features
 
 | Topic                                                   | Description                                                                                         |
 |:--------------------------------------------------------|:----------------------------------------------------------------------------------------------------|
-| [Custom Logon](custom-logon.md)  | You can use the Custom Logon feature to suppress Windows 10 UI elements that relate to the Welcome screen and shutdown screen. For example, you can [suppress all elements of the Welcome screen UI](complementary-features-to-custom-logon.md) and provide a custom logon UI. You can suppress the ease of access option on the logon screen. You can also suppress the Blocked Shutdown Resolver (BSDR) screen and automatically end applications while the OS waits for applications to close before a shutdown.    |
+| [Custom Logon](custom-logon.md)  | You can use the Custom Logon feature to suppress Windows 10 UI elements that relate to the Welcome screen and shutdown screen. For example, you can suppress all elements of the Welcome screen UI and provide a custom logon UI. You can suppress the ease of access option on the logon screen. You can also suppress the Blocked Shutdown Resolver (BSDR) screen and automatically end applications while the OS waits for applications to close before a shutdown.    |
 | [Keyboard Filter](keyboardfilter.md)     | Use Keyboard Filter to suppress undesirable key presses or key combinations. Normally, a customer can use certain Windows key combinations like `Ctrl+Alt+Delete` or `Ctrl+Shift+Tab` to alter the operation of a device by locking the screen or using Task Manager to close a running application.   |
 | [Shell Launcher](shell-launcher.md)   | Use Shell Launcher to replace the default Windows 10 shell with a custom shell. You can use almost any application or executable as your custom shell, such as a command window or a custom dedicated application.    |
 | [Unbranded Boot](unbranded-boot.md)    | Unbranded Boot can suppress Windows elements that appear when Windows starts or resumes and can suppress the crash screen when Windows encounters an error that it cannot recover from.    |

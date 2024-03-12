@@ -114,6 +114,12 @@
         "source_path_from_root": "/Windows-iot/iot-enterprise/customize/keyboard-filter.md",
         "redirect_url": "/windows/iot/iot-enterprise/customize/keyboardfilter",
         "redirect_document_id": false
+    },
+
+    {
+        "source_path_from_root": "/windows-iot/iot-enterprise/Customize/complementary-features-to-custom-logon.md",
+        "redirect_url": "/windows/iot/iot-enterprise/customize/Custom-Logon",
+        "redirect_document_id": false
     }
 
 ]
