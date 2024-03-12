@@ -1,18 +1,18 @@
 ---
-title: Supported AMD Processors for Windows 11 IoT Enterprise LTSC 2024
-description: Learn about AMD Processors supported for Windows 11 IoT Enterprise LTSC 2024
+title: Supported AMD Processors for Windows 11 IoT Enterprise LTSC 2024 and Windows 11 IoT Enterprise, Version 24H2
+description: Learn about AMD Processors supported for Windows 11 IoT Enterprise LTSC 2024 and Windows 11 IoT Enterprise, Version 24H2
 author: anch-msft
 ms.author: anthonychen
-ms.date: 02/13/2024
+ms.date: 03/12/2024
 ms.topic: article
 ms.service: windows-iot
 ---
 
-# Supported AMD Processors for Windows 11 IoT Enterprise LTSC
+# Supported AMD Processors for Windows 11 IoT Enterprise LTSC 2024 and Windows 11 IoT Enterprise, Version 24H2
 
-Microsoft supports Windows 11 IoT Enterprise LTSC running on the AMD processor families listed on this page. Earlier generations of the processors listed may have limited support from Microsoft. 
+Microsoft supports Windows 11 IoT Enterprise LTSC and Windows 11 IoT Enterprise, Version 24H2 running on the AMD processor families listed on this page. Earlier generations of the processors listed may have limited support from Microsoft. 
 
-For information on which processors AMD supports on Windows 11 IoT Enterprise LTSC, contact AMD.
+For information on which processors AMD supports on Windows 11 IoT Enterprise LTSC and Windows 11 IoT Enterprise, Version 24H2, contact AMD.
 
 | Family | Models |
 |---|---|

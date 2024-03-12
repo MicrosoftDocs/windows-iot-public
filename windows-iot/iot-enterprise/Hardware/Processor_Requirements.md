@@ -60,6 +60,7 @@ For more information, visit [Windows Processor Requirements](/windows-hardware/d
 
 | Version | AMD | Intel | Qualcomm | NXP |
 | --------------- | --- | ----- | -------- | --- |
+| Windows&nbsp;11&nbsp;IoT&nbsp;Enterprise,&nbsp;version&nbsp;24H2| [Supported AMD Processors](supported/Win11_LTSC_2024_AMD_Processors.md) | [Supported Intel Processors](supported/Win11_LTSC_2024_Intel_Processors.md) | [Supported Qualcomm Processors](supported/Win11_LTSC_2024_Qualcomm_Processors.md) | [Supported NXP Processors](supported/Win11_LTSC_2024_NXP_Processors.md)|
 | Windows&nbsp;11&nbsp;IoT&nbsp;Enterprise,&nbsp;version&nbsp;22H2</br> Windows&nbsp;11&nbsp;IoT&nbsp;Enterprise,&nbsp;version&nbsp;23H2</br> | [Supported AMD Processors](/windows-hardware/design/minimum/supported/windows-11-22h2-supported-amd-processors) | [Supported Intel Processors](/windows-hardware/design/minimum/supported/windows-11-22h2-supported-intel-processors) | [Supported Qualcomm Processors](/windows-hardware/design/minimum/supported/windows-11-22h2-supported-qualcomm-processors) | N/A |
 | Windows&nbsp;11&nbsp;IoT&nbsp;Enterprise,&nbsp;version&nbsp;21H2| [Supported AMD Processors](/windows-hardware/design/minimum/supported/windows-11-supported-amd-processors) | [Supported Intel Processors](/windows-hardware/design/minimum/supported/windows-11-supported-intel-processors) | [Supported Qualcomm Processors](/windows-hardware/design/minimum/supported/windows-11-supported-qualcomm-processors) | N/A |
 

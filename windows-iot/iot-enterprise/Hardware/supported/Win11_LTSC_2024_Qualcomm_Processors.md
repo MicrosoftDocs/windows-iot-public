@@ -1,18 +1,18 @@
 ---
-title: Supported NXP Processors for Windows 11 IoT Enterprise LTSC 2024
-description: Learn about NXP Processors supported for Windows 11 IoT Enterprise LTSC 2024
+title: Supported NXP Processors for Windows 11 IoT Enterprise LTSC 2024 and Windows 11 IoT Enterprise, Version 24H2
+description: Learn about NXP Processors supported for Windows 11 IoT Enterprise LTSC 2024 and Windows 11 IoT Enterprise, Version 24H2
 author: TerryWarwick
 ms.author: Twarwick
-ms.date: 02/23/2024
+ms.date: 03/12/2024
 ms.topic: article
 ms.service: windows-iot
 ---
 
-# Supported Qualcomm Processors for Windows 11 IoT Enterprise LTSC
+# Supported Qualcomm Processors for Windows 11 IoT Enterprise LTSC 2024 and Windows 11 IoT Enterprise, Version 24H2
 
-Microsoft supports Windows 11 IoT Enterprise LTSC running on the Qualcomm processors listed on this page. Earlier generations of the processors listed may have limited support from Microsoft. 
+Microsoft supports Windows 11 IoT Enterprise LTSC and Windows 11 IoT Enterprise, Version 24H2 running on the Qualcomm processors listed on this page. Earlier generations of the processors listed may have limited support from Microsoft. 
 
-For information on which processors Qualcomm supports on Windows 11 IoT Enterprise LTSC, contact Qualcomm for details.
+For information on which processors Qualcomm supports on Windows 11 IoT Enterprise LTSC and Windows 11 IoT Enterprise, Version 24H2, contact Qualcomm for details.
 
 | Brand | Model |
 |---|---|
