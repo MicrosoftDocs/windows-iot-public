@@ -90,8 +90,6 @@
     items:
     - name: Overview
       href: ./Customize/Custom-Logon.md
-    - name: Complementary features
-      href: ./Customize/complementary-features-to-custom-logon.md
     - name: Troubleshooting
       href: ./Customize/troubleshooting-custom-logon.md
   - name: Embedded Mode
