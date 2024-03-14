@@ -202,7 +202,7 @@ Modify the following PowerShell script as appropriate and run the script on the 
 
 ```PowerShell
 # Check if shell launcher license is enabled
-function Check-ShellLauncherLicenseEnabled
+function Invoke-ShellLauncherLicenseEnabledCheck
 {
     [string]$source = @"
 using System;
@@ -236,37 +236,32 @@ static class CheckShellLauncherLicense
     return $type[0]::IsShellLauncherLicenseEnabled()
 }
 
+# Check if Shell Launcher feature is enabled
 [bool]$result = $false
-
-$result = Check-ShellLauncherLicenseEnabled
-"`nShell Launcher license enabled is set to " + $result
-if (-not($result))
-{
-    "`nThis device doesn&#39;t have required license to use Shell Launcher"
+$result = Invoke-ShellLauncherLicenseEnabledCheck
+Write-Information ("Shell Launcher license enabled is set to $result") -InformationAction Continue
+if (-not($result)) {
+    Write-Error "This device does not have the required license to use Shell Launcher"
     exit
 }
 
-$COMPUTER = "localhost"
-$NAMESPACE = "root\standardcimv2\embedded"
+$computer = "localhost"
+$namespace = "root\standardcimv2\embedded"
 
 # Create a handle to the class instance so we can call the static methods.
 try {
-    $ShellLauncherClass = [wmiclass]"\\$COMPUTER\${NAMESPACE}:WESL_UserSetting"
-    } catch [Exception] {
-    write-host $_.Exception.Message; 
-    write-host "Make sure Shell Launcher feature is enabled"
+    $ShellLauncherClass = [wmiclass]"\\$computer\${namespace}:WESL_UserSetting"
+}
+catch [Exception] {
+    Write-Error -Message "Make sure Shell Launcher feature is enabled" -Exception $_.Exception
     exit
-    }
-
+}
 
 # This well-known security identifier (SID) corresponds to the BUILTIN\Administrators group.
-
 $Admins_SID = "S-1-5-32-544"
 
 # Create a function to retrieve the SID for a user account on a machine.
-
 function Get-UsernameSID($AccountName) {
-
     $NTUserObject = New-Object System.Security.Principal.NTAccount($AccountName)
     $NTUserSID = $NTUserObject.Translate([System.Security.Principal.SecurityIdentifier])
 
@@ -274,62 +269,49 @@ function Get-UsernameSID($AccountName) {
 }
 
 # Get the SID for a user account named "Cashier". Rename "Cashier" to an existing account on your system to test this script.
-
 $Cashier_SID = Get-UsernameSID("Cashier")
 
 # Define actions to take when the shell program exits.
-
-$restart_shell = 0
-$restart_device = 1
-$shutdown_device = 2
-$do_nothing = 3
+$shellExitActions = @{
+    RestartShell = 0
+    RestartDevice = 1
+    ShutdownDevice = 2
+    DoNothing = 3
+}
 
 # Examples. You can change these examples to use the program that you want to use as the shell.
 
-# This example sets the command prompt as the default shell, and restarts the device if the command prompt is closed. 
-
-$ShellLauncherClass.SetDefaultShell("cmd.exe", $restart_device)
+# This example sets the command prompt as the default shell, and restarts the device if the command prompt is closed.
+$ShellLauncherClass.SetDefaultShell("cmd.exe", $shellExitActions.RestartDevice)
 
 # Display the default shell to verify that it was added correctly.
-
 $DefaultShellObject = $ShellLauncherClass.GetDefaultShell()
 
-"`nDefault Shell is set to " + $DefaultShellObject.Shell + " and the default action is set to " + $DefaultShellObject.defaultaction
+Write-Information "Default Shell is set to $($DefaultShellObject.Shell) and the default action is set to $($DefaultShellObject.defaultaction)" -InformationAction Continue
 
 # Set Internet Explorer as the shell for "Cashier", and restart the machine if Internet Explorer is closed.
-
-$ShellLauncherClass.SetCustomShell($Cashier_SID, "c:\program files\internet explorer\iexplore.exe www.microsoft.com", ($null), ($null), $restart_shell)
+$ShellLauncherClass.SetCustomShell($Cashier_SID, "c:\program files\internet explorer\iexplore.exe www.microsoft.com", ($null), ($null), $shellExitActions.RestartShell)
 
 # Set Explorer as the shell for administrators.
-
 $ShellLauncherClass.SetCustomShell($Admins_SID, "explorer.exe")
 
 # View all the custom shells defined.
-
-"`nCurrent settings for custom shells:"
-Get-WmiObject -namespace $NAMESPACE -computer $COMPUTER -class WESL_UserSetting | Select Sid, Shell, DefaultAction
+Write-Information "Current settings for custom shells:" -InformationAction Continue
+Get-WmiObject -namespace $namespace -computer $computer -class WESL_UserSetting | Select-Object Sid, Shell, DefaultAction
 
 # Enable Shell Launcher
-
 $ShellLauncherClass.SetEnabled($TRUE)
-
 $IsShellLauncherEnabled = $ShellLauncherClass.IsEnabled()
-
-"`nEnabled is set to " + $IsShellLauncherEnabled.Enabled
+Write-Information "Enabled is set to $($IsShellLauncherEnabled.Enabled)" -InformationAction Continue
 
 # Remove the new custom shells.
-
 $ShellLauncherClass.RemoveCustomShell($Admins_SID)
-
 $ShellLauncherClass.RemoveCustomShell($Cashier_SID)
 
 # Disable Shell Launcher
-
 $ShellLauncherClass.SetEnabled($FALSE)
-
 $IsShellLauncherEnabled = $ShellLauncherClass.IsEnabled()
-
-"`nEnabled is set to " + $IsShellLauncherEnabled.Enabled
+Write-Information "Enabled is set to $($IsShellLauncherEnabled.Enabled)" -InformationAction Continue
 ```
 
 > [!NOTE]
