@@ -11,6 +11,19 @@ description: Windows IoT Distributor Information
 keywords: Windows IoT Enterprise, Windows Sever IoT 2022, Distributor, Windows IoT
 ---
 
+---
+title: Windows IoT Distributors
+author: TerryWarwick
+ms.author: twarwick
+ms.date: 02/22/2024
+ms.topic: article
+ms.service: windows-iot
+ms.subservice: iot
+no-loc: [Arrow Europe, Americas]
+description: Windows IoT Distributor Information
+keywords: Windows IoT Enterprise, Windows Sever IoT 2022, Distributor, Windows IoT
+---
+
 # Windows IoT Distributor Information
 
 <img align="right" width="50%" src="media/map.png" alt="Windows IoT Distributors Regional Map">
@@ -106,7 +119,7 @@ Distributors can apply their Windows IoT development experiences, and knowledge,
 | Eastern Europe, Iberia                | Avnet Silica: Eastern Europe and Iberia       | Claudia Remane</br>[microsoft@avnet.eu](mailto:microsoft@avnet.eu) | +49 8121 777 299 |
 | Austria                               | Avnet Silica: Austria                         | Thomas Schuller</br>[microsoft@avnet.eu](mailto:microsoft@avnet.eu) | +43 1 86642 308 |
 | Belgium, Netherlands, Luxemburg       | Avnet Silica: Belgium, Netherlands, Luxemburg | Patrick Maas</br>[microsoft@avnet.eu](mailto:microsoft@avnet.eu) | +31 76 5722 738 |
-| Switzerland                           | Avnet Silica: Switzerland                     | Martin Grossen</br>[mailto:microsoft@avnet.eu](mailto:microsoft@avnet.eu) | +41 62 919 55 57 |
+| Switzerland                           | Avnet Silica: Switzerland                     | Martin Grossen</br>[microsoft@avnet.eu](mailto:microsoft@avnet.eu) | +41 62 919 55 57 |
 | Germany                               | Avnet Silica: Germany                         | Christine Falke</br>[microsoft@avnet.eu](mailto:microsoft@avnet.eu) | +49 151 1420 6230 |
 | Northern Europe, Denmark, Finland, Sweden & Norway | Avnet Silica: Northern Europe.</br>Denmark, Finland, Sweden & Norway | Mark Winther</br>[Mark.Winther@avnet.eu](mailto:Mark.Winther@avnet.eu) | +45 4322 8027 |
 | Baltic States, Latvia, Lithuania & Estonia | Avnet Silica: Baltic States: </br>Latvia, Lithuania & Estonia | Mark Winther</br>[Mark.Winther@avnet.eu](mailto:Mark.Winther@avnet.eu) | +45 4322 8027 |
