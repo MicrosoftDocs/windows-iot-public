@@ -16,9 +16,7 @@ For information on which processors Qualcomm supports on Windows 11 IoT Enterpri
 
 | Brand | Model |
 |---|---|
-|Qualcomm&reg; | [QCM6490](https://www.qualcomm.com/products/internet-of-things/industrial/building-enterprise/qcm6490) |
 |Qualcomm&reg; | [QCS6490](https://www.qualcomm.com/products/internet-of-things/industrial/building-enterprise/qcs6490) |
-|Qualcomm&reg; | [QCM5430](https://www.qualcomm.com/products/internet-of-things/industrial/industrial-automation/qcm5430) |
 |Qualcomm&reg; | [QCS5430](https://www.qualcomm.com/products/internet-of-things/industrial/industrial-automation/qcs5430) |
 |Snapdragon&trade; | [8cx Gen 3](https://www.qualcomm.com/products/mobile/snapdragon/pcs-and-tablets/snapdragon-mobile-compute-platforms/snapdragon-8cx-gen-3-compute-platform) |
 |Snapdragon&trade; | [8cx Gen 2](https://www.qualcomm.com/products/mobile/snapdragon/pcs-and-tablets/snapdragon-mobile-compute-platforms/snapdragon-8cx-gen-2-5g-compute-platform) |
