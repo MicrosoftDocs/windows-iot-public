@@ -106,8 +106,8 @@ Distributors can apply their Windows IoT development experiences, and knowledge,
 | Eastern Europe, Iberia                | Avnet Silica: Eastern Europe and Iberia       | Claudia Remane</br>[microsoft@avnet.eu](mailto:microsoft@avnet.eu) | +49 8121 777 299 |
 | Austria                               | Avnet Silica: Austria                         | Thomas Schuller</br>[microsoft@avnet.eu](mailto:microsoft@avnet.eu) | +43 1 86642 308 |
 | Belgium, Netherlands, Luxemburg       | Avnet Silica: Belgium, Netherlands, Luxemburg | Patrick Maas</br>[microsoft@avnet.eu](mailto:microsoft@avnet.eu) | +31 76 5722 738 |
-| Switzerland                           | Avnet Silica: Switzerland                     | Martin Grossen</br>[mailto:microsoft@avnet.eu](mailto:microsoft@avnet.eu) | +41 62 919 55 57 |
-| Germany                               | Avnet Silica: Germany                         | Christine Falke</br>[microsoft@avnet.eu](mailto:microsoft@avnet.eu) | +49 151 1420 6230 |
+| Switzerland                           | Avnet Silica                     | Martin Grossen</br>[microsoft@avnet.eu](mailto:microsoft@avnet.eu) | +41 62 919 55 57 |
+| Germany                               | Avnet Silica                         | Christine Falke</br>[microsoft@avnet.eu](mailto:microsoft@avnet.eu) | +49 151 1420 6230 |
 | Northern Europe, Denmark, Finland, Sweden & Norway | Avnet Silica: Northern Europe.</br>Denmark, Finland, Sweden & Norway | Mark Winther</br>[Mark.Winther@avnet.eu](mailto:Mark.Winther@avnet.eu) | +45 4322 8027 |
 | Baltic States, Latvia, Lithuania & Estonia | Avnet Silica: Baltic States: </br>Latvia, Lithuania & Estonia | Mark Winther</br>[Mark.Winther@avnet.eu](mailto:Mark.Winther@avnet.eu) | +45 4322 8027 |
 | UK, Ireland, Egypt                    | Avnet Silica: United Kingdom, Ireland & Egypt | Mark Winther</br>[Mark.Winther@avnet.eu](mailto:Mark.Winther@avnet.eu) | +45 4322 8027 |
