@@ -21,14 +21,14 @@ Distributors can apply their Windows IoT development experiences, and knowledge,
 
 ## Americas
 
- | Location | Distributor&nbsp;Name | Contact&nbsp;Name | Contact&nbsp;Phone |
- | -------------------|-------------------------------------|-------------------|:--------------:|
- | Brazil             | Softline International BRASIL COMER | [info.brasil@softlinegroup.com](mailto:info.brasil@softlinegroup.com) | +55 11 5188 8100 |
- | United&nbsp;States | Advantech Corporation               | [iot.software@advantech.com](mailto:iot.software@advantech.com) | +1 425-922-0721 |
- | United&nbsp;States | Arrow Electronics INC.              | Ken Marlin</br>Windows Champ on YouTube</br></br>Henry Castillo</br>Microsoft Champion</br>[WindowsChamp@arrow.com](mailto:WindowsChamp@arrow.com) | +1 (830) 365-7024 |
- | United&nbsp;States | Avnet INC.                          | [Software@Avnet.com](mailto:Software@Avnet.com) | +1 480 643 7055 |
- | United&nbsp;States | Bsquare Corporation                 | [Info@bsquare.com](mailto:Info@bsquare.com) | + 1 425-519-5900 |
- | United&nbsp;States | Dell, INC.                          | Jordan Wright</br>[embeddedsoftwaresales@dell.com](mailto:embeddedsoftwaresales@dell.com) | +737 227 1602 |
+| Location | Distributor&nbsp;Name | Contact&nbsp;Name | Contact&nbsp;Phone |
+| -------------------|-------------------------------------|-------------------|:--------------:|
+| Brazil             | Softline International BRASIL COMER | [info.brasil@softlinegroup.com](mailto:info.brasil@softlinegroup.com) | +55 11 5188 8100 |
+| United&nbsp;States | Advantech Corporation               | [iot.software@advantech.com](mailto:iot.software@advantech.com) | +1 425-922-0721 |
+| United&nbsp;States | Arrow Electronics INC.              |Ken Marlin - Windows Champ on YouTube</br>Henry Castillo - Microsoft Champion</br>[WindowsChamp@arrow.com](mailto:WindowsChamp@arrow.com) | +1 (830) 365-7024 |
+| United&nbsp;States | Avnet INC.                          | [Software@Avnet.com](mailto:Software@Avnet.com) | +1 480 643 7055 |
+| United&nbsp;States | Bsquare Corporation                 | [Info@bsquare.com](mailto:Info@bsquare.com) | + 1 425-519-5900 |
+| United&nbsp;States | Dell, INC.                          | Jordan Wright</br>[embeddedsoftwaresales@dell.com](mailto:embeddedsoftwaresales@dell.com) | +737 227 1602 |
 
 ## APAC
 
@@ -116,7 +116,7 @@ Distributors can apply their Windows IoT development experiences, and knowledge,
 | South, West & Central Africa</br> *Benin, Botswana, Burkina Faso, Cameroon, Central Africa Republic, Chad, Congo, Cote D'Ivoire, Ethiopia, Gabon, Gambia, Ghana, Guinea-Bissau, Kenya, Liberia, Madagascar, Malawi, Mali, Mauritania, Mauritius, Morocco, Mozambique, Namibia, Niger, Nigeria, Senegal, Sierra Leone, Tanzania, Togo, Tunisia, Uganda, Zambia, Zimbabwe* | Avnet Silica | Carl Van der Merwe</br>[Carl.VanderMerwe@avnet.eu](mailto:Carl.VanderMerwe@avnet.eu) | +27 21 68941 47 |
 | Israel                                | Avnet Silica                          | Sharon Grafi</br>[Sharon.Grafi@avnet.eu](mailto:Sharon.Grafi@avnet.eu) | +972 9 7780333 |
 | EMEA                                  | Dell EMEA                                     | Sukhvinder Aulak</br>[Sukhvinder_Aulak@Dell.com](mailto:Sukhvinder_Aulak@Dell.com) | +44 141 202 5493 |
-| Israel                                | Eastronics Limited                            | Rivka Helfman</br>[rivka.helfman@easx.co.il](mailto:rivka.helfman@easx.co.il) | +972508885628</br>+97236458635 |
+| Israel, UK                                | Eastronics Limited                            | Rivka Helfman</br>[rivka.helfman@easx.co.il](mailto:rivka.helfman@easx.co.il) | +972508885628</br>+97236458635 |
 | Hungary                               | Elbacom GmbH                                  | Zsolt Szanya</br>[z.szanya@elbacom.com](mailto:z.szanya@elbacom.com) | +36 (30) 7480458 |
 | Romania                               | Elbacom GmbH                                  | Zsolt Szanya</br>[z.szanya@elbacom.com](mailto:z.szanya@elbacom.com) | +36 (30) 7480458 |
 | Bulgaria                              | Elbacom GmbH                                  | Zsolt Szanya</br>[z.szanya@elbacom.com](mailto:z.szanya@elbacom.com) | +36 (30) 7480458 |
@@ -131,7 +131,7 @@ Distributors can apply their Windows IoT development experiences, and knowledge,
 | Switzerland                           | Elbacom GmbH                                  | David Kotzenmacher</br>[d.Kotzenmacher@elbacom.com](mailto:d.Kotzenmacher@elbacom.com) | +43 (664) 2163503 |
 | Rest of EMEA                          | Elbacom GmbH                                  | David Kotzenmacher</br>[d.Kotzenmacher@elbacom.com](mailto:d.Kotzenmacher@elbacom.com) | +43 (664) 2163504 |
 | Belgium                               | Koning & Hartman B.V.                         | Kjell De Clercq, Kelly Bornauw, Alida Coninx</br>[Info.be@koningenhartman.com](mailto:Info.be@koningenhartman.com) | +32 2 257 02 00 |
-| Ukraine, Kazakhstan, Uzbekistan, Moldova, Azerbaijan, Georgia, Armenia, Kyrgyzstan, Turkmenistan, Tajikistan | Quarta IoT LLC | Ruben Molunts</br>[sales@quarta-iot.com](mailto:sales@quarta-iot.com) | +374 77 115784</br>+374 99 115784 |
+| Ukraine, Kazakhstan, Uzbekistan, Moldova, Azerbaijan, Georgia, Armenia, Kyrgyzstan, Turkmenistan, Tajikistan, Turkey, Cyprus| Quarta IoT LLC | Ruben Molunts</br>[sales@quarta-iot.com](mailto:sales@quarta-iot.com) | +374 77 115784</br>+374 99 115784 |
 | Russia, Ukraine, Belarus, Kazakhstan, Uzbekistan, Moldova, Azerbaijan, Georgia, Armenia, Kyrgyzstan, Turkmenistan, Tajikistan | Quarta Technologies | [mse@quarta.ru](mailto:mse@quarta.ru) | +7 495 123 4518 |
 
 ## Japan
