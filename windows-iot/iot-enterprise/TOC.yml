@@ -60,7 +60,7 @@
   expanded: false
   items:
   - name: 🔵 Activation Guide - ePKEA
-    href: ./Commercialization/activation-guide-epkea.md
+    href: ./Commercialization/activation-guide.md
   - name: Licensing & Usage
     href: ./Commercialization/Licensing.md
   - name: Manufacturing Guide
