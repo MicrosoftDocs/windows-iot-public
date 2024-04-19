@@ -164,3 +164,19 @@ Windows IoT Enterprise attempts to activate automatically if you're connected to
 
 1. Select **Start** > **Settings** > **System** > **Activation**
 1. Under **Activate Windows Now section**, select **Activate by Phone**
+
+## To Do
+
+- No internet connectivity
+  - Phone Activation
+    - SLMGR
+    - Settings > Activation UI
+  - Activate using VAMT via Proxy
+  - Deferred Activation State
+- RunOnce
+- Checking your activation status
+- Reactivation
+- Activation and Unified Write Filter
+- Managing ePKEA allotment
+- ePKEA Default Manufacturing keys
+- Troubleshooting
