@@ -56,9 +56,11 @@
     href: ./ARM64/ArmFAQ.md
   - name: Setup an NXP i.MX EVK
     href: ./Tutorials/Win10-NXP-iMX.md
-- name: Commercialization
+- name: 🔵 Commercialization
   expanded: false
   items:
+  - name: 🔵 Activation Guide - ePKEA
+    href: ./Commercialization/activation-guide-epkea.md
   - name: Licensing & Usage
     href: ./Commercialization/Licensing.md
   - name: Manufacturing Guide
