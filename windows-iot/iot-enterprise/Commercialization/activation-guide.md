@@ -31,7 +31,9 @@ This article focuses on using ePKEA to enable activation for Windows IoT Enterpr
 
 ## Manufacturing Process
 
-Before you can enable your device to activate you need to be familiar with the Windows desktop manufacturing process. There are several different methods to deploy and customize your Windows IoT Enterprise image. Once you select the manufacturing process which includes both a deployment and customization strategy that best suits your production requirements you can incorporate a compatible approach to enable activation using your ePKEY based product key. If you aren't familiar with the Windows desktop manufacturing process, see [Windows Manufacturing Overview](/windows-hardware/manufacture).
+Before you can enable your device to activate you need to be familiar with the Windows desktop manufacturing process. There are several different methods to deploy and customize your Windows IoT Enterprise image. Once you select the manufacturing process which includes both a deployment and customization strategy that best suits your production requirements you can incorporate a compatible approach to enable activation using your ePKEY based product key. 
+
+For more information, see [Windows Manufacturing Overview](/windows-hardware/manufacture).
 
 ## Enable Activation
 
@@ -77,7 +79,7 @@ Slmgr.vbs /ipk XXXXX-XXXXX-XXXXX-XXXXX-XXXXX
 
 You can also use the SLMGR.vbs command from a Windows PowerShell instance that can be incorporated into a larger script that is used to perform other configuration tasks by prepending the above command with cscript, but you must provide a fully qualified path to slmgr.vbs as follows.
 
-```powershell
+```dos
 cscript c:\windows\system32\Slmgr.vbs /ipk XXXXX-XXXXX-XXXXX-XXXXX-XXXXX
 ```
 
@@ -88,23 +90,27 @@ IMPORTANT: Once you complete the customizations that are required for your devic
 
 You can also make changes to an offline mounted Windows image without booting into the operating system you’re going to modify. To learn more about servicing an offline image, see Modify a Windows Image Using DISM.
 Once you have successfully mounted an offline image you can install your ePKEA into the offline image using either Set-WindowsProductKey or DISM /SetProductKey by running either command from an elevated PowerShell command window.
-Set-WindowsProductKey
 
-```powershell
-Set-WindowsProductKey -Path “c:\offline” -ProductKey “XXXXX-XXXXX-XXXXX-XXXXX-XXXXX”
-```
+- To apply your ePKEA to an offline image using **Set-WindowsProductKey** from PowerShell.
 
-For more information, see [Set-WindowsProductKey.](/powershell/module/dism/set-windowsproductkey)
+   ```powershell
+   Set-WindowsProductKey -Path “c:\offline” -ProductKey “XXXXX-XXXXX-XXXXX-XXXXX-XXXXX”
+   ```
 
-DISM /SetProductKey
+   For more information, see [Set-WindowsProductKey.](/powershell/module/dism/set-windowsproductkey)
 
-```powershell
-Dism /Image:C:\offline /Set-ProductKey:XXXXX-XXXXX-XXXXX-XXXXX-XXXXX
-```
+- To apply your ePKEA to an offline image usign **DISM /SetProductKey** from Powershell.
 
-For more information, see [DISM /SetProductKey](/windows-hardware/manufacture/desktop/dism-windows-edition-servicing-command-line-options#set-productkey).
+   ```powershell
+   Dism /Image:C:\offline /Set-ProductKey:XXXXX-XXXXX-XXXXX-XXXXX-XXXXX
+   ```
 
-IMPORTANT: Once you complete the customizations that are required for your offline image, you must commit the changes and dismount the image. For more information, see Modify a Windows Image Using DISM.
+   For more information, see [DISM /SetProductKey](/windows-hardware/manufacture/desktop/dism-windows-edition-servicing-command-line-options#set-productkey).
+
+> [!IMPORTANT]
+> Once you complete the customizations that are required for your offline image, you must commit the changes and dismount the image.
+>
+> For more information, see Modify a [Windows Image Using DISM](/windows-hardware/manufacture/desktop/mount-and-modify-a-windows-image-using-dism).
 
 ## Protect your Product Key
 
@@ -118,13 +124,32 @@ For Windows IoT Enterprise installations using ePKEA, it's best practice to run 
 Slmgr.vbs /cpky
 ```
 
-For more information, see [Slmgr.vbs Advanced Options](/windows-server/get-started/activation-slmgr-vbs-options).
+For more information, see [Slmgr.vbs Options](/windows-server/get-started/activation-slmgr-vbs-options).
 
 ## Activation
 
 ### To activate using an internet connection
 
-Windows IoT Enterprise attempts to activate automatically if you're connected to the internet, you can confirm your activation status by selecting **Start** > **Settings** > **System** > **Activation**.
+Windows IoT Enterprise attempts to activate automatically if you're connected to the internet. You can confirm your activation status in Settings as well as at the command line.
+
+- **Settings**  
+
+   To view your activation status in Settings, select **Start** > **Settings** > **System** > **Activation**.
+
+   If your device shows that it is not activated, you can trigger an activation attempt by selecting **Activate Windows now**.
+
+- **PowerShell command line**
+
+   To view your activation status using the command line, execute the following command from an PowerShell instance running as administrator.
+
+   | Information Level | Command |
+   | ---- | ---- |
+   | Abbreviated | `slmgr.vbs /dli` |
+   | Verbose     | `slmgr.vbs /dlv` |
+
+   If your device show that it is not activated, you can also trigger an activation attempt using `slmgr.vbs /ato`.
+
+   For more information, see [Slmgr.vbs Options](/windows-server/get-started/activation-slmgr-vbs-options.)
 
 ### To activate by phone
 

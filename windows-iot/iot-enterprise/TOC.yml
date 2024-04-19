@@ -59,7 +59,7 @@
 - name: 🔵 Commercialization
   expanded: false
   items:
-  - name: 🔵 Activation Guide - ePKEA
+  - name: 🔵 Activation Guide
     href: ./Commercialization/activation-guide.md
   - name: Licensing & Usage
     href: ./Commercialization/Licensing.md
