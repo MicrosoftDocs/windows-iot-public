@@ -12,10 +12,9 @@ ms.date: 04/18/2024
 
 As a device maker, you can install and use the Windows IoT Enterprise operating system to develop and test prototype customer systems. Any images installed without a product key or using the default manufacturing key won't function for more than 30 days after the first boot of an image on a prototype system.
 
-Activation is the process of registering Windows IoT Enterprise with Microsoft to ensure the product is genuine. Activation is used to reduce software piracy, protect the software industry, corporate intellectual property, software development investments, and product quality to ensure customers receive the product quality that they expect from a Windows-based operating system.
+Activation is the process of registering Windows IoT Enterprise with Microsoft to ensure the product is genuine and reduce piracy to ensure customers receive the product quality that they expect from a Windows-based operating system.
 
-All Windows IoT Enterprise devices that are distributed to your customers must be enabled for activation before leaving the factory so that the customer isn't prompted for a product key during the out of box experience or encountering degraded functionality caused by being unable to activate their device.
-
+Windows IoT Enterprise devices produced by OEMs must be enabled for activation before leaving the factory. 
 Windows IoT Enterprise provides three options for enabling activation, including:
 
 | Activation&nbsp;Model | Description |
@@ -31,7 +30,7 @@ This article focuses on using ePKEA to enable activation for Windows IoT Enterpr
 
 ## Manufacturing Process
 
-Before you can enable your device to activate you need to be familiar with the Windows desktop manufacturing process. There are several different methods to deploy and customize your Windows IoT Enterprise image. Once you select the manufacturing process which includes both a deployment and customization strategy that best suits your production requirements you can incorporate a compatible approach to enable activation using your ePKEY based product key. 
+You need to be familiar with the Windows desktop manufacturing process before you can enable activation. There are several different methods to deploy and customize your Windows IoT Enterprise image. After selecting your manufacturing process, you can incorporate a compatible approach to enable activation using your ePKEY based product key.
 
 For more information, see [Windows Manufacturing Overview](/windows-hardware/manufacture).
 
@@ -41,19 +40,20 @@ You can install your production ePKEA product key using any of the following met
 
 ### Interactive Setup
 
-If you choose to start your journey by creating a golden image using interactive setup, which is run when booting from installation media, you are prompted to supply your product key. You can supply your production ePKEA, the default manufacturing key or skip the product key entry step.
+You're prompted to enter your product key if you choose to create your image using the interactive setup experience. When prompted for your key, you can supply your production ePKEA, the default manufacturing key or skip the product key entry step, however only your production ePKEA enables activation. The following table explains each scenario.
 
 | When prompted for Product Key | Result |
 | ----------- | -----------|
 | Enter your production ePKEA           | Production image is fully enabled for activation |
 | Enter the 'default manufacturing key' | Your device isn't enabled for activation and you must install your production ePKEA during Audit Mode. |
-| Skip the product key entry screen     | You must select either Windows IoT Enterprise or Windwos IoT Enterprise LTSC to proceed.the OS edition want to install. Your device isn't enabled for activation when setup is complete and you must install your production ePKEA during Audit Mode. |
+| Skip the product key entry screen     | You must select either Windows IoT Enterprise or Windows IoT Enterprise LTSC to proceed. Your device isn't enabled for activation when setup is complete and you must install your production ePKEA during Audit Mode. |
 
 For more information on interactive setup, see [Boot and install Windows](/windows-hardware/manufacture/desktop/boot-and-install-window).
 
 ### Unattended Setup
 
-Similarly to Interactive Setup, you can supply either your production ePKEA or the default manufacturing key using an unattend answer file. The same applies that only supplying your production ePKEA fulfills the requirement to enable activation.
+Similarly to Interactive Setup, you can supply either your production ePKEA or the default manufacturing key using the [ProductKey](/windows-hardware/customize/desktop/unattend/microsoft-windows-shell-setup-productkey) setting of the unattend.xml answer file. The same applies that only supplying your production ePKEA fulfills the requirement to enable activation.
+
 For more information, see [Windows Setup Automation Overview](/windows-hardware/manufacture/desktop/windows-setup-automation-overview).
 
 ### Audit Mode
@@ -71,25 +71,30 @@ Access the activation graphical user interface using one of the following option
 - Right select Start > Run then type slui.exe
 
 Method 2: Command Line | SLMGR.vbs
-Open a Windows PowerShell instance as an Administrator then execute the following command replacing the Xs with your ePKEA to inject the product key into Windows IoT Enterprise
+Open a Windows PowerShell instance as an Administrator then execute the following command replacing the 's with your ePKEA to inject the product key into Windows IoT Enterprise.
 
 ```powershell
 Slmgr.vbs /ipk XXXXX-XXXXX-XXXXX-XXXXX-XXXXX
 ```
 
-You can also use the SLMGR.vbs command from a Windows PowerShell instance that can be incorporated into a larger script that is used to perform other configuration tasks by prepending the above command with cscript, but you must provide a fully qualified path to slmgr.vbs as follows.
+This command can be incorporated into a larger script while applying other configuration settings by prepending cscript to the command as follows.
 
-```dos
+```powershell
 cscript c:\windows\system32\Slmgr.vbs /ipk XXXXX-XXXXX-XXXXX-XXXXX-XXXXX
 ```
 
-For more information, see Slmgr.vbs command line reference
-IMPORTANT: Once you complete the customizations that are required for your device, you must finalize your image for replication by configuring the device to boot into the out of box experience for the end customer. For more information on finalizing your image for replication, see Sysprep Process Overview.
+For more information, see [Slmgr.vbs Options](/windows-server/get-started/activation-slmgr-vbs-options).
+
+> [!IMPORTANT]
+> Be sure to finalize your image using the generalize option of Sysprep to boot into the Out of Box Experience (oobe) for your customer's first experience.
+>
+> For more information on finalizing your image for replication, see [Sysprep Process Overview](/windows-hardware/manufacture/desktop/sysprep-process-overview).
 
 ### Offline image
 
-You can also make changes to an offline mounted Windows image without booting into the operating system you’re going to modify. To learn more about servicing an offline image, see Modify a Windows Image Using DISM.
-Once you have successfully mounted an offline image you can install your ePKEA into the offline image using either Set-WindowsProductKey or DISM /SetProductKey by running either command from an elevated PowerShell command window.
+You can also make changes to an offline mounted Windows image without booting into the operating system you’re going to modify. For more information about servicing an offline image, see [Modify a Windows Image Using DISM](/windows-hardware/manufacture/desktop/mount-and-modify-a-windows-image-using-dism).
+
+You can install your ePKEA into the offline image using either `Set-WindowsProductKey` or `DISM /SetProductKey` by running either command from an elevated PowerShell command window.
 
 - To apply your ePKEA to an offline image using **Set-WindowsProductKey** from PowerShell.
 
@@ -99,7 +104,7 @@ Once you have successfully mounted an offline image you can install your ePKEA i
 
    For more information, see [Set-WindowsProductKey.](/powershell/module/dism/set-windowsproductkey)
 
-- To apply your ePKEA to an offline image usign **DISM /SetProductKey** from Powershell.
+- To apply your ePKEA to an offline image using **DISM /SetProductKey** from PowerShell.
 
    ```powershell
    Dism /Image:C:\offline /Set-ProductKey:XXXXX-XXXXX-XXXXX-XXXXX-XXXXX
@@ -114,11 +119,15 @@ Once you have successfully mounted an offline image you can install your ePKEA i
 
 ## Protect your Product Key
 
-Consider your ePKEA as confidential
-Your ePKEA can activate a large number of Windows IoT Enterprise devices. You should consider your ePKEA as highly confidential to avoid it from getting into the hands of a bad operator that could result in the use of your ePKEA as a tool for piracy and drain the available activations associated with your ePKEA.
+> [!IMPORTANT]
+> **Your ePKEA is confidential**.
+>
+> Your ePKEA can activate a large number of Windows IoT Enterprise devices. Manage access to your ePKEA as a confidential asset. An ePKEA that is leaked to a bad operator could result in piracy and drain the available activations associated with your ePKEA and  prevent your legitimate customers from being able to activate their devices.
+
 Remove your ePKEA from the registry
-To prevent disclosure attack where malicious code extracts your product key from the image. Once a bad operator has extracted the product key from your devices it can be used to enable activation on their own devices, draining the available activations associated with your ePKEA.  
-For Windows IoT Enterprise installations using ePKEA, it's best practice to run SLMGR.vbs /cpky before finalizing your image to remove the product key from the registry to avoid this situation and ensure that your ePKEA activation allotment isn't depleated.
+To prevent disclosure attack where malicious code extracts your product key from the image. If a bad operator can extract the product key from your devices it could be used to enable activation on their own devices, draining the available activations associated with your ePKEA.
+  
+You should run `SLMGR.vbs /cpky` before finalizing your image to remove the product key from the registry to avoid your ePKEA from a disclosure attack and ensure that your ePKEA activation allotment isn't depleated.
 
 ```powershell
 Slmgr.vbs /cpky
@@ -130,24 +139,24 @@ For more information, see [Slmgr.vbs Options](/windows-server/get-started/activa
 
 ### To activate using an internet connection
 
-Windows IoT Enterprise attempts to activate automatically if you're connected to the internet. You can confirm your activation status in Settings as well as at the command line.
+Windows IoT Enterprise attempts to activate automatically if you're connected to the internet. You can confirm your activation status in Settings Or at the command line.
 
 - **Settings**  
 
    To view your activation status in Settings, select **Start** > **Settings** > **System** > **Activation**.
 
-   If your device shows that it is not activated, you can trigger an activation attempt by selecting **Activate Windows now**.
+   If your device shows that it isn't activated, you can trigger an activation attempt by selecting **Activate Windows now**.
 
 - **PowerShell command line**
 
-   To view your activation status using the command line, execute the following command from an PowerShell instance running as administrator.
+   To view your activation status using the command line, execute the following command from a PowerShell instance running as administrator.
 
    | Information Level | Command |
    | ---- | ---- |
    | Abbreviated | `slmgr.vbs /dli` |
    | Verbose     | `slmgr.vbs /dlv` |
 
-   If your device show that it is not activated, you can also trigger an activation attempt using `slmgr.vbs /ato`.
+   If your device show that it isn't activated, you can also trigger an activation attempt using `slmgr.vbs /ato`.
 
    For more information, see [Slmgr.vbs Options](/windows-server/get-started/activation-slmgr-vbs-options.)
 
