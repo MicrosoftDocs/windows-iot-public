@@ -10,11 +10,25 @@ ms.date: 04/18/2024
 
 # OEM Activation
 
+> [!NOTE]
+> **To Do**
+>
+> - No internet connectivity
+> - Deferred Activation State
+> - RunOnce
+> - Checking your activation status
+> - Reactivation
+> - Activation and Unified Write Filter
+> - ePKEA Default Manufacturing keys
+> - Troubleshooting
+
 As a device maker, you can install and use the Windows IoT Enterprise operating system to develop and test prototype customer systems. Any images installed without a product key or using the default manufacturing key won't function for more than 30 days after the first boot of an image on a prototype system.
 
 Activation is the process of registering Windows IoT Enterprise with Microsoft to ensure the product is genuine and reduce piracy to ensure customers receive the product quality that they expect from a Windows-based operating system.
 
-Windows IoT Enterprise devices produced by OEMs must be enabled for activation before leaving the factory. 
+> [!IMPORTANT]
+>Windows IoT Enterprise devices produced by OEMs must be enabled for activation before leaving the factory.
+
 Windows IoT Enterprise provides three options for enabling activation, including:
 
 | Activation&nbsp;Model | Description |
@@ -62,30 +76,32 @@ Audit mode allows you to make more changes to your Windows IoT Enterprise image 
 For more information on getting started with Audit mode, see Audit mode overview.
 While you are in Audit mode, you can apply your production ePKEA to your image using the graphical user interface provided by Settings > Activation or the command line utility SLMGR.vbs.
 
-Method 1: Settings > Activation graphical user interface
-Access the activation graphical user interface using one of the following options:
+- **Method 1: Settings > Activation graphical user interface**
 
-- Select Start then begin typing Activation and select Activation settings once it appears
-- Select Start > Settings > System > Activation
-- Select Start > All Apps > Settings > System > Activation
-- Right select Start > Run then type slui.exe
+  Access the activation graphical user interface using one of the following options:
 
-Method 2: Command Line | SLMGR.vbs
-Open a Windows PowerShell instance as an Administrator then execute the following command replacing the 's with your ePKEA to inject the product key into Windows IoT Enterprise.
+  - Select Start then begin typing Activation and select Activation settings once it appears
+  - Select Start > Settings > System > Activation
+  - Select Start > All Apps > Settings > System > Activation
+  - Right select Start > Run then type slui.exe
 
-```powershell
-Slmgr.vbs /ipk XXXXX-XXXXX-XXXXX-XXXXX-XXXXX
-```
+- **Method 2: Command Line | SLMGR.vbs**
 
-This command can be incorporated into a larger script while applying other configuration settings by prepending cscript to the command as follows.
+  To inject the product key into Windows IoT Enterprise, open a Windows PowerShell instance as an Administrator then execute the following command using your ePKEA product key.
 
-```powershell
-cscript c:\windows\system32\Slmgr.vbs /ipk XXXXX-XXXXX-XXXXX-XXXXX-XXXXX
-```
+  ```powershell
+  Slmgr.vbs /ipk XXXXX-XXXXX-XXXXX-XXXXX-XXXXX
+  ```
 
-For more information, see [Slmgr.vbs Options](/windows-server/get-started/activation-slmgr-vbs-options).
+  This command can be incorporated into a larger script while applying other configuration settings by prepending cscript to the command as follows.
 
-> [!IMPORTANT]
+  ```powershell
+  cscript c:\windows\system32\Slmgr.vbs /ipk XXXXX-XXXXX-XXXXX-XXXXX-XXXXX
+  ```
+
+  For more information, see [Slmgr.vbs Options](/windows-server/get-started/activation-slmgr-vbs-options).
+
+> [!TIP]
 > Be sure to finalize your image using the generalize option of Sysprep to boot into the Out of Box Experience (oobe) for your customer's first experience.
 >
 > For more information on finalizing your image for replication, see [Sysprep Process Overview](/windows-hardware/manufacture/desktop/sysprep-process-overview).
@@ -102,7 +118,7 @@ You can install your ePKEA into the offline image using either `Set-WindowsProdu
    Set-WindowsProductKey -Path “c:\offline” -ProductKey “XXXXX-XXXXX-XXXXX-XXXXX-XXXXX”
    ```
 
-   For more information, see [Set-WindowsProductKey.](/powershell/module/dism/set-windowsproductkey)
+   For more information, see [Set-WindowsProductKey](/powershell/module/dism/set-windowsproductkey).
 
 - To apply your ePKEA to an offline image using **DISM /SetProductKey** from PowerShell.
 
@@ -112,12 +128,16 @@ You can install your ePKEA into the offline image using either `Set-WindowsProdu
 
    For more information, see [DISM /SetProductKey](/windows-hardware/manufacture/desktop/dism-windows-edition-servicing-command-line-options#set-productkey).
 
-> [!IMPORTANT]
+> [!TIP]
 > Once you complete the customizations that are required for your offline image, you must commit the changes and dismount the image.
 >
 > For more information, see Modify a [Windows Image Using DISM](/windows-hardware/manufacture/desktop/mount-and-modify-a-windows-image-using-dism).
 
-## Protect your Product Key
+## Managing your ePKEA Product Keys
+
+Using Embedded Product Key Entry Activation (ePKEA) product keys require that an OEM handles the product key responsibly. ePKEA keys should be protected and their remaining activation count monitored to ensure that the consumed activations match the number of devices produced.
+
+### Protect your Product Key
 
 > [!IMPORTANT]
 > **Your ePKEA is confidential**.
@@ -135,11 +155,17 @@ Slmgr.vbs /cpky
 
 For more information, see [Slmgr.vbs Options](/windows-server/get-started/activation-slmgr-vbs-options).
 
-## Activation
+### Monitor activations remaining for ePKEA product keys
 
-### To activate using an internet connection
+ePKEA product keys are similar to MAK product keys that the Volume Activation Management Tool (VAMT) was designed to support, therefore it also works with ePKEA product keys. You can use the Volume Activation Management Tool (VAMT) to monitor the number of activations remaining for your ePKEA keys. Just add your ePKEA keys to VAMT and select Product key data online to retrieve the number of remaining activations for the ePKEA.
 
-Windows IoT Enterprise attempts to activate automatically if you're connected to the internet. You can confirm your activation status in Settings Or at the command line.
+For more information, see [Using VAMT to Manage Product Keys](/windows/deployment/volume-activation/add-remove-product-key-vamt).
+
+## Activate your device
+
+### Activate using an Internet connection
+
+Windows IoT Enterprise attempts to activate automatically if you're connected to the internet. You can confirm your activation status in Settings or using the Windows Software Licensing Management Tool (SLMGR.VBS).
 
 - **Settings**  
 
@@ -147,36 +173,51 @@ Windows IoT Enterprise attempts to activate automatically if you're connected to
 
    If your device shows that it isn't activated, you can trigger an activation attempt by selecting **Activate Windows now**.
 
-- **PowerShell command line**
+- **Windows Software Licensing Management Tool (SLMGR.VBS)**
 
-   To view your activation status using the command line, execute the following command from a PowerShell instance running as administrator.
+   Using the keyboard on your device press <kbd>Windows</kbd> + <kbd>R</kbd> and type one of the following commands into the "Run" dialog.
 
-   | Information Level | Command |
-   | ---- | ---- |
-   | Abbreviated | `slmgr.vbs /dli` |
-   | Verbose     | `slmgr.vbs /dlv` |
+   | Information Level | Command          |
+   | ----------------- |  --------------- |
+   | Abbreviated       | `slmgr.vbs /dli` |
+   | Verbose           | `slmgr.vbs /dlv` |
+
+   Note: If you prefer, these commands can also be run from a PowerShell command prompt.
 
    If your device show that it isn't activated, you can also trigger an activation attempt using `slmgr.vbs /ato`.
 
    For more information, see [Slmgr.vbs Options](/windows-server/get-started/activation-slmgr-vbs-options.)
 
-### To activate by phone
+### Activate using a telephone
 
-1. Select **Start** > **Settings** > **System** > **Activation**
-1. Under **Activate Windows Now section**, select **Activate by Phone**
+You can activate your device by using a telephone to call the Microsoft Product Activation Center. The automated phone system asks for your installation ID (IID) then provide you with a 48-digit confirmation ID.
 
-## To Do
+1. Using the keyboard on your device press <kbd>Windows</kbd> + <kbd>R</kbd> and type the following command into the "Run" dialog.
 
-- No internet connectivity
-  - Phone Activation
-    - SLMGR
-    - Settings > Activation UI
-  - Activate using VAMT via Proxy
-  - Deferred Activation State
-- RunOnce
-- Checking your activation status
-- Reactivation
-- Activation and Unified Write Filter
-- Managing ePKEA allotment
-- ePKEA Default Manufacturing keys
-- Troubleshooting
+   ```text
+   SLUI 4
+   ```
+
+1. Call the Microsoft Activation Center using the number on your screen.
+1. Follow the automated instructions and, when prompted, provide the 63-digit Installation ID.
+1. Enter the confirmation ID provided by the phone activation system then select **Activate Windows**.
+
+### Activate using the Volume Activation Management Tool (VAMT)
+
+You can use the Volume Activation Management Tool (VAMT) to perform activation for Windows IoT Enterprise devices that don't have Internet access. Just like a Multiple activation Key (MAK), Embedded Product Key Entry Activation (ePKEA) is eligible for proxy activation.
+
+For information on using VAMT to activate your Windows IoT Enterprise devices that don't have Internet access, see [Using Volume Activation Management Tool to Perform Proxy Activation](/windows/deployment/volume-activation/proxy-activation-vamt).
+
+## Other Resources
+
+- [Introduction to Volume Activation Management Tool (VAMT)](/windows/deployment/volume-activation/introduction-vamt)
+- [Desktop Manufacturing Overview](/windows-hardware/manufacture/desktop/)
+- [Software Licensing Management Tool (SLMGR)](/windows-server/get-started/activation-slmgr-vbs-options)
+- [Modify a Windows Image](/windows-hardware/manufacture/desktop/modify-an-image)
+- [Audit Mode Overview](/windows-hardware/manufacture/desktop/audit-mode-overview)
+- [Windows boot and installaiton overview](/windows-hardware/manufacture/desktop/boot-and-install-windows)
+- [Sysprep (System Preparation) Overview](/windows-hardware/manufacture/desktop/sysprep--system-preparation--overview)
+- [Windows Setup Automation using an Unattend.xml](/windows-hardware/customize/desktop/unattend/)
+- [Get help with Windows activation errors](https://support.microsoft.com/windows/get-help-with-windows-activation-errors-09d8fb64-6768-4815-0c30-159fa7d89d85)
+- [Manufacturing Winodws Engineering Guide (WEG)](/windows-hardware/manufacture/desktop/manufacturing-windows-engineering-guide)
+- [OEM 3.0 Activation System](/windows-hardware/manufacture/desktop/manufacturing-windows-engineering-guide)
