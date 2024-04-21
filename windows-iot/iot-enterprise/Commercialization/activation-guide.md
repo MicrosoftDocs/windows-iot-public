@@ -13,14 +13,14 @@ ms.date: 04/18/2024
 > [!NOTE]
 > **To Do**
 >
-> - No internet connectivity
-> - Deferred Activation State
 > - RunOnce
 > - Checking your activation status
 > - Reactivation
 > - Activation and Unified Write Filter
 > - ePKEA Default Manufacturing keys
 > - Troubleshooting
+
+## Introduction
 
 As a device maker, you can install and use the Windows IoT Enterprise operating system to develop and test prototype customer systems. Any images installed without a product key or using the default manufacturing key won't function for more than 30 days after the first boot of an image on a prototype system.
 
@@ -39,8 +39,31 @@ Windows IoT Enterprise provides three options for enabling activation, including
 
 This article focuses on using ePKEA to enable activation for Windows IoT Enterprise based devices. For more information about OA 3.0, see  [OEM Activation 3.0 system](/windows-hardware/manufacture/desktop/oem-activation-3).
 
+## Managing your ePKEA Product Keys
+
 > [!IMPORTANT]
->As an OEM receiving an ePKEA based product key, your ePKEA should be handled confidentially to prevent piracy from depleating your available activation count resulting in your customers being unable to activate the devices they purchased from you.
+> An ePKEA product key should be handled confidentially to prevent piracy from depleating your available activation count resulting in your customers being unable to activate the devices they purchased from you.
+>
+> You should also monitor the remaining activation count monitored to ensure that the consumed activations match the number of devices produced.
+
+### Protect your Product Key
+
+Remove your ePKEA from the registry
+To prevent disclosure attack where malicious code extracts your product key from the image. If a bad operator can extract the product key from your devices it could be used to enable activation on their own devices, draining the available activations associated with your ePKEA.
+  
+You should run `SLMGR.vbs /cpky` before finalizing your image to remove the product key from the registry to avoid your ePKEA from a disclosure attack and ensure that your ePKEA activation allotment isn't depleated.
+
+```powershell
+Slmgr.vbs /cpky
+```
+
+For more information, see [Slmgr.vbs Options](/windows-server/get-started/activation-slmgr-vbs-options).
+
+### Monitor activations remaining for ePKEA product keys
+
+ePKEA product keys are similar to MAK product keys that the Volume Activation Management Tool (VAMT) was designed to support, therefore it also works with ePKEA product keys. You can use the Volume Activation Management Tool (VAMT) to monitor the number of activations remaining for your ePKEA keys. Just add your ePKEA keys to VAMT and select Product key data online to retrieve the number of remaining activations for the ePKEA.
+
+For more information, see [Using VAMT to Manage Product Keys](/windows/deployment/volume-activation/add-remove-product-key-vamt).
 
 ## Manufacturing Process
 
@@ -133,35 +156,9 @@ You can install your ePKEA into the offline image using either `Set-WindowsProdu
 >
 > For more information, see Modify a [Windows Image Using DISM](/windows-hardware/manufacture/desktop/mount-and-modify-a-windows-image-using-dism).
 
-## Managing your ePKEA Product Keys
-
-Using Embedded Product Key Entry Activation (ePKEA) product keys require that an OEM handles the product key responsibly. ePKEA keys should be protected and their remaining activation count monitored to ensure that the consumed activations match the number of devices produced.
-
-### Protect your Product Key
-
-> [!IMPORTANT]
-> **Your ePKEA is confidential**.
->
-> Your ePKEA can activate a large number of Windows IoT Enterprise devices. Manage access to your ePKEA as a confidential asset. An ePKEA that is leaked to a bad operator could result in piracy and drain the available activations associated with your ePKEA and  prevent your legitimate customers from being able to activate their devices.
-
-Remove your ePKEA from the registry
-To prevent disclosure attack where malicious code extracts your product key from the image. If a bad operator can extract the product key from your devices it could be used to enable activation on their own devices, draining the available activations associated with your ePKEA.
-  
-You should run `SLMGR.vbs /cpky` before finalizing your image to remove the product key from the registry to avoid your ePKEA from a disclosure attack and ensure that your ePKEA activation allotment isn't depleated.
-
-```powershell
-Slmgr.vbs /cpky
-```
-
-For more information, see [Slmgr.vbs Options](/windows-server/get-started/activation-slmgr-vbs-options).
-
-### Monitor activations remaining for ePKEA product keys
-
-ePKEA product keys are similar to MAK product keys that the Volume Activation Management Tool (VAMT) was designed to support, therefore it also works with ePKEA product keys. You can use the Volume Activation Management Tool (VAMT) to monitor the number of activations remaining for your ePKEA keys. Just add your ePKEA keys to VAMT and select Product key data online to retrieve the number of remaining activations for the ePKEA.
-
-For more information, see [Using VAMT to Manage Product Keys](/windows/deployment/volume-activation/add-remove-product-key-vamt).
-
 ## Activate your device
+
+A Windows IoT Enterprise device that is enabled for activation is fully operational without an internet connection. Being fully operational without an internet connection is useful for devices deployed in disconnected environments or device categories that require checksum validation for its entire lifecycle such as commercial gaming devices. Activation is deferred until the device is connected to the internet. Once the device has an internet connection, Windows IoT Enterprise automatically attempts to activate resulting in either a successful activation or a failed activation. Windows IoT Enterprise can't return to a deferred activation state once activation is attempted.
 
 ### Activate using an Internet connection
 
@@ -210,14 +207,14 @@ For information on using VAMT to activate your Windows IoT Enterprise devices th
 
 ## Other Resources
 
-- [Introduction to Volume Activation Management Tool (VAMT)](/windows/deployment/volume-activation/introduction-vamt)
+- [Volume Activation Management Tool (VAMT)](/windows/deployment/volume-activation/introduction-vamt)
 - [Desktop Manufacturing Overview](/windows-hardware/manufacture/desktop/)
 - [Software Licensing Management Tool (SLMGR)](/windows-server/get-started/activation-slmgr-vbs-options)
 - [Modify a Windows Image](/windows-hardware/manufacture/desktop/modify-an-image)
 - [Audit Mode Overview](/windows-hardware/manufacture/desktop/audit-mode-overview)
-- [Windows boot and installaiton overview](/windows-hardware/manufacture/desktop/boot-and-install-windows)
+- [Windows boot and installation overview](/windows-hardware/manufacture/desktop/boot-and-install-windows)
 - [Sysprep (System Preparation) Overview](/windows-hardware/manufacture/desktop/sysprep--system-preparation--overview)
 - [Windows Setup Automation using an Unattend.xml](/windows-hardware/customize/desktop/unattend/)
 - [Get help with Windows activation errors](https://support.microsoft.com/windows/get-help-with-windows-activation-errors-09d8fb64-6768-4815-0c30-159fa7d89d85)
-- [Manufacturing Winodws Engineering Guide (WEG)](/windows-hardware/manufacture/desktop/manufacturing-windows-engineering-guide)
+- [Manufacturing Windows Engineering Guide (WEG)](/windows-hardware/manufacture/desktop/manufacturing-windows-engineering-guide)
 - [OEM 3.0 Activation System](/windows-hardware/manufacture/desktop/manufacturing-windows-engineering-guide)
