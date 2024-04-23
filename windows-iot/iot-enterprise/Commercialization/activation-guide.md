@@ -5,20 +5,10 @@ author: terrywarwick
 ms.service: windows-iot
 ms.subservice: iot
 ms.topic: article `
-ms.date: 04/18/2024
+ms.date: 04/22/2024
 ---
 
 # OEM Activation
-
-> [!NOTE]
-> **To Do**
->
-> - RunOnce
-> - Checking your activation status
-> - Reactivation
-> - Activation and Unified Write Filter
-> - ePKEA Default Manufacturing keys
-> - Troubleshooting
 
 ## Introduction
 
@@ -106,7 +96,7 @@ While you are in Audit mode, you can apply your production ePKEA to your image u
   - Select Start then begin typing Activation and select Activation settings once it appears
   - Select Start > Settings > System > Activation
   - Select Start > All Apps > Settings > System > Activation
-  - Right select Start > Run then type slui.exe
+  - Press <kbd>Windows</kbd> + <kbd>R</kbd> and type ```slui.exe``` into the Run dialog and press <kbd>Enter</kbd>.
 
 - **Method 2: Command Line | SLMGR.vbs**
 
@@ -204,6 +194,53 @@ You can activate your device by using a telephone to call the Microsoft Product 
 You can use the Volume Activation Management Tool (VAMT) to perform activation for Windows IoT Enterprise devices that don't have Internet access. Just like a Multiple activation Key (MAK), Embedded Product Key Entry Activation (ePKEA) is eligible for proxy activation.
 
 For information on using VAMT to activate your Windows IoT Enterprise devices that don't have Internet access, see [Using Volume Activation Management Tool to Perform Proxy Activation](/windows/deployment/volume-activation/proxy-activation-vamt).
+
+## Frequently asked questions
+
+- **How do I ensure my customers are not prompted for a product key during OOBE?**
+
+  **Answer:**  While in Audit Mode, set the registry key value for **SetupDisplayedProductKey** to **1** using the following PowerShell command.
+  
+  ```powershell
+  reg add HKLM\Software\Microsoft\Windows\CurrentVersion\Setup\OOBE /v SetupDisplayedProductKey /t REG_DWORD /d 1
+  ```
+
+- **How do I ensure that activation occurs at a specific time?**
+
+  **Answer:**  Configure Windows to attempt to activate on the next reboot by adding SLMGR.vbs /ato to the RunOnce registry key using the following PowerShell command.
+
+  ```powershell
+  Reg add HkLm\Software\microsoft\Windows\CurrentVersion\RunOnce /v autoactivate /t REG_SZ /d “C:\windows\system32\slmgr.vbs /ato”
+  ```
+
+- **How do I check my activation status?**
+
+  **Answer:** You can check your activation status using Settings or the Software Licensing Management Tool.
+  
+  - To check your activation status using Settings, using your keyboard, press <kbd>Windows</kbd> + <kbd>R</kbd>, then type ```slui.exe``` into the Run dialog and press <kbd>Enter</kbd>.
+  - To check your activation status using the Software Licensing Management Tool, using your keyboard, press <kbd>Windows</kbd> + <kbd>R</kbd>, then type ```slmgr.vbs /dlv``` into the Run dialog and press <kbd>Enter</kbd>.
+
+- **What causes a device to require reactivation?**
+
+  **Answer:**  Anytime a hardware change is made to an active device, the device is classified as either *in-tolerance* or *out-of-tolerance*. A minor change such as adding memory or changing the hard drive would typically be considered *in-tolerance* and not require reactivation. Major hardware changes, such as changing the motherboard, can cause a device to be considered *out-of-tolerance*, which sets the device back to a not activated state. A large number of small hardware changes made at the same time can also push the device into an *out-of-tolerance* state.
+
+- **Why does my device show *Activate Windows* in the lower right corner of the display?**
+
+  **Answer:**  When a device requires reactivation, a watermark is displayed in the lower-right corner of each attached display indicating that the device isn't activated. As a result you can't change the Windows personalization settings, such as desktop background or the lock screen background until the device is reactivated.
+
+- **How do I confirm the product key used to enable activation?**
+
+  **Answer:** You can retrieve the last five digits of the product key used to enable activation using the following PowerShell command.
+
+  ```powershell
+  slmgr.vbs /dli
+  ```
+
+  The last five digits of the product key used to enable activation can be found after the *Partial Product Key:* value in the output.
+  
+- **How does the use of Unified Write Filer (UWF) impact activation?**
+
+  **Answer:** Windows activates as expected. However, if Unified Write Filter (UWF) is enabled when Windows is activated, restarting the device resets the activation state and you must reactivate the device. Although the device doesn't stay activated, UWF is doing exactly what is it supposed to do. You must activate Windows before enabling UWF, or suspend UWF before attempting to activate in order for the activation state to be retained.
 
 ## Other Resources
 
