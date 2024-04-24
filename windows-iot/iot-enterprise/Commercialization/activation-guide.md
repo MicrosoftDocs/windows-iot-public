@@ -63,7 +63,7 @@ For more information, see [Windows Manufacturing Overview](/windows-hardware/man
 
 ## Enable Activation
 
-You can install your production ePKEA product key using any of the following methods:
+You can install your production ePKEA product key using any of the following 4 methods:
 
 ### Interactive Setup
 
@@ -148,7 +148,7 @@ You can install your ePKEA into the offline image using either `Set-WindowsProdu
 
 ## Activate your device
 
-A Windows IoT Enterprise device that is enabled for activation is fully operational without an internet connection. Being fully operational without an internet connection is useful for devices deployed in disconnected environments or device categories that require checksum validation for its entire lifecycle such as commercial gaming devices. Activation is deferred until the device is connected to the internet. Once the device has an internet connection, Windows IoT Enterprise automatically attempts to activate resulting in either a successful activation or a failed activation. Windows IoT Enterprise can't return to a deferred activation state once activation is attempted.
+A Windows IoT Enterprise device that is enabled for activation is fully operational without an internet connection. Being fully operational without an internet connection is useful for devices deployed in disconnected environments or device categories that require checksum validation for its entire lifecycle such as commercial gaming devices. Activation is deferred until the device is connected to a network that can access the Microsoft Activation Servers. If the device believes it can get to the Microsoft Activation Servers, Windows IoT Enterprise automatically attempts to activate resulting in either a successful activation or a failed activation. Windows IoT Enterprise can't return to a deferred activation state once activation is attempted. You can activate your production ePKEA product key using any of the following 3 methods:
 
 ### Activate using an Internet connection
 
@@ -171,7 +171,7 @@ Windows IoT Enterprise attempts to activate automatically if you're connected to
 
    Note: If you prefer, these commands can also be run from a PowerShell command prompt.
 
-   If your device show that it isn't activated, you can also trigger an activation attempt using `slmgr.vbs /ato`.
+   A result of **License Status:Licensed** indicates the device is activated If your device shows that it isn't activated, you can also trigger an activation attempt using `slmgr.vbs /ato`.
 
    For more information, see [Slmgr.vbs Options](/windows-server/get-started/activation-slmgr-vbs-options.)
 
@@ -197,13 +197,9 @@ For information on using VAMT to activate your Windows IoT Enterprise devices th
 
 ## Frequently asked questions
 
-- **How do I ensure my customers are not prompted for a product key during OOBE?**
+- **Are there any logs where can I tell that my device has attempted to activate?**
 
-  **Answer:**  While in Audit Mode, set the registry key value for **SetupDisplayedProductKey** to **1** using the following PowerShell command.
-  
-  ```powershell
-  reg add HKLM\Software\Microsoft\Windows\CurrentVersion\Setup\OOBE /v SetupDisplayedProductKey /t REG_DWORD /d 1
-  ```
+  **Answer:**  In the System Event Viewer look for a 118 event in the Client Licensing Event Log, this indicates that the device believed it could get to the Microsoft Acivation Servers to activate, the device came out of Deferred activation and attempted to activate.
 
 - **How do I ensure that activation occurs at a specific time?**
 
