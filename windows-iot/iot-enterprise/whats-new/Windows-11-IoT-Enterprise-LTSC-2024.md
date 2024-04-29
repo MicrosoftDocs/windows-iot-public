@@ -38,8 +38,8 @@ Windows 11 IoT Enterprise LTSC 2024 continues to offer a 10-year support lifecyc
 Windows 11 IoT Enterprise LTSC 2024 follows the [Fixed Lifecycle Policy](/lifecycle/policies/fixed).
 
 | Version | Build  | Availability | End of Servicing |
-| --- | --- | --- | --- |
-| 2024 | TBD | 2024&#8209;05&#8209;22  | 2034&#8209;10&#8209;10 |
+| ---- | ----- | --- | --- |
+| 2024 | 26100 |     |     |
 
 For more information, see [Windows 11 IoT Enterprise LTSC 2024 support lifecycle](/lifecycle/products/windows-11-iot-enterprise-ltsc-2024).
 
@@ -50,7 +50,7 @@ Windows 11 IoT Enterprise LTSC 2024 release includes the cumulative enhancements
 - [Windows 11 IoT Enterprise, version 21H2](Windows-11-IoT-Enterprise-21H2.md)
 - [Windows 11 IoT Enterprise, version 22H2](Windows-11-IoT-Enterprise-22H2.md)
 - [Windows 11 IoT Enterprise, version 23H2](Windows-11-IoT-Enterprise-23H2.md)
-- [Windows 11 IoT Enterprise, version 24H2](Windows-11-IoT-Enterprise-24H2.md)
+- Windows 11 IoT Enterprise, version 24H2
 
 | Feature </br> [Release] | Description |
 | --- | --- |
