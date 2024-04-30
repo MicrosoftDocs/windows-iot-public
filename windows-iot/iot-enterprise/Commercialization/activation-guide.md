@@ -38,8 +38,7 @@ This article focuses on using ePKEA to enable activation for Windows IoT Enterpr
 
 ### Protect your Product Key
 
-Remove your ePKEA from the registry
-To prevent disclosure attack where malicious code extracts your product key from the image. If a bad operator can extract the product key from your devices it could be used to enable activation on their own devices, draining the available activations associated with your ePKEA.
+Remove your ePKEA from the registry to prevent disclosure attack where malicious code extracts your product key from the image. If a bad operator can extract the product key from your devices it could be used to enable activation on their own devices, draining the available activations associated with your ePKEA.
   
 You should run `SLMGR.vbs /cpky` before finalizing your image to remove the product key from the registry to avoid your ePKEA from a disclosure attack and ensure that your ePKEA activation allotment isn't depleted.
 
