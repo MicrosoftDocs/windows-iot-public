@@ -7,13 +7,10 @@ ms.service: windows-iot
 ms.subservice: iot
 author: TerryWarwick
 ms.author: twarwick
-ms.date: 02/28/2024
+ms.date: 04/29/2024
 ---
 
 # What's new in Windows 11 Enterprise LTSC 2024
-
-> [!WARNING]
-> THIS IS AN IN-PROGRESS ROUGH DRAFT. The wording and feature list may change before publishing.
 
 ## Overview
 

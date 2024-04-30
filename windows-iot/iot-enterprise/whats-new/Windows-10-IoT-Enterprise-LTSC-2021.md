@@ -6,13 +6,10 @@ author: TerryWarwick
 ms.author: twarwick
 ms.topic: article
 ms.subservice: iot
-ms.date: 3/10/2023
+ms.date: 04/29/2024
 ---
 
 # What's new in Windows 10 Enterprise LTSC 2021
-
-> [!WARNING]
-> THIS IS AN IN-PROGRESS ROUGH DRAFT. The wording and feature list may change before publishing.
 
 ## Overview
 
