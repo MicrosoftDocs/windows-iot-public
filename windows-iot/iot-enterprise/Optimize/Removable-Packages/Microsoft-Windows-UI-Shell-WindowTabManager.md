@@ -3,8 +3,8 @@ title: Package - Window Tab Manager
 titleSuffix: Windows IoT Enterprise
 author: TerryWarwick
 ms.author: twarwick
-ms.date: 02/12/2024
-ms.topic: article
+ms.date: 04/29/2024
+ms.topic: reference
 ms.service: windows-iot
 ms.subservice: iot
 description: Removable Package Details for Window Tab Manager
@@ -12,9 +12,6 @@ keywords: IoT Enterprise, removable packages, storage
 ---
 
 # Window Tab Manager
-
-> [!WARNING]
-> THIS IS AN IN-PROGRESS ROUGH DRAFT. The wording and feature list may change before publishing.
 
 Applies to:  
 ✅ Windows 11 IoT Enterprise LTSC 2024  
@@ -50,7 +47,7 @@ Package: **Microsoft-Windows-UI-Shell-WindowTabManager** </br> Lets an app manag
 
 | Release                             |   x64     |    ARM64    |
 |-------------------------------------|:---------:|:-----------:|
-| Windows 11 IoT Enterprise LTSC 2024 | 408 KB    | 947 KB      |
+| Windows 11 IoT Enterprise LTSC 2024 | 404 KB    | 953 KB      |
 
 ### File List
 

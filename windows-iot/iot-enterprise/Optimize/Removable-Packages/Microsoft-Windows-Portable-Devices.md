@@ -3,8 +3,8 @@ title: Package - Windows Portable Devices
 titleSuffix: Windows IoT Enterprise
 author: TerryWarwick
 ms.author: twarwick
-ms.date: 02/13/2024
-ms.topic: article
+ms.date: 04/29/2024
+ms.topic: reference
 ms.service: windows-iot
 ms.subservice: iot
 description: Removable Package Details for Microsoft-Windows-Portable-Devices
@@ -64,7 +64,7 @@ These packages collectively provide the functionality represented by the [Media 
 
 | Release                             |   x64     |    ARM64    |
 |-------------------------------------|:---------:|:-----------:|
-| Windows 11 IoT Enterprise LTSC 2024 | 6,830 KB  | 7,979 KB    |
+| Windows 11 IoT Enterprise LTSC 2024 | 6,847 KB  | 8,037 KB    |
 | Windows 10 IoT Enterprise LTSC 2021 | 6,405 KB  |             |
 
 ### File List

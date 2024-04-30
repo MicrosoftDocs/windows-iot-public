@@ -3,8 +3,8 @@ title: Package - Printer Drivers
 titleSuffix: Windows IoT Enterprise
 author: TerryWarwick
 ms.author: twarwick
-ms.date: 01/31/2024
-ms.topic: article
+ms.date: 04/29/2024
+ms.topic: reference
 ms.service: windows-iot
 ms.subservice: iot
 description: Removable Package Details for Microsoft-Windows-Printer-Drivers
@@ -52,7 +52,7 @@ Package: **Microsoft-Windows-Printer-Drivers** </br> Generic / Text Only, Generi
 
 | Release                             |   x64     |    ARM64    |
 |-------------------------------------|:---------:|:-----------:|
-| Windows 11 IoT Enterprise LTSC 2024 | 8,578 KB  | 94 KB       |
+| Windows 11 IoT Enterprise LTSC 2024 | 8,592 KB  | 99 KB       |
 | Windows 10 IoT Enterprise LTSC 2021 | 8,200 KB  |             |
 
 ### File List

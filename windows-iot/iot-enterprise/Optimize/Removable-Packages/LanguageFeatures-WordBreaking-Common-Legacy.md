@@ -3,8 +3,8 @@ title: Package - Language Word Breaking Legacy
 titleSuffix: Windows IoT Enterprise
 author: TerryWarwick
 ms.author: twarwick
-ms.date: 02/23/2024
-ms.topic: article
+ms.date: 04/29/2024
+ms.topic: reference
 ms.service: windows-iot
 ms.subservice: iot
 description: Removable Package Details for LanguageFeatures_WordBreaking_Common_Legacy
@@ -52,7 +52,7 @@ Package: **LanguageFeatures-Wordbreaking-Common-legacy** </br> Legacy neutral wo
 
 | Release                             |   x64     |    ARM64    |
 |-------------------------------------|:---------:|:-----------:|
-| Windows 11 IoT Enterprise LTSC 2024 | 1,568 KB  | 1,765 KB    |
+| Windows 11 IoT Enterprise LTSC 2024 | 1,568 KB  | 1,764 KB    |
 | Windows 10 IoT Enterprise LTSC 2021 | 1,542 KB   |             |
 
 ### File List

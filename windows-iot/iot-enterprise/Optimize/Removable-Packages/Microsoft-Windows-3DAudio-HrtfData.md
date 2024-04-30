@@ -3,8 +3,8 @@ title: Package - 3D Audio HRTF Data
 titleSuffix: Windows IoT Enterprise
 author: TerryWarwick
 ms.author: twarwick
-ms.date: 02/13/2024
-ms.topic: article
+ms.date: 04/29/2024
+ms.topic: reference
 ms.service: windows-iot
 ms.subservice: iot
 description: Removable Package Details for 3D Audio HRTF Data
@@ -12,9 +12,6 @@ keywords: IoT Enterprise, removable packages, storage
 ---
 
 # 3D Audio HRTF Data
-
-> [!WARNING]
-> THIS IS AN IN-PROGRESS ROUGH DRAFT. The wording and feature list may change before publishing.
 
 Applies to:  
 ✅ Windows 11 IoT Enterprise LTSC 2024  

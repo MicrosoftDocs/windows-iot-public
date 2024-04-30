@@ -3,8 +3,8 @@ title: Package - Computer Manager Launcher
 titleSuffix: Windows IoT Enterprise
 author: TerryWarwick
 ms.author: twarwick
-ms.date: 02/13/2024
-ms.topic: article
+ms.date: 04/29/2024
+ms.topic: reference
 ms.service: windows-iot
 ms.subservice: iot
 description: Removable Package Details for Computer Manager Launcher
@@ -12,9 +12,6 @@ keywords: IoT Enterprise, removable packages, storage
 ---
 
 # Computer Manager Launcher
-
-> [!WARNING]
-> THIS IS AN IN-PROGRESS ROUGH DRAFT. The wording and feature list may change before publishing.
 
 Applies to:  
 ✅ Windows 11 IoT Enterprise LTSC 2024  
@@ -50,7 +47,7 @@ Package: **Microsoft-Windows-ComputerManagerLauncher** </br>  Computer Managemen
 
 | Release                             |   x64     |    ARM64    |
 |-------------------------------------|:---------:|:-----------:|
-| Windows 11 IoT Enterprise LTSC 2024 | 483 KB    | 604 KB      |
+| Windows 11 IoT Enterprise LTSC 2024 | 483 KB    | 610 KB      |
 
 ### File List
 

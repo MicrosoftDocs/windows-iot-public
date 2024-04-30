@@ -3,8 +3,8 @@ title: Package - Shell Accessories
 titleSuffix: Windows IoT Enterprise
 author: TerryWarwick
 ms.author: twarwick
-ms.date: 01/31/2024
-ms.topic: article
+ms.date: 04/29/2024
+ms.topic: reference
 ms.service: windows-iot
 ms.subservice: iot
 description: Removable Package Details for Microsoft-Windows-ShellOptions
@@ -52,7 +52,7 @@ Package: **Microsoft-Windows-ShellOptions** </br> Modern Calculator, Character M
 
 | Release                             |   x64     |    ARM64    |
 |-------------------------------------|:---------:|:-----------:|
-| Windows 11 IoT Enterprise LTSC 2024 | 787 KB    | 745 KB      |
+| Windows 11 IoT Enterprise LTSC 2024 | 783 KB    | 748 KB      |
 | Windows 10 IoT Enterprise LTSC 2021 | 657 KB    |             |
 
 ### File List

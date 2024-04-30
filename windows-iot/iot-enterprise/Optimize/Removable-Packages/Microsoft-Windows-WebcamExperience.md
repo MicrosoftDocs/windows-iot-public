@@ -3,8 +3,8 @@ title: Package - Webcam Experience
 titleSuffix: Windows IoT Enterprise
 author: TerryWarwick
 ms.author: twarwick
-ms.date: 02/21/2024
-ms.topic: article
+ms.date: 04/29/2024
+ms.topic: reference
 ms.service: windows-iot
 ms.subservice: iot
 description: Removable Package Details for Microsoft-Windows-WebCamExperiece
@@ -64,7 +64,7 @@ These packages collectively provide the functionality represented by the [Media 
 
 | Release                             |   x64     |    ARM64    |
 |-------------------------------------|:---------:|:-----------:|
-| Windows 11 IoT Enterprise LTSC 2024 | 1,013 KB  | 980 KB      |
+| Windows 11 IoT Enterprise LTSC 2024 | 1,018 KB  | 986 KB      |
 | Windows 10 IoT Enterprise LTSC 2021 | 1,394 KB  |             |
 
 ### File List

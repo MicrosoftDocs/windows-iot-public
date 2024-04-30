@@ -3,8 +3,8 @@ title: Package - Desktop File Explorer
 titleSuffix: Windows IoT Enterprise
 author: TerryWarwick
 ms.author: twarwick
-ms.date: 02/23/2024
-ms.topic: article
+ms.date: 04/29/2024
+ms.topic: reference
 ms.service: windows-iot
 ms.subservice: iot
 description: Removable Package Details for Desktop File Explorer
@@ -12,9 +12,6 @@ keywords: IoT Enterprise, removable packages, storage
 ---
 
 # Desktop File Explorer
-
-> [!WARNING]
-> THIS IS AN IN-PROGRESS ROUGH DRAFT. The wording and feature list may change before publishing.
 
 Applies to:  
 ✅ Windows 11 IoT Enterprise LTSC 2024  
@@ -50,7 +47,7 @@ Package: **Microsoft-Windows-DesktopFileExplorer** </br>  A special version of F
 
 | Release                             |   x64     |    ARM64    |
 |-------------------------------------|:---------:|:-----------:|
-| Windows 11 IoT Enterprise LTSC 2024 | 2,738 KB  | 3,787 KB    |
+| Windows 11 IoT Enterprise LTSC 2024 | 2,757 KB  | 3,818 KB    |
 
 ### File List
 

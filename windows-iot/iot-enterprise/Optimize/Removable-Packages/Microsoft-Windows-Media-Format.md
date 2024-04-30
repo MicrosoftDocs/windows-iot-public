@@ -3,8 +3,8 @@ title: Package - Windows Media Format
 titleSuffix: Windows IoT Enterprise
 author: TerryWarwick
 ms.author: twarwick
-ms.date: 02/13/2024
-ms.topic: article
+ms.date: 04/29/2024
+ms.topic: reference
 ms.service: windows-iot
 ms.subservice: iot
 description: Removable Package Details for Microsoft-Windows-Media-Format
@@ -64,7 +64,7 @@ These packages collectively provide the functionality represented by the [Media 
 
 | Release                             |   x64     |    ARM64    |
 |-------------------------------------|:---------:|:-----------:|
-| Windows 11 IoT Enterprise LTSC 2024 | 5,202 KB  | 8,908 KB    |
+| Windows 11 IoT Enterprise LTSC 2024 | 5,200 KB  | 8,764 KB    |
 | Windows 10 IoT Enterprise LTSC 2021 | 5,559 KB  |             |
 
 ### File List

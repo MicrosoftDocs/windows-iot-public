@@ -3,8 +3,8 @@ title: Package - Media Foundation
 titleSuffix: Windows IoT Enterprise
 author: TerryWarwick
 ms.author: twarwick
-ms.date: 02/13/2024
-ms.topic: article
+ms.date: 04/29/2024
+ms.topic: reference
 ms.service: windows-iot
 ms.subservice: iot
 description: Removable Package Details for Microsoft-Media-Foundation
@@ -64,7 +64,7 @@ These packages collectively provide the functionality represented by the [Media 
 
 | Release                             |   x64     |    ARM64    |
 |-------------------------------------|:---------:|:-----------:|
-| Windows 11 IoT Enterprise LTSC 2024 | 56,959 KB | 99,210 KB   |
+| Windows 11 IoT Enterprise LTSC 2024 | 56,997 KB | 99,584 KB   |
 | Windows 10 IoT Enterprise LTSC 2021 | 63,747 KB |             |
 
 ### File List

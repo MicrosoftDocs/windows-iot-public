@@ -3,8 +3,8 @@ title: Package - Bio Enrollment Experience
 titleSuffix: Windows IoT Enterprise
 author: TerryWarwick
 ms.author: twarwick
-ms.date: 01/31/2024
-ms.topic: article
+ms.date: 04/29/2024
+ms.topic: reference
 ms.service: windows-iot
 ms.subservice: iot
 description: Removable Package Details for Microsoft-Windows-BioEnrollment-UX
@@ -52,7 +52,7 @@ Package: **Microsoft-Windows-BioEnrollment-UX** </br> For a complete description
 
 | Release                             |   x64     |    ARM64    |
 |-------------------------------------|:---------:|:-----------:|
-| Windows 11 IoT Enterprise LTSC 2024 | 3,470 KB  | 4,867 KB    |
+| Windows 11 IoT Enterprise LTSC 2024 | 3,483 KB  | 4,884 KB    |
 | Windows 10 IoT Enterprise LTSC 2021 | 3,589 KB  |             |
 
 ### File List

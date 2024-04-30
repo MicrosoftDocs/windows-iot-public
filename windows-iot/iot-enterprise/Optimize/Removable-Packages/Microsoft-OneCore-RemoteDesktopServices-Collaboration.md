@@ -3,8 +3,8 @@ title: Package - Remote Desktop Services
 titleSuffix: Windows IoT Enterprise
 author: TerryWarwick
 ms.author: twarwick
-ms.date: 02/12/2024
-ms.topic: article
+ms.date: 04/29/2024
+ms.topic: reference
 ms.prod: windows-iot
 ms.technology: iot
 description: Removable Package Details for Remote Desktop Services
@@ -12,9 +12,6 @@ keywords: IoT Enterprise, removable packages, storage
 ---
 
 # Remote Desktop Services
-
-> [!WARNING]
-> THIS IS AN IN-PROGRESS ROUGH DRAFT. The wording and feature list may change before publishing.
 
 Applies to:  
 ✅ Windows 11 IoT Enterprise LTSC 2024  
@@ -50,7 +47,7 @@ Package: **[Microsoft-OneCore-RemoteDesktopServices-Collaboration** </br>  Termi
 
 | Release                             |   x64     |    ARM64    |
 |-------------------------------------|:---------:|:-----------:|
-| Windows 11 IoT Enterprise LTSC 2024 | 1,460 KB  | 2,517 KB    |
+| Windows 11 IoT Enterprise LTSC 2024 | 1,460 KB  | 2,526 KB    |
 
 ### File List
 

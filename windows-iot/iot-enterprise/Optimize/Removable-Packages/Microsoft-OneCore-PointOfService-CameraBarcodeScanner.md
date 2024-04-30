@@ -3,8 +3,8 @@ title: Package - Camera Barcode Scanner
 titleSuffix: Windows IoT Enterprise
 author: TerryWarwick
 ms.author: twarwick
-ms.date: 02/13/2024
-ms.topic: article
+ms.date: 04/29/2024
+ms.topic: reference
 ms.prod: windows-iot
 ms.technology: iot
 description: Removable Package Details for Camera Barcode Scanner
@@ -12,9 +12,6 @@ keywords: IoT Enterprise, removable packages, storage
 ---
 
 # Camera Barcode Scanner
-
-> [!WARNING]
-> THIS IS AN IN-PROGRESS ROUGH DRAFT. The wording and feature list may change before publishing.
 
 Applies to:  
 ✅ Windows 11 IoT Enterprise LTSC 2024  
@@ -50,7 +47,7 @@ Package: **Microsoft-OneCore-PointOfService-CameraBarcodeScanner** </br>  Softwa
 
 | Release                             |   x64     |    ARM64    |
 |-------------------------------------|:---------:|:-----------:|
-| Windows 11 IoT Enterprise LTSC 2024 | 4,022 KB  | 4,661 KB    |
+| Windows 11 IoT Enterprise LTSC 2024 | 4,025 KB  | 4,664 KB    |
 
 ### File List
 
