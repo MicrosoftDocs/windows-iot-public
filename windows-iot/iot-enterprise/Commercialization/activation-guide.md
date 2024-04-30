@@ -196,6 +196,10 @@ For information on using VAMT to activate your Windows IoT Enterprise devices th
 
 ## Frequently asked questions
 
+- **How do I acquire a ePKEA that I can use for my devices?**
+
+  **Answer:**  You need to have a valid Cient License Agreement (CLA) in place with Microsoft and then you would fill out and submit the Special Key Request form. To acquire these you need to contact a Windows IoT Distributor, or if you are Direct with Microsoft contact your Microsoft Account Manager. 
+
 - **Are there any logs where can I tell that my device has attempted to activate?**
 
   **Answer:**  In the System Event Viewer look for a 118 event in the Client Licensing Event Log, this indicates that the device believed it could get to the Microsoft Acivation Servers to activate, the device came out of Deferred activation and attempted to activate.
@@ -237,6 +241,15 @@ For information on using VAMT to activate your Windows IoT Enterprise devices th
 
   **Answer:** Windows activates as expected. However, if Unified Write Filter (UWF) is enabled when Windows is activated, restarting the device resets the activation state and you must reactivate the device. Although the device doesn't stay activated, UWF is doing exactly what is it supposed to do. You must activate Windows before enabling UWF, or suspend UWF before attempting to activate in order for the activation state to be retained.
 
+- **I'm having problems with my ePKEA who can I contact for help?**
+
+  **Answer:** To get help with the PKEA you need to contact a Windows IoT Distributor, or if you are Direct with Microsoft contact your Microsoft Account Manager.
+
+- **I have more questions on activation, deploying the ePKEA or using VAMT who can I reach out to for help?**
+
+  **Answer:**  To get additional help with Activation you need to contact a Windows IoT Distributor, or if you are Direct with Microsoft contact your Microsoft Account Manager.
+  
+  
 ## Other Resources
 
 - [Volume Activation Management Tool (VAMT)](/windows/deployment/volume-activation/introduction-vamt)
