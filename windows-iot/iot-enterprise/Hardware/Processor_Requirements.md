@@ -12,17 +12,6 @@ keywords: IoT Enterprise, Hardware, Windows IoT
 
 # Processor Requirements for Windows IoT Enterprise
 
-## Overview
-
-This specification defines the minimum hardware requirements necessary to:
-
-* Boot and run Windows IoT Enterprise.
-* Update and service Windows IoT Enterprise.
-
-The goal of this specification is to enable OEMs, ODMs, SoC vendors, and other component vendors to make early design decisions for devices and computers that run Windows IoT Enterprise.
-
-This specification doesn't provide compatibility and certification requirements for devices and computers that run Windows IoT Enterprise or implementation guidance for exceptional user experiences.
-
 > [!NOTE]
 > Beginning with Windows 10, version 2004, all new Windows 10 systems will be required to use 64-bit builds and Microsoft will no longer release 32-bit builds for OEM distribution. This does not impact 32-bit customer systems that are manufactured with earlier versions of Windows 10; Microsoft remains committed to providing feature and security updates on these devices, including continued 32-bit media availability in non-OEM channels to support various upgrade installation scenarios.
 

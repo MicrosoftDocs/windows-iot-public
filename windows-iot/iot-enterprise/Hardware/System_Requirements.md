@@ -13,6 +13,17 @@ keywords: IoT Enterprise, Hardware, Windows IoT
 
 # Minimum System Requirements for Windows IoT Enterprise
 
+## Overview
+
+This specification defines the minimum hardware requirements necessary to:
+
+* Boot and run Windows IoT Enterprise.
+* Update and service Windows IoT Enterprise.
+
+The goal of this specification is to enable OEMs, ODMs, SoC vendors, and other component vendors to make early design decisions for devices and computers that run Windows IoT Enterprise.
+
+This specification doesn't provide compatibility and certification requirements for devices and computers that run Windows IoT Enterprise or implementation guidance for exceptional user experiences.
+
 **Preferred Minimum Requirements**
 
 The Windows IoT Enterprise preferred minimum requirements match the requirements for consumer general purpose devices where optimal performance and compatibility are required. Windows IoT Enterprise based devices have some flexibility from this system requirements bar for specialized devices. You must carefully consider deviating from this bar when producing specialized devices where software can be added to the device by the end customer. As an example, not offering a TPM can affect software that the end user would require, whereas using different storage devices typically only affect read and write performance.    
