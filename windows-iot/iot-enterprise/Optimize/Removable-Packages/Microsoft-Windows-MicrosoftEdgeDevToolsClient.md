@@ -3,7 +3,7 @@ title: Package - Microsoft Edge Developer Tools Client
 titleSuffix: Windows IoT Enterprise
 author: TerryWarwick
 ms.author: twarwick
-ms.date: 04/29/2024
+ms.date: 05/02/2024
 ms.topic: reference
 ms.service: windows-iot
 ms.subservice: iot
@@ -27,7 +27,7 @@ Package: **Microsoft-Windows-MicrosoftEdgeDevToolsClient** </br>  Microsoft Edge
 
    ```powershell
    $Arch = $env:PROCESSOR_ARCHITECTURE
-   $OSVer = (Get-ItemProperty -Path 'HKLM:\SOFTWARE\Microsoft\Windows NT\CurrentVersion').LCUVer
+   $OSVer = (Get-Command $env:WinDir\system32\ntdll.dll).FileVersionInfo.ProductVersion
    Dism.exe /Online /NoRestart /Disable-Feature /FeatureName:Microsoft-Windows-MicrosoftEdgeDevToolsClient /PackageName:Microsoft-Windows-Desktop-Required-ClientOnly-removable-Package~31bf3856ad364e35~$Arch~~$OSVer
    ````
 
@@ -46,7 +46,7 @@ Package: **Microsoft-Windows-MicrosoftEdgeDevToolsClient** </br>  Microsoft Edge
 
    ```powershell
    $Arch = $env:PROCESSOR_ARCHITECTURE
-   $OSVer = (Get-ItemProperty -Path 'HKLM:\SOFTWARE\Microsoft\Windows NT\CurrentVersion').LCUVer
+   $OSVer = (Get-Command $env:WinDir\system32\ntdll.dll).FileVersionInfo.ProductVersion
    Dism.exe /Online /Get-FeatureInfo /FeatureName:Microsoft-Windows-MicrosoftEdgeDevToolsClient /PackageName:Microsoft-Windows-Desktop-Required-ClientOnly-removable-Package~31bf3856ad364e35~$Arch~~$OSVer
    ````
 
