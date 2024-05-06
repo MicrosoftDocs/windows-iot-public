@@ -7,7 +7,7 @@ ms.service: windows-iot
 ms.subservice: iot
 author: TerryWarwick
 ms.author: twarwick
-ms.date: 04/29/2024
+ms.date: 05/06/2024
 ---
 
 # What's new in Windows 11 Enterprise LTSC 2024
@@ -81,7 +81,7 @@ Most accessories and associated drivers that work with Windows 10 IoT Enterprise
 
 ## Security
 
-The security and privacy features in Windows 11 are similar to Windows 10. Security for your devices starts with the hardware, and includes OS security, application security, and user & identity security. There are features available in the Windows OS to help in these areas. This section describes some of these features. For a more comprehensive view, including zero trust, see [Windows security](/windows/security/).
+The security and privacy features in Windows 11 are similar to Windows 10. Security for your devices starts with the hardware, and includes OS security, application security, and user & identity security. There are features available in the Windows OS to help in these areas. This section describes some of these features. Microsoft's [Edge Secured-core Program](/azure/certification/overview) provides recommended hardware with these feaures to ensure security out of the box.  For a more comprehensive view, including zero trust, see [Windows security](/windows/security/).
 
 | Feature </br> [Release] | Description |
 | --- | --- |
