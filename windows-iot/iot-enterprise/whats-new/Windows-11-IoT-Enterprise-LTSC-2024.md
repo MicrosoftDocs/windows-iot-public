@@ -14,7 +14,7 @@ ms.date: 05/06/2024
 
 ## Overview
 
-Windows IoT Enterprise LTSC is designed for specialty devices and use cases where functionality and features remain constant for the life of the device. Examples are devices that require regulatory certification or devices that perform a critical business function using the same operating system version over several years. These devices are typically found in industries including, but not limited to, banking, healthcare, hospitality, manufacturing and retail. 
+Windows IoT Enterprise LTSC is designed for specialty devices and use cases where functionality and features remain constant for the life of the device. Examples are devices that require regulatory certification or devices that perform a critical business function using the same operating system version over several years. These devices are typically found in industries including, but not limited to, banking, healthcare, hospitality, manufacturing and retail.
 
 We designed Windows IoT Enterprise LTSC with these use cases in mind. We support each Windows IoT Enterprise LTSC release for 10 years, and ensure that features and functionality don't change over the course of that 10-year lifecycle.
 
