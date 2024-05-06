@@ -40,5 +40,4 @@ You have several options for configuring your single-app kiosk.
 * [Guidelines for choosing an app for assigned access](/windows/configuration/guidelines-for-assigned-access-app)
 * [Kiosk apps for assigned access: Best practices](/windows-hardware/drivers/partnerapps/create-a-kiosk-app-for-assigned-access)
 * [Configure kiosks and digital signs](/windows/configuration/kiosk-methods)
-* [Prepare a device for kiosk configuration](/windows/configuration/kiosk-prepare)
 * [More kiosk methods and reference information](/windows/configuration/kiosk-additional-reference)

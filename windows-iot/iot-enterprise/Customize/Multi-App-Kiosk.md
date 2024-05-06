@@ -41,5 +41,4 @@ A multi-app kiosk is appropriate for devices that are shared by multiple people.
 * [Kiosk apps for assigned access: Best practices](/windows-hardware/drivers/partnerapps/create-a-kiosk-app-for-assigned-access)
 * [Guidelines for choosing an app for assigned access](/windows/configuration/guidelines-for-assigned-access-app)
 * [Configure kiosks and digital signs](/windows/configuration/kiosk-methods)
-* [Prepare a device for kiosk configuration](/windows/configuration/kiosk-prepare)
 * [More kiosk methods and reference information](/windows/configuration/kiosk-additional-reference)
