@@ -24,11 +24,11 @@ The goal of this specification is to enable OEMs, ODMs, SoC vendors, and other c
 
 This specification doesn't provide compatibility and certification requirements for devices and computers that run Windows IoT Enterprise or implementation guidance for exceptional user experiences.
 
-**Preferred Minimum Requirements**
+### Preferred Minimum Requirements
 
 The Windows IoT Enterprise preferred minimum requirements match the requirements for consumer general purpose devices where optimal performance and compatibility are required. Windows IoT Enterprise based devices have some flexibility from this system requirements bar for specialized devices. You must carefully consider deviating from this bar when producing specialized devices where software can be added to the device by the end customer. As an example, not offering a TPM can affect software that the end user would require, whereas using different storage devices typically only affect read and write performance. To enable Microsoft Security best practices out of the box, please refer to [Edge Secured-core minimum requirements](/azure/certification/program-requirements-edge-secured-core?pivots=platform-windows).
 
-**Optional Minimum Requirements**
+### Optional Minimum Requirements
 
 The Windows IoT Enterprise optional minimum requirements are provided for device makers to use when building a specialized device, which provides a curated "appliance like" experience. Some of these optional minimum requirements, such as a lower storage requirement, require extra monitoring and management throughout the lifecycle of the device to prevent storage from being fully consumed due to servicing or data file growth. It's important to fully validate the chosen configurations meet the needs of the specialized device for its lifetime before distribution.
 
@@ -98,13 +98,13 @@ The use of a TPM for Windows 10 IoT Enterprise devices is determined based on th
 
 For more information, see...
 
-- [How Windows uses the Trusted Platform Module (TPM)](/windows/security/hardware-security/tpm/how-windows-uses-the-tpm)
-- [TPM Requirements](/windows-hardware/design/minimum/minimum-hardware-requirements-overview#37-trusted-platform-module-tpm)
-- [Trusted Platform Module Technology Overview](/windows/security/information-protection/tpm/trusted-platform-module-overview)
-- [TPM Recommendations](/windows/security/information-protection/tpm/tpm-recommendations)
+* [How Windows uses the Trusted Platform Module (TPM)](/windows/security/hardware-security/tpm/how-windows-uses-the-tpm)
+* [TPM Requirements](/windows-hardware/design/minimum/minimum-hardware-requirements-overview#37-trusted-platform-module-tpm)
+* [Trusted Platform Module Technology Overview](/windows/security/information-protection/tpm/trusted-platform-module-overview)
+* [TPM Recommendations](/windows/security/information-protection/tpm/tpm-recommendations)
 
 ## Other Resources
 
-- [Windows Minimum Hardware Requirements](/windows-hardware/design/minimum/minimum-hardware-requirements-overview)
-- [Windows Processor Requirements](/windows-hardware/design/minimum/windows-processor-requirements)
-- [Hardware Component Guidelines](/windows-hardware/design/component-guidelines/components)
+* [Windows Minimum Hardware Requirements](/windows-hardware/design/minimum/minimum-hardware-requirements-overview)
+* [Windows Processor Requirements](/windows-hardware/design/minimum/windows-processor-requirements)
+* [Hardware Component Guidelines](/windows-hardware/design/component-guidelines/components)
