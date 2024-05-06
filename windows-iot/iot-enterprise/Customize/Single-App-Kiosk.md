@@ -32,7 +32,7 @@ You have several options for configuring your single-app kiosk.
 * [Microsoft Intune or other MDM providers](/windows/configuration/kiosk-single-app#mdm)
 
 > [!TIP]
-> You can also configure a kiosk account and app for single-app kiosk within [XML in a provisioning package](/windows/configuration/lock-down-windows-10-to-specific-apps) by using a [kiosk profile](/windows/configuration/lock-down-windows-10-to-specific-apps#profile). Be sure to check the [configuration recommendations](/windows/configuration/kiosk-prepare) before you set up your kiosk.
+> You can also configure a kiosk account and app for single-app kiosk within [XML in a provisioning package](/windows/configuration/lock-down-windows-10-to-specific-apps) by using a [kiosk profile](/windows/configuration/lock-down-windows-10-to-specific-apps#profile). 
 
 ## Additional Resources
 
