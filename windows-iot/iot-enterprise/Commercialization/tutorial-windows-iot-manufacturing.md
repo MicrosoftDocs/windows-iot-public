@@ -1,5 +1,5 @@
 ---
-title: "Tutorial: Manufacture and deploy Windows IoT Enterprise"
+title: Manufacture and deploy Windows IoT Enterprise
 description: This Manufacturing Guide consists of a series of steps that walk through how to build, set up, and commercialize your Windows IoT Enterprise devices.
 author: asergaz
 ms.author: sergaz
@@ -38,8 +38,7 @@ For example: "Tutorial: Create a Node.js and Express app in Visual Studio".
 
 -->
 
-# Tutorial: \<verb\> * \<noun\>
-TODO: Add your heading
+# Tutorial: Manufacture and deploy Windows IoT Enterprise
 
 <!-- 2. Introductory paragraph ----------------------------------------------------------
 

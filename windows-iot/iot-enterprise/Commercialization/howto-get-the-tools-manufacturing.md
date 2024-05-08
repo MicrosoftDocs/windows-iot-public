@@ -35,8 +35,7 @@ For example: "Migrate data from regular tables to ledger tables" or "Create a ne
 
 -->
 
-# "<verb> * <noun>"
-TODO: Add your heading
+# Get the tools needed to customize Windows IoT Enterprise
 
 <!-- 2. Introductory paragraph ----------------------------------------------------------
 

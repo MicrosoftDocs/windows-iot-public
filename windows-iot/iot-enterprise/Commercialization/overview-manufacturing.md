@@ -36,8 +36,7 @@ You can also use this in the TOC if your service name doesn’t cause the phrase
 
 -->
 
-# What is <product/service>? 
-TODO: Add your heading
+# Windows IoT Enterprise Manufacturing
 
 <!-- 2. Introductory paragraph ----------------------------------------------------------
 

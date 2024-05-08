@@ -35,8 +35,7 @@ For example: "Migrate data from regular tables to ledger tables" or "Create a ne
 
 -->
 
-# "<verb> * <noun>"
-TODO: Add your heading
+# Plan your custom reference images for different audiences
 
 <!-- 2. Introductory paragraph ----------------------------------------------------------
 
