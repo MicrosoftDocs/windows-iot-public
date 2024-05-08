@@ -21,7 +21,7 @@ An assigned access multi-app kiosk runs one or more apps from the desktop. Peopl
 
 ## Benefits of using a multi-app kiosk
 
-The benefit of a kiosk that runs only one or more specified apps is to provide an easy-to-understand experience for individuals by putting in front of them only the things they need to use, and removing from their view the things they don’t need to access.
+The benefit of a kiosk that runs multiple specified apps is to provide an easy-to-understand experience for individuals by showing them only the things they need to use, and removing the things they don’t need to access.
 
 A multi-app kiosk is appropriate for devices that are shared by multiple people. Each user can authenticate with the device and receive a customized lockdown experience based on the configuration.
 
