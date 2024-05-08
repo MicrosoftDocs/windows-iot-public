@@ -71,6 +71,17 @@
       href: ./Commercialization/iot-ent-sysprep-capture-deploy.md
     - name: Lab 5 - Configure Shell Launcher or Assigned Access
       href: ./Commercialization/iot-ent-shell-launcher-app-launcher.md
+  - name: Manufacturing devices
+    expanded: false
+    items:
+    - name: Overview
+      href: ./Commercialization/overview-manufacturing.md
+    - name: Plan your deployment
+      href: ./Commercialization/howto-plan-manufacturing.md
+    - name: Get the tools you need
+      href: ./Commercialization/howto-get-the-tools-manufacturing.md
+    - name: Manufacture and deploy images
+      href: ./Commercialization/tutorial-windows-iot-manufacturing.md
 - name: Customization
   expanded: false
   items:
