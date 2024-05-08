@@ -34,21 +34,21 @@ In this tutorial, you learn how to install and utilize WinGet on Windows IoT Ent
 
    For more information, see [How to install and update Desktop framework packages](/troubleshoot/developer/visualstudio/cpp/libraries/c-runtime-packages-desktop-bridge)
 
-1. WinGet CLI has a dependency on `Microsoft.UI.Xaml.2.7`.
+1. WinGet CLI has a dependency on `Microsoft.UI.Xaml.2.8`.
 
-   1. Download the `Microsoft.UI.Xaml.2.7` NuGet package from [Microsoft UI NuGet Org](https://www.nuget.org/packages/Microsoft.UI.Xaml/2.7.0). The download link is located on the right side at **Download Package**.
-      > [!NOTE]
-      > The dependency (<https://www.nuget.org/packages/Microsoft.UI.Xaml/2.7.0>>) is specific to version 2.7.0.
-      > Do not use a newer version unless a future release supports it.
-      > The installation will fail with 2.8 as of May 18, 2023.
+   1. Download the `Microsoft.UI.Xaml.2.8` NuGet package from [Microsoft UI NuGet Org](https://www.nuget.org/packages/Microsoft.UI.Xaml/). The download link is located on the right side at **Download Package**.
 
    1. Change the file extension from `.nupkg` to `.zip`. To change the file extension, Open Command Prompt, navigate to the directory where the nupkg file was downloaded and run the following command to rename the file:
 
    ```cmd
-   ren Microsoft.UI.Xaml.2.7.0.nupkg Microsoft.UI.Xaml.2.7.0.zip
+   ren Microsoft.UI.Xaml.2.8.6.nupkg Microsoft.UI.Xaml.2.8.6.zip
    ```
+      > [!NOTE]
+      > The latest version of Microsoft.UI.Xaml was 2.8.6 at time of this article.
+      > Replace the version 2.8.6 in the above command with the latest version downloaded from the Microsoft UI Xaml NuGet gallery.
 
-   1. Open the `.zip` folder renamed in the previous step using `File Explorer` and copy the file `tools\AppX\<your architecture>\release\Microsoft.UI.XAML.2.7.appx` to your downloads folder.  This file will be installed to your device in a future step.
+
+   1. Open the `.zip` folder renamed in the previous step using `File Explorer` and copy the file `tools\AppX\<your architecture>\release\Microsoft.UI.Xaml.2.8.appx` to your downloads folder.  This file will be installed to your device in a future step.
       1. For more information about working with `.zip files`, see [zipping and unzipping files.](https://support.microsoft.com/windows/zip-and-unzip-files-8d28fa72-f2f9-712f-67df-f80cf89fd4e5)
 
 ## Install WinGet Client
@@ -72,7 +72,7 @@ In this tutorial, you learn how to install and utilize WinGet on Windows IoT Ent
 
    Where
 
-   - `<path to UI xaml.appx file>` is the fully qualified path to the Microsoft UI Xaml 2.7.0 package you downloaded earlier.
+   - `<path to UI xaml.appx file>` is the fully qualified path to the Microsoft UI Xaml 2.8.6 package you downloaded earlier.
 
    > [!CAUTION]
    > Without the VCLibs and UI Xaml dependencies installed, the WinGet installer fails (without any error/warning messages). Specifically, the "winget.exe" file isn't added to "C:\Users\\[Username]\AppData\Local\Microsoft\WindowsApps"
