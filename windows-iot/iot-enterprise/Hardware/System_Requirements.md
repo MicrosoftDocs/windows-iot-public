@@ -32,7 +32,9 @@ The Windows IoT Enterprise preferred minimum requirements match the requirements
 
 The Windows IoT Enterprise optional minimum requirements are provided for device makers to use when building a specialized device, which provides a curated "appliance like" experience. Some of these optional minimum requirements, such as a lower storage requirement, require extra monitoring and management throughout the lifecycle of the device to prevent storage from being fully consumed due to servicing or data file growth. It's important to fully validate the chosen configurations meet the needs of the specialized device for its lifetime before distribution.
 
+<!--markdownlint-disable MD051 -->
 # [Windows 11 LTSC](#tab/Windows11LTSC)
+<!--markdownlint-enable MD051 -->
 
 Applies to:  
 ✅ Windows 11 IoT Enterprise LTSC
@@ -52,7 +54,9 @@ Applies to:
 | DirectX                | DirectX 12                        | DirectX 10 / None                 |
 | Display                | 9" diagonal</br>720p HD           | Custom Size / Optional            |
 
+<!--markdownlint-disable MD051 -->
 # [Windows 11 (Non-LTSC)](#tab/Windows11)
+<!--markdownlint-enable MD051 -->
 
 Applies to:  
 ✅ Windows 11 IoT Enterprise  
@@ -72,7 +76,9 @@ Applies to:
 | DirectX                | DirectX 12                    | DirectX 12                        | DirectX 10 / None                 |
 | Display                | 9" diagonal</br>720p HD       | Custom Size / Optional            | Custom Size / Optional            |
 
+<!--markdownlint-disable MD051 -->
 # [Windows 10](#tab/Windows10)
+<!--markdownlint-enable MD051 -->
 
 Applies to:  
 ✅ Windows 10 IoT Enterprise  
