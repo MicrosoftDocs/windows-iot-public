@@ -29,7 +29,7 @@ Windows 10 IoT Enterprise LTSC 2021 follows the [Fixed Lifecycle Policy](/lifecy
 
 | Version | Build  | Availability | End of Servicing |
 | --- | --- | --- | --- |
-| 2021 | 19044 | 2021-11-16 | 2032-01-13 |
+| Windows&nbsp;10&nbsp;IoT&nbsp;Enterprise,&nbsp;version&nbsp;2021 | 19044 | 2021-11-16 | 2032-01-13 |
 
 For more information, see [Windows 10 IoT Enterprise LTSC 2021 support lifecycle](/lifecycle/products/windows-10-iot-enterprise-ltsc-2021).
 
