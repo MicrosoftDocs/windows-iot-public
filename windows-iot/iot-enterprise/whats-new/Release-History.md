@@ -45,11 +45,11 @@ For more information, see [Windows IoT Enterprise LTSC support lifecycle](/lifec
 
 ## Windows IoT Enterprise
 
-Windows IoT Enterprise is also available through the General Availability Channel for Windows IoT Enterprise is also designed for special-purpose devices that require the latest feature updates as soon as they're available. Windows IoT Enterprise in the General Availability Channel provides a 36 month lifecycle (30 months for Windows 10) which is reset with each annual Feature Update. For more information, see [Windows as a Service - General Availability Channel](/windows/deployment/update/waas-overview#general-availability-channel).
+Windows IoT Enterprise is also available through the General Availability Channel for Windows IoT Enterprise is also designed for special-purpose devices that require the latest feature updates as soon as they're available. Windows IoT Enterprise in the General Availability Channel provides a 36 month lifecycle (30 months for Windows 10) which is reset with each annual feature update. For more information, see [Windows as a Service - General Availability Channel](/windows/deployment/update/waas-overview#general-availability-channel).
 
 ### Windows 11 IoT Enterprise
 
-Windows 11 IoT Enterprise releases follow the [Modern Lifecycle Policy](/lifecycle/policies/modern) where each release is supported for 36-months and each Feature Update resets the support lifecycle.
+Windows 11 IoT Enterprise releases follow the [Modern Lifecycle Policy](/lifecycle/policies/modern) where each release is supported for 36-months and each feature update resets the support lifecycle.
 
 (All dates are listed in ISO 8601 format: YYYY/MM/DD)
 
@@ -69,7 +69,7 @@ For more information, see [Windows 11 IoT Enterprise support lifecycle](/lifecyc
 
 ### Windows 10 IoT Enterprise
 
-Windows 10 IoT Enterprise releases follow the [Modern Lifecycle Policy](/lifecycle/policies/modern) where each release is supported for 30-months and each Feature Update resets the support lifecycle.
+Windows 10 IoT Enterprise releases follow the [Modern Lifecycle Policy](/lifecycle/policies/modern) where each release is supported for 30-months and each feature update resets the support lifecycle.
 
 (All dates are listed in ISO 8601 format: YYYY-MM-DD)
 
