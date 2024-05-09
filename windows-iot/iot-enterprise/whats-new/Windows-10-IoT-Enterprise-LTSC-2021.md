@@ -113,6 +113,6 @@ Windows 10 IoT Enterprise LTSC 2021 release includes the cumulative enhancements
 | ------- | ----------- |
 | **Manage Update Experience** | Introducing, generic, unbranded update message strings without reference to "Windows", "computer", or "PC" and configurable background color of the update screen from the traditional blue to whichever color best matches your branding requirements.  For more information, see [Manage Update Experience](/windows/iot/iot-enterprise/customize/update-notification). |
 
-## Related Topics
+## Related content
 
 - [What's new in Windows 10 Enterprise LTSC 2021](/windows/whats-new/ltsc/whats-new-windows-10-2021)

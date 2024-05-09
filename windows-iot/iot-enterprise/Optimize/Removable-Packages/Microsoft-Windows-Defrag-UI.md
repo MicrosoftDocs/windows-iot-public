@@ -57,7 +57,7 @@ Package: **Microsoft-Windows-Defrag-UI** </br>  Defragment and Optimize Drives g
 | dfrgui.exe.mun | %windir%\systemresources\dfrgui.exe.mun |
 | dfrgui.lnk | %programdata%\microsoft\windows\start menu\programs\administrative tools\dfrgui.lnk |
 
-## More Resources
+## Related Content
 
 - [Removable Packages](/windows/iot/iot-enterprise/Optimize-Your-Device/Removable-Packages)
 - [Reduce Disk Footprint](/windows/iot/iot-enterprise/Optimize-Your-Device/Reduce-Disk-Footprint)

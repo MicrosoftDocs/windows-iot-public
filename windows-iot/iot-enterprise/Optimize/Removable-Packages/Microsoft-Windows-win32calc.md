@@ -62,7 +62,7 @@ Package: **Microsoft-Windows-win32calc** </br> Legacy Calculator Application.
 | calculator.lnk | %programdata%\microsoft\windows\start menu\programs\accessories\calculator.lnk  |
 | win32calc.exe  | %windir%\system32\win32calc.exe |
 
-## More Resources
+## Related Content
 
 - [Removable Packages](../Removable-Packages.md)
 - [Device Optimization Overview](../Overview.md)

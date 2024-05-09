@@ -55,7 +55,7 @@ Package: **Microsoft-Windows-UI-Shell-WindowTabManager** </br> Lets an app manag
 |-----------|--------------------|
 | windows.internal.ui.shell.windowtabmanager.dll | %windir%\system32\windows.internal.ui.shell.windowtabmanager.dll |
 
-## More Resources
+## Related Content
 
 - [Removable Packages](/windows/iot/iot-enterprise/Optimize-Your-Device/Removable-Packages)
 - [Reduce Disk Footprint](/windows/iot/iot-enterprise/Optimize-Your-Device/Reduce-Disk-Footprint)

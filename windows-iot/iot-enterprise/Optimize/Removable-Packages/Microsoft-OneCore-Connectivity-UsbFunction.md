@@ -61,7 +61,7 @@ Package: **Microsoft-OneCore-Connectivity-UsbFunction** </br>  UFX, UFX Synopsis
 | ufxchipidea.sys | %windir%\system32\driverstore\filerepository\ufxchipidea.inf_amd64_1a8f9d49db4bf636\ufxchipidea.sys |
 | ufxsynopsys.sys | %windir%\system32\drivers\ufxsynopsys.sys |
 
-## More Resources
+## Related Content
 
 - [Removable Packages](/windows/iot/iot-enterprise/Optimize-Your-Device/Removable-Packages)
 - [Reduce Disk Footprint](/windows/iot/iot-enterprise/Optimize-Your-Device/Reduce-Disk-Footprint)

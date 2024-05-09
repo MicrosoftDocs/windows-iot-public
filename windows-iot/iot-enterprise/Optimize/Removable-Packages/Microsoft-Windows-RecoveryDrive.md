@@ -64,7 +64,7 @@ Package: **Microsoft-Windows-RecoveryDrive** </br> Create a recovery drive user 
 | recoverydrive.exe | %windir%\system32\recoverydrive.exe |
 | windlp.dll | %windir%\system32\windlp.dll |
 
-## More Resources
+## Related Content
 
 - [Removable Packages](../Removable-Packages.md)
 - [Device Optimization Overview](../Overview.md)

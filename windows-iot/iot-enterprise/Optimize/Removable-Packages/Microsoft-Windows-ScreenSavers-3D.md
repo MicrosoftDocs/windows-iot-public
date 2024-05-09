@@ -64,7 +64,7 @@ Package: **Microsoft-Windows-ScreenSavers-3D** </br> Screensavers: 3D Text, Bubb
 | ribbons.scr  | %windir%\system32\ribbons.scr |
 | sstext3d.scr | %windir%\system32\sstext3d.scr |
 
-## More Resources
+## Related Content
 
 - [Removable Packages](../Removable-Packages.md)
 - [Device Optimization Overview](../Overview.md)

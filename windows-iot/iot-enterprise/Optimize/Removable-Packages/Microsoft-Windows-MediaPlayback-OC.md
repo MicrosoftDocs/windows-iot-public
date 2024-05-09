@@ -73,7 +73,7 @@ These packages collectively provide the functionality represented by the [Media 
 |-----------|--------------------|
 |    N/A    |  No files associated with this package   |
 
-## More Resources
+## Related Content
 
 - [Removable Packages](../Removable-Packages.md)
 - [Device Optimization Overview](../Overview.md)

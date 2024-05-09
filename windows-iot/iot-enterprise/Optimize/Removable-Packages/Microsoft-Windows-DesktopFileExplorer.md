@@ -98,7 +98,7 @@ Package: **Microsoft-Windows-DesktopFileExplorer** </br>  A special version of F
 | fileexplorer.exe | %windir%\systemapps\microsoft.windows.fileexplorer_cw5n1h2txyewy\fileexplorer.exe |
 | resources.pri | %windir%\systemapps\microsoft.windows.fileexplorer_cw5n1h2txyewy\resources.pri |
 
-## More Resources
+## Related Content
 
 - [Removable Packages](/windows/iot/iot-enterprise/Optimize-Your-Device/Removable-Packages)
 - [Reduce Disk Footprint](/windows/iot/iot-enterprise/Optimize-Your-Device/Reduce-Disk-Footprint)

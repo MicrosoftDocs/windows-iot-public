@@ -138,7 +138,7 @@ Like Windows 10, Windows 11 IoT Enterprise LTSC 2024 receives monthly quality up
 | **Dev Drive** </br> [23H2] | Dev Drive is a new form of storage volume available to improve performance for key developer workloads. For more information, see [Set up a Dev Drive on Windows 11](/windows/dev-drive/) and [September 2023 - KB5030310](https://support.microsoft.com/kb/5030310). |
 |  **High Efficiency Video Coding (HEVC) support**  </br> [22H2] | HEVC is designed to take advantage of hardware capabilities on some newer devices to support 4K and Ultra HD content. For devices that don't have hardware support for HEVC videos, software support is provided, but the playback experience might vary based on the video resolution and your devices performance. |
 
-## Related articles
+## Related content
 
 - [Release History](Release-History.md)
 - [Minimum Hardware Requirements](../Hardware/Hardware_Requirements.md)

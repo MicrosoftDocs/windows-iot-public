@@ -59,7 +59,7 @@ Package: **Microsoft-Windows-ComputerManagerLauncher** </br>  Computer Managemen
 | compmgmtlauncher.exe | %windir%\system32\compmgmtlauncher.exe |
 | computer&nbsp;management.lnk | %programdata%\microsoft\windows\start menu\programs\administrative tools\computer management.lnk |
 
-## More Resources
+## Related Content
 
 - [Removable Packages](/windows/iot/iot-enterprise/Optimize-Your-Device/Removable-Packages)
 - [Reduce Disk Footprint](/windows/iot/iot-enterprise/Optimize-Your-Device/Reduce-Disk-Footprint)

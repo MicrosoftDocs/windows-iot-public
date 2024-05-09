@@ -152,7 +152,7 @@ These packages collectively provide the functionality represented by the [Media 
 | wmvsencd.dll              | %windir%\system32\wmvsencd.dll |
 | wmvxencd.dll              | %windir%\system32\wmvxencd.dll |
 
-## More Resources
+## Related Content
 
 - [Removable Packages](../Removable-Packages.md)
 - [Device Optimization Overview](../Overview.md)

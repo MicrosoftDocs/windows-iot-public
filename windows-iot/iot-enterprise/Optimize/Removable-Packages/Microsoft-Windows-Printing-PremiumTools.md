@@ -63,7 +63,7 @@ Package: **Microsoft-Windows-Printing-PremiumTools** </br> Print services migrat
 | printbrmengine.exe | %windir%\system32\spool\tools\printbrmengine.exe |
 | printbrmps.dll     | %windir%\system32\spool\tools\printbrmps.dll |
 
-## More Resources
+## Related Content
 
 - [Removable Packages](../Removable-Packages.md)
 - [Device Optimization Overview](../Overview.md)

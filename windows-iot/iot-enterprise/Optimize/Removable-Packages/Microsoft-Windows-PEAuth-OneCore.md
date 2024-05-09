@@ -56,7 +56,7 @@ Package: **Microsoft-Windows-PEAuth-OneCore** </br> Protected Environment author
 |-----------|--------------------|
 | peauth.sys | %windir%\system32\drivers\peauth.sys |
 
-## More Resources
+## Related Content
 
 - [Removable Packages](/windows/iot/iot-enterprise/Optimize-Your-Device/Removable-Packages)
 - [Reduce Disk Footprint](/windows/iot/iot-enterprise/Optimize-Your-Device/Reduce-Disk-Footprint)

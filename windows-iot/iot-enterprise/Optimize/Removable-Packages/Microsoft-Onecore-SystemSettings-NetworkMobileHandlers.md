@@ -55,7 +55,7 @@ Package: **Microsoft-OneCore-SystemSettings-NetworkMobileHandlers** </br> System
 |-----------|--------------------|
 | networkmobilesettings.dll | %windir%\system32\networkmobilesettings.dll |
 
-## More Resources
+## Related Content
 
 - [Removable Packages](/windows/iot/iot-enterprise/Optimize-Your-Device/Removable-Packages)
 - [Reduce Disk Footprint](/windows/iot/iot-enterprise/Optimize-Your-Device/Reduce-Disk-Footprint)

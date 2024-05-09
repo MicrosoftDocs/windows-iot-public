@@ -133,7 +133,7 @@ The following packages can be removed from Windows IoT Enterprise LTSC 2021. Sel
 
 ---
 
-## More Resources
+## Related content
 
 - [Device Optimization Overview](Overview.md)
 - [Removable Packages Blog](https://aka.ms/RemovablePackagesBlog)

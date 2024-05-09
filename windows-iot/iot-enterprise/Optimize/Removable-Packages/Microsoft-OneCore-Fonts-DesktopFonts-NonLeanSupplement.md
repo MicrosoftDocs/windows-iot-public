@@ -69,7 +69,7 @@ Package: **Microsoft-OneCore-Fonts-DesktopFonts-NonLeanSupplement** </br> Fonts:
 | yugothl.ttc | %windir%\fonts\yugothl.ttc |
 | yugothr.ttc | %windir%\fonts\yugothr.ttc |
 
-## More Resources
+## Related Content
 
 - [Removable Packages](../Removable-Packages.md)
 - [Device Optimization Overview](../Overview.md)

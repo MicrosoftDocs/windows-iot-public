@@ -87,7 +87,7 @@ These packages collectively provide the functionality represented by the [Media 
 | wmsyspr9.prx            | %windir%\wmsyspr9.prx |
 | wmvcore.dll             | %windir%\system32\wmvcore.dll |
 
-## More Resources
+## Related Content
 
 - [Removable Packages](../Removable-Packages.md)
 - [Device Optimization Overview](../Overview.md)

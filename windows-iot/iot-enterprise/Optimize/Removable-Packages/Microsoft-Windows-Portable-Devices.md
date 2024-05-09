@@ -116,7 +116,7 @@ These packages collectively provide the functionality represented by the [Media 
 | wpdsp.mof                         | %windir%\system32\wbem\wpdsp.mof |
 | wpdupfltr.sys                     | %windir%\system32\drivers\wpdupfltr.sys |
 
-## More Resources
+## Related Content
 
 - [Removable Packages](../Removable-Packages.md)
 - [Device Optimization Overview](../Overview.md)

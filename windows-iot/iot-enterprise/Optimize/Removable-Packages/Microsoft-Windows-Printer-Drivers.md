@@ -81,7 +81,7 @@ Package: **Microsoft-Windows-Printer-Drivers** </br> Generic / Text Only, Generi
 | prnge001.inf | %windir%\system32\driverstore\filerepository\prnge001.inf_amd64_93ef6743cd62907a\prnge001.inf |
 | prnms002.inf | %windir%\system32\driverstore\filerepository\prnms002.inf_amd64_44e969b6d0899fdd\prnms002.inf |
 
-## More Resources
+## Related Content
 
 - [Removable Packages](../Removable-Packages.md)
 - [Device Optimization Overview](../Overview.md)

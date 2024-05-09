@@ -82,7 +82,7 @@ These packages collectively provide the functionality represented by the [Media 
 | wmpdmc.exe                        | %windir%\system32\wmpdmc.exe |
 | wmpdui.dll                        | %windir%\system32\wmpdui.dll |
 
-## More Resources
+## Related Content
 
 - [Removable Packages](../Removable-Packages.md)
 - [Device Optimization Overview](../Overview.md)

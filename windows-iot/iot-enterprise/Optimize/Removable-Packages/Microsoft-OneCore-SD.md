@@ -61,7 +61,7 @@ Package: **Microsoft-OneCore-SD** </br> SD Port and Dump SD Port.
 | sdport.sys | %windir%\system32\drivers\sdport.sys |
 | sdstor.sys | %windir%\system32\drivers\sdstor.sys |
 
-## More Resources
+## Related Content
 
 - [Removable Packages](/windows/iot/iot-enterprise/Optimize-Your-Device/Removable-Packages)
 - [Reduce Disk Footprint](/windows/iot/iot-enterprise/Optimize-Your-Device/Reduce-Disk-Footprint)

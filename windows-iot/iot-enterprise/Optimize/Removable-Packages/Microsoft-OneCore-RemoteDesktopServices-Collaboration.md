@@ -55,7 +55,7 @@ Package: **[Microsoft-OneCore-RemoteDesktopServices-Collaboration** </br>  Termi
 |-----------|--------------------|
 | rdpsharercom.dll | %windir%\system32\rdpsharercom.dll |
 
-## More Resources
+## Related Content
 
 - [Removable Packages](/windows/iot/iot-enterprise/Optimize-Your-Device/Removable-Packages)
 - [Reduce Disk Footprint](/windows/iot/iot-enterprise/Optimize-Your-Device/Reduce-Disk-Footprint)

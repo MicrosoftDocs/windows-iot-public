@@ -61,7 +61,7 @@ Package: **LanguageFeatures-Wordbreaking-Common-legacy** </br> Legacy neutral wo
 |-----------|--------------------|
 | nlsdata0000.dll | %windir%\system32\nlsdata0000.dll |
 
-## More Resources
+## Related Content
 
 - [Removable Packages](../Removable-Packages.md)
 - [Device Optimization Overview](../Overview.md)

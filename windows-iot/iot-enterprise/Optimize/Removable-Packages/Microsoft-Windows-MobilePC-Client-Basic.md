@@ -56,7 +56,7 @@ Package: **Microsoft-Windows-MobilePC-Client-Basic** </br>  Windows Mobility Cen
 | mblctr.exe | %windir%\system32\mblctr.exe |
 | mblctr.mof | %windir%\system32\wbem\mblctr.mof |
 
-## More Resources
+## Related Content
 
 - [Removable Packages](/windows/iot/iot-enterprise/Optimize-Your-Device/Removable-Packages)
 - [Reduce Disk Footprint](/windows/iot/iot-enterprise/Optimize-Your-Device/Reduce-Disk-Footprint)

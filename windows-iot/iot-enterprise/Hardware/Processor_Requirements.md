@@ -57,7 +57,7 @@ For more information, visit [Windows Processor Requirements](/windows-hardware/d
 | Windows&nbsp;10&nbsp;IoT&nbsp;Enterprise,&nbsp;version&nbsp;21H1 | [Supported AMD Processors](/windows-hardware/design/minimum/supported/windows-10-21H1-supported-amd-processors) | [Supported Intel Processors](/windows-hardware/design/minimum/supported/windows-10-21H1-supported-intel-processors) | [Supported Qualcomm Processors](/windows-hardware/design/minimum/supported/windows-10-21H1-supported-qualcomm-processors) | N/A |
 | Windows&nbsp;10&nbsp;IoT&nbsp;Enterprise,&nbsp;version&nbsp;20H2 | [Supported AMD Processors](/windows-hardware/design/minimum/supported/windows-10-20H2-supported-amd-processors) | [Supported Intel Processors](/windows-hardware/design/minimum/supported/windows-10-20H2-supported-intel-processors) | [Supported Qualcomm Processors](/windows-hardware/design/minimum/supported/windows-10-20H2-supported-qualcomm-processors) | N/A |
 
-## Other Resources
+## Related content
 
 * [Windows Minimum Hardware Requirements](/windows-hardware/design/minimum/minimum-hardware-requirements-overview)
 * [Windows Processor Requirements](/windows-hardware/design/minimum/windows-processor-requirements)

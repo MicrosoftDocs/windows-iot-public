@@ -63,7 +63,7 @@ Package: **Microsoft-Windows-3DAudio-HrtfData** </br>  3D Audio Head-related tra
 | outdooraudioenvironment.bin | %windir%\system32\outdooraudioenvironment.bin |
 | smallroom.bin | %windir%\system32\smallroom.bin |
 
-## More Resources
+## Related Content
 
 - [Removable Packages](/windows/iot/iot-enterprise/Optimize-Your-Device/Removable-Packages)
 - [Reduce Disk Footprint](/windows/iot/iot-enterprise/Optimize-Your-Device/Reduce-Disk-Footprint)

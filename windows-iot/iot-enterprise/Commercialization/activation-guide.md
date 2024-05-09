@@ -249,8 +249,7 @@ For information on using VAMT to activate your Windows IoT Enterprise devices th
 
   **Answer:**  To get additional help with Activation you need to contact a Windows IoT Distributor, or if you are Direct with Microsoft contact your Microsoft Account Manager.
   
-  
-## Other Resources
+## Related content
 
 - [Volume Activation Management Tool (VAMT)](/windows/deployment/volume-activation/introduction-vamt)
 - [Desktop Manufacturing Overview](/windows-hardware/manufacture/desktop/)

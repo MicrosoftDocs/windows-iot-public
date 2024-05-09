@@ -66,7 +66,7 @@ Package: **Microsoft-Windows-BootEnvironment-Dvd** </br> Boot from DVD.
 | boot.sdi            | %windir%\boot\dvd\pcat\boot.sdi |
 | etfsboot.com        | %windir%\boot\dvd\pcat\etfsboot.com |
 
-## More Resources
+## Related Content
 
 - [Removable Packages](../Removable-Packages.md)
 - [Device Optimization Overview](../Overview.md)

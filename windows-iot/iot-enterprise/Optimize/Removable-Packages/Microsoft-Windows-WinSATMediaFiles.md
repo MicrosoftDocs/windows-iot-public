@@ -3,7 +3,7 @@ title: Package - WinSAT Media Files
 titleSuffix: Windows IoT Enterprise
 author: TerryWarwick
 ms.author: twarwick
-ms.date: 04/29/2024
+ms.date: 05/09/2024
 ms.topic: reference
 ms.service: windows-iot
 ms.subservice: iot
@@ -77,7 +77,7 @@ These packages collectively provide the functionality represented by the [Media 
 |-----------|--------------------|
 |    N/A    |  No files associated with this package |
 
-## More Resources
+## Related Content
 
 - [Removable Packages](../Removable-Packages.md)
 - [Device Optimization Overview](../Overview.md)

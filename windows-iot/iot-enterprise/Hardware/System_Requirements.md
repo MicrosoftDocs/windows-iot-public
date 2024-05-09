@@ -103,7 +103,7 @@ For more information, see...
 * [Trusted Platform Module Technology Overview](/windows/security/information-protection/tpm/trusted-platform-module-overview)
 * [TPM Recommendations](/windows/security/information-protection/tpm/tpm-recommendations)
 
-## Other Resources
+## Related content
 
 * [Windows Minimum Hardware Requirements](/windows-hardware/design/minimum/minimum-hardware-requirements-overview)
 * [Windows Processor Requirements](/windows-hardware/design/minimum/windows-processor-requirements)

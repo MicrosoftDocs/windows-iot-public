@@ -55,7 +55,7 @@ Package: **Microsoft-OneCore-SystemSettings-Devices** </br>  Systems Settings ha
 |-----------|--------------------|
 | settingshandlers_devices.dll | %windir%\system32\settingshandlers_devices.dll  |
 
-## More Resources
+## Related Content
 
 - [Removable Packages](/windows/iot/iot-enterprise/Optimize-Your-Device/Removable-Packages)
 - [Reduce Disk Footprint](/windows/iot/iot-enterprise/Optimize-Your-Device/Reduce-Disk-Footprint)

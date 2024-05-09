@@ -68,7 +68,7 @@ Package: **Microsoft-OneCore-PointOfService-CameraBarcodeScanner** </br>  Softwa
 | neutral.pri | %windir%\systemapps\windows.cbspreview_cw5n1h2txyewy\resources.pri |
 | dmrcdecoder.dll | %windir%\system32\dmrcdecoder.dll |
 
-## More Resources
+## Related Content
 
 - [Removable Packages](/windows/iot/iot-enterprise/Optimize-Your-Device/Removable-Packages)
 - [Reduce Disk Footprint](/windows/iot/iot-enterprise/Optimize-Your-Device/Reduce-Disk-Footprint)

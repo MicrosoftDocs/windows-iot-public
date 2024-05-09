@@ -86,7 +86,7 @@ Package: **Microsoft-Windows-Shell-Wallpaper-Common** </br> Wallpaper images.
 | themec.ini | %windir%\web\wallpaper\themec\desktop.ini |
 | themed.ini | %windir%\web\wallpaper\themed\desktop.ini |
 
-## More Resources
+## Related Content
 
 - [Removable Packages](../Removable-Packages.md)
 - [Device Optimization Overview](../Overview.md)

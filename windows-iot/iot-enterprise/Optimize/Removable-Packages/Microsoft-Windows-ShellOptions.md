@@ -74,7 +74,7 @@ Package: **Microsoft-Windows-ShellOptions** </br> Modern Calculator, Character M
 | subrange.uce      | %windir%\system32\subrange.uce |
 | moricons.dll.mun  | %windir%\systemresources\moricons.dll.mun  |
 
-## More Resources
+## Related Content
 
 - [Removable Packages](../Removable-Packages.md)
 - [Device Optimization Overview](../Overview.md)

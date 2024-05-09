@@ -56,7 +56,7 @@ Package: **Microsoft-Windows-NetProfilesUX** </br>  Network and Sharing Center C
 | netcenter.dll | %windir%\system32\netcenter.dll |
 | netcenter.dll.mun | %windir%\systemresources\netcenter.dll.mun |
 
-## More Resources
+## Related Content
 
 - [Removable Packages](/windows/iot/iot-enterprise/Optimize-Your-Device/Removable-Packages)
 - [Reduce Disk Footprint](/windows/iot/iot-enterprise/Optimize-Your-Device/Reduce-Disk-Footprint)

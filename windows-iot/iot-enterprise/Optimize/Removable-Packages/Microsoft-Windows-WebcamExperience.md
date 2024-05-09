@@ -74,7 +74,7 @@ These packages collectively provide the functionality represented by the [Media 
 | camerasettingsuihost.exe    | %windir%\system32\camerasettingsuihost.exe |
 | webcamui.dll                | %windir%\system32\webcamui.dll |
 
-## More Resources
+## Related Content
 
 - [Removable Packages](../Removable-Packages.md)
 - [Device Optimization Overview](../Overview.md)

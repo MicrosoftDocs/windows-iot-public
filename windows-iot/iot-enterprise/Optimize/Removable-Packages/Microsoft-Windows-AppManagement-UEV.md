@@ -145,7 +145,7 @@ See [User Experience Virtualization](/windows/configuration/ue-v/uev-for-windows
 | microsoft.uev.managedagentwmi.dll          | microsoft.uev.managedagentwmi.dll |
 | microsoft.uev.managedagentwmi.winrt.dll    | microsoft.uev.managedagentwmi.winrt.dll |
 
-## More Resources
+## Related Content
 
 - [Removable Packages](../Removable-Packages.md)
 - [Device Optimization Overview](../Overview.md)

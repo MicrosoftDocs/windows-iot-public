@@ -451,7 +451,7 @@ Package: **Microsoft-Windows-MicrosoftEdgeDevToolsClient** </br>  Microsoft Edge
 | appxsignature.p7x | %windir%\systemapps\microsoft.microsoftedgedevtoolsclient_8wekyb3d8bbwe\appxsignature.p7x |
 | resources.pri | %windir%\systemapps\microsoft.microsoftedgedevtoolsclient_8wekyb3d8bbwe\resources.pri |
 
-## More Resources
+## Related Content
 
 - [Removable Packages](/windows/iot/iot-enterprise/Optimize-Your-Device/Removable-Packages)
 - [Reduce Disk Footprint](/windows/iot/iot-enterprise/Optimize-Your-Device/Reduce-Disk-Footprint)

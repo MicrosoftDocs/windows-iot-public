@@ -62,7 +62,7 @@ Package: **Microsoft-Windows-SensorDataService** </br> Component of the [Media F
 | mediafoundation.defaultperceptionprovider.dll | %windir%\system32\mediafoundation.defaultperceptionprovider.dll |
 | sensordataservice.exe                         | %windir%\system32\sensordataservice.exe |
 
-## More Resources
+## Related Content
 
 - [Removable Packages](../Removable-Packages.md)
 - [Device Optimization Overview](../Overview.md)

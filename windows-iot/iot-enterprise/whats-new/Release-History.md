@@ -96,7 +96,7 @@ Windows 10 IoT Enterprise releases follow the [Modern Lifecycle Policy](/lifecyc
 
 For more information, see [Windows 10 IoT Enterprise support lifecycle](/lifecycle/products/windows-10-iot-enterprise).
 
-## Other Information
+## Related content
 
 * [Quick guide to Windows as a service](/windows/deployment/update/waas-quick-start)
 * [Overview of Windows as a service](/windows/deployment/update/waas-overview)
