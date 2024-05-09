@@ -4,9 +4,9 @@ description: New features in Windows 10 IoT Enterprise LTSC 2021.
 ms.service: windows-iot
 author: TerryWarwick
 ms.author: twarwick
-ms.topic: article
+ms.topic: whats-new
 ms.subservice: iot
-ms.date: 05/08/2024
+ms.date: 05/22/2024
 ---
 
 # What's new in Windows 10 IoT Enterprise LTSC 2021

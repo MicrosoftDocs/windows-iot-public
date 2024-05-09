@@ -3,7 +3,7 @@ title: Package - PrintBrm Command-Line tool
 titleSuffix: Windows IoT Enterprise
 author: TerryWarwick
 ms.author: twarwick
-v
+ms.date: 05/22/2024
 ms.service: windows-iot
 ms.subservice: iot
 description: Removable Package Details for Microsoft-Windows-Printing-PremiumTools

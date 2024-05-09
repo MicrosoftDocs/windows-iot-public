@@ -4,8 +4,8 @@ description: OEMs use Embedded Product Key Entry Activation (ePKEA) to enable ac
 author: terrywarwick
 ms.service: windows-iot
 ms.subservice: iot
-ms.topic: article `
-ms.date: 04/30/2024
+ms.topic: concept-article
+ms.date: 05/22/2024
 ---
 
 # OEM Activation

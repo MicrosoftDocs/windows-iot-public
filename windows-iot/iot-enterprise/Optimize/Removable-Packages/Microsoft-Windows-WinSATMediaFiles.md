@@ -3,7 +3,7 @@ title: Package - WinSAT Media Files
 titleSuffix: Windows IoT Enterprise
 author: TerryWarwick
 ms.author: twarwick
-ms.date: 05/09/2024
+ms.date: 05/22/2024
 ms.topic: reference
 ms.service: windows-iot
 ms.subservice: iot

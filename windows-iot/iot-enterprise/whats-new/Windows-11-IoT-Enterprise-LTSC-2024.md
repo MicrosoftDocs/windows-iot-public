@@ -2,12 +2,12 @@
 title: What's new in Windows 11 IoT Enterprise LTSC 2024
 titleSuffix: Windows IoT Enterprise
 description: Learn about new and updated features that are of interest to device makers and IT Pros working with Windows 11 IoT Enterprise LTSC 2024.
-ms.topic: article
+ms.topic: whats-new
 ms.service: windows-iot
 ms.subservice: iot
 author: TerryWarwick
 ms.author: twarwick
-ms.date: 05/06/2024
+ms.date: 05/22/2024
 ---
 
 # What's new in Windows 11 Enterprise LTSC 2024

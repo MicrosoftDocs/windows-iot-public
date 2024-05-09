@@ -3,15 +3,16 @@ title: Removable Packages Overview
 titleSuffix: Windows IoT Enterprise
 author: twarwick
 ms.author: twarwick
-ms.date: 04/29/2024
-ms.topic: article
+ms.date: 05/22/2024
+ms.topic: how-to
 ms.service: windows-iot
 ms.subservice: iot
-description: Windows IoT Enterprise feature to assist with reducing disk footprint
+description: Removable Packages is a Windows IoT Enterprise LTSC exclusive feature to assist with reducing disk footprint.
+customerintent:
 keywords: IoT Enterprise, removable packages, storage
 ---
 
-# Removable Packages
+# What is Removable Packages
 
 Applies to:  
 ✅ Windows 11 IoT Enterprise LTSC 2024  

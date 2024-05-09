@@ -4,9 +4,9 @@ description: Learn about Windows IoT Enterprise.
 ms.service: windows-iot
 author: TerryWarwick
 ms.author: twarwick
-ms.topic: article
+ms.topic: whats-new
 ms.subservice: iot
-ms.date: 04/05/2024
+ms.date: 05/22/2024
 
 ---
 
