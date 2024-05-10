@@ -176,7 +176,7 @@ $ShellLauncherClass.RemoveCustomShell($Cashier_SID)
 | Windows Pro            | No        |
 | Windows Enterprise     | Yes       |
 | Windows Education      | Yes       |
-| Windows IoT Enterprise | Yea       |
+| Windows IoT Enterprise | Yes       |
 
 ## Related topics
 
