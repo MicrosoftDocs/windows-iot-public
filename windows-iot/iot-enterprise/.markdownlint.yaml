@@ -1,0 +1,5 @@
+# Disable MD013 line length check
+MD013: false
+
+# Disable MD025 check for multiple top level headings
+MD025: false
