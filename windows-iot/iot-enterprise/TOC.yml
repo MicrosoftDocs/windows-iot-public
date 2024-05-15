@@ -77,7 +77,7 @@
     - name: 🏭 Overview
       href: ./Commercialization/overview-manufacturing.md
     - name: 🏭 Plan your deployment
-      href: ./Commercialization/howto-plan-manufacturing.md
+      href: ./Commercialization/concept-plan-manufacturing.md
     - name: 🏭 Get the tools you need
       href: ./Commercialization/howto-get-the-tools-manufacturing.md
     - name: 🏭 Manufacture and deploy images
