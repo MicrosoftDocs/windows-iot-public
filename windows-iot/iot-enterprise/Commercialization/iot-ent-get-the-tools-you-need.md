@@ -34,7 +34,7 @@ Here's how we refer to them:
 
   - Configure the technician PC as follows:
     - [Windows ADK](/windows-hardware/get-started/adk-install) with Deployment Tools, Configuration Designer, and the Windows PE add-on installed
-    - Windows IoT Enterprise 2019 LTSC OPK
+    - Windows IoT Enterprise 2019 LTSC OEM Preinstallation Kit (OPK)
     - Feature on Demand ISO
     - Language Pack ISO
 
