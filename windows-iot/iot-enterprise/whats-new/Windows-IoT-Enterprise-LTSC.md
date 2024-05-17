@@ -16,12 +16,12 @@ Windows IoT Enterprise LTSC is designed for specialty devices and use cases wher
 
 We designed Windows IoT Enterprise LTSC with these use cases in mind. We support each Windows IoT Enterprise LTSC release for 10 years, and that features and functionality don't change over the course of that 10-year lifecycle.
 
-Windows IoT Enterprise LTSC releases approximately every three years, and each release contains all the new capabilities and support included in Windows feature updates that have been released since the previous LTSC release.  LTSC releases are named with a specific year, such as Windows 10 IoT Enterprise LTSC 2021.
+Windows IoT Enterprise LTSC releases approximately every three years, and each release contains all the new capabilities and support included in Windows feature updates that have been released since the previous LTSC release.  LTSC releases are named with a specific year, such as Windows 11 IoT Enterprise LTSC 2024.
 
 Windows IoT Enterprise LTSC releases receive 10 years of servicing and support. Upgrading from one version of Windows IoT Enterprise LTSC to the next version requires a new license.
 
 > [!NOTE]
-> Microsoft does not publish feature updates through Windows Update for devices running Windows 10 IoT Enterprise LTSC.
+> Microsoft does not publish feature updates through Windows Update for devices running Windows IoT Enterprise LTSC.
 >
 > Microsoft releases new LTSC editions every 2–3 years. OEMs may purchase a newer LTSC as a field upgrade for their devices, if appropriate. Please contact your [Windows IoT Distributor](../windows-iot-distributors.md) for more information.
 
@@ -33,6 +33,7 @@ Windows IoT Enterprise LTSC releases follow the [Fixed Lifecycle Policy](/lifecy
 
 | Release                             | Version | Availability | End of Servicing | Update History | Update Catalog |
 | ----------------------------------- | ------- | ------------ | ---------------- | -------------- | -------------- |
+| Windows 11 IoT Enterprise LTSC 2024 | 24H2 | | | | |
 | Windows&nbsp;10&nbsp;IoT&nbsp;Enterprise&nbsp;LTSC&nbsp;2021 | 19044   | 2021/11/16 | 2032/01/13 | [LTSC&nbsp;2021(21H2) update&nbsp;history](https://support.microsoft.com/help/5008339)  | [Updates&nbsp;for&nbsp;x64](https://www.catalog.update.microsoft.com/Search.aspx?q=Cumulative%20Update%20for%20Windows%2010%20Version%2021H2%20for%20x64) [Updates&nbsp;for&nbsp;ARM64](https://www.catalog.update.microsoft.com/Search.aspx?q=Cumulative%20Update%20for%20Windows%2010%20Version%2021H2%20for%20Arm64) |
 | Windows&nbsp;10&nbsp;IoT&nbsp;Enterprise&nbsp;LTSC&nbsp;2019 | 17763   | 2018/11/13 | 2029/01/09 | [LTSC&nbsp;2019(1809) update&nbsp;history](https://support.microsoft.com/help/4464619)   | [Updates&nbsp;for&nbsp;x64](https://www.catalog.update.microsoft.com/Search.aspx?q=Cumulative%20Update%20for%20Windows%2010%20Version%201809%20for%20x64) [Updates&nbsp;for&nbsp;ARM64](https://www.catalog.update.microsoft.com/Search.aspx?q=Cumulative%20Update%20for%20Windows%2010%20Version%201809%20for%20Arm64) |
 | Windows&nbsp;10&nbsp;IoT&nbsp;Enterprise&nbsp;LTSC&nbsp;2016 | 14393   | 2016/08/02 | 2026/10/13 | [LTSC&nbsp;2016(1607) update&nbsp;history](https://support.microsoft.com/help/4000825)  | [Updates&nbsp;for&nbsp;x64](https://www.catalog.update.microsoft.com/Search.aspx?q=Cumulative%20Update%20for%20Windows%2010%20Version%201607%20for%20x64)  [Updates&nbsp;for&nbsp;x86](https://www.catalog.update.microsoft.com/Search.aspx?q=Cumulative%20Update%20for%20Windows%2010%20Version%201607%20for%20x86) |
