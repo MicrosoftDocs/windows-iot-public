@@ -1,20 +1,20 @@
 - name: Windows IoT Enterprise Overview
   href: ./Getting_Started.md  
-- name: 🔵 Release History
+- name: Release History
   href: ./whats-new/Release-History.md
-- name: 🔵 What's new...
+- name: What's new...
   expanded: true
   items:
   - name: Announcements & blogs
     href: ./whats-new/News-Blogs.md
-  - name: 🔵 Windows IoT Enterprise LTSC
+  - name: Windows IoT Enterprise LTSC
     expanded: false
     items:
      - name: Windows IoT Enterprise LTSC Overview
        href: ./whats-new/Windows-IoT-Enterprise-LTSC.md
-     - name: 🔵 Windows 11 IoT Enterprise LTSC 2024
+     - name: Windows 11 IoT Enterprise LTSC 2024
        href: ./whats-new/Windows-11-IoT-Enterprise-LTSC-2024.md
-     - name: 🔵 Windows 10 IoT Enterprise LTSC 2021
+     - name: Windows 10 IoT Enterprise LTSC 2021
        href: ./whats-new/Windows-10-IoT-Enterprise-LTSC-2021.md
   - name: Windows 11 IoT Enterprise
     expanded: false
@@ -34,12 +34,12 @@
        href: ./whats-new/Windows-10-IoT-Enterprise-21H2.md
      - name: Version 21H1
        href: ./whats-new/Windows-10-IoT-Enterprise-21H1.md
-- name: 🔵 Hardware Guidance
+- name: Hardware Guidance
   expanded: false
   items:
-  - name: 🔵 System Requirements
+  - name: System Requirements
     href: ./Hardware/System_Requirements.md
-  - name: 🔵 Processor Requirements
+  - name: Processor Requirements
     href: ./Hardware/Processor_Requirements.md
   - name: SoCs and Custom Boards
     href: ./Hardware/SoCs.md
@@ -56,10 +56,10 @@
     href: ./ARM64/ArmFAQ.md
   - name: Setup an NXP i.MX EVK
     href: ./Tutorials/Win10-NXP-iMX.md
-- name: 🔵 Commercialization
+- name: Commercialization
   expanded: false
   items:
-  - name: 🔵 Activation Guide
+  - name: Activation Guide
     href: ./Commercialization/activation-guide.md
   - name: Licensing & Usage
     href: ./Commercialization/Licensing.md
@@ -378,42 +378,42 @@
     href: ./Device-Management/App-Updates.md
   - name: Reset and Recovery
     href: ./Device-Management/Reset-and-Recovery.md
-- name: 🔵 Optimization
+- name: Optimization
   expanded: false
   items:
   - name: Overview
     href: ./Optimize/Overview.md
   - name: CompactOS
     href: Optimize/CompactOS.md  
-  - name: 🔵 Removable Packages
+  - name: Removable Packages
     expanded: false
     items:
-      - name: 🔵 Overview
+      - name: Overview
         href: ./Optimize/Removable-Packages.md
-      - name: 🔵 Removable Package Reference
+      - name: Removable Package Reference
         expanded: false
         items:  
         - name: Package - Language Word Breaking Legacy
           href: ./Optimize/Removable-Packages/LanguageFeatures-wordBreaking-Common-Legacy.md
         - name: Package - Media Foundation
           href: ./Optimize/Removable-Packages/Microsoft-Media-Foundation.md
-        - name: 🔵 Package - USB Connector Manager 
+        - name: Package - USB Connector Manager 
           href: ./Optimize/Removable-Packages/Microsoft-OneCore-Connectivity-UsbConnectorManager.md
-        - name: 🔵 Package - USB Function 
+        - name: Package - USB Function 
           href: ./Optimize/Removable-Packages/Microsoft-OneCore-Connectivity-UsbFunction.md
         - name: Package - Supplemental Fonts
           href: ./Optimize/Removable-Packages/Microsoft-OneCore-Fonts-DesktopFonts-NonLeanSupplement.md
-        - name: 🔵 Package - Camera Barcode Software Decoder
+        - name: Package - Camera Barcode Software Decoder
           href: ./Optimize/Removable-Packages/Microsoft-OneCore-PointOfService-CameraBarcodeScanner.md
-        - name: 🔵 Package - Remote Desktop Services Collaboration
+        - name: Package - Remote Desktop Services Collaboration
           href: ./Optimize/Removable-Packages/Microsoft-OneCore-RemoteDesktopServices-Collaboration.md
-        - name: 🔵 Package - SD Removable Storage
+        - name: Package - SD Removable Storage
           href: ./Optimize/Removable-Packages/Microsoft-OneCore-SD.md
-        - name: 🔵 Package - System Settings Devices
+        - name: Package - System Settings Devices
           href: ./Optimize/Removable-Packages/Microsoft-OneCore-SystemSettings-Devices.md
-        - name: 🔵 Package - System Settings Network Mobile Handlers
+        - name: Package - System Settings Network Mobile Handlers
           href: ./Optimize/Removable-Packages/Microsoft-OneCore-SystemSettings-NetworkMobileHandlers.md
-        - name: 🔵 Package - 3D Audio HrftData
+        - name: Package - 3D Audio HrftData
           href: ./Optimize/Removable-Packages/Microsoft-Windows-3DAudio-HrtfData.md
         - name: Package - User Experience Virtualization
           href: ./Optimize/Removable-Packages/Microsoft-Windows-AppManagement-UEV.md
@@ -421,11 +421,11 @@
           href: ./Optimize/Removable-Packages/Microsoft-Windows-BioEnrollment-UX.md
         - name: Package - Boot Environment DVD
           href: ./Optimize/Removable-Packages/Microsoft-Windows-BootEnvironment-Dvd.md
-        - name: 🔵 Package - Computer Manager Launcher
+        - name: Package - Computer Manager Launcher
           href: ./Optimize/Removable-Packages/Microsoft-Windows-ComputerManagerLauncher.md
-        - name: 🔵 Package - Storage Defragmentation User Experience
+        - name: Package - Storage Defragmentation User Experience
           href: ./Optimize/Removable-Packages/Microsoft-Windows-Defrag-UI.md
-        - name: 🔵 Package - Desktop File Explorer
+        - name: Package - Desktop File Explorer
           href: ./Optimize/Removable-Packages/Microsoft-Windows-DesktopFileExplorer.md
         - name: Package - Windows Media Format
           href: ./Optimize/Removable-Packages/Microsoft-Windows-Media-Format.md
@@ -433,13 +433,13 @@
           href: ./Optimize/Removable-Packages/Microsoft-Windows-Media-Streaming.md
         - name: Package - Media Features O.C.
           href: ./Optimize/Removable-Packages/Microsoft-Windows-MediaPlayback-OC.md
-        - name: 🔵 Package - Microsoft Edge Developer Tools Client
+        - name: Package - Microsoft Edge Developer Tools Client
           href: ./Optimize/Removable-Packages/Microsoft-Windows-MicrosoftEdgeDevToolsClient.md
-        - name: 🔵 Package - Mobile PC Client
+        - name: Package - Mobile PC Client
           href: ./Optimize/Removable-Packages/Microsoft-Windows-MobilePC-Client-Basic.md
-        - name: 🔵 Package - Net Profiles UX
+        - name: Package - Net Profiles UX
           href: ./Optimize/Removable-Packages/Microsoft-Windows-NetProfilesUX.md
-        - name: 🔵 Package - PE Auth
+        - name: Package - PE Auth
           href: ./Optimize/Removable-Packages/Microsoft-Windows-PEAuth-OneCore.md
         - name: Package - Windows Portable Devices
           href: ./Optimize/Removable-Packages/Microsoft-Windows-Portable-Devices.md
@@ -457,7 +457,7 @@
           href: ./Optimize/Removable-Packages/Microsoft-Windows-Shell-Wallpaper-Common.md
         - name: Package - Shell Accessories
           href: ./Optimize/Removable-Packages/Microsoft-Windows-ShellOptions.md
-        - name: 🔵 Package - Window Tab Manager
+        - name: Package - Window Tab Manager
           href: ./Optimize/Removable-Packages/Microsoft-Windows-UI-Shell-WindowTabManager.md
         - name: Package - Webcam Experience
           href: ./Optimize/Removable-Packages/Microsoft-Windows-WebcamExperience.md
