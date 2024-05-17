@@ -101,7 +101,7 @@ productDirectory:
           text:  Windows IoT Core
         - url: /windows-hardware/manufacture/iot/iotcoreservicesoverview
           text:  Windows 10 IoT Core Services
-        - url: /windows/iot/windows_ce/windows-ce-app-container-overview
+        - url: /previous-versions/windows/iot-core/windows_ce/windows-ce-app-container
           text: Windows CE Migration        
         - url: /previous-versions/windows/embedded/ee504814(v=winembedded.70)
           text: Windows Embedded Family       
