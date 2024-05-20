@@ -9,7 +9,7 @@ author: TerryWarwick
 ms.author: twarwick
 ms.service: windows-iot
 ms.subservice: iot
-ms.date: 05/02/2017
+ms.date: 05/20/2024
 ms.topic: article
 
 
@@ -52,7 +52,7 @@ The critical threshold must be higher than the warning threshold.
 | Windows Pro            | No        |
 | Windows Enterprise     | Yes       |
 | Windows Education      | Yes       |
-| Windows IoT Enterprise | Yea       |
+| Windows IoT Enterprise | Yes       |
 
 ## Related topics
 

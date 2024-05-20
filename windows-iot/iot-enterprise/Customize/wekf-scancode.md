@@ -9,7 +9,7 @@ author: TerryWarwick
 ms.author: twarwick
 ms.service: windows-iot
 ms.subservice: iot
-ms.date: 05/02/2017
+ms.date: 05/20/2024
 ms.topic: article
 
 
@@ -45,7 +45,7 @@ The following tables list any constructors, methods, fields, and properties that
 
 | Methods | Description |
 |---------|-------------|
-[WEKF_Scancode.Add](wekf-scancodeadd.md) | Adds a new custom scan code combination and enables Keyboard Filter to block the new scan code combination. |
+| [WEKF_Scancode.Add](wekf-scancodeadd.md) | Adds a new custom scan code combination and enables Keyboard Filter to block the new scan code combination. |
 | [WEKF_Scancode.Remove](wekf-scancoderemove.md) | Removes the specified custom scan code combination. Keyboard Filter stops blocking the scan code combination that was removed. |
 
 ### Properties
@@ -134,7 +134,7 @@ Enable-Scancode "Ctrl" 37
 | Windows Pro            | No        |
 | Windows Enterprise     | Yes       |
 | Windows Education      | Yes       |
-| Windows IoT Enterprise | Yea       |
+| Windows IoT Enterprise | Yes       |
 
 ## Related topics
 

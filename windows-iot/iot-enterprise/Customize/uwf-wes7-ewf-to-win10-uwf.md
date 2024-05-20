@@ -9,7 +9,7 @@ author: TerryWarwick
 ms.author: twarwick
 ms.service: windows-iot
 ms.subservice: iot
-ms.date: 04/07/2021
+ms.date: 05/20/2024
 ms.topic: article
 
 
@@ -55,8 +55,9 @@ The new subcommand “commit” was introduced under "uwfmgr.exe overlay" to all
 > [!NOTE]
 >
 >- UWF must be enabled and configured in Read-Only Media mode
->- UWF must not be in HORM mode:
-  > - HORM mode cannot be enabled after Full Volume Commit and before the next reboot
+>- UWF must not be in HORM mode:  
+> HORM mode cannot be enabled after Full Volume Commit and before the next reboot.
+>
 >- UWF can be disabled after Full Volume Commit
 
 UWF CSP provider was updated by adding read/write CFG_DATATYPE_BOOLEAN “UnifiedWriteFilter\CurrentSession\OverlayCommit” property, which indicates if Full Overlay Commit was issued after the last boot. Setting that property from zero (FALSE) to non-zero value (TRUE) causes immediate Full Volume Commit to be performed. Setting this property to zero (FALSE) if its current value is non-zero (TRUE) is not allowed.
