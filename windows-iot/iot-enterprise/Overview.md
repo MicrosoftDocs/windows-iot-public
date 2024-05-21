@@ -6,8 +6,9 @@ ms.date: 05/21/2024
 ms.topic: overview
 ms.service: windows-iot
 ms.subservice: iot
-description: Learn about what Windows IoT Enterprise is and what you can do with it.
+description: Windows IoT Enterprise is a full version of Windows Enterprise. Is intended for fixed purpose devices and provides a 10-year support lifecycle.
 keywords: IoT Enterprise, binary, fixed purpose devices, LTSC, Silicon
+#customer intent: I want to understand what Windows IoT Enterprise is and its benefits for building fixed purpose devices.
 ---
 
 # What is Windows IoT Enterprise?
@@ -21,7 +22,7 @@ Windows IoT Enterprise is a full version of Windows Enterprise that delivers ent
 There are three main reasons why customers choose to develop with Windows IoT Enterprise:
 
 1. **Productive** - Leverage existing knowledge to build and manage Windows IoT Enterprise devices with powerful tools and technologies to quickly unlock data and drive digital transformation.
-2. **Trusted** - Windows IoT Enterprise helps you build IoT solutions that you can trust, keeping your devices, data, and identities secure and giving you peace of mind.
+1. **Trusted** - Windows IoT Enterprise helps you build IoT solutions that you can trust, keeping your devices, data, and identities secure and giving you peace of mind.
 3. **Smart** - Windows IoT Enterprise helps you connect your devices to each other, your network, and the cloud, so you can use data to drive real business insight and create new business opportunities
 
 > [!TIP]
