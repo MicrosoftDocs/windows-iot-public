@@ -20,7 +20,7 @@ This document outlines the Frequently Asked Questions by our customers and partn
 
 There are presently three Windows for IoT operating systems available:
 
-1. [Windows IoT Enterprise](/windows/iot/iot-enterprise/getting_started)
+1. [Windows IoT Enterprise](/windows/iot/iot-enterprise/overview)
 1. [Windows 10 IoT Core](/windows/iot-core/windows-iot-core)
 1. [Windows Server IoT 2022](/windows/iot/server/windows-server).
 
