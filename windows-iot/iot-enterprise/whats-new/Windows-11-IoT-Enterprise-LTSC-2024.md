@@ -18,7 +18,7 @@ Windows IoT Enterprise LTSC is designed for specialty devices and use cases wher
 
 We designed Windows IoT Enterprise LTSC with these use cases in mind. We support each Windows IoT Enterprise LTSC release for 10 years, and ensure that features and functionality don't change over the course of that 10-year lifecycle.
 
-Every new Windows release comes exciting new features and capabilities - **Windows 11 IoT Enterprise LTSC 2024** is no different. This article provides a high level overview of notable updates in this release that are of interest to device makers and IT Pros.
+With every new Windows release comes exciting new features and capabilities - **Windows 11 IoT Enterprise LTSC 2024** is no different. This article provides a high level overview of notable updates in this release that are of interest to device makers and IT Pros.
 
 ### Availability
 

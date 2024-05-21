@@ -1,5 +1,5 @@
 - name: Windows IoT Enterprise Overview
-  href: ./Getting_Started.md  
+  href: ./Overview.md  
 - name: Release History
   href: ./whats-new/Release-History.md
 - name: What's new...
@@ -10,8 +10,6 @@
   - name: Windows IoT Enterprise LTSC
     expanded: false
     items:
-     - name: Windows IoT Enterprise LTSC Overview
-       href: ./whats-new/Windows-IoT-Enterprise-LTSC.md
      - name: Windows 11 IoT Enterprise LTSC 2024
        href: ./whats-new/Windows-11-IoT-Enterprise-LTSC-2024.md
      - name: Windows 10 IoT Enterprise LTSC 2021
