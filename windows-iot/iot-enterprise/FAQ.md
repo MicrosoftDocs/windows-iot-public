@@ -26,7 +26,7 @@ There are presently three Windows for IoT operating systems available:
 
 ## What's the difference between Windows 10 IoT Enterprise and Windows 11 IoT Enterprise?
 
-Windows 11 IoT Enterprise is the next evolution of Windows for IoT, and is built on the same foundation as Windows 10 IoT Enterprise. See the [Fall 2021 Windows IoT Enterprise Release Guide](/windows/iot/product-family/fall-2021-releases) for a full comparison.
+Windows 11 IoT Enterprise is the next evolution of Windows for IoT, and is built on the same foundation as Windows 10 IoT Enterprise. For more information, see [Windows IoT Enterprise Overview](Overview.md).
 
 ## What is the difference between Windows IoT Enterprise and Windows 10 IoT Core?
 
@@ -34,12 +34,12 @@ Windows IoT Enterprise is binary-equivalent to standard Windows Enterprise. We h
 
 See [Windows IoT Overview](/windows/iot/product-family/windows-iot) for more information.
 
-## How do I know if I am running Windows 10 IoT Enterprise?
+## How do I know if I'm running Windows 10 IoT Enterprise?
 
 Prior to version 1903, Windows 10 IoT Enterprise was sold as Windows 10 Enterprise with special keys.
 However, version 1903 and onward, Windows 10 IoT Enterprise is sold as a separate edition.
 
-Windows 10 IoT Enterprise Version 1903 and beyond, you will be able to confirm you are running Windows 10 IoT Enterprise under System Information.
+Windows 10 IoT Enterprise Version 1903 and beyond, you are able to confirm you're running Windows 10 IoT Enterprise under System Information.
 
 ![Windows 10 IoT Enterprise System Information](/windows/iot/iot-enterprise/media/System-Information.png)
 
