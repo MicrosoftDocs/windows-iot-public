@@ -8,26 +8,27 @@ author: TerryWarwick
 ms.author: twarwick
 ms.service: windows-iot
 ms.subservice: iot
-ms.date: 10/02/2018
+ms.date: 05/20/2024
 ms.topic: article
 ms.custom: RS5
 ---
 # Use the Unified Write Filter (UWF) feature
 
-The Unified Write Filter (UWF) is an Windows 10 optional feature. 
+The Unified Write Filter (UWF) is an Windows 10 optional feature.
 
 To use UWF, you'll first need to install the feature.
 
 Next, you'll enable (and optionally configure) the feature. The first time you enable UWF on your device, UWF makes the following changes to your system to improve the performance of UWF:
-   * Paging files are disabled.
-   * System restore is disabled.
-   * SuperFetch (aka "SysMain" service) is disabled.
-   * File indexing service is turned off.
-   * Fast boot is disabled.
-   * Defragmentation service (aka "Optimize drives" service) is turned off.
-   * BCD setting **bootstatuspolicy** is set to **ignoreallfailures**.
 
-After UWF is enabled, you can finally select a drive to protect and start using UWF. If you'll disable after enable it, features above will not be turned on automatically. 
+- Paging files are disabled.
+- System restore is disabled.
+- SuperFetch (aka "SysMain" service) is disabled.
+- File indexing service is turned off.
+- Fast boot is disabled.
+- Defragmentation service (aka "Optimize drives" service) is turned off.
+- BCD setting **bootstatuspolicy** is set to **ignoreallfailures**.
+
+After UWF is enabled, you can finally select a drive to protect and start using UWF. If you'll disable after enable it, features above will not be turned on automatically.
 
 You can install UWF for running PCs and devices, prepare it for customized Windows images, or manage it remotely using CSP or WMI.
 
@@ -43,11 +44,12 @@ You can install UWF for running PCs and devices, prepare it for customized Windo
 
    1. Click **Close** to close the **Windows Features** window.
 
-2. Enable the filter:
+1. Enable the filter:
 
    ```cmd
    uwfmgr filter enable
    ```
+
    > [!Note]
    > After you run this command, restart the computer and exit the servicing mode, the following things are disabled:
    > - Windows Update (by setting HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\WindowsUpdate\AU\NoAutoUpdate.)
@@ -55,17 +57,17 @@ You can install UWF for running PCs and devices, prepare it for customized Windo
    > - Registry Reorganization (by setting HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\Session Manager\Configuration Manager\RegistryReorganizationLimitDays.)
    > - Maintenance Hour (by setting HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Schedule\Maintenance\MaintenanceDisabled.)
    >
-   > After you run `uwfmgr filter disable`, restart the computer and enter the serving mode, the changes will be reverted.   
+   > After you run `uwfmgr filter disable`, restart the computer and enter the serving mode, the changes will be reverted.
 
-3. Enable write protection for a drive:
+1. Enable write protection for a drive:
 
    ```cmd
    uwfmgr.exe volume protect C:
    ```
 
-4. Restart your computer.
+1. Restart your computer.
 
-5. Confirm that UWF is running:
+1. Confirm that UWF is running:
 
    ```cmd
    uwfmgr.exe get-config
@@ -99,10 +101,11 @@ You can install UWF for running PCs and devices, prepare it for customized Windo
    dism /unmount-wim /MountDir:c:\wim /Commit
    ```
 
-To activate UWF, you can use a command-line script, CSP, or WMI: 
-  * [CMD](uwfmgrexe.md): `uwfmgr filter enable`, then `uwfmgr.exe volume protect C:`
-  * [CSP](/windows/client-management/mdm/unifiedwritefilter-csp): `CurrentSession/FilterEnabled`, then `CurrentSession/Volume`
-  * [WMI](uwf-wmi-provider-reference.md): `UWF\Filter.Enable`, then `UWF\Volume`.
+To activate UWF, you can use a command-line script, CSP, or WMI:
+
+- [CMD](uwfmgrexe.md): `uwfmgr filter enable`, then `uwfmgr.exe volume protect C:`
+- [CSP](/windows/client-management/mdm/unifiedwritefilter-csp): `CurrentSession/FilterEnabled`, then `CurrentSession/Volume`
+- [WMI](uwf-wmi-provider-reference.md): `UWF\Filter.Enable`, then `UWF\Volume`.
 
 ## Install the UWF feature by using Windows Configuration Designer
 
@@ -115,21 +118,21 @@ To activate UWF, you can use a command-line script, CSP, or WMI:
 
 1. Once you have finished configuring the settings and building the provisioning package, you can apply the package to the image deployment time or runtime. See [Apply a provisioning package](/windows/configuration/provisioning-packages/provisioning-apply-package) for more information.
 
-To activate UWF, you can use a command-line script, CSP, or WMI: 
-  * [CMD](uwfmgrexe.md): `uwfmgr filter enable`, then `uwfmgr.exe volume protect C:`
-  * [CSP](/windows/client-management/mdm/unifiedwritefilter-csp): `CurrentSession/FilterEnabled`, then `CurrentSession/Volume`
-  * [WMI](uwf-wmi-provider-reference.md): `UWF\Filter.Enable`, then `UWF\Volume`.
+To activate UWF, you can use a command-line script, CSP, or WMI:
+
+- [CMD](uwfmgrexe.md): `uwfmgr filter enable`, then `uwfmgr.exe volume protect C:`
+- [CSP](/windows/client-management/mdm/unifiedwritefilter-csp): `CurrentSession/FilterEnabled`, then `CurrentSession/Volume`
+- [WMI](uwf-wmi-provider-reference.md): `UWF\Filter.Enable`, then `UWF\Volume`.
 
 ## Install the UWF feature by using Windows Management Instrumentation (WMI)
 
 If Windows has already been installed and you do not want to use a provisioning package, you can also configure UWF by using the Windows Management Instrumentation (WMI) providers. To turn on UWF using WMI, you can use the [UWF_Filter](uwf-filter.md) function, specifically the [UWF_Filter.Enable](uwf-filterenable.md) method. You can do this in one of the following ways:
 
-* Use the WMI providers directly in a PowerShell script.
-* Use the WMI providers directly in an application.
-* Use the command line tool, [uwfmgr.exe](uwfmgrexe.md).
+- Use the WMI providers directly in a PowerShell script.
+- Use the WMI providers directly in an application.
+- Use the command line tool, [uwfmgr.exe](uwfmgrexe.md).
 
 You must restart your device after you turn on or turn off UWF before the change takes effect.
-
 
 You can change these settings after you turn on UWF if you want to. For example, you can move the page file location to an unprotected volume and re-enable paging files.
 
@@ -139,7 +142,6 @@ You can change these settings after you turn on UWF if you want to. For example,
 All configuration settings for UWF are stored in the registry. UWF automatically excludes these registry entries from filtering.
 
 UWF maintains configuration settings in the registry for the current session and for the next session after a device restart. Static configuration changes do not take effect until after a device restart, and these changes are saved in the registry entries for the next session. Dynamic configuration changes occur immediately and persist after a device restart.
-
 
 ## Related topics
 
