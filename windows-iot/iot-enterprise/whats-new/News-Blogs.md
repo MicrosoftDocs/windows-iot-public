@@ -2,8 +2,8 @@
 title: Windows for IoT News
 author: TerryWarwick
 ms.author: twarwick
-ms.date: 10/31/2023
-ms.topic: conceptual
+ms.date: 5/22/2024
+ms.topic: whats-new
 ms.service: windows-iot
 ms.subservice: iot
 description: See the latest news about the Windows for IoT product family. Review blogs, videos, announcements, and case studies.
@@ -21,15 +21,20 @@ Stay up to date with the latest news and announcements about the Windows for IoT
 | Windows for IoT Resources | Other Windows Resources |
 | --- | --- |
 | [Channel 9](https://channel9.msdn.com/) </br> [Microsoft IoT Developers](https://www.youtube.com/channel/UCL7wy-iy_V76xxPnrIzGOZQ) </br> [Microsoft Tech Community](https://techcommunity.microsoft.com/t5/windows-10-iot/bd-p/Windows10IoT) </br> [Windows for IoT Documentation](/windows/iot/)| [Windows Insider Program](https://blogs.windows.com/windows-insider/) </br> [Windows Servicing & Delivery by John Cable](https://blogs.windows.com/windowsexperience/author/john-cable/) </br> [Windows for IoT Business Decision Maker (BDM)](https://www.microsoft.com/WindowsForBusiness/windows-iot) </br> [Windows on Devices - IoT Developer Experience](https://developer.microsoft.com/windows/iot/) |
-| | |
+
+## 2024
+
+| Month | News |
+| ---- | ---- |
+| May | Blog: [Windows 11 IoT Enterprise LTSC 2024 - Release to OEM](https://aka.ms/ioTEnterpriseLTSC2024-Announce) |
 
 ## 2023
 
 | Month | News |
 | ---- | ---- |
 | October | [Windows Experience Blog: How to get the Windows 11 2023 Update](https://blogs.windows.com/windowsexperience/?p=178531)</br>[Windows IT Pro Blog: What’s new for IT pros in Windows 11, version 23H2](https://aka.ms/new-in-23H2) </br> [What's new in Windows 11 IoT Enterprise, Version 23H2](Windows-11-IoT-Enterprise-23H2.md)|
-| April | Blog: [Windows roadmap update](https://aka.ms/Windows/RoadmapUpdate)
-| March | Blog: [Bring all your workloads to the edge with AKS Edge Essentials. Now Generally Available!](https://techcommunity.microsoft.com/t5/internet-of-things-blog/bring-all-your-workloads-to-the-edge-with-aks-edge-essentials/ba-p/3765162)
+| April | Blog: [Windows roadmap update](https://aka.ms/Windows/RoadmapUpdate) |
+| March | Blog: [Bring all your workloads to the edge with AKS Edge Essentials. Now Generally Available!](https://techcommunity.microsoft.com/t5/internet-of-things-blog/bring-all-your-workloads-to-the-edge-with-aks-edge-essentials/ba-p/3765162) |
 | January | Blog: [Windows 10 IoT Enterprise will still be available past January 2023](https://techcommunity.microsoft.com/t5/internet-of-things-blog/windows-10-iot-enterprise-will-still-be-available-past-january/ba-p/3726368) |
 
 ## 2022
