@@ -2,7 +2,7 @@
 title: What is Windows IoT Enterprise?
 author: TerryWarwick
 ms.author: twarwick
-ms.date: 05/21/2024
+ms.date: 05/22/2024
 ms.topic: overview
 ms.service: windows-iot
 ms.subservice: iot

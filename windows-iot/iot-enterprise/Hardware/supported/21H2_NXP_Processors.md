@@ -4,8 +4,9 @@ description: This specification details the NXP processors that can be used with
 author: sydbruck
 ms.author: sybruckm
 ms.date: 10/09/2023
-ms.topic: article
+ms.topic: reference
 ms.service: windows-iot
+ms.subservice: iot
 ---
 
 # Windows 10 IoT Enterprise 21H2 Supported NXP Processors

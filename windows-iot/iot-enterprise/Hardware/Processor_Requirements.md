@@ -1,7 +1,7 @@
 ---
 title: Windows IoT Enterprise Processor Requirements
-author: TerryWarwick
-ms.author: twarwick
+author: anch-msft
+ms.author: anthonychen
 ms.date: 05/22/2024
 ms.topic: reference
 ms.service: windows-iot
