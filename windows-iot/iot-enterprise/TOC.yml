@@ -487,6 +487,8 @@
     href: ./resources/security.md
 - name: Frequently asked questions
   href: faq.md
+- name: End-User License Agreement
+  href: ./eula/end-user-license-agreement.md
 - name: Windows IoT Distributors
   href: ./windows-iot-distributors.md
 - name: Downloads
