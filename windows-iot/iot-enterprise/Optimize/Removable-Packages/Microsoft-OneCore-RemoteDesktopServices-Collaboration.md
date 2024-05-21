@@ -5,8 +5,8 @@ author: TerryWarwick
 ms.author: twarwick
 ms.date: 05/22/2024
 ms.topic: reference
-ms.prod: windows-iot
-ms.technology: iot
+ms.service: windows-iot
+ms.subservice: iot
 description: Removable Package Details for Remote Desktop Services
 keywords: IoT Enterprise, removable packages, storage
 ---
