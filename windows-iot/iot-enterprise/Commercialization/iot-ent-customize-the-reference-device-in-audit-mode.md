@@ -1,7 +1,7 @@
 ---
 description: Customize the reference device in Audit mode
 title: Customize the reference device in Audit mode
-ms.date: 12/10/2018
+ms.date: 05/21/2024
 ms.topic: article
 author: TerryWarwick
 ms.author: twarwick
@@ -122,7 +122,7 @@ You can add more languages to your custom image by using DISM to install a langu
    Dism /online /add-package /packagepath:C:\FOD\Microsoft-Windows-Client-Language-Pack_x64_fr-fr.cab
    ```
 
-1. (OPTIONAL) Locate the supporting language components for your language pack and copy them to *C:\FOD*. In this example, the cab files are:
+1. **(OPTIONAL)** Locate the supporting language components for your language pack and copy them to *C:\FOD*. In this example, the cab files are:
    - *Microsoft-Windows-LanguageFeatures-Basic-fr-fr-Package~31bf3856ad364e35~amd64~~.cab*
    - *Microsoft-Windows-LanguageFeatures-OCR-fr-fr-Package~31bf3856ad364e35~amd64~~.cab*
    - *Microsoft-Windows-LanguageFeatures-Handwriting-fr-fr-Package~31bf3856ad364e35~amd64~~.cab*
@@ -131,13 +131,34 @@ You can add more languages to your custom image by using DISM to install a langu
 
 1. Add the FODs for your language pack:
 
+   - *LanguageFeatures-Basic*:
+
+       ```cmd
+       Dism /online /add-package /packagepath:C:\FOD\Microsoft-Windows-LanguageFeatures-Basic-fr-fr-Package~31bf3856ad364e35~amd64~~.cab
+        ```
+
+   - *LanguageFeatures-OCR*:
+
+        ```cmd
+       Dism /online /add-package /packagepath:C:\FOD\Microsoft-Windows-LanguageFeatures-OCR-fr-fr-Package~31bf3856ad364e35~amd64~~.cab
+        ```
+
+   - *LanguageFeatures-Handwriting*:
+
     ```cmd
-   Dism /online /add-package ^
-   /packagepath:C:\FOD\Microsoft-Windows-LanguageFeatures-Basic-fr-fr-Package~31bf3856ad364e35~amd64~~.cab ^
-   /packagepath:C:\FOD\Microsoft-Windows-LanguageFeatures-OCR-fr-fr-Package~31bf3856ad364e35~amd64~~.cab ^
-   /packagepath:C:\FOD\Microsoft-Windows-LanguageFeatures-Handwriting-fr-fr-Package~31bf3856ad364e35~amd64~~.cab ^
-   /packagepath:C:\FOD\Microsoft-Windows-LanguageFeatures-TextToSpeech-fr-fr-Package~31bf3856ad364e35~amd64~~.cab ^
-   /packagepath:C:\FOD\Microsoft-Windows-LanguageFeatures-Speech-fr-fr-Package~31bf3856ad364e35~amd64~~.cab
+   Dism /online /add-package /packagepath:C:\FOD\Microsoft-Windows-LanguageFeatures-Handwriting-fr-fr-Package~31bf3856ad364e35~amd64~~.cab
+    ```
+
+   - *LanguageFeatures-TextToSpeech*:
+
+    ```cmd
+   Dism /online /add-package /packagepath:C:\FOD\Microsoft-Windows-LanguageFeatures-TextToSpeech-fr-fr-Package~31bf3856ad364e35~amd64~~.cab
+    ```
+
+   - *LanguageFeatures-Speech*:
+
+    ```cmd
+   Dism /online /add-package /packagepath:C:\FOD\Microsoft-Windows-LanguageFeatures-Speech-fr-fr-Package~31bf3856ad364e35~amd64~~.cab
     ```
 
 1. Add the new language to the language list in Windows. From an Administrative Windows Powershell Prompt:
