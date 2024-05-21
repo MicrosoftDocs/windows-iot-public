@@ -9,7 +9,7 @@ author: TerryWarwick
 ms.author: twarwick
 ms.service: windows-iot
 ms.subservice: iot
-ms.date: 05/02/2017
+ms.date: 05/20/2024
 ms.topic: article
 
 
@@ -49,7 +49,7 @@ Returns an HRESULT value that indicates [WMI status](/windows/win32/wmisdk/wmi-n
 | Windows Pro            | No        |
 | Windows Enterprise     | Yes       |
 | Windows Education      | Yes       |
-| Windows IoT Enterprise | Yea       |
+| Windows IoT Enterprise | Yes       |
 
 ## Related topics
 
