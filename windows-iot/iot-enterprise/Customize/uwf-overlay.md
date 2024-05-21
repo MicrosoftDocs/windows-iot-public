@@ -55,11 +55,11 @@ The following tables list any methods and properties that belong to this class.
 
 | Property | Data&nbsp;type | Qualifiers | Description |
 |----------|----------------|------------|-------------|
-| Id       | string         | [key]      | A unique ID. This is always set to **UWF_Overlay**. |
-| OverlayConsumption | UInt32 | [read] | The current size, in megabytes, of the UWF overlay. |
-| AvailableSpace | UInt32 | [read] | The amount of free space, in megabytes, available to the UWF overlay. |
-| CriticalOverlayThreshold | UInt32 | [read] | The critical threshold size, in megabytes. UWF sends a critical threshold notification event when the UWF overlay size reaches or exceeds this value. |
-| WarningOverlayThreshold | UInt32 | [read] | The warning threshold size, in megabytes. UWF sends a warning threshold notification event when the UWF overlay size reaches or exceeds this value. |
+| ID       | string         | [key]      | A unique ID. This is always set to **UWF_Overlay**. |
+| OverlayConsumption | Uint32 | [read] | The current size, in megabytes, of the UWF overlay. |
+| AvailableSpace | Uint32 | [read] | The amount of free space, in megabytes, available to the UWF overlay. |
+| CriticalOverlayThreshold | Uint32 | [read] | The critical threshold size, in megabytes. UWF sends a critical threshold notification event when the UWF overlay size reaches or exceeds this value. |
+| WarningOverlayThreshold | Uint32 | [read] | The warning threshold size, in megabytes. UWF sends a warning threshold notification event when the UWF overlay size reaches or exceeds this value. |
 
 ### Examples
 
@@ -168,6 +168,6 @@ Only one **UFW\_Overlay** instance exists for a system protected with UWF.
 | Windows Education      | Yes       |
 | Windows IoT Enterprise | Yes       |
 
-## Related topics
+## Related articles
 
 - [Unified Write Filter](unified-write-filter.md)
