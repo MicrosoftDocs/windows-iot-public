@@ -38,7 +38,9 @@ Windows 11 IoT Enterprise LTSC 2024 follows the [Fixed Lifecycle Policy](/lifecy
 | ---- | ----- | --- | --- |
 | Windows&nbsp;11&nbsp;IoT&nbsp;Enterprise,&nbsp;version&nbsp;24H2 | 26100 |     |     |
 
+<!--
 For more information, see [Windows 11 IoT Enterprise LTSC 2024 support lifecycle](/lifecycle/products/windows-11-iot-enterprise-ltsc-2024).
+-->
 
 ## Windows IoT Spotlight
 

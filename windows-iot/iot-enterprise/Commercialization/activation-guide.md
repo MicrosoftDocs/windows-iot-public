@@ -2,15 +2,14 @@
 title: Windows IoT Enterprise OEM Activation using ePKEA
 description: OEMs use Embedded Product Key Entry Activation (ePKEA) to enable activation of Windows IoT Enterprise for a predetermined number of specialized devices.
 author: terrywarwick
+ms.author: twarwick
 ms.service: windows-iot
 ms.subservice: iot
-ms.topic: concept-article
+ms.topic: reference
 ms.date: 05/22/2024
 ---
 
 # OEM Activation
-
-## Introduction
 
 As a device maker, you can install and use the Windows IoT Enterprise operating system to develop and test prototype customer systems. Any images installed without a product key or using the default manufacturing key won't function for more than 30 days after the first boot of an image on a prototype system.
 
@@ -74,7 +73,7 @@ You're prompted to enter your product key if you choose to create your image usi
 | Enter the 'default manufacturing key' | Your device isn't enabled for activation and you must install your production ePKEA during Audit Mode. |
 | Skip the product key entry screen     | You must select either Windows IoT Enterprise or Windows IoT Enterprise LTSC to proceed. Your device isn't enabled for activation when setup is complete and you must install your production ePKEA during Audit Mode. |
 
-For more information on interactive setup, see [Boot and install Windows](/windows-hardware/manufacture/desktop/boot-and-install-window).
+For more information on interactive setup, see [Boot and install Windows](/windows-hardware/manufacture/desktop/boot-and-install-windows).
 
 ### Unattended Setup
 
@@ -172,7 +171,7 @@ Windows IoT Enterprise attempts to activate automatically if you're connected to
 
    A result of **License Status:Licensed** indicates the device is activated If your device shows that it isn't activated, you can also trigger an activation attempt using `slmgr.vbs /ato`.
 
-   For more information, see [Slmgr.vbs Options](/windows-server/get-started/activation-slmgr-vbs-options.)
+   For more information, see [Slmgr.vbs Options](/windows-server/get-started/activation-slmgr-vbs-options).
 
 ### Activate using a telephone
 
@@ -198,7 +197,7 @@ For information on using VAMT to activate your Windows IoT Enterprise devices th
 
 - **How do I acquire a ePKEA that I can use for my devices?**
 
-  **Answer:**  You need to have a valid Cient License Agreement (CLA) in place with Microsoft and then you would fill out and submit the Special Key Request form. To acquire these you need to contact a Windows IoT Distributor, or if you are Direct with Microsoft contact your Microsoft Account Manager. 
+  **Answer:**  You need to have a valid Cient License Agreement (CLA) in place with Microsoft and then you would fill out and submit the Special Key Request form. To acquire these you need to contact a Windows IoT Distributor, or if you are Direct with Microsoft contact your Microsoft Account Manager.
 
 - **Are there any logs where can I tell that my device has attempted to activate?**
 
