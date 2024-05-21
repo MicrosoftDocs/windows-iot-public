@@ -13,7 +13,9 @@ keywords: IoT Enterprise, binary, fixed purpose devices, LTSC, Silicon
 
 # What is Windows IoT Enterprise?
 
-Windows IoT Enterprise is a full version of Windows Enterprise that delivers enterprise manageability and security to IoT solutions. Windows IoT Enterprise shares all the benefits of the worldwide Windows ecosystem. It is a binary equivalent to Windows Enterprise, so you can use the same familiar development and management tools as client PCs and laptops. However, when it comes to *licensing and distribution*, the desktop version and IoT versions differ as the Windows IoT Enterprise product line is intended for *fixed purpose devices*. Windows IoT Enterprise offers both *General Availability Channel (GAC)* and *Long-Term Servicing Channel (LTSC)* options, LTSC provides a *10-year support lifecycle* for fixed purpose devices where changes in functionality aren't desirable.
+Windows IoT Enterprise is a full version of Windows Enterprise that delivers enterprise manageability and security to IoT solutions. Windows IoT Enterprise shares all the benefits of the worldwide Windows ecosystem. It is a binary equivalent to Windows Enterprise, so you can use the same familiar development and management tools as client PCs and laptops. 
+
+However, when it comes to *licensing and distribution*, the desktop version and IoT versions differ as the Windows IoT Enterprise product line is intended for *fixed purpose devices*. Windows IoT Enterprise offers both *General Availability Channel (GAC)* and *Long-Term Servicing Channel (LTSC)* options, LTSC provides a *10-year support lifecycle* for fixed purpose devices where changes in functionality aren't desirable.
 
 - **Fixed Purpose Devices** - Windows is well known as the operating system for laptops and desktops that have been used by consumers and businesses worldwide for decades. Windows also powers many ATM machines, point-of-sale terminals, industrial automation systems, thin clients, medical devices, digital signage, kiosks, and other fixed purpose devices. Windows IoT Enterprise allows you to build these fixed purpose devices with specific allowances and restrictions in the license agreement.
 
