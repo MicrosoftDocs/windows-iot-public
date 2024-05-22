@@ -57,7 +57,3 @@ The LTSC is designed for devices and use cases where features and functionality 
 | **Security** | Windows IoT Enterprise LTSC, with the latest cumulative update distributed monthly installed, provides the most secure environment for the most demanding industrial devices. |
 | **Stability** | Windows IoT Enterprise LTSC, with the latest cumulative update distributed monthly installed, has the latest performance and stability improvements. |
 | **Hardware choice** | New devices target and ship with the latest Windows release to light up new hardware capabilities and improvements. |
-
-## Next step
-
-[How to Start Prototyping with Windows IoT Enterprise](./Hardware/Prototype.md)
