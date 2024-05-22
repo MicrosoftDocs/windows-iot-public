@@ -142,6 +142,7 @@ Like Windows 10, Windows 11 IoT Enterprise LTSC 2024 receives monthly quality up
 
 ## Related content
 
+- [Windows 11 IoT Enterprise LTSC 2024 release announcement](https://aka.ms/WinIoT2024release)
 - [Release History](Release-History.md)
 - [Minimum Hardware Requirements](../Hardware/Hardware_Requirements.md)
 - [Windows IoT Distributors](../windows-iot-distributors.md)
