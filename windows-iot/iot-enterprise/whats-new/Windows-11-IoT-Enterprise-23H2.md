@@ -17,7 +17,7 @@ Windows 11 IoT Enterprise, version 23H2 is a feature update for Windows 11 IoT E
 
 Windows 11 IoT Enterprise follows the [Modern Lifecycle Policy](/lifecycle/policies/modern).
 
-| Release | Version | Availability | End&nbsp;of&nbsp;Servicing |
+| Release Version | Build | Start Date | End&nbsp;of&nbsp;Servicing |
 |---------|---------|--------------|----------------------------|
 | Windows&nbsp;11&nbsp;IoT&nbsp;Enterprise,&nbsp;version&nbsp;23H2 | 22631 | 2023-10-31 | 2026-11-10 |
 

@@ -17,7 +17,7 @@ Windows 11 IoT Enterprise, version 21H2 is the next evolution of Windows for IoT
 
 Windows 11 IoT Enterprise follows the [Modern Lifecycle Policy](/lifecycle/policies/modern).
 
-| Release | Version | Availability | End of Servicing |
+| Release Version | Build | Start Date | End of Servicing |
 | --- | --- | --- | --- |
 | Windows 11 IoT Enterprise, version 21H2 | 22000 | 2021-10-04 | 2024-10-08 |
 

@@ -18,7 +18,7 @@ Windows 10, version 22H2 is a feature update for Windows 10 IoT Enterprise. It's
 
 Windows 10 IoT Enterprise, version 22H2 follows the [Modern Lifecycle Policy](/lifecycle/policies/modern).
 
-| Release | Version | Availability | End of Servicing |
+| Release Version | Build | Start Date | End of Servicing |
 | --- | --- | --- | --- |
 | Windows 10 IoT Enterprise, version 22H2 | 19045 | 2022-10-18 | 2025-10-14 |
 

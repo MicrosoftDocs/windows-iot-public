@@ -18,7 +18,7 @@ Windows 11, version 22H2 is a feature update for Windows 11 IoT Enterprise. Wind
 
 Windows 11 IoT Enterprise follows the [Modern Lifecycle Policy](/lifecycle/policies/modern).
 
-| Release | Version | Availability | End of Servicing |
+| Release Version | Build | Start Date | End of Servicing |
 | --- | --- | --- | --- |
 | Windows 11 IoT Enterprise, version 22H2 | 22621 | 2022-09-20 | 2025-10-14 |
 

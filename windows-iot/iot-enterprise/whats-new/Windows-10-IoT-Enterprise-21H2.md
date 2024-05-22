@@ -17,7 +17,7 @@ Windows 10, version 21H2 is a feature update for Windows 10 IoT Enterprise. This
 
 Windows 10 IoT Enterprise, version 21H2 follows the [Modern Lifecycle Policy](/lifecycle/policies/modern).
 
-| Release | Version | Availability | End of Servicing |
+| Release Version | Build | Start Date | End of Servicing |
 | --- | --- | --- | --- |
 | Windows 10 IoT Enterprise, version 21H2 | 19044 | 2021-11-16 | 2024-06-11 |
 
