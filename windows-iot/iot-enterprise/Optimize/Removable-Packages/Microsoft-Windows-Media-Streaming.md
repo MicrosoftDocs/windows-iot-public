@@ -1,10 +1,10 @@
 ---
 title: Package - Windows Media Streaming
 titleSuffix: Windows IoT Enterprise
-author: twarwick
+author: TerryWarwick
 ms.author: twarwick
-ms.date: 02/21/2024
-ms.topic: article
+ms.date: 05/22/2024
+ms.topic: reference
 ms.service: windows-iot
 ms.subservice: iot
 description: Removable Package Details for Microsoft-Windows-Media-Streaming
@@ -13,17 +13,13 @@ keywords: IoT Enterprise, removable packages, storage
 
 # Windows Media Streaming
 
-| Applies to                          |  Version            |
-|:------------------------------------|:--------------------|
-| Windows 10 IoT Enterprise LTSC 2021 | 19044.1741 or later |
+Applies to:  
+✅ Windows 11 IoT Enterprise LTSC 2024  
+✅ Windows 10 IoT Enterprise LTSC 2021 (19044.1741 or later)  
 
-## Description
+## Package Description
 
-A component of the [Media Feature Pack](/windows/win32/wmdm/windows-media-device-manager-architecture) providing support for [Windows Media Streaming](/windows/win32/mediastreaming/media-streaming-api-portal).
-
-**Package Name:**  Microsoft-Windows-Media-Streaming
-
-**Size:** Approximately 6,644 KB
+Package: **Microsoft-Windows-Media-Streaming** </br> A component of the [Media Feature Pack](/windows/win32/wmdm/windows-media-device-manager-architecture) providing support for [Windows Media Streaming](/windows/win32/mediastreaming/media-streaming-api-portal).
 
 > [!IMPORTANT]
 >
@@ -52,7 +48,7 @@ A component of the [Media Feature Pack](/windows/win32/wmdm/windows-media-device
 
 ## Related Packages
 
-These packages collectively provide the functionality represented by the [Media Feature Pack](/windows/win32/wmdm/windows-media-device-manager-architecture). There are dependencies between each of these packages. If you elect to remove a subset of these packages, it's recommended that you thoroughly test your scenarios to ensure that your customers don't encounter the interaction between the packages you retain and the packages that you remove.
+These packages collectively provide the functionality represented by the [Media Feature Pack](/windows/win32/wmdm/windows-media-device-manager-architecture). There are dependencies between each of these packages. If you elect to remove a subset of these packages, you must thoroughly test your scenarios to ensure that your customers don't encounter an issue with missing dependencies.
 
 - [Microsoft-Media-Foundation](Microsoft-Media-Foundation.md)
 - [Microsoft-Windows-Media-Format](Microsoft-Windows-Media-Format.md)
@@ -62,7 +58,16 @@ These packages collectively provide the functionality represented by the [Media 
 - [Microsoft-Windows-WebcamExperience](Microsoft-Windows-WebcamExperience.md)
 - [Microsoft-Windows-WinSATMediaFiles](Microsoft-Windows-WinSATMediaFiles.md)
 
-## File List
+## Package Details
+
+### Package Size
+
+| Release                             |   x64     |    ARM64    |
+|-------------------------------------|:---------:|:-----------:|
+| Windows 11 IoT Enterprise LTSC 2024 | 7,030 KB  | 10,264 KB   |
+| Windows 10 IoT Enterprise LTSC 2021 | 6,644 KB  |             |
+
+### File List
 
 | File Name                         | Installed Location |
 |-----------------------------------|--------------------|
@@ -77,7 +82,7 @@ These packages collectively provide the functionality represented by the [Media 
 | wmpdmc.exe                        | %windir%\system32\wmpdmc.exe |
 | wmpdui.dll                        | %windir%\system32\wmpdui.dll |
 
-## More Resources
+## Related Content
 
 - [Removable Packages](../Removable-Packages.md)
 - [Device Optimization Overview](../Overview.md)

@@ -4,15 +4,15 @@ description: Learn about Windows IoT Enterprise.
 ms.service: windows-iot
 author: TerryWarwick
 ms.author: twarwick
-ms.topic: article
+ms.topic: whats-new
 ms.subservice: iot
-ms.date: 04/05/2024
+ms.date: 05/22/2024
 
 ---
 
 # Windows IoT Enterprise Release History
 
-The Windows IoT Enterprise product line is intended for special-purpose devices. These devices are typically found in industries including, but not limited to, banking, healthcare, hospitality, manufacturing, and retail.   Windows IoT Enterprise is a derivative of Windows Enterprise and as such includes advanced security, management and lockdown capabilities required to support special-purpose devices in an enterprise environment.  
+The Windows IoT Enterprise product line is intended for fixed purpose devices. These devices are typically found in industries including, but not limited to, banking, healthcare, hospitality, manufacturing, and retail. Windows IoT Enterprise is a derivative of Windows Enterprise and as such includes advanced security, management and lockdown capabilities required to support fixed purpose devices in an enterprise environment.  
 
 There are currently three products offerings in the Windows IoT Enterprise product line each of which contain multiple releases. For more information, see...
 
@@ -34,20 +34,22 @@ Windows IoT Enterprise LTSC releases follow the [Fixed Lifecycle Policy](/lifecy
 
 | Release                             | Version | Availability | End of Servicing | Update History | Windows Update Catalog |
 | --- | --- | --- | --- | --- | ---|
+| Windows&nbsp;11&nbsp;IoT&nbsp;Enterprise&nbsp;LTSC&nbsp;2024 </br>[24H2]|   26100 |  |  |  |  |
 | Windows&nbsp;10&nbsp;IoT&nbsp;Enterprise&nbsp;LTSC&nbsp;2021</br>[21H2] |   19044 | 2021&#8209;11&#8209;16  |    2032&#8209;01&#8209;13 | [Show&nbsp;update&nbsp;history](https://support.microsoft.com/topic/windows-10-update-history-857b8ccb-71e4-49e5-b3f6-7073197d98fb)               | [Show&nbsp;x64&nbsp;updates](https://www.catalog.update.microsoft.com/Search.aspx?q=-Dynamic%20Cumulative%20Update%20for%20Windows%2010%20version%2021H2%20for%20x64) [Show&nbsp;ARM64&nbsp;updates](https://www.catalog.update.microsoft.com/Search.aspx?q=-Dynamic%20Cumulative%20Update%20for%20Windows%2010%20version%2021H2%20for%20Arm64) |
 | Windows&nbsp;10&nbsp;IoT&nbsp;Enterprise&nbsp;LTSC&nbsp;2019 </br>[1809]|   17763 |  2018&#8209;11&#8209;13  |    2029&#8209;01&#8209;09    | [Show&nbsp;update&nbsp;history](https://support.microsoft.com/topic/windows-10-and-windows-server-2019-update-history-725fc2e1-4443-6831-a5ca-51ff5cbcb059)               |  [Show&nbsp;x64&nbsp;updates](https://www.catalog.update.microsoft.com/Search.aspx?q=-Dynamic%20Cumulative%20Update%20for%20Windows%2010%20version%201809%20for%20x64) [Show&nbsp;ARM64&nbsp;updates](https://www.catalog.update.microsoft.com/Search.aspx?q=-Dynamic%20Cumulative%20Update%20for%20Windows%2010%20version%201809%20for%20Arm64) |
 | Windows&nbsp;10&nbsp;IoT&nbsp;Enterprise&nbsp;LTSC&nbsp;2016 </br>[1607] |   14393 |  2016&#8209;08&#8209;02  |    2026&#8209;10&#8209;13    | [Show&nbsp;update&nbsp;history](https://support.microsoft.com/topic/windows-10-and-windows-server-2016-update-history-4acfbc84-a290-1b54-536a-1c0430e9f3fd) | [Show&nbsp;x64&nbsp;updates](https://www.catalog.update.microsoft.com/Search.aspx?q=-Dynamic%20Cumulative%20Update%20for%20Windows%2010%20version%201607%20for%20x64) [Show&nbsp;x86&nbsp;updates](https://www.catalog.update.microsoft.com/Search.aspx?q=-Dynamic%20Cumulative%20Update%20for%20Windows%2010%20version%201607%20for%20x86) |
 | Windows&nbsp;10&nbsp;IoT&nbsp;Enterprise&nbsp;LTSC&nbsp;2015 </br>[1507]|   10240 |  2015&#8209;07&#8209;29  |    2025&#8209;10&#8209;14    |  [Show&nbsp;update&nbsp;history](https://support.microsoft.com/topic/windows-10-update-history-93345c32-4ae1-6d1c-f885-6c0b718adf3b)              | [Show&nbsp;x64&nbsp;updates](https://www.catalog.update.microsoft.com/Search.aspx?q=-Dynamic%20Cumulative%20Update%20for%20Windows%2010%20version%201507%20for%20x64) [Show&nbsp;x86&nbsp;updates](https://www.catalog.update.microsoft.com/Search.aspx?q=-Dynamic%20Cumulative%20Update%20for%20Windows%2010%20version%201507%20for%20x64) |
 
+¹ Exact timing will be published in Q4 CY'2024.  
 For more information, see [Windows IoT Enterprise LTSC support lifecycle](/lifecycle/products/?terms=Windows%20IoT%20Enterprise%20LTS).
 
 ## Windows IoT Enterprise
 
-Windows IoT Enterprise is also available through the General Availability Channel for Windows IoT Enterprise is also designed for special-purpose devices that require the latest feature updates as soon as they're available. Windows IoT Enterprise in the General Availability Channel provides a 36 month lifecycle (30 months for Windows 10) which is reset with each annual Feature Update. For more information, see [Windows as a Service - General Availability Channel](/windows/deployment/update/waas-overview#general-availability-channel).
+Windows IoT Enterprise is also available through the General Availability Channel for Windows IoT Enterprise is also designed for special-purpose devices that require the latest feature updates as soon as they're available. Windows IoT Enterprise in the General Availability Channel provides a 36 month lifecycle (30 months for Windows 10) which is reset with each annual feature update. For more information, see [Windows as a Service - General Availability Channel](/windows/deployment/update/waas-overview#general-availability-channel).
 
 ### Windows 11 IoT Enterprise
 
-Windows 11 IoT Enterprise releases follow the [Modern Lifecycle Policy](/lifecycle/policies/modern) where each release is supported for 36-months and each Feature Update resets the support lifecycle.
+Windows 11 IoT Enterprise releases follow the [Modern Lifecycle Policy](/lifecycle/policies/modern) where each release is supported for 36-months and each feature update resets the support lifecycle.
 
 (All dates are listed in ISO 8601 format: YYYY/MM/DD)
 
@@ -57,6 +59,7 @@ Windows 11 IoT Enterprise releases follow the [Modern Lifecycle Policy](/lifecyc
 
 | Release Versions | Build |  Start Date  | End of Servicing |
 | ---------------- | ----- | ------------ | ---------------- |
+| [Windows&nbsp;11&nbsp;IoT&nbsp;Enterprise,&nbsp;version&nbsp;24H2](Windows-11-IoT-Enterprise-23H2.md) | 26100 |  | |
 | [Windows&nbsp;11&nbsp;IoT&nbsp;Enterprise,&nbsp;version&nbsp;23H2](Windows-11-IoT-Enterprise-23H2.md) | 22631 | 2023&#8209;10&#8209;31 | 2026&#8209;11&#8209;10 |
 | [Windows&nbsp;11&nbsp;IoT&nbsp;Enterprise,&nbsp;version&nbsp;22H2](Windows-11-IoT-Enterprise-22H2.md) | 22621 |  2022&#8209;09&#8209;20  | 2025&#8209;10&#8209;14 |
 | [Windows&nbsp;11&nbsp;IoT&nbsp;Enterprise,&nbsp;version&nbsp;21H2](Windows-11-IoT-Enterprise-21H2.md)     | 22000 |  2021&#8209;10&#8209;04  | 2024&#8209;10&#8209;08 |
@@ -65,7 +68,7 @@ For more information, see [Windows 11 IoT Enterprise support lifecycle](/lifecyc
 
 ### Windows 10 IoT Enterprise
 
-Windows 10 IoT Enterprise releases follow the [Modern Lifecycle Policy](/lifecycle/policies/modern) where each release is supported for 30-months and each Feature Update resets the support lifecycle.
+Windows 10 IoT Enterprise releases follow the [Modern Lifecycle Policy](/lifecycle/policies/modern) where each release is supported for 30-months and each feature update resets the support lifecycle.
 
 (All dates are listed in ISO 8601 format: YYYY-MM-DD)
 
@@ -92,7 +95,7 @@ Windows 10 IoT Enterprise releases follow the [Modern Lifecycle Policy](/lifecyc
 
 For more information, see [Windows 10 IoT Enterprise support lifecycle](/lifecycle/products/windows-10-iot-enterprise).
 
-## Other Information
+## Related content
 
 * [Quick guide to Windows as a service](/windows/deployment/update/waas-quick-start)
 * [Overview of Windows as a service](/windows/deployment/update/waas-overview)

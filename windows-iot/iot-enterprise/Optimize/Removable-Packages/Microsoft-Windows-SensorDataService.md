@@ -1,10 +1,10 @@
 ---
 title: Package - Sensor Data Service
 titleSuffix: Windows IoT Enterprise
-author: twarwick
+author: TerryWarwick
 ms.author: twarwick
-ms.date: 01/31/2024
-ms.topic: article
+ms.date: 05/22/2024
+ms.topic: reference
 ms.service: windows-iot
 ms.subservice: iot
 description: Removable Package Details for Microsoft-Windows-SensorDataService
@@ -13,17 +13,13 @@ keywords: IoT Enterprise, removable packages, storage
 
 # Sensor Data Service
 
-| Applies to                          |  Version            |
-|:------------------------------------|:--------------------|
-| Windows 10 IoT Enterprise LTSC 2021 | 19044.1741 or later |
+Applies to:  
+✅ Windows 11 IoT Enterprise LTSC 2024  
+✅ Windows 10 IoT Enterprise LTSC 2021 (19044.1741 or later)  
 
-## Description
+## Package Description
 
-A component of the [Media Feature Pack](/windows/win32/wmdm/windows-media-device-manager-architecture) supporting data acquisition from various sensors.  Supports Windows Hello.
-
-**Package Name:** Microsoft-Windows-SensorDataService
-
-**Size:** Approximately 1,367 KB
+Package: **Microsoft-Windows-SensorDataService** </br> Component of the [Media Feature Pack](/windows/win32/wmdm/windows-media-device-manager-architecture) supporting data acquisition from  various sensors. Supports Windows Hello.
 
 > [!IMPORTANT]
 >
@@ -50,14 +46,23 @@ A component of the [Media Feature Pack](/windows/win32/wmdm/windows-media-device
    Dism.exe /Online /Get-FeatureInfo /FeatureName:Microsoft-Windows-SensorDataService /PackageName:@Package
    ````
 
-## File List
+## Package Details
+
+### Package Size
+
+| Release                             |   x64     |    ARM64    |
+|-------------------------------------|:---------:|:-----------:|
+| Windows 11 IoT Enterprise LTSC 2024 | 0 KB      | 0 KB        |
+| Windows 10 IoT Enterprise LTSC 2021 | 1,367 KB  |             |
+
+### File List
 
 | File Name | Installed Location |
 |-----------|--------------------|
 | mediafoundation.defaultperceptionprovider.dll | %windir%\system32\mediafoundation.defaultperceptionprovider.dll |
 | sensordataservice.exe                         | %windir%\system32\sensordataservice.exe |
 
-## More Resources
+## Related Content
 
 - [Removable Packages](../Removable-Packages.md)
 - [Device Optimization Overview](../Overview.md)
