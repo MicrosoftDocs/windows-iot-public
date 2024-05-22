@@ -18,17 +18,14 @@ metadata:
 
 highlightedContent:
   items:
-    - title: What's new in Windows IoT Enterprise Long-term Servicing Channel (LTSC)
+    - title: Windows 11 IoT Enterprise LTSC 2024 is here!
       itemType: whats-new  # controls the icon image and super-title text
-      url: ./iot-enterprise/whats-new/Windows-IoT-Enterprise-LTSC.md
-    - title: What's new in Windows 10 IoT Enterprise, version 22H2 
-      itemType: whats-new
-      url: ./iot-enterprise/whats-new/Windows-10-IoT-Enterprise-22H2.md
-    - title: What's new in Windows 11 IoT Enterprise, version 23H2 
-      itemType: whats-new
-      url: ./iot-enterprise/whats-new/Windows-11-IoT-Enterprise-23H2.md
+      url: ./iot-enterprise/whats-new/Windows-11-IoT-Enterprise-LTSC-2024.md
+    - title: Windows IoT Enterprise Release History
+      itemType: reference
+      url: ./iot-enterprise/whats-new/release-history.md
     - title: Windows for IoT News
-      itemType: whats-new
+      itemType: reference
       url: ./iot-enterprise/whats-new/News-Blogs.md
 
 productDirectory:
@@ -36,7 +33,7 @@ productDirectory:
     - title: Windows IoT Enterprise
       imageSrc: /media/logos/logo_Windows.svg
       links:
-        - url: ./iot-enterprise/whats-new/Release-History.md
+        - url: ./iot-enterprise/Overview.md
           text: Overview
         - url: ./iot-enterprise/hardware/Hardware_Requirements.md
           text: Hardware Requirements  
