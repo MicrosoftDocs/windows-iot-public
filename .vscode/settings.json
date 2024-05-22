@@ -102,5 +102,6 @@
     ],
     "githubPullRequests.ignoredPullRequestBranches": [
         "main"
-    ]
+    ],
+    "sarif-viewer.connectToGithubCodeScanning": "off"
 }

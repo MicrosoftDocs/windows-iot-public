@@ -1,8 +1,12 @@
-log/
-obj/
 _site/
 .optemp/
 _themes*/
 _repo.*/
 
 .openpublishing.buildcore.ps1
+
+# Visual Studio and VS Code files
+.vscode/*
+.vs/*
+log/
+obj/
