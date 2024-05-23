@@ -46,10 +46,10 @@ For more information, see [Windows 11 IoT Enterprise LTSC 2024 support lifecycle
 
 Windows 11 IoT Enterprise LTSC 2024 release includes the cumulative enhancements provided by the following annual releases as well as  features that are unique to the LTSC release:
 
-- [Windows 11 IoT Enterprise, version 21H2](Windows-11-IoT-Enterprise-21H2.md)
-- [Windows 11 IoT Enterprise, version 22H2](Windows-11-IoT-Enterprise-22H2.md)
-- [Windows 11 IoT Enterprise, version 23H2](Windows-11-IoT-Enterprise-23H2.md)
 - Windows 11 IoT Enterprise, version 24H2
+- [Windows 11 IoT Enterprise, version 23H2](Windows-11-IoT-Enterprise-23H2.md)
+- [Windows 11 IoT Enterprise, version 22H2](Windows-11-IoT-Enterprise-22H2.md)
+- [Windows 11 IoT Enterprise, version 21H2](Windows-11-IoT-Enterprise-21H2.md)
 
 | Feature </br> [Release] | Description |
 | --- | --- |
@@ -83,7 +83,7 @@ Most accessories and associated drivers that work with Windows 10 IoT Enterprise
 
 ## Security
 
-The security and privacy features in Windows 11 are similar to Windows 10. Security for your devices starts with the hardware, and includes OS security, application security, and user & identity security. There are features available in the Windows OS to help in these areas. This section describes some of these features. Microsoft's [Edge Secured-core Program](/azure/certification/overview) provides recommended hardware with these feaures to ensure security out of the box.  For a more comprehensive view, including zero trust, see [Windows security](/windows/security/).
+The security and privacy features in Windows 11 are similar to Windows 10. Security for your devices starts with the hardware, and includes OS security, application security, and user & identity security. There are features available in the Windows OS to help in these areas. This section describes some of these features. Microsoft's [Edge Secured-core Program](/azure/certification/overview) provides recommended hardware with these features to ensure security out of the box.  For a more comprehensive view, including zero trust, see [Windows security](/windows/security/).
 
 | Feature </br> [Release] | Description |
 | --- | --- |
