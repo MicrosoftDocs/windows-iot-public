@@ -27,7 +27,7 @@ Windows 10 Enterprise LTSC 2021 builds on Windows 10 Enterprise LTSC 2019, addin
 
 Windows 10 IoT Enterprise LTSC 2021 follows the [Fixed Lifecycle Policy](/lifecycle/policies/fixed).
 
-| Version | Build  | Availability | End of Servicing |
+| Release Version | Build | Start Date | End of Servicing |
 | --- | --- | --- | --- |
 | Windows&nbsp;10&nbsp;IoT&nbsp;Enterprise,&nbsp;version&nbsp;2021 | 19044 | 2021-11-16 | 2032-01-13 |
 
