@@ -32,7 +32,7 @@ Windows IoT Enterprise LTSC releases follow the [Fixed Lifecycle Policy](/lifecy
 
 (All dates are listed in ISO 8601 format: YYYY&#8209;MM&#8209;DD)
 
-| Release                             | Version | Availability | End of Servicing | Update History | Windows Update Catalog |
+| Release Version           | Build | Start Date | End of Servicing | Update History | Windows Update Catalog |
 | --- | --- | --- | --- | --- | ---|
 | Windows&nbsp;11&nbsp;IoT&nbsp;Enterprise&nbsp;LTSC&nbsp;2024 </br>[24H2]|   26100 |  |  |  |  |
 | Windows&nbsp;10&nbsp;IoT&nbsp;Enterprise&nbsp;LTSC&nbsp;2021</br>[21H2] |   19044 | 2021&#8209;11&#8209;16  |    2032&#8209;01&#8209;13 | [Show&nbsp;update&nbsp;history](https://support.microsoft.com/topic/windows-10-update-history-857b8ccb-71e4-49e5-b3f6-7073197d98fb)               | [Show&nbsp;x64&nbsp;updates](https://www.catalog.update.microsoft.com/Search.aspx?q=-Dynamic%20Cumulative%20Update%20for%20Windows%2010%20version%2021H2%20for%20x64) [Show&nbsp;ARM64&nbsp;updates](https://www.catalog.update.microsoft.com/Search.aspx?q=-Dynamic%20Cumulative%20Update%20for%20Windows%2010%20version%2021H2%20for%20Arm64) |
@@ -57,9 +57,9 @@ Windows 11 IoT Enterprise releases follow the [Modern Lifecycle Policy](/lifecyc
 | ------------------------------ | ------------ | --------------- |
 | Windows&nbsp;11&nbsp;IoT&nbsp;Enterprise      |  2021&#8209;10&#8209;04  |   In Support    |
 
-| Release Versions | Build |  Start Date  | End of Servicing |
+| Release Version  | Build |  Start Date  | End of Servicing |
 | ---------------- | ----- | ------------ | ---------------- |
-| [Windows&nbsp;11&nbsp;IoT&nbsp;Enterprise,&nbsp;version&nbsp;24H2](Windows-11-IoT-Enterprise-23H2.md) | 26100 |  | |
+| Windows&nbsp;11&nbsp;IoT&nbsp;Enterprise,&nbsp;version&nbsp;24H2 | 26100 |  | |
 | [Windows&nbsp;11&nbsp;IoT&nbsp;Enterprise,&nbsp;version&nbsp;23H2](Windows-11-IoT-Enterprise-23H2.md) | 22631 | 2023&#8209;10&#8209;31 | 2026&#8209;11&#8209;10 |
 | [Windows&nbsp;11&nbsp;IoT&nbsp;Enterprise,&nbsp;version&nbsp;22H2](Windows-11-IoT-Enterprise-22H2.md) | 22621 |  2022&#8209;09&#8209;20  | 2025&#8209;10&#8209;14 |
 | [Windows&nbsp;11&nbsp;IoT&nbsp;Enterprise,&nbsp;version&nbsp;21H2](Windows-11-IoT-Enterprise-21H2.md)     | 22000 |  2021&#8209;10&#8209;04  | 2024&#8209;10&#8209;08 |
