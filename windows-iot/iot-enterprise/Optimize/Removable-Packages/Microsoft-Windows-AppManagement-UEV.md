@@ -44,6 +44,9 @@ See [User Experience Virtualization](/windows/configuration/ue-v/uev-for-windows
    Dism.exe /Image:c:\offline  /Disable-Feature /FeatureName:Microsoft-Windows-AppManagement-UEV /PackageName:@Package
    ```
 
+   > [!NOTE]
+   > This package cannot be removed from the original `install.wim` since it is dynamically installed based on hardware capabilities.  To remove this package offline, you must mount a post installation captured WIM or a VHD that has already been deployed.
+
 1. Optional: Use DISM /GetFeatureInfo to get the status of a removable package type:
 
    ```powershell
