@@ -1,5 +1,5 @@
 ---
-description: Customize the reference device in Audit mode
+description: Customize the reference device in Audit mode.
 title: Customize the reference device in Audit mode
 ms.date: 05/21/2024
 ms.topic: article
@@ -47,12 +47,12 @@ Features on Demand (FODs) are Windows feature packages that can be added at any 
 
 Device partners often include FODs in Windows images. A commonly added feature is .NET Framework 3.5 to support scenarios where the device is running an OEM application and that needs .NET Framework 3.5 support.
 
-To add a Feature on Demand in audit mode, you need the FOD ISO either on a USB drive, or copied to your IoT device. Once you've finished installing FODs, you can remove the ISO from your IoT device or remove the USB drive.
+To add a Feature on Demand in audit mode, you need the FOD ISO either on a USB drive, or copied to your IoT device. Once you finish installing FODs, you can remove the ISO from your IoT device or remove the USB drive.
 
 1. Mount the Feature on Demand (FOD) ISO on the Technician PC.
 1. Locate the cab file for the FOD you're going to install. In this example, we use .NET Framework 3.5. The cab is named *Microsoft-Windows-NetFx3-OnDemand-Package~31bf3856ad364e35~amd64~~.cab*. You can view all the FOD .cab names at [Available Features on Demand](/windows-hardware/manufacture/desktop/features-on-demand-non-language-fod).
 1. Copy the cab file to the IoT device in a folder called *C:\FOD*.
-1. Add the FOD. From an Administrative Command Prompt:
+1. Add the FOD, from an Administrative Command Prompt:
 
    ```cmd
    Dism /online /add-package /packagepath:C:\FOD\Microsoft-Windows-NetFx3-OnDemand-Package~31bf3856ad364e35~amd64~~.cab 
@@ -79,7 +79,7 @@ See [Features on Demand](/windows-hardware/manufacture/desktop/features-on-deman
 
 ### Install drivers in Audit Mode
 
-Device partners may need to install more drivers for Windows in order to support the hardware of the IoT device. There are numerous ways to install drivers. The following two options show how to do an installation using the driver vendors supplied setup package and how to add the driver using DISM.
+Device partners might need to install more drivers for Windows in order to support the hardware of the IoT device. There are numerous ways to install drivers. The following two options show how to do an installation using the driver vendors supplied setup package and how to add the driver using DISM.
 
 To add a driver, you have to have a driver supplied from a hardware vendor. The driver package could be distributed as an .msi, .exe, or .inf file. The process of adding a driver depends on how the driver is distributed.
 
@@ -95,7 +95,7 @@ Use this method if the driver supplied by the independent hardware vendor (IHV) 
 
 To use this method, the driver supplied by the IHV has to already be extracted out into INF, SYS, CAT, etc. files, or be an MSI or EXE package that can be extracted. This method can also be used to [add drivers to an offline mounted image](/windows-hardware/manufacture/desktop/add-and-remove-drivers-to-an-offline-windows-image).
 
-1. If the driver is distributed as an MSI or EXE, copy the driver package provided by the IHV into a folder on the IoT device (we use *C:\Drivers* in our example). If the driver package is a *.msi* or *.exe*, extract the contents into a folder.
+1. If the driver is distributed as an MSI or EXE, copy the driver package provided by the IHV into a folder on the IoT device (we use *C:\Drivers* in our example). If the driver package is an .msi* or *.exe*, extract the contents into a folder.
 
 1. Open an Administrative Command Prompt and use DISM to add all the drivers in the folder.
 
@@ -109,14 +109,14 @@ To use this method, the driver supplied by the IHV has to already be extracted o
 
 ### Add a language in Audit Mode
 
-Device partners may need to add more languages to an image to enable a user to change languages. Adding languages during Audit mode is important for devices that may not have a persistent internet connection to download and install a language with the Settings app.
+Device partners might need to add more languages to an image to enable a user to change languages. Adding languages during Audit mode is important for devices that don't have a persistent internet connection to download and install a language with the Settings app.
 
 You can add more languages to your custom image by using DISM to install a language pack and the related Features on Demand. You can add languages in audit mode or to an offline mounted image. For more information, see [Languages overview](/windows-hardware/manufacture/desktop/add-language-packs-to-windows).
 
 1. Mount the FOD ISO on your Technician PC. Your ISO might still be mounted if you added a FOD earlier in the lab.
 1. Locate the cab file for the language pack you're going to install. In this example, we use French (fr-FR). The cab is named *Microsoft-Windows-Client-Language-Pack_x64_fr-fr.cab*.
 1. Copy the cab file to the IoT device folder *C:\FOD*.
-1. Add the language pack. From an Administrative Command Prompt:
+1. Add the language pack, from an Administrative Command Prompt:
 
    ```cmd
    Dism /online /add-package /packagepath:C:\FOD\Microsoft-Windows-Client-Language-Pack_x64_fr-fr.cab
@@ -161,7 +161,7 @@ You can add more languages to your custom image by using DISM to install a langu
         Dism /online /add-package /packagepath:C:\FOD\Microsoft-Windows-LanguageFeatures-Speech-fr-fr-Package~31bf3856ad364e35~amd64~~.cab
         ```
 
-1. Add the new language to the language list in Windows. From an Administrative Windows Powershell Prompt:
+1. Add the new language to the language list in Windows, from an Administrative Windows PowerShell Prompt:
 
    ```powershell
    $OldList = Get-WinUserLanguageList
@@ -173,7 +173,7 @@ You can add more languages to your custom image by using DISM to install a langu
 
 ### Add a cumulative update in Audit Mode
 
-Device partners may need to update the OS image with the latest cumulative update (LCU) as part of the initial image build process. The update can be applied offline or online using DISM, or running the Microsoft Servicing Update (MSU) package directly.
+Device partners might need to update the OS image with the latest cumulative update (LCU) as part of the initial image build process. The update can be applied offline or online using DISM, or running the Microsoft Servicing Update (MSU) package directly.
 
 #### Download an update
 
@@ -193,7 +193,7 @@ On the IoT device, select the Microsoft Servicing Update (MSU) package in File E
 
 You can install an LCU using DISM, which can be helpful if you're scripting the installation of the update. You can also use this method to add the update to an offline mounted image. For more information, see [Add updates to a Windows image](/windows-hardware/manufacture/desktop/servicing-the-image-with-windows-updates-sxs).
 
-1. Use DISM to install the LCU on the IoT device. From an Administrative Command Prompt:
+1. Use DISM to install the LCU on the IoT device, from an Administrative Command Prompt:
 
     ```cmd
     Dism /online /add-package /packagepath:C:\Packages\<package.msu>
@@ -201,8 +201,8 @@ You can install an LCU using DISM, which can be helpful if you're scripting the 
 
 ### Install OEM software in Audit Mode
 
-Device partners may need to install software in audit mode. This software might be Line of Business applications, tools, utilities, or any type of software that needs to be on the device prior to shipping. You can use Audit Mode to install software using methods that are available from the Windows desktop, and device partners should use the method that best aligns with their workflow.
-
+Device partners might need to install software in audit mode. This software can be Line of Business applications, tools, utilities, or any type of software that needs to be on the device before shipping. You can use Audit Mode to install software using methods that are available from the Windows desktop, and device partners should use the method that best aligns with their workflow.
+<!-- TODO: Change the text below when we change the articles to Get Started -->
 Some things to consider:
 
 - If an installed application is to become the shell experience for the device, follow the steps in lab #5 to set up Shell Launcher or Assigned Access. The features used depend on the type of application used for the shell.
