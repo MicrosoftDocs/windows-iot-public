@@ -7,7 +7,7 @@ MSHAttr:
 ms.assetid: 944d2987-5b2c-4c88-8199-dcec12d626b2
 
 
-ms.date: 05/02/2017
+ms.date: 05/20/2024
 ms.topic: article
 author: TerryWarwick
 ms.author: twarwick
@@ -95,7 +95,7 @@ foreach ($objCustomKey in $objDisabledCustomKeys) {
 | Windows Pro            | No        |
 | Windows Enterprise     | Yes       |
 | Windows Education      | Yes       |
-| Windows IoT Enterprise | Yea       |
+| Windows IoT Enterprise | Yes       |
 
 ## Related topics
 

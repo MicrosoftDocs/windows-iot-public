@@ -1,10 +1,10 @@
 ---
 title: Package - Windows Portable Devices
 titleSuffix: Windows IoT Enterprise
-author: twarwick
+author: TerryWarwick
 ms.author: twarwick
-ms.date: 01/31/2024
-ms.topic: article
+ms.date: 05/22/2024
+ms.topic: reference
 ms.service: windows-iot
 ms.subservice: iot
 description: Removable Package Details for Microsoft-Windows-Portable-Devices
@@ -13,17 +13,13 @@ keywords: IoT Enterprise, removable packages, storage
 
 # Windows Portable Devices
 
-| Applies to                          |  Version            |
-|:------------------------------------|:--------------------|
-| Windows 10 IoT Enterprise LTSC 2021 | 19044.1741 or later |
+Applies to:  
+✅ Windows 11 IoT Enterprise LTSC 2024  
+✅ Windows 10 IoT Enterprise LTSC 2021 (19044.1741 or later)  
 
-## Description
+## Package Description
 
-A component of the [Media Feature Pack](/windows/win32/wmdm/windows-media-device-manager-architecture) providing connectivity to portable devices for [Windows Media Device Manager](/windows/win32/wmdm/windows-media-device-manager-architecture).
-
-**Package Name:** Microsoft-Windows-Portable-Devices
-
-**Size:** Approximately 6,405 KB
+Package: **Microsoft-Windows-Portable-Devices** </br> A component of the [Media Feature Pack](/windows/win32/wmdm/windows-media-device-manager-architecture) providing connectivity to portable devices for [Windows Media Device Manager](/windows/win32/wmdm/windows-media-device-manager-architecture).
 
 > [!IMPORTANT]
 >
@@ -52,7 +48,7 @@ A component of the [Media Feature Pack](/windows/win32/wmdm/windows-media-device
 
 ## Related Packages
 
-These packages collectively provide the functionality represented by the [Media Feature Pack](/windows/win32/wmdm/windows-media-device-manager-architecture).  There are dependencies between each of these packages. If you elect to remove a subset of these packages, it is recommended that you thoroughly test your scenarios to ensure that your customers do not encounter the interaction between the packages you retain and the packages that you remove.
+These packages collectively provide the functionality represented by the [Media Feature Pack](/windows/win32/wmdm/windows-media-device-manager-architecture). There are dependencies between each of these packages. If you elect to remove a subset of these packages, you must thoroughly test your scenarios to ensure that your customers don't encounter an issue with missing dependencies.
 
 - [Microsoft-Media-Foundation](Microsoft-Media-Foundation.md)
 - [Microsoft-Windows-Media-Format](Microsoft-Windows-Media-Format.md)
@@ -62,7 +58,16 @@ These packages collectively provide the functionality represented by the [Media 
 - [Microsoft-Windows-WebcamExperience](Microsoft-Windows-WebcamExperience.md)
 - [Microsoft-Windows-WinSATMediaFiles](Microsoft-Windows-WinSATMediaFiles.md)
 
-## File List
+## Package Details
+
+### Package Size
+
+| Release                             |   x64     |    ARM64    |
+|-------------------------------------|:---------:|:-----------:|
+| Windows 11 IoT Enterprise LTSC 2024 | 6,847 KB  | 8,037 KB    |
+| Windows 10 IoT Enterprise LTSC 2021 | 6,405 KB  |             |
+
+### File List
 
 | File Name                         | Installed Location |
 |-----------------------------------|--------------------|
@@ -111,7 +116,7 @@ These packages collectively provide the functionality represented by the [Media 
 | wpdsp.mof                         | %windir%\system32\wbem\wpdsp.mof |
 | wpdupfltr.sys                     | %windir%\system32\drivers\wpdupfltr.sys |
 
-## More Resources
+## Related Content
 
 - [Removable Packages](../Removable-Packages.md)
 - [Device Optimization Overview](../Overview.md)

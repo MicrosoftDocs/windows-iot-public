@@ -1,10 +1,10 @@
 ---
 title: Package - Language Word Breaking Legacy
 titleSuffix: Windows IoT Enterprise
-author: twarwick
+author: TerryWarwick
 ms.author: twarwick
-ms.date: 01/31/2024
-ms.topic: article
+ms.date: 05/22/2024
+ms.topic: reference
 ms.service: windows-iot
 ms.subservice: iot
 description: Removable Package Details for LanguageFeatures_WordBreaking_Common_Legacy
@@ -13,17 +13,13 @@ keywords: IoT Enterprise, removable packages, storage
 
 # Language Word Breaking Legacy
 
-| Applies to                          |  Version            |
-|:------------------------------------|:--------------------|
-| Windows 10 IoT Enterprise LTSC 2021 | 19044.1741 or later |
+Applies to:  
+✅ Windows 11 IoT Enterprise LTSC 2024  
+✅ Windows 10 IoT Enterprise LTSC 2021 (19044.1741 or later)  
 
-## Description  
+## Package Description  
 
-Legacy neutral word breaker, should only be needed in occasional application compatibility scenarios.
-
-**Package Name:** LanguageFeatures-WordBreaking-Common-legacy  
-
-**Size:** Approximately 1542 KB
+Package: **LanguageFeatures-Wordbreaking-Common-legacy** </br> Legacy neutral word breaker should only be needed in occasional application compatibility scenarios.
 
 > [!IMPORTANT]
 >
@@ -50,13 +46,22 @@ Legacy neutral word breaker, should only be needed in occasional application com
    Dism.exe /Online /Get-FeatureInfo /FeatureName:LanguageFeatures-WordBreaking-Common-legacy /PackageName:@Package
    ````
 
-## File List
+## Package Details
+
+### Package Size
+
+| Release                             |   x64     |    ARM64    |
+|-------------------------------------|:---------:|:-----------:|
+| Windows 11 IoT Enterprise LTSC 2024 | 1,568 KB  | 1,764 KB    |
+| Windows 10 IoT Enterprise LTSC 2021 | 1,542 KB   |             |
+
+### File List
 
 | File Name | Installed Location |
 |-----------|--------------------|
 | nlsdata0000.dll | %windir%\system32\nlsdata0000.dll |
 
-## More Resources
+## Related Content
 
 - [Removable Packages](../Removable-Packages.md)
 - [Device Optimization Overview](../Overview.md)
