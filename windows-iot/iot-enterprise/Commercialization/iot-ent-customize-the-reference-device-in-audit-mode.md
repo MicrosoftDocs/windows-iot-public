@@ -19,11 +19,20 @@ In [Lab 1a](iot-ent-create-a-basic-image.md), you installed Windows IoT Enterpri
 
 ## What is Audit Mode?
 
-[Audit Mode](iot-ent-audit-mode-overview.md) allows you to customize Windows to image capture. Common audit mode customizations include installing Features on Demand (FODs), Drivers, Language Packs, and OEM software. This lab describes how to complete some of these common audit mode customizations.
+Most of our solutions are customized by our OEM partners. OEM software plays a significant role in the functionality of the IoT Device. Windows IoT Enterprise supports OEM customization and allows for a custom-built device to be run on top of the operating system.
 
-Audit mode isn't necessarily the only way to implement these customizations. If the following examples don't fit into your workflow, explore the desktop deployment documentation for other alternatives.
+To assist our OEM customers, we offer [Audit Mode](/windows-hardware/manufacture/desktop/audit-mode-overview) that allows administrators to boot directly to the desktop before you get to the Windows Welcome screen, giving them the opportunity to install Windows Updates, drivers, and other software as needed.
 
-For a fully automated approach to these steps, consider using the [Windows IoT Enterprise deployment framework](https://github.com/ms-iot/windows-iotent-deploy).
+## Benefits of using Audit Mode
+
+When Windows boots, it starts in either Out-Of-Box Experience (OOBE) mode or in audit mode. OOBE is the default out-of-box experience that allows end users to enter their account information, select language, accept the Microsoft Terms of Service, and set up networking. In audit mode, you can:
+
+- Bypass OOBE. You can access the desktop as quickly as possible. You don't have to configure default settings such as a user account, location, and time zone.
+- Install applications, add device drivers, and run scripts. You can connect to a network and access more installation files and scripts. You can also install more language packs and device drivers.
+- Test the validity of a Windows installation. Before you deploy the system to end users, you can perform tests on the system without creating a user account. Then you can prepare the system to start in OOBE on the next boot.
+- Add more customizations to a reference image. This reduces the number of images that you have to manage. For example, you can create a single reference image that contains the basic customizations that you want to apply to all Windows images. You can then boot the reference image to audit mode and make more changes that are specific to the computer. These changes can be customer-requested applications or specific device drivers.
+
+For more information see [Audit mode overview](/windows-hardware/manufacture/desktop/audit-mode-overview).
 
 ## Prerequisites
 
