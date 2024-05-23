@@ -129,37 +129,37 @@ You can add more languages to your custom image by using DISM to install a langu
    - *Microsoft-Windows-LanguageFeatures-TextToSpeech-fr-fr-Package~31bf3856ad364e35~amd64~~.cab*
    - *Microsoft-Windows-LanguageFeatures-Speech-fr-fr-Package~31bf3856ad364e35~amd64~~.cab*
 
-1. Add the FODs for your language pack:
+    1. Add the FODs for your language pack:
 
-   - *LanguageFeatures-Basic*:
-
-       ```cmd
-       Dism /online /add-package /packagepath:C:\FOD\Microsoft-Windows-LanguageFeatures-Basic-fr-fr-Package~31bf3856ad364e35~amd64~~.cab
-        ```
-
-   - *LanguageFeatures-OCR*:
+    - *Microsoft-Windows-LanguageFeatures-Basic-fr-fr-Package~31bf3856ad364e35~amd64~~.cab*:
 
         ```cmd
-       Dism /online /add-package /packagepath:C:\FOD\Microsoft-Windows-LanguageFeatures-OCR-fr-fr-Package~31bf3856ad364e35~amd64~~.cab
+        Dism /online /add-package /packagepath:C:\FOD\Microsoft-Windows-LanguageFeatures-Basic-fr-fr-Package~31bf3856ad364e35~amd64~~.cab
         ```
 
-   - *LanguageFeatures-Handwriting*:
+    - *Microsoft-Windows-LanguageFeatures-OCR-fr-fr-Package~31bf3856ad364e35~amd64~~.cab*:
 
-    ```cmd
-   Dism /online /add-package /packagepath:C:\FOD\Microsoft-Windows-LanguageFeatures-Handwriting-fr-fr-Package~31bf3856ad364e35~amd64~~.cab
-    ```
+       ```cmd
+       Dism /online /add-package /packagepath:C:\FOD\Microsoft-Windows-LanguageFeatures-OCR-fr-fr-Package~31bf3856ad364e35~amd64~~.cab
+       ```
 
-   - *LanguageFeatures-TextToSpeech*:
+    - *Microsoft-Windows-LanguageFeatures-Handwriting-fr-fr-Package~31bf3856ad364e35~amd64~~.cab*:
 
-    ```cmd
-   Dism /online /add-package /packagepath:C:\FOD\Microsoft-Windows-LanguageFeatures-TextToSpeech-fr-fr-Package~31bf3856ad364e35~amd64~~.cab
-    ```
+        ```cmd
+        Dism /online /add-package /packagepath:C:\FOD\Microsoft-Windows-LanguageFeatures-Handwriting-fr-fr-Package~31bf3856ad364e35~amd64~~.cab
+        ```
 
-   - *LanguageFeatures-Speech*:
+    - *Microsoft-Windows-LanguageFeatures-TextToSpeech-fr-fr-Package~31bf3856ad364e35~amd64~~.cab*:
 
-    ```cmd
-   Dism /online /add-package /packagepath:C:\FOD\Microsoft-Windows-LanguageFeatures-Speech-fr-fr-Package~31bf3856ad364e35~amd64~~.cab
-    ```
+        ```cmd
+        Dism /online /add-package /packagepath:C:\FOD\Microsoft-Windows-LanguageFeatures-TextToSpeech-fr-fr-Package~31bf3856ad364e35~amd64~~.cab
+        ```
+
+    - *Microsoft-Windows-LanguageFeatures-Speech-fr-fr-Package~31bf3856ad364e35~amd64~~.cab*:
+
+        ```cmd
+        Dism /online /add-package /packagepath:C:\FOD\Microsoft-Windows-LanguageFeatures-Speech-fr-fr-Package~31bf3856ad364e35~amd64~~.cab
+        ```
 
 1. Add the new language to the language list in Windows. From an Administrative Windows Powershell Prompt:
 
@@ -179,7 +179,7 @@ Device partners may need to update the OS image with the latest cumulative updat
 
 To add an update, you first download the most recent LCU from the [Microsoft Update Catalog](https://www.catalog.update.microsoft.com/Home.aspx). These steps can be performed on the Technician PC if the IoT device doesn't have internet connectivity, or if the device scenario requires never connecting to the internet.
 
-1. Visit [Windows Update History](https://aka.ms/IoTEnterpriseLTSC2024) to see which updates are available for your Windows image.
+1. Visit [Windows 11 Update History](https://support.microsoft.com/topic/windows-11-version-23h2-update-history-59875222-b990-4bd9-932f-91a5954de434) to see which updates are available for your Windows image.
 1. In the upper left of the page, select your Windows build.
 1. The left-hand navigation shows the most recent LCU's KB number. Select the latest KB name, which takes you to a KB article with some information about the release.
 1. On the KB article page, locate the link for the Microsoft Update Catalog and select the link to open the download page in the catalog.
