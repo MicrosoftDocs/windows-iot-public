@@ -209,7 +209,6 @@ Some things to consider:
   - Shell Launcher is used if a Win32 or .NET application is used as the shell.
   - Assigned Access is used if a UWP application is used as the shell.
 - If the device experience is more like a customized desktop experience (for example, a hotel kiosk) where users are able to have access to the desktop, there are customization steps that can make it easier to ensure your device layout is preserved. For example, icon layout on the desktop and start menu can be preserved as part of the Sysprep process.  
-- This type of installation has to be done in audit mode, and can't be done on an offline mounted image.
 
 ## Next steps
 
