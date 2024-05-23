@@ -46,10 +46,10 @@ For more information, see [Windows 11 IoT Enterprise LTSC 2024 support lifecycle
 
 Windows 11 IoT Enterprise LTSC 2024 release includes the cumulative enhancements provided by the following annual releases as well as  features that are unique to the LTSC release:
 
-- [Windows 11 IoT Enterprise, version 21H2](Windows-11-IoT-Enterprise-21H2.md)
-- [Windows 11 IoT Enterprise, version 22H2](Windows-11-IoT-Enterprise-22H2.md)
-- [Windows 11 IoT Enterprise, version 23H2](Windows-11-IoT-Enterprise-23H2.md)
 - Windows 11 IoT Enterprise, version 24H2
+- [Windows 11 IoT Enterprise, version 23H2](Windows-11-IoT-Enterprise-23H2.md)
+- [Windows 11 IoT Enterprise, version 22H2](Windows-11-IoT-Enterprise-22H2.md)
+- [Windows 11 IoT Enterprise, version 21H2](Windows-11-IoT-Enterprise-21H2.md)
 
 | Feature </br> [Release] | Description |
 | --- | --- |
