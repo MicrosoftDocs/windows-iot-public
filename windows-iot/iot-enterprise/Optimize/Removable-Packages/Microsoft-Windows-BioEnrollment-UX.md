@@ -1,10 +1,10 @@
 ---
 title: Package - Bio Enrollment Experience
 titleSuffix: Windows IoT Enterprise
-author: twarwick
+author: TerryWarwick
 ms.author: twarwick
-ms.date: 01/31/2024
-ms.topic: article
+ms.date: 05/22/2024
+ms.topic: reference
 ms.service: windows-iot
 ms.subservice: iot
 description: Removable Package Details for Microsoft-Windows-BioEnrollment-UX
@@ -13,17 +13,13 @@ keywords: IoT Enterprise, removable packages, storage
 
 # Bio Enrollment Experience
 
-| Applies to                          |  Version            |
-|:------------------------------------|:--------------------|
-| Windows 10 IoT Enterprise LTSC 2021 | 19044.1741 or later |
+Applies to:  
+✅ Windows 11 IoT Enterprise LTSC 2024  
+✅ Windows 10 IoT Enterprise LTSC 2021 (19044.1741 or later)  
 
-## Description  
+## Package Description  
 
-See [Windows Hello](/windows-hardware/design/device-experiences/windows-hello) enrollment experience for a detailed description of this Windows feature.
-
-**Package Name:** Microsoft-Windows-BioEnrollment-UX
-
-**Size:** Approximately 3,589 KB
+Package: **Microsoft-Windows-BioEnrollment-UX** </br> For a complete description, see [Windows Hello](/windows-hardware/design/device-experiences/windows-hello).
 
 > [!IMPORTANT]
 >
@@ -50,7 +46,16 @@ See [Windows Hello](/windows-hardware/design/device-experiences/windows-hello) e
    Dism.exe /Online /Get-FeatureInfo /FeatureName:Microsoft-Windows-BioEnrollment-UX /PackageName:@Package
    ````
 
-## File List
+## Package Details
+
+### Package Size
+
+| Release                             |   x64     |    ARM64    |
+|-------------------------------------|:---------:|:-----------:|
+| Windows 11 IoT Enterprise LTSC 2024 | 3,483 KB  | 4,884 KB    |
+| Windows 10 IoT Enterprise LTSC 2021 | 3,589 KB  |             |
+
+### File List
 
 | File Name | Installed Location |
 |-----------|--------------------|
@@ -62,7 +67,7 @@ See [Windows Hello](/windows-hardware/design/device-experiences/windows-hello) e
 | biomdl2.ttf           | %windir%\systemapps\microsoft.bioenrollment_cw5n1h2txyewy\fonts\biomdl2.ttf |
 | resources.pri         | %windir%\systemapps\microsoft.bioenrollment_cw5n1h2txyewy\resources.pri |
 
-## More Resources
+## Related Content
 
 - [Removable Packages](../Removable-Packages.md)
 - [Device Optimization Overview](../Overview.md)

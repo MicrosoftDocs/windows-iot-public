@@ -1,10 +1,10 @@
 ---
 title: Package - Supplemental Fonts
 titleSuffix: Windows IoT Enterprise
-author: twarwick
+author: TerryWarwick
 ms.author: twarwick
-ms.date: 01/31/2024
-ms.topic: article
+ms.date: 05/22/2024
+ms.topic: reference
 ms.service: windows-iot
 ms.subservice: iot
 description: Removable Package Details for Fonts_DesktopFonts_NonLeanSupplement
@@ -13,17 +13,13 @@ keywords: IoT Enterprise, removable packages, storage
 
 # Supplemental Fonts
 
-| Applies to                          |  Version            |
-|:------------------------------------|:--------------------|
-| Windows 10 IoT Enterprise LTSC 2021 | 19044.1741 or later |
+Applies to:  
+✅ Windows 11 IoT Enterprise LTSC 2024  
+✅ Windows 10 IoT Enterprise LTSC 2021 (19044.1741 or later)  
 
-## Description  
+## Package Description  
 
-Fonts: [Malgun Gothic](/typography/font-list/malgun-gothic), [Microsoft JhengHei](/typography/font-list/microsoft-jhenghei), [Microsoft YaHei](/typography/font-list/microsoft-yahei), [Yu Gothic](/typography/font-list/yu-gothic)
-
-**Package Name:** Microsoft-Onecore-Fonts-DesktopFonts-NonLeanSupplement
-
-**Size:**  Approximately 113,251 KB  
+Package: **Microsoft-OneCore-Fonts-DesktopFonts-NonLeanSupplement** </br> Fonts: [Malgun Gothic](/typography/font-list/malgun-gothic), [Microsoft JhengHei](/typography/font-list/microsoft-jhenghei), [Microsoft YaHei](/typography/font-list/microsoft-yahei), [Yu Gothic](/typography/font-list/yu-gothic).
 
 > [!IMPORTANT]
 >
@@ -50,21 +46,30 @@ Fonts: [Malgun Gothic](/typography/font-list/malgun-gothic), [Microsoft JhengHei
    Dism.exe /Online /Get-FeatureInfo /FeatureName:Microsoft-Onecore-Fonts-DesktopFonts-NonLeanSupplement /PackageName:@Package
    ````
 
-## File List
+## Package Details
+
+### Package Size
+
+| Release                             |   x64      |    ARM64    |
+|-------------------------------------|:----------:|:-----------:|
+| Windows 11 IoT Enterprise LTSC 2024 | 28,383 KB  | 28,383 KB   |
+| Windows 10 IoT Enterprise LTSC 2021 | 113,251 KB |             |
+
+### File List
 
 | File Name     | Installed Location |
 |---------------|--------------------|
-| malgunbd.ttf  | %windir%\fonts\malgunbd.ttf |
-| malgunsl.ttf  | %windir%\fonts\malgunsl.ttf |
-| msjhbd.ttc    | %windir%\fonts\msjhbd.ttc |
-| msjhl.ttc     | %windir%\fonts\msjhl.ttc  |
-| msyhbd.ttc    | %windir%\fonts\msyhbd.ttc |
-| msyhl.ttc     | %windir%\fonts\msyhl.ttc  |
-| yugothb.ttc   | %windir%\fonts\yugothb.ttc  |
-| yugothl.ttc   | %windir%\fonts\yugothl.ttc |
-| yugothr.ttc   | %windir%\fonts\yugothr.ttc |
+| malgunbd.ttf | %windir%\fonts\malgunbd.ttf |
+| malgunsl.ttf | %windir%\fonts\malgunsl.ttf |
+| msjhbd.ttc | %windir%\fonts\msjhbd.ttc |
+| msjhl.ttc | %windir%\fonts\msjhl.ttc  |
+| msyhbd.ttc | %windir%\fonts\msyhbd.ttc |
+| msyhl.ttc | %windir%\fonts\msyhl.ttc  |
+| yugothb.ttc | %windir%\fonts\yugothb.ttc  |
+| yugothl.ttc | %windir%\fonts\yugothl.ttc |
+| yugothr.ttc | %windir%\fonts\yugothr.ttc |
 
-## More Resources
+## Related Content
 
 - [Removable Packages](../Removable-Packages.md)
 - [Device Optimization Overview](../Overview.md)

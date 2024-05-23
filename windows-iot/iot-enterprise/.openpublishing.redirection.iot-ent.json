@@ -54,7 +54,16 @@
     {
         "source_path_from_root": "/Windows-iot/iot-enterprise/hardware/armfaq.md",
         "redirect_url": "/windows/iot/iot-enterprise/arm64/armfaq"
+    },
+    {
+        "source_path_from_root": "/windows-iot/iot-enterprise/Getting_Started.md",
+        "redirect_url": "/windows/iot/iot-enterprise/Overview",
+        "redirect_document_id": true
+    },
+    {
+        "source_path_from_root": "/windows-iot/iot-enterprise/whats-new/Windows-IoT-Enterprise-LTSC.md",
+        "redirect_url": "/windows/iot/iot-enterprise/Overview",
+        "redirect_document_id": false
     }
-
 ]
 }

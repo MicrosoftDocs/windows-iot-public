@@ -15,7 +15,7 @@
       "template_folder": "_themes",
       "redirection_files": [
         ".openpublishing.redirection.json",
-        "windows-iot/iot=enterprise/.openpublishing.redirection.iot-ent.json",
+        "windows-iot/iot-enterprise/.openpublishing.redirection.iot-ent.json",
         "windows-iot/iot-enterprise/.openpublishing.redirection.iot-ent-customize.json",
         "windows-iot/iot-enterprise/.openpublishing.redirection.iot-ent-optimize.json",
         "windows-iot/iot-enterprise/.openpublishing.redirection.iot-ent-hardware.json"
