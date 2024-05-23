@@ -86,7 +86,7 @@ The following steps capture a WIM image from the reference IoT device's hard dri
 1. From the WinPE Command prompt, use DISM to capture an image of the Windows partition:
 
     ```cmd
-    DISM /capture-image /imagefile:C:\IoTOS.wim /CaptureDir:C:\ /Name:"Windows IoT Enterprise"
+    Dism /capture-image /imagefile:C:\IoTOS.wim /CaptureDir:C:\ /Name:"Windows IoT Enterprise"
     ```
 
     DISM captures an image of the OS partition and store it on C: drive.
@@ -139,7 +139,7 @@ In this section, we show you how to deploy a WIM image from WinPE. The reference
 1. Deploy the WIM image to the W: drive created in the previous step. From the WinPE command prompt:
 
     ```cmd
-    DISM /Apply-Image /ImageFile:D:\IoTOS.swm /SWMFile:D:\IoTOS*.swm /ApplyDir:W:\ /Index:1 and press Enter
+    Dism /Apply-Image /ImageFile:D:\IoTOS.swm /SWMFile:D:\IoTOS*.swm /ApplyDir:W:\ /Index:1 and press Enter
     ```
 
 1. Configure the default BCD on the system, which is a required step as the disk was freshly partitioned and formatted which requires a new BCD. From the WinPE Command Prompt:

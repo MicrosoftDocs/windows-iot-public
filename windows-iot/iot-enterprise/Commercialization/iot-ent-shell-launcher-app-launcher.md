@@ -45,7 +45,7 @@ In lab 4, we used Sysprep to get the system ready for capture and deployment. Th
 Once the device is booted to the desktop, enable the Shell Launcher. From an Administrative Command Prompt:
 
 ```cmd
-DISM /online /Enable-Feature /FeatureName:Client-EmbeddedShellLauncher 
+Dism /online /Enable-Feature /FeatureName:Client-EmbeddedShellLauncher 
 ```
 
 ### Configure Shell Launcher to run an OEM application
