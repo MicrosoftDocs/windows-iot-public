@@ -95,23 +95,21 @@ There are several methods to enable the Keyboard Filter, we're providing instruc
 
 1. Now all writes are redirected to the RAM overlay, which is discarded when the reference device is rebooted.
 
-1. Try removing **Windows Media Player Legacy (App)** Optional feature, from an Administrative Command Prompt:
+1. Try removing **Windows Media Player Legacy (App)** Optional feature:
 
       ```cmd
       Dism /online /Disable-Feature /FeatureName:"WindowsMediaPlayer"
       ```
 
-1. You can see that the feature is removed but when you restart the device, the feature is back.
+1. You can see that the app is removed but when you restart the device, the app is back.
 
-1. Restart the reference device
-
-1. To disable the Unified Write Filter, at an Administrative Command prompt run the following command and then reboot the device.
+1. To disable the Unified Write Filter run the following command and then reboot the device.
 
    ```cmd
    uwfmgr filter disable  
    ```
 
-1. At an Administrative Command prompt, confirm that UWF is disabled. **Filer state** should be **OFF**:
+1. Confirm that UWF is disabled. **Filer state** should be **OFF**:
 
    ```cmd
    uwfmgr.exe get-config
