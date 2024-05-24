@@ -28,13 +28,13 @@ Complete Lab 1a: Create a basic image.
 
 The [Keyboard Filter](../Customize/keyboardfilter.md) enables controls that you can use to suppress undesirable key presses or key combinations. Normally, a customer can alter the operation of a device by using certain key combinations like Ctrl+Alt+Delete, Ctrl+Shift+Tab, Alt+F4, etc. The Keyboard filter prevents users from using these key combinations, which is helpful if your device is intended for a dedicated purpose.
 
-The Keyboard Filter feature works with physical keyboards, the Windows on-screen keyboard, and the touch keyboard. Keyboard Filter also detects dynamic layout changes and continues to suppress keys correctly even if the location of the suppressed keys has changed on the keyboard.  An example of this scenario is switching from one language set to another.
+The Keyboard Filter feature works with physical keyboards, the Windows on-screen keyboard, and the touch keyboard. Keyboard Filter also detects dynamic layout changes and continues to suppress keys correctly even if the location of the suppressed keys changes on the keyboard. An example of this scenario is switching from one language set to another.
 
 Keyboard filter keys are stored in the Registry at *HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows Embedded\KeyboardFilter*.
 
 ### Enable the Keyboard filter
 
-There are several methods to enable the Keyboard Filter, we're providing instructions for one of those methods.  For more information, see [Keyboard Filter](../Customize/keyboardfilter.md).
+There are several methods to enable the Keyboard Filter, we're providing instructions for one of those methods. For more information, see [Keyboard Filter](../Customize/keyboardfilter.md).
 
 1. Enable the Keyboard Filter feature by running the following command from an Administrative Command Prompt:
 
@@ -44,7 +44,7 @@ There are several methods to enable the Keyboard Filter, we're providing instruc
 
 1. You're prompted to restart the reference device, type **Y** to reboot. The device reboots into audit mode.
 
-   Once you've enabled the keyboard filter, see [Keyboard filter PowerShell script samples](../Customize/keyboardfilter-powershell-script-samples.md) to learn about blocking key combinations.
+   Once you enable the keyboard filter, see [Keyboard filter PowerShell script samples](../Customize/keyboardfilter-powershell-script-samples.md) to learn about blocking key combinations.
 
 1. For this lab, we're going to provide a demo on blocking the CTRL+ALT+DEL key. In an administrative PowerShell command window, copy and paste the following commands.  
 
@@ -62,7 +62,7 @@ There are several methods to enable the Keyboard Filter, we're providing instruc
 
 ## Unified Write Filter (UWF)
 
-[Unified Write Filter (UWF)](../Customize/Unified-Write-Filter.md) helps to protect your device's configuration by intercepting and redirecting any writes to the drive (app installations, settings changes, saved data) in a virtual overlay.  This overlay is automatically deleted by rebooting unless configured to be retained until the Unified Write Filter is disabled.
+[Unified Write Filter (UWF)](../Customize/Unified-Write-Filter.md) helps to protect your device's configuration by intercepting and redirecting any writes to the drive (app installations, settings changes, saved data) in a virtual overlay. This overlay is automatically deleted by rebooting unless configured to be retained until the Unified Write Filter is disabled.
 
 ### Enable the UWF
 
@@ -101,7 +101,7 @@ There are several methods to enable the Keyboard Filter, we're providing instruc
       Dism /online /Disable-Feature /FeatureName:"WindowsMediaPlayer"
       ```
 
-1. You'll see that the feature is removed but when you restart the device, the feature is back.  This is because the Unified Write Filter is enabled and the changes are discarded when the device is rebooted.
+1. You can see that the feature is removed but when you restart the device, the feature is back.
 
 1. Restart the reference device
 
@@ -167,7 +167,7 @@ Restart the reference device and notice that the Windows UI elements are suppres
 
 ## Custom Logon
 
-You can use the [Custom Logon](../Customize/Custom-Logon.md) feature to suppress Windows UI elements that relate to the Welcome screen and shutdown screen. For example, you can suppress all elements of the Welcome screen UI and provide a custom logon UI. You can also suppress the Blocked Shutdown Resolver (BSDR) screen and automatically end applications while the OS waits for applications to close before a shutdown.  For more information, see [Custom Logon](../Customize/Custom-Logon.md).
+You can use the [Custom Logon](../Customize/Custom-Logon.md) feature to suppress Windows UI elements that relate to the Welcome screen and shutdown screen. For example, you can suppress all elements of the Welcome screen UI and provide a custom logon UI. You can also suppress the Blocked Shutdown Resolver (BSDR) screen and automatically end applications while the OS waits for applications to close before a shutdown. For more information, see [Custom Logon](../Customize/Custom-Logon.md).
 
 > [!NOTE]
 > Custom Logon feature will not work on images that are using a blank or evaluation product key. You must use a valid Product Key to see the changes made with the below commands.
@@ -180,7 +180,7 @@ You can use the [Custom Logon](../Customize/Custom-Logon.md) feature to suppress
 
 1. If prompted to restart, choose No.
 
-1. Next at an Administrative Command prompt modify the following registry entries. If prompted to overwrite, choose Yes.
+1. Modify the following registry entries. If prompted to overwrite, choose Yes.
 
     - This command sets the *BrandingNeutral* value in the registry, which controls the display of branding information during logon.
 
