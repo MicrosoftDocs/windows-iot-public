@@ -1,10 +1,10 @@
 ---
 title: Package - Printer Drivers
 titleSuffix: Windows IoT Enterprise
-author: twarwick
+author: TerryWarwick
 ms.author: twarwick
-ms.date: 01/31/2024
-ms.topic: article
+ms.date: 05/22/2024
+ms.topic: reference
 ms.service: windows-iot
 ms.subservice: iot
 description: Removable Package Details for Microsoft-Windows-Printer-Drivers
@@ -13,17 +13,13 @@ keywords: IoT Enterprise, removable packages, storage
 
 # Printer Drivers
 
-| Applies to                          |  Version            |
-|:------------------------------------|:--------------------|
-| Windows 10 IoT Enterprise LTSC 2021 | 19044.1741 or later |
+Applies to:  
+✅ Windows 11 IoT Enterprise LTSC 2024  
+✅ Windows 10 IoT Enterprise LTSC 2021 (19044.1741 or later)  
 
-## Description
+## Package Description
 
-Generic / Text Only, Generic IBM Graphics 9-pin, Generic IBM Graphics 9-pin wide, MS Publisher Color Printer, MS Publisher Imagesetter, Microsoft Shared Fax Driver
-
-**Package Name:**  Microsoft-Windows-Printer-Drivers
-
-**Size:** Approximately 8,200 KB
+Package: **Microsoft-Windows-Printer-Drivers** </br> Generic / Text Only, Generic IBM Graphics 9pin, Generic IBM Graphics 9-pin wide, MS Publisher Color Printer, MS Publisher Imagesetter, Microsoft Shared Fax Driver.
 
 > [!IMPORTANT]
 >
@@ -50,7 +46,16 @@ Generic / Text Only, Generic IBM Graphics 9-pin, Generic IBM Graphics 9-pin wide
    Dism.exe /Online /Get-FeatureInfo /FeatureName:Microsoft-Windows-Printer-Drivers /PackageName:@Package
    ````
 
-## File List
+## Package Details
+
+### Package Size
+
+| Release                             |   x64     |    ARM64    |
+|-------------------------------------|:---------:|:-----------:|
+| Windows 11 IoT Enterprise LTSC 2024 | 8,592 KB  | 99 KB       |
+| Windows 10 IoT Enterprise LTSC 2021 | 8,200 KB  |             |
+
+### File List
 
 | File Name | Installed Location |
 |-----------|--------------------|
@@ -73,10 +78,10 @@ Generic / Text Only, Generic IBM Graphics 9-pin, Generic IBM Graphics 9-pin wide
 | ttyres.dll   | %windir%\system32\spool\drivers\x64\3\amd64\ttyres.dll |
 | ttyui.dll    | %windir%\system32\spool\drivers\x64\3\amd64\ttyui.dll |
 | ttyui.hlp    | %windir%\system32\spool\drivers\x64\3\amd64\ttyui.hlp |
-| prnge001.inf | prnge001.inf |
-| prnms002.inf | prnms002.inf |
+| prnge001.inf | %windir%\system32\driverstore\filerepository\prnge001.inf_amd64_93ef6743cd62907a\prnge001.inf |
+| prnms002.inf | %windir%\system32\driverstore\filerepository\prnms002.inf_amd64_44e969b6d0899fdd\prnms002.inf |
 
-## More Resources
+## Related Content
 
 - [Removable Packages](../Removable-Packages.md)
 - [Device Optimization Overview](../Overview.md)

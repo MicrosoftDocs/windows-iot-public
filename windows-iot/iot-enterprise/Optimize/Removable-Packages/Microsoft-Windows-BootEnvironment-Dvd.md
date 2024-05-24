@@ -1,10 +1,10 @@
 ---
 title: Package - Boot Environment DVD
 titleSuffix: Windows IoT Enterprise
-author: twarwick
+author: TerryWarwick
 ms.author: twarwick
-ms.date: 01/31/2024
-ms.topic: article
+ms.date: 05/22/2024
+ms.topic: reference
 ms.service: windows-iot
 ms.subservice: iot
 description: Removable Package Details for Microsoft-Windows-BootEnvironment-Dvd
@@ -13,17 +13,13 @@ keywords: IoT Enterprise, removable packages, storage
 
 # Boot Environment DVD
 
-| Applies to                          |  Version            |
-|:------------------------------------|:--------------------|
-| Windows 10 IoT Enterprise LTSC 2021 | 19044.1741 or later |
+Applies to:  
+✅ Windows 11 IoT Enterprise LTSC 2024  
+✅ Windows 10 IoT Enterprise LTSC 2021 (19044.1741 or later)  
 
-## Description  
+## Package Description  
 
-This package enables **Boot from DVD** functionality in Windows.
-
-**Package Name:** Microsoft-Windows-BootEnvironment-Dvd
-
-**Size:** Approximately 9,108 KB
+Package: **Microsoft-Windows-BootEnvironment-Dvd** </br> Boot from DVD.
 
 > [!IMPORTANT]
 >
@@ -43,6 +39,8 @@ This package enables **Boot from DVD** functionality in Windows.
    ```powershell
    Dism.exe /Image:c:\offline  /Disable-Feature /FeatureName:Microsoft-Windows-BootEnvironment-Dvd /PackageName:@Package
    ```
+   > [!NOTE]
+   > This package cannot be removed from the original `install.wim` since it is dynamically installed based on hardware capabilities.  To remove this package offline, you must mount a post installation captured WIM or a VHD that has already been deployed.
 
 1. Optional: Use DISM /GetFeatureInfo to get the status of a removable package type:
 
@@ -50,7 +48,16 @@ This package enables **Boot from DVD** functionality in Windows.
    Dism.exe /Online /Get-FeatureInfo /FeatureName:Microsoft-Windows-BootEnvironment-Dvd /PackageName:@Package
    ````
 
-## File List
+## Package Details
+
+### Package Size
+
+| Release                             |   x64     |    ARM64    |
+|-------------------------------------|:---------:|:-----------:|
+| Windows 11 IoT Enterprise LTSC 2024 | 6,224 KB  | 3,112 KB    |
+| Windows 10 IoT Enterprise LTSC 2021 | 9.108 KB  |             |
+
+### File List
 
 | File Name | Installed Location |
 |-----------|--------------------|
@@ -61,7 +68,7 @@ This package enables **Boot from DVD** functionality in Windows.
 | boot.sdi            | %windir%\boot\dvd\pcat\boot.sdi |
 | etfsboot.com        | %windir%\boot\dvd\pcat\etfsboot.com |
 
-## More Resources
+## Related Content
 
 - [Removable Packages](../Removable-Packages.md)
 - [Device Optimization Overview](../Overview.md)

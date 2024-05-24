@@ -12,7 +12,7 @@
       items:
       - name: Windows IoT Enterprise
         tocHref: /windows/iot/iot-enterprise/
-        topicHref: /windows/iot/iot-enterprise/getting_started
+        topicHref: /windows/iot/iot-enterprise/overview
       - name: Windows CE
         tocHref: /windows/iot/windows_ce/
         topicHref: /windows/iot/windows_ce/windows-ce-app-container-overview
