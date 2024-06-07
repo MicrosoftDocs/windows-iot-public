@@ -21,8 +21,8 @@ The following boards have been proven to be a great start point for your Windows
 
 |Architecture|Recommended Boards|
 |----|----|
-|x64| [Latte Panda](https://www.lattepanda.com/)<br>[Intel NuC](https://www.intel.com/content/www/us/en/products/boards-kits/nuc.html)<br>[AAEON Up Squared](https://www.aaeon.com/en/p/iot-gateway-maker-boards-up-squared)<br>[Up Board](https://up-board.org/up/specifications/)|
-|ARM64|[NXP i.MX 8 Family](https://www.nxp.com/products/processors-and-microcontrollers/arm-processors/i-mx-applications-processors/i-mx-8-applications-processors:IMX8-SERIES)<br>[NXP i.MX 93](https://www.nxp.com/products/processors-and-microcontrollers/arm-processors/i-mx-applications-processors/i-mx-9-processors/i-mx-93-applications-processor-family-arm-cortex-a55-ml-acceleration-power-efficient-mpu:i.MX93)|
+|x64| [Latte Panda](https://www.lattepanda.com/)<br>[ASUS NUC](https://www.asus.com/us/displays-desktops/nucs/all-series/)<br>[AAEON Up Squared](https://www.aaeon.com/en/p/iot-gateway-maker-boards-up-squared)<br>[Up Board](https://up-board.org/up/specifications/)|
+|ARM64|[NXP i.MX 8M Plus EVK](https://www.nxp.com/design/design-center/development-boards-and-designs/i-mx-evaluation-and-development-boards/evaluation-kit-for-the-i-mx-8m-plus-applications-processor:8MPLUSLPD4-EVK)<br>[NXP i.MX 93 EVK](https://www.nxp.com/design/design-center/development-boards-and-designs/i-mx-evaluation-and-development-boards/i-mx-93-evaluation-kit:i.MX93EVK)|
 
 >NOTE: *If you are a SoM provider or an ODM and would like to be added to our list of hardware for prototyping, directly edit this page and submit a pull request or send an email to winiotinquire@microsoft.com*
 
