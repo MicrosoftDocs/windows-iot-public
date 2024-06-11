@@ -21,6 +21,11 @@ Applies to:
 
 Package: **Microsoft-OneCore-Connectivity-UsbConnectorManager** </br> USB Connection Manager (UCM), USB Type-C port controller interface (TCPCI), and USB Type-C connector system software interface (UCSI) class extensions,  USB Connector, and USB Policy Manager APIs. For more information, see [USB Type-C connector system software interface (UCSI) driver](/windows-hardware/drivers/usbcon/ucsi), [Write a USB Type-C port controller driver](/windows-hardware/drivers/usbcon/write-a-usb-type-c-port-controller-driver) and [Write a USB Type-connector driver](/windows-hardware/drivers/usbcon/bring-up-a-usb-type-c-connector-on-a-windows-system).
 
+> [!IMPORTANT]
+>
+> This feature is only supported on the Windows IoT Enterprise LTSC edition.  If you choose to remove any of this package from Windows IoT Enterprise, you must ensure that your solution does not rely on functionality of the removed package. You cannot restore the package without a full reinstall of Windows IoT Enterprise LTSC.  
+> For more information, see [Removable Packages System Requirements](../Removable-Packages.md#system-requirements).
+
 ## Package Removal
 
 1. To remove a specific package from the image type:
