@@ -31,7 +31,7 @@ Windows 11 IoT Enterprise, version 21H2 is available for Windows IoT Enterprise 
 
 Windows 11, version 21H2 is also available to users with devices running Windows 10 IoT Enterprise, version 20H2 or later who are interested in the latest features and are ready to install this release on their device if the hardware satisfies the minimum requirements.
 
-If you would like to install the new release, open your Windows Update settings (**Settings > Update & Security > Windows Update**) and select **Check for updates**. Eligible devices can also be offered the option to choose to upgrade to Windows 11. If the update appears, you can select Download and install to get started. Once the download is complete and the feature update is ready to install, we’ll notify you so that you can pick a convenient time to finish the installation and reboot your device, ensuring that the update doesn't disrupt your activities. To learn more about the status of the 2022 Update rollout, known issues and new information, visit .
+If you would like to install the new release, open your Windows Update settings (**Settings > Update & Security > Windows Update**) and select **Check for updates**. Eligible devices can also be offered the option to choose to upgrade to Windows 11. If the update appears, you can select Download and install to get started. Once the download is complete and the feature update is ready to install, we’ll notify you so that you can pick a convenient time to finish the installation and reboot your device, ensuring that the update doesn't disrupt your activities.
 
 Windows 11 IoT Enterprise will be delivered as an upgrade to eligible devices running Windows 10 IoT Enterprise, beginning on October 5, 2021.
 
