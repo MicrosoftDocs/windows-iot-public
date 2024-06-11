@@ -21,6 +21,11 @@ Applies to:
 
 Package: **Microsoft-Windows-ComputerManagerLauncher** </br>  Computer Management App and Computer Management Snap-in for the Microsoft Management Console (MMC). For more information, see [What is Microsoft Management Console?](/troubleshoot/windows-server/system-management-components/what-is-microsoft-management-console).
 
+> [!IMPORTANT]
+>
+> This feature is only supported on the Windows IoT Enterprise LTSC edition.  If you choose to remove any of this package from Windows IoT Enterprise, you must ensure that your solution does not rely on functionality of the removed package. You cannot restore the package without a full reinstall of Windows IoT Enterprise LTSC.  
+> For more information, see [Removable Packages System Requirements](../Removable-Packages.md#system-requirements).
+
 ## Package Removal
 
 1. To remove a specific package from the image type:

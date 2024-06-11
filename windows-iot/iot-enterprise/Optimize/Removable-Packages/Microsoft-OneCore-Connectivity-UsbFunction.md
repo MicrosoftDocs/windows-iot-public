@@ -21,6 +21,11 @@ Applies to:
 
 Package: **Microsoft-OneCore-Connectivity-UsbFunction** </br>  UFX, UFX Synopsis Events. For more information, see [Overview of developing Windows drivers for USB function controllers](/windows-hardware/drivers/usbcon/developing-windows-drivers-for-usb-function-controllers) and [Overview of developing Windows applications for USB devices](/windows-hardware/drivers/usbcon/developing-windows-applications-that-communicate-with-a-usb-device).
 
+> [!IMPORTANT]
+>
+> This feature is only supported on the Windows IoT Enterprise LTSC edition.  If you choose to remove any of this package from Windows IoT Enterprise, you must ensure that your solution does not rely on functionality of the removed package. You cannot restore the package without a full reinstall of Windows IoT Enterprise LTSC.  
+> For more information, see [Removable Packages System Requirements](../Removable-Packages.md#system-requirements).
+
 ## Package Removal
 
 1. To remove a specific package from the image type:
