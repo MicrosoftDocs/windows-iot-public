@@ -21,6 +21,11 @@ Applies to:
 
 Package: **Microsoft-OneCore-PointOfService-CameraBarcodeScanner** </br>  Software decoder supporting detection of barcodes using a standard camera lens. For more information, see [Camera Barcode Decoder](/windows/uwp/devices-sensors/pos-camerabarcode).
 
+> [!IMPORTANT]
+>
+> This feature is only supported on the Windows IoT Enterprise LTSC edition.  If you choose to remove any of this package from Windows IoT Enterprise, you must ensure that your solution does not rely on functionality of the removed package. You cannot restore the package without a full reinstall of Windows IoT Enterprise LTSC.  
+> For more information, see [Removable Packages System Requirements](../Removable-Packages.md#system-requirements).
+
 ## Package Removal
 
 1. To remove a specific package from the image type:
