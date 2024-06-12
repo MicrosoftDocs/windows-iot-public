@@ -103,7 +103,7 @@ Distributors can apply their Windows IoT development experiences, and knowledge,
 | France                                | Arrow Europe                                   | Isabelle Pillois</br>[Isabelle.Pillois@arrow.com](mailto:Isabelle.Pillois@arrow.com) | +33 1 49 97 13 38 |
 | Italy                                 | Arrow Europe                                  | Alberto Alzati</br>[aalzati@arroweurope.com](mailto:aalzati@arroweurope.com) | +39 02 6612 5535 |
 | Israel                                | Arrow Rapac Ltd.                              | Danny Morim</br>[dmorim@arroweurope.com](mailto:dmorim@arroweurope.com) | +97 23 920 3479 |
-|EMEA|Avnet Silica|Martin Grossen microsoft@avnet.eu|+41 62 919 55 57|
+|EMEA|Avnet Silica|Martin Grossen [microsoft@avnet.eu](https://)|+41 62 919 55 57|
 | Eastern Europe, Iberia                | Avnet Silica  | Claudia Remane</br>[microsoft@avnet.eu](mailto:microsoft@avnet.eu) | +49 8121 777 299 |
 | Austria                               | Avnet Silica                        | Thomas Schuller</br>[microsoft@avnet.eu](mailto:microsoft@avnet.eu) | +43 1 86642 308 |
 | Belgium, Netherlands, Luxemburg       | Avnet Silica| Patrick Maas</br>[microsoft@avnet.eu](mailto:microsoft@avnet.eu) | +31 76 5722 738 |
@@ -113,7 +113,7 @@ Distributors can apply their Windows IoT development experiences, and knowledge,
 | Baltic States, Latvia, Lithuania & Estonia | Avnet Silica| Mark Winther</br>[Mark.Winther@avnet.eu](mailto:Mark.Winther@avnet.eu) | +45 4322 8027 |
 | UK, Ireland, Egypt                    | Avnet Silica| Mark Winther</br>[Mark.Winther@avnet.eu](mailto:Mark.Winther@avnet.eu) | +45 4322 8027 |
 | France                                | Avnet Silica                         | Benedicte Chagot</br>[Benedicte.Chagot@avnet.eu](mailto:Benedicte.Chagot@avnet.eu) | +33 (1) 64 47 99 96 |
-| Italy                                 | Avnet Silica                           | Cesare De Siena</br>microsoft@avnet.eu| +39 (02) 66092 459 |
+| Italy                                 | Avnet Silica                           | Cesare De Siena</br>[microsoft@avnet.eu](https://)| +39 (02) 66092 459 |
 | South, West & Central Africa</br> *Benin, Botswana, Burkina Faso, Cameroon, Central Africa Republic, Chad, Congo, Cote D'Ivoire, Ethiopia, Gabon, Gambia, Ghana, Guinea-Bissau, Kenya, Liberia, Madagascar, Malawi, Mali, Mauritania, Mauritius, Morocco, Mozambique, Namibia, Niger, Nigeria, Senegal, Sierra Leone, Tanzania, Togo, Tunisia, Uganda, Zambia, Zimbabwe* | Avnet Silica | Carl Van der Merwe</br>[Carl.VanderMerwe@avnet.eu](mailto:Carl.VanderMerwe@avnet.eu) | +27 21 68941 47 |
 | Israel                                | Avnet Silica                          | Moshe Ayal </br>[Sharon.Grafi@avnet.eu](mailto:Sharon.Grafi@avnet.eu) | +972 50 7223650|
 | EMEA                                  | Dell EMEA                                     | Sukhvinder Aulak</br>[Sukhvinder_Aulak@Dell.com](mailto:Sukhvinder_Aulak@Dell.com) | +44 141 202 5493 |
@@ -141,7 +141,7 @@ Distributors can apply their Windows IoT development experiences, and knowledge,
 | ---------|-------------------------------|-------------------|:--------------:|
 | Japan    | Avnet K.K.                    | Toshitaka Saito</br>[Toshitaka.Saito@AVNET.COM](mailto:Toshitaka.Saito@AVNET.COM)</br>MS Support</br>[akk-ms-support@avnet.com](mailto:akk-ms-support@avnet.com) | +81 3 5792 9820 |
 | Japan    | Okaya Electronics Corp.       | Hideaki Nagai</br>[nagai@oec.okaya.co.jp](mailto:nagai@oec.okaya.co.jp)</br>Software Promotion Group</br>[info_ms@oec.okaya.co.jp](mailto:info_ms@oec.okaya.co.jp) | +81 45 475 1502 |
-| Japan    | Ryoyo Electro Corporation     |Tetsuya Nagano</br>[tetsuya_nagano@ryoyo.co.jp](mailto: tetsuya_nagano@ryoyo.co.jp)</br>IS MSIS Division</br>[msoem@ryoyo.co.jp](mailto:msoem@ryoyo.co.jp) | +81 3 3546 6211 |
+| Japan    | Ryoyo Electro Corporation     |Tetsuya Nagano</br>[tetsuya_nagano@ryoyo.co.jp](https://)</br>IS MSIS Division</br>[msoem@ryoyo.co.jp](mailto:msoem@ryoyo.co.jp) | +81 3 3546 6211 |
 | Japan    | Tokyo Electron Device Limited | Toshinori Suzuno</br>[suzuno.t@teldevice.co.jp](mailto:suzuno.t@teldevice.co.jp)</br>IoT&nbsp;Company&nbsp;Embedded&nbsp;Division</br>[esg@teldevice.co.jp](mailto:esg@teldevice.co.jp) | +81 45 443 4422 |
 
 02/22/2024
