@@ -102,6 +102,7 @@ Use this method if the driver supplied by the independent hardware vendor (IHV) 
 
 #### Add the driver using DISM
 
+<!-- TODO: Say how to export msi file: msiexec /a path\to\your\file.msi /qb TARGETDIR=C:\target\directory -->
 To use this method, the driver supplied by the IHV has to already be extracted out into INF, SYS, CAT, etc. files, or be an MSI or EXE package that can be extracted. This method can also be used to [add drivers to an offline mounted image](/windows-hardware/manufacture/desktop/add-and-remove-drivers-to-an-offline-windows-image).
 
 1. If the driver is distributed as an MSI or EXE, copy the driver package provided by the IHV into a folder on the IoT device (we use *C:\Drivers* in our example). If the driver package is an .msi* or *.exe*, extract the contents into a folder.
