@@ -38,10 +38,11 @@ Here's how we refer to them:
     - Feature on Demand ISO
     - Language Pack ISO
 
-<!-- TODO: We can instruct how to create an ISO file from a folder to add files to a VM in Audit Mode.  Using "Deployment and Imaging Tools CMD" from ADK. Run: OSCDIMG -n -d -m FolderWithFiles Destinationfile.ISO
+<!-- TODO: We can instruct how to create an ISO file from a folder to add files to a VM in Audit Mode.  Using "Deployment and Imaging Tools CMD" from ADK. Run: OSCDIMG -n -d -m FolderWithFiles Destinationfile.ISO. 
+Or we can just create a disk vhdx.
 -->
-- IoT device: A test device or board that represents all of the devices in a single model line. Depending on the device you need a keyboard, mouse and a monitor.
-- A USB key that's at least 8 GB in size and that can have all information removed from it
+- IoT device: A test device or board that represents all of the devices in a single model line. Depending on the device you may need an external keyboard, mouse and a monitor.
+- A USB key that's at least 8 GB in size and that can have all information removed from it.
 
 ## Next steps
 
