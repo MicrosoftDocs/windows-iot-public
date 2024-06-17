@@ -46,7 +46,7 @@ Distributors can apply their Windows IoT development experiences, and knowledge,
 | China                   | WT Microelectronics (Shanghai) CO.,           | Sun Liang</br>[liang.sun@wtmec.com](mailto:liang.sun@wtmec.com)                  | +86 18600933866 |
 | Hong&nbsp;Kong&nbsp;SAR | Advantech Automation Corp.                    | Zicheng Yan</br>[zicheng.yan@advantech.com.cn](mailto:zicheng.yan@advantech.com.cn)</br>CuiCui.Ding</br>[CuiCui.Ding@advantech.com.cn](mailto:CuiCui.Ding@advantech.com.cn) | +86 15818585213</br></br>+86 18565739591 |
 | Hong&nbsp;Kong&nbsp;SAR | Avnet Technology Hong Kong Limited            | Jack Xu</br>[jackwuhan.xu@avnet.com](mailto:jackwuhan.xu@avnet.com)              | +86 18627083759 |
-| Hong&nbsp;Kong&nbsp;SAR | Comtech International (Hong Kong)             | Selina Gong</br>[selinagong@comtech.cn]()    | +86 15986642886 |
+| Hong&nbsp;Kong&nbsp;SAR | Comtech International (Hong Kong)             | Selina Gong</br>[selinagong@comtech.cn](mailto:selinagong@comtech.cn)            | +86 15986642886 |
 | Hong&nbsp;Kong&nbsp;SAR | MDS Tech China Holding Co. Limited             | Adam Yi</br>[adamyi@mdspacific.com](mailto:adamyi@mdspacific.com)                | +86-18565885612 |
 | Hong&nbsp;Kong&nbsp;SAR | Syntech Asia Limited                          | Becky Wang</br>[beckywang@synnex.com.tw](mailto:beckywang@synnex.com.tw)         | +86 13417570375 |
 | Hong&nbsp;Kong&nbsp;SAR | WT Microelectronics Ltd.                      | Sun Liang</br>[liang.sun@wtmec.com](mailto:liang.sun@wtmec.com)                  | +86 18600933866 |
