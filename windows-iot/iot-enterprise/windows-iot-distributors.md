@@ -2,11 +2,11 @@
 title: Windows IoT Distributors
 author: TerryWarwick
 ms.author: twarwick
-ms.date: 02/22/2024
+ms.date: 06/17/2024
 ms.topic: article
 ms.service: windows-iot
 ms.subservice: iot
-no-loc: [Arrow Europe, Americas]
+no-loc: [Arrow Europe, Americas, Avnet Silica]
 description: Windows IoT Distributor Information
 keywords: Windows IoT Enterprise, Windows Sever IoT 2022, Distributor, Windows IoT
 ---
@@ -25,7 +25,7 @@ Distributors can apply their Windows IoT development experiences, and knowledge,
 | -------------------|-------------------------------------|-------------------|:--------------:|
 | Brazil             | Softline International BRASIL COMER | [info.brasil@softlinegroup.com](mailto:info.brasil@softlinegroup.com) | +55 11 5188 8100 |
 | United&nbsp;States | Advantech Corporation               | [iot.software@advantech.com](mailto:iot.software@advantech.com) | +1 425-922-0721 |
-| United&nbsp;States | Arrow Electronics INC.              |Ken Marlin - Windows Champ on YouTube</br>Henry Castillo - Microsoft Champion</br>[WindowsChamp@arrow.com](mailto:WindowsChamp@arrow.com) | +1 (830) 365-7024 |
+| United&nbsp;States | Arrow Electronics INC.              | Ken Marlin - Windows Champ on YouTube</br>Henry Castillo - Microsoft Champion</br>[WindowsChamp@arrow.com](mailto:WindowsChamp@arrow.com) | +1 (830) 365-7024 |
 | United&nbsp;States | Avnet INC.                          | [Software@Avnet.com](mailto:Software@Avnet.com) | +1 480 643 7055 |
 | United&nbsp;States | Bsquare Corporation                 | [Info@bsquare.com](mailto:Info@bsquare.com) | + 1 425-519-5900 |
 | United&nbsp;States | Dell, INC.                          | Jordan Wright</br>[embeddedsoftwaresales@dell.com](mailto:embeddedsoftwaresales@dell.com) | +737 227 1602 |
@@ -39,15 +39,15 @@ Distributors can apply their Windows IoT development experiences, and knowledge,
 | Australia               | MDS Pacific PTY Ltd.                          | Haeli An</br>[haeli@mdspacific.com](mailto:haeli@mdspacific.com)                 | +61 2-9888-7715 |
 | China                   | AVNET(Shanghai) Limited                       | Jack Xu</br>[jackwuhan.xu@avnet.com](mailto:jackwuhan.xu@avnet.com)              | +86 18627083759 |
 | China                   | Beijing Advantech XING YE Electronics         | Zicheng Yan [zicheng.yan@advantech.com.cn](mailto:zicheng.yan@advantech.com.cn)</br>CuiCui.Ding</br>[CuiCui.Ding@advantech.com.cn](mailto:CuiCui.Ding@advantech.com.cn) | +86 15818585213</br></br>+86 18565739591 |
-| China                   | Shenzhen Comtech Limited                      | Selina Gong</br>[selinagong@comtech.com.cn](mailto:selinagong@comtech.com.cn)    | +86 15986642886 |
+| China                   | Shenzhen Comtech Technology Co. Ltd.                      | Selina Gong</br>[selinagong@comtech.cn](mailto:selinagong@comtech.cn)    | +86 15986642886 |
 | China                   | Dell (China) CO. Ltd.                         | Gao Defeng</br>[dell.emb.os@dell.com](mailto:dell.emb.os@dell.com)               | +86-592-8182210 |
-| China                   | MDS(Shenzhen) Technology Co., Ltd              | Adam Yi</br>[adamyi@mdspacific.com](mailto:adamyi@mdspacific.com)                | +86 18565885612 |
+| China                   | MDS(Shenzhen) Technology Co., Ltd             | Adam Yi</br>[adamyi@mdspacific.com](mailto:adamyi@mdspacific.com)                | +86 18565885612 |
 | China                   | Lanxiang Technology (Shenzhen)                | Becky Wang</br>[beckywang@synnex.com.tw](mailto:beckywang@synnex.com.tw)         | +86 13417570375 |
 | China                   | WT Microelectronics (Shanghai) CO.,           | Sun Liang</br>[liang.sun@wtmec.com](mailto:liang.sun@wtmec.com)                  | +86 18600933866 |
 | Hong&nbsp;Kong&nbsp;SAR | Advantech Automation Corp.                    | Zicheng Yan</br>[zicheng.yan@advantech.com.cn](mailto:zicheng.yan@advantech.com.cn)</br>CuiCui.Ding</br>[CuiCui.Ding@advantech.com.cn](mailto:CuiCui.Ding@advantech.com.cn) | +86 15818585213</br></br>+86 18565739591 |
 | Hong&nbsp;Kong&nbsp;SAR | Avnet Technology Hong Kong Limited            | Jack Xu</br>[jackwuhan.xu@avnet.com](mailto:jackwuhan.xu@avnet.com)              | +86 18627083759 |
 | Hong&nbsp;Kong&nbsp;SAR | Comtech International (Hong Kong)             | Selina Gong</br>[selinagong@comtech.com.cn](mailto:selinagong@comtech.com.cn)    | +86 15986642886 |
-| Hong&nbsp;Kong&nbsp;SAR | MDS Tech China Holding Co. Limited             | Adam Yi</br>[adamyi@mdspacific.com](mailto:adamyi@mdspacific.com)                | +86-18565885612 |
+| Hong&nbsp;Kong&nbsp;SAR | MDS Tech China Holding Co. Limited            | Adam Yi</br>[adamyi@mdspacific.com](mailto:adamyi@mdspacific.com)                | +86-18565885612 |
 | Hong&nbsp;Kong&nbsp;SAR | Syntech Asia Limited                          | Becky Wang</br>[beckywang@synnex.com.tw](mailto:beckywang@synnex.com.tw)         | +86 13417570375 |
 | Hong&nbsp;Kong&nbsp;SAR | WT Microelectronics Ltd.                      | Sun Liang</br>[liang.sun@wtmec.com](mailto:liang.sun@wtmec.com)                  | +86 18600933866 |
 | India                   | Advantech Industrial Computing                | Praveen B</br>[Praveen.B@advantech.com](mailto:Praveen.B@advantech.com)          | +91 9845071709 |
@@ -100,24 +100,24 @@ Distributors can apply their Windows IoT development experiences, and knowledge,
 | Italy, Spain, Portugal                | Arrow Europe                                  | Davide Chiodi</br>[Davide.Chiodi@arrow.com](mailto:Davide.Chiodi@arrow.com) | +39 02 6612 5388 |
 | Norway, Sweden, Finland, Denmark      | Arrow Europe                                  | Microsoft Support NORDIC</br>[sales.ais.nordic@arrow.com](mailto:sales.ais.nordic@arrow.com) | + 46 73 901 76 38 |
 | UK, Ireland                           | Arrow Europe                                  | Microsoft Support UK&I</br>[sales.ais.northern@arrow.com](mailto:sales.ais.northern@arrow.com) | + 46 73 901 76 38 |
-| France                                | Arrow Europe                                   | Isabelle Pillois</br>[Isabelle.Pillois@arrow.com](mailto:Isabelle.Pillois@arrow.com) | +33 1 49 97 13 38 |
+| France                                | Arrow Europe                                  | Isabelle Pillois</br>[Isabelle.Pillois@arrow.com](mailto:Isabelle.Pillois@arrow.com) | +33 1 49 97 13 38 |
 | Italy                                 | Arrow Europe                                  | Alberto Alzati</br>[aalzati@arroweurope.com](mailto:aalzati@arroweurope.com) | +39 02 6612 5535 |
 | Israel                                | Arrow Rapac Ltd.                              | Danny Morim</br>[dmorim@arroweurope.com](mailto:dmorim@arroweurope.com) | +97 23 920 3479 |
-|EMEA|Avnet Silica|Martin Grossen microsoft@avnet.eu|+41 62 919 55 57|
-| Eastern Europe, Iberia                | Avnet Silica  | Claudia Remane</br>[microsoft@avnet.eu](mailto:microsoft@avnet.eu) | +49 8121 777 299 |
-| Austria                               | Avnet Silica                        | Thomas Schuller</br>[microsoft@avnet.eu](mailto:microsoft@avnet.eu) | +43 1 86642 308 |
-| Belgium, Netherlands, Luxemburg       | Avnet Silica| Patrick Maas</br>[microsoft@avnet.eu](mailto:microsoft@avnet.eu) | +31 76 5722 738 |
-| Switzerland                           | Avnet Silica                     | Martin Grossen</br>[microsoft@avnet.eu](mailto:microsoft@avnet.eu) | +41 62 919 55 57 |
-| Germany                               | Avnet Silica                         | Christine Falke</br>[microsoft@avnet.eu](mailto:microsoft@avnet.eu) | +49 151 1420 6230 |
-| Northern Europe, Denmark, Finland, Sweden & Norway | Avnet Silica| Mark Winther</br>[Mark.Winther@avnet.eu](mailto:Mark.Winther@avnet.eu) | +45 4322 8027 |
-| Baltic States, Latvia, Lithuania & Estonia | Avnet Silica| Mark Winther</br>[Mark.Winther@avnet.eu](mailto:Mark.Winther@avnet.eu) | +45 4322 8027 |
-| UK, Ireland, Egypt                    | Avnet Silica| Mark Winther</br>[Mark.Winther@avnet.eu](mailto:Mark.Winther@avnet.eu) | +45 4322 8027 |
-| France                                | Avnet Silica                         | Benedicte Chagot</br>[Benedicte.Chagot@avnet.eu](mailto:Benedicte.Chagot@avnet.eu) | +33 (1) 64 47 99 96 |
-| Italy                                 | Avnet Silica                           | Cesare De Siena</br>microsoft@avnet.eu| +39 (02) 66092 459 |
+| EMEA                                  | Avnet Silica                                  | Martin Grossen microsoft@avnet.eu|+41 62 919 55 57|
+| Eastern Europe, Iberia                | Avnet Silica                                  | Claudia Remane</br>[microsoft@avnet.eu](mailto:microsoft@avnet.eu) | +49 8121 777 299 |
+| Austria                               | Avnet Silica                                  | Thomas Schuller</br>[microsoft@avnet.eu](mailto:microsoft@avnet.eu) | +43 1 86642 308 |
+| Belgium, Netherlands, Luxemburg       | Avnet Silica                                  | Patrick Maas</br>[microsoft@avnet.eu](mailto:microsoft@avnet.eu) | +31 76 5722 738 |
+| Switzerland                           | Avnet Silica                                  | Martin Grossen</br>[microsoft@avnet.eu](mailto:microsoft@avnet.eu) | +41 62 919 55 57 |
+| Germany                               | Avnet Silica                                  | Christine Falke</br>[microsoft@avnet.eu](mailto:microsoft@avnet.eu) | +49 151 1420 6230 |
+| Northern Europe, Denmark, Finland, Sweden & Norway | Avnet Silica                     | Mark Winther</br>[Mark.Winther@avnet.eu](mailto:Mark.Winther@avnet.eu) | +45 4322 8027 |
+| Baltic States, Latvia, Lithuania & Estonia | Avnet Silica                             | Mark Winther</br>[Mark.Winther@avnet.eu](mailto:Mark.Winther@avnet.eu) | +45 4322 8027 |
+| UK, Ireland, Egypt                    | Avnet Silica                                  | Mark Winther</br>[Mark.Winther@avnet.eu](mailto:Mark.Winther@avnet.eu) | +45 4322 8027 |
+| France                                | Avnet Silica                                  | Benedicte Chagot</br>[Benedicte.Chagot@avnet.eu](mailto:Benedicte.Chagot@avnet.eu) | +33 (1) 64 47 99 96 |
+| Italy                                 | Avnet Silica                                  | Cesare De Siena</br>microsoft@avnet.eu| +39 (02) 66092 459 |
 | South, West & Central Africa</br> *Benin, Botswana, Burkina Faso, Cameroon, Central Africa Republic, Chad, Congo, Cote D'Ivoire, Ethiopia, Gabon, Gambia, Ghana, Guinea-Bissau, Kenya, Liberia, Madagascar, Malawi, Mali, Mauritania, Mauritius, Morocco, Mozambique, Namibia, Niger, Nigeria, Senegal, Sierra Leone, Tanzania, Togo, Tunisia, Uganda, Zambia, Zimbabwe* | Avnet Silica | Carl Van der Merwe</br>[Carl.VanderMerwe@avnet.eu](mailto:Carl.VanderMerwe@avnet.eu) | +27 21 68941 47 |
-| Israel                                | Avnet Silica                          | Moshe Ayal </br>[Sharon.Grafi@avnet.eu](mailto:Sharon.Grafi@avnet.eu) | +972 50 7223650|
+| Israel                                | Avnet Silica                                  | Moshe Ayal </br>[Sharon.Grafi@avnet.eu](mailto:Sharon.Grafi@avnet.eu) | +972 50 7223650|
 | EMEA                                  | Dell EMEA                                     | Sukhvinder Aulak</br>[Sukhvinder_Aulak@Dell.com](mailto:Sukhvinder_Aulak@Dell.com) | +44 141 202 5493 |
-| Israel, UK                                | Eastronics Limited                            | Rivka Helfman</br>[rivka.helfman@easx.co.il](mailto:rivka.helfman@easx.co.il) | +972508885628</br>+97236458635 |
+| Israel, UK                            | Eastronics Limited                            | Rivka Helfman</br>[rivka.helfman@easx.co.il](mailto:rivka.helfman@easx.co.il) | +972508885628</br>+97236458635 |
 | Hungary                               | Elbacom GmbH                                  | Zsolt Szanya</br>[z.szanya@elbacom.com](mailto:z.szanya@elbacom.com) | +36 (30) 7480458 |
 | Romania                               | Elbacom GmbH                                  | Zsolt Szanya</br>[z.szanya@elbacom.com](mailto:z.szanya@elbacom.com) | +36 (30) 7480458 |
 | Bulgaria                              | Elbacom GmbH                                  | Zsolt Szanya</br>[z.szanya@elbacom.com](mailto:z.szanya@elbacom.com) | +36 (30) 7480458 |
@@ -141,7 +141,7 @@ Distributors can apply their Windows IoT development experiences, and knowledge,
 | ---------|-------------------------------|-------------------|:--------------:|
 | Japan    | Avnet K.K.                    | Toshitaka Saito</br>[Toshitaka.Saito@AVNET.COM](mailto:Toshitaka.Saito@AVNET.COM)</br>MS Support</br>[akk-ms-support@avnet.com](mailto:akk-ms-support@avnet.com) | +81 3 5792 9820 |
 | Japan    | Okaya Electronics Corp.       | Hideaki Nagai</br>[nagai@oec.okaya.co.jp](mailto:nagai@oec.okaya.co.jp)</br>Software Promotion Group</br>[info_ms@oec.okaya.co.jp](mailto:info_ms@oec.okaya.co.jp) | +81 45 475 1502 |
-| Japan    | Ryoyo Electro Corporation     |Tetsuya Nagano</br>[tetsuya_nagano@ryoyo.co.jp](mailto: tetsuya_nagano@ryoyo.co.jp)</br>IS MSIS Division</br>[msoem@ryoyo.co.jp](mailto:msoem@ryoyo.co.jp) | +81 3 3546 6211 |
+| Japan    | Ryoyo Electro Corporation     |Tetsuya Nagano</br>[tetsuya_nagano@ryoyo.co.jp](mailto:tetsuya_nagano@ryoyo.co.jp)</br>IS MSIS Division</br>[msoem@ryoyo.co.jp](mailto:msoem@ryoyo.co.jp) | +81 3 3546 6211 |
 | Japan    | Tokyo Electron Device Limited | Toshinori Suzuno</br>[suzuno.t@teldevice.co.jp](mailto:suzuno.t@teldevice.co.jp)</br>IoT&nbsp;Company&nbsp;Embedded&nbsp;Division</br>[esg@teldevice.co.jp](mailto:esg@teldevice.co.jp) | +81 45 443 4422 |
 
-02/22/2024
+06/17/2024
