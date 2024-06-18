@@ -92,12 +92,9 @@ In this section, we show you how to create a bootable WinPE USB drive. We will c
     makewinpemedia /ufd C:\WinPE P:
     ```
 
-    Where P: is the USB drive with the WinPE Partition. This command formats the partition and erase any data that's on it.
+    Where *P:* is the USB drive with the WinPE Partition. This command formats the partition and erase any data that's on it.
 
 1. Move the USB flash drive from the Technician PC to the reference IoT device.
-
-> [!TIP]
-> If you have a different keyboard layout, you can change the keyboard layout by running `wpeutil setKeyboardLayout 0816:00000816` where the **language:keyboard** pair list for your desired layout can be found in [Input locales](/windows-hardware/manufacture/desktop/default-input-locales-for-windows-language-packs). Then run `winpeshl.exe` from the WinPE Command Prompt to ensure the new layout is applied to the current session.
 
 ### Boot the IoT reference device to WinPE and capture the Windows IoT Enterprise OS image
 
@@ -110,32 +107,35 @@ The following steps capture a WIM image from the reference IoT device's hard dri
 
     The system boots to the WinPE, where you see a Command prompt.
 
-1. From the WinPE Command prompt run `diskpart`:
+    > [!TIP]
+    > If you have a different keyboard layout, you can change the keyboard layout by running `wpeutil setKeyboardLayout 0816:00000816` where the *language:keyboard* pair list for your desired layout can be found in [input locales](/windows-hardware/manufacture/desktop/default-input-locales-for-windows-language-packs). Then run `winpeshl.exe` from the WinPE Command Prompt to ensure the new layout is applied to the current session.
 
-   ```console
+1. From the WinPE Command prompt run Diskpart:
+
+   ```cmd
    diskpart
    ```
 
-1. Use `diskpart` to list the disks so you can identify the disk where Windows IoT Enterprise is installed:
+1. Use Diskpart to list the disks so you can identify the disk where Windows IoT Enterprise is installed:
 
-   ```console
+   ```cmd
    list disk
    ```
 
    You should see something like:
 
-   ```console
+   ```output
    Disk ###  Status          Size     Free     Dyn  Gpt
    --------  -------------   -------  -------  ---  ---
    Disk 0    Online            63 GB      0 B        *
    Disk 1    Online            14 GB      0 B
    ```
 
-   In this example, **Disk 0** size represents the disk where we installed Windows IoT Enterprise.
+   In this example, *Disk 0* size represents the disk where we installed Windows IoT Enterprise.
 
 1. Select Disk 0 and then list the partitions and volumes:
 
-    ```console
+    ```cmd
     select Disk 0
     list partition
     list volume
@@ -143,7 +143,7 @@ The following steps capture a WIM image from the reference IoT device's hard dri
 
    You should see something like:
 
-    ```console
+    ```output
     DISKPART> select disk 0
 
     Disk 0 is now the selected disk.
@@ -169,18 +169,18 @@ The following steps capture a WIM image from the reference IoT device's hard dri
         Volume 5     D   Images       NTFS   Partition     14 GB  Healthy           
     ```
 
-    In this example, **Partition 3** Type is Primary and is where Windows IoT Enterprise is installed. Letters C, D and E are assigned to the WinPE, Images and DVD-ROM volumes respectively.
+    In this example, *Partition 3* is of *Type Primary* and is where Windows IoT Enterprise is installed. Letters *C*, *D* and *E* are assigned to the *WinPE*, *Images* and *DVD-ROM* volumes respectively.
 
 1. Select Partition 3 and assign a drive letter that is not already in use:
 
-    ```console
+    ```cmd
     select partition 3
     assign letter=W
     ```
 
     If you list volume again, you should see the Windows IoT Enterprise partition now has a drive letter assigned:
 
-    ```console
+    ```output
     Volume ###  Ltr  Label        Fs     Type        Size     Status     Info
     ----------  ---  -----------  -----  ----------  -------  ---------  --------
     Volume 0     E                UDF    DVD-ROM     4236 MB  Healthy    
@@ -191,9 +191,9 @@ The following steps capture a WIM image from the reference IoT device's hard dri
     Volume 5     D   Images       NTFS   Partition     14 GB  Healthy       
     ```
 
-1. Exit `diskpart`:
+1. Exit Diskpart:
 
-    ```console
+    ```cmd
     exit
     ```
 
@@ -242,7 +242,7 @@ In this section, we show you how to deploy a WIM image from WinPE. The reference
     Dism /Apply-Image /ImageFile:D:\IoTOS.wim /ApplyDir:W:\ /Index:1
     ```
 
-    Where D:\IoTOS.wim is the path to the WIM file you captured in the previous section, and that was stored in the Images partition of the USB drive.
+    Where *D:\IoTOS.wim* is the path to the WIM file you captured in the previous section, and that was stored in the Images partition of the USB drive.
 
 1. Configure the default BCD on the system, which is a required step as the disk was freshly partitioned and formatted which requires a new BCD. From the WinPE Command Prompt:
 
