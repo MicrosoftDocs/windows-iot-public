@@ -61,7 +61,7 @@
   items:
   - name: Activation Guide
     href: ./Commercialization/activation-guide.md
-  - name: Licensing & Usage
+  - name: Licensing Guide
     href: ./Commercialization/Licensing.md
   - name: Manufacturing Guide
     expanded: false
