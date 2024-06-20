@@ -1,5 +1,5 @@
 ---
-title: Licensing & Usage
+title: Windows IoT Enterprise Licensing
 author: TerryWarwick
 ms.author: twarwick
 ms.date: 03/31/2023
@@ -10,69 +10,63 @@ description: Learn about licensing for Windows IoT Enterprise.
 keywords: IoT Enterprise, OEM, Licensing, LTSC, Servicing
 ---
 
-# Licensing & Usage
+# Licensing
 
-In order to start your journey with Windows IoT Enterprise, you need to get a license.
+Licenses for Windows IoT Enterprise are available through both [OEM Licensing](#oem-licensing) and [Volume Licensing](#volume-licensing).  
 
-You can retrieve a license by contacting a [Windows IoT Distributor](https://aka.ms/IoTDistributorList) or use the [Windows Enterprise 90 day Evaluation](https://www.microsoft.com/evalcenter/evaluate-windows-10-enterprise).
+This table provides a snapshot of the license applicability for these two options followed by more detail to help you determine which option is right for you.
 
-## Distributors
+| Requirement   | [OEM License](#oem-licensing) | [Volume License](#volume-licensing) |
+|:--------------|:-----------:|:--------------:|
+| New Device                |✅Yes|⛔No|
+| Upgrade Existing Device   |✅Yes|✅Yes|
+| Transferrable License     |✅Yes|⛔No|
+| Activation methods        | OA3.0, ePKEA, PKEA | KMS, MAK |
 
-Microsoft offers many Windows IoT and Embedded SKUs. Authorized distributors of Windows IoT products can help you pick the right SKU for your hardware and your budget by using their development experiences, and knowledge, to help you build secure and connected Windows IoT solutions. If you would like to work with one of our distributors, [select a distributor](https://aka.ms/IoTDistributorList) in your region and contact the distributor directly for more details.
+**Definitions**  
 
-### Fixed purpose devices
+- **OEM**: Original Equipment Manufacturer
+- **LTSC**: Long-Term Servicing Channel
+- **OA3.0**: OEM Activation 3.0
+- **ePKEA**: Embedded Product Key Entry Activation
+- **PKEA**: Product Key Entry Activation
+- **KMS**: Key Management Service
+- **MAK**: Multiple Activation Key
 
-Windows is well known as the operating system for laptops and desktops that have been used by consumers and businesses worldwide for decades. Windows also powers many ATM machines, point-of-sale terminals, industrial automation systems, thin clients, medical devices, digital signage, kiosks, and other fixed purpose devices. Windows IoT Enterprise allows you to build these fixed purpose devices with specific allowances and restrictions in the license agreement.  
+## OEM Licensing
 
-> [!TIP]
-> See your licensing agreement for complete guidance on all Windows IoT Enterprise usage scenarios. If you are an end-user customer, your OEM should have provided you with the terms in an agreement. If you are an OEM, you can direct questions to your distributor regarding your specific licensing agreement.  
+An OEM license is required for device makers that preinstall the operating system on new devices for sale to an end-customer. OEMs can also obtain upgrade licenses for existing devices, originally produced with a previous version of the operating system, and offer full solution upgrades to the end-customer. An OEM License must be transferred to an end-customer purchasing a new device from the OEM.
 
-A fixed purpose device differs from a general-purpose device in the following ways:  
+For additional information about Windows IoT Enterprise OEM licenses and terms of use, contact one of our [authorized distributors](../windows-iot-distributors.md) for assistance.
 
-* The device is locked down to a single application or fixed set of applications through the Assigned Access or Shell Launcher features.  
-* The device experience is often immediate when the customer powers-on. This is achieved by configuring the device image to skip the normal Windows out-of-box experiences.
-* Keyboards, USB ports, and device policies can be locked down to constrain the device to be used only in its fixed purpose.  
-* The IoT Device OEM licenses the device to the user with the software attached to the device as a complete product and passes through specific Windows terms in their own IoT OEM agreements.
-* The OEM provides the customer support for their complete product, including the functions performed by the operating system.
+Windows IoT Enterprise devices produced by OEMs must be enabled for activation before leaving the factory. For information about enabling your devices for activation, see:
+    
+- [OA 3.0 Activation Guide](/windows-hardware/manufacture/desktop/oem-activation-3)
+- [ePKEA Activation Guide](activation-guide.md)
 
-> [!NOTE]
->
-> There are currently **two** release channels for Windows 10 IoT Enterprise:
+## Volume Licensing
 
-> * The General Availability Channel receives feature updates twice per year and provides support for **18-30 months**.
-> * The Long Term Servicing Channel, which is designed to be used only for specialized devices (which typically don't run Office) such as those that control medical equipment or ATM machines, receives new feature releases every two to three years and provides support for **10 years**.
->
-> There is currently **one** annual release channel for Windows 11 IoT Enterprise. For more information, see [Windows 11 servicing](/lifecycle/faq/windows#windows-11) and [Windows for IoT Product Lifecycle](/lifecycle/products/?terms=Windows%20IoT%20Enterprise).
+A volume license is available for end-customers to upgrade existing systems with a qualifying operating system to a new version.  A volume license is nontransferrable.
 
-## General Availability Channel
+Volume licenses for Windows IoT Enterprise LTSC are available through the following Volume License programs:
 
-In the general availability servicing channel, feature updates are available as soon as Microsoft releases them. This servicing model is ideal for pilot deployments and testing of Windows 10 feature updates and for users such as developers who need to work with the latest features immediately. Once the latest release has gone through pilot deployment and testing, you're able to choose the timing at which it goes into broad deployment.
+- [Microsoft Customer Agreement](https://www.microsoft.com/licensing/terms/productoffering/WindowsDesktopOperatingSystem/MCA)
+- [Microsoft Product and Services Agreement (MPSA)](https://www.microsoft.com/licensing/terms/productoffering/WindowsDesktopOperatingSystem/MPSA)
+- [Select/Select Plus program](https://www.microsoft.com/licensing/terms/productoffering/WindowsDesktopOperatingSystem/SS)
 
-Review [General Availability Channel](/windows/deployment/update/waas-overview#servicing) for more information.
+For information regarding volume license activation options for Windows IoT Enterprise LTSC, see [Volume activation for Windows](/windows/deployment/volume-activation/volume-activation-windows).
 
-## Long-term Servicing Channel (LTSC)
+Additional information specific to the deployment of Windows IoT Enterprise LTSC using volume licensing, see [Windows IoT Enterprise in Volume License](../Deployment/Volume-License.md)
 
-Specialized systems, such as PCs that control medical equipment, point-of-sale systems, and ATMs, often require a longer servicing option because of their purpose. These devices typically perform a single important task and don’t need feature updates as frequently as other devices in the organization. For these fixed-purpose devices, we recommend the long-term servicing channel, since it’s more important that these devices be kept as stable and secure as possible than that they be up to date with UI changes. The LTSC servicing model prevents Windows 10 IoT Enterprise LTSC devices from receiving the usual feature updates and provides only quality updates to ensure that device security stays up to date. With this in mind, quality updates are still immediately available to Windows 10 IoT Enterprise LTSC clients, but customers can choose to defer them by using a servicing tool.
+## End User License Agreement
 
-Review [Long-term Servicing Channel](/windows/deployment/update/waas-overview#long-term-servicing-channel) for more information.
-
-### LTSC Model
-
-Microsoft makes available a new [Windows 10 IoT Enterprise LTSC release](/lifecycle/products/?terms=Windows%2010%20IoT%20Enterprise) approximately every three years. Each Windows 10 IoT Enterprise LTSC release is its own SKU and contains all the new capabilities and support updates included in the Windows 10 IoT Enterprise features updates since the previous LTSC release. To access these feature updates, a new Windows 10 IoT Enterprise LTSC SKU license must be purchased. For example, to get access to the new security, deployment, and management updates and features released since the launch of Windows 10 IoT Enterprise 2016 LTSC, a license for Windows 10 IoT Enterprise 2019 LTSC must be purchased, and an update applied to the device. Due to the long life of the LTSC releases and the benefit of remaining on a specific release for 10 years, an upgrade fee is charged for customers moving from one LTSC release to another.
-
-Review the [Fixed Lifecycle Policy](/lifecycle/policies/fixed) for more information.
-
-### Windows for IoT Releases
-
-Visit the [Windows for IoT product lifecycle](/lifecycle/products/?terms=Windows%20IoT) for more information on each product's latest releases and servicing information.
-
-## Activation Guide
-
-After you purchase your license and receive your keys for Windows IoT Enterprise, make sure you get yourself a copy of the Activation Guide.
-You can retrieve this document either by reaching out to your distributor or by accessing it through your [Device Partner Center](https://devicepartner.microsoft.com) account.
+For details about the use restrictions of Windows IoT Enterprise, see [Windows IoT Enterprise End-User License Agreement](../EULA/End-User-License-Agreement.md)
 
 ## More Resources
 
-* [Windows IoT Enterprise Manufacturing Guide](/windows-hardware/manufacture/desktop/iot-ent-overview)
-* [Windows Servicing](/windows/deployment/update/waas-overview#servicing)
-* [Servicing Channels](/windows/deployment/update/waas-overview#servicing-channels)
+- [What is Windows IoT Enterprise?](../Overview.md)
+- [Release History](../whats-new/Release-History.md)
+- [System Requirements](../Hardware/System_Requirements.md)
+- [Processor Requirements](../Hardware/Processor_Requirements.md)
+- [Hardware Component Guidelines](/windows-hardware/design/component-guidelines/components)
+- [Windows Manufacturing](/windows-hardware/manufacture/desktop)
