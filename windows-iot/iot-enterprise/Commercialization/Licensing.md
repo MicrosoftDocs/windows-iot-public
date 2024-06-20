@@ -40,7 +40,7 @@ An OEM license is required for device makers that preinstall the operating syste
 For additional information about Windows IoT Enterprise OEM licenses and terms of use, contact one of our [authorized distributors](../windows-iot-distributors.md) for assistance.
 
 Windows IoT Enterprise devices produced by OEMs must be enabled for activation before leaving the factory. For information about enabling your devices for activation, see:
-
+    
 - [OA 3.0 Activation Guide](/windows-hardware/manufacture/desktop/oem-activation-3)
 - [ePKEA Activation Guide](activation-guide.md)
 
@@ -52,7 +52,7 @@ Volume licenses for Windows IoT Enterprise LTSC are available through the follow
 
 - [Microsoft Customer Agreement](https://www.microsoft.com/licensing/terms/productoffering/WindowsDesktopOperatingSystem/MCA)
 - [Microsoft Product and Services Agreement (MPSA)](https://www.microsoft.com/licensing/terms/productoffering/WindowsDesktopOperatingSystem/MPSA)
-- [Terms for Select/Select Plus program](https://www.microsoft.com/licensing/terms/productoffering/WindowsDesktopOperatingSystem/SS)
+- [Select/Select Plus program](https://www.microsoft.com/licensing/terms/productoffering/WindowsDesktopOperatingSystem/SS)
 
 For information regarding volume license activation options for Windows IoT Enterprise LTSC, see [Volume activation for Windows](/windows/deployment/volume-activation/volume-activation-windows).
 
