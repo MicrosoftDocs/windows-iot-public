@@ -32,17 +32,14 @@ Device reset includes the following key operations:
 >
 > The Recovery process will also roll back the updates and put the device back to the factory condition.
 
-### Factory Reset
-
 [Factory reset](https://support.microsoft.com/windows/how-to-refresh-reset-or-restore-your-pc-51391d9a-eb0a-84a7-69e4-c2c1fbceb8dd) restores the state of the device back to its first-boot state plus any update packages. The reset will **not** return device to the original factory state. To return the device to the original factory state, you must flash it with the original factory image. All the provisioning applied to the device by the enterprise will be lost and will need to be re-applied if needed.
 
-### Reset using Mobile Device Management
+For information on performing a device reset, see:
 
-Device reset can be triggered using the [RemoteWipe CSP](/windows/client-management/mdm/remotewipe-csp)
-
-### Reset using Azure Device Management
-
-Device reset can also be triggered using the Azure Device Management using [Remote Wipe API](https://github.com/ms-iot/iot-core-azure-dm-client/blob/master/docs/remote-wipe.md).
+- [Give your device a fresh start](https://support.microsoft.com/windows/give-your-pc-a-fresh-start-0ef73740-b927-549b-b7c9-e6f2b48d275e)
+- [Use Fresh Start to reset devices with Intune](/mem/intune/remote-actions/device-fresh-start)
+- Device reset using Mobile Device Management with [RemoteWipe CSP](/windows/client-management/mdm/remotewipe-csp)
+-  Device reset using Azure Device Management with [Remote Wipe API](https://github.com/ms-iot/iot-core-azure-dm-client/blob/master/docs/remote-wipe.md).
 
 > [!NOTE]
 >
