@@ -26,6 +26,7 @@ Stay up to date with the latest news and announcements about the Windows for IoT
 
 | Month | News |
 | ---- | ---- |
+| June | [Windows 11 IoT Enterprise LTSC 2024 Evaluation available](https://aka.ms/WinIoT2024eval) |
 | May | Blog: [Windows 11 IoT Enterprise LTSC 2024 - Release to OEM](https://aka.ms/WinIoT2024release) |
 
 ## 2023
