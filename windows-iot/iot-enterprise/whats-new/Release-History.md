@@ -16,9 +16,9 @@ The Windows IoT Enterprise product line is intended for fixed purpose devices. T
 
 There are currently three products offerings in the Windows IoT Enterprise product line each of which contain multiple releases. For more information, see...
 
-* [Windows IoT Enterprise LTSC](#windows-iot-enterprise-ltsc)
-* [Windows 10 IoT Enterprise](#windows-10-iot-enterprise)
-* [Windows 11 IoT Enterprise](#windows-11-iot-enterprise)
+- [Windows IoT Enterprise LTSC](#windows-iot-enterprise-ltsc)
+- [Windows 10 IoT Enterprise](#windows-10-iot-enterprise)
+- [Windows 11 IoT Enterprise](#windows-11-iot-enterprise)
 
 Each of the Windows IoT Enterprise product offerings is available for device makers through an authorized [Windows IoT Distributor](https://aka.ms/IoTDistributorList) for building new devices.  To learn more about licensing Windows IoT Enterprise, see [Licensing and Usage](/windows/iot/iot-enterprise/commercialization/licensing).
 
@@ -27,6 +27,8 @@ Each of the Windows IoT Enterprise product offerings is available for device mak
 Windows IoT Enterprise is available through the Long-Term Servicing Channel (LTSC) to provide a 10-year support lifecycle for special-purpose devices where changes in functionality aren't desirable. New LTSC releases are typically provided on a three year cadence, but timing can vary from one release to the next. We communicate variances in this cadence as early as possible. For more information, see [Windows as a service - Long-Term Servicing Channel](/windows/deployment/update/waas-overview#long-term-servicing-channel).
 
 Windows IoT Enterprise LTSC releases follow the [Fixed Lifecycle Policy](/lifecycle/policies/fixed) where each release is supported for 10 years and requires a separate license.
+
+[!INCLUDE [Latest LTSC](../../includes/incl-latest-ltsc-release.md)]
 
 ### Windows IoT Enterprise LTSC releases
 
@@ -47,6 +49,8 @@ For more information, see [Windows IoT Enterprise LTSC support lifecycle](/lifec
 
 Windows IoT Enterprise is also available through the General Availability Channel for Windows IoT Enterprise is also designed for special-purpose devices that require the latest feature updates as soon as they're available. Windows IoT Enterprise in the General Availability Channel provides a 36 month lifecycle (30 months for Windows 10) which is reset with each annual feature update. For more information, see [Windows as a Service - General Availability Channel](/windows/deployment/update/waas-overview#general-availability-channel).
 
+[!INCLUDE [Latest GAC](../../includes/incl-latest-gac-release.md)]
+
 ### Windows 11 IoT Enterprise
 
 Windows 11 IoT Enterprise releases follow the [Modern Lifecycle Policy](/lifecycle/policies/modern) where each release is supported for 36-months and each feature update resets the support lifecycle.
@@ -60,7 +64,7 @@ Windows 11 IoT Enterprise releases follow the [Modern Lifecycle Policy](/lifecyc
 | Release Version  | Build |  Start Date  | End of Servicing |
 | ---------------- | ----- | ------------ | ---------------- |
 | Windows&nbsp;11&nbsp;IoT&nbsp;Enterprise,&nbsp;version&nbsp;24H2 | 26100 |  | |
-| [Windows&nbsp;11&nbsp;IoT&nbsp;Enterprise,&nbsp;version&nbsp;23H2](Windows-11-IoT-Enterprise-23H2.md) | 22631 | 2023&#8209;10&#8209;31 | 2026&#8209;11&#8209;10 |
+| [Windows&nbsp;11&nbsp;IoT&nbsp;Enterprise,&nbsp;version&nbsp;23H2](Windows-11-IoT-Enterprise-23H2.md) | 22631 | :::no-loc text="2023&#8209;10&#8209;31"::: | :::no-loc text="2026&#8209;11&#8209;10"::: |
 | [Windows&nbsp;11&nbsp;IoT&nbsp;Enterprise,&nbsp;version&nbsp;22H2](Windows-11-IoT-Enterprise-22H2.md) | 22621 |  2022&#8209;09&#8209;20  | 2025&#8209;10&#8209;14 |
 | [Windows&nbsp;11&nbsp;IoT&nbsp;Enterprise,&nbsp;version&nbsp;21H2](Windows-11-IoT-Enterprise-21H2.md)     | 22000 |  2021&#8209;10&#8209;04  | 2024&#8209;10&#8209;08 |
 
@@ -85,21 +89,21 @@ Windows 10 IoT Enterprise releases follow the [Modern Lifecycle Policy](/lifecyc
 | Windows&nbsp;10&nbsp;IoT&nbsp;Enterprise,&nbsp;version&nbsp;2004     | 19041 |  2020&#8209;05&#8209;27  |    2021&#8209;12&#8209;14    |
 | Windows&nbsp;10&nbsp;IoT&nbsp;Enterprise,&nbsp;version&nbsp;1909     | 18363 |  2019&#8209;11&#8209;12  |    2022&#8209;05&#8209;10    |
 | Windows&nbsp;10&nbsp;IoT&nbsp;Enterprise,&nbsp;version&nbsp;1903     | 18362 |  2019&#8209;08&#8209;29  |    2020&#8209;12&#8209;08    |
-| Windows&nbsp;10&nbsp;IoT&nbsp;Enterprise,&nbsp;version&nbsp;1809     | 17763 |  2018&#8209;11&#8209;13  |    2021&#8209;05&#8209;11    |
-| Windows&nbsp;10&nbsp;IoT&nbsp;Enterprise,&nbsp;version&nbsp;1803     | 17134 |  2018&#8209;04&#8209;30  |    2021&#8209;05&#8209;11    |
-| Windows&nbsp;10&nbsp;IoT&nbsp;Enterprise,&nbsp;version&nbsp;1709     | 16229 |  2017&#8209;10&#8209;17  |    2020&#8209;10&#8209;13    |
-| Windows&nbsp;10&nbsp;IoT&nbsp;Enterprise,&nbsp;version&nbsp;1703     | 15063 |  2017&#8209;04&#8209;11  |    2019&#8209;10&#8209;08    |
-| Windows&nbsp;10&nbsp;IoT&nbsp;Enterprise,&nbsp;version&nbsp;1607     | 14393 |  2016&#8209;08&#8209;02  |    2019&#8209;04&#8209;09    |
-| Windows&nbsp;10&nbsp;IoT&nbsp;Enterprise,&nbsp;version&nbsp;1511     | 10586 |  2015&#8209;11&#8209;10  |    2017&#8209;10&#8209;10    |
-| Windows&nbsp;10&nbsp;IoT&nbsp;Enterprise,&nbsp;version&nbsp;1507     | 10240 |  2015&#8209;07&#8209;29  |    2017&#8209;05&#8209;09    |
+| Windows&nbsp;10&nbsp;Enterprise,&nbsp;version&nbsp;1809     | 17763 |  2018&#8209;11&#8209;13  |    2021&#8209;05&#8209;11    |
+| Windows&nbsp;10&nbsp;Enterprise,&nbsp;version&nbsp;1803     | 17134 |  2018&#8209;04&#8209;30  |    2021&#8209;05&#8209;11    |
+| Windows&nbsp;10&nbsp;Enterprise,&nbsp;version&nbsp;1709     | 16229 |  2017&#8209;10&#8209;17  |    2020&#8209;10&#8209;13    |
+| Windows&nbsp;10&nbsp;Enterprise,&nbsp;version&nbsp;1703     | 15063 |  2017&#8209;04&#8209;11  |    2019&#8209;10&#8209;08    |
+| Windows&nbsp;10&nbsp;Enterprise,&nbsp;version&nbsp;1607     | 14393 |  2016&#8209;08&#8209;02  |    2019&#8209;04&#8209;09    |
+| Windows&nbsp;10&nbsp;Enterprise,&nbsp;version&nbsp;1511     | 10586 |  2015&#8209;11&#8209;10  |    2017&#8209;10&#8209;10    |
+| Windows&nbsp;10&nbsp;Enterprise,&nbsp;version&nbsp;1507     | 10240 |  2015&#8209;07&#8209;29  |    2017&#8209;05&#8209;09    |
 
 For more information, see [Windows 10 IoT Enterprise support lifecycle](/lifecycle/products/windows-10-iot-enterprise).
 
 ## Related content
 
-* [Quick guide to Windows as a service](/windows/deployment/update/waas-quick-start)
-* [Overview of Windows as a service](/windows/deployment/update/waas-overview)
-* [Update release cycle for Windows IoT](/windows/deployment/update/release-cycle)
-* [Windows release health dashboard](/windows/release-health/)
-* [Windows features we're no longer developing](/windows/whats-new/deprecated-features)
-* [Windows features and functionality removed in Windows](/windows/whats-new/removed-features)
+- [Quick guide to Windows as a service](/windows/deployment/update/waas-quick-start)
+- [Overview of Windows as a service](/windows/deployment/update/waas-overview)
+- [Update release cycle for Windows IoT](/windows/deployment/update/release-cycle)
+- [Windows release health dashboard](/windows/release-health/)
+- [Windows features we're no longer developing](/windows/whats-new/deprecated-features)
+- [Windows features and functionality removed in Windows](/windows/whats-new/removed-features)

@@ -493,8 +493,6 @@
   href: ./eula/end-user-license-agreement.md
 - name: Windows IoT Distributors
   href: ./windows-iot-distributors.md
-- name: Downloads
-  href: ./Downloads.md
 - name: Code Samples
   href:  https://aka.ms/winiotsamples
 - name: Contact us
