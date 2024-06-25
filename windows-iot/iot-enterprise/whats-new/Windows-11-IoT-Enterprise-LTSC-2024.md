@@ -20,9 +20,7 @@ We designed Windows IoT Enterprise LTSC with these use cases in mind. We support
 
 With every new Windows release comes exciting new features and capabilities - **Windows 11 IoT Enterprise LTSC 2024** is no different. This article provides a high level overview of notable updates in this release that are of interest to device makers and IT Pros.
 
-### Availability
-
-Windows 11 IoT Enterprise LTSC 2024 is available for Windows IoT Enterprise device makers through an authorized [Windows IoT Distributor](../windows-iot-distributors.md) for building new devices. Windows IoT Enterprise is intended for fixed purpose devices with specific allowances and restrictions in the license agreement. For more information, see [Licensing and Usage](/windows/iot/iot-enterprise/commercialization/licensing) or contact an authorized [Windows IoT Distributor](../windows-iot-distributors.md) for further assistance.
+[!INCLUDE [Windows 11 IoT Enterprise LTSC 2024](../../includes/incl-latest-ltsc-release.md)]
 
 ### Upgrade
 
