@@ -89,13 +89,13 @@ Windows 10 IoT Enterprise releases follow the [Modern Lifecycle Policy](/lifecyc
 | Windows&nbsp;10&nbsp;IoT&nbsp;Enterprise,&nbsp;version&nbsp;2004     | 19041 |  2020&#8209;05&#8209;27  |    2021&#8209;12&#8209;14    |
 | Windows&nbsp;10&nbsp;IoT&nbsp;Enterprise,&nbsp;version&nbsp;1909     | 18363 |  2019&#8209;11&#8209;12  |    2022&#8209;05&#8209;10    |
 | Windows&nbsp;10&nbsp;IoT&nbsp;Enterprise,&nbsp;version&nbsp;1903     | 18362 |  2019&#8209;08&#8209;29  |    2020&#8209;12&#8209;08    |
-| Windows&nbsp;10&nbsp;IoT&nbsp;Enterprise,&nbsp;version&nbsp;1809     | 17763 |  2018&#8209;11&#8209;13  |    2021&#8209;05&#8209;11    |
-| Windows&nbsp;10&nbsp;IoT&nbsp;Enterprise,&nbsp;version&nbsp;1803     | 17134 |  2018&#8209;04&#8209;30  |    2021&#8209;05&#8209;11    |
-| Windows&nbsp;10&nbsp;IoT&nbsp;Enterprise,&nbsp;version&nbsp;1709     | 16229 |  2017&#8209;10&#8209;17  |    2020&#8209;10&#8209;13    |
-| Windows&nbsp;10&nbsp;IoT&nbsp;Enterprise,&nbsp;version&nbsp;1703     | 15063 |  2017&#8209;04&#8209;11  |    2019&#8209;10&#8209;08    |
-| Windows&nbsp;10&nbsp;IoT&nbsp;Enterprise,&nbsp;version&nbsp;1607     | 14393 |  2016&#8209;08&#8209;02  |    2019&#8209;04&#8209;09    |
-| Windows&nbsp;10&nbsp;IoT&nbsp;Enterprise,&nbsp;version&nbsp;1511     | 10586 |  2015&#8209;11&#8209;10  |    2017&#8209;10&#8209;10    |
-| Windows&nbsp;10&nbsp;IoT&nbsp;Enterprise,&nbsp;version&nbsp;1507     | 10240 |  2015&#8209;07&#8209;29  |    2017&#8209;05&#8209;09    |
+| Windows&nbsp;10&nbsp;Enterprise,&nbsp;version&nbsp;1809     | 17763 |  2018&#8209;11&#8209;13  |    2021&#8209;05&#8209;11    |
+| Windows&nbsp;10&nbsp;Enterprise,&nbsp;version&nbsp;1803     | 17134 |  2018&#8209;04&#8209;30  |    2021&#8209;05&#8209;11    |
+| Windows&nbsp;10&nbsp;Enterprise,&nbsp;version&nbsp;1709     | 16229 |  2017&#8209;10&#8209;17  |    2020&#8209;10&#8209;13    |
+| Windows&nbsp;10&nbsp;Enterprise,&nbsp;version&nbsp;1703     | 15063 |  2017&#8209;04&#8209;11  |    2019&#8209;10&#8209;08    |
+| Windows&nbsp;10&nbsp;Enterprise,&nbsp;version&nbsp;1607     | 14393 |  2016&#8209;08&#8209;02  |    2019&#8209;04&#8209;09    |
+| Windows&nbsp;10&nbsp;Enterprise,&nbsp;version&nbsp;1511     | 10586 |  2015&#8209;11&#8209;10  |    2017&#8209;10&#8209;10    |
+| Windows&nbsp;10&nbsp;Enterprise,&nbsp;version&nbsp;1507     | 10240 |  2015&#8209;07&#8209;29  |    2017&#8209;05&#8209;09    |
 
 For more information, see [Windows 10 IoT Enterprise support lifecycle](/lifecycle/products/windows-10-iot-enterprise).
 
