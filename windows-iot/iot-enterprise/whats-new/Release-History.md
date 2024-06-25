@@ -16,9 +16,9 @@ The Windows IoT Enterprise product line is intended for fixed purpose devices. T
 
 There are currently three products offerings in the Windows IoT Enterprise product line each of which contain multiple releases. For more information, see...
 
-* [Windows IoT Enterprise LTSC](#windows-iot-enterprise-ltsc)
-* [Windows 10 IoT Enterprise](#windows-10-iot-enterprise)
-* [Windows 11 IoT Enterprise](#windows-11-iot-enterprise)
+- [Windows IoT Enterprise LTSC](#windows-iot-enterprise-ltsc)
+- [Windows 10 IoT Enterprise](#windows-10-iot-enterprise)
+- [Windows 11 IoT Enterprise](#windows-11-iot-enterprise)
 
 Each of the Windows IoT Enterprise product offerings is available for device makers through an authorized [Windows IoT Distributor](https://aka.ms/IoTDistributorList) for building new devices.  To learn more about licensing Windows IoT Enterprise, see [Licensing and Usage](/windows/iot/iot-enterprise/commercialization/licensing).
 
@@ -27,6 +27,8 @@ Each of the Windows IoT Enterprise product offerings is available for device mak
 Windows IoT Enterprise is available through the Long-Term Servicing Channel (LTSC) to provide a 10-year support lifecycle for special-purpose devices where changes in functionality aren't desirable. New LTSC releases are typically provided on a three year cadence, but timing can vary from one release to the next. We communicate variances in this cadence as early as possible. For more information, see [Windows as a service - Long-Term Servicing Channel](/windows/deployment/update/waas-overview#long-term-servicing-channel).
 
 Windows IoT Enterprise LTSC releases follow the [Fixed Lifecycle Policy](/lifecycle/policies/fixed) where each release is supported for 10 years and requires a separate license.
+
+[!INCLUDE [Latest LTSC](../../includes/incl-latest-ltsc-release.md)]
 
 ### Windows IoT Enterprise LTSC releases
 
@@ -46,6 +48,8 @@ For more information, see [Windows IoT Enterprise LTSC support lifecycle](/lifec
 ## Windows IoT Enterprise
 
 Windows IoT Enterprise is also available through the General Availability Channel for Windows IoT Enterprise is also designed for special-purpose devices that require the latest feature updates as soon as they're available. Windows IoT Enterprise in the General Availability Channel provides a 36 month lifecycle (30 months for Windows 10) which is reset with each annual feature update. For more information, see [Windows as a Service - General Availability Channel](/windows/deployment/update/waas-overview#general-availability-channel).
+
+[!INCLUDE [Latest GAC](../../includes/incl-latest-gac-release.md)]
 
 ### Windows 11 IoT Enterprise
 
@@ -97,9 +101,9 @@ For more information, see [Windows 10 IoT Enterprise support lifecycle](/lifecyc
 
 ## Related content
 
-* [Quick guide to Windows as a service](/windows/deployment/update/waas-quick-start)
-* [Overview of Windows as a service](/windows/deployment/update/waas-overview)
-* [Update release cycle for Windows IoT](/windows/deployment/update/release-cycle)
-* [Windows release health dashboard](/windows/release-health/)
-* [Windows features we're no longer developing](/windows/whats-new/deprecated-features)
-* [Windows features and functionality removed in Windows](/windows/whats-new/removed-features)
+- [Quick guide to Windows as a service](/windows/deployment/update/waas-quick-start)
+- [Overview of Windows as a service](/windows/deployment/update/waas-overview)
+- [Update release cycle for Windows IoT](/windows/deployment/update/release-cycle)
+- [Windows release health dashboard](/windows/release-health/)
+- [Windows features we're no longer developing](/windows/whats-new/deprecated-features)
+- [Windows features and functionality removed in Windows](/windows/whats-new/removed-features)
