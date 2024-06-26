@@ -56,9 +56,6 @@ Applies to:
 Applies to:  
 ✅ Windows 11 IoT Enterprise  
 
-> [!NOTE]
-> Windows 11 IoT Enterprise, version 24H2 is coming later this year.
-
 | </br></br>Component    | </br>PREFERRED</br>Minimum&nbsp;Requirements   | 21H2,&nbsp;22H2,&nbsp;23H2 </br> OPTIONAL </br> Minimum&nbsp;Requirements  | 24H2 or Later </br> OPTIONAL </br> Minimum&nbsp;Requirements  |
 | ---------------------- |:-----------------------------:|:---------------------------------:|:---------------------------------:|
 | Processor¹             | 1&nbsp;GHz,&nbsp;2 Cores      | 1&nbsp;GHz,&nbsp;2&nbsp;Cores     | 1&nbsp;GHz,&nbsp;2&nbsp;Cores     |
