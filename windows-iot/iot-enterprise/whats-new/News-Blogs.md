@@ -12,6 +12,8 @@ keywords: Blogs, News, Windows IoT, Windows IoT Enterprise, Windows IoT Core, Bu
 
 # Windows for IoT Newsstand
 
+[!INCLUDE [Feedback](../../includes/incl-feedback.md)]
+
 This section is updated regularly with blog posts, videos, and case studies that feature Windows for IoT products.
 
 ## Follow Windows for IoT
