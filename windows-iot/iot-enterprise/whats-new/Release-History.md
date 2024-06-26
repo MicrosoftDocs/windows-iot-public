@@ -22,6 +22,12 @@ There are currently three products offerings in the Windows IoT Enterprise produ
 
 Each of the Windows IoT Enterprise product offerings is available for device makers through an authorized [Windows IoT Distributor](https://aka.ms/IoTDistributorList) for building new devices.  To learn more about licensing Windows IoT Enterprise, see [Licensing and Usage](/windows/iot/iot-enterprise/commercialization/licensing).
 
+[!INCLUDE [Feedback](/windows/includes/incl-feedback.md)]
+
+separation test
+
+[!Include [Feedback](../../includes/incl-feedback.md)]
+
 ## Windows IoT Enterprise LTSC
 
 Windows IoT Enterprise is available through the Long-Term Servicing Channel (LTSC) to provide a 10-year support lifecycle for special-purpose devices where changes in functionality aren't desirable. New LTSC releases are typically provided on a three year cadence, but timing can vary from one release to the next. We communicate variances in this cadence as early as possible. For more information, see [Windows as a service - Long-Term Servicing Channel](/windows/deployment/update/waas-overview#long-term-servicing-channel).
