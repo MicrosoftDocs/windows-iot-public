@@ -4,10 +4,10 @@ ms.author: twarwick
 ms.service: windows-iot
 ms.subservice: iot
 ms-topic: include
-ms.date: 06/21/2024
+ms.date: 06/26/2024
 ---
 
-> [!NOTE]
+> [!TIP]
 > **Windows 11 IoT Enterprise LTSC 2024** is now available for OEMs building new devices and evaluation.
 >
 > - If you are an OEM, contact your [authorized Windows IoT Distributor](/windows-iot/iot-enterprise/windows-iot-distributors.md) for assistance with [Licensing](../iot-enterprise/Commercialization/Licensing.md).
