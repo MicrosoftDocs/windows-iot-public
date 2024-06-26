@@ -38,9 +38,6 @@ The Windows IoT Enterprise optional minimum requirements are provided for device
 Applies to:  
 ✅ Windows 11 IoT Enterprise LTSC
 
-> [!NOTE]
-> Windows 11 IoT Enterprise LTSC 2024 is coming later this year.
-
 | </br>Component    | PREFERRED</br>Minimum&nbsp;Requirements   | OPTIONAL </br> Minimum&nbsp;Requirements  |
 | ---------------------- |:---------------------------------:|:---------------------------------:|
 | Processor¹             | 1&nbsp;GHz,&nbsp;2 Cores          | 1&nbsp;GHz,&nbsp;2&nbsp;Cores     |
