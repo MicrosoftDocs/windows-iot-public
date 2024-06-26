@@ -26,7 +26,7 @@ Each of the Windows IoT Enterprise product offerings is available for device mak
 
 separation test
 
-[!Include [Feedback](../../includes/incl-feedback.md)]
+[!INCLUDE [Feedback](../../includes/incl-feedback.md)]
 
 ## Windows IoT Enterprise LTSC
 
