@@ -11,7 +11,7 @@ keywords: IoT Enterprise, Device Management, Reset, Recovery
 ---
 # Device Reset and Recovery
 
-This article will give you an overview on [Device Reset](#device-reset) and [Device Recovery](#device-recovery) features.
+This article provides an overview on [Device Reset](#device-reset) and [Device Recovery](#device-recovery) features.
 
 ## Device Reset
 
@@ -20,11 +20,11 @@ Device reset is a process to restore the device to its initial conditions (with 
 Device reset includes the following key operations:
 
 * Formats the data partition (all data stored there are lost)
-* OEM custom packages should not store files/data in the data partition if they want to use device reset.
+* OEM custom packages shouldn't store files/data in the data partition if they want to use device reset.
 * Restores all registry settings to the initial values specified in the packaging
 * Removes extraneous files in the Main OS partition excluding the files specified in the packaging
 * Restores Microsoft Store Apps to the version packaged in the Image (via PPKG)
-* Store apps updates performed via the Microsoft Store will be reverted back
+* Store apps updates performed via the Microsoft Store are reverted back
 * All changes to BCD settings performed at run-time will **remain intact**
 * All OS/OEM updates applied to the device will **remain intact**
 
@@ -32,17 +32,14 @@ Device reset includes the following key operations:
 >
 > The Recovery process will also roll back the updates and put the device back to the factory condition.
 
-### Factory Reset
+[Factory reset](https://support.microsoft.com/windows/how-to-refresh-reset-or-restore-your-pc-51391d9a-eb0a-84a7-69e4-c2c1fbceb8dd) restores the state of the device back to its first-boot state plus any update packages. The reset **doesn't** return device to the original factory state. To return the device to the original factory state, you must flash it with the original factory image. All the provisioning applied to the device by the enterprise is lost and need to be reapplied.
 
-[Factory reset](https://support.microsoft.com/windows/how-to-refresh-reset-or-restore-your-pc-51391d9a-eb0a-84a7-69e4-c2c1fbceb8dd) restores the state of the device back to its first-boot state plus any update packages. The reset will **not** return device to the original factory state. To return the device to the original factory state, you must flash it with the original factory image. All the provisioning applied to the device by the enterprise will be lost and will need to be re-applied if needed.
+For information on performing a device reset, see:
 
-### Reset using Mobile Device Management
-
-Device reset can be triggered using the [RemoteWipe CSP](/windows/client-management/mdm/remotewipe-csp)
-
-### Reset using Azure Device Management
-
-Device reset can also be triggered using the Azure Device Management using [Remote Wipe API](https://github.com/ms-iot/iot-core-azure-dm-client/blob/master/docs/remote-wipe.md).
+- [Give your device a fresh start](https://support.microsoft.com/windows/give-your-pc-a-fresh-start-0ef73740-b927-549b-b7c9-e6f2b48d275e)
+- [Use Fresh Start to reset devices with Intune](/mem/intune/remote-actions/device-fresh-start)
+- Device reset using Mobile Device Management with [RemoteWipe CSP](/windows/client-management/mdm/remotewipe-csp)
+-  Device reset using Azure Device Management with [Remote Wipe API](https://github.com/ms-iot/iot-core-azure-dm-client/blob/master/docs/remote-wipe.md).
 
 > [!NOTE]
 >
@@ -50,12 +47,12 @@ Device reset can also be triggered using the Azure Device Management using [Remo
 
 ## Device Recovery
 
-Device recovery is a process to recover inoperable devices due to incorrect or bad storage state. This is done by booting into a known safe OS or recovery OS and re-flash the storage media.
+Device recovery, a process to recover inoperable devices due to incorrect or bad storage state, is done by booting into a known safe OS or recovery OS and reflash the storage media.
 
 The three key elements of recovery are:
 
 1. **Safe OS**: This OS can be configured to launch on boot without UI. And in this state it can run a flashing app to apply a recovery image from a predefined location.
-1. **Recovery SW**: SW Image used to re-flash the devices
+1. **Recovery SW**: SW Image used to reflash the devices
 1. **Recovery design choice**: Based on the location of the Safe OS and the recovery software, various design choices are available, see the various options below.
 
 >[!NOTE]
@@ -71,13 +68,13 @@ In this method, we boot the device from USB (with bootable safe OS and the FFU) 
 
 Hardware Requirements:
 
-* Requires device to have an USB port
+* Requires device to have a USB port
 * May require hardware key (or key combination) to trigger this
 
 BSP Changes:
 
 * Requires changes to respond to HW trigger (key/key combinations) to boot from USB
-* Alternative design choice could be to prioritize boot from USB always, this way there is no explicit need to trigger this. However, this also means anytime a bootable USB is detected the device will enter this state.
+* Alternative design choice could be to prioritize boot from USB always, this way there's no explicit need to trigger this. However, this also means anytime a bootable USB is detected the device will enter this state.
 
 ### Recovery using built-in safe OS
 
@@ -97,7 +94,7 @@ BSP Changes:
 * Requires changes to respond to HW trigger (key/key combinations) to boot into the safe OS in separate partition
 * Drivers for USB device / SD card interfaces may need to be added to Safe OS
 * Device layout changes to store safe OS (size can be smaller to accommodate only the safe OS)
-* Flashing tool to update only the main OS and Data partitions and skip updating the safe OS partition. This is essential to preserve the safe OS to be able to retry recovery if there is a power loss during a recovery process.
+* Flashing tool to update only the main OS and Data partitions and skip updating the safe OS partition. This is essential to preserve the safe OS to be able to retry recovery if there's a power loss during a recovery process.
 
 #### Recovery SW from recovery partition
 
@@ -109,8 +106,8 @@ This option is like earlier option, with only difference of storing the Recovery
 
 ##### Recovery SW from cloud
 
-In this option, the Recovery SW is downloaded from a predefined cloud service/web location. The cloud service needs to be setup so that it can securely offer the Recovery SW to the device. To realize this option, the safe OS must support network connectivity, so Wi-Fi drivers need to be added to the safe OS and in addition to that, the Wi-Fi profile in the main OS should be also made available for safe OS to connect to the network.
+In this option, the Recovery SW is downloaded from a predefined cloud service/web location. The cloud service needs to be set up so that it can securely offer the Recovery SW to the device. To realize this option, the safe OS must support network connectivity, so Wi-Fi drivers need to be added to the safe OS and in addition to that, the Wi-Fi profile in the main OS should be also made available for safe OS to connect to the network.
 
-## Additional Resources
+## More Resources
 
 * [Windows 10 Recovery Options](https://support.microsoft.com/windows/recovery-options-in-windows-10-31ce2444-7de3-818c-d626-e3b5a3024da5)

@@ -69,6 +69,11 @@
         "source_path_from_root": "/windows-iot/iot-enterprise/commercialization/iot-ent-audit-mode-overview.md",
         "redirect_url": "/windows/iot/iot-enterprise/commercialization/iot-ent-customize-the-reference-device-in-audit-mode",
         "redirect_document_id": false
+    },
+    {
+        "source_path_from_root": "/windows-iot/iot-enterprise/downloads.md",
+        "redirect_url": "/windows/iot/iot-enterprise/whats-new/release-history",
+        "redirect_document_id": false
     }
 ]
 }
