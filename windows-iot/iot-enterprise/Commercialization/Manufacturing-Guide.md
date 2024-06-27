@@ -2,7 +2,7 @@
 title: Manufacturing Guide Overview
 author: TerryWarwick
 ms.author: twarwick
-ms.date: 03/30/2023
+ms.date: 04/24/2024
 ms.topic: article
 ms.service: windows-iot
 ms.subservice: iot
@@ -28,4 +28,3 @@ This Manufacturing Guide consists of a series of labs that walk through how to b
 
 - [Script-based image customization and deployment](https://github.com/ms-iot/windows-iotent-deploy)
 - [Optimize a Windows IoT Enterprise image](../optimize/overview.md)
-- [Edge Device Image Builder Preview](/windows-hardware/manufacture/desktop/edib)

@@ -12,14 +12,9 @@ ms.subservice: iot
 
 # Lab 5: Configure Shell Launcher or Assigned Access
 
-Many IoT device scenarios require a custom user experience by either automatically launching an application at Windows startup, or a custom shell experience. Using a custom shell experience enables the OEM to create a controlled user experience where the Windows UI is hidden and the OEM application is the focus.
-Windows IoT Enterprise has two custom shell features that enable this custom user experience.
+Windows IoT Enterprise allows you to build fixed purpose devices such as ATM machines, point-of-sale terminals, medical devices, digital signs, or kiosks. Kiosk mode helps you create a dedicated and locked down user experience on these fixed purpose devices. Windows IoT Enterprise offers a set of different locked-down experiences for public or specialized use: [assigned access single-app kiosks](../Customize/Single-App-Kiosk.md), [assigned access multi-app kiosks](../Customize/Multi-App-Kiosk.md), or [shell launcher](../Customize/Shell-Launcher.md).
 
-- **Shell Launcher** enables OEMs to set a classic, non-UWP, app as the system shell. The advantage to using Shell Launcher is the ability to provide custom actions based on the exit code of the OEM application. For example if the OEM application exits with a specific exit code, the system can be configured to automatically restart the application, reboot or shutdown the device, etc.
-
-- **Assigned Access** enables OEMs to set a UWP application as the system shell. Similar to Shell Launcher, Assigned Access can automatically restart the application when it's closed, keeping the device in the intended user experience.
-
-For a fully automated approach to enabling these features, consider using the [Windows IoT Enterprise deployment framework](https://github.com/ms-iot/windows-iotent-deploy).
+Kiosk configurations are based upon either [assigned access](/windows/configuration/guidelines-for-assigned-access-app) or [shell launcher](../Customize/Shell-Launcher.md).
 
 ## Prerequisites
 
@@ -35,9 +30,6 @@ In lab 4, we used Sysprep to get the system ready for capture and deployment. Th
 
 1. Complete the OOBE experience. Choose the settings that match your device requirements.  
 
-> [!NOTE]
-> The OOBE experience can be fully automated using an Answer File along with Sysprep to answer the OOBE questions in advance. For more information, see the example Answer Files in the [Windows IoT Enterprise deployment framework](https://github.com/ms-iot/windows-iotent-deploy).
-
 ## Enable and configure Shell Launcher
 
 ### Enable Shell Launcher
@@ -45,27 +37,46 @@ In lab 4, we used Sysprep to get the system ready for capture and deployment. Th
 Once the device is booted to the desktop, enable the Shell Launcher. From an Administrative Command Prompt:
 
 ```cmd
-DISM /online /Enable-Feature /FeatureName:Client-EmbeddedShellLauncher 
+Dism /online /Enable-Feature /all /FeatureName:Client-EmbeddedShellLauncher 
 ```
 
 ### Configure Shell Launcher to run an OEM application
 
-With Shell Launcher enabled, you can set an application as the Windows Shell. In the following steps, we show you how to use notepad.exe as the shell for the current user. In your device, you use a different application in place of Notepad.exe to configure the system to use the OEM application as the shell, but the steps are the same. See [Shell launcher](/windows-hardware/customize/enterprise/shell-launcher) to learn more.
+With Shell Launcher enabled, you can set an application as the Windows Shell. In the following steps, we show you how to use *powershell.exe* as the shell for the current user. In your device, you use a different application in place of *PowerShell* to configure the system to use the OEM application as the shell, but the steps are the same. See [Shell launcher](../Customize/Shell-Launcher.md) to learn more.
 
-To set Notepad.exe as your custom shell:
+To set *powershell.exe* as your custom shell:
 
-1. From PowerShell run:
+1. From an Administrative Windows PowerShell Prompt run:
 
     ```PowerShell
     $ShellLauncherClass = [wmiclass]"\\localhost\root\standardcimv2\embedded:WESL_UserSetting"
 
-    $ShellLauncherClass.SetDefaultShell("notepad.exe",1)
+    $ShellLauncherClass.SetDefaultShell("powershell.exe",1)
 
     $ShellLauncherClass.SetEnabled($TRUE)
     ```
 
 1. Reboot the reference IoT device.
-1. The system reboots and Notepad starts as the default system shell.
+1. The system reboots and *PowerShell* starts as the default system shell.
+
+To revert the system back to the *explorer.exe* shell, run the following commands:
+
+1. From the current shell, open an Administrative Windows PowerShell Prompt:
+
+    ```powershell
+    Start-Process powershell -Verb RunAs
+    ```
+
+1. Then run the following commands:
+
+    ```PowerShell
+    $ShellLauncherClass = [wmiclass]"\\localhost\root\standardcimv2\embedded:WESL_UserSetting"
+
+    $ShellLauncherClass.SetDefaultShell("explorer.exe",1)
+    ```
+
+1. Reboot the reference IoT device.
+1. The system reboots and *Explorer* starts as the default system shell.
 
 ## Enable and configure Assigned Access
 
@@ -85,4 +96,4 @@ In this lab, you add a UWP app to your image by sideloading it onto the system. 
 1. Follow the steps at [Set up a kiosk using Windows PowerShell](/windows/configuration/kiosk-single-app#set-up-a-kiosk-using-windows-powershell) to complete the process.
 
 > [!NOTE]
->For scenarios where multiple apps are needed, follow the steps at [Set up a multi-app kiosk](/windows/configuration/lock-down-windows-10-to-specific-apps)
+>For scenarios where multiple apps are needed, follow the steps at [Set up a multi-app kiosk](/windows/configuration/assigned-access/configuration-file)
