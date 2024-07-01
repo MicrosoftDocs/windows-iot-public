@@ -1,12 +1,12 @@
 ---
-title: ARM64 Guidance
+title: ARM64 FAQ
 author: sydbruck
 ms.author: sybruckm
 ms.date: 10/20/2023
 ms.topic: article
 ms.service: windows-iot
 ms.subservice: iot
-description: Windows IoT on ARM64
+description: Windows IoT Enterprise on ARM64 FAQ
 keywords: IoT Enterprise, Hardware, Windows IoT, Arm64, NXP
 ---
 
@@ -27,17 +27,6 @@ For the quickest way to get familiar with Windows IoT Enterprise on ARM64, see o
 ### Which hardware is supported?
 
 Windows IoT Enterprise supports various peripheral interfaces on ARM64 devices. The following list isn't exhaustive. There are many other peripherals not listed on this page that are compatible with Windows IoT Enterprise. If you are an IHV with a peripheral that supports Windows IoT Enterprise on ARM64 and would like to be added to this list, reach out to winiotinquire@microsoft.com.
-
-#### Platforms
-
-|Manufacturer|Hardware  |
-|-|---------|
-|NXP|[i.MX 8M EVK](https://www.nxp.com/design/development-boards/i-mx-evaluation-and-development-boards/evaluation-kit-for-the-i-mx-8m-applications-processor:MCIMX8M-EVK)<br> [i.MX 8M Plus EVK](https://www.nxp.com/design/development-boards/i-mx-evaluation-and-development-boards/evaluation-kit-for-the-i-mx-8m-plus-applications-processor:8MPLUSLPD4-EVK)<br>[i.MX 8M Mini EVK](https://www.nxp.com/design/development-boards/i-mx-evaluation-and-development-boards/evaluation-kit-for-the-i-mx-8m-mini-applications-processor:8MMINILPD4-EVK)<br> [i.MX 8M Nano EVK](https://www.nxp.com/design/development-boards/i-mx-evaluation-and-development-boards/evaluation-kit-for-the-i-mx-8m-nano-applications-processor:8MNANOD4-EVK)<br> [i.MX 8X EVK](https://www.nxp.com/products/processors-and-microcontrollers/arm-processors/i-mx-applications-processors/i-mx-8-applications-processors/i-mx-8x-family-arm-cortex-a35-3d-graphics-4k-video-dsp-error-correcting-code-on-ddr:i.MX8X)<br> [i.MX 93 EVK](https://www.nxp.com/products/processors-and-microcontrollers/arm-processors/i-mx-applications-processors/i-mx-9-processors/i-mx-93-applications-processor-family-arm-cortex-a55-ml-acceleration-power-efficient-mpu:i.MX93)|
-|Avnet|[MSC SM2S IMX8PLUS](https://embedded.avnet.com/product/msc-sm2s-imx8plus/)<br> [MSC SM2S-IMX8M](https://embedded.avnet.com/product/msc-sm2s-imx8m/)    |
-|Advantech|[RSB-3720](https://www.advantech.com/en/products/single_board_computer/rsb-3720/mod_d2f1b0bc-650b-449a-8ef7-b65ce4f69949)<br> [ROM-5720](https://www.advantech.com/en/products/computer-on-module/rom-5720/mod_4fbfe9fa-f5b2-4ba8-940e-e47585ad0fef)<br> [ROM-5722](https://www.advantech.com/en/products/computer-on-module/rom-5722/mod_11aa0c77-868e-4014-8151-ac7a7a1c5c1b)     |
-|SECO|[Trizeps VIII Plus](https://edge.seco.com/usa/trizeps-viii-plus.html)<br> [Trizeps VIII](https://edge.seco.com/usa/trizeps-viii.html)<br> [Trizeps VIII Mini](https://edge.seco.com/usa/trizeps-viii-mini.html)     |
-|ASUS|[IMX8P IM A](https://www.asus.com/us/site/IOT/#!/products/single-board-computer/IMX8P-IM-A)<br> [PE100A](https://iot.asus.com/products/intelligent-edge-computer/PE100A/)     |
-|Reycom|[RIA 8M](https://www.reycom.swiss/oem-hardware/ria-8m/)<br> [RIA 8M](https://www.reycom.swiss/oem-hardware/ria-8mplus/)|
 
 #### Connectivity
 

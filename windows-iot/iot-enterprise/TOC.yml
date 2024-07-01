@@ -50,7 +50,9 @@
 - name: Arm64 Guidance
   expanded: false
   items:
-  - name: Windows IoT Enterprise on ARM64 FAQ
+  - name: Overview
+    href: ./Arm64/Overview.md
+  - name: ARM64 FAQ
     href: ./ARM64/ArmFAQ.md
   - name: Setup an NXP i.MX EVK
     href: ./Tutorials/Win10-NXP-iMX.md
