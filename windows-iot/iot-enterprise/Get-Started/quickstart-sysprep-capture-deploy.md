@@ -1,6 +1,6 @@
 ---
 title: "Quickstart: Sysprep and capture the reference device image and deploy to a new device"
-description: "Sysprep and capture the reference device image to a WIM using DISM. Then deploy the WIM image to a new device"
+description: "Sysprep and capture the reference device image of Windows IoT Enterprise to a WIM using DISM. Then deploy the WIM image to a new device"
 author: asergaz
 ms.author: sergaz
 ms.service: windows-iot
@@ -8,7 +8,7 @@ ms.subservice: iot
 ms.topic: quickstart
 ms.date: 06/28/2024
 
-#customer intent: As a <role>, I want <what> so that <why>.
+#customer intent: As a beginner, I want to learn the basics on how to sysprep, capture and deploy Windows IoT Enterprise.
 
 ---
   

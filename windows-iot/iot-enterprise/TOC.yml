@@ -66,6 +66,8 @@
 - name: Commercialization
   expanded: false
   items:
+  - name: Overview
+    href: ./Commercialization/overview-commercialization.md
   - name: Activation Guide
     href: ./Commercialization/activation-guide.md
   - name: Licensing Guide

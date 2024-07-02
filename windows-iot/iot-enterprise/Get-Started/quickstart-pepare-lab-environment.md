@@ -1,6 +1,6 @@
 ---
 title: "Quickstart: Prepare your lab environment"
-description: "Get your technician PC ready to start building IoT Enterprise images and prepare the reference device sample"
+description: "Get your technician PC ready to start building Windows IoT Enterprise images and prepare the reference device sample"
 author: asergaz
 ms.author: sergaz
 ms.service: windows-iot
@@ -8,29 +8,9 @@ ms.subservice: iot
 ms.topic: quickstart
 ms.date: 06/28/2024
 
-#customer intent: As a <role>, I want <what> so that <why>.
+#customer intent: As a beginner, I want to know how to prepare my environment to build Windows IoT Enterprise images.
 
 ---
-  
-<!-- --------------------------------------
-
-- Use this template with pattern instructions for:
-
-Quickstart
-
-- Use the Quickstart pattern when you want to show a user 
-how to complete a task to get started with a product or 
-service in their own environment.
-
-- Before you sign off or merge:
-
-Remove all comments except the customer intent.
-
-- Feedback:
-
-https://aka.ms/patterns-feedback
-
--->
 
 # Quickstart: Prepare your lab environment
  
