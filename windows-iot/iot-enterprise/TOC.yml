@@ -7,7 +7,7 @@
   items:
   - name: 🟢Prepare your lab environment
     href: ./get-started/quickstart-pepare-lab-environment.md
-  - name: 🟢Customize a reference device in Audit mode
+  - name: 🟢Customize a reference device
     href: ./get-started/quickstart-customize-reference-device.md
   - name: 🟢Sysprep, capture and deploy
     href: ./get-started/quickstart-sysprep-capture-deploy.md
