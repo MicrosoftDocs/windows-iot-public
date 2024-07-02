@@ -1,3 +1,8 @@
+# Color Key
+# 🟢 New Article
+# 🔵 Updated Article
+# 🔴 Article to be removed
+# ====================================
 - name: Windows IoT Enterprise Overview
   href: ./Overview.md  
 - name: Release History
