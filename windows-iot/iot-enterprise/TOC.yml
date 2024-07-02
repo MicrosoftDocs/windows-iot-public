@@ -32,14 +32,14 @@
        href: ./whats-new/Windows-10-IoT-Enterprise-21H2.md
      - name: Version 21H1
        href: ./whats-new/Windows-10-IoT-Enterprise-21H1.md
-- name: Get started with a reference device sample
+- name: 🔵Get started with a reference device sample
   expanded: false
   items:
-  - name: Prepare your lab environment
+  - name: 🔵Prepare your lab environment
     href: ./get-started/quickstart-pepare-lab-environment.md
-  - name: Customize a reference device in Audit mode
+  - name: 🔵Customize a reference device in Audit mode
     href: ./get-started/quickstart-customize-reference-device.md
-  - name: Sysprep, capture and deploy
+  - name: 🔵Sysprep, capture and deploy
     href: ./get-started/quickstart-sysprep-capture-deploy.md
 - name: Hardware Guidance
   expanded: false
@@ -66,13 +66,14 @@
 - name: Commercialization
   expanded: false
   items:
-  - name: Overview
+  - name: 🔵Overview
     href: ./Commercialization/overview-commercialization.md
   - name: Activation Guide
     href: ./Commercialization/activation-guide.md
   - name: Licensing Guide
     href: ./Commercialization/Licensing.md
   - name: Manufacturing Guide
+    href: ./Commercialization/Manufacturing-Guide.md
     expanded: false
     items:
     - name: Overview
