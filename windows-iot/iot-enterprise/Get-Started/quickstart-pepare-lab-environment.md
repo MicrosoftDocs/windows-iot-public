@@ -13,36 +13,25 @@ ms.date: 06/28/2024
 ---
 
 # Quickstart: Prepare your lab environment
- 
-<!-- Required: Article headline - H1
 
-Identify the product or service and the feature area
-the quickstart covers.
+In this quickstart, we walk you through preparing the technician PC to then install a basic Windows IoT Enterprise image onto a reference device sample. At the end of this quickstart, you have a technician PC ready to start building Windows IoT Enterprise images, and a reference device sample with Windows IoT Enterprise installed.
 
--->
+The following quicsktarts in this series build on this one to customize the device in audit mode and then sysprep and capture the reference device image. Alternatively you can use the lab environment prepared in this quickstart to follow other tutorials under [Customization](../Customize/customize-overview.md), [Optimization](../Optimize/Overview.md) and [Deployment](../Deployment/index.md).
 
-[Introduce and explain the purpose of the article.]
-
-<!-- Required: Introductory paragraphs (no heading)
-
-Write a brief introduction that can help the user determine 
-whether the article is relevant for them. Begin with a 
-sentence that says, "In this quickstart, you . . . ."
-
--->
-
-If you don't have a service subscription, create a free
-trial account . . .
-
-<!-- Required: Free account links (no heading)
-
-Because quickstarts are intended to help new customers
-use a product or service, include a link to a 
-free trial before the first H2.
-
--->
+> [!TIP]
+> This series of quickstarts is intended to help you get started with Windows IoT Enterprise as quickly as possible, and that is why we provide you steps to test it in a Virtual Machine. In a true development or production environment, you would start by choosing a **physical hardware** design that meets the [Windows Hardware requirements](/windows-hardware/design/minimum/minimum-hardware-requirements-overview). You would then build base images for this design and test it. Next, you would modify the base images to create designs for different audiences, including branding, logos, languages, and apps.
 
 ## Prerequisites
+
+To prepare your **technician PC: your work PC**, you need:
+
+- Have at least 15 GB of free space for installing the software and for modifying Windows IoT Enterprise images. We recommend using Windows 11 with the latest updates.
+- Have [Windows ADK](/windows-hardware/get-started/adk-install) with Deployment Tools, Configuration Designer, and the Windows PE add-on installed.
+- Have a Windows IoT Enterprise LTSC ISO.
+    - If you are an OEM, contact your [authorized Windows IoT Distributor](/windows-iot/iot-enterprise/windows-iot-distributors.md) for assistance with [Licensing](../iot-enterprise/Commercialization/Licensing.md).
+    - To evaluate, see [Windows 11 IoT Enterprise LTSC 2024 90-Day Evaluation](https://aka.ms/winioteval).
+    - If you have a Visual Studio Subscription, and Windows IoT Enterprise is available with your subscription, you can download previous versions of Windows IoT Enterprise LTSC from [Visual Studio Subscriptions - Downloads](https://my.visualstudio.com/Downloads?q=IoT%20Enterprise%20LTSC&pgroup=).
+- Have the [Languages and Optional Features ISO](/windows-hardware/manufacture/desktop/languages-overview?view=windows-11&preserve-view=true). If you can't download the ISO we will provide you the alternative steps to customize the device using network connection.
 
 <!-- Required: Prerequisites - H2
 
