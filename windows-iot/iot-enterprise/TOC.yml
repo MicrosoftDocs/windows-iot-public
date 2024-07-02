@@ -2,8 +2,17 @@
   href: ./Overview.md  
 - name: Release History
   href: ./whats-new/Release-History.md
-- name: What's new...
+- name: 🟢Get started with a reference device sample
   expanded: true
+  items:
+  - name: 🟢Prepare your lab environment
+    href: ./get-started/quickstart-pepare-lab-environment.md
+  - name: 🟢Customize a reference device in Audit mode
+    href: ./get-started/quickstart-customize-reference-device.md
+  - name: 🟢Sysprep, capture and deploy
+    href: ./get-started/quickstart-sysprep-capture-deploy.md
+- name: What's new...
+  expanded: false
   items:
   - name: Announcements & blogs
     href: ./whats-new/News-Blogs.md
@@ -32,15 +41,6 @@
        href: ./whats-new/Windows-10-IoT-Enterprise-21H2.md
      - name: Version 21H1
        href: ./whats-new/Windows-10-IoT-Enterprise-21H1.md
-- name: 🟢Get started with a reference device sample
-  expanded: false
-  items:
-  - name: 🟢Prepare your lab environment
-    href: ./get-started/quickstart-pepare-lab-environment.md
-  - name: 🟢Customize a reference device in Audit mode
-    href: ./get-started/quickstart-customize-reference-device.md
-  - name: 🟢Sysprep, capture and deploy
-    href: ./get-started/quickstart-sysprep-capture-deploy.md
 - name: Hardware Guidance
   expanded: false
   items:
