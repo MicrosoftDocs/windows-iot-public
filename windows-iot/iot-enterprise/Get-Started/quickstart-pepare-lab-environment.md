@@ -19,7 +19,7 @@ In this quickstart, we walk you through preparing the technician PC to then inst
 The following quicsktarts in this series build on this one to customize the device in audit mode and then sysprep and capture the reference device image. Alternatively you can use the lab environment prepared in this quickstart to follow other tutorials under [Customization](../Customize/customize-overview.md), [Optimization](../Optimize/Overview.md) and [Deployment](../Deployment/index.md).
 
 > [!TIP]
-> This series of quickstarts is intended to help you get started with Windows IoT Enterprise as quickly as possible, and that is why we provide you steps to test it in a Virtual Machine. In a true development or production environment, you would start by choosing a **physical hardware** design that meets the [Windows Hardware requirements](/windows-hardware/design/minimum/minimum-hardware-requirements-overview). You would then build base images for this design and test it. Next, you would modify the base images to create designs for different audiences, including branding, logos, languages, and apps.
+> This series of quickstarts is intended to help you get started with Windows IoT Enterprise as quickly as possible, and that is why we provide you steps to test it in a Virtual Machine. In a true development or production environment, you would start by choosing a **physical device** that meets the [Minimum System Requirements for Windows IoT Enterprise](../Hardware/System_Requirements.md). You would then build base images for this device and test it. Next, you would modify the base images to create designs for different audiences, including branding, logos, languages, and apps.
 
 ## Prerequisites
 
@@ -31,21 +31,22 @@ To prepare your **technician PC (your work PC)**, you need:
     [!INCLUDE [Latest LTSC](../../includes/incl-latest-ltsc-release.md)]
 - Have the [Languages and Optional Features ISO](/windows-hardware/manufacture/desktop/languages-overview?view=windows-11&preserve-view=true). If you can't download the ISO we will provide you the alternative steps to customize the device using network connection.
 
-<!-- Required: Prerequisites - H2
+To prepare your **reference device sample**, you need:
 
-"Prerequisites" must be the first H2 in the article.
+### [Physical Device](#tab/physicaldevice)
 
-List any items that are needed for the quickstart,
-such as permissions or software.
+- A physical device that meets the [Minimum System Requirements for Windows IoT Enterprise](../Hardware/System_Requirements.md).
+- Depending on the device you may need an external keyboard, mouse and a monitor.
+- A USB key that's at least 8 GB in size and that can have all information removed from it.
 
-If the user needs to sign in to a portal to do
-the quickstart, provide instructions and a link.
+### [Virtual Machine](#tab/virtualmachine)
 
-If there aren't any prerequisites, in a new paragraph
-under the "Prerequisites" H2, enter "None" in plain text
-(not as a bulleted list item).
+- A virtual machine that meets the [Minimum System Requirements for Windows IoT Enterprise](../Hardware/System_Requirements.md).
 
--->
+    > [!IMPORTANT]
+    > This series of quickstarts focuses on using Hyper-V with Windows 11. First, confirm that you can [install Hyper-V](/virtualization/hyper-v-on-windows/quick-start/enable-hyper-v) on your **technician PC**. If Hyper-V is not suitable for your setup, consider using alternative virtualization technologies.
+
+---
 
 ## Open [Cloud Shell, Azure CLI, or PowerShell]
 
