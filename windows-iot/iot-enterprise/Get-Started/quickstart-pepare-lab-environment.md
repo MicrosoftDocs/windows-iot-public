@@ -23,14 +23,12 @@ The following quicsktarts in this series build on this one to customize the devi
 
 ## Prerequisites
 
-To prepare your **technician PC: your work PC**, you need:
+To prepare your **technician PC (your work PC)**, you need:
 
 - Have at least 15 GB of free space for installing the software and for modifying Windows IoT Enterprise images. We recommend using Windows 11 with the latest updates.
 - Have [Windows ADK](/windows-hardware/get-started/adk-install) with Deployment Tools, Configuration Designer, and the Windows PE add-on installed.
-- Have a Windows IoT Enterprise LTSC ISO.
-    - If you are an OEM, contact your [authorized Windows IoT Distributor](/windows-iot/iot-enterprise/windows-iot-distributors.md) for assistance with [Licensing](../iot-enterprise/Commercialization/Licensing.md).
-    - To evaluate, see [Windows 11 IoT Enterprise LTSC 2024 90-Day Evaluation](https://aka.ms/winioteval).
-    - If you have a Visual Studio Subscription, and Windows IoT Enterprise is available with your subscription, you can download previous versions of Windows IoT Enterprise LTSC from [Visual Studio Subscriptions - Downloads](https://my.visualstudio.com/Downloads?q=IoT%20Enterprise%20LTSC&pgroup=).
+- Have a Windows 11 IoT Enterprise LTSC 2024 ISO.
+    [!INCLUDE [Latest LTSC](../../includes/incl-latest-ltsc-release.md)]
 - Have the [Languages and Optional Features ISO](/windows-hardware/manufacture/desktop/languages-overview?view=windows-11&preserve-view=true). If you can't download the ISO we will provide you the alternative steps to customize the device using network connection.
 
 <!-- Required: Prerequisites - H2
