@@ -3,3 +3,7 @@ MD013: false
 
 # Disable MD025 check for multiple top level headings
 MD025: false
+
+#Disable MD033 check for inline HTML
+MD033:
+  allowed_elements: ["br", "kbd"]
