@@ -10,13 +10,13 @@ description: Windows IoT Enterprise on ARM64 Overview
 keywords: IoT Enterprise, Hardware, Windows IoT, Arm64, NXP
 ---
 
-## What is Windows IoT Enterprise on Arm?
+# What is Windows IoT Enterprise on Arm?
 Windows IoT Enterprise on Arm is simply Windows IoT Enterprise that is built for and runs on ARM64 processors. It has the same features and capabilities of Windows IoT Enterprise for x64-based processors, enabling you to build secure and powerful devices across any processor architecture.
 
-## Windows IoT Enterprise on Arm vs. x86/x64
+# Windows IoT Enterprise on Arm vs. x86/x64
 Windows IoT Enterprise on Arm is designed to be familiar for device builders and developers used to working with x86/x64. The large majority of documentation for Windows IoT Enterprise applies to both ARM64 and x86/x64, with differences called out directly in each feature's documentation page. A few general points to consider are mentioned below. 
 
-### Applications
+## Applications
 Windows IoT Enterprise on Arm can run both **native** ARM64 applications and **emulated** x86/x64 applications.
 
 **Native** ARM64 applications are applications that are compiled and built specifically for the ARM64 architecture. Native Arm64 applications will provide the best performance, responsiveness, and power consumption.
@@ -25,12 +25,12 @@ Windows IoT Enterprise on Arm can run both **native** ARM64 applications and **e
 
 Learn more about Arm application development in the [Windows IoT Enterprise on Arm application development documentation](/windows-iot/iot-enterprise/Development/App_dev.md) or the [Windows on Arm application development documentation](/windows/arm/overview). 
 
-### Device Drivers
+## Device Drivers
 Unlike applications, device drivers must be built natively for ARM64 to run on Windows IoT Enterprise on Arm. ARM64 drivers for many commonly used devices are provided by Microsoft in Windows, the processor vendor, or the board manufacturer in a board's Board Support Package (BSP). In addition, many device vendors provide drivers for their devices through either Windows Update or through 3rd-party support channels. For a device without an available driver, you will need to work with the device vendor to get one or write one yourself. 
 
 Learn more about writing and deploying drivers the [Windows IoT Enterprise device driver documentation](../OS-Features/Device-Drivers.md).
 
-## ARM64 Processor Support
+# ARM64 Processor Support
 Windows IoT Enterprise on Arm supports a variety of NXP and Qualcomm processors, catering to different device needs and performance requirements. 
 
 NXP processors provide the lowest power and lowest cost options for building Windows IoT Enterprise devices, making them excellent for device categories like thin clients, kiosks, gateways, and human machine interfaces (HMIs).
@@ -39,7 +39,7 @@ Qualcomm processors provide excellent performance while maintaining the low powe
 
 For the specific processors models supported for each Windows IoT Enterprise OS version, refer to the [Windows IoT Enterprise Processor Lists](../Hardware/Processor_Requirements.md#windows-iot-enterprise-processor-lists).
 
-## ARM64 Hardware Platforms
+# ARM64 Hardware Platforms
 Each ARM64 hardware platform in the following table is built with an ARM64 Processor that supports Windows IoT Enterprise and has a Board Support Package (BSP) that supports Windows IoT Enterprise. Visit the hardware platform's product page to learn more about its capabilities and ordering information.
 |Processor|Platform|Form Factor|
 |-|---------|-------|
@@ -60,6 +60,6 @@ Each ARM64 hardware platform in the following table is built with an ARM64 Proce
 |NXP i.MX 8M|[SECO Trizeps VIII](https://edge.seco.com/usa/trizeps-viii.html)|System on Module|
 |NXP i.MX 8M Nano|[NXP i.MX 8M Nano EVK](https://www.nxp.com/design/development-boards/i-mx-evaluation-and-development-boards/evaluation-kit-for-the-i-mx-8m-nano-applications-processor:8MNANOD4-EVK)|Development Kit|
 
-## Getting Started
+# Getting Started
 
 For the quickest way to get familiar with Windows IoT Enterprise on ARM64, see our [Tutorial: Setup an NXP i.MX EVK](../Tutorials/Win10-NXP-iMX.md).
