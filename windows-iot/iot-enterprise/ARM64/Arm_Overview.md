@@ -33,9 +33,9 @@ Learn more about writing and deploying drivers the [Windows IoT Enterprise devic
 ## ARM64 Processor Support
 Windows IoT Enterprise on Arm supports a variety of NXP and Qualcomm processors, catering to different device needs and performance requirements. 
 
-[NXP processors](./NXP.md) provide the lowest power and lowest cost options for building Windows IoT Enterprise devices, making them excellent for device categories like thin clients, kiosks, gateways, and human machine interfaces (HMIs).
+NXP processors provide the lowest power and lowest cost options for building Windows IoT Enterprise devices, making them excellent for device categories like thin clients, kiosks, gateways, and human machine interfaces (HMIs).
 
-[Qualcomm processors](./Qualcomm.md) provide excellent performance while maintaining the low power benefits of ARM64 processors and are excellent for use cases that require high quality visualizations or machine learning/AI.
+Qualcomm processors provide excellent performance while maintaining the low power benefits of ARM64 processors and are excellent for use cases that require high quality visualizations or machine learning/AI.
 
 For the specific processors models supported for each Windows IoT Enterprise OS version, refer to the [Windows IoT Enterprise Processor Lists](../Hardware/Processor_Requirements.md#windows-iot-enterprise-processor-lists).
 
