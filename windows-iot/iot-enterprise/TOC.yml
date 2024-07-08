@@ -43,10 +43,6 @@
     href: ./Hardware/SoCs.md
   - name: Start prototyping
     href: ./Hardware/Prototype.md
-  - name: Bus Providers
-    href: ./OS-Features/Bus-Providers.md
-  - name: Device Drivers
-    href: ./OS-Features/Device-Drivers.md    
 - name: Arm64 Guidance
   expanded: false
   items:
@@ -367,6 +363,10 @@
   items:
   - name: Develop Applications
     href: ./Development/App_dev.md
+  - name: Bus Providers
+    href: ./OS-Features/Bus-Providers.md
+  - name: Device Drivers
+    href: ./OS-Features/Device-Drivers.md    
 - name: Management
   expanded: false
   items:
