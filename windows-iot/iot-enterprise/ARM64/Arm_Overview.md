@@ -60,3 +60,6 @@ Each ARM64 hardware platform in the following table is built with an ARM64 Proce
 |NXP i.MX 8M|[SECO Trizeps VIII](https://edge.seco.com/usa/trizeps-viii.html)|System on Module|
 |NXP i.MX 8M Nano|[NXP i.MX 8M Nano EVK](https://www.nxp.com/design/development-boards/i-mx-evaluation-and-development-boards/evaluation-kit-for-the-i-mx-8m-nano-applications-processor:8MNANOD4-EVK)|Development Kit|
 
+## Getting Started
+
+For the quickest way to get familiar with Windows IoT Enterprise on ARM64, see our [Tutorial: Setup an NXP i.MX EVK](../Tutorials/Win10-NXP-iMX.md).
