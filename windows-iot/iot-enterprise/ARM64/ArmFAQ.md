@@ -51,9 +51,7 @@ Hyper-V is only supported on boards that support Windows 11 IoT Enterprise. For 
 
 ## Can I use Windows IoT Enterprise on Qualcomm hardware?
 
-Yes, you can see the list of supported Qualcomm processors on the [Windows 11 processor requirements](/windows-hardware/design/minimum/supported/windows-11-22h2-supported-qualcomm-processors) page.
-
-Additionally, the Qualcomm QCS6490 and QCS5430 are supported as part of [Qualcomm's IoT hardware longevity program](https://www.qualcomm.com/products/product-longevity-program), guaranteeing both hardware and OS support with Windows IoT Enterprise on Qualcomm.
+Yes, you can see the list of supported Qualcomm processors on the [Windows 11 processor requirements](../Hardware/supported/Win11_LTSC_2024_Qualcomm_Processors.md) page.
 
 ## What drivers are supported?
 
