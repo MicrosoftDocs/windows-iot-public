@@ -26,7 +26,7 @@ Windows IoT Enterprise on Arm can run both **native** ARM64 applications and **e
 
 **Emulated** applications are x86/x64 applications that are run as-is without modification on Windows IoT Enterprise on Arm using inbox emulation technology. x86/x64 application emulation provides a fast way for device builders to port existing x86/x64 designs to ARM64. Windows 10 IoT Enterprise on Arm supports emulating x86 applications, whereas Windows 11 IoT Enterprise on Arm supports emulating both x86 and x64 applications.
 
-Learn more about Arm application development in the [Windows IoT Enterprise on Arm application development documentation](/windows-iot/iot-enterprise/Development/App_dev.md) or the [Windows on Arm application development documentation](/windows/arm/overview). 
+Learn more about Arm application development in the [Windows IoT Enterprise on Arm application development documentation](../Development/App_dev.md) or the [Windows on Arm application development documentation](/windows/arm/overview). 
 
 ### Device Drivers
 
