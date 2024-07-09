@@ -16,13 +16,13 @@ Device Drivers are essential for any IoT device. This section outlines how to wr
 
 ## How to Write Device Drivers
 
-Windows contains [built-in drivers](/windows-hardware/drivers/gettingstarted/do-you-need-to-write-a-driver-) for many device types. If there's a built-in driver for your device type, you don't need to write your own drive; your device can use the built-in driver. However if you need to write a device driver for your device, use the programming reference for [Windows Driver Kit (WDK)](/windows-hardware/drivers/ddi/).
+Windows contains [built-in drivers](/windows-hardware/drivers/gettingstarted/do-you-need-to-write-a-driver-) for many device types. If there's a built-in driver for your device type, you don't need to write your own drive; your device can use the built-in driver. However, if you need to write a device driver for your device, use the programming reference for [Windows Driver Kit (WDK)](/windows-hardware/drivers/ddi/).
 
 ## ARM64 Device Drivers
 
-IoT devices with ARM64 processors need drivers that are built specifically for the ARM64 architecture. Many of the same built-in drivers in the X64 version of Windows IoT Enterprise are included in the ARM64 version of Windows IoT Enterprise built for ARM64. Additional ARM64 drivers are provided by the processor vendor or the board vendor in a board's Board Support Packages (BSP). Many device vendors also provide drivers for their devices through either Windows Update or through 3rd-party support channels.
+IoT devices with ARM64 processors need drivers that are built specifically for the ARM64 architecture. Many of the same built-in drivers in the X64 version of Windows IoT Enterprise are included in the ARM64 version of Windows IoT Enterprise. ARM64 processor and/or board vendors provide additional ARM64 drivers needed for their boards to function correctly in Board Support Packages (BSPs). In addition, many device vendors also provide drivers for their devices through either Windows Update or through 3rd-party support channels.
 
-If you need to write an ARM64 device driver for your device, follow the ARM64 driver development documentation on [building ARM64 Drivers with the Windows Driver Kit (WDK)](/windows-hardware/drivers/develop/building-arm64-drivers)
+If you need to write an ARM64 device driver for your device, follow the ARM64 driver development documentation for [building ARM64 Drivers with the Windows Driver Kit (WDK)](/windows-hardware/drivers/develop/building-arm64-drivers)
 
 ## Kernel Mode Device Driver Signing
 
