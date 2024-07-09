@@ -16,7 +16,7 @@ ms.date: 06/28/2024
 
 In this quickstart, we walk you through preparing the technician PC to then install a basic Windows IoT Enterprise image onto a reference device sample. At the end of this quickstart, you have a technician PC ready to start building Windows IoT Enterprise images, and a reference device sample with Windows IoT Enterprise installed.
 
-The following quicsktarts in this series build on this one to customize the device in audit mode and then sysprep and capture the reference device image. Alternatively you can use the lab environment prepared in this quickstart to follow other tutorials under [Customization](../Customize/customize-overview.md), [Optimization](../Optimize/Overview.md) and [Deployment](../Deployment/index.md).
+The following quicsktarts in this series build on this one to customize the device in audit mode and then sysprep and capture the reference device image. Alternatively, you can use the lab environment prepared in this quickstart to follow other tutorials under [Customization](../Customize/customize-overview.md), [Optimization](../Optimize/Overview.md) and [Deployment](../Deployment/index.md).
 
 > [!TIP]
 > This series of quickstarts is intended to help you get started with Windows IoT Enterprise as quickly as possible, and that is why we provide you steps to test it in a Virtual Machine. In a true development or production environment, you would start by choosing a **physical device** that meets the [Minimum System Requirements for Windows IoT Enterprise](../Hardware/System_Requirements.md). You would then build base images for this device and test it. Next, you would modify the base images to create designs for different audiences, including branding, logos, languages, and apps.
@@ -48,113 +48,152 @@ To prepare your **reference device sample**, you need:
 
 ---
 
-## Open [Cloud Shell, Azure CLI, or PowerShell]
+## Create a bootable media
 
-<!-- Optional: Open a demo environment - H2
+This section provides steps to create a bootable Windows IoT Enterprise installation media for use during installation on the reference device sample.
 
-If you want to refer to using Azure Cloud Shell,
-the Azure CLI, or Azure PowerShell, place the
-instructions after the "Prerequisites" section.
+### [Physical Device](#tab/physicaldevice)
 
-Include Cloud Shell only if all commands can 
-run in Cloud Shell.
+The typical way to install Windows in a physical device is to create a bootable USB flash drive, and then copy the Windows installation files onto the flash drive. Once you have the files on the flash drive, you can insert it into the device and boot from the flash drive. See [Install Windows from a USB flash drive](/windows-hardware/manufacture/desktop/install-windows-from-a-usb-flash-drive) to learn more.
 
-Use include files if they are available.
+Follow these steps to prepare the installation flash drive:
 
---->
+1. Insert a flash drive into your Technician PC.
+1. Open an Administrative Command Prompt and run `diskpart`:
 
-## [verb] * [noun]
+   ```console
+   diskpart
+   ```
 
-[Introduce a task and its role in completing the process.]
+1. Use `diskpart` to list the disks so you can identify the flash drive:
 
-<!-- Required: Tasks to complete in the process - H2
+   ```console
+   list disk
+   ```
 
-In one or more numbered H2 sections, describe tasks that 
-the user completes in the process the quickstart describes.
+   You should see something like:
 
--->
+   ```console
+   Disk ###  Status         Size     Free     Dyn  Gpt
+   --------  -------------  -------  -------  ---  ---
+   Disk 0    Online          238  GB     0 B        *
+   Disk 1    Online          8192 MB     0 B      
+   ```
 
-1. Procedure step
-1. Procedure step
-1. Procedure step
+   In this example, Disk 1 is our flash drive, because the size represents the size of the flash drive that we're using.
 
-<!-- Required: Steps to complete the tasks - H2
+1. When you've identified the disk number of your flash drive, use `diskpart` to prepare the drive so you can use it as a bootable installation drive:
 
-Use ordered lists to describe how to complete tasks in 
-the process. Be consistent when you describe how to
-use a method or tool to complete the task.
+    > [!WARNING]
+    >The following commands will erase everything on the flash drive.
 
-Code requires specific formatting. Here are a few useful 
-examples of commonly used code blocks. Make sure to 
-use the interactive functionality when possible.
+    Enter the following commands from within `diskpart`, where Disk 1 is the flash drive:
 
-For the CLI-based or PowerShell-based procedures,
-don't use bullets or numbering.
+    ```diskpart
+    Select disk 1
+    clean
+    create partition primary
+    select partition 1
+    active
+    Format fs=fat32 quick
+    assign
+    exit
+    ```
 
-Here is an example of a code block for Java:
+1. Copy the entire contents of the Windows IoT Enterprise ISO onto the root of the flash drive. You can use File explorer to manually copy the files.  
 
-```java
-cluster = Cluster.build(new File("src/site.yaml")).create();
-...
-client = cluster.connect();
-```
+### [Virtual Machine](#tab/virtualmachine)
 
-Here's a code block for the Azure CLI:
+Create the Virtual Machine and a bootable CD/DVD-ROM in Hyper-V:
 
-```azurecli-interactive 
-az vm create --resource-group myResourceGroup --name myVM 
---image win2016datacenter --admin-username azureuser 
---admin-password myPassword12
-```
+1. Open Hyper-V Manager.
+1. In the Hyper-V Manager, click on **New** in the **Actions pane**, then select **Virtual Machine**.
+1. Follow the wizard to create a new virtual machine.
 
-This is a code block for Azure PowerShell:
+Configure the Virtual Machine:
 
-```azurepowershell-interactive
-New-AzureRmContainerGroup -ResourceGroupName 
-myResourceGroup -Name mycontainer 
--Image mcr.microsoft.com/windows/servercore/iis:nanoserver 
--OsType Windows -IpAddressType Public
-```
--->
+1. When prompted to specify the generation, choose **Generation 1** or **Generation 2** based on your requirements.
+1. Assign a minimum of *2 GB* of memory to the virtual machine.
+1. Leave the virtual machine with no connection to the network.
+1. When you reach the **Connect Virtual Hard Disk** step, select **Create a virtual hard disk**.
+1. Specify the name, location, and size of the VHD. For example, set the size to *64 GB*.
 
-## Clean up resources
+Attach the Windows IoT Enterprise ISO:
 
-<!-- Optional: Steps to clean up resources - H2
+1. In the **Installation Options** step, select **Install an operating system from a bootable CD/DVD-ROM**.
+1. Choose **Image file (.iso)** and browse to the location of your Windows IoT Enterprise ISO file.
 
-Provide steps the user takes to clean up resources that
-were created to complete the article.
+Configure the Number of Processors:
 
--->
+1. After the virtual machine is created, right-click on it in the Hyper-V Manager and select **Settings**.
+1. In the left pane, select **Processor**.
+1. In the right pane, specify a minimum of *2 virtual processors*.
 
-## Next step -or- Related content
+---
+
+## Install Windows IoT Enterprise on your reference device sample
+
+This section covers how to install Windows IoT Enterprise on your reference device sample using Windows Setup.
+
+> [!TIP]
+> We recommend not having your device connected to any network during Windows Setup. Network connectivity could cause it to come out of the deferred activation state.
+
+### [Physical Device](#tab/physicaldevice)
+
+Boot the device to Windows Setup:
+
+1. Move the USB flash drive from the **technician PC** to the powered down **physical device**.
+1. Turn on your physical device and enter the device's boot menu. Your device has a specific button combination or keyboard key to press to get to the boot menu. You may need to consult your hardware documentation if you aren't familiar with how to get to your device's boot menu.  
+1. From the boot menu, select the flash drive to boot from. Your device boots from the flash drive and enter into the Windows Setup.
+
+Install Windows with Windows Setup:
+
+1. Step through the Windows Setup menus, providing the requested information. Choose the settings, such as language, time and currency, and keyboard options that apply to your device and proceed to the next screen.
+1. Select **Install now**.
+1. On the **Activate Windows screen**, insert a valid product key.  Select **I don't have a product key** if you don't have a product key.  
+1. On the **Application notices and license terms** screen, if the terms are acceptable check the checkbox that you accept the license terms and then select **Next**.  
+1. On the **Which type of installation do you want** screen, select **Custom: Install Windows only**. This option starts a clean installation
+1. In the **Where do you want to install Windows?** screen, if the device has existing partitions, we recommend deleting the partitions so you have a single block on unallocated space to start from, then select **Next** to start the installation.
+1. Your device restarts a couple of times during the operating system installation. Wait until the device has entered OOBE (Out Of Box Experience) and is showing a screen that says **Let's start with region.**.
+
+> [!NOTE]
+> When at the **Let's start with region** OOBE screen don't continue the setup as you will need to enter Audit mode at this point. In the event that you started the setup of an account by mistake, you can open an Administrative Command Prompt and run `sysprep /audit` to enter Audit mode and continue the steps.
+
+### [Virtual Machine](#tab/virtualmachine)
+
+Start the Virtual Machine:
+
+1. Once the virtual machine is created, right-click on it in the Hyper-V Manager and select **Connect**.
+1. Click **Start** to power on the virtual machine.
+1. Your device boots from the CD/DVD-ROM ISO and enter into the Windows Setup.
+
+Install Windows with Windows Setup:
+
+1. Step through the Windows Setup menus, providing the requested information. Choose the settings, such as language, time and currency, and keyboard options that apply to your device and proceed to the next screen.
+1. Select **Install now**.
+1. On the **Activate Windows screen**, insert a valid product key.  Select **I don't have a product key** if you don't have a product key.  
+1. On the **Application notices and license terms** screen, if the terms are acceptable check the checkbox that you accept the license terms and then select **Next**.  
+1. On the **Which type of installation do you want** screen, select **Custom: Install Windows only**. This option starts a clean installation
+1. In the **Where do you want to install Windows?** screen, if the device has existing partitions, we recommend deleting the partitions so you have a single block on unallocated space to start from, then select **Next** to start the installation.
+1. Your device restarts a couple of times during the operating system installation. Wait until the device has entered OOBE (Out Of Box Experience) and is showing a screen that says **Let's start with region.**.
+
+> [!NOTE]
+> When at the **Let's start with region** OOBE screen don't continue the setup as you will need to enter Audit mode at this point. In the event that you started the setup of an account by mistake, you can open an Administrative Command Prompt and run `sysprep /audit` to enter Audit mode and continue the steps.
+
+---
+
+## Enter Audit Mode
+
+Windows is installed on your reference device sample and you have a basic image that's ready to be customized in Audit mode.
+
+1. From the first OOBE screen, use the <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>F3</kbd> combination on your keyboard to enter Audit mode.
+1. Your device should restart in Audit mode. You know you're in Audit mode when you see a System Preparation Tool window. Select **Cancel** on the System Preparation Tool to close it.
+1. Every time you reboot the system you see the System Preparation Tool, also called Sysprep.
+
+> [!TIP]
+> If you're in Audit mode and a password-protected screen saver starts, you can't log back on to the system. The built-in administrator account that's used to log on to Audit mode is immediately disabled after logon. Disable the screen saver by either changing the power plan in the Settings app, or configure and deploy a custom plan. For more information, see [Create a Custom Power Plan](/windows-hardware/manufacture/desktop/create-a-custom-power-plan-technicalreference).
+
+## Next step
 
 > [!div class="nextstepaction"]
-> [Next sequential article title](link.md)
-
--or-
-
-- [Related article title](link.md)
-- [Related article title](link.md)
-- [Related article title](link.md)
-
-<!-- Optional: Next step or Related content - H2
-
-Consider adding one of these H2 sections (not both):
-
-A "Next step" section that uses 1 link in a blue box 
-to point to a next, consecutive article in a sequence.
-
--or- 
-
-If the quickstart is not part of a sequence, use a 
-"Related content" section that lists links to 
-1 to 3 articles the user might find helpful.
-
--->
-
-<!--
-
-Remove all comments except the customer intent
-before you sign off or merge to the main branch.
-
--->
+> [Quickstart: Customize a reference device in Audit mode](quickstart-customize-reference-device.md)
