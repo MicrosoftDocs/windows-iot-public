@@ -157,7 +157,7 @@ This section provides steps to configure Shell Launcher in Audit mode using DISM
 
 <!-- TODO: Screenshot device with powershell as the default system shell -->
 
-You can leave the reference device with *powershell.exe* as your custom shell and proceed to [Quickstart: Sysprep and capture the reference device image and deploy to a new device](quickstart-sysprep-capture-deploy.md). To revert the system back to the *explorer.exe* shell, run the following commands:
+You can leave the reference device with *powershell.exe* as your custom shell and proceed to [Quickstart: Sysprep and capture the reference device image and deploy to a new device](quickstart-sysprep-capture-deploy.md). To revert the system back to the *explorer.exe* shell, do the following:
 
 1. From the current shell, open an Administrative Windows PowerShell Prompt:
 

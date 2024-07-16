@@ -13,134 +13,107 @@ ms.date: 06/28/2024
 ---
 
 # Quickstart: Sysprep and capture the reference device image, and deploy to a new device
- 
+
 In this quickstart, you sysprep and capture the reference device image of Windows IoT Enterprise to a Windows Imaging Format (WIM) file using the Deployment Image Servicing and Management (DISM) tool. Then, you deploy the WIM image to a new device.
 
 ## Prerequisites
 
-<!-- Required: Prerequisites - H2
+- Complete [Quickstart: Prepare your lab environment](quickstart-pepare-lab-environment.md) before you begin this quickstart.
+- If you completed [Quickstart: Customize a reference device in Audit mode](quickstart-customize-reference-device.md) and left *powershell.exe* as your custom shell, run the following command to open an Administrative Command Prompt:
 
-"Prerequisites" must be the first H2 in the article.
+    ```powershell
+    Start-Process cmd -Verb RunAs
+    ```
+<!-- TODO: Confirm the command above, is this working? -->
 
-List any items that are needed for the quickstart,
-such as permissions or software.
+## Sysprep the reference device sample
 
-If the user needs to sign in to a portal to do
-the quickstart, provide instructions and a link.
+When you've made your customizations in audit mode, you can capture an image of your customized reference device. While audit mode isn't required, it does provide a scenario where the device can be customized online prior to OOBE.
 
-If there aren't any prerequisites, in a new paragraph
-under the "Prerequisites" H2, enter "None" in plain text
-(not as a bulleted list item).
+This section provides steps to sysprep the reference device and apply to both physical device and virtual machine:
 
--->
+1. While booted into audit mode on the reference device, run Sysprep from an Administrative Command Prompt to prepare the image for capture:
 
-## Open [Cloud Shell, Azure CLI, or PowerShell]
+    ```cmd
+    C:\Windows\System32\Sysprep> sysprep.exe /generalize /oobe /shutdown
+    ```
 
-<!-- Optional: Open a demo environment - H2
+After Sysprep prepares the image, the reference device will shut down. The next time the device boots, it will boot into OOBE.
 
-If you want to refer to using Azure Cloud Shell,
-the Azure CLI, or Azure PowerShell, place the
-instructions after the "Prerequisites" section.
+> [!CAUTION]
+> Don't power the reference IoT device back on until you're ready to capture an image. If the device boots, you'll have to go through the Sysprep process again.
 
-Include Cloud Shell only if all commands can 
-run in Cloud Shell.
+## Create a bootable WinPE drive
 
-Use include files if they are available.
+Windows PE (WinPE) is a small operating system used to install, deploy, and repair Windows desktop editions, Windows Server, and other Windows operating systems. It is an add-on to the Windows Assessment and Deployment Kit (ADK) that you previously installed in your technician PC.
 
---->
+In your **technician PC** follow the steps to create a bootable WinPE drive:
 
-## [verb] * [noun]
+### [Physical Device](#tab/physicaldevice)
 
-[Introduce a task and its role in completing the process.]
+In this section, we show you how to create a bootable WinPE USB drive. We will create multiple partitions on the USB drive. This allows you to have a FAT32 partition for WinPE and an NTFS partition for the captured WIM file. You can use this USB drive for both capturing and deploying your image.
 
-<!-- Required: Tasks to complete in the process - H2
+> [!TIP]
+> You can use the same USB drive where you created the bootable Windows IoT Enterprise installation media in the previous quickstart.
 
-In one or more numbered H2 sections, describe tasks that 
-the user completes in the process the quickstart describes.
+1. Insert the USB drive into the Technician PC.
 
--->
+1. Open the **Deployment and Imaging Tools Environment** as administrator. You can find a shortcut to the Deployment and Imaging Tools under Windows Kits in the Start Menu.
 
-1. Procedure step
-1. Procedure step
-1. Procedure step
+1. Run Diskpart:
 
-<!-- Required: Steps to complete the tasks - H2
+    ```cmd
+    diskpart
+    ```
 
-Use ordered lists to describe how to complete tasks in 
-the process. Be consistent when you describe how to
-use a method or tool to complete the task.
+1. Use Diskpart to reformat the drive and create two new partitions for WinPE and for your images:
 
-Code requires specific formatting. Here are a few useful 
-examples of commonly used code blocks. Make sure to 
-use the interactive functionality when possible.
+    ```cmd
+    List disk
+    select disk X    (where X is your USB drive)
+    clean
+    create partition primary size=2048
+    active
+    format fs=FAT32 quick label="WINPE"
+    assign letter=P
+    create partition primary
+    format fs=NTFS quick label="Images"
+    assign letter=I  
+    Exit
+    ```
 
-For the CLI-based or PowerShell-based procedures,
-don't use bullets or numbering.
+1. Copy the WinPE files to a working folder:
 
-Here is an example of a code block for Java:
+    ```cmd
+    copype amd64 C:\WinPE 
+    ```
 
-```java
-cluster = Cluster.build(new File("src/site.yaml")).create();
-...
-client = cluster.connect();
-```
+    This command copies the 64-bit WinPE files to C:\WinPE. Note that the destination folder is created automatically.
 
-Here's a code block for the Azure CLI:
+1. Copy the WinPE files to your USB key.
 
-```azurecli-interactive 
-az vm create --resource-group myResourceGroup --name myVM 
---image win2016datacenter --admin-username azureuser 
---admin-password myPassword12
-```
+    ```cmd
+    makewinpemedia /ufd C:\WinPE P:
+    ```
 
-This is a code block for Azure PowerShell:
+    Where *P:* is the USB drive with the WinPE Partition. This command formats the partition and erase any data that's on it.
 
-```azurepowershell-interactive
-New-AzureRmContainerGroup -ResourceGroupName 
-myResourceGroup -Name mycontainer 
--Image mcr.microsoft.com/windows/servercore/iis:nanoserver 
--OsType Windows -IpAddressType Public
-```
--->
+1. Move the USB flash drive from the technician PC to the reference device.
 
-## Clean up resources
+### [Virtual Machine](#tab/virtualmachine)
 
-<!-- Optional: Steps to clean up resources - H2
+In this section, we show you how to create a bootable WinPE virtual hard disk (VHD) that you can use to capture and deploy your image.
 
-Provide steps the user takes to clean up resources that
-were created to complete the article.
+---
 
--->
+## Boot the reference device to WinPE and capture the Windows IoT Enterprise OS image
 
-## Next step -or- Related content
+## Deploy the captured WIM image from WinPE
 
-> [!div class="nextstepaction"]
-> [Next sequential article title](link.md)
+### Use the WinPE USB drive to deploy to new systems
 
--or-
+## Related content
 
-- [Related article title](link.md)
-- [Related article title](link.md)
-- [Related article title](link.md)
-
-<!-- Optional: Next step or Related content - H2
-
-Consider adding one of these H2 sections (not both):
-
-A "Next step" section that uses 1 link in a blue box 
-to point to a next, consecutive article in a sequence.
-
--or- 
-
-If the quickstart is not part of a sequence, use a 
-"Related content" section that lists links to 
-1 to 3 articles the user might find helpful.
-
--->
-
-<!--
-
-Remove all comments except the customer intent
-before you sign off or merge to the main branch.
-
--->
+- [Customization](../Customize/customize-overview.md)
+- [Optimization](../Optimize/Overview.md)
+- [Deployment](../Deployment/index.md)
