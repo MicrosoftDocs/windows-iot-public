@@ -14,7 +14,7 @@ ms.date: 06/28/2024
 
 # Quickstart: Customize a reference device in Audit mode
 
-In this quickstart, we walk you through customizing a reference device running Windows IoT Enterprise in Audit mode. You will lock down the device interaction experience with Unbranded Boot, Custom Logon and Kiosk Mode.
+In this quickstart, you customize a reference device running Windows IoT Enterprise in Audit mode. You lock down the device interaction experience with Unbranded Boot, Custom Logon and Kiosk Mode.
 
 > [!TIP]
 > Most customizations in this lab can be made to an offline mounted Windows image, as well as in Audit mode. For more information, see [Modify a Windows image using DISM](/windows-hardware/manufacture/desktop/mount-and-modify-a-windows-image-using-dism).

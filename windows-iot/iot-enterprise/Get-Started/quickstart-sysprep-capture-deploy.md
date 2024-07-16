@@ -11,56 +11,10 @@ ms.date: 06/28/2024
 #customer intent: As a beginner, I want to learn the basics on how to sysprep, capture and deploy Windows IoT Enterprise.
 
 ---
-  
-<!-- --------------------------------------
-
-- Use this template with pattern instructions for:
-
-Quickstart
-
-- Use the Quickstart pattern when you want to show a user 
-how to complete a task to get started with a product or 
-service in their own environment.
-
-- Before you sign off or merge:
-
-Remove all comments except the customer intent.
-
-- Feedback:
-
-https://aka.ms/patterns-feedback
-
--->
 
 # Quickstart: Sysprep and capture the reference device image, and deploy to a new device
  
-<!-- Required: Article headline - H1
-
-Identify the product or service and the feature area
-the quickstart covers.
-
--->
-
-[Introduce and explain the purpose of the article.]
-
-<!-- Required: Introductory paragraphs (no heading)
-
-Write a brief introduction that can help the user determine 
-whether the article is relevant for them. Begin with a 
-sentence that says, "In this quickstart, you . . . ."
-
--->
-
-If you don't have a service subscription, create a free
-trial account . . .
-
-<!-- Required: Free account links (no heading)
-
-Because quickstarts are intended to help new customers
-use a product or service, include a link to a 
-free trial before the first H2.
-
--->
+In this quickstart, you sysprep and capture the reference device image of Windows IoT Enterprise to a Windows Imaging Format (WIM) file using the Deployment Image Servicing and Management (DISM) tool. Then, you deploy the WIM image to a new device.
 
 ## Prerequisites
 
