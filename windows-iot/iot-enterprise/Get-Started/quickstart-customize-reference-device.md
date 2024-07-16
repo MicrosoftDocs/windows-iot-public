@@ -11,182 +11,177 @@ ms.date: 06/28/2024
 #customer intent: As a beginner, I want to learn the basics on how to customize a reference device in audit mode.
 
 ---
-  
-<!-- --------------------------------------
-
-- Use this template with pattern instructions for:
-
-Quickstart
-
-- Use the Quickstart pattern when you want to show a user 
-how to complete a task to get started with a product or 
-service in their own environment.
-
-- Before you sign off or merge:
-
-Remove all comments except the customer intent.
-
-- Feedback:
-
-https://aka.ms/patterns-feedback
-
--->
 
 # Quickstart: Customize a reference device in Audit mode
- 
-<!-- Required: Article headline - H1
 
-Identify the product or service and the feature area
-the quickstart covers.
+In this quickstart, we walk you through customizing a reference device running Windows IoT Enterprise in Audit mode. You will lock down the device interaction experience with Unbranded Boot, Custom Logon and Kiosk Mode.
 
--->
-
-[Introduce and explain the purpose of the article.]
-
-<!-- Required: Introductory paragraphs (no heading)
-
-Write a brief introduction that can help the user determine 
-whether the article is relevant for them. Begin with a 
-sentence that says, "In this quickstart, you . . . ."
-
--->
-
-If you don't have a service subscription, create a free
-trial account . . .
-
-<!-- Required: Free account links (no heading)
-
-Because quickstarts are intended to help new customers
-use a product or service, include a link to a 
-free trial before the first H2.
-
--->
+> [!TIP]
+> Most customizations in this lab can be made to an offline mounted Windows image, as well as in Audit mode. For more information, see [Modify a Windows image using DISM](/windows-hardware/manufacture/desktop/mount-and-modify-a-windows-image-using-dism).
 
 ## Prerequisites
 
-<!-- Required: Prerequisites - H2
+Complete [Quickstart: Prepare your lab environment](quickstart-pepare-lab-environment.md) before you begin this quickstart.
 
-"Prerequisites" must be the first H2 in the article.
+## What is Audit mode?
 
-List any items that are needed for the quickstart,
-such as permissions or software.
+Audit Mode allows system administrators to boot directly to the desktop before the end user gets to the Windows Welcome screen, giving them the opportunity to install Windows Updates, drivers, locking down the device, and install other software as needed.
 
-If the user needs to sign in to a portal to do
-the quickstart, provide instructions and a link.
+When Windows boots, it starts in either Out-Of-Box Experience (OOBE) mode or in Audit Mode. OOBE is the default out-of-box experience that allows end users to enter their account information, select language, accept the Microsoft Terms of Service, and set up networking. In Audit Mode, you can:
 
-If there aren't any prerequisites, in a new paragraph
-under the "Prerequisites" H2, enter "None" in plain text
-(not as a bulleted list item).
+- Bypass OOBE. You can access the desktop as quickly as possible. You don't have to configure default settings such as a user account, location, and time zone.
+- Install applications, add device drivers, and run scripts. You can connect to a network and access more installation files and scripts. You can also install more language packs and device drivers.
+- Provide a controlled and specialized device by locking down the device interaction experience. There are many reasons for locking down a device, such as protecting the system from malicious users, providing a custom defined user experience, and increasing system reliability.
+- Test the validity of a Windows installation. Before you deploy the system to end users, you can perform tests on the system without creating a user account. Then you can prepare the system to start in OOBE on the next boot.
+- Add more customizations to a reference image. This reduces the number of images that you have to manage. For example, you can create a single reference image that contains the basic customizations that you want to apply to all Windows images. You can then boot the reference image to audit mode and make more changes that are specific to the computer. These changes can be customer-requested applications or specific device drivers.
 
--->
+For more information see [Audit mode overview](/windows-hardware/manufacture/desktop/audit-mode-overview).
 
-## Open [Cloud Shell, Azure CLI, or PowerShell]
+## Suppress all Windows UI elements during startup with Unbranded Boot
 
-<!-- Optional: Open a demo environment - H2
+You can suppress Windows elements that appear when Windows starts or resumes and can suppress the crash screen when Windows encounters an error that it can't recover from. This feature is known as [Unbranded Boot](../Customize/Unbranded-Boot.md).
 
-If you want to refer to using Azure Cloud Shell,
-the Azure CLI, or Azure PowerShell, place the
-instructions after the "Prerequisites" section.
+This section provides steps to configure Unbranded Boot in Audit mode using Deployment Image Servicing and Management (DISM) tool in your reference device sample. The steps apply to both physical device and virtual machine:
 
-Include Cloud Shell only if all commands can 
-run in Cloud Shell.
+1. Enable the Unbranded boot feature by running the following command in an Administrative Command Prompt:
 
-Use include files if they are available.
+    ```cmd
+    Dism /online /enable-feature /featureName:Client-DeviceLockdown  
+    Dism /online /enable-feature /FeatureName:Client-EmbeddedBootExp 
+    ```
 
---->
+1. Restart the reference device.
 
-## [verb] * [noun]
+1. Open an Administrative Command Prompt.
 
-[Introduce a task and its role in completing the process.]
+1. Disable the F8 key during startup to prevent access to the Advanced startup options menu:
 
-<!-- Required: Tasks to complete in the process - H2
+    ```cmd
+    bcdedit.exe -set {globalsettings} advancedoptions false 
+    ```
 
-In one or more numbered H2 sections, describe tasks that 
-the user completes in the process the quickstart describes.
+1. Disable the F10 key during startup to prevent access to the Advanced startup options menu:
 
--->
+    ```cmd
+    bcdedit.exe -set {globalsettings} optionsedit false 
+    ```
 
-1. Procedure step
-1. Procedure step
-1. Procedure step
+1. Suppress all Windows UI elements (logo, status indicator, and status message) during startup:
 
-<!-- Required: Steps to complete the tasks - H2
+    ```cmd
+    bcdedit.exe -set {globalsettings} bootuxdisabled on 
+    ```
 
-Use ordered lists to describe how to complete tasks in 
-the process. Be consistent when you describe how to
-use a method or tool to complete the task.
+1. Restart the reference device and notice that the Windows UI elements are suppressed during startup.
 
-Code requires specific formatting. Here are a few useful 
-examples of commonly used code blocks. Make sure to 
-use the interactive functionality when possible.
+<!-- TODO: Screenshot with Windows UI Elements surpressed during startup -->
 
-For the CLI-based or PowerShell-based procedures,
-don't use bullets or numbering.
+## Surpress Windows UI elements from welcome and shutdown screens with Custom Logon
 
-Here is an example of a code block for Java:
+You can use the [Custom Logon](../Customize/Custom-Logon.md) feature to suppress Windows UI elements that relate to the Welcome screen and shutdown screen. For example, you can suppress all elements of the Welcome screen UI and provide a custom logon UI.
 
-```java
-cluster = Cluster.build(new File("src/site.yaml")).create();
-...
-client = cluster.connect();
-```
+This section provides steps to configure Custom Logon in Audit mode using DISM in your reference device sample. The steps apply to both physical device and virtual machine:
 
-Here's a code block for the Azure CLI:
+1. Enable the Custom Logon feature by running the following command at an Administrative Command Prompt. If prompted to restart, choose **No**:
 
-```azurecli-interactive 
-az vm create --resource-group myResourceGroup --name myVM 
---image win2016datacenter --admin-username azureuser 
---admin-password myPassword12
-```
+    ```cmd
+    Dism /online /enable-feature /featurename:Client-DeviceLockdown /featurename:Client-EmbeddedLogon 
+    ```
 
-This is a code block for Azure PowerShell:
+1. Modify the following registry entries. If prompted to overwrite, choose **Yes**.
 
-```azurepowershell-interactive
-New-AzureRmContainerGroup -ResourceGroupName 
-myResourceGroup -Name mycontainer 
--Image mcr.microsoft.com/windows/servercore/iis:nanoserver 
--OsType Windows -IpAddressType Public
-```
--->
+1. Set the *BrandingNeutral* value in the registry, which controls the display of branding information during logon.
 
-## Clean up resources
+    ```cmd
+    Reg add "HKLM\SOFTWARE\Microsoft\Windows Embedded\EmbeddedLogon" /v BrandingNeutral /t REG_DWORD /d 1
+    ```
 
-<!-- Optional: Steps to clean up resources - H2
+1. Set the *HideAutoLogonUI* value in the registry, which controls the display of the auto logon user interface.
 
-Provide steps the user takes to clean up resources that
-were created to complete the article.
+    ```cmd
+    Reg add "HKLM\SOFTWARE\Microsoft\Windows Embedded\EmbeddedLogon" /v HideAutoLogonUI /t REG_DWORD /d 1
+    ```
 
--->
+1. Set the *HideFirstLogonAnimation* value in the registry, which controls the display of the first logon animation.
 
-## Next step -or- Related content
+    ```cmd
+    Reg add "HKLM\SOFTWARE\Microsoft\Windows Embedded\EmbeddedLogon" /v HideFirstLogonAnimation /t REG_DWORD /d 1
+    ```
+
+1. Set the *AnimationDisabled* value in the registry, which controls whether the logon UI animation is disabled.
+
+    ```cmd
+    Reg add "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Authentication\LogonUI" /v AnimationDisabled /t REG_DWORD /d 1
+    ```
+
+1. Set the *NoLockScreen* value in the registry, which controls whether the lock screen is displayed.
+
+    ```cmd
+    Reg add "HKLM\SOFTWARE\Policies\Microsoft\Windows\Personalization" /v NoLockScreen /t REG_DWORD /d 1
+    ```
+
+1. Set the *UIVerbosityLevel* value in the registry, which controls the verbosity level of the user interface.
+
+    ```cmd
+    Reg add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon" /v UIVerbosityLevel /t REG_DWORD /d 1
+    ```
+
+1. Restart the reference device. You should no longer see the Windows UI elements that relate to the Welcome screen and shutdown screen.
+
+<!-- TODO: Screenshot that should no longer see the Windows UI elements that relate to the Welcome screen and shutdown screen. -->
+
+## Enable a custom shell experience with Kiosk Mode
+
+Windows IoT Enterprise allows you to build fixed purpose devices such as ATM machines, point-of-sale terminals, medical devices, digital signs, or kiosks. Kiosk mode helps you create a dedicated and locked down user experience on these fixed purpose devices. Windows IoT Enterprise offers a set of different locked-down experiences for public or specialized use: [assigned access single-app kiosks](../Customize/Single-App-Kiosk.md), [assigned access multi-app kiosks](../Customize/Multi-App-Kiosk.md), or [shell launcher](../Customize/Shell-Launcher.md).
+
+This section provides steps to configure Shell Launcher in Audit mode using DISM in your reference device sample. The steps apply to both physical device and virtual machine:
+
+1. Enable the Shell Launcher feature by running the following command at an Administrative Command Prompt:
+
+    ```cmd
+    Dism /online /enable-feature /featurename:Client-EmbeddedShellLauncher 
+    ```
+
+1. With Shell Launcher enabled, you can set an application as the Windows Shell. To set *powershell.exe* as your custom shell, open an Administrative Windows PowerShell Prompt and run:
+
+    ```PowerShell
+    $ShellLauncherClass = [wmiclass]"\\localhost\root\standardcimv2\embedded:WESL_UserSetting"
+
+    $ShellLauncherClass.SetDefaultShell("powershell.exe",1)
+
+    $ShellLauncherClass.SetEnabled($TRUE)
+    ```
+
+1. Reboot the reference device.
+1. The system reboots and *PowerShell* starts as the default system shell.
+
+<!-- TODO: Screenshot device with powershell as the default system shell -->
+
+You can leave the reference device with *powershell.exe* as your custom shell and proceed to [Quickstart: Sysprep and capture the reference device image and deploy to a new device](quickstart-sysprep-capture-deploy.md). To revert the system back to the *explorer.exe* shell, run the following commands:
+
+1. From the current shell, open an Administrative Windows PowerShell Prompt:
+
+    ```powershell
+    Start-Process powershell -Verb RunAs
+    ```
+
+1. Then run the following commands:
+
+    ```PowerShell
+    $ShellLauncherClass = [wmiclass]"\\localhost\root\standardcimv2\embedded:WESL_UserSetting"
+
+    $ShellLauncherClass.SetDefaultShell("explorer.exe",1)
+    
+    $ShellLauncherClass.SetEnabled($TRUE)
+    ```
+
+1. Reboot the reference device.
+1. The system reboots and *Explorer* starts as the default system shell.
+
+
+<!-- TODO: Screenshot device with explorer as the default system shell and showing the audit mode "System Preparation Tool"-->
+
+## Next step
 
 > [!div class="nextstepaction"]
-> [Next sequential article title](link.md)
-
--or-
-
-- [Related article title](link.md)
-- [Related article title](link.md)
-- [Related article title](link.md)
-
-<!-- Optional: Next step or Related content - H2
-
-Consider adding one of these H2 sections (not both):
-
-A "Next step" section that uses 1 link in a blue box 
-to point to a next, consecutive article in a sequence.
-
--or- 
-
-If the quickstart is not part of a sequence, use a 
-"Related content" section that lists links to 
-1 to 3 articles the user might find helpful.
-
--->
-
-<!--
-
-Remove all comments except the customer intent
-before you sign off or merge to the main branch.
-
--->
+> [Quickstart: Sysprep and capture the reference device image and deploy to a new device](quickstart-sysprep-capture-deploy.md)

@@ -29,7 +29,9 @@ To prepare your **technician PC (your work PC)**, you need:
 - Have [Windows ADK](/windows-hardware/get-started/adk-install) with Deployment Tools, Configuration Designer, and the Windows PE add-on installed.
 - Have a Windows 11 IoT Enterprise LTSC 2024 ISO.
     [!INCLUDE [Latest LTSC](../../includes/incl-latest-ltsc-release.md)]
-- Have the [Languages and Optional Features ISO](/windows-hardware/manufacture/desktop/languages-overview?view=windows-11&preserve-view=true). If you can't download the ISO we will provide you the alternative steps to customize the device using network connection.
+
+<!--TODO: Confirm that we don't need to demonstrate Language and Feature installation in this Getting Started
+ - Have the [Languages and Optional Features ISO](/windows-hardware/manufacture/desktop/languages-overview?view=windows-11&preserve-view=true). If you can't download the ISO we will provide you the alternative steps to customize the device using network connection. -->
 
 To prepare your **reference device sample**, you need:
 
@@ -156,6 +158,8 @@ Install Windows with Windows Setup:
 1. In the **Where do you want to install Windows?** screen, if the device has existing partitions, we recommend deleting the partitions so you have a single block on unallocated space to start from, then select **Next** to start the installation.
 1. Your device restarts a couple of times during the operating system installation. Wait until the device has entered OOBE (Out Of Box Experience) and is showing a screen that says **Let's start with region.**.
 
+<!-- TODO: Screenshot of Let's start with region -->
+
 > [!NOTE]
 > When at the **Let's start with region** OOBE screen don't continue the setup as you will need to enter Audit mode at this point. In the event that you started the setup of an account by mistake, you can open an Administrative Command Prompt and run `sysprep /audit` to enter Audit mode and continue the steps.
 
@@ -177,6 +181,8 @@ Install Windows with Windows Setup:
 1. In the **Where do you want to install Windows?** screen, if the device has existing partitions, we recommend deleting the partitions so you have a single block on unallocated space to start from, then select **Next** to start the installation.
 1. Your device restarts a couple of times during the operating system installation. Wait until the device has entered OOBE (Out Of Box Experience) and is showing a screen that says **Let's start with region.**.
 
+<!-- TODO: Screenshot of Let's start with region -->
+
 > [!NOTE]
 > When at the **Let's start with region** OOBE screen don't continue the setup as you will need to enter Audit mode at this point. In the event that you started the setup of an account by mistake, you can open an Administrative Command Prompt and run `sysprep /audit` to enter Audit mode and continue the steps.
 
@@ -189,6 +195,8 @@ Windows is installed on your reference device sample and you have a basic image 
 1. From the first OOBE screen, use the <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>F3</kbd> combination on your keyboard to enter Audit mode.
 1. Your device should restart in Audit mode. You know you're in Audit mode when you see a System Preparation Tool window. Select **Cancel** on the System Preparation Tool to close it.
 1. Every time you reboot the system you see the System Preparation Tool, also called Sysprep.
+
+<!-- TODO: Screenshot of Audit Mode screen showing "System Preparation Tool" -->
 
 > [!TIP]
 > If you're in Audit mode and a password-protected screen saver starts, you can't log back on to the system. The built-in administrator account that's used to log on to Audit mode is immediately disabled after logon. Disable the screen saver by either changing the power plan in the Settings app, or configure and deploy a custom plan. For more information, see [Create a Custom Power Plan](/windows-hardware/manufacture/desktop/create-a-custom-power-plan-technicalreference).
