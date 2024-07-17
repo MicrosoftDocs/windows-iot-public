@@ -109,7 +109,7 @@ Follow these steps to prepare the installation flash drive:
 Create the Virtual Machine and a bootable CD/DVD-ROM in Hyper-V:
 
 1. Open Hyper-V Manager.
-1. In the Hyper-V Manager, click on **New** in the **Actions pane**, then select **Virtual Machine**.
+1. In the Hyper-V Manager, select **New** in the **Actions pane**, then select **Virtual Machine**.
 1. Follow the wizard to create a new virtual machine.
 
 Configure the Virtual Machine:
@@ -168,7 +168,7 @@ Install Windows with Windows Setup:
 Start the Virtual Machine:
 
 1. Once the virtual machine is created, right-click on it in the Hyper-V Manager and select **Connect**.
-1. Click **Start** to power on the virtual machine.
+1. Select **Start** to power on the virtual machine.
 1. Your device boots from the CD/DVD-ROM ISO and enter into the Windows Setup.
 
 Install Windows with Windows Setup:
