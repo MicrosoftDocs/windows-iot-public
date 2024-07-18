@@ -63,7 +63,8 @@ For more information, see [Windows Manufacturing Overview](/windows-hardware/man
 
 You can install your production ePKEA product key using any of the following four methods:
 
-### Interactive Setup
+<!--markdownlint-disable-next-line -->
+# [Interactive Setup](#tab/Interactive-Setup)
 
 If you choose to create your image using the interactive setup experience, you can supply your production ePKEA, the default manufacturing key or skip the product key entry step, however only your production ePKEA enables activation. The following table explains each scenario.
 
@@ -75,13 +76,15 @@ If you choose to create your image using the interactive setup experience, you c
 
 For more information on interactive setup, see [Boot and install Windows](/windows-hardware/manufacture/desktop/boot-and-install-windows).
 
-### Unattended Setup
+<!--markdownlint-disable-next-line -->
+# [Unattended Setup](#tab/Unattended-Setup)
 
 Similarly to Interactive Setup, you can supply either your production ePKEA or the default manufacturing key using the [ProductKey](/windows-hardware/customize/desktop/unattend/microsoft-windows-shell-setup-productkey) setting of the unattend.xml answer file. The same applies that only supplying your production ePKEA fulfills the requirement to enable activation.
 
 For more information, see [Windows Setup Automation Overview](/windows-hardware/manufacture/desktop/windows-setup-automation-overview).
 
-### Audit Mode
+<!--markdownlint-disable-next-line -->
+# [Audit Mode](#tab/Audit-Mode)
 
 Audit mode allows you to make more changes to your Windows IoT Enterprise image before you send the computer to a customer or capture the image for replication during the manufacturing process. Using audit mode, you can install drivers including a driver package, install applications, or make other updates to the operating system while it's running, including enabling activation.
 For more information on getting started with Audit mode, see [Audit Mode Overview](/windows-hardware/manufacture/desktop/audit-mode-overview).
@@ -124,6 +127,9 @@ While you are in Audit mode, you can apply your production ePKEA to your image u
 >
 > For more information on finalizing your image for replication, see [Sysprep Process Overview](/windows-hardware/manufacture/desktop/sysprep-process-overview).
 
+<!--markdownlint-disable-next-line -->
+# [Offline Image](#tab/Offline-Image)
+
 ### Offline image
 
 You can also make changes to an offline mounted Windows image without booting into the operating system you’re going to modify. For more information about servicing an offline image, see [Modify a Windows Image Using DISM](/windows-hardware/manufacture/desktop/mount-and-modify-a-windows-image-using-dism).
@@ -151,11 +157,14 @@ You can install your ePKEA into the offline image using either `Set-WindowsProdu
 >
 > For more information, see Modify a [Windows Image Using DISM](/windows-hardware/manufacture/desktop/mount-and-modify-a-windows-image-using-dism).
 
+---
+
 ## Activate your device
 
 A Windows IoT Enterprise device that is enabled for activation is fully operational without an internet connection. Being fully operational without an internet connection is useful for devices deployed in disconnected environments. Activation is deferred until the device is connected to a network that can access the Microsoft Activation Servers. If the device believes it can get to the Microsoft Activation Servers, Windows IoT Enterprise automatically attempts to activate resulting in either a successful activation or a failed activation. Windows IoT Enterprise can't return to a deferred activation state once activation is attempted. You can activate your production ePKEA product key using any of the following three methods:
 
-### Activate using an Internet connection
+<!--markdownlint-disable-next-line -->
+# [Internet Connection](#tab/Internet-Connection)
 
 Windows IoT Enterprise attempts to activate automatically if you have an internet connection. You can confirm your activation status in Settings or using the Windows Software Licensing Management Tool (SLMGR.VBS).
 
@@ -180,7 +189,8 @@ Windows IoT Enterprise attempts to activate automatically if you have an interne
 
    For more information, see [Slmgr.vbs Options](/windows-server/get-started/activation-slmgr-vbs-options).
 
-### Activate using a telephone
+<!--markdownlint-disable-next-line -->
+# [Telephone](#tab/Telephone)
 
 You can activate your device by using a telephone to call the Microsoft Product Activation Center. The automated phone system asks for your installation ID (IID) then provide you with a 48-digit confirmation ID.
 
@@ -194,11 +204,14 @@ You can activate your device by using a telephone to call the Microsoft Product 
 1. Follow the automated instructions and, when prompted, provide the 63-digit Installation ID.
 1. Enter the confirmation ID provided by the phone activation system then select **Activate Windows**.
 
-### Activate using the Volume Activation Management Tool (VAMT)
+<!--markdownlint-disable-next-line -->
+# [Volume Activation Managmenet Tool (VAMT)](#tab/VAMT)
 
 You can use the Volume Activation Management Tool (VAMT) to perform activation for Windows IoT Enterprise devices that don't have Internet access. Just like a Multiple activation Key (MAK), Embedded Product Key Entry Activation (ePKEA) is eligible for proxy activation.
 
 For information on using VAMT to activate your Windows IoT Enterprise devices that don't have Internet access, see [Using Volume Activation Management Tool to Perform Proxy Activation](/windows/deployment/volume-activation/proxy-activation-vamt).
+
+---
 
 ## Frequently asked questions
 
