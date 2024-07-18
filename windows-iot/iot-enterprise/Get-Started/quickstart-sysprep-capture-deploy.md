@@ -26,16 +26,16 @@ When you've made your customizations in audit mode, you can capture an image of 
 
 This section provides steps to sysprep the reference device and apply to both physical device and virtual machine:
 
-1. While booted into audit mode on the reference device, run Sysprep from an Administrative Command Prompt to prepare the image for capture:
+1. Select **Cancel** on the System Preparation Tool to close it, then run Sysprep from an Administrative Command Prompt to prepare the image for capture:
+
+    > [!NOTE]
+    > If you completed [Quickstart: Customize a reference device in Audit mode](quickstart-customize-reference-device.md) and configured *powershell.exe* as your custom shell, run the following command to open an Administrative Command Prompt: `Start-Process cmd -Verb RunAs`
 
     ```cmd
-    C:\Windows\System32\Sysprep> sysprep.exe /generalize /oobe /shutdown
+    C:\Windows\System32\Sysprep\sysprep.exe /generalize /oobe /shutdown
     ```
 
-> [!NOTE]
-> If you completed [Quickstart: Customize a reference device in Audit mode](quickstart-customize-reference-device.md) and left *powershell.exe* as your custom shell, run the following command to open an Administrative Command Prompt: `Start-Process cmd -Verb RunAs`
-
-<!-- TODO: Confirm the command above, is this working? -->
+    <!-- TODO: Screenshot with Powershell as custom shell and with System Preparation Tool window and a red square telling learner to click cancel. If the window is not closed the command will not run -->
 
 After Sysprep prepares the image, the reference device will shut down. The next time the device boots, it will boot into OOBE.
 
@@ -112,13 +112,6 @@ In this section, you create a bootable WinPE virtual hard disk drive (VHD) and a
 1. Repeat the steps to create another VHD to store the WIM file. You can define the size as *8 GB*.
 1. At the end select **Apply** and **OK** to create the VHDs.
 
-Select WinPE VHD as the first in boot order:
-
-1. Right-click on the Virtual Machine and select **Settings**.
-1. In the left pane, select **Firmware**.
-1. In the right pane, move WinPE VHD to the top.
-1. At the end select **Apply** and **OK**
-
 Mount the VHDs on your **technician PC**
 
 1. Press <kbd>Windows</kbd> + <kbd>R</kbd>, type *diskmgmt.msc*, and press **Enter**.
@@ -162,9 +155,436 @@ Unmount the VHDs from your **technician PC**:
 
 ## Boot the reference device to WinPE and capture the Windows IoT Enterprise OS image
 
+In this section, you capture a WIM image from the reference device's hard drive. This WIM can be used in development or in production. It's common to capture OS images during different stages of the development process. For example, the following steps could be used to capture a base image of the OS with default apps installed. A later image could be captured with more end customer apps installed.
+
+In your **reference device sample** follow the steps to capture a WIM image:
+
+### [Physical Device](#tab/physicaldevice)
+
+1. Boot the reference device from the bootable WinPE USB flash drive.
+
+    > [!IMPORTANT]
+    > Don't boot your device until you know which key brings up the device's boot menu. The device is in a Sysprepped state and should not be allowed to boot back into Windows IoT Enterprise.
+
+    The system boots to the WinPE, where you see a Command prompt.
+
+    > [!TIP]
+    > If you have a different keyboard layout, you can change the keyboard layout by running `wpeutil setKeyboardLayout 0816:00000816` where the *language:keyboard* pair list for your desired layout can be found in [input locales](/windows-hardware/manufacture/desktop/default-input-locales-for-windows-language-packs). Then run `winpeshl.exe` from the WinPE Command Prompt to ensure the new layout is applied to the current session.
+
+1. From the WinPE Command prompt run Diskpart:
+
+   ```cmd
+   diskpart
+   ```
+
+1. Use Diskpart to list the disks so you can identify the disk where Windows IoT Enterprise is installed:
+
+   ```cmd
+   list disk
+   ```
+
+   You should see something like:
+
+   ```output
+   Disk ###  Status          Size     Free     Dyn  Gpt
+   --------  -------------   -------  -------  ---  ---
+   Disk 0    Online            63 GB      0 B        *
+   Disk 1    Online            14 GB      0 B
+   ```
+
+   In this example, *Disk 0* size represents the disk where we installed Windows IoT Enterprise.
+
+1. Select Disk 0 and then list the partitions and volumes:
+
+    ```cmd
+    select Disk 0
+    list partition
+    list volume
+    ```
+
+   You should see something like:
+
+    ```output
+    DISKPART> select disk 0
+
+    Disk 0 is now the selected disk.
+
+    DISKPART> list partition
+
+        Partition ###  Type              Size     Offset
+        -------------  ----------------  -------  -------
+        Partition 1    System             100 MB  1024 KB
+        Partition 2    Reserved            16 MB   101 MB
+        Partition 3    Primary             63 GB   117 MB
+        Partition 4    Recovery           602 MB    63 GB
+    
+    DISKPART> list volume
+
+        Volume ###  Ltr  Label        Fs     Type        Size     Status     Info
+        ----------  ---  -----------  -----  ----------  -------  ---------  --------
+        Volume 0     E                UDF    DVD-ROM     4236 MB  Healthy    
+        Volume 1                      NTFS   Partition     63 GB  Healthy    
+        Volume 2                      FAT32  Partition    100 MB  Healthy    Hidden
+        Volume 3                      NTFS   Partition    602 MB  Healthy    Hidden
+        Volume 4     C   WINPE        FAT32  Partition   2048 MB  Healthy
+        Volume 5     D   Images       NTFS   Partition     14 GB  Healthy           
+    ```
+
+    In this example, *Partition 3* is of *Type Primary* and is where Windows IoT Enterprise is installed. Letters *C*, *D* and *E* are assigned to the *WinPE*, *Images* and *DVD-ROM* volumes respectively.
+
+1. Select Partition 3 and assign a drive letter that is not already in use:
+
+    ```cmd
+    select partition 3
+    assign letter=W
+    ```
+
+    If you list volume again, you should see the Windows IoT Enterprise partition now has a drive letter assigned:
+
+    ```output
+    Volume ###  Ltr  Label        Fs     Type        Size     Status     Info
+    ----------  ---  -----------  -----  ----------  -------  ---------  --------
+    Volume 0     E                UDF    DVD-ROM     4236 MB  Healthy    
+    Volume 1     W                NTFS   Partition     63 GB  Healthy    
+    Volume 2                      FAT32  Partition    100 MB  Healthy    Hidden
+    Volume 3                      NTFS   Partition    602 MB  Healthy    Hidden
+    Volume 4     C   WINPE        FAT32  Partition   2048 MB  Healthy
+    Volume 5     D   Images       NTFS   Partition     14 GB  Healthy       
+    ```
+
+1. Exit Diskpart:
+
+    ```cmd
+    exit
+    ```
+
+1. From the WinPE Command prompt, use DISM to capture an image of the Windows partition:
+
+    ```cmd
+    Dism /capture-image /imagefile:D:\WindowsIoTEnterprise.wim /CaptureDir:W:\ /Name:"Windows IoT Enterprise"
+    ```
+
+    DISM captures an image of the OS partition and store it on D: drive.
+
+    > [!NOTE]
+    > Your device will have more than one partition, but you only need to capture the Windows partition.
+
+### [Virtual Machine](#tab/virtualmachine)
+
+Select WinPE VHD as the first in boot order:
+
+1. Open Hyper-V Manager
+1. Right-click on the Virtual Machine and select **Settings**.
+1. In the left pane, select **Firmware**.
+1. In the right pane, move WinPE VHD to the top.
+1. At the end select **Apply** and **OK**
+1. Start the Virtual machine
+
+The system boots to the WinPE, where you see a Command prompt.
+
+> [!TIP]
+> If you have a different keyboard layout, you can change the keyboard layout by running `wpeutil setKeyboardLayout 0816:00000816` where the *language:keyboard* pair list for your desired layout can be found in [input locales](/windows-hardware/manufacture/desktop/default-input-locales-for-windows-language-packs). Then run `winpeshl.exe` from the WinPE Command Prompt to ensure the new layout is applied to the current session.
+
+1. From the WinPE Command prompt run Diskpart:
+
+   ```cmd
+   diskpart
+   ```
+
+1. Use Diskpart to list the disks so you can identify the disk where Windows IoT Enterprise is installed:
+
+   ```cmd
+   list disk
+   ```
+
+   You should see something like:
+
+   ```output
+   Disk ###  Status          Size     Free     Dyn  Gpt
+   --------  -------------   -------  -------  ---  ---
+   Disk 0    Online            64 GB      0 B        *
+   Disk 1    Online            16 GB      0 B
+   Disk 2    Online          4096 MB      0 B
+   ```
+
+   In this example, *Disk 0* size represents the disk where we installed Windows IoT Enterprise.
+
+1. Select Disk 0 and then list the partitions and volumes:
+
+    ```cmd
+    select Disk 0
+    list partition
+    list volume
+    ```
+
+   You should see something like:
+
+    ```output
+    DISKPART> select disk 0
+
+    Disk 0 is now the selected disk.
+
+    DISKPART> list partition
+
+        Partition ###  Type              Size     Offset
+        -------------  ----------------  -------  -------
+        Partition 1    System             100 MB  1024 KB
+        Partition 2    Reserved            16 MB   101 MB
+        Partition 3    Primary             63 GB   117 MB
+        Partition 4    Recovery           602 MB    63 GB
+    
+    DISKPART> list volume
+
+        Volume ###  Ltr  Label        Fs     Type        Size     Status     Info
+        ----------  ---  -----------  -----  ----------  -------  ---------  --------
+        Volume 0     E                UDF    DVD-ROM     4236 MB  Healthy    
+        Volume 1                      NTFS   Partition     63 GB  Healthy    
+        Volume 2                      FAT32  Partition    100 MB  Healthy    Hidden
+        Volume 3                      NTFS   Partition    602 MB  Healthy    Hidden
+        Volume 4     C   WINPE        FAT32  Partition   4078 MB  Healthy
+        Volume 5     D   Images       NTFS   Partition     16 GB  Healthy           
+    ```
+
+    In this example, *Partition 3* is of *Type Primary* and is where Windows IoT Enterprise is installed. Letters *C*, *D* and *E* are assigned to the *WinPE*, *Images* and *DVD-ROM* volumes respectively.
+
+1. Select Partition 3 and assign a drive letter that is not already in use:
+
+    ```cmd
+    select partition 3
+    assign letter=W
+    ```
+
+    If you list volume again, you should see the Windows IoT Enterprise partition now has a drive letter assigned:
+
+    ```output
+    Volume ###  Ltr  Label        Fs     Type        Size     Status     Info
+    ----------  ---  -----------  -----  ----------  -------  ---------  --------
+    Volume 0     E                UDF    DVD-ROM     4236 MB  Healthy    
+    Volume 1     W                NTFS   Partition     63 GB  Healthy    
+    Volume 2                      FAT32  Partition    100 MB  Healthy    Hidden
+    Volume 3                      NTFS   Partition    602 MB  Healthy    Hidden
+    Volume 4     C   WINPE        FAT32  Partition   4078 MB  Healthy
+    Volume 5     D   Images       NTFS   Partition     16 GB  Healthy       
+    ```
+
+1. Exit Diskpart:
+
+    ```cmd
+    exit
+    ```
+
+1. From the WinPE Command prompt, use DISM to capture an image of the Windows partition:
+
+    ```cmd
+    Dism /capture-image /imagefile:D:\WindowsIoTEnterprise.wim /CaptureDir:W:\ /Name:"Windows IoT Enterprise"
+    ```
+
+    DISM captures an image of the OS partition and store it on D: drive.
+
+    > [!NOTE]
+    > Your device will have more than one partition, but you only need to capture the Windows partition.
+
+---
+
 ## Deploy the captured WIM image from WinPE
 
-### Use the WinPE USB drive to deploy to new systems
+In this section, you deploy a WIM image from WinPE. The reference device sample that you've been creating in these quickstarts should already be in a deployed state; it's been captured in a Sysprepped state and, when deployed, boot into OOBE. This section provides steps to deploy the captured WIM image to a new device, though you can also use this process to deploy the image to the same device you have captured it from.
+
+In your **new device** follow the steps to deploy the WIM image:
+
+### [Physical Device](#tab/physicaldevice)
+
+1. Boot the device from the bootable WinPE USB flash drive.
+
+1. From the WinPE Command prompt run Diskpart:
+
+   ```cmd
+   diskpart
+   ```
+
+1. Format the device::
+
+    ```cmd
+    list disk
+    select disk X    (where X is the disk of your device)
+    clean 
+    convert gpt 
+    create partition efi size=100 
+    format quick fs=fat32 label="System" 
+    assign letter="S" 
+    create partition msr size=16 
+    create partition primary 
+    format quick fs=ntfs label="Windows" 
+    assign letter="W" 
+    ```
+
+    > [!NOTE]
+    > The above Diskpart commands don't create a recovery partition. If you need to configure a recovery partition, see [Configure UEFI/GPT-based hard drive partitions](/windows-hardware/manufacture/desktop/configure-uefigpt-based-hard-drive-partitions).
+
+    <!-- TODO: Can we check if it is much harder to create a recovery partition? -->
+
+1. Use Diskpart to identify the volume where the WIM file is stored:
+
+    ```cmd
+    list volume
+    ```
+
+    You should see something like:
+
+    ```output
+    Volume ###  Ltr  Label        Fs     Type        Size     Status     Info
+    ----------  ---  -----------  -----  ----------  -------  ---------  -------- 
+    Volume 0     W   Windows      NTFS   Partition     63 GB  Healthy    
+    Volume 1     S   System       FAT32  Partition    100 MB  Healthy    Hidden
+    Volume 2     C   WINPE        FAT32  Partition   4078 MB  Healthy
+    Volume 3     D   Images       NTFS   Partition     16 GB  Healthy       
+    ```
+
+    In this example, *Volume 3* with the letter *D* is where the WIM file is stored.
+
+1. Exit Diskpart:
+
+    ```cmd
+    exit
+    ```
+
+1. Deploy the WIM image to the W: drive created in the previous step. From the WinPE command prompt:
+
+    ```cmd
+    Dism /Apply-Image /ImageFile:D:\WindowsIoTEnterprise.wim /ApplyDir:W:\ /Index:1
+    ```
+
+1. Configure the default BCD on the system, which is a required step as the disk was freshly partitioned and formatted. From the WinPE Command Prompt:
+
+    ```cmd
+    W:\Windows\System32\bcdboot W:\Windows /s S:
+    ```
+
+1. Remove the USB drive and reboot the system at the WinPE Command Prompt.
+
+    ```cmd
+    wpeutil reboot
+    ```
+
+The device reboots into OOBE with the Windows IoT Enterprise image you previously customized and captured.
+
+<!-- TODO: We will review this step. We want the device to boot directly to powershell instead. -->
+
+### [Virtual Machine](#tab/virtualmachine)
+
+Create the **new** Virtual Machine
+
+1. Open Hyper-V Manager.
+1. In the Hyper-V Manager, select **New** in the **Actions pane**, then select **Virtual Machine**.
+1. Follow the wizard to create a new virtual machine.
+
+Configure the Virtual Machine:
+
+1. When prompted to specify the generation, choose **Generation 1** or **Generation 2** based on your requirements.
+1. Assign a minimum of *2 GB* of memory to the virtual machine.
+1. Leave the virtual machine with no connection to the network.
+1. When you reach the **Connect Virtual Hard Disk** step, select **Create a virtual hard disk**.
+1. Specify the name, location, and size of the VHD. For example, set the size to *64 GB*.
+1. When you reach the **Installation Options** step, select **Install an operating system later**.
+
+Configure the Number of Processors:
+
+1. After the virtual machine is created, right-click on it in the Hyper-V Manager and select **Settings**.
+1. In the left pane, select **Processor**.
+1. In the right pane, specify a minimum of *2 virtual processors*.
+
+Select WinPE VHD as the first in boot order:
+
+1. Right-click on the Virtual Machine and select **Settings**.
+1. In the left pane, select **SCSI Controller**.
+1. Add a **Hard Drive** and browse the *VHD where you stored the WIM file*.
+1. Add another **Hard Drive** and browse the *WinPE VHD*.
+1. Select **Apply**.
+1. In the left pane, select **Firmware**.
+1. In the right pane, move WinPE VHD to the top.
+1. At the end select **Apply** and **OK**
+1. Start the Virtual machine
+
+The system boots to the WinPE, where you see a Command prompt.
+
+1. From the WinPE Command prompt run Diskpart:
+
+   ```cmd
+   diskpart
+   ```
+
+1. Format the device::
+
+    ```cmd
+    list disk
+    ```cmd
+    diskpart
+    list disk
+    select disk X    (where X is the disk of your device)
+    clean 
+    convert gpt 
+    create partition efi size=100 
+    format quick fs=fat32 label="System" 
+    assign letter="S" 
+    create partition msr size=16 
+    create partition primary 
+    format quick fs=ntfs label="Windows" 
+    assign letter="W" 
+    ```
+
+    > [!NOTE]
+    > The above Diskpart commands don't create a recovery partition. If you need to configure a recovery partition, see [Configure UEFI/GPT-based hard drive partitions](/windows-hardware/manufacture/desktop/configure-uefigpt-based-hard-drive-partitions).
+
+    <!-- TODO: Can we check if it is much harder to create a recovery partition? -->
+
+1. Use Diskpart to identify the volume where the WIM file is stored:
+
+    ```cmd
+    list volume
+    ```
+
+    You should see something like:
+
+    ```output
+    Volume ###  Ltr  Label        Fs     Type        Size     Status     Info
+    ----------  ---  -----------  -----  ----------  -------  ---------  -------- 
+    Volume 0     W   Windows      NTFS   Partition     63 GB  Healthy    
+    Volume 1     S   System       FAT32  Partition    100 MB  Healthy    Hidden
+    Volume 2     C   WINPE        FAT32  Partition   4078 MB  Healthy
+    Volume 3     D   Images       NTFS   Partition     16 GB  Healthy       
+    ```
+
+    In this example, *Volume 3* with the letter *D* is where the WIM file is stored.
+
+1. Exit Diskpart:
+
+    ```cmd
+    exit
+    ```
+
+1. Deploy the WIM image to the W: drive created in the previous step. From the WinPE command prompt:
+
+    ```cmd
+    Dism /Apply-Image /ImageFile:D:\WindowsIoTEnterprise.wim /ApplyDir:W:\ /Index:1
+    ```
+
+1. Configure the default BCD on the system, which is a required step as the disk was freshly partitioned and formatted. From the WinPE Command Prompt:
+
+    ```cmd
+    W:\Windows\System32\bcdboot W:\Windows /s S:
+    ```
+
+1. Turn off the Virtual Machine.
+
+1. In the Virtual Machine settings, set the VHD where you installed the WIM file as the first in boot order.
+
+1. Start the Virtual Machine.
+
+The device starts into OOBE with the Windows IoT Enterprise image you previously customized and captured.
+
+<!-- TODO: We will review this step. We want the device to boot directly to powershell instead. -->
+
+---
 
 ## Related content
 

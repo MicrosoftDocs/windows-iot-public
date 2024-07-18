@@ -152,12 +152,12 @@ This section provides steps to configure Shell Launcher in Audit mode using DISM
     $ShellLauncherClass.SetEnabled($TRUE)
     ```
 
-1. Reboot the reference device.
+1. Restart the reference device.
 1. The system reboots and *PowerShell* starts as the default system shell.
 
 <!-- TODO: Screenshot device with powershell as the default system shell -->
 
-You can leave the reference device with *powershell.exe* as your custom shell and proceed to [Quickstart: Sysprep and capture the reference device image and deploy to a new device](quickstart-sysprep-capture-deploy.md). To revert the system back to the *explorer.exe* shell, do the following:
+<!-- You can leave the reference device with *powershell.exe* as your custom shell and proceed to [Quickstart: Sysprep and capture the reference device image and deploy to a new device](quickstart-sysprep-capture-deploy.md). To revert the system back to the *explorer.exe* shell, do the following:
 
 1. From the current shell, open an Administrative Windows PowerShell Prompt:
 
@@ -175,9 +175,8 @@ You can leave the reference device with *powershell.exe* as your custom shell an
     $ShellLauncherClass.SetEnabled($TRUE)
     ```
 
-1. Reboot the reference device.
-1. The system reboots and *Explorer* starts as the default system shell.
-
+1. Restart the reference device.
+1. The system reboots and *Explorer* starts as the default system shell. -->
 
 <!-- TODO: Screenshot device with explorer as the default system shell and showing the audit mode "System Preparation Tool"-->
 
