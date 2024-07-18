@@ -23,8 +23,8 @@ Windows IoT Enterprise provides three options for enabling activation, including
 | Activation&nbsp;Model | Description |
 |:----------------:| ----------- |
 | PKEA | **Product Key Entry Activation** </br> Requires a unique 5 by 5 product key to be applied to each device produced.  |
-| ePKEA | **Embedded Product Key Entry Activation**  </br> ePKEA is designed exclusively for OEMs building specialized devices base on Windows IoT Enterprise. A single ePKEA product key comes with the ability to activate a predetermined number of devices. Each successful activation via internet connection or by telephone decrements the available activation count associated with the OEMs ePKEA. You need to request a new ePKEA before fully depleting the available activations associated with your current ePKEA to prevent activation failures. |
-| OA 3.0 | **OEM Activation 3.0 (OA3)** </br> The OA 3.0 system enables OEMs to develop an internal inventory management system to manage the ordering and receiving of Windows product keys and the creation and reporting process for the Computer Build Report. You're required to include an edition specific Default Product Key in each golden image of Windows IoT Enterprise. The default product key can't activate Windows, but rather instructs Windows to search for an OA 3.0 product key that stored in the device’s firmware. |
+| ePKEA | **Embedded Product Key Entry Activation**  </br> ePKEA is designed exclusively for OEMs building specialized devices base on Windows IoT Enterprise. A single ePKEA product key comes with the ability to activate a predetermined number of devices. Each successful activation via internet connection or by telephone decrements the available activation count associated with the OEMs ePKEA. Request a new ePKEA before fully depleting the available activations associated with your current ePKEA to prevent activation failures. |
+| OA 3.0 | **OEM Activation 3.0 (OA3)** </br> The OA 3.0 system enables OEMs to develop an internal inventory management system to manage the ordering and receiving of Windows product keys and the creation and reporting process for the Computer Build Report. You must include an edition specific Default Product Key in each golden image of Windows IoT Enterprise. The default product key can't activate Windows, but rather instructs Windows to search for an OA 3.0 product key that stored in the device’s firmware. |
 
 This article focuses on using ePKEA to enable activation for Windows IoT Enterprise based devices. For more information about OA 3.0, see  [OEM Activation 3.0 system](/windows-hardware/manufacture/desktop/oem-activation-3).
 
@@ -55,17 +55,17 @@ For more information, see [Using VAMT to Manage Product Keys](/windows/deploymen
 
 ## Manufacturing Process
 
-You need to be familiar with the Windows desktop manufacturing process before you can enable activation. There are several different methods to deploy and customize your Windows IoT Enterprise image. After selecting your manufacturing process, you can incorporate a compatible approach to enable activation using your ePKEA based product key.
+You should be familiar with the Windows desktop manufacturing process before you can enable activation. There are several different methods to deploy and customize your Windows IoT Enterprise image. After selecting your manufacturing process, you can incorporate a compatible approach to enable activation using your ePKEA based product key.
 
 For more information, see [Windows Manufacturing Overview](/windows-hardware/manufacture).
 
 ## Enable Activation
 
-You can install your production ePKEA product key using any of the following 4 methods:
+You can install your production ePKEA product key using any of the following four methods:
 
 ### Interactive Setup
 
-You're prompted to enter your product key if you choose to create your image using the interactive setup experience. When prompted for your key, you can supply your production ePKEA, the default manufacturing key or skip the product key entry step, however only your production ePKEA enables activation. The following table explains each scenario.
+If you choose to create your image using the interactive setup experience, you can supply your production ePKEA, the default manufacturing key or skip the product key entry step, however only your production ePKEA enables activation. The following table explains each scenario.
 
 | When prompted for Product Key | Result |
 | ----------- | -----------|
@@ -91,10 +91,10 @@ While you are in Audit mode, you can apply your production ePKEA to your image u
 
   Access the activation graphical user interface using one of the following options:
 
-  - Select Start then begin typing Activation and select Activation settings once it appears
-  - Select Start > Settings > System > Activation
-  - Select Start > All Apps > Settings > System > Activation
-  - Press <kbd>Windows</kbd> + <kbd>R</kbd> and type ```slui.exe``` into the Run dialog and press <kbd>Enter</kbd>.
+  1. Select Start then begin typing Activation and select Activation settings once it appears
+  1. Select Start > Settings > System > Activation
+  1. Select Start > All Apps > Settings > System > Activation
+  1. Press <kbd>Windows</kbd> + <kbd>R</kbd> and type ```slui.exe``` into the **Run** dialog and press <kbd>Enter</kbd>.
 
 - **Method 2: Command Line | SLMGR.vbs**
 
@@ -111,6 +111,13 @@ While you are in Audit mode, you can apply your production ePKEA to your image u
   ```
 
   For more information, see [Slmgr.vbs Options](/windows-server/get-started/activation-slmgr-vbs-options).
+
+> [!IMPORTANT]
+> While you are still running in Audit Mode, remove your ePKEA from the registry to prevent disclosure attack where malicious code extracts your product key from the image by running the following command line from an elevated command shell.
+>
+> ```cmd
+> slmgr.vbs /cpky
+> ```
 
 > [!TIP]
 > Be sure to finalize your image using the generalize option of Sysprep to boot into the Out of Box Experience (oobe) for your customer's first experience.
@@ -146,11 +153,11 @@ You can install your ePKEA into the offline image using either `Set-WindowsProdu
 
 ## Activate your device
 
-A Windows IoT Enterprise device that is enabled for activation is fully operational without an internet connection. Being fully operational without an internet connection is useful for devices deployed in disconnected environments. Activation is deferred until the device is connected to a network that can access the Microsoft Activation Servers. If the device believes it can get to the Microsoft Activation Servers, Windows IoT Enterprise automatically attempts to activate resulting in either a successful activation or a failed activation. Windows IoT Enterprise can't return to a deferred activation state once activation is attempted. You can activate your production ePKEA product key using any of the following 3 methods:
+A Windows IoT Enterprise device that is enabled for activation is fully operational without an internet connection. Being fully operational without an internet connection is useful for devices deployed in disconnected environments. Activation is deferred until the device is connected to a network that can access the Microsoft Activation Servers. If the device believes it can get to the Microsoft Activation Servers, Windows IoT Enterprise automatically attempts to activate resulting in either a successful activation or a failed activation. Windows IoT Enterprise can't return to a deferred activation state once activation is attempted. You can activate your production ePKEA product key using any of the following three methods:
 
 ### Activate using an Internet connection
 
-Windows IoT Enterprise attempts to activate automatically if you're connected to the internet. You can confirm your activation status in Settings or using the Windows Software Licensing Management Tool (SLMGR.VBS).
+Windows IoT Enterprise attempts to activate automatically if you have an internet connection. You can confirm your activation status in Settings or using the Windows Software Licensing Management Tool (SLMGR.VBS).
 
 - **Settings**  
 
@@ -197,11 +204,11 @@ For information on using VAMT to activate your Windows IoT Enterprise devices th
 
 - **How do I acquire a ePKEA that I can use for my devices?**
 
-  **Answer:**  You need to have a valid Cient License Agreement (CLA) in place with Microsoft and then you would fill out and submit the Special Key Request form. To acquire these you need to contact a Windows IoT Distributor, or if you are Direct with Microsoft contact your Microsoft Account Manager.
+  **Answer:**  You need to have a valid Client License Agreement (CLA) in place with Microsoft and then you would fill out and submit the Special Key Request form. To acquire an ePKEA product key, contact your Windows IoT Distributor, or your Microsoft Account Manager.
 
 - **Are there any logs where can I tell that my device has attempted to activate?**
 
-  **Answer:**  In the System Event Viewer look for a 118 event in the Client Licensing Event Log, this indicates that the device believed it could get to the Microsoft Acivation Servers to activate, the device came out of Deferred activation and attempted to activate.
+  **Answer:**  In the System Event Viewer, look for a 118 event in the Client Licensing Event Log. The 118 event indicates that the device could access the Microsoft Activation Servers. This would cause the device to come out of Deferred activation and attempted to activate.
 
 - **How do I ensure that activation occurs at a specific time?**
 
@@ -215,8 +222,8 @@ For information on using VAMT to activate your Windows IoT Enterprise devices th
 
   **Answer:** You can check your activation status using Settings or the Software Licensing Management Tool.
   
-  - To check your activation status using Settings, using your keyboard, press <kbd>Windows</kbd> + <kbd>R</kbd>, then type ```slui.exe``` into the Run dialog and press <kbd>Enter</kbd>.
-  - To check your activation status using the Software Licensing Management Tool, using your keyboard, press <kbd>Windows</kbd> + <kbd>R</kbd>, then type ```slmgr.vbs /dlv``` into the Run dialog and press <kbd>Enter</kbd>.
+  - To check your activation status using Settings, using your keyboard, press <kbd>Windows</kbd> + <kbd>R</kbd>, then type ```slui.exe``` into the **Run** dialog and press <kbd>Enter</kbd>.
+  - To check your activation status using the Software Licensing Management Tool, using your keyboard, press <kbd>Windows</kbd> + <kbd>R</kbd>, then type ```slmgr.vbs /dlv``` into the **Run** dialog and press <kbd>Enter</kbd>.
 
 - **What causes a device to require reactivation?**
 
@@ -242,11 +249,11 @@ For information on using VAMT to activate your Windows IoT Enterprise devices th
 
 - **I'm having problems with my ePKEA who can I contact for help?**
 
-  **Answer:** To get help with the PKEA you need to contact a Windows IoT Distributor, or if you are Direct with Microsoft contact your Microsoft Account Manager.
+  **Answer:** To get help with the PKEA, contact your Windows IoT Distributor, or your Microsoft Account Manager.
 
 - **I have more questions on activation, deploying the ePKEA or using VAMT who can I reach out to for help?**
 
-  **Answer:**  To get additional help with Activation you need to contact a Windows IoT Distributor, or if you are Direct with Microsoft contact your Microsoft Account Manager.
+  **Answer:**  To get more help with Activation contact your Windows IoT Distributor, or your Microsoft Account Manager.
   
 ## Related content
 
