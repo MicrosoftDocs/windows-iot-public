@@ -43,8 +43,9 @@
       "breadcrumb_path": "/windows/iot/breadcrumb/toc.json",
       "extendBreadcrumb": false,
       "uhfHeaderId": "MSDocsHeader-Windows-IoT",
-      "feedback_system": "None"
-    },
+      "feedback_system": "None",
+      "zone_pivot_group_filename": "/windows/iot/iot-enterprise/zone_pivot_group_filename.json"
+        },
     "fileMetadata": {},
     "template": [],
     "dest": "windows-iot-docset"
