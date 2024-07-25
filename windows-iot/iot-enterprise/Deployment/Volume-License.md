@@ -13,17 +13,17 @@ zone_pivot_groups: Windows11-Windows10
 
 # Windows IoT Enterprise LTSC in Volume License
 
-**Applies to:**
+Applies to:  
 
 :::zone pivot="windows11"
 
-- Windows 11 IoT Enterprise LTSC 2024
+✅ Windows 11 IoT Enterprise LTSC 2024  
 
 ::: zone-end
 
 :::zone pivot="windows10"
 
-- Windows 10 IoT Enterprise LTSC 2021
+✅ Windows 10 IoT Enterprise LTSC 2021
 
 ::: zone-end
 
