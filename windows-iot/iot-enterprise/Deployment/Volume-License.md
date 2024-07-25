@@ -31,8 +31,6 @@ Applies to:
 > As of August 1, 2023, Windows IoT Enterprise LTSC is now available for purchase through the following programs: _Select Plus_, _Microsoft Product and Services Agreement (MPSA)_, and _Cloud Solution Provider (CSP)_.  Currently, Windows IoT Enterprise LTSC is not available through the Enterprise Agreement program.  
 > For more information, see [Windows Desktop Operating System Program Terms](https://www.microsoft.com/licensing/terms/productoffering/WindowsDesktopOperatingSystem/all).
 
-:::zone-end
-
 ## Introduction
 
 Windows IoT Enterprise LTSC is now available through [Volume Licensing](/partner-center/support-resources-licensing) in addition to original equipment manufacturer preinstallation on a specialized device. Volume licensing is available to customers who purchase software under various volume programs (such as [Open](https://www.microsoft.com/Licensing/licensing-programs/open-license) and [Select](https://www.microsoft.com/Licensing/licensing-programs/select)).  Licenses for Windows IoT Enterprise provided through volume licensing cover upgrades only.
