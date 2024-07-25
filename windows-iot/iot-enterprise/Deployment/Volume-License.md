@@ -2,11 +2,11 @@
 title: Windows IoT Enterprise LTSC in Volume License
 author: TerryWarwick
 ms.author: twarwick
-ms.date: 07/10/2023
+ms.date: 07/25/2024
 ms.topic: article
 ms.service: windows-iot
 ms.subservice: iot
-description: Windows IoT Enterprise LTSC in Volume License
+description: How to deploy Windows 11 IoT Enterprise LTSC in Volume License
 keywords: IoT Enterprise, Installation
 zone_pivot_groups: Windows11-Windows10
 ---
@@ -17,7 +17,7 @@ zone_pivot_groups: Windows11-Windows10
 
 :::zone pivot="windows11"
 
-- Windows 10 IoT Enterprise LTSC 2021
+- Windows 11 IoT Enterprise LTSC 2024
 
 ::: zone-end
 

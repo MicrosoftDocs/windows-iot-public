@@ -7,7 +7,7 @@ ms.service: windows-iot
 ms.subservice: iot
 author: TerryWarwick
 ms.author: twarwick
-ms.date: 05/22/2024
+ms.date: 07/25/2024
 ---
 
 # What's new in Windows 11 IoT Enterprise LTSC 2024
