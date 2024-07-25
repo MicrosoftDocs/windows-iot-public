@@ -25,8 +25,10 @@ zone_pivot_groups: Windows11-Windows10
 
 - Windows 10 IoT Enterprise LTSC 2021
 
+::: zone-end
+
 > [!NOTE]
-> As of August 1, 2023, Windows 10 IoT Enterprise LTSC 2021 is now available for purchase through the following programs: _Select Plus_, _Microsoft Product and Services Agreement (MPSA)_, and _Cloud Solution Provider (CSP)_.  Currently, Windows 10 IoT Enterprise LTSC 2021 is not available through the Enterprise Agreement program.  
+> As of August 1, 2023, Windows IoT Enterprise LTSC is now available for purchase through the following programs: _Select Plus_, _Microsoft Product and Services Agreement (MPSA)_, and _Cloud Solution Provider (CSP)_.  Currently, Windows IoT Enterprise LTSC is not available through the Enterprise Agreement program.  
 > For more information, see [Windows Desktop Operating System Program Terms](https://www.microsoft.com/licensing/terms/productoffering/WindowsDesktopOperatingSystem/all).
 
 :::zone-end
@@ -47,11 +49,16 @@ For more information, see [Plan for Volume Activation](/windows/deployment/volum
 
 ## Prerequisites
 
-To deploy Windows 10 IoT Enterprise LTSC 2021 with volume activation you need the following assets from your [Volume License Administrator](/licensing/administrator-faq), typically associated with the procurement process.
+To deploy Windows IoT Enterprise LTSC with volume activation you need the following assets from your [Volume License Administrator](/licensing/administrator-faq), typically associated with the procurement process.
 
 > [!div class="checklist"]
 >
+:::zone pivot="windows11"
+- Windows 11 IoT Enterprise LTSC 2024 (x64) installation media or ISO
+::: zone-end
+:::zone pivot="windows10"
 > - Windows 10 Enterprise LTSC 2021 (x64) installation media or ISO
+::: zone-end
 > - Multiple Activation Key (MAK) if you are not using an on-prem Key Management Service (KMS)
 
 ## Getting Started
