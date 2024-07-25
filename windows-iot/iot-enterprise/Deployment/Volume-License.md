@@ -71,6 +71,14 @@ To deploy Windows IoT Enterprise LTSC with volume activation you need the follow
 
 ## Getting Started
 
+:::zone pivot="windows11"
+
+**Windows 11 Content Needed**
+
+::: zone-end
+
+:::zone pivot="windows10"
+
 In this section, you install **Windows 10 Enterprise LTSC 2021** then transform it into **Windows 10 IoT Enterprise LTSC 2021** using a 5-by-5 volume activation key associated with the activation model that best suits your needs.
 
 1. **Install Windows 10 Enterprise LTSC 2021**</br>
@@ -105,6 +113,16 @@ In this section, you install **Windows 10 Enterprise LTSC 2021** then transform 
    - `ImageVersion : 10.0.19044.2905` _or later_</br>
    - `Current Edition : EnterpriseS`
 
+::: zone-end
+
+:::zone pivot="windows11"
+
+1. **Windows 11 Content Needed**
+
+::: zone-end
+
+:::zone pivot="windows10"
+
 1. **Install a product key**</br>
    In this step you use the command line utility `slmgr.vbs /ipk` to install a product key associated with your desired activation model.
 
@@ -136,6 +154,8 @@ In this section, you install **Windows 10 Enterprise LTSC 2021** then transform 
 
    - `ImageVersion : 10.0.19044.2905` _or later_</br>
    - `Current Edition : IoTEnterpriseS`
+
+::: zone-end
 
 1. **Confirm activation expiry**
    Run the following command at the PowerShell command prompt to verify the expiry of your volume license activation.
