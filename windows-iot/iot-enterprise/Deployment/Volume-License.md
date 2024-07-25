@@ -9,7 +9,6 @@ ms.subservice: iot
 description: How to deploy Windows 11 IoT Enterprise LTSC in Volume License
 keywords: IoT Enterprise, Installation
 zone_pivot_groups: Windows11-Windows10
-zone_pivot_group_filename: iot/iot-enterprise/zone-pivot-groups.json
 ---
 
 # Windows IoT Enterprise LTSC in Volume License
