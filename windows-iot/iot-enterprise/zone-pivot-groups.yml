@@ -1,0 +1,10 @@
+# YamlMime:ZonePivotGroups
+groups:
+- id: Windows11-Windows10
+  title: Windows IoT Enterprise
+  prompt: Choose version
+  pivots:
+  - id: windows11
+    title: Windows 11
+  - id: windows10
+    title: Windows 10

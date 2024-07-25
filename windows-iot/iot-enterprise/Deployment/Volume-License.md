@@ -8,17 +8,28 @@ ms.service: windows-iot
 ms.subservice: iot
 description: Windows IoT Enterprise LTSC in Volume License
 keywords: IoT Enterprise, Installation
+zone_pivot_groups: Windows11-Windows10
 ---
 
 # Windows IoT Enterprise LTSC in Volume License
 
 **Applies to:**
 
+:::zone pivot="windows11"
+
+- Windows 10 IoT Enterprise LTSC 2021
+
+::: zone-end
+
+:::zone pivot="windows10"
+
 - Windows 10 IoT Enterprise LTSC 2021
 
 > [!NOTE]
 > As of August 1, 2023, Windows 10 IoT Enterprise LTSC 2021 is now available for purchase through the following programs: _Select Plus_, _Microsoft Product and Services Agreement (MPSA)_, and _Cloud Solution Provider (CSP)_.  Currently, Windows 10 IoT Enterprise LTSC 2021 is not available through the Enterprise Agreement program.  
 > For more information, see [Windows Desktop Operating System Program Terms](https://www.microsoft.com/licensing/terms/productoffering/WindowsDesktopOperatingSystem/all).
+
+:::zone-end
 
 ## Introduction
 
