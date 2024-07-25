@@ -51,15 +51,23 @@ For more information, see [Plan for Volume Activation](/windows/deployment/volum
 
 To deploy Windows IoT Enterprise LTSC with volume activation you need the following assets from your [Volume License Administrator](/licensing/administrator-faq), typically associated with the procurement process.
 
+:::zone pivot="windows11"
+
 > [!div class="checklist"]
 >
-:::zone pivot="windows11"
-- Windows 11 IoT Enterprise LTSC 2024 (x64) installation media or ISO
-::: zone-end
-:::zone pivot="windows10"
-> - Windows 10 Enterprise LTSC 2021 (x64) installation media or ISO
-::: zone-end
+> - Windows 11 IoT Enterprise LTSC 2024 (x64) installation media or ISO
 > - Multiple Activation Key (MAK) if you are not using an on-prem Key Management Service (KMS)
+
+::: zone-end
+
+:::zone pivot="windows10"
+
+> [!div class="checklist"]
+>
+> - Windows 10 Enterprise LTSC 2021 (x64) installation media or ISO
+> - Multiple Activation Key (MAK) if you are not using an on-prem Key Management Service (KMS)
+
+::: zone-end
 
 ## Getting Started
 
