@@ -4,7 +4,7 @@ titleSuffix: Windows IoT Enterprise
 author: twarwick
 ms.author: twarwick
 ms.date: 05/22/2024
-ms.topic: how-to
+ms.topic: content
 ms.service: windows-iot
 ms.subservice: iot
 description: Removable Packages is a Windows IoT Enterprise LTSC exclusive feature to assist with reducing disk footprint.
@@ -61,6 +61,7 @@ This feature is supported on Windows 10 IoT Enterprise LTSC 2021 (build 19044.17
 
 ## Package Reference
 
+<!--markdownlint-disable-next-line -->
 # [Windows 11 IoT Enterprise LTSC 2024](#tab/LTSC2024)
 
 The following packages can be removed from Windows IoT Enterprise LTSC 2024. Select on each package name to see more details about the package payload.
@@ -105,6 +106,7 @@ The following packages can be removed from Windows IoT Enterprise LTSC 2024. Sel
 | | **[Microsoft-Windows-win32calc](Removable-Packages/Microsoft-Windows-win32calc.md)** </br> Legacy Calculator Application | <!-- x64 --> 709&nbsp;KB | <!-- arm64 --> 703&nbsp;KB |
 | | **[Microsoft-Windows-WinSATMediaFiles](Removable-Packages/Microsoft-Windows-WinSATMediaFiles.md)** </br> A component of the [Media Feature Pack](/windows/win32/wmdm/windows-media-device-manager-architecture) comprised of media files for Windows System Assessment Tool. | <!-- x64 --> 0&nbsp;KB | <!-- arm64 --> 0&nbsp;KB |
 
+<!--markdownlint-disable-next-line -->
 # [Windows 10 IoT Enterprise LTSC 2021](#tab/LTSC2021)
 
 The following packages can be removed from Windows IoT Enterprise LTSC 2021. Select on each package name to see more details about the package payload.
