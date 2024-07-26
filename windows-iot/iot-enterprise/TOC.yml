@@ -48,7 +48,7 @@
     href: ./Hardware/SoCs.md
   - name: Start prototyping
     href: ./Hardware/Prototype.md
-- name: Arm64 Guidance
+- name: ARM64 Guidance
   expanded: false
   items:
   - name: ARM64 Overview
