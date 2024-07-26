@@ -27,27 +27,25 @@ Applies to:
 
 ::: zone-end
 
-> [!NOTE]
-> As of August 1, 2023, Windows IoT Enterprise LTSC is now available for purchase through the following programs: _Select Plus_, _Microsoft Product and Services Agreement (MPSA)_, and _Cloud Solution Provider (CSP)_.  Currently, Windows IoT Enterprise LTSC is not available through the Enterprise Agreement program.  
-> For more information, see [Windows Desktop Operating System Program Terms](https://www.microsoft.com/licensing/terms/productoffering/WindowsDesktopOperatingSystem/all).
-
 ## Introduction
 
-Windows IoT Enterprise LTSC is now available through [Volume Licensing](/partner-center/support-resources-licensing) in addition to original equipment manufacturer preinstallation on a specialized device. Volume licensing is available to customers who purchase software under various volume programs (such as [Open](https://www.microsoft.com/Licensing/licensing-programs/open-license) and [Select](https://www.microsoft.com/Licensing/licensing-programs/select)).  Licenses for Windows IoT Enterprise provided through volume licensing cover upgrades only.
+Windows IoT Enterprise LTSC is now available through [Volume Licensing](/partner-center/support-resources-licensing) programs including: [_Microsoft Product and Services Agreement (MPSA)_](https://www.microsoft.com/licensing/terms/productoffering/WindowsDesktopOperatingSystem/MPSA), [_Microsoft Customer Agreement (MCA)_](https://www.microsoft.com/licensing/terms/productoffering/WindowsDesktopOperatingSystem/MCA), and [_Select Plus_](https://www.microsoft.com/licensing/terms/productoffering/WindowsDesktopOperatingSystem/SS) as an **upgrade license** for fixed-function, specialized devices. For more information, see [Windows Desktop Operating System Program Terms](https://www.microsoft.com/licensing/terms/productoffering/WindowsDesktopOperatingSystem/all)
 
-Volume activation provides two ways to complete volume activations. Customers may use either key types to activate systems in their organization:
+> [!IMPORTANT]
+> Windows IoT Enterprise LTSC is intended for use for fixed-function specialized devices only and cannot be used as a replacement of Windows desktop for general purpose computing.
+
+## Planning
+
+Volume activation provides two ways to complete volume activations. You can use either key types to activate systems in their organization:
 
 - [Key Management Service (KMS)](/windows/deployment/volume-activation/activate-windows-10-clients-vamt#how-key-management-service-works) allows organizations to activate systems within their own network.
 - [Multiple Activation Key (MAK)](/windows/deployment/volume-activation/activate-windows-10-clients-vamt#how-multiple-activation-key-works) activates systems on a one-time basis, using Microsoft hosted activation services.
 
 For more information, see [Plan for Volume Activation](/windows/deployment/volume-activation/plan-for-volume-activation-client).
 
-> [!NOTE]
-> Windows IoT Enterprise LTSC is intended for use for fixed-function specialized devices only and cannot be used as a replacement of Windows desktop for general purpose computing.
-
 ## Prerequisites
 
-To deploy Windows IoT Enterprise LTSC with volume activation you need the following assets from your [Volume License Administrator](/licensing/administrator-faq), typically associated with the procurement process.
+To deploy Windows IoT Enterprise LTSC with volume activation, you need the following assets from your [Volume License Administrator](/licensing/administrator-faq), typically associated with the procurement process.
 
 :::zone pivot="windows11"
 
@@ -71,7 +69,9 @@ To deploy Windows IoT Enterprise LTSC with volume activation you need the follow
 
 :::zone pivot="windows11"
 
-**Windows 11 Content Needed**
+In this section, you install **Windows 11 IoT Enterprise LTSC 2024** and prepare for activation using either KMS or MAK.
+
+1. **install Windows 11 IoT Enterprise LTSC 2024**</br> Using the media for Windows 11 IoT Enterprise LTSC 2024 acquired through your Volume license Service Center or Visual Studio Subscription.
 
 ::: zone-end
 
@@ -80,7 +80,7 @@ To deploy Windows IoT Enterprise LTSC with volume activation you need the follow
 In this section, you install **Windows 10 Enterprise LTSC 2021** then transform it into **Windows 10 IoT Enterprise LTSC 2021** using a 5-by-5 volume activation key associated with the activation model that best suits your needs.
 
 1. **Install Windows 10 Enterprise LTSC 2021**</br>
-   Using the media for Windows 10 Enterprise LTSC 2021 acquired through your Volume License Service Center or Visual Studio Subscription
+   Using the media for Windows 10 Enterprise LTSC 2021 acquired through your Volume License Service Center or Visual Studio Subscription.
 
 1. **Install Latest Cumulative Updates**</br>
    The activation keys for Windows 10 IoT Enterprise LTSC 2021 require the installation of 2023-05 Cumulative update (10.0.19044.2905) or a more recent successor.
@@ -90,7 +90,11 @@ In this section, you install **Windows 10 Enterprise LTSC 2021** then transform 
    - Select **Check for Updates**
    - Install all available updates
 
-   Alternatively, you can install the update and its prerequisites manually using the 2023-05 Cumulative Update for Windows 10 Version 21H2 or a more recent successor.  For more information about this update, see [KB5026361](https://support.microsoft.com/topic/may-9-2023-kb5026361-os-builds-19042-2965-19044-2965-and-19045-2965-3edafffe-c3cc-4010-af43-2097c84c9437).
+   Alternatively, you can install the update and its prerequisites manually using the 2023-05 Cumulative Update for Windows 10 Version 21H2 or a more recent successor. For more information about this update, see [KB5026361](https://support.microsoft.com/topic/may-9-2023-kb5026361-os-builds-19042-2965-19044-2965-and-19045-2965-3edafffe-c3cc-4010-af43-2097c84c9437).
+
+::: zone-end
+
+:::zone pivot="windows11,windows10"
 
 1. **Start PowerShell with Administrator privileges.**</br>
    You use this instance of PowerShell to verify the target operating system meets requirements then perform the transformation.  
@@ -98,6 +102,10 @@ In this section, you install **Windows 10 Enterprise LTSC 2021** then transform 
     - Type PowerShell
     - Right-click **Windows PowerShell**
     - Select **Run as administrator**
+
+::: zone-end
+
+:::zone pivot="windows10"
 
 1. **Verify the Windows version and edition**</br>
    Run the following command from the PowerShell prompt to retrieve the version and edition information.
@@ -113,16 +121,20 @@ In this section, you install **Windows 10 Enterprise LTSC 2021** then transform 
 
 ::: zone-end
 
+:::zone pivot="windows11,windows10"
+
+1. **Install a product key**</br>
+   In this step you use the command line utility `slmgr.vbs /ipk` to install a product key associated with your desired activation model.
+
+::: zone-end
+
 :::zone pivot="windows11"
 
-1. **Windows 11 Content Needed**
+   1. **KMS Client**</br>By default Windows 11 IoT Enterprise LTSC 2024 is configured to automatically activation using an on-premises key management service (KMS). You don't need to install a product key if you plan to keep the device in an environment where it can reach the KMS server regularly.
 
 ::: zone-end
 
 :::zone pivot="windows10"
-
-1. **Install a product key**</br>
-   In this step you use the command line utility `slmgr.vbs /ipk` to install a product key associated with your desired activation model.
 
    1. **KMS Client**</br>
       Install the Generic Volume License Key (GVLK) for Windows IoT Enterprise LTSC if you plan to activate using an on-premises key management service.</br>
@@ -131,6 +143,10 @@ In this section, you install **Windows 10 Enterprise LTSC 2021** then transform 
       ```cmd
       slmgr /ipk KBN8V-HFGQ4-MGXVD-347P6-PDQGT
       ```
+
+::: zone-end
+
+:::zone pivot="windows11,windows10"
 
    1. **Multiple Activation Key (MAK)**</br>
       Install the Multiple Activation Key that you acquired through the Volume License Service Center.</br>
@@ -141,19 +157,25 @@ In this section, you install **Windows 10 Enterprise LTSC 2021** then transform 
 
       Where XXXXX-XXXXX-XXXXX-XXXXX-XXXXX is your Multiple Activation Key (MAK)
 
+::: zone-end
+
+:::zone pivot="windows10"
+
 1. **Verify transformation**</br>
-   Upon successfully installing the product key associated with your volume license activation model, the operating system edition changes to `IoTEnterpriseS`.  Run the following command at the PowerShell prompt to confirm.
+   Upon successfully installing the product key associated with your volume license activation model, the operating system edition changes to `IoTEnterpriseS`. Run the following command at the PowerShell prompt to confirm.
 
    ```powershell
    Dism /Online /Get-CurrentEdition
    ```
 
-   You should now see the same ImageVersion but the Current Edition has changed to `IoTEnterpriseS` as follows:
+   You should now see the same ImageVersion but the Current Edition changed to `IoTEnterpriseS` as follows:
 
    - `ImageVersion : 10.0.19044.2905` _or later_</br>
    - `Current Edition : IoTEnterpriseS`
 
 ::: zone-end
+
+:::zone pivot="windows11,windows10"
 
 1. **Confirm activation expiry**
    Run the following command at the PowerShell command prompt to verify the expiry of your volume license activation.
@@ -165,6 +187,8 @@ In this section, you install **Windows 10 Enterprise LTSC 2021** then transform 
    If you're using MAK activation, a message indicating that the machine is permanently activated appears.
 
    If you're using KMS client activation, a message appears with a date that your current volume activation expires. Your device attempts to sync with the on-premises Key Management Service and renew its activation periodically.
+
+::: zone-end
 
 ## Related articles
 
