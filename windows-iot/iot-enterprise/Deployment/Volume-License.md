@@ -77,7 +77,39 @@ To deploy Windows IoT Enterprise LTSC with volume activation, you need the follo
 
 In this section, you install **Windows 11 IoT Enterprise LTSC 2024** and prepare for activation using either KMS or MAK.
 
-1. **install Windows 11 IoT Enterprise LTSC 2024**</br> Using the media for Windows 11 IoT Enterprise LTSC 2024 acquired through your Volume license Service Center or Visual Studio Subscription.
+1. **Install Windows 11 IoT Enterprise LTSC 2024**</br> Using the media for Windows 11 IoT Enterprise LTSC 2024 acquired through your Volume license Service Center or Visual Studio Subscription.
+
+1. **Start PowerShell with Administrator privileges.**</br>
+   You use this instance of PowerShell to verify the target operating system meets requirements then perform the transformation.  
+    - Select **Start**
+    - Type PowerShell
+    - Right-click **Windows PowerShell**
+    - Select **Run as administrator**
+
+1. **Install a product key**</br>
+   By default Windows 11 IoT Enterprise LTSC 2024 is configured to automatically activation using an on-premises key management service (KMS). You don't need to install a product key if you plan to keep the device in an environment where it can reach the KMS server regularly.
+
+   Skip the following step if you don't intend to use MAK activation.
+
+   - **Multiple Activation Key (MAK)**</br>
+     In this step you use the command line utility `slmgr.vbs /ipk` to install a Multiple Activation Key that you acquired through the Volume License Service Center.</br>
+
+      ```cmd
+      slmgr /ipk XXXXX-XXXXX-XXXXX-XXXXX-XXXXX
+      ```
+
+      Where XXXXX-XXXXX-XXXXX-XXXXX-XXXXX is your Multiple Activation Key (MAK)
+
+1. **Confirm activation expiry**
+   Run the following command at the PowerShell command prompt to verify the expiry of your volume license activation.
+
+   ```cmd
+   slmgr /xpr
+   ```
+
+   If you're using MAK activation, a message indicating that the machine is permanently activated appears.
+
+   If you're using KMS client activation, a message appears with a date that your current volume activation expires. Your device attempts to sync with the on-premises Key Management Service and renew its activation periodically.
 
 ::: zone-end
 
@@ -98,20 +130,12 @@ In this section, you install **Windows 10 Enterprise LTSC 2021** then transform 
 
    Alternatively, you can install the update and its prerequisites manually using the 2023-05 Cumulative Update for Windows 10 Version 21H2 or a more recent successor. For more information about this update, see [KB5026361](https://support.microsoft.com/topic/may-9-2023-kb5026361-os-builds-19042-2965-19044-2965-and-19045-2965-3edafffe-c3cc-4010-af43-2097c84c9437).
 
-::: zone-end
-
-:::zone pivot="windows11,windows10"
-
 1. **Start PowerShell with Administrator privileges.**</br>
    You use this instance of PowerShell to verify the target operating system meets requirements then perform the transformation.  
     - Select **Start**
     - Type PowerShell
     - Right-click **Windows PowerShell**
     - Select **Run as administrator**
-
-::: zone-end
-
-:::zone pivot="windows10"
 
 1. **Verify the Windows version and edition**</br>
    Run the following command from the PowerShell prompt to retrieve the version and edition information.
@@ -124,35 +148,6 @@ In this section, you install **Windows 10 Enterprise LTSC 2021** then transform 
 
    - `ImageVersion : 10.0.19044.2905` _or later_</br>
    - `Current Edition : EnterpriseS`
-
-::: zone-end
-
-:::zone pivot="windows11,windows10"
-
-1. **Install a product key**</br>
-   In this step you use the command line utility `slmgr.vbs /ipk` to install a product key associated with your desired activation model.
-
-::: zone-end
-
-:::zone pivot="windows11"
-
-1. **Install a product key**</br>
-   By default Windows 11 IoT Enterprise LTSC 2024 is configured to automatically activation using an on-premises key management service (KMS). You don't need to install a product key if you plan to keep the device in an environment where it can reach the KMS server regularly.
-
-   Skip the following step if you don't intend to use MAK activation.
-
-   - **Multiple Activation Key (MAK)**</br>
-     In this step you use the command line utility `slmgr.vbs /ipk` to install a Multiple Activation Key that you acquired through the Volume License Service Center.</br>
-
-      ```cmd
-      slmgr /ipk XXXXX-XXXXX-XXXXX-XXXXX-XXXXX
-      ```
-
-      Where XXXXX-XXXXX-XXXXX-XXXXX-XXXXX is your Multiple Activation Key (MAK)
-
-::: zone-end
-
-:::zone pivot="windows10"
 
 1. **Install a product key**</br>
    In this step you use the command line utility `slmgr.vbs /ipk` to install a product key associated with your desired activation model.
@@ -185,10 +180,6 @@ In this section, you install **Windows 10 Enterprise LTSC 2021** then transform 
 
    - `ImageVersion : 10.0.19044.2905` _or later_</br>
    - `Current Edition : IoTEnterpriseS`
-
-::: zone-end
-
-:::zone pivot="windows11,windows10"
 
 1. **Confirm activation expiry**
    Run the following command at the PowerShell command prompt to verify the expiry of your volume license activation.
