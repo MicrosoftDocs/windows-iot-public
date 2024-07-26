@@ -29,7 +29,13 @@ Applies to:
 
 ## Introduction
 
-Windows IoT Enterprise LTSC is now available through [Volume Licensing](/partner-center/support-resources-licensing) programs including: [_Microsoft Product and Services Agreement (MPSA)_](https://www.microsoft.com/licensing/terms/productoffering/WindowsDesktopOperatingSystem/MPSA), [_Microsoft Customer Agreement (MCA)_](https://www.microsoft.com/licensing/terms/productoffering/WindowsDesktopOperatingSystem/MCA), and [_Select Plus_](https://www.microsoft.com/licensing/terms/productoffering/WindowsDesktopOperatingSystem/SS) as an **upgrade license** for fixed-function, specialized devices. For more information, see [Windows Desktop Operating System Program Terms](https://www.microsoft.com/licensing/terms/productoffering/WindowsDesktopOperatingSystem/all)
+Windows IoT Enterprise LTSC is now available as an **upgrade license** for fixed-function, specialized devices through [Volume Licensing](/partner-center/support-resources-licensing) programs including:
+
+- [Microsoft Product and Services Agreement (MPSA)](https://www.microsoft.com/licensing/terms/productoffering/WindowsDesktopOperatingSystem/MPSA)
+- [Microsoft Customer Agreement (MCA)](https://www.microsoft.com/licensing/terms/productoffering/WindowsDesktopOperatingSystem/MCA)
+- [Select Plus](https://www.microsoft.com/licensing/terms/productoffering/WindowsDesktopOperatingSystem/SS)
+
+For more information, see [Windows Desktop Operating System Program Terms](https://www.microsoft.com/licensing/terms/productoffering/WindowsDesktopOperatingSystem/all)
 
 > [!IMPORTANT]
 > Windows IoT Enterprise LTSC is intended for use for fixed-function specialized devices only and cannot be used as a replacement of Windows desktop for general purpose computing.
@@ -130,26 +136,13 @@ In this section, you install **Windows 10 Enterprise LTSC 2021** then transform 
 
 :::zone pivot="windows11"
 
-   1. **KMS Client**</br>By default Windows 11 IoT Enterprise LTSC 2024 is configured to automatically activation using an on-premises key management service (KMS). You don't need to install a product key if you plan to keep the device in an environment where it can reach the KMS server regularly.
+1. **Install a product key**</br>
+   By default Windows 11 IoT Enterprise LTSC 2024 is configured to automatically activation using an on-premises key management service (KMS). You don't need to install a product key if you plan to keep the device in an environment where it can reach the KMS server regularly.
 
-::: zone-end
+   Skip the following step if you don't intend to use MAK activation.
 
-:::zone pivot="windows10"
-
-   1. **KMS Client**</br>
-      Install the Generic Volume License Key (GVLK) for Windows IoT Enterprise LTSC if you plan to activate using an on-premises key management service.</br>
-      GVLK: `KBN8V-HFGQ4-MGXVD-347P6-PDQGT`
-
-      ```cmd
-      slmgr /ipk KBN8V-HFGQ4-MGXVD-347P6-PDQGT
-      ```
-
-::: zone-end
-
-:::zone pivot="windows11,windows10"
-
-   1. **Multiple Activation Key (MAK)**</br>
-      Install the Multiple Activation Key that you acquired through the Volume License Service Center.</br>
+   - **Multiple Activation Key (MAK)**</br>
+     In this step you use the command line utility `slmgr.vbs /ipk` to install a Multiple Activation Key that you acquired through the Volume License Service Center.</br>
 
       ```cmd
       slmgr /ipk XXXXX-XXXXX-XXXXX-XXXXX-XXXXX
@@ -160,6 +153,26 @@ In this section, you install **Windows 10 Enterprise LTSC 2021** then transform 
 ::: zone-end
 
 :::zone pivot="windows10"
+
+1. **Install a product key**</br>
+   In this step you use the command line utility `slmgr.vbs /ipk` to install a product key associated with your desired activation model.
+
+   1. **KMS Client**</br>
+      Install the Generic Volume License Key (GVLK) for Windows IoT Enterprise LTSC if you plan to activate using an on-premises key management service.</br>
+      GVLK: `KBN8V-HFGQ4-MGXVD-347P6-PDQGT`
+
+      ```cmd
+      slmgr /ipk KBN8V-HFGQ4-MGXVD-347P6-PDQGT
+      ```
+
+   1. **Multiple Activation Key (MAK)**</br>
+      Install the Multiple Activation Key that you acquired through the Volume License Service Center.</br>
+
+      ```cmd
+      slmgr /ipk XXXXX-XXXXX-XXXXX-XXXXX-XXXXX
+      ```
+
+      Where XXXXX-XXXXX-XXXXX-XXXXX-XXXXX is your Multiple Activation Key (MAK)
 
 1. **Verify transformation**</br>
    Upon successfully installing the product key associated with your volume license activation model, the operating system edition changes to `IoTEnterpriseS`. Run the following command at the PowerShell prompt to confirm.
