@@ -100,6 +100,18 @@ In this section, you install **Windows 11 IoT Enterprise LTSC 2024** and prepare
 
       Where XXXXX-XXXXX-XXXXX-XXXXX-XXXXX is your Multiple Activation Key (MAK)
 
+1. **Check activation status**
+
+   ```cmd
+   slmgr /dli
+   ```
+
+   1. If not activated, requestion activation
+
+      ```cmd
+      slmgr /ato
+      ```
+
 1. **Confirm activation expiry**
    Run the following command at the PowerShell command prompt to verify the expiry of your volume license activation.
 
@@ -180,6 +192,18 @@ In this section, you install **Windows 10 Enterprise LTSC 2021** then transform 
 
    - `ImageVersion : 10.0.19044.2905` _or later_</br>
    - `Current Edition : IoTEnterpriseS`
+
+1. **Check activation status**
+
+   ```cmd
+   slmgr /dli
+   ```
+
+   1. If not activated, requestion activation
+
+      ```cmd
+      slmgr /ato
+      ```
 
 1. **Confirm activation expiry**
    Run the following command at the PowerShell command prompt to verify the expiry of your volume license activation.
