@@ -1,0 +1,67 @@
+---
+title: NXP
+author: anthonychen
+ms.author: anthonychen
+ms.date: 7/8/2024
+ms.topic: article
+ms.service: windows-iot
+ms.subservice: iot
+description: Windows IoT Enterprise on NXP
+keywords: IoT Enterprise, Hardware, Windows IoT, Arm64, NXP
+---
+
+# Windows IoT Enterprise on NXP
+
+Microsoft has worked alongside NXP to enable Windows IoT Enterprise support for NXP's i.MX 8 and i.MX 9 series of Arm64 processors. This enables Windows IoT Enterprise devices to be built at lower cost and using lower power than ever before while maintaining the familiar user interface, device management, and industry-leading OS support that customers love. 
+
+For the specific NXP processor models supported by each Windows IoT Enterprise OS version, refer to the [Windows IoT Enterprise Processor Lists](../Hardware/Processor_Requirements.md#windows-iot-enterprise-processor-lists).
+
+## NXP Board Support Package
+
+NXP publishes the Board Support Package (BSP) that includes the drivers and firmware needed for the supported NXP i.MX 8 and i.MX 93 processor evaluation kits (EVKs) to run on Windows IoT Enterprise. The BSP is provided in both source code and binary format.
+
+To download the NXP BSP and its supporting documentation, visit NXP's [Windows IoT Enterprise for i.MX Applications Processors](https://aka.ms/nxpiot) website.
+
+## Features Supported
+
+The table below lists the features supported on each of the NXP i.MX EVK boards as of the most recent NXP BSP release (1.5.0). For details, check the NXP BSP documentation.
+
+| Feature | i.MX 8M Plus | i.MX 8M Quad | i.MX 8M Mini | i.MX 8M Nano | i.MX 8X |
+|---|-|-|-|-|-|
+|**Audio**|
+| 3.5mm audio jack | input and output | output only | output only | output only | input and output |
+| HDMI audio (output only) | &check; | - | - | - | - |
+|**Display/Graphics**|
+| HDMI (up to 1080p) | &check; | &check; | - | - | - |
+| LVDS | up to 1920x1200 | - | - | - | up to 1080p |
+| MIPI-DSI | up to 1920x1200 | - | up to 1080p | up to 1920x1200 | up to 1920x1200 |
+| GPU | &check;| &check; | - | &check; | &check; |
+| Multiple Displays | &check; | - | - | - | &check; |
+| VPU video decode (HEVC, VP9, H.264, VP8) | &check; | &check; | &check; | - | - |
+| VPU video decode (MPEG-2, MPEG-4) | - | &check; | - | - | - |
+|**Device Connectivity**|
+| USB | &check; | &check; | &check; | &check; | &check; |
+| GPIO | &check; | &check; | &check; | &check; | &check; |
+| UART (RS-232) | &check; | &check; | &check; | &check; | - |
+| LPUART | - | - | - | - | &check; |
+| I2C (controller mode) | &check; | &check; | &check; | &check; | &check; |
+| SPI (controller mode) | &check; | &check; | &check; | &check; | &check; |
+| PCIe | &check; | &check; | &check; | &check; | &check; |
+| FlexCAN | &check; | - | - | - | - | 
+|**Network Connectivity**|
+| Ethernet | 2x RTL8211 | 1x AR8031 | 1x AR8031 | 1x AR8031 | 1x AR8031 |
+| Wi-Fi 5 <sup>1</sup> | &check; | &check; | &check; | &check; | &check; |
+|**Storage**|
+| eMMC | &check; | &check; | &check; | &check; | &check; |
+| SD | &check; | &check; | &check; | &check; | &check; |
+|**Camera**|
+| OV5640 MIPI-CSI camera ([MINISASTOCSI](https://www.nxp.com/part/MINISASTOCSI)) | &check; | &check; | &check; | &check; | &check; |
+| OV10635 MIPI-CSI camera ([MX8XMIPI4CAM2](https://www.nxp.com/part/MX8XMIPI4CAM2)) | &check; | &check; | &check; | &check; | &check; |
+|**Security**|
+| Secure Boot | &check; | &check; | &check; | &check; | &check; |
+|**Miscellaneous**|
+| RTC (on-SoC)<sup>2</sup> | &check; | &check; | &check; | &check; | - |
+
+<sup>1</sup> Wi-Fi support is added through PCIe M.2 expansion port. NXP i.MX 8M Plus EVK ships with a supported 88W8997-based M.2 module. NXP provides drivers for M.2 modules based on the 88W8997 and 88W8897 Wi-Fi chips. 
+
+<sup>2</sup> Real time clock (RTC) is implemented on-SoC and will preserve time across reset, but will not preserve time when the system is powered off. Add a discrete RTC to preserve time when the system is powered off.
