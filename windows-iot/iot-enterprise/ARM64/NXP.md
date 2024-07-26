@@ -26,42 +26,43 @@ To download the NXP BSP and its supporting documentation, visit NXP's [Windows I
 
 The table below lists the features supported on each of the NXP i.MX EVK boards as of the most recent NXP BSP release (1.5.0). For details, check the NXP BSP documentation.
 
-| Feature | i.MX 8M Plus | i.MX 8M Quad | i.MX 8M Mini | i.MX 8M Nano | i.MX 8X |
-|---|-|-|-|-|-|
+| Feature | i.MX 8M Plus | i.MX 8M Quad | i.MX 8M Mini | i.MX 8M Nano | i.MX 8X | i.MX 93 |
+|---|-|-|-|-|-|-|
 |**Audio**|
-| 3.5mm audio jack | input and output | output only | output only | output only | input and output |
-| HDMI audio (output only) | &check; | - | - | - | - |
+| 3.5mm audio jack | input and output | output only | output only | output only | input and output | input and output |
+| HDMI audio (output only) | &check; | - | - | - | - | - |
 |**Display/Graphics**|
-| HDMI (up to 1080p) | &check; | &check; | - | - | - |
-| LVDS | up to 1920x1200 | - | - | - | up to 1080p |
-| MIPI-DSI | up to 1920x1200 | - | up to 1080p | up to 1920x1200 | up to 1920x1200 |
-| GPU | &check;| &check; | - | &check; | &check; |
-| Multiple Displays | &check; | - | - | - | &check; |
-| VPU video decode (HEVC, VP9, H.264, VP8) | &check; | &check; | &check; | - | - |
-| VPU video decode (MPEG-2, MPEG-4) | - | &check; | - | - | - |
+| HDMI (up to 1080p) | &check; | &check; | - | - | - | - |
+| LVDS | up to 1920x1200 | - | - | - | up to 1080p | up to 1080p |
+| MIPI-DSI | up to 1920x1200 | - | up to 1080p | up to 1920x1200 | up to 1920x1200 | up to 1080p |
+| GPU | &check;| &check; | - | &check; | &check; | - |
+| Multiple Displays | &check; | - | - | - | &check; | - |
+| VPU video decode (HEVC, VP9, H.264, VP8) | &check; | &check; | &check; | - | - | - |
+| VPU video decode (MPEG-2, MPEG-4) | - | &check; | - | - | - | - |
 |**Device Connectivity**|
-| USB | &check; | &check; | &check; | &check; | &check; |
-| GPIO | &check; | &check; | &check; | &check; | &check; |
-| UART (RS-232) | &check; | &check; | &check; | &check; | - |
-| LPUART | - | - | - | - | &check; |
-| I2C (controller mode) | &check; | &check; | &check; | &check; | &check; |
-| SPI (controller mode) | &check; | &check; | &check; | &check; | &check; |
-| PCIe | &check; | &check; | &check; | &check; | &check; |
-| FlexCAN | &check; | - | - | - | - | 
+| USB | &check; | &check; | &check; | &check; | &check; | &check; |
+| GPIO | &check; | &check; | &check; | &check; | &check; | &check; |
+| UART (RS-232) | &check; | &check; | &check; | &check; | - | - |
+| LPUART | - | - | - | - | &check; | &check; |
+| I2C (controller mode) | &check; | &check; | &check; | &check; | &check; | &check; |
+| SPI (controller mode) | &check; | &check; | &check; | &check; | &check; | &check; |
+| PCIe | &check; | &check; | &check; | &check; | &check; | &check; |
+| FlexCAN | &check; | - | - | - | - | - |
 |**Network Connectivity**|
-| Ethernet | 2x RTL8211 | 1x AR8031 | 1x AR8031 | 1x AR8031 | 1x AR8031 |
-| Wi-Fi 5 <sup>1</sup> | &check; | &check; | &check; | &check; | &check; |
+| Ethernet | 2x RTL8211 | 1x AR8031 | 1x AR8031 | 1x AR8031 | 1x AR8031 | 2x RTL8211 |
+| Wi-Fi 5 <sup>1</sup> | &check; | &check; | &check; | &check; | &check; | &check; |
 |**Storage**|
-| eMMC | &check; | &check; | &check; | &check; | &check; |
-| SD | &check; | &check; | &check; | &check; | &check; |
+| eMMC | &check; | &check; | &check; | &check; | &check; | &check; |
+| SD | &check; | &check; | &check; | &check; | &check; | &check; |
 |**Camera**|
-| OV5640 MIPI-CSI camera ([MINISASTOCSI](https://www.nxp.com/part/MINISASTOCSI)) | &check; | &check; | &check; | &check; | &check; |
-| OV10635 MIPI-CSI camera ([MX8XMIPI4CAM2](https://www.nxp.com/part/MX8XMIPI4CAM2)) | &check; | &check; | &check; | &check; | &check; |
+| OV5640 MIPI-CSI camera ([MINISASTOCSI](https://www.nxp.com/part/MINISASTOCSI)) | &check; | &check; | &check; | &check; | &check; | - |
+| OV10635 MIPI-CSI camera ([MX8XMIPI4CAM2](https://www.nxp.com/part/MX8XMIPI4CAM2)) | &check; | &check; | &check; | &check; | &check; | - |
+| AP1302 ISP + AR0144 MIPI-CSI camera ([RPI-CAM-MIPI](https://www.nxp.com/part/RPI-CAM-MIPI)) | - | - | - | - | - | &check; |
 |**Security**|
-| Secure Boot | &check; | &check; | &check; | &check; | &check; |
+| Secure Boot | &check; | &check; | &check; | &check; | &check; | &check; |
 |**Miscellaneous**|
-| RTC (on-SoC)<sup>2</sup> | &check; | &check; | &check; | &check; | - |
+| RTC (on-SoC)<sup>2</sup> | &check; | &check; | &check; | &check; | - | - |
 
-<sup>1</sup> Wi-Fi support is added through PCIe M.2 expansion port. NXP i.MX 8M Plus EVK ships with a supported 88W8997-based M.2 module. NXP provides drivers for M.2 modules based on the 88W8997 and 88W8897 Wi-Fi chips. 
+<sup>1</sup> Wi-Fi support is added through aPCIe M.2 expansion port. NXP i.MX 8M Plus EVK ships with a supported 88W8997-based M.2 module. NXP provides drivers for M.2 modules based on the 88W8997 and 88W8897 Wi-Fi chips. 
 
 <sup>2</sup> Real time clock (RTC) is implemented on-SoC and will preserve time across reset, but will not preserve time when the system is powered off. Add a discrete RTC to preserve time when the system is powered off.
