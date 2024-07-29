@@ -18,13 +18,13 @@ For the specific NXP processor models supported by each Windows IoT Enterprise O
 
 ## NXP Board Support Package
 
-NXP publishes the Board Support Package (BSP) that includes the drivers and firmware needed for the supported NXP i.MX 8 and i.MX 93 processor evaluation kits (EVKs) to run on Windows IoT Enterprise. The BSP is provided in both source code and binary format.
+NXP publishes the Board Support Package (BSP) that includes the drivers and firmware needed for the supported NXP i.MX 8 and i.MX 93 evaluation kits (EVKs) to run on Windows IoT Enterprise. The BSP is provided in both source code and binary format.
 
 To download the NXP BSP and its supporting documentation, visit NXP's [Windows IoT Enterprise for i.MX Applications Processors](https://aka.ms/nxpiot) website.
 
 ## Features Supported
 
-The table below lists the features supported on each of the NXP i.MX EVK boards as of the most recent NXP BSP release (1.5.0). For details, check the NXP BSP documentation.
+The table below lists the features supported on each of the NXP i.MX EVK boards as of the most recent NXP BSP release (1.5.0). For details, check the [NXP BSP documentation](https://aka.ms/nxpiot).
 
 | Feature | i.MX 8M Plus | i.MX 8M Quad | i.MX 8M Mini | i.MX 8M Nano | i.MX 8X | i.MX 93 |
 |---|-|-|-|-|-|-|
@@ -33,21 +33,22 @@ The table below lists the features supported on each of the NXP i.MX EVK boards 
 | HDMI audio (output only) | &check; | - | - | - | - | - |
 |**Display/Graphics**|
 | HDMI (up to 1080p) | &check; | &check; | - | - | - | - |
-| LVDS | up to 1920x1200 | - | - | - | up to 1080p | up to 1080p |
-| MIPI-DSI | up to 1920x1200 | - | up to 1080p | up to 1920x1200 | up to 1920x1200 | up to 1080p |
+| LVDS | up to 1920x1200 | - | - | - | up to 1080p | up to 1280x800 |
+| MIPI-DSI | up to 1920x1200 | - | up to 1920x1200 | up to 1920x1200 | - | up to 1920x1200 |
 | GPU | &check;| &check; | - | &check; | &check; | - |
 | Multiple Displays | &check; | - | - | - | &check; | - |
-| VPU video decode (HEVC, VP9, H.264, VP8) | &check; | &check; | &check; | - | - | - |
-| VPU video decode (MPEG-2, MPEG-4) | - | &check; | - | - | - | - |
+| VPU video decode (HEVC, H.264, VP8) | &check; | &check; | &check; | - | &check; | - |
+| VPU video decode (MPEG-2, MPEG-4) | - | &check; | - | - | &check; | - |
+| VPU video decode (VP9) | - | &check; | - | - | - | - |
 |**Device Connectivity**|
 | USB | &check; | &check; | &check; | &check; | &check; | &check; |
 | GPIO | &check; | &check; | &check; | &check; | &check; | &check; |
 | UART (RS-232) | &check; | &check; | &check; | &check; | - | - |
-| LPUART | - | - | - | - | &check; | &check; |
+| LPUART (RS-232) | - | - | - | - | &check; | &check; |
 | I2C (controller mode) | &check; | &check; | &check; | &check; | &check; | &check; |
 | SPI (controller mode) | &check; | &check; | &check; | &check; | &check; | &check; |
 | PCIe | &check; | &check; | &check; | &check; | &check; | &check; |
-| FlexCAN | &check; | - | - | - | - | - |
+| FlexCAN | &check; | - | - | - | &check; | &check; |
 |**Network Connectivity**|
 | Ethernet | 2x RTL8211 | 1x AR8031 | 1x AR8031 | 1x AR8031 | 1x AR8031 | 2x RTL8211 |
 | Wi-Fi 5 <sup>1</sup> | &check; | &check; | &check; | &check; | &check; | &check; |
@@ -63,6 +64,6 @@ The table below lists the features supported on each of the NXP i.MX EVK boards 
 |**Miscellaneous**|
 | RTC (on-SoC)<sup>2</sup> | &check; | &check; | &check; | &check; | - | - |
 
-<sup>1</sup> Wi-Fi support is added through aPCIe M.2 expansion port. NXP i.MX 8M Plus EVK ships with a supported 88W8997-based M.2 module. NXP provides drivers for M.2 modules based on the 88W8997 and 88W8897 Wi-Fi chips. 
+<sup>1</sup> Wi-Fi support is added through a PCIe M.2 expansion port. NXP i.MX 8M Plus EVK ships with a supported 88W8997-based M.2 module. NXP provides drivers for M.2 modules based on the 88W8997 and 88W8897 Wi-Fi chips. 
 
 <sup>2</sup> Real time clock (RTC) is implemented on-SoC and will preserve time across reset, but will not preserve time when the system is powered off. Add a discrete RTC to preserve time when the system is powered off.
