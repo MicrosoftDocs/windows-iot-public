@@ -20,13 +20,15 @@ For the specific NXP processor models supported by each Windows IoT Enterprise O
 
 NXP publishes the Board Support Package (BSP) that includes the drivers and firmware needed for the supported NXP i.MX 8 and i.MX 93 evaluation kits (EVKs) to run on Windows IoT Enterprise. The BSP is provided in both source code and binary format.
 
-To download the NXP BSP and its supporting documentation, visit NXP's [Windows IoT Enterprise for i.MX Applications Processors](https://aka.ms/nxpiot) website.
+To download the BSP for the EVKs and their supporting documentation, visit NXP's [Windows IoT Enterprise for i.MX Applications Processors](https://aka.ms/nxpiot) website.
+
+For hardware platforms other than EVKs, contact the hardware manufacturer for the BSP.
 
 ## Features Supported
 
 The table below lists the features supported on each of the NXP i.MX EVK boards as of the most recent NXP BSP release (1.5.0). For details, check the [NXP BSP documentation](https://aka.ms/nxpiot).
 
-| Feature | i.MX 8M Plus | i.MX 8M Quad | i.MX 8M Mini | i.MX 8M Nano | i.MX 8X | i.MX 93 |
+| Feature | i.MX 8M Plus | i.MX 8M | i.MX 8M Mini | i.MX 8M Nano | i.MX 8X | i.MX 93 |
 |---|-|-|-|-|-|-|
 |**Audio**|
 | 3.5mm audio jack | input and output | output only | output only | output only | input and output | input and output |
@@ -67,3 +69,41 @@ The table below lists the features supported on each of the NXP i.MX EVK boards 
 <sup>1</sup> Wi-Fi support is added through a PCIe M.2 expansion port. NXP i.MX 8M Plus EVK ships with a supported 88W8997-based M.2 module. NXP provides drivers for M.2 modules based on the 88W8997 and 88W8897 Wi-Fi chips. 
 
 <sup>2</sup> Real time clock (RTC) is implemented on-SoC and will preserve time across reset, but will not preserve time when the system is powered off. Add a discrete RTC to preserve time when the system is powered off.
+
+## Known Limitations
+
+### Windows Forms application performance
+
+The NXP GPU driver is a [DirectX 11 Feature Level 9_3](/windows/win32/direct3d11/overviews-direct3d-11-devices-downlevel-intro) driver that supports acceleration of GDI, WPF, UWP, and WinUI-based applications. It does not support GDI+ applications. Application frameworks that mix GDI and GDI+, such as Windows Forms, are slower when they offload the graphics workload to the NXP GPU compared to when running exclusively on CPU. You can prevent this by disabling GPU offload for the specific application through registry.
+
+For example, if you want to disable GPU offload for an application named WinFormsApp.exe, you can create the following registry key in a command prompt: 
+
+    reg add HKLM\Software\VSI\GPU\GdiRedirSurf /v WinFormsApp.exe /t REG_DWORD /d 0
+
+### Browser GPU acceleration
+
+The NXP GPU driver does not support acceleration of browser-based workloads. Browser content renders using CPU instead. 
+
+### eMMC HS400
+
+Windows IoT Enterprise does not support eMMC HS400, which can result in lower peak storage throughput. In addition, the i.MX 93 storage driver does not support eMMC HS200.
+
+### Hyper-V
+
+The i.MX 8 family of application processors do not support Hyper-V virtualization or features that depend on it (e.g. Virtualization Based Security).
+
+### NPU
+
+Windows IoT Enterprise does not support the NPUs on either the i.MX 8M Plus or the i.MX 93 applications processors.
+
+### PCIe storage
+
+Windows IoT Enterprise does not support expandible storage through PCIe (e.g. M.2 SSD).
+
+### i.MX 8M 4GB+ memory support
+
+The i.MX 8M applications processor has a hardware limitation that only allows external devices to address the first 3GB of memory (RAM). i.MX 8M systems that have more than 4GB or more memory must ensure their DMA-capable drivers do not address memory outside of the safe 3GB region.
+
+### USB Device, USB OTG
+ 
+Windows IoT Enterprise does not support operating as a USB device, and hence, does not support USB OTG. 
