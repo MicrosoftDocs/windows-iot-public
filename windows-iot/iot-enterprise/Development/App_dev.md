@@ -83,6 +83,15 @@ Windows IoT Enterprise supports app emulation on ARM64 devices according to this
 
 To use Windows' built-in emulation technology to run an X86 or X64 application on your ARM64 device, simply deploy the X86 or X64 application to your ARM64 device and run it normally.
 
+### .NET Framework Support for ARM64
+
+[.NET Framework 4.8.1](https://dotnet.microsoft.com/en-us/download/dotnet-framework/net481) added [native support for Arm64](https://devblogs.microsoft.com/dotnet/announcing-dotnet-framework-481/) in Windows 11, which enabled developers to build an application natively for ARM64 and run it on an ARM64 device without using ARM64 emulation. This is supported on Windows 11 devices through native ARM64 support in .NET Framework Runtime 4.8.1. 
+
+> [!NOTE]
+> .NET Framework 4.8.1 runtime does not support native ARM64 applications on a Windows 10 device.
+
+To run a native ARM64 .NET Framework 4.8.1 application on an ARM64 Windows 11 IoT Enterprise device, ensure the .NET Framework 4.8.1 Runtime is either installed on the device or packaged with the application.
+
 ## More App Development Resources
 
 ### Testing and Debugging
