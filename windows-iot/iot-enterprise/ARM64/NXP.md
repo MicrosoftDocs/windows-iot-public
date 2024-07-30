@@ -47,13 +47,15 @@ The table below lists the features supported on each of the NXP i.MX EVK boards 
 | GPIO | &check; | &check; | &check; | &check; | &check; | &check; |
 | UART (RS-232) | &check; | &check; | &check; | &check; | - | - |
 | LPUART (RS-232) | - | - | - | - | &check; | &check; |
-| I2C (controller mode) | &check; | &check; | &check; | &check; | &check; | &check; |
-| SPI (controller mode) | &check; | &check; | &check; | &check; | &check; | &check; |
-| PCIe | &check; | &check; | &check; | &check; | &check; | &check; |
+| I2C (controller mode) | &check; | &check; | &check; | &check; | - | - |
+| LPI2C (controller mode) | - | - | - | - | &check; | &check; |
+| SPI (controller mode) | &check; | &check; | &check; | &check; | - | - |
+| LPSPI (controller mode) | - | - | - | - | &check; | &check; |
+| PCIe | &check; | &check; | &check; | - | &check; | - |
 | FlexCAN | &check; | - | - | - | &check; | &check; |
 |**Network Connectivity**|
 | Ethernet | 2x RTL8211 | 1x AR8031 | 1x AR8031 | 1x AR8031 | 1x AR8031 | 2x RTL8211 |
-| Wi-Fi 5 <sup>1</sup> | &check; | &check; | &check; | &check; | &check; | &check; |
+| Wi-Fi 5 <sup>1</sup> | &check; | &check; | &check; | - | &check; | - |
 |**Storage**|
 | eMMC | &check; | &check; | &check; | &check; | &check; | &check; |
 | SD | &check; | &check; | &check; | &check; | &check; | &check; |
@@ -74,7 +76,7 @@ The table below lists the features supported on each of the NXP i.MX EVK boards 
 
 ### Windows Forms application performance
 
-The NXP GPU driver is a [DirectX 11 Feature Level 9_3](/windows/win32/direct3d11/overviews-direct3d-11-devices-downlevel-intro) driver that supports acceleration of GDI, WPF, UWP, and WinUI-based applications. It does not support GDI+ applications. Application frameworks that mix GDI and GDI+, such as Windows Forms, are slower when they offload the graphics workload to the NXP GPU compared to when running exclusively on CPU. You can prevent this by disabling GPU offload for the specific application through registry.
+The NXP GPU driver is a [DirectX 11 Feature Level 9_3](/windows/win32/direct3d11/overviews-direct3d-11-devices-downlevel-intro) driver that supports acceleration of GDI, WPF, UWP, and WinUI-based applications. It does not support GDI+ applications. Application frameworks that mix GDI and GDI+, such as Windows Forms, run slower when they offload the graphics workload to the NXP GPU. You can prevent this by disabling GPU offload for the specific application through registry.
 
 For example, if you want to disable GPU offload for an application named WinFormsApp.exe, you can create the following registry key in a command prompt: 
 
