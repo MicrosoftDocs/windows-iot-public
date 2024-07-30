@@ -12,7 +12,7 @@ keywords: IoT Enterprise, Hardware, Windows IoT, Arm64, NXP
 
 # Windows IoT Enterprise on NXP
 
-Microsoft has worked alongside NXP to enable Windows IoT Enterprise support for NXP's i.MX 8 and i.MX 9 series of Arm64 processors. This enables Windows IoT Enterprise devices to be built at lower cost and using lower power than ever before while maintaining the familiar user interface, device management, and industry-leading OS support that customers love. 
+Microsoft has worked alongside NXP to enable Windows IoT Enterprise support for NXP's i.MX 8 and i.MX 9 series of Arm64 processors. This enables lower power and lower cost Windows IoT Enterprise devices to be built than ever before while maintaining the familiar user interface, device management, and industry-leading OS support that users love. 
 
 For the specific NXP processor models supported by each Windows IoT Enterprise OS version, refer to the [Windows IoT Enterprise Processor Lists](../Hardware/Processor_Requirements.md#windows-iot-enterprise-processor-lists).
 
