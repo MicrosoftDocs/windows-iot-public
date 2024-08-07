@@ -16,8 +16,10 @@ ms.date: 06/28/2024
 
 In this quickstart, you prepare the technician PC to then install a basic Windows IoT Enterprise image onto a reference device sample. At the end of this quickstart, you have a technician PC ready to start building Windows IoT Enterprise images, and a reference device sample with Windows IoT Enterprise installed.
 
+<!-- TODO: Add reference to the following quickstarts "The lab env created during this exercise will be used in the successor quickstarts A,B, C -->
 The following quicsktarts in this series build on this one to customize the device in audit mode and then sysprep and capture the reference device image. Alternatively, you can use the lab environment prepared in this quickstart to follow other tutorials under [Customization](../Customize/customize-overview.md), [Optimization](../Optimize/Overview.md) and [Deployment](../Deployment/index.md).
 
+<!-- TODO: Incorporate the TIP in the paragraph above -->
 > [!TIP]
 > This series of quickstarts is intended to help you get started with Windows IoT Enterprise as quickly as possible, and that is why we provide you steps to test it in a Virtual Machine. In a true development or production environment, you would start by choosing a **physical device** that meets the [Minimum System Requirements for Windows IoT Enterprise](../Hardware/System_Requirements.md). You would then build base images for this device and test it. Next, you would modify the base images to create designs for different audiences, including branding, logos, languages, and apps.
 
@@ -25,7 +27,8 @@ The following quicsktarts in this series build on this one to customize the devi
 
 To prepare your **technician PC (your work PC)**, you need:
 
-- Have at least 15 GB of free space for installing the software and for modifying Windows IoT Enterprise images. We recommend using Windows 11 with the latest updates.
+- Windows 11 with the latest updates.
+- Have at least 15 GB of free space for installing the software and for modifying Windows IoT Enterprise images.
 - Have [Windows ADK](/windows-hardware/get-started/adk-install) with Deployment Tools, Configuration Designer, and the Windows PE add-on installed.
 - Have a Windows 11 IoT Enterprise LTSC 2024 ISO.
     [!INCLUDE [Latest LTSC](../../includes/incl-latest-ltsc-release.md)]
@@ -49,7 +52,7 @@ To prepare your **reference device sample**, you need:
     > This series of quickstarts focuses on using Hyper-V with Windows 11. First, confirm that you can [install Hyper-V](/virtualization/hyper-v-on-windows/quick-start/enable-hyper-v) on your **technician PC**. If Hyper-V is not suitable for your setup, consider using alternative virtualization technologies.
 
 ---
-
+<!-- TODO: Move the this H2 to inside the prerequisites tabs-->
 ## Create a bootable media
 
 This section provides steps to create a bootable Windows IoT Enterprise installation media for use during installation on the reference device sample.
@@ -63,19 +66,19 @@ Follow these steps to prepare the installation flash drive:
 1. Insert a flash drive into your Technician PC.
 1. Open an Administrative Command Prompt and run `diskpart`:
 
-   ```console
+   ```cmd
    diskpart
    ```
 
 1. Use `diskpart` to list the disks so you can identify the flash drive:
 
-   ```console
+   ```cmd
    list disk
    ```
 
    You should see something like:
 
-   ```console
+   ```cmd
    Disk ###  Status         Size     Free     Dyn  Gpt
    --------  -------------  -------  -------  ---  ---
    Disk 0    Online          238  GB     0 B        *
@@ -91,7 +94,7 @@ Follow these steps to prepare the installation flash drive:
 
     Enter the following commands from within `diskpart`, where Disk 1 is the flash drive:
 
-    ```diskpart
+    ```cmd
     Select disk 1
     clean
     create partition primary
@@ -133,6 +136,7 @@ Configure the Number of Processors:
 
 ---
 
+<!-- TODO: Make more steps and less paragraph long steps -->
 ## Install Windows IoT Enterprise on your reference device sample
 
 This section covers how to install Windows IoT Enterprise on your reference device sample using Windows Setup.
@@ -142,6 +146,7 @@ This section covers how to install Windows IoT Enterprise on your reference devi
 
 ### [Physical Device](#tab/physicaldevice)
 
+<!-- TODO: Move the Boot part to the Top -->
 Boot the device to Windows Setup:
 
 1. Move the USB flash drive from the **technician PC** to the powered down **physical device**.
@@ -165,6 +170,7 @@ Install Windows with Windows Setup:
 
 ### [Virtual Machine](#tab/virtualmachine)
 
+<!-- TODO: Move the Boot part to the Top -->
 Start the Virtual Machine:
 
 1. Once the virtual machine is created, right-click on it in the Hyper-V Manager and select **Connect**.
@@ -189,7 +195,7 @@ Install Windows with Windows Setup:
 ---
 
 ## Enter Audit Mode
-
+<!-- TODO: Move the CTRL+SHIFT+F3 to the top - last step of installing windows -->
 Windows is installed on your reference device sample and you have a basic image that's ready to be customized in Audit mode.
 
 1. From the first OOBE screen, use the <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>F3</kbd> combination on your keyboard to enter Audit mode.

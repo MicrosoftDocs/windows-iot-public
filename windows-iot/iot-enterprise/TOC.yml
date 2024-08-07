@@ -72,11 +72,11 @@
     href: ./Commercialization/activation-guide.md
   - name: Licensing Guide
     href: ./Commercialization/Licensing.md
-  - name: 🔵Manufacturing Guide
-    href: ./Commercialization/Manufacturing-Guide.md
   - name: 🔴RemoveThis - Manufacturing Guide
     expanded: false
     items:
+    - name: 🔴Overview
+      href: ./Commercialization/Manufacturing-Guide.md
     - name: 🔴Lab 0 - Get the tools you need
       href: ./Commercialization/iot-ent-get-the-tools-you-need.md
     - name: 🔴Lab 1a - Create a basic image
