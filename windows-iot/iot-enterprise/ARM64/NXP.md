@@ -12,7 +12,7 @@ keywords: IoT Enterprise, Hardware, Windows IoT, Arm64, NXP
 
 # Windows IoT Enterprise on NXP
 
-Microsoft has worked alongside NXP to enable Windows IoT Enterprise support for NXP's i.MX 8 and i.MX 9 series of Arm64 processors. This enables lower power and lower cost Windows IoT Enterprise devices to be built than ever before while maintaining the familiar user interface, device management, and industry-leading OS support that users love. 
+Microsoft has worked alongside NXP to enable Windows IoT Enterprise support for NXP's i.MX 8 and i.MX 9 series of Arm64 processors. NXP's i.MX processors enable lower power and lower cost Windows IoT Enterprise devices to be built than ever before while maintaining the familiar user interface, device management, and industry-leading OS support that users love. 
 
 For the specific NXP processor models supported by each Windows IoT Enterprise OS version, refer to the [Windows IoT Enterprise Processor Lists](../Hardware/Processor_Requirements.md#windows-iot-enterprise-processor-lists).
 
@@ -70,7 +70,7 @@ The table below lists the features supported on each of the NXP i.MX EVK boards 
 
 <sup>1</sup> Wi-Fi support is added through a PCIe M.2 expansion port. NXP i.MX 8M Plus EVK ships with a supported 88W8997-based M.2 module. NXP provides drivers for M.2 modules based on the 88W8997 and 88W8897 Wi-Fi chips. 
 
-<sup>2</sup> Real time clock (RTC) is implemented on-SoC and will preserve time across reset, but will not preserve time when the system is powered off. Add a discrete RTC to preserve time when the system is powered off.
+<sup>2</sup> Real time clock (RTC) is implemented on-SoC and preserves time across reset, but doesn't preserve time when the system is powered off. Add a discrete RTC to preserve time when the system is powered off.
 
 ## Known Limitations
 
@@ -86,28 +86,28 @@ For example, if you want to disable the GPU for an application named WinFormsApp
 
 ### Browser GPU acceleration
 
-The NXP GPU driver does not support acceleration of browser-based workloads. Browser content renders using CPU instead. 
+The NXP GPU driver doesn't support acceleration of browser-based workloads. Browser content renders using CPU instead. 
 
 ### eMMC HS400
 
-Windows IoT Enterprise does not support eMMC HS400, which can result in lower peak storage throughput. In addition, the i.MX 93 storage driver does not support eMMC HS200.
+Windows IoT Enterprise doesn't support eMMC HS400, which can result in lower peak storage throughput. In addition, the i.MX 93 storage driver doesn't support eMMC HS200.
 
 ### Hyper-V
 
-The i.MX 8 family of application processors do not support Hyper-V virtualization or features that depend on it (e.g. Virtualization Based Security).
+The i.MX 8 family of application processors don't support Hyper-V virtualization or features that depend on it (for example, Virtualization Based Security).
 
 ### NPU
 
-Windows IoT Enterprise does not support the NPUs on either the i.MX 8M Plus or the i.MX 93 applications processors.
+Windows IoT Enterprise doesn't support the NPUs on either the i.MX 8M Plus or the i.MX 93 applications processors.
 
 ### PCIe storage
 
-Windows IoT Enterprise does not support expandible storage through PCIe (e.g. M.2 SSD).
+Windows IoT Enterprise doesn't support expandable storage through PCIe (for example, M.2 SSD).
 
 ### i.MX 8M 4GB+ memory support
 
-The i.MX 8M applications processor has a hardware limitation that only allows external devices to address the first 3GB of memory (RAM). i.MX 8M systems that have more than 4GB or more memory must ensure their DMA-capable drivers do not address memory outside of the safe 3GB region.
+The i.MX 8M applications processor has a hardware limitation that only allows external devices to address the first 3GB of memory (RAM). i.MX 8M systems that have more than 4GB or more memory must ensure their DMA-capable drivers don't address memory outside of the safe 3GB region.
 
 ### USB Device, USB OTG
  
-Windows IoT Enterprise does not support operating as a USB device, and hence, does not support USB OTG. 
+Windows IoT Enterprise doesn't support operating as a USB device, and hence, doesn't support USB OTG. 
