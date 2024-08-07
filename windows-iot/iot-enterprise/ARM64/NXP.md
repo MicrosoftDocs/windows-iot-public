@@ -76,11 +76,13 @@ The table below lists the features supported on each of the NXP i.MX EVK boards 
 
 ### Windows Forms application performance
 
-The NXP GPU driver is a [DirectX 11 Feature Level 9_3](/windows/win32/direct3d11/overviews-direct3d-11-devices-downlevel-intro) driver that supports acceleration of GDI, WPF, UWP, and WinUI-based applications. It does not support GDI+ applications. Application frameworks that mix GDI and GDI+, such as Windows Forms, run slower when they offload the graphics workload to the NXP GPU. You can prevent this by disabling GPU offload for the specific application through registry.
+Windows Forms applications run slower when the GPU is enabled due to how Windows Forms’ underlying graphics API (GDI+) handles rendering. You can prevent this performance slowdown by disabling the GPU for the specific application through registry:
 
-For example, if you want to disable GPU offload for an application named WinFormsApp.exe, you can create the following registry key in a command prompt: 
+For example, if you want to disable the GPU for an application named WinFormsApp.exe, you can create the following registry key in a command prompt: 
 
+    ```Powershell
     reg add HKLM\Software\VSI\GPU\GdiRedirSurf /v WinFormsApp.exe /t REG_DWORD /d 0
+    ```
 
 ### Browser GPU acceleration
 
