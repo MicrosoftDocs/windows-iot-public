@@ -26,11 +26,11 @@ Windows IoT Enterprise supports various peripheral interfaces on ARM64 devices. 
 
 ## Where can I download Windows?
 
-For more information on the various ways to get a Windows license, see our [licensing page](../Commercialization/Licensing.md).
+[!INCLUDE [Latest LTSC](../../includes/incl-latest-ltsc-release.md)]
 
 ## Which Windows IoT Enterprise version should I use?
 
-Both LTSC and GAC editions of Windows IoT Enterprise are available for NXP devices. You can find more information on the [Hardware Requirements](../Hardware/Hardware_Requirements.md) page.
+Both LTSC and GAC editions of Windows IoT Enterprise are available for NXP devices. You can find more information in our [Processor Requirements](../Hardware/Processor_Requirements.md) page.
 
 |SoC  |Windows 10 IoT Enterprise  |Windows 11 IoT Enterprise  |
 |---------|---------|---------|
@@ -39,7 +39,7 @@ Both LTSC and GAC editions of Windows IoT Enterprise are available for NXP devic
 |i.MX 8M Nano |    build 19044 or later     |    Not Supported    |
 |i.MX 8M Plus |    build 19044 or later     |    Not Supported    |
 |i.MX 8X      |    build 19044 or later     |    Not Supported    |
-|i.MX 93      |    build 19044 or later     |    Coming Soon      |
+|i.MX 93      |    build 19044 or later     |    build 26100.1 or later      |
 
 ## Can I run applications that aren't native to ARM64?
 
