@@ -31,29 +31,16 @@ To learn more about the status of the update rollout, known issues, and new info
 
 ## What's new
 
-### Accessibility
-
 | Feature | Description |
 | ------- | ----------- |
-|         |             |
-
-### Management
-
-| Feature | Description |
-| ------- | ----------- |
-|         |             |
-
-### Security
-
-| Feature | Description |
-| ------- | ----------- |
-|         |             |
-
-### User Experience
-
-| Feature | Description |
-| ------- | ----------- |
-|         |             |
+| **Taskbar & System Tray Enhancements** </br> [24H2] |• The network icon in the system tray now animates when a connection is in progress. This animation replaces the disconnected globe when a network is taking time to establish a connection. </br> • Improved VPN user experience in Quick Settings for both single and multiple VPNs. </br> • New refresh button on the Wi-Fi Quick Settings flyout with indication of scen in progress. </br> • Live captions quick setting for easier access. </br> • Updated design of the progress bar on task bar and start menu. |
+| **Accessibility Improvements** <br> [24H2] | • Live captions quick setting for easier access.|
+| **File Explorer Improvements** </br> [24H2] |• Support for creating 7-zip and TAR archives in addition to ZIP. </br> • New compression wizard for more formats and details. </br> • Option to apply selected action (skip, replace) for all conflicts when extracting files. </br> • PNG files now support viewing and editing metadata. |
+| **Energy Saver Feature** </br> [24H2] |</br> • Extends battery life and reduces energy use by trading off some system performance. </br> • Can be toggled on and off via Quick Settings or configured to run automatically at a certain battery percentage. </br> • New energy saver icon for PCs that are plugged in and do not have batteries. |
+| **Graphics Enhancements** </br> [24H2] | • HDR background support for JXR files. </br> • Content Adaptive Brightness Control (CABC) on plugged-in devices. </br> • Dynamic Refresh Rate toggle in advanced display settings. </br> • Improved refresh rate logic for different monitors. </br> • Options for tuning intensity and color boost to the color filters. |
+| **Bluetooth Enhancements** </br> [24H2] | • New capabilities for controlling audio presets and ambient sounds for Bluetooth LE Audio hearing aids. </br> • Enhanced Bluetooth & devices settings page. </br> • Monitoring essential Bluetooth device details such as battery life and connection status. |
+| **Networking Improvements** </br> [24H2] | • Support for Wi-Fi 7. </br> • Multi-Link operation (MLO) for using multiple bands simultaneously. </br> • 320 MHz ultra-wide bandwidth in 6GHz. </br> • 4096-QAM modulation for increased data transmission.|
+| **General Improvements** </br> [24H2] | • Voice Clarity feature for enhanced audio experience. </br> • Two new keyboard layouts for German extended layout standards (E1 and E2). </br> • New Hebrew keyboard layout.|
 
 ## Related articles
 
