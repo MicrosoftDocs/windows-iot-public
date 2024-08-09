@@ -80,7 +80,7 @@ Windows Forms applications run slower when the GPU is enabled due to how Windows
 
 For example, if you want to disable the GPU for an application named WinFormsApp.exe, you can create the following registry key in a command prompt: 
 
-```Powershell
+```Command Prompt
 reg add HKLM\Software\VSI\GPU\GdiRedirSurf /v WinFormsApp.exe /t REG_DWORD /d 0
 ```
 
