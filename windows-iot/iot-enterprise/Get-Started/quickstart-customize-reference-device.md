@@ -1,6 +1,6 @@
 ---
 title: "Quickstart: Customize a reference device in Audit mode"
-description: "Customize a reference device running Windows IoT Enterprise in Audit mode with Unbranded Boot, Custom Logon and Kiosk Mode."
+description: "Customize a reference device running Windows IoT Enterprise in Audit mode to create a custom Kiosk experience."
 author: asergaz
 ms.author: sergaz
 ms.service: windows-iot
@@ -14,7 +14,7 @@ ms.date: 06/28/2024
 
 # Quickstart: Customize a reference device in Audit mode
 
-In this quickstart, you customize a reference device running Windows IoT Enterprise in Audit mode. You lock down the device interaction experience with Unbranded Boot, Custom Logon and Kiosk Mode.
+In this quickstart, you customize a reference device running Windows IoT Enterprise in Audit mode to create a custom Kiosk experience.
 
 > [!TIP]
 > Most customizations in this lab can be made to an offline mounted Windows image, as well as in Audit mode. For more information, see [Modify a Windows image using DISM](/windows-hardware/manufacture/desktop/mount-and-modify-a-windows-image-using-dism).
@@ -130,7 +130,7 @@ This section provides steps to configure Custom Logon in Audit mode using DISM i
 
 <!-- TODO: Screenshot that should no longer see the Windows UI elements that relate to the Welcome screen and shutdown screen. -->
 
-## Enable a custom shell experience with Kiosk Mode
+## Enable a custom shell experience
 
 Windows IoT Enterprise allows you to build fixed purpose devices such as ATM machines, point-of-sale terminals, medical devices, digital signs, or kiosks. Kiosk mode helps you create a dedicated and locked down user experience on these fixed purpose devices. Windows IoT Enterprise offers a set of different locked-down experiences for public or specialized use: [assigned access single-app kiosks](../Customize/Single-App-Kiosk.md), [assigned access multi-app kiosks](../Customize/Multi-App-Kiosk.md), or [shell launcher](../Customize/Shell-Launcher.md).
 
