@@ -1,6 +1,6 @@
 ---
 title: "Quickstart: Customize a reference device in Audit mode"
-description: "Customize a reference device running Windows IoT Enterprise in Audit mode to create a custom Kiosk experience."
+description: "Customize a reference device running Windows IoT Enterprise in Audit mode and create a custom Kiosk experience."
 author: asergaz
 ms.author: sergaz
 ms.service: windows-iot
@@ -14,7 +14,7 @@ ms.date: 06/28/2024
 
 # Quickstart: Customize a reference device in Audit mode
 
-In this quickstart, you customize a reference device running Windows IoT Enterprise in Audit mode to create a custom Kiosk experience.
+In this quickstart, you customize a reference device running Windows IoT Enterprise in Audit mode and create a custom Kiosk experience.
 
 > [!TIP]
 > Most customizations in this lab can be made to an offline mounted Windows image, as well as in Audit mode. For more information, see [Modify a Windows image using DISM](/windows-hardware/manufacture/desktop/mount-and-modify-a-windows-image-using-dism).
@@ -35,7 +35,7 @@ When Windows boots, it starts in either Out-Of-Box Experience (OOBE) mode or in 
 - Test the validity of a Windows installation. Before you deploy the system to end users, you can perform tests on the system without creating a user account. Then you can prepare the system to start in OOBE on the next boot.
 - Add more customizations to a reference image. This reduces the number of images that you have to manage. For example, you can create a single reference image that contains the basic customizations that you want to apply to all Windows images. You can then boot the reference image to audit mode and make more changes that are specific to the computer. These changes can be customer-requested applications or specific device drivers.
 
-For more information see [Audit mode overview](/windows-hardware/manufacture/desktop/audit-mode-overview).
+For more information, see [Audit mode overview](/windows-hardware/manufacture/desktop/audit-mode-overview).
 
 ## Suppress all Windows UI elements during startup with Unbranded Boot
 

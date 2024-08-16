@@ -22,7 +22,7 @@ In this quickstart, you sysprep and capture the reference device image of Window
 
 ## Sysprep the reference device sample
 
-When you've made your customizations in audit mode, you can capture an image of your customized reference device. While audit mode isn't required, it does provide a scenario where the device can be customized online prior to OOBE.
+After you make your customizations in audit mode, you can capture an image of your customized reference device. While audit mode isn't required, it does provide a scenario where the device can be customized online before going into the Out of Box experience (OOBE).
 
 This section provides steps to sysprep the reference device and apply to both physical device and virtual machine:
 
@@ -44,13 +44,13 @@ After Sysprep prepares the image, the reference device will shut down. The next 
 
 ## Create a bootable WinPE drive
 
-Windows PE (WinPE) is a small operating system used to install, deploy, and repair Windows desktop editions, Windows Server, and other Windows operating systems. It is an add-on to the Windows Assessment and Deployment Kit (ADK) that you previously installed in your technician PC.
+Windows PE (WinPE) is a small operating system used to install, deploy, and repair Windows desktop editions, Windows Server, and other Windows operating systems. It's an add-on to the Windows Assessment and Deployment Kit (ADK) that you previously installed in your technician PC.
 
-In your **technician PC** follow the steps to create a bootable WinPE drive:
+In your **technician PC**, follow the steps to create a bootable WinPE drive:
 
 ### [Physical Device](#tab/physicaldevice)
 
-In this section, you create a bootable WinPE USB drive. You will create multiple partitions on the USB drive. This allows you to have a FAT32 partition for WinPE and an NTFS partition for the captured WIM file. You can use this USB drive for both capturing and deploying your image.
+In this section, you create a bootable WinPE USB drive with multiple partitions. Having multiple partitions allows you to have a FAT32 partition for WinPE and an NTFS partition for the captured WIM file. You can use this USB drive for both capturing and deploying your image.
 
 > [!TIP]
 > You can use the same USB drive where you created the bootable Windows IoT Enterprise installation media in the previous quickstart.
@@ -87,7 +87,7 @@ In this section, you create a bootable WinPE USB drive. You will create multiple
     copype amd64 C:\WinPE 
     ```
 
-    This command copies the 64-bit WinPE files to C:\WinPE. Note that the destination folder is created automatically.
+    This command copies the 64-bit WinPE files to C:\WinPE. The destination folder is created automatically.
 
 1. Copy the WinPE files to your USB key.
 
@@ -95,7 +95,7 @@ In this section, you create a bootable WinPE USB drive. You will create multiple
     makewinpemedia /ufd C:\WinPE P:
     ```
 
-    Where *P:* is the USB drive with the WinPE Partition. This command formats the partition and erase any data that's on it.
+    Where *P:* is the USB drive with the WinPE Partition. This command formats the partition and erases any data that's on it.
 
 1. Move the USB flash drive from the technician PC to the reference device.
 
@@ -108,18 +108,18 @@ In this section, you create a bootable WinPE virtual hard disk drive (VHD) and a
 1. In the left pane, select **SCSI Controller**.
 1. In the right pane, select **Hard Drive** and then **Add**.
 1. Select **New** to create a VHD.
-1. Follow the wizard to create a new VHD. For WinPE you can define a size of *4 GB*.
+1. Follow the wizard to create a new VHD, for WinPE you can define a size of *4 GB*.
 1. Repeat the steps to create another VHD to store the WIM file. You can define the size as *8 GB*.
-1. At the end select **Apply** and **OK** to create the VHDs.
+1. At the end, select **Apply** and **OK** to create the VHDs.
 
 Mount the VHDs on your **technician PC**
 
 1. Press <kbd>Windows</kbd> + <kbd>R</kbd>, type *diskmgmt.msc*, and press **Enter**.
 1. In Disk Management, select **Action** in the menu bar.
 1. Select **Attach VHD**.
-1. In the dialog that appears, select *Browse* and navigate to the location of your VHD file.
+1. In the dialog that appears, select *Browse*, and navigate to the location of your VHD file.
 1. Select the VHD file and select **OK**.
-1. The VHD will now appear as a new disk in Disk Management.
+1. The VHD shows as a new disk in Disk Management.
 1. Initialize the VHD by right-clicking on the disk and selecting **Initialize Disk**.
 1. Create a volume by right-clicking on the unallocated space and selecting **New Simple Volume...**.
 1. Follow the wizard to create a new volume, letting *FAT32* as the file system for WinPE.
@@ -136,7 +136,7 @@ Add WinPE files to the VHD:
     copype amd64 C:\WinPE 
     ```
 
-    This command copies the 64-bit WinPE files to C:\WinPE. Note that the destination folder is created automatically.
+    This command copies the 64-bit WinPE files to C:\WinPE. The destination folder is created automatically.
 
 1. Copy the WinPE media files to the VHD
 
@@ -157,7 +157,7 @@ Unmount the VHDs from your **technician PC**:
 
 In this section, you capture a WIM image from the reference device's hard drive. This WIM can be used in development or in production. It's common to capture OS images during different stages of the development process. For example, the following steps could be used to capture a base image of the OS with default apps installed. A later image could be captured with more end customer apps installed.
 
-In your **reference device sample** follow the steps to capture a WIM image:
+In your **reference device sample**, follow the steps to capture a WIM image:
 
 ### [Physical Device](#tab/physicaldevice)
 
@@ -171,7 +171,7 @@ In your **reference device sample** follow the steps to capture a WIM image:
     > [!TIP]
     > If you have a different keyboard layout, you can change the keyboard layout by running `wpeutil setKeyboardLayout 0816:00000816` where the *language:keyboard* pair list for your desired layout can be found in [input locales](/windows-hardware/manufacture/desktop/default-input-locales-for-windows-language-packs). Then run `winpeshl.exe` from the WinPE Command Prompt to ensure the new layout is applied to the current session.
 
-1. From the WinPE Command prompt run Diskpart:
+1. From the WinPE Command prompt, run Diskpart:
 
    ```cmd
    diskpart
@@ -230,9 +230,9 @@ In your **reference device sample** follow the steps to capture a WIM image:
         Volume 5     D   Images       NTFS   Partition     14 GB  Healthy           
     ```
 
-    In this example, *Partition 3* is of *Type Primary* and is where Windows IoT Enterprise is installed. Letters *C*, *D* and *E* are assigned to the *WinPE*, *Images* and *DVD-ROM* volumes respectively.
+    In this example, *Partition 3* is of *Type Primary* and is where Windows IoT Enterprise is installed. Letters *C*, *D*, and *E* are assigned to the *WinPE*, *Images*, and *DVD-ROM* volumes respectively.
 
-1. Select Partition 3 and assign a drive letter that is not already in use:
+1. Select Partition 3 and assign a drive letter that isn't already in use:
 
     ```cmd
     select partition 3
@@ -277,7 +277,7 @@ Select WinPE VHD as the first in boot order:
 1. Right-click on the Virtual Machine and select **Settings**.
 1. In the left pane, select **Firmware**.
 1. In the right pane, move WinPE VHD to the top.
-1. At the end select **Apply** and **OK**
+1. At the end, select **Apply** and **OK**
 1. Start the Virtual machine
 
 The system boots to the WinPE, where you see a Command prompt.
@@ -285,7 +285,7 @@ The system boots to the WinPE, where you see a Command prompt.
 > [!TIP]
 > If you have a different keyboard layout, you can change the keyboard layout by running `wpeutil setKeyboardLayout 0816:00000816` where the *language:keyboard* pair list for your desired layout can be found in [input locales](/windows-hardware/manufacture/desktop/default-input-locales-for-windows-language-packs). Then run `winpeshl.exe` from the WinPE Command Prompt to ensure the new layout is applied to the current session.
 
-1. From the WinPE Command prompt run Diskpart:
+1. From the WinPE Command prompt, run Diskpart:
 
    ```cmd
    diskpart
@@ -345,9 +345,9 @@ The system boots to the WinPE, where you see a Command prompt.
         Volume 5     D   Images       NTFS   Partition     16 GB  Healthy           
     ```
 
-    In this example, *Partition 3* is of *Type Primary* and is where Windows IoT Enterprise is installed. Letters *C*, *D* and *E* are assigned to the *WinPE*, *Images* and *DVD-ROM* volumes respectively.
+    In this example, *Partition 3* is of *Type Primary* and is where Windows IoT Enterprise is installed. Letters *C*, *D*, and *E* are assigned to the *WinPE*, *Images*, and *DVD-ROM* volumes respectively.
 
-1. Select Partition 3 and assign a drive letter that is not already in use:
+1. Select Partition 3 and assign a drive letter that isn't already in use:
 
     ```cmd
     select partition 3
@@ -388,15 +388,15 @@ The system boots to the WinPE, where you see a Command prompt.
 
 ## Deploy the captured WIM image from WinPE
 
-In this section, you deploy a WIM image from WinPE. The reference device sample that you've been creating in these quickstarts should already be in a deployed state; it's been captured in a Sysprepped state and, when deployed, boot into OOBE. This section provides steps to deploy the captured WIM image to a new device, though you can also use this process to deploy the image to the same device you have captured it from.
+In this section, you deploy a WIM image from WinPE. The reference device sample that you create in these quickstarts is already in a deployed state since it was captured in a Sysprepped state and, when deployed, boots into OOBE. This section provides steps to deploy the captured WIM image to a new device, though you can also use this process to deploy the image to the same device you captured it from.
 
-In your **new device** follow the steps to deploy the WIM image:
+In your **new device**, follow the steps to deploy the WIM image:
 
 ### [Physical Device](#tab/physicaldevice)
 
 1. Boot the device from the bootable WinPE USB flash drive.
 
-1. From the WinPE Command prompt run Diskpart:
+1. From the WinPE Command prompt, run Diskpart:
 
    ```cmd
    diskpart
@@ -448,13 +448,13 @@ In your **new device** follow the steps to deploy the WIM image:
     exit
     ```
 
-1. Deploy the WIM image to the W: drive created in the previous step. From the WinPE command prompt:
+1. From the WinPE command prompt, deploy the WIM image to the W: drive created in the previous step:
 
     ```cmd
     Dism /Apply-Image /ImageFile:D:\WindowsIoTEnterprise.wim /ApplyDir:W:\ /Index:1
     ```
 
-1. Configure the default BCD on the system, which is a required step as the disk was freshly partitioned and formatted. From the WinPE Command Prompt:
+1. From the WinPE Command Prompt, configure the default BCD on the system, which is a required step as the disk was freshly partitioned and formatted:
 
     ```cmd
     W:\Windows\System32\bcdboot W:\Windows /s S:
@@ -491,7 +491,7 @@ Configure the Number of Processors:
 
 1. After the virtual machine is created, right-click on it in the Hyper-V Manager and select **Settings**.
 1. In the left pane, select **Processor**.
-1. In the right pane, specify a minimum of *2 virtual processors*.
+1. In the right pane, specify a minimum of *two virtual processors*.
 
 Select WinPE VHD as the first in boot order:
 
@@ -502,12 +502,12 @@ Select WinPE VHD as the first in boot order:
 1. Select **Apply**.
 1. In the left pane, select **Firmware**.
 1. In the right pane, move WinPE VHD to the top.
-1. At the end select **Apply** and **OK**
+1. At the end, select **Apply** and **OK**
 1. Start the Virtual machine
 
 The system boots to the WinPE, where you see a Command prompt.
 
-1. From the WinPE Command prompt run Diskpart:
+1. From the WinPE Command prompt, run Diskpart:
 
    ```cmd
    diskpart
@@ -562,13 +562,13 @@ The system boots to the WinPE, where you see a Command prompt.
     exit
     ```
 
-1. Deploy the WIM image to the W: drive created in the previous step. From the WinPE command prompt:
+1. From the WinPE command prompt, deploy the WIM image to the W: drive created in the previous step:
 
     ```cmd
     Dism /Apply-Image /ImageFile:D:\WindowsIoTEnterprise.wim /ApplyDir:W:\ /Index:1
     ```
 
-1. Configure the default BCD on the system, which is a required step as the disk was freshly partitioned and formatted. From the WinPE Command Prompt:
+1. From the WinPE Command Prompt, configure the default BCD on the system, which is a required step as the disk was freshly partitioned and formatted:
 
     ```cmd
     W:\Windows\System32\bcdboot W:\Windows /s S:

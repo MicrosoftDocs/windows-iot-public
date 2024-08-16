@@ -29,8 +29,8 @@ To prepare your **technician PC (your work PC)**, you need:
 
 - Windows 11 with the latest updates.
 - Have at least 15 GB of free space for installing the software and for modifying Windows IoT Enterprise images.
-- Have [Windows ADK](/windows-hardware/get-started/adk-install) with Deployment Tools, Configuration Designer, and the Windows PE add-on installed.
-- Have a Windows 11 IoT Enterprise LTSC 2024 ISO.
+- Have [Windows Assessment and Deployment Kit (ADK)](/windows-hardware/get-started/adk-install) with Deployment Tools, Configuration Designer, and the Windows PE add-on installed.
+- Have a Windows 11 IoT Enterprise Long-Term Servicing Channel (LTSC) 2024 ISO.
     [!INCLUDE [Latest LTSC](../../includes/incl-latest-ltsc-release.md)]
 
 To prepare your **reference device sample**, you need:
@@ -38,12 +38,12 @@ To prepare your **reference device sample**, you need:
 ### [Physical Device](#tab/physicaldevice)
 
 - A physical device that meets the [Minimum System Requirements for Windows IoT Enterprise](../Hardware/System_Requirements.md).
-- Depending on the device you may need an external keyboard, mouse and a monitor.
+- An external keyboard, mouse, and a monitor (depending on the device).
 - A USB key that's at least 8 GB in size and that can have all information removed from it.
 
 ### A bootable Windows IoT Enterprise installation media
 
-The typical way to install Windows in a physical device is to create a bootable USB flash drive, and then copy the Windows installation files onto the flash drive. Once you have the files on the flash drive, you can insert it into the device and boot from the flash drive. See [Install Windows from a USB flash drive](/windows-hardware/manufacture/desktop/install-windows-from-a-usb-flash-drive) to learn more.
+The typical way to install Windows in a physical device is to create a bootable USB flash drive, and then copy the Windows installation files onto the flash drive. Once you have the files on the flash drive, you can insert it into the device and boot from the flash drive. To learn more, see [Install Windows from a USB flash drive](/windows-hardware/manufacture/desktop/install-windows-from-a-usb-flash-drive).
 
 Follow these steps to prepare the installation flash drive:
 
@@ -71,7 +71,7 @@ Follow these steps to prepare the installation flash drive:
 
    In this example, Disk 1 is our flash drive, because the size represents the size of the flash drive that we're using.
 
-1. When you've identified the disk number of your flash drive, use `diskpart` to prepare the drive so you can use it as a bootable installation drive:
+1. When you identify the disk number of your flash drive, use `diskpart` to prepare the drive so you can use it as a bootable installation drive:
 
     > [!WARNING]
     >The following commands will erase everything on the flash drive.
@@ -94,7 +94,7 @@ Follow these steps to prepare the installation flash drive:
 Boot the device to Windows Setup:
 
 1. Move the USB flash drive from the **technician PC** to the powered down **physical device**.
-1. Turn on your physical device and enter the device's boot menu. Your device has a specific button combination or keyboard key to press to get to the boot menu. You may need to consult your hardware documentation if you aren't familiar with how to get to your device's boot menu.  
+1. Turn on your physical device and enter the device's boot menu. Your device has a specific button combination or keyboard key to press to get to the boot menu. You might need to consult your hardware documentation if you aren't familiar with how to get to your device's boot menu.  
 1. From the boot menu, select the flash drive to boot from. Your device boots from the flash drive and enter into the Windows Setup.
 
 ### [Virtual Machine](#tab/virtualmachine)
@@ -118,13 +118,13 @@ Configure the Virtual Machine:
 1. Assign a minimum of *2 GB* of memory to the virtual machine.
 1. Leave the virtual machine with no connection to the network.
 1. When you reach the **Connect Virtual Hard Disk** step, select **Create a virtual hard disk**.
-1. Specify the name, location, and size of the VHD. For example, set the size to *64 GB*.
+1. Specify the name, location, and size of the Virtual Hard Disk (VHD). For example, set the size to *64 GB*.
 
 Configure the Number of Processors:
 
 1. After the virtual machine is created, right-click on it in the Hyper-V Manager and select **Settings**.
 1. In the left pane, select **Processor**.
-1. In the right pane, specify a minimum of *2 virtual processors*.
+1. In the right pane, specify a minimum of *two virtual processors*.
 
 Attach the Windows IoT Enterprise ISO:
 
@@ -133,7 +133,7 @@ Attach the Windows IoT Enterprise ISO:
 
 Start the Virtual Machine:
 
-1. In the Hyper-V Manager, right-click on the Virtual Machine you created and select **Connect**.
+1. In the Hyper-V Manager, right-click on the Virtual Machine and select **Connect**.
 1. Select **Start** to power on the virtual machine.
 1. Your device boots from the CD/DVD-ROM ISO and enter into the Windows Setup.
 
@@ -152,7 +152,7 @@ Install Windows with Windows Setup:
 
 1. Select **Install now**.
 
-1. On the **Activate Windows** screen, insert a valid product key or select **I don't have a product key** if you are using an evaluation edition.  
+1. On the **Activate Windows** screen, insert a valid product key, or select **I don't have a product key** if you're using an evaluation edition.  
 
 1. On the **Application notices and license terms** screen, if the terms are acceptable check the checkbox that you accept the license terms and then select **Next**.  
 
@@ -160,7 +160,7 @@ Install Windows with Windows Setup:
 
 1. In the **Where do you want to install Windows?** screen, if the device has existing partitions, we recommend deleting the partitions so you have a single block on unallocated space to start from, then select **Next** to start the installation.
 
-1. Your device restarts a couple of times during the operating system installation. Wait until the device has entered OOBE (Out Of Box Experience) and is showing a screen that says **Let's start with region.**.
+1. Your device restarts a couple of times during the operating system installation. Wait until the device enters OOBE (Out Of Box Experience) and is showing a screen that says **Let's start with region.**.
 
 <!-- TODO: Screenshot of Let's start with region -->
 
