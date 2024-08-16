@@ -104,7 +104,7 @@ Boot the device to Windows Setup:
     > [!IMPORTANT]
     > This series of quickstarts focuses on using Hyper-V with Windows 11. First, confirm that you can [install Hyper-V](/virtualization/hyper-v-on-windows/quick-start/enable-hyper-v) on your **technician PC**. If Hyper-V is not suitable for your setup, consider using alternative virtualization technologies.
 
-### A Virtual Machine with a bootable Windows IoT Enterprise ISO:
+### A virtual machine booting to Windows IoT Enterprise ISO
 
 Create the Virtual Machine in Hyper-V:
 
@@ -139,7 +139,6 @@ Start the Virtual Machine:
 
 ---
 
-<!-- TODO: Make more steps and less paragraph long steps -->
 ## Install Windows IoT Enterprise on your reference device sample
 
 This section covers how to install Windows IoT Enterprise on your reference device sample using Windows Setup. The steps apply to both **physical device** and **virtual machine**.
@@ -150,11 +149,17 @@ This section covers how to install Windows IoT Enterprise on your reference devi
 Install Windows with Windows Setup:
 
 1. Step through the Windows Setup menus, providing the requested information. Choose the settings, such as language, time and currency, and keyboard options that apply to your device and proceed to the next screen.
+
 1. Select **Install now**.
-1. On the **Activate Windows screen**, insert a valid product key.  Select **I don't have a product key** if you don't have a product key.  
+
+1. On the **Activate Windows** screen, insert a valid product key or select **I don't have a product key** if you are using an evaluation edition.  
+
 1. On the **Application notices and license terms** screen, if the terms are acceptable check the checkbox that you accept the license terms and then select **Next**.  
-1. On the **Which type of installation do you want** screen, select **Custom: Install Windows only**. This option starts a clean installation
+
+1. On the **Which type of installation do you want** screen, select **Custom: Install Windows only** to start a clean installation.
+
 1. In the **Where do you want to install Windows?** screen, if the device has existing partitions, we recommend deleting the partitions so you have a single block on unallocated space to start from, then select **Next** to start the installation.
+
 1. Your device restarts a couple of times during the operating system installation. Wait until the device has entered OOBE (Out Of Box Experience) and is showing a screen that says **Let's start with region.**.
 
 <!-- TODO: Screenshot of Let's start with region -->
@@ -163,11 +168,13 @@ Install Windows with Windows Setup:
 > When at the **Let's start with region** OOBE screen don't continue the setup as you will need to enter Audit mode at this point. In the event that you started the setup of an account by mistake, you can open an Administrative Command Prompt and run `C:\Windows\System32\Sysprep\sysprep.exe /audit` to enter Audit mode and continue the steps.
 
 ## Enter Audit Mode
-<!-- TODO: Move the CTRL+SHIFT+F3 to the top - last step of installing windows -->
+
 Windows is installed on your reference device sample and you have a basic image that's ready to be customized in Audit mode.
 
 1. From the first OOBE screen, use the <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>F3</kbd> combination on your keyboard to enter Audit mode.
+
 1. Your device should restart in Audit mode. You know you're in Audit mode when you see a System Preparation Tool window. Select **Cancel** on the System Preparation Tool to close it.
+
 1. Every time you reboot the system you see the System Preparation Tool, also called Sysprep.
 
 <!-- TODO: Screenshot of Audit Mode screen showing "System Preparation Tool" -->
