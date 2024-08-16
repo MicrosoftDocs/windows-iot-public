@@ -98,65 +98,9 @@ Follow these steps to prepare the installation flash drive:
     > [!IMPORTANT]
     > This series of quickstarts focuses on using Hyper-V with Windows 11. First, confirm that you can [install Hyper-V](/virtualization/hyper-v-on-windows/quick-start/enable-hyper-v) on your **technician PC**. If Hyper-V is not suitable for your setup, consider using alternative virtualization technologies.
 
----
-<!-- TODO: Move the this H2 to inside the prerequisites tabs-->
-## Create a bootable media
+### A Virtual Machine with a bootable Windows IoT Enterprise ISO:
 
-This section provides steps to create a bootable Windows IoT Enterprise installation media for use during installation on the reference device sample.
-
-### [Physical Device](#tab/physicaldevice)
-
-The typical way to install Windows in a physical device is to create a bootable USB flash drive, and then copy the Windows installation files onto the flash drive. Once you have the files on the flash drive, you can insert it into the device and boot from the flash drive. See [Install Windows from a USB flash drive](/windows-hardware/manufacture/desktop/install-windows-from-a-usb-flash-drive) to learn more.
-
-Follow these steps to prepare the installation flash drive:
-
-1. Insert a flash drive into your Technician PC.
-1. Open an Administrative Command Prompt and run `diskpart`:
-
-   ```cmd
-   diskpart
-   ```
-
-1. Use `diskpart` to list the disks so you can identify the flash drive:
-
-   ```cmd
-   list disk
-   ```
-
-   You should see something like:
-
-   ```cmd
-   Disk ###  Status         Size     Free     Dyn  Gpt
-   --------  -------------  -------  -------  ---  ---
-   Disk 0    Online          238  GB     0 B        *
-   Disk 1    Online          8192 MB     0 B      
-   ```
-
-   In this example, Disk 1 is our flash drive, because the size represents the size of the flash drive that we're using.
-
-1. When you've identified the disk number of your flash drive, use `diskpart` to prepare the drive so you can use it as a bootable installation drive:
-
-    > [!WARNING]
-    >The following commands will erase everything on the flash drive.
-
-    Enter the following commands from within `diskpart`, where Disk 1 is the flash drive:
-
-    ```cmd
-    Select disk 1
-    clean
-    create partition primary
-    select partition 1
-    active
-    Format fs=fat32 quick
-    assign
-    exit
-    ```
-
-1. Copy the entire contents of the Windows IoT Enterprise ISO onto the root of the flash drive. You can use File explorer to manually copy the files.  
-
-### [Virtual Machine](#tab/virtualmachine)
-
-Create the Virtual Machine and a bootable CD/DVD-ROM in Hyper-V:
+Create the Virtual Machine in Hyper-V:
 
 1. Open Hyper-V Manager.
 1. In the Hyper-V Manager, select **New** in the **Actions pane**, then select **Virtual Machine**.
@@ -170,16 +114,16 @@ Configure the Virtual Machine:
 1. When you reach the **Connect Virtual Hard Disk** step, select **Create a virtual hard disk**.
 1. Specify the name, location, and size of the VHD. For example, set the size to *64 GB*.
 
-Attach the Windows IoT Enterprise ISO:
-
-1. In the **Installation Options** step, select **Install an operating system from a bootable CD/DVD-ROM**.
-1. Choose **Image file (.iso)** and browse to the location of your Windows IoT Enterprise ISO file.
-
 Configure the Number of Processors:
 
 1. After the virtual machine is created, right-click on it in the Hyper-V Manager and select **Settings**.
 1. In the left pane, select **Processor**.
 1. In the right pane, specify a minimum of *2 virtual processors*.
+
+Attach the Windows IoT Enterprise ISO:
+
+1. In the **Installation Options** step, select **Install an operating system from a bootable CD/DVD-ROM**.
+1. Choose **Image file (.iso)** and browse to the location of your Windows IoT Enterprise ISO file.
 
 ---
 
