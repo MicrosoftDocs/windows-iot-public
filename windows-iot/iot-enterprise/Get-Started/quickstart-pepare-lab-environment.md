@@ -16,12 +16,12 @@ ms.date: 06/28/2024
 
 In this quickstart, you prepare the technician PC to then install a basic Windows IoT Enterprise image onto a reference device sample. At the end of this quickstart, you have a technician PC ready to start building Windows IoT Enterprise images, and a reference device sample with Windows IoT Enterprise installed.
 
-<!-- TODO: Add reference to the following quickstarts "The lab env created during this exercise will be used in the successor quickstarts A,B, C -->
-The following quicsktarts in this series build on this one to customize the device in audit mode and then sysprep and capture the reference device image. Alternatively, you can use the lab environment prepared in this quickstart to follow other tutorials under [Customization](../Customize/customize-overview.md), [Optimization](../Optimize/Overview.md) and [Deployment](../Deployment/index.md).
+The lab environment created during this exercise is used in the successor quickstarts: [Quickstart: Customize a reference device in Audit mode](quickstart-customize-reference-device.md) and [Quickstart: Sysprep and capture the reference device image, and deploy to a new device](quickstart-sysprep-capture-deploy.md).
 
-<!-- TODO: Incorporate the TIP in the paragraph above -->
+In this series of quickstarts, you can opt by using a **Virtual Machine** as your reference device sample. In a true development or production environment, you would start by choosing a **Physical Device** that meets the [Minimum System Requirements for Windows IoT Enterprise](../Hardware/System_Requirements.md).
+
 > [!TIP]
-> This series of quickstarts is intended to help you get started with Windows IoT Enterprise as quickly as possible, and that is why we provide you steps to test it in a Virtual Machine. In a true development or production environment, you would start by choosing a **physical device** that meets the [Minimum System Requirements for Windows IoT Enterprise](../Hardware/System_Requirements.md). You would then build base images for this device and test it. Next, you would modify the base images to create designs for different audiences, including branding, logos, languages, and apps.
+> You can also use the lab environment created during this exercise, to complete other tutorials under [Customization](../Customize/customize-overview.md), [Optimization](../Optimize/Overview.md) and [Deployment](../Deployment/index.md).
 
 ## Prerequisites
 
@@ -33,9 +33,6 @@ To prepare your **technician PC (your work PC)**, you need:
 - Have a Windows 11 IoT Enterprise LTSC 2024 ISO.
     [!INCLUDE [Latest LTSC](../../includes/incl-latest-ltsc-release.md)]
 
-<!--TODO: Confirm that we don't need to demonstrate Language and Feature installation in this Getting Started
- - Have the [Languages and Optional Features ISO](/windows-hardware/manufacture/desktop/languages-overview?view=windows-11&preserve-view=true). If you can't download the ISO we will provide you the alternative steps to customize the device using network connection. -->
-
 To prepare your **reference device sample**, you need:
 
 ### [Physical Device](#tab/physicaldevice)
@@ -43,6 +40,56 @@ To prepare your **reference device sample**, you need:
 - A physical device that meets the [Minimum System Requirements for Windows IoT Enterprise](../Hardware/System_Requirements.md).
 - Depending on the device you may need an external keyboard, mouse and a monitor.
 - A USB key that's at least 8 GB in size and that can have all information removed from it.
+
+### A bootable Windows IoT Enterprise installation media
+
+The typical way to install Windows in a physical device is to create a bootable USB flash drive, and then copy the Windows installation files onto the flash drive. Once you have the files on the flash drive, you can insert it into the device and boot from the flash drive. See [Install Windows from a USB flash drive](/windows-hardware/manufacture/desktop/install-windows-from-a-usb-flash-drive) to learn more.
+
+Follow these steps to prepare the installation flash drive:
+
+1. Insert a flash drive into your Technician PC.
+1. Open an Administrative Command Prompt and run `diskpart`:
+
+   ```cmd
+   diskpart
+   ```
+
+1. Use `diskpart` to list the disks so you can identify the flash drive:
+
+   ```cmd
+   list disk
+   ```
+
+   You should see something like:
+
+   ```cmd
+   Disk ###  Status         Size     Free     Dyn  Gpt
+   --------  -------------  -------  -------  ---  ---
+   Disk 0    Online          238  GB     0 B        *
+   Disk 1    Online          8192 MB     0 B      
+   ```
+
+   In this example, Disk 1 is our flash drive, because the size represents the size of the flash drive that we're using.
+
+1. When you've identified the disk number of your flash drive, use `diskpart` to prepare the drive so you can use it as a bootable installation drive:
+
+    > [!WARNING]
+    >The following commands will erase everything on the flash drive.
+
+    Enter the following commands from within `diskpart`, where Disk 1 is the flash drive:
+
+    ```cmd
+    Select disk 1
+    clean
+    create partition primary
+    select partition 1
+    active
+    Format fs=fat32 quick
+    assign
+    exit
+    ```
+
+1. Copy the entire contents of the Windows IoT Enterprise ISO onto the root of the flash drive. You can use File explorer to manually copy the files.  
 
 ### [Virtual Machine](#tab/virtualmachine)
 
