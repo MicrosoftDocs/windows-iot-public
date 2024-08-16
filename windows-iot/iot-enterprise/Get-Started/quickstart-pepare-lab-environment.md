@@ -160,7 +160,7 @@ Install Windows with Windows Setup:
 
 1. In the **Where do you want to install Windows?** screen, if the device has existing partitions, we recommend deleting the partitions so you have a single block on unallocated space to start from, then select **Next** to start the installation.
 
-1. Your device restarts a couple of times during the operating system installation. Wait until the device enters OOBE (Out Of Box Experience) and is showing a screen that says **Let's start with region.**.
+1. Your device restarts a couple of times during the operating system installation. Wait until the device enters OOBE (Out Of Box Experience) and is showing a screen that says **Let's start with region**.
 
 <!-- TODO: Screenshot of Let's start with region -->
 
@@ -171,7 +171,7 @@ Install Windows with Windows Setup:
 
 Windows is installed on your reference device sample and you have a basic image that's ready to be customized in Audit mode.
 
-1. From the first OOBE screen, use the <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>F3</kbd> combination on your keyboard to enter Audit mode.
+1. From the first OOBE screen that says **Let's start with region**, use the <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>F3</kbd> combination on your keyboard to enter Audit mode.
 
 1. Your device should restart in Audit mode. You know you're in Audit mode when you see a System Preparation Tool window. Select **Cancel** on the System Preparation Tool to close it.
 
