@@ -89,7 +89,13 @@ Follow these steps to prepare the installation flash drive:
     exit
     ```
 
-1. Copy the entire contents of the Windows IoT Enterprise ISO onto the root of the flash drive. You can use File explorer to manually copy the files.  
+1. Copy the entire contents of the Windows IoT Enterprise ISO onto the root of the flash drive. You can use File explorer to manually copy the files.
+
+Boot the device to Windows Setup:
+
+1. Move the USB flash drive from the **technician PC** to the powered down **physical device**.
+1. Turn on your physical device and enter the device's boot menu. Your device has a specific button combination or keyboard key to press to get to the boot menu. You may need to consult your hardware documentation if you aren't familiar with how to get to your device's boot menu.  
+1. From the boot menu, select the flash drive to boot from. Your device boots from the flash drive and enter into the Windows Setup.
 
 ### [Virtual Machine](#tab/virtualmachine)
 
@@ -125,24 +131,21 @@ Attach the Windows IoT Enterprise ISO:
 1. In the **Installation Options** step, select **Install an operating system from a bootable CD/DVD-ROM**.
 1. Choose **Image file (.iso)** and browse to the location of your Windows IoT Enterprise ISO file.
 
+Start the Virtual Machine:
+
+1. In the Hyper-V Manager, right-click on the Virtual Machine you created and select **Connect**.
+1. Select **Start** to power on the virtual machine.
+1. Your device boots from the CD/DVD-ROM ISO and enter into the Windows Setup.
+
 ---
 
 <!-- TODO: Make more steps and less paragraph long steps -->
 ## Install Windows IoT Enterprise on your reference device sample
 
-This section covers how to install Windows IoT Enterprise on your reference device sample using Windows Setup.
+This section covers how to install Windows IoT Enterprise on your reference device sample using Windows Setup. The steps apply to both **physical device** and **virtual machine**.
 
 > [!TIP]
 > We recommend not having your device connected to any network during Windows Setup. Network connectivity could cause it to come out of the deferred activation state.
-
-### [Physical Device](#tab/physicaldevice)
-
-<!-- TODO: Move the Boot part to the Top -->
-Boot the device to Windows Setup:
-
-1. Move the USB flash drive from the **technician PC** to the powered down **physical device**.
-1. Turn on your physical device and enter the device's boot menu. Your device has a specific button combination or keyboard key to press to get to the boot menu. You may need to consult your hardware documentation if you aren't familiar with how to get to your device's boot menu.  
-1. From the boot menu, select the flash drive to boot from. Your device boots from the flash drive and enter into the Windows Setup.
 
 Install Windows with Windows Setup:
 
@@ -158,32 +161,6 @@ Install Windows with Windows Setup:
 
 > [!NOTE]
 > When at the **Let's start with region** OOBE screen don't continue the setup as you will need to enter Audit mode at this point. In the event that you started the setup of an account by mistake, you can open an Administrative Command Prompt and run `C:\Windows\System32\Sysprep\sysprep.exe /audit` to enter Audit mode and continue the steps.
-
-### [Virtual Machine](#tab/virtualmachine)
-
-<!-- TODO: Move the Boot part to the Top -->
-Start the Virtual Machine:
-
-1. Once the virtual machine is created, right-click on it in the Hyper-V Manager and select **Connect**.
-1. Select **Start** to power on the virtual machine.
-1. Your device boots from the CD/DVD-ROM ISO and enter into the Windows Setup.
-
-Install Windows with Windows Setup:
-
-1. Step through the Windows Setup menus, providing the requested information. Choose the settings, such as language, time and currency, and keyboard options that apply to your device and proceed to the next screen.
-1. Select **Install now**.
-1. On the **Activate Windows screen**, insert a valid product key.  Select **I don't have a product key** if you don't have a product key.  
-1. On the **Application notices and license terms** screen, if the terms are acceptable check the checkbox that you accept the license terms and then select **Next**.  
-1. On the **Which type of installation do you want** screen, select **Custom: Install Windows only**. This option starts a clean installation
-1. In the **Where do you want to install Windows?** screen, if the device has existing partitions, we recommend deleting the partitions so you have a single block on unallocated space to start from, then select **Next** to start the installation.
-1. Your device restarts a couple of times during the operating system installation. Wait until the device has entered OOBE (Out Of Box Experience) and is showing a screen that says **Let's start with region.**.
-
-<!-- TODO: Screenshot of Let's start with region -->
-
-> [!NOTE]
-> When at the **Let's start with region** OOBE screen don't continue the setup as you will need to enter Audit mode at this point. In the event that you started the setup of an account by mistake, you can open an Administrative Command Prompt and run `sysprep /audit` to enter Audit mode and continue the steps.
-
----
 
 ## Enter Audit Mode
 <!-- TODO: Move the CTRL+SHIFT+F3 to the top - last step of installing windows -->
