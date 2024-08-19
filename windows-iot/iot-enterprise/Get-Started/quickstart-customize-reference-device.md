@@ -76,7 +76,7 @@ This section provides steps to configure Unbranded Boot in Audit mode using Depl
 
 <!-- TODO: Screenshot with Windows UI Elements surpressed during startup -->
 
-## Surpress Windows UI elements from welcome and shutdown screens with Custom Logon
+## Suppress Windows UI elements from welcome and shutdown screens with Custom Logon
 
 You can use the [Custom Logon](../Customize/Custom-Logon.md) feature to suppress Windows UI elements that relate to the Welcome screen and shutdown screen. For example, you can suppress all elements of the Welcome screen UI and provide a custom logon UI.
 
@@ -88,43 +88,43 @@ This section provides steps to configure Custom Logon in Audit mode using DISM i
     Dism /online /enable-feature /featurename:Client-DeviceLockdown /featurename:Client-EmbeddedLogon 
     ```
 
-1. Modify the following registry entries. If prompted to overwrite, choose **Yes**.
+1. Modify the following registry entries. If prompted to overwrite, choose **Yes**:
 
-1. Set the *BrandingNeutral* value in the registry, which controls the display of branding information during logon.
+    1. Set the *BrandingNeutral* value in the registry, which controls the display of branding information during logon.
 
-    ```cmd
-    Reg add "HKLM\SOFTWARE\Microsoft\Windows Embedded\EmbeddedLogon" /v BrandingNeutral /t REG_DWORD /d 1
-    ```
+        ```cmd
+        Reg add "HKLM\SOFTWARE\Microsoft\Windows Embedded\EmbeddedLogon" /v BrandingNeutral /t REG_DWORD /d 1
+        ```
 
-1. Set the *HideAutoLogonUI* value in the registry, which controls the display of the auto logon user interface.
+    1. Set the *HideAutoLogonUI* value in the registry, which controls the display of the auto logon user interface.
 
-    ```cmd
-    Reg add "HKLM\SOFTWARE\Microsoft\Windows Embedded\EmbeddedLogon" /v HideAutoLogonUI /t REG_DWORD /d 1
-    ```
+        ```cmd
+        Reg add "HKLM\SOFTWARE\Microsoft\Windows Embedded\EmbeddedLogon" /v HideAutoLogonUI /t REG_DWORD /d 1
+        ```
 
-1. Set the *HideFirstLogonAnimation* value in the registry, which controls the display of the first logon animation.
+    1. Set the *HideFirstLogonAnimation* value in the registry, which controls the display of the first logon animation.
 
-    ```cmd
-    Reg add "HKLM\SOFTWARE\Microsoft\Windows Embedded\EmbeddedLogon" /v HideFirstLogonAnimation /t REG_DWORD /d 1
-    ```
+        ```cmd
+        Reg add "HKLM\SOFTWARE\Microsoft\Windows Embedded\EmbeddedLogon" /v HideFirstLogonAnimation /t REG_DWORD /d 1
+        ```
 
-1. Set the *AnimationDisabled* value in the registry, which controls whether the logon UI animation is disabled.
+    1. Set the *AnimationDisabled* value in the registry, which controls whether the logon UI animation is disabled.
 
-    ```cmd
-    Reg add "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Authentication\LogonUI" /v AnimationDisabled /t REG_DWORD /d 1
-    ```
+        ```cmd
+        Reg add "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Authentication\LogonUI" /v AnimationDisabled /t REG_DWORD /d 1
+        ```
 
-1. Set the *NoLockScreen* value in the registry, which controls whether the lock screen is displayed.
+    1. Set the *NoLockScreen* value in the registry, which controls whether the lock screen is displayed.
 
-    ```cmd
-    Reg add "HKLM\SOFTWARE\Policies\Microsoft\Windows\Personalization" /v NoLockScreen /t REG_DWORD /d 1
-    ```
+        ```cmd
+        Reg add "HKLM\SOFTWARE\Policies\Microsoft\Windows\Personalization" /v NoLockScreen /t REG_DWORD /d 1
+        ```
 
-1. Set the *UIVerbosityLevel* value in the registry, which controls the verbosity level of the user interface.
+    1. Set the *UIVerbosityLevel* value in the registry, which controls the verbosity level of the user interface.
 
-    ```cmd
-    Reg add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon" /v UIVerbosityLevel /t REG_DWORD /d 1
-    ```
+        ```cmd
+        Reg add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon" /v UIVerbosityLevel /t REG_DWORD /d 1
+        ```
 
 1. Restart the reference device. You should no longer see the Windows UI elements that relate to the Welcome screen and shutdown screen.
 

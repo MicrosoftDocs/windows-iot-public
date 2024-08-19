@@ -120,16 +120,16 @@ Configure the Virtual Machine:
 1. When you reach the **Connect Virtual Hard Disk** step, select **Create a virtual hard disk**.
 1. Specify the name, location, and size of the Virtual Hard Disk (VHD). For example, set the size to *64 GB*.
 
+Attach the Windows IoT Enterprise ISO:
+
+1. In the **Installation Options** step, select **Install an operating system from a bootable CD/DVD-ROM**.
+1. Choose **Image file (.iso)** and browse to the location of your Windows IoT Enterprise ISO file.
+
 Configure the Number of Processors:
 
 1. After the virtual machine is created, right-click on it in the Hyper-V Manager and select **Settings**.
 1. In the left pane, select **Processor**.
 1. In the right pane, specify a minimum of *two virtual processors*.
-
-Attach the Windows IoT Enterprise ISO:
-
-1. In the **Installation Options** step, select **Install an operating system from a bootable CD/DVD-ROM**.
-1. Choose **Image file (.iso)** and browse to the location of your Windows IoT Enterprise ISO file.
 
 Start the Virtual Machine:
 
