@@ -111,19 +111,14 @@ Create the Virtual Machine in Hyper-V:
 1. Open Hyper-V Manager.
 1. In the Hyper-V Manager, select **New** in the **Actions pane**, then select **Virtual Machine**.
 1. Follow the wizard to create a new virtual machine.
-
-Configure the Virtual Machine:
-
 1. When prompted to specify the generation, choose **Generation 1** or **Generation 2** based on your requirements.
 1. Assign a minimum of *2 GB* of memory to the virtual machine.
 1. Leave the virtual machine with no connection to the network.
 1. When you reach the **Connect Virtual Hard Disk** step, select **Create a virtual hard disk**.
 1. Specify the name, location, and size of the Virtual Hard Disk (VHD). For example, set the size to *64 GB*.
-
-Attach the Windows IoT Enterprise ISO:
-
 1. In the **Installation Options** step, select **Install an operating system from a bootable CD/DVD-ROM**.
 1. Choose **Image file (.iso)** and browse to the location of your Windows IoT Enterprise ISO file.
+1. Review the settings in the **Summary** step and select **Finish** to create the virtual machine.
 
 Configure the Number of Processors:
 
