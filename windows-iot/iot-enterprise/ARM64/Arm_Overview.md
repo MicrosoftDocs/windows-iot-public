@@ -30,7 +30,7 @@ Learn more about Arm application development in the [Windows IoT Enterprise on A
 
 ### Device Drivers
 
-Device drivers must be built natively for ARM64 to run on Windows IoT Enterprise on Arm. ARM64 drivers for many commonly used devices are provided by Microsoft in Windows, the processor vendor, or the board manufacturer in a board's Board Support Package (BSP). In addition, many device vendors provide drivers for their devices through either Windows Update or through 3rd-party support channels. For a device without an available driver, you need to work with the device vendor to get one or write one yourself. 
+Device drivers must be built natively for ARM64 to run on Windows IoT Enterprise on Arm. ARM64 drivers for many commonly used devices are provided in Windows or in a board's Board Support Package (BSP). In addition, many device vendors provide drivers for their devices through Windows Update or 3rd-party support channels. For a device without an available driver, you need to work with the device vendor to get one or write one yourself. 
 
 Learn more about writing and deploying drivers the [Windows IoT Enterprise device driver documentation](../OS-Features/Device-Drivers.md).
 
