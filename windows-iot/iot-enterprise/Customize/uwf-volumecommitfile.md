@@ -28,7 +28,7 @@ UInt32 CommitFile(
 
 ## Parameters
 
-**FileName**</br>\[in\] A string that contains the path of the file to commit on the overlay, but does not include the drive letter or volume name. For example, “\\users\\test.dat”.
+**FileName**</br>\[in\] A string that contains the path of the file to commit on the overlay, path must include the drive letter or volume name. For example, “C:\\users\\test.dat”.
 
 ## Return Value
 
