@@ -41,7 +41,7 @@ To prepare your **reference device sample**, you need:
 - An external keyboard, mouse, and a monitor (depending on the device).
 - A USB key that's at least 8 GB in size and that can have all information removed from it.
 
-### A bootable Windows IoT Enterprise installation media
+### Creating bootable Windows IoT Enterprise installation media
 
 The typical way to install Windows in a physical device is to create a bootable USB flash drive, and then copy the Windows installation files onto the flash drive. Once you have the files on the flash drive, you can insert it into the device and boot from the flash drive. To learn more, see [Install Windows from a USB flash drive](/windows-hardware/manufacture/desktop/install-windows-from-a-usb-flash-drive).
 
@@ -89,9 +89,9 @@ Follow these steps to prepare the installation flash drive:
     exit
     ```
 
-1. Copy the entire contents of the Windows IoT Enterprise ISO onto the root of the flash drive. You can use File explorer to manually copy the files.
+1. Mount the ISO on your Technician PC by double clicking the ISO and copy the entire contents of the Windows IoT Enterprise ISO onto the root of the flash drive. You can use File explorer to manually copy the files.
 
-Boot the device to Windows Setup:
+### Boot the device to Windows Setup:
 
 1. Move the USB flash drive from the **technician PC** to the powered down **physical device**.
 1. Turn on your physical device and enter the device's boot menu. Your device has a specific button combination or keyboard key to press to get to the boot menu. You might need to consult your hardware documentation if you aren't familiar with how to get to your device's boot menu.  
