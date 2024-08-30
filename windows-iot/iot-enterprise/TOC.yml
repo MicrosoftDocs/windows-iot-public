@@ -204,6 +204,8 @@
     items:
     - name: Overview
       href: ./Customize/Unbranded-Boot.md
+  - name: Crash Screen Suppression
+    href: ./Customize/Crash-Recovery.md
   - name: Unified Write Filter
     expanded: false
     items: 
