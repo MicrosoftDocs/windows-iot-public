@@ -28,7 +28,9 @@ The following boards have been proven to be a great start point for your Windows
 
 ## Step 2: Evaluate Edition
 
-To get started, you can try the [Windows 10 Enterprise 90 day Evaluation](https://www.microsoft.com/evalcenter/evaluate-windows-10-enterprise). To select which edition of Windows IoT Enterprise you would like to work with, review [Features by Release](../Features.md).
+To select which edition of Windows IoT Enterprise you would like to work with, review the [Windows IoT Enterprise Release History](../Features.md).
+
+[!INCLUDE [Latest LTSC](../../includes/incl-latest-ltsc-release.md)]
 
 ## Step 3: Deploy an Image
 

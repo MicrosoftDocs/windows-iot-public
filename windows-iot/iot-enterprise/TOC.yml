@@ -48,14 +48,16 @@
     href: ./Hardware/SoCs.md
   - name: 🔵Start prototyping
     href: ./Hardware/Prototype.md
-  - name: 🟢ARM64 Overview
-    href: ./Arm64/Arm_Overview.md
-  - name: 🔵ARM64 FAQ
-    href: ./ARM64/ArmFAQ.md
-  - name: 🟢NXP Overview
-    href: ./ARM64/NXP.md
-  - name: Setup an NXP i.MX EVK
-    href: ./Tutorials/Win10-NXP-iMX.md
+  - name: 🟢Arm Guidance
+    expanded: false
+    - name: 🟢Arm Overview
+      href: ./ARM64/Arm_Overview.md
+    - name: 🔵Arm FAQ
+      href: ./ARM64/ArmFAQ.md
+    - name: 🟢NXP Overview
+      href: ./Arm64/NXP.md
+    - name: Set up an NXP i.MX EVK
+      href: ./Tutorials/Win10-NXP-iMX.md
 - name: Commercialization
   expanded: false
   items:

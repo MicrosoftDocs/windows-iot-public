@@ -1,20 +1,20 @@
 ---
-title: ARM64 FAQ
+title: Arm FAQ
 author: sydbruck
 ms.author: sybruckm
 ms.date: 10/20/2023
-ms.topic: article
+ms.topic: faq
 ms.service: windows-iot
 ms.subservice: iot
-description: Windows IoT Enterprise on ARM64 FAQ
+description: Windows IoT Enterprise on Arm FAQ
 keywords: IoT Enterprise, Hardware, Windows IoT, Arm64, NXP
 ---
 
-# Frequently Asked Questions
+# Windows IoT Enterprise on Arm FAQ
 
 ## Which hardware is supported?
 
-Windows IoT Enterprise supports various peripheral interfaces on ARM64 devices. The following list isn't exhaustive. There are many other peripherals not listed on this page that are compatible with Windows IoT Enterprise. If you are an IHV with a peripheral that supports Windows IoT Enterprise on ARM64 and would like to be added to this list, reach out to winiotinquire@microsoft.com.
+Windows IoT Enterprise supports various peripheral interfaces on Arm64 devices. The following list isn't exhaustive. There are many other peripherals not listed on this page that are compatible with Windows IoT Enterprise. If you are an IHV with a peripheral that supports Windows IoT Enterprise on Arm and would like to be added to this list, reach out to winiotinquire@microsoft.com.
 
 ### Connectivity
 
@@ -41,11 +41,11 @@ Both LTSC and GAC editions of Windows IoT Enterprise are available for NXP devic
 |i.MX 8X      |    build 19044 or later     |    Not Supported    |
 |i.MX 93      |    build 19044 or later     |    build 26100.1 or later      |
 
-## Can I run applications that aren't native to ARM64?
+## Can I run applications that aren't native to Arm64?
 
-On ARM64 devices, Windows IoT Enterprise allows you to run x86 applications without re-compiling the application through emulation. In addition, Windows 11 IoT Enterprise supports running AMD64 applications without re-compiling. For more information, see [How x86 emulation works on Arm](/windows/arm/apps-on-arm-x86-emulation).
+On Arm64 devices, Windows IoT Enterprise allows you to run x86 applications without re-compiling the application through emulation. In addition, Windows 11 IoT Enterprise supports running AMD64 applications without re-compiling. For more information, see [How x86 emulation works on Arm](/windows/arm/apps-on-arm-x86-emulation).
 
-## Can I use Hyper-V on my ARM64 device?
+## Can I use Hyper-V on my Arm64 device?
 
 Hyper-V is only supported on boards that support Windows 11 IoT Enterprise. For more information, see [Which Windows IoT Enterprise version should I use?](#which-windows-iot-enterprise-version-should-i-use).
 

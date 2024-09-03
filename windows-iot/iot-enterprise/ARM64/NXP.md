@@ -1,9 +1,9 @@
 ---
-title: NXP
+title: NXP Overview
 author: anthonychen
 ms.author: anthonychen
 ms.date: 7/8/2024
-ms.topic: article
+ms.topic: overview
 ms.service: windows-iot
 ms.subservice: iot
 description: Windows IoT Enterprise on NXP
