@@ -50,6 +50,7 @@
     href: ./Hardware/Prototype.md
   - name: 🟢Arm Guidance
     expanded: false
+    items:
     - name: 🟢Arm Overview
       href: ./ARM64/Arm_Overview.md
     - name: 🔵Arm FAQ
