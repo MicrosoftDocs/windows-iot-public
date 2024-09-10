@@ -200,11 +200,8 @@
   - name: On-Screen Keyboard
     href: ./OS-Features/On-Screen-Keyboard.md
   - name: Unbranded Boot
-    expanded: false
-    items:
-    - name: Overview
-      href: ./Customize/Unbranded-Boot.md
-  - name: Crash Screen Suppression
+    href: ./Customize/Unbranded-Boot.md
+  - name: Crash Recovery
     href: ./Customize/Crash-Recovery.md
   - name: Unified Write Filter
     expanded: false
