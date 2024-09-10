@@ -124,7 +124,7 @@ This is a registry change that disables MessageBox class boxes from popping up, 
 
 1. Open the Registry Editor as administrator
 1. Create a new Dword registry value under **HKLM\System\CurrentControlSet\Control\Error Message Instrument**, with a value named **EnableDefaultReply**
-1. Set the data for the EnableDefaultReply value to 0
+1. Set the data for the EnableDefaultReply value to 1
 1. Test the scenario to ensure it's working as expected
 
 ## Security Baseline
