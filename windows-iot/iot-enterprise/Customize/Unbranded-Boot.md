@@ -1,16 +1,12 @@
 ---
 title: Unbranded Boot
 description: Unbranded Boot
-MSHAttr:
-- 'PreferredSiteName:MSDN'
-- 'PreferredLib:/library/windows/hardware'
-ms.assetid: 3b9be4eb-a4ab-41fe-95a7-9f52ced71ad9
 author: TerryWarwick
 ms.author: twarwick
 ms.service: windows-iot
 ms.subservice: iot
-ms.date: 08/29/2024
-ms.topic: article
+ms.date: 09/10/2024
+ms.topic: how-to
 
 
 ---
