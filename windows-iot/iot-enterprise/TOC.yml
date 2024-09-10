@@ -90,7 +90,7 @@
   items:
   - name: Overview
     href: ./Customize/customize-overview.md
-  - name: Crash Recovery
+  - name: Crash Screen Suppression
     href: ./Customize/Crash-Recovery.md
   - name: Custom Logon
     expanded: false
