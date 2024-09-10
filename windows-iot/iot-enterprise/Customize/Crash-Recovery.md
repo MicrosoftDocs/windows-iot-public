@@ -1,6 +1,6 @@
 ---
-title: Suppress Crash Screens
-description: Suppress Crash Screens
+title: Suppress Blue Screens
+description: Suppress Blue Screens
 author: TerryWarwick
 ms.author: twarwick
 ms.service: windows-iot
@@ -10,29 +10,28 @@ ms.topic: How-To
 
 
 ---
-# Suppress Crash Screens
+# Suppress Blue Screens
 
-Windows for IoT offers several methods to protect your branding on public-facing devices by suppressing crash screens and boot errors. 
+Windows IoT Enterprise enables you to suppress Blue Screen errors to protect your branding on public-facing devices. Suppressing Blue Screen errors will hide the Blue Screen and automatically reboot the device.
 
-> [!NOTE]
-> BCDEdit is the primary tool for editing the startup configuration and is on your development computer in the %WINDIR%\System32 folder. You have administrator rights for it. BCDEdit is included in a typical Windows Preinstallation Environment (Windows PE) 4.0. You can download it from the [BCDEdit Commands for Boot Environment](/previous-versions/windows/hardware/design/dn653986(v=vs.85)) in the Microsoft Download Center if needed.
+## Suppress Blue Screens through Unattend
 
-## Errors During Boot Phase
+To suppress Blue Screens through the Unattend method, enable the **DisplayDisabled** setting of the **Microsoft-Windows-Embedded-BootExp** component in the [unattend.xml answer file](/windows-hardware/manufacture/desktop/update-windows-settings-and-scripts-create-your-own-answer-file-sxs) applied by Windows during installation. 
 
-The **noerrordisplay** switch takes care of exhaustively suppressing all error display during the boot phase.
-For example, if **noerrordisplay** is on, and if the boot manager hits a *WinLoad Error* or *Bad Disk Error*, the system displays a black screen and require manual reset.
-1. Open a command prompt as an administrator.
-1. Run the following command to suppress error display during boot.
+You can use [Windows System Image Manager (Windows SIM)](/windows-hardware/customize/desktop/wsim/windows-system-image-manager-technical-reference) to help create your answer file with the DisplayDisabled setting enabled. 
 
-   ```cmd
-   bcdedit.exe -set {bootmgr} noerrordisplay on
-   ```
+For XML examples, see the reference on the [DisplayDisabled](/windows-hardware/customize/desktop/unattend/microsoft-windows-embedded-bootexp-displaydisabled) Unattend setting.
 
-## Exception Error
+## Suppress Blue Screens through Registry
 
-To ensure that there's no crash screen if Windows encounters an error that it can't recover from, enable the [DisplayDisabled](/windows-hardware/customize/desktop/unattend/microsoft-windows-embedded-bootexp-displaydisabled) setting using [Unattend](/windows-hardware/customize/enterprise/unbranded-boot#configure-unbranded-boot-using-unattend).
+You can also suppress Blue Screens on a device by setting the ```HKLM\System\CurrentControlSet\Control\CrashControl\DisplayDisabled``` registry key on the device:
 
-You can also configure the Unattend settings in the **Microsoft-Windows-Embedded-BootExp** component to add Unbranded Boot features to your image during the design or imaging phase. You can manually create an Unattend answer file or use [Windows System Image Manager (Windows SIM)](/windows-hardware/customize/desktop/wsim/windows-system-image-manager-technical-reference) to add the appropriate settings to your answer file. For more information about the Unbranded Boot settings and XML examples, see the settings in [Microsoft-Windows-Embedded-BootExp](/windows-hardware/customize/desktop/unattend/microsoft-windows-embedded-bootexp).
+1. Open a Command Prompt with Administrator privileges
+2. Enter the command below: 
+
+```cmd
+reg add HKLM\System\CurrentControlSet\Control\CrashControl /v DisplayDisabled /t REG_DWORD /d 0
+```
 
 ## Related articles
 
