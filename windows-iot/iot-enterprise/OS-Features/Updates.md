@@ -40,7 +40,10 @@ If you have a device where disruption of the user experience isn't acceptable, y
 
 You can use the Active Hours Group Policy, MDM, or registry setting to limit updates to only certain hours.
 
-1. Open the Group Policy Editor (gpedit.msc) and navigate to **Computer Configuration\Administrative Templates\Windows Components\Windows Update** and open the **Turn off auto-restart for updates during active hours** policy setting. **Enable** the policy so you can set the start and end times for active hours.
+1. Open the Group Policy Editor (gpedit.msc) and navigate to   
+Windows 10: **Computer Configuration\Administrative Templates\Windows Components\Windows Update**   
+Windows 11: **Computer Configuration\Administrative Templates\Windows Components\Windows Update\Manage end user experience**  
+and open the **Turn off auto-restart for updates during active hours** policy setting. **Enable** the policy so you can set the start and end times for active hours.
 2. Set the **Start** and **End** time to the Active Hours window. For example, set Active Hours to start at 4:00AM and end 2:00AM. This allows the system to reboot from updates between the hours of 2:00 AM and 4:00 AM.
 
 ## Disable Automatic Windows Updates
@@ -49,8 +52,11 @@ Security and stability are at the core of a successful IoT project, and Windows 
 
 To completely disable automatic updating of Windows with Windows Update:
 
-1. Open the Group Policy Editor (gpedit.msc) and navigate to **Computer Configuration\Administrative Templates\Windows Components\Windows update\Configure Automatic Updates**.
-2. Explicitly set the policy to **Disabled**. When this setting is set to Disabled, any available updates from Windows Update must be downloaded and installed manually, which you can do in the Settings app under **Update & security > Windows Update**.
+1. Open the Group Policy Editor (gpedit.msc) and navigate to  
+Windows 10: **Computer Configuration\Administrative Templates\Windows Components\Windows update\Configure Automatic Updates**.  
+Windows 11: **Computer Configuration\Administrative Templates\Windows Components\Windows Update\Manage end user experience\Configure Automatic Updates.**
+
+1. Explicitly set the policy to **Disabled**. When this setting is set to Disabled, any available updates from Windows Update must be downloaded and installed manually, which you can do in the Settings app under **Update & security > Windows Update**.
 
 ## Disable access to the Windows Update user experience
 
@@ -58,7 +64,10 @@ In some scenarios, configuring Automatic Updates isn't enough to preserve a desi
 
 To prohibit access to Windows update:
 
-1. Open the Group Policy Editor (gpedit.msc) and navigate to **Computer Configuration\Administrative Templates\Windows Components\Windows update\Remove access to use all Windows update features**.
+1. Open the Group Policy Editor (gpedit.msc) and navigate to 
+
+Windows 10: **Computer Configuration\Administrative Templates\Windows Components\Windows update\Remove access to use all Windows update features**.  
+Windows 11: **Computer Configuration\Administrative Templates\Windows Components\Windows Update\Manage end user experience\Remove access to use all Windows update features**.
 2. Set this policy to **Enabled** to prevent the "Check for updates" option for users. Note: Any background update scans, downloads, and installations will continue to work as configured. This policy simply prevents the user from accessing the manual check through settings. Use the steps in the previous section to also disable scans, downloads, and installations.
 
 > [!IMPORTANT]
@@ -70,10 +79,9 @@ To prohibit access to Windows update:
 You can configure Windows Update in several ways. As a general rule, IoT devices require special attention to the servicing and management strategy to be used on the devices. If your servicing strategy is to disable all Windows Update features, you have two possible approaches. You can turn off updates via [Group Policy](/windows-hardware/manufacture/desktop/iot-ent-configure-policy-settings#windows-update-summary) or through [Registry](/windows/privacy/manage-connections-from-windows-operating-system-components-to-microsoft-services#bkmk-wu).
 
 > [!NOTE]
->
 > By setting this policy, it will also stop performing updates from other machines on the local network. To confirm this behavior, you can also turn off [Delivery Optimization](/windows/privacy/manage-connections-from-windows-operating-system-components-to-microsoft-services#28-delivery-optimization) which is the subsystem for getting updates from others on your local network.
-
 ## Additional Resources
 
 * [Update Notifications](../Branding-Features/Update-Notification.md)
 * [Device Management](../Device-Management/Device-Management-Overview.md)
+
