@@ -90,6 +90,8 @@
   items:
   - name: Overview
     href: ./Customize/customize-overview.md
+  - name: Crash Recovery
+    href: ./Customize/Crash-Recovery.md
   - name: Custom Logon
     expanded: false
     items:
@@ -201,8 +203,6 @@
     href: ./OS-Features/On-Screen-Keyboard.md
   - name: Unbranded Boot
     href: ./Customize/Unbranded-Boot.md
-  - name: Crash Recovery
-    href: ./Customize/Crash-Recovery.md
   - name: Unified Write Filter
     expanded: false
     items: 
