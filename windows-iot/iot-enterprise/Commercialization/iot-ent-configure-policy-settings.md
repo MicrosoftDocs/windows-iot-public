@@ -5,7 +5,7 @@ author: TerryWarwick
 ms.author: twarwick
 ms.service: windows-iot
 ms.subservice: iot
-ms.date: 12/10/2018
+ms.date: 09/10/2024
 ms.topic: article
 ---
 
@@ -120,11 +120,11 @@ One method to disable notifications is to use Windows' Quiet Hours feature. Quie
 
 This is a registry change that disables MessageBox class boxes from popping up, by having the system automatically select the default button on the dialog (OK or Cancel). This can be useful if third party applications, which the device partner doesn't control, show MessageBox style dialogs. You can learn about this registry value at [Message Box Default Reply](/previous-versions/windows/embedded/aa940743(v=winembedded.5)).
 
-##### Disable MessageBox class boxes
+##### Enable MessageBox Default Reply
 
 1. Open the Registry Editor as administrator
 1. Create a new Dword registry value under **HKLM\System\CurrentControlSet\Control\Error Message Instrument**, with a value named **EnableDefaultReply**
-1. Set the data for the EnableDefaultReply value to 0
+1. Set the data for the EnableDefaultReply value to 1
 1. Test the scenario to ensure it's working as expected
 
 ## Security Baseline
