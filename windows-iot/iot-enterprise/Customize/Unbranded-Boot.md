@@ -1,16 +1,12 @@
 ---
 title: Unbranded Boot
 description: Unbranded Boot
-MSHAttr:
-- 'PreferredSiteName:MSDN'
-- 'PreferredLib:/library/windows/hardware'
-ms.assetid: 3b9be4eb-a4ab-41fe-95a7-9f52ced71ad9
 author: TerryWarwick
 ms.author: twarwick
 ms.service: windows-iot
 ms.subservice: iot
-ms.date: 03/06/2018
-ms.topic: article
+ms.date: 09/10/2024
+ms.topic: how-to
 
 
 ---
@@ -23,7 +19,14 @@ You can suppress Windows elements that appear when Windows starts or resumes and
 
 ## Requirements
 
-Windows 10 Enterprise, Windows 10 Professional, or Windows 10 Education.
+Unbranded Boot can be enabled on:
+
+- Windows 10 Enterprise
+- Windows 10 IoT Enterprise
+- Windows 10 Education
+- Windows 11 Enterprise
+- Windows 11 IoT Enterprise
+- Windows 11 Education
 
 ## Terminology
 
@@ -37,7 +40,7 @@ Windows 10 Enterprise, Windows 10 Professional, or Windows 10 Education.
 
 ## Turn on Unbranded Boot settings
 
-Unbranded Boot is an optional component and isn't enabled by default in Windows 10. It must be enabled prior to configuring. For end-users, Unbranded Boot is available through **Control Panel** &gt; **Programs** &gt; **Programs and Features** &gt; **Turn Windows features on or off**.
+Unbranded Boot is an optional component and isn't enabled by default in Windows. It must be enabled prior to configuring. 
 
 If Windows has already been installed, you can't apply a provisioning package to configure Unbranded Boot; instead you must use BDCEdit to configure Unbranded boot if Windows is installed.
 
@@ -45,13 +48,13 @@ BCDEdit is the primary tool for editing the startup configuration and is on your
 
 ### Turn on Unbranded Boot by using Control Panel
 
-1. In the **Search the web and Windows** field, type Programs and Features and either press Enter or tap or select **Programs and Features** to open it.
-1. In the **Programs and Features** window, select **Turn Windows features on or off**.
-1. In the **Windows Features** window, expand the **Device Lockdown** node, and check or clear the checkbox for **Unbranded Boot**.
-1. Select **OK**. The **Windows Features** window indicates Windows is searching for required files and displays a progress bar. Once found, the window indicates Windows is applying the changes. When completed, the window indicates the requested changes are completed.
-1. Select **Close** to close the **Windows Features** window.
+1. In the Windows search bar, type **Turn Windows features on or off** and either press **Enter** or tap or select **Turn Windows features on or off** to open the **Windows Features** window.
+1. In the **Windows Features** window, expand the **Device Lockdown** node, and select (to turn on) or clear (to turn off) the checkbox for **Unbranded Boot**.
+1. Select **OK**. The **Windows Features** window indicates that Windows is searching for required files and displays a progress bar. Once found, the window indicates that Windows is applying the changes. When completed, the window indicates the requested changes are completed.
+1. Restart your device to apply the changes.
 
 ## Configure Unbranded Boot settings at runtime using BCDEdit
+
 
 1. Open a command prompt as an administrator.
 1. Run the following command to disable the F8 key during startup to prevent access to the **Advanced startup options** menu.
@@ -147,26 +150,6 @@ In the following image, the BootLogo is outlined in green, the BootStatusIndicat
 
 The only supported way to replace the startup logo with a custom logo is to modify the Boot Graphics Resource Table (BGRT) on a device that uses UEFI as the firmware interface. If your device uses the BGRT to include a custom logo, it's always displayed and you can't suppress the custom logo.
 
-## Suppress Crash Screens
-
-Microsoft offers Windows 10 IoT Enterprise customers methods to manage crash screens.
-
-### Errors During Boot Phase
-
-The **noerrordisplay** switch takes care of exhaustively suppressing all error display during the boot phase.
-For example, if **noerrordisplay** to on, and if the boot manager hits a *WinLoad Error* or *Bad Disk Error*, the system displays a black screen and require manual reset.
-Review [Configure Unbranded Boot settings at runtime using BCDEdit](#configure-unbranded-boot-settings-at-runtime-using-bcdedit) to enable the
-
-**noerrordisplay** setting.
-
-> [!NOTE]
->
-> BCDEdit is the primary tool for editing the startup configuration and is on your development computer in the %WINDIR%\System32 folder. You have administrator rights for it. BCDEdit is included in a typical Windows Preinstallation Environment (Windows PE) 4.0. You can download it from the [BCDEdit Commands for Boot Environment](/previous-versions/windows/hardware/design/dn653986(v=vs.85)) in the Microsoft Download Center if needed.
-
-### Exception Error
-
-To ensure that there's no crash screen if Windows encounters an error it can't recover from, enable the [DisplayDisabled](/windows-hardware/customize/desktop/unattend/microsoft-windows-embedded-bootexp-displaydisabled) setting using [Unattend](/windows-hardware/customize/enterprise/unbranded-boot#configure-unbranded-boot-using-unattend).
-You can also configure the Unattend settings in the Microsoft-Windows-Embedded-BootExp component to add Unbranded Boot features to your image during the design or imaging phase. You can manually create an Unattend answer file or use Windows System Image Manager (Windows SIM) to add the appropriate settings to your answer file. For more information about the Unbranded Boot settings and XML examples, see the settings in [Microsoft-Windows-Embedded-BootExp](/windows-hardware/customize/desktop/unattend/microsoft-windows-embedded-bootexp).
 
 ## Related articles
 
