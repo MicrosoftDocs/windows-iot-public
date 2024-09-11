@@ -6,7 +6,7 @@ ms.author: twarwick
 ms.service: windows-iot
 ms.subservice: iot
 ms.date: 09/10/2024
-ms.topic: how-to
+ms.topic: reference
 
 
 ---
