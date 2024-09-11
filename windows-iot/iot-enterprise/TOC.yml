@@ -90,8 +90,6 @@
   items:
   - name: Overview
     href: ./Customize/customize-overview.md
-  - name: 🔵Suppress Blue Screens
-    href: ./Customize/Crash-Recovery.md
   - name: Custom Logon
     expanded: false
     items:
@@ -201,6 +199,8 @@
           href: ./Customize/wesl-usersettingsetenabled.md 
   - name: On-Screen Keyboard
     href: ./OS-Features/On-Screen-Keyboard.md
+  - name: 🔵Suppress Blue Screens
+    href: ./Customize/Crash-Recovery.md
   - name: 🔵Unbranded Boot
     href: ./Customize/Unbranded-Boot.md
   - name: Unified Write Filter
