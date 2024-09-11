@@ -48,17 +48,17 @@
     href: ./Hardware/SoCs.md
   - name: Start prototyping
     href: ./Hardware/Prototype.md
-  - name: Bus Providers
-    href: ./OS-Features/Bus-Providers.md
-  - name: Device Drivers
-    href: ./OS-Features/Device-Drivers.md    
-- name: Arm64 Guidance
-  expanded: false
-  items:
-  - name: Windows IoT Enterprise on ARM64 FAQ
-    href: ./ARM64/ArmFAQ.md
-  - name: Setup an NXP i.MX EVK
-    href: ./Tutorials/Win10-NXP-iMX.md
+  - name: Arm Guidance
+    expanded: false
+    items:
+    - name: Arm Overview
+      href: ./ARM64/Arm_Overview.md
+    - name: Arm FAQ
+      href: ./ARM64/ArmFAQ.md
+    - name: NXP Overview
+      href: ./Arm64/NXP.md
+    - name: Set up an NXP i.MX EVK
+      href: ./Tutorials/Win10-NXP-iMX.md
 - name: Commercialization
   expanded: false
   items:
@@ -199,11 +199,10 @@
           href: ./Customize/wesl-usersettingsetenabled.md 
   - name: On-Screen Keyboard
     href: ./OS-Features/On-Screen-Keyboard.md
+  - name: Suppress Blue Screens
+    href: ./Customize/Crash-Recovery.md
   - name: Unbranded Boot
-    expanded: false
-    items:
-    - name: Overview
-      href: ./Customize/Unbranded-Boot.md
+    href: ./Customize/Unbranded-Boot.md
   - name: Unified Write Filter
     expanded: false
     items: 
@@ -370,6 +369,10 @@
   items:
   - name: Develop Applications
     href: ./Development/App_dev.md
+  - name: Bus Providers
+    href: ./OS-Features/Bus-Providers.md
+  - name: Device Drivers
+    href: ./OS-Features/Device-Drivers.md    
 - name: Management
   expanded: false
   items:
