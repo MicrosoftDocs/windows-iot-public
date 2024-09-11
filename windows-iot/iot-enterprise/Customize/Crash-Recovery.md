@@ -30,7 +30,7 @@ You can also suppress Blue Screens on a device by setting the ```HKLM\System\Cur
 2. Enter the command below: 
 
 ```cmd
-reg add HKLM\System\CurrentControlSet\Control\CrashControl /v DisplayDisabled /t REG_DWORD /d 0
+reg add HKLM\System\CurrentControlSet\Control\CrashControl /v DisplayDisabled /t REG_DWORD /d 1
 ```
 
 ## Related articles
