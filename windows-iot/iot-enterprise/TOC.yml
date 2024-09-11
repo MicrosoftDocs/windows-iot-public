@@ -199,9 +199,9 @@
           href: ./Customize/wesl-usersettingsetenabled.md 
   - name: On-Screen Keyboard
     href: ./OS-Features/On-Screen-Keyboard.md
-  - name: 🔵Suppress Blue Screens
+  - name: Suppress Blue Screens
     href: ./Customize/Crash-Recovery.md
-  - name: 🔵Unbranded Boot
+  - name: Unbranded Boot
     href: ./Customize/Unbranded-Boot.md
   - name: Unified Write Filter
     expanded: false
