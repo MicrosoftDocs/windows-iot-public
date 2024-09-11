@@ -6,7 +6,7 @@ ms.author: twarwick
 ms.service: windows-iot
 ms.subservice: iot
 ms.date: 09/10/2024
-ms.topic: how-to
+ms.topic: reference
 
 
 ---
@@ -44,7 +44,7 @@ Unbranded Boot is an optional component and isn't enabled by default in Windows.
 
 If Windows has already been installed, you can't apply a provisioning package to configure Unbranded Boot; instead you must use BDCEdit to configure Unbranded boot if Windows is installed.
 
-BCDEdit is the primary tool for editing the startup configuration and is on your development computer in the %WINDIR%\\System32 folder. You have administrator rights for it. BCDEdit is included in a typical Windows Preinstallation Environment (Windows PE) 4.0. You can download it from the [BCDEdit Commands for Boot Environment](/previous-versions/windows/hardware/design/dn653986(v=vs.85)) in the Microsoft Download Center if needed.
+BCDEdit is the primary tool for editing the Boot Configuration Database (BCD) of Windows and is included in Windows in the %WINDIR%\\System32 folder. Administrator privileges are required to use BCDEdit to modify the BCD. 
 
 ### Turn on Unbranded Boot by using Control Panel
 
@@ -75,7 +75,7 @@ BCDEdit is the primary tool for editing the startup configuration and is on your
    bcdedit.exe -set {globalsettings} bootuxdisabled on
    ```
 
-1. Run the following command to suppress error display during boot.
+1. Run the following command to suppress any error screens that are displayed during boot. If **noerrordisplay** is on and the boot manager hits a *WinLoad Error* or *Bad Disk Error*, the system displays a black screen.
 
    ```cmd
    bcdedit.exe -set {bootmgr} noerrordisplay on
@@ -150,6 +150,16 @@ In the following image, the BootLogo is outlined in green, the BootStatusIndicat
 
 The only supported way to replace the startup logo with a custom logo is to modify the Boot Graphics Resource Table (BGRT) on a device that uses UEFI as the firmware interface. If your device uses the BGRT to include a custom logo, it's always displayed and you can't suppress the custom logo.
 
+## Suppress Errors During Boot
+
+Errors that occur during early Windows Boot are typically a sign of bad device configuration or failing hardware and require user intervention to recover. You can suppress all error screens during early boot by enabling the **noerrordisplay** BCD setting. 
+
+1. Open a command prompt as an administrator.
+1. Run the following command to suppress error screens during boot.
+
+   ```cmd
+   bcdedit.exe -set {bootmgr} noerrordisplay on
+   ```
 
 ## Related articles
 
