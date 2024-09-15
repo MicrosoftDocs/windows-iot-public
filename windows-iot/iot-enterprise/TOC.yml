@@ -46,7 +46,7 @@
     href: ./Hardware/Processor_Requirements.md
   - name: 🔴SoCs and Custom Boards
     href: ./Hardware/SoCs.md
-  - name: Start Prototyping
+  - name: 🔵Start Prototyping
     href: ./Hardware/Prototype.md
   - name: 🟢Hardware Boards
     href: ./Hardware/Boards.md
