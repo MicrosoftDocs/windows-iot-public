@@ -31,16 +31,43 @@ To learn more about the status of the update rollout, known issues, and new info
 
 ## What's new
 
+### Servicing
+
 | Feature | Description |
 | ------- | ----------- |
 | **Checkpoint cumulative updates** </br> [24H2] | Windows quality updates are provided as cumulative updates throughout the life cycle of a Windows release.  Checkpoint cumulative updates introduce periodic baselines that reduce the size of future cumulative updates making the distribution of monthly quality updates more efficient.  For more information, see [https://aka.ms/CheckpointCumulativeUpdates](https://techcommunity.microsoft.com/t5/windows-it-pro-blog/introducing-windows-11-checkpoint-cumulative-updates/ba-p/4182552). |
+
+### Security
+
+| Feature | Description |
+| ------- | ----------- |
 | **Local Security Authority (LSA) protection enablement on upgrade** </br> [24H2] | On upgrade to 24H2,  an audit occurs for incompatibilities with LSA protection for a period of time. If incompatibilities aren't detected, LSA protection is automatically enabled. For more information, see [LSA protection](/windows-server/security/credentials-protection-and-management/configuring-additional-lsa-protection). |
 | **Windows Local Admin Password Solution (LAPS)** </br> [24H2] | Windows Local Administrator Password Solution (Windows LAPS) is a Windows feature that automatically manages and backs up the password of a local administrator account on your Microsoft Entra joined or Windows Server Active Directory-joined devices. Windows LAPS is the successor for the now deprecated legacy Microsoft LAPS product. For more information, see [What is Windows LAPS?](/windows-server/identity/laps/laps-overview)|
 | **Windows protected print mode** </br> [24H2] | Windows protected print mode (WPP) enables a modern print stack which is designed to work exclusively with [Mopria certified printers](https://mopria.org/certified-products). For more information, see [What is Windows protected print mode (WPP)](https://techcommunity.microsoft.com/t5/security-compliance-and-identity/a-new-modern-and-secure-print-experience-from-windows/ba-p/4002645) and [Windows Insider WPP announcement](https://blogs.windows.com/windows-insider/2023/12/13/announcing-windows-11-insider-preview-build-26016-canary-channel/). |
+
+### Networking
+
+| Feature | Description |
+| ------- | ----------- |
 | **Wi-Fi 7 consumer access points** </br> [24H2] | Support for Wi-Fi 7 consumer access points offers unprecedented speed, reliability, and efficiency for wireless devices.  For more information, see the Win-Fi 7 announcements from [Wi-Fi Alliance](https://www.wi-fi.org/discover-wi-fi/wi-fi-certified-7) and the [Windows Insider](https://blogs.windows.com/windows-insider/2024/02/22/announcing-windows-11-insider-preview-build-26063-canary-channel/). |
+
+### Management
+
+| Feature | Description |
+| ------- | ----------- |
 | **Sudo for Windows** </br> [24H2] | Sudo for Windows is a new way for users to run elevated commands (as an administrator) directly from an unelevated console session. For more information, see [Sudo for Windows](/windows/sudo/). |
+
+### TBD
+
+| Feature | Description |
+| ------- | ----------- |
 | **Remote Desktop Connection improvements** </br> [24H2] ||
-| **Bluetooth &#174; Low Energy Audio support** </br> [24H2] | Windows has taken a significant step forward in accessibility by supporting the use of hearing aids equipped with the latest Bluetooth &#174; Low Energy Audio technology. For more information, see [Improving accessibility with Bluetooth &#174; LE Audio](https://blogs.windows.com/windows-insider/2023/10/18/announcing-windows-11-insider-preview-build-25977-canary-channel/). |
+
+### Accessibility
+
+| Feature | Description |
+| ------- | ----------- |
+| **Bluetooth &#174; Low Energy Audio support for assistive devices** </br> [24H2] | Windows has taken a significant step forward in accessibility by supporting the use of hearing aids equipped with the latest Bluetooth &#174; Low Energy Audio technology. For more information, see [Improving accessibility with Bluetooth &#174; LE Audio](https://blogs.windows.com/windows-insider/2023/10/18/announcing-windows-11-insider-preview-build-25977-canary-channel/). |
 
 <!--
 
@@ -91,7 +118,7 @@ To learn more about the status of the update rollout, known issues, and new info
 
 ## Features Removed
 
-The following [deprecated features](deprecated-features.md) are removed in Windows 11, version 24H2:
+The following [deprecated features](/windows/deprecated-features.md) are removed in Windows 11, version 24H2:
 
 | Feature | Description |
 |---------|-------------|
@@ -102,7 +129,7 @@ The following [deprecated features](deprecated-features.md) are removed in Windo
 
 - Windows Experience Blog: How to get the Windows 11 2024 Update
 - Windows IT Pro Blog: What’s new for IT pros in Windows 11, version 24H2
-- [What's new in Windows 11, version 24H2](https://learn.microsoft.com/en-us/windows/whats-new/whats-new-windows-11-version-24h2)
+- [What's new in Windows 11, version 24H2](/windows/whats-new/whats-new-windows-11-version-24h2)
 - [Windows Consumer: What's new in recent Windows updates](https://support.microsoft.com/windows/what-s-new-in-recent-windows-updates-2df971e0-341a-68b1-3bf8-bc3e3ff8c3a5)
 - [Windows 11 requirements](/windows/whats-new/windows-11-requirements)
 - [Plan for Windows 11](/windows/whats-new/windows-11-plan)
