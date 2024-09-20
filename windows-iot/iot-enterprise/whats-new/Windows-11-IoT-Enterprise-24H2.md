@@ -13,7 +13,11 @@ keywords: Windows IoT Enterprise, Windows 11, Windows 11 IoT, Windows 11 IoT Ent
 
 # What's new in Windows 11 IoT Enterprise, version 24H2
 
+## Overview
+
 Windows 11 IoT Enterprise, version 24H2 is a feature update for Windows 11 IoT Enterprise. Windows 11 IoT Enterprise, version 24H2 includes all updates to Windows 11 IoT Enterprise, version 23H2 plus some new and updated features. This article lists the new and updated features valuable for IoT scenarios.
+
+### Servicing Lifecycle
 
 Windows 11 IoT Enterprise follows the [Modern Lifecycle Policy](/lifecycle/policies/modern).
 
@@ -23,21 +27,27 @@ Windows 11 IoT Enterprise follows the [Modern Lifecycle Policy](/lifecycle/polic
 
 For more information, see [Windows 11 IoT Enterprise support lifecycle](/lifecycle/products/windows-11-iot-enterprise).
 
-## Availability
+### New Devices
 
-Windows 11 IoT Enterprise, version 24H2 is available through Windows Update, Windows Server Update Services (including Configuration Manager), the OEM Software Order Center, and [volume licensing](https://www.microsoft.com/licensing/terms/productoffering/WindowsDesktopOperatingSystem/all).
+Windows 11 IoT Enterprise, version 24H2 is available for pre-install by an Original Equipment Manufacturer (OEM). 
+- If you are a customer looking to purchase devices with Windows IoT Enterprise preinstalled contact your preferred OEM.
+
+- If you are an OEM wanting to pre-install Windows IoT Enterprise on your new devices for sale, see [OEM Licensing](../Commercialization/Licensing.md#oem-licensing) for more information.
+
+### Upgrade
+
+Windows 11 IoT Enterprise, version 24H2 is available as an upgrade to devices running Windows 11 IoT Enterprise (non-LTSC) through Windows Update, Windows Server Update Services (including Configuration Manager), Windows Update for Business, and the Volume Licensing Service Center (VLSC). For more information, see [How to get the Windows 11, version 24H2 update]( https://aka.ms/how-to-get-24H2). Review the [Windows 11, version 24H2 Windows IT Pro blog post](https://aka.ms/new-in-24H2) to discover information about available deployment resources such as the [Windows Deployment Kit (Windows ADK)](/windows-hardware/get-started/adk-install).
+
 
 To learn more about the status of the update rollout, known issues, and new information, see [Windows release health](/windows/release-health/).
 
-## What's new
-
-### Accessibility
+## Accessibility
 
 | Feature | Description |
 | ------- | ----------- |
 | **Bluetooth &#174; Low Energy Audio support for assistive devices** </br> [24H2] | Windows takes a significant step forward in accessibility by supporting the use of hearing aids equipped with the latest Bluetooth &#174; Low Energy Audio technology. For more information, see [Improving accessibility with Bluetooth &#174; LE Audio](https://blogs.windows.com/windows-insider/2023/10/18/announcing-windows-11-insider-preview-build-25977-canary-channel/). |
 
-### Applications
+## Applications
 
 | Feature | Description |
 | ------- | ----------- |
@@ -45,7 +55,7 @@ To learn more about the status of the update rollout, known issues, and new info
 | **Registry&nbsp;Editor** </br> Search </br> [24H2] | The Registry Editor supports limiting a search to the currently selected key and its descendants |
 | **Remote&nbsp;Desktop** </br> Connection improvements </br> [24H2] | The Remote Desktop Connection setup window (mstsc.exe) follows the text scaling settings under **Settings** > **Accessibility** > **Text size**, provides zoom options of 350, 400, 450, and 500%, and improves the connection bar design |
 
-### Developer
+## Developer
 
 | Feature | Description |
 | ------- | ----------- |
@@ -53,20 +63,20 @@ To learn more about the status of the update rollout, known issues, and new info
 | **Energy saver notification callback** </br> [24H2] | Added an energy saver notification callback setting GUID to represent the new energy saver experience. Apps can subscribe to the energy saver status by passing the appropriate GUID to the PowerSettingRegisterNotification API and can implement different behaviors to optimize energy or performance depending on the current energy saver status. For more information, see [Power Setting GUIDs](/windows/win32/power/power-setting-guids) |
 | **Effective Power Mode** </br> [24H2] | Extended the [Effective Power Mode API](/windows/win32/api/powersetting/ne-powersetting-effective_power_mode) to interpret the new energy saver levels when determining the returned effective power mode. |
 
-### Networking
+## Networking
 
 | Feature | Description |
 | ------- | ----------- |
 | **Wi-Fi 7 consumer access points** </br> [24H2] | Support for Wi-Fi 7 consumer access points offers unprecedented speed, reliability, and efficiency for wireless devices. For more information, see the Wi-Fi 7 announcements from [Wi-Fi Alliance](https://www.wi-fi.org/discover-wi-fi/wi-fi-certified-7) and the [Windows Insider](https://blogs.windows.com/windows-insider/2024/02/22/announcing-windows-11-insider-preview-build-26063-canary-channel/). |
 | **Windows location improvements** </br> [24H2] | New controls were added to help manage which apps have access to the list of Wi-Fi networks around you, which could be used to determine your location. You can view and modify which apps can access the list of Wi-Fi networks from **Settings** > **Privacy & security** > **Location**. A new prompt appears the first time an app attempts to access your location or Wi-Fi information. Developers can use the [Changes to API behavior for Wi-Fi access and location](/windows/win32/nativewifi/wi-fi-access-location-changes) article to learn about API surfaces impacted by this change. |
 
-### Management
+## Management
 
 | Feature | Description |
 | ------- | ----------- |
 | **Sudo for Windows** </br> [24H2] | Sudo for Windows is a new way for users to run elevated commands (as an administrator) directly from an unelevated console session. For more information, see [Sudo for Windows](/windows/sudo/). |
 
-### Security
+## Security
 
 | Feature | Description |
 | ------- | ----------- |
@@ -88,7 +98,7 @@ To learn more about the status of the update rollout, known issues, and new info
 | **Windows&nbsp;LAPS** </br> Image rollback detection </br> [24H2] | Image rollback detection was introduced for LAPS. LAPS can detect when a device was rolled back to a previous image. When a device is rolled back, the password in Active Directory might not match the password on the device that was rolled back. This new feature adds an Active Directory attribute, `msLAPS-CurrentPasswordVersion`, to the [Windows LAPS schema](/windows-server/identity/laps/laps-technical-reference#mslaps-currentpasswordversion). This attribute contains a random GUID that Windows LAPS writes every time a new password is persisted in Active Directory, followed by saving a local copy. During every processing cycle, the GUID stored in `msLAPS-CurrentPasswordVersion` is queried and compared to the locally persisted copy. If the GUIDs are different, the password is immediately rotated. To enable this feature, you need to run the latest version of the [Update-LapsADSchema PowerShell cmdlet](/powershell/module/laps/update-lapsadschema). |
 | **Windows protected print mode** </br> [24H2] | Windows protected print mode (WPP) enables a modern print stack which is designed to work exclusively with [Mopria certified printers](https://mopria.org/certified-products). For more information, see [What is Windows protected print mode (WPP)](https://techcommunity.microsoft.com/t5/security-compliance-and-identity/a-new-modern-and-secure-print-experience-from-windows/ba-p/4002645) and [Windows Insider WPP announcement](https://blogs.windows.com/windows-insider/2023/12/13/announcing-windows-11-insider-preview-build-26016-canary-channel/). |
 
-### Servicing
+## Servicing
 
 | Feature | Description |
 | ------- | ----------- |
