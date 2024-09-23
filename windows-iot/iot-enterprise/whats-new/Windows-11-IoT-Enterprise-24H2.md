@@ -4,7 +4,7 @@ titleSuffix: Windows IoT Enterprise
 description: Learn about new and updated features that are of interest to device makers and IT Pros working with Windows 11 IoT Enterprise, version 24H2.
 author: TerryWarwick
 ms.author: twarwick
-ms.date: 07/25/2024
+ms.date: 09/23/2024
 ms.topic: article
 ms.service: windows-iot
 ms.subservice: iot
@@ -26,6 +26,8 @@ Windows 11 IoT Enterprise follows the [Modern Lifecycle Policy](/lifecycle/polic
 | Windows&nbsp;11&nbsp;IoT&nbsp;Enterprise,&nbsp;version&nbsp;24H2 | 26100 | 2024&#8209;10&#8209;01 | 2027&#8209;10&#8209;12 |
 
 For more information, see [Windows 11 IoT Enterprise support lifecycle](/lifecycle/products/windows-11-iot-enterprise).
+
+[!INCLUDE [Windows 11 IoT Enterprise, version 24H2](../../includes/incl-latest-gac-release.md)]
 
 ### New Devices
 
