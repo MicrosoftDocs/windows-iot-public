@@ -18,6 +18,7 @@ keywords: Windows IoT Enterprise, Windows 11, Windows 11 IoT, Windows 11 IoT Ent
 Windows 11 IoT Enterprise, version 23H2 is a feature update for Windows 11 IoT Enterprise. Windows 11 IoT Enterprise, version 23H2 includes all updates to Windows 11 IoT Enterprise, version 22H2 plus some new and updated features. This article lists the new and updated features valuable for IoT scenarios.
 
 ### Servicing Lifecycle
+
 Windows 11 IoT Enterprise follows the [Modern Lifecycle Policy](/lifecycle/policies/modern).
 
 | Release Version | Build | Start Date | End&nbsp;of&nbsp;Servicing |
