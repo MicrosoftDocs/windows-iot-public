@@ -16,6 +16,8 @@ keywords: Windows IoT Enterprise, Windows 11, Windows 11 IoT, Windows 11 IoT Ent
 
 Windows 11, version 22H2 is a feature update for Windows 11 IoT Enterprise. Windows 11, version 22H2 includes all previous cumulative updates to Windows 11 IoT Enterprise, version 21H2 plus some new and updated features valuable for IoT scenarios.
 
+### Servicing Lifecycle
+
 Windows 11 IoT Enterprise follows the [Modern Lifecycle Policy](/lifecycle/policies/modern).
 
 | Release Version | Build | Start Date | End of Servicing |
@@ -24,9 +26,17 @@ Windows 11 IoT Enterprise follows the [Modern Lifecycle Policy](/lifecycle/polic
 
 For more information, see [Windows 11 IoT Enterprise support lifecycle](/lifecycle/products/windows-11-iot-enterprise).
 
-## Availability
+### New Devices
 
-Windows 11 IoT Enterprise, version 22H2 is available through Windows Server Update Services (including Configuration Manager), Windows Update for Business, and the Volume Licensing Service Center (VLSC). For more information, see [How to get the Windows 11, version 22H2 update](https://aka.ms/W11/how-to-get-22H2). Review the [Windows 11, version 22H2 Windows IT Pro blog post](https://aka.ms/new-in-22H2) to discover information about available deployment resources such as the [Windows Deployment Kit (Windows ADK)](/windows-hardware/get-started/adk-install).
+Windows 11 IoT Enterprise, version 22H2 is available for pre-install by an Original Equipment Manufacturer (OEM).
+
+- If you are a customer looking to purchase devices with Windows IoT Enterprise preinstalled contact your preferred OEM.
+
+- If you are an OEM wanting to pre-install Windows IoT Enterprise on your new devices for sale, see [OEM Licensing](../Commercialization/Licensing.md#oem-licensing) for more information.
+
+### Upgrade
+
+Windows 11 IoT Enterprise, version 22H2 is available as an upgrade to devices running Windows 11 IoT Enterprise (non-LTSC) through Windows Update, Windows Server Update Services (including Configuration Manager), Windows Update for Business, and the Volume Licensing Service Center (VLSC). For more information, see [How to get the Windows 11, version 22H2 update]( https://aka.ms/how-to-get-22H2). Review the [Windows 11, version 22H2 Windows IT Pro blog post](https://aka.ms/new-in-22H2) to discover information about available deployment resources such as the [Windows Deployment Kit (Windows ADK)](/windows-hardware/get-started/adk-install).
 
 To learn more about the status of the update rollout, known issues, and new information, see [Windows release health](/windows/release-health/).
 
