@@ -7,7 +7,7 @@ ms.service: windows-iot
 ms.subservice: iot
 author: TerryWarwick
 ms.author: twarwick
-ms.date: 07/25/2024
+ms.date: 09/23/2024
 ---
 
 # What's new in Windows 11 IoT Enterprise LTSC 2024
@@ -20,15 +20,9 @@ We designed Windows IoT Enterprise LTSC with these use cases in mind. We support
 
 With every new Windows release comes exciting new features and capabilities - **Windows 11 IoT Enterprise LTSC 2024** is no different. This article provides a high level overview of notable updates in this release that are of interest to device makers and IT Pros.
 
-[!INCLUDE [Windows 11 IoT Enterprise LTSC 2024](../../includes/incl-latest-ltsc-release.md)]
-
-### Upgrade
-
-Upgrading from one version of Windows IoT Enterprise LTSC to the next version requires a new license. If your device came preinstalled with a previous version of Windows IoT Enterprise LTSC, contact your device maker to see if they offer upgrades for your device.
-
 ### Servicing Lifecycle
 
-Windows 11 IoT Enterprise LTSC 2024 continues to offer a 10-year support lifecycle, which includes quality updates distributed via Windows Update monthly.
+Windows 11 IoT Enterprise LTSC 2024 continues to offer a 10-year support lifecycle, which includes quality updates distributed via Windows Update monthly. Upgrading from one version of Windows IoT Enterprise LTSC to the next version requires a new license. If your device came preinstalled with a previous version of Windows IoT Enterprise LTSC, contact your device maker to see if they offer upgrades for your device.
 
 Windows 11 IoT Enterprise LTSC 2024 follows the [Fixed Lifecycle Policy](/lifecycle/policies/fixed).
 
@@ -36,9 +30,9 @@ Windows 11 IoT Enterprise LTSC 2024 follows the [Fixed Lifecycle Policy](/lifecy
 | ---- | ----- | --- | --- |
 | Windows&nbsp;11&nbsp;IoT&nbsp;Enterprise,&nbsp;version&nbsp;24H2 | 26100 | 2024&#8209;10&#8209;01  | 2034&#8209;10&#8209;10  |
 
-<!--
 For more information, see [Windows 11 IoT Enterprise LTSC 2024 support lifecycle](/lifecycle/products/windows-11-iot-enterprise-ltsc-2024).
--->
+
+[!INCLUDE [Windows 11 IoT Enterprise LTSC 2024](../../includes/incl-latest-ltsc-release.md)]
 
 ## Windows IoT Spotlight
 
