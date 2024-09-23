@@ -81,6 +81,9 @@ Most accessories and associated drivers that work with Windows 10 IoT Enterprise
 | **Windows applications on ARM** | Windows 11 IoT Enterprise adds support for running x64 applications without modification on ARM64 processors. For more information, see [Windows on ARM processor](/windows/arm/overview)|
 | **Task Manager**  </br> [22H2]/[23H2] | A new command bar was added to each page to give access to common actions. Task Manager matches the system wide theme configured in Windows Settings. Added an efficiency mode that allows you to limit the resource usage of a process. </br> <!--kb5019509--> Process filtering, theme settings, and the ability to opt out of efficiency mode notification were added to Task Manager. |
 | **File Explorer Tabs** </br> [23H2] <!--kb5019509--> | File Explorer includes tabs to help you organize your File Explorer sessions. |
+| **File&nbsp;Explorer** </br> Context menu </br> [24H2] | Support for creating 7-zip and TAR archives.  </br> **Compress to** > **Additional options** allows you to compress individual files with gzip, BZip2, xz, or Zstandard </br>Labels were added to the context menu icons for actions like copy, paste, delete, and rename. |
+| **Registry&nbsp;Editor** </br> Search </br> [24H2] | The Registry Editor supports limiting a search to the currently selected key and its descendants |
+| **Remote&nbsp;Desktop** </br> Connection improvements </br> [24H2] | The Remote Desktop Connection setup window (mstsc.exe) follows the text scaling settings under **Settings** > **Accessibility** > **Text size**, provides zoom options of 350, 400, 450, and 500%, and improves the connection bar design |
 | **Sudo for Windows** </br> [24H2] | Sudo for Windows is a new way for users to run elevated commands (as an administrator) directly from an unelevated console session. For more information, see [Sudo for Windows](/windows/sudo/). |
 
 ## Developer
@@ -88,6 +91,9 @@ Most accessories and associated drivers that work with Windows 10 IoT Enterprise
 | Feature </br> [Release] | Description |
 | --- | --- |
 | **Arm64EC (“Emulation Compatible”)** | Code built as Arm64EC is interoperable with x64 code running under emulation within the same process. The Arm64EC code in the process runs with native performance, while any x64 code runs using emulation that comes built-in with Windows 11. For more information, see [Arm64EC - Build and port apps for native performance on Arm](/windows/arm/arm64ec)|
+| **Power Grid Forecast** </br> [24H2] | The [Power Grid Forecast API](/uwp/api/windows.devices.power.powergridforecast) was introduced. App developers can minimize environmental impact by shifting background workloads to times when renewable energy is available to the local grid. Forecast data isn't available globally and quality of data varies by region. |
+| **Energy saver notification callback** </br> [24H2] | Added an energy saver notification callback setting GUID to represent the new energy saver experience. Apps can subscribe to the energy saver status by passing the appropriate GUID to the PowerSettingRegisterNotification API and can implement different behaviors to optimize energy or performance depending on the current energy saver status. For more information, see [Power Setting GUIDs](/windows/win32/power/power-setting-guids) |
+| **Effective Power Mode** </br> [24H2] | Extended the [Effective Power Mode API](/windows/win32/api/powersetting/ne-powersetting-effective_power_mode) to interpret the new energy saver levels when determining the returned effective power mode. |
 
 ## Management
 
@@ -102,13 +108,14 @@ Most accessories and associated drivers that work with Windows 10 IoT Enterprise
 | **Control File Explorer Home Recommended section** </br> [23H2] <!--8092554, DisableGraphRecentItems, WIP.23475, WIP.23403-->|  Configure the Recommended section added to File Explorer Home for users signed into Windows with a Microsoft Entra ID account. For more information, see [DisableGraphRecentItems](/windows/client-management/mdm/policy-csp-fileexplorer#disablegraphrecentitems).</br> To configure using Local Group Policy Editor, see `Computer Configuration\Administrative Templates\Windows Components\File Explorer\Turn off files from Office.com in Quick Access View`.|
 | **Taskbar Button Policies**  </br> [23H2] <!--07525381, 8092554, WIP.25252--> | Policies to customize taskbar buttons were added to provide you with more control over the taskbar search experience across your organization. For more information, see [Supported taskbar CSPs](/windows/configuration/supported-csp-taskbar-windows).|
 | **Control Start Menu Recommended section**  </br> [23H2] <!--8092554, WIP.23475-->| Configure the Recommended section of the Start Menu, which displays personalized website recommendations. For more information, see [HideRecoPersonalizedSites](/windows/client-management/mdm/policy-csp-start). </br>To configure using Local Group Policy Editor, see `Computer Configuration\Administrative Templates\Start Menu and Taskbar\Remove Personalized Website Recommendations from the Recommended section in the Start Menu`.|
+| **Sudo for Windows** </br> [24H2] | Sudo for Windows is a new way for users to run elevated commands (as an administrator) directly from an unelevated console session. For more information, see [Sudo for Windows](/windows/sudo/). |
 
 ## Networking
 
 | Feature </br> [Release] | Description |
 | --- | --- |
 | **Wi-Fi 7 consumer access points** </br> [24H2] | Support for Wi-Fi 7 consumer access points offers unprecedented speed, reliability, and efficiency for wireless devices.  For more information, see the Win-Fi 7 announcements from [Wi-Fi Alliance](https://www.wi-fi.org/discover-wi-fi/wi-fi-certified-7) and the [Windows Insider](https://blogs.windows.com/windows-insider/2024/02/22/announcing-windows-11-insider-preview-build-26063-canary-channel/). |
-| **Windows location improvements** </br> [24H2] | New controls were added to help manage which apps have access to the list of Wi-Fi networks around you, which could be used to determine your location. Users can view and modify which apps can access the list of Wi-Fi networks and manage notifications from **Settings** > **Privacy & security** > **Location**. |
+| **Windows location improvements** </br> [24H2] | New controls were added to help manage which apps have access to the list of Wi-Fi networks around you, which could be used to determine your location. You can view and modify which apps can access the list of Wi-Fi networks from **Settings** > **Privacy & security** > **Location**. A new prompt appears the first time an app attempts to access your location or Wi-Fi information. Developers can use the [Changes to API behavior for Wi-Fi access and location](/windows/win32/nativewifi/wi-fi-access-location-changes) article to learn about API surfaces impacted by this change. |
 
 ## Security
 
