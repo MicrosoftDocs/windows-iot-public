@@ -3,7 +3,7 @@ title: What's new in Windows 11 IoT Enterprise, version 22H2?
 description: Learn about what's new in Windows 11 IoT Enterprise, version 22H2.
 author: TerryWarwick
 ms.author: twarwick
-ms.date: 08/16/2023
+ms.date: 09/23/2024
 ms.topic: article
 ms.service: windows-iot
 ms.subservice: iot
