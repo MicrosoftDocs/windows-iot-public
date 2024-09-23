@@ -29,7 +29,8 @@ For more information, see [Windows 11 IoT Enterprise support lifecycle](/lifecyc
 
 ### New Devices
 
-Windows 11 IoT Enterprise, version 24H2 is available for pre-install by an Original Equipment Manufacturer (OEM). 
+Windows 11 IoT Enterprise, version 24H2 is available for pre-install by an Original Equipment Manufacturer (OEM).
+
 - If you are a customer looking to purchase devices with Windows IoT Enterprise preinstalled contact your preferred OEM.
 
 - If you are an OEM wanting to pre-install Windows IoT Enterprise on your new devices for sale, see [OEM Licensing](../Commercialization/Licensing.md#oem-licensing) for more information.
@@ -37,7 +38,6 @@ Windows 11 IoT Enterprise, version 24H2 is available for pre-install by an Origi
 ### Upgrade
 
 Windows 11 IoT Enterprise, version 24H2 is available as an upgrade to devices running Windows 11 IoT Enterprise (non-LTSC) through Windows Update, Windows Server Update Services (including Configuration Manager), Windows Update for Business, and the Volume Licensing Service Center (VLSC). For more information, see [How to get the Windows 11, version 24H2 update]( https://aka.ms/how-to-get-24H2). Review the [Windows 11, version 24H2 Windows IT Pro blog post](https://aka.ms/new-in-24H2) to discover information about available deployment resources such as the [Windows Deployment Kit (Windows ADK)](/windows-hardware/get-started/adk-install).
-
 
 To learn more about the status of the update rollout, known issues, and new information, see [Windows release health](/windows/release-health/).
 
@@ -55,6 +55,7 @@ To learn more about the status of the update rollout, known issues, and new info
 | **File&nbsp;Explorer** </br> Context menu </br> [24H2] | Support for creating 7-zip and TAR archives.  </br> **Compress to** > **Additional options** allows you to compress individual files with gzip, BZip2, xz, or Zstandard </br>Labels were added to the context menu icons for actions like copy, paste, delete, and rename. |
 | **Registry&nbsp;Editor** </br> Search </br> [24H2] | The Registry Editor supports limiting a search to the currently selected key and its descendants |
 | **Remote&nbsp;Desktop** </br> Connection improvements </br> [24H2] | The Remote Desktop Connection setup window (mstsc.exe) follows the text scaling settings under **Settings** > **Accessibility** > **Text size**, provides zoom options of 350, 400, 450, and 500%, and improves the connection bar design |
+| **Sudo for Windows** </br> [24H2] | Sudo for Windows is a new way for users to run elevated commands (as an administrator) directly from an unelevated console session. For more information, see [Sudo for Windows](/windows/sudo/). |
 
 ## Developer
 
@@ -115,7 +116,7 @@ The following [deprecated features](/windows/deprecated-features.md) are removed
 | **WordPad** </br> [24H2]| WordPad is removed from all editions of Windows starting in Windows 11, version 24H2 and Windows Server 2025. <!--8254696, 8494641--> |
 | **Alljoyn** </br> [24H2] | Microsoft's implementation of AllJoyn, which included the [Windows.Devices.AllJoyn API namespace](/uwp/api/windows.devices.alljoyn), a [Win32 API](/windows/win32/api/_alljoyn/), a [management configuration service provider (CSP)](/windows/client-management/mdm/alljoynmanagement-csp), and an [Alljoyn Router Service](/windows-server/security/windows-services/security-guidelines-for-disabling-system-services-in-windows-server#alljoyn-router-service) is retired.<!--8396030--> |
 
-## Related articles
+## Related content
 
 - Windows Experience Blog: How to get the Windows 11 2024 Update
 - Windows IT Pro Blog: What’s new for IT pros in Windows 11, version 24H2
