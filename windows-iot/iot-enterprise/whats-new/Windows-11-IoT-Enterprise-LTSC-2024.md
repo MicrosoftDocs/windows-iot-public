@@ -166,12 +166,12 @@ Like Windows 10, Windows 11 IoT Enterprise LTSC 2024 receives monthly quality up
 
 | Feature </br> [Release] | Description |
 | --- | --- |
+|  **High Efficiency Video Coding (HEVC) support**  </br> [22H2] | HEVC is designed to take advantage of hardware capabilities on some newer devices to support 4K and Ultra HD content. For devices that don't have hardware support for HEVC videos, software support is provided, but the playback experience might vary based on the video resolution and your devices performance. |
 | **Taskbar overflow menu**  </br> [23H2] | The taskbar offers an entry point to a menu that shows all of your overflowed apps in one spot.<!--kb5019509--> |
 | **Taskbar Optimize for touch**  </br> [23H2] | Taskbar touch optimization is available for devices that can be used as a tablet. Once enabled, the user can switch between a collapsed taskbar, saving screen space, and an expanded taskbar, optimized for touch. The taskbar changes to this optimized version when you disconnect or fold back the keyboard on a 2-in-1 device. To enable or disable this feature on a tablet capable device, go to Settings > Personalization > Taskbar > Taskbar behaviors. See also [February 28, 2023 - KB5022913](https://support.microsoft.com/kb/5022913)  |
 | **Windows Ink as input** </br> [23H2] | Windows Ink allows users to handwrite directly onto most editable fields <!--8092554, WIP.23481-->|
 | **Uninstall Win32 app** </br> [23H2] | Selecting Uninstall for a Win32 app from the right-click menu uses the Installed Apps page in Settings rather than Programs and Features in Control Panel.<!--[February 28, 2023 - KB5022913](https://support.microsoft.com/topic/february-28-2023-kb5022913-os-build-22621-1344-preview-3e38c0d9-924d-4f3f-b0b6-3bd49b2657b9) --> For more information, see [September 2023 - KB5030310](https://support.microsoft.com/kb/5030310)  |
 | **Dev Drive** </br> [23H2] | Dev Drive is a new form of storage volume available to improve performance for key developer workloads. For more information, see [Set up a Dev Drive on Windows 11](/windows/dev-drive/) and [September 2023 - KB5030310](https://support.microsoft.com/kb/5030310). |
-|  **High Efficiency Video Coding (HEVC) support**  </br> [22H2] | HEVC is designed to take advantage of hardware capabilities on some newer devices to support 4K and Ultra HD content. For devices that don't have hardware support for HEVC videos, software support is provided, but the playback experience might vary based on the video resolution and your devices performance. |
 
 ## Features Removed
 
