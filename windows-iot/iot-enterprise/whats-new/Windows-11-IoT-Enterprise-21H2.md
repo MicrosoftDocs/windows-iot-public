@@ -108,6 +108,7 @@ The security and privacy features in Windows 11 are similar to Windows 10. Secur
 - [Windows 11 requirements](/windows/whats-new/windows-11-requirements)
 - [Plan for Windows 11](/windows/whats-new/windows-11-plan)
 - [Prepare for Windows 11](/windows/whats-new/windows-11-prepare)
+- [Windows 11 Security](https://www.microsoft.com/security/blog/?p=98328)
 - [Windows release health](https://aka.ms/windowsreleasehealth)
 - [Windows 11 release information](/windows/release-health/windows11-release-information)
 - [Deprecated features](/windows/whats-new/deprecated-features)
