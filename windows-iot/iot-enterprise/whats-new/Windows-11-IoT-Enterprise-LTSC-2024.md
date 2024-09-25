@@ -175,14 +175,18 @@ Like Windows 10, Windows 11 IoT Enterprise LTSC 2024 receives monthly quality up
 | **Uninstall Win32 app** </br> [23H2] | Selecting Uninstall for a Win32 app from the right-click menu uses the Installed Apps page in Settings rather than Programs and Features in Control Panel.<!--[February 28, 2023 - KB5022913](https://support.microsoft.com/topic/february-28-2023-kb5022913-os-build-22621-1344-preview-3e38c0d9-924d-4f3f-b0b6-3bd49b2657b9) --> For more information, see [September 2023 - KB5030310](https://support.microsoft.com/kb/5030310)  |
 | **Dev Drive** </br> [23H2] | Dev Drive is a new form of storage volume available to improve performance for key developer workloads. For more information, see [Set up a Dev Drive on Windows 11](/windows/dev-drive/) and [September 2023 - KB5030310](https://support.microsoft.com/kb/5030310). |
 
-## Features Removed
+## Features Removed or Deprecated
 
-The following [deprecated features](/windows/whats-new/deprecated-features) and [removed features](/windows/whats-new/removed-features) are removed in Windows 11, version 24H2:
+The following features are removed in Windows 11 IoT Enterprise LTSC 2024
 
 | Feature | Description |
 |---------|-------------|
 | **WordPad** </br> [24H2]| WordPad is removed from all editions of Windows starting in Windows 11, version 24H2 and Windows Server 2025. <!--8254696, 8494641--> |
 | **Alljoyn** </br> [24H2] | Microsoft's implementation of AllJoyn, which included the [Windows.Devices.AllJoyn API namespace](/uwp/api/windows.devices.alljoyn), a [Win32 API](/windows/win32/api/_alljoyn/), a [management configuration service provider (CSP)](/windows/client-management/mdm/alljoynmanagement-csp), and an [Alljoyn Router Service](/windows-server/security/windows-services/security-guidelines-for-disabling-system-services-in-windows-server#alljoyn-router-service) is retired.<!--8396030--> |
+
+For more information, see [removed features](/windows/whats-new/removed-features).
+
+In addition to removal, some features are no longer being actively developed, and might be removed in a future release of Windows. For a list of these features no longer in active development, see [deprecated features](/windows/whats-new/deprecated-features).
 
 ## Related content
 

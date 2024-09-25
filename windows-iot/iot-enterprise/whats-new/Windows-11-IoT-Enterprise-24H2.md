@@ -110,14 +110,16 @@ To learn more about the status of the update rollout, known issues, and new info
 | ------- | ----------- |
 | **Checkpoint cumulative updates** </br> [24H2] | Windows quality updates are provided as cumulative updates throughout the life cycle of a Windows release. Checkpoint cumulative updates introduce periodic baselines that reduce the size of future cumulative updates making the distribution of monthly quality updates more efficient. For more information, see [https://aka.ms/CheckpointCumulativeUpdates](https://techcommunity.microsoft.com/t5/windows-it-pro-blog/introducing-windows-11-checkpoint-cumulative-updates/ba-p/4182552). |
 
-## Features Removed
-
-The following [deprecated features](/windows/whats-new/deprecated-features) and [removed features](/windows/whats-new/removed-features) are removed in Windows 11, version 24H2:
+The following features are removed in Windows 11 IoT Enterprise LTSC 2024
 
 | Feature | Description |
 |---------|-------------|
 | **WordPad** </br> [24H2]| WordPad is removed from all editions of Windows starting in Windows 11, version 24H2 and Windows Server 2025. <!--8254696, 8494641--> |
 | **Alljoyn** </br> [24H2] | Microsoft's implementation of AllJoyn, which included the [Windows.Devices.AllJoyn API namespace](/uwp/api/windows.devices.alljoyn), a [Win32 API](/windows/win32/api/_alljoyn/), a [management configuration service provider (CSP)](/windows/client-management/mdm/alljoynmanagement-csp), and an [Alljoyn Router Service](/windows-server/security/windows-services/security-guidelines-for-disabling-system-services-in-windows-server#alljoyn-router-service) is retired.<!--8396030--> |
+
+For more information, see [removed features](/windows/whats-new/removed-features).
+
+In addition to removal, some features are no longer being actively developed, and might be removed in a future release of Windows. For a list of these features no longer in active development, see [deprecated features](/windows/whats-new/deprecated-features).
 
 ## Related content
 
