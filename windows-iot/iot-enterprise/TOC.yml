@@ -5,7 +5,7 @@
 # ====================================
 - name: Windows IoT Enterprise Overview
   href: ./Overview.md  
-- name: 🔵 Release History
+- name: Release History
   href: ./whats-new/Release-History.md
 - name: What's new...
   expanded: true
@@ -15,14 +15,14 @@
   - name: Windows IoT Enterprise LTSC
     expanded: false
     items:
-     - name: 🔵 Windows 11 IoT Enterprise LTSC 2024
+     - name: Windows 11 IoT Enterprise LTSC 2024
        href: ./whats-new/Windows-11-IoT-Enterprise-LTSC-2024.md
      - name: Windows 10 IoT Enterprise LTSC 2021
        href: ./whats-new/Windows-10-IoT-Enterprise-LTSC-2021.md
   - name: Windows 11 IoT Enterprise
     expanded: false
     items:
-     - name: 🟢 Version 24H2
+     - name: Version 24H2
        href: ./whats-new/Windows-11-IoT-Enterprise-24H2.md
      - name: Version 23H2
        href: ./whats-new/Windows-11-IoT-Enterprise-23H2.md
@@ -364,7 +364,7 @@
     href: ./Deployment/media-refresh.md
   - name: Install Apps with WinGet
     href: ./Deployment/install-winget-windows-iot.md
-  - name: 🔵 Volume License Deployment
+  - name: Volume License Deployment
     href: ./Deployment/Volume-License.md  
 - name: Development
   expanded: false
