@@ -222,12 +222,12 @@ In this section, you install **Windows 10 Enterprise LTSC 2021** then transform 
 
 ### Deployment
 
-- [Deployment - Plan for Volume Activation](/windows/deployment/volume-activation/plan-for-volume-activation-client)
-- [Deployment - Volume Activation for Windows 10](/windows/deployment/volume-activation/volume-activation-windows-10)
-- [Deployment - Monitor Activation Count](/windows/deployment/volume-activation/monitor-activation-client)
-- [Deployment - Slmgr.vbs Command Line Activation Utility](/windows-server/get-started/activation-slmgr-vbs-options)
-- [Deployment - Volume Activation Management Tool (VAMT)](/windows/deployment/volume-activation/use-the-volume-activation-management-tool-client)
-- [Deployment - KMS client activation and product keys](/windows-server/get-started/kms-client-activation-keys)
+- [Plan for Volume Activation](/windows/deployment/volume-activation/plan-for-volume-activation-client)
+- [Volume Activation for Windows 10](/windows/deployment/volume-activation/volume-activation-windows-10)
+- [Monitor Activation Count](/windows/deployment/volume-activation/monitor-activation-client)
+- [Slmgr.vbs Command Line Activation Utility](/windows-server/get-started/activation-slmgr-vbs-options)
+- [Volume Activation Management Tool (VAMT)](/windows/deployment/volume-activation/use-the-volume-activation-management-tool-client)
+- [KMS client activation and product keys](/windows-server/get-started/kms-client-activation-keys)
 - [Using Edition Configuration and Product ID Files during Windows Installation](/windows-hardware/manufacture/desktop/windows-setup-edition-configuration-and-product-id-files--eicfg-and-pidtxt)
 
 ### Licensing & Procurement
