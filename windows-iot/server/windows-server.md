@@ -1,6 +1,6 @@
 ---
 title: About Windows Server IoT
-author: terry.warwick
+author: terrywarwick
 ms.date: 03/31/2023
 ms.author: twarwick
 ms.topic: article
