@@ -63,6 +63,7 @@ To learn more about the status of the update rollout, known issues, and new info
 
 ## Related articles
 
+- [What's new for IT pros in Windows 11, version 22H2](https://aka.ms/new-in-22h2) | Windows IT Pro Blog
 - [Windows 11 requirements](/windows/whats-new/windows-11-requirements)
 - [Plan for Windows 11](/windows/whats-new/windows-11-plan)
 - [Prepare for Windows 11](/windows/whats-new/windows-11-prepare)
