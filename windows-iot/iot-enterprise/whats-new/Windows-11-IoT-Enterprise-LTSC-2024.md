@@ -177,7 +177,7 @@ Like Windows 10, Windows 11 IoT Enterprise LTSC 2024 receives monthly quality up
 
 ## Features Removed
 
-The following [deprecated features](/windows/deprecated-features.md) are removed in Windows 11, version 24H2:
+The following [deprecated features](/windows/whats-new/deprecated-features) and [removed features](/windows/whats-new/removed-features) are removed in Windows 11, version 24H2:
 
 | Feature | Description |
 |---------|-------------|

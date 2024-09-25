@@ -111,7 +111,7 @@ To learn more about the status of the update rollout, known issues, and new info
 
 ## Features Removed
 
-The following [deprecated features](/windows/deprecated-features.md) are removed in Windows 11, version 24H2:
+The following [deprecated features](/windows/whats-new/deprecated-features) and [removed features](/windows/whats-new/removed-features) are removed in Windows 11, version 24H2:
 
 | Feature | Description |
 |---------|-------------|
