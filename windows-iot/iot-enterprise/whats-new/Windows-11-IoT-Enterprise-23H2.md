@@ -107,8 +107,8 @@ The following [deprecated features](/windows/deprecated-features.md) are removed
 
 ## Related content
 
-- [Windows Experience Blog: How to get the Windows 11 2023 Update](https://blogs.windows.com/windowsexperience/?p=178531)
-- [Windows IT Pro Blog: What’s new for IT pros in Windows 11, version 23H2](https://aka.ms/new-in-23H2)
+- [How to get the Windows 11 2023 Update](https://blogs.windows.com/windowsexperience/?p=178531) | Windows Experience Blog
+- [What's new for IT pros in Windows 11, version 23H2](https://aka.ms/new-in-23h2) | Windows IT Pro Blog
 - [What's new in Windows 11, version 23H2](/windows/whats-new/whats-new-windows-11-version-23h2)
 - [Windows Consumer: What's new in recent Windows updates](https://support.microsoft.com/windows/what-s-new-in-recent-windows-updates-2df971e0-341a-68b1-3bf8-bc3e3ff8c3a5)
 - [Windows 11 requirements](/windows/whats-new/windows-11-requirements)
