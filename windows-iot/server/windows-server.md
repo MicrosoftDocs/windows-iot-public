@@ -88,9 +88,9 @@ Windows Server IoT releases follow the [Fixed Lifecycle Policy](/lifecycle/polic
 
 | Release                             | Version | Availability | End of Servicing |
 | ----------------------------------- | ----- | ------------ | ---------------- |
+| [Windows Server IoT 2025](/lifecycle/products/windows-server-iot-2025) | 26100 |              |                  |
 | [Windows Server IoT 2022](/lifecycle/products/windows-server-iot-2022) | 20348 | 2021-08-18   | 2031-10-14       |
 | [Windows Server IoT 2019](/lifecycle/products/windows-server-iot-2019) | 17763 | 2019-03-04   | 2029-01-09       |
-| [Windows Server IoT 2019 for Storage](/lifecycle/products/windows-server-iot-2019-for-storage) | 17763 | 2019-03-04   | 2029-01-09       |
 
 <!--
 ## Fixed purpose devices
