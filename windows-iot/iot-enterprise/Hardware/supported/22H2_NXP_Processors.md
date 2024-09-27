@@ -20,4 +20,4 @@ Earlier generations and models of the CPUs listed can have limited support for d
 |NXP®|i.MX 8M|Plus|
 |NXP®|i.MX 8M|Quad|
 |NXP®|i.MX 8M|QXP|
-|NXP®|i.MX 9|93 *(in preview)*|
+|NXP®|i.MX 9|93|
