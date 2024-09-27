@@ -45,7 +45,7 @@ After Sysprep prepares the image, the reference device will shut down. The next 
 
 ### Create a WinPE USB drive
 
-In this section, we show you how to create a bootable WinPE USB drive. We will create multiple partitions on the USB drive. This allows you to have a FAT32 partition for WinPE and an NTFS partition for the captured WIM file. You can use this USB drive for both capturing and deploying your image.
+In this section, we show you how to create a bootable WinPE USB drive. We'll create multiple partitions on the USB drive. This allows you to have a FAT32 partition for WinPE and an NTFS partition for the captured WIM file. You can use this USB drive for both capturing and deploying your image.
 
 1. Insert a USB drive into the Technician PC.
 
@@ -82,7 +82,7 @@ In this section, we show you how to create a bootable WinPE USB drive. We will c
     copype amd64 C:\WinPE 
     ```
 
-    This command copies the 64-bit WinPE files to C:\WinPE. Note that the destination folder is created automatically.
+    This command copies the 64-bit WinPE files to C:\WinPE. The destination folder is created automatically.
 
 1. Copy the WinPE files to your USB key.
 
