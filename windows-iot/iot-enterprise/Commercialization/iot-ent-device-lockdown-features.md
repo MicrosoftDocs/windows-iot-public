@@ -9,7 +9,6 @@ ms.service: windows-iot
 ms.subservice: iot
 
 ---
-<!-- TODO: For streamline, focus on Unbranded Boot, Custom Logon, and Shell Launcher -->
 # Lab 2: Device Lockdown Features
 
 In labs [1a](iot-ent-create-a-basic-image.md) and [1b](iot-ent-customize-the-reference-device-in-audit-mode.md), we installed the OS onto a reference device and made customizations in audit mode. This lab describes several ways to lock down your device using device lockdown features that are built in to Windows. The device lockdown features aren't listed in any particular order. You can enable all of the features, some or none of the features, depending on the device you're building.
@@ -23,7 +22,6 @@ For a fully automated approach to these steps, consider using the [Windows IoT E
 
 Complete Lab 1a: Create a basic image.
 
-<!-- TODO: Evaluate if we want to show Keyboard filter in a VM? In Hyper-V we can simulate that by using Action->Ctrl+Alt+Del. It can be done in VMWare, VirtualBox and others as well -->
 ## Keyboard filter
 
 The [Keyboard Filter](../Customize/keyboardfilter.md) enables controls that you can use to suppress undesirable key presses or key combinations. Normally, a customer can alter the operation of a device by using certain key combinations like Ctrl+Alt+Delete, Ctrl+Shift+Tab, Alt+F4, etc. The Keyboard filter prevents users from using these key combinations, which is helpful if your device is intended for a dedicated purpose.
@@ -57,8 +55,6 @@ There are several methods to enable the Keyboard Filter, we're providing instruc
     ```
 
 1. Restart the reference device and then note the CTRL+ALT+DEL key is blocked.
-
-<!-- TODO: Do we want to remove all locked keys to continue the tutorial? -->
 
 ## Unified Write Filter (UWF)
 
