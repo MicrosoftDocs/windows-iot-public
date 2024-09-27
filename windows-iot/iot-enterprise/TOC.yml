@@ -7,15 +7,6 @@
   href: ./Overview.md  
 - name: Release History
   href: ./whats-new/Release-History.md
-- name: 🟢Get started with a reference device sample
-  expanded: true
-  items:
-  - name: 🟢Prepare your lab environment
-    href: ./get-started/quickstart-pepare-lab-environment.md
-  - name: 🟢Customize a reference device
-    href: ./get-started/quickstart-customize-reference-device.md
-  - name: 🟢Sysprep, capture and deploy
-    href: ./get-started/quickstart-sysprep-capture-deploy.md
 - name: What's new...
   expanded: true
   items:
@@ -68,33 +59,31 @@
       href: ./Arm64/NXP.md
     - name: Set up an NXP i.MX EVK
       href: ./Tutorials/Win10-NXP-iMX.md
-- name: 🔵Commercialization
+- name: Commercialization
   expanded: false
   items:
-  - name: 🟢Overview
-    href: ./Commercialization/overview-commercialization.md
   - name: Activation Guide
     href: ./Commercialization/activation-guide.md
   - name: Licensing Guide
     href: ./Commercialization/Licensing.md
-  - name: 🔴RemoveThis - Manufacturing Guide
+  - name: Manufacturing Guide
     expanded: false
     items:
-    - name: 🔴Overview
+    - name: Manufacturing Guide Overview
       href: ./Commercialization/Manufacturing-Guide.md
-    - name: 🔴Lab 0 - Get the tools you need
+    - name: Lab 0 - Get the tools you need
       href: ./Commercialization/iot-ent-get-the-tools-you-need.md
-    - name: 🔴Lab 1a - Create a basic image
+    - name: Lab 1a - Create a basic image
       href: ./Commercialization/iot-ent-create-a-basic-image.md
-    - name: 🔴Lab 1b - Customize a reference device in Audit mode
+    - name: Lab 1b - Customize a reference device in Audit mode
       href: ./Commercialization/iot-ent-customize-the-reference-device-in-audit-mode.md
-    - name: 🔴Lab 2 - Configure device lockdown features
+    - name: Lab 2 - Configure device lockdown features
       href: ./Commercialization/iot-ent-device-lockdown-features.md
-    - name: 🔴Lab 3 - Configure policy settings
+    - name: Lab 3 - Configure policy settings
       href: ./Commercialization/iot-ent-configure-policy-settings.md
-    - name: 🔴Lab 4 - Sysprep, capture, and deploy
+    - name: Lab 4 - Sysprep, capture, and deploy
       href: ./Commercialization/iot-ent-sysprep-capture-deploy.md
-    - name: 🔴Lab 5 - Configure Shell Launcher or Assigned Access
+    - name: Lab 5 - Configure Shell Launcher or Assigned Access
       href: ./Commercialization/iot-ent-shell-launcher-app-launcher.md
 - name: Customization
   expanded: false

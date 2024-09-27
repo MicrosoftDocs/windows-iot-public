@@ -43,8 +43,6 @@ After Sysprep prepares the image, the reference device will shut down. The next 
   
 ## Capture your device image
 
-<!-- TODO:Need to add instructions to create a disk in VM? Then copy the content from WinPE\media to that disk and boot -->
-
 ### Create a WinPE USB drive
 
 In this section, we show you how to create a bootable WinPE USB drive. We will create multiple partitions on the USB drive. This allows you to have a FAT32 partition for WinPE and an NTFS partition for the captured WIM file. You can use this USB drive for both capturing and deploying your image.
@@ -85,7 +83,7 @@ In this section, we show you how to create a bootable WinPE USB drive. We will c
     ```
 
     This command copies the 64-bit WinPE files to C:\WinPE. Note that the destination folder is created automatically.
-<!-- TODO: In a VM we just copy the content from folder WinPE/media to the new disk created -->
+
 1. Copy the WinPE files to your USB key.
 
     ```cmd
