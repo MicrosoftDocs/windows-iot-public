@@ -114,7 +114,6 @@ One method to disable notifications is to use Windows' Quiet Hours feature. Quie
 > [!TIP]
 > There are other policies in User Configuration\Administrative Templates\Start Menu and Taskbar\Notifications that allow you to get more granular on the exact notifications to disable. These options may be useful in some device scenarios.
 
-<!-- TODO: COnsider Removing -->
 #### Message Box Default Reply
 
 This is a registry change that disables MessageBox class boxes from popping up, by having the system automatically select the default button on the dialog (OK or Cancel). This can be useful if third party applications, which the device partner doesn't control, show MessageBox style dialogs. You can learn about this registry value at [Message Box Default Reply](/previous-versions/windows/embedded/aa940743(v=winembedded.5)).
@@ -135,14 +134,12 @@ Starting with the first release of Windows, an accompanying set of policies call
 
 You can download the [Security Compliance Toolkit](https://www.microsoft.com/download/details.aspx?id=55319) from the Download Center.
 
-<!-- TODO: We can instruct how to create an ISO file from a folder to add files to a VM in Audit Mode.  Using "Deployment and Imaging Tools CMD" from ADK. Run: OSCDIMG -n -d -m FolderWithFiles Destinationfile.ISO
--->
-
 1. Select **Download** on the link above. Select the *Windows Version xxxx Security Baseline.zip* and the *LGPO.zip*. Be sure to choose the version that matches the version of Windows you're deploying.
+
 1. Extract the *Windows Version xxxx Security Baseline.zip* file and the *LGPO.zip* file on the IoT device.  
+
 1. Copy *LGPO.exe* to the *Scripts\Tools* folder of the *Windows Version xxxx Security Baseline*. LGPO is needed by the security baseline installation script but must be downloaded separately.
 
-<!-- TODO: Check Instructions, I can't find Client_Install_NonDomainJoined.cmd -->
 1. From an Administrative Command Prompt run:
 
    ```cmd
