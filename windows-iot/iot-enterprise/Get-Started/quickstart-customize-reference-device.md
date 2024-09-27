@@ -1,6 +1,6 @@
 ---
 title: "Quickstart: Customize a reference device in Audit mode"
-description: "Customize a reference device running Windows IoT Enterprise in Audit mode with Unbranded Boot, Custom Logon and Kiosk Mode."
+description: "Customize a reference device running Windows IoT Enterprise in Audit mode and create a custom Kiosk experience."
 author: asergaz
 ms.author: sergaz
 ms.service: windows-iot
@@ -14,7 +14,7 @@ ms.date: 06/28/2024
 
 # Quickstart: Customize a reference device in Audit mode
 
-In this quickstart, you customize a reference device running Windows IoT Enterprise in Audit mode. You lock down the device interaction experience with Unbranded Boot, Custom Logon and Kiosk Mode.
+In this quickstart, you customize a reference device running Windows IoT Enterprise in Audit mode and create a custom Kiosk experience.
 
 > [!TIP]
 > Most customizations in this lab can be made to an offline mounted Windows image, as well as in Audit mode. For more information, see [Modify a Windows image using DISM](/windows-hardware/manufacture/desktop/mount-and-modify-a-windows-image-using-dism).
@@ -35,7 +35,7 @@ When Windows boots, it starts in either Out-Of-Box Experience (OOBE) mode or in 
 - Test the validity of a Windows installation. Before you deploy the system to end users, you can perform tests on the system without creating a user account. Then you can prepare the system to start in OOBE on the next boot.
 - Add more customizations to a reference image. This reduces the number of images that you have to manage. For example, you can create a single reference image that contains the basic customizations that you want to apply to all Windows images. You can then boot the reference image to audit mode and make more changes that are specific to the computer. These changes can be customer-requested applications or specific device drivers.
 
-For more information see [Audit mode overview](/windows-hardware/manufacture/desktop/audit-mode-overview).
+For more information, see [Audit mode overview](/windows-hardware/manufacture/desktop/audit-mode-overview).
 
 ## Suppress all Windows UI elements during startup with Unbranded Boot
 
@@ -76,7 +76,7 @@ This section provides steps to configure Unbranded Boot in Audit mode using Depl
 
 <!-- TODO: Screenshot with Windows UI Elements surpressed during startup -->
 
-## Surpress Windows UI elements from welcome and shutdown screens with Custom Logon
+## Suppress Windows UI elements from welcome and shutdown screens with Custom Logon
 
 You can use the [Custom Logon](../Customize/Custom-Logon.md) feature to suppress Windows UI elements that relate to the Welcome screen and shutdown screen. For example, you can suppress all elements of the Welcome screen UI and provide a custom logon UI.
 
@@ -88,49 +88,49 @@ This section provides steps to configure Custom Logon in Audit mode using DISM i
     Dism /online /enable-feature /featurename:Client-DeviceLockdown /featurename:Client-EmbeddedLogon 
     ```
 
-1. Modify the following registry entries. If prompted to overwrite, choose **Yes**.
+1. Modify the following registry entries. If prompted to overwrite, choose **Yes**:
 
-1. Set the *BrandingNeutral* value in the registry, which controls the display of branding information during logon.
+    1. Set the *BrandingNeutral* value in the registry, which controls the display of branding information during logon.
 
-    ```cmd
-    Reg add "HKLM\SOFTWARE\Microsoft\Windows Embedded\EmbeddedLogon" /v BrandingNeutral /t REG_DWORD /d 1
-    ```
+        ```cmd
+        Reg add "HKLM\SOFTWARE\Microsoft\Windows Embedded\EmbeddedLogon" /v BrandingNeutral /t REG_DWORD /d 1
+        ```
 
-1. Set the *HideAutoLogonUI* value in the registry, which controls the display of the auto logon user interface.
+    1. Set the *HideAutoLogonUI* value in the registry, which controls the display of the auto logon user interface.
 
-    ```cmd
-    Reg add "HKLM\SOFTWARE\Microsoft\Windows Embedded\EmbeddedLogon" /v HideAutoLogonUI /t REG_DWORD /d 1
-    ```
+        ```cmd
+        Reg add "HKLM\SOFTWARE\Microsoft\Windows Embedded\EmbeddedLogon" /v HideAutoLogonUI /t REG_DWORD /d 1
+        ```
 
-1. Set the *HideFirstLogonAnimation* value in the registry, which controls the display of the first logon animation.
+    1. Set the *HideFirstLogonAnimation* value in the registry, which controls the display of the first logon animation.
 
-    ```cmd
-    Reg add "HKLM\SOFTWARE\Microsoft\Windows Embedded\EmbeddedLogon" /v HideFirstLogonAnimation /t REG_DWORD /d 1
-    ```
+        ```cmd
+        Reg add "HKLM\SOFTWARE\Microsoft\Windows Embedded\EmbeddedLogon" /v HideFirstLogonAnimation /t REG_DWORD /d 1
+        ```
 
-1. Set the *AnimationDisabled* value in the registry, which controls whether the logon UI animation is disabled.
+    1. Set the *AnimationDisabled* value in the registry, which controls whether the logon UI animation is disabled.
 
-    ```cmd
-    Reg add "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Authentication\LogonUI" /v AnimationDisabled /t REG_DWORD /d 1
-    ```
+        ```cmd
+        Reg add "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Authentication\LogonUI" /v AnimationDisabled /t REG_DWORD /d 1
+        ```
 
-1. Set the *NoLockScreen* value in the registry, which controls whether the lock screen is displayed.
+    1. Set the *NoLockScreen* value in the registry, which controls whether the lock screen is displayed.
 
-    ```cmd
-    Reg add "HKLM\SOFTWARE\Policies\Microsoft\Windows\Personalization" /v NoLockScreen /t REG_DWORD /d 1
-    ```
+        ```cmd
+        Reg add "HKLM\SOFTWARE\Policies\Microsoft\Windows\Personalization" /v NoLockScreen /t REG_DWORD /d 1
+        ```
 
-1. Set the *UIVerbosityLevel* value in the registry, which controls the verbosity level of the user interface.
+    1. Set the *UIVerbosityLevel* value in the registry, which controls the verbosity level of the user interface.
 
-    ```cmd
-    Reg add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon" /v UIVerbosityLevel /t REG_DWORD /d 1
-    ```
+        ```cmd
+        Reg add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon" /v UIVerbosityLevel /t REG_DWORD /d 1
+        ```
 
 1. Restart the reference device. You should no longer see the Windows UI elements that relate to the Welcome screen and shutdown screen.
 
 <!-- TODO: Screenshot that should no longer see the Windows UI elements that relate to the Welcome screen and shutdown screen. -->
 
-## Enable a custom shell experience with Kiosk Mode
+## Enable a custom shell experience
 
 Windows IoT Enterprise allows you to build fixed purpose devices such as ATM machines, point-of-sale terminals, medical devices, digital signs, or kiosks. Kiosk mode helps you create a dedicated and locked down user experience on these fixed purpose devices. Windows IoT Enterprise offers a set of different locked-down experiences for public or specialized use: [assigned access single-app kiosks](../Customize/Single-App-Kiosk.md), [assigned access multi-app kiosks](../Customize/Multi-App-Kiosk.md), or [shell launcher](../Customize/Shell-Launcher.md).
 
