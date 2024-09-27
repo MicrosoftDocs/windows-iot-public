@@ -2,7 +2,7 @@
 title: Manufacturing Guide Overview
 author: TerryWarwick
 ms.author: twarwick
-ms.date: 04/24/2024
+ms.date: 09/27/2024
 ms.topic: article
 ms.service: windows-iot
 ms.subservice: iot

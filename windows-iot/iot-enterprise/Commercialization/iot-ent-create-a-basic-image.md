@@ -1,7 +1,7 @@
 ---
 description: Create a basic image that you can further customize
 title: Create a basic Iot Enterprise image
-ms.date: 06/13/2023
+ms.date: 09/27/2024
 ms.topic: article
 author: TerryWarwick
 ms.author: twarwick

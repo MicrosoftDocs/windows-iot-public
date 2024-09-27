@@ -1,7 +1,7 @@
 ---
 description: Customize the reference device in Audit mode.
 title: Customize the reference device in Audit mode
-ms.date: 05/21/2024
+ms.date: 09/27/2024
 ms.topic: article
 author: TerryWarwick
 ms.author: twarwick
