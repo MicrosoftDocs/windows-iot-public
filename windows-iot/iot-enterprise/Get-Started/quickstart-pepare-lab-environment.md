@@ -6,7 +6,7 @@ ms.author: sergaz
 ms.service: windows-iot
 ms.subservice: iot
 ms.topic: quickstart
-ms.date: 06/28/2024
+ms.date: 09/27/2024
 
 #customer intent: As a beginner, I want to know how to prepare my environment to build Windows IoT Enterprise images.
 

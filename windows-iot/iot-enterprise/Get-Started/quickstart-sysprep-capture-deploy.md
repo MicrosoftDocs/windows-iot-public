@@ -6,7 +6,7 @@ ms.author: sergaz
 ms.service: windows-iot
 ms.subservice: iot
 ms.topic: quickstart
-ms.date: 06/28/2024
+ms.date: 09/27/2024
 
 #customer intent: As a beginner, I want to learn the basics on how to sysprep, capture and deploy Windows IoT Enterprise.
 
@@ -421,8 +421,6 @@ In your **new device**, follow the steps to deploy the WIM image:
     > [!NOTE]
     > The above Diskpart commands don't create a recovery partition. If you need to configure a recovery partition, see [Configure UEFI/GPT-based hard drive partitions](/windows-hardware/manufacture/desktop/configure-uefigpt-based-hard-drive-partitions).
 
-    <!-- TODO: Can we check if it is much harder to create a recovery partition? -->
-
 1. Use Diskpart to identify the volume where the WIM file is stored:
 
     ```cmd
@@ -468,7 +466,7 @@ In your **new device**, follow the steps to deploy the WIM image:
 
 The device reboots into OOBE with the Windows IoT Enterprise image you previously customized and captured.
 
-<!-- TODO: We will review this step. We want the device to boot directly to powershell instead. -->
+<!-- TODO: We will review this step. We need to mention that OOBE needs to be done first -->
 
 ### [Virtual Machine](#tab/virtualmachine)
 
@@ -533,8 +531,6 @@ The system boots to the WinPE, where you see a Command prompt.
     > [!NOTE]
     > The above Diskpart commands don't create a recovery partition. If you need to configure a recovery partition, see [Configure UEFI/GPT-based hard drive partitions](/windows-hardware/manufacture/desktop/configure-uefigpt-based-hard-drive-partitions).
 
-    <!-- TODO: Can we check if it is much harder to create a recovery partition? -->
-
 1. Use Diskpart to identify the volume where the WIM file is stored:
 
     ```cmd
@@ -580,7 +576,7 @@ The system boots to the WinPE, where you see a Command prompt.
 
 The device starts into OOBE with the Windows IoT Enterprise image you previously customized and captured.
 
-<!-- TODO: We will review this step. We want the device to boot directly to powershell instead. -->
+<!-- TODO: We will review this step. We need to mention that OOBE needs to be done first -->
 
 ---
 
