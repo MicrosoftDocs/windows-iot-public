@@ -71,7 +71,7 @@
   - name: Manufacturing Guide
     expanded: false
     items:
-    - name: Overview
+    - name: Manufacturing Guide Overview
       href: ./Commercialization/Manufacturing-Guide.md
     - name: Lab 0 - Get the tools you need
       href: ./Commercialization/iot-ent-get-the-tools-you-need.md
