@@ -6,7 +6,7 @@ author: TerryWarwick
 ms.author: twarwick
 ms.topic: whats-new
 ms.subservice: iot
-ms.date: 07/25/2024
+ms.date: 09/30/2024
 
 ---
 
