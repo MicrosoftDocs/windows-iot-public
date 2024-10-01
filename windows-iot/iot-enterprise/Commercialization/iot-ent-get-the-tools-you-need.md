@@ -1,7 +1,7 @@
 ---
 description: Get the tools you need to create an IoT Enterprise image
-title: Get the tools you need to customize Windows 10 IoT Enterprise
-ms.date: 12/10/2018
+title: Get the tools you need to customize Windows IoT Enterprise
+ms.date: 09/27/2024
 ms.topic: article
 author: TerryWarwick
 ms.author: twarwick
@@ -10,36 +10,36 @@ ms.subservice: iot
 
 ---
 
-# Get the tools needed to customize Windows 10 IoT Enterprise
+# Get the tools needed to customize Windows IoT Enterprise
 
-## Windows 10 IoT Enterprise
+## Windows IoT Enterprise
 
-Windows 10 IoT Enterprise is a full version of Windows 10 that delivers enterprise manageability and security to IoT solutions. Windows 10 IoT Enterprise shares all the benefits of the worldwide Windows ecosystem. It's a binary equivalent to Windows 10 Enterprise, so you can use the same familiar development and management tools as client PCs and laptops. However, when it comes to licensing and distribution, the desktop version and IoT versions differ. Windows 10 IoT Enterprise offers both LTSC and SAC options, and OEMs can choose the one they need for their devices.
+Windows IoT Enterprise is a full version of Windows that delivers enterprise manageability and security to IoT solutions. Windows IoT Enterprise shares all the benefits of the worldwide Windows ecosystem. It's a binary equivalent to Windows Enterprise, so you can use the same familiar development and management tools as client PCs and laptops. However, when it comes to licensing and distribution, the desktop version and IoT versions differ. Windows IoT Enterprise offers both LTSC and SAC options, and OEMs can choose the one they need for their devices.
 
-## Getting started with Windows 10 IoT Enterprise
+## Getting started with Windows IoT Enterprise
 
-Before reaching out to an Embedded/IoT Distributor, we recommend working with a device that meets the [Windows 10 Hardware requirements](/windows-hardware/design/minimum/minimum-hardware-requirements-overview). You can load your PC or recommended device with an evaluation copy of Windows 10 Enterprise in order to begin prototyping right away.  
+Before reaching out to an Embedded/IoT Distributor, we recommend working with a device that meets the [Windows Hardware requirements](/windows-hardware/design/minimum/minimum-hardware-requirements-overview). You can load your PC or recommended device with an evaluation copy of Windows Enterprise in order to begin prototyping right away.  
 
-In order to start your journey in manufacturing with Windows 10 IoT Enterprise, you need to reach out to a distributor from [this list](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RWCpaM).
+In order to start your journey in manufacturing with Windows IoT Enterprise, you need to reach out to a distributor from [this list](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RWCpaM).
 
 ## What you need to build IoT Enterprise images
 
-You need the following tools to go through any of the labs in this section and create OEM images using the Windows 10 IoT Enterprise Operating System.
+You need the following tools to go through any of the labs in this section and create OEM images using the Windows IoT Enterprise Operating System.
 
 ## PCs and devices
 
 Here's how we refer to them:
 
-- Technician PC: Your work PC. This PC should have at least 15 GB of free space for installing the software and for modifying IoT Enterprise images. We recommend using either Windows 10 or Windows 11 with the latest updates.
+- Technician PC: Your work PC. This PC should have at least 15 GB of free space for installing the software and for modifying IoT Enterprise images. We recommend using either Windows or Windows 11 with the latest updates.
 
   - Configure the technician PC as follows:
     - [Windows ADK](/windows-hardware/get-started/adk-install) with Deployment Tools, Configuration Designer, and the Windows PE add-on installed
-    - Windows 10 IoT Enterprise 2019 LTSC OPK
+    - Windows IoT Enterprise 2019 LTSC OEM Preinstallation Kit (OPK)
     - Feature on Demand ISO
     - Language Pack ISO
 
-- IoT device: A test device or board that represents all of the devices in a single model line. Depending on the device you need a keyboard, mouse and a monitor.
-- A USB key that's at least 8 GB in size and that can have all information removed from it
+- IoT device: A test device or board that represents all of the devices in a single model line. Depending on the device you may need an external keyboard, mouse and a monitor.
+- A USB key that's at least 8 GB in size and that can have all information removed from it.
 
 ## Next steps
 
