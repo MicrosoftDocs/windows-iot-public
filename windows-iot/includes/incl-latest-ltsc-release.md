@@ -4,7 +4,7 @@ ms.author: twarwick
 ms.service: windows-iot
 ms.subservice: iot
 ms-topic: include
-ms.date: 06/21/2024
+ms.date: 09/30/2024
 ---
 
 > [!NOTE]
