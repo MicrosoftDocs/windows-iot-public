@@ -22,6 +22,8 @@
   - name: Windows 11 IoT Enterprise
     expanded: false
     items:
+     - name: Version 24H2
+       href: ./whats-new/Windows-11-IoT-Enterprise-24H2.md
      - name: Version 23H2
        href: ./whats-new/Windows-11-IoT-Enterprise-23H2.md
      - name: Version 22H2
@@ -69,7 +71,7 @@
   - name: Manufacturing Guide
     expanded: false
     items:
-    - name: Overview
+    - name: Manufacturing Guide Overview
       href: ./Commercialization/Manufacturing-Guide.md
     - name: Lab 0 - Get the tools you need
       href: ./Commercialization/iot-ent-get-the-tools-you-need.md
