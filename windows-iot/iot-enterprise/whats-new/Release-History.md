@@ -18,7 +18,7 @@ There are currently three products offerings in the Windows IoT Enterprise produ
 
 - [Windows IoT Enterprise LTSC](#windows-iot-enterprise-ltsc)
 - [Windows 11 IoT Enterprise](#windows-11-iot-enterprise)
-- - [Windows 10 IoT Enterprise](#windows-10-iot-enterprise)
+- [Windows 10 IoT Enterprise](#windows-10-iot-enterprise)
 
 Each of the Windows IoT Enterprise product offerings is available for device makers through an authorized [Windows IoT Distributor](https://aka.ms/IoTDistributorList) for building new devices. To learn more about licensing Windows IoT Enterprise, see [Licensing and Usage](/windows/iot/iot-enterprise/commercialization/licensing).
 
