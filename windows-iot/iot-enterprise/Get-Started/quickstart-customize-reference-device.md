@@ -43,7 +43,7 @@ You can suppress Windows elements that appear when Windows starts or resumes and
 
 This section provides steps to configure Unbranded Boot in Audit mode using Deployment Image Servicing and Management (DISM) tool in your reference device sample. The steps apply to both physical device and virtual machine:
 
-1. Enable the Unbranded boot feature by running the following command in an Administrative Command Prompt:
+1. Enable the Unbranded boot feature by running the following command in Command Prompt with Administrator privileges:
 
     ```cmd
     Dism /online /enable-feature /featureName:Client-DeviceLockdown  
@@ -52,7 +52,7 @@ This section provides steps to configure Unbranded Boot in Audit mode using Depl
 
 1. Restart the reference device.
 
-1. Open an Administrative Command Prompt.
+1. Open Command Prompt with Administrator privileges.
 
 1. Disable the F8 key during startup to prevent access to the Advanced startup options menu:
 
@@ -82,7 +82,7 @@ You can use the [Custom Logon](../Customize/Custom-Logon.md) feature to suppress
 
 This section provides steps to configure Custom Logon in Audit mode using DISM in your reference device sample. The steps apply to both physical device and virtual machine:
 
-1. Enable the Custom Logon feature by running the following command at an Administrative Command Prompt. If prompted to restart, choose **No**:
+1. Enable the Custom Logon feature by running the following command at Command Prompt with Administrator privileges. If prompted to restart, choose **No**:
 
     ```cmd
     Dism /online /enable-feature /featurename:Client-DeviceLockdown /featurename:Client-EmbeddedLogon 
@@ -136,13 +136,13 @@ Windows IoT Enterprise allows you to build fixed purpose devices such as ATM mac
 
 This section provides steps to configure Shell Launcher in Audit mode using DISM in your reference device sample. The steps apply to both physical device and virtual machine:
 
-1. Enable the Shell Launcher feature by running the following command at an Administrative Command Prompt:
+1. Enable the Shell Launcher feature by running the following command at Command Prompt with Administrator privileges:
 
     ```cmd
     Dism /online /enable-feature /featurename:Client-EmbeddedShellLauncher 
     ```
 
-1. With Shell Launcher enabled, you can set an application as the Windows Shell. To set *powershell.exe* as your custom shell, open an Administrative Windows PowerShell Prompt and run:
+1. With Shell Launcher enabled, you can set an application as the Windows Shell. To set *powershell.exe* as your custom shell, open a Windows PowerShell Prompt with Administrator privileges and run:
 
     ```PowerShell
     $ShellLauncherClass = [wmiclass]"\\localhost\root\standardcimv2\embedded:WESL_UserSetting"

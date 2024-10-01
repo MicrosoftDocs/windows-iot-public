@@ -26,10 +26,10 @@ After you make your customizations in audit mode, you can capture an image of yo
 
 This section provides steps to sysprep the reference device and apply to both physical device and virtual machine:
 
-1. Select **Cancel** on the System Preparation Tool to close it, then run Sysprep from an Administrative Command Prompt to prepare the image for capture:
+1. Select **Cancel** on the System Preparation Tool to close it, then run Sysprep from a Command Prompt with Administrator privileges to prepare the image for capture:
 
     > [!NOTE]
-    > If you completed [Quickstart: Customize a reference device in Audit mode](quickstart-customize-reference-device.md) and configured *powershell.exe* as your custom shell, run the following command to open an Administrative Command Prompt: `Start-Process cmd -Verb RunAs`
+    > If you completed [Quickstart: Customize a reference device in Audit mode](quickstart-customize-reference-device.md) and configured *powershell.exe* as your custom shell, run the following command to open Command Prompt with Administrator privileges: `Start-Process cmd -Verb RunAs`
 
     ```cmd
     C:\Windows\System32\Sysprep\sysprep.exe /generalize /oobe /shutdown

@@ -48,7 +48,7 @@ The typical way to install Windows in a physical device is to create a bootable 
 Follow these steps to prepare the installation flash drive:
 
 1. Insert a flash drive into your Technician PC.
-1. Open an Administrative Command Prompt and run `diskpart`:
+1. Open Command Prompt with Administrator privileges and run `diskpart`:
 
    ```cmd
    diskpart
@@ -160,7 +160,7 @@ Install Windows with Windows Setup:
 <!-- TODO: Screenshot of Let's start with region -->
 
 > [!NOTE]
-> When at the **Let's start with region** OOBE screen don't continue the setup as you will need to enter Audit mode at this point. In the event that you started the setup of an account by mistake, you can open an Administrative Command Prompt and run `C:\Windows\System32\Sysprep\sysprep.exe /audit` to enter Audit mode and continue the steps.
+> When at the **Let's start with region** OOBE screen don't continue the setup as you will need to enter Audit mode at this point. In the event that you started the setup of an account by mistake, you can open Command Prompt with Administrator privileges and run `C:\Windows\System32\Sysprep\sysprep.exe /audit` to enter Audit mode and continue the steps.
 
 ## Enter Audit Mode
 
