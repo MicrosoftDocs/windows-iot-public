@@ -15,7 +15,7 @@ This guide walks you through how to start prototyping with Windows IoT Enterpris
 
 ## Step 1: Select Hardware
 
-To begin your prototyping journey, [select a board](./Boards.md) or use your existing hardware to run Windows IoT Enterprise that meets the following [requirements](./Hardware_Requirements.md).
+To begin your prototyping journey, you can use your existing hardware that meets the Windows IoT Enterprise [hardware requirements](./Hardware_Requirements.md) or select one of the [recommended hardware platforms and boards](./Platforms_and_Boards.md). 
 
 ## Step 2: Evaluate Edition
 
@@ -25,7 +25,7 @@ To select which edition of Windows IoT Enterprise you would like to work with, r
 
 ## Step 3: Deploy an Image
 
-If your board comes with instructions on how to deploy Windows IoT Enterprise, follow those instructions. Otherwise, you can follow the labs provided in the [Windows IoT Enterprise Manufacturing Guide](../Commercialization/Manufacturing-Guide.md).
+If your hardware comes with instructions on how to deploy Windows IoT Enterprise, follow those instructions. Otherwise, you can follow the labs provided in the [Windows IoT Enterprise Manufacturing Guide](../Commercialization/Manufacturing-Guide.md).
 
 ## Step 4: Load an Application
 

@@ -50,8 +50,8 @@
     href: ./Hardware/SoCs.md
   - name: 🔵Start Prototyping
     href: ./Hardware/Prototype.md
-  - name: 🟢Hardware Boards
-    href: ./Hardware/Boards.md
+  - name: 🟢Hardware Platforms and Boards
+    href: ./Hardware/Platforms_and_Boards.md
   - name: Arm Guidance
     expanded: false
     items:
