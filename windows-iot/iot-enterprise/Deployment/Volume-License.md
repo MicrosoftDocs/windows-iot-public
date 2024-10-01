@@ -2,7 +2,7 @@
 title: Windows IoT Enterprise LTSC in Volume License
 author: TerryWarwick
 ms.author: twarwick
-ms.date: 07/25/2024
+ms.date: 09/30/2024
 ms.topic: article
 ms.service: windows-iot
 ms.subservice: iot
