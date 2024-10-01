@@ -4,7 +4,7 @@ titleSuffix: Windows IoT Enterprise
 description: Learn about new and updated features that are of interest to device makers and IT Pros working with Windows 11 IoT Enterprise, version 21H2.
 author: TerryWarwick
 ms.author: twarwick
-ms.date: 01/11/2024
+ms.date: 09/30/2024
 ms.topic: article
 ms.service: windows-iot
 ms.subservice: iot
@@ -70,9 +70,9 @@ Like Windows 10 IoT Enterprise, Windows 11 IoT Enterprise receives monthly quali
 With every new operating system, comes exciting new features and capabilities - Windows 11 IoT Enterprise is no different.
 
 > [!NOTE]
-> Multi-app kiosk mode is not available for Windows 11 IoT Enterprise, version 21H2.  Please refer to What's new about subsequent releases for information about its return.
+> Multi-app kiosk mode is not available for Windows 11 IoT Enterprise, version 21H2. However, multi-app kiosk has been re-introduced for Windows 11 IoT Enterprise, version 22H2 with the [May 24, 2023 - Windows configuration update](https://support.microsoft.com/topic/may-24-2023-windows-configuration-update-cae8524a-4b62-4d38-bb67-f070bd282fff).  
 >
-> **Update** - [Multi-app kiosk mode is now available in Windows 11, version 22H2](https://techcommunity.microsoft.com/t5/windows-it-pro-blog/multi-app-kiosk-mode-now-available-in-windows-11/ba-p/3845558), as part of the Windows continuous innovation releases.  To learn how you can take advantage of features introduced via Windows continuous innovation, see more about how you can access this feature in Windows 11 IoT Enterprise, version 22H2, see [Delivering continuous innovation in Windows 11](https://support.microsoft.com/windows/delivering-continuous-innovation-in-windows-11-b0aa0a27-ea9a-4365-9224-cb155e517f12).
+> For more information, see [Multi-app kiosk mode now available in Windows 11!](https://techcommunity.microsoft.com/t5/windows-it-pro-blog/multi-app-kiosk-mode-now-available-in-windows-11/ba-p/3845558).
 
 ### Security and scanning
 
@@ -108,6 +108,7 @@ The security and privacy features in Windows 11 are similar to Windows 10. Secur
 - [Windows 11 requirements](/windows/whats-new/windows-11-requirements)
 - [Plan for Windows 11](/windows/whats-new/windows-11-plan)
 - [Prepare for Windows 11](/windows/whats-new/windows-11-prepare)
+- [Windows 11 Security](https://www.microsoft.com/security/blog/?p=98328)
 - [Windows release health](https://aka.ms/windowsreleasehealth)
 - [Windows 11 release information](/windows/release-health/windows11-release-information)
 - [Deprecated features](/windows/whats-new/deprecated-features)

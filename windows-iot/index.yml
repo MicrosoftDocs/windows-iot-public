@@ -53,8 +53,6 @@ productDirectory:
       links:
         - url: ./server/windows-server.md
           text: Overview
-        - url: /windows-server/get-started/whats-new-in-windows-server-2022
-          text: What's new in Windows Server 2022?
         - url: /windows-server/get-started/get-started-with-windows-server
           text: Get Started with Windows Server
         - url: /windows-server/get-started/windows-server-release-info

@@ -97,7 +97,7 @@ We recommend not having your device connected to any network during Windows Setu
 1. Your device restarts a couple of times during the operating system installation. Wait until the IoT device has entered OOBE (Out Of Box Experience) and is showing a screen that says **Let's start with region.**.
 
 > [!NOTE]
-> When at the **Let's start with region** OOBE screen don't continue the setup as you will need to enter Audit mode at this point. In the event that you started the setup of an account by mistake, you can open an Administrative Command Prompt and run `sysprep /audit` to enter Audit mode and continue the steps.
+> When at the **Let's start with region** OOBE screen don't continue the setup as you will need to enter Audit mode at this point. In the event that you started the setup of an account by mistake, you can open a Command Prompt with Administrator privileges and run `sysprep /audit` to enter Audit mode and continue the steps.
 
 ##### Enter Audit Mode
 
