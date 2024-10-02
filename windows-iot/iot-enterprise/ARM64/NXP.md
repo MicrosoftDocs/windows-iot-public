@@ -1,8 +1,8 @@
 ---
 title: NXP Overview
-author: anthonychen
+author: anch-msft
 ms.author: anthonychen
-ms.date: 7/8/2024
+ms.date: 10/2/2024
 ms.topic: overview
 ms.service: windows-iot
 ms.subservice: iot
@@ -18,7 +18,7 @@ For the specific NXP processor models supported by each Windows IoT Enterprise O
 
 ## NXP Board Support Package
 
-NXP publishes the Board Support Package (BSP) that includes the drivers and firmware needed for the supported NXP i.MX 8 and i.MX 93 evaluation kits (EVKs) to run on Windows IoT Enterprise. The BSP is provided in both source code and binary format.
+NXP publishes the Board Support Package (BSP) that includes the drivers and firmware needed for the supported NXP i.MX 8 and i.MX 93 evaluation kits (EVKs) to run on Windows IoT Enterprise. The BSP is provided in both source code and binary format.    
 
 To download the BSP for the EVKs and their supporting documentation, visit NXP's [Windows IoT Enterprise for i.MX Applications Processors](https://aka.ms/nxpiot) website.
 
@@ -26,7 +26,7 @@ For hardware platforms other than EVKs, contact the hardware manufacturer for th
 
 ## Features Supported
 
-The table below lists the features supported on each of the NXP i.MX EVK boards as of the most recent NXP BSP release (1.5.0). For details, check the [NXP BSP documentation](https://aka.ms/nxpiot).
+The table below lists the features supported on each of the NXP i.MX EVK boards as of the most recent NXP BSP release (1.5.1). For details, check the [NXP BSP documentation](https://aka.ms/nxpiot).
 
 | Feature | i.MX 8M Plus | i.MX 8M | i.MX 8M Mini | i.MX 8M Nano | i.MX 8X | i.MX 93 |
 |---|-|-|-|-|-|-|
@@ -34,7 +34,7 @@ The table below lists the features supported on each of the NXP i.MX EVK boards 
 | 3.5mm audio jack | input and output | output only | output only | output only | input and output | input and output |
 | HDMI audio (output only) | &check; | - | - | - | - | - |
 |**Display/Graphics**|
-| HDMI (up to 1080p) | &check; | &check; | - | - | - | - |
+| HDMI | up to 1080p | up to 1080p | - | - | - | - |
 | LVDS | up to 1920x1200 | - | - | - | up to 1080p | up to 1280x800 |
 | MIPI-DSI | up to 1920x1200 | - | up to 1920x1200 | up to 1920x1200 | - | up to 1920x1200 |
 | GPU | &check;| &check; | - | &check; | &check; | - |
@@ -91,6 +91,10 @@ The NXP GPU driver doesn't support acceleration of browser-based workloads. Brow
 ### eMMC HS400
 
 Windows IoT Enterprise doesn't support eMMC HS400, which can result in lower peak storage throughput. In addition, the i.MX 93 storage driver doesn't support eMMC HS200.
+
+### Minimum supported Windows 10 IoT Enterprise version: 19044.3693 (KB5032189)
+
+Windows 10 IoT Enterprise must be updated to version 19044.3693 [(KB5032189)](https://support.microsoft.com/en-us/topic/november-14-2023-kb5032189-os-builds-19044-3693-and-19045-3693-fe81e7e5-06bd-4e13-8233-4f7c07b1c512) or newer. Older versions of Windows 10 IoT Enterprise limit the maximum memory on the NXP i.MX 8M Plus to 3GB, and have storage stability issues that can lead to blue screens. To update the Windows IoT Enterprise image offline, follow the [instructions for adding updates to a Windows image](/windows-hardware/manufacture/desktop/servicing-the-image-with-windows-updates-sxs).
 
 ### Hyper-V
 
