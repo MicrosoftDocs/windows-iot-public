@@ -74,8 +74,6 @@ This section provides steps to configure Unbranded Boot in Audit mode using Depl
 
 1. Restart the reference device and notice that the Windows UI elements are suppressed during startup.
 
-<!-- TODO: Screenshot with Windows UI Elements surpressed during startup -->
-
 ## Suppress Windows UI elements from welcome and shutdown screens with Custom Logon
 
 You can use the [Custom Logon](../Customize/Custom-Logon.md) feature to suppress Windows UI elements that relate to the Welcome screen and shutdown screen. For example, you can suppress all elements of the Welcome screen UI and provide a custom logon UI.
@@ -127,8 +125,6 @@ This section provides steps to configure Custom Logon in Audit mode using DISM i
         ```
 
 1. Restart the reference device. You should no longer see the Windows UI elements that relate to the Welcome screen and shutdown screen.
-
-<!-- TODO: Screenshot that should no longer see the Windows UI elements that relate to the Welcome screen and shutdown screen. -->
 
 ## Enable a custom shell experience
 
