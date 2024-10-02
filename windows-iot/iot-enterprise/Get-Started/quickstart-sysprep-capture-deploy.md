@@ -35,7 +35,7 @@ This section provides steps to sysprep the reference device and apply to both ph
     C:\Windows\System32\Sysprep\sysprep.exe /generalize /oobe /shutdown
     ```
 
-    <!-- TODO: Screenshot with Powershell as custom shell and with System Preparation Tool window and a red square telling learner to click cancel. If the window is not closed the command will not run -->
+    :::image type="content" source="../Get-Started/media/quickstart-sysprep-capture-deploy/sysprep-powershell-shell.png" alt-text="Screenshot that shows the sysprep command with Powershell as the default system shell":::
 
 After Sysprep prepares the image, the reference device will shut down. The next time the device boots, it will boot into OOBE.
 
