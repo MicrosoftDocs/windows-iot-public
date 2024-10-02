@@ -48,25 +48,6 @@ For the specific processors models supported for each Windows IoT Enterprise OS 
 
 To get started building Windows IoT Enterprise on Arm devices, select an [Arm64 hardware platform or board](/iot-enterprise/Hardware/Platforms_and_Boards.md). Each listed Arm64 hardware platform and board has a Board Support Package (BSP) that supports Windows IoT Enterprise. Visit the hardware manufacturer's product page to learn more about its capabilities and ordering information.
 
-|Processor|Platform|Form Factor|
-|-|---------|-------|
-|Qualcomm QCS6490|[Thundercomm RB3 Gen 2](https://www.thundercomm.com/product/qualcomm-rb3-gen-2/) (in preview)|Development Kit|
-|NXP i.MX 8M Plus|[NXP i.MX 8M Plus EVK](https://www.nxp.com/design/development-boards/i-mx-evaluation-and-development-boards/evaluation-kit-for-the-i-mx-8m-plus-applications-processor:8MPLUSLPD4-EVK)|Development Kit|
-|NXP i.MX 8M Plus|[Avnet MSC SM2S IMX8PLUS](https://embedded.avnet.com/product/msc-sm2s-imx8plus/)|System on Module|
-|NXP i.MX 8M Plus|[Advantech ROM-5722](https://www.advantech.com/en/products/computer-on-module/rom-5722/mod_11aa0c77-868e-4014-8151-ac7a7a1c5c1b)|System on Module|
-|NXP i.MX 8M Plus|[SECO Trizeps VIII Plus](https://edge.seco.com/usa/trizeps-viii-plus.html)|System on Module|
-|NXP i.MX 8M Plus|[Advantech EPC-R3720](https://www.advantech.com/en/products/880a61e5-3fed-41f3-bf53-8be2410c0f19/epc-r3720/mod_fde326be-b36e-4044-ba9a-28c4c49a25c6)|Embedded PC|
-|NXP i.MX 8M Plus|[Advantech RSB-3720](https://www.advantech.com/en/products/single_board_computer/rsb-3720/mod_d2f1b0bc-650b-449a-8ef7-b65ce4f69949)|Single Board Computer|
-|NXP i.MX 93|[NXP i.MX 93 EVK](https://www.nxp.com/products/processors-and-microcontrollers/arm-processors/i-mx-applications-processors/i-mx-9-processors/i-mx-93-applications-processor-family-arm-cortex-a55-ml-acceleration-power-efficient-mpu:i.MX93)|Development Kit|
-|NXP i.MX 8M Mini|[NXP i.MX 8M Mini EVK](https://www.nxp.com/design/development-boards/i-mx-evaluation-and-development-boards/evaluation-kit-for-the-i-mx-8m-mini-applications-processor:8MMINILPD4-EVK)|Development Kit|
-|NXP i.MX 8M Mini|[SECO Trizeps VIII Mini](https://edge.seco.com/usa/trizeps-viii-mini.html)|System on Module|
-|NXP i.MX 8X|[NXP i.MX 8X EVK](https://www.nxp.com/products/processors-and-microcontrollers/arm-processors/i-mx-applications-processors/i-mx-8-applications-processors/i-mx-8x-family-arm-cortex-a35-3d-graphics-4k-video-dsp-error-correcting-code-on-ddr:i.MX8X)|Development Kit|
-|NXP i.MX 8M|[NXP i.MX 8M EVK](https://www.nxp.com/design/development-boards/i-mx-evaluation-and-development-boards/evaluation-kit-for-the-i-mx-8m-applications-processor:MCIMX8M-EVK)|Development Kit|
-|NXP i.MX 8M|[MSC SM2S-IMX8M](https://embedded.avnet.com/product/msc-sm2s-imx8m/)    |System on Module|
-|NXP i.MX 8M|[Advantech ROM-5720](https://www.advantech.com/en/products/computer-on-module/rom-5720/mod_4fbfe9fa-f5b2-4ba8-940e-e47585ad0fef)|System on Module|
-|NXP i.MX 8M|[SECO Trizeps VIII](https://edge.seco.com/usa/trizeps-viii.html)|System on Module|
-|NXP i.MX 8M Nano|[NXP i.MX 8M Nano EVK](https://www.nxp.com/design/development-boards/i-mx-evaluation-and-development-boards/evaluation-kit-for-the-i-mx-8m-nano-applications-processor:8MNANOD4-EVK)|Development Kit|
-
 ## Getting Started
 
 For the quickest way to get familiar with Windows IoT Enterprise on Arm64, see our [Tutorial: Setup an NXP i.MX EVK](../Tutorials/Win10-NXP-iMX.md).
