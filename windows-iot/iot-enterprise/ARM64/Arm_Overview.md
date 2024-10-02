@@ -46,7 +46,7 @@ For the specific processors models supported for each Windows IoT Enterprise OS 
 
 ## Arm64 Hardware Platforms and Boards
 
-To get started building Windows IoT Enterprise on Arm devices, select an [Arm64 hardware platform or board](/iot-enterprise/Hardware/Platforms_and_Boards.md). Each listed Arm64 hardware platform and board has a Board Support Package (BSP) that supports Windows IoT Enterprise. Visit the hardware manufacturer's product page to learn more about its capabilities and ordering information.
+To get started building Windows IoT Enterprise on Arm devices, select an [Arm64 hardware platform or board](../Hardware/Platforms_and_Boards.md). Each listed Arm64 hardware platform and board has a Board Support Package (BSP) that supports Windows IoT Enterprise. Visit the hardware manufacturer's product page to learn more about its capabilities and ordering information.
 
 ## Getting Started
 
