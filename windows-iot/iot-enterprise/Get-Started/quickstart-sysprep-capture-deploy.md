@@ -40,7 +40,7 @@ This section provides steps to sysprep the reference device and apply to both ph
 After Sysprep prepares the image, the reference device will shut down. The next time the device boots, it will boot into OOBE.
 
 > [!CAUTION]
-> Don't power the reference IoT device back on until you're ready to capture an image. If the device boots, you'll have to go through the Sysprep process again.
+> Don't power the reference device back on until you're ready to capture an image. If the device boots, you'll have to go through the Sysprep process again.
 
 ## Create a bootable WinPE drive
 
@@ -168,6 +168,8 @@ In your **reference device sample**, follow the steps to capture a WIM image:
 
     The system boots to the WinPE, where you see a Command prompt.
 
+    :::image type="content" source="../Get-Started/media/quickstart-sysprep-capture-deploy/winpe-command-prompt.png" alt-text="Screenshot that shows the WinPE command prompt":::
+
     > [!TIP]
     > If you have a different keyboard layout, you can change the keyboard layout by running `wpeutil setKeyboardLayout 0816:00000816` where the *language:keyboard* pair list for your desired layout can be found in [input locales](/windows-hardware/manufacture/desktop/default-input-locales-for-windows-language-packs). Then run `winpeshl.exe` from the WinPE Command Prompt to ensure the new layout is applied to the current session.
 
@@ -266,8 +268,16 @@ In your **reference device sample**, follow the steps to capture a WIM image:
 
     DISM captures an image of the OS partition and store it on D: drive.
 
+    :::image type="content" source="../Get-Started/media/quickstart-sysprep-capture-deploy/winpe-dism-capture-image.png" alt-text="Screenshot that shows the success capture of the image using dism":::
+
     > [!NOTE]
     > Your device will have more than one partition, but you only need to capture the Windows partition.
+
+1. Shutdown the virtual machine:
+
+    ```cmd
+    wpeutil shutdown
+    ```
 
 ### [Virtual Machine](#tab/virtualmachine)
 
@@ -281,6 +291,8 @@ Select WinPE VHD as the first in boot order:
 1. Start the Virtual machine
 
 The system boots to the WinPE, where you see a Command prompt.
+
+:::image type="content" source="../Get-Started/media/quickstart-sysprep-capture-deploy/winpe-command-prompt.png" alt-text="Screenshot that shows the WinPE command prompt":::
 
 > [!TIP]
 > If you have a different keyboard layout, you can change the keyboard layout by running `wpeutil setKeyboardLayout 0816:00000816` where the *language:keyboard* pair list for your desired layout can be found in [input locales](/windows-hardware/manufacture/desktop/default-input-locales-for-windows-language-packs). Then run `winpeshl.exe` from the WinPE Command Prompt to ensure the new layout is applied to the current session.
@@ -381,8 +393,16 @@ The system boots to the WinPE, where you see a Command prompt.
 
     DISM captures an image of the OS partition and store it on D: drive.
 
+    :::image type="content" source="../Get-Started/media/quickstart-sysprep-capture-deploy/winpe-dism-capture-image.png" alt-text="Screenshot that shows the success capture of the image using dism":::
+
     > [!NOTE]
     > Your device will have more than one partition, but you only need to capture the Windows partition.
+
+1. Shutdown the virtual machine:
+
+    ```cmd
+    wpeutil shutdown
+    ```
 
 ---
 
@@ -390,9 +410,9 @@ The system boots to the WinPE, where you see a Command prompt.
 
 In this section, you deploy a WIM image from WinPE. The reference device sample that you create in these quickstarts is already in a deployed state since it was captured in a Sysprepped state and, when deployed, boots into OOBE. This section provides steps to deploy the captured WIM image to a new device, though you can also use this process to deploy the image to the same device you captured it from.
 
-In your **new device**, follow the steps to deploy the WIM image:
-
 ### [Physical Device](#tab/physicaldevice)
+
+In your **new device**, follow the steps to deploy the WIM image:
 
 1. Boot the device from the bootable WinPE USB flash drive.
 
@@ -402,11 +422,16 @@ In your **new device**, follow the steps to deploy the WIM image:
    diskpart
    ```
 
+1. List and then select the disks of your device:
+
+   ```cmd
+   list disk
+   select disk X    (where X is the disk of your device)
+   ```
+
 1. Format the device::
 
     ```cmd
-    list disk
-    select disk X    (where X is the disk of your device)
     clean 
     convert gpt 
     create partition efi size=100 
@@ -452,6 +477,8 @@ In your **new device**, follow the steps to deploy the WIM image:
     Dism /Apply-Image /ImageFile:D:\WindowsIoTEnterprise.wim /ApplyDir:W:\ /Index:1
     ```
 
+    :::image type="content" source="../Get-Started/media/quickstart-sysprep-capture-deploy/winpe-dism-apply-image.png" alt-text="Screenshot that shows the success apply of the image using dism":::
+
 1. From the WinPE Command Prompt, configure the default BCD on the system, which is a required step as the disk was freshly partitioned and formatted:
 
     ```cmd
@@ -465,8 +492,6 @@ In your **new device**, follow the steps to deploy the WIM image:
     ```
 
 The device reboots into OOBE with the Windows IoT Enterprise image you previously customized and captured.
-
-<!-- TODO: We will review this step. We need to mention that OOBE needs to be done first -->
 
 ### [Virtual Machine](#tab/virtualmachine)
 
@@ -509,14 +534,16 @@ The system boots to the WinPE, where you see a Command prompt.
    diskpart
    ```
 
+1. List and then select the disks of your device:
+
+   ```cmd
+   list disk
+   select disk X    (where X is the disk of your device)
+   ```
+
 1. Format the device::
 
     ```cmd
-    list disk
-    ```cmd
-    diskpart
-    list disk
-    select disk X    (where X is the disk of your device)
     clean 
     convert gpt 
     create partition efi size=100 
@@ -562,21 +589,25 @@ The system boots to the WinPE, where you see a Command prompt.
     Dism /Apply-Image /ImageFile:D:\WindowsIoTEnterprise.wim /ApplyDir:W:\ /Index:1
     ```
 
+    :::image type="content" source="../Get-Started/media/quickstart-sysprep-capture-deploy/winpe-dism-apply-image.png" alt-text="Screenshot that shows the success apply of the image using dism":::
+
 1. From the WinPE Command Prompt, configure the default BCD on the system, which is a required step as the disk was freshly partitioned and formatted:
 
     ```cmd
     W:\Windows\System32\bcdboot W:\Windows /s S:
     ```
 
-1. Turn off the Virtual Machine.
+1. Turn off the Virtual Machine:
+
+    ```cmd
+    wpeutil shutdown
+    ```
 
 1. In the Virtual Machine settings, set the VHD where you installed the WIM file as the first in boot order.
 
 1. Start the Virtual Machine.
 
 The device starts into OOBE with the Windows IoT Enterprise image you previously customized and captured.
-
-<!-- TODO: We will review this step. We need to mention that OOBE needs to be done first -->
 
 ---
 
