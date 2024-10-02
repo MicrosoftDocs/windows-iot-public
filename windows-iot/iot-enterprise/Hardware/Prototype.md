@@ -38,4 +38,4 @@ If you're interested in pursuing your prototype, past the 90-day evaluation peri
 ## Other Resources
 
 * [Windows IoT Enterprise Manufacturing Guide](../Commercialization/Manufacturing-Guide.md)
-* [Windows Processor Requirements](/windows-hardware/design/minimum/windows-processor-requirements)
+* [Windows IoT Enterprise Processor Requirements](./Processor_Requirements.md)

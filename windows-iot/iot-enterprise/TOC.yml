@@ -46,11 +46,9 @@
     href: ./Hardware/System_Requirements.md
   - name: Processor Requirements
     href: ./Hardware/Processor_Requirements.md
-  - name: 🔴SoCs and Custom Boards
-    href: ./Hardware/SoCs.md
-  - name: 🔵Start Prototyping
+  - name: Start Prototyping
     href: ./Hardware/Prototype.md
-  - name: 🟢Hardware Platforms and Boards
+  - name: Hardware Platforms and Boards
     href: ./Hardware/Platforms_and_Boards.md
   - name: Arm Guidance
     expanded: false

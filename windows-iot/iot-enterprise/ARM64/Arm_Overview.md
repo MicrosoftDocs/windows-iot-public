@@ -44,9 +44,9 @@ Qualcomm processors provide excellent performance while maintaining the low powe
 
 For the specific processors models supported for each Windows IoT Enterprise OS version, refer to the [Windows IoT Enterprise Processor Lists](../Hardware/Processor_Requirements.md#windows-iot-enterprise-processor-lists).
 
-## Arm64 Hardware Platforms
+## Arm64 Hardware Platforms and Boards
 
-Each Arm64 hardware platform in the following table is built with an Arm64 Processor that supports Windows IoT Enterprise and has a Board Support Package (BSP) that supports Windows IoT Enterprise. Visit the hardware platform's product page to learn more about its capabilities and ordering information.
+To get started building Windows IoT Enterprise on Arm devices, select an [Arm64 hardware platform or board](/iot-enterprise/Hardware/Platforms_and_Boards.md). Each listed Arm64 hardware platform and board has a Board Support Package (BSP) that supports Windows IoT Enterprise. Visit the hardware manufacturer's product page to learn more about its capabilities and ordering information.
 
 |Processor|Platform|Form Factor|
 |-|---------|-------|

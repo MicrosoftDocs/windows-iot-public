@@ -45,7 +45,7 @@
 
     {
         "source_path_from_root": "/windows-iot/iot-enterprise/Hardware/SoCs.md",
-        "redirect_url": "/windows/iot/iot-enterprise/Hardware/Boards",
+        "redirect_url": "/windows/iot/iot-enterprise/Hardware/Platforms_and_Boards",
         "redirect_document_id": false
     }
 

@@ -1,8 +1,8 @@
 ---
 title: Hardware Platforms and Boards
-author: Anthony Chen
+author: anch-msft
 ms.author: anthonychen
-ms.date: 09/13/2024
+ms.date: 10/2/2024
 ms.topic: article
 ms.service: windows-iot
 ms.subservice: iot
@@ -68,3 +68,8 @@ The following boards are all great starting points for your Windows IoT Enterpri
 |Arm64|[Advantech ROM-5722](https://www.advantech.com/en/products/computer-on-module/rom-5722/mod_11aa0c77-868e-4014-8151-ac7a7a1c5c1b)|System on Module|
 |Arm64s|[SECO Trizeps VIII Plus](https://edge.seco.com/usa/trizeps-viii-plus.html)|System on Module|
 |Arm64|[Advantech RSB-3720](https://www.advantech.com/en/products/single_board_computer/rsb-3720/mod_d2f1b0bc-650b-449a-8ef7-b65ce4f69949)|Single Board Computer|
+
+## More Resources
+
+* [Windows IoT Enterprise Manufacturing Guide](../Commercialization/Manufacturing-Guide.md)
+* [Windows IoT Enterprise Processor Requirements](./Processor_Requirements.md)
