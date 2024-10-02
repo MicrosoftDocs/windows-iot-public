@@ -597,7 +597,7 @@ The system boots to the WinPE, where you see a Command prompt.
     W:\Windows\System32\bcdboot W:\Windows /s S:
     ```
 
-1. Turn off the Virtual Machine:
+1. Shutdown the virtual machine:
 
     ```cmd
     wpeutil shutdown
