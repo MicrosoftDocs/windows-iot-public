@@ -14,13 +14,13 @@ keywords: IoT Enterprise, Hardware, SoCs, Custom Boards, development devices, bo
 
 ## Selecting Hardware
 
-To begin building a Windows IoT Enterprise solution, you will need to select a hardware platform or board.
+To begin building a Windows IoT Enterprise solution, you need to select a hardware platform or board.
 
-A full hardware platform will house all of the board-level components inside an enclosure and is commercial ready out-of-the-box. It is a good fit for application-level solutions builders that do not need high degrees of hardware customizability. 
+A full hardware platform houses all of the board-level components inside an enclosure and is commercial ready out-of-the-box. It's a good fit for application-level solutions builders that don't need high degrees of hardware customizability. 
 
-A hardware board will include only the board with exposed components, making it easier to make hardware configuration changes and debug hardware issues. It is a good fit for OEMs that have specific or bespoke hardware requirements for their product. 
+A hardware board includes only the board with exposed components, making it easier to make hardware configuration changes and debug hardware issues. It's a good fit for OEMs that have specific or bespoke hardware requirements for their product. 
 
-Other things to consider when selecting hardware include CPU, GPU, and/or NPU performance, available memory, availability connectivity options, security, customizability, time to market, and cost. Decide which hardware works best for you based on your specific requirements.
+Other factors to consider when selecting hardware include CPU, GPU, and/or NPU performance, available memory, availability connectivity options, security, customizability, time to market, and cost. Decide which hardware works best for you based on your specific requirements.
 
 ## Recommended Hardware Platforms
 
