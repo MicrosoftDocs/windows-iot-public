@@ -12,13 +12,13 @@ keywords: IoT Enterprise, Hardware, Windows IoT, Arm64, NXP
 
 # Windows IoT Enterprise on NXP
 
-Microsoft has worked alongside NXP to enable Windows IoT Enterprise support for NXP's i.MX 8 and i.MX 9 series of Arm64 processors. NXP's i.MX processors enable lower power and lower cost Windows IoT Enterprise devices to be built than ever before while maintaining the familiar user interface, device management, and industry-leading OS support that users love. 
+Microsoft has worked alongside NXP to enable Windows IoT Enterprise support for NXP's i.MX 8 and i.MX 9 series of Arm64 processors. NXP's i.MX processors enable lower power and lower cost Windows IoT Enterprise devices to be built than ever before while maintaining the familiar user interface, device management, and industry-leading OS support that users love.
 
 For the specific NXP processor models supported by each Windows IoT Enterprise OS version, refer to the [Windows IoT Enterprise Processor Lists](../Hardware/Processor_Requirements.md#windows-iot-enterprise-processor-lists).
 
 ## NXP Board Support Package
 
-NXP publishes the Board Support Package (BSP) that includes the drivers and firmware needed for the supported NXP i.MX 8 and i.MX 93 evaluation kits (EVKs) to run on Windows IoT Enterprise. The BSP is provided in both source code and binary format.    
+NXP publishes the Board Support Package (BSP) that includes the drivers and firmware needed for the supported NXP i.MX 8 and i.MX 93 evaluation kits (EVKs) to run on Windows IoT Enterprise. The BSP is provided in both source code and binary format.
 
 To download the BSP for the EVKs and their supporting documentation, visit NXP's [Windows IoT Enterprise for i.MX Applications Processors](https://aka.ms/nxpiot) website.
 
