@@ -155,10 +155,10 @@ Install Windows with Windows Setup:
 
 1. Your device restarts a couple of times during the operating system installation. Wait until the device enters Out Of Box Experience (OOBE) and is showing a screen that says **Is this the right country or region?**.
 
-    :::image type="content" source="../Get-Started/media/quickstart-pepare-lab-environment/country-region-oobe-screen.png" alt-text="Screenshot that shows the region and country OOBE screen.":::
+    > [!IMPORTANT]
+    > When at the **Is this the right country or region?** OOBE screen don't continue the setup as you will need to enter Audit mode at this point. In the event that you started the setup of an account by mistake, you can open Command Prompt with Administrator privileges and run `C:\Windows\System32\Sysprep\sysprep.exe /audit` to enter Audit mode and continue the steps.
 
-> [!NOTE]
-> When at the **Is this the right country or region?** OOBE screen don't continue the setup as you will need to enter Audit mode at this point. In the event that you started the setup of an account by mistake, you can open Command Prompt with Administrator privileges and run `C:\Windows\System32\Sysprep\sysprep.exe /audit` to enter Audit mode and continue the steps.
+    :::image type="content" source="../Get-Started/media/quickstart-pepare-lab-environment/country-region-oobe-screen.png" alt-text="Screenshot that shows the region and country OOBE screen.":::
 
 ## Enter Audit Mode
 
@@ -168,12 +168,12 @@ Windows is installed on your reference device sample and you have a basic image 
 
 1. Your device should restart in Audit mode. You know you're in Audit mode when you see a System Preparation Tool window.
 
-1. Every time you reboot the system you see the System Preparation Tool, also called Sysprep. Select **Cancel** on the System Preparation Tool to close it.
+1. Every time you reboot the system you see the System Preparation Tool, also called Sysprep. Sysprep can be hidden behind the start screen, so you might need to minimize the start screen to see it. Select **Cancel** on the System Preparation Tool to close it.
 
     :::image type="content" source="../Get-Started/media/quickstart-pepare-lab-environment/audit-mode-sysprep-tool.png" alt-text="Screenshot of Audit Mode screen showing System Preparation Tool.":::
 
-> [!TIP]
-> If you're in Audit mode and a password-protected screen saver starts, you can't log back on to the system. The built-in administrator account that's used to log on to Audit mode is immediately disabled after logon. Disable the screen saver by either changing the power plan in the Settings app, or configure and deploy a custom plan. For more information, see [Create a Custom Power Plan](/windows-hardware/manufacture/desktop/create-a-custom-power-plan-technicalreference).
+    > [!TIP]
+    > If you're in Audit mode and a password-protected screen saver starts, you can't log back on to the system. The built-in administrator account that's used to log on to Audit mode is immediately disabled after logon. Disable the screen saver by either changing the power plan in the Settings app, or configure and deploy a custom plan. For more information, see [Create a Custom Power Plan](/windows-hardware/manufacture/desktop/create-a-custom-power-plan-technicalreference).
 
 ## Next step
 

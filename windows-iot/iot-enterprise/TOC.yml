@@ -7,14 +7,14 @@
   href: ./Overview.md  
 - name: Release History
   href: ./whats-new/Release-History.md
-- name: 🟢Get started with a reference device sample
+- name: Get started with a reference device sample
   expanded: true
   items:
-  - name: 🟢Prepare your lab environment
+  - name: Prepare your lab environment
     href: ./get-started/quickstart-pepare-lab-environment.md
-  - name: 🟢Customize a reference device
+  - name: Customize a reference device
     href: ./get-started/quickstart-customize-reference-device.md
-  - name: 🟢Sysprep, capture and deploy
+  - name: Sysprep, capture and deploy
     href: ./get-started/quickstart-sysprep-capture-deploy.md
 - name: What's new...
   expanded: false
