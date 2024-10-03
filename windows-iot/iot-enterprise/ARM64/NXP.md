@@ -112,6 +112,6 @@ Windows IoT Enterprise doesn't support expandable storage through PCIe (for exam
 
 The i.MX 8M applications processor has a hardware limitation that only allows external devices to address the first 3GB of memory (RAM). i.MX 8M systems that have more than 4GB or more memory must ensure their DMA-capable drivers don't address memory outside of the safe 3GB region.
 
-### USB Device, USB OTG
+### USB OTG (On-The-Go)
  
-Windows IoT Enterprise doesn't support operating as a USB device, and hence, doesn't support USB OTG. 
+Windows IoT Enterprise doesn't support USB OTG (On-The-Go).
