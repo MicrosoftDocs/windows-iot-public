@@ -16,9 +16,9 @@ keywords: IoT Enterprise, Hardware, SoCs, Custom Boards, development devices, bo
 
 To begin building a Windows IoT Enterprise solution, you need to select a hardware platform or board.
 
-A full hardware platform houses all of the board-level components inside an enclosure and is commercial ready out-of-the-box. It's a good fit for application-level solutions builders that don't need high degrees of hardware customizability. 
+A full hardware platform houses all of the board-level components inside an enclosure and is commercial ready out-of-the-box. It's a good fit for application-level solutions builders that don't need high degrees of hardware customizability.
 
-A hardware board includes only the board with exposed components, making it easier to make hardware configuration changes and debug hardware issues. It's a good fit for OEMs that have specific or bespoke hardware requirements for their product. 
+A hardware board includes only the board with exposed components, making it easier to make hardware configuration changes and debug hardware issues. It's a good fit for OEMs that have specific or bespoke hardware requirements for their product.
 
 Other factors to consider when selecting hardware include CPU, GPU, and/or NPU performance, available memory, availability connectivity options, security, customizability, time to market, and cost. Decide which hardware works best for you based on your specific requirements.
 
@@ -56,7 +56,7 @@ The following boards are all great starting points for your Windows IoT Enterpri
 |x64|[Congatec conga-TC700](https://www.congatec.com/en/products/com-express-type-6/conga-tc700/)|System on Module|
 |x64|[Congatec conga-TC675](https://www.congatec.com/en/products/com-express-type-6/conga-tc675/)|System on Module|
 |x64|[DFI MTH968](https://www.dfi.com/product/index/1652)|System on Module|
-|x64|[Portwell PCOM-B885](https://portwell.com/products/detail.php?CUSTCHAR1=PCOM-B885)|System on Module| 
+|x64|[Portwell PCOM-B885](https://portwell.com/products/detail.php?CUSTCHAR1=PCOM-B885)|System on Module|
 |x64|[ASRock NUC Boards](https://www.asrockind.com/en-gb/nuc)|Single Board Computer|
 |x64|[DFI MTH253](https://www.dfi.com/product/index/1679)|Single Board Computer|
 |x64|[iBASE Single Board Computers](https://www.ibase.com.tw/en/product/category/Embedded_Computing/Single_Board_Computer/x86_based_3_5_Single_Board_Computer)|Single Board Computer|
