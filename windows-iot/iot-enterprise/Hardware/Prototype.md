@@ -33,7 +33,7 @@ You can choose to port over any of your existing [Windows applications](/windows
 
 ## Step 5: Licensing & Distribution
 
-If you're interested in pursuing your prototype, past the 90-day evaluation period, reach out to a Windows IoT distributor. Microsoft offers several Windows IoT products. Authorized distributors of Windows IoT products can help you choose the right product for your solution and help you build secure and connected Windows IoT solutions. If you would like to work with one of our distributors, please [select a distributor](https://aka.ms/IoTDistributorList) in your region and contact the distributor directly for more details.
+If you're interested in pursuing your prototype, past the 90-day evaluation period, reach out to a Windows IoT distributor. Microsoft offers several Windows IoT products. Authorized distributors of Windows IoT products can help you choose the right product for your solution and help you build secure and connected Windows IoT solutions. If you would like to work with one of our distributors, [select a distributor](https://aka.ms/IoTDistributorList) in your region and contact the distributor directly for more details.
 
 ## Other Resources
 
