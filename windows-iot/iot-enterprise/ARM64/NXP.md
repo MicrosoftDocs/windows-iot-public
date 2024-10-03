@@ -114,4 +114,4 @@ The i.MX 8M applications processor has a hardware limitation that only allows ex
 
 ### USB OTG (On-The-Go)
  
-Windows IoT Enterprise doesn't support USB OTG (On-The-Go).
+Windows IoT Enterprise doesn't support [USB OTG (On-The-Go)](https://www.usb.org/usb-on-the-go), and only supports USB ports operating in the USB Host role.
