@@ -16,7 +16,7 @@ Windows IoT Enterprise on Arm is simply Windows IoT Enterprise that is built for
 
 ## Windows IoT Enterprise on Arm vs. x86/x64
 
-Windows IoT Enterprise on Arm is designed to be familiar for device builders and developers used to working with x86/x64. Most of the documentation for Windows IoT Enterprise applies to both Arm64 and x86/x64, with differences called out directly in each feature's documentation page. A few general points to consider are mentioned below. 
+Windows IoT Enterprise on Arm is designed to be familiar for device builders and developers used to working with x86/x64. Most of the documentation for Windows IoT Enterprise applies to both Arm64 and x86/x64, with differences called out directly in each feature's documentation page. A few general points to consider are mentioned below.
 
 ### Applications
 
@@ -26,17 +26,17 @@ Windows IoT Enterprise on Arm can run **native** Arm64 applications and **emulat
 
 **Emulated** applications are x86/x64 applications that are run as-is without modification on Windows IoT Enterprise on Arm using inbox emulation technology. x86/x64 application emulation provides a fast way for device builders to port existing x86/x64 designs to Arm64. Windows 10 IoT Enterprise on Arm supports emulating x86 applications, whereas Windows 11 IoT Enterprise on Arm supports emulating both x86 and x64 applications.
 
-Learn more about Arm application development in the [Windows IoT Enterprise on Arm application development documentation](../Development/App_dev.md) or the [Windows on Arm application development documentation](/windows/arm/overview). 
+Learn more about Arm application development in the [Windows IoT Enterprise on Arm application development documentation](../Development/App_dev.md) or the [Windows on Arm application development documentation](/windows/arm/overview).
 
 ### Device Drivers
 
-Device drivers must be built natively for Arm64 to run on Windows IoT Enterprise on Arm. Arm64 drivers for many commonly used devices are provided in Windows or in a board's Board Support Package (BSP). In addition, many device vendors provide drivers for their devices through Windows Update or 3rd-party support channels. For a device without an available driver, you need to work with the device vendor to get one or write one yourself. 
+Device drivers must be built natively for Arm64 to run on Windows IoT Enterprise on Arm. Arm64 drivers for many commonly used devices are provided in Windows or in a board's Board Support Package (BSP). In addition, many device vendors provide drivers for their devices through Windows Update or 3rd-party support channels. For a device without an available driver, you need to work with the device vendor to get one or write one yourself.
 
 Learn more about writing and deploying drivers the [Windows IoT Enterprise device driver documentation](../OS-Features/Device-Drivers.md).
 
 ## Arm64 Processor Support
 
-Windows IoT Enterprise on Arm supports various NXP and Qualcomm processors, catering to different device needs and performance requirements. 
+Windows IoT Enterprise on Arm supports various NXP and Qualcomm processors, catering to different device needs and performance requirements.
 
 [NXP processors](./NXP.md) provide the lowest power and lowest cost options for building Windows IoT Enterprise devices, making them excellent for device categories like thin clients, kiosks, gateways, and human machine interfaces (HMIs).
 
