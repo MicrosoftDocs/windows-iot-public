@@ -123,7 +123,7 @@ Mount the VHDs on your **technician PC**
 1. Initialize the VHD by right-clicking on the disk and selecting **Initialize Disk**.
 1. Create a volume by right-clicking on the unallocated space and selecting **New Simple Volume...**.
 1. Follow the wizard to create a new volume, letting *FAT32* as the file system for WinPE.
-1. Repeat the steps for the VHD where you will store the WIM file, letting *NTFS* as the file system.
+1. Repeat the steps for the VHD where you store the WIM file, letting *NTFS* as the file system.
 1. You can now access the VHD from File Explorer as if it were a regular drive.
 
 Add WinPE files to the VHD:
@@ -273,7 +273,7 @@ In your **reference device sample**, follow the steps to capture a WIM image:
     > [!NOTE]
     > Your device will have more than one partition, but you only need to capture the Windows partition.
 
-1. Shutdown the virtual machine:
+1. Shut down the virtual machine:
 
     ```cmd
     wpeutil shutdown
@@ -398,7 +398,7 @@ The system boots to the WinPE, where you see a Command prompt.
     > [!NOTE]
     > Your device will have more than one partition, but you only need to capture the Windows partition.
 
-1. Shutdown the virtual machine:
+1. Shut down the virtual machine:
 
     ```cmd
     wpeutil shutdown
@@ -597,7 +597,7 @@ The system boots to the WinPE, where you see a Command prompt.
     W:\Windows\System32\bcdboot W:\Windows /s S:
     ```
 
-1. Shutdown the virtual machine:
+1. Shut down the virtual machine:
 
     ```cmd
     wpeutil shutdown

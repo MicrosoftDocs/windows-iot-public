@@ -147,7 +147,7 @@ Install Windows with Windows Setup:
 
 1. Select **Install Windows 11**.
 
-1. On the **Activate Windows** screen, insert a valid product key. This screen won't show if you are using an evaluation or volume license edition.
+1. On the **Activate Windows** screen, insert a valid product key. This screen doesn't show if you're using an evaluation or volume license edition.
 
 1. On the **Applicable notices and license terms** screen, select **Accept** if you agree with the terms.
 
@@ -155,7 +155,7 @@ Install Windows with Windows Setup:
 
 1. Your device restarts a couple of times during the operating system installation. Wait until the device enters Out Of Box Experience (OOBE) and is showing a screen that says **Is this the right country or region?**.
 
-    :::image type="content" source="../Get-Started/media/quickstart-pepare-lab-environment/country-region-oobe-screen.png" alt-text="Screenshot that shows the OOBE screen Is this the right country or region?.":::
+    :::image type="content" source="../Get-Started/media/quickstart-pepare-lab-environment/country-region-oobe-screen.png" alt-text="Screenshot that shows the region and country OOBE screen.":::
 
 > [!NOTE]
 > When at the **Is this the right country or region?** OOBE screen don't continue the setup as you will need to enter Audit mode at this point. In the event that you started the setup of an account by mistake, you can open Command Prompt with Administrator privileges and run `C:\Windows\System32\Sysprep\sysprep.exe /audit` to enter Audit mode and continue the steps.

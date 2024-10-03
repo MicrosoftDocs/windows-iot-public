@@ -31,9 +31,9 @@ When Windows boots, it starts in either Out-Of-Box Experience (OOBE) mode or in 
 
 - Bypass OOBE. You can access the desktop as quickly as possible. You don't have to configure default settings such as a user account, location, and time zone.
 - Install applications, add device drivers, and run scripts. You can connect to a network and access more installation files and scripts. You can also install more language packs and device drivers.
-- Provide a controlled and specialized device by locking down the device interaction experience. There are many reasons for locking down a device, such as protecting the system from malicious users, providing a custom defined user experience, and increasing system reliability.
+- Provide a controlled and specialized device by locking down the device interaction experience. Locking down a device helps protect it from malicious users, provides a custom defined user experience, and improves system reliability.
 - Test the validity of a Windows installation. Before you deploy the system to end users, you can perform tests on the system without creating a user account. Then you can prepare the system to start in OOBE on the next boot.
-- Add more customizations to a reference image. This reduces the number of images that you have to manage. For example, you can create a single reference image that contains the basic customizations that you want to apply to all Windows images. You can then boot the reference image to audit mode and make more changes that are specific to the computer. These changes can be customer-requested applications or specific device drivers.
+- Add more customizations to a reference image to help reduce the number of images that you have to manage. For example, you can create a single reference image that contains the basic customizations that you want to apply to all Windows images. You can then boot the reference image to audit mode and make more changes that are specific to the computer. These changes can be customer-requested applications or specific device drivers.
 
 For more information, see [Audit mode overview](/windows-hardware/manufacture/desktop/audit-mode-overview).
 
@@ -153,7 +153,7 @@ This section provides steps to configure Shell Launcher in Audit mode using DISM
 
     :::image type="content" source="../Get-Started/media/quickstart-customize-reference-device/powershell-shell.png" alt-text="Screenshot that shows PowerShell as the default system shell":::
 
-You can leave the reference device with *powershell.exe* as your custom shell and proceed to [Quickstart: Sysprep and capture the reference device image and deploy to a new device](quickstart-sysprep-capture-deploy.md). If you want to revert the system back to the *explorer.exe* shell, do the following:
+You can leave the reference device with *powershell.exe* as your custom shell and proceed to [Quickstart: Sysprep and capture the reference device image and deploy to a new device](quickstart-sysprep-capture-deploy.md). If you want to revert the system back to the *explorer.exe* shell, do the following steps:
 
 1. From the current shell, open an Administrative Windows PowerShell Prompt:
 
