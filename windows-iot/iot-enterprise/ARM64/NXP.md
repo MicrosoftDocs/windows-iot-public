@@ -68,7 +68,7 @@ The table below lists the features supported on each of the NXP i.MX EVK boards 
 |**Miscellaneous**|
 | RTC (on-SoC)<sup>2</sup> | &check; | &check; | &check; | &check; | - | - |
 
-<sup>1</sup> Wi-Fi support is added through a PCIe M.2 expansion port. NXP i.MX 8M Plus EVK ships with a supported 88W8997-based M.2 module. NXP provides drivers for M.2 modules based on the 88W8997 and 88W8897 Wi-Fi chips. 
+<sup>1</sup> Wi-Fi support is added through a PCIe M.2 expansion port. NXP i.MX 8M Plus EVK ships with a supported 88W8997-based M.2 module. NXP provides drivers for M.2 modules based on the 88W8997 and 88W8897 Wi-Fi chips.
 
 <sup>2</sup> Real time clock (RTC) is implemented on-SoC and preserves time across reset, but doesn't preserve time when the system is powered off. Add a discrete RTC to preserve time when the system is powered off.
 
@@ -78,7 +78,7 @@ The table below lists the features supported on each of the NXP i.MX EVK boards 
 
 Windows Forms applications run slower when the GPU is enabled due to how Windows Forms’ underlying graphics API (GDI+) handles rendering. You can prevent this performance slowdown by disabling the GPU for the specific application through registry:
 
-For example, if you want to disable the GPU for an application named WinFormsApp.exe, you can create the following registry key in a command prompt: 
+For example, if you want to disable the GPU for an application named WinFormsApp.exe, you can create the following registry key in a command prompt:
 
 ```Command Prompt
 reg add HKLM\Software\VSI\GPU\GdiRedirSurf /v WinFormsApp.exe /t REG_DWORD /d 0
@@ -86,7 +86,7 @@ reg add HKLM\Software\VSI\GPU\GdiRedirSurf /v WinFormsApp.exe /t REG_DWORD /d 0
 
 ### Browser GPU acceleration
 
-The NXP GPU driver doesn't support acceleration of browser-based workloads. Browser content renders using CPU instead. 
+The NXP GPU driver doesn't support acceleration of browser-based workloads. Browser content renders using CPU instead.
 
 ### eMMC HS400
 
@@ -113,5 +113,5 @@ Windows IoT Enterprise doesn't support expandable storage through PCIe (for exam
 The i.MX 8M applications processor has a hardware limitation that only allows external devices to address the first 3GB of memory (RAM). i.MX 8M systems that have more than 4GB or more memory must ensure their DMA-capable drivers don't address memory outside of the safe 3GB region.
 
 ### USB OTG (On-The-Go)
- 
-Windows IoT Enterprise doesn't support [USB OTG (On-The-Go)](https://www.usb.org/usb-on-the-go), and only supports USB ports operating in the USB Host role.
+
+Windows IoT Enterprise doesn't support [USB On-The-Go (USB OTG)](https://www.usb.org/usb-on-the-go) and doesn't support USB ports operating in the USB Function role.
