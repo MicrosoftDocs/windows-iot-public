@@ -46,7 +46,7 @@ Other factors to consider when selecting hardware include performance, available
 
 ::: zone-end
 
-:::zone pivot="Arm64"
+:::zone pivot="arm64"
 
 | Manufacturer | Platform |
 | ------ | -------------- |
@@ -73,7 +73,7 @@ Other factors to consider when selecting hardware include performance, available
 
 ::: zone-end
 
-:::zone pivot="Arm64"
+:::zone pivot="arm64"
 
 | Manufacturer | Board | Type(s) |
 | ------ | -------------- | ----- |
