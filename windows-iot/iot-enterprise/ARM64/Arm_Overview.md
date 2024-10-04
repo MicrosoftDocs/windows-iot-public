@@ -16,7 +16,7 @@ Windows IoT Enterprise on Arm is simply Windows IoT Enterprise that is built for
 
 ## Windows IoT Enterprise on Arm vs. x86/x64
 
-Windows IoT Enterprise on Arm is designed to be familiar for device builders and developers used to working with x86/x64. Most of the documentation for Windows IoT Enterprise applies to both Arm64 and x86/x64, with differences called out directly in each feature's documentation page. A few general points to consider are mentioned below.
+Windows IoT Enterprise on Arm is designed to be familiar for device builders and developers used to working with x86/x64. Most of the documentation for Windows IoT Enterprise applies to both Arm64 and x86/x64, with differences called out directly in each feature's documentation page. There are a few general differences to consider around applications and device drivers.
 
 ### Applications
 
@@ -26,7 +26,7 @@ Windows IoT Enterprise on Arm can run **native** Arm64 applications and **emulat
 
 **Emulated** applications are x86/x64 applications that are run as-is without modification on Windows IoT Enterprise on Arm using inbox emulation technology. x86/x64 application emulation provides a fast way for device builders to port existing x86/x64 designs to Arm64. Windows 10 IoT Enterprise on Arm supports emulating x86 applications, whereas Windows 11 IoT Enterprise on Arm supports emulating both x86 and x64 applications.
 
-Learn more about Arm application development in the [Windows IoT Enterprise on Arm application development documentation](../Development/App_dev.md) or the [Windows on Arm application development documentation](/windows/arm/overview).
+For more information, see [Windows IoT Enterprise on Arm application development documentation](../Development/App_dev.md), and [Windows on Arm application development documentation](/windows/arm/overview).
 
 ### Device Drivers
 
@@ -38,15 +38,15 @@ Learn more about writing and deploying drivers the [Windows IoT Enterprise devic
 
 Windows IoT Enterprise on Arm supports various NXP and Qualcomm processors, catering to different device needs and performance requirements.
 
-[NXP processors](./NXP.md) provide the lowest power and lowest cost options for building Windows IoT Enterprise devices, making them excellent for device categories like thin clients, kiosks, gateways, and human machine interfaces (HMIs).
+[NXP processors](./NXP.md) provide the lowest power and lowest cost options for building Windows IoT Enterprise devices. They are excellent for device categories like thin clients, kiosks, gateways, and human machine interfaces (HMIs).
 
-Qualcomm processors provide excellent performance while maintaining the low power benefits of Arm64 processors and are excellent for use cases that require high quality visualizations or machine learning/AI.
+Qualcomm processors provide excellent performance while maintaining the low power benefits of Arm64 processors. Qualcomm processors are a good fit for use cases that require high quality visualizations or machine learning/AI.
 
 For the specific processors models supported for each Windows IoT Enterprise OS version, refer to the [Windows IoT Enterprise Processor Lists](../Hardware/Processor_Requirements.md#windows-iot-enterprise-processor-lists).
 
 ## Arm64 Hardware Platforms and Boards
 
-To get started building Windows IoT Enterprise on Arm devices, select an [Arm64 hardware platform or board](../Hardware/Platforms_and_Boards.md). Each listed Arm64 hardware platform and board has a Board Support Package (BSP) that supports Windows IoT Enterprise. Visit the hardware manufacturer's product page to learn more about its capabilities and ordering information.
+To get started building Windows IoT Enterprise on Arm devices, select an [Arm64 hardware platform or board](../Hardware/Platforms_and_Boards.md). 
 
 ## Getting Started
 
