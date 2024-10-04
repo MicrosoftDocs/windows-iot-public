@@ -16,7 +16,10 @@ ms.date: 09/27/2024
 
 In this quickstart, you prepare the technician PC to then install a basic Windows IoT Enterprise image onto a reference device sample. At the end of this quickstart, you have a technician PC ready to start building Windows IoT Enterprise images, and a reference device sample with Windows IoT Enterprise installed.
 
-The lab environment created during this exercise is used in the successor quickstarts: [Quickstart: Customize a reference device in Audit mode](quickstart-customize-reference-device.md) and [Quickstart: Sysprep and capture the reference device image, and deploy to a new device](quickstart-sysprep-capture-deploy.md).
+The lab environment created during this exercise is used in the successor quickstarts:
+
+- [Quickstart: Customize a reference device in Audit mode](quickstart-customize-reference-device.md)
+- [Quickstart: Sysprep and capture the reference device image, and deploy to a new device](quickstart-sysprep-capture-deploy.md).
 
 In this series of quickstarts, you can opt by using a **Virtual Machine** as your reference device sample. In a true development or production environment, you would start by choosing a **Physical Device** that meets the [Minimum System Requirements for Windows IoT Enterprise](../Hardware/System_Requirements.md).
 
