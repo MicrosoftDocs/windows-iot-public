@@ -58,7 +58,7 @@ Other factors to consider when selecting hardware include performance, available
 
 :::zone pivot="x64"
 
-| Manufacturer | Board | Type(s) |
+| Manufacturer | Board | Type |
 | ------ | -------------- | ----- |
 | ADLINK | [Express-RLP](https://www.adlinktech.com/Products/Computer_on_Modules/COMExpressType6/Express-RLP?lang=en) | System on Module |
 | Congatec | [conga-HPC/cRLP](https://www.congatec.com/en/products/com-hpc/conga-hpccrlp/) | System on Module |
@@ -75,7 +75,7 @@ Other factors to consider when selecting hardware include performance, available
 
 :::zone pivot="arm64"
 
-| Manufacturer | Board | Type(s) |
+| Manufacturer | Board | Type |
 | ------ | -------------- | ----- |
 | Thundercomm | [ RB3 Gen 2](https://www.thundercomm.com/product/qualcomm-rb3-gen-2/) | Development Kit |
 | NXP | [i.MX 8M Plus EVK](https://www.nxp.com/design/development-boards/i-mx-evaluation-and-development-boards/evaluation-kit-for-the-i-mx-8m-plus-applications-processor:8MPLUSLPD4-EVK) | Development Kit |
