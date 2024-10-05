@@ -512,5 +512,7 @@
   href: ./windows-iot-distributors.md
 - name: Code Samples
   href:  https://aka.ms/winiotsamples
+- name: Feedback
+  href: https://aka.ms/winiotfeedback  
 - name: Contact us
   href: ./Contact-Us.md
