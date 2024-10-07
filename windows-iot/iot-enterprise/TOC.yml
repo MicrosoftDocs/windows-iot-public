@@ -9,8 +9,17 @@
   href: FAQ.yml
 - name: Release History
   href: ./whats-new/Release-History.md
-- name: What's new...
+- name: Get started with a reference device sample
   expanded: true
+  items:
+  - name: Prepare your lab environment
+    href: ./get-started/quickstart-pepare-lab-environment.md
+  - name: Customize a reference device
+    href: ./get-started/quickstart-customize-reference-device.md
+  - name: Sysprep, capture and deploy
+    href: ./get-started/quickstart-sysprep-capture-deploy.md
+- name: What's new...
+  expanded: false
   items:
   - name: Announcements & blogs
     href: ./whats-new/News-Blogs.md
@@ -48,10 +57,10 @@
     href: ./Hardware/System_Requirements.md
   - name: Processor Requirements
     href: ./Hardware/Processor_Requirements.md
-  - name: SoCs and Custom Boards
-    href: ./Hardware/SoCs.md
-  - name: Start prototyping
+  - name: Start Prototyping
     href: ./Hardware/Prototype.md
+  - name: Hardware Platforms and Boards
+    href: ./Hardware/Platforms_and_Boards.md
   - name: Arm Guidance
     expanded: false
     items:
@@ -505,5 +514,7 @@
   href: ./windows-iot-distributors.md
 - name: Code Samples
   href:  https://aka.ms/winiotsamples
+- name: Feedback
+  href: https://aka.ms/winiotfeedback  
 - name: Contact us
   href: ./Contact-Us.md
