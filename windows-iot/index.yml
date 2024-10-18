@@ -35,6 +35,8 @@ productDirectory:
       links:
         - url: ./iot-enterprise/Overview.md
           text: Overview
+        - url: ./iot-enterprise/Get-Started/quickstart-pepare-lab-environment.md
+          text: Get Started
         - url: ./iot-enterprise/hardware/Hardware_Requirements.md
           text: Hardware Requirements  
         - url: ./iot-enterprise/deployment/index.md
@@ -43,8 +45,8 @@ productDirectory:
           text: Customization
         - url:  ./iot-enterprise/optimize/overview.md
           text: Optimization  
-        - url: ./iot-enterprise/Commercialization/Manufacturing-Guide.md
-          text: Manufacturing Guide
+        # - url: ./iot-enterprise/Commercialization/Manufacturing-Guide.md
+        #   text: Manufacturing Guide
 #        - url: /lifecycle/products/?terms=Windows%20IoT%20Enterprise
 #          text: Support Lifecycle
 
