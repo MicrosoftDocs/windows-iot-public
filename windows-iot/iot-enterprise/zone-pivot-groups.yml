@@ -1,0 +1,20 @@
+# YamlMime:ZonePivotGroups
+groups:
+# Owner: twarwick
+- id: Windows11-Windows10
+  title: Windows IoT Enterprise
+  prompt: Choose version
+  pivots:
+  - id: windows11
+    title: Windows 11
+  - id: windows10
+    title: Windows 10
+# Owner: anthonychen
+- id: x64-Arm64
+  title: Windows IoT Enterprise
+  prompt: Choose processor architecture
+  pivots:
+  - id: x64
+    title: x64
+  - id: arm64
+    title: Arm64

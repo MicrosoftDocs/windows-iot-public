@@ -3,7 +3,7 @@ title: What's new in Windows 11 IoT Enterprise, version 22H2?
 description: Learn about what's new in Windows 11 IoT Enterprise, version 22H2.
 author: TerryWarwick
 ms.author: twarwick
-ms.date: 08/16/2023
+ms.date: 09/30/2024
 ms.topic: article
 ms.service: windows-iot
 ms.subservice: iot
@@ -16,6 +16,8 @@ keywords: Windows IoT Enterprise, Windows 11, Windows 11 IoT, Windows 11 IoT Ent
 
 Windows 11, version 22H2 is a feature update for Windows 11 IoT Enterprise. Windows 11, version 22H2 includes all previous cumulative updates to Windows 11 IoT Enterprise, version 21H2 plus some new and updated features valuable for IoT scenarios.
 
+### Servicing Lifecycle
+
 Windows 11 IoT Enterprise follows the [Modern Lifecycle Policy](/lifecycle/policies/modern).
 
 | Release Version | Build | Start Date | End of Servicing |
@@ -24,18 +26,26 @@ Windows 11 IoT Enterprise follows the [Modern Lifecycle Policy](/lifecycle/polic
 
 For more information, see [Windows 11 IoT Enterprise support lifecycle](/lifecycle/products/windows-11-iot-enterprise).
 
-## Availability
+### New Devices
 
-Windows 11 IoT Enterprise, version 22H2 is available through Windows Server Update Services (including Configuration Manager), Windows Update for Business, and the Volume Licensing Service Center (VLSC). For more information, see [How to get the Windows 11, version 22H2 update](https://aka.ms/W11/how-to-get-22H2). Review the [Windows 11, version 22H2 Windows IT Pro blog post](https://aka.ms/new-in-22H2) to discover information about available deployment resources such as the [Windows Deployment Kit (Windows ADK)](/windows-hardware/get-started/adk-install).
+Windows 11 IoT Enterprise, version 22H2 is available for pre-install by an Original Equipment Manufacturer (OEM).
+
+- If you are a customer looking to purchase devices with Windows IoT Enterprise preinstalled contact your preferred OEM.
+
+- If you are an OEM wanting to pre-install Windows IoT Enterprise on your new devices for sale, see [OEM Licensing](../Commercialization/Licensing.md#oem-licensing) for more information.
+
+### Upgrade
+
+Windows 11 IoT Enterprise, version 22H2 is available as an upgrade to devices running Windows 11 IoT Enterprise (non-LTSC) through Windows Update, Windows Server Update Services (including Configuration Manager), Windows Update for Business, and the Volume Licensing Service Center (VLSC). For more information, see [How to get the Windows 11, version 22H2 update]( https://aka.ms/how-to-get-22H2). Review the [Windows 11, version 22H2 Windows IT Pro blog post](https://aka.ms/new-in-22H2) to discover information about available deployment resources such as the [Windows Deployment Kit (Windows ADK)](/windows-hardware/get-started/adk-install).
 
 To learn more about the status of the update rollout, known issues, and new information, see [Windows release health](/windows/release-health/).
 
 ## What's new
 
 > [!NOTE]
-> Multi-app kiosk mode is not available for Windows 11 IoT Enterprise, version 22H2.  Please refer to What's new about subsequent releases for information about its return.
+> Multi-app kiosk mode was initially not available in Windows 11 IoT Enterprise, version 22H2, however was enabled with the [May 24, 2023 - Windows configuration update](https://support.microsoft.com/topic/may-24-2023-windows-configuration-update-cae8524a-4b62-4d38-bb67-f070bd282fff).  
 >
-> **Update** - [Multi-app kiosk mode is now available in Windows 11, version 22H2](https://techcommunity.microsoft.com/t5/windows-it-pro-blog/multi-app-kiosk-mode-now-available-in-windows-11/ba-p/3845558), as part of the Windows continuous innovation releases.  To learn how you can take advantage of features introduced via Windows continuous innovation, see more about how you can access this feature in Windows 11 IoT Enterprise, version 22H2, see [Delivering continuous innovation in Windows 11](https://support.microsoft.com/windows/delivering-continuous-innovation-in-windows-11-b0aa0a27-ea9a-4365-9224-cb155e517f12).
+> For more information, see [Multi-app kiosk mode now available in Windows 11!](https://techcommunity.microsoft.com/t5/windows-it-pro-blog/multi-app-kiosk-mode-now-available-in-windows-11/ba-p/3845558).
 
 | Feature | Description |
 | --- | --- |
@@ -53,6 +63,7 @@ To learn more about the status of the update rollout, known issues, and new info
 
 ## Related articles
 
+- [What's new for IT pros in Windows 11, version 22H2](https://aka.ms/new-in-22h2) | Windows IT Pro Blog
 - [Windows 11 requirements](/windows/whats-new/windows-11-requirements)
 - [Plan for Windows 11](/windows/whats-new/windows-11-plan)
 - [Prepare for Windows 11](/windows/whats-new/windows-11-prepare)

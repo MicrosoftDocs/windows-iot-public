@@ -28,6 +28,7 @@ Stay up to date with the latest news and announcements about the Windows for IoT
 
 | Month | News |
 | ---- | ---- |
+| October | [What's new in Windows 11 IoT Enterprise LTSC 2024](Windows-11-IoT-Enterprise-LTSC-2024.md) </br> [What's new in Windows 11 IoT Enterprise, version 24H2](Windows-11-IoT-Enterprise-24H2.md) </br> [Microsoft October 2024 news](https://news.microsoft.com/microsoft-october-2024-news/) </br>  Blog: [How to get the Windows 11 2024 Update](https://blogs.windows.com/windowsexperience/?p=179067) </br> Blog: [What’s new for IT pros in Windows 11, version 24H2](https://aka.ms/new-in-24h2) </br> Blog: [What's new in recent Windows updates](https://support.microsoft.com/windows/what-s-new-in-recent-windows-updates-2df971e0-341a-68b1-3bf8-bc3e3ff8c3a5) </br> Blog: [Windows 11, version 24H2 security baseline](https://techcommunity.microsoft.com/t5/microsoft-security-baselines/windows-11-version-24h2-security-baseline/ba-p/4252801) |
 | June | [Windows 11 IoT Enterprise LTSC 2024 Evaluation available](https://aka.ms/WinIoT2024eval) |
 | May | Blog: [Windows 11 IoT Enterprise LTSC 2024 - Release to OEM](https://aka.ms/WinIoT2024release) |
 
