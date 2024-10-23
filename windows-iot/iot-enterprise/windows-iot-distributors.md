@@ -130,6 +130,7 @@ Distributors can apply their Windows IoT development experiences, and knowledge,
 | Germany                               | Elbacom GmbH                                  | David Kotzenmacher</br>[d.kotzenmacher@elbacom.com](mailto:d.kotzenmacher@elbacom.com) | +43 (664) 2163502 |
 | Austria                               | Elbacom GmbH                                  | David Kotzenmacher</br>[d.Kotzenmacher@elbacom.com](mailto:d.Kotzenmacher@elbacom.com) | +43 (664) 2163502 |
 | Switzerland                           | Elbacom GmbH                                  | David Kotzenmacher</br>[d.Kotzenmacher@elbacom.com](mailto:d.Kotzenmacher@elbacom.com) | +43 (664) 2163503 |
+|Spain, Portugal, Italy|Elbacom GmbH|  Iker Corrales García</br>[i.corrales@elbacom.com](mailto:i.corrales@elbacom.com) | +34 626 883 859 |
 | Rest of EMEA                          | Elbacom GmbH                                  | David Kotzenmacher</br>[d.Kotzenmacher@elbacom.com](mailto:d.Kotzenmacher@elbacom.com) | +43 (664) 2163504 |
 | Belgium                               | Koning & Hartman B.V.                         | Kjell De Clercq, Kelly Bornauw, Alida Coninx</br>[Info.be@koningenhartman.com](mailto:Info.be@koningenhartman.com) | +32 2 257 02 00 |
 | Ukraine, Kazakhstan, Uzbekistan, Moldova, Azerbaijan, Georgia, Armenia, Kyrgyzstan, Turkmenistan, Tajikistan, Turkey, Cyprus| Quarta IoT LLC | Ruben Molunts</br>[sales@quarta-iot.com](mailto:sales@quarta-iot.com) | +374 77 115784</br>+374 99 115784 |
