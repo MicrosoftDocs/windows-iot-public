@@ -127,7 +127,7 @@ Distributors can apply their Windows IoT development experiences, and knowledge,
 | Bosnia and Herzegovina, Croatia, Kosovo, North Macedonia, Montenegro, Serbia, Slovenia | Elbacom GmbH | Uros Ribic</br>[u.ribic@elbacom.com](mailto:u.ribic@elbacom.com) | +386 (70) 431288 |
 | Benelux                               | Elbacom GmbH                                  | Danny Vermeylen</br>[d.vermeylen@elbacom.com](mailto:d.vermeylen@elbacom.com) | +32 (479) 981303 |
 | France                                | Elbacom GmbH                                  | Pascal Angee   </br>[p.angee@elbacom.com](mailto:p.angee@elbacom.com) | +33 (6) 64404536 |
-| Germany                               | Elbacom GmbH                                  | Andreas Ahamer</br>[a.ahamer@elbacom.com](mailto:a.ahamer@elbacom.com) | +49 (160) 6712039 |
+| Germany                               | Elbacom GmbH                                  | David Kotzenmacher</br>[d.kotzenmacher@elbacom.com](mailto:d.kotzenmacher@elbacom.com) | +43 (664) 2163502 |
 | Austria                               | Elbacom GmbH                                  | David Kotzenmacher</br>[d.Kotzenmacher@elbacom.com](mailto:d.Kotzenmacher@elbacom.com) | +43 (664) 2163502 |
 | Switzerland                           | Elbacom GmbH                                  | David Kotzenmacher</br>[d.Kotzenmacher@elbacom.com](mailto:d.Kotzenmacher@elbacom.com) | +43 (664) 2163503 |
 | Rest of EMEA                          | Elbacom GmbH                                  | David Kotzenmacher</br>[d.Kotzenmacher@elbacom.com](mailto:d.Kotzenmacher@elbacom.com) | +43 (664) 2163504 |
