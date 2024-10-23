@@ -127,9 +127,10 @@ Distributors can apply their Windows IoT development experiences, and knowledge,
 | Bosnia and Herzegovina, Croatia, Kosovo, North Macedonia, Montenegro, Serbia, Slovenia | Elbacom GmbH | Uros Ribic</br>[u.ribic@elbacom.com](mailto:u.ribic@elbacom.com) | +386 (70) 431288 |
 | Benelux                               | Elbacom GmbH                                  | Danny Vermeylen</br>[d.vermeylen@elbacom.com](mailto:d.vermeylen@elbacom.com) | +32 (479) 981303 |
 | France                                | Elbacom GmbH                                  | Pascal Angee   </br>[p.angee@elbacom.com](mailto:p.angee@elbacom.com) | +33 (6) 64404536 |
-| Germany                               | Elbacom GmbH                                  | Andreas Ahamer</br>[a.ahamer@elbacom.com](mailto:a.ahamer@elbacom.com) | +49 (160) 6712039 |
+| Germany                               | Elbacom GmbH                                  | David Kotzenmacher</br>[d.kotzenmacher@elbacom.com](mailto:d.kotzenmacher@elbacom.com) | +43 (664) 2163502 |
 | Austria                               | Elbacom GmbH                                  | David Kotzenmacher</br>[d.Kotzenmacher@elbacom.com](mailto:d.Kotzenmacher@elbacom.com) | +43 (664) 2163502 |
 | Switzerland                           | Elbacom GmbH                                  | David Kotzenmacher</br>[d.Kotzenmacher@elbacom.com](mailto:d.Kotzenmacher@elbacom.com) | +43 (664) 2163503 |
+|Spain, Portugal, Italy|Elbacom GmbH|  Iker Corrales García</br>[i.corrales@elbacom.com](mailto:i.corrales@elbacom.com) | +34 626 883 859 |
 | Rest of EMEA                          | Elbacom GmbH                                  | David Kotzenmacher</br>[d.Kotzenmacher@elbacom.com](mailto:d.Kotzenmacher@elbacom.com) | +43 (664) 2163504 |
 | Belgium                               | Koning & Hartman B.V.                         | Kjell De Clercq, Kelly Bornauw, Alida Coninx</br>[Info.be@koningenhartman.com](mailto:Info.be@koningenhartman.com) | +32 2 257 02 00 |
 | Ukraine, Kazakhstan, Uzbekistan, Moldova, Azerbaijan, Georgia, Armenia, Kyrgyzstan, Turkmenistan, Tajikistan, Turkey, Cyprus| Quarta IoT LLC | Ruben Molunts</br>[sales@quarta-iot.com](mailto:sales@quarta-iot.com) | +374 77 115784</br>+374 99 115784 |
