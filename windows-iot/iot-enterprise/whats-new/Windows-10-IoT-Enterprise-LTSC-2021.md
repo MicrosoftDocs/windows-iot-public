@@ -7,6 +7,7 @@ ms.author: twarwick
 ms.topic: whats-new
 ms.subservice: iot
 ms.date: 05/22/2024
+appliesto: "✅ Windows 10"
 ---
 
 # What's new in Windows 10 IoT Enterprise LTSC 2021

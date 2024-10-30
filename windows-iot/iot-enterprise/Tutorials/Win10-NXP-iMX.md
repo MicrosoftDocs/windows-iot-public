@@ -7,6 +7,7 @@ ms.service: windows-iot
 ms.topic: tutorial 
 ms.subservice: iot
 ms.date: 10/20/2023
+appliesto: "✅ Windows 10"
 ---
 
 # Setting up an NXP i.MX EVK device using Media Servicing

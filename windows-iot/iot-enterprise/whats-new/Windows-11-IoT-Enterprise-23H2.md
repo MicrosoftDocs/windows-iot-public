@@ -9,6 +9,7 @@ ms.topic: article
 ms.service: windows-iot
 ms.subservice: iot
 keywords: Windows IoT Enterprise, Windows 11, Windows 11 IoT, Windows 11 IoT Enterprise
+appliesto: "✅ Windows 11"
 ---
 
 # What's new in Windows 11 IoT Enterprise, version 23H2

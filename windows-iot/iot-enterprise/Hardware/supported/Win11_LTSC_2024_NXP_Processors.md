@@ -7,6 +7,7 @@ ms.date: 05/22/2024
 ms.topic: reference
 ms.service: windows-iot
 ms.subservice: iot
+appliesto: "✅ Windows 11"
 ---
 
 # Supported NXP Processors for Windows 11 IoT Enterprise LTSC 2024 and Windows 11 IoT Enterprise, Version 24H2
