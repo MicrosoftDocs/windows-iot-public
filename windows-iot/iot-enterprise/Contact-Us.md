@@ -9,6 +9,7 @@ ms.subservice: iot
 ms.custom: kr2b-contr-experiment
 description: Learn how to get support for Windows IoT Enterprise. See resources that offer assistance with questions and problems.
 keywords: IoT Enterprise, FAQ
+appliesto:
 ---
 
 # Windows IoT Enterprise support
