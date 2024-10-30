@@ -7,6 +7,7 @@ ms.author: twarwick
 ms.topic: article
 ms.subservice: iot
 ms.date: 04/04/2023
+appliesto: "✅ Windows 10"
 ---
 
 # What's new in Windows 10 IoT Enterprise, version 21H2
