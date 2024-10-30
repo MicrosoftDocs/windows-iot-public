@@ -10,11 +10,7 @@
         "exclude": [
           "**/obj/**",
           "**/includes/**",
-          "**/docfx.json",
-          "_themes/**",
-          "_themes.pdf/**",
-          "_repo.en-us/**",
-          "README.md",
+           "README.md",
           "LICENSE",
           "LICENSE-CODE",
           "ThirdPartyNotices.md"
@@ -25,29 +21,46 @@
       {
         "files": [
           "**/*.png",
-          "**/*.jpg"
+          "**/*.jpg",
+          "**/*.gif",
+          "**/*.svg"
         ],
         "exclude": [
           "**/obj/**",
-          "**/includes/**",
-          "**/docfx.json",
-          "_themes/**",
-          "_themes.pdf/**",
-          "_repo.en-us/**"
+          "**/includes/**"
         ]
       }
     ],
     "overwrite": [],
     "externalReference": [],
     "globalMetadata": {
+      "ms.subservice": "iot",
+      "ms.service": "windows-iot",
       "breadcrumb_path": "/windows/iot/breadcrumb/toc.json",
+      "zone_pivot_group_filename": "iot/iot-enterprise/zone-pivot-groups.json",
       "extendBreadcrumb": false,
       "uhfHeaderId": "MSDocsHeader-Windows-IoT",
       "feedback_system": "None",
-      "zone_pivot_group_filename": "iot/iot-enterprise/zone-pivot-groups.json"
+      "searchScope":[
+        "Windows 10"
+      ]
+    },
+    "fileMetadata": {
+        "iot-enterprise/**/*.md": [
+          "✅ Windows 11",
+          "✅ Windows 10"
+        ]
       },
-    "fileMetadata": {},
-    "template": [],
-    "dest": "windows-iot-docset"
+      "author":{},
+      "ms.author":{},
+      "ms.reviewer": {
+        "iot-enterprise//**/*.md": "twarwick",
+        "product-family//**/*.md": "twarwick"
+      },
+      "ms.collection": {}
+    },  
+    "template": {},
+    "dest": "windows-iot-docset",
+    "markdownEngineName": "markdig"
   }
 }

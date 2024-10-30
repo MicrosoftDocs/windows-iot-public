@@ -8,6 +8,7 @@ ms.topic: article
 ms.service: windows-iot
 ms.subservice: iot
 keywords: 
+appliesto: "✅ Windows 10"
 ---
 
 # What's new in Windows 10 IoT Enterprise, version 22H2

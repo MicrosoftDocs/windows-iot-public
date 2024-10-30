@@ -9,6 +9,7 @@ ms.subservice: iot
 no-loc: [Arrow Europe, Americas, Avnet Silica]
 description: Windows IoT Distributor Information
 keywords: Windows IoT Enterprise, Windows Sever IoT 2022, Distributor, Windows IoT
+appliesto:
 ---
 
 # Windows IoT Distributor Information
