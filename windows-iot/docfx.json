@@ -46,6 +46,7 @@
       ]
     },
     "fileMetadata": {
+      "appliesto": {
         "iot-enterprise/**/*.md": [
           "✅ Windows 11",
           "✅ Windows 10"
