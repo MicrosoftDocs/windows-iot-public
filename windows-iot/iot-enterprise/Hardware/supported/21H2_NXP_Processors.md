@@ -7,6 +7,7 @@ ms.date: 10/09/2023
 ms.topic: reference
 ms.service: windows-iot
 ms.subservice: iot
+appliesto: "✅ Windows 10"
 ---
 
 # Windows 10 IoT Enterprise 21H2 Supported NXP Processors
