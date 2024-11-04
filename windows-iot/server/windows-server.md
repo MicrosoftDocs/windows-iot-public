@@ -1,7 +1,7 @@
 ---
 title: About Windows Server IoT
 author: terrywarwick
-ms.date: 03/31/2023
+ms.date: 11/04/2024
 ms.author: twarwick
 ms.topic: article
 ms.service: windows-iot
@@ -53,7 +53,7 @@ Microsoft’s exclusive licensing scheme for dedicated use server applications e
 
 The special licensing model is referred to as Windows Server IoT because of the following two distinguishing features:
 
-1. The applicaiton is an embedded system used as a special-purpose solution.
+1. The application is an embedded system used as a special-purpose solution.
 1. The Windows Server IoT Licenses are available through a worldwide network of [Regional Distribution Partners](/windows-iot/iot-enterprise/windows-iot-distributors.md).
 
 For additional information about Windows Server IoT OEM licenses and terms of use, contact one of our [authorized distributors](/windows-iot/iot-enterprise/windows-iot-distributors.md) for assistance.
@@ -88,7 +88,7 @@ Windows Server IoT releases follow the [Fixed Lifecycle Policy](/lifecycle/polic
 
 | Release                             | Version | Availability | End of Servicing |
 | ----------------------------------- | ----- | ------------ | ---------------- |
-| [Windows Server IoT 2025](/lifecycle/products/windows-server-iot-2025) | 26100 |              |                  |
+| [Windows Server IoT 2025](/lifecycle/products/windows-server-iot-2025) | 26100 | 1014-11-01   | 2034-10-10       |
 | [Windows Server IoT 2022](/lifecycle/products/windows-server-iot-2022) | 20348 | 2021-08-18   | 2031-10-14       |
 | [Windows Server IoT 2019](/lifecycle/products/windows-server-iot-2019) | 17763 | 2019-03-04   | 2029-01-09       |
 
