@@ -1,4 +1,11 @@
-- name: Windows Server IoT Overview
+- name: About Windows Server IoT
   href: windows-server.md
-- name: Windows Server Documentation
-  href: /windows-server/
+- name: Getting Started with Windows Server
+  href: /windows-server/get-started/get-started-with-windows-server
+- name: What's new with Windows Server IoT 2025
+  href: /windows-server/get-started/whats-new-windows-server-2025
+- name: Windows Server IoT 2025 Highlights
+  href: https://aka.ms/ws2025highlights
+- name: Try Windows Server IoT 2025
+  href: https://www.microsoft.com/evalcenter/evaluate-windows-server-2025
+ 
