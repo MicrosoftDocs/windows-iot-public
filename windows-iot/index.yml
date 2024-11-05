@@ -54,11 +54,13 @@ productDirectory:
       imageSrc: /media/common/i_server.svg
       links:
         - url: ./server/windows-server.md
-          text: Overview
-        - url: /windows-server/get-started/get-started-with-windows-server
-          text: Get Started with Windows Server
-        - url: /windows-server/get-started/windows-server-release-info
-          text: Release Information  
+          text: About Windows Server IoT
+        - url: /windows-server/get-started/whats-new-windows-server-2025
+          text: What's new with Windows Server IoT 2025
+        - url: https://www.microsoft.com/evalcenter/evaluate-windows-server-2025
+          text: Try Windows Server IoT 2025
+        - url: https://aka.ms/WS2025Highlights
+          text: Windows Server 2025 Highlights
 
     - title: SQL Server IoT
       imageSrc: /media/logos/logo_SQL.svg
