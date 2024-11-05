@@ -54,7 +54,8 @@ Microsoft’s exclusive licensing scheme for dedicated use server applications e
 The special licensing model is referred to as Windows Server IoT because of the following two distinguishing features:
 
 1. The application is an embedded system used as a special-purpose solution.
-1. The Windows Server IoT Licenses are available through a worldwide network [of authorized distributors](../iot-enterprise/windows-iot-distributors.md)
+
+1. The Windows Server IoT Licenses are available through a worldwide network of [authorized distributors](../iot-enterprise/windows-iot-distributors.md)
 
 For additional information about Windows Server IoT OEM licenses and terms of use, contact one of our [authorized distributors](../iot-enterprise/windows-iot-distributors.md) for assistance.
 
