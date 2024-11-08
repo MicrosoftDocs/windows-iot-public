@@ -39,6 +39,7 @@
       "breadcrumb_path": "/windows/iot/breadcrumb/toc.json",
       "zone_pivot_group_filename": "iot/iot-enterprise/zone-pivot-groups.json",
       "extendBreadcrumb": false,
+      "brand": "windows",
       "uhfHeaderId": "MSDocsHeader-Windows-IoT",
       "feedback_system": "None",
       "searchScope":[
