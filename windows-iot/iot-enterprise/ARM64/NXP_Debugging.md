@@ -8,6 +8,7 @@ ms.service: windows-iot
 ms.subservice: iot
 description: How to configure a NXP i.MX EVK board for kernel debugging
 keywords: IoT Enterprise, Hardware, Windows IoT, Arm64, NXP
+zone_pivot_groups: KDNet-KDCOM
 ---
 
 # Kernel Debugging on NXP i.MX 8 and i.MX 9 EVK Boards
@@ -91,7 +92,12 @@ Launch WinDBG on your host computer with the architecture that matches your host
 ## Set Up Serial Kernel Debugging
 
 > [!NOTE]
-> Serial Kernel Debugging is only supported on NXP i.MX 8M Plus, NXP i.MX 8M Quad, NXP i.MX 8M Mini, and NXP i.MX 8M Nano EVK boards. It is not supported on NXP i.MX 8X and NXP i.MX 93 EVK boards.
+> Serial Kernel Debugging is only supported on the following NXP EVK boards:
+>
+> - NXP i.MX 8M Plus EVK
+> - NXP i.MX 8M Quad EVK
+> - NXP i.MX 8M Mini EVK
+> - NXP i.MX 8M Nano EVK
 
 On supported NXP EVK boards, a serial controller is exposed through the micro-USB port using an FTDI serial-to-USB chip. When the EVK board's micro-USB port is connected to your host computer, it appears on your host computer as a set of virtual COM ports.
 
