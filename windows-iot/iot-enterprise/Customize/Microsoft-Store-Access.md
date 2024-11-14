@@ -33,11 +33,9 @@ If you have Windows IoT Enterprise devices in your organization that are managed
 * [Policy CSP](/windows/client-management/mdm/policy-configuration-service-provider)
 * [AppLocker CSP](/windows/client-management/mdm/applocker-csp)
 
-For more information, see [Configure an MDM provider](/microsoft-store/configure-mdm-provider-microsoft-store-for-business).
-
 ## Show private store only using Group Policy
 
-If you're using [Microsoft Store for Business](/microsoft-store/microsoft-store-for-business-overview) and you want employees to only see apps you're managing in your private store, you can use [Group Policy](/windows/configuration/stop-employees-from-using-microsoft-store#show-private-store-only-using-group-policy) to show only the private store. Microsoft Store app will still be available, but employees can't view or purchase apps. Employees can view and install apps that the admin has added to your organization's private store.
+If you're using [Microsoft Store for Business](/windows/configuration/store/) and you want employees to only see apps you're managing in your private store, you can use [Group Policy](/windows/configuration/stop-employees-from-using-microsoft-store#show-private-store-only-using-group-policy) to show only the private store. Microsoft Store app will still be available, but employees can't view or purchase apps. Employees can view and install apps that the admin has added to your organization's private store.
 
 ## Additional Resources
 
