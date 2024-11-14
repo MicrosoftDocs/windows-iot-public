@@ -101,9 +101,11 @@ Launch WinDBG on your host computer with the architecture that matches your host
 > - NXP i.MX 8M Mini EVK
 > - NXP i.MX 8M Nano EVK
 
-On supported NXP EVK boards, a serial controller is exposed through the micro-USB port using an FTDI serial-to-USB chip. When the EVK board's micro-USB port is connected to your host computer, it appears on your host computer as a set of virtual COM ports.
+On supported NXP EVK boards, a serial controller is exposed through the micro-USB port via an FTDI serial-to-USB chip. When the EVK board's micro-USB port is connected to your host computer, it appears on your host computer as a set of virtual COM ports.
 
 ### Install the FTDI virtual COM port driver on your host computer
+
+On your host computer, download the FTDI virtual COM port driver from the [FTDI website](https://ftdichip.com/Drivers/vcp-drivers/) and install the driver.
 
 The FTDI virtual COM port driver enables COM ports to be enumerated on your host computer when you connect it to the micro-USB port on the NXP EVK boards.
 
