@@ -6,7 +6,7 @@ ms.date: 11/12/2024
 ms.topic: how-to
 ms.service: windows-iot
 ms.subservice: iot
-description: How to configure a NXP i.MX Evaluation Kit for kernel debugging
+description: How to configure an NXP i.MX Evaluation Kit for kernel debugging
 keywords: IoT Enterprise, Hardware, Windows IoT, Arm64, NXP
 zone_pivot_groups: KDNet-KDCOM
 ---
@@ -42,7 +42,7 @@ On your host computer, open a Command Prompt or PowerShell window and use ```ipc
 ipconfig
 ```
 
-Make a note of either the IPv4 or IPv6 address that will be used to connect the network for debugging.
+Make a note of either the IPv4 or IPv6 address of the network adapter connected to the network.
 
 ### Enable test signing on the NXP board
 
@@ -85,7 +85,7 @@ Reboot the NXP board once you're finished for the BCD settings to take effect.
 
 ### Attach to the NXP EVK board with the network kernel debugger
 
-Launch WinDBG on your host computer with the architecture that matches your host computer's architecture (either X64 or Arm64). When it launches, click on the File tab and click Attach to Kernel (ctrl + k). Then, click on the Net tab, and enter the port number and key that was set in the BCD on the NXP EVK board. Reboot the NXP EVK board and the kernel debugger will attach.
+Launch WinDBG on your host computer with the architecture that matches your host computer's architecture (either X64 or Arm64). When it launches, go to the File tab and select Attach to Kernel (ctrl + k). Then, select the Net tab, and enter the port number and key that was set in the BCD on the NXP EVK board. Reboot the NXP EVK board to have the kernel debugger attach.
 
 ::: zone-end
 
@@ -109,11 +109,11 @@ On your host computer, download the FTDI virtual COM port driver from the [FTDI 
 
 The FTDI virtual COM port driver enables COM ports to be enumerated on your host computer when you connect it to the micro-USB port on the NXP EVK boards.
 
-After installing the FTDI driver, connect your host computer to the NXP EVK board's micro-USB port. Open the Device Manager to verify that four new COM ports have appeared under the Ports device type.
+After installing the FTDI driver, connect your host computer to the NXP EVK board's micro-USB port. Open the Device Manager to verify that four new COM ports appear under the Ports device type.
 
 ### Determine which of the COM ports is active
 
-Only one of the four virtual COM ports presented by the NXP EVK boards is active. Determine which one is active by connecting to each COM port using a serial terminal (e.g. PuTTY) and observing the output while the NVK EVK board boots. Specify 921600 as the speed or baud rate when connecting to the COM port. Take a note of the COM port that prints logging data to the serial terminal during boot.
+Only one of the four virtual COM ports presented by the NXP EVK boards is active. Determine which one is active by connecting to each COM port using a serial terminal (for example, PuTTY) and observing the output while the NVK EVK board boots. Specify 921600 as the speed or baud rate when connecting to the COM port. Take a note of the COM port that prints logging data to the serial terminal during boot.
 
 ### Enable serial kernel debugging on the NXP board
 
@@ -126,7 +126,7 @@ First, enable kernel debugging on the NXP board in the BCD.
 bcdedit /debug on
 ```
 
-Next, configure kernel debugging settings for serial debugging with debugport number set to 1 and baudrate set to 115200.
+Next, configure kernel debugging settings for serial debugging with debugport set to 1 and baudrate set to 115200.
 
 ```cmd
 bcdedit /dbgsettings serial debugport:1 baudrate:115200
@@ -136,6 +136,6 @@ Reboot the NXP board once you're finished for the BCD settings to take effect.
 
 ### Attach to the NXP EVK board with the serial kernel debugger
 
-Launch WinDBG on your host computer with the architecture that matches your host computer's architecture (either X64 or Arm64). When it launches, click on the File tab and click Attach to Kernel (ctrl + k). Then, click on the COM tab, and specify the port from earlier (e.g. com5) and a baudrate of 921600. Reboot the NXP EVK board and the kernel debugger will attach.
+Launch WinDBG on your host computer with the architecture that matches your host computer's architecture (either X64 or Arm64). When it launches, go to the File tab and select Attach to Kernel (ctrl + k). Then, select the COM tab, and specify the port from earlier (for example, com5) and a baudrate of 921600. Reboot the NXP EVK board for the kernel debugger to attach.
 
 ::: zone-end
