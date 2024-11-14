@@ -56,7 +56,7 @@ bcdedit /set testsigning on
 
 First, enable kernel debugging on the NXP board in the BCD.
 
-> [!NOTE] 
+> [!NOTE]
 > If Secure Boot is enabled, you will have to disable it to enable kernel debugging.
 
 ```Administrator: Command Prompt
@@ -78,6 +78,8 @@ bcdedit /dbgsettings net hostip:w.x.y.z port:n key:a.b.c.d
 ```Administrator: Command Prompt
 bcdedit /dbgsettings net hostipv6:s:t:u:v:w:x:y:z port:n key:a.b.c.d
 ```
+
+---
 
 Reboot the NXP board once you're finished for the BCD settings to take effect.
 
