@@ -1,24 +1,24 @@
 ---
-title: Kernel Debugging on NXP i.MX 8 and i.MX 9 EVK Boards
+title: Kernel Debugging on NXP i.MX Evaluation Kits
 author: anch-msft
 ms.author: anthonychen
 ms.date: 11/12/2024
 ms.topic: how-to
 ms.service: windows-iot
 ms.subservice: iot
-description: How to configure a NXP i.MX EVK board for kernel debugging
+description: How to configure a NXP i.MX Evaluation Kit for kernel debugging
 keywords: IoT Enterprise, Hardware, Windows IoT, Arm64, NXP
 zone_pivot_groups: KDNet-KDCOM
 ---
 
-# Kernel Debugging on NXP i.MX 8 and i.MX 9 EVK Boards
+# Kernel Debugging on NXP i.MX 8 and i.MX 9 Evaluation Kits
 
 > [!NOTE]
 > This article assumes familiarity with the concepts described in [Get started with Windows Debugging](/windows-hardware/drivers/debugger/getting-started-with-windows-debugging) and [Get started with WinDBG (kernel-mode)](/windows-hardware/drivers/debugger/getting-started-with-windbg--kernel-mode-)
 
 ## Introduction
 
-Kernel debugging on NXP i.MX 8 and i.MX 9 EVK boards enables you to debug kernel mode driver and OS issues such as blue screen crashes. NXP EVK boards support both network kernel debugging (KDNET) over the ethernet port and serial kernel debugging (KDCOM) over the micro-USB port.
+Kernel debugging on NXP i.MX 8 and i.MX 9 Evaluation Kits (EVKs) enables you to debug kernel mode driver and OS issues such as blue screen crashes. NXP EVK boards support both network kernel debugging (KDNET) over the ethernet port and serial kernel debugging (KDCOM) over the micro-USB port.
 
 ::: zone pivot="kdnet"
 
@@ -87,7 +87,7 @@ Launch WinDBG on your host computer with the architecture that matches your host
 
 ::: zone-end
 
-::: zone pivot="kdnet"
+::: zone pivot="kdcom"
 
 ## Set Up Serial Kernel Debugging
 
