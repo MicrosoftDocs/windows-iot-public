@@ -113,7 +113,7 @@ After installing the FTDI driver, connect your host computer to the NXP EVK boar
 
 ### Determine which of the COM ports is active
 
-Only one of the four virtual COM ports presented by the NXP EVK boards is active. Determine which one is active by connecting to each COM port using a serial terminal (e.g. PuTTY) and observing the output while the NVK EVK board boots. Specify 921600 as the speed or baud rate when connecting to the COM port. Take a note of the COM port that prints logging data during boot.
+Only one of the four virtual COM ports presented by the NXP EVK boards is active. Determine which one is active by connecting to each COM port using a serial terminal (e.g. PuTTY) and observing the output while the NVK EVK board boots. Specify 921600 as the speed or baud rate when connecting to the COM port. Take a note of the COM port that prints logging data to the serial terminal during boot.
 
 ### Enable serial kernel debugging on the NXP board
 

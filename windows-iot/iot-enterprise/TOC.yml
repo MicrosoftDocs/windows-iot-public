@@ -70,6 +70,8 @@
       href: ./Arm64/NXP.md
     - name: Set up an NXP i.MX EVK
       href: ./Tutorials/Win10-NXP-iMX.md
+    - name: Kernel Debugging on NXP i.MX Evaluation Kits
+      href: ./Arm64/NXP_Debugging.md
 - name: Commercialization
   expanded: false
   items:

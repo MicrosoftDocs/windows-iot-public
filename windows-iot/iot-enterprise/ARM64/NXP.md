@@ -30,10 +30,10 @@ The table below lists the features supported on each of the NXP i.MX EVK boards 
 
 | Feature | i.MX 8M Plus | i.MX 8M | i.MX 8M Mini | i.MX 8M Nano | i.MX 8X | i.MX 93 |
 |---|-|-|-|-|-|-|
-|**Audio**|
+| **Audio** | - | - | - | - | - | - |
 | 3.5mm audio jack | input and output | output only | output only | output only | input and output | input and output |
 | HDMI audio (output only) | &check; | - | - | - | - | - |
-|**Display/Graphics**|
+| **Display/Graphics** | - | - | - | - | - | - |
 | HDMI | up to 1080p | up to 1080p | - | - | - | - |
 | LVDS | up to 1920x1200 | - | - | - | up to 1080p | up to 1280x800 |
 | MIPI-DSI | up to 1920x1200 | - | up to 1920x1200 | up to 1920x1200 | - | up to 1920x1200 |
@@ -42,7 +42,7 @@ The table below lists the features supported on each of the NXP i.MX EVK boards 
 | VPU video decode (HEVC, H.264, VP8) | &check; | &check; | &check; | - | &check; | - |
 | VPU video decode (MPEG-2, MPEG-4) | - | &check; | - | - | &check; | - |
 | VPU video decode (VP9) | - | &check; | - | - | - | - |
-|**Device Connectivity**|
+| **Device Connectivity** | - | - | - | - | - | - |
 | USB | &check; | &check; | &check; | &check; | &check; | &check; |
 | GPIO | &check; | &check; | &check; | &check; | &check; | &check; |
 | UART (RS-232) | &check; | &check; | &check; | &check; | - | - |
@@ -53,19 +53,22 @@ The table below lists the features supported on each of the NXP i.MX EVK boards 
 | LPSPI (controller mode) | - | - | - | - | &check; | &check; |
 | PCIe | &check; | &check; | &check; | - | &check; | - |
 | FlexCAN | &check; | - | - | - | &check; | &check; |
-|**Network Connectivity**|
+| **Network Connectivity** | - | - | - | - | - | - |
 | Ethernet | 2x RTL8211 | 1x AR8031 | 1x AR8031 | 1x AR8031 | 1x AR8031 | 2x RTL8211 |
 | Wi-Fi 5 <sup>1</sup> | &check; | &check; | &check; | - | &check; | - |
-|**Storage**|
+| **Storage** | - | - | - | - | - | - |
 | eMMC | &check; | &check; | &check; | &check; | &check; | &check; |
 | SD | &check; | &check; | &check; | &check; | &check; | &check; |
-|**Camera**|
+| **Camera** | - | - | - | - | - | - |
 | OV5640 MIPI-CSI camera ([MINISASTOCSI](https://www.nxp.com/part/MINISASTOCSI)) | &check; | &check; | &check; | &check; | &check; | - |
 | OV10635 MIPI-CSI camera ([MX8XMIPI4CAM2](https://www.nxp.com/part/MX8XMIPI4CAM2)) | &check; | &check; | &check; | &check; | &check; | - |
 | AP1302 ISP + AR0144 MIPI-CSI camera ([RPI-CAM-MIPI](https://www.nxp.com/part/RPI-CAM-MIPI)) | - | - | - | - | - | &check; |
-|**Security**|
+| **Security** | - | - | - | - | - | - |
 | Secure Boot | &check; | &check; | &check; | &check; | &check; | &check; |
-|**Miscellaneous**|
+| **Debugging** | - | - | - | - | - | - |
+| [Kernel Debugging over Network](./NXP_Debugging.md) | &check; | &check; | &check; | &check; | &check; | &check; |
+| [Kernel Debugging over Serial](./NXP_Debugging.md) | &check; | &check; | &check; | &check; | - | - |
+| **Miscellaneous** | - | - | - | - | - | - |
 | RTC (on-SoC)<sup>2</sup> | &check; | &check; | &check; | &check; | - | - |
 
 <sup>1</sup> Wi-Fi support is added through a PCIe M.2 expansion port. NXP i.MX 8M Plus EVK ships with a supported 88W8997-based M.2 module. NXP provides drivers for M.2 modules based on the 88W8997 and 88W8897 Wi-Fi chips.
