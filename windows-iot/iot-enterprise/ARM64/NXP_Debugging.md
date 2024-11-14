@@ -38,7 +38,7 @@ Once you have ```kd_8003_1fc9.dll```, copy it to the ```C:\windows\system32\``` 
 
 On your host computer, open a Command Prompt or PowerShell window and use ```ipconfig``` to get the IP address.
 
-```Command Prompt
+```cmd
 ipconfig
 ```
 
@@ -48,7 +48,7 @@ Make a note of either the IPv4 or IPv6 address that will be used to connect the 
 
 Open a Command Prompt or PowerShell window with Administrator privileges and enable test signing in the BCD.
 
-```Administrator: Command Prompt
+```cmd
 bcdedit /set testsigning on
 ```
 
@@ -59,7 +59,7 @@ First, enable kernel debugging on the NXP board in the BCD.
 > [!NOTE]
 > If Secure Boot is enabled, you will have to disable it to enable kernel debugging.
 
-```Administrator: Command Prompt
+```cmd
 bcdedit /debug on
 ```
 
@@ -68,14 +68,14 @@ Next, configure kernel debugging settings with the IP address of your host compu
 <!--markdownlint-disable-next-line -->
 # [IPv4 host address](#tab/IPv4)
 
-```Administrator: Command Prompt
+```cmd
 bcdedit /dbgsettings net hostip:w.x.y.z port:n key:a.b.c.d
 ```
 
 <!--markdownlint-disable-next-line -->
 # [IPv6 host address](#tab/IPv6)
 
-```Administrator: Command Prompt
+```cmd
 bcdedit /dbgsettings net hostipv6:s:t:u:v:w:x:y:z port:n key:a.b.c.d
 ```
 
@@ -120,13 +120,13 @@ First, enable kernel debugging on the NXP board in the BCD.
 > [!NOTE] 
 > If Secure Boot is enabled, you will have to disable it to enable kernel debugging.
 
-```Administrator: Command Prompt
+```cmd
 bcdedit /debug on
 ```
 
 Next, configure kernel debugging settings for serial debugging with debugport number set to 1 and baudrate set to 115200.
 
-```Administrator: Command Prompt
+```cmd
 bcdedit /dbgsettings serial debugport:1 baudrate:115200
 ```
 
