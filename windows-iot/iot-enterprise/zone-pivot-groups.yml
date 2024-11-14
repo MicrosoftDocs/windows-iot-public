@@ -18,3 +18,19 @@ groups:
     title: x64
   - id: arm64
     title: Arm64
+- id: iMX8-iMX9
+  title: NXP EVK Board
+  prompt: Choose NXP EVK board
+  pivots:
+  - id: imx8
+    title: i.MX 8M Plus, Quad, Mini, or Nano
+  - id: imx9
+    title: i.MX 93
+- id: KDNet-KDCOM
+  title: Kernel Debugging
+  prompt: Choose kernel debugging transport
+  pivots:
+  - id: kdnet
+    title: Network (Ethernet)
+  - id: kdcom
+    title: Serial
