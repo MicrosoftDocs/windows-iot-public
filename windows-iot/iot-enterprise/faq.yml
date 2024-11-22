@@ -63,15 +63,17 @@ sections:
           - What are the pros and cons of LTSC compared to other editions of Windows?
           - How do I install an app from the Microsoft Store on Windows IoT Enterprise LTSC?
           
-          ARM64
-          - [Is Windows IoT Enterprise available for ARM64?](faq.yml#is-windows-iot-enterprise-available-for-arm64)
-          - [What is Windows IoT Enterprise on ARM?](faq.yml#what-is-windows-iot-enterprise-for-arm64)
-          - [Can I run applications that aren't native to ARM64?](faq.yml#can-i-run-applications-that-aren-t-native-to-arm64)
-          - [What silicon vendors provide support for Windows IoT Enterprise on ARM64?](faq.yml#what-silicon-vendors-provide-support-for-windows-iot-enterprise-on-arm64)
-          - [What hardware is available for Windows IoT Enterprise on ARM64?](faq.yml#what-hardware-is-available-for-windows-iot-enterprise-on-arm64)
-          - [What connectivity drivers are available for Windows IoT Enterprise on ARM64?](faq.yml#what-connectivity-drivers-are-available-for-windows-iot-enterprise-on-arm64)
+          Arm64
+          - [What is Windows IoT Enterprise on Arm?](faq.yml#what-is-windows-iot-enterprise-on-arm)
+          - [Is Windows IoT Enterprise available for Arm64?](faq.yml#is-windows-iot-enterprise-available-for-Arm64)
+          - [Where can I get Windows IoT Enterprise on Arm64?](faq.yml#where-can-i-get-windows-iot-enterprise-on-arm64)
+          - [Can I run applications that aren't native to Arm64?](faq.yml#can-i-run-applications-that-aren-t-native-to-Arm64)
+          - [What silicon vendors provide support for Windows IoT Enterprise on Arm64?](faq.yml#what-silicon-vendors-provide-support-for-windows-iot-enterprise-on-Arm64)
+          - [What hardware is available for Windows IoT Enterprise on Arm64?](faq.yml#what-hardware-is-available-for-windows-iot-enterprise-on-Arm64)
+          - [What connectivity drivers are available for Windows IoT Enterprise on Arm64?](faq.yml#what-connectivity-drivers-are-available-for-windows-iot-enterprise-on-Arm64)
           - [Which Windows IoT Enterprise version should I use with NXP hardware?](faq.yml#which-windows-iot-enterprise-version-should-i-use-with-nxp-hardware)
           - [What drivers are available for NXP based systems?](faq.yml#what-drivers-are-available-for-nxp-based-systems)
+          - [Is Hyper-V supported in Windows IoT Enterprise on Arm64?](faq.yml#is-hyper-v-supported-in-windows-iot-enterprise-on-arm64)
 
           Licensing & Acquisition
           - [How can I purchase Windows IoT Enteprise?](faq.yml#how-can-i-purchase-windows-iot-enterprise)
@@ -99,50 +101,49 @@ sections:
 
           [Top of Windows IoT Enterprise section](faq.yml#windows-iot-enterprise)
 
-      - question: Is Windows IoT Enterprise available for ARM64?
+      - question: What is Windows IoT Enterprise on Arm?
         answer: |
-          Yes, the Windows IoT Enterprise editions are available for both X64 as well as ARM64 processor architectures. 
+          Windows IoT Enterprise on Arm is simply Windows IoT Enterprise that is built for and runs on 64-bit Arm (Arm64) processors. It has the same features and capabilities of Windows IoT Enterprise for x64-based processors, enabling you to build secure and powerful devices across any processor architecture.
 
           [Top of Windows IoT Enterprise section](faq.yml#windows-iot-enterprise)
 
-      - question: What is Windows IoT Enterprise for ARM64?
+      - question: Is Windows IoT Enterprise available for Arm64?
         answer: |
-          Windows IoT Enterprise is available for ARM64 is the same OS as it is on X64-based devices, with IoT features available to help you build secure, powerful devices across any architecture. Since the OS is the same, the capabilities and the documentation are the same as well. Refer to the standard Windows IoT Enterprise documentation for ARM64 guidance.
+          Yes, the Windows IoT Enterprise editions are available for both X64 as well as Arm64 processor architectures. 
 
           [Top of Windows IoT Enterprise section](faq.yml#windows-iot-enterprise)
 
-      - question: Can I run applications that aren't native to ARM64?
+      - question: Where can I get Windows IoT Enterprise on Arm64?
         answer: |
-          Yes, Windows IoT Enterprise provides emulation for x86 applications. For more information, see [How x86 emulation works on Arm](/windows/arm/apps-on-arm-x86-emulation).
+          [!INCLUDE [Latest LTSC](../includes/incl-latest-ltsc-release.md)]
 
           [Top of Windows IoT Enterprise section](faq.yml#windows-iot-enterprise)
 
-      - question: What silicon vendors provide support for Windows IoT Enterprise on ARM64?
+      - question: Can I run applications that aren't native to Arm64?
         answer: |
-          Systems are available from Qualcomm and NXP which support Windows IoT Enterprise on ARM64. FOr more information about supported processors, see [Windows IoT Entperprise Processor Lists](./hardware/hardware_requirements.md#windows-iot-enterprise-processor-lists)
+          Yes, Windows IoT Enterprise can run x86 and x64 applications without modification using emulation technology. For more information, see [How emulation works on Arm](/windows/arm/apps-on-arm-x86-emulation).
 
           [Top of Windows IoT Enterprise section](faq.yml#windows-iot-enterprise)
 
-      - question: How do I get started with Windows IoT Enterprise on ARM64
+      - question: What silicon vendors provide support for Windows IoT Enterprise on Arm64?
         answer: |
-          For the quickest way to get familiar with Windows IoT Enterprise on ARM64, see our [Tutorial: Setup an NXP i.MX EVK](Tutorials/Win10-NXP-iMX.md).
+          Systems are available from Qualcomm and NXP that support Windows IoT Enterprise on Arm64. For more information about supported processors, see [Windows IoT Enterprise Processor Lists](./hardware/hardware_requirements.md#windows-iot-enterprise-processor-lists)
 
           [Top of Windows IoT Enterprise section](faq.yml#windows-iot-enterprise)
 
-      - question: What hardware is available for Windows IoT Enterprise on ARM64?
+      - question: How do I get started with Windows IoT Enterprise on Arm64?
         answer: |
-          |Manufacture | Hardware  |
-          |------------|---------|
-          | NXP        | [i.MX 8M EVK](https://www.nxp.com/design/development-boards/i-mx-evaluation-and-development-boards/evaluation-kit-for-the-i-mx-8m-applications-processor:MCIMX8M-EVK)</br> [i.MX 8M Plus EVK](https://www.nxp.com/design/development-boards/i-mx-evaluation-and-development-boards/evaluation-kit-for-the-i-mx-8m-plus-applications-processor:8MPLUSLPD4-EVK)</br>[i.MX 8M Mini EVK](https://www.nxp.com/design/development-boards/i-mx-evaluation-and-development-boards/evaluation-kit-for-the-i-mx-8m-mini-applications-processor:8MMINILPD4-EVK)</br> [i.MX 8M Nano EVK](https://www.nxp.com/design/development-boards/i-mx-evaluation-and-development-boards/evaluation-kit-for-the-i-mx-8m-nano-applications-processor:8MNANOD4-EVK)</br> [i.MX 8X EVK](https://www.nxp.com/products/processors-and-microcontrollers/arm-processors/i-mx-applications-processors/i-mx-8-applications-processors/i-mx-8x-family-arm-cortex-a35-3d-graphics-4k-video-dsp-error-correcting-code-on-ddr:i.MX8X)</br> [i.MX 93 EVK](https://www.nxp.com/products/processors-and-microcontrollers/arm-processors/i-mx-applications-processors/i-mx-9-processors/i-mx-93-applications-processor-family-arm-cortex-a55-ml-acceleration-power-efficient-mpu:i.MX93) |
-          | Avnet      | [MSC SM2S IMX8PLUS](https://embedded.avnet.com/product/msc-sm2s-imx8plus/)</br> [MSC SM2S-IMX8M](https://embedded.avnet.com/product/msc-sm2s-imx8m/) |
-          | Advantech  | [RSB-3720](https://www.advantech.com/en/products/single_board_computer/rsb-3720/mod_d2f1b0bc-650b-449a-8ef7-b65ce4f69949)</br> [ROM-5720](https://www.advantech.com/en/products/computer-on-module/rom-5720/mod_4fbfe9fa-f5b2-4ba8-940e-e47585ad0fef)</br> [ROM-5722](https://www.advantech.com/en/products/computer-on-module/rom-5722/mod_11aa0c77-868e-4014-8151-ac7a7a1c5c1b) |
-          | SECO       | [Trizeps VIII Plus](https://edge.seco.com/usa/trizeps-viii-plus.html)</br> [Trizeps VIII](https://edge.seco.com/usa/trizeps-viii.html)</br> [Trizeps VIII Mini](https://edge.seco.com/usa/trizeps-viii-mini.html) |
-          | ASUS       | [IMX8P IM A](https://www.asus.com/us/site/IOT/#!/products/single-board-computer/IMX8P-IM-A)</br> [PE100A](https://iot.asus.com/products/intelligent-edge-computer/PE100A/) |
-          | Reycom     | [RIA 8M](https://www.reycom.swiss/oem-hardware/ria-8m/)</br> [RIA 8M](https://www.reycom.swiss/oem-hardware/ria-8mplus/) |
+          For the quickest way to get started with Windows IoT Enterprise on Arm64, see our [Tutorial: Setup an NXP i.MX EVK](Tutorials/Win10-NXP-iMX.md).
 
           [Top of Windows IoT Enterprise section](faq.yml#windows-iot-enterprise)
 
-      - question: What connectivity drivers are available for Windows IoT Enterprise on ARM64?
+      - question: What hardware is available for Windows IoT Enterprise on Arm64?
+        answer: |
+          A list of recommended platforms and boards for Windows IoT Enterprise on Arm64 can be found on the [Platforms and Boards](Hardware/Platforms_and_Boards.md) page.
+
+          [Top of Windows IoT Enterprise section](faq.yml#windows-iot-enterprise)
+
+      - question: What connectivity drivers are available for Windows IoT Enterprise on Arm64?
         answer: |
           | Type | Manufacturer  | Name    |
           |------|---------------|---------|
@@ -157,20 +158,27 @@ sections:
 
           |SoC  |Windows 10 IoT Enterprise  |Windows 11 IoT Enterprise  |
           |---------|:---------:|:---------:|
-          |i.MX 8M      |    build 19044 or later     |    Not Supported    |
-          |i.MX 8M Mini |    build 19044 or later     |    Not Supported    |
-          |i.MX 8M Nano |    build 19044 or later     |    Not Supported    |
-          |i.MX 8M Plus |    build 19044 or later     |    Not Supported    |
-          |i.MX 8X      |    build 19044 or later     |    Not Supported    |
-          |i.MX 93      |    build 19044 or later     |    TBD              |
+          |i.MX 8M      |    build 19044.3693 or later     |    Not Supported    |
+          |i.MX 8M Mini |    build 19044.3693 or later     |    Not Supported    |
+          |i.MX 8M Nano |    build 19044.3693 or later     |    Not Supported    |
+          |i.MX 8M Plus |    build 19044.3693 or later     |    Not Supported    |
+          |i.MX 8X      |    build 19044.3693 or later     |    Not Supported    |
+          |i.MX 93      |    build 19044.3693 or later     |    TBD              |
 
           [Top of Windows IoT Enterprise section](faq.yml#windows-iot-enterprise)
 
       - question: What drivers are available for NXP based systems?
         answer: |
-          For more information, see [NXP Supported Drivers](Hardware/supported/NXP_drivers.md)
+          NXP provides drivers for all of the features listed in the [NXP features supported table](Arm64/NXP.md#features-supported).
 
           [Top of Windows IoT Enterprise section](faq.yml#windows-iot-enterprise)
+
+      - question: Is Hyper-V supported in Windows IoT Enterprise on Arm64?
+        answer: |
+          Hyper-V is supported in Arm64 versions of Windows 11 IoT Enterprise LTSC 2024 and Windows 11 IoT Enterprise, version 24H2.
+
+          [Top of Windows IoT Enterprise section](faq.yml#windows-iot-enterprise)
+
 
   - name: Windows Server IoT
     questions:

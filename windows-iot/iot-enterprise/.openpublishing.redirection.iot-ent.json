@@ -74,6 +74,10 @@
         "source_path_from_root": "/windows-iot/iot-enterprise/downloads.md",
         "redirect_url": "/windows/iot/iot-enterprise/whats-new/release-history",
         "redirect_document_id": false
+    },
+    {
+        "source_path_from_root": "/Windows-iot/iot-enterprise/ARM64/armfaq.md",
+        "redirect_url": "/windows/iot/iot-enterprise/faq"
     }
 ]
 }

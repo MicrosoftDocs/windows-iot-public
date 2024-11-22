@@ -66,8 +66,6 @@
     items:
     - name: Arm Overview
       href: ./ARM64/Arm_Overview.md
-    - name: Arm FAQ
-      href: ./ARM64/ArmFAQ.md
     - name: NXP Overview
       href: ./Arm64/NXP.md
     - name: Set up an NXP i.MX EVK
