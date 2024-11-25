@@ -77,7 +77,7 @@ Distributors can apply their Windows IoT development experiences, and knowledge,
 | Thailand                | Avnet Asia Pte Ltd                            | Catherine Wong</br>[Catherine.wong@avnet.com](mailto:Catherine.wong@avnet.com)   | +65 9681 9211 |
 | Thailand                | MDS Pacific PTE Ltd.                          | Edmund Foo</br>[edmund.foo@mdspacific.com](mailto:edmund.foo@mdspacific.com)</br>Stacey Leaw</br>[Stacey.leaw@mdspacific.com](mailto:Stacey.leaw@mdspacific.com)|+65 6297 2800  |
 | Vietnam                 | Avnet Asia Pte Ltd                            | Catherine Wong</br>[Catherine.wong@avnet.com](mailto:Catherine.wong@avnet.com)   | +65 9681 9211 |
-| Vietnam                 | Advantech Co. Singapore PTE Ltd.              | Daren See</br>[Daren.See@advantech.com](mailto:Daren.See@advantech.com)          | Mobile: +65 8800 0938 </br> DID: +65 6413 8724  |
+| Vietnam                 | ADVANTECH VIETNAM TECHNOLOGY COMPANY LIMITED  | Hoang Van Cuong</br>[Cuong.Hoang@advantech.com.vn](mailto:Cuong.Hoang@advantech.com.vn)          | Mobile:+84-97-289-3588|
 | Vietnam                 | MDS Pacific PTE Ltd.                          | Edmund Foo</br>[edmund.foo@mdspacific.com](mailto:edmund.foo@mdspacific.com)</br>Stacey Leaw</br>[Stacey.leaw@mdspacific.com](mailto:Stacey.leaw@mdspacific.com)|+65 6297 2800  |
 
 ## EMEA
@@ -146,4 +146,4 @@ Distributors can apply their Windows IoT development experiences, and knowledge,
 | Japan    | Ryoyo Electro Corporation     |Tetsuya Nagano</br>[tetsuya_nagano@ryoyo.co.jp](mailto:tetsuya_nagano@ryoyo.co.jp)</br>IS MSIS Division</br>[msoem@ryoyo.co.jp](mailto:msoem@ryoyo.co.jp) | +81 3 3546 6211 |
 | Japan    | Tokyo Electron Device Limited |Naoto Sasaki</br>[sasaki.n@teldevice.co.jp](mailto:sasaki.n@teldevice.co.jp)</br>Edge Cloud Solution Dept.</br>[esg@teldevice.co.jp](mailto:esg@teldevice.co.jp) | +81 50 3509 5674 |
 
-06/17/2024
+11/25/2024
