@@ -77,7 +77,7 @@ Distributors can apply their Windows IoT development experiences, and knowledge,
 | Thailand                | Avnet Asia Pte Ltd                            | Catherine Wong</br>[Catherine.wong@avnet.com](mailto:Catherine.wong@avnet.com)   | +65 9681 9211 |
 | Thailand                | MDS Pacific PTE Ltd.                          | Edmund Foo</br>[edmund.foo@mdspacific.com](mailto:edmund.foo@mdspacific.com)</br>Stacey Leaw</br>[Stacey.leaw@mdspacific.com](mailto:Stacey.leaw@mdspacific.com)|+65 6297 2800  |
 | Vietnam                 | Avnet Asia Pte Ltd                            | Catherine Wong</br>[Catherine.wong@avnet.com](mailto:Catherine.wong@avnet.com)   | +65 9681 9211 |
-| Vietnam                 | ADVANTECH VIETNAM TECHNOLOGY COMPANY LIMITED  | Hoang Van Cuong</br>[Cuong.Hoang@advantech.com.vn](mailto:Cuong.Hoang@advantech.com.vn)          | Mobile:+84-97-289-3588|
+| Vietnam                 | Advantech Vietnam Technology Company Limited  | Hoang Van Cuong</br>[Cuong.Hoang@advantech.com.vn](mailto:Cuong.Hoang@advantech.com.vn)          | Mobile:+84-97-289-3588|
 | Vietnam                 | MDS Pacific PTE Ltd.                          | Edmund Foo</br>[edmund.foo@mdspacific.com](mailto:edmund.foo@mdspacific.com)</br>Stacey Leaw</br>[Stacey.leaw@mdspacific.com](mailto:Stacey.leaw@mdspacific.com)|+65 6297 2800  |
 
 ## EMEA
