@@ -101,13 +101,13 @@ sections:
 
       - question: How do I update Windows IoT Enterprise?
         answer: |
-          Windows IoT Enterprise can be updated through regular update channels such as Windows Update, Windows Server Update Services (including Configuration Manager), and Windows Update for Business. Learn more in our documentation on (OS updates)[./OS-Features/Updates.md].
+          Windows IoT Enterprise can be updated through regular update channels such as Windows Update, Windows Server Update Services (including Configuration Manager), and Windows Update for Business. Learn more in our documentation on [OS updates](./OS-Features/Updates.md).
 
           [Top of Windows IoT Enterprise section](faq.yml#windows-iot-enterprise)
 
       - question: How do I update Windows IoT Enterprise LTSC?
         answer: |
-          Windows IoT Enterprise can be updated through regular update channels such as Windows Update, Windows Server Update Services (including Configuration Manager), and Windows Update for Business. Learn more in our documentation on (OS updates)[./OS-Features/Updates.md].
+          Windows IoT Enterprise can be updated through regular update channels such as Windows Update, Windows Server Update Services (including Configuration Manager), and Windows Update for Business. Learn more in our documentation on [OS updates](./OS-Features/Updates.md).
 
           [Top of Windows IoT Enterprise section](faq.yml#windows-iot-enterprise)
 
