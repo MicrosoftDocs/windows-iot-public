@@ -27,9 +27,9 @@ sections:
           General
           - [What is Windows IoT Enterprise?](faq.yml#what-is-windows-iot-enterprise)
           - [Can I upgrade my Windows IoT Enterprise to a newer version?](faq.yml#can-i-upgrade-my-windows-iot-enterprise-to-a-newer-version)
-          - How do I update Windows IoT Enterprise?
-          - How do I update Windows IoT Enterprise LTSC?
-          - What is the support lifecycle for Windows IoT Enterprise?
+          - [How do I update Windows IoT Enterprise?](faq.yml#how-do-i-update-windows-iot-enterprise)
+          - [How do I update Windows IoT Enterprise LTSC?](faq.yml#how-do-i-update-windows-iot-enterprise-ltsc)
+          - [What is the support lifecycle for Windows IoT Enterprise?](faq.yml#what-is-the-support-lifecycle-for-windows-iot-enterprise)
           - What is the current version of Windows IoT Enterprise?
           - How do I know if I am running Windows IoT Enterprise?
           - How do I check if I am using Windows IoT Enterprise?
@@ -85,19 +85,39 @@ sections:
 
       - question: What is Windows IoT Enterprise?
         answer: |
-          TBD
-
-          [Top of Windows IoT Enterprise section](faq.yml#windows-iot-enterprise)
-
-      - question: How can I purchase Windows IoT Enterprise?
-        answer: |
-          TBD
+          Windows IoT Enterprise is a full version of Windows Enterprise designed for IoT devices. It provides the same enterprise manageability and security features as the standard Windows Enterprise, but is tailored for fixed-purpose devices such as ATMs, point-of-sale terminals, industrial automation systems, medical devices, digital signage, and more. 
 
           [Top of Windows IoT Enterprise section](faq.yml#windows-iot-enterprise)
 
       - question: Can I upgrade my Windows IoT Enterprise to a newer version?
         answer: |
-          TBD
+          Devices running a previous version of Windows IoT Enterprise (non-LTSC) can be upgraded through regular update channels such as Windows Update, Windows Server Update Services (including Configuration Manager), Windows Update for Business, and the Volume Licensing Service Center (VLSC).
+
+          Upgrading to a newer version of Windows IoT Enterprise LTSC requires a new license.
+
+          Before upgrading, check that your device meets the [system requirements](Hardware/System_Requirements.md) for the new version of Windows IoT Enterprise.
+
+          [Top of Windows IoT Enterprise section](faq.yml#windows-iot-enterprise)
+
+      - question: How do I update Windows IoT Enterprise?
+        answer: |
+          Windows IoT Enterprise can be updated through regular update channels such as Windows Update, Windows Server Update Services (including Configuration Manager), and Windows Update for Business. Learn more in our documentation on (OS updates)[./OS-Features/Updates.md].
+
+          [Top of Windows IoT Enterprise section](faq.yml#windows-iot-enterprise)
+
+      - question: How do I update Windows IoT Enterprise LTSC?
+        answer: |
+          Windows IoT Enterprise can be updated through regular update channels such as Windows Update, Windows Server Update Services (including Configuration Manager), and Windows Update for Business. Learn more in our documentation on (OS updates)[./OS-Features/Updates.md].
+
+          [Top of Windows IoT Enterprise section](faq.yml#windows-iot-enterprise)
+
+      - question: What is the support lifecycle for Windows IoT Enterprise?
+        answer: |
+          Windows IoT Enterprise follows the [modern lifecycle policy](/lifecycle/policies/modern), which provides three years of support from the GA date of the current version of the OS. Devices stay supported as long as they are upgraded to a newer version of the OS before the end of support date for their current version of the OS. 
+
+          Windows IoT Enterprise LTSC follows the [fixed lifecycle policy](/lifecycle/policies/fixed), which provides 10 years of support (5 years of mainstream support and 5 years of extended support) from the GA date of the OS.
+          
+          You can find end of support dates for specific versions of Windows IoT Enterprise through the [Product and Services Lifecycle Information Search page](/lifecycle/products).
 
           [Top of Windows IoT Enterprise section](faq.yml#windows-iot-enterprise)
 
