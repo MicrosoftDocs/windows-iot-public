@@ -35,11 +35,11 @@ sections:
           - [What editions of Windows IoT Enterprise are available?](faq.yml#what-editions-of-windows-iot-enterprise-are-available)
           - [Can I get an evaluation copy of Windows IoT Enterprise?](faq.yml#can-i-get-an-evaluation-copy-of-windows-iot-enterprise)
           - How does Windows IoT Enterprise differ from Windows Pro?
-          - Is Windows IoT Enterprise secure?
-          - What's new in the latest version of Windows IoT Enterprise?
-          - Does Windows IoT Enterprise support real-time computing?
-          - Does Windows IoT Enterprise support Windows Containers?
-          - What are the hardware requirements for Windows IoT Enterprise
+          - [Is Windows IoT Enterprise secure?](faq.yml#is-windows-iot-enterprise-secure)
+          - [What's new in the latest version of Windows IoT Enterprise?](faq.yml#what-s-new-in-the-latest-version-of-windows-iot-enterprise)
+          - [Does Windows IoT Enterprise support real-time computing?](faq.yml#does-windows-iot-enterprise-support-real-time-computing)
+          - [Does Windows IoT Enterprise support Windows Containers?](faq.yml#does-windows-iot-enterprise-support-windows-containers)
+          - [What are the hardware requirements for Windows IoT Enterprise](faq.yml#what-are-the-hardware-requirements-for-windows-iot-enterprise)
           - When is the next Windows IoT Enterprise release?
           - How often does Windows IoT Enterprise get security updates?
           - Can I use my existing management infrastructure for Windows with Windows IoT Enterprise?
@@ -146,6 +146,40 @@ sections:
 
           [Top of Windows IoT Enterprise section](faq.yml#windows-iot-enterprise)
 
+      - question: Is Windows IoT Enterprise secure?
+        answer: |
+          Windows IoT Enterprise has the same enterprise-level security features as Windows Enterprise to help protect your devices from security threats. This includes features like Microsoft Defender, Secure Boot, Device Guard, Credential Guard, and Bitlocker. Microsoft also provides monthly security patches for Windows IoT Enterprise to help ensure devices are protected from the ever-changing threat landscape. 
+          
+          For more information about security in Windows IoT Enterprise, see [Windows IoT Enterprise Security](./Resources/Security.md).
+
+          [Top of Windows IoT Enterprise section](faq.yml#windows-iot-enterprise)
+
+      - question: What's new in the latest version of Windows IoT Enterprise?
+        answer: |
+          You can find the latest information about new versions of Windows IoT Enterprise in our [Announcements and Blogs page](./whats-new/News-Blogs.md)
+          
+          Visit the [What's New in Windows 11 IoT Enterprise LTSC 2024](./whats-new/Windows-11-IoT-Enterprise-LTSC-2024.md) and [What's New in Windows, version 24H2](./whats-new/Windows-11-IoT-Enterprise-24H2.md) pages to learn about what's new in each respective OS.
+
+          [Top of Windows IoT Enterprise section](faq.yml#windows-iot-enterprise)
+
+      - question: Does Windows IoT Enterprise support real-time computing?
+        answer: |
+          Windows IoT Enterprise is not a real-time operating system. However, Windows IoT Enterprise supports [Soft Real-Time](./Soft-Real-Time/Soft-Real-Time.md), which allows you to configure programs to run and schedule tasks with significantly less time jitter. 
+
+          [Top of Windows IoT Enterprise section](faq.yml#windows-iot-enterprise)
+
+      - question: Does Windows IoT Enterprise support Windows Containers?
+        answer: |
+          Yes, Windows IoT Enterprise supports Windows Containers. For more information, see [Windows and Containers](/virtualization/windowscontainers/about).
+
+          [Top of Windows IoT Enterprise section](faq.yml#windows-iot-enterprise)
+
+      - question: What are the hardware requirements for Windows IoT Enterprise?
+        answer: |
+          Windows IoT Enterprise has relaxed minimum hardware requirements compared to Windows Enterprise, such as support for devices with 2GB of RAM, 16GB of storage, and support for devices without a TPM or a display. Review the [Minimum System Requirements for Windows IoT Enterprise](./Hardware/System_Requirements.md) for the full list of hardware requirements.
+
+          [Top of Windows IoT Enterprise section](faq.yml#windows-iot-enterprise)
+
       - question: What is Windows IoT Enterprise on Arm?
         answer: |
           Windows IoT Enterprise on Arm is simply Windows IoT Enterprise that is built for and runs on 64-bit Arm (Arm64) processors. It has the same features and capabilities of Windows IoT Enterprise for x64-based processors, enabling you to build secure and powerful devices across any processor architecture.
@@ -154,7 +188,7 @@ sections:
 
       - question: Is Windows IoT Enterprise available for Arm64?
         answer: |
-          Yes, the Windows IoT Enterprise editions are available for both X64 as well as Arm64 processor architectures. 
+          Yes, Windows IoT Enterprise is available for both x64 as well as Arm64 processor architectures. 
 
           [Top of Windows IoT Enterprise section](faq.yml#windows-iot-enterprise)
 
