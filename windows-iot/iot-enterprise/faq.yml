@@ -30,11 +30,10 @@ sections:
           - [How do I update Windows IoT Enterprise?](faq.yml#how-do-i-update-windows-iot-enterprise)
           - [How do I update Windows IoT Enterprise LTSC?](faq.yml#how-do-i-update-windows-iot-enterprise-ltsc)
           - [What is the support lifecycle for Windows IoT Enterprise?](faq.yml#what-is-the-support-lifecycle-for-windows-iot-enterprise)
-          - What is the current version of Windows IoT Enterprise?
-          - How do I know if I am running Windows IoT Enterprise?
-          - How do I check if I am using Windows IoT Enterprise?
-          - What editons of Windows IoT Enterprise are available?
-          - Can I get an evaluation copy of Windows IoT Enterprise?
+          - [What is the current version of Windows IoT Enterprise?](faq.yml#what-is-the-current-version-of-windows-iot-enterprise)
+          - [How do I know if I am running Windows IoT Enterprise?](faq.yml#how-do-i-know-if-i-am-running-windows-iot-enterprise)
+          - [What editions of Windows IoT Enterprise are available?](faq.yml#what-editions-of-windows-iot-enterprise-are-available)
+          - [Can I get an evaluation copy of Windows IoT Enterprise?](faq.yml#can-i-get-an-evaluation-copy-of-windows-iot-enterprise)
           - How does Windows IoT Enterprise differ from Windows Pro?
           - Is Windows IoT Enterprise secure?
           - What's new in the latest version of Windows IoT Enterprise?
@@ -118,6 +117,32 @@ sections:
           Windows IoT Enterprise LTSC follows the [fixed lifecycle policy](/lifecycle/policies/fixed), which provides 10 years of support (5 years of mainstream support and 5 years of extended support) from the GA date of the OS.
           
           You can find end of support dates for specific versions of Windows IoT Enterprise through the [Product and Services Lifecycle Information Search page](/lifecycle/products).
+
+          [Top of Windows IoT Enterprise section](faq.yml#windows-iot-enterprise)
+
+      - question: What is the current version of Windows IoT Enterprise?
+        answer: |
+          The current GAC version is [Windows 11 IoT Enterprise, version 24H2](./whats-new/Windows-11-IoT-Enterprise-24H2.md).
+          
+          The current LTSC version is [Windows 11 IoT Enterprise LTSC 2024](./whats-new/Windows-11-IoT-Enterprise-LTSC-2024.md).
+
+          [Top of Windows IoT Enterprise section](faq.yml#windows-iot-enterprise)
+
+      - question: How do I know if I am running Windows IoT Enterprise?
+        answer: |
+          To determine if you are running Windows IoT Enterprise, open the Settings app, navigate to System > About, and look for the Edition field. If the Edition field shows "Windows 10 IoT Enterprise" or "Windows 11 IoT Enterprise", you are running Windows IoT Enterprise.
+
+          [Top of Windows IoT Enterprise section](faq.yml#windows-iot-enterprise)
+
+      - question: What editions of Windows IoT Enterprise are available?
+        answer: |
+          Windows IoT Enterprise is available in two editions: General Availability Channel (GAC) and Long-Term Servicing Channel (LTSC). 
+
+          [Top of Windows IoT Enterprise section](faq.yml#windows-iot-enterprise)
+
+      - question: Can I get an evaluation copy of Windows IoT Enterprise?
+        answer: |
+          You can get an evaluation copy of Windows 11 IoT Enterprise LTSC 2024 from the [Microsoft Evaluation Center](https://aka.ms/winioteval). 
 
           [Top of Windows IoT Enterprise section](faq.yml#windows-iot-enterprise)
 
