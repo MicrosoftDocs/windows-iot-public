@@ -12,12 +12,12 @@ metadata:
 
 title: "Windows IoT Frequently asked questions"
 summary: |
-  This article addresses frequently asked questions about products available in the Windows for IoT portfolio.  
+  This article addresses frequently asked questions about Windows IoT Enterprise.  
   
   - FAQ for [Windows IoT Enterprise](faq.yml#windows-iot-enterprise)
-  - FAQ for [Windows Server IoT](faq.yml#windows-server-iot)
-  - FAQ for [SQL Sever IoT](faq.yml#sql-server-iot)
-  - FAQ for [Windows IoT Core](faq.yml#windows-iot-core)
+#  - FAQ for [Windows Server IoT](faq.yml#windows-server-iot)
+#  - FAQ for [SQL Sever IoT](faq.yml#sql-server-iot)
+#  - FAQ for [Windows IoT Core](faq.yml#windows-iot-core)
 
 sections:
   - name: Windows IoT Enterprise
@@ -410,37 +410,37 @@ sections:
           [Top of Windows IoT Enterprise section](faq.yml#windows-iot-enterprise)
 
 
-  - name: Windows Server IoT
-    questions:
-      - question: Question 1
-        answer: |
-          Answer 1
-      - question: Question 2
-        answer: |
-          Answer 2
+#  - name: Windows Server IoT
+#    questions:
+#      - question: Question 1
+#        answer: |
+#          Answer 1
+#      - question: Question 2
+#        answer: |
+#          Answer 2
 
-          [Top of FAQ](faq.yml)
+#          [Top of FAQ](faq.yml)
 
-  - name: SQL Server IoT 
-    questions:
-      - question: Question 1
-        answer: |
-          Answer 1
-      - question: Question 2
-        answer: |
-          Answer 2
+#  - name: SQL Server IoT 
+#    questions:
+#      - question: Question 1
+#        answer: |
+#          Answer 1
+#      - question: Question 2
+#        answer: |
+#          Answer 2
 
-          [Top of FAQ](faq.yml)
+#          [Top of FAQ](faq.yml)
 
-  - name: Windows IoT Core
-    questions:
-      - question: What is the status of Windows IoT Core
-        answer: |
-          TBD
+#  - name: Windows IoT Core
+#    questions:
+#      - question: What is the status of Windows IoT Core
+#       answer: |
+#          TBD
 
-          [Top of FAQ](faq.yml)
+#          [Top of FAQ](faq.yml)
 
-additionalContent: |
+#additionalContent: |
     ## Related content
 
-    To learn more, see [article title]().
+#    To learn more, see [article title]().
