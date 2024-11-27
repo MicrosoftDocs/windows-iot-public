@@ -26,10 +26,13 @@ For hardware platforms other than EVKs, contact the hardware manufacturer for th
 
 ## Features Supported
 
-The table below lists the features supported on each of the NXP i.MX EVK boards as of the most recent NXP BSP release (1.5.1). For details, check the [NXP BSP documentation](https://aka.ms/nxpiot).
+This table lists the features supported on each of the NXP i.MX EVK boards as of the most recent NXP BSP release (1.5.1). For details, check the [NXP BSP documentation](https://aka.ms/nxpiot).
 
 | Feature | i.MX 8M Plus | i.MX 8M | i.MX 8M Mini | i.MX 8M Nano | i.MX 8X | i.MX 93 |
-|---|-|-|-|-|-|-|
+| ---|-|-|-|-|-|-|
+| **Windows IoT Enterprise Compatibility** | - | - | - | - | - | - |
+| Minimum Windows 10 IoT Enterprise Version | 19044.3693 | 19044.3693 | 19044.3693 | 19044.3693 | 19044.3693 | 19044.3693 |
+| Minimum Windows 11 IoT Enterprise Version | Not supported | Not supported | Not supported | Not supported | Not supported | 26100.1 |
 | **Audio** | - | - | - | - | - | - |
 | 3.5mm audio jack | input and output | output only | output only | output only | input and output | input and output |
 | HDMI audio (output only) | &check; | - | - | - | - | - |
