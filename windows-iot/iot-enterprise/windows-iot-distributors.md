@@ -77,7 +77,7 @@ Distributors can apply their Windows IoT development experiences, and knowledge,
 | Thailand                | Avnet Asia Pte Ltd                            | Catherine Wong</br>[Catherine.wong@avnet.com](mailto:Catherine.wong@avnet.com)   | +65 9681 9211 |
 | Thailand                | MDS Pacific PTE Ltd.                          | Edmund Foo</br>[edmund.foo@mdspacific.com](mailto:edmund.foo@mdspacific.com)</br>Stacey Leaw</br>[Stacey.leaw@mdspacific.com](mailto:Stacey.leaw@mdspacific.com)|+65 6297 2800  |
 | Vietnam                 | Avnet Asia Pte Ltd                            | Catherine Wong</br>[Catherine.wong@avnet.com](mailto:Catherine.wong@avnet.com)   | +65 9681 9211 |
-| Vietnam                 | Advantech Co. Singapore PTE Ltd.              | Daren See</br>[Daren.See@advantech.com](mailto:Daren.See@advantech.com)          | Mobile: +65 8800 0938 </br> DID: +65 6413 8724  |
+| Vietnam                 | Advantech Vietnam Technology Company Limited  | Hoang Van Cuong</br>[Cuong.Hoang@advantech.com.vn](mailto:Cuong.Hoang@advantech.com.vn)          | Mobile:+84-97-289-3588|
 | Vietnam                 | MDS Pacific PTE Ltd.                          | Edmund Foo</br>[edmund.foo@mdspacific.com](mailto:edmund.foo@mdspacific.com)</br>Stacey Leaw</br>[Stacey.leaw@mdspacific.com](mailto:Stacey.leaw@mdspacific.com)|+65 6297 2800  |
 
 ## EMEA
@@ -141,9 +141,9 @@ Distributors can apply their Windows IoT development experiences, and knowledge,
 
 | Location | Distributor&nbsp;Name         | Contact&nbsp;Name | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Contact&nbsp;Phone&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; |
 | ---------|-------------------------------|-------------------|:--------------:|
-| Japan    | Avnet K.K.                    | Toshitaka Saito</br>[Toshitaka.Saito@AVNET.COM](mailto:Toshitaka.Saito@AVNET.COM)</br>MS Support</br>[akk-ms-support@avnet.com](mailto:akk-ms-support@avnet.com) | +81 3 5792 9820 |
-| Japan    | Okaya Electronics Corp.       | Hideaki Nagai</br>[nagai@oec.okaya.co.jp](mailto:nagai@oec.okaya.co.jp)</br>Software Promotion Group</br>[info_ms@oec.okaya.co.jp](mailto:info_ms@oec.okaya.co.jp) | +81 45 475 1502 |
-| Japan    | Ryoyo Electro Corporation     | Tetsuya Nagano</br>[tetsuya_nagano@ryoyo.co.jp](mailto:tetsuya_nagano@ryoyo.co.jp)</br>IS MSIS Division</br>[msoem@ryoyo.co.jp](mailto:msoem@ryoyo.co.jp) | +81 3 3546 6211 |
-| Japan    | Tokyo Electron Device Limited | Toshinori Suzuno</br>[suzuno.t@teldevice.co.jp](mailto:suzuno.t@teldevice.co.jp)</br>IoT&nbsp;Company&nbsp;Embedded&nbsp;Division</br>[esg@teldevice.co.jp](mailto:esg@teldevice.co.jp) | +81 45 443 4422 |
+| Japan    | Avnet K.K.                    |Toshitaka Saito</br>[Toshitaka.Saito@AVNET.COM](mailto:Toshitaka.Saito@AVNET.COM)</br>MS Support</br>[akk-ms-support@avnet.com](mailto:akk-ms-support@avnet.com) | +81 3 5792 9820 |
+| Japan    | Okaya Electronics Corp.       |Hideaki Nagai</br>[nagai@oec.okaya.co.jp](mailto:nagai@oec.okaya.co.jp)</br>Software Promotion Group</br>[info_ms@oec.okaya.co.jp](mailto:info_ms@oec.okaya.co.jp) | +81 45 475 1502 |
+| Japan    | Ryoyo Electro Corporation     |Tetsuya Nagano</br>[tetsuya_nagano@ryoyo.co.jp](mailto:tetsuya_nagano@ryoyo.co.jp)</br>IS MSIS Division</br>[msoem@ryoyo.co.jp](mailto:msoem@ryoyo.co.jp) | +81 3 3546 6211 |
+| Japan    | Tokyo Electron Device Limited |Naoto Sasaki</br>[sasaki.n@teldevice.co.jp](mailto:sasaki.n@teldevice.co.jp)</br>Edge Cloud Solution Dept.</br>[esg@teldevice.co.jp](mailto:esg@teldevice.co.jp) | +81 50 3509 5674 |
 
-06/17/2024
+11/25/2024
