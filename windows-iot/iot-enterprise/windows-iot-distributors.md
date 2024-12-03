@@ -28,7 +28,7 @@ Distributors can apply their Windows IoT development experiences, and knowledge,
 | United&nbsp;States | Advantech Corporation               |Jeff Trager - MS IoT Licensing & Product Resource</br>[iot.software@advantech.com](mailto:iot.software@advantech.com) | +1 425-922-0721 |
 | United&nbsp;States | Arrow Electronics INC.              |Ken Marlin - Windows Champ on YouTube</br>Henry Castillo - Microsoft Champion</br>[WindowsChamp@arrow.com](mailto:WindowsChamp@arrow.com) | +1 (830) 365-7024 |
 | United&nbsp;States | Avnet INC.                          |[Software@Avnet.com](mailto:Software@Avnet.com) | +1 480 643 7055 |
-| United&nbsp;States | Bsquare Corporation                 |[Info@bsquare.com](mailto:Info@bsquare.com) | + 1 425-519-5900 |
+| United&nbsp;States | Kontron Americas                 |[info.americas@kontron.com](mailto:info.americas@kontron.com) | + 1 (888) 294-4558 |
 | United&nbsp;States | Dell, INC.                          |Jordan Wright</br>[embeddedsoftwaresales@dell.com](mailto:embeddedsoftwaresales@dell.com) | +737 227 1602 |
 
 ## APAC
@@ -146,4 +146,4 @@ Distributors can apply their Windows IoT development experiences, and knowledge,
 | Japan    | Ryoyo Electro Corporation     |Tetsuya Nagano</br>[tetsuya_nagano@ryoyo.co.jp](mailto:tetsuya_nagano@ryoyo.co.jp)</br>IS MSIS Division</br>[msoem@ryoyo.co.jp](mailto:msoem@ryoyo.co.jp) | +81 3 3546 6211 |
 | Japan    | Tokyo Electron Device Limited |Naoto Sasaki</br>[sasaki.n@teldevice.co.jp](mailto:sasaki.n@teldevice.co.jp)</br>Edge Cloud Solution Dept.</br>[esg@teldevice.co.jp](mailto:esg@teldevice.co.jp) | +81 50 3509 5674 |
 
-11/25/2024
+11/27/2024
