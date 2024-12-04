@@ -20,8 +20,12 @@ summary: |
 #  - FAQ for [Windows IoT Core](faq.yml#windows-iot-core)
 
 sections:
-  - name: Windows IoT Enterprise
-    questions:
+#  - name: Windows IoT Enterprise
+#    questions:
+#
+#   - Upgrade / Update
+#   - Editions 
+#   - Installation
 
 #    - question: Contents
 #      answer: |
