@@ -20,11 +20,10 @@ summary: |
 #  - FAQ for [Windows IoT Core](faq.yml#windows-iot-core)
 
 sections:
-  - name: Windows IoT Enterprise
+  - name: Contents
     questions:
-    - question: Contents
+    - question: General
       answer: |
-          General
           - [What is Windows IoT Enterprise?](faq.yml#what-is-windows-iot-enterprise)
           - [Can I upgrade my Windows IoT Enterprise to a newer version?](faq.yml#can-i-upgrade-my-windows-iot-enterprise-to-a-newer-version)
           - [How do I update Windows IoT Enterprise?](faq.yml#how-do-i-update-windows-iot-enterprise)
@@ -48,21 +47,24 @@ sections:
           - [Where can I find information about security updates for Windows IoT Enterprise?](faq.yml#where-can-i-find-information-about-security-updates-for-windows-iot-enterprise)
           - [What is the difference between Windows IoT Enterprise and Windows IoT Core?](faq.yml#what-is-the-difference-between-windows-iot-enterprise-and-windows-iot-core)
 
-          Use Cases
+    - question: Use Cases
+      answer: |
           - [What kind of devices can I create with Windows IoT Enterprise?](faq.yml#what-kind-of-devices-can-i-create-with-windows-iot-enterprise)
           - [Can I create a public facing kiosk with Windows IoT Enterprise?](faq.yml#can-i-create-a-public-facing-kiosk-with-windows-iot-enterprise)
           - [Can I create a specialized device using my own branding experience?](faq.yml#can-i-create-a-specialized-device-using-my-own-branding-experience)
           - [Are there features in Windows IoT Enterprise to help me build a specialized device?](faq.yml#can-i-create-a-specialized-device-using-my-own-branding-experience)
           - [Why do special purpose devices use Windows IoT Enterprise?](faq.yml#why-do-special-purpose-devices-use-windows-iot-enterprise)
 
-          LTSC
+    - question: LTSC
+      answer: |
           - [What is Long-Term Servicing Channel (LTSC)?](faq.yml#what-is-long-term-servicing-channel)
           - [How long is Windows IoT Enterprise LTSC supported?](faq.yml#how-long-is-windows-iot-enterprise-ltsc-supported)
           - [Can I upgrade from one LTSC to the next LTSC?](faq.yml#can-i-upgrade-from-one-ltsc-to-the-next-ltsc)
           - [What are the pros and cons of LTSC compared to other editions of Windows?](faq.yml#what-are-the-pros-and-cons-of-ltsc-compared-to-other-editions-of-windows)
           - [How do I install an app from the Microsoft Store on Windows IoT Enterprise LTSC?](faq.yml#how-do-i-install-an-app-from-the-microsoft-store-on-windows-iot-enterprise-ltsc)
           
-          Arm64
+    - question: Arm64
+      answer: |
           - [What is Windows IoT Enterprise on Arm?](faq.yml#what-is-windows-iot-enterprise-on-arm)
           - [Is Windows IoT Enterprise available for Arm64?](faq.yml#is-windows-iot-enterprise-available-for-Arm64)
           - [Where can I get Windows IoT Enterprise on Arm64?](faq.yml#where-can-i-get-windows-iot-enterprise-on-arm64)
@@ -74,7 +76,8 @@ sections:
           - [What drivers are available for NXP based systems?](faq.yml#what-drivers-are-available-for-nxp-based-systems)
           - [Is Hyper-V supported in Windows IoT Enterprise on Arm64?](faq.yml#is-hyper-v-supported-in-windows-iot-enterprise-on-arm64)
 
-          Licensing & Acquisition
+    - question: Licensing & Acquisition
+      answer: |
           - [How can I purchase Windows IoT Enterprise?](faq.yml#how-can-i-purchase-windows-iot-enterprise)
           - [How is Windows IoT Enterprise licensed?](faq.yml#how-is-windows-iot-enterprise-licensed)
           - [Where can I get Windows IoT Enterprise?](faq.yml#where-can-i-get-windows-iot-enterprise)
