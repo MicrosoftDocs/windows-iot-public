@@ -82,8 +82,8 @@ sections:
           
           [Top of FAQ](faq.yml)
 
-    - name: General
-      questions:
+  - name: General
+    questions:
       - question: What is Windows IoT Enterprise?
         answer: |
             Windows IoT Enterprise is a full version of Windows Enterprise designed for IoT devices. It provides the same enterprise manageability and security features as Windows Enterprise, but is tailored for fixed-purpose devices such as ATMs, point-of-sale terminals, industrial automation systems, medical devices, digital signage, and more. 
