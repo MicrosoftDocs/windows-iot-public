@@ -5,10 +5,10 @@ metadata:
   keywords: IoT Enterprise, FAQ
   author: TerryWarwick
   ms.author: twarwick
-  ms.date: 03/31/2023
+  ms.date: 12/4/2024
   ms.topic: faq
-  ms.prod: windows-iot
-  ms.technology: iot
+  ms.service: windows-iot
+  ms.subservice: iot
 
 title: "Windows IoT Frequently asked questions"
 summary: |
