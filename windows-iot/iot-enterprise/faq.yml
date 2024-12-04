@@ -14,11 +14,6 @@ title: "Windows IoT Frequently asked questions"
 summary: |
   This article addresses frequently asked questions about Windows IoT Enterprise.  
   
-#  - FAQ for [Windows IoT Enterprise](faq.yml#windows-iot-enterprise)
-#  - FAQ for [Windows Server IoT](faq.yml#windows-server-iot)
-#  - FAQ for [SQL Sever IoT](faq.yml#sql-server-iot)
-#  - FAQ for [Windows IoT Core](faq.yml#windows-iot-core)
-
 sections:
   - name: General
     questions:
