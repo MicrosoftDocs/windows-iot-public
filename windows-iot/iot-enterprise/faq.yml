@@ -28,7 +28,7 @@ sections:
           - [Can I get an evaluation copy of Windows IoT Enterprise?](faq.yml#can-i-get-an-evaluation-copy-of-windows-iot-enterprise)
           - [When is the next Windows IoT Enterprise release?](faq.yml#when-is-the-next-windows-iot-enterprise-release)
 
-          [Top of FAQ](faq.yml)
+#          [Top of FAQ](faq.yml)
 
    ##### Section: Upgrade / Update
 #  - name: Upgrade / Update
@@ -42,7 +42,7 @@ sections:
           - [Where can I find information about security updates for Windows IoT Enterprise?](faq.yml#where-can-i-find-information-about-security-updates-for-windows-iot-enterprise)
           - [How often does Windows IoT Enterprise get security updates?](faq.yml#how-often-does-windows-iot-enterprise-get-security-updates)
 
-          [Top of FAQ](faq.yml)
+#          [Top of FAQ](faq.yml)
   
   ##### Section: Lifecycle
 #  - name: Lifecycle
@@ -51,7 +51,7 @@ sections:
       answer: |
           - [What is the support lifecycle for Windows IoT Enterprise?](faq.yml#what-is-the-support-lifecycle-for-windows-iot-enterprise)
 
-          [Top of FAQ](faq.yml)
+#          [Top of FAQ](faq.yml)
 
 ##### Section: Security
 #  - name: Security
@@ -62,7 +62,7 @@ sections:
         - [Where can I find information about security updates for Windows IoT Enterprise?](faq.yml#where-can-i-find-information-about-security-updates-for-windows-iot-enterprise)
         - [How often does Windows IoT Enterprise get security updates?](faq.yml#how-often-does-windows-iot-enterprise-get-security-updates)
 
-        [Top of FAQ](faq.yml)
+#        [Top of FAQ](faq.yml)
 
 ##### Section: Features
 #  - name: Features
@@ -77,7 +77,7 @@ sections:
           - [Where can I find information about new features and changes in Windows IoT Enterprise](faq.yml#where-can-i-find-information-about-new-features-and-changes-in-windows-iot-enterprise)
           - [What is the difference between Windows IoT Enterprise and Windows IoT Core?](faq.yml#what-is-the-difference-between-windows-iot-enterprise-and-windows-iot-core)
 
-          [Top of FAQ](faq.yml)
+#          [Top of FAQ](faq.yml)
 
 ##### Section: Install
 #  - name: Install
@@ -86,7 +86,7 @@ sections:
       answer: |
           - [How do I reinstall Windows IoT Enterprise?](faq.yml#how-do-i-reinstall-windows-iot-enterprise)
 
-          [Top of FAQ](faq.yml)
+#          [Top of FAQ](faq.yml)
           
 ##### Section: Use Cases
 #  - name: Use Cases
@@ -99,7 +99,7 @@ sections:
           - [Are there features in Windows IoT Enterprise to help me build a specialized device?](faq.yml#can-i-create-a-specialized-device-using-my-own-branding-experience)
           - [Why do special purpose devices use Windows IoT Enterprise?](faq.yml#why-do-special-purpose-devices-use-windows-iot-enterprise)
 
-          [Top of FAQ](faq.yml)
+#          [Top of FAQ](faq.yml)
 
 ##### Section: LTSC
 #  - name: LTSC
@@ -112,7 +112,7 @@ sections:
           - [What are the pros and cons of LTSC compared to other editions of Windows?](faq.yml#what-are-the-pros-and-cons-of-ltsc-compared-to-other-editions-of-windows)
           - [How do I install an app from the Microsoft Store on Windows IoT Enterprise LTSC?](faq.yml#how-do-i-install-an-app-from-the-microsoft-store-on-windows-iot-enterprise-ltsc)
 
-          [Top of FAQ](faq.yml)
+#          [Top of FAQ](faq.yml)
 
           
 ##### Section: ARM64
@@ -132,7 +132,7 @@ sections:
           - [What drivers are available for NXP based systems?](faq.yml#what-drivers-are-available-for-nxp-based-systems)
           - [Is Hyper-V supported in Windows IoT Enterprise on Arm64?](faq.yml#is-hyper-v-supported-in-windows-iot-enterprise-on-arm64)
 
-          [Top of FAQ](faq.yml)
+#          [Top of FAQ](faq.yml)
 
 ##### Section: Licensing & Acquisition
 #  - name: Licensing & Acquisition
@@ -144,10 +144,10 @@ sections:
           - [Where can I get Windows IoT Enterprise?](faq.yml#where-can-i-get-windows-iot-enterprise)
           - [Can I get Windows IoT Enterprise through an Enterprise Agreement?](faq.yml#can-i-get-windows-iot-enterprise-through-an-enterprise-agreement)
 
-          [Top of FAQ](faq.yml)
+#          [Top of FAQ](faq.yml)
 
 
-  - name: Questions and Answers
+  - name: .
     questions: 
     - question: What is Windows IoT Enterprise?
       answer: |
