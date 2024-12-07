@@ -17,7 +17,7 @@ summary: |
 sections:
 
 ##### Section: Edition
-  - name: Table of Contents
+  - name: Questions
     questions:
     - question: Edition
       answer: |
@@ -147,7 +147,7 @@ sections:
 #          [Top of FAQ](faq.yml)
 
 
-  - name: .
+  - name: Answers
     questions: 
     - question: What is Windows IoT Enterprise?
       answer: |
