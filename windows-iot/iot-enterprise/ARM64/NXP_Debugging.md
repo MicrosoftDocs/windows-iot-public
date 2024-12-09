@@ -6,7 +6,7 @@ ms.date: 11/12/2024
 ms.topic: how-to
 ms.service: windows-iot
 ms.subservice: iot
-description: How to configure an NXP i.MX Evaluation Kit for kernel debugging
+description: How to configure an NXP i.MX 8 or i.MX 9 Evaluation Kit for kernel debugging
 keywords: IoT Enterprise, Hardware, Windows IoT, Arm64, NXP
 zone_pivot_groups: KDNet-KDCOM
 ---
