@@ -18,3 +18,11 @@ groups:
     title: x64
   - id: arm64
     title: Arm64
+- id: KDNet-KDCOM
+  title: Kernel Debugging
+  prompt: Choose kernel debugging transport
+  pivots:
+  - id: kdnet
+    title: Network
+  - id: kdcom
+    title: Serial
