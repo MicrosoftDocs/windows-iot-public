@@ -17,72 +17,179 @@ summary: |
 sections:
 
 ##### Section: Edition
-  - name: 1. Edition
+  - name: Questions
     questions:
-    - question: 1.0 Contents
+    - question: Edition
       answer: |
-          - [What is Windows IoT Enterprise?](faq.yml#1-1-what-is-windows-iot-enterprise)
-          - [What is the current version of Windows IoT Enterprise?](faq.yml#1-2-what-is-the-current-version-of-windows-iot-enterprise)
-          - [How do I know if I'm running Windows IoT Enterprise?](faq.yml#1-3-how-do-i-know-if-i-m-running-windows-iot-enterprise)
-          - [What editions of Windows IoT Enterprise are available?](faq.yml#1-4-what-editions-of-windows-iot-enterprise-are-available)
-          - [Can I get an evaluation copy of Windows IoT Enterprise?](faq.yml#1-5-can-i-get-an-evaluation-copy-of-windows-iot-enterprise)
-          - [When is the next Windows IoT Enterprise release?](faq.yml#1-6-when-is-the-next-windows-iot-enterprise-release)
+          - [What is Windows IoT Enterprise?](faq.yml#what-is-windows-iot-enterprise)
+          - [What is the current version of Windows IoT Enterprise?](faq.yml#what-is-the-current-version-of-windows-iot-enterprise)
+          - [How do I know if I'm running Windows IoT Enterprise?](faq.yml#how-do-i-know-if-i-m-running-windows-iot-enterprise)
+          - [What editions of Windows IoT Enterprise are available?](faq.yml#what-editions-of-windows-iot-enterprise-are-available)
+          - [Can I get an evaluation copy of Windows IoT Enterprise?](faq.yml#can-i-get-an-evaluation-copy-of-windows-iot-enterprise)
+          - [When is the next Windows IoT Enterprise release?](faq.yml#when-is-the-next-windows-iot-enterprise-release)
 
-          [Top of FAQ](faq.yml)
+#          [Top of FAQ](faq.yml)
 
-    - question: 1.1 What is Windows IoT Enterprise?
+   ##### Section: Upgrade / Update
+#  - name: Upgrade / Update
+#    questions:
+    - question:  Upgrade / Update
+      answer: |
+          - [Can I upgrade my Windows IoT Enterprise to a newer version?](faq.yml#can-i-upgrade-my-windows-iot-enterprise-to-a-newer-version)
+          - [How do I update Windows IoT Enterprise?](faq.yml#how-do-i-update-windows-iot-enterprise)
+          - [How do I update Windows IoT Enterprise LTSC?](faq.yml#how-do-i-update-windows-iot-enterprise-ltsc)
+          - [What are the hardware requirements for Windows IoT Enterprise](faq.yml#what-are-the-hardware-requirements-for-windows-iot-enterprise)
+          - [Where can I find information about security updates for Windows IoT Enterprise?](faq.yml#where-can-i-find-information-about-security-updates-for-windows-iot-enterprise)
+          - [How often does Windows IoT Enterprise get security updates?](faq.yml#how-often-does-windows-iot-enterprise-get-security-updates)
+
+#          [Top of FAQ](faq.yml)
+  
+  ##### Section: Lifecycle
+#  - name: Lifecycle
+#    questions:
+    - question:  Lifecycle
+      answer: |
+          - [What is the support lifecycle for Windows IoT Enterprise?](faq.yml#what-is-the-support-lifecycle-for-windows-iot-enterprise)
+
+#          [Top of FAQ](faq.yml)
+
+##### Section: Security
+#  - name: Security
+#    questions:
+    - question: Security
+      answer: |
+        - [Is Windows IoT Enterprise secure?](faq.yml#is-windows-iot-enterprise-secure)
+        - [Where can I find information about security updates for Windows IoT Enterprise?](faq.yml#where-can-i-find-information-about-security-updates-for-windows-iot-enterprise)
+        - [How often does Windows IoT Enterprise get security updates?](faq.yml#how-often-does-windows-iot-enterprise-get-security-updates)
+
+#        [Top of FAQ](faq.yml)
+
+##### Section: Features
+#  - name: Features
+#    questions:
+    - question:  Features
+      answer: |
+          - [How does Windows IoT Enterprise differ from Windows Pro?](faq.yml#how-does-windows-iot-enterprise-differ-from-windows-pro)
+          - [What's new in the latest version of Windows IoT Enterprise?](faq.yml#what-s-new-in-the-latest-version-of-windows-iot-enterprise)
+          - [Does Windows IoT Enterprise support real-time computing?](faq.yml#does-windows-iot-enterprise-support-real-time-computing)
+          - [Does Windows IoT Enterprise support Windows Containers?](faq.yml#does-windows-iot-enterprise-support-windows-containers)
+          - [Can I use my existing management infrastructure for Windows with Windows IoT Enterprise?](faq.yml#can-i-use-my-existing-management-infrastructure-for-windows-with-windows-iot-enterprise)
+          - [Where can I find information about new features and changes in Windows IoT Enterprise](faq.yml#where-can-i-find-information-about-new-features-and-changes-in-windows-iot-enterprise)
+          - [What is the difference between Windows IoT Enterprise and Windows IoT Core?](faq.yml#what-is-the-difference-between-windows-iot-enterprise-and-windows-iot-core)
+
+#          [Top of FAQ](faq.yml)
+
+##### Section: Install
+#  - name: Install
+#    questions:
+    - question:  Install
+      answer: |
+          - [How do I reinstall Windows IoT Enterprise?](faq.yml#how-do-i-reinstall-windows-iot-enterprise)
+
+#          [Top of FAQ](faq.yml)
+          
+##### Section: Use Cases
+#  - name: Use Cases
+#    questions:
+    - question:  Use Cases
+      answer: |
+          - [What kind of devices can I create with Windows IoT Enterprise?](faq.yml#what-kind-of-devices-can-i-create-with-windows-iot-enterprise)
+          - [Can I create a public facing kiosk with Windows IoT Enterprise?](faq.yml#can-i-create-a-public-facing-kiosk-with-windows-iot-enterprise)
+          - [Can I create a specialized device using my own branding experience?](faq.yml#can-i-create-a-specialized-device-using-my-own-branding-experience)
+          - [Are there features in Windows IoT Enterprise to help me build a specialized device?](faq.yml#can-i-create-a-specialized-device-using-my-own-branding-experience)
+          - [Why do special purpose devices use Windows IoT Enterprise?](faq.yml#why-do-special-purpose-devices-use-windows-iot-enterprise)
+
+#          [Top of FAQ](faq.yml)
+
+##### Section: LTSC
+#  - name: LTSC
+#    questions:
+    - question:  LTSC
+      answer: |
+          - [What is Long-Term Servicing Channel (LTSC)?](faq.yml#what-is-long-term-servicing-channel--ltsc-)
+          - [How long is Windows IoT Enterprise LTSC supported?](faq.yml#how-long-is-windows-iot-enterprise-ltsc-supported)
+          - [Can I upgrade from one LTSC to the next LTSC?](faq.yml#can-i-upgrade-from-one-ltsc-to-the-next-ltsc)
+          - [What are the pros and cons of LTSC compared to other editions of Windows?](faq.yml#what-are-the-pros-and-cons-of-ltsc-compared-to-other-editions-of-windows)
+          - [How do I install an app from the Microsoft Store on Windows IoT Enterprise LTSC?](faq.yml#how-do-i-install-an-app-from-the-microsoft-store-on-windows-iot-enterprise-ltsc)
+
+#          [Top of FAQ](faq.yml)
+
+          
+##### Section: ARM64
+#  - name: ARM64
+#    questions:
+    - question:  ARM64
+      answer: |
+          - [What is Windows IoT Enterprise on Arm?](faq.yml#what-is-windows-iot-enterprise-on-arm)
+          - [Is Windows IoT Enterprise available for Arm64?](faq.yml#is-windows-iot-enterprise-available-for-arm64)
+          - [Where can I get Windows IoT Enterprise on Arm64?](faq.yml#where-can-i-get-windows-iot-enterprise-on-arm64)
+          - [Can I run applications that aren't native to Arm64?](faq.yml#can-i-run-applications-that-aren-t-native-to-arm64)
+          - [What silicon vendors provide support for Windows IoT Enterprise on Arm64?](faq.yml#what-silicon-vendors-provide-support-for-windows-iot-enterprise-on-arm64)
+          - [How do I get started with Windows IoT Enterprise on Arm64?](faq.yml#how-do-i-get-started-with-windows-iot-enterprise-on-arm64)
+          - [What hardware is available for Windows IoT Enterprise on Arm64?](faq.yml#what-hardware-is-available-for-windows-iot-enterprise-on-arm64)
+          - [What connectivity drivers are available for Windows IoT Enterprise on Arm64?](faq.yml#what-connectivity-drivers-are-available-for-windows-iot-enterprise-on-arm64)
+          - [Which Windows IoT Enterprise version should I use with NXP hardware?](faq.yml#which-windows-iot-enterprise-version-should-i-use-with-nxp-hardware)
+          - [What drivers are available for NXP based systems?](faq.yml#what-drivers-are-available-for-nxp-based-systems)
+          - [Is Hyper-V supported in Windows IoT Enterprise on Arm64?](faq.yml#is-hyper-v-supported-in-windows-iot-enterprise-on-arm64)
+
+#          [Top of FAQ](faq.yml)
+
+##### Section: Licensing & Acquisition
+#  - name: Licensing & Acquisition
+#    questions: 
+    - question:  Licensing & Acquisition
+      answer: |
+          - [How can I purchase Windows IoT Enterprise?](faq.yml#how-can-i-purchase-windows-iot-enterprise)
+          - [How is Windows IoT Enterprise licensed?](faq.yml#how-is-windows-iot-enterprise-licensed)
+          - [Where can I get Windows IoT Enterprise?](faq.yml#where-can-i-get-windows-iot-enterprise)
+          - [Can I get Windows IoT Enterprise through an Enterprise Agreement?](faq.yml#can-i-get-windows-iot-enterprise-through-an-enterprise-agreement)
+
+#          [Top of FAQ](faq.yml)
+
+
+  - name: Answers
+    questions: 
+    - question: What is Windows IoT Enterprise?
       answer: |
             Windows IoT Enterprise is a full version of Windows Enterprise designed for IoT devices. It provides the same enterprise manageability and security features as Windows Enterprise, but is tailored for fixed-purpose devices such as ATMs, point-of-sale terminals, industrial automation systems, medical devices, digital signage, and more. 
 
-            [Top of Edition section](faq.yml#1--edition)
+            [Top of FAQ](faq.yml)
 
-    - question: 1.2 What is the current version of Windows IoT Enterprise?
+    - question: What is the current version of Windows IoT Enterprise?
       answer: |
             The current GAC version is [Windows 11 IoT Enterprise, version 24H2](./whats-new/Windows-11-IoT-Enterprise-24H2.md).
           
             The current LTSC version is [Windows 11 IoT Enterprise LTSC 2024](./whats-new/Windows-11-IoT-Enterprise-LTSC-2024.md).
 
-            [Top of Edition section](faq.yml#1--edition)
+            [Top of FAQ](faq.yml)
 
-    - question: 1.3 How do I know if I'm running Windows IoT Enterprise?
+    - question: How do I know if I'm running Windows IoT Enterprise?
       answer: |
             To determine if you're running Windows IoT Enterprise, open the Settings app, navigate to System > About, and look for the Edition field. If the Edition field shows "Windows 10 IoT Enterprise" or "Windows 11 IoT Enterprise", you're running Windows IoT Enterprise.
 
-            [Top of Edition section](faq.yml#1--edition)
+            [Top of FAQ](faq.yml)
 
-    - question: 1.4 What editions of Windows IoT Enterprise are available?
+    - question: What editions of Windows IoT Enterprise are available?
       answer: |
             Windows IoT Enterprise is available in two editions: Edition Availability Channel (GAC) and Long-Term Servicing Channel (LTSC). 
 
-            [Top of Edition section](faq.yml#1--edition)
+            [Top of FAQ](faq.yml)
 
-    - question: 1.5 Can I get an evaluation copy of Windows IoT Enterprise?
+    - question: Can I get an evaluation copy of Windows IoT Enterprise?
       answer: |
             You can get an evaluation copy of Windows 11 IoT Enterprise LTSC 2024 from the [Microsoft Evaluation Center](https://aka.ms/winioteval). 
 
-            [Top of Edition section](faq.yml#1--edition)
+            [Top of FAQ](faq.yml)
 
-    - question: 1.6 When is the next Windows IoT Enterprise release?
+    - question: When is the next Windows IoT Enterprise release?
       answer: |
           Windows IoT Enterprise GAC is typically released annually. Windows IoT Enterprise LTSC is typically released every three years. For the latest information on Windows IoT Enterprise releases, see our [Announcements and Blogs](./whats-new/News-Blogs.md) page.
 
-            [Top of Edition section](faq.yml#1--edition)
+            [Top of FAQ](faq.yml)
 
-##### Section: Upgrade / Update
-  - name: 2. Upgrade / Update
-    questions:
-    - question: 2.0 Contents
-      answer: |
-        - [Can I upgrade my Windows IoT Enterprise to a newer version?](faq.yml#2-1-can-i-upgrade-my-windows-iot-enterprise-to-a-newer-version)
-        - [How do I update Windows IoT Enterprise?](faq.yml#2-2-how-do-i-update-windows-iot-enterprise)
-        - [How do I update Windows IoT Enterprise LTSC?](faq.yml#2-3-how-do-i-update-windows-iot-enterprise-ltsc)
-        - [What are the hardware requirements for Windows IoT Enterprise](faq.yml#2-4-what-are-the-hardware-requirements-for-windows-iot-enterprise)
-        - [Where can I find information about security updates for Windows IoT Enterprise?](faq.yml#2-5-where-can-i-find-information-about-security-updates-for-windows-iot-enterprise)
-        - [How often does Windows IoT Enterprise get security updates?](faq.yml#2-6-how-often-does-windows-iot-enterprise-get-security-updates)
 
-          [Top of FAQ](faq.yml)
 
-    - question: 2.1 Can I upgrade my Windows IoT Enterprise to a newer version?
+    - question: Can I upgrade my Windows IoT Enterprise to a newer version?
       answer: |
             Devices running a previous version of Windows IoT Enterprise (non-LTSC) can be upgraded through regular update channels such as Windows Update, Windows Server Update Services (including Configuration Manager), Windows Update for Business, and the Volume Licensing Service Center (VLSC).
   
@@ -90,48 +197,41 @@ sections:
   
             Before upgrading, check that your device meets the [system requirements](Hardware/System_Requirements.md) for the version of Windows IoT Enterprise you're upgrading to.
  
-            [Top of Upgrade / Update section](faq.yml#2--upgrade---update)
+            [Top of FAQ](faq.yml)
 
-    - question: 2.2 How do I update Windows IoT Enterprise?
+    - question: How do I update Windows IoT Enterprise?
       answer: |
             Windows IoT Enterprise can be updated through regular update channels such as Windows Update, Windows Server Update Services (including Configuration Manager), and Windows Update for Business. Learn more in our documentation on [OS updates](./OS-Features/Updates.md).
 
-            [Top of Upgrade / Update section](faq.yml#2--upgrade---update)
+            [Top of FAQ](faq.yml)
 
-    - question: 2.3 How do I update Windows IoT Enterprise LTSC?
+    - question: How do I update Windows IoT Enterprise LTSC?
       answer: |
             Windows IoT Enterprise can be updated through regular update channels such as Windows Update, Windows Server Update Services (including Configuration Manager), and Windows Update for Business. Learn more in our documentation on [OS updates](./OS-Features/Updates.md).
 
-            [Top of Upgrade / Update section](faq.yml#2--upgrade---update)
+            [Top of FAQ](faq.yml)
 
-    - question: 2.4 What are the hardware requirements for Windows IoT Enterprise?
+    - question: What are the hardware requirements for Windows IoT Enterprise?
       answer: |
           The hardware requirements for Windows IoT Enterprise are published on the [Minimum System Requirements for Windows IoT Enterprise](./Hardware/System_Requirements.md) page.
 
-            [Top of Upgrade / Update section](faq.yml#2--upgrade---update)
+            [Top of FAQ](faq.yml)
 
-    - question: 2.5 Where can I find information about security updates for Windows IoT Enterprise?
+    - question: Where can I find information about security updates for Windows IoT Enterprise?
       answer: |
           Information about security updates for Windows IoT Enterprise is published in the Microsoft Security Response Center in the [Security Update Guide](https://msrc.microsoft.com/update-guide/).
 
-            [Top of Upgrade / Update section](faq.yml#2--upgrade---update)
+            [Top of FAQ](faq.yml)
 
-    - question: 2.6 How often does Windows IoT Enterprise get security updates?
+    - question: How often does Windows IoT Enterprise get security updates?
       answer: |
           Windows IoT Enterprise receives monthly security updates published on the second Tuesday of each month. For more information, read the blog on [Windows monthly updates explained](https://techcommunity.microsoft.com/blog/windows-itpro-blog/windows-monthly-updates-explained/3773544).
 
-            [Top of Upgrade / Update section](faq.yml#2--upgrade---update)
+            [Top of FAQ](faq.yml)
 
-##### Section: Lifecycle
-  - name: 3. Lifecycle
-    questions:
-    - question: 3.0 Contents
-      answer: |
-          - [What is the support lifecycle for Windows IoT Enterprise?](faq.yml#3-1-what-is-the-support-lifecycle-for-windows-iot-enterprise)
 
-          [Top of FAQ](faq.yml)
 
-    - question: 3.1 What is the support lifecycle for Windows IoT Enterprise?
+    - question: What is the support lifecycle for Windows IoT Enterprise?
       answer: |
             Windows IoT Enterprise follows the [modern lifecycle policy](/lifecycle/policies/modern), which provides three years of support from the GA date of the current version of the OS. Devices stay supported as long as they stay current. 
  
@@ -139,91 +239,71 @@ sections:
            
             You can find end of support dates for specific versions of Windows IoT Enterprise through the [Product and Services Lifecycle Information Search page](/lifecycle/products).
 
-            [Top of Licecycle section](faq.yml#3--lifecycle)
+            [Top of FAQ](faq.yml)
 
-##### Section: Security
-  - name: 4. Security
-    questions:
-    - question: 4.0 Contents
-      answer: |
-        - [Is Windows IoT Enterprise secure?](faq.yml#4-1-is-windows-iot-enterprise-secure)
-        - [Where can I find information about security updates for Windows IoT Enterprise?](faq.yml#4-2-where-can-i-find-information-about-security-updates-for-windows-iot-enterprise)
-        - [How often does Windows IoT Enterprise get security updates?](faq.yml#4-3-how-often-does-windows-iot-enterprise-get-security-updates)
 
-          [Top of FAQ](faq.yml)
 
-    - question: 4.1 Is Windows IoT Enterprise secure?
+    - question: Is Windows IoT Enterprise secure?
       answer: |
           Windows IoT Enterprise has the same enterprise-level security features as Windows Enterprise to help protect your devices from security threats. This includes features like Microsoft Defender, Secure Boot, Device Guard, Credential Guard, and BitLocker. Microsoft also provides monthly security patches for Windows IoT Enterprise to help ensure devices are protected from the ever-changing threat landscape. 
           
           For more information about security in Windows IoT Enterprise, see [Windows IoT Enterprise Security](./Resources/Security.md).
 
-          [Top of Security section](faq.yml#4--security)
+          [Top of FAQ](faq.yml)
 
-    - question: 4.2 Where can I find information about security updates for Windows IoT Enterprise?
+    - question: Where can I find information about security updates for Windows IoT Enterprise?
       answer: |
           Information about security updates for Windows IoT Enterprise is published in the Microsoft Security Response Center in the [Security Update Guide](https://msrc.microsoft.com/update-guide/).
 
-          [Top of Security section](faq.yml#4--security)
+          [Top of FAQ](faq.yml)
 
-    - question: 4.3 How often does Windows IoT Enterprise get security updates?
+    - question: How often does Windows IoT Enterprise get security updates?
       answer: |
           Windows IoT Enterprise receives monthly security updates published on the second Tuesday of each month. For more information, read the blog on [Windows monthly updates explained](https://techcommunity.microsoft.com/blog/windows-itpro-blog/windows-monthly-updates-explained/3773544).
 
-          [Top of Security section](faq.yml#4--security)
+          [Top of FAQ](faq.yml)
 
-##### Section: Features
-  - name: 5. Features
-    questions:
-    - question: 5.0 Contents
-      answer: |
-          - [How does Windows IoT Enterprise differ from Windows Pro?](faq.yml#5-1-how-does-windows-iot-enterprise-differ-from-windows-pro)
-          - [What's new in the latest version of Windows IoT Enterprise?](faq.yml#5-2-what-s-new-in-the-latest-version-of-windows-iot-enterprise)
-          - [Does Windows IoT Enterprise support real-time computing?](faq.yml#5-3-does-windows-iot-enterprise-support-real-time-computing)
-          - [Does Windows IoT Enterprise support Windows Containers?](faq.yml#5-4-does-windows-iot-enterprise-support-windows-containers)
-          - [Can I use my existing management infrastructure for Windows with Windows IoT Enterprise?](faq.yml#5-5-can-i-use-my-existing-management-infrastructure-for-windows-with-windows-iot-enterprise)
-          - [Where can I find information about new features and changes in Windows IoT Enterprise](faq.yml#5-6-where-can-i-find-information-about-new-features-and-changes-in-windows-iot-enterprise)
-          - [What is the difference between Windows IoT Enterprise and Windows IoT Core?](faq.yml#5-7-what-is-the-difference-between-windows-iot-enterprise-and-windows-iot-core)
 
-    - question: 5.1 How does Windows IoT Enterprise differ from Windows Pro?
+
+    - question: How does Windows IoT Enterprise differ from Windows Pro?
       answer: |
           Windows IoT Enterprise is a full version of Windows Enterprise designed for IoT devices. It provides the same enterprise manageability and security features as Windows Enterprise, but is tailored for fixed-purpose devices such as ATMs, point-of-sale terminals, industrial automation systems, medical devices, digital signage, and more. 
 
           Windows Pro is designed for general-purpose computing devices and isn't recommended for fixed-purpose devices.
 
-          [Top of Features section](faq.yml#5--features)
+          [Top of FAQ](faq.yml)
 
-    - question: 5.2 What's new in the latest version of Windows IoT Enterprise?
+    - question: What's new in the latest version of Windows IoT Enterprise?
       answer: |
           You can find the latest information about new versions of Windows IoT Enterprise in our [Announcements and Blogs page](./whats-new/News-Blogs.md).
 
-          [Top of Features section](faq.yml#5--features)
+          [Top of FAQ](faq.yml)
 
-    - question: 5.3 Does Windows IoT Enterprise support real-time computing?
+    - question: Does Windows IoT Enterprise support real-time computing?
       answer: |
           Windows IoT Enterprise isn't a real-time operating system. However, Windows IoT Enterprise supports [Soft Real-Time](./Soft-Real-Time/Soft-Real-Time.md), which allows you to configure programs to run and schedule tasks with less time jitter. 
 
-          [Top of Features section](faq.yml#5--features)
+          [Top of FAQ](faq.yml)
 
-    - question: 5.4 Does Windows IoT Enterprise support Windows Containers?
+    - question: Does Windows IoT Enterprise support Windows Containers?
       answer: |
           Yes, Windows IoT Enterprise supports Windows Containers. For more information, see [Windows and Containers](/virtualization/windowscontainers/about).
 
-          [Top of Features section](faq.yml#5--features)
+          [Top of FAQ](faq.yml)
 
-    - question: 5.5 Can I use my existing management infrastructure for Windows with Windows IoT Enterprise?
+    - question: Can I use my existing management infrastructure for Windows with Windows IoT Enterprise?
       answer: |
           Yes, Windows IoT Enterprise can be managed using the same management infrastructure as Windows Enterprise. This includes management solutions like Microsoft Intune, Microsoft Endpoint Manager, Windows Update for Business, and Windows Autopilot. Learn more in our [Device Management Overview](./Device-Management/Device-Management-Overview.md).
 
-          [Top of Features section](faq.yml#5--features)
+          [Top of FAQ](faq.yml)
 
-    - question: 5.6 Where can I find information about new features and changes in Windows IoT Enterprise
+    - question: Where can I find information about new features and changes in Windows IoT Enterprise
       answer: |
           New features and changes for each Windows IoT Enterprise release are published in the What's New section of our documentation page. You can find links to the What's New page for each of the Windows IoT Enterprise releases in the [Windows IoT Announcements and Blogs](./whats-new/News-Blogs.md) page.
 
-          [Top of Features section](faq.yml#5--features)
+          [Top of FAQ](faq.yml)
 
-    - question: 5.7 What is the difference between Windows IoT Enterprise and Windows IoT Core?
+    - question: What is the difference between Windows IoT Enterprise and Windows IoT Core?
       answer: |
           Windows IoT Enterprise is a full version of Windows Enterprise designed for IoT devices. It provides the same enterprise manageability and security features as Windows Enterprise, but is tailored for fixed-purpose devices such as ATMs, point-of-sale terminals, industrial automation systems, medical devices, digital signage, and more. 
 
@@ -231,102 +311,72 @@ sections:
 
           For more information, see [Differences between Windows 10 IoT Core and Windows 10 IoT Enterprise](/Previous-versions/windows/iot-core/windows-iot-core#differences-between-windows-10-iot-core-and-windows-10-iot-enterprise)
 
-          [Top of Features section](faq.yml#5--features)
-
-##### Section: Install
-  - name: 6. Install
-    questions:
-    - question: 6.0 Content
-      answer: |
-          - [How do I reinstall Windows IoT Enterprise?](faq.yml#6-1-how-do-i-reinstall-windows-iot-enterprise)
-
           [Top of FAQ](faq.yml)
 
-    - question: 6.1 How do I reinstall Windows IoT Enterprise?
+
+
+    - question: How do I reinstall Windows IoT Enterprise?
       answer: |
           You can reinstall Windows IoT Enterprise using the same methods as Windows Enterprise. However, due to the specialized nature of Windows IoT devices, you should first work with your device manufacturer to determine what your reinstallation options are.
 
-          [Top of Install section](faq.yml#6--install)
-
-##### Section: Use Cases
-  - name: 7. Use Cases
-    questions:
-    - question: 7.0 Content
-      answer: |
-          - [What kind of devices can I create with Windows IoT Enterprise?](faq.yml#7-1-what-kind-of-devices-can-i-create-with-windows-iot-enterprise)
-          - [Can I create a public facing kiosk with Windows IoT Enterprise?](faq.yml#7-2-can-i-create-a-public-facing-kiosk-with-windows-iot-enterprise)
-          - [Can I create a specialized device using my own branding experience?](faq.yml#7-3-can-i-create-a-specialized-device-using-my-own-branding-experience)
-          - [Are there features in Windows IoT Enterprise to help me build a specialized device?](faq.yml#7-4-can-i-create-a-specialized-device-using-my-own-branding-experience)
-          - [Why do special purpose devices use Windows IoT Enterprise?](faq.yml#7-5-why-do-special-purpose-devices-use-windows-iot-enterprise)
-
           [Top of FAQ](faq.yml)
 
-    - question: 7.1 What kind of devices can I create with Windows IoT Enterprise?
+
+    - question: What kind of devices can I create with Windows IoT Enterprise?
       answer: |
           Windows IoT Enterprise is designed for fixed-purpose devices such as ATMs, point-of-sale terminals, industrial automation systems, medical devices, digital signage, and more. 
 
-          [Top of Use Cases section](faq.yml#7--use-cases)
+          [Top of FAQ](faq.yml)
 
-    - question: 7.2 Can I create a public facing kiosk with Windows IoT Enterprise?
+    - question: Can I create a public facing kiosk with Windows IoT Enterprise?
       answer: |
           Windows IoT Enterprise is optimized for fixed purpose devices like public facing kiosks and supports multiple features that can help you build one. For more information, see [Kiosk Mode](./Customize/Kiosk-Mode.md).
 
-          [Top of Use Cases section](faq.yml#7--use-cases)
+          [Top of FAQ](faq.yml)
 
-    - question: 7.3 Can I create a specialized device using my own branding experience?
+    - question: Can I create a specialized device using my own branding experience?
       answer: |
           Yes, Windows IoT Enterprise supports multiple customization features that can help you create specialized devices with your own branding experience. For example, you can suppress Windows logos, get rid of the Windows desktop shell, disable blue screens, and more. For more information, see [Customizations for Windows IoT Enterprise](./Customize/customize-overview.md).
 
-          [Top of Use Cases section](faq.yml#7--use-cases)
+          [Top of FAQ](faq.yml)
 
-    - question: 7.4 Are there features in Windows IoT Enterprise to help me build a specialized device?
+    - question: Are there features in Windows IoT Enterprise to help me build a specialized device?
       answer: |
           Yes, Windows IoT Enterprise supports multiple customization features that can help you create specialized devices. For more information, see [Customizations for Windows IoT Enterprise](./Customize/customize-overview.md).
 
-          [Top of Use Cases section](faq.yml#7--use-cases)
+          [Top of FAQ](faq.yml)
 
-    - question: 7.5 Why do special purpose devices use Windows IoT Enterprise?
+    - question: Why do special purpose devices use Windows IoT Enterprise?
       answer: |
           Customers choose to build special purpose devices using Windows IoT Enterprise because it's easy to build, deploy, and manage. Windows IoT Enterprise provides the same development and management experience as Windows, but is flexible and customizable for customers' needs. 
           
           In addition, Windows IoT Enterprise shares the same commitment to security as Windows, providing customers peace of mind against threat actors.
 
-          [Top of Use Cases section](faq.yml#7--use-cases)
-
-##### Section: LTSC
-  - name: 8. LTSC
-    questions:
-    - question: 8.0 Content
-      answer: |
-          - [What is Long-Term Servicing Channel (LTSC)?](faq.yml#8-1-what-is-long-term-servicing-channel--ltsc-)
-          - [How long is Windows IoT Enterprise LTSC supported?](faq.yml#8-2-how-long-is-windows-iot-enterprise-ltsc-supported)
-          - [Can I upgrade from one LTSC to the next LTSC?](faq.yml#8-3-can-i-upgrade-from-one-ltsc-to-the-next-ltsc)
-          - [What are the pros and cons of LTSC compared to other editions of Windows?](faq.yml#8-4-what-are-the-pros-and-cons-of-ltsc-compared-to-other-editions-of-windows)
-          - [How do I install an app from the Microsoft Store on Windows IoT Enterprise LTSC?](faq.yml#8-5-how-do-i-install-an-app-from-the-microsoft-store-on-windows-iot-enterprise-ltsc)
-
           [Top of FAQ](faq.yml)
 
-    - question: 8.1 What is Long-Term Servicing Channel (LTSC)?
+
+
+    - question: What is Long-Term Servicing Channel (LTSC)?
       answer: |
           Long-Term Servicing Channel refers to the version of Windows IoT Enterprise that is released approximately every three years and is supported for 10 years after release (5 years of mainstream support and 5 years of extended support). Windows IoT Enterprise LTSC is ideal for fixed-purpose devices that don't require or can't accept frequent feature updates. 
 
-          [Top of LTSC section](faq.yml#8--ltsc)
+          [Top of FAQ](faq.yml)
 
-    - question: 8.2 How long is Windows IoT Enterprise LTSC supported?
+    - question: How long is Windows IoT Enterprise LTSC supported?
       answer: |
           Each release of Windows IoT Enterprise LTSC is supported for 10 years (5 years of mainstream support and 5 years of extended support) starting from its release date. For support end dates specific to each LTSC release, see [Windows IoT Enterprise LTSC support lifecycle](/lifecycle/products/?terms=Windows%20IoT%20Enterprise%20LTS).
 
-          [Top of LTSC section](faq.yml#8--ltsc)
+          [Top of FAQ](faq.yml)
 
-    - question: 8.3 Can I upgrade from one LTSC to the next LTSC?
+    - question: Can I upgrade from one LTSC to the next LTSC?
       answer: |
           Yes. However, upgrading to a newer version of Windows IoT Enterprise LTSC requires a new license.
 
           Before upgrading, check that your device meets the [system requirements](Hardware/System_Requirements.md) for the version of Windows IoT Enterprise LTSC you're upgrading to.
 
-          [Top of LTSC section](faq.yml#8--ltsc)
+          [Top of FAQ](faq.yml)
 
-    - question: 8.4 What are the pros and cons of LTSC compared to other editions of Windows?
+    - question: What are the pros and cons of LTSC compared to other editions of Windows?
       answer: |
           Windows IoT Enterprise LTSC is ideal for fixed-purpose devices that don't require or can't accept frequent feature updates. In addition, each Windows IoT Enterprise LTSC release is supported for 10 years (5 years of mainstream support and 5 years of extended support). Finally, Windows IoT Enterprise LTSC has [lower minimum system requirements](./Hardware/System_Requirements.md) compared to other editions of Windows.
 
@@ -334,85 +384,68 @@ sections:
 
           Windows Enterprise, Pro, and Home editions are designed for general-purpose computing devices and aren't recommended for fixed-purpose devices.
 
-          [Top of LTSC section](faq.yml#8--ltsc)
+          [Top of FAQ](faq.yml)
 
-    - question: 8.5 How do I install an app from the Microsoft Store on Windows IoT Enterprise LTSC?
+    - question: How do I install an app from the Microsoft Store on Windows IoT Enterprise LTSC?
       answer: |
           Windows IoT Enterprise LTSC doesn't come with the Microsoft Store application preinstalled. However, you can still search for and download apps from the Microsoft Store [using the web](https://apps.microsoft.com) or using the [WinGet command line tool](./Deployment/install-winget-windows-iot.md).
 
-          [Top of LTSC section](faq.yml#8--ltsc)
-
-##### Section: ARM64
-  - name: 9. ARM64
-    questions:
-    - question: 9.0 Content
-      answer: |
-          - [What is Windows IoT Enterprise on Arm?](faq.yml#9-1-what-is-windows-iot-enterprise-on-arm)
-          - [Is Windows IoT Enterprise available for Arm64?](faq.yml#9-2-is-windows-iot-enterprise-available-for-arm64)
-          - [Where can I get Windows IoT Enterprise on Arm64?](faq.yml#9-3-where-can-i-get-windows-iot-enterprise-on-arm64)
-          - [Can I run applications that aren't native to Arm64?](faq.yml#9-4-can-i-run-applications-that-aren-t-native-to-arm64)
-          - [What silicon vendors provide support for Windows IoT Enterprise on Arm64?](faq.yml#9-5-what-silicon-vendors-provide-support-for-windows-iot-enterprise-on-arm64)
-          - [How do I get started with Windows IoT Enterprise on Arm64?](faq.yml#9-6-how-do-i-get-started-with-windows-iot-enterprise-on-arm64)
-          - [What hardware is available for Windows IoT Enterprise on Arm64?](faq.yml#9-7-what-hardware-is-available-for-windows-iot-enterprise-on-arm64)
-          - [What connectivity drivers are available for Windows IoT Enterprise on Arm64?](faq.yml#9-8-what-connectivity-drivers-are-available-for-windows-iot-enterprise-on-arm64)
-          - [Which Windows IoT Enterprise version should I use with NXP hardware?](faq.yml#9-9-which-windows-iot-enterprise-version-should-i-use-with-nxp-hardware)
-          - [What drivers are available for NXP based systems?](faq.yml#9-10-what-drivers-are-available-for-nxp-based-systems)
-          - [Is Hyper-V supported in Windows IoT Enterprise on Arm64?](faq.yml#9-11is-hyper-v-supported-in-windows-iot-enterprise-on-arm64)
-
           [Top of FAQ](faq.yml)
 
-    - question: 9.1 What is Windows IoT Enterprise on Arm?
+
+
+    - question: What is Windows IoT Enterprise on Arm?
       answer: |
           Windows IoT Enterprise on Arm is simply Windows IoT Enterprise that is built for and runs on 64-bit Arm (Arm64) processors. It has the same features and capabilities of Windows IoT Enterprise for x64-based processors, enabling you to build secure and powerful devices across any processor architecture.
 
-          [Top of ARM64 section](faq.yml#9--arm64)
+          [Top of FAQ](faq.yml)
 
-    - question: 9.2 Is Windows IoT Enterprise available for Arm64?
+    - question: Is Windows IoT Enterprise available for Arm64?
       answer: |
           Yes, Windows IoT Enterprise is available for both x64 and Arm64 processor architectures. 
 
-          [Top of ARM64 section](faq.yml#9--arm64)
+          [Top of FAQ](faq.yml)
 
-    - question: 9.3 Where can I get Windows IoT Enterprise on Arm64?
+    - question: Where can I get Windows IoT Enterprise on Arm64?
       answer: |
           [!INCLUDE [Latest LTSC](../includes/incl-latest-ltsc-release.md)]
 
-          [Top of ARM64 section](faq.yml#9--arm64)
+          [Top of FAQ](faq.yml)
 
-    - question: 9.4 Can I run applications that aren't native to Arm64?
+    - question: Can I run applications that aren't native to Arm64?
       answer: |
           Yes, Windows IoT Enterprise can run x86 and x64 applications without modification using emulation technology. For more information, see [How emulation works on Arm64](/windows/arm/apps-on-arm-x86-emulation).
 
-          [Top of ARM64 section](faq.yml#9--arm64)
+          [Top of FAQ](faq.yml)
 
-    - question: 9.5 What silicon vendors provide support for Windows IoT Enterprise on Arm64?
+    - question: What silicon vendors provide support for Windows IoT Enterprise on Arm64?
       answer: |
-          Systems are available from Qualcomm and NXP that support Windows IoT Enterprise on Arm64. For more information about supported processors, see [Windows IoT Enterprise Processor Lists](./hardware/hardware_requirements.md#windows-iot-enterprise-processor-lists)
+          Systems are available from Qualcomm and NXP that support Windows IoT Enterprise on Arm6For more information about supported processors, see [Windows IoT Enterprise Processor Lists](./hardware/hardware_requirements.md#windows-iot-enterprise-processor-lists)
 
-          [Top of ARM64 section](faq.yml#9--arm64)
+          [Top of FAQ](faq.yml)
 
-    - question: 9.6 How do I get started with Windows IoT Enterprise on Arm64?
+    - question: How do I get started with Windows IoT Enterprise on Arm64?
       answer: |
           For the quickest way to get started with Windows IoT Enterprise on Arm64, see our [Tutorial: Set up an NXP i.MX EVK](Tutorials/Win10-NXP-iMX.md).
 
-          [Top of ARM64 section](faq.yml#9--arm64)
+          [Top of FAQ](faq.yml)
 
-    - question: 9.7 What hardware is available for Windows IoT Enterprise on Arm64?
+    - question: What hardware is available for Windows IoT Enterprise on Arm64?
       answer: |
           A list of recommended platforms and boards for Windows IoT Enterprise on Arm64 can be found on the [Platforms and Boards](Hardware/Platforms_and_Boards.md) page.
 
-          [Top of ARM64 section](faq.yml#9--arm64)
+          [Top of FAQ](faq.yml)
 
-    - question: 9.8 What connectivity drivers are available for Windows IoT Enterprise on Arm64?
+    - question: What connectivity drivers are available for Windows IoT Enterprise on Arm64?
       answer: |
           | Type | Manufacturer  | Name    |
           |------|---------------|---------|
           |WiFi + Bluetooth| NXP |[88W8897](https://www.nxp.com/products/wireless-connectivity/wi-fi-plus-bluetooth-plus-802-15-4/2-4-5-ghz-dual-band-2x2-wi-fi-5-802-11ac-plus-bluetooth-5-0-solution:88W8897)|
           |WiFi + Bluetooth| NXP |[88W8997](https://www.nxp.com/products/wireless-connectivity/wi-fi-plus-bluetooth-plus-802-15-4/2-4-5-ghz-dual-band-2x2-wi-fi-5-802-11ac-plus-bluetooth-5-3-solution:88W8997)|
 
-          [Top of ARM64 section](faq.yml#9--arm64)
+          [Top of FAQ](faq.yml)
 
-    - question: 9.9 Which Windows IoT Enterprise version should I use with NXP hardware?
+    - question: Which Windows IoT Enterprise version should I use with NXP hardware?
       answer: |
           Both LTSC and GAC editions of Windows IoT Enterprise are available for NXP devices. You can find more information on the [Hardware Requirements](Hardware/Hardware_Requirements.md) page.
 
@@ -425,60 +458,50 @@ sections:
           | i.MX 8X      |    build 19044.3693 or later     |    Not Supported    |
           | i.MX 93      |    build 19044.3693 or later     |    TBD              |
 
-          [Top of ARM64 section](faq.yml#9--arm64)
+          [Top of FAQ](faq.yml)
 
-    - question: 9.10 What drivers are available for NXP based systems?
+    - question: What drivers are available for NXP based systems?
       answer: |
           NXP provides drivers for all of the features listed in the [NXP features supported table](Arm64/NXP.md#features-supported).
 
-          [Top of ARM64 section](faq.yml#9--arm64)
+          [Top of FAQ](faq.yml)
 
-    - question: 9.11 Is Hyper-V supported in Windows IoT Enterprise on Arm64?
+    - question: Is Hyper-V supported in Windows IoT Enterprise on Arm64?
       answer: |
           Hyper-V is supported in Arm64 versions of Windows 11 IoT Enterprise LTSC 2024 and Windows 11 IoT Enterprise, version 24H2.
 
-          [Top of ARM64 section](faq.yml#9--arm64)
-
-##### Section: Licensing & Acquisition
-  - name: 10. Licensing & Acquisition
-    questions: 
-    - question: 10.0 Content
-      answer: |
-          - [How can I purchase Windows IoT Enterprise?](faq.yml#10-1-how-can-i-purchase-windows-iot-enterprise)
-          - [How is Windows IoT Enterprise licensed?](faq.yml#10-2-how-is-windows-iot-enterprise-licensed)
-          - [Where can I get Windows IoT Enterprise?](faq.yml#10-3-where-can-i-get-windows-iot-enterprise)
-          - [Can I get Windows IoT Enterprise through an Enterprise Agreement?](faq.yml#10-4-can-i-get-windows-iot-enterprise-through-an-enterprise-agreement)
-
           [Top of FAQ](faq.yml)
 
-    - question: 10.1 How can I purchase Windows IoT Enterprise?
+
+
+    - question: How can I purchase Windows IoT Enterprise?
       answer: |
         OEMs can purchase Windows IoT Enterprise licenses through [an official distributor](./windows-iot-distributors.md). End-customers can upgrade existing systems with a qualified operating system to a new version using [Microsoft Volume Licensing programs](./Deployment/Volume-License.md).
 
-        [Top of Licensing & Acquisition section](faq.yml#10--licensing---acquisition)
+        [Top of FAQ](faq.yml)
 
-    - question: 10.2 How is Windows IoT Enterprise licensed?
+    - question: How is Windows IoT Enterprise licensed?
       answer: |
         Windows IoT Enterprise offers [OEM licensing](./Commercialization/Licensing.md#oem-licensing) for device makers, and [Volume Licensing](./Commercialization/Licensing.md#volume-licensing) for end-customers looking to upgrade existing qualified systems.
           
         If you're an OEM or device maker, reach out to your [Microsoft distributor](./windows-iot-distributors.md) for assistance with Windows IoT Enterprise license terms.
 
-        [Top of Licensing & Acquisition section](faq.yml#10--licensing---acquisition)
+        [Top of FAQ](faq.yml)
 
-    - question: 10.3 Where can I get Windows IoT Enterprise?
+    - question: Where can I get Windows IoT Enterprise?
       answer: |
         - If you're an OEM, contact your [authorized Windows IoT Distributor](../iot-enterprise/windows-iot-distributors.md) for assistance with [Licensing](../iot-enterprise/Commercialization/Licensing.md) and with getting access to the OS.
         - If you're an enterprise customer looking to upgrade fixed function devices through volume licensing, see [Windows Desktop Operating System Volume Licensing Terms](https://www.microsoft.com/licensing/terms/productoffering/.WindowsDesktopOperatingSystem/all) and [Windows IoT Enterprise LTSC in Volume License](../iot-enterprise/deployment/volume-license.md) for deployment guidance.
         - To evaluate Windows 11 IoT Enterprise LTSC 2024, download the [90-Day Evaluation](https://aka.ms/winioteval
         - If you have a Visual Studio Subscription and Windows IoT Enterprise is available with your subscription, you can download Windows IoT Enterprise from [Visual Studio Subscriptions - Downloads](https://my.visualstudio.com/Downloads?q=IoT%20Enterprise%20LTSC&pgroup=).
 
-        [Top of Licensing & Acquisition section](faq.yml#10--licensing---acquisition)
+        [Top of FAQ](faq.yml)
 
-    - question: 10.4 Can I get Windows IoT Enterprise through an Enterprise Agreement?
+    - question: Can I get Windows IoT Enterprise through an Enterprise Agreement?
       answer: |
         No, Windows IoT Enterprise isn't currently available through the Enterprise Agreement program. 
 
-        [Top of Licensing & Acquisition section](faq.yml#10--licensing---acquisition)
+        [Top of FAQ](faq.yml)
 
 #additionalContent: |
     ## Related content
