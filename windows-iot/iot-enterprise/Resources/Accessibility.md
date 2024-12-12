@@ -69,7 +69,7 @@ Windows 11, version 22H2, includes improvements for people with disabilities: sy
 |:------| ------------|
 | [Simplify for focus](https://support.microsoft.com/windows/make-it-easier-to-focus-on-tasks-0d259fd9-e9d0-702c-c027-007f0e78eaf2) | Reducing animations and turning off background images and transparency can minimize distractions. |
 | [Download and use fonts that are easier to read](https://www.microsoft.com/download/details.aspx?id=50721) | **Fluent Sitka Small** and **Fluent Calibri** are fonts that address "visual crowding" by adding character and enhance word and line spacing. |
-| [Microsoft Edge reading view](https://support.microsoft.com/windows/take-your-reading-with-you-b6699255-4436-708e-7b93-4d2e19a15af8) | Clears distracting content from web pages so you can stay focused on what you really want to read. |
+| [Microsoft Edge reading view](https://support.microsoft.com/topic/use-immersive-reader-in-microsoft-edge-72ac6331-2795-42eb-b3e8-c03503231f32) | Clears distracting content from web pages so you can stay focused on what you really want to read. |
 
 ## Assistive Technology
 
