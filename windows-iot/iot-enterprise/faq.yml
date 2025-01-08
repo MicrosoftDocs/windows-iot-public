@@ -203,17 +203,21 @@ sections:
 
     - question: Can I upgrade my Windows IoT Enterprise to a newer version?
       answer: |
-            Devices running a previous version of Windows IoT Enterprise (non-LTSC) can be upgraded through regular update channels such as Windows Update, Windows Server Update Services (including Configuration Manager), Windows Update for Business, and the Volume Licensing Service Center (VLSC).
+            Upgrading Windows IoT Enterprise refers to moving to a new major version (e.g. version 21H2 -> version 22H2, or version LTSC 2021 -> version LTSC 2024).
+
+            Devices running a previous version of Windows IoT Enterprise (non-LTSC) can be upgraded by applying a feature update that is delivered through regular update channels such as Windows Update, Windows Server Update Services (including Configuration Manager), Windows Update for Business, and the Volume Licensing Service Center (VLSC).
   
-            Upgrading to a newer version of Windows IoT Enterprise LTSC requires a new license.
+            Upgrading to a newer version of Windows IoT Enterprise LTSC requires a new OS and a new license, and can only be performed by or with the assistance of the device OEM. 
   
-            Before upgrading, check that your device meets the [system requirements](Hardware/System_Requirements.md) for the version of Windows IoT Enterprise you're upgrading to.
+            Before upgrading to a newer version of Windows IoT Enterprise, check that your device meets the [system requirements](Hardware/System_Requirements.md) for that version.
  
             [Top of FAQ](faq.yml)
 
     - question: How do I update Windows IoT Enterprise?
       answer: |
-            Windows IoT Enterprise can be updated through regular update channels such as Windows Update, Windows Server Update Services (including Configuration Manager), and Windows Update for Business. Learn more in our documentation on [OS updates](./OS-Features/Updates.md).
+            Updating Windows IoT Enterprise refers to moving to a new minor version of the OS by applying servicing packages that include security fixes and quality improvements. 
+
+            Both LTSC and non-LTSC editions of Windows IoT Enterprise can be updated through regular update channels such as Windows Update, Windows Server Update Services (including Configuration Manager), and Windows Update for Business. Learn more in our documentation on [OS updates](./OS-Features/Updates.md).
 
             [Top of FAQ](faq.yml)
 
