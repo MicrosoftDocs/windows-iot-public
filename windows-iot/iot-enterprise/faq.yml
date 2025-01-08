@@ -151,7 +151,7 @@ sections:
     questions: 
     - question: What is Windows IoT Enterprise?
       answer: |
-            Windows IoT Enterprise is a full version of Windows Enterprise designed for IoT devices. It provides the same enterprise manageability and security features as Windows Enterprise, but is tailored for fixed-purpose devices such as ATMs, point-of-sale terminals, industrial automation systems, medical devices, digital signage, and more. 
+            Windows IoT Enterprise is a full version of Windows Enterprise designed for fixed-function, specialized devices. It provides the same enterprise manageability and security features as Windows Enterprise, but is tailored for fixed-function devices such as ATMs, point-of-sale terminals, industrial automation systems, medical devices, digital signage, and more. 
 
             [Top of FAQ](faq.yml)
 
@@ -171,23 +171,25 @@ sections:
 
     - question: What editions of Windows IoT Enterprise are available?
       answer: |
-            Windows IoT Enterprise is available in two editions: Edition Availability Channel (GAC) and Long-Term Servicing Channel (LTSC). 
+            There are two main editions: Windows IoT Enterprise LTSC and Windows IoT Enterprise.
+
+            Windows IoT Enterprise Long-Term Servicing Channel (LTSC) is supported for 10 years and is ideal for fixed-purpose devices that don't require or can't accept frequent feature updates.
+
+            The non-LTSC edition of Windows IoT Enterprise follows the modern-lifecycle policy and is ideal for fixed-function devices that can be updated frequently to get new features and improvements. 
 
             [Top of FAQ](faq.yml)
 
     - question: Can I get an evaluation copy of Windows IoT Enterprise?
       answer: |
-            You can get an evaluation copy of Windows 11 IoT Enterprise LTSC 2024 from the [Microsoft Evaluation Center](https://aka.ms/winioteval). 
+            You can get an evaluation copy of Windows IoT Enterprise LTSC from the [Microsoft Evaluation Center](https://aka.ms/winioteval). 
 
             [Top of FAQ](faq.yml)
 
     - question: When is the next Windows IoT Enterprise release?
       answer: |
-          Windows IoT Enterprise GAC is typically released annually. Windows IoT Enterprise LTSC is typically released every three years. For the latest information on Windows IoT Enterprise releases, see our [Announcements and Blogs](./whats-new/News-Blogs.md) page.
+          Windows IoT Enterprise GAC is typically released annually. Windows IoT Enterprise LTSC is typically released every three years. For the latest information on Windows IoT Enterprise releases, see [Release History](./whats-new/Release-History.md).
 
             [Top of FAQ](faq.yml)
-
-
 
     - question: Can I upgrade my Windows IoT Enterprise to a newer version?
       answer: |
@@ -213,13 +215,15 @@ sections:
 
     - question: What are the hardware requirements for Windows IoT Enterprise?
       answer: |
-          The hardware requirements for Windows IoT Enterprise are published on the [Minimum System Requirements for Windows IoT Enterprise](./Hardware/System_Requirements.md) page.
+          For information about the hardware requirements of Windows IoT Enterprise, see [Minimum System Requirements for Windows IoT Enterprise](./Hardware/System_Requirements.md).
 
             [Top of FAQ](faq.yml)
 
     - question: Where can I find information about security updates for Windows IoT Enterprise?
       answer: |
-          Information about security updates for Windows IoT Enterprise is published in the Microsoft Security Response Center in the [Security Update Guide](https://msrc.microsoft.com/update-guide/).
+          Windows IoT Enterprise versions that are still in support receive monthly security updates. Information about the update history of each supported Windows IoT Enterprise version can be found by visiting [Release History](./whats-new/Release-History.md).   
+          
+          Specific information about security fixes made in monthly security updates are published in the Microsoft Security Response Center in the [Security Update Guide](https://msrc.microsoft.com/update-guide/).
 
             [Top of FAQ](faq.yml)
 
@@ -237,7 +241,7 @@ sections:
  
             Windows IoT Enterprise LTSC follows the [fixed lifecycle policy](/lifecycle/policies/fixed), which provides 10 years of support (5 years of mainstream support and 5 years of extended support) from the GA date of the OS.
            
-            You can find end of support dates for specific versions of Windows IoT Enterprise through the [Product and Services Lifecycle Information Search page](/lifecycle/products).
+            You can find end of support dates for specific versions of Windows IoT Enterprise in [Release History](./whats-new/Release-History.md).
 
             [Top of FAQ](faq.yml)
 
@@ -251,25 +255,11 @@ sections:
 
           [Top of FAQ](faq.yml)
 
-    - question: Where can I find information about security updates for Windows IoT Enterprise?
-      answer: |
-          Information about security updates for Windows IoT Enterprise is published in the Microsoft Security Response Center in the [Security Update Guide](https://msrc.microsoft.com/update-guide/).
-
-          [Top of FAQ](faq.yml)
-
-    - question: How often does Windows IoT Enterprise get security updates?
-      answer: |
-          Windows IoT Enterprise receives monthly security updates published on the second Tuesday of each month. For more information, read the blog on [Windows monthly updates explained](https://techcommunity.microsoft.com/blog/windows-itpro-blog/windows-monthly-updates-explained/3773544).
-
-          [Top of FAQ](faq.yml)
-
-
-
     - question: How does Windows IoT Enterprise differ from Windows Pro?
       answer: |
-          Windows IoT Enterprise is a full version of Windows Enterprise designed for IoT devices. It provides the same enterprise manageability and security features as Windows Enterprise, but is tailored for fixed-purpose devices such as ATMs, point-of-sale terminals, industrial automation systems, medical devices, digital signage, and more. 
+          Windows IoT Enterprise is a full version of Windows Enterprise designed for fixed-function, specialized devices. It provides the same enterprise manageability and security features as Windows Enterprise, but is tailored for fixed-function devices such as ATMs, point-of-sale terminals, industrial automation systems, medical devices, digital signage, and more.
 
-          Windows Pro is designed for general-purpose computing devices and isn't recommended for fixed-purpose devices.
+          Windows Pro is designed for general-purpose computing devices and isn't recommended for fixed-function devices.
 
           [Top of FAQ](faq.yml)
 
@@ -305,14 +295,13 @@ sections:
 
     - question: What is the difference between Windows IoT Enterprise and Windows IoT Core?
       answer: |
-          Windows IoT Enterprise is a full version of Windows Enterprise designed for IoT devices. It provides the same enterprise manageability and security features as Windows Enterprise, but is tailored for fixed-purpose devices such as ATMs, point-of-sale terminals, industrial automation systems, medical devices, digital signage, and more. 
+          Windows IoT Enterprise is a full version of Windows Enterprise designed for fixed-function, specialized devices. It provides the same enterprise manageability and security features as Windows Enterprise, but is tailored for fixed-function devices such as ATMs, point-of-sale terminals, industrial automation systems, medical devices, digital signage, and more.
 
           Windows IoT Core is a smaller version of Windows 10 designed for building low-cost devices that only need to run a single Universal Windows Application at a time.
 
           For more information, see [Differences between Windows 10 IoT Core and Windows 10 IoT Enterprise](/Previous-versions/windows/iot-core/windows-iot-core#differences-between-windows-10-iot-core-and-windows-10-iot-enterprise)
 
           [Top of FAQ](faq.yml)
-
 
 
     - question: How do I reinstall Windows IoT Enterprise?
