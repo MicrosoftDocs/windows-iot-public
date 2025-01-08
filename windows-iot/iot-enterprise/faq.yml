@@ -175,7 +175,7 @@ sections:
             | WMI | 1. Open a PowerShell window </br> 2. Type in the command `(Get-WmiObject Win32_OperatingSystem).OperatingSystemSKU` | 188 | 191 (or 207 if using the Evaluation Edition) |
 
             > [!NOTE]
-            > For Windows IoT Enterprise OSes prior to Windows 10 IoT Enterprise LTSC 2021 and Windows 10 IoT Enterprise, version 21H2, the methods listed would show the values for Windows Enterprise.
+            > Prior to version 1903, Windows IoT Enterprise OS was sold as Windows Enterprise with special keys. For these versions, the methods listed would show the values for Windows Enterprise.
 
             [Top of FAQ](faq.yml)
 
@@ -271,9 +271,9 @@ sections:
 
     - question: How does Windows IoT Enterprise differ from Windows Pro?
       answer: |
-          Windows IoT Enterprise is a full version of Windows Enterprise designed for fixed-function, specialized devices. It provides the same enterprise manageability and security features as Windows Enterprise, but is tailored for fixed-function devices such as ATMs, point-of-sale terminals, industrial automation systems, medical devices, digital signage, and more.
-
-          Windows Pro is designed for general-purpose computing devices and isn't recommended for fixed-function devices.
+          Windows IoT Enterprise is a full version of Windows Enterprise designed for fixed-function, specialized devices. Windows IoT Enterprise includes all of the features of Windows Pro, but also includes advanced management, security, and lockdown features such as Credential Guard, Unified Write Filter, and Shell Launcher. 
+          
+          Windows IoT Enterprise also has different licensing requirements compared to Windows Pro. For more information, see [Windows IoT Enterprise Licensing](./Commercialization/Licensing.md).
 
           [Top of FAQ](faq.yml)
 
