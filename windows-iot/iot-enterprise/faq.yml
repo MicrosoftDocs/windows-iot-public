@@ -175,7 +175,7 @@ sections:
             | WMI | 1. Open a PowerShell window </br> 2. Type in the command `(Get-WmiObject Win32_OperatingSystem).OperatingSystemSKU` | 188 | 191 (or 207 if using the Evaluation Edition) |
 
             > [!NOTE]
-            > Prior to Windows 10 IoT Enterprise LTSC 2021 and Windows 10 IoT Enterprise, version 21H2, the methods listed would show the values for Windows Enterprise.
+            > For Windows IoT Enterprise OSes prior to Windows 10 IoT Enterprise LTSC 2021 and Windows 10 IoT Enterprise, version 21H2, the methods listed would show the values for Windows Enterprise.
 
             [Top of FAQ](faq.yml)
 
