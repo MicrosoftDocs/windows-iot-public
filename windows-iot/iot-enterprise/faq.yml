@@ -165,7 +165,17 @@ sections:
 
     - question: How do I know if I'm running Windows IoT Enterprise?
       answer: |
-            To determine if you're running Windows IoT Enterprise, open the Settings app, navigate to System > About, and look for the Edition field. If the Edition field shows "Windows 10 IoT Enterprise" or "Windows 11 IoT Enterprise", you're running Windows IoT Enterprise.
+            There are a number of ways to identify if you're running Windows IoT Enterprise through the Settings app or at the command line in PowerShell. The following table summarizes the different ways.
+
+            | Method | Steps | Windows IoT Enterprise | Windows IoT Enterprise LTSC |
+            | ------ | ------ | ------ | ------ |
+            | Settings App | 1. Open the Settings app </br> 2. Navigate to System -> About </br> 3. Look for the Edition field | Edition says Windows 10 IoT Enterprise or Windows 11 IoT Enterprise | Edition says Windows 10 IoT Enterprise LTSC or Windows 11 IoT Enterprise LTSC |  
+            | Dism | 1. Open a command prompt or a PowerShell window with Administrator privileges </br> 2. Type in the command `dism /online /get-currentedition` | CurrentEdition says "IoTEnterprise" | CurrentEdition says "IoTEnterpriseS" |
+            | PowerShell Get-WindowsEdition command | 1. Open a PowerShell window with Administrator privileges </br> 2. Type in the command `Get-WindowsEdition -Online` | Edition says "IoTEnterprise" | Edition says "IoTEnterpriseS" |
+            | WMI | 1. Open a PowerShell window </br> 2. Type in the command `(Get-WmiObject Win32_OperatingSystem).OperatingSystemSKU` | 188 | 191 (or 207 if using the Evaluation Edition) |
+
+            > [!NOTE]
+            > Prior to Windows 10 IoT Enterprise LTSC 2021 and Windows 10 IoT Enterprise, version 21H2, the methods listed would show the values for Windows Enterprise.
 
             [Top of FAQ](faq.yml)
 
