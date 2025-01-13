@@ -4,7 +4,7 @@
 # 🔴 Article to be removed
 # ====================================
 - name: Windows IoT Enterprise Overview
-  href: ./Overview.md  
+  href: ./Overview.md
 - name: Release History
   href: ./whats-new/Release-History.md
 - name: Get started with a reference device sample
@@ -41,7 +41,7 @@
        href: ./whats-new/Windows-11-IoT-Enterprise-21H2.md
   - name: Windows 10 IoT Enterprise
     expanded: false
-    items: 
+    items:
      - name: Version 22H2
        href: ./whats-new/Windows-10-IoT-Enterprise-22H2.md
      - name: Version 21H2
@@ -115,64 +115,8 @@
       href: ./Customize/troubleshooting-custom-logon.md
   - name: Embedded Mode
     href: ./OS-Features/Embedded-Mode.md
-  - name: Keyboard Filter
-    expanded: false
-    items:
-    - name: Overview
-      href: ./Customize/keyboardfilter.md
-    - name: Key Names
-      href: ./Customize/keyboardfilter-key-names.md
-    - name: Predefined Key Combinations
-      href: ./Customize/keyboardfilter-list-all-configured-key-combinations.md
-    - name: WMI Provider Reference
-      expanded: false
-      items:
-      - name: Overview
-        href: ./Customize/keyboardfilter-wmi-provider-reference.md
-      - name: Class WEKF_CustomKey
-        expanded: false
-        items:
-        - name: Overview
-          href: ./Customize/wekf-customkey.md
-        - name: Add
-          href: ./Customize/wekf-customkeyadd.md
-        - name: Remove
-          href: ./Customize/wekf-customkeyremove.md
-      - name: Class WEKF_PredefinedKey
-        expanded: false
-        items:
-        - name: Overview
-          href: ./Customize/wekf-predefinedkey.md
-        - name: Disable
-          href: ./Customize/wekf-predefinedkeydisable.md
-        - name: Enable
-          href: ./Customize/wekf-predefinedkeyenable.md
-      - name: Class WEKF_Scancode
-        expanded: false
-        items:
-        - name: Overview
-          href: ./Customize/wekf-scancode.md
-        - name: Add
-          href: ./Customize/wekf-scancodeadd.md
-        - name: Remove
-          href: ./Customize/wekf-scancoderemove.md
-      - name: Class WEKF-Settings
-        href: ./Customize/wekf-settings.md
-    - name: PowerShell script samples
-      expanded: false
-      items: 
-      - name: Overview
-        href: ./Customize/keyboardfilter-powershell-script-samples.md
-      - name: Add blocked key Combinations
-        href: ./Customize/keyboardfilter-add-blocked-key-combinations.md
-      - name: Disable all blocked key Combinations
-        href: ./Customize/disable-all-blocked-key-combinations.md
-      - name: List all configured key combinations
-        href: ./Customize/keyboardfilter-list-all-configured-key-combinations.md
-      - name: Modify global settings
-        href: ./Customize/modify-global-settings.md
-      - name: Remove key combination configurations
-        href: ./Customize/remove-key-combination-configurations.md
+  - name: Keyboard Filter 🔗
+    href: /windows/configure/keyboard-filter
   - name: Kiosk Mode
     expanded: false
     items:
@@ -180,7 +124,7 @@
       href: ./Customize/Kiosk-Mode.md
     - name: Assigned Access
       expanded: false
-      items:   
+      items:
       - name: Assigned access single-app kiosk
         href: ./Customize/Single-App-Kiosk.md
       - name: Assigned access multi-app kiosk
@@ -196,23 +140,23 @@
         href: ./Customize/Shell-Launcher.md
       - name: WMI Provider Reference
         expanded: false
-        items: 
+        items:
         - name: Class WESL_UserSetting
-          href: ./Customize/wesl-usersetting.md 
+          href: ./Customize/wesl-usersetting.md
         - name: GetCustomShell
-          href: ./Customize/wesl-usersettinggetcustomshell.md 
+          href: ./Customize/wesl-usersettinggetcustomshell.md
         - name: GetDefaultShell
-          href: ./Customize/wesl-usersettinggetdefaultshell.md 
+          href: ./Customize/wesl-usersettinggetdefaultshell.md
         - name: IsEnabled
-          href: ./Customize/wesl-usersettingisenabled.md 
+          href: ./Customize/wesl-usersettingisenabled.md
         - name: RemoveCustomShell
-          href: ./Customize/wesl-usersettingremovecustomshell.md 
+          href: ./Customize/wesl-usersettingremovecustomshell.md
         - name: SetCustomShell
-          href: ./Customize/wesl-usersettingsetcustomshell.md 
+          href: ./Customize/wesl-usersettingsetcustomshell.md
         - name: SetDefaultShell
-          href: ./Customize/wesl-usersettingsetdefaultshell.md 
+          href: ./Customize/wesl-usersettingsetdefaultshell.md
         - name: SetEnabled
-          href: ./Customize/wesl-usersettingsetenabled.md 
+          href: ./Customize/wesl-usersettingsetenabled.md
   - name: On-Screen Keyboard
     href: ./OS-Features/On-Screen-Keyboard.md
   - name: Suppress Blue Screens
@@ -221,7 +165,7 @@
     href: ./Customize/Unbranded-Boot.md
   - name: Unified Write Filter
     expanded: false
-    items: 
+    items:
     - name: Overview
       href: ./Customize/Unified-Write-Filter.md
     - name: Hibernate Once/Resume Many (HORM)
@@ -283,7 +227,7 @@
         - name: GetOverlayFiles
           href: ./Customize/uwf-overlaygetoverlayfiles.md
         - name: OverlayFile
-          href: ./Customize/uwf-overlayfile.md  
+          href: ./Customize/uwf-overlayfile.md
         - name: SetCriticalThreshold
           href: ./Customize/uwf-overlaysetcriticalthreshold.md
         - name: SetWarningThreshold
@@ -312,7 +256,7 @@
           href: ./Customize/uwf-registryfilterfindexclusion.md
         - name: GetExclusions
           href: ./Customize/uwf-registryfiltergetexclusions.md
-        - name: RemoveExclusion  
+        - name: RemoveExclusion
           href: ./Customize/uwf-registryfilterremoveexclusion.md
       - name: Class UWF_Servicing
         expanded: false
@@ -351,10 +295,10 @@
         - name: Unprotect
           href: ./Customize/uwf-volumeunprotect.md
       - name: Migration from Enhanced Write Filter
-        href: ./Customize/uwf-wes7-ewf-to-win10-uwf.md  
+        href: ./Customize/uwf-wes7-ewf-to-win10-uwf.md
   - name: User Experience
     expanded: false
-    items: 
+    items:
     - name: Application Control
       href: ./Customize/Application-Control.md
     - name: Device Safeguards
@@ -379,7 +323,7 @@
   - name: Install Apps with WinGet
     href: ./Deployment/install-winget-windows-iot.md
   - name: Volume License Deployment
-    href: ./Deployment/Volume-License.md  
+    href: ./Deployment/Volume-License.md
 - name: Development
   expanded: false
   items:
@@ -388,7 +332,7 @@
   - name: Bus Providers
     href: ./OS-Features/Bus-Providers.md
   - name: Device Drivers
-    href: ./OS-Features/Device-Drivers.md    
+    href: ./OS-Features/Device-Drivers.md
 - name: Management
   expanded: false
   items:
@@ -406,7 +350,7 @@
   - name: Overview
     href: ./Optimize/Overview.md
   - name: CompactOS
-    href: Optimize/CompactOS.md  
+    href: Optimize/CompactOS.md
   - name: Removable Packages
     expanded: false
     items:
@@ -414,14 +358,14 @@
         href: ./Optimize/Removable-Packages.md
       - name: Removable Package Reference
         expanded: false
-        items:  
+        items:
         - name: Package - Language Word Breaking Legacy
           href: ./Optimize/Removable-Packages/LanguageFeatures-wordBreaking-Common-Legacy.md
         - name: Package - Media Foundation
           href: ./Optimize/Removable-Packages/Microsoft-Media-Foundation.md
-        - name: Package - USB Connector Manager 
+        - name: Package - USB Connector Manager
           href: ./Optimize/Removable-Packages/Microsoft-OneCore-Connectivity-UsbConnectorManager.md
-        - name: Package - USB Function 
+        - name: Package - USB Function
           href: ./Optimize/Removable-Packages/Microsoft-OneCore-Connectivity-UsbFunction.md
         - name: Package - Supplemental Fonts
           href: ./Optimize/Removable-Packages/Microsoft-OneCore-Fonts-DesktopFonts-NonLeanSupplement.md
@@ -518,6 +462,6 @@
 - name: Code Samples
   href:  https://aka.ms/winiotsamples
 - name: Feedback
-  href: https://aka.ms/winiotfeedback  
+  href: https://aka.ms/winiotfeedback
 - name: Contact us
   href: ./Contact-Us.md
