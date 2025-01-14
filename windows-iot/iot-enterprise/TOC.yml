@@ -24,30 +24,30 @@
   - name: Windows IoT Enterprise LTSC
     expanded: false
     items:
-     - name: Windows 11 IoT Enterprise LTSC 2024
-       href: ./whats-new/Windows-11-IoT-Enterprise-LTSC-2024.md
-     - name: Windows 10 IoT Enterprise LTSC 2021
-       href: ./whats-new/Windows-10-IoT-Enterprise-LTSC-2021.md
+      - name: Windows 11 IoT Enterprise LTSC 2024
+        href: ./whats-new/Windows-11-IoT-Enterprise-LTSC-2024.md
+      - name: Windows 10 IoT Enterprise LTSC 2021
+        href: ./whats-new/Windows-10-IoT-Enterprise-LTSC-2021.md
   - name: Windows 11 IoT Enterprise
     expanded: false
     items:
-     - name: Version 24H2
-       href: ./whats-new/Windows-11-IoT-Enterprise-24H2.md
-     - name: Version 23H2
-       href: ./whats-new/Windows-11-IoT-Enterprise-23H2.md
-     - name: Version 22H2
-       href: ./whats-new/Windows-11-IoT-Enterprise-22H2.md
-     - name: Version 21H2
-       href: ./whats-new/Windows-11-IoT-Enterprise-21H2.md
+      - name: Version 24H2
+        href: ./whats-new/Windows-11-IoT-Enterprise-24H2.md
+      - name: Version 23H2
+        href: ./whats-new/Windows-11-IoT-Enterprise-23H2.md
+      - name: Version 22H2
+        href: ./whats-new/Windows-11-IoT-Enterprise-22H2.md
+      - name: Version 21H2
+        href: ./whats-new/Windows-11-IoT-Enterprise-21H2.md
   - name: Windows 10 IoT Enterprise
     expanded: false
     items:
-     - name: Version 22H2
-       href: ./whats-new/Windows-10-IoT-Enterprise-22H2.md
-     - name: Version 21H2
-       href: ./whats-new/Windows-10-IoT-Enterprise-21H2.md
-     - name: Version 21H1
-       href: ./whats-new/Windows-10-IoT-Enterprise-21H1.md
+      - name: Version 22H2
+        href: ./whats-new/Windows-10-IoT-Enterprise-22H2.md
+      - name: Version 21H2
+        href: ./whats-new/Windows-10-IoT-Enterprise-21H2.md
+      - name: Version 21H1
+        href: ./whats-new/Windows-10-IoT-Enterprise-21H1.md
 - name: Hardware Guidance
   expanded: false
   items:
@@ -115,8 +115,6 @@
       href: ./Customize/troubleshooting-custom-logon.md
   - name: Embedded Mode
     href: ./OS-Features/Embedded-Mode.md
-  - name: 🧪 Keyboard Filter
-    href: keyboard-filter/toc.yml
   - name: Keyboard Filter 🔗
     href: /windows/configure/keyboard-filter
   - name: Kiosk Mode
