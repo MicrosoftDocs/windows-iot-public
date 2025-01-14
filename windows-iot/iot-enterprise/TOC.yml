@@ -115,8 +115,8 @@
       href: ./Customize/troubleshooting-custom-logon.md
   - name: Embedded Mode
     href: ./OS-Features/Embedded-Mode.md
-  - name: Keyboard Filter 🔗
-    href: /windows/configuration/keyboard-filter
+  - name: Keyboard Filter
+    href: ./keyboard-filter/toc.yml
   - name: Kiosk Mode
     expanded: false
     items:
