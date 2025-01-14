@@ -1,0 +1,53 @@
+items:
+- name: Keyboard Filter
+  items:
+  - name: About keyboard filter
+    href: /windows/configuration/keyboard-filter/index?context=/
+  - name: Key Names
+    href: /windows/configuration/keyboard-filter/keyboardfilter-key-names?context=/
+  - name: Predefined Key Combinations
+    href: /windows/configuration/keyboard-filter/keyboardfilter-list-all-configured-key-combinations?context=/
+  - name: WMI Provider Reference
+    items:
+    - name: Overview
+      href: /windows/configuration/keyboard-filter/keyboardfilter-wmi-provider-reference?context=/
+    - name: Class WEKF_CustomKey
+      items:
+      - name: Overview
+        href: /windows/configuration/keyboard-filter/wekf-customkey?context=/
+      - name: Add
+        href: /windows/configuration/keyboard-filter/wekf-customkeyadd?context=/
+      - name: Remove
+        href: /windows/configuration/keyboard-filter/wekf-customkeyremove?context=/
+    - name: Class WEKF_PredefinedKey
+      items:
+      - name: Overview
+        href: /windows/configuration/keyboard-filter/wekf-predefinedkey?context=/
+      - name: Disable
+        href: /windows/configuration/keyboard-filter/wekf-predefinedkeydisable?context=/
+      - name: Enable
+        href: /windows/configuration/keyboard-filter/wekf-predefinedkeyenable?context=/
+    - name: Class WEKF_Scancode
+      items:
+      - name: Overview
+        href: /windows/configuration/keyboard-filter/wekf-scancode?context=/
+      - name: Add
+        href: /windows/configuration/keyboard-filter/wekf-scancodeadd?context=/
+      - name: Remove
+        href: /windows/configuration/keyboard-filter/wekf-scancoderemove?context=/
+    - name: Class WEKF-Settings
+      href: /windows/configuration/keyboard-filter/wekf-settings?context=/
+  - name: PowerShell script samples
+    items:
+    - name: Overview
+      href: /windows/configuration/keyboard-filter/keyboardfilter-powershell-script-samples?context=/
+    - name: Add blocked key Combinations
+      href: /windows/configuration/keyboard-filter/keyboardfilter-add-blocked-key-combinations?context=/
+    - name: Disable all blocked key Combinations
+      href: /windows/configuration/keyboard-filter/disable-all-blocked-key-combinations?context=/
+    - name: List all configured key combinations
+      href: /windows/configuration/keyboard-filter/keyboardfilter-list-all-configured-key-combinations?context=/
+    - name: Modify global settings
+      href: /windows/configuration/keyboard-filter/modify-global-settings?context=/
+    - name: Remove key combination configurations
+      href: /windows/configuration/keyboard-filter/remove-key-combination-configurations?context=/
