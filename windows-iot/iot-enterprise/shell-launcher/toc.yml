@@ -1,0 +1,23 @@
+items:
+- name: Shell Launcher
+  items:
+  - name: Overview
+    href: /windows/configuration/shell-launcher/shell-launcher?toc=/windows/iot/iot-enterprise/toc.json&bc=/windows/iot/breadcrumb/toc.json
+  - name: WMI Provider Reference
+    items:
+    - name: Class WESL_UserSetting
+      href: /windows/configuration/shell-launcher/wesl-usersetting?toc=/windows/iot/iot-enterprise/toc.json&bc=/windows/iot/breadcrumb/toc.json
+    - name: GetCustomShell
+      href: /windows/configuration/shell-launcher/wesl-usersettinggetcustomshell?toc=/windows/iot/iot-enterprise/toc.json&bc=/windows/iot/breadcrumb/toc.json
+    - name: GetDefaultShell
+      href: /windows/configuration/shell-launcher/wesl-usersettinggetdefaultshell?toc=/windows/iot/iot-enterprise/toc.json&bc=/windows/iot/breadcrumb/toc.json
+    - name: IsEnabled
+      href: /windows/configuration/shell-launcher/wesl-usersettingisenabled?toc=/windows/iot/iot-enterprise/toc.json&bc=/windows/iot/breadcrumb/toc.json
+    - name: RemoveCustomShell
+      href: /windows/configuration/shell-launcher/wesl-usersettingremovecustomshell?toc=/windows/iot/iot-enterprise/toc.json&bc=/windows/iot/breadcrumb/toc.json
+    - name: SetCustomShell
+      href: /windows/configuration/shell-launcher/wesl-usersettingsetcustomshell?toc=/windows/iot/iot-enterprise/toc.json&bc=/windows/iot/breadcrumb/toc.json
+    - name: SetDefaultShell
+      href: /windows/configuration/shell-launcher/wesl-usersettingsetdefaultshell?toc=/windows/iot/iot-enterprise/toc.json&bc=/windows/iot/breadcrumb/toc.json
+    - name: SetEnabled
+      href: /windows/configuration/shell-launcher/wesl-usersettingsetenabled?toc=/windows/iot/iot-enterprise/toc.json&bc=/windows/iot/breadcrumb/toc.json

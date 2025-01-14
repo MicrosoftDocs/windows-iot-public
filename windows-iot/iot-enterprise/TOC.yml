@@ -123,7 +123,6 @@
     - name: Overview
       href: ./Customize/Kiosk-Mode.md
     - name: Assigned Access
-      expanded: false
       items:
       - name: Assigned access single-app kiosk
         href: ./Customize/Single-App-Kiosk.md
@@ -134,29 +133,7 @@
       - name: WMI Provider Reference
         href: ./Customize/wedl-assignedaccess.md
     - name: Shell Launcher
-      expanded: false
-      items:
-      - name: Overview
-        href: ./Customize/Shell-Launcher.md
-      - name: WMI Provider Reference
-        expanded: false
-        items:
-        - name: Class WESL_UserSetting
-          href: ./Customize/wesl-usersetting.md
-        - name: GetCustomShell
-          href: ./Customize/wesl-usersettinggetcustomshell.md
-        - name: GetDefaultShell
-          href: ./Customize/wesl-usersettinggetdefaultshell.md
-        - name: IsEnabled
-          href: ./Customize/wesl-usersettingisenabled.md
-        - name: RemoveCustomShell
-          href: ./Customize/wesl-usersettingremovecustomshell.md
-        - name: SetCustomShell
-          href: ./Customize/wesl-usersettingsetcustomshell.md
-        - name: SetDefaultShell
-          href: ./Customize/wesl-usersettingsetdefaultshell.md
-        - name: SetEnabled
-          href: ./Customize/wesl-usersettingsetenabled.md
+      href: ./shell-launcher/toc.yml
   - name: On-Screen Keyboard
     href: ./OS-Features/On-Screen-Keyboard.md
   - name: Suppress Blue Screens
