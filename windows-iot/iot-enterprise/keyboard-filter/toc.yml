@@ -1,53 +1,51 @@
 items:
-- name: Keyboard Filter
+- name: About keyboard filter
+  href: /windows/configuration/keyboard-filter/index?toc=/windows/iot/toc.json&bc=/windows/iot/breadcrumb/toc.json
+- name: Key Names
+  href: /windows/configuration/keyboard-filter/keyboardfilter-key-names?toc=/windows/iot/toc.json&bc=/windows/iot/breadcrumb/toc.json
+- name: Predefined Key Combinations
+  href: /windows/configuration/keyboard-filter/keyboardfilter-list-all-configured-key-combinations?toc=/windows/iot/toc.json&bc=/windows/iot/breadcrumb/toc.json
+- name: WMI Provider Reference
   items:
-  - name: About keyboard filter
-    href: /windows/configuration/keyboard-filter/index?toc=/windows/iot/toc.json&bc=/windows/iot/breadcrumb/toc.json&?branch=pm-20250113-keyboard-filter
-  - name: Key Names
-    href: /windows/configuration/keyboard-filter/keyboardfilter-key-names?toc=/windows/iot/toc.json&bc=/windows/iot/breadcrumb/toc.json&?branch=pm-20250113-keyboard-filter
-  - name: Predefined Key Combinations
-    href: /windows/configuration/keyboard-filter/keyboardfilter-list-all-configured-key-combinations?toc=/windows/iot/toc.json&bc=/windows/iot/breadcrumb/toc.json&?branch=pm-20250113-keyboard-filter
-  - name: WMI Provider Reference
+  - name: Overview
+    href: /windows/configuration/keyboard-filter/keyboardfilter-wmi-provider-reference?toc=/windows/iot/toc.json&bc=/windows/iot/breadcrumb/toc.json
+  - name: Class WEKF_CustomKey
     items:
     - name: Overview
-      href: /windows/configuration/keyboard-filter/keyboardfilter-wmi-provider-reference?toc=/windows/iot/toc.json&bc=/windows/iot/breadcrumb/toc.json&?branch=pm-20250113-keyboard-filter
-    - name: Class WEKF_CustomKey
-      items:
-      - name: Overview
-        href: /windows/configuration/keyboard-filter/wekf-customkey?toc=/windows/iot/toc.json&bc=/windows/iot/breadcrumb/toc.json&?branch=pm-20250113-keyboard-filter
-      - name: Add
-        href: /windows/configuration/keyboard-filter/wekf-customkeyadd?toc=/windows/iot/toc.json&bc=/windows/iot/breadcrumb/toc.json&?branch=pm-20250113-keyboard-filter
-      - name: Remove
-        href: /windows/configuration/keyboard-filter/wekf-customkeyremove?toc=/windows/iot/toc.json&bc=/windows/iot/breadcrumb/toc.json&?branch=pm-20250113-keyboard-filter
-    - name: Class WEKF_PredefinedKey
-      items:
-      - name: Overview
-        href: /windows/configuration/keyboard-filter/wekf-predefinedkey?toc=/windows/iot/toc.json&bc=/windows/iot/breadcrumb/toc.json&?branch=pm-20250113-keyboard-filter
-      - name: Disable
-        href: /windows/configuration/keyboard-filter/wekf-predefinedkeydisable?toc=/windows/iot/toc.json&bc=/windows/iot/breadcrumb/toc.json&?branch=pm-20250113-keyboard-filter
-      - name: Enable
-        href: /windows/configuration/keyboard-filter/wekf-predefinedkeyenable?toc=/windows/iot/toc.json&bc=/windows/iot/breadcrumb/toc.json&?branch=pm-20250113-keyboard-filter
-    - name: Class WEKF_Scancode
-      items:
-      - name: Overview
-        href: /windows/configuration/keyboard-filter/wekf-scancode?toc=/windows/iot/toc.json&bc=/windows/iot/breadcrumb/toc.json&?branch=pm-20250113-keyboard-filter
-      - name: Add
-        href: /windows/configuration/keyboard-filter/wekf-scancodeadd?toc=/windows/iot/toc.json&bc=/windows/iot/breadcrumb/toc.json&?branch=pm-20250113-keyboard-filter
-      - name: Remove
-        href: /windows/configuration/keyboard-filter/wekf-scancoderemove?toc=/windows/iot/toc.json&bc=/windows/iot/breadcrumb/toc.json&?branch=pm-20250113-keyboard-filter
-    - name: Class WEKF-Settings
-      href: /windows/configuration/keyboard-filter/wekf-settings?toc=/windows/iot/toc.json&bc=/windows/iot/breadcrumb/toc.json&?branch=pm-20250113-keyboard-filter
-  - name: PowerShell script samples
+      href: /windows/configuration/keyboard-filter/wekf-customkey?toc=/windows/iot/toc.json&bc=/windows/iot/breadcrumb/toc.json
+    - name: Add
+      href: /windows/configuration/keyboard-filter/wekf-customkeyadd?toc=/windows/iot/toc.json&bc=/windows/iot/breadcrumb/toc.json
+    - name: Remove
+      href: /windows/configuration/keyboard-filter/wekf-customkeyremove?toc=/windows/iot/toc.json&bc=/windows/iot/breadcrumb/toc.json
+  - name: Class WEKF_PredefinedKey
     items:
     - name: Overview
-      href: /windows/configuration/keyboard-filter/keyboardfilter-powershell-script-samples?toc=/windows/iot/toc.json&bc=/windows/iot/breadcrumb/toc.json&?branch=pm-20250113-keyboard-filter
-    - name: Add blocked key Combinations
-      href: /windows/configuration/keyboard-filter/keyboardfilter-add-blocked-key-combinations?toc=/windows/iot/toc.json&bc=/windows/iot/breadcrumb/toc.json&?branch=pm-20250113-keyboard-filter
-    - name: Disable all blocked key Combinations
-      href: /windows/configuration/keyboard-filter/disable-all-blocked-key-combinations?toc=/windows/iot/toc.json&bc=/windows/iot/breadcrumb/toc.json&?branch=pm-20250113-keyboard-filter
-    - name: List all configured key combinations
-      href: /windows/configuration/keyboard-filter/keyboardfilter-list-all-configured-key-combinations?toc=/windows/iot/toc.json&bc=/windows/iot/breadcrumb/toc.json&?branch=pm-20250113-keyboard-filter
-    - name: Modify global settings
-      href: /windows/configuration/keyboard-filter/modify-global-settings?toc=/windows/iot/toc.json&bc=/windows/iot/breadcrumb/toc.json&?branch=pm-20250113-keyboard-filter
-    - name: Remove key combination configurations
-      href: /windows/configuration/keyboard-filter/remove-key-combination-configurations?toc=/windows/iot/toc.json&bc=/windows/iot/breadcrumb/toc.json&?branch=pm-20250113-keyboard-filter
+      href: /windows/configuration/keyboard-filter/wekf-predefinedkey?toc=/windows/iot/toc.json&bc=/windows/iot/breadcrumb/toc.json
+    - name: Disable
+      href: /windows/configuration/keyboard-filter/wekf-predefinedkeydisable?toc=/windows/iot/toc.json&bc=/windows/iot/breadcrumb/toc.json
+    - name: Enable
+      href: /windows/configuration/keyboard-filter/wekf-predefinedkeyenable?toc=/windows/iot/toc.json&bc=/windows/iot/breadcrumb/toc.json
+  - name: Class WEKF_Scancode
+    items:
+    - name: Overview
+      href: /windows/configuration/keyboard-filter/wekf-scancode?toc=/windows/iot/toc.json&bc=/windows/iot/breadcrumb/toc.json
+    - name: Add
+      href: /windows/configuration/keyboard-filter/wekf-scancodeadd?toc=/windows/iot/toc.json&bc=/windows/iot/breadcrumb/toc.json
+    - name: Remove
+      href: /windows/configuration/keyboard-filter/wekf-scancoderemove?toc=/windows/iot/toc.json&bc=/windows/iot/breadcrumb/toc.json
+  - name: Class WEKF-Settings
+    href: /windows/configuration/keyboard-filter/wekf-settings?toc=/windows/iot/toc.json&bc=/windows/iot/breadcrumb/toc.json
+- name: PowerShell script samples
+  items:
+  - name: Overview
+    href: /windows/configuration/keyboard-filter/keyboardfilter-powershell-script-samples?toc=/windows/iot/toc.json&bc=/windows/iot/breadcrumb/toc.json
+  - name: Add blocked key Combinations
+    href: /windows/configuration/keyboard-filter/keyboardfilter-add-blocked-key-combinations?toc=/windows/iot/toc.json&bc=/windows/iot/breadcrumb/toc.json
+  - name: Disable all blocked key Combinations
+    href: /windows/configuration/keyboard-filter/disable-all-blocked-key-combinations?toc=/windows/iot/toc.json&bc=/windows/iot/breadcrumb/toc.json
+  - name: List all configured key combinations
+    href: /windows/configuration/keyboard-filter/keyboardfilter-list-all-configured-key-combinations?toc=/windows/iot/toc.json&bc=/windows/iot/breadcrumb/toc.json
+  - name: Modify global settings
+    href: /windows/configuration/keyboard-filter/modify-global-settings?toc=/windows/iot/toc.json&bc=/windows/iot/breadcrumb/toc.json
+  - name: Remove key combination configurations
+    href: /windows/configuration/keyboard-filter/remove-key-combination-configurations?toc=/windows/iot/toc.json&bc=/windows/iot/breadcrumb/toc.json

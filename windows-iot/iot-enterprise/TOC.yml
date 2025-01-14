@@ -116,7 +116,7 @@
   - name: Embedded Mode
     href: ./OS-Features/Embedded-Mode.md
   - name: 🧪 Keyboard Filter
-    href: keyboard-filter-toc.yml
+    href: keyboard-filter/toc.yml
   - name: Keyboard Filter 🔗
     href: /windows/configure/keyboard-filter
   - name: Kiosk Mode
