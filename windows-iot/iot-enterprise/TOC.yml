@@ -3,6 +3,8 @@
 # 🔵 Updated Article
 # 🔴 Article to be removed
 # ====================================
+- name: 🧪 Keyboard Filter
+  href: keyboard-filter/toc.yml
 - name: Windows IoT Enterprise Overview
   href: ./Overview.md
 - name: Release History
