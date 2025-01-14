@@ -116,7 +116,7 @@
   - name: Embedded Mode
     href: ./OS-Features/Embedded-Mode.md
   - name: Keyboard Filter 🔗
-    href: /windows/configure/keyboard-filter
+    href: /windows/configuration/keyboard-filter
   - name: Kiosk Mode
     expanded: false
     items:
