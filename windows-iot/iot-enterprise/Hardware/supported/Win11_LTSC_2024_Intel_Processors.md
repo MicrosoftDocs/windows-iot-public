@@ -12,7 +12,7 @@ appliesto: "✅ Windows 11"
 
 # Supported Intel&reg; Processors for Windows 11 IoT Enterprise LTSC 2024 and Windows 11 IoT Enterprise, Version 24H2
 
-Microsoft supports Windows 11 IoT Enterprise LTSC and Windows 11 IoT Enterprise, Version 24H2 running on the Intel processor familes and generations listed on this page. Earlier generations of the processors listed may have limited support from Microsoft. 
+Microsoft supports Windows 11 IoT Enterprise LTSC and Windows 11 IoT Enterprise, Version 24H2 running on the Intel processor familes and generations listed on this page. Earlier generations of the processors listed may have limited support from Microsoft.
 
 For information on which processors Intel&reg; supports on Windows 11 IoT Enterprise LTSC and Windows 11 IoT Enterprise, Version 24H2, refer to the [Intel&reg; Processor Support for Windows IoT Enterprise webpage](https://www.intel.com/content/www/us/en/internet-of-things/window-processor-server-support.html) or contact Intel&reg; for details.
 
