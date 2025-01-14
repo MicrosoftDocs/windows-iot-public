@@ -24,7 +24,7 @@
         "source_path_from_root": "/windows-iot/iot-enterprise/Advanced-Lockdown-Features/Device-Safeguards.md",
         "redirect_url": "/windows/iot/iot-enterprise/customize/Device-Safeguards",
         "redirect_document_id": false
-    },   
+    },
 
     {
         "source_path_from_root": "/windows-iot/iot-enterprise/Advanced-Lockdown-Features/Edge-Swipe-Policy.md",
@@ -117,10 +117,110 @@
     },
 
     {
-        "source_path_from_root": "/windows-iot/iot-enterprise/Customize/complementary-features-to-custom-logon.md",
+        "source_path_from_root": "/windows-iot/iot-enterprise/customize/complementary-features-to-custom-logon.md",
         "redirect_url": "/windows/iot/iot-enterprise/customize/Custom-Logon",
         "redirect_document_id": false
-    }
+    },
 
+    {
+        "source_path_from_root": "/windows-iot/iot-enterprise/customize/disable-all-blocked-key-combinations.md",
+        "redirect_url": "/windows/configuration/keyboard-filter/disable-all-blocked-key-combinations",
+        "redirect_document_id": false
+    },
+    {
+        "source_path_from_root": "/windows-iot/iot-enterprise/customize/keyboardfilter-add-blocked-key-combinations.md",
+        "redirect_url": "/windows/configuration/keyboard-filter/keyboardfilter-add-blocked-key-combinations",
+        "redirect_document_id": false
+    },
+    {
+        "source_path_from_root": "/windows-iot/iot-enterprise/customize/keyboardfilter-key-names.md",
+        "redirect_url": "/windows/configuration/keyboard-filter/keyboardfilter-key-names",
+        "redirect_document_id": false
+    },
+    {
+        "source_path_from_root": "/windows-iot/iot-enterprise/customize/keyboardfilter-list-all-configured-key-combinations.md",
+        "redirect_url": "/windows/configuration/keyboard-filter/keyboardfilter-list-all-configured-key-combinations",
+        "redirect_document_id": false
+    },
+    {
+        "source_path_from_root": "/windows-iot/iot-enterprise/customize/keyboardfilter-powershell-script-samples.md",
+        "redirect_url": "/windows/configuration/keyboard-filter/keyboardfilter-powershell-script-samples",
+        "redirect_document_id": false
+    },
+    {
+        "source_path_from_root": "/windows-iot/iot-enterprise/customize/keyboardfilter-wmi-provider-reference.md",
+        "redirect_url": "/windows/configuration/keyboard-filter/keyboardfilter-wmi-provider-reference",
+        "redirect_document_id": false
+    },
+    {
+        "source_path_from_root": "/windows-iot/iot-enterprise/customize/keyboardfilter.md",
+        "redirect_url": "/windows/configuration/keyboard-filter/",
+        "redirect_document_id": false
+    },
+    {
+        "source_path_from_root": "/windows-iot/iot-enterprise/customize/modify-global-settings.md",
+        "redirect_url": "/windows/configuration/keyboard-filter/modify-global-settings",
+        "redirect_document_id": false
+    },
+    {
+        "source_path_from_root": "/windows-iot/iot-enterprise/customize/predefined-key-combinations.md",
+        "redirect_url": "/windows/configuration/keyboard-filter/predefined-key-combinations",
+        "redirect_document_id": false
+    },
+    {
+        "source_path_from_root": "/windows-iot/iot-enterprise/customize/remove-key-combination-configurations.md",
+        "redirect_url": "/windows/configuration/keyboard-filter/remove-key-combination-configurations",
+        "redirect_document_id": false
+    },
+    {
+        "source_path_from_root": "/windows-iot/iot-enterprise/customize/wekf-customkey.md",
+        "redirect_url": "/windows/configuration/keyboard-filter/wekf-customkey",
+        "redirect_document_id": false
+    },
+    {
+        "source_path_from_root": "/windows-iot/iot-enterprise/customize/wekf-customkeyadd.md",
+        "redirect_url": "/windows/configuration/keyboard-filter/wekf-customkeyadd",
+        "redirect_document_id": false
+    },
+    {
+        "source_path_from_root": "/windows-iot/iot-enterprise/customize/wekf-customkeyremove.md",
+        "redirect_url": "/windows/configuration/keyboard-filter/wekf-customkeyremove",
+        "redirect_document_id": false
+    },
+    {
+        "source_path_from_root": "/windows-iot/iot-enterprise/customize/wekf-predefinedkey.md",
+        "redirect_url": "/windows/configuration/keyboard-filter/wekf-predefinedkey",
+        "redirect_document_id": false
+    },
+    {
+        "source_path_from_root": "/windows-iot/iot-enterprise/customize/wekf-predefinedkeydisable.md",
+        "redirect_url": "/windows/configuration/keyboard-filter/wekf-predefinedkeydisable",
+        "redirect_document_id": false
+    },
+    {
+        "source_path_from_root": "/windows-iot/iot-enterprise/customize/wekf-predefinedkeyenable.md",
+        "redirect_url": "/windows/configuration/keyboard-filter/wekf-predefinedkeyenable",
+        "redirect_document_id": false
+    },
+    {
+        "source_path_from_root": "/windows-iot/iot-enterprise/customize/wekf-scancode.md",
+        "redirect_url": "/windows/configuration/keyboard-filter/wekf-scancode",
+        "redirect_document_id": false
+    },
+    {
+        "source_path_from_root": "/windows-iot/iot-enterprise/customize/wekf-scancodeadd.md",
+        "redirect_url": "/windows/configuration/keyboard-filter/wekf-scancodeadd",
+        "redirect_document_id": false
+    },
+    {
+        "source_path_from_root": "/windows-iot/iot-enterprise/customize/wekf-scancoderemove.md",
+        "redirect_url": "/windows/configuration/keyboard-filter/wekf-scancoderemove",
+        "redirect_document_id": false
+    },
+    {
+        "source_path_from_root": "/windows-iot/iot-enterprise/customize/wekf-settings.md",
+        "redirect_url": "/windows/configuration/keyboard-filter/wekf-settings",
+        "redirect_document_id": false
+    }
 ]
 }
