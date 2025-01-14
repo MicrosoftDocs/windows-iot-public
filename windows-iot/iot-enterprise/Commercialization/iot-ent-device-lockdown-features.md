@@ -24,7 +24,7 @@ Complete Lab 1a: Create a basic image.
 
 ## Keyboard filter
 
-The [Keyboard Filter](../Customize/keyboardfilter.md) enables controls that you can use to suppress undesirable key presses or key combinations. Normally, a customer can alter the operation of a device by using certain key combinations like Ctrl+Alt+Delete, Ctrl+Shift+Tab, Alt+F4, etc. The Keyboard filter prevents users from using these key combinations, which is helpful if your device is intended for a dedicated purpose.
+The [Keyboard Filter](/windows/configuration/keyboard-filter) enables controls that you can use to suppress undesirable key presses or key combinations. Normally, a customer can alter the operation of a device by using certain key combinations like Ctrl+Alt+Delete, Ctrl+Shift+Tab, Alt+F4, etc. The Keyboard filter prevents users from using these key combinations, which is helpful if your device is intended for a dedicated purpose.
 
 The Keyboard Filter feature works with physical keyboards, the Windows on-screen keyboard, and the touch keyboard. Keyboard Filter also detects dynamic layout changes and continues to suppress keys correctly even if the location of the suppressed keys changes on the keyboard. An example of this scenario is switching from one language set to another.
 
@@ -32,23 +32,23 @@ Keyboard filter keys are stored in the Registry at *HKEY_LOCAL_MACHINE\SOFTWARE\
 
 ### Enable the Keyboard filter
 
-There are several methods to enable the Keyboard Filter, we're providing instructions for one of those methods. For more information, see [Keyboard Filter](../Customize/keyboardfilter.md).
+There are several methods to enable the Keyboard Filter, we're providing instructions for one of those methods. For more information, see [Keyboard Filter](/windows/configuration/keyboard-filter).
 
 1. Enable the Keyboard Filter feature by running the following command from an Administrative Command Prompt:
 
    ```cmd
-   Dism /online /enable-feature /featurename:Client-DeviceLockdown /featurename:Client-KeyboardFilter 
+   Dism /online /enable-feature /featurename:Client-DeviceLockdown /featurename:Client-KeyboardFilter
    ```
 
 1. You're prompted to restart the reference device, type **Y** to reboot. The device reboots into audit mode.
 
-   Once you enable the keyboard filter, see [Keyboard filter PowerShell script samples](../Customize/keyboardfilter-powershell-script-samples.md) to learn about blocking key combinations.
+   Once you enable the keyboard filter, see [Keyboard filter PowerShell script samples](/windows/configuration/keyboard-filter/keyboardfilter-powershell-script-samples) to learn about blocking key combinations.
 
-1. For this lab, we're going to provide a demo on blocking the CTRL+ALT+DEL key. In an administrative PowerShell command window, copy and paste the following commands.  
+1. For this lab, we're going to provide a demo on blocking the CTRL+ALT+DEL key. In an administrative PowerShell command window, copy and paste the following commands.
 
     ```PowerShell
     $key = "Ctrl+Alt+Del"
-    $setkey = Get-WMIObject -class WEKF_PredefinedKey –computer localhost –namespace  root\standardcimv2\embedded | where {$_.Id -eq "$key"}; 
+    $setkey = Get-WMIObject -class WEKF_PredefinedKey –computer localhost –namespace  root\standardcimv2\embedded | where {$_.Id -eq "$key"};
     $setkey.Id = $key
     $setkey.Enabled = 1;
     $setkey.Put() | Out-Null;
@@ -102,7 +102,7 @@ There are several methods to enable the Keyboard Filter, we're providing instruc
 1. To disable the Unified Write Filter run the following command and then reboot the device.
 
    ```cmd
-   uwfmgr filter disable  
+   uwfmgr filter disable
    ```
 
 1. Confirm that UWF is disabled. **Filer state** should be **OFF**:
@@ -126,8 +126,8 @@ There are several methods to enable the Keyboard Filter, we're providing instruc
 1. Enable the Unbranded boot feature by running the following command in an Administrative Command Prompt:
 
     ```cmd
-    Dism /online /enable-feature /featureName:Client-DeviceLockdown  
-    Dism /online /enable-feature /FeatureName:Client-EmbeddedBootExp 
+    Dism /online /enable-feature /featureName:Client-DeviceLockdown
+    Dism /online /enable-feature /FeatureName:Client-EmbeddedBootExp
     ```
 
 1. Restart the reference device
@@ -139,19 +139,19 @@ You can customize Unbranded boot from an Administrative Command prompt in the fo
 1. Disable the F8 key during startup to prevent access to the Advanced startup options menu:
 
     ```cmd
-    bcdedit.exe -set {globalsettings} advancedoptions false 
+    bcdedit.exe -set {globalsettings} advancedoptions false
     ```
 
 1. Disable the F10 key during startup to prevent access to the Advanced startup options menu:
 
     ```cmd
-    bcdedit.exe -set {globalsettings} optionsedit false 
+    bcdedit.exe -set {globalsettings} optionsedit false
     ```
 
 1. Suppress all Windows UI elements (logo, status indicator, and status message) during startup:
 
     ```cmd
-    bcdedit.exe -set {globalsettings} bootuxdisabled on 
+    bcdedit.exe -set {globalsettings} bootuxdisabled on
     ```
 
 Restart the reference device and notice that the Windows UI elements are suppressed during startup.
@@ -169,7 +169,7 @@ You can use the [Custom Logon](../Customize/Custom-Logon.md) feature to suppress
 1. Enable the Custom Logon feature by running the following command at an Administrative Command Prompt:
 
     ```cmd
-    Dism /online /enable-feature /featurename:Client-DeviceLockdown /featurename:Client-EmbeddedLogon 
+    Dism /online /enable-feature /featurename:Client-DeviceLockdown /featurename:Client-EmbeddedLogon
     ```
 
 1. If prompted to restart, choose No.

@@ -1,18 +1,22 @@
+---
 - name: Docs
   tocHref: /
   topicHref: /
   items:
-  - name: Windows
-    tocHref: /windows/
-    topicHref: /windows/
-    items:
-    - name: Windows for IoT
-      tocHref: /windows/iot/
-      topicHref: /windows/iot/
+    - name: Windows
+      tocHref: /windows/
+      topicHref: /windows/
       items:
-      - name: Windows IoT Enterprise
-        tocHref: /windows/iot/iot-enterprise/
-        topicHref: /windows/iot/iot-enterprise/overview
-      - name: Windows CE
-        tocHref: /windows/iot/windows_ce/
-        topicHref: /windows/iot/windows_ce/windows-ce-app-container-overview
+        - name: Windows for IoT
+          tocHref: /windows/iot/
+          topicHref: /windows/iot/
+          items:
+            - name: Windows IoT Enterprise
+              tocHref: /windows/iot/iot-enterprise/
+              topicHref: /windows/iot/iot-enterprise/overview
+            - name: Windows CE
+              tocHref: /windows/iot/windows_ce/
+              topicHref: /windows/iot/windows_ce/windows-ce-app-container-overview
+        - name: Windows IoT Enterprise
+          tocHref: /windows/configuration/
+          topicHref: /windows/iot/iot-enterprise/overview
