@@ -3,8 +3,6 @@
 # 🔵 Updated Article
 # 🔴 Article to be removed
 # ====================================
-- name: 🧪 Keyboard Filter
-  href: keyboard-filter/toc.yml
 - name: Windows IoT Enterprise Overview
   href: ./Overview.md
 - name: Release History
@@ -117,6 +115,8 @@
       href: ./Customize/troubleshooting-custom-logon.md
   - name: Embedded Mode
     href: ./OS-Features/Embedded-Mode.md
+  - name: 🧪 Keyboard Filter
+    href: keyboard-filter-toc.yml
   - name: Keyboard Filter 🔗
     href: /windows/configure/keyboard-filter
   - name: Kiosk Mode
