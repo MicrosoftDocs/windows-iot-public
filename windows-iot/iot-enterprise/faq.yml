@@ -22,9 +22,9 @@ sections:
     - question: Edition
       answer: |
           - [What is Windows IoT Enterprise?](faq.yml#what-is-windows-iot-enterprise)
+          - [What editions of Windows IoT Enterprise are available?](faq.yml#what-editions-of-windows-iot-enterprise-are-available)
           - [What is the current version of Windows IoT Enterprise?](faq.yml#what-is-the-current-version-of-windows-iot-enterprise)
           - [How do I know if I'm running Windows IoT Enterprise?](faq.yml#how-do-i-know-if-i-m-running-windows-iot-enterprise)
-          - [What editions of Windows IoT Enterprise are available?](faq.yml#what-editions-of-windows-iot-enterprise-are-available)
           - [Can I get an evaluation copy of Windows IoT Enterprise?](faq.yml#can-i-get-an-evaluation-copy-of-windows-iot-enterprise)
           - [When is the next Windows IoT Enterprise release?](faq.yml#when-is-the-next-windows-iot-enterprise-release)
 
@@ -154,11 +154,21 @@ sections:
 
             [Top of FAQ](faq.yml)
 
+    - question: What editions of Windows IoT Enterprise are available?
+      answer: |
+            There are two main editions: Windows IoT Enterprise LTSC and Windows IoT Enterprise.
+
+            Windows IoT Enterprise Long-Term Servicing Channel (LTSC) is supported for 10 years and is ideal for fixed-purpose devices that need to prioritize preservation of the original state of the OS over receiving frequent feature updates..
+
+            The non-LTSC edition of Windows IoT Enterprise follows the modern-lifecycle policy and is ideal for fixed-purpose devices that can be updated frequently to get new features and improvements. 
+
+            [Top of FAQ](faq.yml)
+
     - question: What is the current version of Windows IoT Enterprise?
       answer: |
-            The current GAC version is [Windows 11 IoT Enterprise, version 24H2](./whats-new/Windows-11-IoT-Enterprise-24H2.md).
-          
             The current LTSC version is [Windows 11 IoT Enterprise LTSC 2024](./whats-new/Windows-11-IoT-Enterprise-LTSC-2024.md).
+
+            The current non-LTSC version is [Windows 11 IoT Enterprise, version 24H2](./whats-new/Windows-11-IoT-Enterprise-24H2.md).
 
             [Top of FAQ](faq.yml)
 
@@ -175,16 +185,6 @@ sections:
 
             > [!NOTE]
             > Prior to version 1903, Windows IoT Enterprise OS was sold as Windows Enterprise with special keys. For these versions, the methods listed would show the values for Windows Enterprise.
-
-            [Top of FAQ](faq.yml)
-
-    - question: What editions of Windows IoT Enterprise are available?
-      answer: |
-            There are two main editions: Windows IoT Enterprise LTSC and Windows IoT Enterprise.
-
-            Windows IoT Enterprise Long-Term Servicing Channel (LTSC) is supported for 10 years and is ideal for fixed-purpose devices that don't require or can't accept frequent feature updates.
-
-            The non-LTSC edition of Windows IoT Enterprise follows the modern-lifecycle policy and is ideal for fixed-function devices that can be updated frequently to get new features and improvements. 
 
             [Top of FAQ](faq.yml)
 
