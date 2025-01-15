@@ -201,347 +201,347 @@
             "redirect_document_id": false
         },
         {
-            "source_path": "windows-iot/iot-enterprise/Customize//windows/configuration/shell-launcher/browser-support",
+            "source_path_from_root": "/windows-iot/iot-enterprise/Customize//windows/configuration/shell-launcher/browser-support",
             "redirect_url": "/windows/configuration/shell-launcher/browser-support",
             "redirect_document_id": false
         },
         {
-            "source_path": "windows-iot/iot-enterprise/Customize//windows/configuration/custom-logon",
+            "source_path_from_root": "/windows-iot/iot-enterprise/Customize//windows/configuration/custom-logon",
             "redirect_url": "/windows/configuration/custom-logon",
             "redirect_document_id": false
         },
         {
-            "source_path": "windows-iot/iot-enterprise/Customize/hibernate-once-resume-many-horm.md",
+            "source_path_from_root": "/windows-iot/iot-enterprise/Customize/hibernate-once-resume-many-horm.md",
             "redirect_url": "/windows/configuration/unified-write-filter/hibernate-once-resume-many-horm",
             "redirect_document_id": false
         },
         {
-            "source_path": "windows-iot/iot-enterprise/Customize//windows/configuration/shell-launcher/multi-app-kiosk",
+            "source_path_from_root": "/windows-iot/iot-enterprise/Customize//windows/configuration/shell-launcher/multi-app-kiosk",
             "redirect_url": "/windows/configuration/shell-launcher/multi-app-kiosk",
             "redirect_document_id": false
         },
         {
-            "source_path": "windows-iot/iot-enterprise/Customize/service-uwf-protected-devices.md",
+            "source_path_from_root": "/windows-iot/iot-enterprise/Customize/service-uwf-protected-devices.md",
             "redirect_url": "/windows/configuration/unified-write-filter/service-uwf-protected-devices",
             "redirect_document_id": false
         },
         {
-            "source_path": "windows-iot/iot-enterprise/Customize//windows/configuration/shell-launcher",
+            "source_path_from_root": "/windows-iot/iot-enterprise/Customize//windows/configuration/shell-launcher",
             "redirect_url": "/windows/configuration/shell-launcher",
             "redirect_document_id": false
         },
         {
-            "source_path": "windows-iot/iot-enterprise/Customize//windows/configuration/shell-launcher/single-app-kiosk",
+            "source_path_from_root": "/windows-iot/iot-enterprise/Customize//windows/configuration/shell-launcher/single-app-kiosk",
             "redirect_url": "/windows/configuration/shell-launcher/single-app-kiosk",
             "redirect_document_id": false
         },
         {
-            "source_path": "windows-iot/iot-enterprise/Customize/troubleshooting-/windows/configuration/custom-logon",
+            "source_path_from_root": "/windows-iot/iot-enterprise/Customize/troubleshooting-/windows/configuration/custom-logon",
             "redirect_url": "/windows/configuration/custom-logon/troubleshoot",
             "redirect_document_id": false
         },
         {
-            "source_path": "windows-iot/iot-enterprise/Customize//windows/configuration/unbranded-boot",
+            "source_path_from_root": "/windows-iot/iot-enterprise/Customize//windows/configuration/unbranded-boot",
             "redirect_url": "/windows/configuration/unbranded-boot",
             "redirect_document_id": false
         },
         {
-            "source_path": "windows-iot/iot-enterprise/Customize//windows/configuration/unified-write-filter",
+            "source_path_from_root": "/windows-iot/iot-enterprise/Customize//windows/configuration/unified-write-filter",
             "redirect_url": "/windows/configuration/unified-write-filter",
             "redirect_document_id": false
         },
         {
-            "source_path": "windows-iot/iot-enterprise/Customize/uwf-antimalware-support.md",
+            "source_path_from_root": "/windows-iot/iot-enterprise/Customize/uwf-antimalware-support.md",
             "redirect_url": "/windows/configuration/unified-write-filter/uwf-antimalware-support",
             "redirect_document_id": false
         },
         {
-            "source_path": "windows-iot/iot-enterprise/Customize/uwf-apply-oem-updates.md",
+            "source_path_from_root": "/windows-iot/iot-enterprise/Customize/uwf-apply-oem-updates.md",
             "redirect_url": "/windows/configuration/unified-write-filter/uwf-apply-oem-updates",
             "redirect_document_id": false
         },
         {
-            "source_path": "windows-iot/iot-enterprise/Customize/uwf-apply-windows-updates.md",
+            "source_path_from_root": "/windows-iot/iot-enterprise/Customize/uwf-apply-windows-updates.md",
             "redirect_url": "/windows/configuration/unified-write-filter/uwf-apply-windows-updates",
             "redirect_document_id": false
         },
         {
-            "source_path": "windows-iot/iot-enterprise/Customize/uwf-excludedfile.md",
+            "source_path_from_root": "/windows-iot/iot-enterprise/Customize/uwf-excludedfile.md",
             "redirect_url": "/windows/configuration/unified-write-filter/uwf-excludedfile",
             "redirect_document_id": false
         },
         {
-            "source_path": "windows-iot/iot-enterprise/Customize/uwf-excludedregistrykey.md",
+            "source_path_from_root": "/windows-iot/iot-enterprise/Customize/uwf-excludedregistrykey.md",
             "redirect_url": "/windows/configuration/unified-write-filter/uwf-excludedregistrykey",
             "redirect_document_id": false
         },
         {
-            "source_path": "windows-iot/iot-enterprise/Customize/uwfexclusions.md",
+            "source_path_from_root": "/windows-iot/iot-enterprise/Customize/uwfexclusions.md",
             "redirect_url": "/windows/configuration/unified-write-filter/uwfexclusions",
             "redirect_document_id": false
         },
         {
-            "source_path": "windows-iot/iot-enterprise/Customize/uwf-filter.md",
+            "source_path_from_root": "/windows-iot/iot-enterprise/Customize/uwf-filter.md",
             "redirect_url": "/windows/configuration/unified-write-filter/uwf-filter",
             "redirect_document_id": false
         },
         {
-            "source_path": "windows-iot/iot-enterprise/Customize/uwf-filterdisable.md",
+            "source_path_from_root": "/windows-iot/iot-enterprise/Customize/uwf-filterdisable.md",
             "redirect_url": "/windows/configuration/unified-write-filter/uwf-filterdisable",
             "redirect_document_id": false
         },
         {
-            "source_path": "windows-iot/iot-enterprise/Customize/uwf-filterenable.md",
+            "source_path_from_root": "/windows-iot/iot-enterprise/Customize/uwf-filterenable.md",
             "redirect_url": "/windows/configuration/unified-write-filter/uwf-filterenable",
             "redirect_document_id": false
         },
         {
-            "source_path": "windows-iot/iot-enterprise/Customize/uwf-filterresetsettings.md",
+            "source_path_from_root": "/windows-iot/iot-enterprise/Customize/uwf-filterresetsettings.md",
             "redirect_url": "/windows/configuration/unified-write-filter/uwf-filterresetsettings",
             "redirect_document_id": false
         },
         {
-            "source_path": "windows-iot/iot-enterprise/Customize/uwf-filterrestartsystem.md",
+            "source_path_from_root": "/windows-iot/iot-enterprise/Customize/uwf-filterrestartsystem.md",
             "redirect_url": "/windows/configuration/unified-write-filter/uwf-filterrestartsystem",
             "redirect_document_id": false
         },
         {
-            "source_path": "windows-iot/iot-enterprise/Customize/uwf-filtershutdownsystem.md",
+            "source_path_from_root": "/windows-iot/iot-enterprise/Customize/uwf-filtershutdownsystem.md",
             "redirect_url": "/windows/configuration/unified-write-filter/uwf-filtershutdownsystem",
             "redirect_document_id": false
         },
         {
-            "source_path": "windows-iot/iot-enterprise/Customize/uwf-master-servicing-script.md",
+            "source_path_from_root": "/windows-iot/iot-enterprise/Customize/uwf-master-servicing-script.md",
             "redirect_url": "/windows/configuration/unified-write-filter/uwf-master-servicing-script",
             "redirect_document_id": false
         },
         {
-            "source_path": "windows-iot/iot-enterprise/Customize/uwfmgrexe.md",
+            "source_path_from_root": "/windows-iot/iot-enterprise/Customize/uwfmgrexe.md",
             "redirect_url": "/windows/configuration/unified-write-filter/uwfmgrexe",
             "redirect_document_id": false
         },
         {
-            "source_path": "windows-iot/iot-enterprise/Customize/uwfoverlay.md",
+            "source_path_from_root": "/windows-iot/iot-enterprise/Customize/uwfoverlay.md",
             "redirect_url": "/windows/configuration/unified-write-filter/uwfoverlay",
             "redirect_document_id": false
         },
         {
-            "source_path": "windows-iot/iot-enterprise/Customize/uwf-overlay.md",
+            "source_path_from_root": "/windows-iot/iot-enterprise/Customize/uwf-overlay.md",
             "redirect_url": "/windows/configuration/unified-write-filter/uwf-overlay",
             "redirect_document_id": false
         },
         {
-            "source_path": "windows-iot/iot-enterprise/Customize/uwf-overlayconfig.md",
+            "source_path_from_root": "/windows-iot/iot-enterprise/Customize/uwf-overlayconfig.md",
             "redirect_url": "/windows/configuration/unified-write-filter/uwf-overlayconfig",
             "redirect_document_id": false
         },
         {
-            "source_path": "windows-iot/iot-enterprise/Customize/uwf-overlayconfigsetmaximumsize.md",
+            "source_path_from_root": "/windows-iot/iot-enterprise/Customize/uwf-overlayconfigsetmaximumsize.md",
             "redirect_url": "/windows/configuration/unified-write-filter/uwf-overlayconfigsetmaximumsize",
             "redirect_document_id": false
         },
         {
-            "source_path": "windows-iot/iot-enterprise/Customize/uwf-overlayconfigsettype.md",
+            "source_path_from_root": "/windows-iot/iot-enterprise/Customize/uwf-overlayconfigsettype.md",
             "redirect_url": "/windows/configuration/unified-write-filter/uwf-overlayconfigsettype",
             "redirect_document_id": false
         },
         {
-            "source_path": "windows-iot/iot-enterprise/Customize/uwf-overlayfile.md",
+            "source_path_from_root": "/windows-iot/iot-enterprise/Customize/uwf-overlayfile.md",
             "redirect_url": "/windows/configuration/unified-write-filter/uwf-overlayfile",
             "redirect_document_id": false
         },
         {
-            "source_path": "windows-iot/iot-enterprise/Customize/uwf-overlaygetoverlayfiles.md",
+            "source_path_from_root": "/windows-iot/iot-enterprise/Customize/uwf-overlaygetoverlayfiles.md",
             "redirect_url": "/windows/configuration/unified-write-filter/uwf-overlaygetoverlayfiles",
             "redirect_document_id": false
         },
         {
-            "source_path": "windows-iot/iot-enterprise/Customize/uwf-overlaysetcriticalthreshold.md",
+            "source_path_from_root": "/windows-iot/iot-enterprise/Customize/uwf-overlaysetcriticalthreshold.md",
             "redirect_url": "/windows/configuration/unified-write-filter/uwf-overlaysetcriticalthreshold",
             "redirect_document_id": false
         },
         {
-            "source_path": "windows-iot/iot-enterprise/Customize/uwf-overlaysetwarningthreshold.md",
+            "source_path_from_root": "/windows-iot/iot-enterprise/Customize/uwf-overlaysetwarningthreshold.md",
             "redirect_url": "/windows/configuration/unified-write-filter/uwf-overlaysetwarningthreshold",
             "redirect_document_id": false
         },
         {
-            "source_path": "windows-iot/iot-enterprise/Customize/uwf-registryfilter.md",
+            "source_path_from_root": "/windows-iot/iot-enterprise/Customize/uwf-registryfilter.md",
             "redirect_url": "/windows/configuration/unified-write-filter/uwf-registryfilter",
             "redirect_document_id": false
         },
         {
-            "source_path": "windows-iot/iot-enterprise/Customize/uwf-registryfilteraddexclusion.md",
+            "source_path_from_root": "/windows-iot/iot-enterprise/Customize/uwf-registryfilteraddexclusion.md",
             "redirect_url": "/windows/configuration/unified-write-filter/uwf-registryfilteraddexclusion",
             "redirect_document_id": false
         },
         {
-            "source_path": "windows-iot/iot-enterprise/Customize/uwf-registryfiltercommitregistry.md",
+            "source_path_from_root": "/windows-iot/iot-enterprise/Customize/uwf-registryfiltercommitregistry.md",
             "redirect_url": "/windows/configuration/unified-write-filter/uwf-registryfiltercommitregistry",
             "redirect_document_id": false
         },
         {
-            "source_path": "windows-iot/iot-enterprise/Customize/uwf-registryfiltercommitregistrydeletion.md",
+            "source_path_from_root": "/windows-iot/iot-enterprise/Customize/uwf-registryfiltercommitregistrydeletion.md",
             "redirect_url": "/windows/configuration/unified-write-filter/uwf-registryfiltercommitregistrydeletion",
             "redirect_document_id": false
         },
         {
-            "source_path": "windows-iot/iot-enterprise/Customize/uwf-registryfilterfindexclusion.md",
+            "source_path_from_root": "/windows-iot/iot-enterprise/Customize/uwf-registryfilterfindexclusion.md",
             "redirect_url": "/windows/configuration/unified-write-filter/uwf-registryfilterfindexclusion",
             "redirect_document_id": false
         },
         {
-            "source_path": "windows-iot/iot-enterprise/Customize/uwf-registryfiltergetexclusions.md",
+            "source_path_from_root": "/windows-iot/iot-enterprise/Customize/uwf-registryfiltergetexclusions.md",
             "redirect_url": "/windows/configuration/unified-write-filter/uwf-registryfiltergetexclusions",
             "redirect_document_id": false
         },
         {
-            "source_path": "windows-iot/iot-enterprise/Customize/uwf-registryfilterremoveexclusion.md",
+            "source_path_from_root": "/windows-iot/iot-enterprise/Customize/uwf-registryfilterremoveexclusion.md",
             "redirect_url": "/windows/configuration/unified-write-filter/uwf-registryfilterremoveexclusion",
             "redirect_document_id": false
         },
         {
-            "source_path": "windows-iot/iot-enterprise/Customize/uwf-servicing.md",
+            "source_path_from_root": "/windows-iot/iot-enterprise/Customize/uwf-servicing.md",
             "redirect_url": "/windows/configuration/unified-write-filter/uwf-servicing",
             "redirect_document_id": false
         },
         {
-            "source_path": "windows-iot/iot-enterprise/Customize/uwf-servicingdisable.md",
+            "source_path_from_root": "/windows-iot/iot-enterprise/Customize/uwf-servicingdisable.md",
             "redirect_url": "/windows/configuration/unified-write-filter/uwf-servicingdisable",
             "redirect_document_id": false
         },
         {
-            "source_path": "windows-iot/iot-enterprise/Customize/uwf-servicingenable.md",
+            "source_path_from_root": "/windows-iot/iot-enterprise/Customize/uwf-servicingenable.md",
             "redirect_url": "/windows/configuration/unified-write-filter/uwf-servicingenable",
             "redirect_document_id": false
         },
         {
-            "source_path": "windows-iot/iot-enterprise/Customize/uwf-servicing-screen-saver.md",
+            "source_path_from_root": "/windows-iot/iot-enterprise/Customize/uwf-servicing-screen-saver.md",
             "redirect_url": "/windows/configuration/unified-write-filter/uwf-servicing-screen-saver",
             "redirect_document_id": false
         },
         {
-            "source_path": "windows-iot/iot-enterprise/Customize/uwf-servicingupdatewindows.md",
+            "source_path_from_root": "/windows-iot/iot-enterprise/Customize/uwf-servicingupdatewindows.md",
             "redirect_url": "/windows/configuration/unified-write-filter/uwf-servicingupdatewindows",
             "redirect_document_id": false
         },
         {
-            "source_path": "windows-iot/iot-enterprise/Customize/uwftroubleshooting.md",
+            "source_path_from_root": "/windows-iot/iot-enterprise/Customize/uwftroubleshooting.md",
             "redirect_url": "/windows/configuration/unified-write-filter/uwftroubleshooting",
             "redirect_document_id": false
         },
         {
-            "source_path": "windows-iot/iot-enterprise/Customize/uwf-turnonuwf.md",
+            "source_path_from_root": "/windows-iot/iot-enterprise/Customize/uwf-turnonuwf.md",
             "redirect_url": "/windows/configuration/unified-write-filter/uwf-turnonuwf",
             "redirect_document_id": false
         },
         {
-            "source_path": "windows-iot/iot-enterprise/Customize/uwf-volume.md",
+            "source_path_from_root": "/windows-iot/iot-enterprise/Customize/uwf-volume.md",
             "redirect_url": "/windows/configuration/unified-write-filter/uwf-volume",
             "redirect_document_id": false
         },
         {
-            "source_path": "windows-iot/iot-enterprise/Customize/uwf-volumeaddexclusion.md",
+            "source_path_from_root": "/windows-iot/iot-enterprise/Customize/uwf-volumeaddexclusion.md",
             "redirect_url": "/windows/configuration/unified-write-filter/uwf-volumeaddexclusion",
             "redirect_document_id": false
         },
         {
-            "source_path": "windows-iot/iot-enterprise/Customize/uwf-volumecommitfile.md",
+            "source_path_from_root": "/windows-iot/iot-enterprise/Customize/uwf-volumecommitfile.md",
             "redirect_url": "/windows/configuration/unified-write-filter/uwf-volumecommitfile",
             "redirect_document_id": false
         },
         {
-            "source_path": "windows-iot/iot-enterprise/Customize/uwf-volumecommitfiledeletion.md",
+            "source_path_from_root": "/windows-iot/iot-enterprise/Customize/uwf-volumecommitfiledeletion.md",
             "redirect_url": "/windows/configuration/unified-write-filter/uwf-volumecommitfiledeletion",
             "redirect_document_id": false
         },
         {
-            "source_path": "windows-iot/iot-enterprise/Customize/uwf-volumefindexclusion.md",
+            "source_path_from_root": "/windows-iot/iot-enterprise/Customize/uwf-volumefindexclusion.md",
             "redirect_url": "/windows/configuration/unified-write-filter/uwf-volumefindexclusion",
             "redirect_document_id": false
         },
         {
-            "source_path": "windows-iot/iot-enterprise/Customize/uwf-volumegetexclusions.md",
+            "source_path_from_root": "/windows-iot/iot-enterprise/Customize/uwf-volumegetexclusions.md",
             "redirect_url": "/windows/configuration/unified-write-filter/uwf-volumegetexclusions",
             "redirect_document_id": false
         },
         {
-            "source_path": "windows-iot/iot-enterprise/Customize/uwf-volumeprotect.md",
+            "source_path_from_root": "/windows-iot/iot-enterprise/Customize/uwf-volumeprotect.md",
             "redirect_url": "/windows/configuration/unified-write-filter/uwf-volumeprotect",
             "redirect_document_id": false
         },
         {
-            "source_path": "windows-iot/iot-enterprise/Customize/uwf-volumeremoveallexclusions.md",
+            "source_path_from_root": "/windows-iot/iot-enterprise/Customize/uwf-volumeremoveallexclusions.md",
             "redirect_url": "/windows/configuration/unified-write-filter/uwf-volumeremoveallexclusions",
             "redirect_document_id": false
         },
         {
-            "source_path": "windows-iot/iot-enterprise/Customize/uwf-volumeremoveexclusion.md",
+            "source_path_from_root": "/windows-iot/iot-enterprise/Customize/uwf-volumeremoveexclusion.md",
             "redirect_url": "/windows/configuration/unified-write-filter/uwf-volumeremoveexclusion",
             "redirect_document_id": false
         },
         {
-            "source_path": "windows-iot/iot-enterprise/Customize/uwf-volumesetbindbydriveletter.md",
+            "source_path_from_root": "/windows-iot/iot-enterprise/Customize/uwf-volumesetbindbydriveletter.md",
             "redirect_url": "/windows/configuration/unified-write-filter/uwf-volumesetbindbydriveletter",
             "redirect_document_id": false
         },
         {
-            "source_path": "windows-iot/iot-enterprise/Customize/uwf-volumeunprotect.md",
+            "source_path_from_root": "/windows-iot/iot-enterprise/Customize/uwf-volumeunprotect.md",
             "redirect_url": "/windows/configuration/unified-write-filter/uwf-volumeunprotect",
             "redirect_document_id": false
         },
         {
-            "source_path": "windows-iot/iot-enterprise/Customize/uwf-wes7-ewf-to-win10-uwf.md",
+            "source_path_from_root": "/windows-iot/iot-enterprise/Customize/uwf-wes7-ewf-to-win10-uwf.md",
             "redirect_url": "/windows/configuration/unified-write-filter/uwf-wes7-ewf-to-win10-uwf",
             "redirect_document_id": false
         },
         {
-            "source_path": "windows-iot/iot-enterprise/Customize/uwf-wmi-provider-reference.md",
+            "source_path_from_root": "/windows-iot/iot-enterprise/Customize/uwf-wmi-provider-reference.md",
             "redirect_url": "/windows/configuration/unified-write-filter/uwf-wmi-provider-reference",
             "redirect_document_id": false
         },
         {
-            "source_path": "windows-iot/iot-enterprise/Customize//windows/configuration/shell-launcher/wedl-assignedaccess",
+            "source_path_from_root": "/windows-iot/iot-enterprise/Customize//windows/configuration/shell-launcher/wedl-assignedaccess",
             "redirect_url": "/windows/configuration/shell-launcher/wedl-assignedaccess",
             "redirect_document_id": false
         },
         {
-            "source_path": "windows-iot/iot-enterprise/Customize/wesl-usersetting.md",
+            "source_path_from_root": "/windows-iot/iot-enterprise/Customize/wesl-usersetting.md",
             "redirect_url": "/windows/configuration/shell-launcher/wesl-usersetting",
             "redirect_document_id": false
         },
         {
-            "source_path": "windows-iot/iot-enterprise/Customize/wesl-usersettinggetcustomshell.md",
+            "source_path_from_root": "/windows-iot/iot-enterprise/Customize/wesl-usersettinggetcustomshell.md",
             "redirect_url": "/windows/configuration/shell-launcher/wesl-usersettinggetcustomshell",
             "redirect_document_id": false
         },
         {
-            "source_path": "windows-iot/iot-enterprise/Customize/wesl-usersettinggetdefaultshell.md",
+            "source_path_from_root": "/windows-iot/iot-enterprise/Customize/wesl-usersettinggetdefaultshell.md",
             "redirect_url": "/windows/configuration/shell-launcher/wesl-usersettinggetdefaultshell",
             "redirect_document_id": false
         },
         {
-            "source_path": "windows-iot/iot-enterprise/Customize/wesl-usersettingisenabled.md",
+            "source_path_from_root": "/windows-iot/iot-enterprise/Customize/wesl-usersettingisenabled.md",
             "redirect_url": "/windows/configuration/shell-launcher/wesl-usersettingisenabled",
             "redirect_document_id": false
         },
         {
-            "source_path": "windows-iot/iot-enterprise/Customize/wesl-usersettingremovecustomshell.md",
+            "source_path_from_root": "/windows-iot/iot-enterprise/Customize/wesl-usersettingremovecustomshell.md",
             "redirect_url": "/windows/configuration/shell-launcher/wesl-usersettingremovecustomshell",
             "redirect_document_id": false
         },
         {
-            "source_path": "windows-iot/iot-enterprise/Customize/wesl-usersettingsetcustomshell.md",
+            "source_path_from_root": "/windows-iot/iot-enterprise/Customize/wesl-usersettingsetcustomshell.md",
             "redirect_url": "/windows/configuration/shell-launcher/wesl-usersettingsetcustomshell",
             "redirect_document_id": false
         },
         {
-            "source_path": "windows-iot/iot-enterprise/Customize/wesl-usersettingsetdefaultshell.md",
+            "source_path_from_root": "/windows-iot/iot-enterprise/Customize/wesl-usersettingsetdefaultshell.md",
             "redirect_url": "/windows/configuration/shell-launcher/wesl-usersettingsetdefaultshell",
             "redirect_document_id": false
         },
         {
-            "source_path": "windows-iot/iot-enterprise/Customize/wesl-usersettingsetenabled.md",
+            "source_path_from_root": "/windows-iot/iot-enterprise/Customize/wesl-usersettingsetenabled.md",
             "redirect_url": "/windows/configuration/shell-launcher/wesl-usersettingsetenabled",
             "redirect_document_id": false
         }
