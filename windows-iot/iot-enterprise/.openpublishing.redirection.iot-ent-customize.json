@@ -6,12 +6,12 @@
             "redirect_document_id": false
         },
         {
-            "source_path_from_root": "/windows-iot/iot-enterprise/Kiosk-Mode//windows/configuration/shell-launcher/browser-support",
+            "source_path_from_root": "/windows-iot/iot-enterprise/Kiosk-Mode/Browser-Support.md",
             "redirect_url": "/windows/iot/iot-enterprise/customize/Browser-Support",
             "redirect_document_id": false
         },
         {
-            "source_path_from_root": "/windows-iot/iot-enterprise/Branding-Features//windows/configuration/custom-logon",
+            "source_path_from_root": "/windows-iot/iot-enterprise/Branding-Features/Custom-Logon.md",
             "redirect_url": "/windows/iot/iot-enterprise/customize/Custom-Logon",
             "redirect_document_id": false
         },
@@ -51,7 +51,7 @@
             "redirect_document_id": false
         },
         {
-            "source_path_from_root": "/windows-iot/iot-enterprise/Kiosk-Mode//windows/configuration/shell-launcher/multi-app-kiosk",
+            "source_path_from_root": "/windows-iot/iot-enterprise/Kiosk-Mode/Multi-App-Kiosk.md",
             "redirect_url": "/windows/iot/iot-enterprise/customize/Multi-App-Kiosk",
             "redirect_document_id": false
         },
@@ -61,22 +61,22 @@
             "redirect_document_id": false
         },
         {
-            "source_path_from_root": "/windows-iot/iot-enterprise/Kiosk-Mode//windows/configuration/shell-launcher",
+            "source_path_from_root": "/windows-iot/iot-enterprise/Kiosk-Mode/Shell-Launcher.md",
             "redirect_url": "/windows/iot/iot-enterprise/customize/Shell-Launcher",
             "redirect_document_id": false
         },
         {
-            "source_path_from_root": "/windows-iot/iot-enterprise/Kiosk-Mode//windows/configuration/shell-launcher/single-app-kiosk",
+            "source_path_from_root": "/windows-iot/iot-enterprise/Kiosk-Mode/Single-App-Kiosk.md",
             "redirect_url": "/windows/iot/iot-enterprise/customize/Single-App-Kiosk",
             "redirect_document_id": false
         },
         {
-            "source_path_from_root": "/windows-iot/iot-enterprise/Branding-Features//windows/configuration/unbranded-boot",
+            "source_path_from_root": "/windows-iot/iot-enterprise/Branding-Features/Unbranded-Boot.md",
             "redirect_url": "/windows/iot/iot-enterprise/customize/Unbranded-Boot",
             "redirect_document_id": false
         },
         {
-            "source_path_from_root": "/windows-iot/iot-enterprise/Advanced-Lockdown-Features//windows/configuration/unified-write-filter",
+            "source_path_from_root": "/windows-iot/iot-enterprise/Advanced-Lockdown-Features/Unified-Write-Filter.md",
             "redirect_url": "/windows/iot/iot-enterprise/customize/Unified-Write-Filter",
             "redirect_document_id": false
         },
@@ -96,7 +96,7 @@
             "redirect_document_id": false
         },
         {
-            "source_path_from_root": "/windows-iot/iot-enterprise/customize/complementary-features-to-/windows/configuration/custom-logon",
+            "source_path_from_root": "/windows-iot/iot-enterprise/customize/complementary-features-to-custom-logon.md",
             "redirect_url": "/windows/iot/iot-enterprise/customize/Custom-Logon",
             "redirect_document_id": false
         },
@@ -201,12 +201,12 @@
             "redirect_document_id": false
         },
         {
-            "source_path_from_root": "/windows-iot/iot-enterprise/Customize//windows/configuration/shell-launcher/browser-support",
-            "redirect_url": "/windows/configuration/shell-launcher/browser-support",
+            "source_path_from_root": "/windows-iot/iot-enterprise/Customize/Browser-Support.md",
+            "redirect_url": "/windows/configuration/shell-launcher/browser-wupport",
             "redirect_document_id": false
         },
         {
-            "source_path_from_root": "/windows-iot/iot-enterprise/Customize//windows/configuration/custom-logon",
+            "source_path_from_root": "/windows-iot/iot-enterprise/Customize/Custom-Logon.md",
             "redirect_url": "/windows/configuration/custom-logon",
             "redirect_document_id": false
         },
@@ -216,7 +216,7 @@
             "redirect_document_id": false
         },
         {
-            "source_path_from_root": "/windows-iot/iot-enterprise/Customize//windows/configuration/shell-launcher/multi-app-kiosk",
+            "source_path_from_root": "/windows-iot/iot-enterprise/Customize/Multi-App-Kiosk.md",
             "redirect_url": "/windows/configuration/shell-launcher/multi-app-kiosk",
             "redirect_document_id": false
         },
@@ -226,27 +226,27 @@
             "redirect_document_id": false
         },
         {
-            "source_path_from_root": "/windows-iot/iot-enterprise/Customize//windows/configuration/shell-launcher",
+            "source_path_from_root": "/windows-iot/iot-enterprise/Customize/Shell-Launcher.md",
             "redirect_url": "/windows/configuration/shell-launcher",
             "redirect_document_id": false
         },
         {
-            "source_path_from_root": "/windows-iot/iot-enterprise/Customize//windows/configuration/shell-launcher/single-app-kiosk",
+            "source_path_from_root": "/windows-iot/iot-enterprise/Customize/Single-App-Kiosk.md",
             "redirect_url": "/windows/configuration/shell-launcher/single-app-kiosk",
             "redirect_document_id": false
         },
         {
-            "source_path_from_root": "/windows-iot/iot-enterprise/Customize/troubleshooting-/windows/configuration/custom-logon",
+            "source_path_from_root": "/windows-iot/iot-enterprise/Customize/troubleshooting-custom-logon.md",
             "redirect_url": "/windows/configuration/custom-logon/troubleshoot",
             "redirect_document_id": false
         },
         {
-            "source_path_from_root": "/windows-iot/iot-enterprise/Customize//windows/configuration/unbranded-boot",
+            "source_path_from_root": "/windows-iot/iot-enterprise/Customize/Unbranded-Boot.md",
             "redirect_url": "/windows/configuration/unbranded-boot",
             "redirect_document_id": false
         },
         {
-            "source_path_from_root": "/windows-iot/iot-enterprise/Customize//windows/configuration/unified-write-filter",
+            "source_path_from_root": "/windows-iot/iot-enterprise/Customize/Unified-Write-Filter.md",
             "redirect_url": "/windows/configuration/unified-write-filter",
             "redirect_document_id": false
         },
@@ -501,7 +501,7 @@
             "redirect_document_id": false
         },
         {
-            "source_path_from_root": "/windows-iot/iot-enterprise/Customize//windows/configuration/shell-launcher/wedl-assignedaccess",
+            "source_path_from_root": "/windows-iot/iot-enterprise/Customize/wedl-assignedaccess.md",
             "redirect_url": "/windows/configuration/shell-launcher/wedl-assignedaccess",
             "redirect_document_id": false
         },
