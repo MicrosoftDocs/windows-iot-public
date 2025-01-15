@@ -70,8 +70,8 @@ To prohibit access to Windows update:
 
 Sometimes drivers installed from Windows Update can cause issues with a device experience. The following steps prohibit Windows Update from downloading and installing new drivers on the device.
 
-1. Open the Group Policy Editor (gpedit.msc) and navigate to **Computer Configuration\Administrative Templates\Windows Components\Windows update\Manage updates offered from Windows Update** and open the **Do not include drivers with Windows Updates** policy setting.  
-1. **Enable** this policy, which tells Windows to not include drivers with Windows quality updates.  
+1. Open the Group Policy Editor (gpedit.msc) and navigate to **Computer Configuration\Administrative Templates\Windows Components\Windows update\Manage updates offered from Windows Update** and open the **Do not include drivers with Windows Updates** policy setting.
+1. **Enable** this policy, which tells Windows to not include drivers with Windows quality updates.
 
 ### Windows Update Summary
 
@@ -95,7 +95,7 @@ Bugchecks on the system (Blue Screen or BSOD) can happen for many reasons. For I
 
 ## Configure notifications, toasts, and popups
 
-IoT devices typically suppress common Windows dialogs that make sense in PC scenarios but could disrupt the user experience of an IoT device. The simplest way to disable unwanted dialogs is to use a custom shell using [Shell Launcher](../Customize/Shell-Launcher.md) or [Assigned Access](../Customize/single-app-kiosk.md). If custom shell isn't the right choice, you can set a combination of policies, settings, and registry tweaks that can disable unwanted popups and notifications.
+IoT devices typically suppress common Windows dialogs that make sense in PC scenarios but could disrupt the user experience of an IoT device. The simplest way to disable unwanted dialogs is to use a custom shell using [Shell Launcher](/windows/configuration/shell-launcher) or [Assigned Access](/windows/configuration/shell-launcher/single-app-kiosk). If custom shell isn't the right choice, you can set a combination of policies, settings, and registry tweaks that can disable unwanted popups and notifications.
 
 ### Notifications
 
@@ -136,7 +136,7 @@ You can download the [Security Compliance Toolkit](https://www.microsoft.com/dow
 
 1. Select **Download** on the link above. Select the *Windows Version xxxx Security Baseline.zip* and the *LGPO.zip*. Be sure to choose the version that matches the version of Windows you're deploying.
 
-1. Extract the *Windows Version xxxx Security Baseline.zip* file and the *LGPO.zip* file on the IoT device.  
+1. Extract the *Windows Version xxxx Security Baseline.zip* file and the *LGPO.zip* file on the IoT device.
 
 1. Copy *LGPO.exe* to the *Scripts\Tools* folder of the *Windows Version xxxx Security Baseline*. LGPO is needed by the security baseline installation script but must be downloaded separately.
 
@@ -166,7 +166,7 @@ Anti-virus protection is required in many IoT device scenarios, especially devic
    1. **Check for the latest virus and spyware definitions before running a schedule scan** to **Disabled**
    1. **Specify the maximum percentage of CPU utilization during a scan** to **5**
    1. **Turn on catch up full scan** to **Disabled**
-   1. **Turn on catch up quick scan** to **Disabled**  
+   1. **Turn on catch up quick scan** to **Disabled**
    1. **Create a system restore point** to **Disabled**
    1. **Define the number of days after which a catch-up scan is forced** to **20** (this is a "just in case setting" and shouldn't be needed if catch-up scans are enabled)
    1. **Specify the scan type to use for a scheduled scan** to **Quick scan**

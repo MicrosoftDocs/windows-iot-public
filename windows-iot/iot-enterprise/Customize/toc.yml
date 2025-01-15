@@ -4,9 +4,9 @@
   - name: Custom Logon
     items:
     - name: Overview
-      href: Custom-Logon.md
+      href: /windows/configuration/custom-logon
     - name: Troubleshooting
-      href: troubleshooting-custom-logon.md
+      href: troubleshooting-/windows/configuration/custom-logon
   - name: Embedded Mode
     href: ../OS-Features/Embedded-Mode.md
 
@@ -73,13 +73,13 @@
     - name: Assigned Access
       items:
       - name: Assigned access single-app kiosk
-        href: Single-App-Kiosk.md
+        href: /windows/configuration/shell-launcher/single-app-kiosk
       - name: Assigned access multi-app kiosk
-        href: Multi-App-Kiosk.md
+        href: /windows/configuration/shell-launcher/multi-app-kiosk
       - name: Browser Support
-        href: Browser-Support.md
+        href: /windows/configuration/shell-launcher/browser-support
       - name: WMI Provider Reference
-        href: wedl-assignedaccess.md
+        href: /windows/configuration/shell-launcher/wedl-assignedaccess
 
 
     - name: Shell Launcher
@@ -111,7 +111,7 @@
   - name: Suppress Blue Screens
     href: Crash-Recovery.md
   - name: Unbranded Boot
-    href: Unbranded-Boot.md
+    href: /windows/configuration/unbranded-boot
 
 
   - name: Unified Write Filter

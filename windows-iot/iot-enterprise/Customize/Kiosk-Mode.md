@@ -12,9 +12,9 @@ keywords: Lockdown, Kiosks, Kiosk Mode
 
 # Kiosk mode
 
-Windows IoT Enterprise allows you to build fixed purpose devices such as ATM machines, point-of-sale terminals, medical devices, digital signs, or kiosks. Kiosk mode helps you create a dedicated and locked down user experience on these fixed purpose devices. Windows IoT Enterprise offers a set of different locked-down experiences for public or specialized use: [assigned access single-app kiosks](./Single-App-Kiosk.md), [assigned access multi-app kiosks](./Multi-App-Kiosk.md), or [shell launcher](./Shell-Launcher.md).
+Windows IoT Enterprise allows you to build fixed purpose devices such as ATM machines, point-of-sale terminals, medical devices, digital signs, or kiosks. Kiosk mode helps you create a dedicated and locked down user experience on these fixed purpose devices. Windows IoT Enterprise offers a set of different locked-down experiences for public or specialized use: [assigned access single-app kiosks](/windows/configuration/shell-launcher/single-app-kiosk), [assigned access multi-app kiosks](/windows/configuration/shell-launcher/multi-app-kiosk), or [shell launcher](/windows/configuration/shell-launcher).
 
-Kiosk configurations are based upon either [assigned access](/windows/configuration/guidelines-for-assigned-access-app) or [shell launcher](./Shell-Launcher.md). There are several kiosk configuration methods that you can choose from, depending on your answers to the following questions.
+Kiosk configurations are based upon either [assigned access](/windows/configuration/guidelines-for-assigned-access-app) or [shell launcher](/windows/configuration/shell-launcher). There are several kiosk configuration methods that you can choose from, depending on your answers to the following questions.
 
 > [!NOTE]
 >
@@ -26,7 +26,7 @@ Your kiosk can run a Universal Windows Platform (UWP) app or a Windows desktop a
 
 ## Which type of kiosk do you need?
 
-If you want your kiosk to run a single app for anyone to see or use, consider an [assigned-access single-app kiosk](./Single-App-Kiosk.md) that runs either a [Universal Windows Platform (UWP) app](/windows/configuration/kiosk-methods#uwp) or a [Windows desktop application](/windows/configuration/kiosk-methods#classic).
+If you want your kiosk to run a single app for anyone to see or use, consider an [assigned-access single-app kiosk](/windows/configuration/shell-launcher/single-app-kiosk) that runs either a [Universal Windows Platform (UWP) app](/windows/configuration/kiosk-methods#uwp) or a [Windows desktop application](/windows/configuration/kiosk-methods#classic).
 
 For a kiosk that people can sign in to with their accounts or that runs more than one app, consider an [assigned access multi-app kiosk](/windows/configuration/kiosk-methods#desktop).
 
