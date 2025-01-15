@@ -127,7 +127,6 @@ sections:
           - [What silicon vendors provide support for Windows IoT Enterprise on Arm64?](faq.yml#what-silicon-vendors-provide-support-for-windows-iot-enterprise-on-arm64)
           - [How do I get started with Windows IoT Enterprise on Arm64?](faq.yml#how-do-i-get-started-with-windows-iot-enterprise-on-arm64)
           - [What hardware is available for Windows IoT Enterprise on Arm64?](faq.yml#what-hardware-is-available-for-windows-iot-enterprise-on-arm64)
-          - [What connectivity drivers are available for Windows IoT Enterprise on Arm64?](faq.yml#what-connectivity-drivers-are-available-for-windows-iot-enterprise-on-arm64)
           - [Which Windows IoT Enterprise version should I use with NXP hardware?](faq.yml#which-windows-iot-enterprise-version-should-i-use-with-nxp-hardware)
           - [What drivers are available for NXP based systems?](faq.yml#what-drivers-are-available-for-nxp-based-systems)
           - [Is Hyper-V supported in Windows IoT Enterprise on Arm64?](faq.yml#is-hyper-v-supported-in-windows-iot-enterprise-on-arm64)
@@ -142,7 +141,7 @@ sections:
           - [How can I purchase Windows IoT Enterprise?](faq.yml#how-can-i-purchase-windows-iot-enterprise)
           - [How is Windows IoT Enterprise licensed?](faq.yml#how-is-windows-iot-enterprise-licensed)
           - [Where can I get Windows IoT Enterprise?](faq.yml#where-can-i-get-windows-iot-enterprise)
-          - [Can I get Windows IoT Enterprise through an Enterprise Agreement?](faq.yml#can-i-get-windows-iot-enterprise-through-an-enterprise-agreement)
+          - [Can I get Windows IoT Enterprise through Volume Licensing?](faq.yml#can-i-get-windows-iot-enterprise-through-volume-licensing)
 
 #          [Top of FAQ](faq.yml)
 
@@ -271,7 +270,7 @@ sections:
 
     - question: How does Windows IoT Enterprise differ from Windows Pro?
       answer: |
-          Windows IoT Enterprise is a full version of Windows Enterprise designed for fixed-function, specialized devices. Windows IoT Enterprise includes all of the features of Windows Pro, but also includes advanced management, security, and lockdown features such as Credential Guard, Unified Write Filter, and Shell Launcher. 
+          Windows IoT Enterprise includes all of the features of Windows Pro, but also includes advanced management, security, and lockdown features such as Credential Guard, Unified Write Filter, and Shell Launcher. 
           
           Windows IoT Enterprise also has different licensing requirements compared to Windows Pro. For more information, see [Windows IoT Enterprise Licensing](./Commercialization/Licensing.md).
 
@@ -309,9 +308,9 @@ sections:
 
     - question: What is the difference between Windows IoT Enterprise and Windows IoT Core?
       answer: |
-          Windows IoT Enterprise is a full version of Windows Enterprise designed for fixed-function, specialized devices. It provides the same enterprise manageability and security features as Windows Enterprise, but is tailored for fixed-function devices such as ATMs, point-of-sale terminals, industrial automation systems, medical devices, digital signage, and more.
+          Windows IoT Enterprise provides a fully customizable PC experience, including the Windows desktop shell, enterprise manageability features, and ways to lockdown the device so that it can look like and function as an IoT appliance.
 
-          Windows IoT Core is a smaller version of Windows 10 designed for building low-cost devices that only need to run a single Universal Windows Application at a time.
+          Windows IoT Core provides a minimal experience that is different from the classic Windows UX and is restricted to running a single Universal Windows Application at a time. In addition, support for Windows IoT Core requires a per-device subscription to Windows IoT Core Services.
 
           For more information, see [Differences between Windows 10 IoT Core and Windows 10 IoT Enterprise](/Previous-versions/windows/iot-core/windows-iot-core#differences-between-windows-10-iot-core-and-windows-10-iot-enterprise)
 
@@ -320,14 +319,14 @@ sections:
 
     - question: How do I reinstall Windows IoT Enterprise?
       answer: |
-          You can reinstall Windows IoT Enterprise using the same methods as Windows Enterprise. However, due to the specialized nature of each Windows IoT device, you should first work with your device manufacturer to determine what your reinstallation options are.
+          Consult with your device manufacturer to determine what reinstallation options are available for your Windows IoT Enterprise device. Reinstallation will often require the device manufacturer to provide you a reinstallation image that has the drivers, applications, and license needed for the Windows IoT Enterprise device to function. 
 
           [Top of FAQ](faq.yml)
 
 
     - question: What kind of devices can I create with Windows IoT Enterprise?
       answer: |
-          Windows IoT Enterprise is designed for fixed-purpose devices such as ATMs, point-of-sale terminals, industrial automation systems, medical devices, digital signage, and more. 
+          Windows IoT Enterprise is designed for fixed-purpose devices such as ATMs, point-of-sale terminals, industrial automation systems, medical devices, digital signage, and more. Learn more on the kinds of devices you can build with Windows IoT Enterprise at our [Windows for IoT page](https://developer.microsoft.com/en-us/windows/iot/). 
 
           [Top of FAQ](faq.yml)
 
@@ -373,17 +372,19 @@ sections:
 
     - question: Can I upgrade from one LTSC to the next LTSC?
       answer: |
-          Yes. Check with your device maker for options to upgrade your device to a newer LTSC. 
+          Yes. 
           
-          For certain devices where the device software is fully customized by the enterprise as opposed to the OEM, you may also have an option to upgrade through Volume Licensing.
-
-          Before upgrading, check that your device meets the [system requirements](Hardware/System_Requirements.md) for the version of Windows IoT Enterprise LTSC you're upgrading to.
+          From a licensing perspective, upgrading from one LTSC to a newer LTSC involves getting a new license. First, check with your device maker to determine what upgrade options are offered for the device. End-customers with an existing Microsoft Volume License agreement may also have the option to upgrade Windows IoT Enterprise devices via Volume Licensing. Learn more about these two paths in the [Licensing Guide](./Commercialization/Licensing.md).
+          
+          From a technical perspective, upgrading from one LTSC to a newer LTSC can either be an in-place upgrade or a reinstall. Due to the specialized nature of Windows IoT devices, check with your device maker first for guidance to ensure that an upgrade to the newer LTSC is supported on your device. In addition, ensure that your device meets the [system requirements](Hardware/System_Requirements.md) for the version of the LTSC you're upgrading to.
 
           [Top of FAQ](faq.yml)
 
     - question: What are the pros and cons of LTSC compared to other editions of Windows?
       answer: |
-          Windows IoT Enterprise LTSC is ideal for fixed-purpose devices that need to prioritize preservation of the original state of the OS over receiving frequent feature updates. In addition, each Windows IoT Enterprise LTSC release is supported for 10 years (5 years of mainstream support and 5 years of extended support). Finally, Windows IoT Enterprise LTSC has [lower minimum system requirements](./Hardware/System_Requirements.md) compared to other editions of Windows.
+          Windows IoT Enterprise LTSC is ideal for fixed-purpose devices that need to prioritize preservation of the original state of the OS over receiving frequent feature updates. In addition, each Windows IoT Enterprise LTSC release is supported for 10 years via the [Fixed Lifecycle Policy](/lifecycle/policies/fixed). Finally, Windows IoT Enterprise LTSC has [lower minimum system requirements](./Hardware/System_Requirements.md) compared to other editions of Windows.
+
+          The non-LTSC version of Windows IoT Enterprise is similar to the LTSC version, but follows the [Modern Lifecycle Policy](/lifecycle/policies/modern). It is ideal for fixed-purpose devices that can receive frequent feature updates.
 
           Windows Enterprise, Pro, and Home editions are designed for general-purpose computing devices and aren't recommended for fixed-purpose devices.
 
@@ -439,15 +440,6 @@ sections:
 
           [Top of FAQ](faq.yml)
 
-    - question: What connectivity drivers are available for Windows IoT Enterprise on Arm64?
-      answer: |
-          | Type | Manufacturer  | Name    |
-          |------|---------------|---------|
-          |WiFi + Bluetooth| NXP |[88W8897](https://www.nxp.com/products/wireless-connectivity/wi-fi-plus-bluetooth-plus-802-15-4/2-4-5-ghz-dual-band-2x2-wi-fi-5-802-11ac-plus-bluetooth-5-0-solution:88W8897)|
-          |WiFi + Bluetooth| NXP |[88W8997](https://www.nxp.com/products/wireless-connectivity/wi-fi-plus-bluetooth-plus-802-15-4/2-4-5-ghz-dual-band-2x2-wi-fi-5-802-11ac-plus-bluetooth-5-3-solution:88W8997)|
-
-          [Top of FAQ](faq.yml)
-
     - question: Which Windows IoT Enterprise version should I use with NXP hardware?
       answer: |
           Both LTSC and GAC editions of Windows IoT Enterprise are available for NXP devices. You can find the specific minimum Windows IoT Enterprise version numbers for NXP hardware on the [NXP Overview page](./Arm64/NXP.md).
@@ -489,9 +481,17 @@ sections:
 
         [Top of FAQ](faq.yml)
 
-    - question: Can I get Windows IoT Enterprise through an Enterprise Agreement?
+    - question: Can I get Windows IoT Enterprise through Volume Licensing?
       answer: |
-        No, Windows IoT Enterprise isn't currently available through the Enterprise Agreement program. 
+        Windows IoT Enterprise LTSC 2021 and Windows IoT Enterprise LTSC 2024 is available through:
+
+        - [Microsoft Customer Agreement](https://www.microsoft.com/licensing/terms/productoffering/WindowsDesktopOperatingSystem/MCA)
+        - [Microsoft Product and Services Agreement (MPSA)](https://www.microsoft.com/licensing/terms/productoffering/WindowsDesktopOperatingSystem/MPSA)
+        - [Select/Select Plus program](https://www.microsoft.com/licensing/terms/productoffering/WindowsDesktopOperatingSystem/SS)
+
+        Learn more about Windows IoT Enterprise LTSC Volume Licensing in the [Licensing Guide](./Commercialization/Licensing.md)
+        
+        Windows IoT Enterprise isn't currently available through the Enterprise Agreement program. 
 
         [Top of FAQ](faq.yml)
 
