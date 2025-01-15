@@ -17,19 +17,16 @@
   - name: Sysprep, capture and deploy
     href: ./get-started/quickstart-sysprep-capture-deploy.md
 - name: What's new...
-  expanded: false
   items:
   - name: Announcements & blogs
     href: ./whats-new/News-Blogs.md
   - name: Windows IoT Enterprise LTSC
-    expanded: false
     items:
       - name: Windows 11 IoT Enterprise LTSC 2024
         href: ./whats-new/Windows-11-IoT-Enterprise-LTSC-2024.md
       - name: Windows 10 IoT Enterprise LTSC 2021
         href: ./whats-new/Windows-10-IoT-Enterprise-LTSC-2021.md
   - name: Windows 11 IoT Enterprise
-    expanded: false
     items:
       - name: Version 24H2
         href: ./whats-new/Windows-11-IoT-Enterprise-24H2.md
@@ -40,7 +37,6 @@
       - name: Version 21H2
         href: ./whats-new/Windows-11-IoT-Enterprise-21H2.md
   - name: Windows 10 IoT Enterprise
-    expanded: false
     items:
       - name: Version 22H2
         href: ./whats-new/Windows-10-IoT-Enterprise-22H2.md
@@ -49,7 +45,6 @@
       - name: Version 21H1
         href: ./whats-new/Windows-10-IoT-Enterprise-21H1.md
 - name: Hardware Guidance
-  expanded: false
   items:
   - name: System Requirements
     href: ./Hardware/System_Requirements.md
@@ -60,14 +55,12 @@
   - name: Hardware Platforms and Boards
     href: ./Hardware/Platforms_and_Boards.md
   - name: Arm Guidance
-    expanded: false
     items:
     - name: Arm Overview
       href: ./ARM64/Arm_Overview.md
     - name: Arm FAQ
       href: ./ARM64/ArmFAQ.md
     - name: NXP
-      expanded: false
       items:
       - name: NXP Overview
         href: ./Arm64/NXP.md
@@ -76,14 +69,12 @@
       - name: Kernel Debugging on NXP i.MX Evaluation Kits
         href: ./Arm64/NXP_Debugging.md
 - name: Commercialization
-  expanded: false
   items:
   - name: Activation Guide
     href: ./Commercialization/activation-guide.md
   - name: Licensing Guide
     href: ./Commercialization/Licensing.md
   - name: Manufacturing Guide
-    expanded: false
     items:
     - name: Manufacturing Guide Overview
       href: ./Commercialization/Manufacturing-Guide.md
@@ -102,196 +93,8 @@
     - name: Lab 5 - Configure Shell Launcher or Assigned Access
       href: ./Commercialization/iot-ent-shell-launcher-app-launcher.md
 - name: Customization
-  expanded: false
-  items:
-  - name: Overview
-    href: ./Customize/customize-overview.md
-  - name: Custom Logon
-    expanded: false
-    items:
-    - name: Overview
-      href: ./Customize/Custom-Logon.md
-    - name: Troubleshooting
-      href: ./Customize/troubleshooting-custom-logon.md
-  - name: Embedded Mode
-    href: ./OS-Features/Embedded-Mode.md
-  - name: Keyboard Filter
-    href: ./keyboard-filter/toc.yml
-  - name: Kiosk Mode
-    expanded: false
-    items:
-    - name: Overview
-      href: ./Customize/Kiosk-Mode.md
-    - name: Assigned Access
-      items:
-      - name: Assigned access single-app kiosk
-        href: ./Customize/Single-App-Kiosk.md
-      - name: Assigned access multi-app kiosk
-        href: ./Customize/Multi-App-Kiosk.md
-      - name: Browser Support
-        href: ./Customize/Browser-Support.md
-      - name: WMI Provider Reference
-        href: ./Customize/wedl-assignedaccess.md
-    - name: Shell Launcher
-      href: ./shell-launcher/toc.yml
-  - name: On-Screen Keyboard
-    href: ./OS-Features/On-Screen-Keyboard.md
-  - name: Suppress Blue Screens
-    href: ./Customize/Crash-Recovery.md
-  - name: Unbranded Boot
-    href: ./Customize/Unbranded-Boot.md
-  - name: Unified Write Filter
-    expanded: false
-    items:
-    - name: Overview
-      href: ./Customize/Unified-Write-Filter.md
-    - name: Hibernate Once/Resume Many (HORM)
-      href: ./Customize/hibernate-once-resume-many-horm.md
-    - name: Exclusions
-      href: ./Customize/uwfexclusions.md
-    - name: Overlay
-      href: ./Customize/uwfoverlay.md
-    - name: Enable
-      href: ./Customize/uwf-turnonuwf.md
-    - name: Command Line Utility (uwfmgr.exe)
-      href: ./Customize/uwfmgrexe.md
-    - name: Servicing
-      expanded: false
-      items:
-      - name: Servicing protected devices
-        href: ./Customize/service-uwf-protected-devices.md
-      - name: Antimalware support
-        href: ./Customize/uwf-antimalware-support.md
-      - name: Windows Updates
-        href: ./Customize/uwf-apply-windows-updates.md
-      - name: OEM Updates
-        href: ./Customize/uwf-apply-oem-updates.md
-      - name: Servicing master script
-        href: ./Customize/uwf-master-servicing-script.md
-      - name: Servicing screen saver
-        href: ./Customize/uwf-servicing-screen-saver.md
-    - name: Troubleshooting
-      href: ./Customize/uwftroubleshooting.md
-    - name: WMI Provider Reference
-      expanded: false
-      items:
-      - name: Overview
-        href: ./Customize/uwf-wmi-provider-reference.md
-      - name: Class UWF_ExcludedFile
-        href: ./Customize/uwf-excludedfile.md
-      - name: Class UWF_ExcludedRegistryKey
-        href: ./Customize/uwf-excludedregistrykey.md
-      - name: Class UWF_Filter
-        expanded: false
-        items:
-        - name: Overview
-          href: ./Customize/uwf-filter.md
-        - name: Disable
-          href: ./Customize/uwf-filterdisable.md
-        - name: Enable
-          href: ./Customize/uwf-filterdisable.md
-        - name: ResetSettings
-          href: ./Customize/uwf-filterresetsettings.md
-        - name: RestartSystem
-          href: ./Customize/uwf-filterrestartsystem.md
-        - name: ShutdownSystem
-          href: ./Customize/uwf-filtershutdownsystem.md
-      - name: Class UWF_Overlay
-        expanded: false
-        items:
-        - name: Overview
-          href: ./Customize/uwf-overlay.md
-        - name: GetOverlayFiles
-          href: ./Customize/uwf-overlaygetoverlayfiles.md
-        - name: OverlayFile
-          href: ./Customize/uwf-overlayfile.md
-        - name: SetCriticalThreshold
-          href: ./Customize/uwf-overlaysetcriticalthreshold.md
-        - name: SetWarningThreshold
-          href: ./Customize/uwf-overlaysetwarningthreshold.md
-      - name: Class UWF_OverlayConfig
-        expanded: false
-        items:
-        - name: Overview
-          href: ./Customize/uwf-overlayconfig.md
-        - name: SetMaximumSize
-          href: ./Customize/uwf-overlayconfigsetmaximumsize.md
-        - name: SetType
-          href: ./Customize/uwf-overlayconfigsettype.md
-      - name: Class UWF_RegistryFilter
-        expanded: false
-        items:
-        - name: Overview
-          href: ./Customize/uwf-registryfilter.md
-        - name: AddExclusion
-          href: ./Customize/uwf-registryfilteraddexclusion.md
-        - name: CommitRegistry
-          href: ./Customize/uwf-registryfiltercommitregistry.md
-        - name: CommitRegistryDeletion
-          href: ./Customize/uwf-registryfiltercommitregistrydeletion.md
-        - name: FindExclusion
-          href: ./Customize/uwf-registryfilterfindexclusion.md
-        - name: GetExclusions
-          href: ./Customize/uwf-registryfiltergetexclusions.md
-        - name: RemoveExclusion
-          href: ./Customize/uwf-registryfilterremoveexclusion.md
-      - name: Class UWF_Servicing
-        expanded: false
-        items:
-        - name: Overview
-          href: ./Customize/uwf-servicing.md
-        - name: Disable
-          href: ./Customize/uwf-servicingdisable.md
-        - name: Enable
-          href: ./Customize/uwf-servicingenable.md
-        - name: UpdateWindows
-          href: ./Customize/uwf-servicingupdatewindows.md
-      - name: Class UWF_Volume
-        expanded: false
-        items:
-        - name: Overview
-          href: ./Customize/uwf-volume.md
-        - name: AddExclusion
-          href: ./Customize/uwf-volumeaddexclusion.md
-        - name: CommitFile
-          href: ./Customize/uwf-volumecommitfile.md
-        - name: CommitFileDeletion
-          href: ./Customize/uwf-volumecommitfiledeletion.md
-        - name: FindExclusion
-          href: ./Customize/uwf-volumefindexclusion.md
-        - name: GetExclusions
-          href: ./Customize/uwf-volumegetexclusions.md
-        - name: protect
-          href: ./Customize/uwf-volumeprotect.md
-        - name: RemoveAllExclusions
-          href: ./Customize/uwf-volumeremoveallexclusions.md
-        - name: RemoveExclusion
-          href: ./Customize/uwf-volumeremoveexclusion.md
-        - name: SetBindByDriveLetter
-          href: ./Customize/uwf-volumesetbindbydriveletter.md
-        - name: Unprotect
-          href: ./Customize/uwf-volumeunprotect.md
-      - name: Migration from Enhanced Write Filter
-        href: ./Customize/uwf-wes7-ewf-to-win10-uwf.md
-  - name: User Experience
-    expanded: false
-    items:
-    - name: Application Control
-      href: ./Customize/Application-Control.md
-    - name: Device Safeguards
-      href: ./Customize/Device-Safeguards.md
-    - name: Microsoft Store Access
-      href: ./Customize/Microsoft-Store-Access.md
-    - name: Screen Edge Swipe Policy
-      href: ./Customize/Edge-Swipe-Policy.md
-    - name: Settings Page Visibility
-      href: ./Customize/Page-Visibility.md
-    - name: Start Menu and Taskbar
-      href: ./Customize/Layout-Control.md
-    - name: Windows Update Experience
-      href: ./Customize/Update-Notification.md
+  href: ./customize/toc.yml
 - name: Deployment
-  expanded: false
   items:
   - name: Overview
     href: ./Deployment/index.md
@@ -302,7 +105,6 @@
   - name: Volume License Deployment
     href: ./Deployment/Volume-License.md
 - name: Development
-  expanded: false
   items:
   - name: Develop Applications
     href: ./Development/App_dev.md
@@ -311,7 +113,6 @@
   - name: Device Drivers
     href: ./OS-Features/Device-Drivers.md
 - name: Management
-  expanded: false
   items:
   - name: Overview
     href: ./Device-Management/Device-Management-Overview.md
@@ -322,19 +123,16 @@
   - name: Reset and Recovery
     href: ./Device-Management/Reset-and-Recovery.md
 - name: Optimization
-  expanded: false
   items:
   - name: Overview
     href: ./Optimize/Overview.md
   - name: CompactOS
     href: Optimize/CompactOS.md
   - name: Removable Packages
-    expanded: false
     items:
       - name: Overview
         href: ./Optimize/Removable-Packages.md
       - name: Removable Package Reference
-        expanded: false
         items:
         - name: Package - Language Word Breaking Legacy
           href: ./Optimize/Removable-Packages/LanguageFeatures-wordBreaking-Common-Legacy.md
@@ -411,7 +209,6 @@
   - name: Services Guide
     href: ./Optimize/Services.md
   - name: Soft Real-Time
-    expanded: false
     items:
     - name: Overview
       href: ./Soft-Real-Time/Soft-Real-Time.md
@@ -420,7 +217,6 @@
     - name: Application Development
       href: ./Soft-Real-Time/Soft-Real-Time-Application.md
 - name: Security & Compliance
-  expanded: false
   items:
   - name: Accessibility
     href: ./resources/accessibility.md

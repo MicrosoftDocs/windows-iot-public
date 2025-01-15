@@ -1,19 +1,14 @@
 ---
 title: Customizations for IoT Enterprise
-description: Windows IoT Enterprise customizations provide a controlled and specialized experience for the end-users of a Windows device by allowing OEMs and system administrators to lock down the Windows device interaction experience.
-MSHAttr:
-- 'PreferredSiteName:MSDN'
-- 'PreferredLib:/library/windows/hardware'
-ms.assetid: dac59fd3-f5d0-4d02-ac89-0caf7fe3c9dd
+description: Windows IoT Enterprise customizations provide a controlled and specialized experience for the end-users of a Windows device by allowing OEMs and system administrators to lock down the Windows device interaction experience.
 author: sydbruck
 ms.author: sybruckm
 ms.service: windows-iot
 ms.subservice: iot
 ms.date: 02/27/2024
 ms.topic: article
-
-
 ---
+
 # Customizations for IoT Enterprise
 
 > [!TIP]
@@ -21,7 +16,7 @@ ms.topic: article
 
 ## Customize using advanced lockdown
 
-Windows 10 Enterprise customizations provide a controlled and specialized experience for the end-users of a Windows 10 device by allowing OEMs and system administrators to lock down the Windows 10 device interaction experience.
+Windows 10 Enterprise customizations provide a controlled and specialized experience for the end-users of a Windows 10 device by allowing OEMs and system administrators to lock down the Windows 10 device interaction experience.
 
 There are many reasons for locking down a device, such as protecting the system from malicious users, providing a custom defined user experience, and increasing system reliability.
 
@@ -69,4 +64,4 @@ These are some common ways to customize your Windows device.
 | [PCI Express settings](/windows-hardware/customize/power-settings/pci-express-settings) | Settings in this subgroup control the power management of PCI Express links. |
 |[Sleep settings](/windows-hardware/customize/power-settings/sleep-settings) | Settings in this subgroup control sleep, resume, and other related functionality. |
 | [Other power settings](/windows-hardware/customize/power-settings/no-subgroup-settings) | Settings in this subgroup don't belong to any other subgroup. |
-| [Legacy configuration options](/windows-hardware/customize/power-settings/legacy-configuration-options) |
+| [Legacy configuration options](/windows-hardware/customize/power-settings/legacy-configuration-options) ||

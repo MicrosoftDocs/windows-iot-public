@@ -1,0 +1,258 @@
+  items:
+  - name: Overview
+    href: customize-overview.md
+  - name: Custom Logon
+    items:
+    - name: Overview
+      href: Custom-Logon.md
+    - name: Troubleshooting
+      href: troubleshooting-custom-logon.md
+  - name: Embedded Mode
+    href: ../OS-Features/Embedded-Mode.md
+
+
+  - name: Keyboard Filter
+    items:
+    - name: About keyboard filter
+      href: /windows/configuration/keyboard-filter/index?toc=/windows/iot/iot-enterprise/toc.json&bc=/windows/iot/breadcrumb/toc.json
+    - name: Key Names
+      href: /windows/configuration/keyboard-filter/keyboardfilter-key-names?toc=/windows/iot/iot-enterprise/toc.json&bc=/windows/iot/breadcrumb/toc.json
+    - name: Predefined Key Combinations
+      href: /windows/configuration/keyboard-filter/keyboardfilter-list-all-configured-key-combinations?toc=/windows/iot/iot-enterprise/toc.json&bc=/windows/iot/breadcrumb/toc.json
+    - name: WMI Provider Reference
+      items:
+      - name: Overview
+        href: /windows/configuration/keyboard-filter/keyboardfilter-wmi-provider-reference?toc=/windows/iot/iot-enterprise/toc.json&bc=/windows/iot/breadcrumb/toc.json
+      - name: Class WEKF_CustomKey
+        items:
+        - name: Overview
+          href: /windows/configuration/keyboard-filter/wekf-customkey?toc=/windows/iot/iot-enterprise/toc.json&bc=/windows/iot/breadcrumb/toc.json
+        - name: Add
+          href: /windows/configuration/keyboard-filter/wekf-customkeyadd?toc=/windows/iot/iot-enterprise/toc.json&bc=/windows/iot/breadcrumb/toc.json
+        - name: Remove
+          href: /windows/configuration/keyboard-filter/wekf-customkeyremove?toc=/windows/iot/iot-enterprise/toc.json&bc=/windows/iot/breadcrumb/toc.json
+      - name: Class WEKF_PredefinedKey
+        items:
+        - name: Overview
+          href: /windows/configuration/keyboard-filter/wekf-predefinedkey?toc=/windows/iot/iot-enterprise/toc.json&bc=/windows/iot/breadcrumb/toc.json
+        - name: Disable
+          href: /windows/configuration/keyboard-filter/wekf-predefinedkeydisable?toc=/windows/iot/iot-enterprise/toc.json&bc=/windows/iot/breadcrumb/toc.json
+        - name: Enable
+          href: /windows/configuration/keyboard-filter/wekf-predefinedkeyenable?toc=/windows/iot/iot-enterprise/toc.json&bc=/windows/iot/breadcrumb/toc.json
+      - name: Class WEKF_Scancode
+        items:
+        - name: Overview
+          href: /windows/configuration/keyboard-filter/wekf-scancode?toc=/windows/iot/iot-enterprise/toc.json&bc=/windows/iot/breadcrumb/toc.json
+        - name: Add
+          href: /windows/configuration/keyboard-filter/wekf-scancodeadd?toc=/windows/iot/iot-enterprise/toc.json&bc=/windows/iot/breadcrumb/toc.json
+        - name: Remove
+          href: /windows/configuration/keyboard-filter/wekf-scancoderemove?toc=/windows/iot/iot-enterprise/toc.json&bc=/windows/iot/breadcrumb/toc.json
+      - name: Class WEKF-Settings
+        href: /windows/configuration/keyboard-filter/wekf-settings?toc=/windows/iot/iot-enterprise/toc.json&bc=/windows/iot/breadcrumb/toc.json
+    - name: PowerShell script samples
+      items:
+      - name: Overview
+        href: /windows/configuration/keyboard-filter/keyboardfilter-powershell-script-samples?toc=/windows/iot/iot-enterprise/toc.json&bc=/windows/iot/breadcrumb/toc.json
+      - name: Add blocked key Combinations
+        href: /windows/configuration/keyboard-filter/keyboardfilter-add-blocked-key-combinations?toc=/windows/iot/iot-enterprise/toc.json&bc=/windows/iot/breadcrumb/toc.json
+      - name: Disable all blocked key Combinations
+        href: /windows/configuration/keyboard-filter/disable-all-blocked-key-combinations?toc=/windows/iot/iot-enterprise/toc.json&bc=/windows/iot/breadcrumb/toc.json
+      - name: List all configured key combinations
+        href: /windows/configuration/keyboard-filter/keyboardfilter-list-all-configured-key-combinations?toc=/windows/iot/iot-enterprise/toc.json&bc=/windows/iot/breadcrumb/toc.json
+      - name: Modify global settings
+        href: /windows/configuration/keyboard-filter/modify-global-settings?toc=/windows/iot/iot-enterprise/toc.json&bc=/windows/iot/breadcrumb/toc.json
+      - name: Remove key combination configurations
+        href: /windows/configuration/keyboard-filter/remove-key-combination-configurations?toc=/windows/iot/iot-enterprise/toc.json&bc=/windows/iot/breadcrumb/toc.json
+
+
+
+  - name: Kiosk Mode
+    items:
+    - name: Overview
+      href: Kiosk-Mode.md
+    - name: Assigned Access
+      items:
+      - name: Assigned access single-app kiosk
+        href: Single-App-Kiosk.md
+      - name: Assigned access multi-app kiosk
+        href: Multi-App-Kiosk.md
+      - name: Browser Support
+        href: Browser-Support.md
+      - name: WMI Provider Reference
+        href: wedl-assignedaccess.md
+
+
+    - name: Shell Launcher
+      items:
+      - name: Overview
+        href: /windows/configuration/shell-launcher/shell-launcher?toc=/windows/iot/iot-enterprise/toc.json&bc=/windows/iot/breadcrumb/toc.json
+      - name: WMI Provider Reference
+        items:
+        - name: Class WESL_UserSetting
+          href: /windows/configuration/shell-launcher/wesl-usersetting?toc=/windows/iot/iot-enterprise/toc.json&bc=/windows/iot/breadcrumb/toc.json
+        - name: GetCustomShell
+          href: /windows/configuration/shell-launcher/wesl-usersettinggetcustomshell?toc=/windows/iot/iot-enterprise/toc.json&bc=/windows/iot/breadcrumb/toc.json
+        - name: GetDefaultShell
+          href: /windows/configuration/shell-launcher/wesl-usersettinggetdefaultshell?toc=/windows/iot/iot-enterprise/toc.json&bc=/windows/iot/breadcrumb/toc.json
+        - name: IsEnabled
+          href: /windows/configuration/shell-launcher/wesl-usersettingisenabled?toc=/windows/iot/iot-enterprise/toc.json&bc=/windows/iot/breadcrumb/toc.json
+        - name: RemoveCustomShell
+          href: /windows/configuration/shell-launcher/wesl-usersettingremovecustomshell?toc=/windows/iot/iot-enterprise/toc.json&bc=/windows/iot/breadcrumb/toc.json
+        - name: SetCustomShell
+          href: /windows/configuration/shell-launcher/wesl-usersettingsetcustomshell?toc=/windows/iot/iot-enterprise/toc.json&bc=/windows/iot/breadcrumb/toc.json
+        - name: SetDefaultShell
+          href: /windows/configuration/shell-launcher/wesl-usersettingsetdefaultshell?toc=/windows/iot/iot-enterprise/toc.json&bc=/windows/iot/breadcrumb/toc.json
+        - name: SetEnabled
+          href: /windows/configuration/shell-launcher/wesl-usersettingsetenabled?toc=/windows/iot/iot-enterprise/toc.json&bc=/windows/iot/breadcrumb/toc.json
+
+
+  - name: On-Screen Keyboard
+    href: ../OS-Features/On-Screen-Keyboard.md
+  - name: Suppress Blue Screens
+    href: Crash-Recovery.md
+  - name: Unbranded Boot
+    href: Unbranded-Boot.md
+
+
+  - name: Unified Write Filter
+    items:
+    - name: Overview
+      href: /windows/configuration/unified-write-filter/Unified-Write-Filter?toc=/windows/iot/iot-enterprise/toc.json&bc=/windows/iot/breadcrumb/toc.json
+    - name: Hibernate Once/Resume Many (HORM)
+      href: /windows/configuration/unified-write-filter/hibernate-once-resume-many-horm?toc=/windows/iot/iot-enterprise/toc.json&bc=/windows/iot/breadcrumb/toc.json
+    - name: Exclusions
+      href: /windows/configuration/unified-write-filter/uwfexclusions?toc=/windows/iot/iot-enterprise/toc.json&bc=/windows/iot/breadcrumb/toc.json
+    - name: Overlay
+      href: /windows/configuration/unified-write-filter/uwfoverlay?toc=/windows/iot/iot-enterprise/toc.json&bc=/windows/iot/breadcrumb/toc.json
+    - name: Enable
+      href: /windows/configuration/unified-write-filter/uwf-turnonuwf?toc=/windows/iot/iot-enterprise/toc.json&bc=/windows/iot/breadcrumb/toc.json
+    - name: Command Line Utility (uwfmgr.exe)
+      href: /windows/configuration/unified-write-filter/uwfmgrexe?toc=/windows/iot/iot-enterprise/toc.json&bc=/windows/iot/breadcrumb/toc.json
+    - name: Servicing
+      items:
+      - name: Servicing protected devices
+        href: /windows/configuration/unified-write-filter/service-uwf-protected-devices?toc=/windows/iot/iot-enterprise/toc.json&bc=/windows/iot/breadcrumb/toc.json
+      - name: Antimalware support
+        href: /windows/configuration/unified-write-filter/uwf-antimalware-support?toc=/windows/iot/iot-enterprise/toc.json&bc=/windows/iot/breadcrumb/toc.json
+      - name: Windows Updates
+        href: /windows/configuration/unified-write-filter/uwf-apply-windows-updates?toc=/windows/iot/iot-enterprise/toc.json&bc=/windows/iot/breadcrumb/toc.json
+      - name: OEM Updates
+        href: /windows/configuration/unified-write-filter/uwf-apply-oem-updates?toc=/windows/iot/iot-enterprise/toc.json&bc=/windows/iot/breadcrumb/toc.json
+      - name: Servicing master script
+        href: /windows/configuration/unified-write-filter/uwf-master-servicing-script?toc=/windows/iot/iot-enterprise/toc.json&bc=/windows/iot/breadcrumb/toc.json
+      - name: Servicing screen saver
+        href: /windows/configuration/unified-write-filter/uwf-servicing-screen-saver?toc=/windows/iot/iot-enterprise/toc.json&bc=/windows/iot/breadcrumb/toc.json
+    - name: Troubleshooting
+      href: /windows/configuration/unified-write-filter/uwftroubleshooting?toc=/windows/iot/iot-enterprise/toc.json&bc=/windows/iot/breadcrumb/toc.json
+    - name: WMI Provider Reference
+      items:
+      - name: Overview
+        href: /windows/configuration/unified-write-filter/uwf-wmi-provider-reference?toc=/windows/iot/iot-enterprise/toc.json&bc=/windows/iot/breadcrumb/toc.json
+      - name: Class UWF_ExcludedFile
+        href: /windows/configuration/unified-write-filter/uwf-excludedfile?toc=/windows/iot/iot-enterprise/toc.json&bc=/windows/iot/breadcrumb/toc.json
+      - name: Class UWF_ExcludedRegistryKey
+        href: /windows/configuration/unified-write-filter/uwf-excludedregistrykey?toc=/windows/iot/iot-enterprise/toc.json&bc=/windows/iot/breadcrumb/toc.json
+      - name: Class UWF_Filter
+        items:
+        - name: Overview
+          href: /windows/configuration/unified-write-filter/uwf-filter?toc=/windows/iot/iot-enterprise/toc.json&bc=/windows/iot/breadcrumb/toc.json
+        - name: Disable
+          href: /windows/configuration/unified-write-filter/uwf-filterdisable?toc=/windows/iot/iot-enterprise/toc.json&bc=/windows/iot/breadcrumb/toc.json
+        - name: Enable
+          href: /windows/configuration/unified-write-filter/uwf-filterdisable?toc=/windows/iot/iot-enterprise/toc.json&bc=/windows/iot/breadcrumb/toc.json
+        - name: ResetSettings
+          href: /windows/configuration/unified-write-filter/uwf-filterresetsettings?toc=/windows/iot/iot-enterprise/toc.json&bc=/windows/iot/breadcrumb/toc.json
+        - name: RestartSystem
+          href: /windows/configuration/unified-write-filter/uwf-filterrestartsystem?toc=/windows/iot/iot-enterprise/toc.json&bc=/windows/iot/breadcrumb/toc.json
+        - name: ShutdownSystem
+          href: /windows/configuration/unified-write-filter/uwf-filtershutdownsystem?toc=/windows/iot/iot-enterprise/toc.json&bc=/windows/iot/breadcrumb/toc.json
+      - name: Class UWF_Overlay
+        items:
+        - name: Overview
+          href: /windows/configuration/unified-write-filter/uwf-overlay?toc=/windows/iot/iot-enterprise/toc.json&bc=/windows/iot/breadcrumb/toc.json
+        - name: GetOverlayFiles
+          href: /windows/configuration/unified-write-filter/uwf-overlaygetoverlayfiles?toc=/windows/iot/iot-enterprise/toc.json&bc=/windows/iot/breadcrumb/toc.json
+        - name: OverlayFile
+          href: /windows/configuration/unified-write-filter/uwf-overlayfile?toc=/windows/iot/iot-enterprise/toc.json&bc=/windows/iot/breadcrumb/toc.json
+        - name: SetCriticalThreshold
+          href: /windows/configuration/unified-write-filter/uwf-overlaysetcriticalthreshold?toc=/windows/iot/iot-enterprise/toc.json&bc=/windows/iot/breadcrumb/toc.json
+        - name: SetWarningThreshold
+          href: /windows/configuration/unified-write-filter/uwf-overlaysetwarningthreshold?toc=/windows/iot/iot-enterprise/toc.json&bc=/windows/iot/breadcrumb/toc.json
+      - name: Class UWF_OverlayConfig
+        items:
+        - name: Overview
+          href: /windows/configuration/unified-write-filter/uwf-overlayconfig?toc=/windows/iot/iot-enterprise/toc.json&bc=/windows/iot/breadcrumb/toc.json
+        - name: SetMaximumSize
+          href: /windows/configuration/unified-write-filter/uwf-overlayconfigsetmaximumsize?toc=/windows/iot/iot-enterprise/toc.json&bc=/windows/iot/breadcrumb/toc.json
+        - name: SetType
+          href: /windows/configuration/unified-write-filter/uwf-overlayconfigsettype?toc=/windows/iot/iot-enterprise/toc.json&bc=/windows/iot/breadcrumb/toc.json
+      - name: Class UWF_RegistryFilter
+        items:
+        - name: Overview
+          href: /windows/configuration/unified-write-filter/uwf-registryfilter?toc=/windows/iot/iot-enterprise/toc.json&bc=/windows/iot/breadcrumb/toc.json
+        - name: AddExclusion
+          href: /windows/configuration/unified-write-filter/uwf-registryfilteraddexclusion?toc=/windows/iot/iot-enterprise/toc.json&bc=/windows/iot/breadcrumb/toc.json
+        - name: CommitRegistry
+          href: /windows/configuration/unified-write-filter/uwf-registryfiltercommitregistry?toc=/windows/iot/iot-enterprise/toc.json&bc=/windows/iot/breadcrumb/toc.json
+        - name: CommitRegistryDeletion
+          href: /windows/configuration/unified-write-filter/uwf-registryfiltercommitregistrydeletion?toc=/windows/iot/iot-enterprise/toc.json&bc=/windows/iot/breadcrumb/toc.json
+        - name: FindExclusion
+          href: /windows/configuration/unified-write-filter/uwf-registryfilterfindexclusion?toc=/windows/iot/iot-enterprise/toc.json&bc=/windows/iot/breadcrumb/toc.json
+        - name: GetExclusions
+          href: /windows/configuration/unified-write-filter/uwf-registryfiltergetexclusions?toc=/windows/iot/iot-enterprise/toc.json&bc=/windows/iot/breadcrumb/toc.json
+        - name: RemoveExclusion
+          href: /windows/configuration/unified-write-filter/uwf-registryfilterremoveexclusion?toc=/windows/iot/iot-enterprise/toc.json&bc=/windows/iot/breadcrumb/toc.json
+      - name: Class UWF_Servicing
+        items:
+        - name: Overview
+          href: /windows/configuration/unified-write-filter/uwf-servicing?toc=/windows/iot/iot-enterprise/toc.json&bc=/windows/iot/breadcrumb/toc.json
+        - name: Disable
+          href: /windows/configuration/unified-write-filter/uwf-servicingdisable?toc=/windows/iot/iot-enterprise/toc.json&bc=/windows/iot/breadcrumb/toc.json
+        - name: Enable
+          href: /windows/configuration/unified-write-filter/uwf-servicingenable?toc=/windows/iot/iot-enterprise/toc.json&bc=/windows/iot/breadcrumb/toc.json
+        - name: UpdateWindows
+          href: /windows/configuration/unified-write-filter/uwf-servicingupdatewindows?toc=/windows/iot/iot-enterprise/toc.json&bc=/windows/iot/breadcrumb/toc.json
+      - name: Class UWF_Volume
+        items:
+        - name: Overview
+          href: /windows/configuration/unified-write-filter/uwf-volume?toc=/windows/iot/iot-enterprise/toc.json&bc=/windows/iot/breadcrumb/toc.json
+        - name: AddExclusion
+          href: /windows/configuration/unified-write-filter/uwf-volumeaddexclusion?toc=/windows/iot/iot-enterprise/toc.json&bc=/windows/iot/breadcrumb/toc.json
+        - name: CommitFile
+          href: /windows/configuration/unified-write-filter/uwf-volumecommitfile?toc=/windows/iot/iot-enterprise/toc.json&bc=/windows/iot/breadcrumb/toc.json
+        - name: CommitFileDeletion
+          href: /windows/configuration/unified-write-filter/uwf-volumecommitfiledeletion?toc=/windows/iot/iot-enterprise/toc.json&bc=/windows/iot/breadcrumb/toc.json
+        - name: FindExclusion
+          href: /windows/configuration/unified-write-filter/uwf-volumefindexclusion?toc=/windows/iot/iot-enterprise/toc.json&bc=/windows/iot/breadcrumb/toc.json
+        - name: GetExclusions
+          href: /windows/configuration/unified-write-filter/uwf-volumegetexclusions?toc=/windows/iot/iot-enterprise/toc.json&bc=/windows/iot/breadcrumb/toc.json
+        - name: protect
+          href: /windows/configuration/unified-write-filter/uwf-volumeprotect?toc=/windows/iot/iot-enterprise/toc.json&bc=/windows/iot/breadcrumb/toc.json
+        - name: RemoveAllExclusions
+          href: /windows/configuration/unified-write-filter/uwf-volumeremoveallexclusions?toc=/windows/iot/iot-enterprise/toc.json&bc=/windows/iot/breadcrumb/toc.json
+        - name: RemoveExclusion
+          href: /windows/configuration/unified-write-filter/uwf-volumeremoveexclusion?toc=/windows/iot/iot-enterprise/toc.json&bc=/windows/iot/breadcrumb/toc.json
+        - name: SetBindByDriveLetter
+          href: /windows/configuration/unified-write-filter/uwf-volumesetbindbydriveletter?toc=/windows/iot/iot-enterprise/toc.json&bc=/windows/iot/breadcrumb/toc.json
+        - name: Unprotect
+          href: /windows/configuration/unified-write-filter/uwf-volumeunprotect?toc=/windows/iot/iot-enterprise/toc.json&bc=/windows/iot/breadcrumb/toc.json
+      - name: Migration from Enhanced Write Filter
+        href: /windows/configuration/unified-write-filter/uwf-wes7-ewf-to-win10-uwf?toc=/windows/iot/iot-enterprise/toc.json&bc=/windows/iot/breadcrumb/toc.json
+
+
+  - name: User Experience
+    items:
+    - name: Application Control
+      href: Application-Control.md
+    - name: Device Safeguards
+      href: Device-Safeguards.md
+    - name: Microsoft Store Access
+      href: Microsoft-Store-Access.md
+    - name: Screen Edge Swipe Policy
+      href: Edge-Swipe-Policy.md
+    - name: Settings Page Visibility
+      href: Page-Visibility.md
+    - name: Start Menu and Taskbar
+      href: Layout-Control.md
+    - name: Windows Update Experience
+      href: Update-Notification.md
