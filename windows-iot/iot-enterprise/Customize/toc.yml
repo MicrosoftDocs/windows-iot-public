@@ -1,12 +1,16 @@
   items:
   - name: Overview
     href: customize-overview.md
+
+
   - name: Custom Logon
     items:
     - name: Overview
-      href: /windows/configuration/custom-logon
+      href: /windows/configuration/custom-logon?toc=/windows/iot/iot-enterprise/toc.json&bc=/windows/iot/breadcrumb/toc.json
     - name: Troubleshooting
-      href: troubleshooting-/windows/configuration/custom-logon
+      href: /windows/configuration/custom-logon/troubleshoot?toc=/windows/iot/iot-enterprise/toc.json&bc=/windows/iot/breadcrumb/toc.json
+
+
   - name: Embedded Mode
     href: ../OS-Features/Embedded-Mode.md
 
@@ -69,17 +73,17 @@
   - name: Kiosk Mode
     items:
     - name: Overview
-      href: Kiosk-Mode.md
+      href: /windows/configuration/shell-launcher/kiosk-mode?toc=/windows/iot/iot-enterprise/toc.json&bc=/windows/iot/breadcrumb/toc.json
     - name: Assigned Access
       items:
       - name: Assigned access single-app kiosk
-        href: /windows/configuration/shell-launcher/single-app-kiosk
+        href: /windows/configuration/shell-launcher/single-app-kiosk?toc=/windows/iot/iot-enterprise/toc.json&bc=/windows/iot/breadcrumb/toc.json
       - name: Assigned access multi-app kiosk
-        href: /windows/configuration/shell-launcher/multi-app-kiosk
+        href: /windows/configuration/shell-launcher/multi-app-kiosk?toc=/windows/iot/iot-enterprise/toc.json&bc=/windows/iot/breadcrumb/toc.json
       - name: Browser Support
-        href: /windows/configuration/shell-launcher/browser-support
+        href: /windows/configuration/shell-launcher/browser-support?toc=/windows/iot/iot-enterprise/toc.json&bc=/windows/iot/breadcrumb/toc.json
       - name: WMI Provider Reference
-        href: /windows/configuration/shell-launcher/wedl-assignedaccess
+        href: /windows/configuration/shell-launcher/wedl-assignedaccess?toc=/windows/iot/iot-enterprise/toc.json&bc=/windows/iot/breadcrumb/toc.json
 
 
     - name: Shell Launcher
@@ -110,8 +114,10 @@
     href: ../OS-Features/On-Screen-Keyboard.md
   - name: Suppress Blue Screens
     href: Crash-Recovery.md
+
+
   - name: Unbranded Boot
-    href: /windows/configuration/unbranded-boot
+    href: /windows/configuration/unbranded-boot?toc=/windows/iot/iot-enterprise/toc.json&bc=/windows/iot/breadcrumb/toc.json
 
 
   - name: Unified Write Filter

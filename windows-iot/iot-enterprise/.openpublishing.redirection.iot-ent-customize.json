@@ -544,6 +544,11 @@
             "source_path_from_root": "/windows-iot/iot-enterprise/Customize/wesl-usersettingsetenabled.md",
             "redirect_url": "/windows/configuration/shell-launcher/wesl-usersettingsetenabled",
             "redirect_document_id": false
+        },
+        {
+            "source_path_from_root": "/windows-iot/iot-enterprise/Customize/kiosk-mode.md",
+            "redirect_url": "/windows/configuration/shell-launcher/kiosk-mode",
+            "redirect_document_id": false
         }
     ]
 }
