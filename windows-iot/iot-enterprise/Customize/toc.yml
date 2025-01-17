@@ -6,7 +6,7 @@
   - name: Custom Logon
     items:
     - name: Overview
-      href: /windows/configuration/custom-logon?toc=/windows/iot/iot-enterprise/toc.json&bc=/windows/iot/breadcrumb/toc.json
+      href: /windows/configuration/custom-logon/index?toc=/windows/iot/iot-enterprise/toc.json&bc=/windows/iot/breadcrumb/toc.json
     - name: Troubleshooting
       href: /windows/configuration/custom-logon/troubleshoot?toc=/windows/iot/iot-enterprise/toc.json&bc=/windows/iot/breadcrumb/toc.json
 
