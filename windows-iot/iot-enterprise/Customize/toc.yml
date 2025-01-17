@@ -122,7 +122,7 @@
   - name: Unified Write Filter
     items:
     - name: Overview
-      href: /windows/configuration/unified-write-filter/Unified-Write-Filter?toc=/windows/iot/iot-enterprise/toc.json&bc=/windows/iot/breadcrumb/toc.json
+      href: /windows/configuration/unified-write-filter/?toc=/windows/iot/iot-enterprise/toc.json&bc=/windows/iot/breadcrumb/toc.json
     - name: Hibernate Once/Resume Many (HORM)
       href: /windows/configuration/unified-write-filter/hibernate-once-resume-many-horm?toc=/windows/iot/iot-enterprise/toc.json&bc=/windows/iot/breadcrumb/toc.json
     - name: Exclusions
