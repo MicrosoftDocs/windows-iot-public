@@ -88,7 +88,7 @@
     - name: Shell Launcher
       items:
       - name: Overview
-        href: /windows/configuration/shell-launcher/shell-launcher?toc=/windows/iot/iot-enterprise/toc.json&bc=/windows/iot/breadcrumb/toc.json
+        href: /windows/configuration/shell-launcher/index?toc=/windows/iot/iot-enterprise/toc.json&bc=/windows/iot/breadcrumb/toc.json
       - name: WMI Provider Reference
         items:
         - name: Class WESL_UserSetting
@@ -116,13 +116,13 @@
 
 
   - name: Unbranded Boot
-    href: /windows/configuration/unbranded-boot?toc=/windows/iot/iot-enterprise/toc.json&bc=/windows/iot/breadcrumb/toc.json
+    href: /windows/configuration/unbranded-boot/index?toc=/windows/iot/iot-enterprise/toc.json&bc=/windows/iot/breadcrumb/toc.json
 
 
   - name: Unified Write Filter
     items:
     - name: Overview
-      href: /windows/configuration/unified-write-filter/?toc=/windows/iot/iot-enterprise/toc.json&bc=/windows/iot/breadcrumb/toc.json
+      href: /windows/configuration/unified-write-filter/index?toc=/windows/iot/iot-enterprise/toc.json&bc=/windows/iot/breadcrumb/toc.json
     - name: Hibernate Once/Resume Many (HORM)
       href: /windows/configuration/unified-write-filter/hibernate-once-resume-many-horm?toc=/windows/iot/iot-enterprise/toc.json&bc=/windows/iot/breadcrumb/toc.json
     - name: Exclusions
