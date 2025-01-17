@@ -1,19 +1,14 @@
 ---
 title: Customizations for IoT Enterprise
-description: Windows IoT Enterprise customizations provide a controlled and specialized experience for the end-users of a Windows device by allowing OEMs and system administrators to lock down the Windows device interaction experience.
-MSHAttr:
-- 'PreferredSiteName:MSDN'
-- 'PreferredLib:/library/windows/hardware'
-ms.assetid: dac59fd3-f5d0-4d02-ac89-0caf7fe3c9dd
+description: Windows IoT Enterprise customizations provide a controlled and specialized experience for the end-users of a Windows device by allowing OEMs and system administrators to lock down the Windows device interaction experience.
 author: sydbruck
 ms.author: sybruckm
 ms.service: windows-iot
 ms.subservice: iot
 ms.date: 02/27/2024
 ms.topic: article
-
-
 ---
+
 # Customizations for IoT Enterprise
 
 > [!TIP]
@@ -21,7 +16,7 @@ ms.topic: article
 
 ## Customize using advanced lockdown
 
-Windows 10 Enterprise customizations provide a controlled and specialized experience for the end-users of a Windows 10 device by allowing OEMs and system administrators to lock down the Windows 10 device interaction experience.
+Windows 10 Enterprise customizations provide a controlled and specialized experience for the end-users of a Windows 10 device by allowing OEMs and system administrators to lock down the Windows 10 device interaction experience.
 
 There are many reasons for locking down a device, such as protecting the system from malicious users, providing a custom defined user experience, and increasing system reliability.
 
@@ -29,11 +24,11 @@ You can lock down your Windows 10 desktop device by using the lock down features
 
 | Topic                                                   | Description                                                                                         |
 |:--------------------------------------------------------|:----------------------------------------------------------------------------------------------------|
-| [Custom Logon](custom-logon.md)  | You can use the Custom Logon feature to suppress Windows 10 UI elements that relate to the Welcome screen and shutdown screen. For example, you can suppress all elements of the Welcome screen UI and provide a custom logon UI. You can suppress the ease of access option on the logon screen. You can also suppress the Blocked Shutdown Resolver (BSDR) screen and automatically end applications while the OS waits for applications to close before a shutdown.    |
+| [Custom Logon](/windows/configuration/custom-logon)  | You can use the Custom Logon feature to suppress Windows 10 UI elements that relate to the Welcome screen and shutdown screen. For example, you can suppress all elements of the Welcome screen UI and provide a custom logon UI. You can suppress the ease of access option on the logon screen. You can also suppress the Blocked Shutdown Resolver (BSDR) screen and automatically end applications while the OS waits for applications to close before a shutdown.    |
 | [Keyboard Filter](/windows/configuration/keyboard-filter)     | Use Keyboard Filter to suppress undesirable key presses or key combinations. Normally, a customer can use certain Windows key combinations like `Ctrl+Alt+Delete` or `Ctrl+Shift+Tab` to alter the operation of a device by locking the screen or using Task Manager to close a running application.   |
-| [Shell Launcher](shell-launcher.md)   | Use Shell Launcher to replace the default Windows 10 shell with a custom shell. You can use almost any application or executable as your custom shell, such as a command window or a custom dedicated application.    |
-| [Unbranded Boot](unbranded-boot.md)    | Unbranded Boot can suppress Windows elements that appear when Windows starts or resumes and can suppress the crash screen when Windows encounters an error that it cannot recover from.    |
-| [Unified Write Filter (UWF)](unified-write-filter.md)    | Use Unified Write Filter (UWF) on your device to help protect your physical storage media, including most standard writable storage types that are supported by Windows, such as physical hard disks, solid-state drives, internal USB devices, external SATA devices, and so on. You can also use UWF to make read-only media appear to the OS as a writable volume.  |
+| [Shell Launcher](/windows/configuration/shell-launcher)   | Use Shell Launcher to replace the default Windows 10 shell with a custom shell. You can use almost any application or executable as your custom shell, such as a command window or a custom dedicated application.    |
+| [Unbranded Boot](/windows/configuration/unbranded-boot)    | Unbranded Boot can suppress Windows elements that appear when Windows starts or resumes and can suppress the crash screen when Windows encounters an error that it cannot recover from.    |
+| [Unified Write Filter (UWF)](/windows/configuration/unified-write-filter)    | Use Unified Write Filter (UWF) on your device to help protect your physical storage media, including most standard writable storage types that are supported by Windows, such as physical hard disks, solid-state drives, internal USB devices, external SATA devices, and so on. You can also use UWF to make read-only media appear to the OS as a writable volume.  |
 
 ## Windows Desktop Customizations
 
@@ -69,4 +64,4 @@ These are some common ways to customize your Windows device.
 | [PCI Express settings](/windows-hardware/customize/power-settings/pci-express-settings) | Settings in this subgroup control the power management of PCI Express links. |
 |[Sleep settings](/windows-hardware/customize/power-settings/sleep-settings) | Settings in this subgroup control sleep, resume, and other related functionality. |
 | [Other power settings](/windows-hardware/customize/power-settings/no-subgroup-settings) | Settings in this subgroup don't belong to any other subgroup. |
-| [Legacy configuration options](/windows-hardware/customize/power-settings/legacy-configuration-options) |
+| [Legacy configuration options](/windows-hardware/customize/power-settings/legacy-configuration-options) ||

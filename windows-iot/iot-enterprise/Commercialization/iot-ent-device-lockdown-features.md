@@ -58,7 +58,7 @@ There are several methods to enable the Keyboard Filter, we're providing instruc
 
 ## Unified Write Filter (UWF)
 
-[Unified Write Filter (UWF)](../Customize/Unified-Write-Filter.md) helps to protect your device's configuration by intercepting and redirecting any writes to the drive (app installations, settings changes, saved data) in a virtual overlay. This overlay is automatically deleted by rebooting unless configured to be retained until the Unified Write Filter is disabled.
+[Unified Write Filter (UWF)](/windows/configuration/unified-write-filter) helps to protect your device's configuration by intercepting and redirecting any writes to the drive (app installations, settings changes, saved data) in a virtual overlay. This overlay is automatically deleted by rebooting unless configured to be retained until the Unified Write Filter is disabled.
 
 ### Enable the UWF
 
@@ -72,7 +72,7 @@ There are several methods to enable the Keyboard Filter, we're providing instruc
 
 1. Configuring and enabling the overlay and protection is best done through scripting but for this lab we configure using command line
 
-   For more information about the UWF, including sample scripts, see [Unified Write Filter (UWF)](../Customize/Unified-Write-Filter.md).
+   For more information about the UWF, including sample scripts, see [Unified Write Filter (UWF)](/windows/configuration/unified-write-filter).
 
 1. At an Administrative Command prompt, run the following commands:
 
@@ -116,7 +116,7 @@ There are several methods to enable the Keyboard Filter, we're providing instruc
 
 ## Unbranded boot
 
-[Unbranded boot](../Customize/Unbranded-Boot.md) allows you to:
+[Unbranded boot](/windows/configuration/unbranded-boot) allows you to:
 
 - Suppress Windows elements that appear when Windows starts or resumes.
 - Suppress the crash screen when Windows encounters an error that it can't recover from.
@@ -161,7 +161,7 @@ Restart the reference device and notice that the Windows UI elements are suppres
 
 ## Custom Logon
 
-You can use the [Custom Logon](../Customize/Custom-Logon.md) feature to suppress Windows UI elements that relate to the Welcome screen and shutdown screen. For example, you can suppress all elements of the Welcome screen UI and provide a custom logon UI. You can also suppress the Blocked Shutdown Resolver (BSDR) screen and automatically end applications while the OS waits for applications to close before a shutdown. For more information, see [Custom Logon](../Customize/Custom-Logon.md).
+You can use the [Custom Logon](/windows/configuration/custom-logon) feature to suppress Windows UI elements that relate to the Welcome screen and shutdown screen. For example, you can suppress all elements of the Welcome screen UI and provide a custom logon UI. You can also suppress the Blocked Shutdown Resolver (BSDR) screen and automatically end applications while the OS waits for applications to close before a shutdown. For more information, see [Custom Logon](/windows/configuration/custom-logon).
 
 > [!NOTE]
 > Custom Logon feature will not work on images that are using a blank or evaluation product key. You must use a valid Product Key to see the changes made with the below commands.

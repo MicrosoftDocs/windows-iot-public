@@ -12,9 +12,9 @@ ms.subservice: iot
 
 # Lab 5: Configure Shell Launcher or Assigned Access
 
-Windows IoT Enterprise allows you to build fixed purpose devices such as ATM machines, point-of-sale terminals, medical devices, digital signs, or kiosks. Kiosk mode helps you create a dedicated and locked down user experience on these fixed purpose devices. Windows IoT Enterprise offers a set of different locked-down experiences for public or specialized use: [assigned access single-app kiosks](../Customize/Single-App-Kiosk.md), [assigned access multi-app kiosks](../Customize/Multi-App-Kiosk.md), or [shell launcher](../Customize/Shell-Launcher.md).
+Windows IoT Enterprise allows you to build fixed purpose devices such as ATM machines, point-of-sale terminals, medical devices, digital signs, or kiosks. Kiosk mode helps you create a dedicated and locked down user experience on these fixed purpose devices. Windows IoT Enterprise offers a set of different locked-down experiences for public or specialized use: [assigned access single-app kiosks](/windows/configuration/shell-launcher/single-app-kiosk), [assigned access multi-app kiosks](/windows/configuration/shell-launcher/multi-app-kiosk), or [shell launcher](/windows/configuration/shell-launcher).
 
-Kiosk configurations are based upon either [assigned access](/windows/configuration/guidelines-for-assigned-access-app) or [shell launcher](../Customize/Shell-Launcher.md).
+Kiosk configurations are based upon either [assigned access](/windows/configuration/guidelines-for-assigned-access-app) or [shell launcher](/windows/configuration/shell-launcher).
 
 ## Prerequisites
 
@@ -28,7 +28,7 @@ In lab 4, we used Sysprep to get the system ready for capture and deployment. Th
 
 1. Turn on the reference IoT device and boot to the OS partition. The OS was in a Sysprep state and OOBE should begin.
 
-1. Complete the OOBE experience. Choose the settings that match your device requirements.  
+1. Complete the OOBE experience. Choose the settings that match your device requirements.
 
 ## Enable and configure Shell Launcher
 
@@ -37,12 +37,12 @@ In lab 4, we used Sysprep to get the system ready for capture and deployment. Th
 Once the device is booted to the desktop, enable the Shell Launcher. From an Administrative Command Prompt:
 
 ```cmd
-Dism /online /Enable-Feature /all /FeatureName:Client-EmbeddedShellLauncher 
+Dism /online /Enable-Feature /all /FeatureName:Client-EmbeddedShellLauncher
 ```
 
 ### Configure Shell Launcher to run an OEM application
 
-With Shell Launcher enabled, you can set an application as the Windows Shell. In the following steps, we show you how to use *powershell.exe* as the shell for the current user. In your device, you use a different application in place of *PowerShell* to configure the system to use the OEM application as the shell, but the steps are the same. See [Shell launcher](../Customize/Shell-Launcher.md) to learn more.
+With Shell Launcher enabled, you can set an application as the Windows Shell. In the following steps, we show you how to use *powershell.exe* as the shell for the current user. In your device, you use a different application in place of *PowerShell* to configure the system to use the OEM application as the shell, but the steps are the same. See [Shell launcher](/windows/configuration/shell-launcher) to learn more.
 
 To set *powershell.exe* as your custom shell:
 

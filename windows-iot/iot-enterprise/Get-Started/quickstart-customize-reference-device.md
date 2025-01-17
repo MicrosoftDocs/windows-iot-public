@@ -39,15 +39,15 @@ For more information, see [Audit mode overview](/windows-hardware/manufacture/de
 
 ## Suppress all Windows UI elements during startup with Unbranded Boot
 
-You can suppress Windows elements that appear when Windows starts or resumes and can suppress the crash screen when Windows encounters an error that it can't recover from. This feature is known as [Unbranded Boot](../Customize/Unbranded-Boot.md).
+You can suppress Windows elements that appear when Windows starts or resumes and can suppress the crash screen when Windows encounters an error that it can't recover from. This feature is known as [Unbranded Boot](/windows/configuration/unbranded-boot).
 
 This section provides steps to configure Unbranded Boot in Audit mode using Deployment Image Servicing and Management (DISM) tool in your reference device sample. The steps apply to both physical device and virtual machine:
 
 1. Enable the Unbranded boot feature by running the following command in Command Prompt with Administrator privileges:
 
     ```cmd
-    Dism /online /enable-feature /featureName:Client-DeviceLockdown  
-    Dism /online /enable-feature /FeatureName:Client-EmbeddedBootExp 
+    Dism /online /enable-feature /featureName:Client-DeviceLockdown
+    Dism /online /enable-feature /FeatureName:Client-EmbeddedBootExp
     ```
 
 1. Restart the reference device.
@@ -57,33 +57,33 @@ This section provides steps to configure Unbranded Boot in Audit mode using Depl
 1. Disable the F8 key during startup to prevent access to the Advanced startup options menu:
 
     ```cmd
-    bcdedit.exe -set {globalsettings} advancedoptions false 
+    bcdedit.exe -set {globalsettings} advancedoptions false
     ```
 
 1. Disable the F10 key during startup to prevent access to the Advanced startup options menu:
 
     ```cmd
-    bcdedit.exe -set {globalsettings} optionsedit false 
+    bcdedit.exe -set {globalsettings} optionsedit false
     ```
 
 1. Suppress all Windows UI elements (logo, status indicator, and status message) during startup:
 
     ```cmd
-    bcdedit.exe -set {globalsettings} bootuxdisabled on 
+    bcdedit.exe -set {globalsettings} bootuxdisabled on
     ```
 
 1. Restart the reference device and notice that the Windows UI elements are suppressed during startup.
 
 ## Suppress Windows UI elements from welcome and shutdown screens with Custom Logon
 
-You can use the [Custom Logon](../Customize/Custom-Logon.md) feature to suppress Windows UI elements that relate to the Welcome screen and shutdown screen. For example, you can suppress all elements of the Welcome screen UI and provide a custom logon UI.
+You can use the [Custom Logon](/windows/configuration/custom-logon) feature to suppress Windows UI elements that relate to the Welcome screen and shutdown screen. For example, you can suppress all elements of the Welcome screen UI and provide a custom logon UI.
 
 This section provides steps to configure Custom Logon in Audit mode using DISM in your reference device sample. The steps apply to both physical device and virtual machine:
 
 1. Enable the Custom Logon feature by running the following command at Command Prompt with Administrator privileges. If prompted to restart, choose **No**:
 
     ```cmd
-    Dism /online /enable-feature /featurename:Client-DeviceLockdown /featurename:Client-EmbeddedLogon 
+    Dism /online /enable-feature /featurename:Client-DeviceLockdown /featurename:Client-EmbeddedLogon
     ```
 
 1. Modify the following registry entries. If prompted to overwrite, choose **Yes**:
@@ -128,14 +128,14 @@ This section provides steps to configure Custom Logon in Audit mode using DISM i
 
 ## Enable a custom shell experience
 
-Windows IoT Enterprise allows you to build fixed purpose devices such as ATM machines, point-of-sale terminals, medical devices, digital signs, or kiosks. Kiosk mode helps you create a dedicated and locked down user experience on these fixed purpose devices. Windows IoT Enterprise offers a set of different locked-down experiences for public or specialized use: [assigned access single-app kiosks](../Customize/Single-App-Kiosk.md), [assigned access multi-app kiosks](../Customize/Multi-App-Kiosk.md), or [shell launcher](../Customize/Shell-Launcher.md).
+Windows IoT Enterprise allows you to build fixed purpose devices such as ATM machines, point-of-sale terminals, medical devices, digital signs, or kiosks. Kiosk mode helps you create a dedicated and locked down user experience on these fixed purpose devices. Windows IoT Enterprise offers a set of different locked-down experiences for public or specialized use: [assigned access single-app kiosks](/windows/configuration/shell-launcher/single-app-kiosk), [assigned access multi-app kiosks](/windows/configuration/shell-launcher/multi-app-kiosk), or [shell launcher](/windows/configuration/shell-launcher).
 
 This section provides steps to configure Shell Launcher in Audit mode using DISM in your reference device sample. The steps apply to both physical device and virtual machine:
 
 1. Enable the Shell Launcher feature by running the following command at Command Prompt with Administrator privileges:
 
     ```cmd
-    Dism /online /enable-feature /featurename:Client-EmbeddedShellLauncher 
+    Dism /online /enable-feature /featurename:Client-EmbeddedShellLauncher
     ```
 
 1. With Shell Launcher enabled, you can set an application as the Windows Shell. To set *powershell.exe* as your custom shell, open a Windows PowerShell Prompt with Administrator privileges and run:
@@ -167,7 +167,7 @@ You can leave the reference device with *powershell.exe* as your custom shell an
     $ShellLauncherClass = [wmiclass]"\\localhost\root\standardcimv2\embedded:WESL_UserSetting"
 
     $ShellLauncherClass.SetDefaultShell("explorer.exe",1)
-    
+
     $ShellLauncherClass.SetEnabled($TRUE)
     ```
 
