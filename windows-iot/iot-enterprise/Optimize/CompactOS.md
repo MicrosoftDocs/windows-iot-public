@@ -13,10 +13,10 @@ description: Using Compact OS with Windows IoT Enterprise
 
 # Using Compact OS with Windows IoT Enterprise
 
-Applies to:  
-✅ Windows 11 IoT Enterprise  
-✅ Windows 10 IoT Enterprise  
-✅ Windows 10 IoT Enterprise LTSC 2021  
+Applies to:
+✅ Windows 11 IoT Enterprise
+✅ Windows 10 IoT Enterprise
+✅ Windows 10 IoT Enterprise LTSC 2021
 
  Compact OS installs the operating system files as compressed files and lets you run the operating system from the compressed files to save disk space.  Compact OS can be enabled or disabled on the fly and is supported on both UEFI-based and BIOS-based devices.
 
@@ -87,18 +87,18 @@ In addition to the Windows ADK, you can use the [diskspd](https://github.com/mic
 
 ## Best practices for using Compact OS and UWF
 
-[Unified Write Filter (UWF)](../Customize/Unified-Write-Filter.md) protects your storage devices by intercepting and redirecting any writes to the drive to a virtual overlay. UWF intercepts writes to storage and redirects them to the virtual overlay. Enabling or disabling Compact OS while UWF is enabled fills the overlay reducing performance. In addition, the overlay is cleared when the system is rebooted.  When Compact OS is enabled while UWF is already protecting the storage, rebooting the system reverts the Compact OS enabling.  Consider the following sequence guidance when using both Compact OS and UWF on a device:
+[Unified Write Filter (UWF)](/windows/configuration/unified-write-filter) protects your storage devices by intercepting and redirecting any writes to the drive to a virtual overlay. UWF intercepts writes to storage and redirects them to the virtual overlay. Enabling or disabling Compact OS while UWF is enabled fills the overlay reducing performance. In addition, the overlay is cleared when the system is rebooted.  When Compact OS is enabled while UWF is already protecting the storage, rebooting the system reverts the Compact OS enabling.  Consider the following sequence guidance when using both Compact OS and UWF on a device:
 
 - During deployment, enabling Compact OS must occur before UWF is enabled.
 - To change state of Compact OS after deployment, first disable UWF then Enable or Disable Compact OS before re-enabling UWF.
-- To change Compact OS configuration after deploying Compact OS and UWF use UWF servicing mode. For more information, see [Service UWF-protected devices](../Customize/uwf-servicing.md).
+- To change Compact OS configuration after deploying Compact OS and UWF use UWF servicing mode. For more information, see [Service UWF-protected devices](/windows/configuration/unified-write-filter/uwf-servicing).
 
 ## More file compression options
 
-Enabling Compact OS compresses OS files and some select set of program files, highly optimized for executables and read-only binary files.  For custom read-only program files added by OEMs, you can target and additionally compress them with Compact.exe /EXE options.  
+Enabling Compact OS compresses OS files and some select set of program files, highly optimized for executables and read-only binary files.  For custom read-only program files added by OEMs, you can target and additionally compress them with Compact.exe /EXE options.
 
 ```cmd
-Compact.exe /C /S:"c:\Program Files (x86)\ target custom program folder" /EXE:XPRESS8K *.dll  
+Compact.exe /C /S:"c:\Program Files (x86)\ target custom program folder" /EXE:XPRESS8K *.dll
 ```
 
 >[!NOTE]
