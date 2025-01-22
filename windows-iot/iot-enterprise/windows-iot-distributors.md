@@ -97,12 +97,11 @@ Distributors can apply their Windows IoT development experiences, and knowledge,
 | South Africa                          | Arrow Altech Distribution (Pty) Ltd           | Riaan van Kooten</br>[RvanKooten@arrow.altech.co.za](mailto:RvanKooten@arrow.altech.co.za) | +27 0 31 279 1660 |
 | EMEA                                  | Arrow Europe                                  | Tze Chiew</br>[WindowsChamp@arrow.com](mailto:WindowsChamp@arrow.com) | +31 (0) 61240 3476 |
 | Netherlands, Belgium, Luxembourg      | Arrow Europe                                  | Microsoft Support Team Benelux</br>[sales.ais.benelux@arrow.com](mailto:sales.ais.benelux@arrow.com) | +31 30 899 0730 |
-| Germany, Austria, Switzerland         | Arrow Europe                                  | Christian Hammes</br>[chammes@arrow.com](mailto:chammes@arrow.com) | +49 6102 5030 8268 |
-| Italy, Spain, Portugal                | Arrow Europe                                  | Davide Chiodi</br>[Davide.Chiodi@arrow.com](mailto:Davide.Chiodi@arrow.com) | +39 02 6612 5388 |
+| Germany, Austria, Switzerland         | Arrow Europe                                  | Dennis Kraus</br>[dkraus@arrow.com](mailto:dkraus@arrow.com) | +49 6102 5030407 |
+| Italy, Spain, Portugal                | Arrow Europe                                  | Jose Cuesta</br>[jcuesta@arrow.com](mailto:jcuesta@arrow.com) | +34 696 90 99 02 |
 | Norway, Sweden, Finland, Denmark      | Arrow Europe                                  | Microsoft Support NORDIC</br>[sales.ais.nordic@arrow.com](mailto:sales.ais.nordic@arrow.com) | + 46 73 901 76 38 |
 | UK, Ireland                           | Arrow Europe                                  | Microsoft Support UK&I</br>[sales.ais.northern@arrow.com](mailto:sales.ais.northern@arrow.com) | + 46 73 901 76 38 |
 | France                                | Arrow Europe                                  | Isabelle Pillois</br>[Isabelle.Pillois@arrow.com](mailto:Isabelle.Pillois@arrow.com) | +33 1 49 97 13 38 |
-| Italy                                 | Arrow Europe                                  | Alberto Alzati</br>[aalzati@arroweurope.com](mailto:aalzati@arroweurope.com) | +39 02 6612 5535 |
 | Israel                                | Arrow Rapac Ltd.                              | Danny Morim</br>[dmorim@arroweurope.com](mailto:dmorim@arroweurope.com) | +97 23 920 3479 |
 | EMEA                                  | Avnet Silica                                  | Martin Grossen [microsoft@avnet.eu](mailto:microsoft@avnet.eu) |+41 62 919 55 57|
 | Eastern Europe, Iberia                | Avnet Silica                                  | Claudia Remane</br>[microsoft@avnet.eu](mailto:microsoft@avnet.eu) | +49 8121 777 299 |
@@ -146,4 +145,4 @@ Distributors can apply their Windows IoT development experiences, and knowledge,
 | Japan    | Ryoyo Electro Corporation     |Tetsuya Nagano</br>[tetsuya_nagano@ryoyo.co.jp](mailto:tetsuya_nagano@ryoyo.co.jp)</br>IS MSIS Division</br>[msoem@ryoyo.co.jp](mailto:msoem@ryoyo.co.jp) | +81 3 3546 6211 |
 | Japan    | Tokyo Electron Device Limited |Naoto Sasaki</br>[sasaki.n@teldevice.co.jp](mailto:sasaki.n@teldevice.co.jp)</br>Edge Cloud Solution Dept.</br>[esg@teldevice.co.jp](mailto:esg@teldevice.co.jp) | +81 50 3509 5674 |
 
-11/27/2024
+1/22/2025
