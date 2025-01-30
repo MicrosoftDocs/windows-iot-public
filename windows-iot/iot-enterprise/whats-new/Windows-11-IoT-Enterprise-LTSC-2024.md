@@ -33,7 +33,7 @@ Windows 11 IoT Enterprise LTSC 2024 follows the [Fixed Lifecycle Policy](/lifecy
 
 For more information, see [Windows 11 IoT Enterprise LTSC 2024 support lifecycle](/lifecycle/products/windows-11-iot-enterprise-ltsc-2024).
 
-[!INCLUDE [Windows 11 IoT Enterprise LTSC 2024](../../includes/incl-latest-ltsc-release.md)]
+[!INCLUDE [Windows 11 IoT Enterprise LTSC 2024](../includes/incl-latest-ltsc-release.md)]
 
 ## Windows IoT Spotlight
 
