@@ -7,4 +7,4 @@ ms-topic: include
 ms.date: 09/30/2024
 ---
 
-**Supported Editions** </br> &check; IoT Enterprise LTSC </br> &check; IoT Enterprise </br> &check; Enterprise LTSC </br> &check; Enterprise </br> &check; Education </br> &check; Professional 
+**Supported Editions** </br> &bull; IoT Enterprise LTSC </br> &bull; IoT Enterprise </br> &bull; Enterprise LTSC </br> &bull; Enterprise </br> &bull; Education </br> &bull; Professional 
