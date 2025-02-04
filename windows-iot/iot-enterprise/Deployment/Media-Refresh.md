@@ -159,19 +159,21 @@ The Windows Preinstallation Environment (WinPE) is contained within `boot.wim` o
    > - Download any prerequisites mentioned and run the above command again.  Note, you may need to run the command twice in order to allow the prerequisite to applied first.
    > - Continue to next step once error has been resolved.
 
-1. **Copy updated `Setup.exe`**  
-   Before continuing copy the updated `setup.exe` from WinPE at `c:\mediarefresh\mounted\sources` to `c:\mediarefresh\out\sources` using [Robocopy](https://social.technet.microsoft.com/wiki/contents/articles/52831.robocopy-complete-reference.aspx).
+1. **Copy updated `Setup.exe`** and `setuphost.exe` 
+   Before continuing copy the updated `setup.exe` and `setuphost.exe` from WinPE at `c:\mediarefresh\mounted\sources` to `c:\mediarefresh\out\sources` using [Robocopy](https://social.technet.microsoft.com/wiki/contents/articles/52831.robocopy-complete-reference.aspx).
   
-   1. First we need to remove the ReadOnly attribute on `c:\mediarefresh\mounted\sources\setup.exe` using the PowerShell command Set-ItemProperty.
+   1. First we need to remove the ReadOnly attribute on `c:\mediarefresh\mounted\sources\setup.exe` and `c:\mediarefresh\mounted\sources\setuphost.exe` using the PowerShell command Set-ItemProperty.
 
       ```powershell
       Set-ItemProperty -Path "c:\mediarefresh\out\sources\setup.exe" -Name IsReadOnly -Value $false
+      Set-ItemProperty -Path "c:\mediarefresh\out\sources\setuphost.exe" -Name IsReadOnly -Value $false
       ```
 
-   1. Now we can copy `setup.exe` from `c:\mediarefresh\mounted\sources` to `c:\mediarefresh\out\sources` using [Robocopy](https://social.technet.microsoft.com/wiki/contents/articles/52831.robocopy-complete-reference.aspx).
+   1. Now we can copy `setup.exe` and `setuphost.exe` from `c:\mediarefresh\mounted\sources` to `c:\mediarefresh\out\sources` using [Robocopy](https://social.technet.microsoft.com/wiki/contents/articles/52831.robocopy-complete-reference.aspx).
 
       ```powershell
       robocopy c:\mediarefresh\mounted\sources c:\mediarefresh\out\sources setup.exe
+      robocopy c:\mediarefresh\mounted\sources c:\mediarefresh\out\sources setuphost.exe
       ```
 
 1. **Dismount and save changes to WinPE**  
