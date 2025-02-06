@@ -34,7 +34,7 @@ To prepare your **technician PC (your work PC)**, you need:
 - Have at least 15 GB of free space for installing the software and for modifying Windows IoT Enterprise images.
 - Have [Windows Assessment and Deployment Kit (ADK)](/windows-hardware/get-started/adk-install) with Deployment Tools, Configuration Designer, and the Windows PE add-on installed.
 - Have a Windows 11 IoT Enterprise Long-Term Servicing Channel (LTSC) 2024 ISO.
-    [!INCLUDE [Latest LTSC](../../includes/incl-latest-ltsc-release.md)]
+    [!INCLUDE [Latest LTSC](../includes/incl-latest-ltsc-release.md)]
 
 To prepare your **reference device sample**, you need:
 

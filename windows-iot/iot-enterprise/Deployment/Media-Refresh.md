@@ -87,8 +87,8 @@ In this article, you set up your media refresh environment and gather all prereq
    | Release | Version |  Update History | Update Catalog |
    | --- | --- | --- | --- |
    | [Windows&nbsp;11&nbsp;IoT&nbsp;Enterprise&nbsp;LTSC&nbsp;2024 [24H2]](../whats-new/Windows-11-IoT-Enterprise-LTSC-2024.md)|   26100 | [Show&nbsp;update&nbsp;history](https://support.microsoft.com/en-us/topic/windows-11-version-24h2-update-history-0929c747-1815-4543-8461-0160d16f15e5) | [Show&nbsp;x64&nbsp;updates](https://www.catalog.update.microsoft.com/Search.aspx?q=-Dynamic%20Cumulative%20Update%20for%20Windows%2011%20version%2024H2%20for%20x64) </br> [Show&nbsp;Arm64&nbsp;updates](https://www.catalog.update.microsoft.com/Search.aspx?q=-Dynamic%20Cumulative%20Update%20for%20Windows%2011%20version%2024H2%20for%20Arm64) |
-   | Windows&nbsp;10&nbsp;IoT&nbsp;Enterprise&nbsp;LTSC&nbsp;2021 |  19044 | [Show&nbsp;update&nbsp;history](https://support.microsoft.com/topic/windows-10-update-history-857b8ccb-71e4-49e5-b3f6-7073197d98fb)  | [Show&nbsp;x64&nbsp;updates](https://www.catalog.update.microsoft.com/Search.aspx?q=-Dynamic%20Cumulative%20Update%20for%20Windows%2010%20Version%2021H2%20for%20x64) </br> [Show&nbsp;ARM64&nbsp;updates](https://www.catalog.update.microsoft.com/Search.aspx?q=-Dynamic%20Cumulative%20Update%20for%20Windows%2010%20Version%2021H2%20for%20Arm64) |
-   | Windows&nbsp;10&nbsp;IoT&nbsp;Enterprise&nbsp;LTSC&nbsp;2019 |   17763 | [Show&nbsp;update&nbsp;history](https://support.microsoft.com/topic/windows-10-and-windows-server-2019-update-history-725fc2e1-4443-6831-a5ca-51ff5cbcb059) | [Show&nbsp;x64&nbsp;updates](https://www.catalog.update.microsoft.com/Search.aspx?q=-Dynamic%20Cumulative%20Update%20for%20Windows%2010%20Version%201809%20for%20x64) </br> [Show&nbsp;ARM64&nbsp;updates](https://www.catalog.update.microsoft.com/Search.aspx?q=-Dynamic%20Cumulative%20Update%20for%20Windows%2010%20Version%201809%20for%20Arm64) |
+   | Windows&nbsp;10&nbsp;IoT&nbsp;Enterprise&nbsp;LTSC&nbsp;2021 |  19044 | [Show&nbsp;update&nbsp;history](https://support.microsoft.com/topic/windows-10-update-history-857b8ccb-71e4-49e5-b3f6-7073197d98fb)  | [Show&nbsp;x64&nbsp;updates](https://www.catalog.update.microsoft.com/Search.aspx?q=-Dynamic%20Cumulative%20Update%20for%20Windows%2010%20Version%2021H2%20for%20x64) </br> [Show&nbsp;Arm64&nbsp;updates](https://www.catalog.update.microsoft.com/Search.aspx?q=-Dynamic%20Cumulative%20Update%20for%20Windows%2010%20Version%2021H2%20for%20Arm64) |
+   | Windows&nbsp;10&nbsp;IoT&nbsp;Enterprise&nbsp;LTSC&nbsp;2019 |   17763 | [Show&nbsp;update&nbsp;history](https://support.microsoft.com/topic/windows-10-and-windows-server-2019-update-history-725fc2e1-4443-6831-a5ca-51ff5cbcb059) | [Show&nbsp;x64&nbsp;updates](https://www.catalog.update.microsoft.com/Search.aspx?q=-Dynamic%20Cumulative%20Update%20for%20Windows%2010%20Version%201809%20for%20x64) </br> [Show&nbsp;Arm64&nbsp;updates](https://www.catalog.update.microsoft.com/Search.aspx?q=-Dynamic%20Cumulative%20Update%20for%20Windows%2010%20Version%201809%20for%20Arm64) |
    | Windows&nbsp;10&nbsp;IoT&nbsp;Enterprise&nbsp;LTSC&nbsp;2016 |   14393 | [Show&nbsp;update&nbsp;history](https://support.microsoft.com/topic/windows-10-and-windows-server-2016-update-history-4acfbc84-a290-1b54-536a-1c0430e9f3fd) | [Show&nbsp;x64&nbsp;updates](https://www.catalog.update.microsoft.com/Search.aspx?q=-Dynamic%20Cumulative%20Update%20for%20Windows%2010%20version%201607%20for%20x64)</br> [Show&nbsp;x86&nbsp;updates](https://www.catalog.update.microsoft.com/Search.aspx?q=-Dynamic%20Cumulative%20Update%20for%20Windows%2010%20version%201607%20for%20x86) |
    | Windows&nbsp;10&nbsp;IoT&nbsp;Enterprise&nbsp;LTSC&nbsp;2015 |   10240 |  [Show&nbsp;update&nbsp;history](https://support.microsoft.com/topic/windows-10-update-history-93345c32-4ae1-6d1c-f885-6c0b718adf3b) | [Show&nbsp;x64&nbsp;updates](https://www.catalog.update.microsoft.com/Search.aspx?q=-Dynamic%20Cumulative%20Update%20for%20Windows%2010%20version%201507%20for%20x64) </br> [Show&nbsp;x86&nbsp;updates](https://www.catalog.update.microsoft.com/Search.aspx?q=-Dynamic%20Cumulative%20Update%20for%20Windows%2010%20version%201507%20for%20x64) |
 
@@ -102,7 +102,7 @@ In this article, you set up your media refresh environment and gather all prereq
 
 ## Update Windows Preinstallation Environment (WinPE)
 
-The Windows Preinstallation Environment (WinPE) is contained within `boot.wim` on the original installation media under the `\sources` folder.  In this section, we walk through the process of updating the `boot.wim` with the latest cumulative servicing update and incorporate third party drivers if needed into the WinPE environment using the [Media Servicing Environment](#prepare-media-servicing-environment).
+The Windows Preinstallation Environment (WinPE) is contained within `boot.wim` on the original installation media under the `\sources` folder. In this section, we walk through the process of updating the `boot.wim` with the latest cumulative servicing update and incorporate third party drivers if needed into the WinPE environment using the [Media Servicing Environment](#prepare-media-servicing-environment).
 
 1. **Mount WinPE boot.wim**  
    1. The first step in updating the WinPE environment is to create a temporary folder named `mounted` under `c:\mediarefresh` using the PowerShell command [New-Item](/powershell/module/microsoft.powershell.management/new-item#description)
@@ -111,7 +111,7 @@ The Windows Preinstallation Environment (WinPE) is contained within `boot.wim` o
       MD c:\MediaRefresh\mounted
       ```
 
-   1. Before we can update the `boot.wim`, we need to make sure that its file attribute isn't set to ReadOnly.  Use the PowerShell command Set-ItemProperty to remove the ReadOnly attribute.
+   1. Before we can update the `boot.wim`, we need to make sure that its file attribute isn't set to ReadOnly. Use the PowerShell command Set-ItemProperty to remove the ReadOnly attribute.
 
       ```powershell
       Set-ItemProperty -Path "c:\mediarefresh\wim\boot.wim" -Name IsReadOnly -Value $false
@@ -129,14 +129,14 @@ The Windows Preinstallation Environment (WinPE) is contained within `boot.wim` o
    Install third-party drivers you collected in the `c:\mediarefresh\drivers` folder to WinPE at `c:\mediarefresh\mounted` using the PowerShell command [Add-WindowsDriver](/powershell/module/dism/add-windowsdriver#description).
 
    > [!NOTE]
-   > For testing purposes you can use `-ForceUnsigned` to add unsigned drivers and override the requirement that drivers must have a digital signature. For more information about driver signing requirements, see [Device Drivers and Deployment Overview](/windows-hardware/manufacture/desktop/device-drivers-and-deployment-overview).
+   > For testing purposes, you can use `-ForceUnsigned` to add unsigned drivers and override the requirement that drivers must have a digital signature. For more information about driver signing requirements, see [Device Drivers and Deployment Overview](/windows-hardware/manufacture/desktop/device-drivers-and-deployment-overview).
 
     ```powershell
    Add-WindowsDriver -Path "c:\mediarefresh\Mounted" -Driver "c:\mediarefresh\drivers" -Recurse
    ```
 
 1. **Apply servicing updates to WinPE**  
-   Apply the latest cumulative update and its dependencies that you downloaded to `c:\mediarefresh\packages` folder to WinPE at `c:\mediarefresh\mounted` using the PowerShell command [Add-WindowsPackage](/powershell/module/dism/add-windowspackage#description).  This process may take several minutes to complete, however it ensures that your Windows image already has the latest servicing update applied.
+   Apply the latest cumulative update and its dependencies that you downloaded to `c:\mediarefresh\packages` folder to WinPE at `c:\mediarefresh\mounted` using the PowerShell command [Add-WindowsPackage](/powershell/module/dism/add-windowspackage#description). This process will take several minutes to complete, however it ensures that your Windows image already has the latest servicing update applied.
 
    1. First apply the servicing stack update dependency.
 
@@ -151,27 +151,29 @@ The Windows Preinstallation Environment (WinPE) is contained within `boot.wim` o
       ```
 
    > [!TIP]
-   > If you encounter error 0x800f0823, your servicing update may have a dependency that must be applied first. If you already downloaded its dependency, try running the above command a second time.  If this does not resolve the issue you may need to download an additional prerequisite for your update.
+   > If you encounter error 0x800f0823, your servicing update may have a dependency that must be applied first. If you already downloaded its dependency, try running the previous Add-WindowsPackage a second time.  If this does not resolve the issue, you may need to download an another prerequisite for your update.
    >
    > - Make note of the KB####### in the filename of the update in c:\mediarefresh\packages.
    > - Search *[support.microsoft.com](https://support.microsoft.com)* with the KB#######
    > - Open the first topic that matches and search for the term "prerequisite".
-   > - Download any prerequisites mentioned and run the above command again.  Note, you may need to run the command twice in order to allow the prerequisite to applied first.
-   > - Continue to next step once error has been resolved.
+   > - Download any prerequisites mentioned and run the previous Add-WindowsPackage command again. Note, you may need to run the command twice in order to allow the prerequisite to applied first.
+   > - Continue to next step once error is resolved.
 
-1. **Copy updated `Setup.exe`**  
-   Before continuing copy the updated `setup.exe` from WinPE at `c:\mediarefresh\mounted\sources` to `c:\mediarefresh\out\sources` using [Robocopy](https://social.technet.microsoft.com/wiki/contents/articles/52831.robocopy-complete-reference.aspx).
+1. **Copy updated `Setup.exe`** and `setuphost.exe` 
+   Before continuing copy the updated `setup.exe` and `setuphost.exe` from WinPE at `c:\mediarefresh\mounted\sources` to `c:\mediarefresh\out\sources` using [Robocopy](https://social.technet.microsoft.com/wiki/contents/articles/52831.robocopy-complete-reference.aspx).
   
-   1. First we need to remove the ReadOnly attribute on `c:\mediarefresh\mounted\sources\setup.exe` using the PowerShell command Set-ItemProperty.
+   1. First we need to remove the ReadOnly attribute on `c:\mediarefresh\mounted\sources\setup.exe` and `c:\mediarefresh\mounted\sources\setuphost.exe` using the PowerShell command Set-ItemProperty.
 
       ```powershell
       Set-ItemProperty -Path "c:\mediarefresh\out\sources\setup.exe" -Name IsReadOnly -Value $false
+      Set-ItemProperty -Path "c:\mediarefresh\out\sources\setuphost.exe" -Name IsReadOnly -Value $false
       ```
 
-   1. Now we can copy `setup.exe` from `c:\mediarefresh\mounted\sources` to `c:\mediarefresh\out\sources` using [Robocopy](https://social.technet.microsoft.com/wiki/contents/articles/52831.robocopy-complete-reference.aspx).
+   1. Now we can copy `setup.exe` and `setuphost.exe` from `c:\mediarefresh\mounted\sources` to `c:\mediarefresh\out\sources` using [Robocopy](https://social.technet.microsoft.com/wiki/contents/articles/52831.robocopy-complete-reference.aspx).
 
       ```powershell
       robocopy c:\mediarefresh\mounted\sources c:\mediarefresh\out\sources setup.exe
+      robocopy c:\mediarefresh\mounted\sources c:\mediarefresh\out\sources setuphost.exe
       ```
 
 1. **Dismount and save changes to WinPE**  
@@ -179,7 +181,7 @@ The Windows Preinstallation Environment (WinPE) is contained within `boot.wim` o
    To complete the servicing process, use the PowerShell command [Dismount-WindowsImage](/powershell/module/dism/dismount-windowsimage#description) to save the changes.  
 
    > [!IMPORTANT]
-   > Before executing the `Dismount-WindowsImage` command, make sure you do not have any File Explorer views or command windows that are viewing contents under `c:\mediarefresh\mounted`.  Failure to do so will result in an error when attempting to dismount.
+   > Before executing the `Dismount-WindowsImage` command, make sure you don't have any File Explorer views or command windows that are viewing contents under `c:\mediarefresh\mounted`.  Failure to do so results in an error when attempting to dismount.
 
    ```powershell
    Dismount-WindowsImage -path "c:\mediarefresh\mounted" -save
@@ -205,7 +207,7 @@ The Windows Preinstall Environment (WinPE) stored as `boot.wim` and `setup.exe` 
 
 ## Update Windows IoT Enterprise
 
-The Windows IoT Enterprise image is contained within `install.wim` on the original installation media under the `\sources` folder.  In the [Prepare Media Servicing Environment](#prepare-media-servicing-environment) section, we moved `install.wim` into a working folder.  In this section, we walk through the process of updating the `install.wim` with the latest cumulative servicing update and incorporate third party drivers if needed by the target device using the [Media Servicing Environment](#prepare-media-servicing-environment). Once the update is complete, split the `install.wim` into smaller `*.swm` files so that they can be copied to a flash drive formatted as FAT32.
+The Windows IoT Enterprise image is contained within `install.wim` on the original installation media under the `\sources` folder. In the [Prepare Media Servicing Environment](#prepare-media-servicing-environment) section, we moved `install.wim` into a working folder. In this section, we walk through the process of updating the `install.wim` with the latest cumulative servicing update and incorporate third party drivers if needed by the target device using the [Media Servicing Environment](#prepare-media-servicing-environment). Once the update is complete, split the `install.wim` into smaller `*.swm` files so that they can be copied to a flash drive formatted as FAT32.
 
 1. **Mount the OS install.wim**  
    1. The first step in updating the WinPE environment is to create a temporary folder named `mounted` under  `c:\mediarefresh` using the PowerShell command [New-Item](/powershell/module/microsoft.powershell.management/new-item#description).
@@ -236,7 +238,7 @@ The Windows IoT Enterprise image is contained within `install.wim` on the origin
    ```
 
    > [!NOTE]
-   > For testing purposes you can use `-ForceUnsigned` to add unsigned drivers and override the requirement that drivers must have a digital signature. For more information about driver signing requirements, see [Device Drivers and Deployment Overview](/windows-hardware/manufacture/desktop/device-drivers-and-deployment-overview).
+   > For testing purposes, you can use `-ForceUnsigned` to add unsigned drivers and override the requirement that drivers must have a digital signature. For more information about driver signing requirements, see [Device Drivers and Deployment Overview](/windows-hardware/manufacture/desktop/device-drivers-and-deployment-overview).
 
 1. **Add Custom Setup Scripts**
    1. Before adding custom setup scripts to the OS image, first create a `scripts` folder under `c:\mediarefresh\mounted\windows\setup\` using the PowerShell command [New-Item](/powershell/module/microsoft.powershell.management/new-item#description).
@@ -267,19 +269,19 @@ The Windows IoT Enterprise image is contained within `install.wim` on the origin
       ```
 
    > [!TIP]
-   > If you encounter error 0x800f0823, your servicing update may have a dependency that must be applied first. If you already downloaded its dependency, try running the above command a second time.  If this does not resolve the issue you may need to download an additional prerequisite for your update.
+   > If you encounter error 0x800f0823, your servicing update may have a dependency that must be applied first. If you already downloaded its dependency, try running the previous Add-WindowsPackage command a second time. If this does not resolve the issue, you may need to download an another prerequisite for your update.
    >
    > - Make note of the KB####### in the filename of the update in c:\mediarefresh\packages.
    > - Search *[support.microsoft.com](https://support.microsoft.com)* with the KB#######
    > - Open the first topic that matches and search for the term "prerequisite".
-   > - Download any prerequisites mentioned and run the above command again.  Note, you may need to run the command twice in order to allow the prerequisite to applied first.
-   > - Continue to next step once error has been resolved.
+   > - Download any prerequisites mentioned and run the above command again. Note, you may need to run the command twice in order to allow the prerequisite to applied first.
+   > - Continue to next step once error is resolved.
 
 1. **Save and dismount updated install.wim**  
    To complete the servicing process use the PowerShell command [Dismount-WindowsImage](/powershell/module/dism/dismount-windowsimage#description) to save the changes.  
 
    > [!IMPORTANT]
-   > Before executing the `Dismount-WindowsImage` command, make sure you do not have any File Explorer views or command windows that are viewing contents under `c:\mediarefresh\mounted`.  Failure to do so will result in an error when attempting to dismount.
+   > Before executing the `Dismount-WindowsImage` command, make sure you don't have any File Explorer views or command windows that are viewing contents under `c:\mediarefresh\mounted`.  Failure to do so results in an error when attempting to dismount.
 
    ```powershell
    Dismount-WindowsImage -path "c:\mediarefresh\mounted" -save
@@ -293,7 +295,7 @@ The Windows IoT Enterprise image is contained within `install.wim` on the origin
    ```
 
 1. **Split WIM to support FAT32 file system**  
-   To ensure the new install.wim fits onto flash media formatted as FAT32, which has a maximum file size of 4 GB you split the Windows Image (install.wim) file into a set of smaller (.swm) files with a maximum size of 4000 MB using the PowerShell command [Split-WindowsImage](/windows-hardware/manufacture/desktop/split-a-windows-image--wim--file-to-span-across-multiple-dvds). The resulting `*.swm` files are written to the `c:\mediarefresh\out\sources` folder.
+   To ensure the new install.wim fits onto flash media formatted as FAT32, which has a maximum file size of 4 GB you split the Windows Image (install.wim) file into a set of smaller (.swm) files with a maximum size of 4,000 MB using the PowerShell command [Split-WindowsImage](/windows-hardware/manufacture/desktop/split-a-windows-image--wim--file-to-span-across-multiple-dvds). The resulting `*.swm` files are written to the `c:\mediarefresh\out\sources` folder.
 
    ```powershell
    Split-WindowsImage -ImagePath "c:\mediarefresh\wim\install.wim" -SplitImagePath "c:\mediarefresh\out\sources\install.swm" -FileSize 4000 -CheckIntegrity
@@ -318,15 +320,15 @@ Where `<DriveLetter>` is the drive letter associated with your flash drive
 1. Connect the flash drive to your target device.
 1. Turn on the device and press the key that opens the boot-device selection menu for the computer, such as the Esc/F10/F12 keys. Select the option that boots the device from the flash drive.
 
-   Windows Setup starts.  Follow the instructions to install Windows
+   Windows Setup starts. Follow the instructions to install Windows.
 
    > [!TIP]
-   > You may need to consult the device manufacturer instructions to configure it for booting from the flash drive it this process does not work on your device.
+   > You may need to consult the device manufacturer instructions to configure it for booting from the flash drive it this process doesn't work on your device.
 
-1. Once the initial phase of Setup is complete and your device reboots, Setup may start again from the beginning.  If Setup starts again, cancel Setup, and shut down the computer then remove the flash drive and turn on the device to continue with the next phase of Setup.
+1. Once the initial phase of Setup is complete and your device reboots, Setup may start again from the beginning. If Setup starts again, cancel Setup, and shut down the computer then remove the flash drive and turn on the device to continue with the next phase of Setup.
 
    > [!TIP]
-   > If, for some reason, you encounter an error during the Setup process, please see the following articles for troubleshooting guidance.
+   > If, for some reason, you encounter an error during the Setup process, see the following articles for troubleshooting guidance.
    >
    > - [Deployment Troubleshooting and Log Files](/windows-hardware/manufacture/desktop/deployment-troubleshooting-and-log-files)
    > - [Windows Setup Log Files and Event Logs](/windows-hardware/manufacture/desktop/windows-setup-log-files-and-event-logs)

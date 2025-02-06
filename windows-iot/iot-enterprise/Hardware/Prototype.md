@@ -21,7 +21,7 @@ To begin your prototyping journey, you can use your existing hardware that meets
 
 To select which edition of Windows IoT Enterprise you would like to work with, review the [Windows IoT Enterprise Release History](../Features.md).
 
-[!INCLUDE [Latest LTSC](../../includes/incl-latest-ltsc-release.md)]
+[!INCLUDE [Latest LTSC](../includes/incl-latest-ltsc-release.md)]
 
 ## Step 3: Deploy an Image
 

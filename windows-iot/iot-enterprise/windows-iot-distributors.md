@@ -16,9 +16,9 @@ appliesto:
 
 <img align="right" width="50%" src="media/map.png" alt="Windows IoT Distributors Regional Map">
 
-Distributors can apply their Windows IoT development experiences, and knowledge, to help you build secure and connected Windows IoT solutions. If you would like to work with one of our distributors, select a distributor in your region and contact the distributor directly for more detail.
+Distributors can apply their Windows IoT development experiences, and knowledge, to help you build secure and connected Windows IoT solutions. 
 
-**Contact Updates:** To update your contact information, submit a request to [IoTDistributorList@microsoft.com](mailto:iotdistributorlist@microsoft.com).
+For product inquiries, contact one of our knowledgeable distributors in this list within your region for assistance.
 
 ## Americas
 
@@ -144,5 +144,12 @@ Distributors can apply their Windows IoT development experiences, and knowledge,
 | Japan    | Okaya Electronics Corp.       |Hideaki Nagai</br>[nagai@oec.okaya.co.jp](mailto:nagai@oec.okaya.co.jp)</br>Software Promotion Group</br>[info_ms@oec.okaya.co.jp](mailto:info_ms@oec.okaya.co.jp) | +81 45 475 1502 |
 | Japan    | Ryoyo Electro Corporation     |Tetsuya Nagano</br>[tetsuya_nagano@ryoyo.co.jp](mailto:tetsuya_nagano@ryoyo.co.jp)</br>IS MSIS Division</br>[msoem@ryoyo.co.jp](mailto:msoem@ryoyo.co.jp) | +81 3 3546 6211 |
 | Japan    | Tokyo Electron Device Limited |Naoto Sasaki</br>[sasaki.n@teldevice.co.jp](mailto:sasaki.n@teldevice.co.jp)</br>Edge Cloud Solution Dept.</br>[esg@teldevice.co.jp](mailto:esg@teldevice.co.jp) | +81 50 3509 5674 |
+
+> [!NOTE]
+> To request contact information updates, send an email to  [IoTDistributorList@microsoft.com](mailto:iotdistributorlist@microsoft.com) with details about the changes needed.  
+
+
+> [!IMPORTANT] 
+> [IoTDistributorList@microsoft.com](mailto:iotdistributorlist@microsoft.com) is not intended for product inquiries.  For product inquiries, contact a distributor within your region for assistance.
 
 1/22/2025

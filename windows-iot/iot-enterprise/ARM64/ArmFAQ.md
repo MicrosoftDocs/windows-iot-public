@@ -26,7 +26,7 @@ Windows IoT Enterprise supports various peripheral interfaces on Arm64 devices. 
 
 ## Where can I download Windows?
 
-[!INCLUDE [Latest LTSC](../../includes/incl-latest-ltsc-release.md)]
+[!INCLUDE [Latest LTSC](../includes/incl-latest-ltsc-release.md)]
 
 ## Which Windows IoT Enterprise version should I use?
 
