@@ -18,6 +18,7 @@ For information on which processors Intel&reg; supports on Windows 11 IoT Enterp
 
 | Intel&reg; Processor Platform | Products Formerly Known As (Code Name) |
 |---|---|
+| Intel&reg; Core&trade; Ultra Processors (Series 2) | [:::no-loc text="Lunar Lake":::](https://www.intel.com/content/www/us/en/ark/products/codename/213792/products-formerly-lunar-lake.html)</br> [:::no-loc text="Arrow Lake":::](https://www.intel.com/content/www/us/en/ark/products/codename/225837/products-formerly-arrow-lake.html) |
 |Intel&reg; Core&trade; Ultra Processors (Series 1)| [:::no-loc text="Meteor Lake":::](https://ark.intel.com/content/www/us/en/ark/products/codename/90353/products-formerly-meteor-lake.html) |
 |13th and 14th Generation Intel&reg; Core&trade; Processors</br> 13th and 14th Generation Intel&reg; Processors</br> | [:::no-loc text="Raptor Lake":::](https://ark.intel.com/content/www/us/en/ark/products/codename/215599/products-formerly-raptor-lake.html) |
 |12th Generation Intel&reg; Core&trade; Processors</br> 12th Generation Intel&reg; Pentium&reg; Processors</br> 12th Generation Intel&reg; Celeron&reg; Processors</br>| [:::no-loc text="Alder Lake":::](https://ark.intel.com/content/www/us/en/ark/products/codename/147470/products-formerly-alder-lake.html) |
