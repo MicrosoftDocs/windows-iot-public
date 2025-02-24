@@ -12,7 +12,7 @@ appliesto: "✅ Windows 11"
 
 # Supported Intel&reg; Processors for Windows 11 IoT Enterprise LTSC 2024 and Windows 11 IoT Enterprise, Version 24H2
 
-Microsoft supports Windows 11 IoT Enterprise LTSC and Windows 11 IoT Enterprise, Version 24H2 running on the Intel processor familes and generations listed on this page. Earlier generations of the processors listed may have limited support from Microsoft.
+Microsoft supports Windows 11 IoT Enterprise LTSC and Windows 11 IoT Enterprise, Version 24H2 running on the Intel processor families and generations listed on this page. Earlier generations of the processors listed may have limited support from Microsoft.
 
 For information on which processors Intel&reg; supports on Windows 11 IoT Enterprise LTSC and Windows 11 IoT Enterprise, Version 24H2, refer to the [Intel&reg; Processor Support for Windows IoT Enterprise webpage](https://www.intel.com/content/www/us/en/internet-of-things/window-processor-server-support.html) or contact Intel&reg; for details.
 
@@ -30,7 +30,7 @@ For information on which processors Intel&reg; supports on Windows 11 IoT Enterp
 |Intel&reg; Xeon&reg; Processors| [:::no-loc text="Ice Lake":::](https://ark.intel.com/content/www/us/en/ark/products/codename/74979/products-formerly-ice-lake.html) |
 |Intel&reg; Xeon&reg; Processors</br> Intel&reg; Core&trade; X-Series Processors | [:::no-loc text="Cascade Lake":::](https://ark.intel.com/content/www/us/en/ark/products/codename/124664/products-formerly-cascade-lake.html) |
 |Intel&reg; Xeon&reg; Processor</br> Intel&reg; Core&trade; X-Series Processors | [:::no-loc text="Skylake-SP or Skylake-X":::](https://ark.intel.com/content/www/us/en/ark/products/codename/37572/products-formerly-skylake.html) |
-| Intel&reg; Core&trade; Processor N-Series</br> Intel&reg; Processor N-Series</br> | [:::no-loc text="Twin Lake":::](https://www.intel.com/content/www/us/en/ark/products/codename/238004/products-formerly-twin-lake.html) |
+|Intel&reg; Core&trade; Processor N-Series</br> Intel&reg; Processor N-Series</br> | [:::no-loc text="Twin Lake":::](https://www.intel.com/content/www/us/en/ark/products/codename/238004/products-formerly-twin-lake.html) |
 |Intel&reg; Atom&reg; Processors</br> | [:::no-loc text="Amston Lake":::](https://ark.intel.com/content/www/us/en/ark/products/codename/235968/products-formerly-amston-lake.html) |
 |Intel&reg; Atom&reg; Processors</br> Intel&reg; Core&trade; Processor N-Series</br> Intel&reg; Processors</br> | [:::no-loc text="Alder Lake-N":::](https://ark.intel.com/content/www/us/en/ark/products/codename/232598/products-formerly-alder-laken.html) |
 |Intel&reg; Pentium&reg; Processors</br> Intel&reg; Celeron&reg; Processors</br> |[:::no-loc text="Jasper Lake":::](https://ark.intel.com/content/www/us/en/ark/products/codename/128823/products-formerly-jasper-lake.html)|
