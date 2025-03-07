@@ -104,7 +104,7 @@ For product inquiries, contact one of our knowledgeable distributors in this lis
 | France                                | Arrow Europe                                  | Isabelle Pillois</br>[Isabelle.Pillois@arrow.com](mailto:Isabelle.Pillois@arrow.com) | +33 1 49 97 13 38 |
 | Israel                                | Arrow Rapac Ltd.                              | Danny Morim</br>[dmorim@arroweurope.com](mailto:dmorim@arroweurope.com) | +97 23 920 3479 |
 | EMEA                                  | Avnet Silica                                  | Martin Grossen [microsoft@avnet.eu](mailto:microsoft@avnet.eu) |+41 62 919 55 57|
-| Eastern Europe                        | Avnet Silica                                  | Yann Stridde</br>[microsoft@avnet.eu](mailto:microsoft@avnet.eu) | +49 8121 777 368 |
+| Eastern Europe                        | Avnet Silica                                  | :::no-loc text="Yann Stridde":::</br>[microsoft@avnet.eu](mailto:microsoft@avnet.eu) | +49 8121 777 368 |
 | Iberia                                | Avnet Silica                                  | Claudia Remane</br>[microsoft@avnet.eu](mailto:microsoft@avnet.eu) | +49 8121 777 299 |
 | Austria                               | Avnet Silica                                  | Thomas Schuller</br>[microsoft@avnet.eu](mailto:microsoft@avnet.eu) | +43 1 86642 308 |
 | Belgium, Netherlands, Luxemburg       | Avnet Silica                                  | Patrick Maas</br>[microsoft@avnet.eu](mailto:microsoft@avnet.eu) | +31 76 5722 738 |
