@@ -2,7 +2,7 @@
 title: Windows IoT Distributors
 author: TerryWarwick
 ms.author: twarwick
-ms.date: 06/17/2024
+ms.date: 03/07/2025
 ms.topic: article
 ms.service: windows-iot
 ms.subservice: iot
@@ -154,4 +154,4 @@ For product inquiries, contact one of our knowledgeable distributors in this lis
 > [!IMPORTANT] 
 > [IoTDistributorList@microsoft.com](mailto:iotdistributorlist@microsoft.com) is not intended for product inquiries.  For product inquiries, contact a distributor within your region for assistance.
 
-3/4/2025
+3/7/2025
