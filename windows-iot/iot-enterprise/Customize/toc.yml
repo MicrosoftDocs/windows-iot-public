@@ -72,17 +72,17 @@
   - name: Kiosk Mode
     items:
     - name: Overview
-      href: /windows/configuration/shell-launcher/kiosk-mode?toc=/windows/iot/iot-enterprise/toc.json&bc=/windows/iot/breadcrumb/toc.json
+      href: /windows/configuration/assigned-access/kiosk-mode?toc=/windows/iot/iot-enterprise/toc.json&bc=/windows/iot/breadcrumb/toc.json
     - name: Assigned Access
       items:
       - name: Assigned access single-app kiosk
-        href: /windows/configuration/shell-launcher/single-app-kiosk?toc=/windows/iot/iot-enterprise/toc.json&bc=/windows/iot/breadcrumb/toc.json
+        href: /windows/configuration/assigned-access/single-app-kiosk?toc=/windows/iot/iot-enterprise/toc.json&bc=/windows/iot/breadcrumb/toc.json
       - name: Assigned access multi-app kiosk
-        href: /windows/configuration/shell-launcher/multi-app-kiosk?toc=/windows/iot/iot-enterprise/toc.json&bc=/windows/iot/breadcrumb/toc.json
+        href: /windows/configuration/assigned-access/multi-app-kiosk?toc=/windows/iot/iot-enterprise/toc.json&bc=/windows/iot/breadcrumb/toc.json
       - name: Browser Support
-        href: /windows/configuration/shell-launcher/browser-support?toc=/windows/iot/iot-enterprise/toc.json&bc=/windows/iot/breadcrumb/toc.json
+        href: /windows/configuration/assigned-access/browser-support?toc=/windows/iot/iot-enterprise/toc.json&bc=/windows/iot/breadcrumb/toc.json
       - name: WMI Provider Reference
-        href: /windows/configuration/shell-launcher/wedl-assignedaccess?toc=/windows/iot/iot-enterprise/toc.json&bc=/windows/iot/breadcrumb/toc.json
+        href: /windows/configuration/assigned-access/wedl-assignedaccess?toc=/windows/iot/iot-enterprise/toc.json&bc=/windows/iot/breadcrumb/toc.json
 
 
     - name: Shell Launcher
