@@ -72,23 +72,54 @@
   - name: Kiosk Mode
     items:
     - name: Overview
-      href: /windows/configuration/shell-launcher/kiosk-mode?toc=/windows/iot/iot-enterprise/toc.json&bc=/windows/iot/breadcrumb/toc.json
+      href: /windows/configuration/kiosk/index?toc=/windows/iot/iot-enterprise/toc.json&bc=/windows/iot/breadcrumb/toc.json
+
+
     - name: Assigned Access
       items:
-      - name: Assigned access single-app kiosk
-        href: /windows/configuration/shell-launcher/single-app-kiosk?toc=/windows/iot/iot-enterprise/toc.json&bc=/windows/iot/breadcrumb/toc.json
-      - name: Assigned access multi-app kiosk
-        href: /windows/configuration/shell-launcher/multi-app-kiosk?toc=/windows/iot/iot-enterprise/toc.json&bc=/windows/iot/breadcrumb/toc.json
-      - name: Browser Support
-        href: /windows/configuration/shell-launcher/browser-support?toc=/windows/iot/iot-enterprise/toc.json&bc=/windows/iot/breadcrumb/toc.json
-      - name: WMI Provider Reference
-        href: /windows/configuration/shell-launcher/wedl-assignedaccess?toc=/windows/iot/iot-enterprise/toc.json&bc=/windows/iot/breadcrumb/toc.json
+      - name: Overview
+        href: /windows/configuration/assigned-access/index?toc=/windows/iot/iot-enterprise/toc.json&bc=/windows/iot/breadcrumb/toc.json
+      - name: Configure a single-app kiosk
+        href: /windows/configuration/assigned-access/configure-single-app-kiosk?toc=/windows/iot/iot-enterprise/toc.json&bc=/windows/iot/breadcrumb/toc.json
+      - name: Configure a multi-app kiosk
+        href: /windows/configuration/assigned-access/configure-multi-app-kiosk?toc=/windows/iot/iot-enterprise/toc.json&bc=/windows/iot/breadcrumb/toc.json
+      - name: Recommendations
+        href: /windows/configuration/assigned-access/recommendations?toc=/windows/iot/iot-enterprise/toc.json&bc=/windows/iot/breadcrumb/toc.json
+      - name: Create a configuration file
+        href: /windows/configuration/assigned-access/configuration-file?toc=/windows/iot/iot-enterprise/toc.json&bc=/windows/iot/breadcrumb/toc.json
+      - name: Quickstarts
+        items:
+        - name: Configure a single-app kiosk
+          href: /windows/configuration/assigned-access/quickstart-kiosk?toc=/windows/iot/iot-enterprise/toc.json&bc=/windows/iot/breadcrumb/toc.json
+        - name: Configure a multi-app kiosk
+          href: /windows/configuration/assigned-access/quickstart-restricted-user-experience?toc=/windows/iot/iot-enterprise/toc.json&bc=/windows/iot/breadcrumb/toc.json
+      - name: Reference
+        items:
+        - name: Assigned Access XSD
+          href: /windows/configuration/assigned-access/xsd?toc=/windows/iot/iot-enterprise/toc.json&bc=/windows/iot/breadcrumb/toc.json
+        - name: Assigned Access XML examples
+          href: /windows/configuration/assigned-access/examples?toc=/windows/iot/iot-enterprise/toc.json&bc=/windows/iot/breadcrumb/toc.json
+        - name: Assigned Access policy settings
+          href: /windows/configuration/assigned-access/policy-settings?toc=/windows/iot/iot-enterprise/toc.json&bc=/windows/iot/breadcrumb/toc.json
+        - name: WMI Class WEDL_AssignedAccess
+          href: /windows/configuration/assigned-access/wedl-assignedaccess?toc=/windows/iot/iot-enterprise/toc.json&bc=/windows/iot/breadcrumb/toc.json
+        - name: Assigned Access CSP 🔗
+          href: /windows/client-management/mdm/assignedaccess-csp
+
 
 
     - name: Shell Launcher
       items:
       - name: Overview
         href: /windows/configuration/shell-launcher/index?toc=/windows/iot/iot-enterprise/toc.json&bc=/windows/iot/breadcrumb/toc.json
+      - name: Configure Shell Launcher
+        href: /windows/configuration/shell-launcher/configure?toc=/windows/iot/iot-enterprise/toc.json&bc=/windows/iot/breadcrumb/toc.json
+      - name: "Quickstart: Configure a kiosk"
+        href: /windows/configuration/shell-launcher/quickstart-kiosk?toc=/windows/iot/iot-enterprise/toc.json&bc=/windows/iot/breadcrumb/toc.json
+      - name: Create a configuration file
+        href: /windows/configuration/shell-launcher/configuration-file?toc=/windows/iot/iot-enterprise/toc.json&bc=/windows/iot/breadcrumb/toc.json
+      - name: Shell Launcher XSD
+        href: /windows/configuration/shell-launcher/xsd?toc=/windows/iot/iot-enterprise/toc.json&bc=/windows/iot/breadcrumb/toc.json
       - name: WMI Provider Reference
         items:
         - name: Class WESL_UserSetting
