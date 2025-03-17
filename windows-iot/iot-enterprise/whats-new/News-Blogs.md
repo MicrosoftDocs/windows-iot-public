@@ -20,7 +20,7 @@ Stay up to date with the latest news and announcements about the Windows for IoT
 
 | Windows for IoT Resources | Other Windows Resources |
 | --- | --- |
-| [Channel 9](https://channel9.msdn.com/) </br> [Microsoft IoT Developers](https://www.youtube.com/channel/UCL7wy-iy_V76xxPnrIzGOZQ) </br> [Microsoft Tech Community](https://techcommunity.microsoft.com/t5/windows-10-iot/bd-p/Windows10IoT) </br> [Windows for IoT Documentation](/windows/iot/)| [Windows Insider Program](https://blogs.windows.com/windows-insider/) </br> [Windows Servicing & Delivery by John Cable](https://blogs.windows.com/windowsexperience/author/john-cable/) </br> [Windows for IoT Business Decision Maker (BDM)](https://www.microsoft.com/WindowsForBusiness/windows-iot) </br> [Windows on Devices - IoT Developer Experience](https://developer.microsoft.com/windows/iot/) |
+| [Channel 9](https://channel9.msdn.com/) </br> [Microsoft IoT Developers](https://www.youtube.com/channel/UCL7wy-iy_V76xxPnrIzGOZQ) </br> [Microsoft Tech Community](https://techcommunity.microsoft.com/t5/windows-10-iot/bd-p/Windows10IoT) </br> [Windows for IoT Documentation](/windows/iot/)| [Windows Insider Program](https://blogs.windows.com/windows-insider/) </br> [Windows Servicing & Delivery by John Cable](https://blogs.windows.com/windowsexperience/author/john-cable/) </br> [Windows on Devices - IoT Developer Experience](https://developer.microsoft.com/windows/iot/) |
 
 ## 2024
 
