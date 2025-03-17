@@ -78,10 +78,6 @@
     {
         "source_path_from_root": "/Windows-iot/iot-enterprise/ARM64/armfaq.md",
         "redirect_url": "/windows/iot/iot-enterprise/faq"
-    },
-    {
-        "source_path_from_root": "/Windows-iot/iot-enterprise/faq.md",
-        "redirect_url": "/windows/iot/iot-enterprise/faq"
     }
 ]
 }
