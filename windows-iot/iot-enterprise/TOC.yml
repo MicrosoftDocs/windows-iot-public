@@ -6,7 +6,7 @@
 - name: Windows IoT Enterprise Overview
   href: ./Overview.md  
 - name: Frequently Asked Questions
-  href: FAQ.yml
+  href: faq.yml
 - name: Release History
   href: ./whats-new/Release-History.md
 - name: Get started with a reference device sample
