@@ -28,7 +28,7 @@ Windows 11 IoT Enterprise follows the [Modern Lifecycle Policy](/lifecycle/polic
 
 For more information, see [Windows 11 IoT Enterprise support lifecycle](/lifecycle/products/windows-11-iot-enterprise).
 
-[!INCLUDE [Windows 11 IoT Enterprise, version 24H2](../../includes/incl-latest-gac-release.md)]
+[!INCLUDE [Windows 11 IoT Enterprise, version 24H2](../includes/incl-latest-gac-release.md)]
 
 ### New Devices
 
