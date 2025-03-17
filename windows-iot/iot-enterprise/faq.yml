@@ -406,7 +406,7 @@ sections:
 
     - question: Where can I get Windows IoT Enterprise on Arm64?
       answer: |
-        [!INCLUDE [Latest LTSC](../includes/incl-latest-ltsc-release.md)]
+        [!INCLUDE [Latest LTSC](./includes/incl-latest-ltsc-release.md)]
 
         [Top of FAQ](faq.yml)
 
