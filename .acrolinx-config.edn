@@ -1,5 +1,5 @@
 {:allowed-branchname-matches ["main" "release-*"]
- :allowed-filename-matches ["windows-iot/"]
+ :allowed-filename-matches ["(?i)windows-iot/iot-enterprise/(?:(?!windows-iot-distributors.md))" "(?i)windows-iot/server" "(?i)windows-iot/product-family]
  
  :use-gh-statuses true
   
@@ -47,7 +47,7 @@ If you need a scoring exception for content in this PR, add the *Sign off* and t
 - Escalate the exception request to the Acrolinx Review Team for review.
 - Approve the exception and work with the GitHub Admin Team to merge the PR to the default branch.
 
-For more information about the exception criteria and exception process, see [Minimum Acrolinx topic scores for publishing](https://review.docs.microsoft.com/en-us/office-authoring-guide/acrolinx-min-score?branch=main).
+For more information about the exception criteria and exception process, see [Minimum Acrolinx topic scores for publishing](https://review.learn.microsoft.com/en-us/office-authoring-guide/acrolinx-min-score?branch=main).
  
 Click the scorecard links for each article to review the Acrolinx feedback on grammar, spelling, punctuation, writing style, and terminology:
 
@@ -63,6 +63,6 @@ Click the scorecard links for each article to review the Acrolinx feedback on gr
  "
 **More info about Acrolinx**
  
-For more information, see [Use the Visual Studio Code extension to run Acrolinx locally](https://review.docs.microsoft.com/en-us/office-authoring-guide/acrolinx-vscode?branch=main).
+For more information, see [Use the Visual Studio Code extension to run Acrolinx locally](https://review.learn.microsoft.com/en-us/office-authoring-guide/acrolinx-vscode?branch=main).
 "
 }
