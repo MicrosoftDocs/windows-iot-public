@@ -27,12 +27,6 @@ There are three main reasons why customers choose to develop with Windows IoT En
 1. **Trusted** - Windows IoT Enterprise helps you build IoT solutions that you can trust, keeping your devices, data, and identities secure and giving you peace of mind.
 3. **Smart** - Windows IoT Enterprise helps you connect your devices to each other, your network, and the cloud, so you can use data to drive real business insight and create new business opportunities
 
-> [!TIP]
->
-> If you are building any kind of **OEM style appliance**, such as a point-of-sale or retail device, industrial automation equipment, digital signage, medical equipment or any appliance with a screen, Windows IoT Enterprise is the solution for you.
->
-> See how our [customers](https://www.microsoft.com/WindowsForBusiness/windows-iot) are using Windows IoT Enterprise to accomplish their business goals.
-
 ## Windows IoT Enterprise LTSC
 
 Windows IoT Enterprise LTSC is designed for fixed purpose devices and use cases where functionality and features remain constant for the life of the device.  These devices are typically found in industries including, but not limited to, banking, healthcare, hospitality, manufacturing and retail. Devices that require regulatory certification and devices that perform a critical business function can't accept feature updates for years at a time.  
