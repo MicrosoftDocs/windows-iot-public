@@ -28,6 +28,8 @@ Windows IoT Enterprise provides three options for enabling activation, including
 
 This article focuses on using ePKEA to enable activation for Windows IoT Enterprise based devices. For more information about OA 3.0, see  [OEM Activation 3.0 system](/windows-hardware/manufacture/desktop/oem-activation-3).
 
+[!INCLUDE [Feedback](../includes/incl-feedback.md)]
+
 ## Managing your ePKEA Product Keys
 
 > [!IMPORTANT]

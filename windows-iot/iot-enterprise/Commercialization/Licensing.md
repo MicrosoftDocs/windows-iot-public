@@ -33,6 +33,8 @@ This table provides a snapshot of the license applicability for these two option
 - **KMS**: Key Management Service
 - **MAK**: Multiple Activation Key
 
+[!INCLUDE [Feedback](../includes/incl-feedback.md)]
+
 ## OEM Licensing
 
 An OEM license is required for device makers that preinstall the operating system on new devices for sale to an end-customer. OEMs can also obtain upgrade licenses for existing devices, originally produced with a previous version of the operating system, and offer full solution upgrades to the end-customer. An OEM License must be transferred to an end-customer purchasing a new device from the OEM.
