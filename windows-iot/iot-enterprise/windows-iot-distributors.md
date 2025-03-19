@@ -143,7 +143,7 @@ For product inquiries, contact one of our knowledgeable distributors in this lis
 | Location | Distributor&nbsp;Name         | Contact&nbsp;Name | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Contact&nbsp;Phone&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; |
 | ---------|-------------------------------|-------------------|:--------------:|
 | Japan    | Avnet K.K.                    |Toshitaka Saito</br>[Toshitaka.Saito@AVNET.COM](mailto:Toshitaka.Saito@AVNET.COM)</br>MS Support</br>[akk-ms-support@avnet.com](mailto:akk-ms-support@avnet.com) | +81 3 5792 9820 |
-| Japan    | Okaya Electronics Corp.       |Hideaki Nagai</br>[nagai@oec.okaya.co.jp](mailto:nagai@oec.okaya.co.jp)</br>Software Promotion Group</br>[info_ms@oec.okaya.co.jp](mailto:info_ms@oec.okaya.co.jp) | +81 45 475 1502 |
+| Japan    | Okaya Electronics Corp.       |Shinpachiro Goan</br>[goan@oec.okaya.co.jp](mailto:goan@oec.okaya.co.jp)</br>Product Promotion Group</br>[info_ms@oec.okaya.co.jp](mailto:info_ms@oec.okaya.co.jp) | +81 45 475 1502 |
 | Japan    | Ryoyo Electro Corporation     |Tetsuya Nagano</br>[tetsuya_nagano@ryoyo.co.jp](mailto:tetsuya_nagano@ryoyo.co.jp)</br>IS MSIS Division</br>[msoem@ryoyo.co.jp](mailto:msoem@ryoyo.co.jp) | +81 3 3546 6211 |
 | Japan    | Tokyo Electron Device Limited |Naoto Sasaki</br>[sasaki.n@teldevice.co.jp](mailto:sasaki.n@teldevice.co.jp)</br>Edge Cloud Solution Dept.</br>[esg@teldevice.co.jp](mailto:esg@teldevice.co.jp) | +81 50 3509 5674 |
 
@@ -154,4 +154,4 @@ For product inquiries, contact one of our knowledgeable distributors in this lis
 > [!IMPORTANT] 
 > [IoTDistributorList@microsoft.com](mailto:iotdistributorlist@microsoft.com) is not intended for product inquiries.  For product inquiries, contact a distributor within your region for assistance.
 
-3/7/2025
+3/19/2025
