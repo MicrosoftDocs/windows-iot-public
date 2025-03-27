@@ -16,13 +16,13 @@ appliesto: "✅ Windows 10"
 
 This article lists new and updated features that are of interest to device makers and IT Pros working with Windows 10 IoT Enterprise LTSC 2021, compared to Windows 10 IoT Enterprise LTSC 2019. Windows 10 IoT Enterprise LTSC will continue to offer a 10-year support lifecycle.
 
-This article lists new and updated features and content that is of interest to IT Pros for Windows 10 Enterprise LTSC 2021, compared to Windows 10 Enterprise LTSC 2019 (LTSB).
+This article lists new and updated features and content that is of interest to IT Pros for Windows 10 IoT Enterprise LTSC 2021, compared to Windows 10 Enterprise LTSC 2019 (LTSB).
 
 > [!NOTE]
-> Features in Windows 10 Enterprise LTSC 2021 are equivalent to Windows 10, version 21H2.
+> Features in Windows 10 IOT Enterprise LTSC 2021 are equivalent to Windows 10, version 21H2.
 > The LTSC release is [intended for special use devices](https://techcommunity.microsoft.com/t5/Windows-IT-Pro-Blog/LTSC-What-is-it-and-when-should-it-be-used/ba-p/293181). Support for LTSC by apps and tools that are designed for the General Availability Channel release of Windows 10 might be limited.
 
-Windows 10 Enterprise LTSC 2021 builds on Windows 10 Enterprise LTSC 2019, adding premium features such as advanced protection against modern security threats and comprehensive device management, app management, and control capabilities.
+Windows 10 IOT Enterprise LTSC 2021 builds on Windows 10 Enterprise LTSC 2019, adding premium features such as advanced protection against modern security threats and comprehensive device management, app management, and control capabilities.
 
 ## Lifecycle
 
@@ -40,7 +40,7 @@ Windows 10 IoT Enterprise LTSC 2021 is available for Windows IoT Enterprise devi
 
 ## What's New
 
-Windows 10 IoT Enterprise LTSC 2021 release includes the cumulative enhancements provided by the following semi-annual / annual releases since Windows 10 IoT Enterprise LTSC 2019:
+Windows 10 IoT Enterprise LTSC 2021 release includes the cumulative enhancements provided by the following semi-annual / annual releases since Windows 10 Enterprise LTSC 2019:
 
 - [Windows 10 IoT Enterprise, version 21H2](Windows-10-IoT-Enterprise-21H2.md)
 - [Windows 10 IoT Enterprise, version 21H1](Windows-10-IoT-Enterprise-21H1.md)
