@@ -25,7 +25,7 @@ This article provides a high level overview of notable updates in **Windows IoT 
 
 ### Lifecycle
 
-Windows 11 IoT Enterprise LTSC 2024 was first available to OEM device makers on May 22, 2024. Features in Windows 11 IoT Enterprise LTSC 2024 are similar to Windows 11, version 24H2. Windows 11 IoT Enterprise LTSC 2024 is inteded for special purpose, fixed function devices.  Windows 11 IoT Enterprise LTSC 2024 continues to offer a 10-year support lifecycle, which includes quality updates distributed via Windows Update monthly. Upgrading from one version of Windows IoT Enterprise LTSC to the next version requires a new license. If your device came preinstalled with a previous version of Windows IoT Enterprise LTSC, contact your device maker to see if they offer upgrades for your device.
+Windows 11 IoT Enterprise LTSC 2024 was first available to OEM device makers on May 22, 2024. Features in Windows 11 IoT Enterprise LTSC 2024 are similar to Windows 11, version 24H2. Windows 11 IoT Enterprise LTSC 2024 is intended for special purpose, fixed function devices.  Windows 11 IoT Enterprise LTSC 2024 continues to offer a 10-year support lifecycle, which includes quality updates distributed via Windows Update monthly. Upgrading from one version of Windows IoT Enterprise LTSC to the next version requires a new license. If your device came preinstalled with a previous version of Windows IoT Enterprise LTSC, contact your device maker to see if they offer upgrades for your device.
 
 Windows 11 IoT Enterprise LTSC 2024 follows the [Fixed Lifecycle Policy](/lifecycle/policies/fixed).
 
