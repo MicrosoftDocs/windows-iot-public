@@ -26,7 +26,7 @@ For product inquiries, contact one of our knowledgeable distributors in this lis
 | ------------------------|-----------------------------------------      |-------------------|:--------------:|
 | Brazil                  | Softline International BRASIL COMER           | [info.brasil@softlinegroup.com](mailto:info.brasil@softlinegroup.com)                                | +55 11 5188 8100 |
 | United&nbsp;States      | Advantech Corporation                         | :::no-loc text="Jeff Trager"::: </br>[iot.software@advantech.com](mailto:iot.software@advantech.com) | +1 425-922-0721 |
-| United&nbsp;States      | Arrow Electronics INC.                        | :::no-loc text="Ken Marlin":::, :::no-loc"Henry Castillo"::: </br>[WindowsChamp@arrow.com](mailto:WindowsChamp@arrow.com) | +1 (830) 365-7024 |
+| United&nbsp;States      | Arrow Electronics INC.                        | :::no-loc text="Ken Marlin":::, :::no-loc text="Henry Castillo"::: </br>[WindowsChamp@arrow.com](mailto:WindowsChamp@arrow.com) | +1 (830) 365-7024 |
 | United&nbsp;States      | Avnet INC.                                    | [Software@Avnet.com](mailto:Software@Avnet.com)                                                      | +1 480 643 7055 |
 | United&nbsp;States      | Kontron Americas                              | [info.americas@kontron.com](mailto:info.americas@kontron.com)                                        | + 1 (888) 294-4558 |
 | United&nbsp;States      | Dell, INC.                                    | :::no-loc text="Jordan Wright":::</br>[embeddedsoftwaresales@dell.com](mailto:embeddedsoftwaresales@dell.com) | +737 227 1602 |
