@@ -29,7 +29,7 @@ For product inquiries, contact one of our knowledgeable distributors in this lis
 | United&nbsp;States      | Arrow Electronics INC.                        | :::no-loc text="Ken Marlin":::, :::no-loc text="Henry Castillo"::: </br>[WindowsChamp@arrow.com](mailto:WindowsChamp@arrow.com) | +1 (830) 365-7024 |
 | United&nbsp;States      | Avnet INC.                                    | [Software@Avnet.com](mailto:Software@Avnet.com)                                                      | +1 480 643 7055 |
 | United&nbsp;States      | Kontron Americas                              | [info.americas@kontron.com](mailto:info.americas@kontron.com)                                        | + 1 (888) 294-4558 |
-| United&nbsp;States      | Dell, INC.                                    | :::no-loc text="Casey Paulk"</br>[Casey_Paulk@dell.com](mailto:Casey_Paulk@dell.com)</br>:::no-loc text="Sukhvinder Aulak"</br>[Sukhvinder_Aulak@dell.com](mailto:Sukhvinder_Aulak@dell.com) | 1-800-624-9896</br>+44 141 202 5493|
+| United&nbsp;States      | Dell, INC.                                    | :::no-loc text="Casey Paulk":::</br>[Casey_Paulk@dell.com](mailto:Casey_Paulk@dell.com)</br>:::no-loc text="Sukhvinder Aulak":::</br>[Sukhvinder_Aulak@dell.com](mailto:Sukhvinder_Aulak@dell.com) | 1-800-624-9896</br>+44 141 202 5493|
 
 ## APAC
 
@@ -41,7 +41,7 @@ For product inquiries, contact one of our knowledgeable distributors in this lis
 | China                   | AVNET(Shanghai) Limited                       | :::no-loc text="Jack Xu":::</br>[jackwuhan.xu@avnet.com](mailto:jackwuhan.xu@avnet.com)              | +86 18627083759 |
 | China                   | Beijing Advantech XING YE Electronics         | :::no-loc text="Cui Cui Ding":::</br>[CuiCui.Ding@advantech.com.cn](mailto:CuiCui.Ding@advantech.com.cn) |+86 18565739591 |
 | China                   | Shenzhen Comtech Technology Co. Ltd.          | :::no-loc text="Selina Gong":::</br>[selinagong@comtech.cn](mailto:selinagong@comtech.cn)    | +86 15986642886 |
-| China                   | Dell (China) CO. Ltd.                         | :::no-loc text="Casey Paulk"</br>[Casey_Paulk@dell.com](mailto:Casey_Paulk@dell.com)</br>:::no-loc text="Sukhvinder Aulak"</br>[Sukhvinder_Aulak@dell.com](mailto:Sukhvinder_Aulak@dell.com) | 1-800-624-9896</br>+44 141 202 5493|
+| China                   | Dell (China) CO. Ltd.                         | :::no-loc text="Casey Paulk":::</br>[Casey_Paulk@dell.com](mailto:Casey_Paulk@dell.com)</br>:::no-loc text="Sukhvinder Aulak":::</br>[Sukhvinder_Aulak@dell.com](mailto:Sukhvinder_Aulak@dell.com) | 1-800-624-9896</br>+44 141 202 5493|
 | China                   | MDS(Shenzhen) Technology Co., Ltd             | :::no-loc text="Adam Yi":::</br>[adamyi@mdspacific.com](mailto:adamyi@mdspacific.com)                | +86 18565885612 |
 | China                   | Lanxiang Technology (Shenzhen)                | :::no-loc text="Becky Wang":::</br>[beckywang@synnex.com.tw](mailto:beckywang@synnex.com.tw)         | +86 13417570375 |
 | China                   | WT Microelectronics (Shanghai) CO.,           | :::no-loc text="Sun Liang":::</br>[liang.sun@wtmec.com](mailto:liang.sun@wtmec.com)                  | +86 18600933866 |
@@ -68,7 +68,7 @@ For product inquiries, contact one of our knowledgeable distributors in this lis
 | Philippines             | MDS Pacific PTE Ltd.                          | :::no-loc text="Edmund Foo":::</br>[edmund.foo@mdspacific.com](mailto:edmund.foo@mdspacific.com)</br>:::no-loc text="Stacey Leaw":::</br>[Stacey.leaw@mdspacific.com](mailto:Stacey.leaw@mdspacific.com)|+65 6297 2800  |
 | Singapore               | Advantech Co. Singapore PTE Ltd.              | :::no-loc text="Daren See":::</br>[Daren.See@advantech.com](mailto:Daren.See@advantech.com)          | Mobile: +65 8800 0938 </br> DID: +65 6413 8724  |
 | Singapore               | Avnet Asia Pte Ltd                            | :::no-loc text="Catherine Wong":::</br>[Catherine.wong@avnet.com](mailto:Catherine.wong@avnet.com)   | +65 9681 9211 |
-| Singapore               | Dell Global B.V. (Singapore Branch)           | :::no-loc text="Casey Paulk"</br>[Casey_Paulk@dell.com](mailto:Casey_Paulk@dell.com)</br>:::no-loc text="Sukhvinder Aulak"</br>[Sukhvinder_Aulak@dell.com](mailto:Sukhvinder_Aulak@dell.com) | 1-800-624-9896</br>+44 141 202 5493|
+| Singapore               | Dell Global B.V. (Singapore Branch)           | :::no-loc text="Casey Paulk":::</br>[Casey_Paulk@dell.com](mailto:Casey_Paulk@dell.com)</br>:::no-loc text="Sukhvinder Aulak":::</br>[Sukhvinder_Aulak@dell.com](mailto:Sukhvinder_Aulak@dell.com) | 1-800-624-9896</br>+44 141 202 5493|
 | Singapore               | MDS Pacific PTE Ltd.                          | :::no-loc text="Edmund Foo":::</br>[edmund.foo@mdspacific.com](mailto:edmund.foo@mdspacific.com)</br>:::no-loc text="Stacey Leaw":::</br>[Stacey.leaw@mdspacific.com](mailto:Stacey.leaw@mdspacific.com)|+65 6297 2800  |
 | Taiwan                  | Advantech CO., LTD.                           | :::no-loc text="Grace Chen"::: </br>[Grace88.Chen@advantech.com.tw](mailto:Grace88.Chen@advantech.com.tw)|+886 2 27927818 ext. 9292 |
 | Taiwan                  | Chander Electronics Corp.                     | :::no-loc text="Fransky Liu":::</br>[fransky_liu@chander.com.tw](mailto:fransky_liu@chander.com.tw)  | +886 2 2218-6500 EXT 861 |
@@ -118,7 +118,7 @@ For product inquiries, contact one of our knowledgeable distributors in this lis
 | South, West & Central Africa</br> *Benin, Botswana, Burkina Faso, Cameroon, Central Africa Republic, Chad, Congo, Cote D'Ivoire, Ethiopia, Gabon, Gambia, Ghana, Guinea-Bissau, Kenya, Liberia, Madagascar, Malawi, Mali, Mauritania, Mauritius, Morocco, Mozambique, Namibia, Niger, Nigeria, Senegal, Sierra Leone, Tanzania, Togo, Tunisia, Uganda, Zambia, Zimbabwe* | Avnet Silica | :::no-loc text="Carl Van der Merwe":::</br>[Carl.VanderMerwe@avnet.eu](mailto:Carl.VanderMerwe@avnet.eu) | +27 21 68941 47 |
 | South Africa                          | Avnet Silica                          | :::no-loc text="Carl Van der Merwe":::</br>[microsoft@avnet.eu](mailto:microsoft@avnet.eu) | +27 84 449 8747|
 | Israel                                | Avnet Silica                          | :::no-loc text="Moshe Ayal"::: </br>[microsoft@avnet.eu](mailto:microsoft@avnet.eu) | +972 50 7223650|
-| EMEA                                  | Dell EMEA                             | :::no-loc text="Casey Paulk"</br>[Casey_Paulk@dell.com](mailto:Casey_Paulk@dell.com)</br>:::no-loc text="Sukhvinder Aulak"</br>[Sukhvinder_Aulak@dell.com](mailto:Sukhvinder_Aulak@dell.com) | 1-800-624-9896</br>+44 141 202 5493|
+| EMEA                                  | Dell EMEA                             | :::no-loc text="Casey Paulk":::</br>[Casey_Paulk@dell.com](mailto:Casey_Paulk@dell.com)</br>:::no-loc text="Sukhvinder Aulak":::</br>[Sukhvinder_Aulak@dell.com](mailto:Sukhvinder_Aulak@dell.com) | 1-800-624-9896</br>+44 141 202 5493|
 | Israel, UK                            | Eastronics Limited                    | :::no-loc text="Rivka Helfman":::</br>[rivka.helfman@easx.co.il](mailto:rivka.helfman@easx.co.il) | +972508885628</br>+97236458635 |
 | Hungary                               | Elbacom GmbH                          | :::no-loc text="Zsolt Szanya":::</br>[z.szanya@elbacom.com](mailto:z.szanya@elbacom.com) | +36 (30) 7480458 |
 | Romania                               | Elbacom GmbH                          | :::no-loc text="Zsolt Szanya":::</br>[z.szanya@elbacom.com](mailto:z.szanya@elbacom.com) | +36 (30) 7480458 |
@@ -146,7 +146,7 @@ For product inquiries, contact one of our knowledgeable distributors in this lis
 | Japan                                 | Okaya Electronics Corp.       | :::no-loc text="Shinpachiro Goan":::</br>[goan@oec.okaya.co.jp](mailto:goan@oec.okaya.co.jp)</br>:::no-loc text="Product Promotion Group":::</br>[info_ms@oec.okaya.co.jp](mailto:info_ms@oec.okaya.co.jp) | +81 45 475 1502 |
 | Japan                                 | Ryoyo Electro Corporation     | :::no-loc text="Tetsuya Nagano":::</br>[tetsuya_nagano@ryoyo.co.jp](mailto:tetsuya_nagano@ryoyo.co.jp)</br>:::no-loc text="IS MSIS Division":::</br>[msoem@ryoyo.co.jp](mailto:msoem@ryoyo.co.jp) | +81 3 3546 6211 |
 | Japan                                 | Tokyo Electron Device Limited | :::no-loc text="Naoto Sasaki":::</br>[sasaki.n@teldevice.co.jp](mailto:sasaki.n@teldevice.co.jp)</br>:::no-loc text="Edge Cloud Solution Dept.":::</br>[esg@teldevice.co.jp](mailto:esg@teldevice.co.jp) | +81 50 3509 5674 |
-| Japan                                  | Dell Japan                   | :::no-loc text="Casey Paulk"</br>[Casey_Paulk@dell.com](mailto:Casey_Paulk@dell.com)</br>:::no-loc text="Sukhvinder Aulak"</br>[Sukhvinder_Aulak@dell.com](mailto:Sukhvinder_Aulak@dell.com) | 1-800-624-9896</br>+44 141 202 5493|
+| Japan                                  | Dell Japan                   | :::no-loc text="Casey Paulk":::</br>[Casey_Paulk@dell.com](mailto:Casey_Paulk@dell.com)</br>:::no-loc text="Sukhvinder Aulak":::</br>[Sukhvinder_Aulak@dell.com](mailto:Sukhvinder_Aulak@dell.com) | 1-800-624-9896</br>+44 141 202 5493|
 
 > [!NOTE]
 > To request contact information updates, send an email to  [IoTDistributorList@microsoft.com](mailto:iotdistributorlist@microsoft.com) with details about the changes needed.  
@@ -155,4 +155,4 @@ For product inquiries, contact one of our knowledgeable distributors in this lis
 > [!IMPORTANT] 
 > [IoTDistributorList@microsoft.com](mailto:iotdistributorlist@microsoft.com) is not intended for product inquiries.  For product inquiries, contact a distributor within your region for assistance.
 
-4/8/2025
+4/11/2025
