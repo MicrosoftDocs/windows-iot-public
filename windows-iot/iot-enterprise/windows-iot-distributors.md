@@ -135,7 +135,7 @@ For product inquiries, contact one of our knowledgeable distributors in this lis
 | Spain, Portugal, Italy                | Elbacom GmbH                          | :::no-loc text="Iker Corrales García"::: </br>[i.corrales@elbacom.com](mailto:i.corrales@elbacom.com) | +34 626 883 859 |
 | Rest of EMEA                          | Elbacom GmbH                          | :::no-loc text="David Kotzenmacher"::: </br>[d.Kotzenmacher@elbacom.com](mailto:d.Kotzenmacher@elbacom.com) | +43 (664) 2163504 |
 | Belgium                               | Koning & Hartman B.V.                 | :::no-loc text="Kjell De Clercq, Kelly Bornauw, Alida Coninx"::: </br>[Info.be@koningenhartman.com](mailto:Info.be@koningenhartman.com) | +32 2 257 02 00 |
-| Ukraine, Kazakhstan, Uzbekistan, Moldova, Azerbaijan, Georgia, Armenia, Kyrgyzstan, Turkmenistan, Tajikistan, Turkey, Cyprus| Quarta IoT LLC | :::no-loc text="Ruben Molunts"::: </br>[sales@quarta-iot.com](mailto:sales@quarta-iot.com) | +374 77 115784</br>+374 99 115784 |
+| Ukraine, Kazakhstan, Uzbekistan, Moldova, Azerbaijan, Georgia, Armenia, Kyrgyzstan, Turkmenistan, Tajikistan, Türkiye, Cyprus| Quarta IoT LLC | :::no-loc text="Ruben Molunts"::: </br>[sales@quarta-iot.com](mailto:sales@quarta-iot.com) | +374 77 115784</br>+374 99 115784 |
 | Russia, Ukraine, Belarus, Kazakhstan, Uzbekistan, Moldova, Azerbaijan, Georgia, Armenia, Kyrgyzstan, Turkmenistan, Tajikistan | Quarta Technologies | [mse@quarta.ru](mailto:mse@quarta.ru) | +7 495 123 4518 |
 
 ## Japan
