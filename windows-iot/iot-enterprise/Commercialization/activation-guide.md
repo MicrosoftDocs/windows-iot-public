@@ -9,7 +9,7 @@ ms.topic: reference
 ms.date: 05/22/2024
 ---
 
-# OEM Activation
+# OEM Activation ePKEA
 
 As a device maker, you can install and use the Windows IoT Enterprise operating system to develop and test prototype customer systems. Any images installed without a product key or using the default manufacturing key won't function for more than 30 days after the first boot of an image on a prototype system.
 
