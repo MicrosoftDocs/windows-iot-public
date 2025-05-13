@@ -323,7 +323,7 @@ Where `<DriveLetter>` is the drive letter associated with your flash drive
    Windows Setup starts. Follow the instructions to install Windows.
 
    > [!TIP]
-   > You may need to consult the device manufacturer instructions to configure it for booting from the flash drive it this process doesn't work on your device.
+   > You may need to consult the device manufacturer instructions to configure it for booting from the flash drive if this process doesn't work on your device.
 
 1. Once the initial phase of Setup is complete and your device reboots, Setup may start again from the beginning. If Setup starts again, cancel Setup, and shut down the computer then remove the flash drive and turn on the device to continue with the next phase of Setup.
 
