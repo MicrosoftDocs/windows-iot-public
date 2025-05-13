@@ -75,7 +75,7 @@ productDirectory:
           text:  Release Notes
 
     - title: Companion Azure Services
-      imageSrc: /media/common/i_multi-connect.svg
+      imageSrc: /azure/media/index/azure.svg
       links:
         - url: /azure/iot/
           text: Azure IoT Overview
