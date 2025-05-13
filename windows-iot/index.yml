@@ -74,27 +74,22 @@ productDirectory:
         - url: /sql/sql-server/sql-server-2022-release-notes?view=sql-server-ver16
           text:  Release Notes
 
-    - title: Azure Kubernetes Service (AKS) Edge Essentials
-      imageSrc: /media/common/i_multi-connect.svg
+    - title: Companion Azure Services
+      imageSrc: /azure/media/index/azure.svg
       links:
-        - url: /azure/aks/hybrid/aks-edge-overview
-          text: Overview
-        - url: /azure/aks/hybrid/aks-edge-quickstart
-          text: Quickstart
-        - url: /azure/aks/hybrid/aks-edge-howto-setup-machine
-          text: How-to Guide
-        - url: /training/paths/get-started-aks-edge-essentials/
-          text: Get started with AKS Edge Essentials - Training
+        - url: /azure/iot/
+          text: Azure IoT Overview
+        - url: /azure/azure-arc
+          text: Azure Arc
+        - url: /azure/aks/aksarc
+          text: Azure Kubernetes Service (AKS) Edge Essentials
+        - url: /azure/iot-edge
+          text: Azure IoT Edge for Linux on Windows
+        - url: /azure/iot-operations
+          text: Azure IoT Operations
+        - url: /azure/update-manager
+          text: Azure Update Manager
 
-    - title: Azure IoT Edge for Linux on Windows
-      imageSrc: /media/common/i_multi-connect.svg
-      links:
-        - url: /azure/iot-edge/iot-edge-for-linux-on-windows?view=iotedge-2018-06
-          text: Overview
-        - url: /azure/iot-edge/quickstart?view=iotedge-2018-06
-          text: Quickstart
-        - url: /azure/iot-edge/how-to-install-iot-edge-on-windows?view=iotedge-2018-06&tabs=powershell
-          text: How-to Guide
 
     - title: Previous Versions
       imageSrc: ./media/windows.png

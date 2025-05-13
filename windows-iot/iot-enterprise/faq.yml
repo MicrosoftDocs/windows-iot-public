@@ -76,6 +76,7 @@ sections:
           - [Can I use my existing management infrastructure for Windows with Windows IoT Enterprise?](faq.yml#can-i-use-my-existing-management-infrastructure-for-windows-with-windows-iot-enterprise)
           - [Where can I find information about new features and changes in Windows IoT Enterprise](faq.yml#where-can-i-find-information-about-new-features-and-changes-in-windows-iot-enterprise)
           - [What is the difference between Windows IoT Enterprise and Windows IoT Core?](faq.yml#what-is-the-difference-between-windows-iot-enterprise-and-windows-iot-core)
+          - [Can the Edge Browser be uninstalled in Windows IoT Enterprise?](faq.yml#can-the-edge-browser-be-uninstalled-in-iot-enterprise)
 
 #          [Top of FAQ](faq.yml)
 
@@ -312,7 +313,15 @@ sections:
 
         [Top of FAQ](faq.yml)
 
-
+        
+    - question: Can the Edge Browser be uninstalled in IoT Enterprise?
+      answer: |
+        The Edge Browser cannot be uninstalled on IoT Enterprise. Edge is considered a core part of Windows, and Microsoft does not officially support its removal.
+        
+        Uninstalling Edge may affect system functionality, especially features that rely on Edge as a rendering engine. Microsoft does not provide a built-in GUI option to uninstall Edge from Settings or Control Panel. For more information see [Edge Browser uninstallation] (https://www.microsoft.com/en-us/edge/uninstall-edge?form=MT00OR&cs=3896570988)
+        
+        [Top of FAQ](faq.yml)
+        
     - question: How do I reinstall Windows IoT Enterprise?
       answer: |
         Consult with your device manufacturer to determine what reinstallation options are available for your Windows IoT Enterprise device. Reinstallation will often require the device manufacturer to provide you a reinstallation image that has the drivers, applications, and license needed for the Windows IoT Enterprise device to function. 
