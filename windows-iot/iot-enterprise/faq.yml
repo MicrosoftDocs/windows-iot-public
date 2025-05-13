@@ -313,7 +313,7 @@ sections:
 
         [Top of FAQ](faq.yml)
         
-  - question: Can the Edge Browser be uninstalled in IoT Enterprise?
+    - question: Can the Edge Browser be uninstalled in IoT Enterprise?
       answer: |
         The Edge Browser cannot be uninstalled on IoT Enterprise. Edge is considered a core part of Windows, and Microsoft does not officially support its removal.
         
