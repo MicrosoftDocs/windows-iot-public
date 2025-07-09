@@ -77,7 +77,8 @@ Other factors to consider when selecting hardware include performance, available
 
 | Manufacturer | Board | Type |
 | ------ | -------------- | ----- |
-| Thundercomm | [ RB3 Gen 2](https://www.thundercomm.com/product/qualcomm-rb3-gen-2/) | Development Kit |
+| Thundercomm | [RB3 Gen 2](https://www.thundercomm.com/product/qualcomm-rb3-gen-2/) | Development Kit |
+| Coretronic | [RB3 Gen 2](https://ec.coreality-inc.com/product/qualcomm-rb3-gen-2-development-kit-vision-kit/) | Development Kit |
 | NXP | [i.MX 8M Plus EVK](https://www.nxp.com/design/development-boards/i-mx-evaluation-and-development-boards/evaluation-kit-for-the-i-mx-8m-plus-applications-processor:8MPLUSLPD4-EVK) | Development Kit |
 | NXP | [i.MX 93 EVK](https://www.nxp.com/products/processors-and-microcontrollers/arm-processors/i-mx-applications-processors/i-mx-9-processors/i-mx-93-applications-processor-family-arm-cortex-a55-ml-acceleration-power-efficient-mpu:i.MX93) | Development Kit |
 | NXP | [i.MX 8M Mini EVK](https://www.nxp.com/design/development-boards/i-mx-evaluation-and-development-boards/evaluation-kit-for-the-i-mx-8m-mini-applications-processor:8MMINILPD4-EVK) | Development Kit |
