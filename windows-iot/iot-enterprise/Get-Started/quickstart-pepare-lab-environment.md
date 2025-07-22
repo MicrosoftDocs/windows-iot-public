@@ -6,7 +6,7 @@ ms.author: sergaz
 ms.service: windows-iot
 ms.subservice: iot
 ms.topic: quickstart
-ms.date: 09/27/2024
+ms.date: 07/22/2025
 
 #customer intent: As a beginner, I want to know how to prepare my environment to build Windows IoT Enterprise images.
 
@@ -24,16 +24,16 @@ The lab environment created during this exercise is used in the successor quicks
 In this series of quickstarts, you can opt by using a **Virtual Machine** as your reference device sample. In a true development or production environment, you would start by choosing a **Physical Device** that meets the [Minimum System Requirements for Windows IoT Enterprise](../Hardware/System_Requirements.md).
 
 > [!TIP]
-> You can also use the lab environment created during this exercise, to complete other tutorials under [Customization](../Customize/customize-overview.md), [Optimization](../Optimize/Overview.md) and [Deployment](../Deployment/index.md).
+> You can also use the lab environment created during this exercise, to complete other tutorials under [Customization](../Customize/customize-overview.md), [Optimization](../Optimize/Overview.md), and [Deployment](../Deployment/index.md).
 
 ## Prerequisites
 
 To prepare your **technician PC (your work PC)**, you need:
 
 - Windows 11 with the latest updates.
-- Have at least 15 GB of free space for installing the software and for modifying Windows IoT Enterprise images.
-- Have [Windows Assessment and Deployment Kit (ADK)](/windows-hardware/get-started/adk-install) with Deployment Tools, Configuration Designer, and the Windows PE add-on installed.
-- Have a Windows 11 IoT Enterprise Long-Term Servicing Channel (LTSC) 2024 ISO.
+- At least 15 GB of free space for installing the software and for modifying Windows IoT Enterprise images.
+- [Windows Assessment and Deployment Kit (ADK)](/windows-hardware/get-started/adk-install) with Deployment Tools, Configuration Designer, and the Windows PE add-on installed.
+- A Windows 11 IoT Enterprise Long-Term Servicing Channel (LTSC) 2024 ISO.
     [!INCLUDE [Latest LTSC](../includes/incl-latest-ltsc-release.md)]
 
 To prepare your **reference device sample**, you need:
@@ -46,7 +46,7 @@ To prepare your **reference device sample**, you need:
 
 ### Create a bootable Windows IoT Enterprise installation media
 
-The typical way to install Windows in a physical device is to create a bootable USB flash drive, and then copy the Windows installation files onto the flash drive. Once you have the files on the flash drive, you can insert it into the device and boot from the flash drive. To learn more, see [Install Windows from a USB flash drive](/windows-hardware/manufacture/desktop/install-windows-from-a-usb-flash-drive).
+The typical way to install Windows in a physical device is to create a bootable USB flash drive, and then copy the Windows installation files onto the flash drive. Once you have the files on the flash drive, you can insert it into the device and boot from the flash drive. To learn more, see [Install Windows from a Flash Drive](/windows-hardware/manufacture/desktop/install-windows-from-a-usb-flash-drive).
 
 Follow these steps to prepare the installation flash drive:
 
@@ -77,7 +77,7 @@ Follow these steps to prepare the installation flash drive:
 1. When you identify the disk number of your flash drive, use `diskpart` to prepare the drive so you can use it as a bootable installation drive:
 
     > [!WARNING]
-    >The following commands will erase everything on the flash drive.
+    >The following commands erase everything on the flash drive.
 
     Enter the following commands from within `diskpart`, where Disk 1 is the flash drive:
 
@@ -105,7 +105,7 @@ Follow these steps to prepare the installation flash drive:
 - A virtual machine that meets the [Minimum System Requirements for Windows IoT Enterprise](../Hardware/System_Requirements.md).
 
     > [!IMPORTANT]
-    > This series of quickstarts focuses on using Hyper-V with Windows 11. First, confirm that you can [install Hyper-V](/virtualization/hyper-v-on-windows/quick-start/enable-hyper-v) on your **technician PC**. If Hyper-V is not suitable for your setup, consider using alternative virtualization technologies.
+    > This series of quickstarts focuses on using Hyper-V with Windows 11. First, confirm that you can [install Hyper-V](/virtualization/hyper-v-on-windows/quick-start/enable-hyper-v) on your **technician PC**. If Hyper-V isn't suitable for your setup, consider using alternative virtualization technologies.
 
 ### A virtual machine booting to Windows IoT Enterprise ISO
 
@@ -159,9 +159,9 @@ Install Windows with Windows Setup:
 1. Your device restarts a couple of times during the operating system installation. Wait until the device enters Out Of Box Experience (OOBE) and is showing a screen that says **Is this the right country or region?**.
 
     > [!IMPORTANT]
-    > When at the **Is this the right country or region?** OOBE screen don't continue the setup as you will need to enter Audit mode at this point. In the event that you started the setup of an account by mistake, you can open Command Prompt with Administrator privileges and run `C:\Windows\System32\Sysprep\sysprep.exe /audit` to enter Audit mode and continue the steps.
+    > When at the **Is this the right country or region?** OOBE screen don't continue the setup as you need to enter Audit mode at this point. If you started the setup of an account by mistake, you can open Command Prompt with Administrator privileges and run `C:\Windows\System32\Sysprep\sysprep.exe /audit` to enter Audit mode and continue the steps.
 
-    :::image type="content" source="../Get-Started/media/quickstart-pepare-lab-environment/country-region-oobe-screen.png" alt-text="Screenshot that shows the region and country OOBE screen.":::
+    :::image type="content" source="../Get-Started/media/quickstart-pepare-lab-environment/country-region-oobe-screen.png" alt-text="Screenshot that shows the country/region OOBE screen.":::
 
 ## Enter Audit Mode
 
@@ -176,7 +176,7 @@ Windows is installed on your reference device sample and you have a basic image 
     :::image type="content" source="../Get-Started/media/quickstart-pepare-lab-environment/audit-mode-sysprep-tool.png" alt-text="Screenshot of Audit Mode screen showing System Preparation Tool.":::
 
     > [!TIP]
-    > If you're in Audit mode and a password-protected screen saver starts, you can't log back on to the system. The built-in administrator account that's used to log on to Audit mode is immediately disabled after logon. Disable the screen saver by either changing the power plan in the Settings app, or configure and deploy a custom plan. For more information, see [Create a Custom Power Plan](/windows-hardware/manufacture/desktop/create-a-custom-power-plan-technicalreference).
+    > If you're in Audit mode and a password-protected screen saver starts, you can't sign back on to the system. The built-in administrator account that's used to sign in to Audit mode is immediately disabled after sign-in. Disable the screen saver by either changing the power plan in the Settings app, or configure and deploy a custom plan. For more information, see [Create a Custom Power Plan](/windows-hardware/manufacture/desktop/create-a-custom-power-plan-technicalreference).
 
 ## Next step
 
