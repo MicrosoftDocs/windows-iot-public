@@ -6,7 +6,7 @@ ms.author: sergaz
 ms.service: windows-iot
 ms.subservice: iot
 ms.topic: quickstart
-ms.date: 09/27/2024
+ms.date: 07/22/2025
 
 #customer intent: As a beginner, I want to learn the basics on how to customize a reference device in audit mode.
 
@@ -17,7 +17,7 @@ ms.date: 09/27/2024
 In this quickstart, you customize a reference device running Windows IoT Enterprise in Audit mode and create a custom Kiosk experience.
 
 > [!TIP]
-> Most customizations in this lab can be made to an offline mounted Windows image, as well as in Audit mode. For more information, see [Modify a Windows image using DISM](/windows-hardware/manufacture/desktop/mount-and-modify-a-windows-image-using-dism).
+> Most customizations in this lab can be made to an offline mounted Windows image and in Audit mode. For more information, see [Modify a Windows image using DISM](/windows-hardware/manufacture/desktop/mount-and-modify-a-windows-image-using-dism).
 
 ## Prerequisites
 
@@ -25,9 +25,9 @@ Complete [Quickstart: Prepare your lab environment](quickstart-pepare-lab-enviro
 
 ## What is Audit mode?
 
-Audit Mode allows system administrators to boot directly to the desktop before the end user gets to the Windows Welcome screen, giving them the opportunity to install Windows Updates, drivers, locking down the device, and install other software as needed.
+Audit mode allows system administrators to boot directly to the desktop before the end user gets to the Windows Welcome screen, giving them the opportunity to install Windows Updates, drivers, locking down the device, and install other software as needed.
 
-When Windows boots, it starts in either Out-Of-Box Experience (OOBE) mode or in Audit Mode. OOBE is the default out-of-box experience that allows end users to enter their account information, select language, accept the Microsoft Terms of Service, and set up networking. In Audit Mode, you can:
+When Windows boots, it starts in either Out-Of-Box Experience (OOBE) mode or in Audit mode. OOBE is the default out-of-box experience that allows end users to enter their account information, select language, accept the Microsoft Terms of Service, and set up networking. In Audit mode, you can:
 
 - Bypass OOBE. You can access the desktop as quickly as possible. You don't have to configure default settings such as a user account, location, and time zone.
 - Install applications, add device drivers, and run scripts. You can connect to a network and access more installation files and scripts. You can also install more language packs and device drivers.
@@ -153,7 +153,7 @@ This section provides steps to configure Shell Launcher in Audit mode using DISM
 
     :::image type="content" source="../Get-Started/media/quickstart-customize-reference-device/powershell-shell.png" alt-text="Screenshot that shows PowerShell as the default system shell":::
 
-You can leave the reference device with *powershell.exe* as your custom shell and proceed to [Quickstart: Sysprep and capture the reference device image and deploy to a new device](quickstart-sysprep-capture-deploy.md). If you want to revert the system back to the *explorer.exe* shell, do the following steps:
+You can leave the reference device with *powershell.exe* as your custom shell and proceed to [Quickstart: Sysprep and capture the reference device image, and deploy to a new device](quickstart-sysprep-capture-deploy.md). If you want to revert the system back to the *explorer.exe* shell, do the following steps:
 
 1. From the current shell, open an Administrative Windows PowerShell Prompt:
 
@@ -179,4 +179,4 @@ You can leave the reference device with *powershell.exe* as your custom shell an
 ## Next step
 
 > [!div class="nextstepaction"]
-> [Quickstart: Sysprep and capture the reference device image and deploy to a new device](quickstart-sysprep-capture-deploy.md)
+> [Quickstart: Sysprep and capture the reference device image, and deploy to a new device](quickstart-sysprep-capture-deploy.md)
