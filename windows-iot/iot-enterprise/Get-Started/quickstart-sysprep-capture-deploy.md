@@ -6,7 +6,7 @@ ms.author: sergaz
 ms.service: windows-iot
 ms.subservice: iot
 ms.topic: quickstart
-ms.date: 09/27/2024
+ms.date: 07/22/2025
 
 #customer intent: As a beginner, I want to learn the basics on how to sysprep, capture and deploy Windows IoT Enterprise.
 
@@ -40,7 +40,7 @@ This section provides steps to sysprep the reference device and apply to both ph
 After Sysprep prepares the image, the reference device will shut down. The next time the device boots, it will boot into OOBE.
 
 > [!CAUTION]
-> Don't power the reference device back on until you're ready to capture an image. If the device boots, you'll have to go through the Sysprep process again.
+> Don't power the reference device back on until you're ready to capture an image. If the device boots, you have to go through the Sysprep process again.
 
 ## Create a bootable WinPE drive
 
@@ -164,7 +164,7 @@ In your **reference device sample**, follow the steps to capture a WIM image:
 1. Boot the reference device from the bootable WinPE USB flash drive.
 
     > [!IMPORTANT]
-    > Don't boot your device until you know which key brings up the device's boot menu. The device is in a Sysprepped state and should not be allowed to boot back into Windows IoT Enterprise.
+    > Don't boot your device until you know which key brings up the device's boot menu. The device is in a Sysprepped state and shouldn't be allowed to boot back into Windows IoT Enterprise.
 
     The system boots to the WinPE, where you see a Command prompt.
 
@@ -271,7 +271,7 @@ In your **reference device sample**, follow the steps to capture a WIM image:
     :::image type="content" source="../Get-Started/media/quickstart-sysprep-capture-deploy/winpe-dism-capture-image.png" alt-text="Screenshot that shows the success capture of the image using dism":::
 
     > [!NOTE]
-    > Your device will have more than one partition, but you only need to capture the Windows partition.
+    > Your device has more than one partition, but you only need to capture the Windows partition.
 
 1. Shut down the virtual machine:
 
@@ -396,7 +396,7 @@ The system boots to the WinPE, where you see a Command prompt.
     :::image type="content" source="../Get-Started/media/quickstart-sysprep-capture-deploy/winpe-dism-capture-image.png" alt-text="Screenshot that shows the success capture of the image using dism":::
 
     > [!NOTE]
-    > Your device will have more than one partition, but you only need to capture the Windows partition.
+    > Your device has more than one partition, but you only need to capture the Windows partition.
 
 1. Shut down the virtual machine:
 
@@ -444,7 +444,7 @@ In your **new device**, follow the steps to deploy the WIM image:
     ```
 
     > [!NOTE]
-    > The above Diskpart commands don't create a recovery partition. If you need to configure a recovery partition, see [Configure UEFI/GPT-based hard drive partitions](/windows-hardware/manufacture/desktop/configure-uefigpt-based-hard-drive-partitions).
+    > The above Diskpart commands don't create a recovery partition. If you need to configure a recovery partition, see [UEFI/GPT-based hard drive partitions](/windows-hardware/manufacture/desktop/configure-uefigpt-based-hard-drive-partitions).
 
 1. Use Diskpart to identify the volume where the WIM file is stored:
 
@@ -556,7 +556,7 @@ The system boots to the WinPE, where you see a Command prompt.
     ```
 
     > [!NOTE]
-    > The above Diskpart commands don't create a recovery partition. If you need to configure a recovery partition, see [Configure UEFI/GPT-based hard drive partitions](/windows-hardware/manufacture/desktop/configure-uefigpt-based-hard-drive-partitions).
+    > The above Diskpart commands don't create a recovery partition. If you need to configure a recovery partition, see [UEFI/GPT-based hard drive partitions](/windows-hardware/manufacture/desktop/configure-uefigpt-based-hard-drive-partitions).
 
 1. Use Diskpart to identify the volume where the WIM file is stored:
 
@@ -613,6 +613,6 @@ The device starts into OOBE with the Windows IoT Enterprise image you previously
 
 ## Related content
 
-- [Customization](../Customize/customize-overview.md)
-- [Optimization](../Optimize/Overview.md)
-- [Deployment](../Deployment/index.md)
+- [Customizations for IoT Enterprise](../Customize/customize-overview.md)
+- [Device Optimization Overview](../Optimize/Overview.md)
+- [Deployment Overview](../Deployment/index.md)

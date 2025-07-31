@@ -4,13 +4,13 @@ ms.author: twarwick
 ms.service: windows-iot
 ms.subservice: iot
 ms-topic: include
-ms.date: 09/30/2024
+ms.date: 07/22/2025
 ---
 
 > [!NOTE]
 > **Windows 11 IoT Enterprise LTSC 2024** is now available for OEMs building new devices and enterprise customers upgrading existing systems through volume licensing and evaluation.
 >
 > - If you are an OEM, contact your [authorized Windows IoT Distributor](/windows/iot/iot-enterprise/windows-iot-distributors) for assistance with [Licensing](/windows/iot/iot-enterprise/commercialization/licensing).
-> - If you are an enterprise customer looking to upgrade fixed function devices through volume licensing, see [Windows Desktop Operating System Volume Licensing Terms](https://www.microsoft.com/licensing/terms/productoffering/.WindowsDesktopOperatingSystem/all) and [Windows IoT Enterprise LTSC in Volume License](/windows/iot/iot-enterprise/deployment/volume-license) for deployment guidance.
+> - If you are an enterprise customer looking to upgrade fixed function devices through volume licensing, see [Windows Desktop Operating System Volume Licensing Terms](https://www.microsoft.com/licensing/terms/productoffering/WindowsDesktopOperatingSystem/all) and [Windows IoT Enterprise LTSC in Volume License](/windows/iot/iot-enterprise/deployment/volume-license) for deployment guidance.
 > - To evaluate Windows 11 IoT Enterprise LTSC 2024, download the [90-Day Evaluation](https://aka.ms/winioteval).
 > - If you have a Visual Studio Subscription, and Windows IoT Enterprise is available with your subscription, you can download previous versions of Windows IoT Enterprise LTSC from [Visual Studio Subscriptions - Downloads](https://my.visualstudio.com/Downloads?q=IoT%20Enterprise%20LTSC&pgroup=).
