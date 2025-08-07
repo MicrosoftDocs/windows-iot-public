@@ -156,4 +156,4 @@ For product inquiries, contact one of our knowledgeable distributors in this lis
 > [!IMPORTANT] 
 > [IoTDistributorList@microsoft.com](mailto:iotdistributorlist@microsoft.com) is not intended for product inquiries.  For product inquiries, contact a distributor within your region for assistance.
 
-4/11/2025
+8/7/2025
