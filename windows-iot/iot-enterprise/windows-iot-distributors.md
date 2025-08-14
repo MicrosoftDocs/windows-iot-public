@@ -144,7 +144,7 @@ For product inquiries, contact one of our knowledgeable distributors in this lis
 | Location                              | Distributor&nbsp;Name         | Contact&nbsp;Name | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Contact&nbsp;Phone&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; |
 | --------------------------------------|-------------------------------|-------------------|:--------------:|
 | Japan                                 | Avnet K.K.                    | :::no-loc text="Toshitaka Saito":::</br>[Toshitaka.Saito@AVNET.COM](mailto:Toshitaka.Saito@AVNET.COM)</br>:::no-loc text="MS Support":::</br>[akk-ms-support@avnet.com](mailto:akk-ms-support@avnet.com) | +81 3 5792 9820 |
-| Japan                                 | Okaya Electronics Corp.       | :::no-loc text="Shinpachiro Goan":::</br>[goan@oec.okaya.co.jp](mailto:goan@oec.okaya.co.jp)</br>:::no-loc text="Product Promotion Group":::</br>[info_ms@oec.okaya.co.jp](mailto:info_ms@oec.okaya.co.jp) | +81 45 475 1502 |
+| Japan                                 | Okaya Electronics Corp.       | :::no-loc text="Tadanori Uchida":::</br>[uchida@oec.okaya.co.jp](mailto:uchida@oec.okaya.co.jp)</br>:::no-loc text="Product Promotion Group":::</br>[info_ms@oec.okaya.co.jp](mailto:info_ms@oec.okaya.co.jp) | +81 45 475 1502 |
 | Japan                                 | Ryoyo Electro Corporation     | :::no-loc text="Tetsuya Nagano":::</br>[tetsuya_nagano@ryoyo.co.jp](mailto:tetsuya_nagano@ryoyo.co.jp)</br>:::no-loc text="IS MSIS Division":::</br>[msoem@ryoyo.co.jp](mailto:msoem@ryoyo.co.jp) | +81 3 3546 6211 |
 | Japan                                 | Tokyo Electron Device Limited | :::no-loc text="Naoto Sasaki":::</br>[sasaki.n@teldevice.co.jp](mailto:sasaki.n@teldevice.co.jp)</br>:::no-loc text="Edge Cloud Solution Dept.":::</br>[esg@teldevice.co.jp](mailto:esg@teldevice.co.jp) | +81 50 3509 5674 |
 | Japan                                  | Dell Japan                   | :::no-loc text="Casey Paulk":::</br>[Casey_Paulk@dell.com](mailto:Casey_Paulk@dell.com)</br>:::no-loc text="Sukhvinder Aulak":::</br>[Sukhvinder_Aulak@dell.com](mailto:Sukhvinder_Aulak@dell.com) | 1-800-624-9896</br>+44 141 202 5493|
@@ -156,4 +156,4 @@ For product inquiries, contact one of our knowledgeable distributors in this lis
 > [!IMPORTANT] 
 > [IoTDistributorList@microsoft.com](mailto:iotdistributorlist@microsoft.com) is not intended for product inquiries.  For product inquiries, contact a distributor within your region for assistance.
 
-8/7/2025
+8/11/2025
