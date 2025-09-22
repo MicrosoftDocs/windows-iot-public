@@ -131,10 +131,10 @@ For product inquiries, contact one of our knowledgeable distributors in this lis
 | France                                | Elbacom GmbH                          | :::no-loc text="Pascal Angee"::: </br>[p.angee@elbacom.com](mailto:p.angee@elbacom.com) | +33 (6) 64404536 |
 | Germany                               | Elbacom GmbH                          | :::no-loc text="David Kotzenmacher"::: </br>[d.kotzenmacher@elbacom.com](mailto:d.kotzenmacher@elbacom.com) | +43 (664) 2163502 |
 | Austria                               | Elbacom GmbH                          | :::no-loc text="David Kotzenmacher"::: </br>[d.Kotzenmacher@elbacom.com](mailto:d.Kotzenmacher@elbacom.com) | +43 (664) 2163502 |
-| Switzerland                           | Elbacom GmbH                          | :::no-loc text="David Kotzenmacher"::: </br>[d.Kotzenmacher@elbacom.com](mailto:d.Kotzenmacher@elbacom.com) | +43 (664) 2163503 |
+| Switzerland                           | Elbacom GmbH                          | :::no-loc text="David Kotzenmacher"::: </br>[d.Kotzenmacher@elbacom.com](mailto:d.Kotzenmacher@elbacom.com) | +43 (664) 216 35 02 |
 | Spain, Portugal, Italy                | Elbacom GmbH                          | :::no-loc text="Iker Corrales García"::: </br>[i.corrales@elbacom.com](mailto:i.corrales@elbacom.com) | +34 626 883 859 |
 | Nordics, Sweden, Denmark, Norway and Finland | Elbacom GmbH                          | :::no-loc text="Jesper Paulsson"::: </br>[j.paulsson@elbacom.com](mailto:j.paulsson@elbacom.com) | +46 (766) 29 26 01 |
-| Rest of EMEA                          | Elbacom GmbH                          | :::no-loc text="David Kotzenmacher"::: </br>[d.Kotzenmacher@elbacom.com](mailto:d.Kotzenmacher@elbacom.com) | +43 (664) 2163504 |
+| Rest of EMEA                          | Elbacom GmbH                          | :::no-loc text="David Kotzenmacher"::: </br>[d.Kotzenmacher@elbacom.com](mailto:d.Kotzenmacher@elbacom.com) | +43 (664) 216 35 02 |
 | Belgium                               | Koning & Hartman B.V.                 | :::no-loc text="Kjell De Clercq, Kelly Bornauw, Alida Coninx"::: </br>[Info.be@koningenhartman.com](mailto:Info.be@koningenhartman.com) | +32 2 257 02 00 |
 | Ukraine, Kazakhstan, Uzbekistan, Moldova, Azerbaijan, Georgia, Armenia, Kyrgyzstan, Turkmenistan, Tajikistan, Türkiye, Cyprus| Quarta IoT LLC | :::no-loc text="Ruben Molunts"::: </br>[sales@quarta-iot.com](mailto:sales@quarta-iot.com) | +374 77 115784</br>+374 99 115784 |
 | Russia, Ukraine, Belarus, Kazakhstan, Uzbekistan, Moldova, Azerbaijan, Georgia, Armenia, Kyrgyzstan, Turkmenistan, Tajikistan | Quarta Technologies | [mse@quarta.ru](mailto:mse@quarta.ru) | +7 495 123 4518 |
@@ -156,4 +156,4 @@ For product inquiries, contact one of our knowledgeable distributors in this lis
 > [!IMPORTANT] 
 > [IoTDistributorList@microsoft.com](mailto:iotdistributorlist@microsoft.com) is not intended for product inquiries.  For product inquiries, contact a distributor within your region for assistance.
 
-8/11/2025
+9/9/2025
