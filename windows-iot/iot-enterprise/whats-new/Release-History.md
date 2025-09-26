@@ -2,11 +2,11 @@
 title: Windows IoT Enterprise release history
 description: Learn about Windows IoT Enterprise.
 ms.service: windows-iot
-author: TerryWarwick
-ms.author: twarwick
+author: vanloke323-Microsoft
+ms.author: vlokeshwar
 ms.topic: whats-new
 ms.subservice: iot
-ms.date: 03/14/2025
+ms.date: 09/30/2025
 
 ---
 
