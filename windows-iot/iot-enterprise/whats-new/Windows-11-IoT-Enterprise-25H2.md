@@ -4,7 +4,7 @@ titleSuffix: Windows IoT Enterprise
 description: Learn about new and updated features that are of interest to device makers and IT pros working with Windows 11 IoT Enterprise, version 25H2.
 author: vanloke323-Microsoft
 ms.author: vlokeshwar
-ms.date: 09/30/2025
+ms.date: 09/26/2025
 ms.topic: article
 ms.service: windows-iot
 ms.subservice: iot
@@ -46,22 +46,22 @@ To learn more about the status of the update rollout, known issues, and new info
 
 | Feature | Description |
 | ------- | ----------- |
-| **Taskbar pinning improvements** </br> [25H2] | IT admins no longer need to restart explorer.exe to apply the [pinning policy](../configuration/taskbar/pinned-apps.md). After an admin applies the policy, users might see a pin on their taskbar within approximately 8 hours, depending on the refresh interval. Admins can also configure taskbar policies so users can unpin specific apps, ensuring they aren't repinned during the next policy refresh. To turn on this feature, use the [PinGeneration option](../configuration/taskbar/pinned-apps.md#pingeneration). The PinGeneration option is available for Windows 11 IoT Enterprise, version 23H2 or later devices. |
-| **Energy saver settings** </br> [25H2] | IT admins can manage energy saver settings on Windows 11 IoT Enterprise devices through group policies or configuration service providers (CSP) using Microsoft Intune. This feature helps extend battery life by limiting background activity, dimming the screen, and contributing to environmental sustainability. For more information about this policy, see [EnableEnergySaver](../client-management/mdm/policy-csp-power.md#enableenergysaver) in the Power Policy CSP. |
+| **Taskbar pinning improvements** </br> [25H2] | IT admins no longer need to restart explorer.exe to apply the [pinning policy](/windows/configuration/taskbar/pinned-apps.md). After an admin applies the policy, users might see a pin on their taskbar within approximately 8 hours, depending on the refresh interval. Admins can also configure taskbar policies so users can unpin specific apps, ensuring they aren't repinned during the next policy refresh. To turn on this feature, use the [PinGeneration option](/windows/configuration/taskbar/pinned-apps.md#pingeneration). The PinGeneration option is available for Windows 11 IoT Enterprise, version 23H2 or later devices. |
+| **Energy saver settings** </br> [25H2] | IT admins can manage energy saver settings on Windows 11 IoT Enterprise devices through group policies or configuration service providers (CSP) using Microsoft Intune. This feature helps extend battery life by limiting background activity, dimming the screen, and contributing to environmental sustainability. For more information about this policy, see [EnableEnergySaver](/windows/client-management/mdm/policy-csp-power.md#enableenergysaver) in the Power Policy CSP. |
 
 ## Management
 
 | Feature | Description |
 | ------- | ----------- |
-| **Policy-based removal of preinstalled Microsoft Store apps** </br> [25H2] | Policy-based inbox app removal provides IT admins an easy way to remove preinstalled Microsoft Store apps (inbox apps) from Enterprise and Education editions of Windows 11 IoT, version 25H2 and later. This policy can streamline device provisioning and prevent removed apps such as Microsoft Clipchamp, Media Player, and Microsoft Teams from reappearing. For more information, see [Policy-based removal of preinstalled Microsoft Store apps](../configuration/policy-based-inbox-app-removal/policy-based-inbox-app-removal.md) and [RemoveDefaultMicrosoftStorePackages](../client-management/mdm/policy-csp-applicationmanagement.md#removedefaultmicrosoftstorepackages) in the ApplicationManagement Policy CSP. |
-| **Windows Backup for Organizations** </br> [25H2] | [Windows Backup for Organizations](../configuration/windows-backup.md) is generally available. Users experience seamless device transitions with backup and restore of their user settings and Microsoft Store apps. For more information, see [Windows Backup for Organizations FAQ](../configuration/windows-backup/windows-backup-faq.md). |
-| **Quick machine recovery** </br> [25H2] | Quick machine recovery enables the recovery of Windows devices when they encounter critical errors that prevent them from booting. Quick machine recovery automatically searches for remediations in the cloud and recovers from widespread boot failures. This reduces the burden on IT administrators when multiple devices are affected. For more information about enabling and configuring quick machine recovery, see [Quick machine recovery](../configuration/quick-machine-recovery.md). |
+| **Policy-based removal of preinstalled Microsoft Store apps** </br> [25H2] | Policy-based inbox app removal provides IT admins an easy way to remove preinstalled Microsoft Store apps (inbox apps) from Enterprise and Education editions of Windows 11 IoT, version 25H2 and later. This policy can streamline device provisioning and prevent removed apps such as Microsoft Clipchamp, Media Player, and Microsoft Teams from reappearing. For more information, see [Policy-based removal of preinstalled Microsoft Store apps](/windows/configuration/policy-based-inbox-app-removal/policy-based-inbox-app-removal.md) and [RemoveDefaultMicrosoftStorePackages](/windows/client-management/mdm/policy-csp-applicationmanagement.md#removedefaultmicrosoftstorepackages) in the ApplicationManagement Policy CSP. |
+| **Windows Backup for Organizations** </br> [25H2] | [Windows Backup for Organizations](/windows/configuration/windows-backup.md) is generally available. Users experience seamless device transitions with backup and restore of their user settings and Microsoft Store apps. For more information, see [Windows Backup for Organizations FAQ](/windows/configuration/windows-backup/windows-backup-faq.md). |
+| **Quick machine recovery** </br> [25H2] | Quick machine recovery enables the recovery of Windows devices when they encounter critical errors that prevent them from booting. Quick machine recovery automatically searches for remediations in the cloud and recovers from widespread boot failures. This reduces the burden on IT administrators when multiple devices are affected. For more information about enabling and configuring quick machine recovery, see [Quick machine recovery](/windows/configuration/quick-machine-recovery.md). |
 
 ## Networking
 
 | Feature | Description |
 | ------- | ----------- |
-| **Wi-Fi 7 for enterprise connectivity** </br> [25H2] | The performance enhancements introduced by [Wi-Fi 7 for consumers](https://support.microsoft.com/topic/26177a28-38ed-1a8e-7eca-66f24dc63f09) are now extended to enterprise environments. Wi-Fi 7 support for enterprise access points is designed to address evolving security needs while helping support reliable connectivity in high-density, high-throughput scenarios. Wi-Fi 7 offers enterprises advanced seamless roaming capabilities to help ensure that devices can easily transition between access points. and Additionally, it enforces the use of WPA3-Enterprise. For more information, see [https://aka.ms/WiFi7forEnterprise](ttps://aka.ms/WiFi7forEnterprise). |
+| **Wi-Fi 7 for enterprise connectivity** </br> [25H2] | The performance enhancements introduced by [Wi-Fi 7 for consumers](https://support.microsoft.com/topic/26177a28-38ed-1a8e-7eca-66f24dc63f09) are now extended to enterprise environments. Wi-Fi 7 support for enterprise access points is designed to address evolving security needs while helping support reliable connectivity in high-density, high-throughput scenarios. Wi-Fi 7 offers enterprises advanced seamless roaming capabilities to help ensure that devices can easily transition between access points. and Additionally, it enforces the use of WPA3-Enterprise. For more information, see [https://aka.ms/WiFi7forEnterprise](https://aka.ms/WiFi7forEnterprise). |
 
 ## Privacy & Security
 
@@ -88,7 +88,7 @@ To learn more about the status of the update rollout, known issues, and new info
 
 The following [deprecated features](/windows/whats-new/deprecated-features.md) are [removed](/windows/whats-new/removed-features) in Windows 11 IoT, version 25H2:
 
-- **PowerShell 2.0**: PowerShell 2.0 is no longer included in Windows 11 IoT, version 25H2. For more information, see [Update to the latest version of PowerShell](../powershell/scripting/install/installing-powershell-core-on-windows.md).
+- **PowerShell 2.0**: PowerShell 2.0 is no longer included in Windows 11 IoT, version 25H2. For more information, see [Update to the latest version of PowerShell](/powershell/scripting/install/installing-powershell-core-on-windows.md).
 - **Windows Management Instrumentation command-line (WMIC) utility**: [WMIC is removed](https://support.microsoft.com/topic/e9e83c7f-4992-477f-ba1d-96f694b8665d) from Windows 11 IoT, version 25H2. All later releases for Windows 11 won't include WMIC.
 
 ## Related content
@@ -98,5 +98,5 @@ The following [deprecated features](/windows/whats-new/deprecated-features.md) a
 - [Get ready for Windows 11, version 25H2](https://techcommunity.microsoft.com/blog/windows-itpro-blog/get-ready-for-windows-11-version-25h2/4426437) | Windows IT Pro Blog
 - [What's new in Windows 11, version 25H2](/windows/whats-new/whats-new-windows-11-version-25h2)
 - [Windows 11 requirements](/windows/whats-new/windows-11-requirements)
-- [Windows release health](https://aka.ms/windowsreleasehealth)
+- [Windows release health](/windows/release-health/)
 - [Windows 11 release information](/windows/release-health/windows11-release-information)
