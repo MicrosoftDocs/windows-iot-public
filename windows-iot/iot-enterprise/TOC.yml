@@ -30,6 +30,8 @@
         href: ./whats-new/Windows-10-IoT-Enterprise-LTSC-2021.md
   - name: Windows 11 IoT Enterprise
     items:
+      - name: Version 25H2
+        href: ./whats-new/Windows-11-IoT-Enterprise-25H2.md
       - name: Version 24H2
         href: ./whats-new/Windows-11-IoT-Enterprise-24H2.md
       - name: Version 23H2
