@@ -44,6 +44,9 @@ Windows 11 IoT Enterprise, version 24H2 is available as an upgrade to devices ru
 
 To learn more about the status of the update rollout, known issues, and new information, see [Windows release health](/windows/release-health/).
 
+> [!NOTE]
+> - When upgrading from Windows 10 IoT Enterprise version 22H2 via Windows Update, the device must first update to Windows 11 IoT Enterprise version 21H2, 22H2, or 23H2. Direct upgrades to version 24H2 or 25H2 are not supported.
+
 ## Accessibility
 
 | Feature | Description |
