@@ -50,6 +50,7 @@ Other factors to consider when selecting hardware include performance, available
 
 | Manufacturer | Platform |
 | ------ | -------------- |
+| Advantech | [DS-011](https://www.advantech.com/en-us/products/41ee5606-7471-4732-910e-e17d55c017ee/ds-011/mod_080b073f-d764-4e93-81c9-c79f4d79bc4f) |
 | Advantech | [EPC-R3720 Edge Computer](https://www.advantech.com/en/products/880a61e5-3fed-41f3-bf53-8be2410c0f19/epc-r3720/mod_fde326be-b36e-4044-ba9a-28c4c49a25c6) |
 
 ::: zone-end
