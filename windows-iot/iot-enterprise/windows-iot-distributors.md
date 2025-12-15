@@ -100,7 +100,7 @@ For product inquiries, contact one of our knowledgeable distributors in this lis
 | Italy                                 | Advantech Europe B.V.                 | :::no-loc text="Marco Delfavero":::</br>[marco.delfavero@advantech.it](mailto:marco.delfavero@advantech.it) | +390295449643 |
 | Eastern Europe                        | Advantech Europe B.V.                 | :::no-loc text="David Sum":::</br>[david.sum@advantech.eu](mailto:david.sum@advantech.eu) | +420731175336 |
 | Israel                                | Advantech Europe B.V.                 | :::no-loc text="Ilan Bercovich":::</br>[ilan.bercovich@advantech.com] (mailto:ilan.bercovich@advantech.com) | +972-54-425-0760 |
-| Turkey                                | Advantech Europe B.V.                 | :::no-loc text="Byron Kao":::</br>[byron.kao@advantech.com] (mailto:byron.kao@advantech.com) | +90-546-257-6103 |
+| Turkiye                               | Advantech Europe B.V.                 | :::no-loc text="Byron Kao":::</br>[byron.kao@advantech.com] (mailto:byron.kao@advantech.com) | +90-546-257-6103 |
 | Egypt & North Africa                  | Advantech Europe B.V.                 | :::no-loc text="Ted Yao":::</br>[ted.yao@advantech.com] (mailto:ted.yao@advantech.com)     | +886-2-27927818 Ext.2294 |
 | South Africa                          | Advantech Europe B.V.                 | :::no-loc text="Peet Smit":::</br>[pei.hsu@advantech.com] (mailto:pei.hsu@advantech.com)     | +27-(0)12 666 9066       |
 | Rest of EMEA                          | Advantech Europe B.V.                 | :::no-loc text="Sabrina Lin":::</br>[sabrina.lin@advantech.com](mailto:sabrina.lin@advantech.com) | +886 227927818 Ext. 9269 |
