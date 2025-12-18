@@ -26,6 +26,10 @@ For product inquiries, contact one of our knowledgeable distributors in this lis
 | ------------------------|-----------------------------------------      |-------------------|:--------------:|
 | Brazil                  | NOVENTIQ INTERNATIONAL BRASIL COMERCIO E LICENCIAMENTO DE SOFTWARE LTD   | [info.brasil@softlinegroup.com](mailto:info.brasil@softlinegroup.com)                                | +55 11 5188 8100 |
 | United&nbsp;States      | Advantech Corporation                         | :::no-loc text="Jeff Trager"::: </br>[iot.software@advantech.com](mailto:iot.software@advantech.com) | +1 425-922-0721 |
+| Mexico                  | Advantech Corporation                         | :::no-loc text="Edgar Alarcon":::</br>[edgar.alarcon@advantech.com.mx] (mailto:edgar.alarcon@advantech.com.mx)                               | +52-669-143-0747 |
+| Colombia                | Advantech Corporation                         | :::no-loc text="Nelson Hernandez":::</br>[nelson.hernandez@advantech.com] (mailto:nelson.hernandez@advantech.com)                               | +57-320-220-7781 |
+| Argentina               | Advantech Corporation                         | :::no-loc text="Daniel Kolodzinski":::</br>[daniel.kolo@advantech.com] (mailto:daniel.kolo@advantech.com)                                    | +54-911-4972-6290 |
+| Brazil                  | Advantech Corporation                         | :::no-loc text="Marcela Taga":::</br>[marcela.taga@advantech.com.br] (mailto:marcela.taga@advantech.com.br)                                | +55-(11)99851-9863 |
 | United&nbsp;States      | Arrow Electronics INC.                        | :::no-loc text="Ken Marlin":::, :::no-loc text="Henry Castillo"::: </br>[WindowsChamp@arrow.com](mailto:WindowsChamp@arrow.com) | +1 (830) 365-7024 |
 | United&nbsp;States      | Avnet INC.                                    | [Software@Avnet.com](mailto:Software@Avnet.com)                                                      | +1 480 643 7055 |
 | United&nbsp;States      | Kontron Americas                              | [info.americas@kontron.com](mailto:info.americas@kontron.com)                                        | + 1 (888) 294-4558 |
@@ -58,7 +62,7 @@ For product inquiries, contact one of our knowledgeable distributors in this lis
 | Korea                   | Advantech KR Co., Ltd.                        | :::no-loc text="Zesty Lee":::</br>[Zesty.Lee@advantech.co.kr](mailto:Zesty.Lee@advantech.co.kr)      | +82 2 3660 9220 |
 | Korea                   | MDS Tech Inc.                                 | :::no-loc text="Henry Cho":::                                                                        | +82 31 602 2143 |
 | Korea                   | VOICEYE Co., Ltd.                             | :::no-loc text="Young Seung Ko"::: </br>[ysko@sgacorp.kr](mailto:ysko@sgacorp.kr)                    | +82 10 3333 4187 |
-| Malaysia                | Advantech Co. Singapore PTE Ltd.              | :::no-loc text="Darren See":::</br>[Darren.See@advantech.com](mailto:Darren.See@advantech.com)          | Mobile: +65 8800 0938 </br> DID: +65 6413 8724  |
+| Malaysia                | Advantech Co. Singapore PTE Ltd.              | :::no-loc text="PC Wong":::</br>[PC.Wong@advantech.com](mailto:PC.Wong@advantech.com)          | Mobile: +6019-727 7091  |
 | Malaysia                | Avnet Asia Pte Ltd                            | :::no-loc text="Catherine Wong":::</br>[Catherine.wong@avnet.com](mailto:Catherine.wong@avnet.com)   | +65 9681 9211 |
 | Malaysia                | MDS Pacific PTE Ltd.                          | :::no-loc text="Edmund Foo":::</br>[edmund.foo@mdspacific.com](mailto:edmund.foo@mdspacific.com)</br>:::no-loc text="Stacey Leaw":::</br>[Stacey.leaw@mdspacific.com](mailto:Stacey.leaw@mdspacific.com)|+65 6297 2800  |
 | New Zealand             | Avnet Electronics Marketing Australia Pty Ltd | :::no-loc text="Wayne Leong":::</br>[Wayne.Leong@AVNET.COM](mailto:Wayne.Leong@AVNET.COM)            | +612 9585 5520 |
@@ -70,21 +74,23 @@ For product inquiries, contact one of our knowledgeable distributors in this lis
 | Singapore               | Avnet Asia Pte Ltd                            | :::no-loc text="Catherine Wong":::</br>[Catherine.wong@avnet.com](mailto:Catherine.wong@avnet.com)   | +65 9681 9211 |
 | Singapore               | Dell Global B.V. (Singapore Branch)           | :::no-loc text="Casey Paulk":::</br>[Casey_Paulk@dell.com](mailto:Casey_Paulk@dell.com)</br>:::no-loc text="Sukhvinder Aulak":::</br>[Sukhvinder_Aulak@dell.com](mailto:Sukhvinder_Aulak@dell.com) | 1-800-624-9896</br>+44 141 202 5493|
 | Singapore               | MDS Pacific PTE Ltd.                          | :::no-loc text="Edmund Foo":::</br>[edmund.foo@mdspacific.com](mailto:edmund.foo@mdspacific.com)</br>:::no-loc text="Stacey Leaw":::</br>[Stacey.leaw@mdspacific.com](mailto:Stacey.leaw@mdspacific.com)|+65 6297 2800  |
+| Sri Lanka,Bangladesh,Myanmar,Pakistan| Advantech Singapore              | :::no-loc text="Darren See":::</br>[darren.see@advantech.com] (mailto:darren.see@advantech.com) | DID:+65-6413 8727:::</br>HP:+65-8800 0938 |
 | Taiwan                  | Advantech CO., LTD.                           | :::no-loc text="Grace Chen"::: </br>[Grace88.Chen@advantech.com.tw](mailto:Grace88.Chen@advantech.com.tw)|+886 2 27927818 ext. 9292 |
 | Taiwan                  | Chander Electronics Corp.                     | :::no-loc text="Fransky Liu":::</br>[fransky_liu@chander.com.tw](mailto:fransky_liu@chander.com.tw)  | +886 2 2218-6500 EXT 861 |
 | Taiwan                  | Synnex Technology Internationals COR          | :::no-loc text="Nicole Wu":::</br>[peiyinwu@synnex.com.tw](mailto:peiyinwu@synnex.com.tw)            | +886 912830162 |
-| Thailand                | Advantech Co. Singapore PTE Ltd.              | :::no-loc text="Darren See":::</br>[Darren.See@advantech.com](mailto:Darren.See@advantech.com)          | Mobile: +65 8800 0938 </br> DID: +65 6413 8724  |
+| Thailand                | Advantech Co. Singapore PTE Ltd.              | :::no-loc text="Suthathip H.":::</br>[Suthathip.H@advantech.com](mailto:Suthathip.H@advantech.com)          | Mobile: +66-9-4642-6224  |
 | Thailand                | Avnet Asia Pte Ltd                            | :::no-loc text="Catherine Wong":::</br>[Catherine.wong@avnet.com](mailto:Catherine.wong@avnet.com)   | +65 9681 9211 |
 | Thailand                | MDS Pacific PTE Ltd.                          | :::no-loc text="Edmund Foo":::</br>[edmund.foo@mdspacific.com](mailto:edmund.foo@mdspacific.com)</br>:::no-loc text="Stacey Leaw":::</br>[Stacey.leaw@mdspacific.com](mailto:Stacey.leaw@mdspacific.com)|+65 6297 2800  |
 | Vietnam                 | Avnet Asia Pte Ltd                            | :::no-loc text="Catherine Wong":::</br>[Catherine.wong@avnet.com](mailto:Catherine.wong@avnet.com)   | +65 9681 9211 |
-| Vietnam                 | Advantech Vietnam Technology Company Limited  | :::no-loc text="Hoang Van Cuong":::</br>[Cuong.Hoang@advantech.com.vn](mailto:Cuong.Hoang@advantech.com.vn)          | Mobile:+84-97-289-3588|
+| Vietnam                 | Advantech Vietnam Technology Company Limited  | :::no-loc text="Hai Ngo":::</br>[Hai.Ngo@advantech.com.vn] (mailto:Hai.Ngo@advantech.com.vn)          | Mobile:+84-904-405-037|
 | Vietnam                 | MDS Pacific PTE Ltd.                          | :::no-loc text="Edmund Foo":::</br>[edmund.foo@mdspacific.com](mailto:edmund.foo@mdspacific.com)</br>:::no-loc text="Stacey Leaw":::</br>[Stacey.leaw@mdspacific.com](mailto:Stacey.leaw@mdspacific.com)|+65 6297 2800  |
+| New Zealand             | Advantech Australia                           | :::no-loc text="Susie Chen":::</br>[susie.chen@advantech.net.au] (mailto:susie.chen@advantech.net.au)           | +61-3-97970101 |
 
 ## EMEA
 
 | Location | Distributor&nbsp;Name | Contact&nbsp;Name | ++Contact&nbsp;Phone |
 | ---------|------------------------|-------------------|:--------------:|
-| EMEA                                  | Advantech Europe B.V.                 | :::no-loc text="Alexander Fritsch":::</br>[alexander.fritsch@advantech.de](mailto:alexander.fritsch@advantech.de) | +4989411191807 |
+| EMEA                                  | Advantech Europe B.V.                 | :::no-loc text="Rosa Chang":::</br>[rosa.chang@advantech.de](mailto:rosa.chang@advantech.de) | +49 173 2780483 |
 | Netherlands, Belgium</br>& Luxembourg | Advantech Europe B.V.                 | :::no-loc text="Franky Gilhuijs":::</br>[franky.gilhuijs@advantech.nl](mailto:franky.gilhuijs@advantech.nl) | +31402677043 |
 | Germany, Austria &</br>Switzerland    | Advantech Europe B.V.                 | :::no-loc text="Horst Mattusch":::</br>[horst.mattusch@advantech.de](mailto:horst.mattusch@advantech.de) | +4989411191801 |
 | Spain, Portugal                       | Advantech Europe B.V.                 | :::no-loc text="David Ramos":::</br>[david.ramos@advantech.eu](mailto:david.ramos@advantech.eu) | +34916688676 |
@@ -93,6 +99,10 @@ For product inquiries, contact one of our knowledgeable distributors in this lis
 | France                                | Advantech Europe B.V.                 | :::no-loc text="Carole Bahier":::</br>[carole.bahier@advantech.fr](mailto:carole.bahier@advantech.fr) | +33141197920 |
 | Italy                                 | Advantech Europe B.V.                 | :::no-loc text="Marco Delfavero":::</br>[marco.delfavero@advantech.it](mailto:marco.delfavero@advantech.it) | +390295449643 |
 | Eastern Europe                        | Advantech Europe B.V.                 | :::no-loc text="David Sum":::</br>[david.sum@advantech.eu](mailto:david.sum@advantech.eu) | +420731175336 |
+| Israel                                | Advantech Europe B.V.                 | :::no-loc text="Ilan Bercovich":::</br>[ilan.bercovich@advantech.com] (mailto:ilan.bercovich@advantech.com) | +972-54-425-0760 |
+| Turkiye                               | Advantech Europe B.V.                 | :::no-loc text="Byron Kao":::</br>[byron.kao@advantech.com] (mailto:byron.kao@advantech.com) | +90-546-257-6103 |
+| Egypt & North Africa                  | Advantech Europe B.V.                 | :::no-loc text="Ted Yao":::</br>[ted.yao@advantech.com] (mailto:ted.yao@advantech.com)     | +886-2-27927818 Ext.2294 |
+| South Africa                          | Advantech Europe B.V.                 | :::no-loc text="Peet Smit":::</br>[pei.hsu@advantech.com] (mailto:pei.hsu@advantech.com)     | +27-(0)12 666 9066       |
 | Rest of EMEA                          | Advantech Europe B.V.                 | :::no-loc text="Sabrina Lin":::</br>[sabrina.lin@advantech.com](mailto:sabrina.lin@advantech.com) | +886 227927818 Ext. 9269 |
 | South Africa                          | Arrow Altech Distribution (Pty) Ltd   | :::no-loc text="Riaan van Kooten":::</br>[RvanKooten@arrow.altech.co.za](mailto:RvanKooten@arrow.altech.co.za) | +27 0 31 279 1660 |
 | EMEA                                  | Arrow Europe                          | :::no-loc text="Tze Chiew":::</br>[WindowsChamp@arrow.com](mailto:WindowsChamp@arrow.com) | +31 (0) 61240 3476 |
@@ -156,4 +166,4 @@ For product inquiries, contact one of our knowledgeable distributors in this lis
 > [!IMPORTANT] 
 > [IoTDistributorList@microsoft.com](mailto:iotdistributorlist@microsoft.com) is not intended for product inquiries.  For product inquiries, contact a distributor within your region for assistance.
 
-10/08/2025
+12/15/2025
