@@ -42,7 +42,7 @@ For product inquiries, contact one of our knowledgeable distributors in this lis
 | Australia               | Advantech Australia PTY Limited               | :::no-loc text="Susie Chen":::</br>[Susie.Chen@advantech.net.au](mailto:Susie.Chen@advantech.net.au) | +61 3 97970101 |
 | Australia               | Avnet Electronics Marketing Australia Pty Ltd | :::no-loc text="Wayne Leong":::</br>[Wayne.Leong@AVNET.COM](mailto:Wayne.Leong@AVNET.COM)            | +612 9585 5520 |
 | Australia               | MDS Pacific PTY Ltd.                          | :::no-loc text="Haeli An":::</br>[haeli@mdspacific.com](mailto:haeli@mdspacific.com)                 | +61 2-9888-7715 |
-| China                   | AVNET(Shanghai) Limited                       | :::no-loc text="Jack Xu":::</br>[jackwuhan.xu@avnet.com](mailto:jackwuhan.xu@avnet.com)              | +86 18627083759 |
+| China                   | AVNET(Shanghai) Limited                       | :::no-loc text="Wendy Ren":::</br>[Wh.Ren@avnet.com](mailto:Wh.Ren@avnet.com)              | +86-10-56323656 |
 | China                   | Beijing Advantech XING YE Electronics         | :::no-loc text="Cui Cui Ding":::</br>[CuiCui.Ding@advantech.com.cn](mailto:CuiCui.Ding@advantech.com.cn) |+86 18565739591 |
 | China                   | Shenzhen Comtech Technology Co. Ltd.          | :::no-loc text="Selina Gong":::</br>[selinagong@comtech.cn](mailto:selinagong@comtech.cn)    | +86 15986642886 |
 | China                   | Dell (China) CO. Ltd.                         | :::no-loc text="Casey Paulk":::</br>[Casey_Paulk@dell.com](mailto:Casey_Paulk@dell.com)</br>:::no-loc text="Sukhvinder Aulak":::</br>[Sukhvinder_Aulak@dell.com](mailto:Sukhvinder_Aulak@dell.com) | 1-800-624-9896</br>+44 141 202 5493|
@@ -166,4 +166,4 @@ For product inquiries, contact one of our knowledgeable distributors in this lis
 > [!IMPORTANT] 
 > [IoTDistributorList@microsoft.com](mailto:iotdistributorlist@microsoft.com) is not intended for product inquiries.  For product inquiries, contact a distributor within your region for assistance.
 
-12/15/2025
+12/19/2025
