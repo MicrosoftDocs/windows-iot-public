@@ -65,6 +65,7 @@ For product inquiries, contact one of our knowledgeable distributors in this lis
 | Malaysia                | Advantech Co. Singapore PTE Ltd.              | :::no-loc text="PC Wong":::</br>[PC.Wong@advantech.com](mailto:PC.Wong@advantech.com)          | Mobile: +6019-727 7091  |
 | Malaysia                | Avnet Asia Pte Ltd                            | :::no-loc text="Catherine Wong":::</br>[Catherine.wong@avnet.com](mailto:Catherine.wong@avnet.com)   | +65 9681 9211 |
 | Malaysia                | MDS Pacific PTE Ltd.                          | :::no-loc text="Edmund Foo":::</br>[edmund.foo@mdspacific.com](mailto:edmund.foo@mdspacific.com)</br>:::no-loc text="Stacey Leaw":::</br>[Stacey.leaw@mdspacific.com](mailto:Stacey.leaw@mdspacific.com)|+65 6297 2800  |
+| New Zealand             | Advantech Australia                           | :::no-loc text="Susie Chen":::</br>[susie.chen@advantech.net.au] (mailto:susie.chen@advantech.net.au)           | +61-3-97970101 |
 | New Zealand             | Avnet Electronics Marketing Australia Pty Ltd | :::no-loc text="Wayne Leong":::</br>[Wayne.Leong@AVNET.COM](mailto:Wayne.Leong@AVNET.COM)            | +612 9585 5520 |
 | New Zealand             | MDS Pacific PTY Ltd.                          | :::no-loc text="Haeli An":::</br>[haeli@mdspacific.com](mailto:haeli@mdspacific.com)                 | +61 2-9888-7715 |
 | Philippines             | Advantech Co. Singapore PTE Ltd.              | :::no-loc text="Darren See":::</br>[Darren.See@advantech.com](mailto:Darren.See@advantech.com)          | Mobile: +65 8800 0938 </br> DID: +65 6413 8724  |
@@ -84,7 +85,7 @@ For product inquiries, contact one of our knowledgeable distributors in this lis
 | Vietnam                 | Avnet Asia Pte Ltd                            | :::no-loc text="Catherine Wong":::</br>[Catherine.wong@avnet.com](mailto:Catherine.wong@avnet.com)   | +65 9681 9211 |
 | Vietnam                 | Advantech Vietnam Technology Company Limited  | :::no-loc text="Hai Ngo":::</br>[Hai.Ngo@advantech.com.vn] (mailto:Hai.Ngo@advantech.com.vn)          | Mobile:+84-904-405-037|
 | Vietnam                 | MDS Pacific PTE Ltd.                          | :::no-loc text="Edmund Foo":::</br>[edmund.foo@mdspacific.com](mailto:edmund.foo@mdspacific.com)</br>:::no-loc text="Stacey Leaw":::</br>[Stacey.leaw@mdspacific.com](mailto:Stacey.leaw@mdspacific.com)|+65 6297 2800  |
-| New Zealand             | Advantech Australia                           | :::no-loc text="Susie Chen":::</br>[susie.chen@advantech.net.au] (mailto:susie.chen@advantech.net.au)           | +61-3-97970101 |
+
 
 ## EMEA
 
@@ -166,4 +167,4 @@ For product inquiries, contact one of our knowledgeable distributors in this lis
 > [!IMPORTANT] 
 > [IoTDistributorList@microsoft.com](mailto:iotdistributorlist@microsoft.com) is not intended for product inquiries.  For product inquiries, contact a distributor within your region for assistance.
 
-12/19/2025
+1/26/2026
