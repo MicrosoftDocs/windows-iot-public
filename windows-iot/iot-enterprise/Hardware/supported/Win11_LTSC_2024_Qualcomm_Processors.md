@@ -18,14 +18,14 @@ For information on which processors Qualcomm supports on Windows 11 IoT Enterpri
 
 | Brand | Model |
 |---|---|
-|Snapdragon&trade; | X-Elite, X-Plus, X |
-|Qualcomm&reg; | [QCS6490](https://www.qualcomm.com/products/internet-of-things/industrial/building-enterprise/qcs6490) |
-|Qualcomm&reg; | [QCS5430](https://www.qualcomm.com/products/internet-of-things/industrial/industrial-automation/qcs5430) |
-|Snapdragon&trade; | [8cx Gen 3](https://www.qualcomm.com/products/mobile/snapdragon/pcs-and-tablets/snapdragon-mobile-compute-platforms/snapdragon-8cx-gen-3-compute-platform) |
-|Snapdragon&trade; | [8cx Gen 2](https://www.qualcomm.com/products/mobile/snapdragon/pcs-and-tablets/snapdragon-mobile-compute-platforms/snapdragon-8cx-gen-2-5g-compute-platform) |
-|Snapdragon&trade; | [8cx](https://www.qualcomm.com/products/mobile/snapdragon/pcs-and-tablets/snapdragon-mobile-compute-platforms/snapdragon-8cx-compute-platform) |
-|Snapdragon&trade; | [8c](https://www.qualcomm.com/products/mobile/snapdragon/pcs-and-tablets/snapdragon-mobile-compute-platforms/snapdragon-8c-compute-platform) |
-|Snapdragon&trade; | [7c+ Gen 3](https://www.qualcomm.com/products/mobile/snapdragon/pcs-and-tablets/snapdragon-mobile-compute-platforms/snapdragon-7c-plus-gen-3-compute-platform) |
-|Snapdragon&trade; | [7c Gen 2](https://www.qualcomm.com/products/mobile/snapdragon/pcs-and-tablets/snapdragon-mobile-compute-platforms/snapdragon-7c-gen-2-compute-platform) |
-|Snapdragon&trade; | [7c](https://www.qualcomm.com/products/mobile/snapdragon/pcs-and-tablets/snapdragon-mobile-compute-platforms/snapdragon-7c-compute-platform) |
-|Snapdragon&trade; | [850](https://www.qualcomm.com/products/mobile/snapdragon/pcs-and-tablets/snapdragon-mobile-compute-platforms/snapdragon-850-mobile-compute-platform) |
+|Qualcomm Dragonwing&trade; | [IQ-X7181](https://www.qualcomm.com/internet-of-things/products/iq-x-series), [IQ-X5121](https://www.qualcomm.com/internet-of-things/products/iq-x-series) |
+|Qualcomm Dragonwing&trade; | [QCS6490](https://www.qualcomm.com/internet-of-things/products/q6-series/qcs6490), [QCM6490](https://www.qualcomm.com/internet-of-things/products/q6-series/qcm6490) |
+|Qualcomm Dragonwing&trade; | [QCS5430](https://www.qualcomm.com/internet-of-things/products/q5-series/qcs5430), [QCM5430](https://www.qualcomm.com/internet-of-things/products/q5-series/qcm5430) |
+|Snapdragon&trade; | 8cx Gen 3 |
+|Snapdragon&trade; | 8cx Gen 2 |
+|Snapdragon&trade; | 8cx |
+|Snapdragon&trade; | 8c |
+|Snapdragon&trade; | 7c+ Gen 3 |
+|Snapdragon&trade; | 7c Gen 2 |
+|Snapdragon&trade; | 7c |
+|Snapdragon&trade; | 850 |
