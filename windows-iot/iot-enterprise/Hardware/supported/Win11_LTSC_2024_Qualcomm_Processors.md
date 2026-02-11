@@ -20,7 +20,7 @@ For information on which processors Qualcomm supports on Windows 11 IoT Enterpri
 |---|---|
 |Qualcomm Dragonwing&trade; | [IQ-X7181](https://www.qualcomm.com/internet-of-things/products/iq-x-series), [IQ-X5121](https://www.qualcomm.com/internet-of-things/products/iq-x-series) |
 |Qualcomm Dragonwing&trade; | [QCS6490](https://www.qualcomm.com/internet-of-things/products/q6-series/qcs6490), [QCM6490](https://www.qualcomm.com/internet-of-things/products/q6-series/qcm6490) |
-|Qualcomm Dragonwing&trade; | QCS5430, [QCM5430](https://www.qualcomm.com/internet-of-things/products/q5-series/qcm5430) |
+|Qualcomm Dragonwing&trade; | [QCS5430](https://www.qualcomm.com/internet-of-things/products/q5-series/qcs5430), [QCM5430](https://www.qualcomm.com/internet-of-things/products/q5-series/qcm5430) |
 |Snapdragon&trade; | 8cx Gen 3 |
 |Snapdragon&trade; | 8cx Gen 2 |
 |Snapdragon&trade; | 8cx |
