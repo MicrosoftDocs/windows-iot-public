@@ -50,8 +50,8 @@ Other factors to consider when selecting hardware include performance, available
 
 | Manufacturer | Platform |
 | ------ | -------------- |
-| Advantech | [DS-011 Edge-AI Box](https://www.advantech.com/en-us/products/41ee5606-7471-4732-910e-e17d55c017ee/ds-011/mod_080b073f-d764-4e93-81c9-c79f4d79bc4f) |
-| Advantech | [EPC-R3720 Edge Computer](https://www.advantech.com/en/products/880a61e5-3fed-41f3-bf53-8be2410c0f19/epc-r3720/mod_fde326be-b36e-4044-ba9a-28c4c49a25c6) |
+| Advantech | [DS-011 (Qualcomm QCS6490) Edge-AI Box](https://www.advantech.com/en-us/products/41ee5606-7471-4732-910e-e17d55c017ee/ds-011/mod_080b073f-d764-4e93-81c9-c79f4d79bc4f) |
+| Advantech | [EPC-R3720 (NXP i.MX 8M Plus) Edge Computer](https://www.advantech.com/en/products/880a61e5-3fed-41f3-bf53-8be2410c0f19/epc-r3720/mod_fde326be-b36e-4044-ba9a-28c4c49a25c6) |
 
 ::: zone-end
 
@@ -84,11 +84,11 @@ Other factors to consider when selecting hardware include performance, available
 | NXP | [i.MX 93 EVK](https://www.nxp.com/products/processors-and-microcontrollers/arm-processors/i-mx-applications-processors/i-mx-9-processors/i-mx-93-applications-processor-family-arm-cortex-a55-ml-acceleration-power-efficient-mpu:i.MX93) | Development Kit |
 | NXP | [i.MX 8M Mini EVK](https://www.nxp.com/design/development-boards/i-mx-evaluation-and-development-boards/evaluation-kit-for-the-i-mx-8m-mini-applications-processor:8MMINILPD4-EVK) | Development Kit |
 | Avnet | [MSC SM2S IMX8PLUS](https://embedded.avnet.com/product/msc-sm2s-imx8plus/) | System on Module |
-| Advantech | [ROM-5722](https://www.advantech.com/en/products/computer-on-module/rom-5722/mod_11aa0c77-868e-4014-8151-ac7a7a1c5c1b) | System on Module |
+| Advantech | [ROM-5722 (NXP i.MX8M Plus)](https://www.advantech.com/en/products/computer-on-module/rom-5722/mod_11aa0c77-868e-4014-8151-ac7a7a1c5c1b) | System on Module |
 | SECO | [Trizeps VIII Plus](https://edge.seco.com/usa/trizeps-viii-plus.html) | System on Module |
 | F&S | [PicoCore&trade;MX8MP](https://www.fs-net.de/en/embedded-modules/computer-on-module-picocore/picocoremx8mp-nxp-imx8m-plus-cpu/) | System on Module |
 | F&S | [PicoCore&trade;MX93](https://www.fs-net.de/en/embedded-modules/computer-on-module-picocore/picocoremx93-with-nxp-imx93-cpu/) | System on Module |
-| Advantech | [RSB-3720](https://www.advantech.com/en/products/single_board_computer/rsb-3720/mod_d2f1b0bc-650b-449a-8ef7-b65ce4f69949) | Single Board Computer |
+| Advantech | [RSB-3720 (NXP i.MX8M Plus)](https://www.advantech.com/en/products/single_board_computer/rsb-3720/mod_d2f1b0bc-650b-449a-8ef7-b65ce4f69949) | Single Board Computer |
 | F&S | [armStone&trade;MX8MP](https://www.fs-net.de/en/embedded-modules/single-board-computer-armstone/armstonemx8mp/) | Single Board Computer |
 
 ::: zone-end
