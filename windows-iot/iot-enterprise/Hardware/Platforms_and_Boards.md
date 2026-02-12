@@ -85,7 +85,7 @@ Other factors to consider when selecting hardware include performance, available
 | NXP | [i.MX 8M Mini EVK](https://www.nxp.com/design/development-boards/i-mx-evaluation-and-development-boards/evaluation-kit-for-the-i-mx-8m-mini-applications-processor:8MMINILPD4-EVK) | Development Kit |
 | Avnet | [MSC SM2S IMX8PLUS](https://embedded.avnet.com/product/msc-sm2s-imx8plus/) | System on Module |
 | Advantech | [ROM-5722 (NXP i.MX8M Plus)](https://www.advantech.com/en/products/computer-on-module/rom-5722/mod_11aa0c77-868e-4014-8151-ac7a7a1c5c1b) | System on Module |
-| SECO | [Trizeps VIII Plus](https://edge.seco.com/usa/trizeps-viii-plus.html) | System on Module |
+| SECO | [Trizeps VIII Plus](https://edge.seco.com/en/som-trizeps-viii-mx8m-plus.html) | System on Module |
 | F&S | [PicoCore&trade;MX8MP](https://www.fs-net.de/en/embedded-modules/computer-on-module-picocore/picocoremx8mp-nxp-imx8m-plus-cpu/) | System on Module |
 | F&S | [PicoCore&trade;MX93](https://www.fs-net.de/en/embedded-modules/computer-on-module-picocore/picocoremx93-with-nxp-imx93-cpu/) | System on Module |
 | Advantech | [RSB-3720 (NXP i.MX8M Plus)](https://www.advantech.com/en/products/single_board_computer/rsb-3720/mod_d2f1b0bc-650b-449a-8ef7-b65ce4f69949) | Single Board Computer |
