@@ -6,7 +6,7 @@ author: TerryWarwick
 ms.author: twarwick
 ms.topic: whats-new
 ms.subservice: iot
-ms.date: 05/22/2024
+ms.date: 02/12/2026
 appliesto: "✅ Windows 10"
 ---
 
