@@ -6,7 +6,7 @@ author: vanloke323-Microsoft
 ms.author: vlokeshwar
 ms.topic: whats-new
 ms.subservice: iot
-ms.date: 09/30/2025
+ms.date: 02/20/2026
 
 ---
 
@@ -43,6 +43,9 @@ Windows IoT Enterprise LTSC releases follow the [Fixed Lifecycle Policy](/lifecy
 | Windows&nbsp;10&nbsp;IoT&nbsp;Enterprise&nbsp;LTSC&nbsp;2019 </br>[1809]                                          |   17763 | :::no-loc text="2018&#8209;11&#8209;13"::: | :::no-loc text="2029&#8209;01&#8209;09"::: | [Show&nbsp;update&nbsp;history](https://support.microsoft.com/topic/windows-10-and-windows-server-2019-update-history-725fc2e1-4443-6831-a5ca-51ff5cbcb059)               |  [Show&nbsp;x64&nbsp;updates](https://www.catalog.update.microsoft.com/Search.aspx?q=-Dynamic%20Cumulative%20Update%20for%20Windows%2010%20version%201809%20for%20x64) </br> [Show&nbsp;Arm64&nbsp;updates](https://www.catalog.update.microsoft.com/Search.aspx?q=-Dynamic%20Cumulative%20Update%20for%20Windows%2010%20version%201809%20for%20Arm64) |
 | Windows&nbsp;10&nbsp;IoT&nbsp;Enterprise&nbsp;LTSC&nbsp;2016 </br>[1607]                                          |   14393 | :::no-loc text="2016&#8209;08&#8209;02"::: | :::no-loc text="2026&#8209;10&#8209;13"::: | [Show&nbsp;update&nbsp;history](https://support.microsoft.com/topic/windows-10-and-windows-server-2016-update-history-4acfbc84-a290-1b54-536a-1c0430e9f3fd) | [Show&nbsp;x64&nbsp;updates](https://www.catalog.update.microsoft.com/Search.aspx?q=-Dynamic%20Cumulative%20Update%20for%20Windows%2010%20version%201607%20for%20x64) </br> [Show&nbsp;x86&nbsp;updates](https://www.catalog.update.microsoft.com/Search.aspx?q=-Dynamic%20Cumulative%20Update%20for%20Windows%2010%20version%201607%20for%20x86) |
 | Windows&nbsp;10&nbsp;IoT&nbsp;Enterprise&nbsp;LTSC&nbsp;2015 </br>[1507]                                          |   10240 | :::no-loc text="2015&#8209;07&#8209;29"::: | :::no-loc text="2025&#8209;10&#8209;14"::: |  [Show&nbsp;update&nbsp;history](https://support.microsoft.com/topic/windows-10-update-history-93345c32-4ae1-6d1c-f885-6c0b718adf3b)              | [Show&nbsp;x64&nbsp;updates](https://www.catalog.update.microsoft.com/Search.aspx?q=-Dynamic%20Cumulative%20Update%20for%20Windows%2010%20version%201507%20for%20x64) </br> [Show&nbsp;x86&nbsp;updates](https://www.catalog.update.microsoft.com/Search.aspx?q=-Dynamic%20Cumulative%20Update%20for%20Windows%2010%20version%201507%20for%20x64) |
+
+> [!IMPORTANT]
+> Windows 10 IoT Enterprise 2016 LTSB will reach the end of support with a final monthly update on October 13, 2026. For the options you have, see [Plan for Windows Server 2016 and Windows 10 LTSB 2016 EOS](https://techcommunity.microsoft.com/blog/windows-itpro-blog/plan-for-windows-server-2016-and-windows-10-2016-ltsb-end-of-support/4496136). 
 
 For more information, See [Windows IoT Enterprise LTSC support lifecycle](/lifecycle/products/?terms=Windows%20IoT%20Enterprise%20LTS).
 
