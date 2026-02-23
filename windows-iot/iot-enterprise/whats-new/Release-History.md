@@ -14,7 +14,7 @@ ms.date: 02/20/2026
 
 The Windows IoT Enterprise product line is intended for fixed purpose devices. These devices are typically found in industries including, but not limited to, banking, healthcare, hospitality, manufacturing, and retail. Windows IoT Enterprise is a derivative of Windows Enterprise and as such includes advanced security, management, and lockdown capabilities required to support fixed purpose devices in an enterprise environment.  
 
-There are currently three products offerings in the Windows IoT Enterprise product line each of which contain multiple releases. For more information, see...
+There are currently three products offerings in the Windows IoT Enterprise product line each of which contain multiple releases. For more information, see:
 
 - [Windows IoT Enterprise LTSC](#windows-iot-enterprise-ltsc)
 - [Windows 11 IoT Enterprise](#windows-11-iot-enterprise)
@@ -51,7 +51,7 @@ For more information, See [Windows IoT Enterprise LTSC support lifecycle](/lifec
 
 ## Windows IoT Enterprise
 
-Windows IoT Enterprise is also available through the General Availability Channel for Windows IoT Enterprise is also designed for special-purpose devices that require the latest feature updates as soon as they're available. Windows IoT Enterprise in the General Availability Channel provides a 36 month lifecycle (30 months for Windows 10) which is reset with each annual feature update. For more information, see [Windows as a Service - General Availability Channel](/windows/deployment/update/waas-overview#general-availability-channel).
+Windows IoT Enterprise is also available through the General Availability Channel for Windows IoT Enterprise, designed for special-purpose devices that require the latest feature updates as soon as they're available. Windows IoT Enterprise in the General Availability Channel provides a 36 month lifecycle (30 months for Windows 10), which is reset with each annual feature update. For more information, see [Windows as a Service - General Availability Channel](/windows/deployment/update/waas-overview#general-availability-channel).
 
 [!INCLUDE [Latest GAC](../includes/incl-latest-gac-release.md)]
 
