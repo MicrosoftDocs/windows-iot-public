@@ -14,7 +14,7 @@ ms.date: 02/20/2026
 
 The Windows IoT Enterprise product line is intended for fixed purpose devices. These devices are typically found in industries including, but not limited to, banking, healthcare, hospitality, manufacturing, and retail. Windows IoT Enterprise is a derivative of Windows Enterprise and as such includes advanced security, management, and lockdown capabilities required to support fixed purpose devices in an enterprise environment.  
 
-There are currently three products offerings in the Windows IoT Enterprise product line each of which contain multiple releases. For more information, see...
+There are currently three products offerings in the Windows IoT Enterprise product line each of which contain multiple releases. For more information, see:
 
 - [Windows IoT Enterprise LTSC](#windows-iot-enterprise-ltsc)
 - [Windows 11 IoT Enterprise](#windows-11-iot-enterprise)
