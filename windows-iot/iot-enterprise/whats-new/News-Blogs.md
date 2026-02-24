@@ -2,7 +2,7 @@
 title: Windows for IoT News
 author: TerryWarwick
 ms.author: twarwick
-ms.date: 11/04/2024
+ms.date: 02/20/2026
 ms.topic: whats-new
 ms.service: windows-iot
 ms.subservice: iot
@@ -23,6 +23,13 @@ Stay up to date with the latest news and announcements about the Windows for IoT
 | Windows for IoT Resources | Other Windows Resources |
 | --- | --- |
 | [Channel 9](https://channel9.msdn.com/) </br> [Microsoft IoT Developers](https://www.youtube.com/channel/UCL7wy-iy_V76xxPnrIzGOZQ) </br> [Microsoft Tech Community](https://techcommunity.microsoft.com/t5/windows-10-iot/bd-p/Windows10IoT) </br> [Windows for IoT Documentation](/windows/iot/)| [Windows Insider Program](https://blogs.windows.com/windows-insider/) </br> [Windows Servicing & Delivery by John Cable](https://blogs.windows.com/windowsexperience/author/john-cable/) </br> [Windows on Devices - IoT Developer Experience](https://developer.microsoft.com/windows/iot/) |
+
+## 2026
+
+| Month | News |
+| ---- | ---- |
+| February| Blog: [Plan for Windows Server 2016 and Windows 10 LTSB 2016 EOS](https://techcommunity.microsoft.com/blog/windows-itpro-blog/plan-for-windows-server-2016-and-windows-10-2016-ltsb-end-of-support/4496136)
+
 
 ## 2024
 
