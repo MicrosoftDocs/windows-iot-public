@@ -1,8 +1,8 @@
 ---
 title: Supported AMD Processors for Windows 11 IoT Enterprise, Version 25H2
 description: Learn about AMD Processors supported for Windows 11 IoT Enterprise, Version 25H2
-author: anch-msft
-ms.author: anthonychen
+author: vanloke323-Microsoft
+ms.author: vlokeshwar
 ms.date: 02/25/2026
 ms.topic: reference
 ms.service: windows-iot
