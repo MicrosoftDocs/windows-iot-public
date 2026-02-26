@@ -26,14 +26,18 @@ For product inquiries, contact one of our knowledgeable distributors in this lis
 | ------------------------|-----------------------------------------      |-------------------|:--------------:|
 | Brazil                  | NOVENTIQ INTERNATIONAL BRASIL COMERCIO E LICENCIAMENTO DE SOFTWARE LTD   | [info.brasil@softlinegroup.com](mailto:info.brasil@softlinegroup.com)                                | +55 11 5188 8100 |
 | United&nbsp;States      | Advantech Corporation                         | :::no-loc text="Jeff Trager"::: </br>[iot.software@advantech.com](mailto:iot.software@advantech.com) | +1 425-922-0721 |
-| Mexico                  | Advantech Corporation                         | :::no-loc text="Edgar Alarcon":::</br>[edgar.alarcon@advantech.com.mx] (mailto:edgar.alarcon@advantech.com.mx)                               | +52-669-143-0747 |
-| Colombia                | Advantech Corporation                         | :::no-loc text="Nelson Hernandez":::</br>[nelson.hernandez@advantech.com] (mailto:nelson.hernandez@advantech.com)                               | +57-320-220-7781 |
-| Argentina               | Advantech Corporation                         | :::no-loc text="Daniel Kolodzinski":::</br>[daniel.kolo@advantech.com] (mailto:daniel.kolo@advantech.com)                                    | +54-911-4972-5290 |
-| Brazil                  | Advantech Corporation                         | :::no-loc text="Marcela Taga":::</br>[marcela.taga@advantech.com.br] (mailto:marcela.taga@advantech.com.br)                                | +55-(11)99851-9863 |
-| United&nbsp;States      | Arrow Electronics INC.                        | :::no-loc text="Ken Marlin":::, :::no-loc text="Henry Castillo"::: </br>[WindowsChamp@arrow.com](mailto:WindowsChamp@arrow.com) | +1 (830) 365-7024 |
+| Mexico                  | Advantech Corporation                         | :::no-loc text="Edgar Alarcon"::: </br>[edgar.alarcon@advantech.com.mx](mailto:edgar.alarcon@advantech.com.mx) | +52-669-143-0747 |
+| Colombia                | Advantech Corporation                         | :::no-loc text="Nelson Hernandez"::: </br>[nelson.hernandez@advantech.com](mailto:nelson.hernandez@advantech.com) | +57-320-220-7781 |
+| Argentina               | Advantech Corporation                         | :::no-loc text="Daniel Kolodzinski"::: </br>[daniel.kolo@advantech.com](mailto:daniel.kolo@advantech.com) | +54-911-4972-5290 |
+| Brazil                  | Advantech Corporation                         | :::no-loc text="Marcela Taga"::: </br>[marcela.taga@advantech.com.br](mailto:marcela.taga@advantech.com.br) | +55-(11)99851-9863 |
+| United&nbsp;States      | Arrow Electronics INC.                        | :::no-loc text="Ken Marlin - Windows Champ on Youtube":::, :::no-loc text="Henry Castillo - Microsoft Champion"::: </br>[WindowsChamp@arrow.com](mailto:WindowsChamp@arrow.com) | +1 (830) 365-7024 |
+| Mexico                  | Arrow Electronics INC.                        | :::no-loc text="Ken Marlin"::: </br>[WindowsChamp@arrow.com](mailto:WindowsChamp@arrow.com) | +1 (830) 365-7024 |
+| Colombia                | Arrow Electronics INC.                        | :::no-loc text="Ken Marlin"::: </br>[WindowsChamp@arrow.com](mailto:WindowsChamp@arrow.com) | +1 (830) 365-7024 |
+| Argentina               | Arrow Electronics INC.                        | :::no-loc text="Ken Marlin"::: </br>[WindowsChamp@arrow.com](mailto:WindowsChamp@arrow.com) | +1 (830) 365-7024 |
+| Brazil                  | Arrow Electronics INC.                        | :::no-loc text="Ken Marlin"::: </br>[WindowsChamp@arrow.com](mailto:WindowsChamp@arrow.com) | +1 (830) 365-7024 |
 | United&nbsp;States      | Avnet INC.                                    | [Software@Avnet.com](mailto:Software@Avnet.com)                                                      | +1 480 643 7055 |
 | United&nbsp;States      | Kontron Americas                              | [info.americas@kontron.com](mailto:info.americas@kontron.com)                                        | + 1 (888) 294-4558 |
-| United&nbsp;States      | Dell, INC.                                    | :::no-loc text="Casey Paulk":::</br>[Casey_Paulk@dell.com](mailto:Casey_Paulk@dell.com)</br>:::no-loc text="Sukhvinder Aulak":::</br>[Sukhvinder_Aulak@dell.com](mailto:Sukhvinder_Aulak@dell.com) | 1-800-624-9896</br>+44 141 202 5493|
+| United&nbsp;States      | Dell, INC.                                    | :::no-loc text="Casey Paulk"::: </br>[Casey_Paulk@dell.com](mailto:Casey_Paulk@dell.com)</br>:::no-loc text="Sukhvinder Aulak":::</br>[Sukhvinder_Aulak@dell.com](mailto:Sukhvinder_Aulak@dell.com) | 1-800-624-9896</br>+44 141 202 5493|
 
 ## APAC
 
@@ -168,4 +172,4 @@ For product inquiries, contact one of our knowledgeable distributors in this lis
 > [!IMPORTANT] 
 > [IoTDistributorList@microsoft.com](mailto:iotdistributorlist@microsoft.com) is not intended for product inquiries.  For product inquiries, contact a distributor within your region for assistance.
 
-1/27/2026
+2/26/2026
