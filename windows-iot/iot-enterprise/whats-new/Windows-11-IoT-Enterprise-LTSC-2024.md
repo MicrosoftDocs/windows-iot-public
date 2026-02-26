@@ -5,9 +5,9 @@ description: Learn about new and updated features that are of interest to device
 ms.topic: whats-new
 ms.service: windows-iot
 ms.subservice: iot
-author: TerryWarwick
-ms.author: twarwick
-ms.date: 09/30/2024
+author: vanloke323-Microsoft
+ms.author: vlokeshwar
+ms.date: 02/26/2026
 appliesto: "✅ Windows 11"
 ---
 

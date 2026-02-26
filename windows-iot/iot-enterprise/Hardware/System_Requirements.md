@@ -1,9 +1,9 @@
 ---
 title: Minimum System Requirements
 titleSuffix: Windows IoT Enterprise
-author: TerryWarwick
-ms.author: twarwick
-ms.date: 12/16/2024
+author: vanloke323-Microsoft
+ms.author: vlokeshwar
+ms.date: 02/26/2026
 ms.topic: reference
 ms.service: windows-iot
 ms.subservice: iot

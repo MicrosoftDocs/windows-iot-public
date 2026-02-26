@@ -2,9 +2,9 @@
 title: What's new in Windows 11 IoT Enterprise, version 24H2?
 titleSuffix: Windows IoT Enterprise
 description: Learn about new and updated features that are of interest to device makers and IT Pros working with Windows 11 IoT Enterprise, version 24H2.
-author: TerryWarwick
-ms.author: twarwick
-ms.date: 09/30/2024
+author: vanloke323-Microsoft
+ms.author: vlokeshwar
+ms.date: 02/26/2026
 ms.topic: article
 ms.service: windows-iot
 ms.subservice: iot

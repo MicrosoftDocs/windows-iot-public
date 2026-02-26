@@ -1,8 +1,8 @@
 ---
 title: Overview of Windows for IoT
-author: TerryWarwick
-ms.author: twarwick
-ms.date: 03/12/2023
+author: vanloke323-Microsoft
+ms.author: vlokeshwar
+ms.date: 02/26/2026
 ms.topic: article
 ms.service: windows-iot
 ms.subservice: iot
