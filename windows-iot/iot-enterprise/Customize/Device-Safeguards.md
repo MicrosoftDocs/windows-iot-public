@@ -3,7 +3,7 @@ title: Device Safeguards
 author: TerryWarwick
 ms.author: twarwick
 ms.date: 02/07/2024
-ms.topic: article
+ms.topic: best-practice
 ms.service: windows-iot
 ms.subservice: iot
 description: Learn about the Device Safeguard features of Windows IoT Enterprise.

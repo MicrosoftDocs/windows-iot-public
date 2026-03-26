@@ -3,7 +3,7 @@ title: How to set up a Device for Real-Time Performance
 author: TerryWarwick
 ms.author: twarwick
 ms.date: 06/07/2023
-ms.topic: article
+ms.topic: how-to
 ms.service: windows-iot
 ms.subservice: iot
 description: Soft Real-Time Device set-up on Windows 10 IoT Enterprise

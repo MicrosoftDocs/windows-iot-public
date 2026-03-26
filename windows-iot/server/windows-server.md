@@ -3,7 +3,7 @@ title: About Windows Server IoT
 author: terrywarwick
 ms.date: 11/04/2024
 ms.author: twarwick
-ms.topic: article
+ms.topic: overview
 ms.service: windows-iot
 ms.subservice: iot
 description: Learn about what Windows Server IoT is and what you can do with it.

@@ -3,7 +3,7 @@ title: Manufacturing Guide Overview
 author: TerryWarwick
 ms.author: twarwick
 ms.date: 09/27/2024
-ms.topic: article
+ms.topic: overview
 ms.service: windows-iot
 ms.subservice: iot
 description: Explore the Manufacturing Guide for Windows 10 IoT Enterprise.

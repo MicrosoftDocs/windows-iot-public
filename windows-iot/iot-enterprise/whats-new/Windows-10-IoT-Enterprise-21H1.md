@@ -4,7 +4,7 @@ description: Learn more about what's new in Windows 10 IoT Enterprise, version 2
 ms.service: windows-iot
 author: TerryWarwick
 ms.author: twarwick
-ms.topic: article
+ms.topic: whats-new
 ms.subservice: iot
 ms.date: 03/30/2023
 appliesto: "✅ Windows 10"

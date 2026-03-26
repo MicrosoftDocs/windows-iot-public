@@ -2,7 +2,7 @@
 description: Device lockdown features
 title: Device lockdown features
 ms.date: 09/27/2024
-ms.topic: article
+ms.topic: how-to
 author: TerryWarwick
 ms.author: twarwick
 ms.service: windows-iot

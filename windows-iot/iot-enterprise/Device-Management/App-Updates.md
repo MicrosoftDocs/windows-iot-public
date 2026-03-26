@@ -3,7 +3,7 @@ title: Application Updates
 author: TerryWarwick
 ms.author: twarwick
 ms.date: 04/04/2023
-ms.topic: article
+ms.topic: feature-guide
 ms.service: windows-iot
 ms.subservice: iot
 description: Learn about how apps can be updated in Windows IoT Enterprise.
