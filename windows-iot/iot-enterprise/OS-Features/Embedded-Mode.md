@@ -3,7 +3,7 @@ title: Embedded Mode
 author: TerryWarwick
 ms.author: twarwick
 ms.date: 09/14/2023
-ms.topic: article
+ms.topic: how-to
 ms.service: windows-iot
 ms.subservice: iot
 description: Learn about the Embedded Mode features of Windows IoT Enterprise.

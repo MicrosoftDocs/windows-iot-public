@@ -3,7 +3,7 @@ title: Refresh IoT Enterprise Installation Media
 author: TerryWarwick
 ms.author: twarwick
 ms.date: 10/03/2024
-ms.topic: article
+ms.topic: how-to
 ms.service: windows-iot
 ms.subservice: iot
 description: Refresh Windows IoT Enterprise Installation media

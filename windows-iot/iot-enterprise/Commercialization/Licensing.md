@@ -3,7 +3,7 @@ title: Windows IoT Enterprise Licensing
 author: TerryWarwick
 ms.author: twarwick
 ms.date: 03/31/2023
-ms.topic: article
+ms.topic: product-comparison
 ms.service: windows-iot
 ms.subservice: iot
 description: Learn about licensing for Windows IoT Enterprise.

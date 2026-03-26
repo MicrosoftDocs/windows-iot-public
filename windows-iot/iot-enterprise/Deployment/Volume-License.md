@@ -3,7 +3,7 @@ title: Windows IoT Enterprise LTSC in Volume License
 author: vanloke323-Microsoft
 ms.author: vlokeshwar
 ms.date: 02/26/2026
-ms.topic: article
+ms.topic: install-set-up-deploy
 ms.service: windows-iot
 ms.subservice: iot
 description: How to deploy Windows 11 IoT Enterprise LTSC in Volume License

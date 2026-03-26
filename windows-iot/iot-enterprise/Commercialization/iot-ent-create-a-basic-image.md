@@ -2,7 +2,7 @@
 description: Create a basic image that you can further customize
 title: Create a basic Iot Enterprise image
 ms.date: 09/27/2024
-ms.topic: article
+ms.topic: install-set-up-deploy
 author: TerryWarwick
 ms.author: twarwick
 ms.service: windows-iot

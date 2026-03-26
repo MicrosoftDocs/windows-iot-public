@@ -3,7 +3,7 @@ title: Hardware Platforms and Boards
 author: anch-msft
 ms.author: anthonychen
 ms.date: 10/2/2024
-ms.topic: article
+ms.topic: concept-article
 ms.service: windows-iot
 ms.subservice: iot
 description: Learn about the available options of hardware platforms and boards for building Windows IoT devices

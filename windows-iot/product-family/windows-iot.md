@@ -3,7 +3,7 @@ title: Overview of Windows for IoT
 author: vanloke323-Microsoft
 ms.author: vlokeshwar
 ms.date: 02/26/2026
-ms.topic: article
+ms.topic: overview
 ms.service: windows-iot
 ms.subservice: iot
 description: See an overview of Windows for IoT product line.

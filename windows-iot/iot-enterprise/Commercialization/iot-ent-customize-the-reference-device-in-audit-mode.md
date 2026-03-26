@@ -2,7 +2,7 @@
 description: Customize the reference device in Audit mode.
 title: Customize the reference device in Audit mode
 ms.date: 09/27/2024
-ms.topic: article
+ms.topic: how-to
 author: TerryWarwick
 ms.author: twarwick
 ms.service: windows-iot

@@ -6,7 +6,7 @@ ms.author: sybruckm
 ms.service: windows-iot
 ms.subservice: iot
 ms.date: 02/27/2024
-ms.topic: article
+ms.topic: feature-guide
 ---
 
 # Customizations for IoT Enterprise

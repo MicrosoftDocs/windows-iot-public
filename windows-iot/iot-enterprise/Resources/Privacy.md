@@ -3,7 +3,7 @@ title: Windows IoT Enterprise Privacy
 author: TerryWarwick
 ms.author: twarwick
 ms.date: 09/25/2023
-ms.topic: article
+ms.topic: concept-article
 ms.service: windows-iot
 ms.subservice: iot
 description: Learn about Privacy in Windows IoT Enterprise.

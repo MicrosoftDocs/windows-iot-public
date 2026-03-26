@@ -3,7 +3,7 @@ title: Device Management Overview
 author: TerryWarwick
 ms.author: twarwick
 ms.date: 04/04/2023
-ms.topic: article
+ms.topic: overview
 ms.service: windows-iot
 ms.subservice: iot
 description: Learn about the Device Management feature of Windows 10 IoT Enterprise.

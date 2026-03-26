@@ -3,7 +3,7 @@ title: Settings Page Visibility
 author: TerryWarwick
 ms.author: twarwick
 ms.date: 03/30/2023
-ms.topic: article
+ms.topic: feature-guide
 ms.service: windows-iot
 ms.subservice: iot
 description: Learn about the Page Visibility Features of Windows IoT Enterprise.

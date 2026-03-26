@@ -3,7 +3,7 @@ title: On-screen Keyboard
 author: TerryWarwick
 ms.author: twarwick
 ms.date: 03/31/2023
-ms.topic: article
+ms.topic: feature-guide
 ms.service: windows-iot
 ms.subservice: iot
 description: Learn about the on-screen keyboard features in Windows IoT Enterprise.

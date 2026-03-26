@@ -3,7 +3,7 @@ title: Microsoft Store Access
 author: TerryWarwick
 ms.author: twarwick
 ms.date: 03/30/2023
-ms.topic: article
+ms.topic: how-to
 ms.service: windows-iot
 ms.subservice: iot
 description: Learn about the Microsoft Store Access Features of Windows IoT Enterprise.

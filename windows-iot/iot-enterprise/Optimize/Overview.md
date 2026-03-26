@@ -4,7 +4,7 @@ titleSuffix: Windows IoT Enterprise
 author: TerryWarwick
 ms.author: twarwick
 ms.date: 04/29/2024
-ms.topic: article
+ms.topic: overview
 ms.service: windows-iot
 ms.subservice: iot
 description: Windows IoT Enterprise Device Optimization Overview

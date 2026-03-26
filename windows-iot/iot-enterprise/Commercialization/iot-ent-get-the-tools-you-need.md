@@ -2,7 +2,7 @@
 description: Get the tools you need to create an IoT Enterprise image
 title: Get the tools you need to customize Windows IoT Enterprise
 ms.date: 09/27/2024
-ms.topic: article
+ms.topic: get-started
 author: TerryWarwick
 ms.author: twarwick
 ms.service: windows-iot

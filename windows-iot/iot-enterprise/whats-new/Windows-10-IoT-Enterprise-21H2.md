@@ -4,7 +4,7 @@ description: Learn what's new in Windows 10 IoT Enterprise, version 21H2, includ
 ms.service: windows-iot
 author: vanloke323-Microsoft
 ms.author: vlokeshwar
-ms.topic: article
+ms.topic: whats-new
 ms.subservice: iot
 ms.date: 02/26/2026
 appliesto: "✅ Windows 10"
