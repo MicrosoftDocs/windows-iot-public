@@ -2,7 +2,7 @@
 description: Configure Shell launcher or Assigned Access
 title: Configure Shell launcher or Assigned Access
 ms.date: 09/27/2024
-ms.topic: article
+ms.topic: how-to
 author: TerryWarwick
 ms.author: twarwick
 ms.service: windows-iot

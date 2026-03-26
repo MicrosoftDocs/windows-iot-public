@@ -3,7 +3,7 @@ title: Windows IoT Enterprise Security
 author: TerryWarwick
 ms.author: twarwick
 ms.date: 03/30/2023
-ms.topic: article
+ms.topic: hub-page
 ms.service: windows-iot
 ms.subservice: iot
 description: Learn about Security in Windows IoT Enterprise.

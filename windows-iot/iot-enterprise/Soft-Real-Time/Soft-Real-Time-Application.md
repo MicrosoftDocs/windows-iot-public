@@ -3,7 +3,7 @@ title: Developing an Application for Real-Time Performance
 author: TerryWarwick
 ms.author: twarwick
 ms.date: 03/30/2023
-ms.topic: article
+ms.topic: how-to
 ms.service: windows-iot
 ms.subservice: iot
 description: Soft Real-Time Application on Windows 10 IoT Enterprise

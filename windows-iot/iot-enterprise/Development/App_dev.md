@@ -3,7 +3,7 @@ title: Develop Apps for Windows IoT Enterprise
 author: sydbruck
 ms.author: sybruckm
 ms.date: 2/5/2024
-ms.topic: article
+ms.topic: get-started
 ms.service: windows-iot
 ms.subservice: iot
 description: App development guidance for Windows IoT Enterprise

@@ -3,7 +3,7 @@ title: Device Drivers
 author: TerryWarwick
 ms.author: twarwick
 ms.date: 03/30/2023
-ms.topic: article
+ms.topic: concept-article
 ms.service: windows-iot
 ms.subservice: iot
 description: Learn about what Technical Components of Windows IoT Enterprise.

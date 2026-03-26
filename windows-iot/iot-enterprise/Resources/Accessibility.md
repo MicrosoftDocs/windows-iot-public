@@ -6,7 +6,7 @@ ms.author: twarwick
 ms.service: windows-iot
 ms.subservice: iot
 ms.date: 09/25/2023
-ms.topic: article
+ms.topic: best-practice
 
 
 ---

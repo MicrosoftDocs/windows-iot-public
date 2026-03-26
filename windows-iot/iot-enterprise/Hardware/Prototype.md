@@ -3,7 +3,7 @@ title: Start Prototyping
 author: TerryWarwick
 ms.author: twarwick
 ms.date: 10/20/2023
-ms.topic: article
+ms.topic: get-started
 ms.service: windows-iot
 ms.subservice: iot
 description: Learn how to prototype with Windows IoT Enterprise

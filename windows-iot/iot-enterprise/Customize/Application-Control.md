@@ -3,7 +3,7 @@ title: Application Control
 author: TerryWarwick
 ms.author: twarwick
 ms.date: 03/09/2023
-ms.topic: article
+ms.topic: concept-article
 ms.service: windows-iot
 ms.subservice: iot
 description: Learn about Application Control features, such as Windows Defender Application Control (WDAC) and AppLocker, in Windows IoT Enterprise.

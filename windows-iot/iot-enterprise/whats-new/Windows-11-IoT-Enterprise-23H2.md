@@ -5,7 +5,7 @@ description: Learn about new and updated features that are of interest to device
 author: TerryWarwick
 ms.author: twarwick
 ms.date: 09/30/2024
-ms.topic: article
+ms.topic: whats-new
 ms.service: windows-iot
 ms.subservice: iot
 keywords: Windows IoT Enterprise, Windows 11, Windows 11 IoT, Windows 11 IoT Enterprise

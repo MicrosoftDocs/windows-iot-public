@@ -3,7 +3,7 @@ title: Manage Update Experience
 author: TerryWarwick
 ms.author: twarwick
 ms.date: 03/30/2023
-ms.topic: article
+ms.topic: best-practice
 ms.service: windows-iot
 ms.subservice: iot
 description: Learn about the Update Notification Feature in Windows IoT Enterprise.

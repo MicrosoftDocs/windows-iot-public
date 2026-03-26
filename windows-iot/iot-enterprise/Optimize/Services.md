@@ -4,7 +4,7 @@ titleSuffix: Windows IoT Enterprise
 author: TerryWarwick
 ms.author: twarwick
 ms.date: 01/09/2024
-ms.topic: article
+ms.topic: best-practice
 ms.service: windows-iot
 ms.subservice: iot
 description: Security guidelines for disabling services in Windows IoT Enterprise

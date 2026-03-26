@@ -3,7 +3,7 @@ title: Windows IoT Enterprise support
 author: rsameser
 ms.author: riameser
 ms.date: 04/25/2022
-ms.topic: conceptual
+ms.topic: article
 ms.service: windows-iot
 ms.subservice: iot
 ms.custom: kr2b-contr-experiment

@@ -2,7 +2,7 @@
 description: Sysprep capture and deploy
 title: Sysprep capture and deploy
 ms.date: 09/27/2024
-ms.topic: article
+ms.topic: how-to
 author: TerryWarwick
 ms.author: twarwick
 ms.service: windows-iot
