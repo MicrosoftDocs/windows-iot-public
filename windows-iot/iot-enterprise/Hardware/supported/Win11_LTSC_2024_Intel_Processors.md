@@ -16,8 +16,8 @@ Microsoft supports the following operating systems running on the Intel&reg; pro
   
 Applies to:  
 ✅ Windows 11 IoT Enterprise LTSC 2024  
-✅ Windows 10 IoT Enterprise, version 24H2
-✅ Windows 10 IoT Enterprise, version 25H2
+✅ Windows 10 IoT Enterprise, version 24H2  
+✅ Windows 10 IoT Enterprise, version 25H2  
 
 The latest generation of processors listed on this page leverage the most recent capabilities of the Windows operating system, while earlier generations of the processors listed may not support all functionality.
 
