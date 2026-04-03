@@ -47,6 +47,36 @@
         "source_path_from_root": "/windows-iot/iot-enterprise/Hardware/SoCs.md",
         "redirect_url": "/windows/iot/iot-enterprise/Hardware/Platforms_and_Boards",
         "redirect_document_id": false
+    },
+
+    {
+        "source_path_from_root": "/windows-iot/iot-enterprise/Hardware/supported/Win11_25H2_AMD_Processors.md",
+        "redirect_url": "/windows/iot/iot-enterprise/Hardware/supported/WinIoT_AMD_Processors_2024",
+        "redirect_document_id": false
+    },    
+
+    {
+        "source_path_from_root": "/windows-iot/iot-enterprise/Hardware/supported/Win11_24H2_AMD_Processors.md",
+        "redirect_url": "/windows/iot/iot-enterprise/Hardware/supported/WinIoT_AMD_Processors_2024",
+        "redirect_document_id": false
+    },    
+
+        {
+        "source_path_from_root": "/windows-iot/iot-enterprise/Hardware/supported/Win11_24H2_Intel_Processors.md",
+        "redirect_url": "/windows/iot/iot-enterprise/Hardware/supported/WinIoT_Intel_Processors_2024",
+        "redirect_document_id": false
+    },    
+
+    {
+        "source_path_from_root": "/windows-iot/iot-enterprise/Hardware/supported/Win11_24H2_NXP_Processors.md",
+        "redirect_url": "/windows/iot/iot-enterprise/Hardware/supported/WinIoT_NXP_Processors_2024",
+        "redirect_document_id": false
+    },    
+
+    {
+        "source_path_from_root": "/windows-iot/iot-enterprise/Hardware/supported/Win11_25H2_Qualcomm_Processors.md",
+        "redirect_url": "/windows/iot/iot-enterprise/Hardware/supported/WinIoT_Qualcomm_Processors_2024",
+        "redirect_document_id": false
     }
 
 ]
