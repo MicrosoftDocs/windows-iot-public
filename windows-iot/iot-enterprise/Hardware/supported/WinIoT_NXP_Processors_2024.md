@@ -16,8 +16,8 @@ Microsoft supports the following operating systems running on the NXP processors
   
 Applies to:  
 ✅ Windows 11 IoT Enterprise LTSC 2024  
-✅ Windows 10 IoT Enterprise, version 24H2  
-✅ Windows 10 IoT Enterprise, version 25H2  
+✅ Windows 11 IoT Enterprise, version 24H2  
+✅ Windows 11 IoT Enterprise, version 25H2  
 
 For information about which processors NXP supports with these operating systems, refer to the NXP's [Windows IoT Enterprise Support for i.MX Applications Processors webpage](https://aka.ms/nxpiot) or contact NXP for details.
 
