@@ -40,7 +40,7 @@ Applies to:
 
 | </br>Component    | PREFERRED</br>Minimum&nbsp;Requirements   | OPTIONAL </br> Minimum&nbsp;Requirements  |
 | ---------------------- |:---------------------------------:|:---------------------------------:|
-| Processor</sup>1<sup>             | 1&nbsp;GHz,&nbsp;2 Cores          | 1&nbsp;GHz,&nbsp;2&nbsp;Cores     |
+| Processor<sup>1</sup>             | 1&nbsp;GHz,&nbsp;2 Cores          | 1&nbsp;GHz,&nbsp;2&nbsp;Cores     |
 | System&nbsp;Memory     |  4 GB                             |  2 GB                             |
 | Storage&nbsp;Size      | 64 GB                             | 16 GB                             |
 | Storage&nbsp;Type      | Solid&#x2011;State&nbsp;Drive&nbsp;(SSD) | Solid&#x2011;State&nbsp;Drive&nbsp;(SSD) </br> Hard&nbsp;Disk&nbsp;Drive&nbsp;(HDD)</br> Hybrid&nbsp;Hard&nbsp;Drive&nbsp;(SSHD) </br> Flash&nbsp;(eMMC,&nbsp;SD,&nbsp;USB)  |
@@ -58,7 +58,7 @@ Applies to:
 
 | </br></br>Component    | </br>PREFERRED</br>Minimum&nbsp;Requirements   | 21H2,&nbsp;22H2,&nbsp;23H2 </br> OPTIONAL </br> Minimum&nbsp;Requirements  | 24H2 or Later </br> OPTIONAL </br> Minimum&nbsp;Requirements  |
 | ---------------------- |:-----------------------------:|:---------------------------------:|:---------------------------------:|
-| Processor¹             | 1&nbsp;GHz,&nbsp;2 Cores      | 1&nbsp;GHz,&nbsp;2&nbsp;Cores     | 1&nbsp;GHz,&nbsp;2&nbsp;Cores     |
+| Processor<sup>1</sup>             | 1&nbsp;GHz,&nbsp;2 Cores      | 1&nbsp;GHz,&nbsp;2&nbsp;Cores     | 1&nbsp;GHz,&nbsp;2&nbsp;Cores     |
 | System&nbsp;Memory     |  4 GB                         |  4 GB                             |  4 GB                             |
 | Storage&nbsp;Size      | 64 GB                         | 64 GB                             | 64 GB                             |
 | Storage&nbsp;Type      | Solid&#x2011;State&nbsp;Drive&nbsp;(SSD) | Solid&#x2011;State&nbsp;Drive&nbsp;(SSD) </br> Hard&nbsp;Disk&nbsp;Drive&nbsp;(HDD)</br> Hybrid&nbsp;Hard&nbsp;Drive&nbsp;(SSHD) </br> Flash&nbsp;(eMMC,&nbsp;SD,&nbsp;USB)  | Solid&#x2011;State&nbsp;Drive&nbsp;(SSD) </br> Hard&nbsp;Disk&nbsp;Drive&nbsp;(HDD)</br> Hybrid&nbsp;Hard&nbsp;Drive&nbsp;(SSHD) </br> Flash&nbsp;(eMMC,&nbsp;SD,&nbsp;USB)  |
@@ -77,7 +77,7 @@ Applies to:
 
 | </br></br></br>Component  | </br>PREFERRED</br>Minimum&nbsp;Requirements | 64&#x2011;bit</br>OPTIONAL</br>Minimum&nbsp;Requirements | 32&#x2011;bit</br>OPTIONAL</br>Minimum&nbsp;Requirements |
 |:-------------------|:------------------------------:|:-------------------------------------------:|:------------------------------:|
-| Processor¹         | 1&nbsp;GHz&nbsp;or&nbsp;faster | 1&nbsp;GHz&nbsp;or&nbsp;faster              | 1&nbsp;GHz&nbsp;or&nbsp;faster |
+| Processor<sup>1</sup>         | 1&nbsp;GHz&nbsp;or&nbsp;faster | 1&nbsp;GHz&nbsp;or&nbsp;faster              | 1&nbsp;GHz&nbsp;or&nbsp;faster |
 | System&nbsp;Memory | x64: 2 GB                      | 2 GB                                        | 1 GB                           |
 | Storage&nbsp;Size  | 20 GB                          | 20 GB                                       | 16 GB                          |
 | TPM<sup>2</sup>    | TPM 2.0                        | Optional                                    | Optional                       |
