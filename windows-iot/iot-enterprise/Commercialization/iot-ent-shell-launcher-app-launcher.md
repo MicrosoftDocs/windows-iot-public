@@ -1,7 +1,7 @@
 ---
 description: Configure Shell launcher or Assigned Access
 title: Configure Shell launcher or Assigned Access
-ms.date: 09/27/2024
+ms.date: 06/24/2026
 ms.topic: how-to
 author: TerryWarwick
 ms.author: twarwick

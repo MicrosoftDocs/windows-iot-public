@@ -6,7 +6,7 @@ ms.author: twarwick
 ms.service: windows-iot
 ms.topic: tutorial 
 ms.subservice: iot
-ms.date: 10/20/2023
+ms.date: 06/24/2026
 appliesto: "✅ Windows 10"
 ---
 

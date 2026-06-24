@@ -2,8 +2,8 @@
 title: Windows Processor Requirements Windows 10 21H2 Supported NXP Processors
 description: This specification details the NXP processors that can be used with Windows 10, version 21H2.
 author: sydbruck
-ms.author: sybruckm
-ms.date: 10/09/2023
+ms.author: twarwick
+ms.date: 06/24/2026
 ms.topic: reference
 ms.service: windows-iot
 ms.subservice: iot

@@ -1,7 +1,7 @@
 ---
 title: About Windows Server IoT
 author: terrywarwick
-ms.date: 11/04/2024
+ms.date: 06/24/2026
 ms.author: twarwick
 ms.topic: overview
 ms.service: windows-iot

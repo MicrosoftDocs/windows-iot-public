@@ -4,7 +4,7 @@ titleSuffix: Windows IoT Enterprise
 description: Learn about new and updated features that are of interest to device makers and IT Pros working with Windows 11 IoT Enterprise, version 23H2.
 author: TerryWarwick
 ms.author: twarwick
-ms.date: 09/30/2024
+ms.date: 06/24/2026
 ms.topic: whats-new
 ms.service: windows-iot
 ms.subservice: iot

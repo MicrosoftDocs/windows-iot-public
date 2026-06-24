@@ -3,7 +3,7 @@ title: Windows IoT Enterprise End-User License Agreement
 titleSuffix: Windows IoT Enterprise
 author: twarwick
 ms.author: twarwick
-ms.date: 05/22/2024
+ms.date: 06/24/2026
 ms.topic: reference
 ms.service: windows-iot
 ms.subservice: iot

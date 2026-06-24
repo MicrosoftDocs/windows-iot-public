@@ -2,7 +2,7 @@
 title: Microsoft Store Access
 author: TerryWarwick
 ms.author: twarwick
-ms.date: 03/30/2023
+ms.date: 06/24/2026
 ms.topic: how-to
 ms.service: windows-iot
 ms.subservice: iot
