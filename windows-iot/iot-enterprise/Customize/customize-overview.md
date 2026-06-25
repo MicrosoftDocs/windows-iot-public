@@ -2,10 +2,10 @@
 title: Customizations for IoT Enterprise
 description: Windows IoT Enterprise customizations provide a controlled and specialized experience for the end-users of a Windows device by allowing OEMs and system administrators to lock down the Windows device interaction experience.
 author: sydbruck
-ms.author: sybruckm
+ms.author: twarwick
 ms.service: windows-iot
 ms.subservice: iot
-ms.date: 02/27/2024
+ms.date: 06/24/2026
 ms.topic: feature-guide
 ---
 

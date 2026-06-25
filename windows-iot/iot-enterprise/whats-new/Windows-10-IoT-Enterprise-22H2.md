@@ -3,7 +3,7 @@ title: What's new in Windows 10 IoT Enterprise, version 22H2
 description: Learn about what's new in Windows 10 IoT Enterprise, version 22H2.
 author: TerryWarwick
 ms.author: twarwick
-ms.date: 03/30/2023
+ms.date: 06/24/2026
 ms.topic: whats-new
 ms.service: windows-iot
 ms.subservice: iot

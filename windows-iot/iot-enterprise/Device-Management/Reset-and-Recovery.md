@@ -2,7 +2,7 @@
 title: Reset and Recovery
 author: TerryWarwick
 ms.author: twarwick
-ms.date: 9/15/2021
+ms.date: 06/24/2026
 ms.topic: concept-article
 ms.service: windows-iot
 ms.subservice: iot

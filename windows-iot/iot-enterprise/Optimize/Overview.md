@@ -3,7 +3,7 @@ title: Device Optimization Overview
 titleSuffix: Windows IoT Enterprise
 author: TerryWarwick
 ms.author: twarwick
-ms.date: 04/29/2024
+ms.date: 06/24/2026
 ms.topic: overview
 ms.service: windows-iot
 ms.subservice: iot

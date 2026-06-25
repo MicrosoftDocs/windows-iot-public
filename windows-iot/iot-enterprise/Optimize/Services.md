@@ -3,7 +3,7 @@ title: Guidance on configuring system services
 titleSuffix: Windows IoT Enterprise
 author: TerryWarwick
 ms.author: twarwick
-ms.date: 01/09/2024
+ms.date: 06/24/2026
 ms.topic: best-practice
 ms.service: windows-iot
 ms.subservice: iot

@@ -2,7 +2,7 @@
 title: Windows IoT Enterprise Deployment Overview
 author: TerryWarwick
 ms.author: twarwick
-ms.date: 06/13/2023
+ms.date: 06/24/2026
 ms.topic: overview
 ms.service: windows-iot
 ms.subservice: iot

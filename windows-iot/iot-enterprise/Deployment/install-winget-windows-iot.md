@@ -2,9 +2,9 @@
 title: Using WinGet to Install Apps on Windows IoT Enterprise
 description: How to Install WinGet on Windows IoT Enterprise
 author: trumanbrown-msft 
-ms.author: trumanbrown
+ms.author: twarwick
 ms.topic: how-to 
-ms.date: 10/20/2023
+ms.date: 06/24/2026
 ms.service: windows-iot
 ms.custom: template-how-to 
 ---

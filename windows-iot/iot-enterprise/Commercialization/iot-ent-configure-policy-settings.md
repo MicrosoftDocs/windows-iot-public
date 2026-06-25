@@ -5,7 +5,7 @@ author: TerryWarwick
 ms.author: twarwick
 ms.service: windows-iot
 ms.subservice: iot
-ms.date: 09/27/2024
+ms.date: 06/24/2026
 ms.topic: how-to
 ---
 

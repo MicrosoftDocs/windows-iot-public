@@ -2,7 +2,7 @@
 title: Windows IoT Enterprise Regulatory Compliance
 author: TerryWarwick
 ms.author: twarwick
-ms.date: 09/26/2023
+ms.date: 06/24/2026
 ms.topic: concept-article
 ms.service: windows-iot
 ms.subservice: iot

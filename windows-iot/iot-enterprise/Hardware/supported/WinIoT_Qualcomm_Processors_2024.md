@@ -2,8 +2,8 @@
 title: Supported Qualcomm Processors for Windows 11 IoT Enterprise (2024 to present)
 description: Learn about Qualcomm Processors supported for Windows 11 IoT Enterprise (2024 to preent)
 author: anch-msft
-ms.author: anthonychen
-ms.date: 05/22/2024
+ms.author: twarwick
+ms.date: 06/24/2026
 ms.topic: reference
 ms.service: windows-iot
 ms.subservice: iot

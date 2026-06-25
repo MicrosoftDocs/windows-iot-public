@@ -1,7 +1,7 @@
 ---
 title: Using Compact OS to optimize storage footprint
 titleSuffix: Windows IoT Enterprise
-ms.date: 01/08/2024
+ms.date: 06/24/2026
 ms.topic: how-to
 author: TerryWarwick
 ms.author: twarwick
