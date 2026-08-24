@@ -6,7 +6,7 @@ ms.date: 02/26/2026
 ms.topic: overview
 ms.service: windows-iot
 ms.subservice: iot
-description: See an overview of Windows for IoT product line.
+description: Learn about Windows for IoT, which uses the Windows embedded experience to create your Internet of Things as part of an overall cloud strategy.
 keywords: Windows IoT Enterprise, Windows 10 IoT Core, Windows Sever IoT 2022
 ---
 

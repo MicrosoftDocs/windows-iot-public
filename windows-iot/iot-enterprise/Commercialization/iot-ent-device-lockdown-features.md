@@ -46,15 +46,17 @@ There are several methods to enable the Keyboard Filter, we're providing instruc
 
 1. For this lab, we're going to provide a demo on blocking the CTRL+ALT+DEL key. In an administrative PowerShell command window, copy and paste the following commands.
 
+    > [!IMPORTANT]
+    > The 'Enabled' property represents the state of the Keyboard Filter blocking rule, not the state of the key. Setting 'Enabled' to 1 activates the rule and blocks the key combination. Setting 'Enabled' to 0 deactivates the rule and allows the key combination.
+
     ```PowerShell
     $key = "Ctrl+Alt+Del"
-    $setkey = Get-WMIObject -class WEKF_PredefinedKey –computer localhost –namespace  root\standardcimv2\embedded | where {$_.Id -eq "$key"};
-    $setkey.Id = $key
-    $setkey.Enabled = 1;
-    $setkey.Put() | Out-Null;
+    $blockingRule = Get-WMIObject -class WEKF_PredefinedKey -computer localhost -namespace root\standardcimv2\embedded | where {$_.Id -eq "$key"};
+    $blockingRule.Enabled = 1;
+    $blockingRule.Put() | Out-Null;
     ```
 
-1. Restart the reference device and then note the CTRL+ALT+DEL key is blocked.
+1. Restart the reference device, and then verify that the Ctrl+Alt+Delete key combination is blocked.
 
 ## Unified Write Filter (UWF)
 
