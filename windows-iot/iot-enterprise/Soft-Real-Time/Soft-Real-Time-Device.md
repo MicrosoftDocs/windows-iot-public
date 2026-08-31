@@ -129,8 +129,6 @@ Environments that use Windows Management Instrumentation (WMI) can use the MDM B
    $nameSpaceName="root\cimv2\mdm\dmmap"
    $className="MDM_WindowsIoT_SoftRealTimeProperties01"
    $obj = Get-CimInstance -Namespace $namespaceName -ClassName $className
-   Add-Type -AssemblyName System.Web
-   Set-CimInstance -CimInstance $obj
    $obj.SetRTCores = 3
    Set-CimInstance -CimInstance $obj
    ```
