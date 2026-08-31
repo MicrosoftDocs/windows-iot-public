@@ -28,6 +28,9 @@ In this tutorial, you learn how to install and utilize WinGet on Windows IoT Ent
 
 1. Download the VCLibs Desktop framework package associated with your processor architecture.
 
+      > [!NOTE]
+      > These links are for version 14.0.33321.0 and are deprecated. Winget now requires version 14.0.33728.0 which is not available anywhere.
+
    - For ARM64 architecture, download [Microsoft.VCLibs.arm64.14.00.Desktop.appx](https://aka.ms/Microsoft.VCLibs.arm64.14.00.Desktop.appx)
 
    - For x64 architecture, download [Microsoft.VCLibs.x64.14.00.Desktop.appx](https://aka.ms/Microsoft.VCLibs.x64.14.00.Desktop.appx)  
