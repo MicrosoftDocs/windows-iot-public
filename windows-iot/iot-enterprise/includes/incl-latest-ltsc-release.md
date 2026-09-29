@@ -1,10 +1,10 @@
 ---
-author: vanloke323-Microsoft
-ms.author: vlokeshwar
+author: v-fvalentyna
+ms.author: v-fvalentyna
 ms.service: windows-iot
 ms.subservice: iot
 ms-topic: include
-ms.date: 02/26/2026
+ms.date: 09/25/2026
 ---
 
 > [!NOTE]
