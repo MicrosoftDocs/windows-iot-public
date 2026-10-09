@@ -6,7 +6,7 @@ ms.author: sergaz
 ms.service: windows-iot
 ms.subservice: iot
 ms.topic: quickstart
-ms.date: 07/22/2025
+ms.date: 10/07/2026
 
 #customer intent: As a beginner, I want to learn the basics on how to sysprep, capture and deploy Windows IoT Enterprise.
 
@@ -500,7 +500,7 @@ Create the **new** Virtual Machine:
 1. Open Hyper-V Manager.
 1. In the Hyper-V Manager, select **New** in the **Actions pane**, then select **Virtual Machine**.
 1. Follow the wizard to create a new virtual machine.
-1. When prompted to specify the generation, choose **Generation 1** or **Generation 2** based on your requirements.
+1. When prompted to specify the generation, choose **Generation 2**. The steps in this quickstart use UEFI firmware and boot from a SCSI virtual hard disk, which require Generation 2.
 1. Assign a minimum of *2 GB* of memory to the virtual machine.
 1. Leave the virtual machine with no connection to the network.
 1. When you reach the **Connect Virtual Hard Disk** step, select **Create a virtual hard disk**.

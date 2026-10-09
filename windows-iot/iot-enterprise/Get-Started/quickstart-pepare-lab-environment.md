@@ -6,7 +6,7 @@ ms.author: sergaz
 ms.service: windows-iot
 ms.subservice: iot
 ms.topic: quickstart
-ms.date: 07/22/2025
+ms.date: 10/07/2026
 
 #customer intent: As a beginner, I want to know how to prepare my environment to build Windows IoT Enterprise images.
 
@@ -92,7 +92,10 @@ Follow these steps to prepare the installation flash drive:
     exit
     ```
 
-1. Mount the Windows IoT Enterprise ISO on your Technician PC by double clicking the ISO and copy the entire contents onto the root of the flash drive. You can use File explorer to manually copy the files.
+1. Mount the Windows IoT Enterprise ISO on your technician PC by double clicking it. Use File Explorer to copy the contents to the root of the flash drive. If the installation image exceeds the FAT32 file-size limit, follow the instructions in the note below instead.
+
+   > [!NOTE]
+   > FAT32 can't store an individual file larger than 4 GB, even if the flash drive has enough free space. If `sources\install.wim` is larger than 4 GB, copy the other installation files and split `install.wim` into smaller `.swm` files using the instructions in [If your Windows image is larger than 4 GB](/windows-hardware/manufacture/desktop/install-windows-from-a-usb-flash-drive#if-your-windows-image-is-larger-than-4gb).
 
 ### Boot the device to Windows Setup:
 
@@ -114,7 +117,7 @@ Create the Virtual Machine in Hyper-V:
 1. Open Hyper-V Manager.
 1. In the Hyper-V Manager, select **New** in the **Actions pane**, then select **Virtual Machine**.
 1. Follow the wizard to create a new virtual machine.
-1. When prompted to specify the generation, choose **Generation 1** or **Generation 2** based on your requirements.
+1. When prompted to specify the generation, choose **Generation 2**. The later quickstarts in this series use UEFI firmware and boot from a SCSI virtual hard disk, which require Generation 2.
 1. Assign a minimum of *2 GB* of memory to the virtual machine.
 1. Leave the virtual machine with no connection to the network.
 1. When you reach the **Connect Virtual Hard Disk** step, select **Create a virtual hard disk**.

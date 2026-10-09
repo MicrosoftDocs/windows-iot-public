@@ -5,7 +5,7 @@ metadata:
   keywords: IoT Enterprise, FAQ
   author: TerryWarwick
   ms.author: twarwick
-  ms.date: 12/4/2024
+  ms.date: 10/07/2026
   ms.topic: faq
   ms.service: windows-iot
   ms.subservice: iot
@@ -169,7 +169,7 @@ sections:
       answer: |
         The current LTSC version is [Windows 11 IoT Enterprise LTSC 2024](./whats-new/Windows-11-IoT-Enterprise-LTSC-2024.md).
 
-        The current non-LTSC version is [Windows 11 IoT Enterprise, version 24H2](./whats-new/Windows-11-IoT-Enterprise-24H2.md).
+        The current non-LTSC version is [Windows 11 IoT Enterprise, version 26H2](./whats-new/windows-11-iot-enterprise-26h2.md).
 
         [Top of FAQ](faq.yml)
 
@@ -249,7 +249,7 @@ sections:
 
     - question: What is the support lifecycle for Windows IoT Enterprise?
       answer: |
-        Windows IoT Enterprise follows the [modern lifecycle policy](/lifecycle/policies/modern), which provides three years of support from the GA date of the current version of the OS. Devices stay supported as long as they stay current. 
+        Windows 11 IoT Enterprise (non-LTSC) follows the [modern lifecycle policy](/lifecycle/policies/modern), with 36 months of support for each release. Windows 10 IoT Enterprise (non-LTSC) releases had a 30-month servicing lifecycle.
 
         Windows IoT Enterprise LTSC follows the [fixed lifecycle policy](/lifecycle/policies/fixed), which provides 10 years of support from the GA date of the OS.
         
@@ -421,7 +421,7 @@ sections:
 
     - question: Can I run applications that aren't native to Arm64?
       answer: |
-        Yes, Windows IoT Enterprise can run x86 and x64 applications without modification using emulation technology. For more information, see [How emulation works on Arm64](/windows/arm/apps-on-arm-x86-emulation).
+        Yes, Windows 11 IoT Enterprise on Arm64 supports running both x86 and x64 applications through emulation. Windows 10 IoT Enterprise on Arm64 supports x86 application emulation, but not x64 application emulation. For more information, see [How emulation works on Arm](/windows/arm/apps-on-arm-x86-emulation).
 
         [Top of FAQ](faq.yml)
 
