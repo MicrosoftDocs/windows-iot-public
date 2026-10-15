@@ -6,7 +6,7 @@ ms.author: sergaz
 ms.service: windows-iot
 ms.subservice: iot
 ms.topic: quickstart
-ms.date: 07/22/2025
+ms.date: 10/09/2026
 
 #customer intent: As a beginner, I want to learn the basics on how to customize a reference device in audit mode.
 
@@ -132,6 +132,9 @@ Windows IoT Enterprise allows you to build fixed purpose devices such as ATM mac
 
 This section provides steps to configure Shell Launcher in Audit mode using DISM in your reference device sample. The steps apply to both physical device and virtual machine:
 
+> [!IMPORTANT]
+> The PowerShell custom shell in this section is for Audit-mode validation only. Before running Sysprep or capturing the image, restore Explorer and disable Shell Launcher using the steps below. Apply the final Shell Launcher configuration only after deployment and completion of OOBE/provisioning. For more information, see [Shell Launcher limitations](/windows/configuration/shell-launcher/#limitations).
+
 1. Enable the Shell Launcher feature by running the following command at Command Prompt with Administrator privileges:
 
     ```cmd
@@ -148,12 +151,17 @@ This section provides steps to configure Shell Launcher in Audit mode using DISM
     $ShellLauncherClass.SetEnabled($TRUE)
     ```
 
+   > [!NOTE]
+   > The value `1` configures Shell Launcher to restart the device when the shell exits. In this example, closing the PowerShell shell restarts the device.
+
 1. Restart the reference device.
 1. The system reboots and *PowerShell* starts as the default system shell. You know you're still in Audit mode, because you see the System Preparation Tool window.
 
     :::image type="content" source="../Get-Started/media/quickstart-customize-reference-device/powershell-shell.png" alt-text="Screenshot that shows PowerShell as the default system shell":::
 
-You can leave the reference device with *powershell.exe* as your custom shell and proceed to [Quickstart: Sysprep and capture the reference device image, and deploy to a new device](quickstart-sysprep-capture-deploy.md). If you want to revert the system back to the *explorer.exe* shell, do the following steps:
+### Restore Explorer and disable Shell Launcher before capture
+
+After testing the custom shell, you must restore Explorer and disable Shell Launcher before running Sysprep or capturing the reference image. Follow these steps:
 
 1. From the current shell, open an Administrative Windows PowerShell Prompt:
 
@@ -168,13 +176,17 @@ You can leave the reference device with *powershell.exe* as your custom shell an
 
     $ShellLauncherClass.SetDefaultShell("explorer.exe",1)
 
-    $ShellLauncherClass.SetEnabled($TRUE)
+    $ShellLauncherClass.SetEnabled($FALSE)
     ```
 
 1. Restart the reference device.
-1. The system reboots and *Explorer* starts as the default system shell.
+1. Confirm that the device starts with Explorer as the desktop shell and remains in Audit mode.
 
     :::image type="content" source="../Get-Started/media/quickstart-customize-reference-device/explorer-shell.png" alt-text="Screenshot that shows Explorer as the default system shell.":::
+
+You can now continue to [Quickstart: Sysprep and capture the reference device image, and deploy to a new device](quickstart-sysprep-capture-deploy.md).
+
+After deploying the image and completing OOBE/provisioning on the destination device, apply the final Shell Launcher configuration using the AssignedAccess/ShellLauncher CSP, Intune, or WMI/Windows PowerShell.
 
 ## Next step
 
