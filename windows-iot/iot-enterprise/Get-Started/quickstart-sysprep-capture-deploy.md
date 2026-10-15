@@ -6,7 +6,7 @@ ms.author: sergaz
 ms.service: windows-iot
 ms.subservice: iot
 ms.topic: quickstart
-ms.date: 07/22/2025
+ms.date: 10/09/2026
 
 #customer intent: As a beginner, I want to learn the basics on how to sysprep, capture and deploy Windows IoT Enterprise.
 
@@ -28,14 +28,12 @@ This section provides steps to sysprep the reference device and apply to both ph
 
 1. Select **Cancel** on the System Preparation Tool to close it, then run Sysprep from a Command Prompt with Administrator privileges to prepare the image for capture:
 
-    > [!NOTE]
-    > If you completed [Quickstart: Customize a reference device in Audit mode](quickstart-customize-reference-device.md) and configured *powershell.exe* as your custom shell, run the following command to open Command Prompt with Administrator privileges: `Start-Process cmd -Verb RunAs`
+   > [!IMPORTANT]
+   > If you tested Shell Launcher in [Quickstart: Customize a reference device in Audit mode](quickstart-customize-reference-device.md), restore Explorer and disable Shell Launcher before running Sysprep. Apply the final Shell Launcher configuration only after deployment and completion of OOBE/provisioning.
 
     ```cmd
     C:\Windows\System32\Sysprep\sysprep.exe /generalize /oobe /shutdown
     ```
-
-    :::image type="content" source="../Get-Started/media/quickstart-sysprep-capture-deploy/sysprep-powershell-shell.png" alt-text="Screenshot that shows the sysprep command with Powershell as the default system shell":::
 
 After Sysprep prepares the image, the reference device will shut down. The next time the device boots, it will boot into OOBE.
 
@@ -500,7 +498,7 @@ Create the **new** Virtual Machine:
 1. Open Hyper-V Manager.
 1. In the Hyper-V Manager, select **New** in the **Actions pane**, then select **Virtual Machine**.
 1. Follow the wizard to create a new virtual machine.
-1. When prompted to specify the generation, choose **Generation 1** or **Generation 2** based on your requirements.
+1. When prompted to specify the generation, choose **Generation 2**. The steps in this quickstart use UEFI firmware and boot from a SCSI virtual hard disk, which require Generation 2.
 1. Assign a minimum of *2 GB* of memory to the virtual machine.
 1. Leave the virtual machine with no connection to the network.
 1. When you reach the **Connect Virtual Hard Disk** step, select **Create a virtual hard disk**.
