@@ -116,6 +116,10 @@
     href: ./OS-Features/Bus-Providers.md
   - name: Device Drivers
     href: ./OS-Features/Device-Drivers.md
+- name: AI on Windows IoT Enterprise
+  items:
+  - name: Run AI at the edge on Windows IoT Enterprise
+    href: ./ai-windows-iot-enterprise/run-ai-edge-windows-iot-enterprise.md
 - name: Management
   items:
   - name: Overview
