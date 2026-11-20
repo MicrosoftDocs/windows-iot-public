@@ -113,7 +113,7 @@ Plan updates for the model, runtime, and execution providers together. You can d
 
 With a self-contained runtime, you deliver runtime updates with the application. With framework-dependent deployment, plan for updates to the shared Windows App Runtime.
 
-Choose [Windows-managed or bundled execution providers](/windows/ai/new-windows-ml/windows-ml-eps-vs-bring-your-own) to match the device's servicing policy. Windows-managed EP delivery uses Windows Update and requires Windows 11 version 24H2 or later, compatible hardware and drivers, and access to the required update services. This requirement applies to dynamic provider delivery, not to all Windows ML inference. If you bundle compatible providers, you control their versions and updates and can include them in the offline image. Test updates with the model, runtime, and drivers on the Windows IoT image you ship.
+Choose [Windows-managed or bundled execution providers](/windows/ai/new-windows-ml/windows-ml-eps-vs-bring-your-own) to match the device's servicing policy. Windows ML 2.5.96 and later acquire Windows-managed EPs through the Microsoft Store; versions 2.4.89 and earlier use Windows Update. Dynamic acquisition requires Windows 11 version 24H2 or later, compatible hardware and drivers, and access to the relevant delivery services. These requirements apply to dynamically acquired providers, not to all Windows ML inference. If you bundle compatible providers, you control their versions and updates and can include them in the offline image. Test updates with the model, runtime, and drivers on the Windows IoT image you ship. See [execution-provider acquisition guidance](/windows/ai/new-windows-ml/execution-provider-errors) for version-specific details.
 
 ## Aion and the next generation of local capabilities
 
@@ -125,13 +125,13 @@ The [Phi Silica documentation](/windows/ai/apis/phi-silica) provides the replace
 
 ## Windows ML in action: A self-checkout kiosk
 
-For an example on how to use Windows ML to perform object detection in a self-checkout kiosk, see the [EdgeAI-ObjectDetection sample](https://github.com/microsoft/Windows-IoT-Samples/tree/master/samples/EdgeAI-ObjectDetection). To showcase local, on-device AI in real-world scenarios, a self-checkout demo application compares objects detected by a camera against a customer's shopping cart. If there's a mismatch when the customer checks out, it alerts both the customer and staff. Here's how it works:
+For an example on how to use Windows ML to perform object detection in a self-checkout kiosk, see the [EdgeAI-ObjectDetection sample](https://github.com/microsoft/Windows-IoT-Samples/tree/master/samples/EdgeAI-ObjectDetection). The self-checkout demo compares the object labels detected by a camera with the labels entered in a shopping cart. At checkout, it displays any mismatches. The comparison checks whether labels are present, not whether item quantities match. Here's how it works:
 
-1. Windows ML runs camera frames through a separately provided Ultralytics YOLO model. 
-1. The YOLO model runs in ONNX Runtime on CPU, GPU, or NPU, depending on which execution providers the silicon supports. 
-1. Windows ML handles execution-provider acquisition, selects where the model runs, and runs inference to return results to the application.  
+1. The reusable WinUI control captures camera frames and runs a separately supplied, compatible YOLO model through the ONNX Runtime APIs included with Windows ML.
+1. The application selects an execution provider for the target hardware. In the kiosk's Auto mode, it tries NPU, then GPU, then CPU; an explicit hardware selection does not fall back.
+1. The control returns detection results to the application, which compares detected labels with the cart and displays any mismatches.
 
-If you're interested in building a similar self-checkout kiosk, download our reusable WinUI user control that wraps the model setup and inference UI, then drop it into any WinUI application. Your application only has to provide the WinUI user control with a camera source and settings. 
+If you're interested in building a similar self-checkout kiosk, download our reusable WinUI user control that wraps the model setup and inference UI, then drop it into any WinUI application. Your application supplies a compatible ONNX model, a camera source, and inference settings, including the selected execution provider.
 
 Use our accompanying app to test out and benchmark the performance of various compatible YOLO models running on different execution providers. Just supply the model and validate the configuration on your target hardware.
 
